@@ -131,13 +131,13 @@ main.modo-leitor { max-width: none; padding-bottom: 0; }
   padding: 8px 22px 120px; max-width: 38em; margin: 0 auto; width: 100%;
   font-variant-numeric: oldstyle-nums;
 }
-.texto-lei p { margin: 0 0 0.5em; hyphens: auto; -webkit-hyphens: auto; }
-.estrutura {
+.texto-lei p { margin: 0 0 0.5em; text-align: justify; hyphens: manual; -webkit-hyphens: manual; }
+.texto-lei p.estrutura {
   font-family: var(--sans); text-align: center; font-weight: 700; font-size: 0.78em;
   letter-spacing: 0.02em; color: var(--oliva); margin: 2.4em 0 0.3em !important; line-height: 1.4;
 }
 .estrutura + .estrutura { margin-top: 0 !important; }
-.rubrica { font-family: var(--sans); font-weight: 600; font-size: 0.8em; color: var(--tinta-2); margin: 1.4em 0 0.2em !important; }
+.texto-lei p.rubrica, .rubrica { text-align: left; font-family: var(--sans); font-weight: 600; font-size: 0.8em; color: var(--tinta-2); margin: 1.4em 0 0.2em !important; }
 .artigo { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 72px); padding: 0.35em 0 0.35em; position: relative; }
 .artigo.revogado { color: var(--tinta-2); }
 .rotulo { font-weight: 700; color: var(--oliva); border: 0; background: none; padding: 0; font-family: inherit; font-size: inherit; }
@@ -238,7 +238,9 @@ mark.grifo.com-nota { border-bottom: 2px dotted var(--tinta-2); }
 .preambulo { text-align: center; margin: 1.2em 0 1.6em; }
 .preambulo .epigrafe { font-family: var(--sans); font-weight: 700; color: var(--oliva); font-size: 0.85em; }
 .preambulo .ementa { font-style: italic; text-align: left; margin-left: 40% !important; font-size: 0.92em; color: var(--tinta-2); }
-.preambulo .promulgacao { text-align: left; }
+.preambulo .promulgacao { text-align: justify; }
+.texto-lei .preambulo p.epigrafe { text-align: center; }
+.texto-lei .preambulo p.ementa { text-align: justify; }
 @media (max-width: 700px) { .preambulo .ementa { margin-left: 15% !important; } }
 
 /* barra que aparece ao selecionar um trecho */
@@ -304,7 +306,8 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .q-meta a { color: var(--oliva); font-weight: 600; }
 .q-prova { font-size: 14px; font-weight: 600; margin: 2px 0 10px; }
 .q-enunciado { font-family: var(--serif); font-size: calc(var(--fonte) + 1px); line-height: 1.6; }
-.q-enunciado p { margin: 0 0 0.7em; }
+.q-enunciado p { margin: 0 0 0.7em; text-align: justify; hyphens: manual; -webkit-hyphens: manual; }
+.alt-texto { text-align: justify; hyphens: manual; -webkit-hyphens: manual; }
 .alternativas { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 8px; }
 .alternativas li { display: flex; gap: 6px; align-items: stretch; }
 .alt { flex: 1; display: flex; gap: 12px; align-items: flex-start; text-align: left; border: 1px solid var(--fio); background: var(--folha);
@@ -344,6 +347,12 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .b-ok { background: var(--ok); } .b-erro { background: var(--alt); }
 .num-desemp { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .grafico-dias { width: 100%; max-width: 700px; height: auto; display: block; margin-top: 6px; }
+.acoes-linha { display: flex; gap: 8px; flex-wrap: wrap; }
+.pasta-item { --cor-aba: var(--tinta-2); }
+.pasta-item .lei-nome { display: inline-flex; align-items: center; gap: 10px; }
+.ico-pasta { width: 26px; height: 26px; fill: var(--oliva-claro); stroke: var(--oliva); stroke-width: 1.5; flex: none; }
+.alt:disabled { cursor: default; color: inherit; opacity: 1; }
+.riscar:disabled { opacity: 0.35; }
 .ind-questoes { border: 1px solid var(--fio); background: var(--folha); color: var(--tinta-2); border-radius: 999px;
   font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 3px 10px; margin: 2px 0 6px 0.6em; cursor: pointer; }
 .ind-questoes::after { content: attr(data-rotulo); }
@@ -836,17 +845,6 @@ function aplicarMarcacoes(leiId, div) {
     pintar(div, loc.ini, loc.fim, `grifo g-${g.cor}${comNota ? " com-nota" : ""}`, { grifo: g.id });
   }
   div.querySelector(".ind-notas")?.remove();
-  div.querySelector(".ind-questoes")?.remove();
-  const qs = questoesDoArtigo(leiId, art);
-  if (qs.length) {
-    const v = qs[0].vinculo;
-    const b = document.createElement("button");
-    b.className = "ind-questoes";
-    b.dataset.questoesArt = art;
-    b.dataset.rotulo = `Questões: ${qs.length}` + (v.de !== v.ate ? ` (assunto dos ${rotuloVinculo(v)})` : "");
-    b.setAttribute("aria-label", `${qs.length} questões sobre este artigo`);
-    div.appendChild(b);
-  }
   if (notas.length) {
     const b = document.createElement("button");
     b.className = "ind-notas" + (notas.some(artigoMudou) ? " atencao" : "");
@@ -933,65 +931,66 @@ function marcarAba(rota) {
   $$("#abas button").forEach(b => { if (b.dataset.rota === rota) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
 }
 
-/* ---------- Leis (acervo com pastas) ---------- */
-function telaAcervo() {
-  definirTopo({ titulo: "Meu Acervo" });
+/* ---------- Leis (acervo com pastas em lista) ---------- */
+function telaAcervo(pastaId = null) {
+  const favoritas = pastaId === "favoritas";
+  const pasta = pastaId && !favoritas ? estado.itens.get(pastaId) : null;
+  if (pastaId && !favoritas && (!pasta || pasta.apagado)) { location.hash = "#/acervo"; return; }
+  definirTopo({ titulo: favoritas ? "★ Leis favoritas" : pasta ? pasta.nome : "Meu Acervo", voltar: pastaId ? "#/acervo" : null });
   marcarAba("acervo");
   const todos = Object.keys(estado.status);
   if (!todos.length) {
     $("#conteudo").innerHTML = `<p class="vazio">${estado.offline
       ? "Sem conexão e nenhuma lei salva neste aparelho ainda. Conecte-se à internet para baixar o acervo."
-      : "Nenhuma lei no acervo. Acrescente leis no arquivo leis.json do repositório."}</p>`;
+      : "Nenhuma lei no acervo ainda."}</p>`;
     return;
   }
-  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  let sel = lerLS("pasta-selecionada", "todas");
-  if (sel !== "todas" && sel !== "favoritas" && !pastas.some(p => p.id === sel)) sel = "todas";
-  const pasta = pastas.find(p => p.id === sel);
-  const ids = sel === "todas" ? todos : sel === "favoritas" ? todos.filter(id => ehFavorito(idFavLei(id)))
-    : todos.filter(id => pasta.leis.includes(id));
-
-  let h = `<div class="pastas" role="group" aria-label="Pastas">
-    <button class="chip" data-pasta="todas" aria-pressed="${sel === "todas"}">Todas as leis</button>
-    <button class="chip" data-pasta="favoritas" aria-pressed="${sel === "favoritas"}">★ Favoritas</button>
-    ${pastas.map(p => `<button class="chip" data-pasta="${esc(p.id)}" aria-pressed="${sel === p.id}">${esc(p.nome)} (${p.leis.filter(l => todos.includes(l)).length})</button>`).join("")}
-    <button class="chip" id="nova-pasta">+ Nova pasta</button>
-    ${pastas.length ? '<button class="chip" id="editar-pastas">Editar pastas</button>' : ""}
-  </div>`;
-  const semBackup = temDadosSemBackup();
-  if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
-  for (const id of todos.filter(i => estado.alteracoes[i])) {
-    const alt = estado.alteracoes[id];
-    const lista = alt.artigos.slice(0, 8).map(a => `${rotuloArt(a.artigo)} (${a.tipo})`).join(", ");
-    const comNotas = alt.artigos.filter(a => marcacoesDoArtigo(id, a.artigo).length).length;
-    h += `<div class="aviso forte">⚠️ <strong>${esc(nomeLei(id))}</strong> mudou desde a sua última leitura` +
-      (lista ? `: ${esc(lista)}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
-      (comNotas ? ` Você tem marcações em ${comNotas} desses artigos.` : "") +
-      ` <a href="#/alteracoes/${esc(id)}">Ver alterações</a></div>`;
-  }
-  if (!ids.length) {
-    h += `<p class="vazio">${sel === "favoritas" ? "Nenhuma lei favoritada. Use o botão ⋯ de uma lei para favoritá-la."
-      : "Esta pasta está vazia. Use o botão ⋯ de uma lei para colocá-la aqui."}</p>`;
-  } else {
-    h += `<ul class="acervo">`;
-    for (const id of ids) {
-      const i = todos.indexOf(id);
-      const st = estado.status[id];
-      const s = situacao(id);
-      h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
-        <span class="aba"></span>
-        <button class="abrir" data-abrir="${esc(id)}">
-          <span class="lei-nome">${esc(st.nome)}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
-          <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
-          <span class="selo ${s.cls}">${esc(s.txt)}</span>
-          <span class="lei-verif">${esc(s.sub)}</span>
-        </button>
-        <button class="mais" data-menu-lei="${esc(id)}" aria-label="Opções de ${esc(st.nome)}">⋯</button>
-      </li>`;
+  const pastas = pastasDe("leis");
+  const emPasta = new Set(pastas.flatMap(p => p.leis || []));
+  const ids = favoritas ? todos.filter(id => ehFavorito(idFavLei(id)))
+    : pasta ? todos.filter(id => (pasta.leis || []).includes(id)) : todos.filter(id => !emPasta.has(id));
+  let h = "";
+  if (!pastaId) {
+    h += `<div class="secao" style="margin-bottom:0"><div class="acoes-linha">
+      <button class="botao" id="nova-pasta-leis">+ Nova pasta</button></div></div>`;
+    const semBackup = temDadosSemBackup();
+    if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
+    for (const id of todos.filter(i => estado.alteracoes[i])) {
+      const alt = estado.alteracoes[id];
+      const lista = alt.artigos.slice(0, 8).map(a => `${rotuloArt(a.artigo)} (${a.tipo})`).join(", ");
+      const comNotas = alt.artigos.filter(a => marcacoesDoArtigo(id, a.artigo).length).length;
+      h += `<div class="aviso forte">⚠️ <strong>${esc(nomeLei(id))}</strong> mudou desde a sua última leitura` +
+        (lista ? `: ${esc(lista)}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
+        (comNotas ? ` Você tem marcações em ${comNotas} desses artigos.` : "") +
+        ` <a href="#/alteracoes/${esc(id)}">Ver alterações</a></div>`;
     }
-    h += "</ul>";
   }
+  h += `<ul class="acervo">`;
+  if (!pastaId) {
+    for (const p of pastas) h += linhaPasta(p, (p.leis || []).filter(l => todos.includes(l)).length, "lei(s)", `#/acervo/pasta/${p.id}`);
+    const nFav = todos.filter(id => ehFavorito(idFavLei(id))).length;
+    if (nFav) h += linhaPasta({ nome: "★ Favoritas" }, nFav, "lei(s)", "#/acervo/favoritas");
+  }
+  for (const id of ids) {
+    const i = todos.indexOf(id);
+    const st = estado.status[id];
+    const s = situacao(id);
+    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
+      <span class="aba"></span>
+      <button class="abrir" data-abrir="${esc(id)}">
+        <span class="lei-nome">${esc(st.nome)}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
+        <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
+        <span class="selo ${s.cls}">${esc(s.txt)}</span>
+        <span class="lei-verif">${esc(s.sub)}</span>
+      </button>
+      <button class="mais" data-menu-lei="${esc(id)}" aria-label="Opções de ${esc(st.nome)}">⋯</button>
+    </li>`;
+  }
+  h += "</ul>";
+  if (pastaId && !ids.length) h += `<p class="vazio">${favoritas ? "Nenhuma lei favoritada." : "Pasta vazia. Use o botão ⋯ de uma lei e escolha “Mover para pasta”."}</p>`;
   $("#conteudo").innerHTML = h;
+  const bn = $("#nova-pasta-leis");
+  if (bn) bn.onclick = async () => { if (await novaPasta("leis")) telaAcervo(); };
 }
 
 function temDadosSemBackup() {
@@ -1326,17 +1325,31 @@ async function carregarQuestoes() {
   for (const c of Object.values(estado.cadernos)) for (const q of c.questoes) { q.caderno = c.id; estado.q.set(q.id, q); }
 }
 
-/* ---------- respostas e situação ---------- */
+/* ---------- respostas, rodadas e situação ----------
+   Cada resposta é guardada para sempre (estatísticas usam todas).
+   "Redefinir" cria um marco: as questões voltam a ficar sem resposta na rodada atual. */
 function mapaRespostas() {
   const m = new Map();   // qid -> [respostas em ordem]
   for (const r of itens("resposta")) { if (!m.has(r.q)) m.set(r.q, []); m.get(r.q).push(r); }
   for (const l of m.values()) l.sort((a, b) => a.em.localeCompare(b.em));
+  m.resets = new Map();  // qid -> data do último "redefinir"
+  for (const r of itens("reset")) for (const q of r.ids) if (!m.resets.has(q) || m.resets.get(q) < r.em) m.resets.set(q, r.em);
   return m;
 }
-function situacaoQ(mapa, qid) {
+function respostaAtual(mapa, qid) {
   const l = mapa.get(qid);
-  if (!l || !l.length) return "nao";
-  return l[l.length - 1].correta ? "certa" : "errada";
+  if (!l || !l.length) return null;
+  const ult = l[l.length - 1];
+  const marco = mapa.resets.get(qid);
+  return marco && ult.em <= marco ? null : ult;
+}
+function situacaoQ(mapa, qid) {
+  const r = respostaAtual(mapa, qid);
+  return !r ? "nao" : r.correta ? "certa" : "errada";
+}
+function jaErrou(mapa, qid) { return (mapa.get(qid) || []).some(r => !r.correta); }
+async function redefinirQuestoes(ids) {
+  if (ids.length) await salvarItem({ id: uid(), tipo: "reset", ids, em: agoraISO() });
 }
 const idFavQ = qid => `fav|q|${qid}`;
 const idNotaQ = qid => `nq|${qid}`;
@@ -1353,25 +1366,81 @@ function montarSessao(tipo, chave) {
     const c = estado.cadernos[chave];
     if (!c) return null;
     return { chave: "c:" + chave, titulo: c.titulo, materia: c.materia, base: [...c.questoes].sort((a, b) => a.ordem - b.ordem),
-             assuntos: c.assuntos, voltar: "#/questoes", rota: `#/caderno/${chave}` };
+             assuntos: c.assuntos, voltar: "#/questoes" };
   }
   const [lei, art] = chave.split("|");
   const base = questoesDoArtigo(lei, art);
-  const assuntos = [...new Set(base.map(q => q.assunto))];
-  return { chave: "a:" + chave, titulo: `Questões — ${rotuloArt(art)} (${nomeLei(lei)})`, materia: "", base, assuntos,
-           voltar: `#/lei/${lei}/${encodeURIComponent(art)}`, rota: `#/questoes-artigo/${lei}/${encodeURIComponent(art)}` };
+  return { chave: "a:" + chave, titulo: `Questões — ${rotuloArt(art)} (${nomeLei(lei)})`, materia: "", base,
+           assuntos: [...new Set(base.map(q => q.assunto))], voltar: `#/lei/${lei}/${encodeURIComponent(art)}` };
 }
 function filtrosDe(s) { return Object.assign({ assunto: "", situacao: "", banca: "" }, lerLS("filtros-q", {})[s.chave] || {}); }
 function gravarFiltros(s, f) { const t = lerLS("filtros-q", {}); t[s.chave] = f; gravarLS("filtros-q", t); }
 function listaFiltrada(s, mapa) {
   const f = filtrosDe(s);
   return s.base.filter(q => (!f.assunto || q.assunto === f.assunto) && (!f.banca || q.banca === f.banca) &&
-    (!f.situacao || (f.situacao === "favoritas" ? ehFavorito(idFavQ(q.id)) : situacaoQ(mapa, q.id) === f.situacao)));
+    (!f.situacao || (f.situacao === "favoritas" ? ehFavorito(idFavQ(q.id))
+      : f.situacao === "ja-errei" ? jaErrou(mapa, q.id) : situacaoQ(mapa, q.id) === f.situacao)));
 }
 
-/* ---------- tela inicial de Questões ---------- */
-function telaQuestoes() {
-  definirTopo({ titulo: "Questões" });
+/* ---------- pastas (Leis e Questões têm pastas próprias) ---------- */
+const campoPasta = area => (area === "questoes" ? "cadernos" : "leis");
+function pastasDe(area) {
+  return itens("pasta", p => (p.area || "leis") === area).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+}
+async function novaPasta(area) {
+  const nome = prompt(area === "questoes" ? "Nome da pasta (ex.: Polícia Civil – PE, Direito Penal):" : "Nome da pasta (ex.: Direito Penal, Legislação Especial):");
+  if (!nome || !nome.trim()) return null;
+  return salvarItem({ id: uid(), tipo: "pasta", area, nome: nome.trim(), leis: [], cadernos: [] });
+}
+async function moverParaPasta(area, itemId, pastaId) {
+  const campo = campoPasta(area);
+  for (const p of pastasDe(area)) {
+    const tem = (p[campo] || []).includes(itemId);
+    if (p.id === pastaId && !tem) { p[campo] = [...(p[campo] || []), itemId]; await salvarItem(p); }
+    else if (p.id !== pastaId && tem) { p[campo] = p[campo].filter(x => x !== itemId); await salvarItem(p); }
+  }
+}
+function painelMover(area, itemId, nomeItem, depois) {
+  const campo = campoPasta(area);
+  const pastas = pastasDe(area);
+  const atual = pastas.find(p => (p[campo] || []).includes(itemId));
+  abrirPainel(`<h2>Mover “${esc(nomeItem)}” ${botaoFechar}</h2>
+    <div class="acoes">
+      <button data-destino="" aria-pressed="${!atual}">${!atual ? "✓ " : ""}Fora das pastas</button>
+      ${pastas.map(p => `<button data-destino="${esc(p.id)}">${atual && atual.id === p.id ? "✓ " : ""}📁 ${esc(p.nome)}</button>`).join("")}
+      <button id="mover-nova">+ Criar pasta nova e mover para ela</button>
+    </div>`);
+  $$("[data-destino]").forEach(b => b.onclick = async () => { await moverParaPasta(area, itemId, b.dataset.destino); fecharPainel(); depois(); });
+  $("#mover-nova").onclick = async () => { const p = await novaPasta(area); if (p) { await moverParaPasta(area, itemId, p.id); fecharPainel(); depois(); } };
+}
+function menuPasta(id, depois) {
+  const p = estado.itens.get(id);
+  abrirPainel(`<h2>📁 ${esc(p.nome)} ${botaoFechar}</h2><div class="acoes">
+    <button id="p-renomear">Renomear a pasta</button>
+    <button id="p-apagar" style="color:var(--alt)">Apagar a pasta</button></div>
+    <p class="contagem">Apagar a pasta não apaga o que está dentro: os itens voltam para fora das pastas.</p>`);
+  $("#p-renomear").onclick = async () => {
+    const nome = prompt("Novo nome da pasta:", p.nome);
+    if (!nome || !nome.trim()) return;
+    p.nome = nome.trim(); await salvarItem(p); fecharPainel(); depois();
+  };
+  $("#p-apagar").onclick = async () => {
+    if (!confirm(`Apagar a pasta "${p.nome}"?`)) return;
+    await apagarItem(id); fecharPainel(); location.hash = (p.area || "leis") === "questoes" ? "#/questoes" : "#/acervo";
+  };
+}
+const ICONE_PASTA = `<svg class="ico-pasta" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h4.2l2 2h8.8A1.5 1.5 0 0 1 21 8.5v9A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5z"/></svg>`;
+function linhaPasta(p, qtd, rotulo, destino) {
+  return `<li class="lei-item pasta-item"><span class="aba"></span>
+    <button class="abrir" data-href="${esc(destino)}"><span class="lei-nome">${ICONE_PASTA}${esc(p.nome)}</span><span class="lei-num">${qtd} ${rotulo}</span></button>
+    ${p.id ? `<button class="mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta ${esc(p.nome)}">⋯</button>` : "<span></span>"}</li>`;
+}
+
+/* ---------- tela inicial de Questões (pastas em lista) ---------- */
+function telaQuestoes(pastaId = null) {
+  const pasta = pastaId ? estado.itens.get(pastaId) : null;
+  if (pastaId && (!pasta || pasta.apagado)) { location.hash = "#/questoes"; return; }
+  definirTopo({ titulo: pasta ? pasta.nome : "Questões", voltar: pasta ? "#/questoes" : null });
   marcarAba("questoes");
   const cads = Object.values(estado.cadernos);
   if (!cads.length) {
@@ -1381,22 +1450,20 @@ function telaQuestoes() {
     return;
   }
   const mapa = mapaRespostas();
-  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  let sel = lerLS("pasta-questoes", "todas");
-  if (sel !== "todas" && !pastas.some(p => p.id === sel)) sel = "todas";
-  const pasta = pastas.find(p => p.id === sel);
-  const visiveis = sel === "todas" ? cads : cads.filter(c => (pasta.cadernos || []).includes(c.id));
-  const geral = estatisticas([...estado.q.values()], mapa);
-  let h = `<div class="pastas">
-    <button class="chip" data-pasta-q="todas" aria-pressed="${sel === "todas"}">Todos os cadernos</button>
-    ${pastas.map(p => `<button class="chip" data-pasta-q="${esc(p.id)}" aria-pressed="${sel === p.id}">${esc(p.nome)} (${(p.cadernos || []).filter(id => estado.cadernos[id]).length})</button>`).join("")}
-  </div>
-  <div class="secao"><div class="cartao resumo-geral">
-    <p><strong>Seu desempenho geral:</strong> ${geral.resolvidas} de ${geral.total} questões resolvidas · ${geral.certas} acertos · ${geral.erradas} erros${geral.resolvidas ? ` · <strong>${geral.pct}% de acerto</strong>` : ""}</p>
-    <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a></div>
-  </div></div>`;
-  if (!visiveis.length) h += `<p class="vazio">Nenhum caderno nesta pasta. Use o botão ⋯ de um caderno para colocá-lo aqui.</p>`;
+  const pastas = pastasDe("questoes");
+  const emPasta = new Set(pastas.flatMap(p => p.cadernos || []));
+  const visiveis = pasta ? cads.filter(c => (pasta.cadernos || []).includes(c.id)) : cads.filter(c => !emPasta.has(c.id));
+  let h = "";
+  if (!pasta) {
+    const g = estatisticas([...estado.q.values()], mapa);
+    h += `<div class="secao"><div class="cartao">
+      <p><strong>Seu desempenho:</strong> ${g.respostas} respostas registradas · <span class="txt-ok">${g.acertosTotal} acertos</span> · <span class="txt-erro">${g.errosTotal} erros</span>${g.respostas ? ` · <strong>${g.pctTotal}% de acerto</strong>` : ""}</p>
+      <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a>
+        <button id="nova-pasta-q">+ Nova pasta</button></div>
+    </div></div>`;
+  }
   h += `<ul class="acervo">`;
+  if (!pasta) for (const p of pastas) h += linhaPasta(p, (p.cadernos || []).filter(id => estado.cadernos[id]).length, "caderno(s)", `#/questoes/pasta/${p.id}`);
   visiveis.forEach((c, i) => {
     const e = estatisticas(c.questoes, mapa);
     h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
@@ -1404,34 +1471,31 @@ function telaQuestoes() {
         <span class="lei-nome">${esc(c.titulo)}</span>
         <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões · ${c.assuntos.length} assuntos</span>
         <span class="barra-prog" aria-hidden="true"><span style="width:${e.total ? Math.round(100 * e.resolvidas / e.total) : 0}%"></span></span>
-        <span class="lei-verif">${e.resolvidas} resolvidas · ${e.certas} acertos · ${e.erradas} erros${e.resolvidas ? ` · ${e.pct}% de acerto` : ""}</span>
+        <span class="lei-verif">Rodada atual: ${e.resolvidas} de ${e.total} resolvidas · Histórico: ${e.acertosTotal} acertos e ${e.errosTotal} erros${e.respostas ? ` (${e.pctTotal}%)` : ""}</span>
       </button>
       <button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do caderno">⋯</button></li>`;
   });
-  $("#conteudo").innerHTML = h + "</ul>";
+  h += "</ul>";
+  if (pasta && !visiveis.length) h += `<p class="vazio">Pasta vazia. Use o botão ⋯ de um caderno e escolha “Mover para pasta”.</p>`;
+  $("#conteudo").innerHTML = h;
+  const bn = $("#nova-pasta-q");
+  if (bn) bn.onclick = async () => { if (await novaPasta("questoes")) telaQuestoes(); };
 }
 
 function menuCaderno(id) {
   const c = estado.cadernos[id];
-  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const volta = () => rotear();
   abrirPainel(`<h2>${esc(c.titulo)} ${botaoFechar}</h2>
-    <div class="acoes"><button id="c-zerar">Apagar minhas respostas deste caderno</button></div>
-    <h2 style="margin-top:18px">Pastas</h2>
-    ${pastas.length ? pastas.map(p => `<label class="linha-ajuste"><span>${esc(p.nome)}</span>
-      <input type="checkbox" data-pasta-cad="${esc(p.id)}" ${(p.cadernos || []).includes(id) ? "checked" : ""} style="width:22px;height:22px"></label>`).join("")
-      : '<p class="contagem">Você ainda não criou pastas. Crie pastas na tela Leis.</p>'}`);
-  $$("[data-pasta-cad]").forEach(cb => cb.onchange = async () => {
-    const p = estado.itens.get(cb.dataset.pastaCad);
-    p.cadernos = cb.checked ? [...new Set([...(p.cadernos || []), id])] : (p.cadernos || []).filter(x => x !== id);
-    await salvarItem(p); telaQuestoes();
-  });
-  $("#c-zerar").onclick = async () => {
-    const ids = new Set(c.questoes.map(q => q.id));
-    const rs = itens("resposta", r => ids.has(r.q));
-    if (!rs.length) { $("#c-zerar").textContent = "Não há respostas para apagar"; return; }
-    if (!confirm(`Apagar ${rs.length} resposta(s) deste caderno? Suas estatísticas deste caderno voltam a zero. Anotações e favoritos continuam.`)) return;
-    for (const r of rs) await apagarItem(r.id);
-    fecharPainel(); telaQuestoes();
+    <div class="acoes">
+      <button id="c-mover">📁 Mover para pasta…</button>
+      <button id="c-redefinir">Redefinir o caderno inteiro (todas voltam a ficar sem resposta)</button>
+    </div>
+    <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
+  $("#c-mover").onclick = () => painelMover("questoes", id, c.titulo, volta);
+  $("#c-redefinir").onclick = async () => {
+    if (!confirm(`As ${c.questoes.length} questões de "${c.titulo}" voltam a ficar sem resposta. Suas estatísticas continuam com todos os acertos e erros. Redefinir?`)) return;
+    await redefinirQuestoes(c.questoes.map(q => q.id));
+    fecharPainel(); volta();
   };
 }
 
@@ -1457,9 +1521,10 @@ function telaCaderno(tipo, chave, aba = "questoes", qAlvo = null) {
       <select class="campo" id="f-assunto"><option value="">Todos os assuntos (${sessao.base.length})</option>
         ${sessao.assuntos.map(a => `<option value="${esc(a)}" ${f.assunto === a ? "selected" : ""}>${esc(a)} (${sessao.base.filter(q => q.assunto === a).length})</option>`).join("")}</select>
       <select class="campo" id="f-situacao">
-        ${[["", "Todas"], ["nao", "Não resolvidas"], ["errada", "Que errei"], ["certa", "Que acertei"], ["favoritas", "★ Favoritas"]].map(([v, r]) =>
+        ${[["", "Todas"], ["nao", "Não resolvidas"], ["errada", "Que errei (rodada atual)"], ["certa", "Que acertei (rodada atual)"], ["ja-errei", "Que já errei alguma vez"], ["favoritas", "★ Favoritas"]].map(([v, r]) =>
           `<option value="${v}" ${f.situacao === v ? "selected" : ""}>${r}</option>`).join("")}</select>
       ${bancas.length > 1 ? `<select class="campo" id="f-banca"><option value="">Todas as bancas</option>${bancas.map(b => `<option ${f.banca === b ? "selected" : ""}>${esc(b)}</option>`).join("")}</select>` : ""}
+      ${lista.length ? `<button class="botao" id="redefinir-lista">Redefinir esta lista (${lista.length})</button>` : ""}
     </div>
     <div id="area-caderno"></div></div>`;
   const aplicar = () => {
@@ -1469,6 +1534,15 @@ function telaCaderno(tipo, chave, aba = "questoes", qAlvo = null) {
   $("#f-assunto").onchange = aplicar; $("#f-situacao").onchange = aplicar;
   if ($("#f-banca")) $("#f-banca").onchange = aplicar;
   $$("[data-aba-cad]").forEach(b => b.onclick = () => telaCaderno(tipo, chave, b.dataset.abaCad));
+  const br = $("#redefinir-lista");
+  if (br) br.onclick = async () => {
+    if (!confirm(`As ${lista.length} questões desta lista voltam a ficar sem resposta, para você resolver de novo.\n\nSuas estatísticas continuam com todos os acertos e erros já registrados. Redefinir?`)) return;
+    await redefinirQuestoes(lista.map(q => q.id));
+    const f2 = filtrosDe(sessao);
+    if (["errada", "certa"].includes(f2.situacao)) { f2.situacao = ""; gravarFiltros(sessao, f2); }
+    const pos = lerLS("pos-q", {}); delete pos[sessao.chave]; gravarLS("pos-q", pos);
+    telaCaderno(tipo, chave, "questoes", lista[0].id);
+  };
   sessao.tipo = tipo; sessao.chaveOrig = chave; sessao.lista = lista;
   if (aba === "indice") return abaIndice(mapa);
   if (aba === "gabarito") return abaGabarito(mapa);
@@ -1499,16 +1573,15 @@ function abaGabarito(mapa) {
   const l = sessao.lista;
   const mostrar = sessionStorage.getItem("mostrar-gabarito") === "1";
   let h = `<div class="acoes" style="margin:4px 0 12px"><button id="alt-gab">${mostrar ? "Esconder o gabarito" : "Mostrar o gabarito"}</button></div>`;
-  if (!mostrar) h += `<p class="contagem">O gabarito fica escondido para não atrapalhar quem ainda vai resolver. Suas respostas aparecem em verde (acerto) ou vermelho (erro).</p>`;
+  if (!mostrar) h += `<p class="contagem">O gabarito fica escondido para não atrapalhar quem ainda vai resolver. Suas respostas da rodada atual aparecem em verde (acerto) ou vermelho (erro).</p>`;
   for (const a of sessao.assuntos) {
     const qs = l.filter(q => q.assunto === a);
     if (!qs.length) continue;
     h += `<h3 class="grupo-assunto">${esc(a)}</h3><div class="grade-gabarito">`;
     for (const q of qs) {
-      const rs = mapa.get(q.id);
-      const ult = rs && rs[rs.length - 1];
-      const cls = ult ? (ult.correta ? "certa" : "errada") : "";
-      h += `<button class="cel-gab ${cls}" data-ir-q="${esc(q.id)}"><span>${l.indexOf(q) + 1}</span><strong>${mostrar ? esc(q.gabarito) : ult ? esc(ult.marcada) : "–"}</strong></button>`;
+      const r = respostaAtual(mapa, q.id);
+      const cls = r ? (r.correta ? "certa" : "errada") : "";
+      h += `<button class="cel-gab ${cls}" data-ir-q="${esc(q.id)}"><span>${l.indexOf(q) + 1}</span><strong>${mostrar ? esc(q.gabarito) : r ? esc(r.marcada) : "–"}</strong></button>`;
     }
     h += "</div>";
   }
@@ -1527,50 +1600,74 @@ function abaQuestao(mapa, qAlvo) {
   if (i < 0) i = 0;
   mostrarQuestao(i, mapa);
 }
+function cabecalhoRodada(l, mapa) {
+  const e = estatisticas(l, mapa);
+  return `(${e.resolvidas} resolvidas, <span class="txt-ok">${e.certas} acertos</span> e <span class="txt-erro">${e.erradas} erros</span>)`;
+}
+function letraExibida(q, letra) { return q.tipo === "CE" ? (letra === "C" ? "Certo" : "Errado") : letra; }
 
 function mostrarQuestao(i, mapa = mapaRespostas()) {
   const l = sessao.lista;
   const q = l[i];
   const pos = lerLS("pos-q", {}); pos[sessao.chave] = q.id; gravarLS("pos-q", pos);
-  const e = estatisticas(l, mapa);
-  const rs = mapa.get(q.id) || [];
-  const ult = rs[rs.length - 1];
+  const todas = mapa.get(q.id) || [];
+  const atual = respostaAtual(mapa, q.id);
   const temLei = q.vinculo && estado.status[q.vinculo.lei];
   const fav = ehFavorito(idFavQ(q.id));
   const nota = estado.itens.get(idNotaQ(q.id));
   riscadas[q.id] = riscadas[q.id] || [];
   inicioQuestao = Date.now();
+  const historico = todas.length ? `Histórico desta questão: ${todas.filter(r => r.correta).length} acerto(s) e ${todas.filter(r => !r.correta).length} erro(s) em ${todas.length} resposta(s).` : "";
   $("#area-caderno").innerHTML = `<article class="questao" data-q="${esc(q.id)}">
     <div class="q-cab">
-      <div><strong>Questão ${i + 1} de ${l.length}</strong>
-        <span class="contagem">(${e.resolvidas} resolvidas, <span class="txt-ok">${e.certas} acertos</span> e <span class="txt-erro">${e.erradas} erros</span>)</span></div>
-      <div class="cronometro" id="cronometro" title="Tempo de estudo nesta sessão">⏱ <span id="crono-t">00:00</span> <button class="link" id="crono-p">pausar</button></div>
+      <div><strong>Questão ${i + 1} de ${l.length}</strong> <span class="contagem" id="q-rodada">${cabecalhoRodada(l, mapa)}</span></div>
+      <div class="cronometro" title="Tempo de estudo nesta sessão">⏱ <span id="crono-t">00:00</span> <button class="link" id="crono-p">pausar</button></div>
     </div>
     <p class="q-meta">Matéria: ${esc(q.materia)} · Assunto: ${esc(q.assunto)}${q.vinculo ? (temLei
       ? ` · <a href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a>`
       : ` · <span class="contagem">(${esc(rotuloVinculo(q.vinculo))} — lei fora do acervo)</span>`) : ""}</p>
     <p class="q-prova">${esc(provaQ(q))}</p>
-    ${ult ? `<p class="contagem">Última resposta em ${dataHora(ult.em)}: marcou ${esc(ult.marcada)} — ${ult.correta ? '<span class="txt-ok">acertou</span>' : '<span class="txt-erro">errou</span>'}${rs.length > 1 ? ` · ${rs.length} tentativas` : ""}</p>` : ""}
     <div class="q-enunciado">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <ul class="alternativas ${q.tipo === "CE" ? "ce" : ""}" role="radiogroup" aria-label="Alternativas">
       ${q.alternativas.map(a => `<li><button class="alt ${riscadas[q.id].includes(a.letra) ? "riscada" : ""}" role="radio" aria-checked="false" data-letra="${esc(a.letra)}">
-        <span class="letra">${esc(q.tipo === "CE" ? (a.letra === "C" ? "C" : "E") : a.letra)}</span><span class="alt-texto">${esc(a.texto)}</span></button>
+        <span class="letra">${esc(a.letra)}</span><span class="alt-texto">${esc(a.texto)}</span></button>
         ${q.tipo === "CE" ? "" : `<button class="riscar" data-riscar="${esc(a.letra)}" aria-label="Riscar a alternativa ${esc(a.letra)}" title="Riscar alternativa">✂</button>`}</li>`).join("")}
     </ul>
     <div class="acoes-q"><button class="botao primario" id="btn-responder" disabled>Responder</button></div>
     <div id="resultado-q" aria-live="polite"></div>
+    <p class="contagem" id="q-historico">${historico}</p>
     <div class="barra-q">
       <button class="icone-btn" data-nav="-1" aria-label="Questão anterior" ${i === 0 ? "disabled" : ""}>← Anterior</button>
       <button class="icone-btn" data-nav="1" aria-label="Próxima questão" ${i === l.length - 1 ? "disabled" : ""}>Próxima →</button>
       <button class="icone-btn" id="q-aleatoria" aria-label="Questão aleatória">Aleatória</button>
       <button class="icone-btn" id="q-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
-      <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Minha anotação" : "✎ Anotar"}</button>
+      <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
     </div>
   </article>`;
   iniciarCronometro();
+
+  // Questão já respondida nesta rodada: fica travada com a sua resposta até você redefinir a lista.
+  const exibirResultado = r => {
+    $$(".alt").forEach(x => {
+      x.disabled = true;
+      if (x.dataset.letra === q.gabarito) x.classList.add("certa");
+      else if (x.dataset.letra === r.marcada) x.classList.add("errada");
+      if (x.dataset.letra === r.marcada) { x.classList.add("marcada"); x.setAttribute("aria-checked", "true"); }
+    });
+    $$(".riscar").forEach(x => { x.disabled = true; });
+    $(".acoes-q").classList.add("oculto");
+    $("#resultado-q").innerHTML = (r.correta
+      ? `<p class="res-q ok">✓ Você acertou!`
+      : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraExibida(q, q.gabarito))}</strong>.`) +
+      ` <button class="link" id="ver-resolucao">Ver resolução</button></p>
+      <p class="contagem">Respondida em ${dataHora(r.em)}. Para resolver de novo, use “Redefinir esta lista”.</p>`;
+    $("#ver-resolucao").onclick = () => mostrarResolucao(q);
+  };
+  if (atual) exibirResultado(atual);
+
   let marcada = null;
   $$(".alt").forEach(b => b.onclick = () => {
-    if ($("#btn-responder").dataset.respondida) return;
+    if (b.disabled) return;
     marcada = b.dataset.letra;
     $$(".alt").forEach(x => { x.classList.toggle("marcada", x === b); x.setAttribute("aria-checked", x === b); });
     $("#btn-responder").disabled = false;
@@ -1583,24 +1680,14 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
   });
   $("#btn-responder").onclick = async () => {
     if (!marcada) return;
-    const correta = marcada === q.gabarito;
+    $("#btn-responder").disabled = true;
     const tempo = Math.min(1800, Math.round((Date.now() - inicioQuestao) / 1000));
-    await salvarItem({ id: uid(), tipo: "resposta", q: q.id, caderno: q.caderno, marcada, correta, em: agoraISO(), tempo });
-    const btn = $("#btn-responder");
-    btn.dataset.respondida = "1"; btn.textContent = "Refazer"; btn.disabled = false;
-    btn.onclick = () => mostrarQuestao(i);
-    $$(".alt").forEach(x => {
-      if (x.dataset.letra === q.gabarito) x.classList.add("certa");
-      else if (x.dataset.letra === marcada) x.classList.add("errada");
-    });
-    const letraGab = q.tipo === "CE" ? (q.gabarito === "C" ? "Certo" : "Errado") : q.gabarito;
-    $("#resultado-q").innerHTML = correta
-      ? `<p class="res-q ok">✓ Você acertou! <button class="link" id="ver-resolucao">Ver resolução</button></p>`
-      : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraGab)}</strong>. <button class="link" id="ver-resolucao">Ver resolução</button></p>`;
-    $("#ver-resolucao").onclick = () => mostrarResolucao(q);
+    const r = await salvarItem({ id: uid(), tipo: "resposta", q: q.id, caderno: q.caderno, marcada, correta: marcada === q.gabarito, em: agoraISO(), tempo });
+    exibirResultado(r);
     const m2 = mapaRespostas();
-    const e2 = estatisticas(l, m2);
-    $(".q-cab .contagem").innerHTML = `(${e2.resolvidas} resolvidas, <span class="txt-ok">${e2.certas} acertos</span> e <span class="txt-erro">${e2.erradas} erros</span>)`;
+    $("#q-rodada").innerHTML = cabecalhoRodada(l, m2);
+    const t = m2.get(q.id) || [];
+    $("#q-historico").textContent = `Histórico desta questão: ${t.filter(x => x.correta).length} acerto(s) e ${t.filter(x => !x.correta).length} erro(s) em ${t.length} resposta(s).`;
   };
   $$("[data-nav]").forEach(b => b.onclick = () => { mostrarQuestao(i + Number(b.dataset.nav)); window.scrollTo(0, 0); });
   $("#q-aleatoria").onclick = () => {
@@ -1620,11 +1707,11 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
 
 function mostrarResolucao(q, focarNota = false) {
   const nota = estado.itens.get(idNotaQ(q.id));
-  const letraGab = q.tipo === "CE" ? (q.gabarito === "C" ? "Certo" : "Errado") : q.gabarito;
-  abrirPainel(`<h2>Resolução ${botaoFechar}</h2>
-    <p><strong>Gabarito: ${esc(letraGab)}</strong></p>
+  const respondida = respostaAtual(mapaRespostas(), q.id);
+  abrirPainel(`<h2>${respondida ? "Resolução" : "Meu comentário"} ${botaoFechar}</h2>
+    ${respondida ? `<p><strong>Gabarito: ${esc(letraExibida(q, q.gabarito))}</strong></p>` : '<p class="contagem">O gabarito aparece aqui depois que você responder a questão.</p>'}
     ${q.vinculo && estado.status[q.vinculo.lei] ? `<div class="acoes" style="margin-bottom:12px"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
-    <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Ele fica guardado e entra no backup.</p>
+    <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Fica guardado e entra no backup.</p>
     <textarea class="campo" id="nota-q" placeholder="Ex.: a qualificadora alcança parente consanguíneo só até o 3º grau (art. 121, § 2º, VII).">${esc(nota && !nota.apagado ? nota.nota : "")}</textarea>
     <div class="acoes" style="margin-top:10px"><button class="botao primario" id="salvar-nota-q">Salvar comentário</button></div>`);
   if (focarNota) $("#nota-q").focus();
@@ -1634,7 +1721,7 @@ function mostrarResolucao(q, focarNota = false) {
     else if (nota && !nota.apagado) await apagarItem(idNotaQ(q.id));
     fecharPainel();
     const btn = $("#q-nota");
-    if (btn) btn.textContent = texto ? "✎ Minha anotação" : "✎ Anotar";
+    if (btn) btn.textContent = texto ? "✎ Meu comentário" : "✎ Comentar";
   };
 }
 
@@ -1659,47 +1746,46 @@ function iniciarCronometro() {
   };
 }
 
-/* ---------- estatísticas ---------- */
+/* ---------- estatísticas ----------
+   Rodada atual: situação de cada questão desde o último "redefinir".
+   Histórico: TODAS as respostas já dadas (nada é apagado ao redefinir). */
 function estatisticas(lista, mapa) {
-  const ids = new Set(lista.map(q => q.id));
-  let resolvidas = 0, certas = 0, erradas = 0, tentativas = 0, tempo = 0;
+  let resolvidas = 0, certas = 0, erradas = 0, respostas = 0, acertosTotal = 0, errosTotal = 0, tempo = 0;
   const porAssunto = {}, porBanca = {}, porDia = {}, erros = [];
   for (const q of lista) {
     const rs = mapa.get(q.id) || [];
-    const pa = porAssunto[q.assunto] = porAssunto[q.assunto] || { total: 0, resolvidas: 0, certas: 0, erradas: 0 };
-    const pb = porBanca[q.banca] = porBanca[q.banca] || { total: 0, resolvidas: 0, certas: 0, erradas: 0 };
+    const pa = porAssunto[q.assunto] = porAssunto[q.assunto] || { total: 0, respostas: 0, acertos: 0, erros: 0 };
+    const pb = porBanca[q.banca] = porBanca[q.banca] || { total: 0, respostas: 0, acertos: 0, erros: 0 };
     pa.total++; pb.total++;
-    if (!rs.length) continue;
-    const ult = rs[rs.length - 1];
-    resolvidas++; pa.resolvidas++; pb.resolvidas++;
-    if (ult.correta) { certas++; pa.certas++; pb.certas++; } else { erradas++; pa.erradas++; pb.erradas++; }
-    const nErros = rs.filter(r => !r.correta).length;
-    if (nErros) erros.push({ q, nErros, tentativas: rs.length });
+    const atual = respostaAtual(mapa, q.id);
+    if (atual) { resolvidas++; if (atual.correta) certas++; else erradas++; }
+    let nErros = 0;
     for (const r of rs) {
-      if (!ids.has(r.q)) continue;
-      tentativas++; tempo += r.tempo || 0;
+      respostas++; pa.respostas++; pb.respostas++; tempo += r.tempo || 0;
+      if (r.correta) { acertosTotal++; pa.acertos++; pb.acertos++; } else { errosTotal++; pa.erros++; pb.erros++; nErros++; }
       const d = new Date(r.em).toLocaleDateString("sv-SE");   // dia no fuso do aparelho
       const pd = porDia[d] = porDia[d] || { certas: 0, erradas: 0 };
       if (r.correta) pd.certas++; else pd.erradas++;
     }
+    if (nErros) erros.push({ q, nErros, tentativas: rs.length });
   }
   erros.sort((a, b) => b.nErros - a.nErros || b.tentativas - a.tentativas);
-  return { total: lista.length, resolvidas, certas, erradas, tentativas, tempo, porAssunto, porBanca, porDia, erros,
-           pct: resolvidas ? Math.round(100 * certas / resolvidas) : 0 };
+  return { total: lista.length, resolvidas, certas, erradas, respostas, acertosTotal, errosTotal, tempo, porAssunto, porBanca, porDia, erros,
+           pctTotal: respostas ? Math.round(100 * acertosTotal / respostas) : 0 };
 }
 function tabelaDesempenho(obj, ordem) {
   const chaves = ordem ? ordem.filter(k => obj[k]) : Object.keys(obj).sort();
   return `<div class="tabela-desemp">${chaves.map(k => {
     const v = obj[k];
-    const pct = v.resolvidas ? Math.round(100 * v.certas / v.resolvidas) : null;
-    return `<div class="linha-desemp"><span class="nome-desemp">${esc(k)}</span>
-      <span class="barra-desemp" aria-hidden="true"><span class="b-ok" style="width:${v.total ? 100 * v.certas / v.total : 0}%"></span><span class="b-erro" style="width:${v.total ? 100 * v.erradas / v.total : 0}%"></span></span>
-      <span class="num-desemp">${v.resolvidas}/${v.total} · ${pct === null ? "—" : pct + "%"}</span></div>`;
+    const pct = v.respostas ? Math.round(100 * v.acertos / v.respostas) : null;
+    return `<div class="linha-desemp"><span class="nome-desemp">${esc(k)} <span class="contagem">(${v.total} questões)</span></span>
+      <span class="barra-desemp" aria-hidden="true"><span class="b-ok" style="width:${v.respostas ? 100 * v.acertos / v.respostas : 0}%"></span><span class="b-erro" style="width:${v.respostas ? 100 * v.erros / v.respostas : 0}%"></span></span>
+      <span class="num-desemp">${v.respostas ? `${v.acertos} ✓ · ${v.erros} ✗ · ${pct}%` : "sem respostas"}</span></div>`;
   }).join("")}</div>`;
 }
 function graficoDias(porDia) {
   const dias = [];
-  for (let k = 29; k >= 0; k--) { const d = new Date(Date.now() - k * 864e5); dias.push(d.toLocaleDateString("sv-SE")); }
+  for (let k = 29; k >= 0; k--) dias.push(new Date(Date.now() - k * 864e5).toLocaleDateString("sv-SE"));
   const max = Math.max(1, ...dias.map(d => (porDia[d]?.certas || 0) + (porDia[d]?.erradas || 0)));
   const L = 600, A = 140, w = L / 30;
   let barras = "";
@@ -1709,7 +1795,7 @@ function graficoDias(porDia) {
     barras += `<rect x="${k * w + 2}" y="${A - hc}" width="${w - 4}" height="${hc}" fill="var(--ok)"><title>${dataCurta(d)}: ${c} acertos</title></rect>`;
     barras += `<rect x="${k * w + 2}" y="${A - hc - he}" width="${w - 4}" height="${he}" fill="var(--alt)"><title>${dataCurta(d)}: ${e} erros</title></rect>`;
   });
-  return `<svg class="grafico-dias" viewBox="0 0 ${L} ${A + 18}" role="img" aria-label="Questões resolvidas por dia nos últimos 30 dias">
+  return `<svg class="grafico-dias" viewBox="0 0 ${L} ${A + 18}" role="img" aria-label="Respostas por dia nos últimos 30 dias">
     <line x1="0" y1="${A}" x2="${L}" y2="${A}" stroke="var(--fio)"/>${barras}
     <text x="0" y="${A + 14}" font-size="11" fill="var(--tinta-2)">${dataCurta(dias[0])}</text>
     <text x="${L}" y="${A + 14}" font-size="11" fill="var(--tinta-2)" text-anchor="end">hoje</text></svg>`;
@@ -1722,29 +1808,33 @@ function abaEstatisticas(lista, mapa, noCaderno) {
   if (!e.total) { alvo.innerHTML = `<p class="vazio">Nenhuma questão com esses filtros.</p>`; return; }
   const ordemAssuntos = noCaderno ? sessao.assuntos : [...new Set([...estado.q.values()].map(q => q.assunto))];
   alvo.innerHTML = `${noCaderno ? "" : '<div class="secao">'}
+    <h3 class="grupo-assunto" style="margin-top:6px">Histórico (todas as respostas já dadas)</h3>
     <div class="numeros-desemp">
-      <div><strong>${e.resolvidas}</strong><span>de ${e.total} resolvidas</span></div>
-      <div><strong class="txt-ok">${e.certas}</strong><span>acertos</span></div>
-      <div><strong class="txt-erro">${e.erradas}</strong><span>erros</span></div>
-      <div><strong>${e.resolvidas ? e.pct + "%" : "—"}</strong><span>de acerto</span></div>
-      <div><strong>${formatarTempo(e.tempo)}</strong><span>resolvendo (${e.tentativas} tentativas)</span></div>
+      <div><strong>${e.respostas}</strong><span>respostas registradas</span></div>
+      <div><strong class="txt-ok">${e.acertosTotal}</strong><span>acertos</span></div>
+      <div><strong class="txt-erro">${e.errosTotal}</strong><span>erros</span></div>
+      <div><strong>${e.respostas ? e.pctTotal + "%" : "—"}</strong><span>de acerto</span></div>
+      <div><strong>${formatarTempo(e.tempo)}</strong><span>resolvendo</span></div>
     </div>
-    <p class="contagem">Acertos e erros consideram a sua última resposta em cada questão.</p>
+    <p class="contagem">Rodada atual: ${e.resolvidas} de ${e.total} questões resolvidas (${e.certas} certas e ${e.erradas} erradas). Redefinir uma lista começa uma nova rodada, mas não apaga nada do histórico.</p>
     <h3 class="grupo-assunto">Por assunto</h3>${tabelaDesempenho(e.porAssunto, ordemAssuntos)}
     <h3 class="grupo-assunto">Por banca</h3>${tabelaDesempenho(e.porBanca)}
     <h3 class="grupo-assunto">Evolução nos últimos 30 dias</h3>${graficoDias(e.porDia)}
     <p class="legenda-diff"><span style="color:var(--ok)">■ acertos</span><span style="color:var(--alt)">■ erros</span></p>
     <h3 class="grupo-assunto">Questões que você mais erra</h3>
     ${e.erros.length ? `<ul class="resultados">${e.erros.slice(0, 10).map(x => `<li><button data-href="#/caderno/${esc(x.q.caderno)}/questao/${esc(x.q.id)}">
-      <span class="res-titulo">${x.nErros} erro(s) em ${x.tentativas} tentativa(s) — ${esc(x.q.assunto)}</span>
+      <span class="res-titulo">${x.nErros} erro(s) em ${x.tentativas} resposta(s) — ${esc(x.q.assunto)}</span>
       <span class="res-trecho">${esc(x.q.enunciado.join(" ").slice(0, 140))}…</span></button></li>`).join("")}</ul>
-      ${noCaderno ? '<div class="acoes" style="margin-top:12px"><button id="refazer-erradas" class="botao primario">Refazer só as que errei</button></div>' : ""}`
+      ${noCaderno ? '<div class="acoes" style="margin-top:12px"><button id="refazer-erradas" class="botao primario">Refazer as que já errei</button></div>' : ""}`
       : '<p class="contagem">Nenhum erro registrado até agora.</p>'}
     ${noCaderno ? "" : "</div>"}`;
   const btn = $("#refazer-erradas");
-  if (btn) btn.onclick = () => {
-    const f = filtrosDe(sessao); f.situacao = "errada"; gravarFiltros(sessao, f);
-    telaCaderno(sessao.tipo, sessao.chaveOrig, "questoes");
+  if (btn) btn.onclick = async () => {
+    const ids = e.erros.map(x => x.q.id);
+    if (!confirm(`As ${ids.length} questões que você já errou voltam a ficar sem resposta, para resolver de novo. O histórico continua registrado. Continuar?`)) return;
+    await redefinirQuestoes(ids);
+    const f = filtrosDe(sessao); f.situacao = "ja-errei"; gravarFiltros(sessao, f);
+    telaCaderno(sessao.tipo, sessao.chaveOrig, "questoes", ids[0]);
   };
 }
 
@@ -1999,59 +2089,24 @@ function painelNotasArtigo(art) {
 
 function menuLei(id) {
   const fav = ehFavorito(idFavLei(id));
-  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   abrirPainel(`<h2>${esc(nomeLei(id))} ${botaoFechar}</h2>
     <div class="acoes">
+      <button id="l-mover">📁 Mover para pasta…</button>
       <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
       <button id="l-nota">Anotar a lei (anotação geral)</button>
       <button id="l-alt">Histórico de alterações</button>
       <button id="l-offline">Remover a cópia offline desta lei</button>
-    </div>
-    <h2 style="margin-top:18px">Pastas</h2>
-    ${pastas.length ? pastas.map(p => `<label class="linha-ajuste"><span>${esc(p.nome)}</span>
-      <input type="checkbox" data-pasta-lei="${esc(p.id)}" ${p.leis.includes(id) ? "checked" : ""} style="width:22px;height:22px"></label>`).join("")
-      : '<p class="contagem">Você ainda não criou pastas.</p>'}
-    <div class="acoes" style="margin-top:10px"><button id="l-nova-pasta">+ Criar pasta e colocar esta lei</button></div>`);
-  $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); telaAcervo(); };
+    </div>`);
+  $("#l-mover").onclick = () => painelMover("leis", id, nomeLei(id), () => rotear());
+  $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); rotear(); };
   $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });
   $("#l-alt").onclick = () => { fecharPainel(); location.hash = "#/alteracoes/" + id; };
   $("#l-offline").onclick = async () => {
     const cache = await caches.open(CACHE_DADOS);
     await cache.delete(urlLei(id));
     delete estado.leis[id]; delete estado.info[id]; gravarLS("info-leis", estado.info);
-    fecharPainel(); telaAcervo();
+    fecharPainel(); rotear();
   };
-  $$("[data-pasta-lei]").forEach(c => c.onchange = async () => {
-    const p = estado.itens.get(c.dataset.pastaLei);
-    p.leis = c.checked ? [...new Set([...p.leis, id])] : p.leis.filter(x => x !== id);
-    await salvarItem(p);
-    telaAcervo();
-  });
-  $("#l-nova-pasta").onclick = async () => {
-    const nome = prompt("Nome da pasta (ex.: Polícia Penal, Direito Penal):");
-    if (!nome || !nome.trim()) return;
-    await salvarItem({ id: uid(), tipo: "pasta", nome: nome.trim(), leis: [id] });
-    menuLei(id); telaAcervo();
-  };
-}
-
-function painelEditarPastas() {
-  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  abrirPainel(`<h2>Editar pastas ${botaoFechar}</h2>
-    ${pastas.map(p => `<div class="linha-ajuste"><span>${esc(p.nome)} <span class="contagem">(${p.leis.length} lei(s))</span></span>
-      <span><button class="icone-btn" data-renomear="${esc(p.id)}">Renomear</button><button class="icone-btn" data-apagar-pasta="${esc(p.id)}" style="color:var(--alt)">Apagar</button></span></div>`).join("")}
-    <p class="contagem">Apagar uma pasta não apaga as leis nem suas anotações.</p>`);
-  $$("[data-renomear]").forEach(b => b.onclick = async () => {
-    const p = estado.itens.get(b.dataset.renomear);
-    const nome = prompt("Novo nome da pasta:", p.nome);
-    if (!nome || !nome.trim()) return;
-    p.nome = nome.trim(); await salvarItem(p); painelEditarPastas(); telaAcervo();
-  });
-  $$("[data-apagar-pasta]").forEach(b => b.onclick = async () => {
-    const p = estado.itens.get(b.dataset.apagarPasta);
-    if (!confirm(`Apagar a pasta "${p.nome}"? As leis continuam no acervo.`)) return;
-    await apagarItem(p.id); painelEditarPastas(); telaAcervo();
-  });
 }
 
 /* ---------- editor de anotação (com imagens) ---------- */
@@ -2277,24 +2332,14 @@ document.addEventListener("click", async e => {
   if (notas) { painelNotasArtigo(notas.dataset.notas); return; }
   const abrir = t.closest("[data-abrir]");
   if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
-  const qa = t.closest("[data-questoes-art]");
-  if (qa) { location.hash = `#/questoes-artigo/${leiAberta}/${encodeURIComponent(qa.dataset.questoesArt)}`; return; }
-  const pq = t.closest("[data-pasta-q]");
-  if (pq) { gravarLS("pasta-questoes", pq.dataset.pastaQ); telaQuestoes(); return; }
+  const mp = t.closest("[data-menu-pasta]");
+  if (mp) { menuPasta(mp.dataset.menuPasta, () => rotear()); return; }
   const mc = t.closest("[data-menu-cad]");
   if (mc) { menuCaderno(mc.dataset.menuCad); return; }
   const iq = t.closest("[data-ir-q]");
   if (iq && sessao) { telaCaderno(sessao.tipo, sessao.chaveOrig, "questoes", iq.dataset.irQ); window.scrollTo(0, 0); return; }
   const menuL = t.closest("[data-menu-lei]");
   if (menuL) { menuLei(menuL.dataset.menuLei); return; }
-  const chip = t.closest("[data-pasta]");
-  if (chip) { gravarLS("pasta-selecionada", chip.dataset.pasta); telaAcervo(); return; }
-  if (t.closest("#nova-pasta")) {
-    const nome = prompt("Nome da pasta (ex.: Polícia Penal, Direito Penal):");
-    if (nome && nome.trim()) { const p = await salvarItem({ id: uid(), tipo: "pasta", nome: nome.trim(), leis: [] }); gravarLS("pasta-selecionada", p.id); telaAcervo(); }
-    return;
-  }
-  if (t.closest("#editar-pastas")) { painelEditarPastas(); return; }
   const href = t.closest("[data-href]");
   if (href) { fecharPainel(); location.hash = href.dataset.href; return; }
   const ed = t.closest("[data-editar-nota]");
@@ -2344,7 +2389,7 @@ async function rotear() {
   $("#conteudo").classList.remove("modo-leitor");
   if (partes[0] === "alteracoes" && partes[1]) return telaAlteracoes(partes[1]);
   if (partes[0] === "pesquisar") return telaPesquisar();
-  if (partes[0] === "questoes") return telaQuestoes();
+  if (partes[0] === "questoes") return telaQuestoes(partes[1] === "pasta" ? partes[2] : null);
   if (partes[0] === "estatisticas") return telaEstatisticasGerais();
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
   if (partes[0] === "questoes-artigo" && partes[2]) return telaCaderno("artigo", partes[1] + "|" + partes[2], "questoes");
@@ -2353,6 +2398,8 @@ async function rotear() {
     return telaEstudos(partes[1] || "anotacoes");
   }
   if (partes[0] === "ajustes") return telaAjustes();
+  if (partes[0] === "acervo" && partes[1] === "pasta") return telaAcervo(partes[2]);
+  if (partes[0] === "acervo" && partes[1] === "favoritas") return telaAcervo("favoritas");
   return telaAcervo();
 }
 window.addEventListener("hashchange", rotear);
