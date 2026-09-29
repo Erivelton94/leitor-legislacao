@@ -4,10 +4,10 @@
   "numero": "Lei nº 7.210/1984",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:08:47-03:00",
+  "ultima_tentativa": "2026-09-29T03:10:26-03:00",
   "status": "ATUALIZADA",
   "mensagem": "Texto relido com o leitor atualizado (219 artigos). Isso não é alteração da lei.",
-  "ultima_verificacao_ok": "2026-09-29T02:08:47-03:00",
+  "ultima_verificacao_ok": "2026-09-29T03:10:26-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 300.3,
    "fonte_envia_etag": true,
@@ -24,10 +24,10 @@
   "numero": "Decreto-Lei nº 2.848/1940",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:08:53-03:00",
+  "ultima_tentativa": "2026-09-29T03:10:31-03:00",
   "status": "ATUALIZADA",
   "mensagem": "Texto relido com o leitor atualizado (434 artigos). Isso não é alteração da lei.",
-  "ultima_verificacao_ok": "2026-09-29T02:08:53-03:00",
+  "ultima_verificacao_ok": "2026-09-29T03:10:31-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 667.3,
    "fonte_envia_etag": true,
@@ -44,7 +44,7 @@
   "numero": "Lei nº 11.340/2006",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:08:59-03:00",
+  "ultima_tentativa": "2026-09-29T03:10:36-03:00",
   "status": "ATUALIZADA",
   "mensagem": "Texto relido com o leitor atualizado (57 artigos). Isso não é alteração da lei.",
   "diagnostico": {
@@ -57,6 +57,6 @@
   "versao": "2026-09-29",
   "n_artigos": 57,
   "hash": "075d6cf82e794e3a7c578678ca8117d7320aacde9a90d1a7c01226b22dad3d11",
-  "ultima_verificacao_ok": "2026-09-29T02:08:59-03:00"
+  "ultima_verificacao_ok": "2026-09-29T03:10:36-03:00"
  }
 }

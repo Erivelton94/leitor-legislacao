@@ -7,8 +7,16 @@
  "hash": "304db4459b69a41aee6de3914ee8f78645366e998c95bb3a09619d6bd2b55e57",
  "etag": "\"4ab17-652a5af76ffc3\"",
  "last_modified": "Mon, 25 May 2026 15:03:47 GMT",
- "versao_leitor": 3,
- "ultimo_download_completo": "2026-09-29T02:08:47-03:00",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 7.210, DE 11 DE JULHO DE 1984.",
+  "(Vide Decreto nº 6.049, de 2007)",
+  "(Vide Decreto nº 7.627, de 2011)",
+  "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+  "TÍTULO I",
+  "Do Objeto e da Aplicação da Lei de Execução Penal"
+ ],
+ "ultimo_download_completo": "2026-09-29T03:10:26-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º - A execução penal tem por objetivo efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado.",
