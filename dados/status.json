@@ -4,26 +4,38 @@
   "numero": "Lei nº 7.210/1984",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T01:32:12-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Não foi possível acessar a fonte: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ultima_tentativa": "2026-09-29T01:54:17-03:00",
+  "status": "ATUALIZADA",
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304).",
+  "ultima_verificacao_ok": "2026-09-29T01:54:17-03:00"
  },
  "codigo-penal": {
   "nome": "Código Penal",
   "numero": "Decreto-Lei nº 2.848/1940",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T01:32:48-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Não foi possível acessar a fonte: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ultima_tentativa": "2026-09-29T01:54:22-03:00",
+  "status": "ATUALIZADA",
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304).",
+  "ultima_verificacao_ok": "2026-09-29T01:54:22-03:00"
  },
  "maria-da-penha": {
   "nome": "Lei Maria da Penha",
   "numero": "Lei nº 11.340/2006",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T01:33:24-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Não foi possível acessar a fonte: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ultima_tentativa": "2026-09-29T01:54:26-03:00",
+  "status": "ATUALIZADA",
+  "mensagem": "Primeira carga concluída: 57 artigos lidos.",
+  "diagnostico": {
+   "tamanho_pagina_kb": 258.3,
+   "fonte_envia_etag": true,
+   "fonte_envia_last_modified": true,
+   "artigos_com_numero_repetido": 0
+  },
+  "versao": "2026-09-29",
+  "n_artigos": 57,
+  "hash": "e479b4bb2b0a55d41759869b8665dfa41d539bc837c35301eaf556ab3fc416c6",
+  "ultima_verificacao_ok": "2026-09-29T01:54:26-03:00"
  }
 }
