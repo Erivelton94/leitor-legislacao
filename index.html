@@ -295,6 +295,60 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .bloco-alteracao h3 { font-size: 16px; margin: 0 0 4px; }
 .bloco-alteracao .meta { font-size: 13px; color: var(--tinta-2); margin-bottom: 8px; line-height: 1.45; }
 .bloco-alteracao a, .cartao a { color: var(--oliva); font-weight: 600; }
+/* ---------- questões ---------- */
+.barra-prog { display: block; height: 6px; border-radius: 3px; background: var(--fio); overflow: hidden; margin: 4px 0 2px; max-width: 320px; }
+.barra-prog span { display: block; height: 100%; background: var(--oliva); }
+.q-cab { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 0; border-bottom: 1px solid var(--fio); }
+.cronometro { font-size: 14px; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.q-meta { font-size: 14px; color: var(--tinta-2); margin: 10px 0 2px; line-height: 1.5; }
+.q-meta a { color: var(--oliva); font-weight: 600; }
+.q-prova { font-size: 14px; font-weight: 600; margin: 2px 0 10px; }
+.q-enunciado { font-family: var(--serif); font-size: calc(var(--fonte) + 1px); line-height: 1.6; }
+.q-enunciado p { margin: 0 0 0.7em; }
+.alternativas { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 8px; }
+.alternativas li { display: flex; gap: 6px; align-items: stretch; }
+.alt { flex: 1; display: flex; gap: 12px; align-items: flex-start; text-align: left; border: 1px solid var(--fio); background: var(--folha);
+  border-radius: 12px; padding: 12px 14px; font-family: var(--serif); font-size: var(--fonte); line-height: 1.5; }
+.alt .letra { flex: none; width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--tinta-2); display: inline-flex;
+  align-items: center; justify-content: center; font-family: var(--sans); font-size: 14px; font-weight: 700; margin-top: 1px; }
+.alt.marcada { border-color: var(--oliva); box-shadow: inset 0 0 0 1px var(--oliva); }
+.alt.marcada .letra { background: var(--oliva); color: var(--papel); border-color: var(--oliva); }
+.alt.certa { background: var(--add); border-color: var(--ok); }
+.alt.certa .letra { background: var(--ok); border-color: var(--ok); color: #fff; }
+.alt.errada { background: var(--del); border-color: var(--alt); }
+.alt.errada .letra { background: var(--alt); border-color: var(--alt); color: #fff; }
+.alt.riscada .alt-texto { text-decoration: line-through; opacity: 0.45; }
+.alternativas.ce { grid-template-columns: 1fr 1fr; max-width: 420px; }
+.riscar { flex: none; width: 44px; border: 1px solid var(--fio); background: var(--folha); border-radius: 12px; color: var(--tinta-2); }
+.acoes-q { margin: 6px 0; } .acoes-q .botao { min-width: 160px; }
+.botao:disabled { opacity: 0.45; }
+.res-q { font-size: 18px; font-weight: 600; margin: 12px 0; } .res-q.ok { color: var(--ok); } .res-q.erro { color: var(--alt); }
+.res-q .link { font-size: 16px; color: var(--oliva); }
+.txt-ok { color: var(--ok); } .txt-erro { color: var(--alt); }
+.barra-q { display: flex; flex-wrap: wrap; gap: 6px; border-top: 1px solid var(--fio); padding-top: 10px; margin-top: 16px; }
+.barra-q .icone-btn { border: 1px solid var(--fio); background: var(--folha); }
+.barra-q .icone-btn:disabled { opacity: 0.4; }
+.grupo-assunto { font-size: 15px; margin: 22px 0 6px; }
+.sit { display: inline-block; width: 1.2em; font-weight: 700; } .sit-certa { color: var(--ok); } .sit-errada { color: var(--alt); } .sit-nao { color: var(--tinta-2); }
+.grade-gabarito { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 6px; }
+.cel-gab { border: 1px solid var(--fio); background: var(--folha); border-radius: 8px; padding: 6px 4px; display: grid; justify-items: center; font-size: 12px; color: var(--tinta-2); }
+.cel-gab strong { font-size: 16px; color: var(--tinta); }
+.cel-gab.certa { background: var(--add); border-color: var(--ok); } .cel-gab.errada { background: var(--del); border-color: var(--alt); }
+.numeros-desemp { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin: 8px 0; }
+.numeros-desemp div { background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 12px; display: grid; gap: 2px; }
+.numeros-desemp strong { font-family: var(--serif); font-size: 26px; font-weight: 600; }
+.numeros-desemp span { font-size: 13px; color: var(--tinta-2); }
+.tabela-desemp { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(80px, 1fr) auto; gap: 8px 12px; align-items: center; font-size: 14px; }
+.linha-desemp { display: contents; }
+.barra-desemp { display: flex; height: 10px; border-radius: 5px; background: var(--fio); overflow: hidden; }
+.b-ok { background: var(--ok); } .b-erro { background: var(--alt); }
+.num-desemp { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.grafico-dias { width: 100%; max-width: 700px; height: auto; display: block; margin-top: 6px; }
+.ind-questoes { border: 1px solid var(--fio); background: var(--folha); color: var(--tinta-2); border-radius: 999px;
+  font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 3px 10px; margin: 2px 0 6px 0.6em; cursor: pointer; }
+.ind-questoes::after { content: attr(data-rotulo); }
+@media (max-width: 700px) { .tabela-desemp { display: block; } .linha-desemp { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; margin-bottom: 10px; } .barra-desemp { grid-column: 1 / -1; grid-row: 2; } }
+
 </style>
 </head>
 <body>
@@ -782,6 +836,17 @@ function aplicarMarcacoes(leiId, div) {
     pintar(div, loc.ini, loc.fim, `grifo g-${g.cor}${comNota ? " com-nota" : ""}`, { grifo: g.id });
   }
   div.querySelector(".ind-notas")?.remove();
+  div.querySelector(".ind-questoes")?.remove();
+  const qs = questoesDoArtigo(leiId, art);
+  if (qs.length) {
+    const v = qs[0].vinculo;
+    const b = document.createElement("button");
+    b.className = "ind-questoes";
+    b.dataset.questoesArt = art;
+    b.dataset.rotulo = `Questões: ${qs.length}` + (v.de !== v.ate ? ` (assunto dos ${rotuloVinculo(v)})` : "");
+    b.setAttribute("aria-label", `${qs.length} questões sobre este artigo`);
+    div.appendChild(b);
+  }
   if (notas.length) {
     const b = document.createElement("button");
     b.className = "ind-notas" + (notas.some(artigoMudou) ? " atencao" : "");
@@ -1099,6 +1164,9 @@ async function telaPesquisar() {
     for (const id of ids) if (estado.leis[id]) res = res.concat(buscarEm(estado.leis[id], id, termo, 60));
     let h = "";
     if (notas.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Minhas anotações relacionadas</h2>` + cartoesAnotacoes(notas, termo);
+    const qs = [...estado.q.values()].filter(q => semAcento(q.enunciado.join(" ") + " " + q.alternativas.map(a => a.texto).join(" ")).includes(alvo)).slice(0, 40);
+    if (qs.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Questões (${qs.length})</h2><ul class="resultados">${qs.map(q => `<li><button data-href="#/caderno/${esc(q.caderno)}/questao/${esc(q.id)}">
+      <span class="res-titulo">${esc(q.assunto)} — ${esc(q.banca)} ${q.ano}</span><span class="res-trecho">${destacar(q.enunciado.join(" ").slice(0, 220), termo)}…</span></button></li>`).join("")}</ul>`;
     h += `<h2 style="font-size:15px;margin:18px 0 0">Nas leis</h2><p class="contagem">${res.length ? res.length + " artigo(s) encontrado(s)" : "Nada encontrado nas leis do acervo."}</p>` + listaResultados(res, true);
     $("#res-global").innerHTML = h;
     ativarMiniaturas($("#res-global"));
@@ -1135,6 +1203,17 @@ function cartoesAnotacoes(lista, termo = "") {
     <div class="linha-acoes"><button data-editar-nota="${esc(n.id)}">Editar</button><button data-apagar-nota="${esc(n.id)}">Apagar</button></div>
   </li>`).join("")}</ul>`;
 }
+function origemQuestao(qid) {
+  const q = estado.q.get(qid);
+  if (!q) return `<span class="contagem">Questão de um caderno que não está neste aparelho.</span>`;
+  return `<button class="origem" data-href="#/caderno/${esc(q.caderno)}/questao/${esc(q.id)}">★ Questão — ${esc(q.assunto)} · ${esc(q.banca)} ${q.ano}</button>
+    <div class="citacao">${esc(q.enunciado.join(" ").slice(0, 180))}…</div>`;
+}
+function cartoesNotasQ(lista) {
+  return `<ul class="lista-cartoes">${[...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm)).map(n => `<li class="cartao-nota">
+    ${origemQuestao(n.q).replace("★ ", "")}<div class="corpo">${esc(n.nota)}</div>
+    <div class="meta">Comentário de ${dataHora(n.atualizadoEm)}</div></li>`).join("")}</ul>`;
+}
 function cartoesGrifos(lista) {
   lista = [...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
   return `<ul class="lista-cartoes">${lista.map(g => `<li class="cartao-nota">
@@ -1147,7 +1226,7 @@ function cartoesGrifos(lista) {
 function cartoesFavoritos(lista) {
   lista = [...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
   return `<ul class="lista-cartoes">${lista.map(f => `<li class="cartao-nota">
-    ${f.alvo === "lei" ? `<button class="origem" data-href="#/lei/${esc(f.lei)}">★ ${esc(nomeLei(f.lei))} (lei inteira)</button>` : "★ " + origemHTML(f)}
+    ${f.alvo === "questao" ? origemQuestao(f.q) : f.alvo === "lei" ? `<button class="origem" data-href="#/lei/${esc(f.lei)}">★ ${esc(nomeLei(f.lei))} (lei inteira)</button>` : "★ " + origemHTML(f)}
     ${f.texto ? `<div class="citacao">“${esc(f.texto)}”</div>` : ""}
     ${f.alvo === "trecho" ? alertaMudanca(f) : ""}
     <div class="meta">Favoritado em ${dataHora(f.criadoEm)}</div>
@@ -1182,7 +1261,9 @@ function telaEstudos(aba = "anotacoes", filtroLei = "") {
     let h;
     if (abaAtual === "anotacoes") {
       const l = itens("anotacao", ok);
-      h = l.length ? cartoesAnotacoes(l, $("#busca-estudos").value) : `<p class="vazio">Nenhuma anotação${termo || lei ? " com esses filtros" : ""}. Para anotar, selecione um trecho na leitura ou toque no número de um artigo.</p>`;
+      const nq = lei || soMudados() ? [] : itens("notaq", n => !termo || semAcento(n.nota + " " + (estado.q.get(n.q)?.enunciado.join(" ") || "")).includes(termo));
+      h = l.length ? cartoesAnotacoes(l, $("#busca-estudos").value) : (nq.length ? "" : `<p class="vazio">Nenhuma anotação${termo || lei ? " com esses filtros" : ""}. Para anotar, selecione um trecho na leitura ou toque no número de um artigo.</p>`);
+      if (nq.length) h += `<h3 class="grupo-assunto">Comentários em questões</h3>` + cartoesNotasQ(nq);
     } else if (abaAtual === "grifos") {
       const l = itens("grifo", ok);
       h = l.length ? cartoesGrifos(l) : `<p class="vazio">Nenhum grifo${termo || lei ? " com esses filtros" : ""}. Selecione um trecho na leitura e escolha uma cor.</p>`;
@@ -1204,14 +1285,473 @@ function telaEstudos(aba = "anotacoes", filtroLei = "") {
   render();
 }
 
-/* ---------- Questões (chega na terceira entrega) ---------- */
+/* =====================================================================
+   QUESTÕES
+   Cadernos vêm de dados/questoes/ (só baixa quando o hash muda).
+   Cada resposta sua é um item "resposta" (entra no backup).
+   ===================================================================== */
+estado.cadernos = {};
+estado.q = new Map();
+
+async function carregarQuestoes() {
+  const cache = await caches.open(CACHE_DADOS);
+  let indice = null;
+  if (!estado.offline) {
+    try {
+      const r = await buscarComTempo("dados/questoes/indice.json");
+      await cache.put("dados/questoes/indice.json", r.clone());
+      indice = await r.json();
+    } catch { /* ainda não há cadernos publicados */ }
+  }
+  if (!indice) { const c = await cache.match("dados/questoes/indice.json"); indice = c ? await c.json() : { cadernos: [] }; }
+  estado.indiceQ = indice;
+  const info = lerLS("info-cadernos", {});
+  for (const cad of indice.cadernos) {
+    const url = "dados/questoes/" + cad.arquivo;
+    const guardado = await cache.match(url);
+    if (guardado && info[cad.id] === cad.hash) { estado.cadernos[cad.id] = await guardado.json(); continue; }
+    if (!estado.offline) {
+      try {
+        const r = await buscarComTempo(url, 30000);
+        await cache.put(url, r.clone());
+        estado.cadernos[cad.id] = await r.json();
+        info[cad.id] = cad.hash;
+        continue;
+      } catch {}
+    }
+    if (guardado) estado.cadernos[cad.id] = await guardado.json();
+  }
+  gravarLS("info-cadernos", info);
+  estado.q = new Map();
+  for (const c of Object.values(estado.cadernos)) for (const q of c.questoes) { q.caderno = c.id; estado.q.set(q.id, q); }
+}
+
+/* ---------- respostas e situação ---------- */
+function mapaRespostas() {
+  const m = new Map();   // qid -> [respostas em ordem]
+  for (const r of itens("resposta")) { if (!m.has(r.q)) m.set(r.q, []); m.get(r.q).push(r); }
+  for (const l of m.values()) l.sort((a, b) => a.em.localeCompare(b.em));
+  return m;
+}
+function situacaoQ(mapa, qid) {
+  const l = mapa.get(qid);
+  if (!l || !l.length) return "nao";
+  return l[l.length - 1].correta ? "certa" : "errada";
+}
+const idFavQ = qid => `fav|q|${qid}`;
+const idNotaQ = qid => `nq|${qid}`;
+function provaQ(q) { return [q.banca, q.ano, [q.cargo, q.orgao, q.area].filter(Boolean).join(" · ")].join(" — "); }
+function rotuloVinculo(v) { return v.de === v.ate ? `art. ${v.de}` : `arts. ${v.de} a ${v.ate}`; }
+function questoesDoArtigo(leiId, art) {
+  return [...estado.q.values()].filter(q => q.vinculo && q.vinculo.lei === leiId &&
+    compararArtigos(q.vinculo.de, art) <= 0 && compararArtigos(art, q.vinculo.ate) <= 0);
+}
+
+/* ---------- sessões: um caderno ou as questões de um artigo ---------- */
+function montarSessao(tipo, chave) {
+  if (tipo === "caderno") {
+    const c = estado.cadernos[chave];
+    if (!c) return null;
+    return { chave: "c:" + chave, titulo: c.titulo, materia: c.materia, base: [...c.questoes].sort((a, b) => a.ordem - b.ordem),
+             assuntos: c.assuntos, voltar: "#/questoes", rota: `#/caderno/${chave}` };
+  }
+  const [lei, art] = chave.split("|");
+  const base = questoesDoArtigo(lei, art);
+  const assuntos = [...new Set(base.map(q => q.assunto))];
+  return { chave: "a:" + chave, titulo: `Questões — ${rotuloArt(art)} (${nomeLei(lei)})`, materia: "", base, assuntos,
+           voltar: `#/lei/${lei}/${encodeURIComponent(art)}`, rota: `#/questoes-artigo/${lei}/${encodeURIComponent(art)}` };
+}
+function filtrosDe(s) { return Object.assign({ assunto: "", situacao: "", banca: "" }, lerLS("filtros-q", {})[s.chave] || {}); }
+function gravarFiltros(s, f) { const t = lerLS("filtros-q", {}); t[s.chave] = f; gravarLS("filtros-q", t); }
+function listaFiltrada(s, mapa) {
+  const f = filtrosDe(s);
+  return s.base.filter(q => (!f.assunto || q.assunto === f.assunto) && (!f.banca || q.banca === f.banca) &&
+    (!f.situacao || (f.situacao === "favoritas" ? ehFavorito(idFavQ(q.id)) : situacaoQ(mapa, q.id) === f.situacao)));
+}
+
+/* ---------- tela inicial de Questões ---------- */
 function telaQuestoes() {
   definirTopo({ titulo: "Questões" });
   marcarAba("questoes");
-  $("#conteudo").innerHTML = `<div class="vazio">
-    <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
-    <p>Aqui ficarão seus cadernos de questões, com resolução, gabarito, estatísticas de desempenho e ligação direta com os artigos das leis.</p>
-    <p>Esta área será ativada na próxima etapa do app.</p></div>`;
+  const cads = Object.values(estado.cadernos);
+  if (!cads.length) {
+    $("#conteudo").innerHTML = `<div class="vazio">
+      <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
+      <p>${estado.offline ? "Sem conexão: os cadernos aparecem aqui depois de baixados uma vez com internet." : "Os cadernos aparecem aqui quando forem adicionados à pasta dados/questoes do repositório."}</p></div>`;
+    return;
+  }
+  const mapa = mapaRespostas();
+  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  let sel = lerLS("pasta-questoes", "todas");
+  if (sel !== "todas" && !pastas.some(p => p.id === sel)) sel = "todas";
+  const pasta = pastas.find(p => p.id === sel);
+  const visiveis = sel === "todas" ? cads : cads.filter(c => (pasta.cadernos || []).includes(c.id));
+  const geral = estatisticas([...estado.q.values()], mapa);
+  let h = `<div class="pastas">
+    <button class="chip" data-pasta-q="todas" aria-pressed="${sel === "todas"}">Todos os cadernos</button>
+    ${pastas.map(p => `<button class="chip" data-pasta-q="${esc(p.id)}" aria-pressed="${sel === p.id}">${esc(p.nome)} (${(p.cadernos || []).filter(id => estado.cadernos[id]).length})</button>`).join("")}
+  </div>
+  <div class="secao"><div class="cartao resumo-geral">
+    <p><strong>Seu desempenho geral:</strong> ${geral.resolvidas} de ${geral.total} questões resolvidas · ${geral.certas} acertos · ${geral.erradas} erros${geral.resolvidas ? ` · <strong>${geral.pct}% de acerto</strong>` : ""}</p>
+    <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a></div>
+  </div></div>`;
+  if (!visiveis.length) h += `<p class="vazio">Nenhum caderno nesta pasta. Use o botão ⋯ de um caderno para colocá-lo aqui.</p>`;
+  h += `<ul class="acervo">`;
+  visiveis.forEach((c, i) => {
+    const e = estatisticas(c.questoes, mapa);
+    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
+      <button class="abrir" data-href="#/caderno/${esc(c.id)}">
+        <span class="lei-nome">${esc(c.titulo)}</span>
+        <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões · ${c.assuntos.length} assuntos</span>
+        <span class="barra-prog" aria-hidden="true"><span style="width:${e.total ? Math.round(100 * e.resolvidas / e.total) : 0}%"></span></span>
+        <span class="lei-verif">${e.resolvidas} resolvidas · ${e.certas} acertos · ${e.erradas} erros${e.resolvidas ? ` · ${e.pct}% de acerto` : ""}</span>
+      </button>
+      <button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do caderno">⋯</button></li>`;
+  });
+  $("#conteudo").innerHTML = h + "</ul>";
+}
+
+function menuCaderno(id) {
+  const c = estado.cadernos[id];
+  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  abrirPainel(`<h2>${esc(c.titulo)} ${botaoFechar}</h2>
+    <div class="acoes"><button id="c-zerar">Apagar minhas respostas deste caderno</button></div>
+    <h2 style="margin-top:18px">Pastas</h2>
+    ${pastas.length ? pastas.map(p => `<label class="linha-ajuste"><span>${esc(p.nome)}</span>
+      <input type="checkbox" data-pasta-cad="${esc(p.id)}" ${(p.cadernos || []).includes(id) ? "checked" : ""} style="width:22px;height:22px"></label>`).join("")
+      : '<p class="contagem">Você ainda não criou pastas. Crie pastas na tela Leis.</p>'}`);
+  $$("[data-pasta-cad]").forEach(cb => cb.onchange = async () => {
+    const p = estado.itens.get(cb.dataset.pastaCad);
+    p.cadernos = cb.checked ? [...new Set([...(p.cadernos || []), id])] : (p.cadernos || []).filter(x => x !== id);
+    await salvarItem(p); telaQuestoes();
+  });
+  $("#c-zerar").onclick = async () => {
+    const ids = new Set(c.questoes.map(q => q.id));
+    const rs = itens("resposta", r => ids.has(r.q));
+    if (!rs.length) { $("#c-zerar").textContent = "Não há respostas para apagar"; return; }
+    if (!confirm(`Apagar ${rs.length} resposta(s) deste caderno? Suas estatísticas deste caderno voltam a zero. Anotações e favoritos continuam.`)) return;
+    for (const r of rs) await apagarItem(r.id);
+    fecharPainel(); telaQuestoes();
+  };
+}
+
+/* ---------- caderno: abas Questões / Índice / Gabarito / Estatísticas ---------- */
+let sessao = null, cronometro = null;
+function telaCaderno(tipo, chave, aba = "questoes", qAlvo = null) {
+  sessao = montarSessao(tipo, chave);
+  if (!sessao) { $("#conteudo").innerHTML = `<p class="vazio">Caderno não encontrado neste aparelho.</p>`; return; }
+  definirTopo({ titulo: sessao.titulo, voltar: sessao.voltar });
+  $("#abas").classList.add("oculto");
+  const mapa = mapaRespostas();
+  const f = filtrosDe(sessao);
+  const bancas = [...new Set(sessao.base.map(q => q.banca))].sort();
+  const lista = listaFiltrada(sessao, mapa);
+  $("#conteudo").innerHTML = `<div class="secao">
+    <div class="filtros">
+      <div class="segmentado" id="abas-caderno">
+        ${[["questoes", "Questões"], ["indice", "Índice"], ["gabarito", "Gabarito"], ["estatisticas", "Estatísticas"]].map(([v, r]) =>
+          `<button data-aba-cad="${v}" aria-pressed="${aba === v}">${r}</button>`).join("")}
+      </div>
+    </div>
+    <div class="filtros">
+      <select class="campo" id="f-assunto"><option value="">Todos os assuntos (${sessao.base.length})</option>
+        ${sessao.assuntos.map(a => `<option value="${esc(a)}" ${f.assunto === a ? "selected" : ""}>${esc(a)} (${sessao.base.filter(q => q.assunto === a).length})</option>`).join("")}</select>
+      <select class="campo" id="f-situacao">
+        ${[["", "Todas"], ["nao", "Não resolvidas"], ["errada", "Que errei"], ["certa", "Que acertei"], ["favoritas", "★ Favoritas"]].map(([v, r]) =>
+          `<option value="${v}" ${f.situacao === v ? "selected" : ""}>${r}</option>`).join("")}</select>
+      ${bancas.length > 1 ? `<select class="campo" id="f-banca"><option value="">Todas as bancas</option>${bancas.map(b => `<option ${f.banca === b ? "selected" : ""}>${esc(b)}</option>`).join("")}</select>` : ""}
+    </div>
+    <div id="area-caderno"></div></div>`;
+  const aplicar = () => {
+    gravarFiltros(sessao, { assunto: $("#f-assunto").value, situacao: $("#f-situacao").value, banca: $("#f-banca")?.value || "" });
+    telaCaderno(tipo, chave, aba);
+  };
+  $("#f-assunto").onchange = aplicar; $("#f-situacao").onchange = aplicar;
+  if ($("#f-banca")) $("#f-banca").onchange = aplicar;
+  $$("[data-aba-cad]").forEach(b => b.onclick = () => telaCaderno(tipo, chave, b.dataset.abaCad));
+  sessao.tipo = tipo; sessao.chaveOrig = chave; sessao.lista = lista;
+  if (aba === "indice") return abaIndice(mapa);
+  if (aba === "gabarito") return abaGabarito(mapa);
+  if (aba === "estatisticas") return abaEstatisticas(lista, mapa, true);
+  abaQuestao(mapa, qAlvo);
+}
+
+function abaIndice(mapa) {
+  const l = sessao.lista;
+  if (!l.length) { $("#area-caderno").innerHTML = `<p class="vazio">Nenhuma questão com esses filtros.</p>`; return; }
+  const icone = { nao: "•", certa: "✓", errada: "✗" };
+  let h = "";
+  for (const a of sessao.assuntos) {
+    const qs = l.filter(q => q.assunto === a);
+    if (!qs.length) continue;
+    h += `<h3 class="grupo-assunto">${esc(a)} <span class="contagem">(${qs.length})</span></h3><ul class="resultados">`;
+    for (const q of qs) {
+      const s = situacaoQ(mapa, q.id);
+      h += `<li><button data-ir-q="${esc(q.id)}"><span class="res-titulo"><span class="sit sit-${s}">${icone[s]}</span> Questão ${l.indexOf(q) + 1}${ehFavorito(idFavQ(q.id)) ? " ★" : ""} — ${esc(q.banca)} · ${q.ano}</span>
+        <span class="res-trecho">${esc(q.enunciado.join(" ").slice(0, 150))}…</span></button></li>`;
+    }
+    h += "</ul>";
+  }
+  $("#area-caderno").innerHTML = h;
+}
+
+function abaGabarito(mapa) {
+  const l = sessao.lista;
+  const mostrar = sessionStorage.getItem("mostrar-gabarito") === "1";
+  let h = `<div class="acoes" style="margin:4px 0 12px"><button id="alt-gab">${mostrar ? "Esconder o gabarito" : "Mostrar o gabarito"}</button></div>`;
+  if (!mostrar) h += `<p class="contagem">O gabarito fica escondido para não atrapalhar quem ainda vai resolver. Suas respostas aparecem em verde (acerto) ou vermelho (erro).</p>`;
+  for (const a of sessao.assuntos) {
+    const qs = l.filter(q => q.assunto === a);
+    if (!qs.length) continue;
+    h += `<h3 class="grupo-assunto">${esc(a)}</h3><div class="grade-gabarito">`;
+    for (const q of qs) {
+      const rs = mapa.get(q.id);
+      const ult = rs && rs[rs.length - 1];
+      const cls = ult ? (ult.correta ? "certa" : "errada") : "";
+      h += `<button class="cel-gab ${cls}" data-ir-q="${esc(q.id)}"><span>${l.indexOf(q) + 1}</span><strong>${mostrar ? esc(q.gabarito) : ult ? esc(ult.marcada) : "–"}</strong></button>`;
+    }
+    h += "</div>";
+  }
+  $("#area-caderno").innerHTML = h;
+  $("#alt-gab").onclick = () => { sessionStorage.setItem("mostrar-gabarito", mostrar ? "0" : "1"); abaGabarito(mapa); };
+}
+
+/* ---------- resolução de uma questão ---------- */
+let riscadas = {};
+let inicioQuestao = 0;
+function abaQuestao(mapa, qAlvo) {
+  const l = sessao.lista;
+  if (!l.length) { $("#area-caderno").innerHTML = `<p class="vazio">Nenhuma questão com esses filtros. Mude o assunto ou a situação acima.</p>`; return; }
+  const pos = lerLS("pos-q", {});
+  let i = qAlvo ? l.findIndex(q => q.id === qAlvo) : l.findIndex(q => q.id === pos[sessao.chave]);
+  if (i < 0) i = 0;
+  mostrarQuestao(i, mapa);
+}
+
+function mostrarQuestao(i, mapa = mapaRespostas()) {
+  const l = sessao.lista;
+  const q = l[i];
+  const pos = lerLS("pos-q", {}); pos[sessao.chave] = q.id; gravarLS("pos-q", pos);
+  const e = estatisticas(l, mapa);
+  const rs = mapa.get(q.id) || [];
+  const ult = rs[rs.length - 1];
+  const temLei = q.vinculo && estado.status[q.vinculo.lei];
+  const fav = ehFavorito(idFavQ(q.id));
+  const nota = estado.itens.get(idNotaQ(q.id));
+  riscadas[q.id] = riscadas[q.id] || [];
+  inicioQuestao = Date.now();
+  $("#area-caderno").innerHTML = `<article class="questao" data-q="${esc(q.id)}">
+    <div class="q-cab">
+      <div><strong>Questão ${i + 1} de ${l.length}</strong>
+        <span class="contagem">(${e.resolvidas} resolvidas, <span class="txt-ok">${e.certas} acertos</span> e <span class="txt-erro">${e.erradas} erros</span>)</span></div>
+      <div class="cronometro" id="cronometro" title="Tempo de estudo nesta sessão">⏱ <span id="crono-t">00:00</span> <button class="link" id="crono-p">pausar</button></div>
+    </div>
+    <p class="q-meta">Matéria: ${esc(q.materia)} · Assunto: ${esc(q.assunto)}${q.vinculo ? (temLei
+      ? ` · <a href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a>`
+      : ` · <span class="contagem">(${esc(rotuloVinculo(q.vinculo))} — lei fora do acervo)</span>`) : ""}</p>
+    <p class="q-prova">${esc(provaQ(q))}</p>
+    ${ult ? `<p class="contagem">Última resposta em ${dataHora(ult.em)}: marcou ${esc(ult.marcada)} — ${ult.correta ? '<span class="txt-ok">acertou</span>' : '<span class="txt-erro">errou</span>'}${rs.length > 1 ? ` · ${rs.length} tentativas` : ""}</p>` : ""}
+    <div class="q-enunciado">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <ul class="alternativas ${q.tipo === "CE" ? "ce" : ""}" role="radiogroup" aria-label="Alternativas">
+      ${q.alternativas.map(a => `<li><button class="alt ${riscadas[q.id].includes(a.letra) ? "riscada" : ""}" role="radio" aria-checked="false" data-letra="${esc(a.letra)}">
+        <span class="letra">${esc(q.tipo === "CE" ? (a.letra === "C" ? "C" : "E") : a.letra)}</span><span class="alt-texto">${esc(a.texto)}</span></button>
+        ${q.tipo === "CE" ? "" : `<button class="riscar" data-riscar="${esc(a.letra)}" aria-label="Riscar a alternativa ${esc(a.letra)}" title="Riscar alternativa">✂</button>`}</li>`).join("")}
+    </ul>
+    <div class="acoes-q"><button class="botao primario" id="btn-responder" disabled>Responder</button></div>
+    <div id="resultado-q" aria-live="polite"></div>
+    <div class="barra-q">
+      <button class="icone-btn" data-nav="-1" aria-label="Questão anterior" ${i === 0 ? "disabled" : ""}>← Anterior</button>
+      <button class="icone-btn" data-nav="1" aria-label="Próxima questão" ${i === l.length - 1 ? "disabled" : ""}>Próxima →</button>
+      <button class="icone-btn" id="q-aleatoria" aria-label="Questão aleatória">Aleatória</button>
+      <button class="icone-btn" id="q-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
+      <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Minha anotação" : "✎ Anotar"}</button>
+    </div>
+  </article>`;
+  iniciarCronometro();
+  let marcada = null;
+  $$(".alt").forEach(b => b.onclick = () => {
+    if ($("#btn-responder").dataset.respondida) return;
+    marcada = b.dataset.letra;
+    $$(".alt").forEach(x => { x.classList.toggle("marcada", x === b); x.setAttribute("aria-checked", x === b); });
+    $("#btn-responder").disabled = false;
+  });
+  $$("[data-riscar]").forEach(b => b.onclick = () => {
+    const letra = b.dataset.riscar;
+    const r = riscadas[q.id];
+    riscadas[q.id] = r.includes(letra) ? r.filter(x => x !== letra) : [...r, letra];
+    b.previousElementSibling.classList.toggle("riscada");
+  });
+  $("#btn-responder").onclick = async () => {
+    if (!marcada) return;
+    const correta = marcada === q.gabarito;
+    const tempo = Math.min(1800, Math.round((Date.now() - inicioQuestao) / 1000));
+    await salvarItem({ id: uid(), tipo: "resposta", q: q.id, caderno: q.caderno, marcada, correta, em: agoraISO(), tempo });
+    const btn = $("#btn-responder");
+    btn.dataset.respondida = "1"; btn.textContent = "Refazer"; btn.disabled = false;
+    btn.onclick = () => mostrarQuestao(i);
+    $$(".alt").forEach(x => {
+      if (x.dataset.letra === q.gabarito) x.classList.add("certa");
+      else if (x.dataset.letra === marcada) x.classList.add("errada");
+    });
+    const letraGab = q.tipo === "CE" ? (q.gabarito === "C" ? "Certo" : "Errado") : q.gabarito;
+    $("#resultado-q").innerHTML = correta
+      ? `<p class="res-q ok">✓ Você acertou! <button class="link" id="ver-resolucao">Ver resolução</button></p>`
+      : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraGab)}</strong>. <button class="link" id="ver-resolucao">Ver resolução</button></p>`;
+    $("#ver-resolucao").onclick = () => mostrarResolucao(q);
+    const m2 = mapaRespostas();
+    const e2 = estatisticas(l, m2);
+    $(".q-cab .contagem").innerHTML = `(${e2.resolvidas} resolvidas, <span class="txt-ok">${e2.certas} acertos</span> e <span class="txt-erro">${e2.erradas} erros</span>)`;
+  };
+  $$("[data-nav]").forEach(b => b.onclick = () => { mostrarQuestao(i + Number(b.dataset.nav)); window.scrollTo(0, 0); });
+  $("#q-aleatoria").onclick = () => {
+    const m = mapaRespostas();
+    const pendentes = l.map((x, k) => k).filter(k => k !== i && situacaoQ(m, l[k].id) === "nao");
+    const pool = pendentes.length ? pendentes : l.map((x, k) => k).filter(k => k !== i);
+    if (pool.length) { mostrarQuestao(pool[Math.floor(Math.random() * pool.length)]); window.scrollTo(0, 0); }
+  };
+  $("#q-fav").onclick = async () => {
+    await alternarFavorito(idFavQ(q.id), { alvo: "questao", q: q.id, caderno: q.caderno });
+    const f = ehFavorito(idFavQ(q.id));
+    $("#q-fav").textContent = f ? "★ Favorita" : "☆ Favoritar";
+    $("#q-fav").setAttribute("aria-pressed", f);
+  };
+  $("#q-nota").onclick = () => mostrarResolucao(q, true);
+}
+
+function mostrarResolucao(q, focarNota = false) {
+  const nota = estado.itens.get(idNotaQ(q.id));
+  const letraGab = q.tipo === "CE" ? (q.gabarito === "C" ? "Certo" : "Errado") : q.gabarito;
+  abrirPainel(`<h2>Resolução ${botaoFechar}</h2>
+    <p><strong>Gabarito: ${esc(letraGab)}</strong></p>
+    ${q.vinculo && estado.status[q.vinculo.lei] ? `<div class="acoes" style="margin-bottom:12px"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
+    <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Ele fica guardado e entra no backup.</p>
+    <textarea class="campo" id="nota-q" placeholder="Ex.: a qualificadora alcança parente consanguíneo só até o 3º grau (art. 121, § 2º, VII).">${esc(nota && !nota.apagado ? nota.nota : "")}</textarea>
+    <div class="acoes" style="margin-top:10px"><button class="botao primario" id="salvar-nota-q">Salvar comentário</button></div>`);
+  if (focarNota) $("#nota-q").focus();
+  $("#salvar-nota-q").onclick = async () => {
+    const texto = $("#nota-q").value.trim();
+    if (texto) await salvarItem({ id: idNotaQ(q.id), tipo: "notaq", q: q.id, caderno: q.caderno, nota: texto });
+    else if (nota && !nota.apagado) await apagarItem(idNotaQ(q.id));
+    fecharPainel();
+    const btn = $("#q-nota");
+    if (btn) btn.textContent = texto ? "✎ Minha anotação" : "✎ Anotar";
+  };
+}
+
+/* cronômetro da sessão de estudo (pausável) */
+function iniciarCronometro() {
+  if (!cronometro || cronometro.sessao !== sessao.chave) cronometro = { sessao: sessao.chave, acumulado: 0, desde: Date.now(), pausado: false };
+  const pintar = () => {
+    const el = $("#crono-t");
+    if (!el) return;
+    const s = Math.floor((cronometro.acumulado + (cronometro.pausado ? 0 : Date.now() - cronometro.desde)) / 1000);
+    const hh = Math.floor(s / 3600), mm = Math.floor(s / 60) % 60, ss = s % 60;
+    el.textContent = (hh ? String(hh).padStart(2, "0") + ":" : "") + String(mm).padStart(2, "0") + ":" + String(ss).padStart(2, "0");
+    $("#crono-p").textContent = cronometro.pausado ? "continuar" : "pausar";
+  };
+  clearInterval(cronometro.intervalo);
+  cronometro.intervalo = setInterval(pintar, 1000);
+  pintar();
+  $("#crono-p").onclick = () => {
+    if (cronometro.pausado) { cronometro.desde = Date.now(); cronometro.pausado = false; }
+    else { cronometro.acumulado += Date.now() - cronometro.desde; cronometro.pausado = true; }
+    pintar();
+  };
+}
+
+/* ---------- estatísticas ---------- */
+function estatisticas(lista, mapa) {
+  const ids = new Set(lista.map(q => q.id));
+  let resolvidas = 0, certas = 0, erradas = 0, tentativas = 0, tempo = 0;
+  const porAssunto = {}, porBanca = {}, porDia = {}, erros = [];
+  for (const q of lista) {
+    const rs = mapa.get(q.id) || [];
+    const pa = porAssunto[q.assunto] = porAssunto[q.assunto] || { total: 0, resolvidas: 0, certas: 0, erradas: 0 };
+    const pb = porBanca[q.banca] = porBanca[q.banca] || { total: 0, resolvidas: 0, certas: 0, erradas: 0 };
+    pa.total++; pb.total++;
+    if (!rs.length) continue;
+    const ult = rs[rs.length - 1];
+    resolvidas++; pa.resolvidas++; pb.resolvidas++;
+    if (ult.correta) { certas++; pa.certas++; pb.certas++; } else { erradas++; pa.erradas++; pb.erradas++; }
+    const nErros = rs.filter(r => !r.correta).length;
+    if (nErros) erros.push({ q, nErros, tentativas: rs.length });
+    for (const r of rs) {
+      if (!ids.has(r.q)) continue;
+      tentativas++; tempo += r.tempo || 0;
+      const d = new Date(r.em).toLocaleDateString("sv-SE");   // dia no fuso do aparelho
+      const pd = porDia[d] = porDia[d] || { certas: 0, erradas: 0 };
+      if (r.correta) pd.certas++; else pd.erradas++;
+    }
+  }
+  erros.sort((a, b) => b.nErros - a.nErros || b.tentativas - a.tentativas);
+  return { total: lista.length, resolvidas, certas, erradas, tentativas, tempo, porAssunto, porBanca, porDia, erros,
+           pct: resolvidas ? Math.round(100 * certas / resolvidas) : 0 };
+}
+function tabelaDesempenho(obj, ordem) {
+  const chaves = ordem ? ordem.filter(k => obj[k]) : Object.keys(obj).sort();
+  return `<div class="tabela-desemp">${chaves.map(k => {
+    const v = obj[k];
+    const pct = v.resolvidas ? Math.round(100 * v.certas / v.resolvidas) : null;
+    return `<div class="linha-desemp"><span class="nome-desemp">${esc(k)}</span>
+      <span class="barra-desemp" aria-hidden="true"><span class="b-ok" style="width:${v.total ? 100 * v.certas / v.total : 0}%"></span><span class="b-erro" style="width:${v.total ? 100 * v.erradas / v.total : 0}%"></span></span>
+      <span class="num-desemp">${v.resolvidas}/${v.total} · ${pct === null ? "—" : pct + "%"}</span></div>`;
+  }).join("")}</div>`;
+}
+function graficoDias(porDia) {
+  const dias = [];
+  for (let k = 29; k >= 0; k--) { const d = new Date(Date.now() - k * 864e5); dias.push(d.toLocaleDateString("sv-SE")); }
+  const max = Math.max(1, ...dias.map(d => (porDia[d]?.certas || 0) + (porDia[d]?.erradas || 0)));
+  const L = 600, A = 140, w = L / 30;
+  let barras = "";
+  dias.forEach((d, k) => {
+    const c = porDia[d]?.certas || 0, e = porDia[d]?.erradas || 0;
+    const hc = A * c / max, he = A * e / max;
+    barras += `<rect x="${k * w + 2}" y="${A - hc}" width="${w - 4}" height="${hc}" fill="var(--ok)"><title>${dataCurta(d)}: ${c} acertos</title></rect>`;
+    barras += `<rect x="${k * w + 2}" y="${A - hc - he}" width="${w - 4}" height="${he}" fill="var(--alt)"><title>${dataCurta(d)}: ${e} erros</title></rect>`;
+  });
+  return `<svg class="grafico-dias" viewBox="0 0 ${L} ${A + 18}" role="img" aria-label="Questões resolvidas por dia nos últimos 30 dias">
+    <line x1="0" y1="${A}" x2="${L}" y2="${A}" stroke="var(--fio)"/>${barras}
+    <text x="0" y="${A + 14}" font-size="11" fill="var(--tinta-2)">${dataCurta(dias[0])}</text>
+    <text x="${L}" y="${A + 14}" font-size="11" fill="var(--tinta-2)" text-anchor="end">hoje</text></svg>`;
+}
+function formatarTempo(s) { const h = Math.floor(s / 3600), m = Math.round((s % 3600) / 60); return h ? `${h} h ${m} min` : `${m} min`; }
+
+function abaEstatisticas(lista, mapa, noCaderno) {
+  const e = estatisticas(lista, mapa);
+  const alvo = noCaderno ? $("#area-caderno") : $("#conteudo");
+  if (!e.total) { alvo.innerHTML = `<p class="vazio">Nenhuma questão com esses filtros.</p>`; return; }
+  const ordemAssuntos = noCaderno ? sessao.assuntos : [...new Set([...estado.q.values()].map(q => q.assunto))];
+  alvo.innerHTML = `${noCaderno ? "" : '<div class="secao">'}
+    <div class="numeros-desemp">
+      <div><strong>${e.resolvidas}</strong><span>de ${e.total} resolvidas</span></div>
+      <div><strong class="txt-ok">${e.certas}</strong><span>acertos</span></div>
+      <div><strong class="txt-erro">${e.erradas}</strong><span>erros</span></div>
+      <div><strong>${e.resolvidas ? e.pct + "%" : "—"}</strong><span>de acerto</span></div>
+      <div><strong>${formatarTempo(e.tempo)}</strong><span>resolvendo (${e.tentativas} tentativas)</span></div>
+    </div>
+    <p class="contagem">Acertos e erros consideram a sua última resposta em cada questão.</p>
+    <h3 class="grupo-assunto">Por assunto</h3>${tabelaDesempenho(e.porAssunto, ordemAssuntos)}
+    <h3 class="grupo-assunto">Por banca</h3>${tabelaDesempenho(e.porBanca)}
+    <h3 class="grupo-assunto">Evolução nos últimos 30 dias</h3>${graficoDias(e.porDia)}
+    <p class="legenda-diff"><span style="color:var(--ok)">■ acertos</span><span style="color:var(--alt)">■ erros</span></p>
+    <h3 class="grupo-assunto">Questões que você mais erra</h3>
+    ${e.erros.length ? `<ul class="resultados">${e.erros.slice(0, 10).map(x => `<li><button data-href="#/caderno/${esc(x.q.caderno)}/questao/${esc(x.q.id)}">
+      <span class="res-titulo">${x.nErros} erro(s) em ${x.tentativas} tentativa(s) — ${esc(x.q.assunto)}</span>
+      <span class="res-trecho">${esc(x.q.enunciado.join(" ").slice(0, 140))}…</span></button></li>`).join("")}</ul>
+      ${noCaderno ? '<div class="acoes" style="margin-top:12px"><button id="refazer-erradas" class="botao primario">Refazer só as que errei</button></div>' : ""}`
+      : '<p class="contagem">Nenhum erro registrado até agora.</p>'}
+    ${noCaderno ? "" : "</div>"}`;
+  const btn = $("#refazer-erradas");
+  if (btn) btn.onclick = () => {
+    const f = filtrosDe(sessao); f.situacao = "errada"; gravarFiltros(sessao, f);
+    telaCaderno(sessao.tipo, sessao.chaveOrig, "questoes");
+  };
+}
+
+function telaEstatisticasGerais() {
+  definirTopo({ titulo: "Estatísticas de questões", voltar: "#/questoes" });
+  $("#abas").classList.add("oculto");
+  abaEstatisticas([...estado.q.values()], mapaRespostas(), false);
 }
 
 /* ---------- Configurações ---------- */
@@ -1737,6 +2277,14 @@ document.addEventListener("click", async e => {
   if (notas) { painelNotasArtigo(notas.dataset.notas); return; }
   const abrir = t.closest("[data-abrir]");
   if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
+  const qa = t.closest("[data-questoes-art]");
+  if (qa) { location.hash = `#/questoes-artigo/${leiAberta}/${encodeURIComponent(qa.dataset.questoesArt)}`; return; }
+  const pq = t.closest("[data-pasta-q]");
+  if (pq) { gravarLS("pasta-questoes", pq.dataset.pastaQ); telaQuestoes(); return; }
+  const mc = t.closest("[data-menu-cad]");
+  if (mc) { menuCaderno(mc.dataset.menuCad); return; }
+  const iq = t.closest("[data-ir-q]");
+  if (iq && sessao) { telaCaderno(sessao.tipo, sessao.chaveOrig, "questoes", iq.dataset.irQ); window.scrollTo(0, 0); return; }
   const menuL = t.closest("[data-menu-lei]");
   if (menuL) { menuLei(menuL.dataset.menuLei); return; }
   const chip = t.closest("[data-pasta]");
@@ -1782,6 +2330,7 @@ document.addEventListener("click", async e => {
 
 async function rotear() {
   fecharPainel();
+  if (cronometro) clearInterval(cronometro.intervalo);
   esconderBarra();
   mostrarAvisoOffline();
   const partes = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
@@ -1796,6 +2345,9 @@ async function rotear() {
   if (partes[0] === "alteracoes" && partes[1]) return telaAlteracoes(partes[1]);
   if (partes[0] === "pesquisar") return telaPesquisar();
   if (partes[0] === "questoes") return telaQuestoes();
+  if (partes[0] === "estatisticas") return telaEstatisticasGerais();
+  if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
+  if (partes[0] === "questoes-artigo" && partes[2]) return telaCaderno("artigo", partes[1] + "|" + partes[2], "questoes");
   if (partes[0] === "estudos") {
     if (partes[1] === "alterados") { await leiDoCache(partes[2]); return telaEstudos("alterados", partes[2] || ""); }
     return telaEstudos(partes[1] || "anotacoes");
@@ -1813,6 +2365,7 @@ async function atualizarTudo() {
   if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();
   for (const id of pendentes) await sincronizarLei(id);
   await Promise.all(ids.map(leiDoCache));   // para saber quais marcações estão em artigos alterados
+  await carregarQuestoes();
 }
 
 async function iniciar() {
