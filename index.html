@@ -373,8 +373,7 @@ button.aviso-tinta { cursor: pointer; color: var(--oliva); font-weight: 600; }
 .icone-escolha { width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--fio); background: var(--papel); font-size: 22px; line-height: 1; }
 .icone-escolha[aria-pressed="true"] { border-color: var(--oliva); box-shadow: inset 0 0 0 2px var(--oliva); background: var(--oliva-claro); }
 svg.tinta .carimbo { opacity: 0.62; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
-svg.tinta .traco-marca { mix-blend-mode: multiply; }
-:root[data-theme="dark"] svg.tinta .traco-marca { mix-blend-mode: screen; }
+svg.tinta { will-change: auto; }
 /* tela cheia: só o texto; os botões ficam flutuando no canto */
 .tela-cheia .sumario-lateral { display: none !important; }
 .tela-cheia .leitor-wrap { grid-template-columns: minmax(0, 1fr) !important; max-width: none !important; }
@@ -479,6 +478,7 @@ const estado = {
   itens: new Map(),        // grifos, anotações, favoritos, pastas (id -> item)
 };
 
+function aoParar(fn, ms = 160) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 function lerLS(chave, padrao) { try { return JSON.parse(localStorage.getItem(chave)) ?? padrao; } catch { return padrao; } }
 function gravarLS(chave, valor) { try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {} }
 function esc(t) { return String(t ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
@@ -549,6 +549,7 @@ async function salvarItem(item) {
   if (!item.criadoEm) item.criadoEm = item.atualizadoEm;
   await bdGravar("itens", item);
   estado.itens.set(item.id, item);
+  versaoItens++;
   gravarLS("ultima-mudanca", item.atualizadoEm);
   return item;
 }
@@ -877,25 +878,47 @@ function localizar(item, textoAtual, hashAtual) {
 
 function artigoMudou(item) {
   const lei = estado.leis[item.lei];
+  if (!lei) return false;                   // lei ainda não carregada: não acusa mudança sem conferir
   const art = lei && item.art && lei.artigos[item.art];
   if (!item.art) return false;
   if (!art) return true;                  // artigo não existe mais nesta versão
   return item.hashArt !== art.hash;
 }
 
+/* Índice das suas marcações por artigo. Antes, cada um dos centenas de artigos percorria
+   TODAS as suas marcações; agora o índice é montado uma vez e só refeito quando algo muda. */
+let versaoItens = 0, cacheMarcas = null;
+function marcasDaLei(lei) {
+  if (cacheMarcas && cacheMarcas.lei === lei && cacheMarcas.v === versaoItens) return cacheMarcas.m;
+  const m = new Map();
+  const de = art => { if (!m.has(art)) m.set(art, { grifos: [], notas: [], trechos: [], tintas: [] }); return m.get(art); };
+  for (const i of estado.itens.values()) {
+    if (i.apagado || i.lei !== lei || !i.art) continue;
+    if (i.tipo === "grifo") de(i.art).grifos.push(i);
+    else if (i.tipo === "anotacao") de(i.art).notas.push(i);
+    else if (i.tipo === "favorito" && i.alvo === "trecho") de(i.art).trechos.push(i);
+    else if (i.tipo === "tinta" && ((i.tracos && i.tracos.length) || (i.carimbos && i.carimbos.length))) de(i.art).tintas.push(i);
+  }
+  cacheMarcas = { lei, v: versaoItens, m };
+  return m;
+}
 function marcacoesDoArtigo(leiId, art) {
-  return [...estado.itens.values()].filter(i => !i.apagado && i.lei === leiId && i.art === art &&
-    (i.tipo === "grifo" || i.tipo === "anotacao" || (i.tipo === "favorito" && i.alvo === "trecho")));
+  const x = marcasDaLei(leiId).get(art);
+  return x ? [...x.grifos, ...x.notas, ...x.trechos] : [];
 }
 
 function aplicarMarcacoes(leiId, div) {
   const art = div.dataset.art;
+  const marcas = marcasDaLei(leiId).get(art);
+  if (!marcas) {                                           // caminho rápido: a maioria dos artigos
+    div.querySelectorAll(":scope > .ind-notas, :scope > svg.tinta, :scope > .aviso-tinta").forEach(e => e.remove());
+    return;
+  }
   const lei = estado.leis[leiId];
   const hashAtual = lei.artigos[art]?.hash;
-  const texto = textoDoArtigo(div);
-  const lista = marcacoesDoArtigo(leiId, art);
-  const grifos = lista.filter(i => i.tipo === "grifo");
-  const notas = lista.filter(i => i.tipo === "anotacao");
+  const grifos = marcas.grifos;
+  const notas = marcas.notas;
+  const texto = grifos.length ? textoDoArtigo(div) : "";
   for (const g of grifos) {
     const loc = localizar(g, texto, hashAtual);
     if (loc.estado === "perdido" || loc.estado === "artigo") continue;
@@ -1110,7 +1133,7 @@ function telaCatalogo() {
         : `<span class="contagem" style="text-align:right">Adicionada. Será baixada<br>quando houver internet.</span>`;
     });
   };
-  campo.oninput = render;
+  campo.oninput = aoParar(render);
   $("#area-cat").onchange = render;
   render();
   if (!campo.value) campo.focus();
@@ -1140,6 +1163,7 @@ async function telaLei(id, alvo) {
     return;
   }
   leiAberta = id;
+  larguraCache = null;
   $("#conteudo").classList.add("modo-leitor");
   const prep = prepararLei(lei);
   const alt = estado.alteracoes[id];
@@ -1294,7 +1318,7 @@ async function telaPesquisar() {
     $("#res-global").innerHTML = h;
     ativarMiniaturas($("#res-global"));
   };
-  campo.oninput = rodar;
+  campo.oninput = aoParar(rodar, 220);
   campo.focus();
   await Promise.all(ids.map(leiDoCache));
   if (campo.isConnected) rodar();
@@ -1356,7 +1380,8 @@ function cartoesFavoritos(lista) {
     <div class="linha-acoes"><button data-desfavoritar="${esc(f.id)}">Remover dos favoritos</button></div></li>`).join("")}</ul>`;
 }
 
-function telaEstudos(aba = "anotacoes", filtroLei = "") {
+async function telaEstudos(aba = "anotacoes", filtroLei = "") {
+  await Promise.all(idsAcervo().map(leiDoCache));
   definirTopo({ titulo: "Meus estudos" });
   marcarAba("estudos");
   const aba2 = aba === "alterados" ? "anotacoes" : aba;
@@ -1404,7 +1429,7 @@ function telaEstudos(aba = "anotacoes", filtroLei = "") {
   });
   $("#filtro-lei").onchange = render;
   if ($("#filtro-mudou")) $("#filtro-mudou").onchange = render;
-  $("#busca-estudos").oninput = render;
+  $("#busca-estudos").oninput = aoParar(render);
   render();
 }
 
@@ -2077,11 +2102,11 @@ $("#btn-buscar-lei").onclick = () => {
     <input class="campo" id="campo-busca-lei" type="search" placeholder="Palavra ou trecho" autocomplete="off"><div id="res-lei"></div>`);
   const c = $("#campo-busca-lei");
   c.focus();
-  c.oninput = () => {
+  c.oninput = aoParar(() => {
     const res = buscarEm(estado.leis[leiAberta], leiAberta, c.value);
     $("#res-lei").innerHTML = c.value.trim().length < 2 ? "" :
       `<p class="contagem">${res.length ? res.length + " artigo(s)" : "Nada encontrado nesta lei."}</p>` + listaResultados(res, false);
-  };
+  });
 };
 $("#btn-voltar").onclick = () => voltar();
 $("#btn-caneta").onclick = () => alternarCaneta();
@@ -2440,6 +2465,7 @@ $("#entrada-backup").onchange = async e => {
   let novos = 0, atualizados = 0, mantidos = 0, imgsNovas = 0;
   for (const it of p.itens) {
     const loc = estado.itens.get(it.id);
+    versaoItens++;
     if (!loc) { await bdGravar("itens", it); estado.itens.set(it.id, it); novos++; }
     else if (it.atualizadoEm > loc.atualizadoEm) { await bdGravar("itens", it); estado.itens.set(it.id, it); atualizados++; }
     else mantidos++;
@@ -2524,8 +2550,12 @@ function gravarPrefCaneta() {
 }
 const idTinta = (lei, art, fonte) => `tinta|${lei}|${art}|${fonte}`;
 const temConteudo = t => (t.tracos && t.tracos.length) || (t.carimbos && t.carimbos.length);
-function tintasDoArtigo(lei, art) { return itens("tinta", t => t.lei === lei && t.art === art && temConteudo(t)); }
-function larguraTexto() { return Math.round($("#texto-lei")?.clientWidth || 0); }
+function tintasDoArtigo(lei, art) { return (marcasDaLei(lei).get(art)?.tintas || []).filter(temConteudo); }
+let larguraCache = null;
+function larguraTexto() {
+  if (larguraCache === null) { const el = $("#texto-lei"); if (!el) return 0; larguraCache = Math.round(el.clientWidth); }
+  return larguraCache;
+}
 function tintaVisivel(lei, art) {
   const larg = larguraTexto();
   return tintasDoArtigo(lei, art).find(t => t.fonte === ajustes.fonte && Math.abs((t.largura || larg) - larg) <= 8) || null;
@@ -2601,11 +2631,14 @@ function pintarTinta(leiId, div) {
   }
 }
 function repintarTintas() {
+  larguraCache = null;
   if (!leiAberta || !document.getElementById("texto-lei")) return;
-  $$("#texto-lei .artigo").forEach(div => pintarTinta(leiAberta, div));
+  const comTinta = new Set([...marcasDaLei(leiAberta).entries()].filter(([, m]) => m.tintas.length).map(([a]) => a));
+  // só mexe nos artigos que têm desenho (ou que tinham e precisam ser limpos)
+  $$("#texto-lei .artigo").forEach(div => { if (comTinta.has(div.dataset.art) || div.querySelector(":scope > svg.tinta, :scope > .aviso-tinta")) pintarTinta(leiAberta, div); });
 }
 let tempoResize = null;
-window.addEventListener("resize", () => { clearTimeout(tempoResize); tempoResize = setTimeout(repintarTintas, 300); });
+window.addEventListener("resize", () => { larguraCache = null; clearTimeout(tempoResize); tempoResize = setTimeout(repintarTintas, 300); });
 
 function itemTintaAtual(div) {
   const lei = estado.leis[leiAberta], art = div.dataset.art;
@@ -2661,30 +2694,65 @@ function densificar(p, passo = 1) {
   }
   return out;
 }
+const densos = new WeakMap();                       // pontos refinados de cada traço (calculados uma vez)
+const caixas = new WeakMap();                       // retângulo de cada traço: descarta rápido o que está longe
+function tracoPerto(t, ax, ay, x, y, alc) {
+  let c = caixas.get(t);
+  if (!c) {
+    c = [Infinity, Infinity, -Infinity, -Infinity];
+    for (let i = 0; i < t.pts.length; i += 2) { c[0] = Math.min(c[0], t.pts[i]); c[1] = Math.min(c[1], t.pts[i + 1]); c[2] = Math.max(c[2], t.pts[i]); c[3] = Math.max(c[3], t.pts[i + 1]); }
+    caixas.set(t, c);
+  }
+  return !(Math.max(ax, x) + alc < c[0] || Math.min(ax, x) - alc > c[2] || Math.max(ay, y) + alc < c[1] || Math.min(ay, y) - alc > c[3]);
+}
 function passarBorracha(a, x, y) {
   const [ax, ay] = a.ultimo;
   a.ultimo = [x, y];
   const item = a.item;
+  const svg = svgDo(a.div, true);
   let mudou = false;
   const novos = [];
   for (const t of item.tracos) {
     // a borracha precisa encostar no traço desenhado (considera a espessura do traço)
     const alcance = caneta.raio + larguraTraco(t) / 2;
-    const pts = densificar(t.pts);
-    const dentro = [];
-    for (let i = 0; i < pts.length; i += 2) dentro.push(distPontoSegmento(pts[i], pts[i + 1], ax, ay, x, y) <= alcance);
-    if (!dentro.some(Boolean)) { novos.push(t); continue; }
+    if (!tracoPerto(t, ax, ay, x, y, alcance)) { novos.push(t); continue; }       // longe: nem calcula
+    const pts = densos.get(t) || densos.set(t, densificar(t.pts)).get(t);
+    const dentro = new Uint8Array(pts.length / 2);
+    let tocou = false;
+    for (let i = 0, k = 0; i < pts.length; i += 2, k++) if (distPontoSegmento(pts[i], pts[i + 1], ax, ay, x, y) <= alcance) { dentro[k] = 1; tocou = true; }
+    if (!tocou) { novos.push(t); continue; }
     mudou = true;
+    svg.querySelector(`path[data-traco="${t.id}"]`)?.remove();       // atualiza só o traço cortado, não o desenho todo
     if (caneta.modoBorracha === "traco") continue;
     let run = [];
-    const fechar = () => { if (run.length >= 4) novos.push({ ...t, id: uid().slice(0, 8), pts: run }); run = []; };
-    dentro.forEach((d, k) => { if (d) fechar(); else run.push(pts[2 * k], pts[2 * k + 1]); });
+    const fechar = () => {
+      if (run.length >= 4) {
+        const pedaco = { ...t, id: uid().slice(0, 8), pts: run };
+        densos.set(pedaco, run);                                      // o pedaço já está refinado
+        novos.push(pedaco);
+        svg.appendChild(elTraco(pedaco));
+      }
+      run = [];
+    };
+    for (let k = 0; k < dentro.length; k++) { if (dentro[k]) fechar(); else run.push(pts[2 * k], pts[2 * k + 1]); }
     fechar();
   }
   const antesIcones = item.carimbos.length;
-  item.carimbos = item.carimbos.filter(c => distPontoSegmento(c.x, c.y, ax, ay, x, y) > caneta.raio + c.tam * 0.4);
+  item.carimbos = item.carimbos.filter(c => {
+    const fica = distPontoSegmento(c.x, c.y, ax, ay, x, y) > caneta.raio + c.tam * 0.4;
+    if (!fica) svg.querySelector(`text[data-carimbo="${c.id}"]`)?.remove();
+    return fica;
+  });
   if (item.carimbos.length !== antesIcones) mudou = true;
-  if (mudou) { item.tracos = novos; desenharTracos(a.div, item); }
+  if (mudou) item.tracos = novos;
+}
+/* ao salvar, os pedaços cortados ficam com um ponto a cada ~2 px (precisão mantida, arquivo menor) */
+function enxugarPontos(p) {
+  if (p.length <= 8) return p;
+  const out = [p[0], p[1]];
+  for (let i = 2; i < p.length - 2; i += 2) if (Math.hypot(p[i] - out[out.length - 2], p[i + 1] - out[out.length - 1]) >= 2) out.push(p[i], p[i + 1]);
+  out.push(p[p.length - 2], p[p.length - 1]);
+  return out;
 }
 function mostrarCursorBorracha(ev) {
   let c = $("#cursor-borracha");
@@ -2768,7 +2836,8 @@ document.addEventListener("pointermove", e => {
     e.preventDefault();
     const [x, y] = pontoRel(ar.div, e);
     ar.c.x = +(x + ar.dx).toFixed(1); ar.c.y = +(y + ar.dy).toFixed(1);
-    desenharTracos(ar.div, ar.item);
+    const el = ar.div.querySelector(`svg.tinta text[data-carimbo="${ar.c.id}"]`);
+    if (el) { el.setAttribute("x", ar.c.x); el.setAttribute("y", ar.c.y); } else desenharTracos(ar.div, ar.item);
     return;
   }
   const a = caneta.apagando;
@@ -2780,8 +2849,9 @@ document.addEventListener("pointermove", e => {
   const tr = caneta.tracando;
   if (!tr || tr.pointerId !== e.pointerId) return;
   e.preventDefault();
-  for (const ev of eventosDe(e)) tr.t.pts.push(...pontoRel(tr.div, ev));
-  tr.el.setAttribute("d", caminhoD(tr.t.pts));
+  if (!tr.r) tr.r = tr.div.getBoundingClientRect();
+  for (const ev of eventosDe(e)) tr.t.pts.push(+(ev.clientX - tr.r.left).toFixed(1), +(ev.clientY - tr.r.top).toFixed(1));
+  if (!tr.quadro) tr.quadro = requestAnimationFrame(() => { tr.quadro = 0; tr.el.setAttribute("d", caminhoD(tr.t.pts)); });
 }, { passive: false });
 const mudouFoto = (a, b) => JSON.stringify(a) !== JSON.stringify(b);
 async function fimPonteiro(e) {
@@ -2790,6 +2860,7 @@ async function fimPonteiro(e) {
     const a = caneta[k];
     if (!a || a.pointerId !== e.pointerId) continue;
     caneta[k] = null; esconderCursorBorracha();
+    if (k === "apagando") a.item.tracos = a.item.tracos.map(t => (densos.get(t) === t.pts && t.pts.length > 8 ? { ...t, pts: enxugarPontos(t.pts) } : t));
     if (mudouFoto(a.antes, fotografar(a.item))) { await salvarItem(a.item); registrarAcao(a.item, a.antes); }
     return;
   }
@@ -2993,8 +3064,9 @@ async function atualizarTudo() {
   const pendentes = ids.filter(id => estado.status[id].hash && (!estado.info[id] || estado.info[id].hash !== estado.status[id].hash));
   if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();
   for (const id of pendentes) await sincronizarLei(id);
-  await Promise.all(ids.map(leiDoCache));   // para saber quais marcações estão em artigos alterados
   await carregarQuestoes();
+  // as leis do acervo são carregadas na memória aos poucos, depois que a tela já apareceu
+  setTimeout(async () => { for (const id of ids) { await leiDoCache(id); await new Promise(r => setTimeout(r, 30)); } }, 600);
 }
 
 async function iniciar() {
@@ -3005,8 +3077,10 @@ async function iniciar() {
   await atualizarTudo();
   rotear();
 }
+let ultimaAtualizacao = Date.now();
 document.addEventListener("visibilitychange", async () => {
-  if (document.visibilityState !== "visible") return;
+  if (document.visibilityState !== "visible" || Date.now() - ultimaAtualizacao < 180000) return;
+  ultimaAtualizacao = Date.now();
   const antes = JSON.stringify(estado.info);
   await atualizarTudo();
   if (JSON.stringify(estado.info) !== antes) rotear();
