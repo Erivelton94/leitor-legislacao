@@ -348,6 +348,11 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .num-desemp { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .grafico-dias { width: 100%; max-width: 700px; height: auto; display: block; margin-top: 6px; }
 .acoes-linha { display: flex; gap: 8px; flex-wrap: wrap; }
+.acoes-linha .botao { text-align: center; }
+.lista-cat { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.item-cat { display: flex; justify-content: space-between; align-items: center; gap: 12px; background: var(--folha);
+  border: 1px solid var(--fio); border-radius: 12px; padding: 12px 14px; line-height: 1.35; }
+.item-cat .botao { flex: none; padding: 10px 14px; text-align: center; min-width: 120px; }
 .pasta-item { --cor-aba: var(--tinta-2); }
 .pasta-item .lei-nome { display: inline-flex; align-items: center; gap: 10px; }
 .ico-pasta { width: 26px; height: 26px; fill: var(--oliva-claro); stroke: var(--oliva); stroke-width: 1.5; flex: none; }
@@ -512,6 +517,17 @@ async function apagarItem(id) {
 }
 function itens(tipo, filtro = () => true) {
   return [...estado.itens.values()].filter(i => !i.apagado && i.tipo === tipo && filtro(i));
+}
+
+/* ---------------- meu acervo: quais leis do catálogo EU acompanho (fica no aparelho) ---------------- */
+const idAcervo = lei => `acv|${lei}`;
+function noAcervo(lei) { const i = estado.itens.get(idAcervo(lei)); return !!(i && !i.apagado); }
+function idsAcervo() { return Object.keys(estado.status).filter(noAcervo); }
+async function migrarAcervo() {
+  // quem já usava o app antes do catálogo continua com as leis que tinha baixado
+  // (só se o aparelho nunca teve acervo — nem itens removidos —, para não "ressuscitar" o que você tirou)
+  if ([...estado.itens.values()].some(i => i.tipo === "acervo")) return;
+  for (const id of Object.keys(estado.info)) await salvarItem({ id: idAcervo(id), tipo: "acervo", lei: id });
 }
 
 /* ---------------- favoritos ---------------- */
@@ -938,13 +954,7 @@ function telaAcervo(pastaId = null) {
   if (pastaId && !favoritas && (!pasta || pasta.apagado)) { location.hash = "#/acervo"; return; }
   definirTopo({ titulo: favoritas ? "★ Leis favoritas" : pasta ? pasta.nome : "Meu Acervo", voltar: pastaId ? "#/acervo" : null });
   marcarAba("acervo");
-  const todos = Object.keys(estado.status);
-  if (!todos.length) {
-    $("#conteudo").innerHTML = `<p class="vazio">${estado.offline
-      ? "Sem conexão e nenhuma lei salva neste aparelho ainda. Conecte-se à internet para baixar o acervo."
-      : "Nenhuma lei no acervo ainda."}</p>`;
-    return;
-  }
+  const todos = idsAcervo();
   const pastas = pastasDe("leis");
   const emPasta = new Set(pastas.flatMap(p => p.leis || []));
   const ids = favoritas ? todos.filter(id => ehFavorito(idFavLei(id)))
@@ -952,7 +962,9 @@ function telaAcervo(pastaId = null) {
   let h = "";
   if (!pastaId) {
     h += `<div class="secao" style="margin-bottom:0"><div class="acoes-linha">
+      <a class="botao primario" href="#/catalogo" style="text-decoration:none">+ Adicionar leis</a>
       <button class="botao" id="nova-pasta-leis">+ Nova pasta</button></div></div>`;
+    if (!todos.length) h += `<p class="vazio">Seu acervo está vazio. Toque em “+ Adicionar leis” para escolher as leis que você quer estudar.<br>Só as leis escolhidas são baixadas para o aparelho.</p>`;
     const semBackup = temDadosSemBackup();
     if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
     for (const id of todos.filter(i => estado.alteracoes[i])) {
@@ -991,6 +1003,74 @@ function telaAcervo(pastaId = null) {
   $("#conteudo").innerHTML = h;
   const bn = $("#nova-pasta-leis");
   if (bn) bn.onclick = async () => { if (await novaPasta("leis")) telaAcervo(); };
+}
+
+/* ---------- catálogo: buscar e adicionar leis ao acervo ---------- */
+function textoBusca(st) {
+  return semAcento([st.nome, st.numero, st.apelidos, st.area].join(" ")) + " " + String(st.numero || "").replace(/\D/g, "");
+}
+function telaCatalogo() {
+  definirTopo({ titulo: "Adicionar leis", voltar: "#/acervo" });
+  marcarAba("acervo");
+  const todos = Object.keys(estado.status);
+  if (!todos.length) {
+    $("#conteudo").innerHTML = `<p class="vazio">${estado.offline ? "Sem conexão. O catálogo aparece depois de aberto uma vez com internet." : "O catálogo ainda não foi carregado."}</p>`;
+    return;
+  }
+  const areas = [...new Set(todos.map(id => estado.status[id].area || "Outras"))];
+  $("#conteudo").innerHTML = `<div class="secao">
+    <input class="campo" id="busca-cat" type="search" placeholder="Nome, número ou assunto — ex.: drogas, 11.343, abuso de autoridade" autocomplete="off">
+    <div class="filtros" style="margin-top:8px"><select class="campo" id="area-cat"><option value="">Todas as áreas (${todos.length})</option>
+      ${areas.map(a => `<option>${esc(a)}</option>`).join("")}</select></div>
+    <div id="lista-cat"></div></div>`;
+  const campo = $("#busca-cat");
+  campo.value = sessionStorage.getItem("busca-cat") || "";
+  $("#area-cat").value = sessionStorage.getItem("area-cat") || "";
+  const render = () => {
+    sessionStorage.setItem("busca-cat", campo.value);
+    sessionStorage.setItem("area-cat", $("#area-cat").value);
+    const termos = semAcento(campo.value.trim()).split(/\s+/).filter(Boolean).map(t => /\d/.test(t) ? t.replace(/\D/g, "") : t).filter(Boolean);
+    const area = $("#area-cat").value;
+    const ok = todos.filter(id => {
+      const st = estado.status[id];
+      if (area && (st.area || "Outras") !== area) return false;
+      const alvo = textoBusca(st);
+      return termos.every(t => alvo.includes(t));
+    });
+    const nAcv = idsAcervo().length;
+    let h = `<p class="contagem">${ok.length} norma(s)${nAcv ? ` · ${nAcv} no seu acervo` : ""}</p>`;
+    for (const a of areas) {
+      const grupo = ok.filter(id => (estado.status[id].area || "Outras") === a);
+      if (!grupo.length) continue;
+      h += `<h3 class="grupo-assunto">${esc(a)}</h3><ul class="lista-cat">`;
+      for (const id of grupo) {
+        const st = estado.status[id];
+        const pronta = !!st.hash;
+        const tem = noAcervo(id);
+        h += `<li class="item-cat"><div><strong>${esc(st.nome)}</strong><br><span class="contagem">${esc(st.numero || "")}${st.n_artigos ? ` · ${st.n_artigos} artigos` : ""}</span></div>
+          ${tem ? `<button class="botao" data-abrir="${esc(id)}">✓ No acervo · abrir</button>`
+            : pronta ? `<button class="botao primario" data-adicionar="${esc(id)}">Adicionar</button>`
+            : `<span class="contagem" style="text-align:right">Sendo preparada<br>pelo robô</span>`}</li>`;
+      }
+      h += "</ul>";
+    }
+    if (!ok.length) h += `<p class="vazio">Nenhuma norma encontrada. O catálogo reúne a legislação federal mais cobrada em concursos.</p>`;
+    $("#lista-cat").innerHTML = h;
+    $$("[data-adicionar]").forEach(b => b.onclick = async () => {
+      const id = b.dataset.adicionar;
+      b.disabled = true; b.textContent = "Baixando…";
+      await salvarItem({ id: idAcervo(id), tipo: "acervo", lei: id });
+      await sincronizarLei(id);
+      await leiDoCache(id);
+      b.outerHTML = estado.leis[id]
+        ? `<button class="botao" data-abrir="${esc(id)}">✓ Adicionada · abrir</button>`
+        : `<span class="contagem" style="text-align:right">Adicionada. Será baixada<br>quando houver internet.</span>`;
+    });
+  };
+  campo.oninput = render;
+  $("#area-cat").onchange = render;
+  render();
+  if (!campo.value) campo.focus();
 }
 
 function temDadosSemBackup() {
@@ -1150,7 +1230,7 @@ async function telaPesquisar() {
   $("#conteudo").innerHTML = `<div class="secao">
     <input class="campo" id="busca-global" type="search" placeholder="Palavra, trecho ou expressão — ex.: livramento condicional" autocomplete="off">
     <div id="res-global"></div></div>`;
-  const ids = Object.keys(estado.status);
+  const ids = idsAcervo();
   const campo = $("#busca-global");
   campo.value = sessionStorage.getItem("busca-global") || "";
   const rodar = () => {
@@ -1236,7 +1316,7 @@ function telaEstudos(aba = "anotacoes", filtroLei = "") {
   definirTopo({ titulo: "Meus estudos" });
   marcarAba("estudos");
   const aba2 = aba === "alterados" ? "anotacoes" : aba;
-  const leis = Object.keys(estado.status);
+  const leis = Object.keys(estado.status).filter(l => noAcervo(l) || [...estado.itens.values()].some(i => !i.apagado && i.lei === l && i.tipo !== "acervo"));
   $("#conteudo").innerHTML = `<div class="secao">
     <div class="filtros">
       <div class="segmentado" id="abas-estudos">
@@ -1612,7 +1692,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
   const pos = lerLS("pos-q", {}); pos[sessao.chave] = q.id; gravarLS("pos-q", pos);
   const todas = mapa.get(q.id) || [];
   const atual = respostaAtual(mapa, q.id);
-  const temLei = q.vinculo && estado.status[q.vinculo.lei];
+  const temLei = q.vinculo && noAcervo(q.vinculo.lei);
   const fav = ehFavorito(idFavQ(q.id));
   const nota = estado.itens.get(idNotaQ(q.id));
   riscadas[q.id] = riscadas[q.id] || [];
@@ -1625,7 +1705,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     </div>
     <p class="q-meta">Matéria: ${esc(q.materia)} · Assunto: ${esc(q.assunto)}${q.vinculo ? (temLei
       ? ` · <a href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a>`
-      : ` · <span class="contagem">(${esc(rotuloVinculo(q.vinculo))} — lei fora do acervo)</span>`) : ""}</p>
+      : ` · <a href="#/catalogo">${esc(rotuloVinculo(q.vinculo))} — adicionar ${esc(nomeLei(q.vinculo.lei))} ao acervo</a>`) : ""}</p>
     <p class="q-prova">${esc(provaQ(q))}</p>
     <div class="q-enunciado">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <ul class="alternativas ${q.tipo === "CE" ? "ce" : ""}" role="radiogroup" aria-label="Alternativas">
@@ -1710,7 +1790,7 @@ function mostrarResolucao(q, focarNota = false) {
   const respondida = respostaAtual(mapaRespostas(), q.id);
   abrirPainel(`<h2>${respondida ? "Resolução" : "Meu comentário"} ${botaoFechar}</h2>
     ${respondida ? `<p><strong>Gabarito: ${esc(letraExibida(q, q.gabarito))}</strong></p>` : '<p class="contagem">O gabarito aparece aqui depois que você responder a questão.</p>'}
-    ${q.vinculo && estado.status[q.vinculo.lei] ? `<div class="acoes" style="margin-bottom:12px"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
+    ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes" style="margin-bottom:12px"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
     <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Fica guardado e entra no backup.</p>
     <textarea class="campo" id="nota-q" placeholder="Ex.: a qualificadora alcança parente consanguíneo só até o 3º grau (art. 121, § 2º, VII).">${esc(nota && !nota.apagado ? nota.nota : "")}</textarea>
     <div class="acoes" style="margin-top:10px"><button class="botao primario" id="salvar-nota-q">Salvar comentário</button></div>`);
@@ -2095,16 +2175,20 @@ function menuLei(id) {
       <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
       <button id="l-nota">Anotar a lei (anotação geral)</button>
       <button id="l-alt">Histórico de alterações</button>
-      <button id="l-offline">Remover a cópia offline desta lei</button>
+      <button id="l-remover" style="color:var(--alt)">Remover do meu acervo</button>
     </div>`);
   $("#l-mover").onclick = () => painelMover("leis", id, nomeLei(id), () => rotear());
   $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); rotear(); };
   $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });
   $("#l-alt").onclick = () => { fecharPainel(); location.hash = "#/alteracoes/" + id; };
-  $("#l-offline").onclick = async () => {
+  $("#l-remover").onclick = async () => {
+    if (!confirm(`Remover "${nomeLei(id)}" do seu acervo? O texto sai do aparelho, mas suas anotações, grifos e favoritos desta lei continuam guardados e voltam a aparecer se você adicioná-la de novo.`)) return;
+    await apagarItem(idAcervo(id));
     const cache = await caches.open(CACHE_DADOS);
     await cache.delete(urlLei(id));
     delete estado.leis[id]; delete estado.info[id]; gravarLS("info-leis", estado.info);
+    delete estado.alteracoes[id]; gravarLS("alteracoes-nao-vistas", estado.alteracoes);
+    await moverParaPasta("leis", id, "");
     fecharPainel(); rotear();
   };
 }
@@ -2398,6 +2482,7 @@ async function rotear() {
     return telaEstudos(partes[1] || "anotacoes");
   }
   if (partes[0] === "ajustes") return telaAjustes();
+  if (partes[0] === "catalogo") return telaCatalogo();
   if (partes[0] === "acervo" && partes[1] === "pasta") return telaAcervo(partes[2]);
   if (partes[0] === "acervo" && partes[1] === "favoritas") return telaAcervo("favoritas");
   return telaAcervo();
@@ -2407,8 +2492,9 @@ window.addEventListener("hashchange", rotear);
 async function atualizarTudo() {
   await carregarStatus();
   mostrarAvisoOffline();
-  const ids = Object.keys(estado.status);
-  const pendentes = ids.filter(id => !estado.info[id] || estado.info[id].hash !== estado.status[id].hash);
+  await migrarAcervo();
+  const ids = idsAcervo();                   // só as leis do seu acervo são baixadas
+  const pendentes = ids.filter(id => estado.status[id].hash && (!estado.info[id] || estado.info[id].hash !== estado.status[id].hash));
   if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();
   for (const id of pendentes) await sincronizarLei(id);
   await Promise.all(ids.map(leiDoCache));   // para saber quais marcações estão em artigos alterados

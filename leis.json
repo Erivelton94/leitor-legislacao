@@ -1,23 +1,985 @@
 [
-  {
-    "id": "lep",
-    "nome": "Lei de Execução Penal",
-    "numero": "Lei nº 7.210/1984",
-    "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
-    "minimo_artigos": 150
-  },
-  {
-    "id": "codigo-penal",
-    "nome": "Código Penal",
-    "numero": "Decreto-Lei nº 2.848/1940",
-    "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
-    "minimo_artigos": 300
-  },
-  {
-    "id": "maria-da-penha",
-    "nome": "Lei Maria da Penha",
-    "numero": "Lei nº 11.340/2006",
-    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
-    "minimo_artigos": 40
-  }
+ {
+  "id": "cf-1988",
+  "nome": "Constituição Federal",
+  "numero": "Constituição de 1988",
+  "area": "Constituição",
+  "apelidos": "constituição cf 88 carta magna adct",
+  "tipo": "cf",
+  "n": null,
+  "ano": 1988
+ },
+ {
+  "id": "codigo-penal",
+  "nome": "Código Penal",
+  "numero": "Decreto-Lei nº 2.848/1940",
+  "area": "Códigos",
+  "apelidos": "cp",
+  "tipo": "dl",
+  "n": 2848,
+  "ano": 1940,
+  "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+ },
+ {
+  "id": "cpp",
+  "nome": "Código de Processo Penal",
+  "numero": "Decreto-Lei nº 3.689/1941",
+  "area": "Códigos",
+  "apelidos": "cpp processo penal",
+  "tipo": "dl",
+  "n": 3689,
+  "ano": 1941
+ },
+ {
+  "id": "lindb",
+  "nome": "Lei de Introdução às Normas do Direito Brasileiro",
+  "numero": "Decreto-Lei nº 4.657/1942",
+  "area": "Códigos",
+  "apelidos": "lindb licc",
+  "tipo": "dl",
+  "n": 4657,
+  "ano": 1942
+ },
+ {
+  "id": "codigo-civil",
+  "nome": "Código Civil",
+  "numero": "Lei nº 10.406/2002",
+  "area": "Códigos",
+  "apelidos": "cc",
+  "tipo": "lei",
+  "n": 10406,
+  "ano": 2002
+ },
+ {
+  "id": "cpc",
+  "nome": "Código de Processo Civil",
+  "numero": "Lei nº 13.105/2015",
+  "area": "Códigos",
+  "apelidos": "cpc processo civil",
+  "tipo": "lei",
+  "n": 13105,
+  "ano": 2015
+ },
+ {
+  "id": "ctn",
+  "nome": "Código Tributário Nacional",
+  "numero": "Lei nº 5.172/1966",
+  "area": "Códigos",
+  "apelidos": "ctn tributário",
+  "tipo": "lei",
+  "n": 5172,
+  "ano": 1966
+ },
+ {
+  "id": "ctb",
+  "nome": "Código de Trânsito Brasileiro",
+  "numero": "Lei nº 9.503/1997",
+  "area": "Códigos",
+  "apelidos": "ctb trânsito",
+  "tipo": "lei",
+  "n": 9503,
+  "ano": 1997
+ },
+ {
+  "id": "cdc",
+  "nome": "Código de Defesa do Consumidor",
+  "numero": "Lei nº 8.078/1990",
+  "area": "Códigos",
+  "apelidos": "cdc consumidor",
+  "tipo": "lei",
+  "n": 8078,
+  "ano": 1990
+ },
+ {
+  "id": "clt",
+  "nome": "Consolidação das Leis do Trabalho",
+  "numero": "Decreto-Lei nº 5.452/1943",
+  "area": "Códigos",
+  "apelidos": "clt trabalho",
+  "tipo": "dl",
+  "n": 5452,
+  "ano": 1943
+ },
+ {
+  "id": "cpm",
+  "nome": "Código Penal Militar",
+  "numero": "Decreto-Lei nº 1.001/1969",
+  "area": "Códigos",
+  "apelidos": "cpm militar",
+  "tipo": "dl",
+  "n": 1001,
+  "ano": 1969
+ },
+ {
+  "id": "cppm",
+  "nome": "Código de Processo Penal Militar",
+  "numero": "Decreto-Lei nº 1.002/1969",
+  "area": "Códigos",
+  "apelidos": "cppm militar",
+  "tipo": "dl",
+  "n": 1002,
+  "ano": 1969
+ },
+ {
+  "id": "codigo-eleitoral",
+  "nome": "Código Eleitoral",
+  "numero": "Lei nº 4.737/1965",
+  "area": "Códigos",
+  "apelidos": "eleitoral",
+  "tipo": "lei",
+  "n": 4737,
+  "ano": 1965
+ },
+ {
+  "id": "lep",
+  "nome": "Lei de Execução Penal",
+  "numero": "Lei nº 7.210/1984",
+  "area": "Legislação penal especial",
+  "apelidos": "lep execução penal",
+  "tipo": "lei",
+  "n": 7210,
+  "ano": 1984,
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+ },
+ {
+  "id": "maria-da-penha",
+  "nome": "Lei Maria da Penha",
+  "numero": "Lei nº 11.340/2006",
+  "area": "Legislação penal especial",
+  "apelidos": "violência doméstica mulher",
+  "tipo": "lei",
+  "n": 11340,
+  "ano": 2006,
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+ },
+ {
+  "id": "drogas",
+  "nome": "Lei de Drogas",
+  "numero": "Lei nº 11.343/2006",
+  "area": "Legislação penal especial",
+  "apelidos": "tóxicos entorpecentes tráfico",
+  "tipo": "lei",
+  "n": 11343,
+  "ano": 2006
+ },
+ {
+  "id": "hediondos",
+  "nome": "Lei dos Crimes Hediondos",
+  "numero": "Lei nº 8.072/1990",
+  "area": "Legislação penal especial",
+  "apelidos": "hediondo",
+  "tipo": "lei",
+  "n": 8072,
+  "ano": 1990
+ },
+ {
+  "id": "abuso-autoridade",
+  "nome": "Lei de Abuso de Autoridade",
+  "numero": "Lei nº 13.869/2019",
+  "area": "Legislação penal especial",
+  "apelidos": "abuso",
+  "tipo": "lei",
+  "n": 13869,
+  "ano": 2019
+ },
+ {
+  "id": "desarmamento",
+  "nome": "Estatuto do Desarmamento",
+  "numero": "Lei nº 10.826/2003",
+  "area": "Legislação penal especial",
+  "apelidos": "armas arma de fogo porte posse",
+  "tipo": "lei",
+  "n": 10826,
+  "ano": 2003
+ },
+ {
+  "id": "tortura",
+  "nome": "Lei de Tortura",
+  "numero": "Lei nº 9.455/1997",
+  "area": "Legislação penal especial",
+  "apelidos": "tortura",
+  "tipo": "lei",
+  "n": 9455,
+  "ano": 1997
+ },
+ {
+  "id": "organizacoes-criminosas",
+  "nome": "Lei das Organizações Criminosas",
+  "numero": "Lei nº 12.850/2013",
+  "area": "Legislação penal especial",
+  "apelidos": "orcrim colaboração premiada infiltração",
+  "tipo": "lei",
+  "n": 12850,
+  "ano": 2013
+ },
+ {
+  "id": "lavagem",
+  "nome": "Lei de Lavagem de Dinheiro",
+  "numero": "Lei nº 9.613/1998",
+  "area": "Legislação penal especial",
+  "apelidos": "lavagem capitais",
+  "tipo": "lei",
+  "n": 9613,
+  "ano": 1998
+ },
+ {
+  "id": "crimes-ambientais",
+  "nome": "Lei de Crimes Ambientais",
+  "numero": "Lei nº 9.605/1998",
+  "area": "Legislação penal especial",
+  "apelidos": "meio ambiente",
+  "tipo": "lei",
+  "n": 9605,
+  "ano": 1998
+ },
+ {
+  "id": "racismo",
+  "nome": "Lei dos Crimes de Racismo",
+  "numero": "Lei nº 7.716/1989",
+  "area": "Legislação penal especial",
+  "apelidos": "preconceito raça cor injúria racial",
+  "tipo": "lei",
+  "n": 7716,
+  "ano": 1989
+ },
+ {
+  "id": "juizados",
+  "nome": "Lei dos Juizados Especiais Cíveis e Criminais",
+  "numero": "Lei nº 9.099/1995",
+  "area": "Legislação penal especial",
+  "apelidos": "jecrim transação penal sursis processual",
+  "tipo": "lei",
+  "n": 9099,
+  "ano": 1995
+ },
+ {
+  "id": "interceptacao",
+  "nome": "Lei de Interceptação Telefônica",
+  "numero": "Lei nº 9.296/1996",
+  "area": "Legislação penal especial",
+  "apelidos": "escuta grampo",
+  "tipo": "lei",
+  "n": 9296,
+  "ano": 1996
+ },
+ {
+  "id": "contravencoes",
+  "nome": "Lei das Contravenções Penais",
+  "numero": "Decreto-Lei nº 3.688/1941",
+  "area": "Legislação penal especial",
+  "apelidos": "lcp contravenção",
+  "tipo": "dl",
+  "n": 3688,
+  "ano": 1941
+ },
+ {
+  "id": "prisao-temporaria",
+  "nome": "Lei da Prisão Temporária",
+  "numero": "Lei nº 7.960/1989",
+  "area": "Legislação penal especial",
+  "apelidos": "temporária",
+  "tipo": "lei",
+  "n": 7960,
+  "ano": 1989
+ },
+ {
+  "id": "identificacao-criminal",
+  "nome": "Lei de Identificação Criminal",
+  "numero": "Lei nº 12.037/2009",
+  "area": "Legislação penal especial",
+  "apelidos": "identificação",
+  "tipo": "lei",
+  "n": 12037,
+  "ano": 2009
+ },
+ {
+  "id": "protecao-testemunhas",
+  "nome": "Lei de Proteção a Vítimas e Testemunhas",
+  "numero": "Lei nº 9.807/1999",
+  "area": "Legislação penal especial",
+  "apelidos": "testemunha colaborador",
+  "tipo": "lei",
+  "n": 9807,
+  "ano": 1999
+ },
+ {
+  "id": "antiterrorismo",
+  "nome": "Lei Antiterrorismo",
+  "numero": "Lei nº 13.260/2016",
+  "area": "Legislação penal especial",
+  "apelidos": "terrorismo",
+  "tipo": "lei",
+  "n": 13260,
+  "ano": 2016
+ },
+ {
+  "id": "ordem-tributaria",
+  "nome": "Crimes contra a Ordem Tributária",
+  "numero": "Lei nº 8.137/1990",
+  "area": "Legislação penal especial",
+  "apelidos": "sonegação",
+  "tipo": "lei",
+  "n": 8137,
+  "ano": 1990
+ },
+ {
+  "id": "sistema-financeiro",
+  "nome": "Crimes contra o Sistema Financeiro Nacional",
+  "numero": "Lei nº 7.492/1986",
+  "area": "Legislação penal especial",
+  "apelidos": "colarinho branco",
+  "tipo": "lei",
+  "n": 7492,
+  "ano": 1986
+ },
+ {
+  "id": "genocidio",
+  "nome": "Lei do Genocídio",
+  "numero": "Lei nº 2.889/1956",
+  "area": "Legislação penal especial",
+  "apelidos": "genocídio",
+  "tipo": "lei",
+  "n": 2889,
+  "ano": 1956
+ },
+ {
+  "id": "henry-borel",
+  "nome": "Lei Henry Borel",
+  "numero": "Lei nº 14.344/2022",
+  "area": "Legislação penal especial",
+  "apelidos": "violência doméstica criança adolescente",
+  "tipo": "lei",
+  "n": 14344,
+  "ano": 2022
+ },
+ {
+  "id": "escuta-protegida",
+  "nome": "Escuta Protegida de Crianças e Adolescentes",
+  "numero": "Lei nº 13.431/2017",
+  "area": "Legislação penal especial",
+  "apelidos": "depoimento especial",
+  "tipo": "lei",
+  "n": 13431,
+  "ano": 2017
+ },
+ {
+  "id": "crimes-responsabilidade",
+  "nome": "Lei dos Crimes de Responsabilidade",
+  "numero": "Lei nº 1.079/1950",
+  "area": "Legislação penal especial",
+  "apelidos": "impeachment",
+  "tipo": "lei",
+  "n": 1079,
+  "ano": 1950
+ },
+ {
+  "id": "investigacao-delegado",
+  "nome": "Investigação Criminal conduzida pelo Delegado",
+  "numero": "Lei nº 12.830/2013",
+  "area": "Legislação penal especial",
+  "apelidos": "delegado",
+  "tipo": "lei",
+  "n": 12830,
+  "ano": 2013
+ },
+ {
+  "id": "trafico-pessoas",
+  "nome": "Lei do Tráfico de Pessoas",
+  "numero": "Lei nº 13.344/2016",
+  "area": "Legislação penal especial",
+  "apelidos": "tráfico de pessoas",
+  "tipo": "lei",
+  "n": 13344,
+  "ano": 2016
+ },
+ {
+  "id": "antifaccao",
+  "nome": "Lei Antifacção (Lei Raul Jungmann)",
+  "numero": "Lei nº 15.358/2026",
+  "area": "Área policial",
+  "apelidos": "facção facções crime organizado milícia domínio social",
+  "tipo": "lei",
+  "n": 15358,
+  "ano": 2026
+ },
+ {
+  "id": "pacote-anticrime",
+  "nome": "Pacote Anticrime",
+  "numero": "Lei nº 13.964/2019",
+  "area": "Área policial",
+  "apelidos": "anticrime juiz das garantias",
+  "tipo": "lei",
+  "n": 13964,
+  "ano": 2019
+ },
+ {
+  "id": "marco-civil-internet",
+  "nome": "Marco Civil da Internet",
+  "numero": "Lei nº 12.965/2014",
+  "area": "Área policial",
+  "apelidos": "internet",
+  "tipo": "lei",
+  "n": 12965,
+  "ano": 2014
+ },
+ {
+  "id": "julgamento-colegiado",
+  "nome": "Julgamento Colegiado em Crimes de Organizações Criminosas",
+  "numero": "Lei nº 12.694/2012",
+  "area": "Área policial",
+  "apelidos": "colegiado",
+  "tipo": "lei",
+  "n": 12694,
+  "ano": 2012
+ },
+ {
+  "id": "presidios-federais",
+  "nome": "Presídios Federais de Segurança Máxima",
+  "numero": "Lei nº 11.671/2008",
+  "area": "Área policial",
+  "apelidos": "presídio federal",
+  "tipo": "lei",
+  "n": 11671,
+  "ano": 2008
+ },
+ {
+  "id": "forca-nacional",
+  "nome": "Força Nacional de Segurança Pública",
+  "numero": "Lei nº 11.473/2007",
+  "area": "Área policial",
+  "apelidos": "força nacional",
+  "tipo": "lei",
+  "n": 11473,
+  "ano": 2007
+ },
+ {
+  "id": "atribuicoes-pf",
+  "nome": "Atribuições da Polícia Federal (crimes interestaduais e internacionais)",
+  "numero": "Lei nº 10.446/2002",
+  "area": "Área policial",
+  "apelidos": "polícia federal repercussão interestadual",
+  "tipo": "lei",
+  "n": 10446,
+  "ano": 2002
+ },
+ {
+  "id": "policiais-civis-uniao",
+  "nome": "Regime Jurídico dos Policiais Civis da União e do DF",
+  "numero": "Lei nº 4.878/1965",
+  "area": "Área policial",
+  "apelidos": "regime disciplinar policial",
+  "tipo": "lei",
+  "n": 4878,
+  "ano": 1965
+ },
+ {
+  "id": "carreira-pf",
+  "nome": "Carreira Policial Federal",
+  "numero": "Lei nº 9.266/1996",
+  "area": "Área policial",
+  "apelidos": "polícia federal carreira",
+  "tipo": "lei",
+  "n": 9266,
+  "ano": 1996
+ },
+ {
+  "id": "disque-denuncia",
+  "nome": "Disque-Denúncia e Recompensa por Informações",
+  "numero": "Lei nº 13.608/2018",
+  "area": "Área policial",
+  "apelidos": "denúncia anônima whistleblower",
+  "tipo": "lei",
+  "n": 13608,
+  "ano": 2018
+ },
+ {
+  "id": "transplantes",
+  "nome": "Lei de Transplantes",
+  "numero": "Lei nº 9.434/1997",
+  "area": "Área policial",
+  "apelidos": "órgãos transplante",
+  "tipo": "lei",
+  "n": 9434,
+  "ano": 1997
+ },
+ {
+  "id": "ordem-economica",
+  "nome": "Crimes contra a Ordem Econômica",
+  "numero": "Lei nº 8.176/1991",
+  "area": "Área policial",
+  "apelidos": "combustíveis",
+  "tipo": "lei",
+  "n": 8176,
+  "ano": 1991
+ },
+ {
+  "id": "vitimas-violencia-sexual",
+  "nome": "Atendimento a Vítimas de Violência Sexual",
+  "numero": "Lei nº 12.845/2013",
+  "area": "Área policial",
+  "apelidos": "violência sexual",
+  "tipo": "lei",
+  "n": 12845,
+  "ano": 2013
+ },
+ {
+  "id": "sinal-vermelho",
+  "nome": "Programa Sinal Vermelho e Violência Psicológica",
+  "numero": "Lei nº 14.188/2021",
+  "area": "Área policial",
+  "apelidos": "violência psicológica",
+  "tipo": "lei",
+  "n": 14188,
+  "ano": 2021
+ },
+ {
+  "id": "antifeminicidio",
+  "nome": "Pacote Antifeminicídio",
+  "numero": "Lei nº 14.994/2024",
+  "area": "Leis alteradoras",
+  "apelidos": "feminicídio",
+  "tipo": "lei",
+  "n": 14994,
+  "ano": 2024
+ },
+ {
+  "id": "saidas-temporarias",
+  "nome": "Lei das Saídas Temporárias",
+  "numero": "Lei nº 14.843/2024",
+  "area": "Leis alteradoras",
+  "apelidos": "saidinha",
+  "tipo": "lei",
+  "n": 14843,
+  "ano": 2024
+ },
+ {
+  "id": "importunacao-sexual",
+  "nome": "Lei da Importunação Sexual",
+  "numero": "Lei nº 13.718/2018",
+  "area": "Leis alteradoras",
+  "apelidos": "importunação",
+  "tipo": "lei",
+  "n": 13718,
+  "ano": 2018
+ },
+ {
+  "id": "perseguicao",
+  "nome": "Crime de Perseguição (Stalking)",
+  "numero": "Lei nº 14.132/2021",
+  "area": "Leis alteradoras",
+  "apelidos": "stalking perseguição",
+  "tipo": "lei",
+  "n": 14132,
+  "ano": 2021
+ },
+ {
+  "id": "fraudes-eletronicas",
+  "nome": "Lei das Fraudes Eletrônicas",
+  "numero": "Lei nº 14.155/2021",
+  "area": "Leis alteradoras",
+  "apelidos": "fraude eletrônica estelionato",
+  "tipo": "lei",
+  "n": 14155,
+  "ano": 2021
+ },
+ {
+  "id": "mariana-ferrer",
+  "nome": "Lei Mariana Ferrer",
+  "numero": "Lei nº 14.245/2021",
+  "area": "Leis alteradoras",
+  "apelidos": "vítima audiência",
+  "tipo": "lei",
+  "n": 14245,
+  "ano": 2021
+ },
+ {
+  "id": "violencia-institucional",
+  "nome": "Lei da Violência Institucional",
+  "numero": "Lei nº 14.321/2022",
+  "area": "Leis alteradoras",
+  "apelidos": "revitimização",
+  "tipo": "lei",
+  "n": 14321,
+  "ano": 2022
+ },
+ {
+  "id": "estado-democratico",
+  "nome": "Crimes contra o Estado Democrático de Direito",
+  "numero": "Lei nº 14.197/2021",
+  "area": "Leis alteradoras",
+  "apelidos": "lsn segurança nacional golpe",
+  "tipo": "lei",
+  "n": 14197,
+  "ano": 2021
+ },
+ {
+  "id": "susp",
+  "nome": "Sistema Único de Segurança Pública (SUSP)",
+  "numero": "Lei nº 13.675/2018",
+  "area": "Segurança pública",
+  "apelidos": "susp",
+  "tipo": "lei",
+  "n": 13675,
+  "ano": 2018
+ },
+ {
+  "id": "lo-policias-civis",
+  "nome": "Lei Orgânica Nacional das Polícias Civis",
+  "numero": "Lei nº 14.735/2023",
+  "area": "Segurança pública",
+  "apelidos": "polícia civil",
+  "tipo": "lei",
+  "n": 14735,
+  "ano": 2023
+ },
+ {
+  "id": "lo-pm-bombeiros",
+  "nome": "Lei Orgânica Nacional das Polícias Militares e Corpos de Bombeiros",
+  "numero": "Lei nº 14.751/2023",
+  "area": "Segurança pública",
+  "apelidos": "polícia militar bombeiro",
+  "tipo": "lei",
+  "n": 14751,
+  "ano": 2023
+ },
+ {
+  "id": "guardas-municipais",
+  "nome": "Estatuto Geral das Guardas Municipais",
+  "numero": "Lei nº 13.022/2014",
+  "area": "Segurança pública",
+  "apelidos": "guarda municipal",
+  "tipo": "lei",
+  "n": 13022,
+  "ano": 2014
+ },
+ {
+  "id": "seguranca-privada",
+  "nome": "Estatuto da Segurança Privada",
+  "numero": "Lei nº 14.967/2024",
+  "area": "Segurança pública",
+  "apelidos": "vigilante",
+  "tipo": "lei",
+  "n": 14967,
+  "ano": 2024
+ },
+ {
+  "id": "eca",
+  "nome": "Estatuto da Criança e do Adolescente",
+  "numero": "Lei nº 8.069/1990",
+  "area": "Direitos humanos",
+  "apelidos": "eca criança adolescente ato infracional",
+  "tipo": "lei",
+  "n": 8069,
+  "ano": 1990
+ },
+ {
+  "id": "pessoa-idosa",
+  "nome": "Estatuto da Pessoa Idosa",
+  "numero": "Lei nº 10.741/2003",
+  "area": "Direitos humanos",
+  "apelidos": "idoso",
+  "tipo": "lei",
+  "n": 10741,
+  "ano": 2003
+ },
+ {
+  "id": "pessoa-deficiencia",
+  "nome": "Estatuto da Pessoa com Deficiência",
+  "numero": "Lei nº 13.146/2015",
+  "area": "Direitos humanos",
+  "apelidos": "deficiência lbi",
+  "tipo": "lei",
+  "n": 13146,
+  "ano": 2015
+ },
+ {
+  "id": "igualdade-racial",
+  "nome": "Estatuto da Igualdade Racial",
+  "numero": "Lei nº 12.288/2010",
+  "area": "Direitos humanos",
+  "apelidos": "igualdade racial",
+  "tipo": "lei",
+  "n": 12288,
+  "ano": 2010
+ },
+ {
+  "id": "migracao",
+  "nome": "Lei de Migração",
+  "numero": "Lei nº 13.445/2017",
+  "area": "Direitos humanos",
+  "apelidos": "estrangeiro migrante",
+  "tipo": "lei",
+  "n": 13445,
+  "ano": 2017
+ },
+ {
+  "id": "lei-8112",
+  "nome": "Regime Jurídico dos Servidores Públicos Federais",
+  "numero": "Lei nº 8.112/1990",
+  "area": "Administrativo",
+  "apelidos": "8112 servidor",
+  "tipo": "lei",
+  "n": 8112,
+  "ano": 1990
+ },
+ {
+  "id": "licitacoes",
+  "nome": "Lei de Licitações e Contratos Administrativos",
+  "numero": "Lei nº 14.133/2021",
+  "area": "Administrativo",
+  "apelidos": "licitação",
+  "tipo": "lei",
+  "n": 14133,
+  "ano": 2021
+ },
+ {
+  "id": "processo-administrativo",
+  "nome": "Lei do Processo Administrativo Federal",
+  "numero": "Lei nº 9.784/1999",
+  "area": "Administrativo",
+  "apelidos": "processo administrativo",
+  "tipo": "lei",
+  "n": 9784,
+  "ano": 1999
+ },
+ {
+  "id": "improbidade",
+  "nome": "Lei de Improbidade Administrativa",
+  "numero": "Lei nº 8.429/1992",
+  "area": "Administrativo",
+  "apelidos": "improbidade",
+  "tipo": "lei",
+  "n": 8429,
+  "ano": 1992
+ },
+ {
+  "id": "acesso-informacao",
+  "nome": "Lei de Acesso à Informação",
+  "numero": "Lei nº 12.527/2011",
+  "area": "Administrativo",
+  "apelidos": "lai",
+  "tipo": "lei",
+  "n": 12527,
+  "ano": 2011
+ },
+ {
+  "id": "anticorrupcao",
+  "nome": "Lei Anticorrupção",
+  "numero": "Lei nº 12.846/2013",
+  "area": "Administrativo",
+  "apelidos": "empresa limpa",
+  "tipo": "lei",
+  "n": 12846,
+  "ano": 2013
+ },
+ {
+  "id": "lgpd",
+  "nome": "Lei Geral de Proteção de Dados",
+  "numero": "Lei nº 13.709/2018",
+  "area": "Administrativo",
+  "apelidos": "lgpd dados pessoais",
+  "tipo": "lei",
+  "n": 13709,
+  "ano": 2018
+ },
+ {
+  "id": "lrf",
+  "nome": "Lei de Responsabilidade Fiscal",
+  "numero": "Lei Complementar nº 101/2000",
+  "area": "Administrativo",
+  "apelidos": "lrf",
+  "tipo": "lc",
+  "n": 101,
+  "ano": 2000
+ },
+ {
+  "id": "concessoes",
+  "nome": "Lei de Concessões e Permissões",
+  "numero": "Lei nº 8.987/1995",
+  "area": "Administrativo",
+  "apelidos": "concessão",
+  "tipo": "lei",
+  "n": 8987,
+  "ano": 1995
+ },
+ {
+  "id": "ppp",
+  "nome": "Lei das Parcerias Público-Privadas",
+  "numero": "Lei nº 11.079/2004",
+  "area": "Administrativo",
+  "apelidos": "ppp",
+  "tipo": "lei",
+  "n": 11079,
+  "ano": 2004
+ },
+ {
+  "id": "consorcios",
+  "nome": "Lei dos Consórcios Públicos",
+  "numero": "Lei nº 11.107/2005",
+  "area": "Administrativo",
+  "apelidos": "consórcio",
+  "tipo": "lei",
+  "n": 11107,
+  "ano": 2005
+ },
+ {
+  "id": "usuario-servico-publico",
+  "nome": "Código de Defesa do Usuário do Serviço Público",
+  "numero": "Lei nº 13.460/2017",
+  "area": "Administrativo",
+  "apelidos": "usuário ouvidoria",
+  "tipo": "lei",
+  "n": 13460,
+  "ano": 2017
+ },
+ {
+  "id": "mandado-seguranca",
+  "nome": "Lei do Mandado de Segurança",
+  "numero": "Lei nº 12.016/2009",
+  "area": "Administrativo",
+  "apelidos": "mandado de segurança",
+  "tipo": "lei",
+  "n": 12016,
+  "ano": 2009
+ },
+ {
+  "id": "acao-popular",
+  "nome": "Lei da Ação Popular",
+  "numero": "Lei nº 4.717/1965",
+  "area": "Administrativo",
+  "apelidos": "ação popular",
+  "tipo": "lei",
+  "n": 4717,
+  "ano": 1965
+ },
+ {
+  "id": "acao-civil-publica",
+  "nome": "Lei da Ação Civil Pública",
+  "numero": "Lei nº 7.347/1985",
+  "area": "Administrativo",
+  "apelidos": "acp",
+  "tipo": "lei",
+  "n": 7347,
+  "ano": 1985
+ },
+ {
+  "id": "habeas-data",
+  "nome": "Lei do Habeas Data",
+  "numero": "Lei nº 9.507/1997",
+  "area": "Administrativo",
+  "apelidos": "habeas data",
+  "tipo": "lei",
+  "n": 9507,
+  "ano": 1997
+ },
+ {
+  "id": "adi-adc",
+  "nome": "Lei da ADI e da ADC",
+  "numero": "Lei nº 9.868/1999",
+  "area": "Controle de constitucionalidade",
+  "apelidos": "adi adc",
+  "tipo": "lei",
+  "n": 9868,
+  "ano": 1999
+ },
+ {
+  "id": "adpf",
+  "nome": "Lei da ADPF",
+  "numero": "Lei nº 9.882/1999",
+  "area": "Controle de constitucionalidade",
+  "apelidos": "adpf",
+  "tipo": "lei",
+  "n": 9882,
+  "ano": 1999
+ },
+ {
+  "id": "mandado-injuncao",
+  "nome": "Lei do Mandado de Injunção",
+  "numero": "Lei nº 13.300/2016",
+  "area": "Controle de constitucionalidade",
+  "apelidos": "mandado de injunção",
+  "tipo": "lei",
+  "n": 13300,
+  "ano": 2016
+ },
+ {
+  "id": "lei-8080",
+  "nome": "Lei Orgânica da Saúde",
+  "numero": "Lei nº 8.080/1990",
+  "area": "Saúde pública",
+  "apelidos": "sus 8080",
+  "tipo": "lei",
+  "n": 8080,
+  "ano": 1990
+ },
+ {
+  "id": "lei-8142",
+  "nome": "Participação da Comunidade na Gestão do SUS",
+  "numero": "Lei nº 8.142/1990",
+  "area": "Saúde pública",
+  "apelidos": "conselho de saúde conferência",
+  "tipo": "lei",
+  "n": 8142,
+  "ano": 1990
+ },
+ {
+  "id": "decreto-7508",
+  "nome": "Decreto 7.508/2011 (regulamenta a Lei 8.080)",
+  "numero": "Decreto nº 7.508/2011",
+  "area": "Saúde pública",
+  "apelidos": "regiões de saúde coap",
+  "tipo": "decreto",
+  "n": 7508,
+  "ano": 2011
+ },
+ {
+  "id": "reforma-psiquiatrica",
+  "nome": "Lei da Reforma Psiquiátrica",
+  "numero": "Lei nº 10.216/2001",
+  "area": "Saúde pública",
+  "apelidos": "saúde mental",
+  "tipo": "lei",
+  "n": 10216,
+  "ano": 2001
+ },
+ {
+  "id": "lc-141",
+  "nome": "Financiamento da Saúde (LC 141/2012)",
+  "numero": "Lei Complementar nº 141/2012",
+  "area": "Saúde pública",
+  "apelidos": "financiamento",
+  "tipo": "lc",
+  "n": 141,
+  "ano": 2012
+ },
+ {
+  "id": "anvisa",
+  "nome": "Sistema Nacional de Vigilância Sanitária (Anvisa)",
+  "numero": "Lei nº 9.782/1999",
+  "area": "Saúde pública",
+  "apelidos": "vigilância sanitária",
+  "tipo": "lei",
+  "n": 9782,
+  "ano": 1999
+ },
+ {
+  "id": "lei-6259",
+  "nome": "Vigilância Epidemiológica e Notificação Compulsória",
+  "numero": "Lei nº 6.259/1975",
+  "area": "Saúde pública",
+  "apelidos": "vigilância epidemiológica vacinação",
+  "tipo": "lei",
+  "n": 6259,
+  "ano": 1975
+ },
+ {
+  "id": "lei-13979",
+  "nome": "Medidas de Emergência em Saúde Pública",
+  "numero": "Lei nº 13.979/2020",
+  "area": "Saúde pública",
+  "apelidos": "emergência covid",
+  "tipo": "lei",
+  "n": 13979,
+  "ano": 2020
+ }
 ]
