@@ -210,13 +210,98 @@ mark { background: var(--marca); color: inherit; border-radius: 2px; }
   .painel-caixa { animation: sobe 0.18s ease-out; }
   @keyframes sobe { from { transform: translateY(24px); opacity: 0.6; } to { transform: none; opacity: 1; } }
 }
+
+/* ---------- entrega 2: grifos, anotações, favoritos, pastas, alterações ---------- */
+:root { --g-amarelo: #FFE58A; --g-verde: #BDEBC4; --g-azul: #BFDDF7; --g-vermelho: #F7C1C1;
+        --add: #D9F2DF; --add-t: #1D6B3A; --del: #F9DADA; --del-t: #9B2C2C; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --g-amarelo: #6B5A12; --g-verde: #1F5A33; --g-azul: #1E4466; --g-vermelho: #6A2626;
+    --add: #1C3F29; --add-t: #9BE0B0; --del: #4A2222; --del-t: #F2A8A8; }
+}
+:root[data-theme="dark"] { --g-amarelo: #6B5A12; --g-verde: #1F5A33; --g-azul: #1E4466; --g-vermelho: #6A2626;
+  --add: #1C3F29; --add-t: #9BE0B0; --del: #4A2222; --del-t: #F2A8A8; }
+
+mark.grifo { color: inherit; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; cursor: pointer; }
+.g-amarelo { background: var(--g-amarelo); } .g-verde { background: var(--g-verde); }
+.g-azul { background: var(--g-azul); } .g-vermelho { background: var(--g-vermelho); }
+mark.grifo.com-nota { border-bottom: 2px dotted var(--tinta-2); }
+
+.artigo.favorito .rotulo::after { content: " ★"; color: var(--pend); }
+.ind-notas {
+  border: 1px solid var(--fio); background: var(--folha); color: var(--oliva); border-radius: 999px;
+  font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 3px 10px; margin: 2px 0 6px 1.2em; cursor: pointer;
+}
+.ind-notas::after { content: "Anotações: " attr(data-n); }
+.ind-notas.atencao { border-color: var(--alt); color: var(--alt); }
+.ind-notas.atencao::after { content: "Anotações: " attr(data-n) " · artigo alterado"; }
+
+.preambulo { text-align: center; margin: 1.2em 0 1.6em; }
+.preambulo .epigrafe { font-family: var(--sans); font-weight: 700; color: var(--oliva); font-size: 0.85em; }
+.preambulo .ementa { font-style: italic; text-align: left; margin-left: 40% !important; font-size: 0.92em; color: var(--tinta-2); }
+.preambulo .promulgacao { text-align: left; }
+@media (max-width: 700px) { .preambulo .ementa { margin-left: 15% !important; } }
+
+/* barra que aparece ao selecionar um trecho */
+.barra-selecao {
+  position: fixed; left: 50%; transform: translateX(-50%); z-index: 40;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  display: flex; align-items: center; gap: 6px; padding: 8px; border-radius: 14px;
+  background: var(--folha); border: 1px solid var(--fio); box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  -webkit-user-select: none; user-select: none; max-width: calc(100vw - 24px); overflow-x: auto;
+}
+.cor-btn { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--fio); flex: none; }
+.cor-btn[aria-pressed="true"] { border-color: var(--tinta); }
+.barra-selecao .icone-btn { flex: none; }
+.sep { width: 1px; align-self: stretch; background: var(--fio); margin: 0 4px; }
+
+/* chips de pastas */
+.pastas { display: flex; gap: 8px; overflow-x: auto; padding: 14px 16px 2px; -webkit-overflow-scrolling: touch; }
+.chip {
+  flex: none; border: 1px solid var(--fio); background: var(--folha); border-radius: 999px;
+  padding: 8px 14px; font-size: 14px; font-weight: 600; color: var(--tinta-2);
+}
+.chip[aria-pressed="true"] { background: var(--oliva); border-color: var(--oliva); color: var(--papel); }
+.lei-item .mais { border: 0; background: transparent; color: var(--tinta-2); font-size: 22px; padding: 0 16px; }
+.lei-fav { color: var(--pend); }
+
+/* cartões de anotação/favorito */
+.lista-cartoes { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
+.cartao-nota { background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 12px 14px; }
+.cartao-nota .origem { font-size: 13px; font-weight: 600; color: var(--oliva); border: 0; background: none; padding: 0; text-align: left; }
+.cartao-nota .citacao { font-family: var(--serif); font-size: 15px; line-height: 1.5; border-left: 3px solid var(--fio); padding-left: 10px; margin: 8px 0; color: var(--tinta-2); }
+.cartao-nota .corpo { white-space: pre-wrap; line-height: 1.5; font-size: 15px; margin: 6px 0; }
+.cartao-nota .meta { font-size: 12px; color: var(--tinta-2); }
+.cartao-nota .alerta { font-size: 13px; color: var(--alt); margin: 6px 0; line-height: 1.45; }
+.cartao-nota .linha-acoes { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.cartao-nota .linha-acoes button { border: 1px solid var(--fio); background: var(--papel); border-radius: 8px; padding: 7px 10px; font-size: 13px; }
+.miniaturas { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.miniaturas figure { margin: 0; position: relative; }
+.miniaturas img { width: 96px; height: 96px; object-fit: cover; border-radius: 8px; border: 1px solid var(--fio); cursor: zoom-in; }
+.miniaturas .tirar { position: absolute; top: -6px; right: -6px; width: 26px; height: 26px; border-radius: 50%; border: 0; background: var(--alt); color: #fff; font-weight: 700; }
+textarea.campo { min-height: 140px; resize: vertical; font-family: var(--sans); line-height: 1.5; }
+.filtros { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
+.imagem-cheia { max-width: 100%; border-radius: 10px; }
+
+/* comparação antes/depois */
+.diff { font-family: var(--serif); font-size: 17px; line-height: 1.65; white-space: pre-wrap; background: var(--folha); border: 1px solid var(--fio); border-radius: 10px; padding: 12px 14px; }
+.diff ins { background: var(--add); color: var(--add-t); text-decoration: none; border-radius: 2px; }
+.diff del { background: var(--del); color: var(--del-t); border-radius: 2px; }
+.diff .corte { color: var(--tinta-2); font-family: var(--sans); font-size: 13px; }
+.legenda-diff { font-size: 13px; color: var(--tinta-2); display: flex; gap: 14px; margin: 6px 0 12px; }
+.legenda-diff del, .legenda-diff ins { padding: 0 4px; }
+.legenda-diff del { background: var(--del); color: var(--del-t); } .legenda-diff ins { background: var(--add); color: var(--add-t); text-decoration: none; }
+.bloco-alteracao { margin: 18px 0 26px; }
+.bloco-alteracao h3 { font-size: 16px; margin: 0 0 4px; }
+.bloco-alteracao .meta { font-size: 13px; color: var(--tinta-2); margin-bottom: 8px; line-height: 1.45; }
+.bloco-alteracao a, .cartao a { color: var(--oliva); font-weight: 600; }
 </style>
 </head>
 <body>
 
 <header class="topo" id="topo">
-  <button class="icone-btn oculto" id="btn-voltar" aria-label="Voltar ao acervo">‹ Acervo</button>
-  <h1 id="titulo">Meu Acervo</h1>
+  <button class="icone-btn oculto" id="btn-voltar" aria-label="Voltar">‹ Voltar</button>
+  <h1 id="titulo">Leis</h1>
   <button class="icone-btn oculto" id="btn-sumario">Sumário</button>
   <button class="icone-btn oculto" id="btn-ir">Ir para art.</button>
   <button class="icone-btn oculto" id="btn-buscar-lei" aria-label="Buscar nesta lei">Buscar</button>
@@ -226,62 +311,80 @@ mark { background: var(--marca); color: inherit; border-radius: 2px; }
 <div id="aviso-offline" class="aviso oculto"></div>
 <main id="conteudo"></main>
 
+<div id="barra-selecao" class="barra-selecao oculto" role="toolbar" aria-label="Trecho selecionado">
+  <button class="cor-btn g-amarelo" data-cor="amarelo" aria-label="Grifar em amarelo"></button>
+  <button class="cor-btn g-verde" data-cor="verde" aria-label="Grifar em verde"></button>
+  <button class="cor-btn g-azul" data-cor="azul" aria-label="Grifar em azul"></button>
+  <button class="cor-btn g-vermelho" data-cor="vermelho" aria-label="Grifar em vermelho"></button>
+  <span class="sep"></span>
+  <button class="icone-btn" data-acao-sel="anotar">Anotar</button>
+  <button class="icone-btn" data-acao-sel="favoritar">Favoritar</button>
+  <button class="icone-btn" data-acao-sel="copiar">Copiar</button>
+</div>
+
 <nav class="abas" id="abas" aria-label="Menu principal">
   <button data-rota="acervo" aria-current="page">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.6-.9 3.4 15.2-3.6.8z"/></svg>
-    Meu Acervo</button>
+    Leis</button>
+  <button data-rota="questoes">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M8 9l1.5 1.5L12 8M8 15l1.5 1.5L12 14M14 9.5h3M14 15.5h3"/></svg>
+    Questões</button>
   <button data-rota="pesquisar">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
     Pesquisar</button>
+  <button data-rota="estudos">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3.5h9l3 3V20.5H6z"/><path d="M9 11h6M9 15h4"/></svg>
+    Meus estudos</button>
   <button data-rota="ajustes">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
     Configurações</button>
 </nav>
 
 <div id="painel" class="painel oculto" role="dialog" aria-modal="true"><div class="painel-caixa" id="painel-caixa"></div></div>
+<input type="file" id="entrada-imagens" accept="image/*" multiple hidden>
+<input type="file" id="entrada-backup" accept=".json,application/json" hidden>
 
 <script>
 "use strict";
 /* =====================================================================
-   Leitor Inteligente de Legislação — Entrega 1 (leitor)
-   Dados: gerados pelo robô em dados/ (status.json e leis/<id>.json).
-   Regra: só baixa uma lei quando a impressão digital (hash) dela mudou.
+   Leitor Inteligente de Legislação — Entrega 2
+   Leis: vêm do robô (dados/). Só baixa uma lei quando o hash dela mudou.
+   Seus dados (grifos, anotações, imagens, favoritos, pastas): IndexedDB,
+   separados das leis. Atualizar ou remover uma lei nunca apaga nada seu.
    ===================================================================== */
 
 const CACHE_DADOS = "legislacao-dados-v1";
-const HORAS_PENDENTE = 36;       // sem confirmação do robô por mais que isso = verificação pendente
+const HORAS_PENDENTE = 36;
 const CORES_ABA = ["#5E6B25", "#2F5D7C", "#8A3B2E", "#6B4E8A", "#2E7466", "#8A6A1F"];
+const CORES = { amarelo: "Amarelo", verde: "Verde", azul: "Azul", vermelho: "Vermelho" };
 const REPO_ACTIONS = "https://github.com/Erivelton94/leitor-legislacao/actions/workflows/verificar.yml";
+const LIMITE_IMAGENS_MB = 200;
 
 const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const estado = {
-  status: {}, leis: {}, offline: false, statusEm: null,
-  info: lerLS("info-leis", {}),                 // {id: {hash, versao, baixadoEm}}
-  alteracoes: lerLS("alteracoes-nao-vistas", {}),// {id: {desde, ate, artigos:[{artigo,tipo}]}}
+  status: {}, leis: {}, historicos: {}, offline: false, statusEm: null,
+  info: lerLS("info-leis", {}),
+  alteracoes: lerLS("alteracoes-nao-vistas", {}),
   sincronizando: new Set(),
+  itens: new Map(),        // grifos, anotações, favoritos, pastas (id -> item)
 };
 
-function lerLS(chave, padrao) {
-  try { return JSON.parse(localStorage.getItem(chave)) ?? padrao; } catch { return padrao; }
-}
-function gravarLS(chave, valor) {
-  try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {}
-}
-function esc(t) {
-  return String(t).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
-function semAcento(t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+function lerLS(chave, padrao) { try { return JSON.parse(localStorage.getItem(chave)) ?? padrao; } catch { return padrao; } }
+function gravarLS(chave, valor) { try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {} }
+function esc(t) { return String(t ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+function semAcento(t) { return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
 function dataHora(iso) {
   if (!iso) return "—";
   const d = new Date(iso);
   return d.toLocaleDateString("pt-BR") + " às " + d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
 }
-function dataCurta(isoData) {
-  if (!isoData) return "—";
-  const [a, m, d] = isoData.slice(0, 10).split("-");
-  return `${d}/${m}/${a}`;
-}
+function dataCurta(iso) { if (!iso) return "—"; const [a, m, d] = iso.slice(0, 10).split("-"); return `${d}/${m}/${a}`; }
+function agoraISO() { return new Date().toISOString(); }
+function uid() { return (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2)); }
 function urlLei(id) { return `dados/leis/${id}.json`; }
+function nomeLei(id) { return estado.status[id]?.nome || id; }
+function rotuloArt(art) { return "Art. " + String(art).replace(/#\d+$/, ""); }
 
 /* ---------------- ajustes de leitura ---------------- */
 const ajustes = Object.assign({ fonte: 19, entrelinha: 1.7, tema: "auto" }, lerLS("ajustes", {}));
@@ -294,7 +397,72 @@ function aplicarAjustes() {
 }
 aplicarAjustes();
 
-/* ---------------- dados: status e leis ---------------- */
+/* =====================================================================
+   SEUS DADOS (IndexedDB)
+   Cada item tem id, tipo e atualizadoEm. Apagar = marcar "apagado"
+   (assim a importação de um backup antigo não ressuscita o que você apagou).
+   ===================================================================== */
+let BD = null;
+function abrirBD() {
+  return new Promise((ok, erro) => {
+    const r = indexedDB.open("meus-estudos", 1);
+    r.onupgradeneeded = () => {
+      const db = r.result;
+      if (!db.objectStoreNames.contains("itens")) db.createObjectStore("itens", { keyPath: "id" });
+      if (!db.objectStoreNames.contains("imagens")) db.createObjectStore("imagens", { keyPath: "id" });
+    };
+    r.onsuccess = () => ok(BD = r.result);
+    r.onerror = () => erro(r.error);
+  });
+}
+function bd(store, modo, fn) {
+  return new Promise((ok, erro) => {
+    const t = BD.transaction(store, modo);
+    const req = fn(t.objectStore(store));
+    let res;
+    if (req) req.onsuccess = () => { res = req.result; };
+    t.oncomplete = () => ok(res);
+    t.onerror = () => erro(t.error);
+    t.onabort = () => erro(t.error);
+  });
+}
+const bdTodos = store => bd(store, "readonly", s => s.getAll());
+const bdLer = (store, id) => bd(store, "readonly", s => s.get(id));
+const bdGravar = (store, obj) => bd(store, "readwrite", s => s.put(obj));
+const bdApagar = (store, id) => bd(store, "readwrite", s => s.delete(id));
+
+async function carregarItens() {
+  for (const it of await bdTodos("itens")) estado.itens.set(it.id, it);
+}
+async function salvarItem(item) {
+  item.atualizadoEm = agoraISO();
+  if (!item.criadoEm) item.criadoEm = item.atualizadoEm;
+  await bdGravar("itens", item);
+  estado.itens.set(item.id, item);
+  gravarLS("ultima-mudanca", item.atualizadoEm);
+  return item;
+}
+async function apagarItem(id) {
+  const velho = estado.itens.get(id);
+  if (velho && velho.tipo === "anotacao") for (const img of velho.imagens || []) await bdApagar("imagens", img);
+  await salvarItem({ id, tipo: velho ? velho.tipo : "?", apagado: true });
+}
+function itens(tipo, filtro = () => true) {
+  return [...estado.itens.values()].filter(i => !i.apagado && i.tipo === tipo && filtro(i));
+}
+
+/* ---------------- favoritos ---------------- */
+const idFavLei = lei => `fav|lei|${lei}`;
+const idFavArt = (lei, art) => `fav|art|${lei}|${art}`;
+function ehFavorito(id) { const i = estado.itens.get(id); return !!(i && !i.apagado); }
+async function alternarFavorito(id, dados) {
+  if (ehFavorito(id)) await apagarItem(id);
+  else await salvarItem({ id, tipo: "favorito", ...dados });
+}
+
+/* =====================================================================
+   LEIS: status, download incremental e histórico
+   ===================================================================== */
 async function buscarComTempo(url, ms = 12000) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), ms);
@@ -312,7 +480,7 @@ async function carregarStatus() {
     await cache.put("dados/status.json", r.clone());
     estado.status = await r.json();
     estado.offline = false;
-    estado.statusEm = new Date().toISOString();
+    estado.statusEm = agoraISO();
     gravarLS("status-em", estado.statusEm);
   } catch {
     estado.offline = true;
@@ -331,16 +499,14 @@ async function leiDoCache(id) {
   return estado.leis[id];
 }
 
-/* Baixa a lei somente se a versão guardada no aparelho for diferente da versão oficial atual. */
 async function sincronizarLei(id) {
   const st = estado.status[id];
   if (!st || !st.hash) return;
   const local = estado.info[id];
   const cache = await caches.open(CACHE_DADOS);
   const temCopia = await cache.match(urlLei(id));
-  if (temCopia && local && local.hash === st.hash) return;       // igual: nada a baixar
+  if (temCopia && local && local.hash === st.hash) return;
   if (estado.offline) return;
-
   estado.sincronizando.add(id);
   try {
     const r = await buscarComTempo(urlLei(id), 30000);
@@ -348,47 +514,49 @@ async function sincronizarLei(id) {
     const lei = await r.json();
     await cache.put(urlLei(id), copia);
     estado.leis[id] = lei;
-
-    // Mudou a versão da lei (e não só a leitura do texto)? Registra o que mudou para avisar.
-    if (local && local.versao && lei.versao !== local.versao) {
-      await registrarAlteracoes(id, local.versao, lei.versao);
-    }
-    estado.info[id] = { hash: lei.hash, versao: lei.versao, baixadoEm: new Date().toISOString() };
+    if (local && local.versao && lei.versao !== local.versao) await registrarAlteracoes(id, local.versao, lei.versao);
+    estado.info[id] = { hash: lei.hash, versao: lei.versao, baixadoEm: agoraISO() };
     gravarLS("info-leis", estado.info);
-  } catch {
-    /* sem conexão ou falha: a situação da lei continua marcando a versão nova como pendente */
-  } finally {
-    estado.sincronizando.delete(id);
+  } catch { /* segue marcada como pendente */ }
+  finally { estado.sincronizando.delete(id); }
+}
+
+async function carregarHistorico(id) {
+  const url = `dados/historico/${id}.json`;
+  const cache = await caches.open(CACHE_DADOS);
+  if (!estado.offline) {
+    try {
+      const r = await buscarComTempo(url);
+      await cache.put(url, r.clone());
+      return (estado.historicos[id] = await r.json());
+    } catch { /* sem histórico ainda (nenhuma alteração) ou sem conexão */ }
   }
+  const c = await cache.match(url);
+  return (estado.historicos[id] = c ? await c.json() : []);
 }
 
 async function registrarAlteracoes(id, desde, ate) {
+  const hist = await carregarHistorico(id);
   let artigos = [];
-  try {
-    const r = await buscarComTempo(`dados/historico/${id}.json`);
-    const hist = await r.json();
-    for (const reg of hist) {
-      if (reg.versao_nova > desde) {
-        reg.alterados.forEach(a => artigos.push({ artigo: a.artigo, tipo: "alterado" }));
-        reg.incluidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "incluído" }));
-        reg.removidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "removido" }));
-      }
+  for (const reg of hist) {
+    if (reg.versao_nova > desde) {
+      reg.alterados.forEach(a => artigos.push({ artigo: a.artigo, tipo: "alterado" }));
+      reg.incluidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "incluído" }));
+      reg.removidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "removido" }));
     }
-  } catch { /* histórico indisponível: o aviso sai sem a lista de artigos */ }
+  }
   const vistos = new Set();
   artigos = artigos.filter(a => !vistos.has(a.artigo) && vistos.add(a.artigo));
   estado.alteracoes[id] = { desde, ate, artigos };
   gravarLS("alteracoes-nao-vistas", estado.alteracoes);
 }
 
-/* Situação exibida: só diz "Atualizada" quando há confirmação recente da fonte oficial. */
 function situacao(id) {
   const st = estado.status[id];
   if (!st) return { cls: "pend", txt: "Verificação pendente", sub: "Ainda não há verificação registrada." };
   const local = estado.info[id];
   const okEm = st.ultima_verificacao_ok;
   const subOk = "Última verificação confirmada: " + dataHora(okEm);
-
   if (estado.alteracoes[id]) return { cls: "alt", txt: "Alteração detectada", sub: "A lei mudou desde a sua última leitura. " + subOk };
   if (!local || local.hash !== st.hash) {
     if (estado.sincronizando.has(id)) return { cls: "pend", txt: "Baixando versão atual", sub: subOk };
@@ -398,12 +566,13 @@ function situacao(id) {
   }
   if (st.status === "ERRO_VERIFICACAO") return { cls: "erro", txt: "Não foi possível confirmar a atualização", sub: subOk };
   if (!okEm) return { cls: "pend", txt: "Verificação pendente", sub: "A fonte oficial ainda não foi consultada com sucesso." };
-  const horas = (Date.now() - new Date(okEm)) / 36e5;
-  if (horas > HORAS_PENDENTE) return { cls: "pend", txt: "Verificação pendente", sub: subOk };
+  if ((Date.now() - new Date(okEm)) / 36e5 > HORAS_PENDENTE) return { cls: "pend", txt: "Verificação pendente", sub: subOk };
   return { cls: "ok", txt: "Atualizada", sub: subOk };
 }
 
-/* ---------------- interpretação do texto do artigo ---------------- */
+/* =====================================================================
+   INTERPRETAÇÃO DO TEXTO
+   ===================================================================== */
 const RE_NOTA = /\((?:Reda[çc][ãa]o|Inclu[íi]d|Revogad|Vide|Vig[êe]ncia|Renumerad|Acrescid|Regulamento|Produ[çc][ãa]o de efeito|Declarad|Suspens|Promulga|Vetad|Convertid|Express[ãa]o|Texto)[^()]*(?:\([^()]*\)[^()]*)*\)/g;
 const RE_ESTRUTURA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|Se[çc][ãa]o|SUBSE[ÇC][ÃA]O|Subse[çc][ãa]o|DISPOSI[ÇC][ÕO]ES)\b/;
 
@@ -421,10 +590,6 @@ function tipoLinha(l, i) {
   return "texto";
 }
 
-/* Divide cada artigo em linhas tipadas e move os títulos que ficaram no fim de um artigo
-   para o início do artigo seguinte (é onde eles pertencem). */
-/* O navegador reordena chaves numéricas ("10" antes de "9-A"), então a ordem dos artigos
-   é refeita pela numeração: 9 < 9-A < 10 … 359-M < 359-M-A < 359-N. */
 function chaveOrdem(id) {
   const [base, dup] = id.split("#");
   const [num, ...letras] = base.split("-");
@@ -441,26 +606,46 @@ function compararArtigos(a, b) {
   return x.dup - y.dup;
 }
 
+const ehTitulo = l => l && (l.tipo === "rubrica" || l.tipo === "estrutura");
+/* Títulos no fim de um bloco pertencem ao artigo seguinte (inclui uma nota logo abaixo de um título). */
+function tirarTitulosDoFim(ls, minimo) {
+  const mover = [];
+  while (ls.length > minimo) {
+    const u = ls[ls.length - 1], pen = ls[ls.length - 2];
+    if (ehTitulo(u) || (u.tipo === "notalinha" && ehTitulo(pen) && ls.length - 1 > minimo)) mover.unshift(ls.pop());
+    else break;
+  }
+  return mover;
+}
+
 function prepararLei(lei) {
   if (lei._prep) return lei._prep;
   const ids = Object.keys(lei.artigos).sort(compararArtigos);
   const arts = ids.map(id => ({
     id, linhas: lei.artigos[id].texto.split("\n").map((t, i) => ({ t, tipo: tipoLinha(t, i) })), antes: [],
   }));
-  for (let k = 0; k < arts.length - 1; k++) {
-    const ls = arts[k].linhas;
-    const mover = [];
-    while (ls.length > 1 && ["rubrica", "estrutura"].includes(ls[ls.length - 1].tipo)) mover.unshift(ls.pop());
-    arts[k + 1].antes = mover;
+  // preâmbulo: epígrafe, ementa, fórmula de promulgação e os primeiros títulos
+  let pre = [];
+  if (lei.preambulo && lei.preambulo.length) {
+    let promulgou = false;
+    pre = lei.preambulo.map((t, i) => {
+      let tipo;
+      if (i === 0) tipo = "epigrafe";
+      else if (/^\(.*\)$/.test(t)) tipo = "notalinha";
+      else if (/^(O|A) PRESIDENT|^O CONGRESSO|^AS MESAS/i.test(t)) { tipo = "promulgacao"; promulgou = true; }
+      else if (!promulgou) tipo = "ementa";
+      else tipo = tipoLinha(t, 1);
+      return { t, tipo };
+    });
+    if (arts.length) arts[0].antes = tirarTitulosDoFim(pre, 0);
   }
-  // o nome logo abaixo de "Seção IV" (ex.: "Da Remição") faz parte do título
+  for (let k = 0; k < arts.length - 1; k++) arts[k + 1].antes = tirarTitulosDoFim(arts[k].linhas, 1);
   for (const a of arts) {
     a.antes.forEach((l, j) => {
       const prox = a.antes[j + 1];
       if (l.tipo === "estrutura" && RE_ESTRUTURA.test(l.t) && prox && prox.tipo === "rubrica") prox.tipo = "estrutura";
     });
   }
-  // sumário a partir dos títulos estruturais (junta "CAPÍTULO I" com a linha seguinte)
   const sumario = [];
   for (const a of arts) {
     for (let j = 0; j < a.antes.length; j++) {
@@ -473,17 +658,18 @@ function prepararLei(lei) {
       sumario.push({ rotulo, nivel, alvo: a.id });
     }
   }
-  lei._prep = { arts, sumario };
+  lei._prep = { arts, sumario, pre };
   return lei._prep;
 }
 
-function linhaHTML(texto) {
-  return esc(texto).replace(RE_NOTA, m => `<span class="nota">${m}</span>`);
-}
+function linhaHTML(texto) { return esc(texto).replace(RE_NOTA, m => `<span class="nota">${m}</span>`); }
 
-function artigoHTML(a, alterados) {
+function artigoHTML(a, alterados, leiId) {
   let h = "";
-  for (const l of a.antes) h += `<p class="${l.tipo === "estrutura" ? "estrutura" : "rubrica"}">${esc(l.t)}</p>`;
+  for (const l of a.antes) {
+    h += l.tipo === "notalinha" ? `<p class="rubrica"><span class="nota">${esc(l.t)}</span></p>`
+      : `<p class="${l.tipo === "estrutura" ? "estrutura" : "rubrica"}">${esc(l.t)}</p>`;
+  }
   const caput = a.linhas[0].t;
   const semNotas = caput.replace(RE_NOTA, "").replace(/^Art\.?\s*[\dºo°\-A-Z]+\.?\s*[-–]?\s*/, "").trim();
   const revogado = !semNotas && /Revogad/i.test(caput);
@@ -493,86 +679,275 @@ function artigoHTML(a, alterados) {
   const cls = ["artigo"];
   if (revogado) cls.push("revogado");
   if (alterados && alterados.has(a.id)) cls.push("alterado");
+  if (ehFavorito(idFavArt(leiId, a.id))) cls.push("favorito");
   h += `<div class="${cls.join(" ")}" id="art-${esc(a.id)}" data-art="${esc(a.id)}">`;
   h += `<p><button class="rotulo" data-menu="${esc(a.id)}">${esc(rot)}</button>${linhaHTML(resto)}</p>`;
   for (let i = 1; i < a.linhas.length; i++) {
     const l = a.linhas[i];
     const c = { par: "par", inc: "inc", ali: "ali", pena: "pena", rubrica: "rubrica", estrutura: "rubrica" }[l.tipo] || "";
-    h += l.tipo === "notalinha"
-      ? `<p><span class="nota">${esc(l.t)}</span></p>`
-      : `<p${c ? ` class="${c}"` : ""}>${linhaHTML(l.t)}</p>`;
+    h += l.tipo === "notalinha" ? `<p><span class="nota">${esc(l.t)}</span></p>` : `<p${c ? ` class="${c}"` : ""}>${linhaHTML(l.t)}</p>`;
   }
   return h + "</div>";
 }
 
-/* ---------------- telas ---------------- */
-function definirTopo({ titulo, leitor = false }) {
-  $("#titulo").textContent = titulo;
-  for (const id of ["btn-voltar", "btn-sumario", "btn-ir", "btn-buscar-lei", "btn-aa"]) $("#" + id).classList.toggle("oculto", !leitor);
-  $("#abas").classList.toggle("oculto", leitor);
+function preambuloHTML(pre) {
+  if (!pre.length) return "";
+  return `<div class="preambulo">${pre.map(l => {
+    if (l.tipo === "notalinha") return `<p><span class="nota">${esc(l.t)}</span></p>`;
+    const c = { epigrafe: "epigrafe", ementa: "ementa", promulgacao: "promulgacao", estrutura: "estrutura", rubrica: "rubrica" }[l.tipo] || "";
+    return `<p class="${c}">${linhaHTML(l.t)}</p>`;
+  }).join("")}</div>`;
 }
 
+/* =====================================================================
+   ÂNCORAS DOS GRIFOS E ANOTAÇÕES
+   Cada marcação guarda: artigo, posição, o trecho exato, 40 letras antes e
+   depois, o hash do artigo e uma cópia do texto do artigo naquela versão.
+   ===================================================================== */
+function textoDoArtigo(div) { return div.textContent; }
+function posicaoNoArtigo(div, no, off) {
+  const r = document.createRange();
+  r.setStart(div, 0);
+  r.setEnd(no, off);
+  return r.toString().length;
+}
+function pintar(div, ini, fim, cls, dados) {
+  const alvos = [];
+  const w = document.createTreeWalker(div, NodeFilter.SHOW_TEXT);
+  let n, pos = 0;
+  while ((n = w.nextNode())) {
+    const a = pos, b = pos + n.data.length;
+    pos = b;
+    if (b <= ini || a >= fim) continue;
+    alvos.push([n, Math.max(ini, a) - a, Math.min(fim, b) - a]);
+  }
+  for (const [no, s, e] of alvos) {
+    let alvo = no;
+    if (e < alvo.data.length) alvo.splitText(e);
+    if (s > 0) alvo = alvo.splitText(s);
+    const m = document.createElement("mark");
+    m.className = cls;
+    Object.assign(m.dataset, dados);
+    alvo.parentNode.insertBefore(m, alvo);
+    m.appendChild(alvo);
+  }
+}
+function comumFim(a, b) { let k = 0; while (k < a.length && k < b.length && a[a.length - 1 - k] === b[b.length - 1 - k]) k++; return k; }
+function comumInicio(a, b) { let k = 0; while (k < a.length && k < b.length && a[k] === b[k]) k++; return k; }
+
+/* Onde está o trecho marcado no texto atual? exato | reposicionado | perdido */
+function localizar(item, textoAtual, hashAtual) {
+  if (!item.texto) return { estado: "artigo" };
+  if (textoAtual.slice(item.ini, item.fim) === item.texto &&
+      textoAtual.slice(Math.max(0, item.ini - item.prefixo.length), item.ini) === item.prefixo) {
+    return { ini: item.ini, fim: item.fim, estado: item.hashArt === hashAtual ? "exato" : "reposicionado" };
+  }
+  let melhor = null, idx = textoAtual.indexOf(item.texto);
+  while (idx >= 0) {
+    const pre = textoAtual.slice(Math.max(0, idx - item.prefixo.length), idx);
+    const suf = textoAtual.slice(idx + item.texto.length, idx + item.texto.length + item.sufixo.length);
+    const nota = comumFim(pre, item.prefixo) + comumInicio(suf, item.sufixo);
+    if (!melhor || nota > melhor.nota) melhor = { ini: idx, fim: idx + item.texto.length, nota };
+    idx = textoAtual.indexOf(item.texto, idx + 1);
+  }
+  if (!melhor) return { estado: "perdido" };
+  return { ini: melhor.ini, fim: melhor.fim, estado: item.hashArt === hashAtual ? "exato" : "reposicionado" };
+}
+
+function artigoMudou(item) {
+  const lei = estado.leis[item.lei];
+  const art = lei && item.art && lei.artigos[item.art];
+  if (!item.art) return false;
+  if (!art) return true;                  // artigo não existe mais nesta versão
+  return item.hashArt !== art.hash;
+}
+
+function marcacoesDoArtigo(leiId, art) {
+  return [...estado.itens.values()].filter(i => !i.apagado && i.lei === leiId && i.art === art &&
+    (i.tipo === "grifo" || i.tipo === "anotacao" || (i.tipo === "favorito" && i.alvo === "trecho")));
+}
+
+function aplicarMarcacoes(leiId, div) {
+  const art = div.dataset.art;
+  const lei = estado.leis[leiId];
+  const hashAtual = lei.artigos[art]?.hash;
+  const texto = textoDoArtigo(div);
+  const lista = marcacoesDoArtigo(leiId, art);
+  const grifos = lista.filter(i => i.tipo === "grifo");
+  const notas = lista.filter(i => i.tipo === "anotacao");
+  for (const g of grifos) {
+    const loc = localizar(g, texto, hashAtual);
+    if (loc.estado === "perdido" || loc.estado === "artigo") continue;
+    const comNota = notas.some(n => n.grifoId === g.id);
+    pintar(div, loc.ini, loc.fim, `grifo g-${g.cor}${comNota ? " com-nota" : ""}`, { grifo: g.id });
+  }
+  div.querySelector(".ind-notas")?.remove();
+  if (notas.length) {
+    const b = document.createElement("button");
+    b.className = "ind-notas" + (notas.some(artigoMudou) ? " atencao" : "");
+    b.dataset.n = notas.length;
+    b.dataset.notas = art;
+    b.setAttribute("aria-label", `${notas.length} anotação(ões) neste artigo`);
+    div.appendChild(b);
+  }
+}
+function repintarArtigo(leiId, art) {
+  const div = document.getElementById("art-" + art);
+  if (!div) return;
+  const prep = prepararLei(estado.leis[leiId]);
+  const a = prep.arts.find(x => x.id === art);
+  const alt = estado.alteracoes[leiId];
+  const tmp = document.createElement("div");
+  tmp.innerHTML = artigoHTML({ ...a, antes: [] }, alt ? new Set(alt.artigos.map(x => x.artigo)) : null, leiId);
+  const novo = tmp.firstElementChild;
+  div.replaceWith(novo);
+  aplicarMarcacoes(leiId, novo);
+}
+
+/* =====================================================================
+   COMPARAÇÃO PALAVRA A PALAVRA
+   ===================================================================== */
+function diffPalavras(a, b) {
+  const A = a.split(/(\s+)/), B = b.split(/(\s+)/);
+  const n = A.length, m = B.length;
+  if (n * m > 4e6) return [{ t: "del", s: a }, { t: "ins", s: b }];
+  const dp = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--)
+      dp[i][j] = A[i] === B[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const out = [];
+  const add = (t, s) => { if (out.length && out[out.length - 1].t === t) out[out.length - 1].s += s; else out.push({ t, s }); };
+  let i = 0, j = 0;
+  while (i < n && j < m) {
+    if (A[i] === B[j]) { add("eq", A[i]); i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) add("del", A[i++]);
+    else add("ins", B[j++]);
+  }
+  while (i < n) add("del", A[i++]);
+  while (j < m) add("ins", B[j++]);
+  return out;
+}
+function diffHTML(antes, depois) {
+  const partes = diffPalavras(antes, depois);
+  return partes.map((p, k) => {
+    if (p.t === "del") return `<del>${esc(p.s)}</del>`;
+    if (p.t === "ins") return `<ins>${esc(p.s)}</ins>`;
+    // trechos iguais longos: mostra só o entorno da mudança
+    const s = p.s, CTX = 120;
+    if (s.length <= CTX * 2 + 40) return esc(s);
+    const inicio = k === 0 ? "" : s.slice(0, CTX);
+    const fim = k === partes.length - 1 ? "" : s.slice(-CTX);
+    return esc(inicio) + `<span class="corte"> [ … trecho sem alteração … ] </span>` + esc(fim);
+  }).join("");
+}
+function normaAlteradora(antes, depois) {
+  const notas = t => new Set((t.match(RE_NOTA) || []).map(x => x.trim()));
+  const a = notas(antes);
+  const novas = [...notas(depois)].filter(x => !a.has(x));
+  return novas.length ? novas.join(" ") : "";
+}
+
+/* =====================================================================
+   TELAS
+   ===================================================================== */
+function definirTopo({ titulo, leitor = false, voltar = null }) {
+  $("#titulo").textContent = titulo;
+  for (const id of ["btn-sumario", "btn-ir", "btn-buscar-lei", "btn-aa"]) $("#" + id).classList.toggle("oculto", !leitor);
+  $("#btn-voltar").classList.toggle("oculto", !voltar);
+  $("#btn-voltar").dataset.destino = voltar || "";
+  $("#abas").classList.toggle("oculto", leitor);
+}
 function mostrarAvisoOffline() {
   const el = $("#aviso-offline");
   if (estado.offline) {
-    el.textContent = "Modo offline — exibindo a última versão sincronizada" +
-      (estado.statusEm ? ` (consulta de ${dataHora(estado.statusEm)}).` : ".");
+    el.textContent = "Modo offline — exibindo a última versão sincronizada" + (estado.statusEm ? ` (consulta de ${dataHora(estado.statusEm)}).` : ".");
     el.classList.remove("oculto");
   } else el.classList.add("oculto");
 }
-
 function marcarAba(rota) {
-  document.querySelectorAll("#abas button").forEach(b => {
-    if (b.dataset.rota === rota) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
-  });
+  $$("#abas button").forEach(b => { if (b.dataset.rota === rota) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
 }
 
+/* ---------- Leis (acervo com pastas) ---------- */
 function telaAcervo() {
   definirTopo({ titulo: "Meu Acervo" });
   marcarAba("acervo");
-  const ids = Object.keys(estado.status);
-  if (!ids.length) {
+  const todos = Object.keys(estado.status);
+  if (!todos.length) {
     $("#conteudo").innerHTML = `<p class="vazio">${estado.offline
       ? "Sem conexão e nenhuma lei salva neste aparelho ainda. Conecte-se à internet para baixar o acervo."
       : "Nenhuma lei no acervo. Acrescente leis no arquivo leis.json do repositório."}</p>`;
     return;
   }
-  let h = "";
-  const comAlteracao = ids.filter(id => estado.alteracoes[id]);
-  for (const id of comAlteracao) {
+  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  let sel = lerLS("pasta-selecionada", "todas");
+  if (sel !== "todas" && sel !== "favoritas" && !pastas.some(p => p.id === sel)) sel = "todas";
+  const pasta = pastas.find(p => p.id === sel);
+  const ids = sel === "todas" ? todos : sel === "favoritas" ? todos.filter(id => ehFavorito(idFavLei(id)))
+    : todos.filter(id => pasta.leis.includes(id));
+
+  let h = `<div class="pastas" role="group" aria-label="Pastas">
+    <button class="chip" data-pasta="todas" aria-pressed="${sel === "todas"}">Todas as leis</button>
+    <button class="chip" data-pasta="favoritas" aria-pressed="${sel === "favoritas"}">★ Favoritas</button>
+    ${pastas.map(p => `<button class="chip" data-pasta="${esc(p.id)}" aria-pressed="${sel === p.id}">${esc(p.nome)} (${p.leis.filter(l => todos.includes(l)).length})</button>`).join("")}
+    <button class="chip" id="nova-pasta">+ Nova pasta</button>
+    ${pastas.length ? '<button class="chip" id="editar-pastas">Editar pastas</button>' : ""}
+  </div>`;
+  const semBackup = temDadosSemBackup();
+  if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
+  for (const id of todos.filter(i => estado.alteracoes[i])) {
     const alt = estado.alteracoes[id];
-    const lista = alt.artigos.slice(0, 8).map(a => `Art. ${esc(a.artigo)} (${a.tipo})`).join(", ");
-    h += `<div class="aviso forte">⚠️ <strong>${esc(estado.status[id].nome)}</strong> mudou desde a sua última leitura` +
-      (lista ? `: ${lista}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
-      ` <a href="#/lei/${esc(id)}">Abrir a lei</a></div>`;
+    const lista = alt.artigos.slice(0, 8).map(a => `${rotuloArt(a.artigo)} (${a.tipo})`).join(", ");
+    const comNotas = alt.artigos.filter(a => marcacoesDoArtigo(id, a.artigo).length).length;
+    h += `<div class="aviso forte">⚠️ <strong>${esc(nomeLei(id))}</strong> mudou desde a sua última leitura` +
+      (lista ? `: ${esc(lista)}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
+      (comNotas ? ` Você tem marcações em ${comNotas} desses artigos.` : "") +
+      ` <a href="#/alteracoes/${esc(id)}">Ver alterações</a></div>`;
   }
-  h += `<ul class="acervo">`;
-  ids.forEach((id, i) => {
-    const st = estado.status[id];
-    const s = situacao(id);
-    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
-      <span class="aba"></span>
-      <button class="abrir" data-abrir="${esc(id)}">
-        <span class="lei-nome">${esc(st.nome)}</span>
-        <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
-        <span class="selo ${s.cls}">${esc(s.txt)}</span>
-        <span class="lei-verif">${esc(s.sub)}</span>
-      </button>
-      <span></span>
-    </li>`;
-  });
-  $("#conteudo").innerHTML = h + "</ul>";
+  if (!ids.length) {
+    h += `<p class="vazio">${sel === "favoritas" ? "Nenhuma lei favoritada. Use o botão ⋯ de uma lei para favoritá-la."
+      : "Esta pasta está vazia. Use o botão ⋯ de uma lei para colocá-la aqui."}</p>`;
+  } else {
+    h += `<ul class="acervo">`;
+    for (const id of ids) {
+      const i = todos.indexOf(id);
+      const st = estado.status[id];
+      const s = situacao(id);
+      h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
+        <span class="aba"></span>
+        <button class="abrir" data-abrir="${esc(id)}">
+          <span class="lei-nome">${esc(st.nome)}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
+          <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
+          <span class="selo ${s.cls}">${esc(s.txt)}</span>
+          <span class="lei-verif">${esc(s.sub)}</span>
+        </button>
+        <button class="mais" data-menu-lei="${esc(id)}" aria-label="Opções de ${esc(st.nome)}">⋯</button>
+      </li>`;
+    }
+    h += "</ul>";
+  }
+  $("#conteudo").innerHTML = h;
 }
 
+function temDadosSemBackup() {
+  const ultimaMudanca = lerLS("ultima-mudanca", null);
+  if (!ultimaMudanca) return "";
+  const ativos = [...estado.itens.values()].filter(i => !i.apagado && i.tipo !== "pasta").length;
+  if (!ativos) return "";
+  const ultimo = lerLS("ultimo-backup", null);
+  if (!ultimo) return "Você ainda não fez nenhum backup.";
+  const dias = (Date.now() - new Date(ultimo)) / 864e5;
+  if (ultimaMudanca > ultimo && dias > 7) return `Último backup: ${dataCurta(ultimo)}.`;
+  return "";
+}
+
+/* ---------- Leitor ---------- */
 let leiAberta = null;
 async function telaLei(id, alvo) {
   const st = estado.status[id];
-  definirTopo({ titulo: st ? st.nome : "Lei", leitor: true });
+  definirTopo({ titulo: st ? st.nome : "Lei", leitor: true, voltar: "#/acervo" });
   let lei = await leiDoCache(id);
-  if (!lei) {
-    await sincronizarLei(id);
-    lei = await leiDoCache(id);
-  }
+  if (!lei) { await sincronizarLei(id); lei = await leiDoCache(id); }
   if (!lei) {
     $("#conteudo").innerHTML = `<p class="vazio">Esta lei ainda não foi baixada para o aparelho. Conecte-se à internet e abra de novo.</p>`;
     return;
@@ -584,19 +959,19 @@ async function telaLei(id, alvo) {
   const alterados = alt ? new Set(alt.artigos.map(a => a.artigo)) : null;
   const s = situacao(id);
 
-  let topoAviso = `<div class="aviso"><span class="selo ${s.cls}">${esc(s.txt)}</span><br>${esc(s.sub)}` +
-    ` · Versão de ${dataCurta(lei.versao)}</div>`;
+  let topoAviso = `<div class="aviso"><span class="selo ${s.cls}">${esc(s.txt)}</span><br>${esc(s.sub)} · Versão de ${dataCurta(lei.versao)}</div>`;
   if (alt) {
-    const links = alt.artigos.map(a => `<a href="#/lei/${esc(id)}/${encodeURIComponent(a.artigo)}">Art. ${esc(a.artigo)}</a> (${a.tipo})`).join(", ");
+    const links = alt.artigos.map(a => `<a href="#/lei/${esc(id)}/${encodeURIComponent(a.artigo)}">${esc(rotuloArt(a.artigo))}</a> (${a.tipo})`).join(", ");
     topoAviso += `<div class="aviso forte">⚠️ Esta lei mudou desde a sua última leitura${links ? ": " + links : ""}. ` +
       `Os artigos alterados estão marcados com uma faixa vermelha à esquerda. ` +
-      `<button class="link" id="btn-entendi">Marcar como lido</button></div>`;
+      `<a href="#/alteracoes/${esc(id)}">Ver antes e depois</a> · <button class="link" id="btn-entendi">Marcar como lido</button></div>`;
   }
+  const mudadas = itens("anotacao", i => i.lei === id && artigoMudou(i)).length + itens("grifo", i => i.lei === id && artigoMudou(i)).length;
+  if (mudadas) topoAviso += `<div class="aviso forte">⚠️ ${mudadas} grifo(s) ou anotação(ões) sua(s) estão em artigos que mudaram depois que você os marcou. Eles foram preservados. <a href="#/estudos/alterados/${esc(id)}">Revisar</a></div>`;
 
-  const sumarioHTML = prep.sumario.map(s =>
-    `<a class="n${s.nivel}" href="#/lei/${esc(id)}/${encodeURIComponent(s.alvo)}">${esc(s.rotulo)}</a>`).join("");
-  let texto = "";
-  for (const a of prep.arts) texto += artigoHTML(a, alterados);
+  const sumarioHTML = prep.sumario.map(x => `<a class="n${x.nivel}" href="#/lei/${esc(id)}/${encodeURIComponent(x.alvo)}">${esc(x.rotulo)}</a>`).join("");
+  let texto = preambuloHTML(prep.pre);
+  for (const a of prep.arts) texto += artigoHTML(a, alterados, id);
 
   $("#conteudo").innerHTML = `${topoAviso}
     <div class="leitor-wrap">
@@ -608,6 +983,7 @@ async function telaLei(id, alvo) {
           O texto compilado não substitui o publicado no Diário Oficial da União.</div>
       </article>
     </div>`;
+  $$("#texto-lei .artigo").forEach(div => aplicarMarcacoes(id, div));
   const btn = $("#btn-entendi");
   if (btn) btn.onclick = () => { delete estado.alteracoes[id]; gravarLS("alteracoes-nao-vistas", estado.alteracoes); telaLei(id); };
 
@@ -620,10 +996,7 @@ function irParaArtigo(artId, destacar = true) {
   const el = document.getElementById("art-" + artId);
   if (!el) return false;
   el.scrollIntoView({ block: "start" });
-  if (destacar) {
-    el.classList.add("alvo");
-    setTimeout(() => el.classList.remove("alvo"), 2200);
-  }
+  if (destacar) { el.classList.add("alvo"); setTimeout(() => el.classList.remove("alvo"), 2200); }
   return true;
 }
 
@@ -635,44 +1008,76 @@ function observarPosicao(id) {
     const visivel = entradas.find(e => e.isIntersecting);
     if (!visivel) return;
     clearTimeout(tempo);
-    tempo = setTimeout(() => {
-      const pos = lerLS("posicao", {});
-      pos[id] = visivel.target.dataset.art;
-      gravarLS("posicao", pos);
-    }, 400);
+    tempo = setTimeout(() => { const pos = lerLS("posicao", {}); pos[id] = visivel.target.dataset.art; gravarLS("posicao", pos); }, 400);
   }, { rootMargin: "-80px 0px -70% 0px" });
-  document.querySelectorAll(".artigo").forEach(el => observador.observe(el));
+  $$(".artigo").forEach(el => observador.observe(el));
 }
 
-/* ---------------- busca ---------------- */
+/* ---------- Alterações (antes e depois) ---------- */
+async function telaAlteracoes(id) {
+  definirTopo({ titulo: "Alterações — " + nomeLei(id), voltar: "#/lei/" + id });
+  marcarAba("");
+  $("#abas").classList.add("oculto");
+  $("#conteudo").innerHTML = `<p class="vazio">Carregando o histórico…</p>`;
+  await leiDoCache(id);
+  const hist = await carregarHistorico(id);
+  if (!hist.length) {
+    $("#conteudo").innerHTML = `<p class="vazio">Nenhuma alteração registrada para esta lei desde que ela entrou no acervo` +
+      `${estado.leis[id] ? "" : ""}. Quando o robô detectar uma mudança no Planalto, o antes e o depois aparecerão aqui.</p>`;
+    return;
+  }
+  const alt = estado.alteracoes[id];
+  let h = `<div class="secao"><p class="legenda-diff"><span><del>texto removido</del></span><span><ins>texto adicionado</ins></span></p>`;
+  for (const reg of [...hist].reverse()) {
+    const novo = alt && reg.versao_nova > alt.desde;
+    h += `<h2 style="margin-top:24px">${novo ? "🔴 " : ""}Versão de ${dataCurta(reg.versao_nova)} <span style="font-weight:400">(antes: versão de ${dataCurta(reg.versao_anterior)})</span></h2>`;
+    h += `<p class="contagem">Detectada pelo robô em ${esc(dataHora(reg.detectado_em))} · Fonte: texto compilado do Planalto</p>`;
+    const blocos = [
+      ...reg.alterados.map(a => ({ art: a.artigo, tipo: "alterado", antes: a.antes, depois: a.depois })),
+      ...reg.incluidos.map(a => ({ art: a.artigo, tipo: "incluído", antes: "", depois: a.texto })),
+      ...reg.removidos.map(a => ({ art: a.artigo, tipo: "removido", antes: a.texto, depois: "" })),
+    ].sort((x, y) => compararArtigos(x.art, y.art));
+    for (const b of blocos) {
+      const marc = marcacoesDoArtigo(id, b.art);
+      const norma = normaAlteradora(b.antes, b.depois);
+      h += `<div class="bloco-alteracao"><h3>${esc(rotuloArt(b.art))} — ${b.tipo}</h3>
+        <div class="meta">${norma ? "Norma indicada no texto: " + esc(norma) + "<br>" : ""}` +
+        `${marc.length ? `<strong style="color:var(--alt)">⚠️ Você possui ${marc.length} marcação(ões) neste artigo.</strong> ` : ""}` +
+        `${b.tipo !== "removido" ? `<a href="#/lei/${esc(id)}/${encodeURIComponent(b.art)}">Abrir na lei</a>` : ""}</div>
+        <div class="diff">${b.tipo === "alterado" ? diffHTML(b.antes, b.depois) : b.tipo === "incluído" ? `<ins>${esc(b.depois)}</ins>` : `<del>${esc(b.antes)}</del>`}</div></div>`;
+    }
+  }
+  $("#conteudo").innerHTML = h + "</div>";
+}
+
+/* ---------- Pesquisar ---------- */
 function buscarEm(lei, id, termo, limite = 200) {
   const alvo = semAcento(termo.trim());
   if (alvo.length < 2) return [];
   const res = [];
-  // busca no texto do próprio artigo (sem os títulos que pertencem ao artigo seguinte)
   for (const a of prepararLei(lei).arts) {
-    const art = a.id;
     const texto = a.linhas.map(l => l.t).join(" ");
-    const plano = semAcento(texto);
-    const pos = plano.indexOf(alvo);
+    const pos = semAcento(texto).indexOf(alvo);
     if (pos < 0) continue;
     const ini = Math.max(0, pos - 60);
     const trecho = texto.slice(ini, pos + alvo.length + 90);
     const i2 = pos - ini;
-    res.push({
-      id, art, trecho: (ini > 0 ? "…" : "") + esc(trecho.slice(0, i2)) + "<mark>" +
-        esc(trecho.slice(i2, i2 + alvo.length)) + "</mark>" + esc(trecho.slice(i2 + alvo.length)) + "…",
-    });
+    res.push({ id, art: a.id, trecho: (ini > 0 ? "…" : "") + esc(trecho.slice(0, i2)) + "<mark>" + esc(trecho.slice(i2, i2 + alvo.length)) + "</mark>" + esc(trecho.slice(i2 + alvo.length)) + "…" });
     if (res.length >= limite) break;
   }
   return res;
 }
-
 function listaResultados(res, mostrarLei) {
   if (!res.length) return "";
   return `<ul class="resultados">${res.map(r => `<li><button data-ir="${esc(r.id)}|${esc(r.art)}">
-    <span class="res-titulo">${mostrarLei ? esc(estado.status[r.id]?.nome || r.id) + " — " : ""}Art. ${esc(r.art.replace(/#\d+$/, ""))}</span>
+    <span class="res-titulo">${mostrarLei ? esc(nomeLei(r.id)) + " — " : ""}${esc(rotuloArt(r.art))}</span>
     <span class="res-trecho">${r.trecho}</span></button></li>`).join("")}</ul>`;
+}
+function destacar(texto, termo) {
+  const alvo = semAcento(termo.trim());
+  const pos = semAcento(texto).indexOf(alvo);
+  if (pos < 0 || !alvo) return esc(texto);
+  return esc(texto.slice(0, pos)) + "<mark>" + esc(texto.slice(pos, pos + alvo.length)) + "</mark>" + esc(texto.slice(pos + alvo.length));
 }
 
 async function telaPesquisar() {
@@ -685,30 +1090,160 @@ async function telaPesquisar() {
   const campo = $("#busca-global");
   campo.value = sessionStorage.getItem("busca-global") || "";
   const rodar = () => {
-    sessionStorage.setItem("busca-global", campo.value);
+    const termo = campo.value;
+    sessionStorage.setItem("busca-global", termo);
+    if (termo.trim().length < 2) { $("#res-global").innerHTML = ""; return; }
+    const alvo = semAcento(termo.trim());
+    const notas = itens("anotacao", n => semAcento((n.nota || "") + " " + (n.texto || "")).includes(alvo));
     let res = [];
-    for (const id of ids) if (estado.leis[id]) res = res.concat(buscarEm(estado.leis[id], id, campo.value, 60));
-    $("#res-global").innerHTML = campo.value.trim().length < 2 ? "" :
-      `<p class="contagem">${res.length ? res.length + " artigo(s) encontrado(s)" : "Nada encontrado nas leis do acervo."}</p>` + listaResultados(res, true);
+    for (const id of ids) if (estado.leis[id]) res = res.concat(buscarEm(estado.leis[id], id, termo, 60));
+    let h = "";
+    if (notas.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Minhas anotações relacionadas</h2>` + cartoesAnotacoes(notas, termo);
+    h += `<h2 style="font-size:15px;margin:18px 0 0">Nas leis</h2><p class="contagem">${res.length ? res.length + " artigo(s) encontrado(s)" : "Nada encontrado nas leis do acervo."}</p>` + listaResultados(res, true);
+    $("#res-global").innerHTML = h;
+    ativarMiniaturas($("#res-global"));
   };
   campo.oninput = rodar;
   campo.focus();
-  await Promise.all(ids.map(leiDoCache));   // carrega as leis do aparelho (sem internet)
+  await Promise.all(ids.map(leiDoCache));
   if (campo.isConnected) rodar();
 }
+
+/* ---------- Meus estudos ---------- */
+function origemHTML(i) {
+  if (!i.lei) return "";
+  const destino = i.art ? `#/lei/${i.lei}/${encodeURIComponent(i.art)}` : `#/lei/${i.lei}`;
+  return `<button class="origem" data-href="${esc(destino)}">${esc(nomeLei(i.lei))}${i.art ? " — " + esc(rotuloArt(i.art)) : " (lei inteira)"}</button>`;
+}
+function alertaMudanca(i) {
+  if (!artigoMudou(i)) return "";
+  const existe = estado.leis[i.lei]?.artigos[i.art];
+  return `<div class="alerta">⚠️ ${existe ? "O artigo foi alterado depois desta marcação" : "Este artigo não existe mais na versão atual"} ` +
+    `(marcação feita na versão de ${dataCurta(i.versao)}). O conteúdo foi preservado.</div>
+    <div class="linha-acoes"><button data-ver-mudanca="${esc(i.id)}">Ver alteração</button>` +
+    `${existe ? `<button data-atualizar-ancora="${esc(i.id)}">Manter na versão atual</button>` : ""}</div>`;
+}
+function cartoesAnotacoes(lista, termo = "") {
+  lista = [...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
+  return `<ul class="lista-cartoes">${lista.map(n => `<li class="cartao-nota">
+    ${origemHTML(n)}
+    ${n.texto ? `<div class="citacao">“${termo ? destacar(n.texto, termo) : esc(n.texto)}”</div>` : ""}
+    ${n.nota ? `<div class="corpo">${termo ? destacar(n.nota, termo) : esc(n.nota)}</div>` : ""}
+    ${(n.imagens || []).length ? `<div class="miniaturas" data-imagens="${esc(n.imagens.join(","))}"></div>` : ""}
+    ${alertaMudanca(n)}
+    <div class="meta">Anotação de ${dataHora(n.criadoEm)}${n.atualizadoEm !== n.criadoEm ? " · editada em " + dataHora(n.atualizadoEm) : ""}</div>
+    <div class="linha-acoes"><button data-editar-nota="${esc(n.id)}">Editar</button><button data-apagar-nota="${esc(n.id)}">Apagar</button></div>
+  </li>`).join("")}</ul>`;
+}
+function cartoesGrifos(lista) {
+  lista = [...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
+  return `<ul class="lista-cartoes">${lista.map(g => `<li class="cartao-nota">
+    ${origemHTML(g)}
+    <div class="citacao"><mark class="grifo g-${esc(g.cor)}">${esc(g.texto)}</mark></div>
+    ${alertaMudanca(g)}
+    <div class="meta">${CORES[g.cor] || ""} · ${dataHora(g.criadoEm)}</div>
+    <div class="linha-acoes"><button data-apagar-grifo="${esc(g.id)}">Apagar grifo</button></div></li>`).join("")}</ul>`;
+}
+function cartoesFavoritos(lista) {
+  lista = [...lista].sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
+  return `<ul class="lista-cartoes">${lista.map(f => `<li class="cartao-nota">
+    ${f.alvo === "lei" ? `<button class="origem" data-href="#/lei/${esc(f.lei)}">★ ${esc(nomeLei(f.lei))} (lei inteira)</button>` : "★ " + origemHTML(f)}
+    ${f.texto ? `<div class="citacao">“${esc(f.texto)}”</div>` : ""}
+    ${f.alvo === "trecho" ? alertaMudanca(f) : ""}
+    <div class="meta">Favoritado em ${dataHora(f.criadoEm)}</div>
+    <div class="linha-acoes"><button data-desfavoritar="${esc(f.id)}">Remover dos favoritos</button></div></li>`).join("")}</ul>`;
+}
+
+function telaEstudos(aba = "anotacoes", filtroLei = "") {
+  definirTopo({ titulo: "Meus estudos" });
+  marcarAba("estudos");
+  const aba2 = aba === "alterados" ? "anotacoes" : aba;
+  const leis = Object.keys(estado.status);
+  $("#conteudo").innerHTML = `<div class="secao">
+    <div class="filtros">
+      <div class="segmentado" id="abas-estudos">
+        <button data-aba="anotacoes" aria-pressed="${aba2 === "anotacoes"}">Anotações</button>
+        <button data-aba="grifos" aria-pressed="${aba2 === "grifos"}">Grifos</button>
+        <button data-aba="favoritos" aria-pressed="${aba2 === "favoritos"}">Favoritos</button>
+      </div>
+      <select class="campo" id="filtro-lei"><option value="">Todas as leis</option>
+        ${leis.map(l => `<option value="${esc(l)}" ${l === filtroLei ? "selected" : ""}>${esc(nomeLei(l))}</option>`).join("")}</select>
+      ${aba === "alterados" ? "" : '<select class="campo" id="filtro-mudou"><option value="">Todas</option><option value="mudou">Só em artigos alterados</option></select>'}
+    </div>
+    <input class="campo" id="busca-estudos" type="search" placeholder="Pesquisar nas suas anotações, grifos e favoritos" autocomplete="off">
+    <div id="lista-estudos"></div></div>`;
+  let abaAtual = aba2;
+  const soMudados = () => aba === "alterados" || $("#filtro-mudou")?.value === "mudou";
+  const render = () => {
+    const lei = $("#filtro-lei").value;
+    const termo = semAcento($("#busca-estudos").value.trim());
+    const ok = i => (!lei || i.lei === lei) && (!soMudados() || artigoMudou(i)) &&
+      (!termo || semAcento([i.nota, i.texto, nomeLei(i.lei), i.art ? rotuloArt(i.art) : ""].join(" ")).includes(termo));
+    let h;
+    if (abaAtual === "anotacoes") {
+      const l = itens("anotacao", ok);
+      h = l.length ? cartoesAnotacoes(l, $("#busca-estudos").value) : `<p class="vazio">Nenhuma anotação${termo || lei ? " com esses filtros" : ""}. Para anotar, selecione um trecho na leitura ou toque no número de um artigo.</p>`;
+    } else if (abaAtual === "grifos") {
+      const l = itens("grifo", ok);
+      h = l.length ? cartoesGrifos(l) : `<p class="vazio">Nenhum grifo${termo || lei ? " com esses filtros" : ""}. Selecione um trecho na leitura e escolha uma cor.</p>`;
+    } else {
+      const l = itens("favorito", ok);
+      h = l.length ? cartoesFavoritos(l) : `<p class="vazio">Nenhum favorito${termo || lei ? " com esses filtros" : ""}.</p>`;
+    }
+    $("#lista-estudos").innerHTML = h;
+    ativarMiniaturas($("#lista-estudos"));
+  };
+  $$("#abas-estudos button").forEach(b => b.onclick = () => {
+    abaAtual = b.dataset.aba;
+    $$("#abas-estudos button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+  $("#filtro-lei").onchange = render;
+  if ($("#filtro-mudou")) $("#filtro-mudou").onchange = render;
+  $("#busca-estudos").oninput = render;
+  render();
+}
+
+/* ---------- Questões (chega na terceira entrega) ---------- */
+function telaQuestoes() {
+  definirTopo({ titulo: "Questões" });
+  marcarAba("questoes");
+  $("#conteudo").innerHTML = `<div class="vazio">
+    <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
+    <p>Aqui ficarão seus cadernos de questões, com resolução, gabarito, estatísticas de desempenho e ligação direta com os artigos das leis.</p>
+    <p>Esta área será ativada na próxima etapa do app.</p></div>`;
+}
+
+/* ---------- Configurações ---------- */
+async function tamanhoCache(filtro) {
+  const cache = await caches.open(CACHE_DADOS);
+  let bytes = 0, qtd = 0;
+  for (const req of await cache.keys()) {
+    if (!filtro(req.url)) continue;
+    const r = await cache.match(req);
+    bytes += (await r.clone().blob()).size; qtd++;
+  }
+  return { bytes, qtd };
+}
+const mb = b => (b / 1048576).toFixed(1).replace(".", ",") + " MB";
 
 async function telaAjustes() {
   definirTopo({ titulo: "Configurações" });
   marcarAba("ajustes");
-  const cache = await caches.open(CACHE_DADOS);
-  let bytes = 0, qtd = 0;
-  for (const req of await cache.keys()) {
-    if (!req.url.includes("/dados/leis/")) continue;
-    const r = await cache.match(req);
-    bytes += (await r.clone().blob()).size; qtd++;
-  }
-  const mb = (bytes / 1048576).toFixed(1).replace(".", ",");
+  const leis = await tamanhoCache(u => u.includes("/dados/leis/"));
+  const imgs = await bdTodos("imagens");
+  const bytesImg = imgs.reduce((s, i) => s + (i.blob?.size || 0), 0);
+  const ativos = [...estado.itens.values()].filter(i => !i.apagado);
+  const bytesNotas = new Blob([JSON.stringify(ativos)]).size;
+  const ultimo = lerLS("ultimo-backup", null);
   $("#conteudo").innerHTML = `
+  <div class="secao"><h2>Backup dos seus estudos</h2><div class="cartao">
+    <p>Grifos, anotações, imagens, favoritos e pastas ficam guardados neste aparelho. Exporte um backup para o iCloud Drive (ou outra nuvem) e importe no outro aparelho. A importação junta os dados: em cada item fica a versão mais recente e nada é apagado.</p>
+    <p>Último backup: ${ultimo ? esc(dataHora(ultimo)) : "nenhum ainda"}.</p>
+    <div class="acoes" style="margin-bottom:14px">
+      <button id="btn-exportar" class="botao primario">Exportar backup</button>
+      <button id="btn-importar">Importar backup</button>
+    </div></div></div>
   <div class="secao"><h2>Atualizações</h2><div class="cartao">
     <p>O robô confere as leis no Planalto todos os dias às 6h. Ao abrir, o app só baixa uma lei quando a versão oficial dela mudou.</p>
     <p>Última consulta do app: ${esc(dataHora(estado.statusEm))}${estado.offline ? " (sem conexão agora)" : ""}.</p>
@@ -717,19 +1252,21 @@ async function telaAjustes() {
       <a class="botao" href="${REPO_ACTIONS}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Pedir uma nova verificação no Planalto (abre o GitHub)</a>
     </div></div></div>
   <div class="secao"><h2>Armazenamento</h2><div class="cartao">
-    <p>Legislações offline: ${qtd} lei(s), ${mb} MB.</p>
+    <p>Legislações offline: ${leis.qtd} lei(s), ${mb(leis.bytes)}<br>
+       Anotações, grifos e favoritos: ${mb(bytesNotas)}<br>
+       Imagens: ${imgs.length} imagem(ns), ${mb(bytesImg)}<br>
+       <strong>Total: ${mb(leis.bytes + bytesNotas + bytesImg)}</strong></p>
     <div class="acoes" style="margin-bottom:14px"><button id="btn-limpar">Remover leis offline deste aparelho</button></div>
-    <p>As leis são baixadas de novo quando você abrir cada uma com internet. Na próxima etapa, suas anotações e grifos ficarão guardados separadamente e não serão afetados por isso.</p>
+    <p>Remover as leis offline não apaga suas anotações, grifos, imagens nem favoritos. As leis são baixadas de novo quando você abrir cada uma com internet.</p>
   </div></div>
   <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>`;
   montarAjustesLeitura($("#ajustes-leitura"));
-  $("#btn-atualizar").onclick = async e => {
-    e.target.textContent = "Buscando…";
-    await atualizarTudo();
-    telaAjustes();
-  };
+  $("#btn-exportar").onclick = exportarBackup;
+  $("#btn-importar").onclick = () => $("#entrada-backup").click();
+  $("#btn-atualizar").onclick = async e => { e.target.textContent = "Buscando…"; await atualizarTudo(); telaAjustes(); };
   $("#btn-limpar").onclick = async () => {
-    if (!confirm("Remover as leis salvas neste aparelho? Elas serão baixadas de novo quando houver internet.")) return;
+    if (!confirm("Remover as leis salvas neste aparelho? Suas anotações e grifos continuam guardados.")) return;
+    const cache = await caches.open(CACHE_DADOS);
     for (const req of await cache.keys()) if (req.url.includes("/dados/leis/")) await cache.delete(req);
     estado.leis = {}; estado.info = {}; gravarLS("info-leis", {});
     telaAjustes();
@@ -737,9 +1274,8 @@ async function telaAjustes() {
 }
 
 function montarAjustesLeitura(alvo) {
-  const seg = (nome, opcoes, atual) =>
-    `<div class="segmentado" data-ajuste="${nome}">${opcoes.map(([v, r]) =>
-      `<button data-v="${v}" aria-pressed="${String(v) === String(atual)}">${r}</button>`).join("")}</div>`;
+  const seg = (nome, opcoes, atual) => `<div class="segmentado" data-ajuste="${nome}">${opcoes.map(([v, r]) =>
+    `<button data-v="${v}" aria-pressed="${String(v) === String(atual)}">${r}</button>`).join("")}</div>`;
   alvo.innerHTML = `
     <div class="linha-ajuste"><span>Tamanho do texto</span>
       <div class="segmentado"><button id="fonte-menos" aria-label="Diminuir fonte">A−</button>
@@ -748,50 +1284,43 @@ function montarAjustesLeitura(alvo) {
     <div class="linha-ajuste" style="border:0"><span>Tema</span>${seg("tema", [["auto", "Automático"], ["light", "Claro"], ["dark", "Escuro"]], ajustes.tema)}</div>`;
   $("#fonte-menos", alvo).onclick = () => { ajustes.fonte = Math.max(14, ajustes.fonte - 1); aplicarAjustes(); montarAjustesLeitura(alvo); };
   $("#fonte-mais", alvo).onclick = () => { ajustes.fonte = Math.min(30, ajustes.fonte + 1); aplicarAjustes(); montarAjustesLeitura(alvo); };
-  alvo.querySelectorAll("[data-ajuste] button").forEach(b => b.onclick = () => {
+  $$("[data-ajuste] button", alvo).forEach(b => b.onclick = () => {
     const nome = b.parentElement.dataset.ajuste;
     ajustes[nome] = nome === "entrelinha" ? Number(b.dataset.v) : b.dataset.v;
     aplicarAjustes(); montarAjustesLeitura(alvo);
   });
 }
 
-/* ---------------- painéis ---------------- */
-function abrirPainel(html) {
-  $("#painel-caixa").innerHTML = html;
-  $("#painel").classList.remove("oculto");
-}
+/* =====================================================================
+   PAINÉIS
+   ===================================================================== */
+function abrirPainel(html) { $("#painel-caixa").innerHTML = html; $("#painel").classList.remove("oculto"); esconderBarra(); }
 function fecharPainel() { $("#painel").classList.add("oculto"); }
 $("#painel").addEventListener("click", e => { if (e.target.id === "painel" || e.target.closest("[data-fechar]")) fecharPainel(); });
 const botaoFechar = `<button class="icone-btn" data-fechar>Fechar</button>`;
 
-$("#btn-aa").onclick = () => {
-  abrirPainel(`<h2>Leitura ${botaoFechar}</h2><div id="aa"></div>`);
-  montarAjustesLeitura($("#aa"));
-};
+$("#btn-aa").onclick = () => { abrirPainel(`<h2>Leitura ${botaoFechar}</h2><div id="aa"></div>`); montarAjustesLeitura($("#aa")); };
 $("#btn-sumario").onclick = () => {
-  const lei = estado.leis[leiAberta];
-  const prep = lei && prepararLei(lei);
+  const prep = estado.leis[leiAberta] && prepararLei(estado.leis[leiAberta]);
   abrirPainel(`<h2>Sumário ${botaoFechar}</h2><nav class="sumario">${prep && prep.sumario.length
     ? prep.sumario.map(s => `<a class="n${s.nivel}" data-fechar href="#/lei/${esc(leiAberta)}/${encodeURIComponent(s.alvo)}">${esc(s.rotulo)}</a>`).join("")
     : '<p class="contagem">Esta lei não tem divisões.</p>'}</nav>`);
 };
 $("#btn-ir").onclick = () => {
   abrirPainel(`<h2>Ir para o artigo ${botaoFechar}</h2>
-    <input class="campo" id="campo-ir" inputmode="text" placeholder="Número do artigo — ex.: 112 ou 121-A" autocomplete="off">
-    <p class="contagem" id="msg-ir"></p>`);
+    <input class="campo" id="campo-ir" placeholder="Número do artigo — ex.: 112 ou 121-A" autocomplete="off">`);
   const c = $("#campo-ir");
   c.focus();
   c.onkeydown = e => {
     if (e.key !== "Enter") return;
     const v = c.value.trim().toUpperCase().replace(/^ART\.?\s*/, "").replace(/[ºO°]/g, "").replace(/\s*-\s*/g, "-");
     fecharPainel();
-    if (!irParaArtigo(v)) { abrirPainel(`<h2>Ir para o artigo ${botaoFechar}</h2><p>O Art. ${esc(v)} não existe nesta lei.</p>`); }
+    if (!irParaArtigo(v)) abrirPainel(`<h2>Ir para o artigo ${botaoFechar}</h2><p>O Art. ${esc(v)} não existe nesta lei.</p>`);
   };
 };
 $("#btn-buscar-lei").onclick = () => {
   abrirPainel(`<h2>Buscar nesta lei ${botaoFechar}</h2>
-    <input class="campo" id="campo-busca-lei" type="search" placeholder="Palavra ou trecho" autocomplete="off">
-    <div id="res-lei"></div>`);
+    <input class="campo" id="campo-busca-lei" type="search" placeholder="Palavra ou trecho" autocomplete="off"><div id="res-lei"></div>`);
   const c = $("#campo-busca-lei");
   c.focus();
   c.oninput = () => {
@@ -800,45 +1329,460 @@ $("#btn-buscar-lei").onclick = () => {
       `<p class="contagem">${res.length ? res.length + " artigo(s)" : "Nada encontrado nesta lei."}</p>` + listaResultados(res, false);
   };
 };
-$("#btn-voltar").onclick = () => { location.hash = "#/acervo"; };
+$("#btn-voltar").onclick = () => { location.hash = $("#btn-voltar").dataset.destino || "#/acervo"; };
 
-/* menu do artigo: copiar e compartilhar */
-function textoArtigo(id, art) {
-  return estado.leis[id].artigos[art].texto + `\n\n${estado.status[id]?.nome || ""} — texto compilado do Planalto`;
+/* ---------- seleção de trecho → barra de grifo ---------- */
+let selecaoAtual = null;
+function esconderBarra() { $("#barra-selecao").classList.add("oculto"); }
+function lerSelecao() {
+  const sel = window.getSelection();
+  if (!leiAberta || !sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
+  const r = sel.getRangeAt(0);
+  const noIni = r.startContainer.nodeType === 1 ? r.startContainer : r.startContainer.parentElement;
+  const noFim = r.endContainer.nodeType === 1 ? r.endContainer : r.endContainer.parentElement;
+  const div = noIni?.closest(".artigo");
+  if (!div || div !== noFim?.closest(".artigo")) return { erro: "Selecione um trecho dentro de um único artigo." };
+  let ini = posicaoNoArtigo(div, r.startContainer, r.startOffset);
+  let fim = posicaoNoArtigo(div, r.endContainer, r.endOffset);
+  const texto = textoDoArtigo(div);
+  while (ini < fim && /\s/.test(texto[ini])) ini++;
+  while (fim > ini && /\s/.test(texto[fim - 1])) fim--;
+  if (fim <= ini) return null;
+  return { lei: leiAberta, art: div.dataset.art, ini, fim, texto: texto.slice(ini, fim), textoArtigo: texto };
 }
+let tempoSel = null;
+document.addEventListener("selectionchange", () => {
+  clearTimeout(tempoSel);
+  tempoSel = setTimeout(() => {
+    const s = lerSelecao();
+    if (s && !s.erro) { selecaoAtual = s; $("#barra-selecao").classList.remove("oculto"); }
+    else if (!window.getSelection()?.toString()) setTimeout(() => { if (!window.getSelection()?.toString()) esconderBarra(); }, 300);
+  }, 180);
+});
+function novaAncora(s) {
+  const lei = estado.leis[s.lei];
+  return {
+    lei: s.lei, art: s.art, versao: lei.versao, hashArt: lei.artigos[s.art].hash, textoOriginal: lei.artigos[s.art].texto,
+    ini: s.ini, fim: s.fim, texto: s.texto,
+    prefixo: s.textoArtigo.slice(Math.max(0, s.ini - 40), s.ini), sufixo: s.textoArtigo.slice(s.fim, s.fim + 40),
+  };
+}
+async function acaoSelecao(acao, cor) {
+  const s = selecaoAtual;
+  if (!s) return;
+  window.getSelection()?.removeAllRanges();
+  esconderBarra();
+  if (acao === "grifar") {
+    await salvarItem({ id: uid(), tipo: "grifo", cor, ...novaAncora(s) });
+    repintarArtigo(s.lei, s.art);
+  } else if (acao === "anotar") {
+    editorAnotacao({ ...novaAncora(s), criarGrifo: true });   // o grifo só é criado se a anotação for salva
+  } else if (acao === "favoritar") {
+    await salvarItem({ id: uid(), tipo: "favorito", alvo: "trecho", ...novaAncora(s) });
+    abrirPainel(`<h2>Trecho favoritado ${botaoFechar}</h2><p class="citacao" style="font-family:var(--serif)">“${esc(s.texto)}”</p><p class="contagem">Veja em Meus estudos → Favoritos.</p>`);
+  } else if (acao === "copiar") {
+    try { await navigator.clipboard.writeText(s.texto); } catch {}
+  }
+  selecaoAtual = null;
+}
+$("#barra-selecao").addEventListener("pointerdown", e => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  e.preventDefault();          // mantém a seleção enquanto o botão é tocado
+  if (b.dataset.cor) acaoSelecao("grifar", b.dataset.cor);
+  else acaoSelecao(b.dataset.acaoSel);
+});
+
+/* ---------- menus de grifo, artigo e lei ---------- */
+function menuGrifo(id) {
+  const g = estado.itens.get(id);
+  if (!g) return;
+  const nota = itens("anotacao", n => n.grifoId === id)[0];
+  abrirPainel(`<h2>Grifo ${botaoFechar}</h2>
+    <p style="font-family:var(--serif);line-height:1.5"><mark class="grifo g-${esc(g.cor)}">${esc(g.texto)}</mark></p>
+    <div class="linha-ajuste"><span>Cor</span><div style="display:flex;gap:8px">${Object.keys(CORES).map(c =>
+      `<button class="cor-btn g-${c}" data-mudar-cor="${c}" aria-pressed="${c === g.cor}" aria-label="${CORES[c]}"></button>`).join("")}</div></div>
+    <div class="acoes" style="margin-top:12px">
+      <button id="g-nota">${nota ? "Ver ou editar a anotação deste trecho" : "Anotar este trecho"}</button>
+      <button id="g-apagar">Apagar grifo</button></div>
+    ${artigoMudou(g) ? `<p class="alerta" style="color:var(--alt)">⚠️ O artigo mudou depois deste grifo (feito na versão de ${dataCurta(g.versao)}).</p>` : ""}`);
+  $$("[data-mudar-cor]").forEach(b => b.onclick = async () => { g.cor = b.dataset.mudarCor; await salvarItem(g); repintarArtigo(g.lei, g.art); fecharPainel(); });
+  $("#g-nota").onclick = () => nota ? editorAnotacao(nota) : editorAnotacao({ ...g, id: undefined, tipo: undefined, cor: undefined, grifoId: g.id });
+  $("#g-apagar").onclick = async () => {
+    if (nota && !confirm("Este grifo tem uma anotação. A anotação continuará guardada, ligada ao artigo. Apagar o grifo?")) return;
+    if (nota) { nota.grifoId = null; await salvarItem(nota); }
+    await apagarItem(id);
+    repintarArtigo(g.lei, g.art);
+    fecharPainel();
+  };
+}
+
+function textoArtigo(id, art) { return estado.leis[id].artigos[art].texto + `\n\n${nomeLei(id)} — texto compilado do Planalto`; }
+function menuArtigo(art) {
+  const id = leiAberta;
+  const fav = ehFavorito(idFavArt(id, art));
+  const n = itens("anotacao", i => i.lei === id && i.art === art).length;
+  abrirPainel(`<h2>${esc(rotuloArt(art))} ${botaoFechar}</h2><div class="acoes">
+    <button id="m-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar o artigo"}</button>
+    <button id="m-nota">Anotar o artigo</button>
+    ${n ? `<button id="m-ver">Ver anotações deste artigo (${n})</button>` : ""}
+    <button id="m-copiar">Copiar o artigo</button>
+    ${navigator.share ? '<button id="m-compartilhar">Compartilhar o artigo</button>' : ""}
+  </div>`);
+  $("#m-fav").onclick = async () => {
+    const lei = estado.leis[id];
+    await alternarFavorito(idFavArt(id, art), { alvo: "artigo", lei: id, art, versao: lei.versao, hashArt: lei.artigos[art].hash });
+    document.getElementById("art-" + art)?.classList.toggle("favorito", !fav);
+    fecharPainel();
+  };
+  $("#m-nota").onclick = () => {
+    const lei = estado.leis[id];
+    editorAnotacao({ lei: id, art, versao: lei.versao, hashArt: lei.artigos[art].hash, textoOriginal: lei.artigos[art].texto });
+  };
+  if ($("#m-ver")) $("#m-ver").onclick = () => painelNotasArtigo(art);
+  $("#m-copiar").onclick = async () => {
+    try { await navigator.clipboard.writeText(textoArtigo(id, art)); $("#m-copiar").textContent = "Artigo copiado"; } catch { $("#m-copiar").textContent = "Não foi possível copiar"; }
+  };
+  if ($("#m-compartilhar")) $("#m-compartilhar").onclick = () => navigator.share({ text: textoArtigo(id, art) }).catch(() => {});
+}
+
+function painelNotasArtigo(art) {
+  const lista = itens("anotacao", i => i.lei === leiAberta && i.art === art);
+  abrirPainel(`<h2>Anotações — ${esc(rotuloArt(art))} ${botaoFechar}</h2>${cartoesAnotacoes(lista)}
+    <div class="acoes" style="margin-top:12px"><button id="nova-nota-art">Nova anotação neste artigo</button></div>`);
+  ativarMiniaturas($("#painel-caixa"));
+  $("#nova-nota-art").onclick = () => {
+    const lei = estado.leis[leiAberta];
+    editorAnotacao({ lei: leiAberta, art, versao: lei.versao, hashArt: lei.artigos[art].hash, textoOriginal: lei.artigos[art].texto });
+  };
+}
+
+function menuLei(id) {
+  const fav = ehFavorito(idFavLei(id));
+  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  abrirPainel(`<h2>${esc(nomeLei(id))} ${botaoFechar}</h2>
+    <div class="acoes">
+      <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
+      <button id="l-nota">Anotar a lei (anotação geral)</button>
+      <button id="l-alt">Histórico de alterações</button>
+      <button id="l-offline">Remover a cópia offline desta lei</button>
+    </div>
+    <h2 style="margin-top:18px">Pastas</h2>
+    ${pastas.length ? pastas.map(p => `<label class="linha-ajuste"><span>${esc(p.nome)}</span>
+      <input type="checkbox" data-pasta-lei="${esc(p.id)}" ${p.leis.includes(id) ? "checked" : ""} style="width:22px;height:22px"></label>`).join("")
+      : '<p class="contagem">Você ainda não criou pastas.</p>'}
+    <div class="acoes" style="margin-top:10px"><button id="l-nova-pasta">+ Criar pasta e colocar esta lei</button></div>`);
+  $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); telaAcervo(); };
+  $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });
+  $("#l-alt").onclick = () => { fecharPainel(); location.hash = "#/alteracoes/" + id; };
+  $("#l-offline").onclick = async () => {
+    const cache = await caches.open(CACHE_DADOS);
+    await cache.delete(urlLei(id));
+    delete estado.leis[id]; delete estado.info[id]; gravarLS("info-leis", estado.info);
+    fecharPainel(); telaAcervo();
+  };
+  $$("[data-pasta-lei]").forEach(c => c.onchange = async () => {
+    const p = estado.itens.get(c.dataset.pastaLei);
+    p.leis = c.checked ? [...new Set([...p.leis, id])] : p.leis.filter(x => x !== id);
+    await salvarItem(p);
+    telaAcervo();
+  });
+  $("#l-nova-pasta").onclick = async () => {
+    const nome = prompt("Nome da pasta (ex.: Polícia Penal, Direito Penal):");
+    if (!nome || !nome.trim()) return;
+    await salvarItem({ id: uid(), tipo: "pasta", nome: nome.trim(), leis: [id] });
+    menuLei(id); telaAcervo();
+  };
+}
+
+function painelEditarPastas() {
+  const pastas = itens("pasta").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  abrirPainel(`<h2>Editar pastas ${botaoFechar}</h2>
+    ${pastas.map(p => `<div class="linha-ajuste"><span>${esc(p.nome)} <span class="contagem">(${p.leis.length} lei(s))</span></span>
+      <span><button class="icone-btn" data-renomear="${esc(p.id)}">Renomear</button><button class="icone-btn" data-apagar-pasta="${esc(p.id)}" style="color:var(--alt)">Apagar</button></span></div>`).join("")}
+    <p class="contagem">Apagar uma pasta não apaga as leis nem suas anotações.</p>`);
+  $$("[data-renomear]").forEach(b => b.onclick = async () => {
+    const p = estado.itens.get(b.dataset.renomear);
+    const nome = prompt("Novo nome da pasta:", p.nome);
+    if (!nome || !nome.trim()) return;
+    p.nome = nome.trim(); await salvarItem(p); painelEditarPastas(); telaAcervo();
+  });
+  $$("[data-apagar-pasta]").forEach(b => b.onclick = async () => {
+    const p = estado.itens.get(b.dataset.apagarPasta);
+    if (!confirm(`Apagar a pasta "${p.nome}"? As leis continuam no acervo.`)) return;
+    await apagarItem(p.id); painelEditarPastas(); telaAcervo();
+  });
+}
+
+/* ---------- editor de anotação (com imagens) ---------- */
+let rascunhoImagens = [];
+function editorAnotacao(base) {
+  const existente = base.id && estado.itens.get(base.id)?.tipo === "anotacao" ? estado.itens.get(base.id) : null;
+  const nota = existente ? { ...existente } : { ...base };
+  rascunhoImagens = [...(nota.imagens || [])];
+  const onde = nota.lei ? `${esc(nomeLei(nota.lei))}${nota.art ? " — " + esc(rotuloArt(nota.art)) : " (lei inteira)"}` : "";
+  abrirPainel(`<h2>${existente ? "Editar anotação" : "Nova anotação"} ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">${onde}</p>
+    ${nota.texto ? `<div class="citacao" style="font-family:var(--serif);border-left:3px solid var(--fio);padding-left:10px;color:var(--tinta-2);margin-bottom:10px">“${esc(nota.texto)}”</div>` : ""}
+    <textarea class="campo" id="texto-nota" placeholder="Sua anotação — ex.: muito cobrado em prova">${esc(nota.nota || "")}</textarea>
+    <div class="miniaturas" id="mini-editor"></div>
+    <div class="acoes" style="margin-top:10px">
+      <button id="add-img">📷 Adicionar imagem (câmera, galeria ou arquivos)</button>
+      <button id="salvar-nota" class="botao primario">Salvar anotação</button>
+    </div>
+    <p class="contagem" id="msg-img"></p>`);
+  const mini = async () => {
+    const el = $("#mini-editor");
+    if (!el) return;
+    el.innerHTML = "";
+    for (const id of rascunhoImagens) {
+      const img = await bdLer("imagens", id);
+      if (!img) continue;
+      const f = document.createElement("figure");
+      f.innerHTML = `<img alt="Imagem da anotação"><button class="tirar" aria-label="Remover imagem" data-tirar="${esc(id)}">×</button>`;
+      f.querySelector("img").src = URL.createObjectURL(img.blob);
+      el.appendChild(f);
+    }
+    $$("[data-tirar]", el).forEach(b => b.onclick = () => { rascunhoImagens = rascunhoImagens.filter(x => x !== b.dataset.tirar); mini(); });
+  };
+  mini();
+  $("#add-img").onclick = () => $("#entrada-imagens").click();
+  $("#entrada-imagens").onchange = async e => {
+    const arquivos = [...e.target.files];
+    e.target.value = "";
+    const total = (await bdTodos("imagens")).reduce((s, i) => s + (i.blob?.size || 0), 0);
+    if (total > LIMITE_IMAGENS_MB * 1048576) {
+      $("#msg-img").textContent = `As imagens já ocupam ${mb(total)}. Apague imagens antigas antes de adicionar novas.`;
+      return;
+    }
+    $("#msg-img").textContent = "Comprimindo…";
+    for (const arq of arquivos) {
+      try {
+        const blob = await comprimirImagem(arq);
+        const id = uid();
+        await bdGravar("imagens", { id, blob, tipoMime: blob.type, atualizadoEm: agoraISO() });
+        rascunhoImagens.push(id);
+      } catch { $("#msg-img").textContent = "Não foi possível ler uma das imagens."; }
+    }
+    if ($("#msg-img").textContent === "Comprimindo…") $("#msg-img").textContent = "";
+    mini();
+  };
+  $("#salvar-nota").onclick = async () => {
+    const texto = $("#texto-nota").value.trim();
+    if (!texto && !rascunhoImagens.length) { $("#msg-img").textContent = "Escreva algo ou adicione uma imagem."; return; }
+    const removidas = (existente?.imagens || []).filter(x => !rascunhoImagens.includes(x));
+    for (const r of removidas) await bdApagar("imagens", r);
+    const item = { ...nota, id: existente ? existente.id : uid(), tipo: "anotacao", nota: texto, imagens: rascunhoImagens };
+    delete item.cor;
+    if (!existente) { delete item.criadoEm; delete item.atualizadoEm; delete item.apagado; }
+    if (item.criarGrifo) {
+      const campos = ["lei", "art", "versao", "hashArt", "textoOriginal", "ini", "fim", "texto", "prefixo", "sufixo"];
+      const g = { id: uid(), tipo: "grifo", cor: "amarelo" };
+      campos.forEach(c => { g[c] = item[c]; });
+      await salvarItem(g);
+      item.grifoId = g.id;
+      delete item.criarGrifo;
+    }
+    await salvarItem(item);
+    fecharPainel();
+    if (leiAberta === item.lei && item.art) repintarArtigo(item.lei, item.art);
+    const r = location.hash;
+    if (r.startsWith("#/estudos") || r.startsWith("#/pesquisar")) rotear();
+  };
+}
+
+/* Redimensiona para no máximo 1600 px e salva em JPEG ~78% (fotos de 4 MB viram ~300 KB). */
+async function comprimirImagem(arquivo) {
+  const url = URL.createObjectURL(arquivo);
+  try {
+    const img = new Image();
+    img.src = url;
+    await img.decode();
+    const lado = Math.max(img.naturalWidth, img.naturalHeight);
+    const f = Math.min(1, 1600 / lado);
+    const c = document.createElement("canvas");
+    c.width = Math.round(img.naturalWidth * f);
+    c.height = Math.round(img.naturalHeight * f);
+    c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+    const blob = await new Promise(ok => c.toBlob(ok, "image/jpeg", 0.78));
+    if (!blob) throw new Error("falha");
+    return blob;
+  } finally { URL.revokeObjectURL(url); }
+}
+
+async function ativarMiniaturas(raiz) {
+  for (const el of $$("[data-imagens]", raiz)) {
+    for (const id of el.dataset.imagens.split(",").filter(Boolean)) {
+      const img = await bdLer("imagens", id);
+      if (!img) continue;
+      const i = document.createElement("img");
+      i.alt = "Imagem da anotação";
+      i.src = URL.createObjectURL(img.blob);
+      i.onclick = () => abrirPainel(`<h2>Imagem ${botaoFechar}</h2><img class="imagem-cheia" src="${i.src}" alt="Imagem da anotação">`);
+      el.appendChild(i);
+    }
+  }
+}
+
+function painelMudanca(itemId) {
+  const i = estado.itens.get(itemId);
+  const atual = estado.leis[i.lei]?.artigos[i.art]?.texto || "";
+  abrirPainel(`<h2>${esc(rotuloArt(i.art))} — o que mudou ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">Da versão de ${dataCurta(i.versao)} (quando você marcou) para a versão atual.</p>
+    ${i.texto ? `<p style="font-size:14px">Trecho que você marcou: <strong>“${esc(i.texto)}”</strong></p>` : ""}
+    <p class="legenda-diff"><span><del>removido</del></span><span><ins>adicionado</ins></span></p>
+    <div class="diff">${i.textoOriginal ? diffHTML(i.textoOriginal, atual) : esc(atual)}</div>`);
+}
+async function ancorarNaVersaoAtual(itemId) {
+  const i = estado.itens.get(itemId);
+  const lei = estado.leis[i.lei];
+  if (!lei?.artigos[i.art]) return;
+  if (i.texto) {
+    const div = document.createElement("div");
+    const a = prepararLei(lei).arts.find(x => x.id === i.art);
+    div.innerHTML = artigoHTML({ ...a, antes: [] }, null, i.lei);
+    const texto = textoDoArtigo(div.firstElementChild);
+    const loc = localizar(i, texto, lei.artigos[i.art].hash);
+    if (loc.estado === "perdido" && !confirm("O trecho marcado não existe mais no artigo atual. Manter mesmo assim? (o texto original continua guardado)")) return;
+    if (loc.ini !== undefined) {
+      Object.assign(i, { ini: loc.ini, fim: loc.fim, prefixo: texto.slice(Math.max(0, loc.ini - 40), loc.ini), sufixo: texto.slice(loc.fim, loc.fim + 40) });
+    }
+  }
+  Object.assign(i, { versao: lei.versao, hashArt: lei.artigos[i.art].hash, textoOriginal: lei.artigos[i.art].texto });
+  await salvarItem(i);
+  rotear();
+}
+
+/* =====================================================================
+   BACKUP (exportar / importar com mesclagem pela data)
+   ===================================================================== */
+function blobParaBase64(blob) {
+  return new Promise(ok => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(",")[1]); r.readAsDataURL(blob); });
+}
+function base64ParaBlob(b64, tipo) {
+  const bin = atob(b64); const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new Blob([bytes], { type: tipo || "image/jpeg" });
+}
+async function exportarBackup() {
+  const btn = $("#btn-exportar");
+  if (btn) btn.textContent = "Preparando…";
+  const imgs = await bdTodos("imagens");
+  const pacote = {
+    app: "leitor-legislacao", formato: 1, exportadoEm: agoraISO(),
+    itens: [...estado.itens.values()],
+    imagens: await Promise.all(imgs.map(async i => ({ id: i.id, tipoMime: i.tipoMime, atualizadoEm: i.atualizadoEm, dados: await blobParaBase64(i.blob) }))),
+    ajustes, posicao: lerLS("posicao", {}),
+  };
+  const d = new Date();
+  const p2 = n => String(n).padStart(2, "0");
+  const nome = `backup-legislacao-${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())}-${p2(d.getHours())}${p2(d.getMinutes())}.json`;
+  const arquivo = new File([JSON.stringify(pacote)], nome, { type: "application/json" });
+  let ok = false;
+  try {
+    if (navigator.canShare && navigator.canShare({ files: [arquivo] })) { await navigator.share({ files: [arquivo], title: nome }); ok = true; }
+  } catch (e) { if (e.name === "AbortError") { if (btn) btn.textContent = "Exportar backup"; return; } }
+  if (!ok) {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(arquivo); a.download = nome;
+    document.body.appendChild(a); a.click(); a.remove();
+    ok = true;
+  }
+  gravarLS("ultimo-backup", pacote.exportadoEm);
+  if (location.hash.startsWith("#/ajustes")) telaAjustes();
+}
+
+$("#entrada-backup").onchange = async e => {
+  const arq = e.target.files[0];
+  e.target.value = "";
+  if (!arq) return;
+  let p;
+  try { p = JSON.parse(await arq.text()); } catch { alert("Este arquivo não é um backup válido do app."); return; }
+  if (p.app !== "leitor-legislacao" || !Array.isArray(p.itens)) { alert("Este arquivo não é um backup do Leitor de Legislação."); return; }
+  const maisRecenteLocal = [...estado.itens.values()].reduce((m, i) => (i.atualizadoEm > m ? i.atualizadoEm : m), "");
+  if (maisRecenteLocal && p.exportadoEm < maisRecenteLocal &&
+      !confirm(`Este backup é de ${dataHora(p.exportadoEm)}, e há alterações mais recentes neste aparelho (${dataHora(maisRecenteLocal)}).\n\nA importação não apaga nada: em cada item fica a versão mais recente. Continuar?`)) return;
+  let novos = 0, atualizados = 0, mantidos = 0, imgsNovas = 0;
+  for (const it of p.itens) {
+    const loc = estado.itens.get(it.id);
+    if (!loc) { await bdGravar("itens", it); estado.itens.set(it.id, it); novos++; }
+    else if (it.atualizadoEm > loc.atualizadoEm) { await bdGravar("itens", it); estado.itens.set(it.id, it); atualizados++; }
+    else mantidos++;
+  }
+  const usadas = new Set(itens("anotacao").flatMap(n => n.imagens || []));
+  for (const im of p.imagens || []) {
+    if (!usadas.has(im.id) || await bdLer("imagens", im.id)) continue;
+    await bdGravar("imagens", { id: im.id, blob: base64ParaBlob(im.dados, im.tipoMime), tipoMime: im.tipoMime, atualizadoEm: im.atualizadoEm });
+    imgsNovas++;
+  }
+  // imagens que nenhuma anotação usa mais são removidas
+  for (const im of await bdTodos("imagens")) if (!usadas.has(im.id)) await bdApagar("imagens", im.id);
+  gravarLS("ultima-mudanca", agoraISO());
+  abrirPainel(`<h2>Backup importado ${botaoFechar}</h2>
+    <p>Itens novos: ${novos}<br>Itens atualizados com a versão do backup: ${atualizados}<br>Itens mantidos (versão do aparelho era igual ou mais nova): ${mantidos}<br>Imagens adicionadas: ${imgsNovas}</p>
+    <p class="contagem">Backup de ${dataHora(p.exportadoEm)}.</p>`);
+  if (location.hash.startsWith("#/ajustes")) telaAjustes();
+};
+
+/* =====================================================================
+   CLIQUES GERAIS E NAVEGAÇÃO
+   ===================================================================== */
 document.addEventListener("click", async e => {
-  const menu = e.target.closest("[data-menu]");
-  if (menu) {
-    const art = menu.dataset.menu;
-    abrirPainel(`<h2>Art. ${esc(art.replace(/#\d+$/, ""))} ${botaoFechar}</h2><div class="acoes">
-      <button id="copiar-art">Copiar o artigo</button>
-      ${navigator.share ? '<button id="compartilhar-art">Compartilhar o artigo</button>' : ""}
-    </div><p class="contagem">Grifos, anotações e favoritos chegam na próxima etapa.</p>`);
-    $("#copiar-art").onclick = async () => {
-      try { await navigator.clipboard.writeText(textoArtigo(leiAberta, art)); $("#copiar-art").textContent = "Artigo copiado"; }
-      catch { $("#copiar-art").textContent = "Não foi possível copiar"; }
-    };
-    const sh = $("#compartilhar-art");
-    if (sh) sh.onclick = () => navigator.share({ text: textoArtigo(leiAberta, art) }).catch(() => {});
+  const t = e.target;
+  const grifo = t.closest("mark.grifo[data-grifo]");
+  if (grifo && !window.getSelection()?.toString()) { menuGrifo(grifo.dataset.grifo); return; }
+  const menu = t.closest("[data-menu]");
+  if (menu) { menuArtigo(menu.dataset.menu); return; }
+  const notas = t.closest("[data-notas]");
+  if (notas) { painelNotasArtigo(notas.dataset.notas); return; }
+  const abrir = t.closest("[data-abrir]");
+  if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
+  const menuL = t.closest("[data-menu-lei]");
+  if (menuL) { menuLei(menuL.dataset.menuLei); return; }
+  const chip = t.closest("[data-pasta]");
+  if (chip) { gravarLS("pasta-selecionada", chip.dataset.pasta); telaAcervo(); return; }
+  if (t.closest("#nova-pasta")) {
+    const nome = prompt("Nome da pasta (ex.: Polícia Penal, Direito Penal):");
+    if (nome && nome.trim()) { const p = await salvarItem({ id: uid(), tipo: "pasta", nome: nome.trim(), leis: [] }); gravarLS("pasta-selecionada", p.id); telaAcervo(); }
     return;
   }
-  const abrir = e.target.closest("[data-abrir]");
-  if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
-  const ir = e.target.closest("[data-ir]");
+  if (t.closest("#editar-pastas")) { painelEditarPastas(); return; }
+  const href = t.closest("[data-href]");
+  if (href) { fecharPainel(); location.hash = href.dataset.href; return; }
+  const ed = t.closest("[data-editar-nota]");
+  if (ed) { editorAnotacao(estado.itens.get(ed.dataset.editarNota)); return; }
+  const ap = t.closest("[data-apagar-nota]");
+  if (ap) {
+    if (!confirm("Apagar esta anotação e as imagens dela?")) return;
+    const n = estado.itens.get(ap.dataset.apagarNota);
+    await apagarItem(n.id);
+    if (leiAberta === n.lei && n.art) repintarArtigo(n.lei, n.art);
+    if ($("#painel-caixa").contains(ap)) { if (leiAberta && n.art) painelNotasArtigo(n.art); else fecharPainel(); }
+    if (!leiAberta) rotear();
+    return;
+  }
+  const apg = t.closest("[data-apagar-grifo]");
+  if (apg) { if (confirm("Apagar este grifo?")) { await apagarItem(apg.dataset.apagarGrifo); rotear(); } return; }
+  const desf = t.closest("[data-desfavoritar]");
+  if (desf) { await apagarItem(desf.dataset.desfavoritar); rotear(); return; }
+  const vm = t.closest("[data-ver-mudanca]");
+  if (vm) { painelMudanca(vm.dataset.verMudanca); return; }
+  const aa = t.closest("[data-atualizar-ancora]");
+  if (aa) { await ancorarNaVersaoAtual(aa.dataset.atualizarAncora); fecharPainel(); return; }
+  const ir = t.closest("[data-ir]");
   if (ir) {
     const [id, art] = ir.dataset.ir.split("|");
     fecharPainel();
-    if (location.hash.startsWith("#/lei/" + id) && leiAberta === id) irParaArtigo(art);
-    else location.hash = `#/lei/${id}/${encodeURIComponent(art)}`;
+    if (leiAberta === id) irParaArtigo(art); else location.hash = `#/lei/${id}/${encodeURIComponent(art)}`;
     return;
   }
-  const aba = e.target.closest("#abas button");
+  const aba = t.closest("#abas button");
   if (aba) location.hash = "#/" + aba.dataset.rota;
 });
 
-/* ---------------- navegação ---------------- */
 async function rotear() {
   fecharPainel();
+  esconderBarra();
   mostrarAvisoOffline();
   const partes = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
   if (partes[0] === "lei" && partes[1]) {
@@ -849,7 +1793,13 @@ async function rotear() {
   window.scrollTo(0, 0);
   leiAberta = null;
   $("#conteudo").classList.remove("modo-leitor");
+  if (partes[0] === "alteracoes" && partes[1]) return telaAlteracoes(partes[1]);
   if (partes[0] === "pesquisar") return telaPesquisar();
+  if (partes[0] === "questoes") return telaQuestoes();
+  if (partes[0] === "estudos") {
+    if (partes[1] === "alterados") { await leiDoCache(partes[2]); return telaEstudos("alterados", partes[2] || ""); }
+    return telaEstudos(partes[1] || "anotacoes");
+  }
   if (partes[0] === "ajustes") return telaAjustes();
   return telaAcervo();
 }
@@ -860,13 +1810,16 @@ async function atualizarTudo() {
   mostrarAvisoOffline();
   const ids = Object.keys(estado.status);
   const pendentes = ids.filter(id => !estado.info[id] || estado.info[id].hash !== estado.status[id].hash);
-  if (pendentes.length && !leiAberta) telaAcervo();      // mostra "Baixando versão atual"
-  for (const id of pendentes) await sincronizarLei(id);  // uma de cada vez, só as que mudaram
+  if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();
+  for (const id of pendentes) await sincronizarLei(id);
+  await Promise.all(ids.map(leiDoCache));   // para saber quais marcações estão em artigos alterados
 }
 
 async function iniciar() {
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  try { await abrirBD(); await carregarItens(); }
+  catch { alert("Não foi possível abrir o armazenamento de anotações neste navegador. Grifos e anotações não serão salvos."); }
   await atualizarTudo();
   rotear();
 }
@@ -874,7 +1827,7 @@ document.addEventListener("visibilitychange", async () => {
   if (document.visibilityState !== "visible") return;
   const antes = JSON.stringify(estado.info);
   await atualizarTudo();
-  if (JSON.stringify(estado.info) !== antes || !leiAberta) rotear();
+  if (JSON.stringify(estado.info) !== antes) rotear();
 });
 iniciar();
 </script>
