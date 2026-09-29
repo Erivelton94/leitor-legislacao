@@ -47,11 +47,11 @@ DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de nov
 
 # Versão do leitor de artigos. Quando o leitor é melhorado, o texto é relido sem gerar
 # falso alerta de "alteração na lei" (a mudança veio do leitor, não da legislação).
-VERSAO_LEITOR = 2
+VERSAO_LEITOR = 3
 
 # Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A.", "Art. 359-M-A."
 RE_ARTIGO = re.compile(
-    r"^Art\.\s*(\d+)\s*(?:º|°|ª|o(?![a-zà-ú]))?\s*((?:-[A-Z]{1,2}(?![a-zà-ú]))*)"
+    r"^Art\.?\s*(\d+)\s*(?:º|°|ª|o(?![a-zà-ú]))?\s*((?:-[A-Z]{1,2}(?![a-zà-ú]))*)"
 )
 
 
@@ -98,38 +98,94 @@ def decodificar(conteudo: bytes) -> str:
 
 # ------------------------------------------------------------ leitura da lei
 
+QUEBRA = "\x00"  # marcador interno das quebras <br>
+RE_ROTULO = re.compile(r"^Art\.?\s*[\dA-Zº°o\-]+\.?\s+(?=Art\.?\s*\d)")
+PREPOSICOES = ("de", "do", "da", "dos", "das", "no", "na", "nos", "nas", "pelo", "pela", "o", "a", "e", "ao")
+
+
+RE_INICIO_ART = re.compile(r"\bArt\.?\s*\d+\s*(?:º|°|o)?\s*(?:-[A-Z]{1,2})*\s*[.\-–]")
+
+
+def parece_titulo(texto):
+    """Ex.: "Concorrência desleal" — palavras, sem números, aspas ou dois-pontos."""
+    palavras = texto.split()
+    return (0 < len(texto) <= 100 and re.search(r"[A-Za-zÀ-ú]{3}", texto)
+            and not re.search(r"[\d“”\"‘’:;,]", texto)
+            and palavras[-1].lower() not in PREPOSICOES)
+
+
+def dividir(linha):
+    """Separa artigos que o Planalto colocou no mesmo parágrafo, por exemplo:
+    "Concorrência desleal Art. 196. (Revogado…)" ou "Art. 190. (Revogado…) Art. 191. (Revogado…)".
+    Só divide depois de um título ou de uma nota entre parênteses, nunca no meio de uma frase."""
+    partes, inicio = [], 0
+    for m in RE_INICIO_ART.finditer(linha):
+        if m.start() == inicio:
+            continue
+        antes = linha[inicio:m.start()].strip()
+        if antes.endswith(")") or (inicio == 0 and parece_titulo(antes)):
+            partes.append(antes)
+            inicio = m.start()
+    partes.append(linha[inicio:].strip())
+    return [p for p in partes if p]
+
+
+def substantivo(texto):
+    """True se o artigo tem conteúdo além do rótulo "Art. N" e de notas entre parênteses."""
+    resto = RE_ARTIGO.sub("", texto.split("\n")[0], count=1) + " " + " ".join(texto.split("\n")[1:])
+    resto = re.sub(r"\([^)]*\)", " ", resto)
+    return len(re.findall(r"\w", resto)) >= 3
+
+
 def extrair_artigos(html):
     """Devolve ({id_artigo: {texto, hash}}, nº de artigos com número repetido)."""
-    soup = BeautifulSoup(html, "html.parser")
-
-    # Texto riscado no Planalto = redação antiga ou revogada. Não faz parte do texto vigente.
-    for tag in soup(["script", "style", "strike", "s", "del"]):
+    # html5lib interpreta HTML malformado do mesmo jeito que o navegador (o Planalto tem muito).
+    soup = BeautifulSoup(html, "html5lib")
+    for tag in soup(["script", "style"]):
         tag.decompose()
+    for br in soup.find_all("br"):
+        br.replace_with(QUEBRA)  # <br> = quebra de linha, como no navegador
 
-    linhas = [normalizar(p.get_text(" ")) for p in soup.find_all("p")]
+    # Texto riscado = redação antiga ou revogada, não faz parte do texto vigente.
+    # Exceção: se o trecho riscado começa com "Art. N", o rótulo é mantido, para que
+    # artigos inteiramente revogados continuem aparecendo como "Art. N (Revogado pela…)".
+    for tag in soup(["strike", "s", "del"]):
+        m = RE_ARTIGO.match(normalizar(tag.get_text("")))
+        if m:
+            tag.replace_with(m.group(0).strip() + " ")
+        else:
+            tag.decompose()
+
+    linhas = [normalizar(parte) for p in soup.find_all("p") for parte in p.get_text("").split(QUEBRA)]
     if len(linhas) < 10:  # página sem parágrafos <p>: usa o texto corrido
         linhas = [normalizar(l) for l in soup.get_text("\n").split("\n")]
-    linhas = [l for l in linhas if l]
 
-    artigos, atual, repetidos = {}, None, 0
+    prontas = []
     for linha in linhas:
+        if not linha:
+            continue
+        linha = RE_ROTULO.sub("", linha)  # "Art. 5 Art. 5º texto novo" -> "Art. 5º texto novo"
+        prontas += dividir(linha)
+
+    blocos = []  # [(id, [linhas])]
+    for linha in prontas:
         m = RE_ARTIGO.match(linha)
         if m:
-            ident = m.group(1) + (m.group(2) or "")
-            chave, n = ident, 2
-            while chave in artigos:
-                chave, n = f"{ident}#{n}", n + 1
-            if chave != ident:
-                repetidos += 1
-            artigos[chave] = [linha]
-            atual = chave
-        elif atual:
-            artigos[atual].append(linha)
+            blocos.append((m.group(1) + (m.group(2) or ""), [linha]))
+        elif blocos and linha != blocos[-1][1][-1]:  # ignora linha repetida em sequência
+            blocos[-1][1].append(linha)
 
-    resultado = {}
-    for chave, partes in artigos.items():
-        texto = "\n".join(partes)
-        resultado[chave] = {"texto": texto, "hash": sha256(texto)}
+    # Mesmo número mais de uma vez: fica a versão com conteúdo; rótulos vazios saem.
+    grupos = {}
+    for ident, partes in blocos:
+        grupos.setdefault(ident, []).append("\n".join(partes))
+    resultado, repetidos = {}, 0
+    for ident, textos in grupos.items():
+        uteis = [t for t in textos if substantivo(t)] or [textos[-1]]
+        for i, texto in enumerate(uteis):
+            chave = ident if i == 0 else f"{ident}#{i + 1}"
+            repetidos += i > 0
+            resultado[chave] = {"texto": texto, "hash": sha256(texto)}
     return resultado, repetidos
 
 
