@@ -348,6 +348,48 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .num-desemp { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .grafico-dias { width: 100%; max-width: 700px; height: auto; display: block; margin-top: 6px; }
 .acoes-linha { display: flex; gap: 8px; flex-wrap: wrap; }
+/* ---------- resumos ---------- */
+.cab-resumo { display: flex; align-items: flex-start; gap: 4px; }
+.titulo-resumo { flex: 1; font-family: var(--serif); font-size: 19px !important; color: var(--tinta) !important; font-weight: 600 !important; }
+.estrela { color: var(--pend); font-size: 20px; }
+.previa-resumo { font-family: var(--serif); font-size: 15px; color: var(--tinta-2); line-height: 1.5; margin-top: 6px;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.barra-resumo { display: flex; flex-wrap: wrap; gap: 8px; max-width: 46em; margin: 14px auto 0; padding: 0 16px; }
+.leitura-resumo { font-family: var(--serif); font-size: var(--fonte-res, 19px); line-height: var(--entre-res, 1.75); max-width: 40em;
+  margin: 0 auto; padding: 12px 22px 120px; }
+.leitura-resumo p, .leitura-resumo li { text-align: justify; hyphens: manual; -webkit-hyphens: manual; }
+.leitura-resumo p { margin: 0 0 0.7em; }
+.leitura-resumo h1, .leitura-resumo h2 { font-family: var(--sans); font-size: 1.25em; color: var(--oliva); margin: 1.4em 0 0.5em; line-height: 1.3; }
+.leitura-resumo h3 { font-family: var(--sans); font-size: 1.05em; margin: 1.3em 0 0.4em; }
+.leitura-resumo h4 { font-family: var(--sans); font-size: 0.95em; color: var(--tinta-2); margin: 1.1em 0 0.3em; text-transform: none; }
+.leitura-resumo blockquote { margin: 0.8em 0; padding: 0.6em 0.9em; border-left: 3px solid var(--fio); background: var(--folha); border-radius: 0 8px 8px 0; }
+.leitura-resumo blockquote.obs { border-left-color: var(--pend); background: var(--oliva-claro); }
+.leitura-resumo img { max-width: 100%; height: auto; display: block; margin: 0.8em auto; border-radius: 6px; min-height: 40px; }
+.leitura-resumo img.img-esq { margin-left: 0; }
+.leitura-resumo img.selecionada { outline: 3px solid var(--oliva); }
+.leitura-resumo table { border-collapse: collapse; width: 100%; font-size: 0.9em; display: block; overflow-x: auto; }
+.leitura-resumo td, .leitura-resumo th { border: 1px solid var(--fio); padding: 6px 8px; vertical-align: top; }
+.leitura-resumo hr { border: 0; border-top: 1px solid var(--fio); margin: 1.4em 0; }
+.meta-resumo { font-family: var(--sans); font-size: 13px !important; color: var(--tinta-2); }
+.editor-wrap { max-width: 46em; margin: 0 auto; padding: 12px 16px 120px; }
+.campo-titulo { font-family: var(--serif); font-size: 22px; font-weight: 600; margin-bottom: 8px; }
+.barra-editor { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 15; display: flex; flex-wrap: wrap; gap: 2px; align-items: center;
+  background: var(--papel); border: 1px solid var(--fio); border-radius: 12px; padding: 4px; margin: 8px 0; }
+.barra-editor button { min-width: 38px; height: 38px; border: 0; background: transparent; border-radius: 8px; font-size: 15px; color: var(--tinta); }
+.barra-editor button:active { background: var(--oliva-claro); }
+.painel-editor { width: 100%; display: flex; flex-wrap: wrap; gap: 4px; padding: 6px 2px 2px; border-top: 1px solid var(--fio); }
+.painel-editor .bolinha { width: 22px; height: 22px; border-radius: 50%; display: inline-block; border: 1px solid var(--fio); }
+.painel-editor button { font-size: 20px; }
+.editor-resumo { min-height: 50vh; background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; outline: none; padding: 16px 20px 80px; max-width: none; }
+.editor-resumo:focus { border-color: var(--oliva); }
+.status-salvo { font-size: 12px; color: var(--tinta-2); text-align: right; margin: 6px 4px; }
+.ferramentas-imagem { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
+  display: flex; gap: 4px; align-items: center; flex-wrap: wrap; background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 6px; box-shadow: 0 6px 20px rgba(0,0,0,.15); }
+.ferramentas-imagem button { border: 1px solid var(--fio); background: var(--papel); border-radius: 8px; padding: 7px 10px; font-size: 13px; }
+.foco-resumo .topo, .foco-resumo .barra-resumo, .foco-resumo #abas, .foco-resumo #aviso-continuar, .foco-resumo #aviso-offline { display: none !important; }
+.foco-resumo .leitura-resumo { padding-top: calc(env(safe-area-inset-top, 0px) + 40px); }
+.sair-foco { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 8px); right: 10px; z-index: 45; opacity: 0.85; }
+@media (max-width: 560px) { .abas button { min-width: 0; flex: 1; font-size: 11px; padding: 6px 2px; } }
 svg.tinta { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 2; contain: layout style; }
 .modo-caneta #texto-lei { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; cursor: crosshair; }
 .aviso-tinta { display: inline-block; border: 1px dashed var(--fio); background: var(--folha); color: var(--tinta-2); border-radius: 999px;
@@ -451,6 +493,9 @@ svg.tinta { will-change: auto; }
   <button data-rota="questoes">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M8 9l1.5 1.5L12 8M8 15l1.5 1.5L12 14M14 9.5h3M14 15.5h3"/></svg>
     Questões</button>
+  <button data-rota="resumos">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4.5h10a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h10M9 8h5M9 11h5"/></svg>
+    Resumos</button>
   <button data-rota="pesquisar">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
     Pesquisar</button>
@@ -529,11 +574,11 @@ aplicarAjustes();
 let BD = null;
 function abrirBD() {
   return new Promise((ok, erro) => {
-    const r = indexedDB.open("meus-estudos", 1);
+    const r = indexedDB.open("meus-estudos", 2);
     r.onupgradeneeded = () => {
       const db = r.result;
-      if (!db.objectStoreNames.contains("itens")) db.createObjectStore("itens", { keyPath: "id" });
-      if (!db.objectStoreNames.contains("imagens")) db.createObjectStore("imagens", { keyPath: "id" });
+      for (const nome of ["itens", "imagens", "resumos", "resumos_conteudo"])
+        if (!db.objectStoreNames.contains(nome)) db.createObjectStore(nome, { keyPath: "id" });
     };
     r.onsuccess = () => ok(BD = r.result);
     r.onerror = () => erro(r.error);
@@ -1315,7 +1360,7 @@ async function telaPesquisar() {
   const ids = idsAcervo();
   const campo = $("#busca-global");
   campo.value = sessionStorage.getItem("busca-global") || "";
-  const rodar = () => {
+  const rodar = async () => {
     const termo = campo.value;
     sessionStorage.setItem("busca-global", termo);
     if (termo.trim().length < 2) { $("#res-global").innerHTML = ""; return; }
@@ -1325,6 +1370,10 @@ async function telaPesquisar() {
     for (const id of ids) if (estado.leis[id]) res = res.concat(buscarEm(estado.leis[id], id, termo, 60));
     let h = "";
     if (notas.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Minhas anotações relacionadas</h2>` + cartoesAnotacoes(notas, termo);
+    await carregarResumos();
+    if (!resumos.textos) { resumos.textos = new Map(); for (const c of await bdTodos("resumos_conteudo")) resumos.textos.set(c.id, semAcento(c.texto || "")); }
+    const rs = resumosAtivos().filter(r => semAcento([r.titulo, r.materia, r.assunto].join(" ")).includes(alvo) || (resumos.textos.get(r.id) || "").includes(alvo)).slice(0, 30);
+    if (rs.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Meus resumos (${rs.length})</h2><ul class="lista-cartoes">${rs.map(cartaoResumo).join("")}</ul>`;
     const qs = [...estado.q.values()].filter(q => semAcento(q.enunciado.join(" ") + " " + q.alternativas.map(a => a.texto).join(" ")).includes(alvo)).slice(0, 40);
     if (qs.length) h += `<h2 style="font-size:15px;margin:16px 0 0">Questões (${qs.length})</h2><ul class="resultados">${qs.map(q => `<li><button data-href="#/caderno/${esc(q.caderno)}/questao/${esc(q.id)}">
       <span class="res-titulo">${esc(q.assunto)} — ${esc(q.banca)} ${q.ano}</span><span class="res-trecho">${destacar(q.enunciado.join(" ").slice(0, 220), termo)}…</span></button></li>`).join("")}</ul>`;
@@ -2543,6 +2592,8 @@ async function exportarBackup() {
   const pacote = {
     app: "leitor-legislacao", formato: 1, exportadoEm: agoraISO(),
     itens: [...estado.itens.values()],
+    resumos: await bdTodos("resumos"),
+    resumosConteudo: await bdTodos("resumos_conteudo"),
     imagens: await Promise.all(imgs.map(async i => ({ id: i.id, tipoMime: i.tipoMime, atualizadoEm: i.atualizadoEm, dados: await blobParaBase64(i.blob) }))),
     ajustes, posicao: lerLS("posicao", {}),
   };
@@ -2582,7 +2633,19 @@ $("#entrada-backup").onchange = async e => {
     else if (it.atualizadoEm > loc.atualizadoEm) { await bdGravar("itens", it); estado.itens.set(it.id, it); atualizados++; }
     else mantidos++;
   }
+  // resumos: fica a versão mais recente de cada um (o conteúdo acompanha)
+  const conteudos = new Map((p.resumosConteudo || []).map(c => [c.id, c]));
+  for (const r of p.resumos || []) {
+    const loc = await bdLer("resumos", r.id);
+    if (loc && loc.atualizadoEm >= r.atualizadoEm) { mantidos++; continue; }
+    await bdGravar("resumos", r);
+    if (r.apagado) await bdApagar("resumos_conteudo", r.id);
+    else if (conteudos.has(r.id)) await bdGravar("resumos_conteudo", conteudos.get(r.id));
+    loc ? atualizados++ : novos++;
+  }
+  resumos.lista = null; resumos.textos = null;
   const usadas = new Set(itens("anotacao").flatMap(n => n.imagens || []));
+  for (const c of await bdTodos("resumos_conteudo")) for (const id of imagensDoHtml(c.html || "")) usadas.add(id);   // imagens dos resumos também ficam
   for (const im of p.imagens || []) {
     if (!usadas.has(im.id) || await bdLer("imagens", im.id)) continue;
     await bdGravar("imagens", { id: im.id, blob: base64ParaBlob(im.dados, im.tipoMime), tipoMime: im.tipoMime, atualizadoEm: im.atualizadoEm });
@@ -2604,7 +2667,7 @@ $("#entrada-backup").onchange = async e => {
    ===================================================================== */
 let pilhaNav = (() => { try { return JSON.parse(sessionStorage.getItem("pilha-nav")) || []; } catch { return []; } })();
 let voltandoNav = false, raizNav = false, ultimaRolagem = 0;
-const ROTAS_RAIZ = ["acervo", "questoes", "pesquisar", "estudos", "ajustes"];
+const ROTAS_RAIZ = ["acervo", "questoes", "resumos", "pesquisar", "estudos", "ajustes"];
 window.addEventListener("scroll", () => { ultimaRolagem = window.scrollY; }, { passive: true });
 function baseRota(h) {
   const p = h.replace(/^#\/?/, "").split("/");
@@ -3192,6 +3255,743 @@ function alternarTelaCheia(ligar = !document.body.classList.contains("tela-cheia
 }
 
 /* =====================================================================
+   MEUS RESUMOS — caderno digital
+   - Lista mostra só título, matéria e prévia (o conteúdo só é lido ao abrir).
+   - Imagens ficam no mesmo armazenamento das anotações, comprimidas, e só
+     carregam quando aparecem na tela.
+   - Leitores de Word e PDF só são baixados quando você importa um arquivo.
+   ===================================================================== */
+const resumos = { lista: null, textos: null };
+async function carregarResumos() {
+  if (resumos.lista) return;
+  resumos.lista = new Map();
+  for (const r of await bdTodos("resumos")) resumos.lista.set(r.id, r);
+}
+const resumosAtivos = () => [...resumos.lista.values()].filter(r => !r.apagado);
+async function salvarMeta(r, tocar = true) {
+  if (tocar) r.atualizadoEm = agoraISO();
+  if (!r.criadoEm) r.criadoEm = r.atualizadoEm;
+  await bdGravar("resumos", r);
+  resumos.lista.set(r.id, r);
+  if (tocar) gravarLS("ultima-mudanca", r.atualizadoEm);
+}
+async function lerConteudo(id) { return (await bdLer("resumos_conteudo", id))?.html || ""; }
+function textoPlanoDe(html) {
+  const d = document.createElement("template");
+  d.innerHTML = html;
+  return d.content.textContent.replace(/\s+/g, " ").trim();
+}
+async function gravarConteudo(id, html) {
+  const texto = textoPlanoDe(html);
+  await bdGravar("resumos_conteudo", { id, html, texto });
+  if (resumos.textos) resumos.textos.set(id, semAcento(texto));
+  return texto;
+}
+const imagensDoHtml = html => [...html.matchAll(/data-img="([^"]+)"/g)].map(m => m[1]);
+async function excluirResumo(id) {
+  const html = await lerConteudo(id);
+  for (const img of imagensDoHtml(html)) await bdApagar("imagens", img);
+  await bdApagar("resumos_conteudo", id);
+  const r = resumos.lista.get(id);
+  await salvarMeta({ id, apagado: true, titulo: r?.titulo || "" });     // "apagado" evita ressuscitar no backup
+}
+function materiasResumo() {
+  const s = new Set(resumosAtivos().map(r => r.materia).filter(Boolean));
+  for (const m of itens("materia")) s.add(m.nome);
+  return [...s].sort((a, b) => a.localeCompare(b, "pt-BR"));
+}
+
+/* ---------- limpeza do HTML colado ou importado (só o que o editor entende) ---------- */
+const TAGS_RESUMO = new Set(["P", "H1", "H2", "H3", "H4", "STRONG", "EM", "U", "S", "UL", "OL", "LI", "BLOCKQUOTE", "HR", "BR",
+  "SPAN", "MARK", "IMG", "TABLE", "THEAD", "TBODY", "TR", "TD", "TH", "A", "SUB", "SUP"]);
+const TROCA_TAG = { B: "STRONG", I: "EM", DIV: "P", H5: "H4", H6: "H4", STRIKE: "S", DEL: "S", INS: "U", FONT: "SPAN" };
+function limparHtml(html) {
+  const tpl = document.createElement("template");
+  tpl.innerHTML = html;
+  const visitar = no => {
+    for (const el of [...no.children]) {
+      visitar(el);
+      if (["SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "META", "LINK", "TITLE", "NOSCRIPT", "SVG", "CANVAS", "VIDEO", "AUDIO"].includes(el.tagName)) { el.remove(); continue; }
+      let alvo = el;
+      const nova = TROCA_TAG[el.tagName];
+      if (nova) { alvo = document.createElement(nova); alvo.append(...el.childNodes); el.replaceWith(alvo); }
+      if (!TAGS_RESUMO.has(alvo.tagName)) { alvo.replaceWith(...alvo.childNodes); continue; }
+      const estilo = alvo.style;
+      const manter = {};
+      if (estilo) {
+        if (estilo.color && alvo.tagName === "SPAN") manter.color = estilo.color;
+        if (estilo.backgroundColor && ["SPAN", "MARK"].includes(alvo.tagName)) manter["background-color"] = estilo.backgroundColor;
+        if (estilo.textAlign && /^(P|H\d|LI|BLOCKQUOTE)$/.test(alvo.tagName)) manter["text-align"] = estilo.textAlign;
+        if (alvo.tagName === "IMG" && /%$/.test(estilo.width)) manter.width = estilo.width;
+      }
+      const href = alvo.tagName === "A" ? alvo.getAttribute("href") : null;
+      const img = alvo.dataset?.img, src = alvo.tagName === "IMG" ? alvo.getAttribute("src") : null;
+      const classe = alvo.tagName === "BLOCKQUOTE" && alvo.classList.contains("obs") ? "obs" : (alvo.tagName === "IMG" && alvo.classList.contains("img-esq") ? "img-esq" : "");
+      for (const a of [...alvo.attributes]) alvo.removeAttribute(a.name);
+      const css = Object.entries(manter).map(([k, v]) => `${k}:${v}`).join(";");
+      if (css) alvo.setAttribute("style", css);
+      if (href && /^(https?:|#\/)/.test(href)) { alvo.setAttribute("href", href); if (/^https?:/.test(href)) { alvo.setAttribute("target", "_blank"); alvo.setAttribute("rel", "noopener"); } }
+      if (img) alvo.setAttribute("data-img", img);
+      else if (src) alvo.setAttribute("data-src-colado", src);             // convertido depois em imagem guardada
+      if (classe) alvo.className = classe;
+      if (alvo.tagName === "SPAN" && !alvo.getAttribute("style")) alvo.replaceWith(...alvo.childNodes);
+    }
+  };
+  visitar(tpl.content);
+  // parágrafos vazios em sequência viram no máximo um
+  let h = tpl.innerHTML.replace(/(<p>(\s|&nbsp;|<br>)*<\/p>){2,}/g, "<p><br></p>").replace(/^(<p>(\s|&nbsp;|<br>)*<\/p>)+/, "");
+  return h;
+}
+/* imagens coladas/importadas: comprimidas e guardadas; no HTML fica só a referência */
+async function guardarImagem(blob) {
+  let comp = blob.type === "image/gif" ? blob : await comprimirImagem(blob);
+  if (comp.size >= blob.size && /^image\/(jpeg|png|webp)$/.test(blob.type) && blob.size < 400000) comp = blob;   // já era leve: fica o original
+  const id = uid();
+  await bdGravar("imagens", { id, blob: comp, tipoMime: comp.type, atualizadoEm: agoraISO(), dono: "resumo" });
+  return id;
+}
+async function internalizarImagens(raiz) {
+  let perdidas = 0;
+  for (const img of $$("img[data-src-colado]", raiz)) {
+    const src = img.getAttribute("data-src-colado");
+    try {
+      const r = await fetch(src);
+      if (!r.ok) throw new Error();
+      const id = await guardarImagem(await r.blob());
+      img.removeAttribute("data-src-colado");
+      img.setAttribute("data-img", id);
+    } catch { img.remove(); perdidas++; }
+  }
+  return perdidas;
+}
+/* mostra as imagens só quando chegam perto da tela */
+const urlsImagens = new Map();
+let observadorImg = null;
+function ativarImagensResumo(raiz) {
+  if (observadorImg) observadorImg.disconnect();
+  observadorImg = new IntersectionObserver(async entradas => {
+    for (const e of entradas) {
+      if (!e.isIntersecting) continue;
+      observadorImg.unobserve(e.target);
+      const id = e.target.dataset.img;
+      if (!urlsImagens.has(id)) { const r = await bdLer("imagens", id); if (r) urlsImagens.set(id, URL.createObjectURL(r.blob)); }
+      if (urlsImagens.has(id)) e.target.src = urlsImagens.get(id);
+      else e.target.alt = "Imagem não encontrada neste aparelho";
+    }
+  }, { rootMargin: "600px 0px" });
+  $$("img[data-img]", raiz).forEach(i => { if (!i.getAttribute("src")) observadorImg.observe(i); });
+}
+
+/* ---------- tela principal ---------- */
+async function telaResumos(filtro = "todas", materia = "") {
+  await carregarResumos();
+  definirTopo({ titulo: materia ? materia : "Meus Resumos", voltar: materia ? "#/resumos" : null });
+  marcarAba("resumos");
+  const busca = sessionStorage.getItem("busca-resumos") || "";
+  $("#conteudo").innerHTML = `<div class="secao">
+    <div class="acoes-linha">
+      <button class="botao primario" id="novo-resumo">+ Novo resumo</button>
+      <button class="botao" id="importar-resumos">Importar Word ou PDF</button>
+      ${!materia ? '<button class="botao" id="nova-materia">+ Nova matéria</button>' : ""}
+    </div>
+    <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, matéria ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
+    ${materia ? "" : `<div class="filtros" style="margin-top:10px"><div class="segmentado" id="filtro-res">
+      ${[["todas", "Todas"], ["favoritos", "⭐ Favoritos"], ["recentes", "🕐 Recentes"], ["arquivados", "📦 Arquivados"]].map(([v, r]) => `<button data-filtro-res="${v}" aria-pressed="${filtro === v}">${r}</button>`).join("")}
+    </div></div>`}
+    <div id="lista-res"></div></div>`;
+  const render = async () => {
+    const termo = semAcento($("#busca-res").value.trim());
+    sessionStorage.setItem("busca-resumos", $("#busca-res").value);
+    let lista = resumosAtivos();
+    let h = "";
+    if (termo.length >= 2) {
+      if (!resumos.textos) { resumos.textos = new Map(); for (const c of await bdTodos("resumos_conteudo")) resumos.textos.set(c.id, semAcento(c.texto || "")); }
+      lista = lista.filter(r => semAcento([r.titulo, r.materia, r.assunto].join(" ")).includes(termo) || (resumos.textos.get(r.id) || "").includes(termo));
+      h += `<p class="contagem">${lista.length} resumo(s) encontrado(s)</p>`;
+    } else if (materia) lista = lista.filter(r => (r.materia || "") === materia && !r.arquivado);
+    else if (filtro === "favoritos") lista = lista.filter(r => r.favorito && !r.arquivado);
+    else if (filtro === "arquivados") lista = lista.filter(r => r.arquivado);
+    else if (filtro === "recentes") lista = lista.filter(r => !r.arquivado).sort((a, b) => (b.abertoEm || b.atualizadoEm).localeCompare(a.abertoEm || a.atualizadoEm)).slice(0, 20);
+    else {
+      // "Todas": pastas das matérias + resumos sem matéria
+      const mats = materiasResumo();
+      if (mats.length) h += `<ul class="acervo">${mats.map(m => linhaPasta({ nome: m }, resumosAtivos().filter(r => r.materia === m && !r.arquivado).length, "resumo(s)", `#/resumos/materia/${encodeURIComponent(m)}`)).join("")}</ul>`;
+      lista = lista.filter(r => !r.materia && !r.arquivado);
+    }
+    if (filtro !== "recentes" || termo.length >= 2) lista.sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
+    h += lista.length ? `<ul class="lista-cartoes">${lista.map(cartaoResumo).join("")}</ul>`
+      : (h ? "" : `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nenhum resumo arquivado." : "Nenhum resumo ainda. Crie um novo ou importe seus arquivos do Word ou PDF."}</p>`);
+    $("#lista-res").innerHTML = h;
+  };
+  $("#busca-res").oninput = aoParar(render, 200);
+  $$("[data-filtro-res]").forEach(b => b.onclick = () => { history.replaceState(null, "", "#/resumos/" + b.dataset.filtroRes); telaResumos(b.dataset.filtroRes); });
+  $("#novo-resumo").onclick = async () => {
+    const r = { id: uid(), titulo: "", materia: materia || "", assunto: "", favorito: false, arquivado: false, previa: "" };
+    await salvarMeta(r);
+    await gravarConteudo(r.id, "<p><br></p>");
+    location.hash = `#/resumo/${r.id}/editar`;
+  };
+  $("#importar-resumos").onclick = () => painelImportarResumos(materia);
+  const nm = $("#nova-materia");
+  if (nm) nm.onclick = async () => {
+    const nome = prompt("Nome da matéria (ex.: Direito Penal, Português):");
+    if (nome && nome.trim() && !materiasResumo().includes(nome.trim())) { await salvarItem({ id: uid(), tipo: "materia", nome: nome.trim() }); render(); }
+  };
+  render();
+}
+function cartaoResumo(r) {
+  return `<li class="cartao-nota cartao-resumo">
+    <div class="cab-resumo">
+      <button class="origem titulo-resumo" data-href="#/resumo/${esc(r.id)}">${esc(r.titulo || "Sem título")}</button>
+      <button class="icone-btn estrela" data-fav-resumo="${esc(r.id)}" aria-pressed="${!!r.favorito}" aria-label="Favoritar">${r.favorito ? "★" : "☆"}</button>
+      <button class="icone-btn" data-menu-resumo="${esc(r.id)}" aria-label="Opções do resumo">⋯</button>
+    </div>
+    <div class="meta">${[r.materia, r.assunto].filter(Boolean).map(esc).join(" · ") || "Sem matéria"} · editado em ${dataHora(r.atualizadoEm)}${r.arquivado ? " · 📦 arquivado" : ""}</div>
+    ${r.previa ? `<div class="previa-resumo">${esc(r.previa)}</div>` : ""}
+  </li>`;
+}
+function menuResumo(id) {
+  const r = resumos.lista.get(id);
+  abrirPainel(`<h2>${esc(r.titulo || "Sem título")} ${botaoFechar}</h2><div class="acoes">
+    <button data-href="#/resumo/${esc(id)}">👁️ Ler</button>
+    <button data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>
+    <button id="r-duplicar">Duplicar resumo</button>
+    <button id="r-materia">Mudar de matéria</button>
+    <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
+    <button id="r-excluir" style="color:var(--alt)">Excluir resumo</button></div>`);
+  $("#r-duplicar").onclick = async () => {
+    const novo = { ...r, id: uid(), titulo: (r.titulo || "Sem título") + " — cópia", favorito: false, criadoEm: null, abertoEm: null };
+    let html = await lerConteudo(id);
+    for (const img of imagensDoHtml(html)) {            // a cópia tem as próprias imagens (apagar uma não afeta a outra)
+      const im = await bdLer("imagens", img);
+      if (im) { const nid = uid(); await bdGravar("imagens", { ...im, id: nid }); html = html.split(`data-img="${img}"`).join(`data-img="${nid}"`); }
+    }
+    await salvarMeta(novo); await gravarConteudo(novo.id, html);
+    fecharPainel(); location.hash = `#/resumo/${novo.id}/editar`;
+  };
+  $("#r-materia").onclick = () => {
+    const mats = materiasResumo();
+    abrirPainel(`<h2>Mudar de matéria ${botaoFechar}</h2><div class="acoes">
+      <button data-mat="">Sem matéria</button>${mats.map(m => `<button data-mat="${esc(m)}">${r.materia === m ? "✓ " : ""}📁 ${esc(m)}</button>`).join("")}
+      <button id="mat-nova">+ Nova matéria</button></div>`);
+    $$("#painel-caixa [data-mat]").forEach(b => b.onclick = async () => { r.materia = b.dataset.mat; await salvarMeta(r); fecharPainel(); rotear(); });
+    $("#mat-nova").onclick = async () => { const n = prompt("Nome da matéria:"); if (n && n.trim()) { r.materia = n.trim(); await salvarMeta(r); fecharPainel(); rotear(); } };
+  };
+  $("#r-arquivar").onclick = async () => { r.arquivado = !r.arquivado; await salvarMeta(r); fecharPainel(); rotear(); };
+  $("#r-excluir").onclick = async () => {
+    if (!confirm(`Excluir "${r.titulo || "Sem título"}"? As imagens dele também serão apagadas. Não dá para desfazer sem um backup.`)) return;
+    await excluirResumo(id); fecharPainel(); rotear();
+  };
+}
+
+/* ---------- leitura ---------- */
+const ajustesResumo = Object.assign({ fonte: 19, entrelinha: 1.75 }, lerLS("ajustes-resumo", {}));
+let resumoAberto = null;
+async function telaResumoLer(id) {
+  await carregarResumos();
+  const r = resumos.lista.get(id);
+  if (!r || r.apagado) { $("#conteudo").innerHTML = `<p class="vazio">Resumo não encontrado.</p>`; return; }
+  resumoAberto = id;
+  definirTopo({ titulo: r.titulo || "Sem título", voltar: r.materia ? `#/resumos/materia/${encodeURIComponent(r.materia)}` : "#/resumos" });
+  $("#abas").classList.add("oculto");
+  r.abertoEm = agoraISO(); salvarMeta(r, false);
+  const html = await lerConteudo(id);
+  const pos = lerLS("pos-resumo", {})[id] || 0;
+  $("#conteudo").innerHTML = `<div class="barra-resumo">
+      <button class="botao" data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>
+      <button class="botao" id="res-aa">Aa</button>
+      <button class="botao" id="res-foco">🎯 Modo foco</button>
+      <button class="botao" data-fav-resumo="${esc(id)}" aria-pressed="${!!r.favorito}">${r.favorito ? "★ Favorito" : "☆ Favoritar"}</button>
+    </div>
+    ${pos > 0.05 ? `<div class="aviso" id="aviso-continuar">Você parou em ${Math.round(pos * 100)}% deste resumo. <button class="link" id="continuar">Continuar de onde parou</button> · <button class="link" id="do-inicio">Começar do início</button></div>` : ""}
+    <article class="leitura-resumo" id="leitura-resumo" style="--fonte-res:${ajustesResumo.fonte}px;--entre-res:${ajustesResumo.entrelinha}">
+      <p class="meta-resumo">${[r.materia, r.assunto].filter(Boolean).map(esc).join(" · ")}</p>
+      ${html}
+    </article>`;
+  ativarImagensResumo($("#leitura-resumo"));
+  $("#res-aa").onclick = painelAjustesResumo;
+  $("#res-foco").onclick = () => alternarFocoResumo();
+  if ($("#continuar")) {
+    $("#continuar").onclick = () => { $("#aviso-continuar").remove(); rolarParaFracao(pos); };
+    $("#do-inicio").onclick = () => $("#aviso-continuar").remove();
+  }
+  // guarda onde você está lendo (sem gravar a cada pixel)
+  let t = null;
+  window.onscroll = () => {
+    if (resumoAberto !== id) return;
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const el = $("#leitura-resumo"); if (!el) return;
+      const total = el.offsetHeight - window.innerHeight;
+      const f = total > 0 ? Math.min(1, Math.max(0, (window.scrollY - el.offsetTop) / total)) : 0;
+      const m = lerLS("pos-resumo", {}); m[id] = +f.toFixed(3); gravarLS("pos-resumo", m);
+    }, 500);
+  };
+}
+function rolarParaFracao(f) {
+  const el = $("#leitura-resumo");
+  window.scrollTo({ top: el.offsetTop + f * (el.offsetHeight - window.innerHeight) });
+}
+function painelAjustesResumo() {
+  const seg = (lista, atual, attr) => `<div class="segmentado">${lista.map(([v, n]) => `<button ${attr}="${v}" aria-pressed="${atual === v}">${n}</button>`).join("")}</div>`;
+  abrirPainel(`<h2>Leitura do resumo ${botaoFechar}</h2>
+    <div class="linha-ajuste"><span>Tamanho do texto</span><div class="segmentado"><button id="rf-menos">A−</button><button disabled>${ajustesResumo.fonte}</button><button id="rf-mais">A+</button></div></div>
+    <div class="linha-ajuste" style="border:0"><span>Espaçamento</span>${seg([[1.5, "Justo"], [1.75, "Normal"], [2, "Amplo"]], ajustesResumo.entrelinha, "data-entre")}</div>`);
+  const aplicar = () => {
+    gravarLS("ajustes-resumo", ajustesResumo);
+    const el = $("#leitura-resumo"); if (el) { el.style.setProperty("--fonte-res", ajustesResumo.fonte + "px"); el.style.setProperty("--entre-res", ajustesResumo.entrelinha); }
+    painelAjustesResumo();
+  };
+  $("#rf-menos").onclick = () => { ajustesResumo.fonte = Math.max(14, ajustesResumo.fonte - 1); aplicar(); };
+  $("#rf-mais").onclick = () => { ajustesResumo.fonte = Math.min(30, ajustesResumo.fonte + 1); aplicar(); };
+  $$("[data-entre]").forEach(b => b.onclick = () => { ajustesResumo.entrelinha = Number(b.dataset.entre); aplicar(); });
+}
+function alternarFocoResumo(ligar = !document.body.classList.contains("foco-resumo")) {
+  document.body.classList.toggle("foco-resumo", ligar);
+  if (ligar && !$("#sair-foco")) {
+    const b = document.createElement("button");
+    b.id = "sair-foco"; b.className = "botao sair-foco"; b.textContent = "Sair do modo foco";
+    b.onclick = () => alternarFocoResumo(false);
+    document.body.appendChild(b);
+  }
+  if (!ligar) $("#sair-foco")?.remove();
+}
+
+/* ---------- editor ---------- */
+const CORES_TEXTO = [["#1F2A36", "Preto"], ["#C62828", "Vermelho"], ["#1E5BD8", "Azul"], ["#15803D", "Verde"], ["#8A3B9E", "Roxo"], ["#B45309", "Laranja"]];
+const CORES_MARCA_RES = [["#FFE58A", "Amarelo"], ["#BDEBC4", "Verde"], ["#BFDDF7", "Azul"], ["#F7C1C1", "Vermelho"], ["transparent", "Sem destaque"]];
+const EMOJIS = ["⭐", "🔥", "🎯", "⚠️", "❗", "💡", "❓", "📌", "✅", "❌", "👉", "📖", "⚖️", "🚨", "🧠", "📝"];
+async function telaResumoEditar(id) {
+  await carregarResumos();
+  const r = resumos.lista.get(id);
+  if (!r || r.apagado) { $("#conteudo").innerHTML = `<p class="vazio">Resumo não encontrado.</p>`; return; }
+  resumoAberto = id;
+  definirTopo({ titulo: "Editar resumo", voltar: `#/resumo/${id}` });
+  $("#abas").classList.add("oculto");
+  const html = await lerConteudo(id);
+  const mats = materiasResumo();
+  $("#conteudo").innerHTML = `<div class="editor-wrap">
+    <input class="campo campo-titulo" id="ed-titulo" placeholder="Título do resumo" value="${esc(r.titulo)}">
+    <div class="filtros">
+      <input class="campo" id="ed-materia" list="lista-materias" placeholder="Matéria" value="${esc(r.materia)}" style="flex:1;min-width:180px">
+      <datalist id="lista-materias">${mats.map(m => `<option value="${esc(m)}">`).join("")}</datalist>
+      <input class="campo" id="ed-assunto" placeholder="Assunto" value="${esc(r.assunto)}" style="flex:1;min-width:180px">
+    </div>
+    <div class="barra-editor" id="barra-editor" role="toolbar" aria-label="Formatação">
+      <button data-cmd="bold" title="Negrito (Ctrl+B)"><b>N</b></button>
+      <button data-cmd="italic" title="Itálico (Ctrl+I)"><i>I</i></button>
+      <button data-cmd="underline" title="Sublinhado (Ctrl+U)"><u>S</u></button>
+      <span class="sep"></span>
+      <button data-bloco="h2" title="Título (Ctrl+Alt+1)">T1</button>
+      <button data-bloco="h3" title="Subtítulo (Ctrl+Alt+2)">T2</button>
+      <button data-bloco="p" title="Texto normal (Ctrl+Alt+0)">¶</button>
+      <span class="sep"></span>
+      <button data-cmd="insertUnorderedList" title="Lista com marcadores">•≡</button>
+      <button data-cmd="insertOrderedList" title="Lista numerada">1≡</button>
+      <button data-alinhar title="Alinhamento">⇔</button>
+      <span class="sep"></span>
+      <button data-painel="cor" title="Cor do texto"><span style="border-bottom:3px solid #C62828">A</span></button>
+      <button data-painel="marca" title="Marca-texto">🖍️</button>
+      <button data-painel="emoji" title="Emojis">😀</button>
+      <span class="sep"></span>
+      <button data-cmd="insertHorizontalRule" title="Separador">―</button>
+      <button data-caixa="obs" title="Caixa de observação">📝</button>
+      <button data-caixa="cit" title="Citação">❝</button>
+      <button data-imagem title="Inserir imagem">🖼️</button>
+      <span class="sep"></span>
+      <button data-cmd="undo" title="Desfazer (Ctrl+Z)">↶</button>
+      <button data-cmd="redo" title="Refazer (Ctrl+Shift+Z)">↷</button>
+      <div class="painel-editor oculto" id="painel-editor"></div>
+    </div>
+    <div class="editor-resumo leitura-resumo" id="editor-resumo" contenteditable="true" spellcheck="true" style="--fonte-res:${ajustesResumo.fonte}px;--entre-res:${ajustesResumo.entrelinha}">${html}</div>
+    <p class="status-salvo" id="status-salvo">Salvo</p>
+    <div class="ferramentas-imagem oculto" id="ferramentas-imagem">
+      <span class="contagem">Imagem:</span>
+      ${[25, 50, 75, 100].map(p => `<button data-larg="${p}">${p}%</button>`).join("")}
+      <button data-img-pos="centro">Centralizar</button><button data-img-pos="esq">À esquerda</button>
+      <button data-img-apagar style="color:var(--alt)">Excluir</button>
+    </div>
+    <input type="file" id="entrada-img-resumo" accept="image/*" multiple hidden>
+  </div>`;
+  const ed = $("#editor-resumo");
+  ativarImagensResumo(ed);
+  document.execCommand("styleWithCSS", false, false);
+  document.execCommand("defaultParagraphSeparator", false, "p");
+
+  // ---- salvamento automático (um instante depois de parar de digitar) ----
+  let tempo = null, salvoEm = Date.now(), pendente = false;
+  const status = () => {
+    const el = $("#status-salvo"); if (!el) return;
+    if (pendente) { el.textContent = "Salvando…"; return; }
+    const s = Math.round((Date.now() - salvoEm) / 1000);
+    el.textContent = s < 5 ? "Salvo agora" : s < 60 ? `Salvo há ${s} segundos` : `Salvo há ${Math.round(s / 60)} min`;
+  };
+  const relogio = setInterval(() => { if (!document.getElementById("status-salvo")) clearInterval(relogio); else status(); }, 5000);
+  const salvar = async () => {
+    const clone = ed.cloneNode(true);
+    $$("img[data-img]", clone).forEach(i => i.removeAttribute("src"));
+    $$("img", clone).forEach(i => i.classList.remove("selecionada"));
+    const conteudo = clone.innerHTML;
+    const texto = await gravarConteudo(id, conteudo);
+    Object.assign(r, { titulo: $("#ed-titulo").value.trim(), materia: $("#ed-materia").value.trim(), assunto: $("#ed-assunto").value.trim(), previa: texto.slice(0, 220) });
+    await salvarMeta(r);
+    pendente = false; salvoEm = Date.now(); status();
+  };
+  const agendar = () => { pendente = true; status(); clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
+  window.salvarResumoPendente = async () => { if (pendente) { clearTimeout(tempo); await salvar(); } };
+  ed.addEventListener("input", agendar);
+  ["ed-titulo", "ed-materia", "ed-assunto"].forEach(i => $("#" + i).addEventListener("input", agendar));
+  if (!r.titulo) $("#ed-titulo").focus();
+
+  // ---- barra de formatação ----
+  let selecaoSalva = null;
+  const guardarSelecao = () => { const s = getSelection(); if (s.rangeCount && ed.contains(s.anchorNode)) selecaoSalva = s.getRangeAt(0).cloneRange(); };
+  const restaurarSelecao = () => { if (selecaoSalva) { const s = getSelection(); s.removeAllRanges(); s.addRange(selecaoSalva); } ed.focus(); };
+  document.addEventListener("selectionchange", guardarSelecao);
+  const barra = $("#barra-editor");
+  barra.addEventListener("pointerdown", e => { if (e.target.closest("button")) e.preventDefault(); });   // não perde a seleção do texto
+  const painel = $("#painel-editor");
+  const blocoAtual = () => { let n = getSelection().anchorNode; while (n && n !== ed) { if (n.nodeType === 1 && /^(P|H[1-4]|LI|BLOCKQUOTE)$/.test(n.tagName)) return n; n = n.parentNode; } return null; };
+  barra.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b || b.closest("#painel-editor")) return;
+    restaurarSelecao();
+    if (b.dataset.cmd) document.execCommand(b.dataset.cmd);
+    else if (b.dataset.bloco) document.execCommand("formatBlock", false, b.dataset.bloco);
+    else if (b.dataset.alinhar !== undefined) {
+      const bl = blocoAtual(); if (!bl) return;
+      const ordem = ["", "center", "right", "justify"];
+      bl.style.textAlign = ordem[(ordem.indexOf(bl.style.textAlign || "") + 1) % ordem.length];
+      agendar();
+    }
+    else if (b.dataset.caixa) {
+      const bl = blocoAtual();
+      const dentro = bl && bl.closest("blockquote");
+      if (dentro && (dentro.className === (b.dataset.caixa === "obs" ? "obs" : ""))) document.execCommand("formatBlock", false, "p");   // tocar de novo tira a caixa
+      else { document.execCommand("formatBlock", false, "blockquote"); const q = blocoAtual()?.closest("blockquote"); if (q) q.className = b.dataset.caixa === "obs" ? "obs" : ""; }
+      agendar();
+    }
+    else if (b.dataset.imagem !== undefined) $("#entrada-img-resumo").click();
+    else if (b.dataset.painel) {
+      const tipo = b.dataset.painel;
+      if (!painel.classList.contains("oculto") && painel.dataset.tipo === tipo) { painel.classList.add("oculto"); return; }
+      painel.dataset.tipo = tipo;
+      painel.innerHTML = tipo === "emoji" ? EMOJIS.map(x => `<button data-emoji="${x}">${x}</button>`).join("")
+        : (tipo === "cor" ? CORES_TEXTO : CORES_MARCA_RES).map(([c, n]) => `<button data-cor-ed="${c}" title="${n}" aria-label="${n}"><span class="bolinha" style="background:${c === "transparent" ? "linear-gradient(135deg,#fff 45%,#c00 50%,#fff 55%)" : c}"></span></button>`).join("");
+      painel.classList.remove("oculto");
+    }
+  });
+  painel.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    restaurarSelecao();
+    if (b.dataset.emoji) document.execCommand("insertText", false, b.dataset.emoji);
+    else if (painel.dataset.tipo === "cor") { document.execCommand("styleWithCSS", false, true); document.execCommand("foreColor", false, b.dataset.corEd); document.execCommand("styleWithCSS", false, false); }
+    else { document.execCommand("styleWithCSS", false, true); document.execCommand("hiliteColor", false, b.dataset.corEd); document.execCommand("styleWithCSS", false, false); }
+    painel.classList.add("oculto");
+    agendar();
+  });
+  // ---- atalhos de teclado ----
+  ed.addEventListener("keydown", e => {
+    const mod = e.ctrlKey || e.metaKey;
+    if (mod && e.altKey && ["1", "2", "0"].includes(e.key)) { e.preventDefault(); document.execCommand("formatBlock", false, { 1: "h2", 2: "h3", 0: "p" }[e.key]); }
+    if (mod && e.shiftKey && e.key === "7") { e.preventDefault(); document.execCommand("insertOrderedList"); }
+    if (mod && e.shiftKey && e.key === "8") { e.preventDefault(); document.execCommand("insertUnorderedList"); }
+  });
+  // ---- colar: texto limpo; imagens comprimidas e guardadas ----
+  const inserirImagens = async arquivos => {
+    for (const f of arquivos) {
+      if (!f.type.startsWith("image/")) continue;
+      const imgId = await guardarImagem(f);
+      restaurarSelecao();
+      document.execCommand("insertHTML", false, `<img data-img="${imgId}" style="width:100%" alt="">`);
+    }
+    ativarImagensResumo(ed); agendar();
+  };
+  ed.addEventListener("paste", async e => {
+    const dt = e.clipboardData; if (!dt) return;
+    const imagens = [...dt.files].filter(f => f.type.startsWith("image/"));
+    const htmlColado = dt.getData("text/html");
+    e.preventDefault();
+    if (imagens.length && !htmlColado) return inserirImagens(imagens);
+    if (htmlColado) {
+      const tmp = document.createElement("div");
+      tmp.innerHTML = limparHtml(htmlColado);
+      const perdidas = await internalizarImagens(tmp);
+      document.execCommand("insertHTML", false, tmp.innerHTML);
+      ativarImagensResumo(ed);
+      if (perdidas) $("#status-salvo").textContent = `${perdidas} imagem(ns) não puderam ser copiadas; cole-as uma a uma.`;
+    } else document.execCommand("insertText", false, dt.getData("text/plain"));
+    agendar();
+  });
+  ed.addEventListener("dragover", e => { if ([...e.dataTransfer.items].some(i => i.kind === "file")) e.preventDefault(); });
+  ed.addEventListener("drop", e => {
+    const arqs = [...e.dataTransfer.files].filter(f => f.type.startsWith("image/"));
+    if (!arqs.length) return;
+    e.preventDefault();
+    const pos = document.caretRangeFromPoint ? document.caretRangeFromPoint(e.clientX, e.clientY) : null;
+    if (pos) { const s = getSelection(); s.removeAllRanges(); s.addRange(pos); guardarSelecao(); }
+    inserirImagens(arqs);
+  });
+  $("#entrada-img-resumo").onchange = e => { const a = [...e.target.files]; e.target.value = ""; inserirImagens(a); };
+  // ---- imagem selecionada: tamanho, posição e excluir ----
+  const ferr = $("#ferramentas-imagem");
+  let imgSel = null;
+  ed.addEventListener("click", e => {
+    $$("img.selecionada", ed).forEach(i => i.classList.remove("selecionada"));
+    imgSel = e.target.tagName === "IMG" ? e.target : null;
+    if (imgSel) imgSel.classList.add("selecionada");
+    ferr.classList.toggle("oculto", !imgSel);
+  });
+  ferr.addEventListener("click", async e => {
+    const b = e.target.closest("button"); if (!b || !imgSel) return;
+    if (b.dataset.larg) imgSel.style.width = b.dataset.larg + "%";
+    if (b.dataset.imgPos) imgSel.classList.toggle("img-esq", b.dataset.imgPos === "esq");
+    if (b.dataset.imgApagar !== undefined) { const idImg = imgSel.dataset.img; imgSel.remove(); imgSel = null; ferr.classList.add("oculto"); if (idImg) await bdApagar("imagens", idImg); }
+    agendar();
+  });
+}
+
+/* ---------- importar Word, PDF, texto ---------- */
+const scriptsCarregados = {};
+function carregarScript(src) {
+  return scriptsCarregados[src] || (scriptsCarregados[src] = new Promise((ok, erro) => {
+    const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = () => { delete scriptsCarregados[src]; erro(new Error("Não foi possível carregar " + src + ". Verifique a internet.")); };
+    document.head.appendChild(s);
+  }));
+}
+function painelImportarResumos(materiaAtual) {
+  const mats = materiasResumo();
+  abrirPainel(`<h2>Importar resumos ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">Word (.docx), PDF, texto (.txt) ou Markdown (.md). Pode escolher vários de uma vez. No iPad, a janela de arquivos também mostra o Google Drive, o iCloud Drive e outras nuvens instaladas.</p>
+    <div class="linha-ajuste"><span>Matéria</span>
+      <select class="campo" id="imp-materia"><option value="">Sem matéria</option>${mats.map(m => `<option ${m === materiaAtual ? "selected" : ""}>${esc(m)}</option>`).join("")}<option value="__nova">+ Nova matéria…</option></select></div>
+    <div class="acoes" style="margin-top:10px"><button class="botao primario" id="imp-escolher">Escolher arquivos</button></div>
+    <input type="file" id="imp-arquivos" multiple accept=".docx,.pdf,.txt,.md,.markdown,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain" hidden>
+    <div id="imp-progresso"></div>`);
+  $("#imp-materia").onchange = e => {
+    if (e.target.value !== "__nova") return;
+    const n = prompt("Nome da matéria:");
+    if (n && n.trim()) { const o = document.createElement("option"); o.textContent = n.trim(); e.target.insertBefore(o, e.target.lastElementChild); e.target.value = n.trim(); } else e.target.value = "";
+  };
+  $("#imp-escolher").onclick = () => $("#imp-arquivos").click();
+  $("#imp-arquivos").onchange = async e => {
+    const arquivos = [...e.target.files]; e.target.value = "";
+    if (!arquivos.length) return;
+    const materia = $("#imp-materia").value;
+    const prog = $("#imp-progresso");
+    $("#imp-escolher").disabled = true;
+    const feitos = [];
+    for (const [k, arq] of arquivos.entries()) {
+      prog.innerHTML = `<p class="contagem">Importando ${k + 1} de ${arquivos.length}: ${esc(arq.name)}…</p>`;
+      try { feitos.push({ ok: true, ...(await importarArquivo(arq, materia, (a, b) => { prog.innerHTML = `<p class="contagem">Lendo ${esc(arq.name)}: página ${a} de ${b}…</p>`; })) }); }
+      catch (err) { feitos.push({ ok: false, nome: arq.name, erro: err.message }); }
+    }
+    prog.innerHTML = `<ul class="lista-cartoes" style="margin-top:12px">${feitos.map(f => f.ok
+      ? `<li class="cartao-nota"><button class="origem" data-href="#/resumo/${esc(f.id)}">✓ ${esc(f.titulo)}</button><div class="meta">${f.detalhes}</div></li>`
+      : `<li class="cartao-nota"><strong>✗ ${esc(f.nome)}</strong><div class="alerta">${esc(f.erro)}</div></li>`).join("")}</ul>`;
+    $("#imp-escolher").disabled = false;
+    if (location.hash.startsWith("#/resumos")) telaResumos(location.hash.split("/")[2] === "materia" ? "todas" : "todas", materia && location.hash.includes("/materia/") ? materia : "");
+  };
+}
+function tituloDoArquivo(nome) {
+  return nome.replace(/\.[^.]+$/, "").replace(/[_]+/g, " ").replace(/\s+/g, " ").replace(/^\d+\s+/, "").trim();
+}
+async function importarArquivo(arq, materia, aoProgresso) {
+  const ext = (arq.name.split(".").pop() || "").toLowerCase();
+  let html = "", detalhes = "";
+  if (ext === "docx") {
+    await carregarScript("libs/mammoth.browser.min.js");
+    const buf = await arq.arrayBuffer();
+    // estilos próprios do seu Word (ex.: "Título Geral", "Sub 1") viram títulos
+    const previa = await mammoth.convertToHtml({ arrayBuffer: buf });
+    const estilos = [...new Set(previa.messages.map(m => (m.message.match(/paragraph style: '([^']+)'/) || [])[1]).filter(Boolean))];
+    const mapa = ["u => u", "strike => s"];
+    for (const n of estilos) {
+      if (/t[ií]tulo|title|heading|cabe[çc]alho/i.test(n) && !/sub/i.test(n)) mapa.push(`p[style-name='${n}'] => h2:fresh`);
+      else if (/sub\s*1|subt[ií]tulo/i.test(n)) mapa.push(`p[style-name='${n}'] => h3:fresh`);
+      else if (/sub\s*[2-9]/i.test(n)) mapa.push(`p[style-name='${n}'] => h4:fresh`);
+    }
+    let nImg = 0;
+    const r = await mammoth.convertToHtml({ arrayBuffer: buf }, {
+      styleMap: mapa,
+      convertImage: mammoth.images.imgElement(async img => {
+        const bytes = await img.read();
+        const id = await guardarImagem(new Blob([bytes], { type: img.contentType }));
+        nImg++;
+        return { src: "", "data-img": id };
+      }),
+    });
+    html = r.value.replace(/<img src=""/g, "<img");
+    detalhes = `Word · ${nImg} imagem(ns) comprimida(s)`;
+  } else if (ext === "pdf") {
+    await carregarScript("libs/pdf.min.js");
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc = "libs/pdf.worker.min.js";
+    const r = await pdfParaHtml(window.pdfjsLib, new Uint8Array(await arq.arrayBuffer()), aoProgresso);
+    html = r.html;
+    detalhes = `PDF · ${r.repetidas ? r.repetidas + " página(s) repetida(s) ignorada(s) · " : ""}${r.removidas} linha(s) de cabeçalho/rodapé removida(s)`;
+    if (!html) throw new Error("Este PDF não tem texto selecionável (parece ser uma imagem escaneada).");
+  } else if (["txt", "md", "markdown"].includes(ext)) {
+    html = markdownSimples(await arq.text());
+    detalhes = ext === "txt" ? "Texto" : "Markdown";
+  } else throw new Error("Formato não suportado. Use Word (.docx), PDF, .txt ou .md.");
+  html = limparHtml(html);
+  // o primeiro título curto do arquivo vira o título do resumo (senão, o nome do arquivo)
+  const tpl = document.createElement("template"); tpl.innerHTML = html;
+  const primeiro = tpl.content.querySelector("h1,h2,h3");
+  const titulo = primeiro && primeiro.textContent.trim().length < 90 ? primeiro.textContent.trim() : tituloDoArquivo(arq.name);
+  const r = { id: uid(), titulo, materia, assunto: "", favorito: false, arquivado: false, origem: arq.name };
+  const texto = await gravarConteudo(r.id, html);
+  r.previa = texto.slice(0, 220);
+  await salvarMeta(r);
+  return { id: r.id, titulo, detalhes: `${detalhes} · ${Math.round(texto.length / 1000)} mil caracteres` };
+}
+function markdownSimples(t) {
+  const esc2 = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+  let html = "", lista = null;
+  for (const linha of t.replace(/\r/g, "").split("\n")) {
+    const l = linha.trim();
+    const m = l.match(/^(#{1,4})\s+(.*)$/), li = l.match(/^[-*•]\s+(.*)$/), ln = l.match(/^\d+[.)]\s+(.*)$/);
+    const tipo = li ? "ul" : ln ? "ol" : null;
+    if (lista && lista !== tipo) { html += `</${lista}>`; lista = null; }
+    if (m) html += `<h${Math.min(4, m[1].length + 1)}>${esc2(m[2])}</h${Math.min(4, m[1].length + 1)}>`;
+    else if (tipo) { if (!lista) { html += `<${tipo}>`; lista = tipo; } html += `<li>${esc2((li || ln)[1])}</li>`; }
+    else if (/^(-{3,}|_{3,})$/.test(l)) html += "<hr>";
+    else if (/^>\s?/.test(l)) html += `<blockquote>${esc2(l.replace(/^>\s?/, ""))}</blockquote>`;
+    else if (l) html += `<p>${esc2(l)}</p>`;
+  }
+  if (lista) html += `</${lista}>`;
+  return html;
+}
+
+/* ---------- leitor de PDF (texto, títulos, listas, negrito/itálico) ---------- */
+/* Converte um PDF em HTML de resumo: junta letras em palavras, linhas em parágrafos,
+   reconhece títulos, listas, negrito/itálico e caixas recuadas; remove cabeçalhos e rodapés
+   repetidos e páginas duplicadas. */
+async function pdfParaHtml(pdfjsLib, dados, aoProgresso) {
+  const doc = await pdfjsLib.getDocument({ data: dados, disableFontFace: true, isEvalSupported: false }).promise;
+  const paginas = [];
+  for (let n = 1; n <= doc.numPages; n++) {
+    const pg = await doc.getPage(n);
+    const vp = pg.getViewport({ scale: 1 });
+    await pg.getOperatorList();                 // carrega as fontes (para saber o que é negrito/itálico)
+    const tc = await pg.getTextContent();
+    const fonte = nome => { try { return pg.commonObjs.get(nome).name || ""; } catch { return ""; } };
+    const itens = [];
+    for (const it of tc.items) {
+      if (!it.str) continue;
+      const f = fonte(it.fontName);
+      itens.push({ x: it.transform[4], y: vp.height - it.transform[5], w: it.width, h: it.height || Math.abs(it.transform[3]), s: it.str,
+                   b: /bold|black|heavy|semibold/i.test(f),
+                   // itálico: fonte itálica ou letra "inclinada" (muitos PDFs gerados por navegador fazem assim)
+                   i: /italic|oblique/i.test(f) || Math.abs(it.transform[2]) > Math.abs(it.transform[0]) * 0.08 });
+    }
+    paginas.push({ n, alt: vp.height, larg: vp.width, linhas: agruparLinhas(itens) });
+    pg.cleanup();
+    if (aoProgresso) aoProgresso(n, doc.numPages);
+  }
+  await doc.destroy();
+  return montarHtml(paginas);
+}
+function agruparLinhas(itens) {
+  itens.sort((a, b) => a.y - b.y || a.x - b.x);
+  const linhas = [];
+  for (const it of itens) {
+    let l = linhas.find(l => Math.abs(l.y - it.y) <= Math.max(2, it.h * 0.35));
+    if (!l) { l = { y: it.y, itens: [] }; linhas.push(l); }
+    l.itens.push(it);
+  }
+  for (const l of linhas) {
+    l.itens.sort((a, b) => a.x - b.x);
+    const runs = []; let fim = null; let texto = "";
+    for (const it of l.itens) {
+      let s = it.s;
+      if (fim !== null && it.x - fim > it.h * 0.14 && !/\s$/.test(texto) && !/^\s/.test(s)) s = " " + s;
+      const u = runs[runs.length - 1];
+      if (u && u.b === it.b && u.i === it.i) u.s += s; else runs.push({ s, b: it.b, i: it.i });
+      texto += s; fim = it.x + it.w;
+    }
+    l.runs = runs; l.texto = texto.replace(/\s+/g, " ").trim();
+    l.x = l.itens[0].x; l.fim = fim; l.h = Math.max(...l.itens.map(i => i.h));
+    l.negrito = l.itens.filter(i => i.s.trim()).every(i => i.b);
+    l.italico = l.itens.filter(i => i.s.trim()).every(i => i.i);
+  }
+  return linhas.filter(l => l.texto).sort((a, b) => a.y - b.y);
+}
+function montarHtml(paginas) {
+  // 1) páginas repetidas (mesmo texto) saem
+  // (página quase igual a uma anterior, por exemplo a mesma página impressa de novo com um rabisco, também conta)
+  const unicas = []; let repetidas = 0;
+  for (const p of paginas) {
+    const linhas = new Set(p.linhas.filter(l => l.texto.length > 3).map(l => l.texto));
+    const igual = unicas.some(u => { let comum = 0; for (const t of linhas) if (u.conj.has(t)) comum++; return linhas.size && comum / Math.max(linhas.size, u.conj.size) > 0.9; });
+    if (igual) { repetidas++; continue; }
+    p.conj = linhas; unicas.push(p);
+  }
+  // 2) cabeçalhos e rodapés: linhas no topo/rodapé que se repetem em mais de uma página, contadores e endereços
+  // números só são ignorados em linhas com cara de rodapé (endereço, data/hora, "3/10"); o resto compara o texto exato
+  const chave = t => (/https?:|\d+\s*\/\s*\d+|\d{1,2}:\d{2}/.test(t) ? t.replace(/\d+/g, "#") : t).toLowerCase();
+  const cont = new Map(), naBorda = new Set(), paginasDe = new Map();
+  for (const p of unicas) for (const l of p.linhas) {
+    const k = chave(l.texto);
+    if (!paginasDe.has(k)) paginasDe.set(k, new Set());
+    paginasDe.get(k).add(p.n);
+    if (l.y < 120 || l.y > p.alt - 60) { cont.set(k, (cont.get(k) || 0) + 1); naBorda.add(k); }
+  }
+  let removidas = 0;
+  for (const p of unicas) p.linhas = p.linhas.filter(l => {
+    const k = chave(l.texto);
+    const borda = l.y < 120 || l.y > p.alt - 60;
+    // aviso que aparece no topo de uma página e no fim do documento (ex.: marca d'água do material) também sai
+    const aviso = naBorda.has(k) && paginasDe.get(k).size > 1 && l.texto.length > 45;
+    const tirar = aviso || (borda && (cont.get(k) > 1 || /^https?:\/\//.test(l.texto) || /^\d+\s*\/\s*\d+$/.test(l.texto)));
+    if (tirar) removidas++;
+    return !tirar;
+  });
+  const todas = unicas.flatMap(p => p.linhas.map(l => ({ ...l, pag: p })));
+  if (!todas.length) return { html: "", repetidas, removidas };
+  // medidas do texto comum
+  const alturas = todas.map(l => Math.round(l.h * 2) / 2).sort((a, b) => a - b);
+  const corpo = alturas[Math.floor(alturas.length / 2)];
+  const esquerdas = todas.filter(l => Math.abs(l.h - corpo) < 1).map(l => Math.round(l.x)).sort((a, b) => a - b);
+  const margemEsq = esquerdas[Math.floor(esquerdas.length * 0.1)] || 40;
+  const margemDir = Math.max(...todas.map(l => l.fim));
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const runsHtml = runs => runs.map(r => { let s = esc(r.s); if (r.i) s = `<em>${s}</em>`; if (r.b) s = `<strong>${s}</strong>`; return s; }).join("").replace(/<\/strong><strong>/g, "").replace(/<\/em><em>/g, "");
+  // blocos
+  const blocos = [];
+  let atual = null;
+  const RE_LISTA_NUM = /^(\d{1,2})[.)]\s+/, RE_BOLINHA = /^[•◦▪●\-–]\s+/;
+  todas.forEach((l, k) => {
+    const ant = todas[k - 1];
+    const titulo = l.h > corpo * 1.12 || (l.negrito && l.texto.length < 90 && Math.abs((l.x + l.fim) / 2 - l.pag.larg / 2) < 30 && l.x > margemEsq + 40);
+    const recuo = l.x - margemEsq;
+    const tipoLista = RE_LISTA_NUM.test(l.texto) ? "ol" : RE_BOLINHA.test(l.texto) ? "ul" : null;
+    const continua = atual && ant && ant.pag === l.pag && !titulo && !tipoLista && atual.tipo !== "h"
+      && l.y - ant.y < ant.h * 1.9 && ant.fim > margemDir * 0.82 && Math.abs(l.x - atual.x) < 14;
+    const continuaItem = atual && atual.tipo === "li" && ant && !titulo && !tipoLista && l.y - ant.y < ant.h * 1.9 && l.x > atual.xLista + 4 && ant.fim > margemDir * 0.75;
+    if (continua || continuaItem) { atual.runs.push({ s: " ", b: false, i: false }, ...l.runs); return; }
+    if (titulo) { atual = { tipo: "h", nivel: l.h > corpo * 1.3 ? 2 : 3, runs: l.runs, x: l.x }; blocos.push(atual); return; }
+    if (tipoLista) {
+      const runs = l.runs.slice(); runs[0] = { ...runs[0], s: runs[0].s.replace(tipoLista === "ol" ? RE_LISTA_NUM : RE_BOLINHA, "") };
+      atual = { tipo: "li", lista: tipoLista, runs, x: l.x, xLista: l.x }; blocos.push(atual); return;
+    }
+    atual = { tipo: recuo > 18 ? "caixa" : "p", runs: l.runs, x: l.x }; blocos.push(atual);
+  });
+  let html = "", listaAberta = null;
+  for (const b of blocos) {
+    if (b.tipo !== "li" && listaAberta) { html += `</${listaAberta}>`; listaAberta = null; }
+    const conteudo = runsHtml(b.runs).trim();
+    if (!conteudo) continue;
+    if (b.tipo === "h") html += `<h${b.nivel}>${conteudo.replace(/<\/?strong>/g, "")}</h${b.nivel}>`;
+    else if (b.tipo === "li") { if (listaAberta !== b.lista) { if (listaAberta) html += `</${listaAberta}>`; html += `<${b.lista}>`; listaAberta = b.lista; } html += `<li>${conteudo}</li>`; }
+    else if (b.tipo === "caixa") html += `<blockquote>${conteudo}</blockquote>`;
+    else html += `<p>${conteudo}</p>`;
+  }
+  if (listaAberta) html += `</${listaAberta}>`;
+  html = html.replace(/<\/blockquote><blockquote>/g, "<br>").replace(/<\/em>(\s*)<em>/g, "$1").replace(/<\/strong>(\s*)<strong>/g, "$1");
+  return { html, repetidas, removidas };
+}
+
+/* =====================================================================
    CLIQUES GERAIS E NAVEGAÇÃO
    ===================================================================== */
 document.addEventListener("click", async e => {
@@ -3231,6 +4031,17 @@ document.addEventListener("click", async e => {
   }
   const apg = t.closest("[data-apagar-grifo]");
   if (apg) { if (confirm("Apagar este grifo?")) { await apagarItem(apg.dataset.apagarGrifo); rotear(); } return; }
+  const fr = t.closest("[data-fav-resumo]");
+  if (fr) {
+    await carregarResumos();
+    const r = resumos.lista.get(fr.dataset.favResumo);
+    if (r) { r.favorito = !r.favorito; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); }
+    fr.setAttribute("aria-pressed", !!r?.favorito);
+    fr.textContent = fr.classList.contains("estrela") ? (r?.favorito ? "★" : "☆") : (r?.favorito ? "★ Favorito" : "☆ Favoritar");
+    return;
+  }
+  const mr = t.closest("[data-menu-resumo]");
+  if (mr) { await carregarResumos(); menuResumo(mr.dataset.menuResumo); return; }
   const apt = t.closest("[data-apagar-tinta]");
   if (apt) { if (confirm("Apagar os desenhos e ícones deste artigo?")) { await apagarItem(apt.dataset.apagarTinta); rotear(); } return; }
   const desf = t.closest("[data-desfavoritar]");
@@ -3255,6 +4066,8 @@ document.addEventListener("click", async e => {
 });
 
 async function rotear() {
+  if (window.salvarResumoPendente) { await window.salvarResumoPendente(); window.salvarResumoPendente = null; }   // nada se perde ao sair do editor
+  if (!location.hash.startsWith("#/resumo/")) { window.onscroll = null; resumoAberto = null; alternarFocoResumo(false); }
   registrarNavegacao();
   const voltou = voltandoNav, y = pilhaNav[pilhaNav.length - 1]?.y || 0;
   const destino = location.hash.replace(/^#\/?/, "").split("/");
@@ -3289,6 +4102,8 @@ async function rotearTela() {
   }
   if (partes[0] === "ajustes") return telaAjustes();
   if (partes[0] === "catalogo") return telaCatalogo();
+  if (partes[0] === "resumos") return partes[1] === "materia" ? telaResumos("todas", partes[2] || "") : telaResumos(partes[1] || "todas");
+  if (partes[0] === "resumo" && partes[1]) return partes[2] === "editar" ? telaResumoEditar(partes[1]) : telaResumoLer(partes[1]);
   if (partes[0] === "acervo" && partes[1] === "pasta") return telaAcervo(partes[2]);
   if (partes[0] === "acervo" && partes[1] === "favoritas") return telaAcervo("favoritas");
   return telaAcervo();
@@ -3317,6 +4132,7 @@ async function iniciar() {
   rotear();
 }
 let ultimaAtualizacao = Date.now();
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && window.salvarResumoPendente) window.salvarResumoPendente(); });
 document.addEventListener("visibilitychange", async () => {
   if (document.visibilityState !== "visible" || Date.now() - ultimaAtualizacao < 180000) return;
   ultimaAtualizacao = Date.now();
