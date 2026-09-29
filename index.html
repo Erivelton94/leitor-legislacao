@@ -355,7 +355,19 @@ svg.tinta { position: absolute; left: 0; top: 0; width: 100%; height: 100%; over
 .aviso-tinta::after { content: attr(data-rotulo); }
 button.aviso-tinta { cursor: pointer; color: var(--oliva); font-weight: 600; }
 .alerta-tinta { border-color: var(--alt); color: var(--alt); }
-.barra-caneta { flex-direction: column; align-items: stretch; gap: 8px; }
+.barra-caneta { flex-direction: column; align-items: stretch; gap: 6px; padding: 5px; border-radius: 16px; overflow: visible; }
+.barra-caneta.no-topo { bottom: auto; top: calc(env(safe-area-inset-top, 0px) + 64px); }
+.tela-cheia .barra-caneta.no-topo { top: calc(env(safe-area-inset-top, 0px) + 60px); }
+.barra-fina { display: flex; align-items: center; gap: 2px; }
+.barra-fina .bf { width: 40px; height: 40px; border: 0; border-radius: 10px; background: transparent; font-size: 19px; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center; color: var(--tinta); }
+.barra-fina .bf[aria-pressed="true"] { background: var(--oliva-claro); box-shadow: inset 0 0 0 1.5px var(--oliva); }
+.barra-fina .bf:disabled { opacity: 0.3; }
+.bf-opcoes { width: auto !important; padding: 0 8px; gap: 6px; font-size: 13px !important; font-weight: 600; color: var(--tinta-2) !important; }
+.ponto-cor { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--fio); display: inline-block; }
+.painel-opcoes { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; padding: 6px 4px 2px; border-top: 1px solid var(--fio); max-width: 560px; }
+.painel-opcoes .cor-btn { width: 34px; height: 34px; }
+.apagando { opacity: 0.25; }
 .linha-caneta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: center; }
 .barra-caneta .icone-btn[aria-pressed="true"] { background: var(--oliva); color: var(--papel); }
 .barra-caneta .icone-btn:disabled { opacity: 0.35; }
@@ -1380,44 +1392,102 @@ function cartoesFavoritos(lista) {
     <div class="linha-acoes"><button data-desfavoritar="${esc(f.id)}">Remover dos favoritos</button></div></li>`).join("")}</ul>`;
 }
 
-async function telaEstudos(aba = "anotacoes", filtroLei = "") {
+/* ---------- Meus estudos: uma pasta por lei ---------- */
+function resumoMarcacoes() {
+  const m = new Map();       // lei -> contagens
+  const q = { comentarios: 0, favoritas: 0 };
+  const de = lei => { if (!m.has(lei)) m.set(lei, { anotacoes: 0, grifos: 0, favoritos: 0, desenhos: 0 }); return m.get(lei); };
+  for (const i of estado.itens.values()) {
+    if (i.apagado) continue;
+    if (i.tipo === "notaq") { q.comentarios++; continue; }
+    if (i.tipo === "favorito" && i.alvo === "questao") { q.favoritas++; continue; }
+    if (!i.lei) continue;
+    if (i.tipo === "anotacao") de(i.lei).anotacoes++;
+    else if (i.tipo === "grifo") de(i.lei).grifos++;
+    else if (i.tipo === "favorito") de(i.lei).favoritos++;
+    else if (i.tipo === "tinta" && temConteudo(i)) de(i.lei).desenhos++;
+  }
+  return { leis: m, q };
+}
+function textoContagem(c) {
+  return [c.anotacoes && `${c.anotacoes} anotação(ões)`, c.grifos && `${c.grifos} grifo(s)`, c.favoritos && `${c.favoritos} favorito(s)`,
+          c.desenhos && `${c.desenhos} artigo(s) com desenhos`].filter(Boolean).join(" · ");
+}
+
+async function telaEstudos(sub = "", leiId = "", aba = "anotacoes") {
   await Promise.all(idsAcervo().map(leiDoCache));
+  if (sub === "lei" && leiId) return pastaEstudosLei(leiId, aba);
+  if (sub === "questoes") return pastaEstudosQuestoes();
   definirTopo({ titulo: "Meus estudos" });
   marcarAba("estudos");
-  const aba2 = aba === "alterados" ? "anotacoes" : aba;
-  const leis = Object.keys(estado.status).filter(l => noAcervo(l) || [...estado.itens.values()].some(i => !i.apagado && i.lei === l && i.tipo !== "acervo"));
+  const { leis, q } = resumoMarcacoes();
+  const ordem = [...leis.keys()].sort((a, b) => nomeLei(a).localeCompare(nomeLei(b), "pt-BR"));
+  let h = `<div class="secao"><input class="campo" id="busca-estudos" type="search" placeholder="Pesquisar em todas as suas anotações, grifos e favoritos" autocomplete="off"></div>
+    <div id="lista-estudos"><ul class="acervo">`;
+  for (const lei of ordem) h += linhaPasta({ nome: nomeLei(lei) }, "", textoContagem(leis.get(lei)), `#/estudos/lei/${lei}`);
+  if (q.comentarios || q.favoritas) h += linhaPasta({ nome: "Questões" }, "", [q.comentarios && `${q.comentarios} comentário(s)`, q.favoritas && `${q.favoritas} favorita(s)`].filter(Boolean).join(" · "), "#/estudos/questoes");
+  h += "</ul>";
+  if (!ordem.length && !q.comentarios && !q.favoritas) h += `<p class="vazio">Ainda não há marcações. Na leitura, selecione um trecho para grifar ou anotar, ou toque no número de um artigo.</p>`;
+  h += "</div>";
+  $("#conteudo").innerHTML = h;
+  const campo = $("#busca-estudos");
+  const pastasHTML = $("#lista-estudos").innerHTML;
+  campo.oninput = aoParar(() => {
+    const termo = semAcento(campo.value.trim());
+    if (termo.length < 2) { $("#lista-estudos").innerHTML = pastasHTML; return; }
+    const ok = i => semAcento([i.nota, i.texto, nomeLei(i.lei), i.art ? rotuloArt(i.art) : ""].join(" ")).includes(termo);
+    const n = itens("anotacao", ok), g = itens("grifo", ok), f = itens("favorito", i => i.alvo !== "questao" && ok(i));
+    $("#lista-estudos").innerHTML = `<div class="secao">
+      ${n.length ? `<h3 class="grupo-assunto">Anotações (${n.length})</h3>${cartoesAnotacoes(n, campo.value)}` : ""}
+      ${g.length ? `<h3 class="grupo-assunto">Grifos (${g.length})</h3>${cartoesGrifos(g)}` : ""}
+      ${f.length ? `<h3 class="grupo-assunto">Favoritos (${f.length})</h3>${cartoesFavoritos(f)}` : ""}
+      ${!n.length && !g.length && !f.length ? '<p class="vazio">Nada encontrado nas suas marcações.</p>' : ""}</div>`;
+    ativarMiniaturas($("#lista-estudos"));
+  });
+}
+
+function pastaEstudosLei(lei, aba) {
+  definirTopo({ titulo: nomeLei(lei), voltar: "#/estudos" });
+  marcarAba("estudos");
+  const doLei = tipo => itens(tipo, i => i.lei === lei);
+  const cont = {
+    anotacoes: doLei("anotacao").length, grifos: doLei("grifo").length,
+    favoritos: itens("favorito", i => i.lei === lei && i.alvo !== "questao").length,
+    desenhos: itens("tinta", i => i.lei === lei && temConteudo(i)).length,
+  };
+  const abas = [["anotacoes", "Anotações"], ["grifos", "Grifos"], ["favoritos", "Favoritos"], ["desenhos", "Desenhos e ícones"]];
   $("#conteudo").innerHTML = `<div class="secao">
+    <div class="filtros"><div class="segmentado" id="abas-estudos">
+      ${abas.map(([v, r]) => `<button data-aba="${v}" aria-pressed="${aba === v}">${r} (${cont[v]})</button>`).join("")}</div></div>
     <div class="filtros">
-      <div class="segmentado" id="abas-estudos">
-        <button data-aba="anotacoes" aria-pressed="${aba2 === "anotacoes"}">Anotações</button>
-        <button data-aba="grifos" aria-pressed="${aba2 === "grifos"}">Grifos</button>
-        <button data-aba="favoritos" aria-pressed="${aba2 === "favoritos"}">Favoritos</button>
-      </div>
-      <select class="campo" id="filtro-lei"><option value="">Todas as leis</option>
-        ${leis.map(l => `<option value="${esc(l)}" ${l === filtroLei ? "selected" : ""}>${esc(nomeLei(l))}</option>`).join("")}</select>
-      ${aba === "alterados" ? "" : '<select class="campo" id="filtro-mudou"><option value="">Todas</option><option value="mudou">Só em artigos alterados</option></select>'}
+      <input class="campo" id="busca-estudos" type="search" placeholder="Pesquisar nesta lei" autocomplete="off" style="flex:1;min-width:220px">
+      <select class="campo" id="filtro-mudou"><option value="">Todas</option><option value="mudou">Só em artigos alterados</option></select>
     </div>
-    <input class="campo" id="busca-estudos" type="search" placeholder="Pesquisar nas suas anotações, grifos e favoritos" autocomplete="off">
-    <div id="lista-estudos"></div></div>`;
-  let abaAtual = aba2;
-  const soMudados = () => aba === "alterados" || $("#filtro-mudou")?.value === "mudou";
+    <div id="lista-estudos"></div>
+    <div class="acoes-linha" style="margin-top:22px">
+      ${noAcervo(lei) ? `<a class="botao" href="#/lei/${esc(lei)}" style="text-decoration:none">Abrir a lei</a>` : ""}
+      <button class="botao" id="apagar-marcacoes-lei" style="color:var(--alt)">Apagar marcações desta lei…</button>
+    </div></div>`;
+  if (sessionStorage.getItem("filtro-mudou-" + lei) === "1") $("#filtro-mudou").value = "mudou";
+  let abaAtual = aba;
   const render = () => {
-    const lei = $("#filtro-lei").value;
     const termo = semAcento($("#busca-estudos").value.trim());
-    const ok = i => (!lei || i.lei === lei) && (!soMudados() || artigoMudou(i)) &&
-      (!termo || semAcento([i.nota, i.texto, nomeLei(i.lei), i.art ? rotuloArt(i.art) : ""].join(" ")).includes(termo));
+    const soMudados = $("#filtro-mudou").value === "mudou";
+    const ok = i => i.lei === lei && (!soMudados || artigoMudou(i)) &&
+      (!termo || semAcento([i.nota, i.texto, i.art ? rotuloArt(i.art) : ""].join(" ")).includes(termo));
     let h;
-    if (abaAtual === "anotacoes") {
-      const l = itens("anotacao", ok);
-      const nq = lei || soMudados() ? [] : itens("notaq", n => !termo || semAcento(n.nota + " " + (estado.q.get(n.q)?.enunciado.join(" ") || "")).includes(termo));
-      h = l.length ? cartoesAnotacoes(l, $("#busca-estudos").value) : (nq.length ? "" : `<p class="vazio">Nenhuma anotação${termo || lei ? " com esses filtros" : ""}. Para anotar, selecione um trecho na leitura ou toque no número de um artigo.</p>`);
-      if (nq.length) h += `<h3 class="grupo-assunto">Comentários em questões</h3>` + cartoesNotasQ(nq);
-    } else if (abaAtual === "grifos") {
-      const l = itens("grifo", ok);
-      h = l.length ? cartoesGrifos(l) : `<p class="vazio">Nenhum grifo${termo || lei ? " com esses filtros" : ""}. Selecione um trecho na leitura e escolha uma cor.</p>`;
-    } else {
-      const l = itens("favorito", ok);
-      h = l.length ? cartoesFavoritos(l) : `<p class="vazio">Nenhum favorito${termo || lei ? " com esses filtros" : ""}.</p>`;
+    if (abaAtual === "anotacoes") { const l = itens("anotacao", ok); h = l.length ? cartoesAnotacoes(l, $("#busca-estudos").value) : '<p class="vazio">Nenhuma anotação.</p>'; }
+    else if (abaAtual === "grifos") { const l = itens("grifo", ok); h = l.length ? cartoesGrifos(l) : '<p class="vazio">Nenhum grifo.</p>'; }
+    else if (abaAtual === "favoritos") { const l = itens("favorito", i => i.alvo !== "questao" && ok(i)); h = l.length ? cartoesFavoritos(l) : '<p class="vazio">Nenhum favorito.</p>'; }
+    else {
+      const l = itens("tinta", i => temConteudo(i) && ok(i)).sort((a, b) => compararArtigos(a.art, b.art));
+      h = l.length ? `<ul class="lista-cartoes">${l.map(t => `<li class="cartao-nota">
+          <button class="origem" data-href="#/lei/${esc(lei)}/${encodeURIComponent(t.art)}">${esc(rotuloArt(t.art))}</button>
+          <div class="corpo">${(t.tracos || []).length} traço(s)${(t.carimbos || []).length ? ` · ícones: ${t.carimbos.map(c => c.icone).join(" ")}` : ""}</div>
+          ${alertaMudanca(t)}
+          <div class="meta">Feito com letra tamanho ${t.fonte} · ${dataHora(t.atualizadoEm)}</div>
+          <div class="linha-acoes"><button data-apagar-tinta="${esc(t.id)}">Apagar desenhos e ícones deste artigo</button></div></li>`).join("")}</ul>`
+        : '<p class="vazio">Nenhum desenho ou ícone.</p>';
     }
     $("#lista-estudos").innerHTML = h;
     ativarMiniaturas($("#lista-estudos"));
@@ -1425,12 +1495,50 @@ async function telaEstudos(aba = "anotacoes", filtroLei = "") {
   $$("#abas-estudos button").forEach(b => b.onclick = () => {
     abaAtual = b.dataset.aba;
     $$("#abas-estudos button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    history.replaceState(null, "", `#/estudos/lei/${lei}/${abaAtual}`);
     render();
   });
-  $("#filtro-lei").onchange = render;
-  if ($("#filtro-mudou")) $("#filtro-mudou").onchange = render;
+  $("#filtro-mudou").onchange = () => { sessionStorage.setItem("filtro-mudou-" + lei, $("#filtro-mudou").value ? "1" : ""); render(); };
   $("#busca-estudos").oninput = aoParar(render);
+  $("#apagar-marcacoes-lei").onclick = () => painelApagarMarcacoes(lei);
   render();
+}
+
+function pastaEstudosQuestoes() {
+  definirTopo({ titulo: "Questões — comentários e favoritas", voltar: "#/estudos" });
+  marcarAba("estudos");
+  const nq = itens("notaq"), fq = itens("favorito", i => i.alvo === "questao");
+  $("#conteudo").innerHTML = `<div class="secao">
+    ${nq.length ? `<h3 class="grupo-assunto">Meus comentários (${nq.length})</h3>${cartoesNotasQ(nq)}` : ""}
+    ${fq.length ? `<h3 class="grupo-assunto">Questões favoritas (${fq.length})</h3>${cartoesFavoritos(fq)}` : ""}
+    ${!nq.length && !fq.length ? '<p class="vazio">Nenhum comentário ou questão favorita.</p>' : ""}</div>`;
+}
+
+/* ---------- apagar as marcações de uma lei (escolhendo o quê) ---------- */
+function painelApagarMarcacoes(lei) {
+  const grupos = [
+    ["grifo", "Grifos", i => i.tipo === "grifo"],
+    ["anotacao", "Anotações (e as imagens delas)", i => i.tipo === "anotacao"],
+    ["favorito", "Favoritos (da lei, de artigos e de trechos)", i => i.tipo === "favorito" && i.alvo !== "questao"],
+    ["tinta", "Desenhos, marca-texto e ícones da caneta", i => i.tipo === "tinta" && temConteudo(i)],
+  ];
+  const da = f => itens(f === "tinta" ? "tinta" : f, i => i.lei === lei && grupos.find(g => g[0] === f)[2](i));
+  abrirPainel(`<h2>Apagar marcações ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">${esc(nomeLei(lei))}. A lei continua no acervo; só as suas marcações escolhidas são apagadas.</p>
+    ${grupos.map(([f, rot]) => { const n = da(f).length; return `<label class="linha-ajuste"><span>${rot} <span class="contagem">(${n})</span></span>
+      <input type="checkbox" data-apagar-tipo="${f}" ${n ? "" : "disabled"} style="width:22px;height:22px"></label>`; }).join("")}
+    <p class="contagem">Dica: faça um backup antes (Configurações → Exportar backup), caso queira recuperar depois.</p>
+    <div class="acoes" style="margin-top:10px"><button class="botao" id="confirmar-apagar" style="color:var(--alt);text-align:center" disabled>Apagar as marcações selecionadas</button></div>`);
+  const marcados = () => $$("#painel-caixa [data-apagar-tipo]:checked").map(c => c.dataset.apagarTipo);
+  $$("#painel-caixa [data-apagar-tipo]").forEach(c => c.onchange = () => { $("#confirmar-apagar").disabled = !marcados().length; });
+  $("#confirmar-apagar").onclick = async () => {
+    const lista = marcados().flatMap(da);
+    if (!lista.length || !confirm(`Apagar ${lista.length} marcação(ões) de "${nomeLei(lei)}"? Isso não pode ser desfeito sem um backup.`)) return;
+    for (const i of lista) await apagarItem(i.id);
+    for (const a of itens("anotacao", n => n.lei === lei && n.grifoId && !estado.itens.get(n.grifoId)?.tipo)) await salvarItem({ ...a, grifoId: null });
+    fecharPainel();
+    if (leiAberta === lei) telaLei(lei); else rotear();
+  };
 }
 
 /* =====================================================================
@@ -2256,8 +2364,10 @@ function menuLei(id) {
       <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
       <button id="l-nota">Anotar a lei (anotação geral)</button>
       <button id="l-alt">Histórico de alterações</button>
+      <button id="l-marcacoes">Apagar minhas marcações desta lei…</button>
       <button id="l-remover" style="color:var(--alt)">Remover do meu acervo</button>
     </div>`);
+  $("#l-marcacoes").onclick = () => painelApagarMarcacoes(id);
   $("#l-mover").onclick = () => painelMover("leis", id, nomeLei(id), () => rotear());
   $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); rotear(); };
   $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });
@@ -2545,8 +2655,8 @@ const caneta = Object.assign(
   { ativa: false, hist: [], refeitos: [], tracando: null, apagando: null, arrastando: null });
 if (caneta.ferramenta === "borracha") caneta.ferramenta = "caneta";
 function gravarPrefCaneta() {
-  const { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo } = caneta;
-  gravarLS("preferencias-caneta", { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo });
+  const { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, noTopo } = caneta;
+  gravarLS("preferencias-caneta", { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, noTopo });
 }
 const idTinta = (lei, art, fonte) => `tinta|${lei}|${art}|${fonte}`;
 const temConteudo = t => (t.tracos && t.tracos.length) || (t.carimbos && t.carimbos.length);
@@ -2652,26 +2762,35 @@ function pontoRel(div, ev) { const r = div.getBoundingClientRect(); return [+(ev
 const fotografar = item => ({ tracos: (item.tracos || []).slice(), carimbos: (item.carimbos || []).map(c => ({ ...c })) });
 
 /* ---------- desfazer / refazer ---------- */
-function registrarAcao(item, antes) {
-  caneta.hist.push({ item: item.id, art: item.art, antes, depois: fotografar(item) });
+function registrarAcao(item, antes) { registrarGrupo([{ item: item.id, art: item.art, antes, depois: fotografar(item) }], []); }
+function registrarGrupo(partes, grifos) {
+  if (!partes.length && !grifos.length) return;
+  caneta.hist.push({ partes, grifos });
   if (caneta.hist.length > 100) caneta.hist.shift();
   caneta.refeitos = [];
   atualizarBotoesHist();
 }
-async function aplicarVersaoTracos(acao, qual) {
-  const base = estado.itens.get(acao.item) || { id: acao.item, tipo: "tinta" };
-  const foto = acao[qual];
+async function aplicarVersaoTracos(parte, qual) {
+  const base = estado.itens.get(parte.item) || { id: parte.item, tipo: "tinta" };
+  const foto = parte[qual];
   const item = { ...base, apagado: false, tracos: foto.tracos.slice(), carimbos: foto.carimbos.map(c => ({ ...c })) };
   if (!item.lei) {
-    const [, lei, art, fonte] = acao.item.split("|");
+    const [, lei, art, fonte] = parte.item.split("|");
     Object.assign(item, { lei, art, fonte: Number(fonte), largura: larguraTexto(), versao: estado.leis[lei]?.versao, hashArt: estado.leis[lei]?.artigos[art]?.hash });
   }
   await salvarItem(item);
-  const div = document.getElementById("art-" + acao.art);
+  const div = document.getElementById("art-" + parte.art);
   if (div) pintarTinta(leiAberta, div);
 }
-async function desfazerTinta() { const a = caneta.hist.pop(); if (!a) return; await aplicarVersaoTracos(a, "antes"); caneta.refeitos.push(a); atualizarBotoesHist(); }
-async function refazerTinta() { const a = caneta.refeitos.pop(); if (!a) return; await aplicarVersaoTracos(a, "depois"); caneta.hist.push(a); atualizarBotoesHist(); }
+async function aplicarGrupo(g, qual) {
+  for (const p of g.partes) await aplicarVersaoTracos(p, qual);
+  for (const gr of g.grifos) {            // grifos de texto apagados pela borracha
+    if (qual === "antes") await salvarItem({ ...gr, apagado: false }); else await apagarItem(gr.id);
+    if (gr.lei === leiAberta) repintarArtigo(gr.lei, gr.art);
+  }
+}
+async function desfazerTinta() { const g = caneta.hist.pop(); if (!g) return; await aplicarGrupo(g, "antes"); caneta.refeitos.push(g); atualizarBotoesHist(); }
+async function refazerTinta() { const g = caneta.refeitos.pop(); if (!g) return; await aplicarGrupo(g, "depois"); caneta.hist.push(g); atualizarBotoesHist(); }
 function atualizarBotoesHist() {
   const d = $("#cn-desfazer"), r = $("#cn-refazer");
   if (d) d.disabled = !caneta.hist.length;
@@ -2776,14 +2895,49 @@ function artigoNoPonto(e) {
 const mediaY = () => [...dedos.values()].reduce((s, p) => s + p.y, 0) / dedos.size;
 function cancelarTraco() {
   if (caneta.tracando) { caneta.tracando.el.remove(); caneta.tracando = null; }
-  for (const k of ["apagando", "arrastando"]) {
-    const a = caneta[k];
-    if (!a) continue;
-    Object.assign(a.item, fotografar(a.antes));
-    desenharTracos(a.div, a.item);
-    caneta[k] = null;
+  if (caneta.arrastando) { const a = caneta.arrastando; Object.assign(a.item, fotografar(a.antes)); desenharTracos(a.div, a.item); caneta.arrastando = null; }
+  if (caneta.apagando) {
+    for (const x of caneta.apagando.alvos.values()) { Object.assign(x.item, fotografar(x.antes)); desenharTracos(x.div, x.item); }
+    $$("mark.grifo.apagando").forEach(m => m.classList.remove("apagando"));
+    caneta.apagando = null;
   }
   esconderCursorBorracha();
+}
+/* A borracha não fica presa a um artigo: apaga desenhos de qualquer artigo por onde passar
+   (inclusive traços que invadiram o artigo vizinho) e também grifos feitos no texto. */
+function iniciarBorracha(e) {
+  const comTinta = [...marcasDaLei(leiAberta).entries()].filter(([, m]) => m.tintas.length)
+    .map(([art]) => document.getElementById("art-" + art)).filter(Boolean);
+  caneta.apagando = { pointerId: e.pointerId, candidatos: comTinta, alvos: new Map(), grifos: new Map(), ultimo: [e.clientX, e.clientY] };
+  mostrarCursorBorracha(e);
+  apagarEntre(e.clientX, e.clientY);
+}
+function apagarEntre(cx, cy) {
+  const g = caneta.apagando;
+  const [px, py] = g.ultimo;
+  g.ultimo = [cx, cy];
+  const folga = caneta.raio + 60;
+  for (const div of g.candidatos) {
+    const r = div.getBoundingClientRect();
+    if (Math.max(cy, py) < r.top - folga || Math.min(cy, py) > r.bottom + folga) continue;
+    let alvo = g.alvos.get(div.dataset.art);
+    if (!alvo) {
+      const item = tintaVisivel(leiAberta, div.dataset.art);
+      if (!item) continue;
+      item.tracos = item.tracos || []; item.carimbos = item.carimbos || [];
+      alvo = { div, item, antes: fotografar(item), ultimo: [px - r.left, py - r.top] };
+      g.alvos.set(div.dataset.art, alvo);
+    }
+    alvo.ultimo = [px - r.left, py - r.top];
+    passarBorracha(alvo, cx - r.left, cy - r.top);
+  }
+  // grifo feito no texto: some na hora (fica esmaecido) e é apagado ao soltar
+  const el = document.elementFromPoint(cx, cy);
+  const m = el && el.closest && el.closest("mark.grifo[data-grifo]");
+  if (m && !g.grifos.has(m.dataset.grifo)) {
+    const item = estado.itens.get(m.dataset.grifo);
+    if (item) { g.grifos.set(item.id, { ...item }); $$(`mark.grifo[data-grifo="${item.id}"]`).forEach(x => x.classList.add("apagando")); }
+  }
 }
 function acharCarimbo(item, x, y) {
   return [...(item.carimbos || [])].reverse().find(c => Math.hypot(c.x - x, c.y - y) <= c.tam * 0.6 + 6);
@@ -2796,20 +2950,17 @@ document.addEventListener("pointerdown", e => {
     dedos.set(e.pointerId, { y: e.clientY });
     if (dedos.size >= 2) { cancelarTraco(); rolagemDedos = { y: mediaY() }; return; }
   }
+  const f = caneta.ferramenta;
+  if (f === "borracha") {
+    if (!naAreaDaLei(e)) return;
+    e.preventDefault();
+    iniciarBorracha(e);
+    return;
+  }
   const div = artigoNoPonto(e);
   if (!div) return;
   e.preventDefault();
   const p = pontoRel(div, e);
-  const f = caneta.ferramenta;
-  if (f === "borracha") {
-    const item = tintaVisivel(leiAberta, div.dataset.art);
-    if (!item) return;
-    item.tracos = item.tracos || []; item.carimbos = item.carimbos || [];
-    caneta.apagando = { div, item, antes: fotografar(item), ultimo: p, pointerId: e.pointerId };
-    mostrarCursorBorracha(e);
-    passarBorracha(caneta.apagando, ...p);
-    return;
-  }
   if (f === "icone") {
     const item = itemTintaAtual(div);
     const antes = fotografar(item);
@@ -2843,7 +2994,7 @@ document.addEventListener("pointermove", e => {
   const a = caneta.apagando;
   if (a && a.pointerId === e.pointerId) {
     e.preventDefault(); mostrarCursorBorracha(e);
-    for (const ev of eventosDe(e)) passarBorracha(a, ...pontoRel(a.div, ev));
+    for (const ev of eventosDe(e)) apagarEntre(ev.clientX, ev.clientY);
     return;
   }
   const tr = caneta.tracando;
@@ -2856,12 +3007,23 @@ document.addEventListener("pointermove", e => {
 const mudouFoto = (a, b) => JSON.stringify(a) !== JSON.stringify(b);
 async function fimPonteiro(e) {
   if (e.pointerType === "touch") { dedos.delete(e.pointerId); if (dedos.size < 2) rolagemDedos = null; }
-  for (const k of ["apagando", "arrastando"]) {
-    const a = caneta[k];
-    if (!a || a.pointerId !== e.pointerId) continue;
-    caneta[k] = null; esconderCursorBorracha();
-    if (k === "apagando") a.item.tracos = a.item.tracos.map(t => (densos.get(t) === t.pts && t.pts.length > 8 ? { ...t, pts: enxugarPontos(t.pts) } : t));
-    if (mudouFoto(a.antes, fotografar(a.item))) { await salvarItem(a.item); registrarAcao(a.item, a.antes); }
+  const g = caneta.apagando;
+  if (g && g.pointerId === e.pointerId) {
+    caneta.apagando = null; esconderCursorBorracha();
+    const partes = [];
+    for (const x of g.alvos.values()) {
+      x.item.tracos = x.item.tracos.map(t => (densos.get(t) === t.pts && t.pts.length > 8 ? { ...t, pts: enxugarPontos(t.pts) } : t));
+      if (mudouFoto(x.antes, fotografar(x.item))) { await salvarItem(x.item); partes.push({ item: x.item.id, art: x.item.art, antes: x.antes, depois: fotografar(x.item) }); }
+    }
+    const grifos = [...g.grifos.values()];
+    for (const gr of grifos) { await apagarItem(gr.id); repintarArtigo(gr.lei, gr.art); }
+    registrarGrupo(partes, grifos);
+    return;
+  }
+  const ar = caneta.arrastando;
+  if (ar && ar.pointerId === e.pointerId) {
+    caneta.arrastando = null;
+    if (mudouFoto(ar.antes, fotografar(ar.item))) { await salvarItem(ar.item); registrarAcao(ar.item, ar.antes); }
     return;
   }
   const tr = caneta.tracando;
@@ -2887,39 +3049,45 @@ for (const tipo of ["touchstart", "touchmove"]) {
 function montarBarraCaneta() {
   const b = $("#barra-caneta");
   const f = caneta.ferramenta;
-  const cores = CORES_CANETA.map(([c, n]) => `<button class="cor-btn ${f === "marca" ? "cor-translucida" : ""}" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${caneta.cor === c}" style="background:${f === "marca" ? translucida(c, 0.45) : c}"></button>`).join("");
+  b.classList.toggle("no-topo", !!caneta.noTopo);
   const seg = (lista, atual, attr) => `<div class="segmentado">${lista.map(([v, n]) => `<button ${attr}="${v}" aria-pressed="${atual === v}">${n}</button>`).join("")}</div>`;
-  let opcoes = "";
-  if (f === "caneta") opcoes = cores + '<span class="sep"></span>' + seg(ESP_CANETA, caneta.esp, "data-esp");
-  else if (f === "marca") opcoes = cores + '<span class="sep"></span>' + seg(ESP_MARCA, caneta.espMarca, "data-esp-marca");
-  else if (f === "icone") opcoes = `<div class="icones-escolha">${ICONES.map(([i, n]) => `<button class="icone-escolha" data-icone="${i}" aria-pressed="${caneta.icone === i}" title="${n}" aria-label="${n}">${i}</button>`).join("")}</div>` +
-    '<span class="sep"></span>' + seg(TAM_ICONE, caneta.tamIcone, "data-tam-icone");
-  else opcoes = `<div class="segmentado"><button data-modo-borracha="parcial" aria-pressed="${caneta.modoBorracha === "parcial"}">Livre (só onde passar)</button>
-      <button data-modo-borracha="traco" aria-pressed="${caneta.modoBorracha === "traco"}">Traço inteiro</button></div>` +
-    '<span class="sep"></span>' + seg(TAMANHOS_BORRACHA, caneta.raio, "data-raio");
-  b.innerHTML = `
-    <div class="linha-caneta">
-      <div class="segmentado ferramentas">
-        ${[["caneta", "✏️ Caneta"], ["marca", "🖍️ Marca-texto"], ["icone", "⭐ Ícones"], ["borracha", "⌫ Borracha"]].map(([v, n]) =>
-          `<button data-ferramenta="${v}" aria-pressed="${f === v}">${n}</button>`).join("")}
-      </div>
-      <button class="icone-btn" id="cn-desfazer" aria-label="Desfazer" title="Desfazer">↶</button>
-      <button class="icone-btn" id="cn-refazer" aria-label="Refazer" title="Refazer">↷</button>
-      <button class="icone-btn" id="cn-dedo" aria-pressed="${caneta.dedo}" title="Com o dedo ligado: 1 dedo desenha, 2 dedos rolam">${caneta.dedo ? "✋ Dedo ligado" : "✋ Dedo"}</button>
-      <button class="icone-btn" id="cn-fechar">Concluir</button>
-    </div>
-    <div class="linha-caneta">${opcoes}</div>
-    ${f === "icone" ? '<p class="dica-icones">Toque no texto ou na margem para colocar · arraste para mudar de lugar · apague com a borracha</p>' : ""}`;
-  const ligar = (sel, fn) => $$(sel, b).forEach(x => x.onclick = () => { fn(x); gravarPrefCaneta(); montarBarraCaneta(); });
-  ligar("[data-ferramenta]", x => { caneta.ferramenta = x.dataset.ferramenta; });
-  ligar("[data-cor-caneta]", x => { caneta.cor = x.dataset.corCaneta; });
-  ligar("[data-esp]", x => { caneta.esp = Number(x.dataset.esp); });
-  ligar("[data-esp-marca]", x => { caneta.espMarca = Number(x.dataset.espMarca); });
-  ligar("[data-icone]", x => { caneta.icone = x.dataset.icone; });
-  ligar("[data-tam-icone]", x => { caneta.tamIcone = Number(x.dataset.tamIcone); });
+  const cores = CORES_CANETA.map(([c, n]) => `<button class="cor-btn" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${caneta.cor === c}" style="background:${f === "marca" ? translucida(c, 0.45) : c}"></button>`).join("");
+  let resumo, opcoes;
+  if (f === "caneta") { resumo = `<span class="ponto-cor" style="background:${caneta.cor}"></span>${ESP_CANETA.find(x => x[0] === caneta.esp)?.[1] || ""}`; opcoes = cores + seg(ESP_CANETA, caneta.esp, "data-esp"); }
+  else if (f === "marca") { resumo = `<span class="ponto-cor" style="background:${translucida(caneta.cor, 0.5)}"></span>${ESP_MARCA.find(x => x[0] === caneta.espMarca)?.[1] || ""}`; opcoes = cores + seg(ESP_MARCA, caneta.espMarca, "data-esp-marca"); }
+  else if (f === "icone") { resumo = `<span style="font-size:18px">${caneta.icone}</span>${TAM_ICONE.find(x => x[0] === caneta.tamIcone)?.[1] || ""}`;
+    opcoes = `<div class="icones-escolha">${ICONES.map(([i, n]) => `<button class="icone-escolha" data-icone="${i}" aria-pressed="${caneta.icone === i}" title="${n}" aria-label="${n}">${i}</button>`).join("")}</div>` + seg(TAM_ICONE, caneta.tamIcone, "data-tam-icone") +
+      '<p class="dica-icones" style="width:100%">Toque no texto ou na margem para colocar · arraste para mover · apague com a borracha</p>'; }
+  else { resumo = `${caneta.modoBorracha === "traco" ? "Traço inteiro" : "Livre"} · ${TAMANHOS_BORRACHA.find(x => x[0] === caneta.raio)?.[1] || ""}`;
+    opcoes = `<div class="segmentado"><button data-modo-borracha="parcial" aria-pressed="${caneta.modoBorracha === "parcial"}">Livre (só onde passar)</button>
+      <button data-modo-borracha="traco" aria-pressed="${caneta.modoBorracha === "traco"}">Traço inteiro</button></div>` + seg(TAMANHOS_BORRACHA, caneta.raio, "data-raio") +
+      '<p class="dica-icones" style="width:100%">A borracha apaga desenhos, marca-texto, ícones e também grifos feitos no texto.</p>'; }
+  const painel = `<div class="painel-opcoes ${caneta.opcoesAbertas ? "" : "oculto"}">${opcoes}</div>`;
+  const barra = `<div class="barra-fina">
+      ${[["caneta", "✏️", "Caneta"], ["marca", "🖍️", "Marca-texto"], ["icone", "⭐", "Ícones"], ["borracha", "⌫", "Borracha"]].map(([v, i, n]) =>
+        `<button class="bf" data-ferramenta="${v}" aria-pressed="${f === v}" aria-label="${n}" title="${n}">${i}</button>`).join("")}
+      <span class="sep"></span>
+      <button class="bf bf-opcoes" id="cn-opcoes" aria-expanded="${!!caneta.opcoesAbertas}" title="Cor, espessura e opções">${resumo} ${caneta.opcoesAbertas ? "▴" : "▾"}</button>
+      <span class="sep"></span>
+      <button class="bf" id="cn-desfazer" aria-label="Desfazer" title="Desfazer">↶</button>
+      <button class="bf" id="cn-refazer" aria-label="Refazer" title="Refazer">↷</button>
+      <button class="bf" id="cn-dedo" aria-pressed="${caneta.dedo}" aria-label="Usar o dedo" title="Usar o dedo (1 dedo desenha, 2 dedos rolam)">✋</button>
+      <button class="bf" id="cn-posicao" aria-label="Mudar a barra de lugar" title="Mover a barra para ${caneta.noTopo ? "baixo" : "cima"}">${caneta.noTopo ? "⤓" : "⤒"}</button>
+      <button class="bf" id="cn-fechar" aria-label="Concluir" title="Concluir">✕</button>
+    </div>`;
+  b.innerHTML = caneta.noTopo ? barra + painel : painel + barra;     // as opções abrem para o lado do texto
+  const ligar = (sel, fn, fechar) => $$(sel, b).forEach(x => x.onclick = () => { fn(x); if (fechar) caneta.opcoesAbertas = false; gravarPrefCaneta(); montarBarraCaneta(); });
+  ligar("[data-ferramenta]", x => { caneta.opcoesAbertas = caneta.ferramenta === x.dataset.ferramenta ? !caneta.opcoesAbertas : false; caneta.ferramenta = x.dataset.ferramenta; });
+  ligar("#cn-opcoes", () => { caneta.opcoesAbertas = !caneta.opcoesAbertas; });
+  ligar("[data-cor-caneta]", x => { caneta.cor = x.dataset.corCaneta; }, true);
+  ligar("[data-esp]", x => { caneta.esp = Number(x.dataset.esp); }, true);
+  ligar("[data-esp-marca]", x => { caneta.espMarca = Number(x.dataset.espMarca); }, true);
+  ligar("[data-icone]", x => { caneta.icone = x.dataset.icone; }, true);
+  ligar("[data-tam-icone]", x => { caneta.tamIcone = Number(x.dataset.tamIcone); }, true);
   ligar("[data-modo-borracha]", x => { caneta.modoBorracha = x.dataset.modoBorracha; });
-  ligar("[data-raio]", x => { caneta.raio = Number(x.dataset.raio); });
+  ligar("[data-raio]", x => { caneta.raio = Number(x.dataset.raio); }, true);
   ligar("#cn-dedo", () => { caneta.dedo = !caneta.dedo; document.body.classList.toggle("caneta-dedo", caneta.dedo); });
+  ligar("#cn-posicao", () => { caneta.noTopo = !caneta.noTopo; });
   $("#cn-desfazer").onclick = desfazerTinta;
   $("#cn-refazer").onclick = refazerTinta;
   $("#cn-fechar").onclick = () => alternarCaneta(false);
@@ -2994,6 +3162,8 @@ document.addEventListener("click", async e => {
   }
   const apg = t.closest("[data-apagar-grifo]");
   if (apg) { if (confirm("Apagar este grifo?")) { await apagarItem(apg.dataset.apagarGrifo); rotear(); } return; }
+  const apt = t.closest("[data-apagar-tinta]");
+  if (apt) { if (confirm("Apagar os desenhos e ícones deste artigo?")) { await apagarItem(apt.dataset.apagarTinta); rotear(); } return; }
   const desf = t.closest("[data-desfavoritar]");
   if (desf) { await apagarItem(desf.dataset.desfavoritar); rotear(); return; }
   const vm = t.closest("[data-ver-mudanca]");
@@ -3045,8 +3215,8 @@ async function rotearTela() {
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
   if (partes[0] === "questoes-artigo" && partes[2]) return telaCaderno("artigo", partes[1] + "|" + partes[2], "questoes");
   if (partes[0] === "estudos") {
-    if (partes[1] === "alterados") { await leiDoCache(partes[2]); return telaEstudos("alterados", partes[2] || ""); }
-    return telaEstudos(partes[1] || "anotacoes");
+    if (partes[1] === "alterados" && partes[2]) { sessionStorage.setItem("filtro-mudou-" + partes[2], "1"); return telaEstudos("lei", partes[2], "anotacoes"); }
+    return telaEstudos(partes[1] || "", partes[2] || "", partes[3] || "anotacoes");
   }
   if (partes[0] === "ajustes") return telaAjustes();
   if (partes[0] === "catalogo") return telaCatalogo();

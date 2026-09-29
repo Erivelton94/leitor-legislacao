@@ -1,6 +1,6 @@
 /* Service worker: guarda a "casca" do app para abrir sem internet.
    Os dados das leis são controlados pela própria página (só baixa o que mudou). */
-const VERSAO = "casca-v11";
+const VERSAO = "casca-v12";
 const CASCA = ["./", "index.html", "manifest.webmanifest", "icone-180.png", "icone-512.png"];
 
 self.addEventListener("install", e => {
