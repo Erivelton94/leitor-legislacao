@@ -1,0 +1,23 @@
+[
+  {
+    "id": "lep",
+    "nome": "Lei de Execução Penal",
+    "numero": "Lei nº 7.210/1984",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
+    "minimo_artigos": 150
+  },
+  {
+    "id": "codigo-penal",
+    "nome": "Código Penal",
+    "numero": "Decreto-Lei nº 2.848/1940",
+    "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+    "minimo_artigos": 300
+  },
+  {
+    "id": "maria-da-penha",
+    "nome": "Lei Maria da Penha",
+    "numero": "Lei nº 11.340/2006",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+    "minimo_artigos": 40
+  }
+]
