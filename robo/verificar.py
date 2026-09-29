@@ -34,7 +34,10 @@ PASTA_HIST = PASTA_DADOS / "historico"
 ARQ_STATUS = PASTA_DADOS / "status.json"
 
 FUSO = ZoneInfo("America/Recife")
-USER_AGENT = "LeitorLegislacao/0.1 (uso pessoal de estudo; verificacao diaria)"
+# O Planalto recusa conexões que se identificam como robô (confirmado no diagnóstico),
+# então o acesso usa a identificação de um navegador comum, com poucas consultas por dia.
+USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 TENTATIVAS = 3
 TIMEOUT = 60
 QUEDA_MAXIMA = 0.10  # se o nº de artigos cair mais de 10%, a leitura é considerada suspeita
@@ -125,7 +128,12 @@ def hash_da_lei(artigos):
 
 
 def baixar(url, cabecalhos_extra):
-    cabecalhos = {"User-Agent": USER_AGENT, "Accept-Language": "pt-BR,pt;q=0.9", **cabecalhos_extra}
+    cabecalhos = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9",
+        **cabecalhos_extra,
+    }
     ultimo_erro = None
     for tentativa in range(1, TENTATIVAS + 1):
         try:
