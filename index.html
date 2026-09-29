@@ -348,7 +348,7 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .num-desemp { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .grafico-dias { width: 100%; max-width: 700px; height: auto; display: block; margin-top: 6px; }
 .acoes-linha { display: flex; gap: 8px; flex-wrap: wrap; }
-svg.tinta { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 2; }
+svg.tinta { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 2; contain: layout style; }
 .modo-caneta #texto-lei { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; cursor: crosshair; }
 .aviso-tinta { display: inline-block; border: 1px dashed var(--fio); background: var(--folha); color: var(--tinta-2); border-radius: 999px;
   font-family: var(--sans); font-size: 12px; padding: 3px 10px; margin: 2px 0 6px 0.6em; }
@@ -368,6 +368,8 @@ button.aviso-tinta { cursor: pointer; color: var(--oliva); font-weight: 600; }
 .painel-opcoes { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; padding: 6px 4px 2px; border-top: 1px solid var(--fio); max-width: 560px; }
 .painel-opcoes .cor-btn { width: 34px; height: 34px; }
 .apagando { opacity: 0.25; }
+@keyframes pisca-reto { from { opacity: .35; } to { opacity: 1; } }
+path.endireitado { animation: pisca-reto .25s ease-out; }
 .linha-caneta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: center; }
 .barra-caneta .icone-btn[aria-pressed="true"] { background: var(--oliva); color: var(--papel); }
 .barra-caneta .icone-btn:disabled { opacity: 0.35; }
@@ -382,7 +384,7 @@ button.aviso-tinta { cursor: pointer; color: var(--oliva); font-weight: 600; }
 #cn-desfazer, #cn-refazer { font-size: 20px; min-width: 44px; }
 .dica-icones { margin: 0; font-size: 12px; color: var(--tinta-2); text-align: center; }
 .icones-escolha { display: flex; gap: 4px; flex-wrap: wrap; }
-.icone-escolha { width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--fio); background: var(--papel); font-size: 22px; line-height: 1; }
+.icone-escolha { width: 50px; height: 50px; border-radius: 12px; border: 1px solid var(--fio); background: var(--papel); font-size: 30px; line-height: 1; }
 .icone-escolha[aria-pressed="true"] { border-color: var(--oliva); box-shadow: inset 0 0 0 2px var(--oliva); background: var(--oliva-claro); }
 svg.tinta .carimbo { opacity: 0.62; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
 svg.tinta { will-change: auto; }
@@ -2648,12 +2650,13 @@ const ESP_MARCA = [[10, "Fino"], [15, "Médio"], [22, "Grosso"]];
 const TAMANHOS_BORRACHA = [[3, "P"], [8, "M"], [16, "G"]];
 const ICONES = [["⭐", "Importante"], ["🔥", "Muito cobrado"], ["🎯", "Cai em prova"], ["⚠️", "Pegadinha"], ["❗", "Atenção"],
                 ["💡", "Dica"], ["❓", "Dúvida"], ["📌", "Fixar"], ["🔁", "Revisar"], ["✅", "Revisado"]];
-const TAM_ICONE = [[20, "P"], [28, "M"], [38, "G"]];
+const TAM_ICONE = [[28, "P"], [40, "M"], [54, "G"]];
 const caneta = Object.assign(
-  { ferramenta: "caneta", cor: "#D32F2F", esp: 2.5, espMarca: 15, modoBorracha: "parcial", raio: 8, icone: "⭐", tamIcone: 28, dedo: false },
+  { ferramenta: "caneta", cor: "#D32F2F", esp: 2.5, espMarca: 15, modoBorracha: "parcial", raio: 8, icone: "⭐", tamIcone: 40, dedo: false },
   lerLS("preferencias-caneta", {}),
   { ativa: false, hist: [], refeitos: [], tracando: null, apagando: null, arrastando: null });
 if (caneta.ferramenta === "borracha") caneta.ferramenta = "caneta";
+if (![28, 40, 54].includes(caneta.tamIcone)) caneta.tamIcone = 40;     // tamanhos antigos passam para o novo padrão
 function gravarPrefCaneta() {
   const { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, noTopo } = caneta;
   gravarLS("preferencias-caneta", { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, noTopo });
@@ -2849,7 +2852,7 @@ function passarBorracha(a, x, y) {
         const pedaco = { ...t, id: uid().slice(0, 8), pts: run };
         densos.set(pedaco, run);                                      // o pedaço já está refinado
         novos.push(pedaco);
-        svg.appendChild(elTraco(pedaco));
+        svg.appendChild(elTraco({ ...pedaco, pts: enxugarPontos(run) }));
       }
       run = [];
     };
@@ -2889,12 +2892,19 @@ const naAreaDaLei = e => !!(e.target.closest && e.target.closest("#conteudo.modo
 function artigoNoPonto(e) {
   const direto = e.target.closest && e.target.closest("#texto-lei .artigo");
   if (direto) return direto;
-  if (!naAreaDaLei(e)) return null;            // tocou na margem: usa o artigo daquela altura
-  return $$("#texto-lei .artigo").find(d => { const r = d.getBoundingClientRect(); return e.clientY >= r.top && e.clientY <= r.bottom; }) || null;
+  if (!naAreaDaLei(e)) return null;
+  // margem, títulos entre artigos ou preâmbulo: usa o artigo daquela altura ou, se não houver, o seguinte
+  // (os títulos pertencem ao artigo que vem logo abaixo; o desenho fica preso a ele, acima do texto)
+  const arts = $$("#texto-lei .artigo");
+  for (const d of arts) {
+    const r = d.getBoundingClientRect();
+    if (e.clientY <= r.bottom) return d;
+  }
+  return arts[arts.length - 1] || null;
 }
 const mediaY = () => [...dedos.values()].reduce((s, p) => s + p.y, 0) / dedos.size;
 function cancelarTraco() {
-  if (caneta.tracando) { caneta.tracando.el.remove(); caneta.tracando = null; }
+  if (caneta.tracando) { clearTimeout(caneta.tracando.pausa); caneta.tracando.el.remove(); caneta.tracando = null; }
   if (caneta.arrastando) { const a = caneta.arrastando; Object.assign(a.item, fotografar(a.antes)); desenharTracos(a.div, a.item); caneta.arrastando = null; }
   if (caneta.apagando) {
     for (const x of caneta.apagando.alvos.values()) { Object.assign(x.item, fotografar(x.antes)); desenharTracos(x.div, x.item); }
@@ -2906,38 +2916,67 @@ function cancelarTraco() {
 /* A borracha não fica presa a um artigo: apaga desenhos de qualquer artigo por onde passar
    (inclusive traços que invadiram o artigo vizinho) e também grifos feitos no texto. */
 function iniciarBorracha(e) {
-  const comTinta = [...marcasDaLei(leiAberta).entries()].filter(([, m]) => m.tintas.length)
-    .map(([art]) => document.getElementById("art-" + art)).filter(Boolean);
-  caneta.apagando = { pointerId: e.pointerId, candidatos: comTinta, alvos: new Map(), grifos: new Map(), ultimo: [e.clientX, e.clientY] };
+  // posição de cada artigo com desenho medida UMA vez (medir a cada movimento, entre alterações na tela, travava)
+  const candidatos = [...marcasDaLei(leiAberta).entries()].filter(([, m]) => m.tintas.length)
+    .map(([art]) => document.getElementById("art-" + art)).filter(Boolean)
+    .map(div => {
+      const r = div.getBoundingClientRect();
+      const caixa = caixaDaTinta(div.dataset.art);            // até onde os desenhos deste artigo chegam (medido 1 vez)
+      return { div, r, topo: Math.min(r.top, caixa ? r.top + caixa[1] : r.top), base: Math.max(r.bottom, caixa ? r.top + caixa[3] : r.bottom) };
+    });
+  // grifos do texto perto da tela: posição medida 1 vez (sem consultar a página a cada movimento)
+  const alturaTela = window.innerHeight;
+  const marcas = $$("#texto-lei mark.grifo[data-grifo]").flatMap(m => [...m.getClientRects()]
+    .filter(r => r.bottom > -alturaTela && r.top < 2 * alturaTela).map(r => ({ id: m.dataset.grifo, l: r.left, t: r.top, rr: r.right, b: r.bottom })));
+  caneta.apagando = { pointerId: e.pointerId, candidatos, marcas, alvos: new Map(), grifos: new Map(), ultimo: [e.clientX, e.clientY] };
   mostrarCursorBorracha(e);
   apagarEntre(e.clientX, e.clientY);
 }
-function apagarEntre(cx, cy) {
+function apagarEntre(cx, cy, semGrifo) {
   const g = caneta.apagando;
   const [px, py] = g.ultimo;
   g.ultimo = [cx, cy];
-  const folga = caneta.raio + 60;
-  for (const div of g.candidatos) {
-    const r = div.getBoundingClientRect();
-    if (Math.max(cy, py) < r.top - folga || Math.min(cy, py) > r.bottom + folga) continue;
+  const folga = caneta.raio + 30;
+  for (const { div, r, topo, base } of g.candidatos) {
+    // desenhos podem ficar acima do artigo (títulos, preâmbulo): a caixa considera os traços, não só o texto
+    if (Math.max(cy, py) < topo - folga || Math.min(cy, py) > base + folga) continue;
+    const rr = r;
     let alvo = g.alvos.get(div.dataset.art);
     if (!alvo) {
       const item = tintaVisivel(leiAberta, div.dataset.art);
       if (!item) continue;
       item.tracos = item.tracos || []; item.carimbos = item.carimbos || [];
-      alvo = { div, item, antes: fotografar(item), ultimo: [px - r.left, py - r.top] };
+      alvo = { div, item, antes: fotografar(item), ultimo: [px - rr.left, py - rr.top] };
       g.alvos.set(div.dataset.art, alvo);
     }
-    alvo.ultimo = [px - r.left, py - r.top];
-    passarBorracha(alvo, cx - r.left, cy - r.top);
+    alvo.ultimo = [px - rr.left, py - rr.top];
+    passarBorracha(alvo, cx - rr.left, cy - rr.top);
   }
-  // grifo feito no texto: some na hora (fica esmaecido) e é apagado ao soltar
-  const el = document.elementFromPoint(cx, cy);
+  if (!semGrifo) marcarGrifoEm(cx, cy);
+}
+function marcarGrifoEm(x, y) {
+  const g = caneta.apagando;
+  const r = Math.max(caneta.raio, 2);
+  const achou = g.marcas.find(m => x + r >= m.l && x - r <= m.rr && y + r >= m.t && y - r <= m.b && !g.grifos.has(m.id));
+  if (!achou) return;
+  const item = estado.itens.get(achou.id);
+  if (item) { g.grifos.set(item.id, { ...item }); $$(`mark.grifo[data-grifo="${item.id}"]`).forEach(el => el.classList.add("apagando")); }
+}
+// grifo feito no texto: some na hora (fica esmaecido) e é apagado ao soltar
+function marcarGrifo(el) {
+  const g = caneta.apagando;
   const m = el && el.closest && el.closest("mark.grifo[data-grifo]");
-  if (m && !g.grifos.has(m.dataset.grifo)) {
-    const item = estado.itens.get(m.dataset.grifo);
-    if (item) { g.grifos.set(item.id, { ...item }); $$(`mark.grifo[data-grifo="${item.id}"]`).forEach(x => x.classList.add("apagando")); }
-  }
+  if (!g || !m || g.grifos.has(m.dataset.grifo)) return;
+  const item = estado.itens.get(m.dataset.grifo);
+  if (item) { g.grifos.set(item.id, { ...item }); $$(`mark.grifo[data-grifo="${item.id}"]`).forEach(x => x.classList.add("apagando")); }
+}
+function caixaDaTinta(art) {
+  const item = tintaVisivel(leiAberta, art);
+  if (!item) return null;
+  const c = [Infinity, Infinity, -Infinity, -Infinity];
+  for (const t of item.tracos || []) { const b = caixas.get(t) || (tracoPerto(t, 0, 0, 0, 0, 0), caixas.get(t)); c[0] = Math.min(c[0], b[0]); c[1] = Math.min(c[1], b[1]); c[2] = Math.max(c[2], b[2]); c[3] = Math.max(c[3], b[3]); }
+  for (const k of item.carimbos || []) { c[1] = Math.min(c[1], k.y - k.tam); c[3] = Math.max(c[3], k.y + k.tam); }
+  return c[1] === Infinity ? null : c;
 }
 function acharCarimbo(item, x, y) {
   return [...(item.carimbos || [])].reverse().find(c => Math.hypot(c.x - x, c.y - y) <= c.tam * 0.6 + 6);
@@ -2975,7 +3014,7 @@ document.addEventListener("pointerdown", e => {
   if (marca) t.marca = true;
   const el = elTraco(t);
   svgDo(div, true).appendChild(el);
-  caneta.tracando = { div, t, el, pointerId: e.pointerId };
+  caneta.tracando = { div, t, el, pointerId: e.pointerId, ancora: p.slice(), reto: false };
 }, { passive: false });
 document.addEventListener("pointermove", e => {
   if (e.pointerType === "touch" && dedos.has(e.pointerId)) {
@@ -3001,10 +3040,39 @@ document.addEventListener("pointermove", e => {
   if (!tr || tr.pointerId !== e.pointerId) return;
   e.preventDefault();
   if (!tr.r) tr.r = tr.div.getBoundingClientRect();
-  for (const ev of eventosDe(e)) tr.t.pts.push(+(ev.clientX - tr.r.left).toFixed(1), +(ev.clientY - tr.r.top).toFixed(1));
+  const x = +(e.clientX - tr.r.left).toFixed(1), y = +(e.clientY - tr.r.top).toFixed(1);
+  if (tr.reto) {
+    tr.t.pts = linhaReta(tr.t.pts[0], tr.t.pts[1], x, y);      // já endireitou: a ponta segue o Pencil, a linha continua reta
+  } else {
+    for (const ev of eventosDe(e)) tr.t.pts.push(+(ev.clientX - tr.r.left).toFixed(1), +(ev.clientY - tr.r.top).toFixed(1));
+    if (Math.hypot(x - tr.ancora[0], y - tr.ancora[1]) > 3) {   // mexeu de verdade: recomeça a contar a pausa
+      tr.ancora = [x, y];
+      clearTimeout(tr.pausa);
+      tr.pausa = setTimeout(() => endireitar(tr), 450);
+    }
+  }
   if (!tr.quadro) tr.quadro = requestAnimationFrame(() => { tr.quadro = 0; tr.el.setAttribute("d", caminhoD(tr.t.pts)); });
 }, { passive: false });
 const mudouFoto = (a, b) => JSON.stringify(a) !== JSON.stringify(b);
+/* Segurar o Pencil parado no fim do traço por meio segundo: o traço vira uma linha reta.
+   Perto da horizontal ou da vertical, ela "gruda" no alinhamento exato. */
+function linhaReta(x0, y0, x1, y1) {
+  const ang = Math.atan2(y1 - y0, x1 - x0) * 180 / Math.PI;
+  const a = ((ang % 180) + 180) % 180;
+  if (a < 6 || a > 174) y1 = y0;
+  else if (Math.abs(a - 90) < 6) x1 = x0;
+  return [x0, y0, +x1.toFixed(1), +y1.toFixed(1)];
+}
+function endireitar(tr) {
+  if (caneta.tracando !== tr || tr.reto) return;
+  const p = tr.t.pts;
+  if (Math.hypot(tr.ancora[0] - p[0], tr.ancora[1] - p[1]) < 15) return;     // traço curto demais
+  tr.reto = true;
+  tr.t.pts = linhaReta(p[0], p[1], tr.ancora[0], tr.ancora[1]);
+  tr.el.setAttribute("d", caminhoD(tr.t.pts));
+  tr.el.classList.add("endireitado");
+  if (navigator.vibrate) navigator.vibrate(8);
+}
 async function fimPonteiro(e) {
   if (e.pointerType === "touch") { dedos.delete(e.pointerId); if (dedos.size < 2) rolagemDedos = null; }
   const g = caneta.apagando;
@@ -3028,6 +3096,7 @@ async function fimPonteiro(e) {
   }
   const tr = caneta.tracando;
   if (!tr || tr.pointerId !== e.pointerId) return;
+  clearTimeout(tr.pausa);
   caneta.tracando = null;
   const item = itemTintaAtual(tr.div);
   const antes = fotografar(item);
