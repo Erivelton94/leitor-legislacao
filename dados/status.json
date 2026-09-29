@@ -4,67 +4,47 @@
   "numero": "Lei nº 7.210/1984",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:00:22-03:00",
+  "ultima_tentativa": "2026-09-29T02:08:47-03:00",
   "status": "ATUALIZADA",
-  "mensagem": "Texto relido com o leitor atualizado (218 artigos). Isso não é alteração da lei.",
-  "ultima_verificacao_ok": "2026-09-29T02:00:22-03:00",
+  "mensagem": "Texto relido com o leitor atualizado (219 artigos). Isso não é alteração da lei.",
+  "ultima_verificacao_ok": "2026-09-29T02:08:47-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 300.3,
    "fonte_envia_etag": true,
    "fonte_envia_last_modified": true,
    "artigos_com_numero_repetido": 0,
-   "artigos_ausentes_na_sequencia": [
-    124
-   ]
+   "artigos_ausentes_na_sequencia": []
   },
   "versao": "2026-09-29",
-  "n_artigos": 218,
-  "hash": "37bd7c7f46a860dce882c77ee1a36d85386d9fcd2ad3ec7a38b0a4c52a8d2873"
+  "n_artigos": 219,
+  "hash": "304db4459b69a41aee6de3914ee8f78645366e998c95bb3a09619d6bd2b55e57"
  },
  "codigo-penal": {
   "nome": "Código Penal",
   "numero": "Decreto-Lei nº 2.848/1940",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:00:27-03:00",
+  "ultima_tentativa": "2026-09-29T02:08:53-03:00",
   "status": "ATUALIZADA",
-  "mensagem": "Texto relido com o leitor atualizado (415 artigos). Isso não é alteração da lei.",
-  "ultima_verificacao_ok": "2026-09-29T02:00:27-03:00",
+  "mensagem": "Texto relido com o leitor atualizado (434 artigos). Isso não é alteração da lei.",
+  "ultima_verificacao_ok": "2026-09-29T02:08:53-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 667.3,
    "fonte_envia_etag": true,
    "fonte_envia_last_modified": true,
    "artigos_com_numero_repetido": 0,
-   "artigos_ausentes_na_sequencia": [
-    1,
-    43,
-    107,
-    129,
-    172,
-    184,
-    187,
-    188,
-    189,
-    190,
-    191,
-    192,
-    193,
-    194,
-    195,
-    196,
-    214
-   ]
+   "artigos_ausentes_na_sequencia": []
   },
   "versao": "2026-09-29",
-  "n_artigos": 415,
-  "hash": "74d5c5fd7d925cc9446daac2c3c82dd94ef2c28c7a258372a2a6a98297bbefd0"
+  "n_artigos": 434,
+  "hash": "b3f4e30bbde5e9461ade801ff251487315fa97abe9b87ad672a0a1aba16dd0a5"
  },
  "maria-da-penha": {
   "nome": "Lei Maria da Penha",
   "numero": "Lei nº 11.340/2006",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-09-29T02:00:33-03:00",
+  "ultima_tentativa": "2026-09-29T02:08:59-03:00",
   "status": "ATUALIZADA",
   "mensagem": "Texto relido com o leitor atualizado (57 artigos). Isso não é alteração da lei.",
   "diagnostico": {
@@ -76,7 +56,7 @@
   },
   "versao": "2026-09-29",
   "n_artigos": 57,
-  "hash": "e479b4bb2b0a55d41759869b8665dfa41d539bc837c35301eaf556ab3fc416c6",
-  "ultima_verificacao_ok": "2026-09-29T02:00:33-03:00"
+  "hash": "075d6cf82e794e3a7c578678ca8117d7320aacde9a90d1a7c01226b22dad3d11",
+  "ultima_verificacao_ok": "2026-09-29T02:08:59-03:00"
  }
 }
