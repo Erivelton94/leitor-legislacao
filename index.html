@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F5F6F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161C22" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Legislação">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="icon" href="icone-180.png">
+<title>Leitor de Legislação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --papel: #F5F6F2;       /* papel-bíblia, levemente frio */
+  --folha: #FFFFFF;
+  --tinta: #1F2A36;       /* azul-tinta dos textos oficiais */
+  --tinta-2: #55606B;
+  --fio: #DADDD6;
+  --oliva: #5E6B25;       /* o oliva do cabeçalho do Planalto */
+  --oliva-claro: #EEF0E2;
+  --ok: #2E7A4C;
+  --pend: #A8740F;
+  --alt: #B23A3A;
+  --marca: #FFE58A;
+  --serif: "Source Serif 4", "Iowan Old Style", "Palatino", Georgia, serif;
+  --sans: "Public Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fonte: 19px;
+  --entrelinha: 1.7;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papel: #161C22; --folha: #1D242B; --tinta: #E4E7E3; --tinta-2: #9AA3AB;
+    --fio: #2E3740; --oliva: #B4C46B; --oliva-claro: #26301F;
+    --ok: #6FC38F; --pend: #E0B04A; --alt: #EE8080; --marca: #6B5A12;
+  }
+}
+:root[data-theme="dark"] {
+  --papel: #161C22; --folha: #1D242B; --tinta: #E4E7E3; --tinta-2: #9AA3AB;
+  --fio: #2E3740; --oliva: #B4C46B; --oliva-claro: #26301F;
+  --ok: #6FC38F; --pend: #E0B04A; --alt: #EE8080; --marca: #6B5A12;
+}
+*, *::before, *::after { box-sizing: inherit; }
+html { height: 100%; scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 64px); }
+body {
+  margin: 0; min-height: 100%; background: var(--papel); color: var(--tinta);
+  font-family: var(--sans); font-size: 16px; -webkit-text-size-adjust: 100%;
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--oliva); outline-offset: 2px; }
+.oculto { display: none !important; }
+
+/* ---------- barra superior ---------- */
+.topo {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  display: flex; align-items: center; gap: 8px; padding: 10px 16px;
+  background: var(--papel); border-bottom: 1px solid var(--fio); min-height: 56px;
+}
+.topo h1 { font-size: 17px; font-weight: 600; margin: 0; flex: 1; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.icone-btn {
+  border: 0; background: transparent; min-width: 44px; height: 44px; border-radius: 10px;
+  display: inline-flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600;
+  color: var(--oliva); padding: 0 10px;
+}
+.icone-btn:active { background: var(--oliva-claro); }
+
+.aviso {
+  margin: 12px 16px 0; padding: 10px 14px; border-radius: 10px; font-size: 14px; line-height: 1.45;
+  background: var(--folha); border: 1px solid var(--fio); color: var(--tinta-2);
+}
+.aviso.forte { border-color: var(--alt); color: var(--tinta); }
+.aviso a, .aviso button.link { color: var(--oliva); font-weight: 600; }
+button.link { border: 0; background: none; padding: 0; text-decoration: underline; }
+
+main { max-width: 860px; margin: 0 auto; padding-bottom: 96px; }
+main.modo-leitor { max-width: none; padding-bottom: 0; }
+.modo-leitor > .aviso { max-width: 1148px; margin-left: auto; margin-right: auto; }
+
+/* ---------- acervo: lombadas de vade-mécum ---------- */
+.acervo { list-style: none; margin: 16px; padding: 0; display: grid; gap: 10px; }
+.lei-item {
+  display: grid; grid-template-columns: 10px 1fr auto; align-items: stretch;
+  background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; overflow: hidden;
+}
+.lei-item .aba { background: var(--cor-aba, var(--oliva)); }
+.lei-item button.abrir {
+  text-align: left; border: 0; background: transparent; padding: 14px 16px; display: grid; gap: 4px;
+}
+.lei-nome { font-family: var(--serif); font-size: 21px; font-weight: 600; line-height: 1.2; }
+.lei-num { font-size: 14px; color: var(--tinta-2); }
+.lei-verif { font-size: 13px; color: var(--tinta-2); }
+.selo { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; }
+.selo::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: currentColor; }
+.selo.ok { color: var(--ok); } .selo.pend { color: var(--pend); }
+.selo.alt { color: var(--alt); } .selo.erro { color: var(--alt); }
+.selo.erro::before { border-radius: 2px; transform: rotate(45deg); }
+
+/* ---------- leitor ---------- */
+.leitor-wrap { display: grid; grid-template-columns: 1fr; }
+@media (min-width: 1000px) {
+  .leitor-wrap { grid-template-columns: 280px minmax(0, 1fr); max-width: 1180px; margin: 0 auto; }
+  .sumario-lateral { display: block !important; }
+  #btn-sumario { display: none; }
+}
+.sumario-lateral {
+  display: none; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px);
+  height: calc(100vh - 57px - env(safe-area-inset-top, 0px)); overflow-y: auto;
+  border-right: 1px solid var(--fio); padding: 12px 8px 40px;
+}
+.sumario a {
+  display: block; padding: 7px 10px; border-radius: 8px; color: var(--tinta); text-decoration: none;
+  font-size: 14px; line-height: 1.35;
+}
+.sumario a.n2 { padding-left: 22px; color: var(--tinta-2); }
+.sumario a.n3 { padding-left: 34px; color: var(--tinta-2); font-size: 13px; }
+.sumario a:active { background: var(--oliva-claro); }
+
+.texto-lei {
+  font-family: var(--serif); font-size: var(--fonte); line-height: var(--entrelinha);
+  padding: 8px 22px 120px; max-width: 38em; margin: 0 auto; width: 100%;
+  font-variant-numeric: oldstyle-nums;
+}
+.texto-lei p { margin: 0 0 0.5em; hyphens: auto; -webkit-hyphens: auto; }
+.estrutura {
+  font-family: var(--sans); text-align: center; font-weight: 700; font-size: 0.78em;
+  letter-spacing: 0.02em; color: var(--oliva); margin: 2.4em 0 0.3em !important; line-height: 1.4;
+}
+.estrutura + .estrutura { margin-top: 0 !important; }
+.rubrica { font-family: var(--sans); font-weight: 600; font-size: 0.8em; color: var(--tinta-2); margin: 1.4em 0 0.2em !important; }
+.artigo { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 72px); padding: 0.35em 0 0.35em; position: relative; }
+.artigo.revogado { color: var(--tinta-2); }
+.rotulo { font-weight: 700; color: var(--oliva); border: 0; background: none; padding: 0; font-family: inherit; font-size: inherit; }
+.par { padding-left: 1.2em; }
+.inc { padding-left: 2em; }
+.ali { padding-left: 3em; }
+.pena { padding-left: 1.2em; font-style: italic; }
+.nota { font-family: var(--sans); font-size: 0.68em; color: var(--tinta-2); white-space: normal; }
+.artigo.alterado { box-shadow: -8px 0 0 -4px var(--alt); }
+.artigo.alvo { background: var(--oliva-claro); border-radius: 6px; }
+mark { background: var(--marca); color: inherit; border-radius: 2px; }
+.rodape-fonte { font-family: var(--sans); font-size: 13px; color: var(--tinta-2); border-top: 1px solid var(--fio); padding-top: 14px; margin-top: 3em; line-height: 1.5; }
+.rodape-fonte a { color: var(--oliva); }
+
+/* ---------- painéis (busca, sumário, ajustes, menu do artigo) ---------- */
+.painel {
+  position: fixed; inset: 0; z-index: 50; background: rgba(15, 20, 25, 0.35);
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.painel-caixa {
+  background: var(--papel); width: 100%; max-width: 640px; max-height: 82vh; overflow-y: auto;
+  border-radius: 16px 16px 0 0; padding: 18px 18px calc(24px + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 700px) {
+  .painel { align-items: center; }
+  .painel-caixa { border-radius: 16px; }
+}
+.painel-caixa h2 { font-size: 17px; margin: 0 0 12px; display: flex; justify-content: space-between; align-items: center; }
+.campo {
+  width: 100%; border: 1px solid var(--fio); background: var(--folha); border-radius: 10px;
+  padding: 12px 14px; font-size: 17px;
+}
+.resultados { list-style: none; padding: 0; margin: 12px 0 0; }
+.resultados li button {
+  width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--fio); background: none;
+  padding: 12px 4px; display: grid; gap: 4px;
+}
+.res-titulo { font-weight: 600; font-size: 15px; }
+.res-trecho { font-family: var(--serif); font-size: 15px; color: var(--tinta-2); line-height: 1.45; }
+.contagem { font-size: 13px; color: var(--tinta-2); margin-top: 10px; }
+.linha-ajuste { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--fio); }
+.segmentado { display: inline-flex; border: 1px solid var(--fio); border-radius: 10px; overflow: hidden; }
+.segmentado button { border: 0; background: var(--folha); padding: 9px 14px; font-size: 14px; }
+.segmentado button[aria-pressed="true"] { background: var(--oliva); color: var(--papel); }
+.acoes { display: grid; gap: 8px; }
+.acoes button, .botao {
+  border: 1px solid var(--fio); background: var(--folha); border-radius: 10px; padding: 13px 14px;
+  text-align: left; font-size: 16px;
+}
+.botao.primario { background: var(--oliva); color: var(--papel); border-color: var(--oliva); text-align: center; font-weight: 600; }
+
+/* ---------- abas inferiores ---------- */
+.abas {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: flex; justify-content: center; gap: 4px;
+  background: var(--papel); border-top: 1px solid var(--fio);
+  padding: 6px 8px calc(6px + env(safe-area-inset-bottom, 0px));
+}
+.abas button {
+  border: 0; background: none; min-width: 96px; padding: 8px 10px; border-radius: 10px;
+  font-size: 13px; font-weight: 600; color: var(--tinta-2); display: grid; justify-items: center; gap: 2px;
+}
+.abas button[aria-current="page"] { color: var(--oliva); background: var(--oliva-claro); }
+.abas svg { width: 22px; height: 22px; }
+.secao { margin: 20px 16px; }
+.secao h2 { font-size: 15px; color: var(--tinta-2); font-weight: 600; margin: 0 0 8px; }
+.cartao { background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 4px 16px; }
+.cartao p { font-size: 14px; color: var(--tinta-2); line-height: 1.5; }
+.vazio { margin: 40px 24px; text-align: center; color: var(--tinta-2); line-height: 1.5; }
+@media (prefers-reduced-motion: no-preference) {
+  .painel-caixa { animation: sobe 0.18s ease-out; }
+  @keyframes sobe { from { transform: translateY(24px); opacity: 0.6; } to { transform: none; opacity: 1; } }
+}
+</style>
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <button class="icone-btn oculto" id="btn-voltar" aria-label="Voltar ao acervo">‹ Acervo</button>
+  <h1 id="titulo">Meu Acervo</h1>
+  <button class="icone-btn oculto" id="btn-sumario">Sumário</button>
+  <button class="icone-btn oculto" id="btn-ir">Ir para art.</button>
+  <button class="icone-btn oculto" id="btn-buscar-lei" aria-label="Buscar nesta lei">Buscar</button>
+  <button class="icone-btn oculto" id="btn-aa" aria-label="Ajustes de leitura">Aa</button>
+</header>
+
+<div id="aviso-offline" class="aviso oculto"></div>
+<main id="conteudo"></main>
+
+<nav class="abas" id="abas" aria-label="Menu principal">
+  <button data-rota="acervo" aria-current="page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.6-.9 3.4 15.2-3.6.8z"/></svg>
+    Meu Acervo</button>
+  <button data-rota="pesquisar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+    Pesquisar</button>
+  <button data-rota="ajustes">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+    Configurações</button>
+</nav>
+
+<div id="painel" class="painel oculto" role="dialog" aria-modal="true"><div class="painel-caixa" id="painel-caixa"></div></div>
+
+<script>
+"use strict";
+/* =====================================================================
+   Leitor Inteligente de Legislação — Entrega 1 (leitor)
+   Dados: gerados pelo robô em dados/ (status.json e leis/<id>.json).
+   Regra: só baixa uma lei quando a impressão digital (hash) dela mudou.
+   ===================================================================== */
+
+const CACHE_DADOS = "legislacao-dados-v1";
+const HORAS_PENDENTE = 36;       // sem confirmação do robô por mais que isso = verificação pendente
+const CORES_ABA = ["#5E6B25", "#2F5D7C", "#8A3B2E", "#6B4E8A", "#2E7466", "#8A6A1F"];
+const REPO_ACTIONS = "https://github.com/Erivelton94/leitor-legislacao/actions/workflows/verificar.yml";
+
+const $ = (s, r = document) => r.querySelector(s);
+const estado = {
+  status: {}, leis: {}, offline: false, statusEm: null,
+  info: lerLS("info-leis", {}),                 // {id: {hash, versao, baixadoEm}}
+  alteracoes: lerLS("alteracoes-nao-vistas", {}),// {id: {desde, ate, artigos:[{artigo,tipo}]}}
+  sincronizando: new Set(),
+};
+
+function lerLS(chave, padrao) {
+  try { return JSON.parse(localStorage.getItem(chave)) ?? padrao; } catch { return padrao; }
+}
+function gravarLS(chave, valor) {
+  try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {}
+}
+function esc(t) {
+  return String(t).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function semAcento(t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+function dataHora(iso) {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  return d.toLocaleDateString("pt-BR") + " às " + d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+}
+function dataCurta(isoData) {
+  if (!isoData) return "—";
+  const [a, m, d] = isoData.slice(0, 10).split("-");
+  return `${d}/${m}/${a}`;
+}
+function urlLei(id) { return `dados/leis/${id}.json`; }
+
+/* ---------------- ajustes de leitura ---------------- */
+const ajustes = Object.assign({ fonte: 19, entrelinha: 1.7, tema: "auto" }, lerLS("ajustes", {}));
+function aplicarAjustes() {
+  const r = document.documentElement;
+  r.style.setProperty("--fonte", ajustes.fonte + "px");
+  r.style.setProperty("--entrelinha", ajustes.entrelinha);
+  if (ajustes.tema === "auto") r.removeAttribute("data-theme"); else r.setAttribute("data-theme", ajustes.tema);
+  gravarLS("ajustes", ajustes);
+}
+aplicarAjustes();
+
+/* ---------------- dados: status e leis ---------------- */
+async function buscarComTempo(url, ms = 12000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const r = await fetch(url, { cache: "no-cache", signal: ctrl.signal });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r;
+  } finally { clearTimeout(t); }
+}
+
+async function carregarStatus() {
+  const cache = await caches.open(CACHE_DADOS);
+  try {
+    const r = await buscarComTempo("dados/status.json");
+    await cache.put("dados/status.json", r.clone());
+    estado.status = await r.json();
+    estado.offline = false;
+    estado.statusEm = new Date().toISOString();
+    gravarLS("status-em", estado.statusEm);
+  } catch {
+    estado.offline = true;
+    const antigo = await cache.match("dados/status.json");
+    estado.status = antigo ? await antigo.json() : {};
+    estado.statusEm = lerLS("status-em", null);
+  }
+}
+
+async function leiDoCache(id) {
+  if (estado.leis[id]) return estado.leis[id];
+  const cache = await caches.open(CACHE_DADOS);
+  const r = await cache.match(urlLei(id));
+  if (!r) return null;
+  estado.leis[id] = await r.json();
+  return estado.leis[id];
+}
+
+/* Baixa a lei somente se a versão guardada no aparelho for diferente da versão oficial atual. */
+async function sincronizarLei(id) {
+  const st = estado.status[id];
+  if (!st || !st.hash) return;
+  const local = estado.info[id];
+  const cache = await caches.open(CACHE_DADOS);
+  const temCopia = await cache.match(urlLei(id));
+  if (temCopia && local && local.hash === st.hash) return;       // igual: nada a baixar
+  if (estado.offline) return;
+
+  estado.sincronizando.add(id);
+  try {
+    const r = await buscarComTempo(urlLei(id), 30000);
+    const copia = r.clone();
+    const lei = await r.json();
+    await cache.put(urlLei(id), copia);
+    estado.leis[id] = lei;
+
+    // Mudou a versão da lei (e não só a leitura do texto)? Registra o que mudou para avisar.
+    if (local && local.versao && lei.versao !== local.versao) {
+      await registrarAlteracoes(id, local.versao, lei.versao);
+    }
+    estado.info[id] = { hash: lei.hash, versao: lei.versao, baixadoEm: new Date().toISOString() };
+    gravarLS("info-leis", estado.info);
+  } catch {
+    /* sem conexão ou falha: a situação da lei continua marcando a versão nova como pendente */
+  } finally {
+    estado.sincronizando.delete(id);
+  }
+}
+
+async function registrarAlteracoes(id, desde, ate) {
+  let artigos = [];
+  try {
+    const r = await buscarComTempo(`dados/historico/${id}.json`);
+    const hist = await r.json();
+    for (const reg of hist) {
+      if (reg.versao_nova > desde) {
+        reg.alterados.forEach(a => artigos.push({ artigo: a.artigo, tipo: "alterado" }));
+        reg.incluidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "incluído" }));
+        reg.removidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "removido" }));
+      }
+    }
+  } catch { /* histórico indisponível: o aviso sai sem a lista de artigos */ }
+  const vistos = new Set();
+  artigos = artigos.filter(a => !vistos.has(a.artigo) && vistos.add(a.artigo));
+  estado.alteracoes[id] = { desde, ate, artigos };
+  gravarLS("alteracoes-nao-vistas", estado.alteracoes);
+}
+
+/* Situação exibida: só diz "Atualizada" quando há confirmação recente da fonte oficial. */
+function situacao(id) {
+  const st = estado.status[id];
+  if (!st) return { cls: "pend", txt: "Verificação pendente", sub: "Ainda não há verificação registrada." };
+  const local = estado.info[id];
+  const okEm = st.ultima_verificacao_ok;
+  const subOk = "Última verificação confirmada: " + dataHora(okEm);
+
+  if (estado.alteracoes[id]) return { cls: "alt", txt: "Alteração detectada", sub: "A lei mudou desde a sua última leitura. " + subOk };
+  if (!local || local.hash !== st.hash) {
+    if (estado.sincronizando.has(id)) return { cls: "pend", txt: "Baixando versão atual", sub: subOk };
+    return local
+      ? { cls: "alt", txt: "Alteração detectada", sub: "Há uma versão nova que ainda não foi baixada. Conecte-se à internet." }
+      : { cls: "pend", txt: "Ainda não baixada", sub: "Conecte-se à internet para baixar esta lei." };
+  }
+  if (st.status === "ERRO_VERIFICACAO") return { cls: "erro", txt: "Não foi possível confirmar a atualização", sub: subOk };
+  if (!okEm) return { cls: "pend", txt: "Verificação pendente", sub: "A fonte oficial ainda não foi consultada com sucesso." };
+  const horas = (Date.now() - new Date(okEm)) / 36e5;
+  if (horas > HORAS_PENDENTE) return { cls: "pend", txt: "Verificação pendente", sub: subOk };
+  return { cls: "ok", txt: "Atualizada", sub: subOk };
+}
+
+/* ---------------- interpretação do texto do artigo ---------------- */
+const RE_NOTA = /\((?:Reda[çc][ãa]o|Inclu[íi]d|Revogad|Vide|Vig[êe]ncia|Renumerad|Acrescid|Regulamento|Produ[çc][ãa]o de efeito|Declarad|Suspens|Promulga|Vetad|Convertid|Express[ãa]o|Texto)[^()]*(?:\([^()]*\)[^()]*)*\)/g;
+const RE_ESTRUTURA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|Se[çc][ãa]o|SUBSE[ÇC][ÃA]O|Subse[çc][ãa]o|DISPOSI[ÇC][ÕO]ES)\b/;
+
+function tipoLinha(l, i) {
+  if (i === 0) return "caput";
+  if (/^(§|Par[áa]grafo [úu]nico)/i.test(l)) return "par";
+  if (/^[IVXLC]+\s*[-–—]/.test(l)) return "inc";
+  if (/^[a-z]\)\s/.test(l)) return "ali";
+  if (/^Pena\s*[-–—]/.test(l)) return "pena";
+  if (/^\(.*\)$/.test(l)) return "notalinha";
+  if (RE_ESTRUTURA.test(l)) return "estrutura";
+  const letras = l.replace(/[^A-Za-zÀ-ú]/g, "");
+  if (letras.length > 3 && letras === letras.toUpperCase()) return "estrutura";
+  if (l.length <= 140 && !/[.;:,]$/.test(l) && /^[A-ZÀ-Ú]/.test(l) && !/^Art/.test(l)) return "rubrica";
+  return "texto";
+}
+
+/* Divide cada artigo em linhas tipadas e move os títulos que ficaram no fim de um artigo
+   para o início do artigo seguinte (é onde eles pertencem). */
+/* O navegador reordena chaves numéricas ("10" antes de "9-A"), então a ordem dos artigos
+   é refeita pela numeração: 9 < 9-A < 10 … 359-M < 359-M-A < 359-N. */
+function chaveOrdem(id) {
+  const [base, dup] = id.split("#");
+  const [num, ...letras] = base.split("-");
+  return { num: parseInt(num, 10), letras, dup: parseInt(dup || "1", 10) };
+}
+function compararArtigos(a, b) {
+  const x = chaveOrdem(a), y = chaveOrdem(b);
+  if (x.num !== y.num) return x.num - y.num;
+  for (let i = 0; i < Math.max(x.letras.length, y.letras.length); i++) {
+    if (x.letras[i] === undefined) return -1;
+    if (y.letras[i] === undefined) return 1;
+    if (x.letras[i] !== y.letras[i]) return x.letras[i] < y.letras[i] ? -1 : 1;
+  }
+  return x.dup - y.dup;
+}
+
+function prepararLei(lei) {
+  if (lei._prep) return lei._prep;
+  const ids = Object.keys(lei.artigos).sort(compararArtigos);
+  const arts = ids.map(id => ({
+    id, linhas: lei.artigos[id].texto.split("\n").map((t, i) => ({ t, tipo: tipoLinha(t, i) })), antes: [],
+  }));
+  for (let k = 0; k < arts.length - 1; k++) {
+    const ls = arts[k].linhas;
+    const mover = [];
+    while (ls.length > 1 && ["rubrica", "estrutura"].includes(ls[ls.length - 1].tipo)) mover.unshift(ls.pop());
+    arts[k + 1].antes = mover;
+  }
+  // o nome logo abaixo de "Seção IV" (ex.: "Da Remição") faz parte do título
+  for (const a of arts) {
+    a.antes.forEach((l, j) => {
+      const prox = a.antes[j + 1];
+      if (l.tipo === "estrutura" && RE_ESTRUTURA.test(l.t) && prox && prox.tipo === "rubrica") prox.tipo = "estrutura";
+    });
+  }
+  // sumário a partir dos títulos estruturais (junta "CAPÍTULO I" com a linha seguinte)
+  const sumario = [];
+  for (const a of arts) {
+    for (let j = 0; j < a.antes.length; j++) {
+      const l = a.antes[j];
+      if (l.tipo !== "estrutura" || !RE_ESTRUTURA.test(l.t)) continue;
+      let rotulo = l.t;
+      const prox = a.antes[j + 1];
+      if (prox && prox.tipo === "estrutura" && !RE_ESTRUTURA.test(prox.t)) rotulo += " — " + prox.t;
+      const nivel = /^(PARTE|LIVRO|T[ÍI]TULO)/i.test(l.t) ? 1 : /^CAP/i.test(l.t) ? 2 : 3;
+      sumario.push({ rotulo, nivel, alvo: a.id });
+    }
+  }
+  lei._prep = { arts, sumario };
+  return lei._prep;
+}
+
+function linhaHTML(texto) {
+  return esc(texto).replace(RE_NOTA, m => `<span class="nota">${m}</span>`);
+}
+
+function artigoHTML(a, alterados) {
+  let h = "";
+  for (const l of a.antes) h += `<p class="${l.tipo === "estrutura" ? "estrutura" : "rubrica"}">${esc(l.t)}</p>`;
+  const caput = a.linhas[0].t;
+  const semNotas = caput.replace(RE_NOTA, "").replace(/^Art\.?\s*[\dºo°\-A-Z]+\.?\s*[-–]?\s*/, "").trim();
+  const revogado = !semNotas && /Revogad/i.test(caput);
+  const m = caput.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)(.*)$/);
+  const rot = m ? m[1] : "";
+  const resto = m ? m[2] : caput;
+  const cls = ["artigo"];
+  if (revogado) cls.push("revogado");
+  if (alterados && alterados.has(a.id)) cls.push("alterado");
+  h += `<div class="${cls.join(" ")}" id="art-${esc(a.id)}" data-art="${esc(a.id)}">`;
+  h += `<p><button class="rotulo" data-menu="${esc(a.id)}">${esc(rot)}</button>${linhaHTML(resto)}</p>`;
+  for (let i = 1; i < a.linhas.length; i++) {
+    const l = a.linhas[i];
+    const c = { par: "par", inc: "inc", ali: "ali", pena: "pena", rubrica: "rubrica", estrutura: "rubrica" }[l.tipo] || "";
+    h += l.tipo === "notalinha"
+      ? `<p><span class="nota">${esc(l.t)}</span></p>`
+      : `<p${c ? ` class="${c}"` : ""}>${linhaHTML(l.t)}</p>`;
+  }
+  return h + "</div>";
+}
+
+/* ---------------- telas ---------------- */
+function definirTopo({ titulo, leitor = false }) {
+  $("#titulo").textContent = titulo;
+  for (const id of ["btn-voltar", "btn-sumario", "btn-ir", "btn-buscar-lei", "btn-aa"]) $("#" + id).classList.toggle("oculto", !leitor);
+  $("#abas").classList.toggle("oculto", leitor);
+}
+
+function mostrarAvisoOffline() {
+  const el = $("#aviso-offline");
+  if (estado.offline) {
+    el.textContent = "Modo offline — exibindo a última versão sincronizada" +
+      (estado.statusEm ? ` (consulta de ${dataHora(estado.statusEm)}).` : ".");
+    el.classList.remove("oculto");
+  } else el.classList.add("oculto");
+}
+
+function marcarAba(rota) {
+  document.querySelectorAll("#abas button").forEach(b => {
+    if (b.dataset.rota === rota) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+  });
+}
+
+function telaAcervo() {
+  definirTopo({ titulo: "Meu Acervo" });
+  marcarAba("acervo");
+  const ids = Object.keys(estado.status);
+  if (!ids.length) {
+    $("#conteudo").innerHTML = `<p class="vazio">${estado.offline
+      ? "Sem conexão e nenhuma lei salva neste aparelho ainda. Conecte-se à internet para baixar o acervo."
+      : "Nenhuma lei no acervo. Acrescente leis no arquivo leis.json do repositório."}</p>`;
+    return;
+  }
+  let h = "";
+  const comAlteracao = ids.filter(id => estado.alteracoes[id]);
+  for (const id of comAlteracao) {
+    const alt = estado.alteracoes[id];
+    const lista = alt.artigos.slice(0, 8).map(a => `Art. ${esc(a.artigo)} (${a.tipo})`).join(", ");
+    h += `<div class="aviso forte">⚠️ <strong>${esc(estado.status[id].nome)}</strong> mudou desde a sua última leitura` +
+      (lista ? `: ${lista}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
+      ` <a href="#/lei/${esc(id)}">Abrir a lei</a></div>`;
+  }
+  h += `<ul class="acervo">`;
+  ids.forEach((id, i) => {
+    const st = estado.status[id];
+    const s = situacao(id);
+    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
+      <span class="aba"></span>
+      <button class="abrir" data-abrir="${esc(id)}">
+        <span class="lei-nome">${esc(st.nome)}</span>
+        <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
+        <span class="selo ${s.cls}">${esc(s.txt)}</span>
+        <span class="lei-verif">${esc(s.sub)}</span>
+      </button>
+      <span></span>
+    </li>`;
+  });
+  $("#conteudo").innerHTML = h + "</ul>";
+}
+
+let leiAberta = null;
+async function telaLei(id, alvo) {
+  const st = estado.status[id];
+  definirTopo({ titulo: st ? st.nome : "Lei", leitor: true });
+  let lei = await leiDoCache(id);
+  if (!lei) {
+    await sincronizarLei(id);
+    lei = await leiDoCache(id);
+  }
+  if (!lei) {
+    $("#conteudo").innerHTML = `<p class="vazio">Esta lei ainda não foi baixada para o aparelho. Conecte-se à internet e abra de novo.</p>`;
+    return;
+  }
+  leiAberta = id;
+  $("#conteudo").classList.add("modo-leitor");
+  const prep = prepararLei(lei);
+  const alt = estado.alteracoes[id];
+  const alterados = alt ? new Set(alt.artigos.map(a => a.artigo)) : null;
+  const s = situacao(id);
+
+  let topoAviso = `<div class="aviso"><span class="selo ${s.cls}">${esc(s.txt)}</span><br>${esc(s.sub)}` +
+    ` · Versão de ${dataCurta(lei.versao)}</div>`;
+  if (alt) {
+    const links = alt.artigos.map(a => `<a href="#/lei/${esc(id)}/${encodeURIComponent(a.artigo)}">Art. ${esc(a.artigo)}</a> (${a.tipo})`).join(", ");
+    topoAviso += `<div class="aviso forte">⚠️ Esta lei mudou desde a sua última leitura${links ? ": " + links : ""}. ` +
+      `Os artigos alterados estão marcados com uma faixa vermelha à esquerda. ` +
+      `<button class="link" id="btn-entendi">Marcar como lido</button></div>`;
+  }
+
+  const sumarioHTML = prep.sumario.map(s =>
+    `<a class="n${s.nivel}" href="#/lei/${esc(id)}/${encodeURIComponent(s.alvo)}">${esc(s.rotulo)}</a>`).join("");
+  let texto = "";
+  for (const a of prep.arts) texto += artigoHTML(a, alterados);
+
+  $("#conteudo").innerHTML = `${topoAviso}
+    <div class="leitor-wrap">
+      <nav class="sumario sumario-lateral" aria-label="Sumário">${sumarioHTML || '<p class="contagem">Esta lei não tem divisões.</p>'}</nav>
+      <article class="texto-lei" id="texto-lei" lang="pt-BR">
+        ${texto}
+        <div class="rodape-fonte">Fonte: texto compilado do Planalto —
+          <a href="${esc(lei.url)}" target="_blank" rel="noopener">abrir a página oficial</a>.<br>
+          O texto compilado não substitui o publicado no Diário Oficial da União.</div>
+      </article>
+    </div>`;
+  const btn = $("#btn-entendi");
+  if (btn) btn.onclick = () => { delete estado.alteracoes[id]; gravarLS("alteracoes-nao-vistas", estado.alteracoes); telaLei(id); };
+
+  const destino = alvo || lerLS("posicao", {})[id];
+  if (destino) irParaArtigo(destino, !!alvo);
+  observarPosicao(id);
+}
+
+function irParaArtigo(artId, destacar = true) {
+  const el = document.getElementById("art-" + artId);
+  if (!el) return false;
+  el.scrollIntoView({ block: "start" });
+  if (destacar) {
+    el.classList.add("alvo");
+    setTimeout(() => el.classList.remove("alvo"), 2200);
+  }
+  return true;
+}
+
+let observador = null;
+function observarPosicao(id) {
+  if (observador) observador.disconnect();
+  let tempo = null;
+  observador = new IntersectionObserver(entradas => {
+    const visivel = entradas.find(e => e.isIntersecting);
+    if (!visivel) return;
+    clearTimeout(tempo);
+    tempo = setTimeout(() => {
+      const pos = lerLS("posicao", {});
+      pos[id] = visivel.target.dataset.art;
+      gravarLS("posicao", pos);
+    }, 400);
+  }, { rootMargin: "-80px 0px -70% 0px" });
+  document.querySelectorAll(".artigo").forEach(el => observador.observe(el));
+}
+
+/* ---------------- busca ---------------- */
+function buscarEm(lei, id, termo, limite = 200) {
+  const alvo = semAcento(termo.trim());
+  if (alvo.length < 2) return [];
+  const res = [];
+  // busca no texto do próprio artigo (sem os títulos que pertencem ao artigo seguinte)
+  for (const a of prepararLei(lei).arts) {
+    const art = a.id;
+    const texto = a.linhas.map(l => l.t).join(" ");
+    const plano = semAcento(texto);
+    const pos = plano.indexOf(alvo);
+    if (pos < 0) continue;
+    const ini = Math.max(0, pos - 60);
+    const trecho = texto.slice(ini, pos + alvo.length + 90);
+    const i2 = pos - ini;
+    res.push({
+      id, art, trecho: (ini > 0 ? "…" : "") + esc(trecho.slice(0, i2)) + "<mark>" +
+        esc(trecho.slice(i2, i2 + alvo.length)) + "</mark>" + esc(trecho.slice(i2 + alvo.length)) + "…",
+    });
+    if (res.length >= limite) break;
+  }
+  return res;
+}
+
+function listaResultados(res, mostrarLei) {
+  if (!res.length) return "";
+  return `<ul class="resultados">${res.map(r => `<li><button data-ir="${esc(r.id)}|${esc(r.art)}">
+    <span class="res-titulo">${mostrarLei ? esc(estado.status[r.id]?.nome || r.id) + " — " : ""}Art. ${esc(r.art.replace(/#\d+$/, ""))}</span>
+    <span class="res-trecho">${r.trecho}</span></button></li>`).join("")}</ul>`;
+}
+
+async function telaPesquisar() {
+  definirTopo({ titulo: "Pesquisar" });
+  marcarAba("pesquisar");
+  $("#conteudo").innerHTML = `<div class="secao">
+    <input class="campo" id="busca-global" type="search" placeholder="Palavra, trecho ou expressão — ex.: livramento condicional" autocomplete="off">
+    <div id="res-global"></div></div>`;
+  const ids = Object.keys(estado.status);
+  const campo = $("#busca-global");
+  campo.value = sessionStorage.getItem("busca-global") || "";
+  const rodar = () => {
+    sessionStorage.setItem("busca-global", campo.value);
+    let res = [];
+    for (const id of ids) if (estado.leis[id]) res = res.concat(buscarEm(estado.leis[id], id, campo.value, 60));
+    $("#res-global").innerHTML = campo.value.trim().length < 2 ? "" :
+      `<p class="contagem">${res.length ? res.length + " artigo(s) encontrado(s)" : "Nada encontrado nas leis do acervo."}</p>` + listaResultados(res, true);
+  };
+  campo.oninput = rodar;
+  campo.focus();
+  await Promise.all(ids.map(leiDoCache));   // carrega as leis do aparelho (sem internet)
+  if (campo.isConnected) rodar();
+}
+
+async function telaAjustes() {
+  definirTopo({ titulo: "Configurações" });
+  marcarAba("ajustes");
+  const cache = await caches.open(CACHE_DADOS);
+  let bytes = 0, qtd = 0;
+  for (const req of await cache.keys()) {
+    if (!req.url.includes("/dados/leis/")) continue;
+    const r = await cache.match(req);
+    bytes += (await r.clone().blob()).size; qtd++;
+  }
+  const mb = (bytes / 1048576).toFixed(1).replace(".", ",");
+  $("#conteudo").innerHTML = `
+  <div class="secao"><h2>Atualizações</h2><div class="cartao">
+    <p>O robô confere as leis no Planalto todos os dias às 6h. Ao abrir, o app só baixa uma lei quando a versão oficial dela mudou.</p>
+    <p>Última consulta do app: ${esc(dataHora(estado.statusEm))}${estado.offline ? " (sem conexão agora)" : ""}.</p>
+    <div class="acoes" style="margin-bottom:14px">
+      <button id="btn-atualizar">Buscar atualizações agora</button>
+      <a class="botao" href="${REPO_ACTIONS}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Pedir uma nova verificação no Planalto (abre o GitHub)</a>
+    </div></div></div>
+  <div class="secao"><h2>Armazenamento</h2><div class="cartao">
+    <p>Legislações offline: ${qtd} lei(s), ${mb} MB.</p>
+    <div class="acoes" style="margin-bottom:14px"><button id="btn-limpar">Remover leis offline deste aparelho</button></div>
+    <p>As leis são baixadas de novo quando você abrir cada uma com internet. Na próxima etapa, suas anotações e grifos ficarão guardados separadamente e não serão afetados por isso.</p>
+  </div></div>
+  <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>`;
+  montarAjustesLeitura($("#ajustes-leitura"));
+  $("#btn-atualizar").onclick = async e => {
+    e.target.textContent = "Buscando…";
+    await atualizarTudo();
+    telaAjustes();
+  };
+  $("#btn-limpar").onclick = async () => {
+    if (!confirm("Remover as leis salvas neste aparelho? Elas serão baixadas de novo quando houver internet.")) return;
+    for (const req of await cache.keys()) if (req.url.includes("/dados/leis/")) await cache.delete(req);
+    estado.leis = {}; estado.info = {}; gravarLS("info-leis", {});
+    telaAjustes();
+  };
+}
+
+function montarAjustesLeitura(alvo) {
+  const seg = (nome, opcoes, atual) =>
+    `<div class="segmentado" data-ajuste="${nome}">${opcoes.map(([v, r]) =>
+      `<button data-v="${v}" aria-pressed="${String(v) === String(atual)}">${r}</button>`).join("")}</div>`;
+  alvo.innerHTML = `
+    <div class="linha-ajuste"><span>Tamanho do texto</span>
+      <div class="segmentado"><button id="fonte-menos" aria-label="Diminuir fonte">A−</button>
+      <button disabled>${ajustes.fonte}</button><button id="fonte-mais" aria-label="Aumentar fonte">A+</button></div></div>
+    <div class="linha-ajuste"><span>Espaçamento</span>${seg("entrelinha", [[1.5, "Justo"], [1.7, "Normal"], [1.95, "Amplo"]], ajustes.entrelinha)}</div>
+    <div class="linha-ajuste" style="border:0"><span>Tema</span>${seg("tema", [["auto", "Automático"], ["light", "Claro"], ["dark", "Escuro"]], ajustes.tema)}</div>`;
+  $("#fonte-menos", alvo).onclick = () => { ajustes.fonte = Math.max(14, ajustes.fonte - 1); aplicarAjustes(); montarAjustesLeitura(alvo); };
+  $("#fonte-mais", alvo).onclick = () => { ajustes.fonte = Math.min(30, ajustes.fonte + 1); aplicarAjustes(); montarAjustesLeitura(alvo); };
+  alvo.querySelectorAll("[data-ajuste] button").forEach(b => b.onclick = () => {
+    const nome = b.parentElement.dataset.ajuste;
+    ajustes[nome] = nome === "entrelinha" ? Number(b.dataset.v) : b.dataset.v;
+    aplicarAjustes(); montarAjustesLeitura(alvo);
+  });
+}
+
+/* ---------------- painéis ---------------- */
+function abrirPainel(html) {
+  $("#painel-caixa").innerHTML = html;
+  $("#painel").classList.remove("oculto");
+}
+function fecharPainel() { $("#painel").classList.add("oculto"); }
+$("#painel").addEventListener("click", e => { if (e.target.id === "painel" || e.target.closest("[data-fechar]")) fecharPainel(); });
+const botaoFechar = `<button class="icone-btn" data-fechar>Fechar</button>`;
+
+$("#btn-aa").onclick = () => {
+  abrirPainel(`<h2>Leitura ${botaoFechar}</h2><div id="aa"></div>`);
+  montarAjustesLeitura($("#aa"));
+};
+$("#btn-sumario").onclick = () => {
+  const lei = estado.leis[leiAberta];
+  const prep = lei && prepararLei(lei);
+  abrirPainel(`<h2>Sumário ${botaoFechar}</h2><nav class="sumario">${prep && prep.sumario.length
+    ? prep.sumario.map(s => `<a class="n${s.nivel}" data-fechar href="#/lei/${esc(leiAberta)}/${encodeURIComponent(s.alvo)}">${esc(s.rotulo)}</a>`).join("")
+    : '<p class="contagem">Esta lei não tem divisões.</p>'}</nav>`);
+};
+$("#btn-ir").onclick = () => {
+  abrirPainel(`<h2>Ir para o artigo ${botaoFechar}</h2>
+    <input class="campo" id="campo-ir" inputmode="text" placeholder="Número do artigo — ex.: 112 ou 121-A" autocomplete="off">
+    <p class="contagem" id="msg-ir"></p>`);
+  const c = $("#campo-ir");
+  c.focus();
+  c.onkeydown = e => {
+    if (e.key !== "Enter") return;
+    const v = c.value.trim().toUpperCase().replace(/^ART\.?\s*/, "").replace(/[ºO°]/g, "").replace(/\s*-\s*/g, "-");
+    fecharPainel();
+    if (!irParaArtigo(v)) { abrirPainel(`<h2>Ir para o artigo ${botaoFechar}</h2><p>O Art. ${esc(v)} não existe nesta lei.</p>`); }
+  };
+};
+$("#btn-buscar-lei").onclick = () => {
+  abrirPainel(`<h2>Buscar nesta lei ${botaoFechar}</h2>
+    <input class="campo" id="campo-busca-lei" type="search" placeholder="Palavra ou trecho" autocomplete="off">
+    <div id="res-lei"></div>`);
+  const c = $("#campo-busca-lei");
+  c.focus();
+  c.oninput = () => {
+    const res = buscarEm(estado.leis[leiAberta], leiAberta, c.value);
+    $("#res-lei").innerHTML = c.value.trim().length < 2 ? "" :
+      `<p class="contagem">${res.length ? res.length + " artigo(s)" : "Nada encontrado nesta lei."}</p>` + listaResultados(res, false);
+  };
+};
+$("#btn-voltar").onclick = () => { location.hash = "#/acervo"; };
+
+/* menu do artigo: copiar e compartilhar */
+function textoArtigo(id, art) {
+  return estado.leis[id].artigos[art].texto + `\n\n${estado.status[id]?.nome || ""} — texto compilado do Planalto`;
+}
+document.addEventListener("click", async e => {
+  const menu = e.target.closest("[data-menu]");
+  if (menu) {
+    const art = menu.dataset.menu;
+    abrirPainel(`<h2>Art. ${esc(art.replace(/#\d+$/, ""))} ${botaoFechar}</h2><div class="acoes">
+      <button id="copiar-art">Copiar o artigo</button>
+      ${navigator.share ? '<button id="compartilhar-art">Compartilhar o artigo</button>' : ""}
+    </div><p class="contagem">Grifos, anotações e favoritos chegam na próxima etapa.</p>`);
+    $("#copiar-art").onclick = async () => {
+      try { await navigator.clipboard.writeText(textoArtigo(leiAberta, art)); $("#copiar-art").textContent = "Artigo copiado"; }
+      catch { $("#copiar-art").textContent = "Não foi possível copiar"; }
+    };
+    const sh = $("#compartilhar-art");
+    if (sh) sh.onclick = () => navigator.share({ text: textoArtigo(leiAberta, art) }).catch(() => {});
+    return;
+  }
+  const abrir = e.target.closest("[data-abrir]");
+  if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
+  const ir = e.target.closest("[data-ir]");
+  if (ir) {
+    const [id, art] = ir.dataset.ir.split("|");
+    fecharPainel();
+    if (location.hash.startsWith("#/lei/" + id) && leiAberta === id) irParaArtigo(art);
+    else location.hash = `#/lei/${id}/${encodeURIComponent(art)}`;
+    return;
+  }
+  const aba = e.target.closest("#abas button");
+  if (aba) location.hash = "#/" + aba.dataset.rota;
+});
+
+/* ---------------- navegação ---------------- */
+async function rotear() {
+  fecharPainel();
+  mostrarAvisoOffline();
+  const partes = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
+  if (partes[0] === "lei" && partes[1]) {
+    if (leiAberta === partes[1] && partes[2] && document.getElementById("texto-lei")) { irParaArtigo(partes[2]); return; }
+    window.scrollTo(0, 0);
+    return telaLei(partes[1], partes[2]);
+  }
+  window.scrollTo(0, 0);
+  leiAberta = null;
+  $("#conteudo").classList.remove("modo-leitor");
+  if (partes[0] === "pesquisar") return telaPesquisar();
+  if (partes[0] === "ajustes") return telaAjustes();
+  return telaAcervo();
+}
+window.addEventListener("hashchange", rotear);
+
+async function atualizarTudo() {
+  await carregarStatus();
+  mostrarAvisoOffline();
+  const ids = Object.keys(estado.status);
+  const pendentes = ids.filter(id => !estado.info[id] || estado.info[id].hash !== estado.status[id].hash);
+  if (pendentes.length && !leiAberta) telaAcervo();      // mostra "Baixando versão atual"
+  for (const id of pendentes) await sincronizarLei(id);  // uma de cada vez, só as que mudaram
+}
+
+async function iniciar() {
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  await atualizarTudo();
+  rotear();
+}
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible") return;
+  const antes = JSON.stringify(estado.info);
+  await atualizarTudo();
+  if (JSON.stringify(estado.info) !== antes || !leiAberta) rotear();
+});
+iniciar();
+</script>
+</body>
+</html>
