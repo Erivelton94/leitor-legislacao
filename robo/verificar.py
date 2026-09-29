@@ -77,7 +77,10 @@ def normalizar(linha):
 def decodificar(conteudo: bytes) -> str:
     """O Planalto mistura codificações (há páginas em UTF-16, UTF-8 e Windows-1252)."""
     if conteudo.startswith((b"\xff\xfe", b"\xfe\xff")):
-        return conteudo.decode("utf-16")
+        # Algumas páginas em UTF-16 chegam com 1 byte sobrando no final; ele é descartado.
+        if len(conteudo) % 2:
+            conteudo = conteudo[:-1]
+        return conteudo.decode("utf-16", errors="replace")
     if conteudo.startswith(b"\xef\xbb\xbf"):
         return conteudo[3:].decode("utf-8")
     try:
@@ -301,7 +304,14 @@ def main():
     status = ler_json(ARQ_STATUS, {})
     for lei in leis:
         print(f"Verificando {lei['nome']}…", flush=True)
-        status[lei["id"]] = verificar_lei(lei, status.get(lei["id"]))
+        try:
+            status[lei["id"]] = verificar_lei(lei, status.get(lei["id"]))
+        except Exception as e:  # um problema inesperado numa lei não pode derrubar as outras
+            reg = dict(status.get(lei["id"]) or {})
+            reg.update({"nome": lei["nome"], "url": lei["url"], "status": "ERRO_VERIFICACAO",
+                        "ultima_tentativa": agora().isoformat(timespec="seconds"),
+                        "mensagem": f"Erro inesperado ao processar a página: {type(e).__name__}: {e}"})
+            status[lei["id"]] = reg
         time.sleep(3)  # intervalo educado entre consultas à fonte
     salvar_json(ARQ_STATUS, status)
     escrever_resumo(status)
