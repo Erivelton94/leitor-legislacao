@@ -1,0 +1,79 @@
+{
+ "id": "presidios-federais",
+ "nome": "Presídios Federais de Segurança Máxima",
+ "numero": "Lei nº 11.671/2008",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11671.htm",
+ "versao": "2026-09-29",
+ "hash": "548c0176db384025b9e429aa1e8c3271d6c7751077d9bab291ffc4aee1150e05",
+ "etag": "\"65a2-6519bbf676cf8\"",
+ "last_modified": "Tue, 12 May 2026 09:47:13 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 11.671, DE 8 DE MAIO DE 2008.",
+  "Dispõe sobre a transferência e inclusão de presos em estabelecimentos penais federais de segurança máxima e dá outras providências.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-28T04:42:41-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1o A inclusão de presos em estabelecimentos penais federais de segurança máxima e a transferência de presos de outros estabelecimentos para aqueles obedecerão ao disposto nesta Lei.",
+   "hash": "6a38053e2dac3ea52908b429b2e30cb401b78df073dba221fce16f2555ffeab9"
+  },
+  "2": {
+   "texto": "Art. 2o A atividade jurisdicional de execução penal nos estabelecimentos penais federais será desenvolvida pelo juízo federal da seção ou subseção judiciária em que estiver localizado o estabelecimento penal federal de segurança máxima ao qual for recolhido o preso.\nParágrafo único. O juízo federal de execução penal será competente para as ações de natureza penal que tenham por objeto fatos ou incidentes relacionados à execução da pena ou infrações penais ocorridas no estabelecimento penal federal. (Incluído pela Lei nº 13.964, de 2019)",
+   "hash": "fb20b8a1d2a3f4cf3dfc5052f0cd1cf35cf3a814e6b2c30b363fed9e4f4f8dc9"
+  },
+  "3": {
+   "texto": "Art. 3o Serão recolhidos em estabelecimentos penais federais de segurança máxima aqueles cuja medida se justifique no interesse da segurança pública ou do próprio preso, condenado ou provisório.",
+   "hash": "c72093269e96bbc625f7092fdc7c2d3b362b0d11285856a3d63c2f58669f4460"
+  },
+  "3#2": {
+   "texto": "Art. 3º Serão incluídos em estabelecimentos penais federais de segurança máxima aqueles para quem a medida se justifique no interesse da segurança pública ou do próprio preso, condenado ou provisório. (Redação dada pela Lei nº 13.964, de 2019)\n§ 1º A inclusão em estabelecimento penal federal de segurança máxima, no atendimento do interesse da segurança pública, será em regime fechado de segurança máxima, com as seguintes características: (Incluído pela Lei nº 13.964, de 2019)\nI - recolhimento em cela individual; (Incluído pela Lei nº 13.964, de 2019)\nII - visita do cônjuge, do companheiro, de parentes e de amigos somente em dias determinados, por meio virtual ou no parlatório, com o máximo de 2 (duas) pessoas por vez, além de eventuais crianças, separados por vidro e comunicação por meio de interfone, com filmagem e gravações; (Incluído pela Lei nº 13.964, de 2019)\nIII - banho de sol de até 2 (duas) horas diárias; e (Incluído pela Lei nº 13.964, de 2019)\nIV - monitoramento de todos os meios de comunicação, inclusive de correspondência escrita. (Incluído pela Lei nº 13.964, de 2019)\n§ 2º Os estabelecimentos penais federais de segurança máxima deverão dispor de monitoramento de áudio e vídeo no parlatório e nas áreas comuns, para fins de preservação da ordem interna e da segurança pública, vedado seu uso nas celas e no atendimento advocatício, salvo expressa autorização judicial em contrário. (Incluído pela Lei nº 13.964, de 2019)\n§ 3º As gravações das visitas não poderão ser utilizadas como meio de prova de infrações penais pretéritas ao ingresso do preso no estabelecimento. (Incluído pela Lei nº 13.964, de 2019)\n§ 4º Os diretores dos estabelecimentos penais federais de segurança máxima ou o Diretor do Sistema Penitenciário Federal poderão suspender e restringir o direito de visitas previsto no inciso II do § 1º deste artigo por meio de ato fundamentado. (Incluído pela Lei nº 13.964, de 2019)\n§ 5º Configura o crime do art. 325 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), a violação ao disposto no § 2º deste artigo. (Incluído pela Lei nº 13.964, de 2019)\n§ 6º Será preferencialmente recolhido a estabelecimento penal federal o preso provisório ou condenado pela prática do crime tipificado no inciso VII do § 2º do art. 121 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal). (Incluído pela Lei nº 15.407, de 2026)\n§ 7º As audiências com presos recolhidos em estabelecimentos penais federais realizar-se-ão, sempre que possível, por meio de videoconferência. (Incluído pela Lei nº 15.407, de 2026)\n§ 8º Na hipótese prevista no § 6º deste artigo, se a decisão determinar o recolhimento a estabelecimento penal federal, caberá ao juiz da execução ou da decretação da prisão provisória solicitar à Secretaria Nacional de Políticas Penais do Ministério da Justiça e Segurança Pública a reserva de vaga ao preso para cumprimento da medida. (Incluído pela Lei nº 15.407, de 2026)",
+   "hash": "638b5e315a330ef815c2d45756aec29e914c7e87ece5f0a49d5faff829ff52e0"
+  },
+  "4": {
+   "texto": "Art. 4o A admissão do preso, condenado ou provisório, dependerá de decisão prévia e fundamentada do juízo federal competente, após receber os autos de transferência enviados pelo juízo responsável pela execução penal ou pela prisão provisória.\n§ 1o A execução penal da pena privativa de liberdade, no período em que durar a transferência, ficará a cargo do juízo federal competente.\n§ 2o Apenas a fiscalização da prisão provisória será deprecada, mediante carta precatória, pelo juízo de origem ao juízo federal competente, mantendo aquele juízo a competência para o processo e para os respectivos incidentes.",
+   "hash": "50f267abbdfd80eae2360e098a360c672acfc5e126a4ff8d0648295508133fc8"
+  },
+  "5": {
+   "texto": "Art. 5o São legitimados para requerer o processo de transferência, cujo início se dá com a admissibilidade pelo juiz da origem da necessidade da transferência do preso para estabelecimento penal federal de segurança máxima, a autoridade administrativa, o Ministério Público e o próprio preso.\n§ 1o Caberá à Defensoria Pública da União a assistência jurídica ao preso que estiver nos estabelecimentos penais federais de segurança máxima.\n§ 2o Instruídos os autos do processo de transferência, serão ouvidos, no prazo de 5 (cinco) dias cada, quando não requerentes, a autoridade administrativa, o Ministério Público e a defesa, bem como o Departamento Penitenciário Nacional – DEPEN, a quem é facultado indicar o estabelecimento penal federal mais adequado.\n§ 3o A instrução dos autos do processo de transferência será disciplinada no regulamento para fiel execução desta Lei.\n§ 4o Na hipótese de imprescindibilidade de diligências complementares, o juiz federal ouvirá, no prazo de 5 (cinco) dias, o Ministério Público Federal e a defesa e, em seguida, decidirá acerca da transferência no mesmo prazo.\n§ 5o A decisão que admitir o preso no estabelecimento penal federal de segurança máxima indicará o período de permanência.\n§ 6o Havendo extrema necessidade, o juiz federal poderá autorizar a imediata transferência do preso e, após a instrução dos autos, na forma do § 2o deste artigo, decidir pela manutenção ou revogação da medida adotada.\n§ 7o A autoridade policial será comunicada sobre a transferência do preso provisório quando a autorização da transferência ocorrer antes da conclusão do inquérito policial que presidir.",
+   "hash": "ce991bd5322372681fd53d4f57cf7f2d5d7236f1b82955f9a2653a8ea60602d8"
+  },
+  "6": {
+   "texto": "Art. 6o Admitida a transferência do preso condenado, o juízo de origem deverá encaminhar ao juízo federal os autos da execução penal.",
+   "hash": "aa80d569fdbbe580bd77e45b22640cda8b18560a03032669c80ad210df0247e3"
+  },
+  "7": {
+   "texto": "Art. 7o Admitida a transferência do preso provisório, será suficiente a carta precatória remetida pelo juízo de origem, devidamente instruída, para que o juízo federal competente dê início à fiscalização da prisão no estabelecimento penal federal de segurança máxima.",
+   "hash": "065d3bee61f464be625d771019e88774d9da960140b55760fadb447ab662938f"
+  },
+  "8": {
+   "texto": "Art. 8o As visitas feitas pelo juiz responsável ou por membro do Ministério Público, às quais se referem os arts. 66 e 68 da Lei nº 7.210, de 11 de julho de 1984, serão registradas em livro próprio, mantido no respectivo estabelecimento.",
+   "hash": "2341a04ac2688eefaf00d1ab883200c9cca355a76fa0bb742b7148217805c508"
+  },
+  "9": {
+   "texto": "Art. 9o Rejeitada a transferência, o juízo de origem poderá suscitar o conflito de competência perante o tribunal competente, que o apreciará em caráter prioritário.",
+   "hash": "f21164fb4189d0af91be2a3e7d9ad4757fe810160f92f0bd752c44d8e29d68a0"
+  },
+  "10": {
+   "texto": "Art. 10. A inclusão de preso em estabelecimento penal federal de segurança máxima será excepcional e por prazo determinado.\n§ 1o O período de permanência não poderá ser superior a 360 (trezentos e sessenta) dias, renovável, excepcionalmente, quando solicitado motivadamente pelo juízo de origem, observados os requisitos da transferência.\n§ 1º O período de permanência será de até 3 (três) anos, renovável por iguais períodos, quando solicitado motivadamente pelo juízo de origem, observados os requisitos da transferência, e se persistirem os motivos que a determinaram. (Redação dada pela Lei nº 13.964, de 2019)\n§ 2o Decorrido o prazo, sem que seja feito, imediatamente após seu decurso, pedido de renovação da permanência do preso em estabelecimento penal federal de segurança máxima, ficará o juízo de origem obrigado a receber o preso no estabelecimento penal sob sua jurisdição.\n§ 3o Tendo havido pedido de renovação, o preso, recolhido no estabelecimento federal em que estiver, aguardará que o juízo federal profira decisão.\n§ 4o Aceita a renovação, o preso permanecerá no estabelecimento federal de segurança máxima em que estiver, retroagindo o termo inicial do prazo ao dia seguinte ao término do prazo anterior.\n§ 5o Rejeitada a renovação, o juízo de origem poderá suscitar o conflito de competência, que o tribunal apreciará em caráter prioritário.\n§ 6o Enquanto não decidido o conflito de competência em caso de renovação, o preso permanecerá no estabelecimento penal federal.",
+   "hash": "43bb0b9f78fe03ca1e3fe30322efd478fddac0aa054a7a326d4c9c0a68330587"
+  },
+  "11": {
+   "texto": "Art. 11. A lotação máxima do estabelecimento penal federal de segurança máxima não será ultrapassada.\n§ 1o O número de presos, sempre que possível, será mantido aquém do limite de vagas, para que delas o juízo federal competente possa dispor em casos emergenciais.\n§ 2o No julgamento dos conflitos de competência, o tribunal competente observará a vedação estabelecida no caput deste artigo.",
+   "hash": "eab9945a82f39cb6d65e06485a9ddd4cf3e00944176740c9382d210d643fa19a"
+  },
+  "11-A": {
+   "texto": "Art. 11-A. As decisões relativas à transferência ou à prorrogação da permanência do preso em estabelecimento penal federal de segurança máxima, à concessão ou à denegação de benefícios prisionais ou à imposição de sanções ao preso federal poderão ser tomadas por órgão colegiado de juízes, na forma das normas de organização interna dos tribunais. (Incluído pela Lei nº 13.964, de 2019)",
+   "hash": "e1e8d47e19fdf5cfa5b9bb863983e3ec309aff9f71614e73f567cae9326178dc"
+  },
+  "11-B": {
+   "texto": "Art. 11-B. Os Estados e o Distrito Federal poderão construir estabelecimentos penais de segurança máxima, ou adaptar os já existentes, aos quais será aplicável, no que couber, o disposto nesta Lei. (Incluído pela Lei nº 13.964, de 2019)",
+   "hash": "e5e945e9a66f8ae746089f7dad13c71fa7240bf792034298c8b3a0745564859b"
+  },
+  "12": {
+   "texto": "Art. 12. Esta Lei entra em vigor na data de sua publicação.\nBrasília, 8 de maio de 2008; 187o da Independência e 120o da República.\nLUIZ INÁCIO LULA DA SILVA\nTarso Genro\nEste texto não substitui o publicado no DOU de 9.5.2008\n*",
+   "hash": "5c43881a7d6ae1aed314f421ab0714011c950078eb3cfac69b9a993166b31d0f"
+  }
+ }
+}

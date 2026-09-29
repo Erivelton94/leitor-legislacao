@@ -1,0 +1,88 @@
+{
+ "id": "estado-democratico",
+ "nome": "Crimes contra o Estado Democrático de Direito",
+ "numero": "Lei nº 14.197/2021",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14197.htm",
+ "versao": "2026-09-29",
+ "hash": "ad7c172c4a094ad2dd38cc7fcb8c96eca930377d8f5418660980e1026d2e9068",
+ "etag": "\"7826-65029161fced5\"",
+ "last_modified": "Thu, 23 Apr 2026 23:34:15 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 14.197, DE 1º DE SETEMBRO DE 2021",
+  "Vigência",
+  "Acrescenta o Título XII na Parte Especial do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), relativo aos crimes contra o Estado Democrático de Direito; e revoga a Lei nº 7.170, de 14 de dezembro de 1983 (Lei de Segurança Nacional), e dispositivo do Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-25T04:44:51-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Esta Lei acrescenta o Título XII na Parte Especial do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), relativo aos crimes contra o Estado Democrático de Direito, e revoga a Lei nº 7.170, de 14 de dezembro de 1983 (Lei de Segurança Nacional) e o art. 39 do Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+   "hash": "41533160107a1b4b75b855722534bab54c23a038181fadbe9c109f62cea18460"
+  },
+  "2": {
+   "texto": "Art. 2º A Parte Especial do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar acrescida do seguinte Título XII:\n“TÍTULO XII\nDOS CRIMES CONTRA O ESTADO\nDEMOCRÁTICO DE DIREITO\nCAPÍTULO I\nDOS CRIMES CONTRA A SOBERANIA NACIONAL\nAtentado à soberania",
+   "hash": "db5fab08d953519b1ec4624aef992a97500976d0724ccaecb60e4b157f3ca777"
+  },
+  "359-I": {
+   "texto": "Art. 359-I. Negociar com governo ou grupo estrangeiro, ou seus agentes, com o fim de provocar atos típicos de guerra contra o País ou invadi-lo:\nPena - reclusão, de 3 (três) a 8 (oito) anos.\n§ 1º Aumenta-se a pena de metade até o dobro, se declarada guerra em decorrência das condutas previstas no caput deste artigo.\n§ 2º Se o agente participa de operação bélica com o fim de submeter o território nacional, ou parte dele, ao domínio ou à soberania de outro país:\nPena - reclusão, de 4 (quatro) a 12 (doze) anos.\nAtentado à integridade nacional",
+   "hash": "4e56ff766395fb7d9f3e21e9818cdef1d9092490ed90d054f4bc8c897b964e2e"
+  },
+  "359-J": {
+   "texto": "Art. 359-J. Praticar violência ou grave ameaça com a finalidade de desmembrar parte do território nacional para constituir país independente:\nPena - reclusão, de 2 (dois) a 6 (seis) anos, além da pena correspondente à violência.\nEspionagem",
+   "hash": "9f12eeb5a8221e594650fb346aea3be7a9e1a5637eea1fff1172c042aa6f941e"
+  },
+  "359-K": {
+   "texto": "Art. 359-K. Entregar a governo estrangeiro, a seus agentes, ou a organização criminosa estrangeira, em desacordo com determinação legal ou regulamentar, documento ou informação classificados como secretos ou ultrassecretos nos termos da lei, cuja revelação possa colocar em perigo a preservação da ordem constitucional ou a soberania nacional:\nPena - reclusão, de 3 (três) a 12 (doze) anos.\n§ 1º Incorre na mesma pena quem presta auxílio a espião, conhecendo essa circunstância, para subtraí-lo à ação da autoridade pública.\n§ 2º Se o documento, dado ou informação é transmitido ou revelado com violação do dever de sigilo:\nPena - reclusão, de 6 (seis) a 15 (quinze) anos.\n§ 3º Facilitar a prática de qualquer dos crimes previstos neste artigo mediante atribuição, fornecimento ou empréstimo de senha, ou de qualquer outra forma de acesso de pessoas não autorizadas a sistemas de informações:\nPena - detenção, de 1 (um) a 4 (quatro) anos.\n§ 4º Não constitui crime a comunicação, a entrega ou a publicação de informações ou de documentos com o fim de expor a prática de crime ou a violação de direitos humanos.\nCAPÍTULO II\nDOS CRIMES CONTRA AS INSTITUIÇÕES DEMOCRÁTICAS\nAbolição violenta do Estado Democrático de Direito",
+   "hash": "b019ac346618a85c1f08a3e9c9fb3e835875b74f6c0e3e43f62e30f7d395774f"
+  },
+  "359-L": {
+   "texto": "Art. 359-L. Tentar, com emprego de violência ou grave ameaça, abolir o Estado Democrático de Direito, impedindo ou restringindo o exercício dos poderes constitucionais:\nPena - reclusão, de 4 (quatro) a 8 (oito) anos, além da pena correspondente à violência.\nGolpe de Estado",
+   "hash": "df07d15b3e79cc74435f09cb2686f881f13d79e57a6961e62dbf49538d88920c"
+  },
+  "359-M": {
+   "texto": "Art. 359-M. Tentar depor, por meio de violência ou grave ameaça, o governo legitimamente constituído:\nPena - reclusão, de 4 (quatro) a 12 (doze) anos, além da pena correspondente à violência.\nCAPÍTULO III\nDOS CRIMES CONTRA O FUNCIONAMENTO DAS INSTITUIÇÕES DEMOCRÁTICAS NO PROCESSO ELEITORAL\nInterrupção do processo eleitoral",
+   "hash": "bcc407d8207ebb702b7068e840b580a49f145136eeb9affb85f8bf84a611a7ad"
+  },
+  "359-N": {
+   "texto": "Art. 359-N. Impedir ou perturbar a eleição ou a aferição de seu resultado, mediante violação indevida de mecanismos de segurança do sistema eletrônico de votação estabelecido pela Justiça Eleitoral:\nPena - reclusão, de 3 (três) a 6 (seis) anos, e multa.\n(VETADO)",
+   "hash": "4496982da247ab824c10c0063c6083ceac2cc36dbdbd03a509da6acf07b0fd29"
+  },
+  "359-O": {
+   "texto": "Art. 359-O. (VETADO).\nViolência política",
+   "hash": "ce0227524689cebe1b522b4a31e0ee99bcdbb7d18668e20304688f45ac7af8a0"
+  },
+  "359-P": {
+   "texto": "Art. 359-P. Restringir, impedir ou dificultar, com emprego de violência física, sexual ou psicológica, o exercício de direitos políticos a qualquer pessoa em razão de seu sexo, raça, cor, etnia, religião ou procedência nacional:\nPena - reclusão, de 3 (três) a 6 (seis) anos, e multa, além da pena correspondente à violência.\n(VETADO)",
+   "hash": "b8407ef472b2c5820ce5805c126b03fced9fc4ff5896f9009ab1d9b20d88d033"
+  },
+  "359-Q": {
+   "texto": "Art. 359-Q. (VETADO).\nCAPÍTULO IV\nDOS CRIMES CONTRA O FUNCIONAMENTO\nDOS SERVIÇOS ESSENCIAIS\nSabotagem",
+   "hash": "68fa5f5f0d4c441f0824800717f39aef511deff51cd37244abcbdf9043143427"
+  },
+  "359-R": {
+   "texto": "Art. 359-R. Destruir ou inutilizar meios de comunicação ao público, estabelecimentos, instalações ou serviços destinados à defesa nacional, com o fim de abolir o Estado Democrático de Direito:\nPena - reclusão, de 2 (dois) a 8 (oito) anos.\nCAPÍTULO V\n(VETADO)\nCAPÍTULO VI\nDISPOSIÇÕES COMUNS",
+   "hash": "f36d605afd37846f26336049b584c1c75febca377fb13c931dc00e4119391dab"
+  },
+  "359-T": {
+   "texto": "Art. 359-T. Não constitui crime previsto neste Título a manifestação crítica aos poderes constitucionais nem a atividade jornalística ou a reivindicação de direitos e garantias constitucionais por meio de passeatas, de reuniões, de greves, de aglomerações ou de qualquer outra forma de manifestação política com propósitos sociais.\n(VETADO)",
+   "hash": "af131472b9d6f716232ec3baedc5e94fd8aed00f8a74a97fd0ab89150f65ea3c"
+  },
+  "359-U": {
+   "texto": "Art. 359-U. (VETADO).”",
+   "hash": "2d00fe9c2143b99de493f5afd10cea8e3057a6c3221fc56c59b48a6d2264c64d"
+  },
+  "3": {
+   "texto": "Art. 3º Os arts. 141 e 286 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passam a vigorar com a seguinte redação:\n“Art. 141. ........................................................................................................\n.........................................................................................................................\nII - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal;\n..............................................................................................................” (NR)\n“Art. 286. ........................................................................................................\n.........................................................................................................................\nParágrafo único. Incorre na mesma pena quem incita, publicamente, animosidade entre as Forças Armadas, ou delas contra os poderes constitucionais, as instituições civis ou a sociedade.” (NR)",
+   "hash": "4745be7a6d90547566e964e2eac274e4153a752ea42f2121e4c6ead2d0e7ae3a"
+  },
+  "4": {
+   "texto": "Art. 4º Revogam-se a Lei nº 7.170, de 14 de dezembro de 1983 (Lei de Segurança Nacional), e o art. 39 do Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+   "hash": "9e8f889fa6c5f7ce58b96ce163f6438edd6a2d946d35989e9a3f12694eee42bb"
+  },
+  "5": {
+   "texto": "Art. 5º Esta Lei entra em vigor após decorridos 90 (noventa) dias de sua publicação oficial.\nBrasília, 1º de setembro de 2021; 200o da Independência e 133o da República.\nJAIR MESSIAS BOLSONARO\nAnderson Gustavo Torres\nWalter Souza Braga Netto\nDamares Regina Alves\nAugusto Heleno Ribeiro Pereira\nEste texto não substitui o publicado no DOU de 2.9.2021\n*",
+   "hash": "516b77274834eff601b7b80e00a10a29dc24fb4cc18cba2360ca510469f2b70a"
+  }
+ }
+}

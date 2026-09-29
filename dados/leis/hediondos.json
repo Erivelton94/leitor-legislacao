@@ -1,0 +1,95 @@
+{
+ "id": "hediondos",
+ "nome": "Lei dos Crimes Hediondos",
+ "numero": "Lei nº 8.072/1990",
+ "url": "https://www.planalto.gov.br/ccivil_03/leis/l8072compilada.htm",
+ "versao": "2026-09-29",
+ "hash": "4022a5fae5c12efa851c878829b13593b9be1eaa85123b54809cfb30d208eded",
+ "etag": "\"81c0-6587339158beb\"",
+ "last_modified": "Fri, 07 Aug 2026 11:22:42 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 8.072, DE 25 DE JULHO DE 1990.",
+  "Dispõe sobre os crimes hediondos, nos termos do art. 5º, inciso XLIII, da Constituição Federal, e determina outras providências.",
+  "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:"
+ ],
+ "ultimo_download_completo": "2026-09-26T04:39:00-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1o São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: (Redação dada pela Lei nº 8.930, de 1994) (Vide Lei nº 7.210, de 1984)\nI - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)\nI-A - lesão corporal dolosa de natureza gravíssima (art. 129, § 2º) e lesão corporal seguida de morte (art. 129, § 3º), quando praticadas: (Redação dada pela Lei nº 15.159, de 2025)\na) contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal ou integrantes do sistema prisional ou da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição; (Redação dada pela Lei nº 15.159, de 2025)\nb) contra membro do Poder Judiciário, do Ministério Público, da Defensoria Pública ou da Advocacia Pública, de que tratam os arts. 131 e 132 da Constituição Federal, ou oficial de justiça, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente, inclusive por afinidade, até o terceiro grau, em razão dessa condição; ou (Redação dada pela Lei nº 15.159, de 2025)\nc) nas dependências de instituição de ensino; (Incluído pela Lei nº 15.159, de 2025)\nI-B – feminicídio (art. 121-A); (Incluído pela Lei nº 14.994, de 2024)\nI-C – vicaricídio (art. 121-B); (Incluído pela Lei nº 15.384, de 2026)\nII - roubo: (Redação dada pela Lei nº 13.964, de 2019)\na) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2º, inciso V); (Incluído pela Lei nº 13.964, de 2019)\nb) circunstanciado pelo emprego de arma de fogo (art. 157, § 2º-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2º-B); (Incluído pela Lei nº 13.964, de 2019)\nc) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º); (Incluído pela Lei nº 13.964, de 2019)\nIII - extorsão qualificada pela restrição da liberdade da vítima, ocorrência de lesão corporal ou morte (art. 158, § 3º); (Redação dada pela Lei nº 13.964, de 2019)\nIV - extorsão mediante seqüestro e na forma qualificada (art. 159, caput, e §§ lo, 2o e 3o); (Inciso incluído pela Lei nº 8.930, de 1994)\nV - estupro (art. 213, caput e §§ 1o e 2o); (Redação dada pela Lei nº 12.015, de 2009)\nVI - estupro de vulnerável (art. 217-A, caput e §§ 1o, 2o, 3o e 4o); (Redação dada pela Lei nº 12.015, de 2009)\nVII - epidemia com resultado morte (art. 267, § 1o). (Inciso incluído pela Lei nº 8.930, de 1994)\nVII-A – (VETADO) (Inciso incluído pela Lei nº 9.695, de 1998)\nVII-B - falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais (art. 273, caput e § 1o, § 1o-A e § 1o-B, com a redação dada pela Lei no 9.677, de 2 de julho de 1998). (Inciso incluído pela Lei nº 9.695, de 1998)\nVIII - favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º). (Incluído pela Lei nº 12.978, de 2014)\nIX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A). (Incluído pela Lei nº 13.964, de 2019)\nX - induzimento, instigação ou auxílio a suicídio ou a automutilação realizados por meio da rede de computadores, de rede social ou transmitidos em tempo real (art. 122, caput e § 4º); (Incluído pela Lei 14.811, de 2024)\nXI - sequestro e cárcere privado cometido contra menor de 18 (dezoito) anos (art. 148, § 1º, inciso IV); (Incluído pela Lei 14.811, de 2024)\nXII - tráfico de pessoas cometido contra criança ou adolescente (art. 149-A, caput, incisos I a V, e § 1º, inciso II). (Incluído pela Lei 14.811, de 2024)\nParágrafo único. Consideram-se também hediondos, tentados ou consumados: (Redação dada pela Lei nº 13.964, de 2019)\nI - o crime de genocídio, previsto nos arts. 1º, 2º e 3º da Lei nº 2.889, de 1º de outubro de 1956; (Incluído pela Lei nº 13.964, de 2019)\nII - o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei nº 10.826, de 22 de dezembro de 2003; (Incluído pela Lei nº 13.964, de 2019)\nIII - o crime de comércio ilegal de armas de fogo, previsto no art. 17 da Lei nº 10.826, de 22 de dezembro de 2003; (Incluído pela Lei nº 13.964, de 2019)\nIV - o crime de tráfico internacional de arma de fogo, acessório ou munição, previsto no art. 18 da Lei nº 10.826, de 22 de dezembro de 2003; (Incluído pela Lei nº 13.964, de 2019)\nV - o crime de organização criminosa, quando direcionado à prática de crime hediondo ou equiparado. (Incluído pela Lei nº 13.964, de 2019)\nVI – os crimes previstos no Decreto-Lei nº 1.001, de 21 de outubro de 1969 (Código Penal Militar), que apresentem identidade com os crimes previstos no art. 1º desta Lei. (Incluído pela Lei nº 14.688, de 2023)\nVII - os crimes previstos no caput e nos §§ 1º e 2º do art. 240, no caput e no parágrafo único do art. 241, no caput e nos §§ 1º e 3º do art. 241-A, no caput do art. 241-B, no caput e nos §§ 1º e 2º do art. 241-D e no caput e no § 1º do art. 244-A da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente); (Redação dada pela Lei nº 15.487, de 2026)\nVIII - os crimes de domínio social estruturado e de favorecimento ao domínio social estruturado, previstos no caput e nos §§ 1º e 3º do art. 2º e no art. 3º da lei que institui o marco legal do combate ao crime organizado no Brasil. (Incluído pela Lei nº 15.358, de 2026)",
+   "hash": "3bf9c5008ce9e11c1eabb806dc259c134edfd1e99a4715066db908045ee8da01"
+  },
+  "2": {
+   "texto": "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de: (Vide Súmula Vinculante)\nI - anistia, graça e indulto;\nII - fiança. (Redação dada pela Lei nº 11.464, de 2007)\n§ 1o A pena por crime previsto neste artigo será cumprida inicialmente em regime fechado. (Redação dada pela Lei nº 11.464, de 2007)\n§ 2º (Revogado pela Lei nº 13.964, de 2019)\n§ 3o Em caso de sentença condenatória, o juiz decidirá fundamentadamente se o réu poderá apelar em liberdade. (Redação dada pela Lei nº 11.464, de 2007)\n§ 4o A prisão temporária, sobre a qual dispõe a Lei no 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade. (Incluído pela Lei nº 11.464, de 2007)",
+   "hash": "4a1496af0be9b952a3dd3733aee411f7fd29557d705225d921653da08b29de88"
+  },
+  "3": {
+   "texto": "Art. 3º A União manterá estabelecimentos penais, de segurança máxima, destinados ao cumprimento de penas impostas a condenados de alta periculosidade, cuja permanência em presídios estaduais ponha em risco a ordem ou incolumidade pública.",
+   "hash": "7e77c136e9439f2583e381fb7ce9843e6a65ba999c2f2bee97d1950dfc73d3cd"
+  },
+  "4": {
+   "texto": "Art. 4º (Vetado).",
+   "hash": "ff45ba180e9d634899d96ac8088927cc889e4349b486f3ff33dada3f1f2e14b9"
+  },
+  "5": {
+   "texto": "Art. 5º Ao art. 83 do Código Penal é acrescido o seguinte inciso:\n\"Art. 83. ..............................................................\n........................................................................\nV - cumprido mais de dois terços da pena, nos casos de condenação por crime hediondo, prática da tortura, tráfico ilícito de entorpecentes e drogas afins, e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\"",
+   "hash": "44ba3275fdbe3db8aa29a4a196bd71cb08b91fbe48e294805165b3b643f682ca"
+  },
+  "6": {
+   "texto": "Art. 6º Os arts. 157, § 3º; 159, caput e seus §§ 1º, 2º e 3º; 213; 214; 223, caput e seu parágrafo único; 267, caput e 270; caput, todos do Código Penal, passam a vigorar com a seguinte redação:\n\"Art. 157. .............................................................\n§ 3º Se da violência resulta lesão corporal grave, a pena é de reclusão, de cinco a quinze anos, além da multa; se resulta morte, a reclusão é de vinte a trinta anos, sem prejuízo da multa.\n........................................................................",
+   "hash": "9a151fd1da5bf03b277e2af7d08facc2db961dad13b8be750a17671e208c6c5f"
+  },
+  "159": {
+   "texto": "Art. 159. ...............................................................\nPena - reclusão, de oito a quinze anos.\n§ 1º .................................................................\nPena - reclusão, de doze a vinte anos.\n§ 2º .................................................................\nPena - reclusão, de dezesseis a vinte e quatro anos.\n§ 3º .................................................................\nPena - reclusão, de vinte e quatro a trinta anos.\n........................................................................",
+   "hash": "279947edf7aed26757c20ef476a2a49343405ead23e93ba6a3bb22dbdb002eeb"
+  },
+  "213": {
+   "texto": "Art. 213. ...............................................................\nPena - reclusão, de seis a dez anos.",
+   "hash": "18b5d0a0c260c00f52816b3c8ae80238284042532ded219a1e408a7d2f0b16f9"
+  },
+  "214": {
+   "texto": "Art. 214. ...............................................................\nPena - reclusão, de seis a dez anos.\n........................................................................",
+   "hash": "ef537f4fa0cf7d77b78a0e97e57dd3b5fc0b367fa89114d3722bf3335d054276"
+  },
+  "223": {
+   "texto": "Art. 223. ...............................................................\nPena - reclusão, de oito a doze anos.\nParágrafo único. ........................................................\nPena - reclusão, de doze a vinte e cinco anos.\n........................................................................",
+   "hash": "30f3018ec652244d665a985639c372547f2997a3f634812c760015e0ab17d447"
+  },
+  "267": {
+   "texto": "Art. 267. ...............................................................\nPena - reclusão, de dez a quinze anos.\n........................................................................",
+   "hash": "864e3cdf56fb09f3224da9f839679b13ace71a4702bb9b7fb366aa90af2f6d13"
+  },
+  "270": {
+   "texto": "Art. 270. ...............................................................\nPena - reclusão, de dez a quinze anos.\n.......................................................................\"",
+   "hash": "e2b5110c34f0450b813fbfb357628ac4e08adb6d66602380c72c5c57674eeb41"
+  },
+  "7": {
+   "texto": "Art. 7º Ao art. 159 do Código Penal fica acrescido o seguinte parágrafo:\n\"Art. 159. ..............................................................\n........................................................................\n§ 4º Se o crime é cometido por quadrilha ou bando, o co-autor que denunciá-lo à autoridade, facilitando a libertação do seqüestrado, terá sua pena reduzida de um a dois terços.\"",
+   "hash": "751d9eda075e46db707bdff6c0d301fd3f1d05104ec9d69d67976b94939109b5"
+  },
+  "8": {
+   "texto": "Art. 8º Será de três a seis anos de reclusão a pena prevista no art. 288 do Código Penal, quando se tratar de crimes hediondos, prática da tortura, tráfico ilícito de entorpecentes e drogas afins ou terrorismo.\nParágrafo único. O participante e o associado que denunciar à autoridade o bando ou quadrilha, possibilitando seu desmantelamento, terá a pena reduzida de um a dois terços.",
+   "hash": "4184e3c25923dd1cc8344bdb59b83b9397c01dc33b18e14437db72a8e9b2b88e"
+  },
+  "9": {
+   "texto": "Art. 9º As penas fixadas no art. 6º para os crimes capitulados nos arts. 157, § 3º, 158, § 2º, 159, caput e seus §§ 1º, 2º e 3º, 213, caput e sua combinação com o art. 223, caput e parágrafo único, 214 e sua combinação com o art. 223, caput e parágrafo único, todos do Código Penal, são acrescidas de metade, respeitado o limite superior de trinta anos de reclusão, estando a vítima em qualquer das hipóteses referidas no art. 224 também do Código Penal.",
+   "hash": "d2a49a2073f3ce3e0da9688c7e1e9509929b00640b36ec60e404be1e4d3a6115"
+  },
+  "10": {
+   "texto": "Art. 10. O art. 35 da Lei nº 6.368, de 21 de outubro de 1976, passa a vigorar acrescido de parágrafo único, com a seguinte redação:\n\"Art. 35. ................................................................\nParágrafo único. Os prazos procedimentais deste capítulo serão contados em dobro quando se tratar dos crimes previstos nos arts. 12, 13 e 14.\"",
+   "hash": "7fd880deda5429e4904246125de3abf524864b76b4e842aa9897dc93d2b0bc09"
+  },
+  "11": {
+   "texto": "Art. 11. (Vetado).",
+   "hash": "7b0cc1abb4ba4d8b2a85183807730995854f972b6d92bb32c590cc453f34c498"
+  },
+  "12": {
+   "texto": "Art. 12. Esta lei entra em vigor na data de sua publicação.",
+   "hash": "7537699a66f3a24dc60562276c7af168bf7571ac16b228c0585327d6d2f521f7"
+  },
+  "13": {
+   "texto": "Art. 13. Revogam-se as disposições em contrário.\nBrasília, 25 de julho de 1990; 169º da Independência e 102º da República.\nFERNANDO COLLOR\nBernardo Cabral\nEste texto não substitui o publicado no DOU de 26.7.1990\n*",
+   "hash": "b1d17bae7565d88606aa79591dd5bcf39fbdc57cde62f30e9f507132f000f5c0"
+  }
+ }
+}

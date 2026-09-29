@@ -1,0 +1,47 @@
+{
+ "id": "sinal-vermelho",
+ "nome": "Programa Sinal Vermelho e Violência Psicológica",
+ "numero": "Lei nº 14.188/2021",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14188.htm",
+ "versao": "2026-09-29",
+ "hash": "7002789da07958090bd8fb58ceb18a71a9ba58e12b8ce7972792b8e50837c8b7",
+ "etag": "\"4140-65029161e156d\"",
+ "last_modified": "Thu, 23 Apr 2026 23:34:15 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 14.188, DE 28 DE JULHO DE 2021",
+  "Define o programa de cooperação Sinal Vermelho contra a Violência Doméstica como uma das medidas de enfrentamento da violência doméstica e familiar contra a mulher previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), e no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), em todo o território nacional; e altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para modificar a modalidade da pena da lesão corporal simples cometida contra a mulher por razões da condição do sexo feminino e para criar o tipo penal de violência psicológica contra a mulher.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-25T04:43:44-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Esta Lei define o programa de cooperação Sinal Vermelho contra a Violência Doméstica como uma das medidas de enfrentamento da violência doméstica e familiar contra a mulher previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), e no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), altera a modalidade da pena da lesão corporal simples cometida contra a mulher por razões da condição do sexo feminino e cria o tipo penal de violência psicológica contra a mulher.",
+   "hash": "bb7090ec5ba469fb55820ae77fa910437544b596803b7068c83c2ad488614347"
+  },
+  "2": {
+   "texto": "Art. 2º Fica autorizada a integração entre o Poder Executivo, o Poder Judiciário, o Ministério Público, a Defensoria Pública, os órgãos de segurança pública e as entidades privadas, para a promoção e a realização do programa Sinal Vermelho contra a Violência Doméstica como medida de ajuda à mulher vítima de violência doméstica e familiar, conforme os incisos I, V e VII do caput do art. 8º da Lei nº 11.340, de 7 de agosto de 2006.\nParágrafo único. Os órgãos mencionados no caput deste artigo deverão estabelecer um canal de comunicação imediata com as entidades privadas de todo o País participantes do programa, a fim de viabilizar assistência e segurança à vítima, a partir do momento em que houver sido efetuada a denúncia por meio do código “sinal em formato de X”, preferencialmente feito na mão e na cor vermelha.",
+   "hash": "97027653ddefbc04d273f32a6c32214fed193709a99ced2eec7ec873bbeccd3d"
+  },
+  "3": {
+   "texto": "Art. 3º A identificação do código referido no parágrafo único do art. 2º desta Lei poderá ser feita pela vítima pessoalmente em repartições públicas e entidades privadas de todo o País e, para isso, deverão ser realizadas campanha informativa e capacitação permanente dos profissionais pertencentes ao programa, conforme dispõe o inciso VII do caput do art. 8º da Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para encaminhamento da vítima ao atendimento especializado na localidade.",
+   "hash": "db76dcdd15997f67e64b6eb7d256cf62fe379feed2129460e39d5cb6dac12b12"
+  },
+  "4": {
+   "texto": "Art. 4º O Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com as seguintes alterações:\n“Art. 129 ............................................................................................\n................................................................................................................\n§ 13. Se a lesão for praticada contra a mulher, por razões da condição do sexo feminino, nos termos do § 2º-A do art. 121 deste Código:\nPena - reclusão, de 1 (um) a 4 (quatro anos).” (NR)\n“Violência psicológica contra a mulher",
+   "hash": "b551ed2ac3662763873304285c1bc28f3117a323045018ebca2ef2b967346dc1"
+  },
+  "147-B": {
+   "texto": "Art. 147-B. Causar dano emocional à mulher que a prejudique e perturbe seu pleno desenvolvimento ou que vise a degradar ou a controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, chantagem, ridicularização, limitação do direito de ir e vir ou qualquer outro meio que cause prejuízo à sua saúde psicológica e autodeterminação:\nPena - reclusão, de 6 (seis) meses a 2 (dois) anos, e multa, se a conduta não constitui crime mais grave.”",
+   "hash": "65ba26fa413597e2fab791d44643a0db2e40dea86bd03df6131650c26f9aa933"
+  },
+  "5": {
+   "texto": "Art. 5º O caput do art. 12-C da Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), passa a vigorar com a seguinte redação:\n“Art. 12-C. Verificada a existência de risco atual ou iminente à vida ou à integridade física ou psicológica da mulher em situação de violência doméstica e familiar, ou de seus dependentes, o agressor será imediatamente afastado do lar, domicílio ou local de convivência com a ofendida:\n..........................................................................................................” (NR)",
+   "hash": "64022b09ec62a9983d84b17d51fe7bccd79c6cccbbe04efedd3e15c3077219e3"
+  },
+  "6": {
+   "texto": "Art. 6º Esta Lei entra em vigor na data de sua publicação.\nBrasília, 28 de julho de 2021; 200o da Independência e 133o da República.\nJAIR MESSIAS BOLSONARO\nDamares Regina Alves\nEste texto não substitui o publicado no DOU de 29.7.2021\n*",
+   "hash": "fd8ea36d59d580536d1261eb610287209f13aeb5b0ea0e79567cfa7b1261b5f1"
+  }
+ }
+}

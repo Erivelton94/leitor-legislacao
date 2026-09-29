@@ -1,0 +1,91 @@
+{
+ "id": "trafico-pessoas",
+ "nome": "Lei do Tráfico de Pessoas",
+ "numero": "Lei nº 13.344/2016",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13344.htm",
+ "versao": "2026-09-29",
+ "hash": "f4f1c5b9f67a74b244d5f9cb7690845ccd1c8f5f4ee0d2dac58d0c767a2c54b4",
+ "etag": "\"9ef8-6502911f1ec38\"",
+ "last_modified": "Thu, 23 Apr 2026 23:33:05 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 13.344, DE 6 DE OUTUBRO DE 2016.",
+  "Dispõe sobre prevenção e repressão ao tráfico interno e internacional de pessoas e sobre medidas de atenção às vítimas; altera a Lei nº 6.815, de 19 de agosto de 1980, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal); e revoga dispositivos do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal).",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-24T04:41:55-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Esta Lei dispõe sobre o tráfico de pessoas cometido no território nacional contra vítima brasileira ou estrangeira e no exterior contra vítima brasileira.\nParágrafo único. O enfrentamento ao tráfico de pessoas compreende a prevenção e a repressão desse delito, bem como a atenção às suas vítimas.\nCAPÍTULO I\nDOS PRINCÍPIOS E DAS DIRETRIZES",
+   "hash": "a4c0a4c819ed05371bbcd7168d11cfaf630a6a900f8d86293914f8087b7e59ea"
+  },
+  "2": {
+   "texto": "Art. 2º O enfrentamento ao tráfico de pessoas atenderá aos seguintes princípios:\nI - respeito à dignidade da pessoa humana;\nII - promoção e garantia da cidadania e dos direitos humanos;\nIII - universalidade, indivisibilidade e interdependência;\nIV - não discriminação por motivo de gênero, orientação sexual, origem étnica ou social, procedência, nacionalidade, atuação profissional, raça, religião, faixa etária, situação migratória ou outro status ;\nV - transversalidade das dimensões de gênero, orientação sexual, origem étnica ou social, procedência, raça e faixa etária nas políticas públicas;\nVI - atenção integral às vítimas diretas e indiretas, independentemente de nacionalidade e de colaboração em investigações ou processos judiciais;\nVII - proteção integral da criança e do adolescente.",
+   "hash": "7792cb81284881c94e73a4d217d36b871cc052607e13959f5a1fa47bfa86324a"
+  },
+  "3": {
+   "texto": "Art. 3º O enfrentamento ao tráfico de pessoas atenderá às seguintes diretrizes:\nI - fortalecimento do pacto federativo, por meio da atuação conjunta e articulada das esferas de governo no âmbito das respectivas competências;\nII - articulação com organizações governamentais e não governamentais nacionais e estrangeiras;\nIII - incentivo à participação da sociedade em instâncias de controle social e das entidades de classe ou profissionais na discussão das políticas sobre tráfico de pessoas;\nIV - estruturação da rede de enfrentamento ao tráfico de pessoas, envolvendo todas as esferas de governo e organizações da sociedade civil;\nV - fortalecimento da atuação em áreas ou regiões de maior incidência do delito, como as de fronteira, portos, aeroportos, rodovias e estações rodoviárias e ferroviárias;\nVI - estímulo à cooperação internacional;\nVII - incentivo à realização de estudos e pesquisas e ao seu compartilhamento;\nVIII - preservação do sigilo dos procedimentos administrativos e judiciais, nos termos da lei;\nIX - gestão integrada para coordenação da política e dos planos nacionais de enfrentamento ao tráfico de pessoas.\nCAPÍTULO II\nDA PREVENÇÃO AO TRÁFICO DE PESSOAS",
+   "hash": "5018c8796ca86f98f7af74939c6270cae96ec3ebf2cdafc0d294cc779c1af3f5"
+  },
+  "4": {
+   "texto": "Art. 4º A prevenção ao tráfico de pessoas dar-se-á por meio:\nI - da implementação de medidas intersetoriais e integradas nas áreas de saúde, educação, trabalho, segurança pública, justiça, turismo, assistência social, desenvolvimento rural, esportes, comunicação, cultura e direitos humanos;\nII - de campanhas socioeducativas e de conscientização, considerando as diferentes realidades e linguagens;\nIII - de incentivo à mobilização e à participação da sociedade civil; e\nIV - de incentivo a projetos de prevenção ao tráfico de pessoas.\nCAPÍTULO III\nDA REPRESSÃO AO TRÁFICO DE PESSOAS",
+   "hash": "f9b0c1fd0b416ecd30e8fb84594527d25b89249a7d967ab03698900b68161263"
+  },
+  "5": {
+   "texto": "Art. 5º A repressão ao tráfico de pessoas dar-se-á por meio:\nI - da cooperação entre órgãos do sistema de justiça e segurança, nacionais e estrangeiros;\nII - da integração de políticas e ações de repressão aos crimes correlatos e da responsabilização dos seus autores;\nIII - da formação de equipes conjuntas de investigação.\nCAPÍTULO IV\nDA PROTEÇÃO E DA ASSISTÊNCIA ÀS VÍTIMAS",
+   "hash": "612725c8e4df37b4a3a16e8ace244e92967f7709dec9c104fe3ece778339818e"
+  },
+  "6": {
+   "texto": "Art. 6º A proteção e o atendimento à vítima direta ou indireta do tráfico de pessoas compreendem:\nI - assistência jurídica, social, de trabalho e emprego e de saúde;\nII - acolhimento e abrigo provisório;\nIII - atenção às suas necessidades específicas, especialmente em relação a questões de gênero, orientação sexual, origem étnica ou social, procedência, nacionalidade, raça, religião, faixa etária, situação migratória, atuação profissional, diversidade cultural, linguagem, laços sociais e familiares ou outro status ;\nIV - preservação da intimidade e da identidade;\nV - prevenção à revitimização no atendimento e nos procedimentos investigatórios e judiciais;\nVI - atendimento humanizado;\nVII - informação sobre procedimentos administrativos e judiciais.\n§ 1º A atenção às vítimas dar-se-á com a interrupção da situação de exploração ou violência, a sua reinserção social, a garantia de facilitação do acesso à educação, à cultura, à formação profissional e ao trabalho e, no caso de crianças e adolescentes, a busca de sua reinserção familiar e comunitária.\n§ 2º No exterior, a assistência imediata a vítimas brasileiras estará a cargo da rede consular brasileira e será prestada independentemente de sua situação migratória, ocupação ou outro status .\n§ 3º A assistência à saúde prevista no inciso I deste artigo deve compreender os aspectos de recuperação física e psicológica da vítima.",
+   "hash": "79867be6699e645cfc79f03b268b6276fc4c24280e5d21a8fdad33a33a04c8d0"
+  },
+  "7": {
+   "texto": "Art. 7º A Lei nº 6.815, de 19 de agosto de 1980 , passa a vigorar acrescida dos seguintes artigos:\n“ Art. 18-A. Conceder-se-á residência permanente às vítimas de tráfico de pessoas no território nacional, independentemente de sua situação migratória e de colaboração em procedimento administrativo, policial ou judicial.\n§ 1º O visto ou a residência permanentes poderão ser concedidos, a título de reunião familiar:\nI - a cônjuges, companheiros, ascendentes e descendentes; e\nII - a outros membros do grupo familiar que comprovem dependência econômica ou convivência habitual com a vítima.\n§ 2º Os beneficiários do visto ou da residência permanentes são isentos do pagamento da multa prevista no inciso II do art. 125.\n§ 3º Os beneficiários do visto ou da residência permanentes de que trata este artigo são isentos do pagamento das taxas e emolumentos previstos nos arts. 20, 33 e 131.”\n“Art. 18-B. Ato do Ministro de Estado da Justiça e Cidadania estabelecerá os procedimentos para concessão da residência permanente de que trata o art. 18-A.”\n“ Art. 42-A . O estrangeiro estará em situação regular no País enquanto tramitar pedido de regularização migratória.”\nCAPÍTULO V\nDISPOSIÇÕES PROCESSUAIS",
+   "hash": "7ee515a5167b1b5250ce95e3538df3d575c4aa8d0efa6d8fbbebc15ceb5dd88b"
+  },
+  "8": {
+   "texto": "Art. 8º O juiz, de ofício, a requerimento do Ministério Público ou mediante representação do delegado de polícia, ouvido o Ministério Público, havendo indícios suficientes de infração penal, poderá decretar medidas assecuratórias relacionadas a bens, direitos ou valores pertencentes ao investigado ou acusado, ou existentes em nome de interpostas pessoas, que sejam instrumento, produto ou proveito do crime de tráfico de pessoas, procedendo-se na forma dos arts. 125 a 144-A do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal) .\n§ 1º Proceder-se-á à alienação antecipada para preservação do valor dos bens sempre que estiverem sujeitos a qualquer grau de deterioração ou depreciação, ou quando houver dificuldade para sua manutenção.\n§ 2º O juiz determinará a liberação total ou parcial dos bens, direitos e valores quando comprovada a licitude de sua origem, mantendo-se a constrição dos bens, direitos e valores necessários e suficientes à reparação dos danos e ao pagamento de prestações pecuniárias, multas e custas decorrentes da infração penal.\n§ 3º Nenhum pedido de liberação será conhecido sem o comparecimento pessoal do acusado ou investigado, ou de interposta pessoa a que se refere o caput , podendo o juiz determinar a prática de atos necessários à conservação de bens, direitos ou valores, sem prejuízo do disposto no § 1º.\n§ 4º Ao proferir a sentença de mérito, o juiz decidirá sobre o perdimento do produto, bem ou valor apreendido, sequestrado ou declarado indisponível.",
+   "hash": "fb562308d009870864d0a09754937f6fe8725e0ccc0034eb1ddccbd98d5a76a9"
+  },
+  "9": {
+   "texto": "Art. 9º Aplica-se subsidiariamente, no que couber, o disposto na Lei nº 12.850, de 2 de agosto de 2013 .",
+   "hash": "a003c99ebbb79475c01bf830004fe9524f7630dc10052e3ea7f9a680fa19252d"
+  },
+  "10": {
+   "texto": "Art. 10. O Poder Público é autorizado a criar sistema de informações visando à coleta e à gestão de dados que orientem o enfrentamento ao tráfico de pessoas.",
+   "hash": "3ece4593659faf07e5f16f61e846b4e738dd861cdc5f2cb0b42e75386175a08b"
+  },
+  "11": {
+   "texto": "Art. 11. O Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), passa a vigorar acrescido dos seguintes arts. 13-A e 13-B:\n“ Art. 13-A. Nos crimes previstos nos arts. 148 , 149 e 149-A , no § 3º do art. 158 e no art. 159 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 (Código Penal) , e no art. 239 da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente) , o membro do Ministério Público ou o delegado de polícia poderá requisitar, de quaisquer órgãos do poder público ou de empresas da iniciativa privada, dados e informações cadastrais da vítima ou de suspeitos.\nParágrafo único. A requisição, que será atendida no prazo de 24 (vinte e quatro) horas, conterá:\nI - o nome da autoridade requisitante;\nII - o número do inquérito policial; e\nIII - a identificação da unidade de polícia judiciária responsável pela investigação.”\n“Art. 13-B. Se necessário à prevenção e à repressão dos crimes relacionados ao tráfico de pessoas, o membro do Ministério Público ou o delegado de polícia poderão requisitar, mediante autorização judicial, às empresas prestadoras de serviço de telecomunicações e/ou telemática que disponibilizem imediatamente os meios técnicos adequados – como sinais, informações e outros – que permitam a localização da vítima ou dos suspeitos do delito em curso.\n§ 1º Para os efeitos deste artigo, sinal significa posicionamento da estação de cobertura, setorização e intensidade de radiofrequência.\n§ 2º Na hipótese de que trata o caput , o sinal:\nI - não permitirá acesso ao conteúdo da comunicação de qualquer natureza, que dependerá de autorização judicial, conforme disposto em lei;\nII - deverá ser fornecido pela prestadora de telefonia móvel celular por período não superior a 30 (trinta) dias, renovável por uma única vez, por igual período;\nIII - para períodos superiores àquele de que trata o inciso II, será necessária a apresentação de ordem judicial.\n§ 3º Na hipótese prevista neste artigo, o inquérito policial deverá ser instaurado no prazo máximo de 72 (setenta e duas) horas, contado do registro da respectiva ocorrência policial.\n§ 4º Não havendo manifestação judicial no prazo de 12 (doze) horas, a autoridade competente requisitará às empresas prestadoras de serviço de telecomunicações e/ou telemática que disponibilizem imediatamente os meios técnicos adequados – como sinais, informações e outros – que permitam a localização da vítima ou dos suspeitos do delito em curso, com imediata comunicação ao juiz.”",
+   "hash": "2fc83d0206fd9b37638ea04ac421e226692174d9c0ecf3ba7b97a7b8591ca444"
+  },
+  "12": {
+   "texto": "Art. 12. O inciso V do art. 83 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:\n“Art. 83. .........................................................................\n.............................................................................................\nV - cumpridos mais de dois terços da pena, nos casos de condenação por crime hediondo, prática de tortura, tráfico ilícito de entorpecentes e drogas afins, tráfico de pessoas e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\n....................................................................................” (NR)",
+   "hash": "4b0bd8f111f0edd9e5c14b9e2e573a654653020503491c556d36cdc5cd6ca597"
+  },
+  "13": {
+   "texto": "Art. 13. O Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar acrescido do seguinte art. 149-A:\n“Tráfico de Pessoas",
+   "hash": "f2a34c310959ab44a48f28c70d7d9015aed5b11bc510087d22f8ac39fa0cb008"
+  },
+  "149-A": {
+   "texto": "Art. 149-A. Agenciar, aliciar, recrutar, transportar, transferir, comprar, alojar ou acolher pessoa, mediante grave ameaça, violência, coação, fraude ou abuso, com a finalidade de:\nI - remover-lhe órgãos, tecidos ou partes do corpo;\nII - submetê-la a trabalho em condições análogas à de escravo;\nIII - submetê-la a qualquer tipo de servidão;\nIV - adoção ilegal; ou\nV - exploração sexual.\nPena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa.\n§ 1º A pena é aumentada de um terço até a metade se:\nI - o crime for cometido por funcionário público no exercício de suas funções ou a pretexto de exercê-las;\nII - o crime for cometido contra criança, adolescente ou pessoa idosa ou com deficiência;\nIII - o agente se prevalecer de relações de parentesco, domésticas, de coabitação, de hospitalidade, de dependência econômica, de autoridade ou de superioridade hierárquica inerente ao exercício de emprego, cargo ou função; ou\nIV - a vítima do tráfico de pessoas for retirada do território nacional.\n§ 2º A pena é reduzida de um a dois terços se o agente for primário e não integrar organização criminosa.”\nCAPÍTULO VI\nDAS CAMPANHAS RELACIONADAS AO ENFRENTAMENTO AO TRÁFICO DE PESSOAS",
+   "hash": "ef956cf0d7667bcc47a686e3c04dad4edb22efe42b5bb74337d01e6528c8c298"
+  },
+  "14": {
+   "texto": "Art. 14. É instituído o Dia Nacional de Enfrentamento ao Tráfico de Pessoas, a ser comemorado, anualmente, em 30 de julho.",
+   "hash": "8f1bb3a5084d13ea83b8b7d98486e4a76ed360d150062345996f913a53768f66"
+  },
+  "15": {
+   "texto": "Art. 15. Serão adotadas campanhas nacionais de enfrentamento ao tráfico de pessoas, a serem divulgadas em veículos de comunicação, visando à conscientização da sociedade sobre todas as modalidades de tráfico de pessoas.\nCAPÍTULO VII\nDISPOSIÇÕES FINAIS",
+   "hash": "ffbff20e53ef0701ae43c193eb740b428ee75613ffed3c7bdd5b35e8a2ff43ee"
+  },
+  "16": {
+   "texto": "Art. 16. Revogam-se os arts. 231 e 231-A do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal).",
+   "hash": "c0d9038ac95a76c57cf9e49a59c7f1711cf395003c5cb5c05b886ef18ab0d242"
+  },
+  "17": {
+   "texto": "Art. 17. Esta Lei entra em vigor após decorridos 45 (quarenta e cinco) dias de sua p ublicaçã o oficial.\nBrasília, 6 de outubro de 2016; 195º da Independência e 128º da República.\nMICHEL TEMER\nAlexandre de Moraes\nJosé Serra\nRicardo José Magalhães Barros\nOsmar Terra\nGrace Maria Fernandes Mendonça\nEste texto não substitui o publicado no DOU de 7.10.2016\n*",
+   "hash": "764021894ab8995a07569e5ab0e4ec41905f41c1917a2fa38caecf697b589cd4"
+  }
+ }
+}

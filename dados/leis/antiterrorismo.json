@@ -1,0 +1,99 @@
+{
+ "id": "antiterrorismo",
+ "nome": "Lei Antiterrorismo",
+ "numero": "Lei nº 13.260/2016",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm",
+ "versao": "2026-09-29",
+ "hash": "e92a6014b62dac0ad9633ab406d1b994662bfde886636bf7e4c25fd093433d14",
+ "etag": "\"72a4-6502911dcc628\"",
+ "last_modified": "Thu, 23 Apr 2026 23:33:03 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 13.260, DE 16 DE MARÇO DE 2016.",
+  "Regulamenta o disposto no inciso XLIII do art. 5º da Constituição Federal, disciplinando o terrorismo, tratando de disposições investigatórias e processuais e reformulando o conceito de organização terrorista; e altera as Leis n º 7.960, de 21 de dezembro de 1989, e 12.850, de 2 de agosto de 2013.",
+  "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-23T04:40:47-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Esta Lei regulamenta o disposto no inciso XLIII do art. 5º da Constituição Federal , disciplinando o terrorismo, tratando de disposições investigatórias e processuais e reformulando o conceito de organização terrorista.",
+   "hash": "9c75849bdcc85ebdc49e70b0eca9951c692d934709f87d258299929ec21eb977"
+  },
+  "2": {
+   "texto": "Art. 2º O terrorismo consiste na prática por um ou mais indivíduos dos atos previstos neste artigo, por razões de xenofobia, discriminação ou preconceito de raça, cor, etnia e religião, quando cometidos com a finalidade de provocar terror social ou generalizado, expondo a perigo pessoa, patrimônio, a paz pública ou a incolumidade pública.\n§ 1º São atos de terrorismo:\nI - usar ou ameaçar usar, transportar, guardar, portar ou trazer consigo explosivos, gases tóxicos, venenos, conteúdos biológicos, químicos, nucleares ou outros meios capazes de causar danos ou promover destruição em massa;\nII – (VETADO);\nIII - (VETADO);\nIV - sabotar o funcionamento ou apoderar-se, com violência, grave ameaça a pessoa ou servindo-se de mecanismos cibernéticos, do controle total ou parcial, ainda que de modo temporário, de meio de comunicação ou de transporte, de portos, aeroportos, estações ferroviárias ou rodoviárias, hospitais, casas de saúde, escolas, estádios esportivos, instalações públicas ou locais onde funcionem serviços públicos essenciais, instalações de geração ou transmissão de energia, instalações militares, instalações de exploração, refino e processamento de petróleo e gás e instituições bancárias e sua rede de atendimento;\nV - atentar contra a vida ou a integridade física de pessoa:\nPena - reclusão, de doze a trinta anos, além das sanções correspondentes à ameaça ou à violência.\n§ 2º O disposto neste artigo não se aplica à conduta individual ou coletiva de pessoas em manifestações políticas, movimentos sociais, sindicais, religiosos, de classe ou de categoria profissional, direcionados por propósitos sociais ou reivindicatórios, visando a contestar, criticar, protestar ou apoiar, com o objetivo de defender direitos, garantias e liberdades constitucionais, sem prejuízo da tipificação penal contida em lei.",
+   "hash": "3f875189d3e81f4da3a4eabd9a8b498de3a9336bdb258023e61030ba28b2013e"
+  },
+  "3": {
+   "texto": "Art. 3º Promover, constituir, integrar ou prestar auxílio, pessoalmente ou por interposta pessoa, a organização terrorista:\nPena - reclusão, de cinco a oito anos, e multa.\n§ 1º (VETADO).\n§ 2º (VETADO).",
+   "hash": "1d2e399819671936d28847633e9e7f75dca97a097cf2cd8b30dc0be7d2782308"
+  },
+  "4": {
+   "texto": "Art. 4º (VETADO).",
+   "hash": "c7636352704636d2d969d035127d4af8d1555ab89cbe6d00860ad7105498d641"
+  },
+  "5": {
+   "texto": "Art. 5º Realizar atos preparatórios de terrorismo com o propósito inequívoco de consumar tal delito:\nPena - a correspondente ao delito consumado, diminuída de um quarto até a metade.\n§ 1º Incorre nas mesmas penas o agente que, com o propósito de praticar atos de terrorismo:\nI - recrutar, organizar, transportar ou municiar indivíduos que viajem para país distinto daquele de sua residência ou nacionalidade; ou\nII - fornecer ou receber treinamento em país distinto daquele de sua residência ou nacionalidade.\n§ 2º Nas hipóteses do § 1º, quando a conduta não envolver treinamento ou viagem para país distinto daquele de sua residência ou nacionalidade, a pena será a correspondente ao delito consumado, diminuída de metade a dois terços.",
+   "hash": "99d3e1b9aba163906e28981362dc8beba844f4d5a96a51ab732a18020af3468e"
+  },
+  "6": {
+   "texto": "Art. 6º Receber, prover, oferecer, obter, guardar, manter em depósito, solicitar, investir, de qualquer modo, direta ou indiretamente, recursos, ativos, bens, direitos, valores ou serviços de qualquer natureza, para o planejamento, a preparação ou a execução dos crimes previstos nesta Lei:\nPena - reclusão, de quinze a trinta anos.\nParágrafo único. Incorre na mesma pena quem oferecer ou receber, obtiver, guardar, mantiver em depósito, solicitar, investir ou de qualquer modo contribuir para a obtenção de ativo, bem ou recurso financeiro, com a finalidade de financiar, total ou parcialmente, pessoa, grupo de pessoas, associação, entidade, organização criminosa que tenha como atividade principal ou secundária, mesmo em caráter eventual, a prática dos crimes previstos nesta Lei.",
+   "hash": "e2267a517c137cf101c49eef6ecbb6f631b1d839e73ef29f2838cc33d5d9fe25"
+  },
+  "7": {
+   "texto": "Art. 7º Salvo quando for elementar da prática de qualquer crime previsto nesta Lei, se de algum deles resultar lesão corporal grave, aumenta-se a pena de um terço, se resultar morte, aumenta-se a pena da metade.",
+   "hash": "8aa4050f2f17f3936ab50fd4cdbf08f4f44cd56e34ecf46a4bd7352d90fa8ddf"
+  },
+  "8": {
+   "texto": "Art. 8º (VETADO).",
+   "hash": "11e1360758076b0556cd493cf8e61f8d8e0715df1ba7fc77384814b94909e8a3"
+  },
+  "9": {
+   "texto": "Art. 9º (VETADO).",
+   "hash": "42ed19161c20d3e569ea78cd4621fcfe427bb51545f503931f312b5aae16abd1"
+  },
+  "10": {
+   "texto": "Art. 10. Mesmo antes de iniciada a execução do crime de terrorismo, na hipótese do art. 5º desta Lei, aplicam-se as disposições do art. 15 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal .",
+   "hash": "0a0f0f27dbdf388a3339c9c77aeb1b6de17e4da3f8646241bc23cf873883700f"
+  },
+  "11": {
+   "texto": "Art. 11. Para todos os efeitos legais, considera-se que os crimes previstos nesta Lei são praticados contra o interesse da União, cabendo à Polícia Federal a investigação criminal, em sede de inquérito policial, e à Justiça Federal o seu processamento e julgamento, nos termos do inciso IV do art. 109 da Constituição Federal .\nParágrafo único. (VETADO).",
+   "hash": "89c2b4e6657e8f54e942ff782640ef67b92dd33c254842ed71c8fb7a34de1a63"
+  },
+  "12": {
+   "texto": "Art. 12. O juiz, de ofício, a requerimento do Ministério Público ou mediante representação do delegado de polícia, ouvido o Ministério Público em vinte e quatro horas, havendo indícios suficientes de crime previsto nesta Lei, poderá decretar, no curso da investigação ou da ação penal, medidas assecuratórias de bens, direitos ou valores do investigado ou acusado, ou existentes em nome de interpostas pessoas, que sejam instrumento, produto ou proveito dos crimes previstos nesta Lei.\n§ 1º Proceder-se-á à alienação antecipada para preservação do valor dos bens sempre que estiverem sujeitos a qualquer grau de deterioração ou depreciação, ou quando houver dificuldade para sua manutenção.\n§ 2º O juiz determinará a liberação, total ou parcial, dos bens, direitos e valores quando comprovada a licitude de sua origem e destinação, mantendo-se a constrição dos bens, direitos e valores necessários e suficientes à reparação dos danos e ao pagamento de prestações pecuniárias, multas e custas decorrentes da infração penal.\n§ 3º Nenhum pedido de liberação será conhecido sem o comparecimento pessoal do acusado ou de interposta pessoa a que se refere o caput deste artigo, podendo o juiz determinar a prática de atos necessários à conservação de bens, direitos ou valores, sem prejuízo do disposto no § 1º.\n§ 4º Poderão ser decretadas medidas assecuratórias sobre bens, direitos ou valores para reparação do dano decorrente da infração penal antecedente ou da prevista nesta Lei ou para pagamento de prestação pecuniária, multa e custas.",
+   "hash": "2725edea050dcdbebac471ca9b439d5cc8608e2a0bae97c3d90ee17b52d0266e"
+  },
+  "13": {
+   "texto": "Art. 13. Quando as circunstâncias o aconselharem, o juiz, ouvido o Ministério Público, nomeará pessoa física ou jurídica qualificada para a administração dos bens, direitos ou valores sujeitos a medidas assecuratórias, mediante termo de compromisso.",
+   "hash": "6c64350ce8b699c82d6086c12572ff2972f2893bbedd068c17cef40d093263d5"
+  },
+  "14": {
+   "texto": "Art. 14. A pessoa responsável pela administração dos bens:\nI - fará jus a uma remuneração, fixada pelo juiz, que será satisfeita preferencialmente com o produto dos bens objeto da administração;\nII - prestará, por determinação judicial, informações periódicas da situação dos bens sob sua administração, bem como explicações e detalhamentos sobre investimentos e reinvestimentos realizados.\nParágrafo único. Os atos relativos à administração dos bens serão levados ao conhecimento do Ministério Público, que requererá o que entender cabível.",
+   "hash": "629493937f2af9b5869a5d09160078e7027871abf0e01c0f6cc023ef2ca67370"
+  },
+  "15": {
+   "texto": "Art. 15. O juiz determinará, na hipótese de existência de tratado ou convenção internacional e por solicitação de autoridade estrangeira competente, medidas assecuratórias sobre bens, direitos ou valores oriundos de crimes descritos nesta Lei praticados no estrangeiro.\n§ 1º Aplica-se o disposto neste artigo, independentemente de tratado ou convenção internacional, quando houver reciprocidade do governo do país da autoridade solicitante.\n§ 2º Na falta de tratado ou convenção, os bens, direitos ou valores sujeitos a medidas assecuratórias por solicitação de autoridade estrangeira competente ou os recursos provenientes da sua alienação serão repartidos entre o Estado requerente e o Brasil, na proporção de metade, ressalvado o direito do lesado ou de terceiro de boa-fé.",
+   "hash": "166419a51842c827ae2b110280009bc0af527ebbf9099ef88d4ebb4eb1af701a"
+  },
+  "16": {
+   "texto": "Art. 16. Aplicam-se as disposições da Lei nº 12.850, de 2 agosto de 2013 , para a investigação, processo e julgamento dos crimes previstos nesta Lei.",
+   "hash": "d346a77235d38d5e6d3319237ec8b4f4e63800c6567a7d0b5b1a0812cca0d297"
+  },
+  "17": {
+   "texto": "Art. 17. Aplicam-se as disposições da Lei nº 8.072, de 25 de julho de 1990 , aos crimes previstos nesta Lei.",
+   "hash": "af59fbfaebef1dc8a6f02799b03b64c12819c4dac0347c0801ad6a0a1d4453ac"
+  },
+  "18": {
+   "texto": "Art. 18. O inciso III do art. 1º da Lei nº 7.960, de 21 de dezembro de 1989 , passa a vigorar acrescido da seguinte alínea p :\n“Art. lº ......................................................................\n...........................................................................................\nIII - .............................................................................\n............................................................................................\np) crimes previstos na Lei de Terrorismo.” (NR)",
+   "hash": "4e2a45af465152a17258032a60ef5418325ac83510fc313644edc237649187f0"
+  },
+  "19": {
+   "texto": "Art. 19. O art. 1º da Lei nº 12.850, de 2 de agosto de 2013 , passa a vigorar com a seguinte alteração:\n“Art. 1º .......................................................................\n............................................................................................\n§ 2º .............................................................................\n............................................................................................\nII - às organizações terroristas, entendidas como aquelas voltadas para a prática dos atos de terrorismo legalmente definidos.” (NR)",
+   "hash": "b42509398441711a635c54312143885d5458c87b25e7390cedbc6974c7b19d63"
+  },
+  "20": {
+   "texto": "Art. 20. Esta Lei entra em vigor na data de sua publicação.\nBrasília, 16 de março de 2016; 195º da Independência e 128º da República.\nDilma Rousseff\nWellington César Lima e Silva\nNelson Barbosa\nNilma Lino Gomes\nEste texto não substitui o publicado no DOU de 17.3.2016 - Edição extra e retificada em 18.3.2016\n*",
+   "hash": "6029cc0ae96667451419c56c89aa730542d37d52d7d6bbba8e8371fe2af2a7ac"
+  }
+ }
+}

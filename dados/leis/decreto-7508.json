@@ -1,0 +1,202 @@
+{
+ "id": "decreto-7508",
+ "nome": "Decreto 7.508/2011 (regulamenta a Lei 8.080)",
+ "numero": "Decreto nº 7.508/2011",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7508.htm",
+ "versao": "2026-09-29",
+ "hash": "4c0f4d2e6ea2a06f2054c8eac6f82027257e2feb1d87085795b1a39287093383",
+ "etag": "\"cfaf-650290d66a75b\"",
+ "last_modified": "Thu, 23 Apr 2026 23:31:48 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "DECRETO Nº 7.508, DE 28 DE JUNHO DE 2011.",
+  "Regulamenta a Lei nº 8.080, de 19 de setembro de 1990, para dispor sobre a organização do Sistema Único de Saúde - SUS, o planejamento da saúde, a assistência à saúde e a articulação interfederativa, e dá outras providências.",
+  "A PRESIDENTA DA REPÚBLICA , no uso da atribuição que lhe confere o art. 84, inciso IV, da Constituição, e tendo em vista o disposto na Lei nº 8.080, 19 de setembro de 1990,",
+  "DECRETA:",
+  "CAPÍTULO I",
+  "DAS DISPOSIÇÕES PRELIMINARES"
+ ],
+ "ultimo_download_completo": "2026-09-25T04:49:19-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Este Decreto regulamenta a Lei nº 8.080, de 19 de setembro de 1990, para dispor sobre a organização do Sistema Único de Saúde - SUS, o planejamento da saúde, a assistência à saúde e a articulação interfederativa.",
+   "hash": "7d7dca040abdfbaa94a9e9450ae1661c050458f6b4a6ff0de53b357bd368da2d"
+  },
+  "2": {
+   "texto": "Art. 2º Para efeito deste Decreto, considera-se:\nI - Região de Saúde - espaço geográfico contínuo constituído por agrupamentos de Municípios limítrofes, delimitado a partir de identidades culturais, econômicas e sociais e de redes de comunicação e infraestrutura de transportes compartilhados, com a finalidade de integrar a organização, o planejamento e a execução de ações e serviços de saúde;\nII - Contrato Organizativo da Ação Pública da Saúde - acordo de colaboração firmado entre entes federativos com a finalidade de organizar e integrar as ações e serviços de saúde na rede regionalizada e hierarquizada, com definição de responsabilidades, indicadores e metas de saúde, critérios de avaliação de desempenho, recursos financeiros que serão disponibilizados, forma de controle e fiscalização de sua execução e demais elementos necessários à implementação integrada das ações e serviços de saúde;\nIII - Portas de Entrada - serviços de atendimento inicial à saúde do usuário no SUS;\nIV - Comissões Intergestores - instâncias de pactuação consensual entre os entes federativos para definição das regras da gestão compartilhada do SUS;\nV - Mapa da Saúde - descrição geográfica da distribuição de recursos humanos e de ações e serviços de saúde ofertados pelo SUS e pela iniciativa privada, considerando-se a capacidade instalada existente, os investimentos e o desempenho aferido a partir dos indicadores de saúde do sistema;\nVI - Rede de Atenção à Saúde - conjunto de ações e serviços de saúde articulados em níveis de complexidade crescente, com a finalidade de garantir a integralidade da assistência à saúde;\nVII - Serviços Especiais de Acesso Aberto - serviços de saúde específicos para o atendimento da pessoa que, em razão de agravo ou de situação laboral, necessita de atendimento especial; e\nVIII - Protocolo Clínico e Diretriz Terapêutica - documento que estabelece: critérios para o diagnóstico da doença ou do agravo à saúde; o tratamento preconizado, com os medicamentos e demais produtos apropriados, quando couber; as posologias recomendadas; os mecanismos de controle clínico; e o acompanhamento e a verificação dos resultados terapêuticos, a serem seguidos pelos gestores do SUS.\nCAPÍTULO II\nDA ORGANIZAÇÃO DO SUS",
+   "hash": "81495c8590813542d1cd9eebc6540f3cbc7447cb53c43bce03d19067ed481ce4"
+  },
+  "3": {
+   "texto": "Art. 3º O SUS é constituído pela conjugação das ações e serviços de promoção, proteção e recuperação da saúde executados pelos entes federativos, de forma direta ou indireta, mediante a participação complementar da iniciativa privada, sendo organizado de forma regionalizada e hierarquizada.\nSeção I\nDas Regiões de Saúde",
+   "hash": "b3ff902b0ae7fd73f84261eb51f51f2aa2800ac16a5d5daaa34155a88d670fed"
+  },
+  "4": {
+   "texto": "Art. 4º As Regiões de Saúde serão instituídas pelo Estado, em articulação com os Municípios, respeitadas as diretrizes gerais pactuadas na Comissão Intergestores Tripartite - CIT a que se refere o inciso I do art. 30.\n§ 1º Poderão ser instituídas Regiões de Saúde interestaduais, compostas por Municípios limítrofes, por ato conjunto dos respectivos Estados em articulação com os Municípios.\n§ 2º A instituição de Regiões de Saúde situadas em áreas de fronteira com outros países deverá respeitar as normas que regem as relações internacionais.",
+   "hash": "431a73f7f8af78a80de8a79238c79696f662d563930f703bf162c1acfb8522f6"
+  },
+  "5": {
+   "texto": "Art. 5º Para ser instituída, a Região de Saúde deve conter, no mínimo, ações e serviços de:\nI - atenção primária;\nII - urgência e emergência;\nIII - atenção psicossocial;\nIV - atenção ambulatorial especializada e hospitalar; e\nV - vigilância em saúde.\nParágrafo único. A instituição das Regiões de Saúde observará cronograma pactuado nas Comissões Intergestores.",
+   "hash": "223f109948bc1e39e7ccf231d1c282fc6ff165cbe5626c2aeaddbbc1415f0076"
+  },
+  "6": {
+   "texto": "Art. 6º As Regiões de Saúde serão referência para as transferências de recursos entre os entes federativos.",
+   "hash": "4c8a61c50ae0a2988fb2c0d818faa66785b572d0f29830133b94c29a79010163"
+  },
+  "7": {
+   "texto": "Art. 7º As Redes de Atenção à Saúde estarão compreendidas no âmbito de uma Região de Saúde, ou de várias delas, em consonância com diretrizes pactuadas nas Comissões Intergestores .\nParágrafo único. Os entes federativos definirão os seguintes elementos em relação às Regiões de Saúde:\nI - seus limites geográficos;\nII - população usuária das ações e serviços;\nIII - rol de ações e serviços que serão ofertados; e\nIV - respectivas responsabilidades, critérios de acessibilidade e escala para conformação dos serviços.\nSeção II\nDa Hierarquização",
+   "hash": "78146a721f7840e1639446485daf84ad3d96f33c34b3b62f1dbc18c336b42b4a"
+  },
+  "8": {
+   "texto": "Art. 8º O acesso universal, igualitário e ordenado às ações e serviços de saúde se inicia pelas Portas de Entrada do SUS e se completa na rede regionalizada e hierarquizada, de acordo com a complexidade do serviço.",
+   "hash": "4a51baaed45a974890fbe8ed63697507e6e72edb57b6ccf5972683a7e4e2fc30"
+  },
+  "9": {
+   "texto": "Art. 9º São Portas de Entrada às ações e aos serviços de saúde nas Redes de Atenção à Saúde os serviços:\nI - de atenção primária;\nII - de atenção de urgência e emergência;\nIII - de atenção psicossocial; e\nIV - especiais de acesso aberto.\nParágrafo único. Mediante justificativa técnica e de acordo com o pactuado nas Comissões Intergestores, os entes federativos poderão criar novas Portas de Entrada às ações e serviços de saúde, considerando as características da Região de Saúde.",
+   "hash": "f201f5b0367a03078a3a07de3e78276e01654bba526a061fa053fd4b0c6070cc"
+  },
+  "10": {
+   "texto": "Art. 10. Os serviços de atenção hospitalar e os ambulatoriais especializados, entre outros de maior complexidade e densidade tecnológica, serão referenciados pelas Portas de Entrada de que trata o art. 9º .",
+   "hash": "18a04ca8c4fb16528e11e44c9a332cfc38300932329b439d4a5f8b1df63e75ed"
+  },
+  "11": {
+   "texto": "Art. 11. O acesso universal e igualitário às ações e aos serviços de saúde será ordenado pela atenção primária e deve ser fundado na avaliação da gravidade do risco individual e coletivo e no critério cronológico, observadas as especificidades previstas para pessoas com proteção especial, conforme legislação vigente.\nParágrafo único. A população indígena contará com regramentos diferenciados de acesso, compatíveis com suas especificidades e com a necessidade de assistência integral à sua saúde, de acordo com disposições do Ministério da Saúde.",
+   "hash": "c7997c89aeff5715ae8cfb55a5d5e337ae4954cf764c2c2c5674b3f04aa4667b"
+  },
+  "12": {
+   "texto": "Art. 12. Ao usuário será assegurada a continuidade do cuidado em saúde, em todas as suas modalidades, nos serviços, hospitais e em outras unidades integrantes da rede de atenção da respectiva região.\nParágrafo único. As Comissões Intergestores pactuarão as regras de continuidade do acesso às ações e aos serviços de saúde na respectiva área de atuação.",
+   "hash": "65b2dbc1f274f3e4d58a007a4c12de68a60f4724b7b8ee27994f99d16f84639f"
+  },
+  "13": {
+   "texto": "Art. 13. Para assegurar ao usuário o acesso universal, igualitário e ordenado às ações e serviços de saúde do SUS, caberá aos entes federativos, além de outras atribuições que venham a ser pactuadas pelas Comissões Intergestores:\nI - garantir a transparência, a integralidade e a equidade no acesso às ações e aos serviços de saúde;\nII - orientar e ordenar os fluxos das ações e dos serviços de saúde;\nIII - monitorar o acesso às ações e aos serviços de saúde; e\nIV - ofertar regionalmente as ações e os serviços de saúde.",
+   "hash": "80fa99eb5e9ed0617f1f5e0405cb1103baa8d66a191d05c1198c67421ba1fbd9"
+  },
+  "14": {
+   "texto": "Art. 14. O Ministério da Saúde disporá sobre critérios, diretrizes, procedimentos e demais medidas que auxiliem os entes federativos no cumprimento das atribuições previstas no art. 13.\nCAPÍTULO III\nDO PLANEJAMENTO DA SAÚDE",
+   "hash": "6179b600aecc7185b4ec8141ce88baa8e4c6edd0264f903f6e6d3b91b72a0408"
+  },
+  "15": {
+   "texto": "Art. 15. O processo de planejamento da saúde será ascendente e integrado, do nível local até o federal, ouvidos os respectivos Conselhos de Saúde, compatibilizando-se as necessidades das políticas de saúde com a disponibilidade de recursos financeiros.\n§ 1º O planejamento da saúde é obrigatório para os entes públicos e será indutor de políticas para a iniciativa privada.\n§ 2º A compatibilização de que trata o caput será efetuada no âmbito dos planos de saúde, os quais serão resultado do planejamento integrado dos entes federativos, e deverão conter metas de saúde.\n§ 3º O Conselho Nacional de Saúde estabelecerá as diretrizes a serem observadas na elaboração dos planos de saúde, de acordo com as características epidemiológicas e da organização de serviços nos entes federativos e nas Regiões de Saúde.",
+   "hash": "6a55da22275b76a069d3c0345eaaed6378b568d0aae69784d1350437f822dead"
+  },
+  "16": {
+   "texto": "Art. 16. No planejamento devem ser considerados os serviços e as ações prestados pela iniciativa privada, de forma complementar ou não ao SUS, os quais deverão compor os Mapas da Saúde regional, estadual e nacional.",
+   "hash": "1d75ca8e16c14784ffac6c90418d6ffde390ca552703a41e8e799ea6af150b1d"
+  },
+  "17": {
+   "texto": "Art. 17. O Mapa da Saúde será utilizado na identificação das necessidades de saúde e orientará o planejamento integrado dos entes federativos, contribuindo para o estabelecimento de metas de saúde.",
+   "hash": "886c9dcf4c39f50e17adbfade04c610d98445fda3fad7cf6adb0c82a94ffc4f3"
+  },
+  "18": {
+   "texto": "Art. 18. O planejamento da saúde em âmbito estadual deve ser realizado de maneira regionalizada, a partir das necessidades dos Municípios, considerando o estabelecimento de metas de saúde.",
+   "hash": "d0a3dd271d9abc31613617fdd6d42a5e971b678462dc98f2ccdf5dfe1a20bffc"
+  },
+  "19": {
+   "texto": "Art. 19. Compete à Comissão Intergestores Bipartite - CIB de que trata o inciso II do art. 30 pactuar as etapas do processo e os prazos do planejamento municipal em consonância com os planejamentos estadual e nacional.\nCAPÍTULO IV\nDA ASSISTÊNCIA À SAÚDE",
+   "hash": "284699604d3247a12d4bc00f25d39d6ada6a092d04b62f5c62eb444b5f044a39"
+  },
+  "20": {
+   "texto": "Art. 20. A integralidade da assistência à saúde se inicia e se completa na Rede de Atenção à Saúde, mediante referenciamento do usuário na rede regional e interestadual, conforme pactuado nas Comissões Intergestores.\nSeção I\nDa Relação Nacional de Ações e Serviços de Saúde - RENASES",
+   "hash": "0719442f1e247e7482b17beac646e66b3938bf1d929a2b8fdf07fabc8410a3ec"
+  },
+  "21": {
+   "texto": "Art. 21. A Relação Nacional de Ações e Serviços de Saúde - RENASES compreende todas as ações e serviços que o SUS oferece ao usuário para atendimento da integralidade da assistência à saúde.",
+   "hash": "bbecceb4a67da0c3d056ef5c7d65c7f4f8601ffa82f837bd47149e497950189a"
+  },
+  "22": {
+   "texto": "Art. 22. O Ministério da Saúde disporá sobre a RENASES em âmbito nacional, observadas as diretrizes pactuadas pela CIT.\nParágrafo único. A cada dois anos, o Ministério da Saúde consolidará e publicará as atualizações da RENASES.",
+   "hash": "7b9850a4a4a903b21f86dab183b0d102a72452fc43a6ec842a7232f44d45e094"
+  },
+  "23": {
+   "texto": "Art. 23. A União, os Estados, o Distrito Federal e os Municípios pactuarão nas respectivas Comissões Intergestores as suas responsabilidades em relação ao rol de ações e serviços constantes da RENASES.",
+   "hash": "fbedd03e46f6ab1d570c431be1e020bad5244361f106e7967eb3bfe052c861b4"
+  },
+  "24": {
+   "texto": "Art. 24. Os Estados, o Distrito Federal e os Municípios poderão adotar relações específicas e complementares de ações e serviços de saúde, em consonância com a RENASES, respeitadas as responsabilidades dos entes pelo seu financiamento, de acordo com o pactuado nas Comissões Intergestores.\nSeção II\nDa Relação Nacional de Medicamentos Essenciais - RENAME",
+   "hash": "2b251dd2e641a0e2d830b18537deb4722a43bc9c14cc94a598cfee2cec5693b3"
+  },
+  "25": {
+   "texto": "Art. 25. A Relação Nacional de Medicamentos Essenciais - RENAME compreende a seleção e a padronização de medicamentos indicados para atendimento de doenças ou de agravos no âmbito do SUS.\nParágrafo único. A RENAME será acompanhada do Formulário Terapêutico Nacional - FTN que subsidiará a prescrição, a dispensação e o uso dos seus medicamentos.",
+   "hash": "17628d4e37ec6a366a86b93f41091fcbf3dbf0e0f0716aff7b8e0789fd0df0a1"
+  },
+  "26": {
+   "texto": "Art. 26. O Ministério da Saúde é o órgão competente para dispor sobre a RENAME e os Protocolos Clínicos e Diretrizes Terapêuticas em âmbito nacional, observadas as diretrizes pactuadas pela CIT.\nParágrafo único. A cada dois anos, o Ministério da Saúde consolidará e publicará as atualizações da RENAME, do respectivo FTN e dos Protocolos Clínicos e Diretrizes Terapêuticas.\nParágrafo único. O Ministério da Saúde consolidará e publicará as atualizações: (Redação dada pelo Decreto nº 11.161, de 2022) Vigência\nI - da RENAME, a cada dois anos, e disponibilizará, nesse prazo, a lista de tecnologias incorporadas, excluídas e alteradas pela CONITEC e com a responsabilidade de financiamento pactuada de forma tripartite, até que haja a consolidação da referida lista; (Incluído pelo Decreto nº 11.161, de 2022) Vigência\nII - do FTN, à medida que sejam identificadas novas evidências sobre as tecnologias constantes na RENAME vigente; e (Incluído pelo Decreto nº 11.161, de 2022) Vigência\nIII - de protocolos clínicos ou de diretrizes terapêuticas, quando da incorporação, alteração ou exclusão de tecnologias em saúde no SUS e da existência de novos estudos e evidências científicas identificados a partir de revisões periódicas da literatura relacionada aos seus objetos. (Incluído pelo Decreto nº 11.161, de 2022) Vigência",
+   "hash": "1415d0f5d5cbfe50efb3d306794c427d1f0cf9ebf591d97b12f20f96bf8ee896"
+  },
+  "27": {
+   "texto": "Art. 27. O Estado, o Distrito Federal e o Município poderão adotar relações específicas e complementares de medicamentos, em consonância com a RENAME, respeitadas as responsabilidades dos entes pelo financiamento de medicamentos, de acordo com o pactuado nas Comissões Intergestores.",
+   "hash": "96705f4ea7fa905fc3e034f21d50f63d83cf547bb04e55d659dc08b86051ff52"
+  },
+  "28": {
+   "texto": "Art. 28. O acesso universal e igualitário à assistência farmacêutica pressupõe, cumulativamente:\nI - estar o usuário assistido por ações e serviços de saúde do SUS;\nII - ter o medicamento sido prescrito por profissional de saúde, no exercício regular de suas funções no SUS;\nIII - estar a prescrição em conformidade com a RENAME e os Protocolos Clínicos e Diretrizes Terapêuticas ou com a relação específica complementar estadual, distrital ou municipal de medicamentos; e\nIV - ter a dispensação ocorrido em unidades indicadas pela direção do SUS.\n§ 1º Os entes federativos poderão ampliar o acesso do usuário à assistência farmacêutica, desde que questões de saúde pública o justifiquem.\n§ 2º O Ministério da Saúde poderá estabelecer regras diferenciadas de acesso a medicamentos de caráter especializado.",
+   "hash": "472250abd13a568a106affed7682f572422d5fac19d1a72447c1eb2f617e5739"
+  },
+  "29": {
+   "texto": "Art. 29. A RENAME e a relação específica complementar estadual, distrital ou municipal de medicamentos somente poderão conter produtos com registro na Agência Nacional de Vigilância Sanitária - ANVISA.\nCAPÍTULO V\nDA ARTICULAÇÃO INTERFEDERATIVA\nSeção I\nDas Comissões Intergestores",
+   "hash": "22acc8ff75b99dc1b4c28e3767a602061f86faf4960013222817ae59e22b6d89"
+  },
+  "30": {
+   "texto": "Art. 30. As Comissões Intergestores pactuarão a organização e o funcionamento das ações e serviços de saúde integrados em redes de atenção à saúde, sendo:\nI - a CIT, no âmbito da União, vinculada ao Ministério da Saúde para efeitos administrativos e operacionais;\nII - a CIB, no âmbito do Estado, vinculada à Secretaria Estadual de Saúde para efeitos administrativos e operacionais; e\nIII - a Comissão Intergestores Regional - CIR, no âmbito regional, vinculada à Secretaria Estadual de Saúde para efeitos administrativos e operacionais, devendo observar as diretrizes da CIB.",
+   "hash": "af0c124875464fc22cfbad71c2f7ebb84f5e54750d0db7136a976c00af4fac25"
+  },
+  "31": {
+   "texto": "Art. 31. Nas Comissões Intergestores, os gestores públicos de saúde poderão ser representados pelo Conselho Nacional de Secretários de Saúde - CONASS, pelo Conselho Nacional de Secretarias Municipais de Saúde - CONASEMS e pelo Conselho Estadual de Secretarias Municipais de Saúde - COSEMS.",
+   "hash": "e2e882cb89849bf6f0db84dd1727d47d262f9a39d99d96e14a3e738a0f76a596"
+  },
+  "32": {
+   "texto": "Art. 32. As Comissões Intergestores pactuarão:\nI - aspectos operacionais, financeiros e administrativos da gestão compartilhada do SUS, de acordo com a definição da política de saúde dos entes federativos, consubstanciada nos seus planos de saúde, aprovados pelos respectivos conselhos de saúde;\nII - diretrizes gerais sobre Regiões de Saúde, integração de limites geográficos, referência e contrarreferência e demais aspectos vinculados à integração das ações e serviços de saúde entre os entes federativos;\nIII - diretrizes de âmbito nacional, estadual, regional e interestadual, a respeito da organização das redes de atenção à saúde, principalmente no tocante à gestão institucional e à integração das ações e serviços dos entes federativos;\nIV - responsabilidades dos entes federativos na Rede de Atenção à Saúde, de acordo com o seu porte demográfico e seu desenvolvimento econômico-financeiro, estabelecendo as responsabilidades individuais e as solidárias; e\nV - referências das regiões intraestaduais e interestaduais de atenção à saúde para o atendimento da integralidade da assistência.\nParágrafo único. Serão de competência exclusiva da CIT a pactuação:\nI - das diretrizes gerais para a composição da RENASES;\nII - dos critérios para o planejamento integrado das ações e serviços de saúde da Região de Saúde, em razão do compartilhamento da gestão; e\nIII - das diretrizes nacionais, do financiamento e das questões operacionais das Regiões de Saúde situadas em fronteiras com outros países, respeitadas, em todos os casos, as normas que regem as relações internacionais.\nSeção II\nDo Contrato Organizativo da Ação Pública da Saúde",
+   "hash": "eb437014df25e3e976c7d0987e8d2f9ac32b9e6827f0077e2259669391582819"
+  },
+  "33": {
+   "texto": "Art. 33. O acordo de colaboração entre os entes federativos para a organização da rede interfederativa de atenção à saúde será firmado por meio de Contrato Organizativo da Ação Pública da Saúde.",
+   "hash": "8f31cba9b81441c24778aed53c56786c04dc290a4dc4623af0f038818752e29a"
+  },
+  "34": {
+   "texto": "Art. 34. O objeto do Contrato Organizativo de Ação Pública da Saúde é a organização e a integração das ações e dos serviços de saúde, sob a responsabilidade dos entes federativos em uma Região de Saúde, com a finalidade de garantir a integralidade da assistência aos usuários.\nParágrafo único. O Contrato Organizativo de Ação Pública da Saúde resultará da integração dos planos de saúde dos entes federativos na Rede de Atenção à Saúde, tendo como fundamento as pactuações estabelecidas pela CIT.",
+   "hash": "f40a76b4555a1bd17cfea3da577c4ef4571059542451b41336be0bf6c1f450e1"
+  },
+  "35": {
+   "texto": "Art. 35. O Contrato Organizativo de Ação Pública da Saúde definirá as responsabilidades individuais e solidárias dos entes federativos com relação às ações e serviços de saúde, os indicadores e as metas de saúde, os critérios de avaliação de desempenho, os recursos financeiros que serão disponibilizados, a forma de controle e fiscalização da sua execução e demais elementos necessários à implementação integrada das ações e serviços de saúde.\n§ 1º O Ministério da Saúde definirá indicadores nacionais de garantia de acesso às ações e aos serviços de saúde no âmbito do SUS, a partir de diretrizes estabelecidas pelo Plano Nacional de Saúde.\n§ 2º O desempenho aferido a partir dos indicadores nacionais de garantia de acesso servirá como parâmetro para avaliação do desempenho da prestação das ações e dos serviços definidos no Contrato Organizativo de Ação Pública de Saúde em todas as Regiões de Saúde, considerando-se as especificidades municipais, regionais e estaduais.",
+   "hash": "fc37338eb0244bc4da3b1a493e90294dc6c5254291960e2482fe8da2618a8d8f"
+  },
+  "36": {
+   "texto": "Art. 36. O Contrato Organizativo da Ação Pública de Saúde conterá as seguintes disposições essenciais:\nI - identificação das necessidades de saúde locais e regionais;\nII - oferta de ações e serviços de vigilância em saúde, promoção, proteção e recuperação da saúde em âmbito regional e inter-regional;\nIII - responsabilidades assumidas pelos entes federativos perante a população no processo de regionalização, as quais serão estabelecidas de forma individualizada, de acordo com o perfil, a organização e a capacidade de prestação das ações e dos serviços de cada ente federativo da Região de Saúde;\nIV - indicadores e metas de saúde;\nV - estratégias para a melhoria das ações e serviços de saúde;\nVI - critérios de avaliação dos resultados e forma de monitoramento permanente;\nVII - adequação das ações e dos serviços dos entes federativos em relação às atualizações realizadas na RENASES;\nVIII - investimentos na rede de serviços e as respectivas responsabilidades; e\nIX - recursos financeiros que serão disponibilizados por cada um dos partícipes para sua execução.\nParágrafo único. O Ministério da Saúde poderá instituir formas de incentivo ao cumprimento das metas de saúde e à melhoria das ações e serviços de saúde.",
+   "hash": "32da3c17a25408752f4aa0d8ef233da9adb35d1b7f0f60d6f9beff185e17e287"
+  },
+  "37": {
+   "texto": "Art. 37. O Contrato Organizativo de Ação Pública de Saúde observará as seguintes diretrizes básicas para fins de garantia da gestão participativa:\nI - estabelecimento de estratégias que incorporem a avaliação do usuário das ações e dos serviços, como ferramenta de sua melhoria;\nII - apuração permanente das necessidades e interesses do usuário; e\nIII - publicidade dos direitos e deveres do usuário na saúde em todas as unidades de saúde do SUS, inclusive nas unidades privadas que dele participem de forma complementar.",
+   "hash": "96479b811f81e53ff1b1a43047df59f5bdad8e0d4d15b03fd381e7a0f445e09e"
+  },
+  "38": {
+   "texto": "Art. 38. A humanização do atendimento do usuário será fator determinante para o estabelecimento das metas de saúde previstas no Contrato Organizativo de Ação Pública de Saúde.",
+   "hash": "2b8b4be4e5c7ddbcda51345a14e85d86db10064e32d2c7b0676b9bbc8e0aa041"
+  },
+  "39": {
+   "texto": "Art. 39. As normas de elaboração e fluxos do Contrato Organizativo de Ação Pública de Saúde serão pactuados pelo CIT, cabendo à Secretaria de Saúde Estadual coordenar a sua implementação.",
+   "hash": "3b70e8369d5818c220be55047bd943dfccbe3aa5fc8b6828a57f27db50b9b383"
+  },
+  "40": {
+   "texto": "Art. 40. O Sistema Nacional de Auditoria e Avaliação do SUS, por meio de serviço especializado, fará o controle e a fiscalização do Contrato Organizativo de Ação Pública da Saúde.\n§ 1º O Relatório de Gestão a que se refere o inciso IV do art. 4º da Lei nº 8.142, de 28 de dezembro de 1990, conterá seção específica relativa aos compromissos assumidos no âmbito do Contrato Organizativo de Ação Pública de Saúde.\n§ 2º O disposto neste artigo será implementado em conformidade com as demais formas de controle e fiscalização previstas em Lei.",
+   "hash": "070d6dacda77903d0cff0fbcf6fbee82e719378540eb6e001237b64af0d58063"
+  },
+  "41": {
+   "texto": "Art. 41. Aos partícipes caberá monitorar e avaliar a execução do Contrato Organizativo de Ação Pública de Saúde, em relação ao cumprimento das metas estabelecidas, ao seu desempenho e à aplicação dos recursos disponibilizados.\nParágrafo único. Os partícipes incluirão dados sobre o Contrato Organizativo de Ação Pública de Saúde no sistema de informações em saúde organizado pelo Ministério da Saúde e os encaminhará ao respectivo Conselho de Saúde para monitoramento.\nCAPÍTULO VI\nDAS DISPOSIÇÕES FINAIS",
+   "hash": "f4452101c5949518f783fefd950272b75e9253b3a7107df19715ad0b8865ae5d"
+  },
+  "42": {
+   "texto": "Art. 42. Sem prejuízo das outras providências legais, o Ministério da Saúde informará aos órgãos de controle interno e externo:\nI - o descumprimento injustificado de responsabilidades na prestação de ações e serviços de saúde e de outras obrigações previstas neste Decreto;\nII - a não apresentação do Relatório de Gestão a que se refere o inciso IV do art. 4º da Lei no 8.142, de 1990 ;\nIII - a não aplicação, malversação ou desvio de recursos financeiros; e\nIV - outros atos de natureza ilícita de que tiver conhecimento.",
+   "hash": "7e1167d503e1e7c9dc3a9ad442cdd5e324820942a8e2c0f78aa2fd2b4f67828e"
+  },
+  "43": {
+   "texto": "Art. 43. A primeira RENASES é a somatória de todas as ações e serviços de saúde que na data da publicação deste Decreto são ofertados pelo SUS à população, por meio dos entes federados, de forma direta ou indireta.",
+   "hash": "9ec67ef06bd988645bb90cafba81af4b45f879ce55a09da7078f8c19dd662777"
+  },
+  "44": {
+   "texto": "Art. 44. O Conselho Nacional de Saúde estabelecerá as diretrizes de que trata o § 3º do art. 15 no prazo de cento e oitenta dias a partir da publicação deste Decreto.",
+   "hash": "31e5a7d4bcb3eabb7bd502d678d3142840679ba1d356bd79129963bdb921341c"
+  },
+  "45": {
+   "texto": "Art. 45. Este Decreto entra em vigor na data de sua publicação.\nBrasília, 28 de junho de 2011; 190º da Independência e 123º da República.\nDILMA ROUSSEFF\nAlexandre Rocha Santos Padilha\nEste texto não substitui o publicado no DOU de 29.6.2011",
+   "hash": "84d206aa96794aec2307539489cc9b27c7a2af01ef389a4c200555bd5e13e256"
+  }
+ }
+}

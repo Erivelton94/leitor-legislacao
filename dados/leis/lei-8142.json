@@ -1,0 +1,47 @@
+{
+ "id": "lei-8142",
+ "nome": "Participação da Comunidade na Gestão do SUS",
+ "numero": "Lei nº 8.142/1990",
+ "url": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm",
+ "versao": "2026-09-29",
+ "hash": "c0b5e8dc644468d1931032d42c670ba62a3154abeabc446e77c8fe17c3a88689",
+ "etag": "\"262d-650289e5cef4b\"",
+ "last_modified": "Thu, 23 Apr 2026 23:00:46 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 8.142, DE 28 DE DEZEMBRO DE 1990.",
+  "Dispõe sobre a participação da comunidade na gestão do Sistema Único de Saúde (SUS) e sobre as transferências intergovernamentais de recursos financeiros na área da saúde e dá outras providências.",
+  "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:"
+ ],
+ "ultimo_download_completo": "2026-09-29T04:49:11-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1° O Sistema Único de Saúde (SUS), de que trata a Lei n° 8.080, de 19 de setembro de 1990, contará, em cada esfera de governo, sem prejuízo das funções do Poder Legislativo, com as seguintes instâncias colegiadas:\nI - a Conferência de Saúde; e\nII - o Conselho de Saúde.\n§ 1° A Conferência de Saúde reunir-se-á a cada quatro anos com a representação dos vários segmentos sociais, para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes, convocada pelo Poder Executivo ou, extraordinariamente, por esta ou pelo Conselho de Saúde.\n§ 2° O Conselho de Saúde, em caráter permanente e deliberativo, órgão colegiado composto por representantes do governo, prestadores de serviço, profissionais de saúde e usuários, atua na formulação de estratégias e no controle da execução da política de saúde na instância correspondente, inclusive nos aspectos econômicos e financeiros, cujas decisões serão homologadas pelo chefe do poder legalmente constituído em cada esfera do governo.\n§ 3° O Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional de Secretários Municipais de Saúde (Conasems) terão representação no Conselho Nacional de Saúde.\n§ 4° A representação dos usuários nos Conselhos de Saúde e Conferências será paritária em relação ao conjunto dos demais segmentos.\n§ 5° As Conferências de Saúde e os Conselhos de Saúde terão sua organização e normas de funcionamento definidas em regimento próprio, aprovadas pelo respectivo conselho.",
+   "hash": "cfa8a40ff7ac62238225ada435434688a42b9a871c7065dfbf34f1827f488dd9"
+  },
+  "2": {
+   "texto": "Art. 2° Os recursos do Fundo Nacional de Saúde (FNS) serão alocados como:\nI - despesas de custeio e de capital do Ministério da Saúde, seus órgãos e entidades, da administração direta e indireta;\nII - investimentos previstos em lei orçamentária, de iniciativa do Poder Legislativo e aprovados pelo Congresso Nacional;\nIII - investimentos previstos no Plano Qüinqüenal do Ministério da Saúde;\nIV - cobertura das ações e serviços de saúde a serem implementados pelos Municípios, Estados e Distrito Federal.\nParágrafo único. Os recursos referidos no inciso IV deste artigo destinar-se-ão a investimentos na rede de serviços, à cobertura assistencial ambulatorial e hospitalar e às demais ações de saúde.",
+   "hash": "9512adb14f6b1ddfad79412c4d5cdec5f4c350d1a3f55a7445d4a62788fabbf5"
+  },
+  "3": {
+   "texto": "Art. 3° Os recursos referidos no inciso IV do art. 2° desta lei serão repassados de forma regular e automática para os Municípios, Estados e Distrito Federal, de acordo com os critérios previstos no art. 35 da Lei n° 8.080, de 19 de setembro de 1990.\n§ 1° Enquanto não for regulamentada a aplicação dos critérios previstos no art. 35 da Lei n° 8.080, de 19 de setembro de 1990, será utilizado, para o repasse de recursos, exclusivamente o critério estabelecido no § 1° do mesmo artigo. (Vide Lei nº 8.080, de 1990)\n§ 2° Os recursos referidos neste artigo serão destinados, pelo menos setenta por cento, aos Municípios, afetando-se o restante aos Estados.\n§ 3° Os Municípios poderão estabelecer consórcio para execução de ações e serviços de saúde, remanejando, entre si, parcelas de recursos previstos no inciso IV do art. 2° desta lei.",
+   "hash": "d451dabfc3c893be2146639af90348135779657ac1fd34b4947ceab5297d825c"
+  },
+  "4": {
+   "texto": "Art. 4° Para receberem os recursos, de que trata o art. 3° desta lei, os Municípios, os Estados e o Distrito Federal deverão contar com:\nI - Fundo de Saúde;\nII - Conselho de Saúde, com composição paritária de acordo com o Decreto n° 99.438, de 7 de agosto de 1990;\nIII - plano de saúde;\nIV - relatórios de gestão que permitam o controle de que trata o § 4° do art. 33 da Lei n° 8.080, de 19 de setembro de 1990;\nV - contrapartida de recursos para a saúde no respectivo orçamento;\nVI - Comissão de elaboração do Plano de Carreira, Cargos e Salários (PCCS), previsto o prazo de dois anos para sua implantação.\nParágrafo único. O não atendimento pelos Municípios, ou pelos Estados, ou pelo Distrito Federal, dos requisitos estabelecidos neste artigo, implicará em que os recursos concernentes sejam administrados, respectivamente, pelos Estados ou pela União.",
+   "hash": "93e4f4cfbc13a63644ce8f14ad25beb301be5a173e34d7e2ca381b24494d9e8e"
+  },
+  "5": {
+   "texto": "Art. 5° É o Ministério da Saúde, mediante portaria do Ministro de Estado, autorizado a estabelecer condições para aplicação desta lei.",
+   "hash": "55f597139c1bf0f548c7f0b9841cae9e9356343fd5c688da204fdd262a144f2b"
+  },
+  "6": {
+   "texto": "Art. 6° Esta lei entra em vigor na data de sua publicação.",
+   "hash": "456af656aaf621b3aff1caf6837ad8ec6a44d1bc4e7ae1ae96e61749a813ba5f"
+  },
+  "7": {
+   "texto": "Art. 7° Revogam-se as disposições em contrário.\nBrasília, 28 de dezembro de 1990; 169° da Independência e 102° da República.\nFERNANDO COLLOR\nAlceni Guerra\nEste texto não substitui o publicado no DOU de 31.12.1990\n*",
+   "hash": "b3fe1338ad4b3f202df50a087d77860572fdb0403b4d361c1b30eaa39a5b9281"
+  }
+ }
+}

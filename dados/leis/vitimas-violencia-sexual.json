@@ -1,0 +1,35 @@
+{
+ "id": "vitimas-violencia-sexual",
+ "nome": "Atendimento a Vítimas de Violência Sexual",
+ "numero": "Lei nº 12.845/2013",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12845.htm",
+ "versao": "2026-09-29",
+ "hash": "16a89ed3171c8dbb467b15340dd9e0ce0288037e8b35694aacfbeea1cbe1ce13",
+ "etag": "\"37f3-65c24241d7c50\"",
+ "last_modified": "Wed, 23 Sep 2026 10:42:34 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 12.845, DE 1º DE AGOSTO DE 2013.",
+  "Dispõe sobre o atendimento obrigatório e integral de pessoas em situação de violência sexual.",
+  "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-27T04:43:36-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º Os hospitais devem oferecer às vítimas de violência sexual atendimento emergencial, integral e multidisciplinar, visando ao controle e ao tratamento dos agravos físicos e psíquicos decorrentes de violência sexual, e encaminhamento, se for o caso, aos serviços de assistência social.",
+   "hash": "d2ce4b138e56885ecadeffeb969b995cd54d53a9e6e8e99fac61bff12eb44f75"
+  },
+  "2": {
+   "texto": "Art. 2º Considera-se violência sexual, para os efeitos desta Lei, qualquer forma de atividade sexual não consentida.",
+   "hash": "d50139a5affa9d10b8b05d2bbeea6fd10637a59c72bb4e6714e9ab106c61fe74"
+  },
+  "3": {
+   "texto": "Art. 3º O atendimento imediato, obrigatório em todos os hospitais integrantes da rede do SUS, compreende os seguintes serviços:\nI - diagnóstico e tratamento das lesões físicas no aparelho genital e nas demais áreas afetadas;\nII - amparo médico, psicológico e social imediatos;\nIII - facilitação do registro da ocorrência e encaminhamento ao órgão de medicina legal e às delegacias especializadas com informações que possam ser úteis à identificação do agressor e à comprovação da violência sexual;\nIV - profilaxia da gravidez;\nV - profilaxia das Doenças Sexualmente Transmissíveis - DST;\nVI - coleta de material para realização do exame de HIV para posterior acompanhamento e terapia;\nVII - fornecimento de informações às vítimas sobre os direitos legais e sobre todos os serviços sanitários disponíveis.\nVIII – coleta de material para exame toxicológico, se indicado; (Incluído pela Lei nº 15.516, de 2026)\nIX – comunicação obrigatória à autoridade policial, no prazo de 24 (vinte e quatro) horas, dos casos em que houver indícios ou confirmação de violência sexual, para as providências cabíveis e para fins estatísticos. (Incluído pela Lei nº 15.516, de 2026)\n§ 1º Os serviços de que trata esta Lei são prestados de forma gratuita aos que deles necessitarem.\n§ 2º No tratamento das lesões, o médico deverá coletar e preservar materiais que possam compor o corpo de delito. (Redação dada pela Lei nº 15.516, de 2026)\n§ 3º Caberá aos órgãos de perícia oficial de natureza criminal realizar o exame de DNA para identificação do agressor e inclusão no Banco Nacional de Perfis Genéticos, ainda que não identificado. (Redação dada pela Lei nº 15.516, de 2026)\n§ 4º Os órgãos de perícia oficial de natureza criminal deverão capacitar os médicos dos serviços de saúde para o protocolo de atendimento e coleta de vestígios de que trata o § 2º deste artigo. (Incluído pela Lei nº 15.516, de 2026)",
+   "hash": "0bce81d7fba0611c64d1a97daabece4519a3003d7957a73bd2161b9821602780"
+  },
+  "4": {
+   "texto": "Art. 4º Esta Lei entra em vigor após decorridos 90 (noventa) dias de sua publicação oficial.\nBrasília, 1º de agosto de 2013; 192º da Independência e 125º da República.\nDILMA ROUSSEFF\nJosé Eduardo Cardozo\nAlexandre Rocha Santos Padilha\nEleonora Menicucci de Oliveira\nMaria do Rosário Nunes\nEste texto não substitui o publicado no DOU de 2.8.2013",
+   "hash": "e99e4f3b01541ec4c851f90213a28842be9740bb414ed47aa8fcad9827f0e399"
+  }
+ }
+}

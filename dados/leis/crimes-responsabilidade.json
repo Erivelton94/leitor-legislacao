@@ -1,0 +1,369 @@
+{
+ "id": "crimes-responsabilidade",
+ "nome": "Lei dos Crimes de Responsabilidade",
+ "numero": "Lei nº 1.079/1950",
+ "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+ "versao": "2026-09-29",
+ "hash": "8b607789aabcf81ba16ff7f62b26785c1fca9f033ad835b52a2915479adde08d",
+ "etag": "\"1410c-650289dc162fc\"",
+ "last_modified": "Thu, 23 Apr 2026 23:00:35 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 1.079, DE 10 DE ABRIL DE 1950.",
+  "Define os crimes de responsabilidade e regula o respectivo processo de julgamento.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta eu sanciono a seguinte Lei:",
+  "PARTE PRIMEIRA",
+  "Do Presidente da República e Ministros de Estado"
+ ],
+ "ultimo_download_completo": "2026-09-29T04:41:38-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º São crimes de responsabilidade os que esta lei especifica.",
+   "hash": "d8ccf048acdeb95e25bfb925e774f539dcaaf0c5d5ba1c5dd17fcc9562d31935"
+  },
+  "2": {
+   "texto": "Art. 2º Os crimes definidos nesta lei, ainda quando simplesmente tentados, são passíveis da pena de perda do cargo, com inabilitação, até cinco anos, para o exercício de qualquer função pública, imposta pelo Senado Federal nos processos contra o Presidente da República ou Ministros de Estado, contra os Ministros do Supremo Tribunal Federal ou contra o Procurador Geral da República.",
+   "hash": "2aee483a0591246492e7291272e69b0a40c493f5fc289528b7a12517cf111152"
+  },
+  "3": {
+   "texto": "Art. 3º A imposição da pena referida no artigo anterior não exclui o processo e julgamento do acusado por crime comum, na justiça ordinária, nos termos das leis de processo penal.",
+   "hash": "3cd248a65dda459b6cd9b248e9216e7c1d17f1493290074f396c2ada3e85355e"
+  },
+  "4": {
+   "texto": "Art. 4º São crimes de responsabilidade os atos do Presidente da República que atentarem contra a Constituição Federal, e, especialmente, contra:\nI - A existência da União:\nII - O livre exercício do Poder Legislativo, do Poder Judiciário e dos poderes constitucionais dos Estados;\nIII - O exercício dos direitos políticos, individuais e sociais:\nIV - A segurança interna do país:\nV - A probidade na administração;\nVI - A lei orçamentária;\nVII - A guarda e o legal emprego dos dinheiros públicos;\nVIII - O cumprimento das decisões judiciárias (Constituição, artigo 89).\nTÍTULO I\nCAPÍTULO I\nDOS CRIMES CONTRA A EXISTÊNCIA DA UNIÃO",
+   "hash": "82a27316ce319090638e944d58ac0fab53a8680485e583bea50b698f047f9cb6"
+  },
+  "5": {
+   "texto": "Art. 5º São crimes de responsabilidade contra a existência política da União:\n1 - entreter, direta ou indiretamente, inteligência com governo estrangeiro, provocando-o a fazer guerra ou cometer hostilidade contra a República, prometer-lhe assistência ou favor, ou dar-lhe qualquer auxílio nos preparativos ou planos de guerra contra a República;\n2 - tentar, diretamente e por fatos, submeter a União ou algum dos Estados ou Territórios a domínio estrangeiro, ou dela separar qualquer Estado ou porção do território nacional;\n3 - cometer ato de hostilidade contra nação estrangeira, expondo a República ao perigo da guerra, ou comprometendo-lhe a neutralidade;\n4 - revelar negócios políticos ou militares, que devam ser mantidos secretos a bem da defesa da segurança externa ou dos interesses da Nação;\n5 - auxiliar, por qualquer modo, nação inimiga a fazer a guerra ou a cometer hostilidade contra a República;\n6 - celebrar tratados, convenções ou ajustes que comprometam a dignidade da Nação;\n7 - violar a imunidade dos embaixadores ou ministros estrangeiros acreditados no país;\n8 - declarar a guerra, salvo os casos de invasão ou agressão estrangeira, ou fazer a paz, sem autorização do Congresso Nacional.\n9 - não empregar contra o inimigo os meios de defesa de que poderia dispor;\n10 - permitir o Presidente da República, durante as sessões legislativas e sem autorização do Congresso Nacional, que forças estrangeiras transitem pelo território do país, ou, por motivo de guerra, nele permaneçam temporariamente;\n11 - violar tratados legitimamente feitos com nações estrangeiras.\nCAPÍTULO II\nDOS CRIMES CONTRA O LIVRE EXERCÍCIO DOS PODERES CONSTITUCIONAIS",
+   "hash": "c837cc6baeaacf3f9bcac4a5be35e9684b376950a855e173fe790738f4b17d3b"
+  },
+  "6": {
+   "texto": "Art. 6º São crimes de responsabilidade contra o livre exercício dos poderes legislativo e judiciário e dos poderes constitucionais dos Estados:\n1 - tentar dissolver o Congresso Nacional, impedir a reunião ou tentar impedir por qualquer modo o funcionamento de qualquer de suas Câmaras;\n2 - usar de violência ou ameaça contra algum representante da Nação para afastá-lo da Câmara a que pertença ou para coagí-lo no modo de exercer o seu mandato bem como conseguir ou tentar conseguir o mesmo objetivo mediante suborno ou outras formas de corrupção;\n3 - violar as imunidades asseguradas aos membros do Congresso Nacional, das Assembléias Legislativas dos Estados, da Câmara dos Vereadores do Distrito Federal e das Câmaras Municipais;\n4 - permitir que força estrangeira transite pelo território do país ou nele permaneça quando a isso se oponha o Congresso Nacional;\n5 - opor-se diretamente e por fatos ao livre exercício do Poder Judiciário, ou obstar, por meios violentos, ao efeito dos seus atos, mandados ou sentenças;\n6 - usar de violência ou ameaça, para constranger juiz, ou jurado, a proferir ou deixar de proferir despacho, sentença ou voto, ou a fazer ou deixar de fazer ato do seu ofício;\n7 - praticar contra os poderes estaduais ou municipais ato definido como crime neste artigo;\n8 - intervir em negócios peculiares aos Estados ou aos Municípios com desobediência às normas constitucionais.\nCAPÍTULO III\nDOS CRIMES CONTRA O EXERCÍCIO DOS DIREITOS POLÍTICOS, INDIVIDUAIS E SOCIAIS",
+   "hash": "3337bbd9b2ed26ef57908b42a9f3c701effed979daae32cac9e04c4087505a8d"
+  },
+  "7": {
+   "texto": "Art. 7º São crimes de responsabilidade contra o livre exercício dos direitos políticos, individuais e sociais:\n1- impedir por violência, ameaça ou corrupção, o livre exercício do voto;\n2 - obstar ao livre exercício das funções dos mesários eleitorais;\n3 - violar o escrutínio de seção eleitoral ou inquinar de nulidade o seu resultado pela subtração, desvio ou inutilização do respectivo material;\n4 - utilizar o poder federal para impedir a livre execução da lei eleitoral;\n5 - servir-se das autoridades sob sua subordinação imediata para praticar abuso do poder, ou tolerar que essas autoridades o pratiquem sem repressão sua;\n6 - subverter ou tentar subverter por meios violentos a ordem política e social;\n7 - incitar militares à desobediência à lei ou infração à disciplina;\n8 - provocar animosidade entre as classes armadas ou contra elas, ou delas contra as instituições civis;\n9 - violar patentemente qualquer direito ou garantia individual constante do art. 141 e bem assim os direitos sociais assegurados no artigo 157 da Constituição;\n10 - tomar ou autorizar durante o estado de sítio, medidas de repressão que excedam os limites estabelecidos na Constituição.\nCAPÍTULO IV\nDOS CRIMES CONTRA A SEGURANÇA INTERNA DO PAÍS",
+   "hash": "ff496161829c304b8c4f47e1659861a5e27d6b3e617038d70fc68514a48211e9"
+  },
+  "8": {
+   "texto": "Art. 8º São crimes contra a segurança interna do país:\n1 - tentar mudar por violência a forma de governo da República;\n2 - tentar mudar por violência a Constituição Federal ou de algum dos Estados, ou lei da União, de Estado ou Município;\n3 - decretar o estado de sítio, estando reunido o Congresso Nacional, ou no recesso deste, não havendo comoção interna grave nem fatos que evidenciem estar a mesma a irromper ou não ocorrendo guerra externa;\n4 - praticar ou concorrer para que se perpetre qualquer dos crimes contra a segurança interna, definidos na legislação penal;\n5 - não dar as providências de sua competência para impedir ou frustrar a execução desses crimes;\n6 - ausentar-se do país sem autorização do Congresso Nacional;\n7 - permitir, de forma expressa ou tácita, a infração de lei federal de ordem pública;\n8 - deixar de tomar, nos prazos fixados, as providências determinadas por lei ou tratado federal e necessário a sua execução e cumprimento.\nCAPÍTULO V\nDOS CRIMES CONTRA A PROBIDADE NA ADMINISTRAÇÃO",
+   "hash": "ddb9c456f0b7e07b1c0cc6db149ae0db3be2c2e3a3d4794322e9a9e63b5a70f6"
+  },
+  "9": {
+   "texto": "Art. 9º São crimes de responsabilidade contra a probidade na administração:\n1 - omitir ou retardar dolosamente a publicação das leis e resoluções do Poder Legislativo ou dos atos do Poder Executivo;\n2 - não prestar ao Congresso Nacional dentro de sessenta dias após a abertura da sessão legislativa, as contas relativas ao exercício anterior;\n3 - não tornar efetiva a responsabilidade dos seus subordinados, quando manifesta em delitos funcionais ou na prática de atos contrários à Constituição;\n4 - expedir ordens ou fazer requisição de forma contrária às disposições expressas da Constituição;\n5 - infringir no provimento dos cargos públicos, as normas legais;\n6 - Usar de violência ou ameaça contra funcionário público para coagí-lo a proceder ilegalmente, bem como utilizar-se de suborno ou de qualquer outra forma de corrupção para o mesmo fim;\n7 - proceder de modo incompatível com a dignidade, a honra e o decôro do cargo.\nCAPÍTULO VI\nDOS CRIMES CONTRA A LEI ORÇAMENTÁRIA",
+   "hash": "af7514b4b816080f96bde6cf97e0caf2a7520d778ac738677ffacfdafb2ff104"
+  },
+  "10": {
+   "texto": "Art. 10. São crimes de responsabilidade contra a lei orçamentária:\n1- Não apresentar ao Congresso Nacional a proposta do orçamento da República dentro dos primeiros dois meses de cada sessão legislativa;\n2 - Exceder ou transportar, sem autorização legal, as verbas do orçamento;\n3 - Realizar o estorno de verbas;\n4 - Infringir , patentemente, e de qualquer modo, dispositivo da lei orçamentária.\n5) deixar de ordenar a redução do montante da dívida consolidada, nos prazos estabelecidos em lei, quando o montante ultrapassar o valor resultante da aplicação do limite máximo fixado pelo Senado Federal; (Incluído pela Lei nº 10.028, de 2000)\n6) ordenar ou autorizar a abertura de crédito em desacordo com os limites estabelecidos pelo Senado Federal, sem fundamento na lei orçamentária ou na de crédito adicional ou com inobservância de prescrição legal; (Incluído pela Lei nº 10.028, de 2000)\n7) deixar de promover ou de ordenar na forma da lei, o cancelamento, a amortização ou a constituição de reserva para anular os efeitos de operação de crédito realizada com inobservância de limite, condição ou montante estabelecido em lei; (Incluído pela Lei nº 10.028, de 2000)\n8) deixar de promover ou de ordenar a liquidação integral de operação de crédito por antecipação de receita orçamentária, inclusive os respectivos juros e demais encargos, até o encerramento do exercício financeiro; (Incluído pela Lei nº 10.028, de 2000)\n9) ordenar ou autorizar, em desacordo com a lei, a realização de operação de crédito com qualquer um dos demais entes da Federação, inclusive suas entidades da administração indireta, ainda que na forma de novação, refinanciamento ou postergação de dívida contraída anteriormente; ((Incluído pela Lei nº 10.028, de 2000)\n10) captar recursos a título de antecipação de receita de tributo ou contribuição cujo fato gerador ainda não tenha ocorrido; (Incluído pela Lei nº 10.028, de 2000)\n11) ordenar ou autorizar a destinação de recursos provenientes da emissão de títulos para finalidade diversa da prevista na lei que a autorizou; (Incluído pela Lei nº 10.028, de 2000)\n12) realizar ou receber transferência voluntária em desacordo com limite ou condição estabelecida em lei. (Incluído pela Lei nº 10.028, de 2000)\nCAPÍTULO VII\nDOS CRIMES CONTRA A GUARDA E LEGAL EMPREGO DOS DINHEIROS PÚBLICOS:",
+   "hash": "f584d71667a8011add5394acd4134c49fcc9b08f45515630c1e6db18ba2fd791"
+  },
+  "11": {
+   "texto": "Art. 11. São crimes contra a guarda e legal emprego dos dinheiros públicos:\n1 - ordenar despesas não autorizadas por lei ou sem observânciadas prescrições legais relativas às mesmas;\n2 - Abrir crédito sem fundamento em lei ou sem as formalidades legais;\n3 - Contrair empréstimo, emitir moeda corrente ou apólices, ou efetuar operação de crédito sem autorização legal;\n4 - alienar imóveis nacionais ou empenhar rendas públicas sem autorização legal;\n5 - negligenciar a arrecadação das rendas impostos e taxas, bem como a conservação do patrimônio nacional.\nCAPÍTULO VIII\nDOS CRIMES CONTRA O CUMPRIMENTO DAS DECISÕES JUDICIÁRIAS;",
+   "hash": "699e294929f33b1aa667dcdd4a4c7bf20e45a19905f2eb20a0ed74c0eb84e182"
+  },
+  "12": {
+   "texto": "Art. 12. São crimes contra o cumprimento das decisões judiciárias:\n1 - impedir, por qualquer meio, o efeito dos atos, mandados ou decisões do Poder Judiciário;\n2 - Recusar o cumprimento das decisões do Poder Judiciário no que depender do exercício das funções do Poder Executivo;\n3 - deixar de atender a requisição de intervenção federal do Supremo Tribunal Federal ou do Tribunal Superior Eleitoral;\n4 - Impedir ou frustrar pagamento determinado por sentença judiciária.\nTÍTULO II\nDOS MINISTROS DE ESTADO",
+   "hash": "5a4f307b2181470c5fc949e37a0680e62b2baf8e76be4f7340b13351e213871c"
+  },
+  "13": {
+   "texto": "Art. 13. São crimes de responsabilidade dos Ministros de Estado;\n1 - os atos definidos nesta lei, quando por eles praticados ou ordenados;\n2 - os atos previstos nesta lei que os Ministros assinarem com o Presidente da República ou por ordem deste praticarem;\n3 - A falta de comparecimento sem justificação, perante a Câmara dos Deputados ou o Senado Federal, ou qualquer das suas comissões, quando uma ou outra casa do Congresso os convocar para pessoalmente, prestarem informações acerca de assunto previamente determinado;\n4 - Não prestarem dentro em trinta dias e sem motivo justo, a qualquer das Câmaras do Congresso Nacional, as informações que ela lhes solicitar por escrito, ou prestarem-nas com falsidade.\nPARTE SEGUNDA\nPROCESSO E JULGAMENTO\nTÍTULO ÚNICO\nDO PRESIDENTE DA REPÚBLICA E MINISTROS DE ESTADO\nCAPÍTULO I\nDA DENÚNCIA",
+   "hash": "066f408bf164497197a4869b391daa27001aeea5990027f0e0d4e42ed7e669ff"
+  },
+  "14": {
+   "texto": "Art. 14. É permitido a qualquer cidadão denunciar o Presidente da República ou Ministro de Estado, por crime de responsabilidade, perante a Câmara dos Deputados.",
+   "hash": "763c3c894ecf5251bce32bbc62c48a56457955d6b7ac4eaa69bedbe092b3ed02"
+  },
+  "15": {
+   "texto": "Art. 15. A denúncia só poderá ser recebida enquanto o denunciado não tiver, por qualquer motivo, deixado definitivamente o cargo.",
+   "hash": "f4555c363edd20a162ff4bc9247b686a49367f73f7a69b9ae39f8a3ca09543c9"
+  },
+  "16": {
+   "texto": "Art. 16. A denúncia assinada pelo denunciante e com a firma reconhecida, deve ser acompanhada dos documentos que a comprovem, ou da declaração de impossibilidade de apresentá-los, com a indicação do local onde possam ser encontrados, nos crimes de que haja prova testemunhal, a denúncia deverá conter o rol das testemunhas, em número de cinco no mínimo.",
+   "hash": "1ebe1855eef498aabfa7d2ece05bd44b54b1e40440fbb018e37a36d6f9e42d44"
+  },
+  "17": {
+   "texto": "Art. 17. No processo de crime de responsabilidade, servirá de escrivão um funcionário da Secretaria da Câmara dos Deputados, ou do Senado, conforme se achar o mesmo em uma ou outra casa do Congresso Nacional.",
+   "hash": "08ce13a8e07719c48538aacfb16d182c21abda14fc03b651e337ba1a25437dbf"
+  },
+  "18": {
+   "texto": "Art. 18. As testemunhas arroladas no processo deverão comparecer para prestar o seu depoimento, e a Mesa da Câmara dos Deputados ou do Senado por ordem de quem serão notificadas, tomará as providências legais que se tornarem necessárias legais que se tornarem necessárias para compelí-las a obediência.\nCAPÍTULO II\nDA ACUSAÇÃO",
+   "hash": "506ae7154ae1485d5ba4bb28283ee1c4c703b22c996e814eea49f3e682b4fcda"
+  },
+  "19": {
+   "texto": "Art. 19. Recebida a denúncia, será lida no expediente da sessão seguinte e despachada a uma comissão especial eleita, da qual participem, observada a respectiva proporção, representantes de todos os partidos para opinar sobre a mesma.",
+   "hash": "8ab7c4fcdfec8017c6fe6e19bd0e577ed6e4fab8576a477184dce7f261ff4b3f"
+  },
+  "20": {
+   "texto": "Art. 20. A comissão a que alude o artigo anterior se reunirá dentro de 48 horas e, depois de eleger seu Presidente e relator, emitirá parecer, dentro do prazo de dez dias, sôbre se a denúncia deve ser ou não julgada objeto de deliberação. Dentro desse período poderá a comissão proceder às diligências que julgar necessárias ao esclarecimento da denúncia.\n§ 1º O parecer da comissão especial será lido no expediente da sessão da Câmara dos Deputados e publicado integralmente no Diário do Congresso Nacional e em avulsos, juntamente com a denúncia, devendo as publicações ser distribuídas a todos os deputados.\n§ 2º Quarenta e oito horas após a publicação oficial do parecer da Comissão especial, será o mesmo incluído, em primeiro lugar, na ordem do dia da Câmara dos Deputados, para uma discussão única.",
+   "hash": "5dcd7158680f385442a50716824266590d4c97aa7452e65a36fd4d88aa368076"
+  },
+  "21": {
+   "texto": "Art. 21. Cinco representantes de cada partido poderão falar, durante uma hora, sobre o parecer, ressalvado ao relator da comissão especial o direito de responder a cada um.",
+   "hash": "5f9e7bf55e89f7bb755f07328fb8063b6e2057d9847606d390f6f499269970ae"
+  },
+  "22": {
+   "texto": "Art. 22. Encerrada a discussão do parecer, e submetido o mesmo a votação nominal, será a denúncia, com os documentos que a instruam, arquivada, se não fôr considerada objeto de deliberação. No caso contrário, será remetida por cópia autêntica ao denunciado, que terá o prazo de vinte dias para contestá-la e indicar os meios de prova com que pretenda demonstrar a verdade do alegado.\n§ 1º Findo esse prazo e com ou sem a contestação, a comissão especial determinará as diligências requeridas, ou que julgar convenientes, e realizará as sessões necessárias para a tomada do depoimento das testemunhas de ambas as partes, podendo ouvir o denunciante e o denunciado, que poderá assistir pessoalmente, ou por seu procurador, a tôdas as audiências e diligências realizadas pela comissão, interrogando e contestando as testemunhas e requerendo a reinquirição ou acareação das mesmas.\n§ 2º Findas essas diligências, a comissão especial proferirá, no prazo de dez dias, parecer sobre a procedência ou improcedência da denúncia.\n§ 3º Publicado e distribuído esse parecer na forma do § 1º do art. 20, será o mesmo, incluído na ordem do dia da sessão imediata para ser submetido a duas discussões, com o interregno de 48 horas entre uma e outra.\n§ 4º Nas discussões do parecer sôbre a procedência ou improcedência da denúncia, cada representante de partido poderá falar uma só vez e durante uma hora, ficando as questões de ordem subordinadas ao disposto no § 2º do art. 20.",
+   "hash": "bf90e518ccdc4357b5279ebab61c839e5dbd6c348e2ed2c584d5654451170d51"
+  },
+  "23": {
+   "texto": "Art. 23. Encerrada a discussão do parecer, será o mesmo submetido a votação nominal, não sendo permitidas, então, questões de ordem, nem encaminhamento de votação.\n§ 1º Se da aprovação do parecer resultar a procedência da denúncia, considerar-se-á decretada a acusação pela Câmara dos Deputados.\n§ 2º Decretada a acusação, será o denunciado intimado imediatamente pela Mesa da Câmara dos Deputados, por intermédio do 1º Secretário.\n§ 3º Se o denunciado estiver ausente do Distrito Federal, a sua intimação será solicitada pela Mesa da Câmara dos Deputados, ao Presidente do Tribunal de Justiça do Estado em que êle se encontrar.\n§ 4º A Câmara dos Deputados elegerá uma comissão de três membros para acompanhar o julgamento do acusado.\n§ 5º São efeitos imediatos ao decreto da acusação do Presidente da República, ou de Ministro de Estado, a suspensão do exercício das funções do acusado e da metade do subsídio ou do vencimento, até sentença final.\n§ 6º Conforme se trate da acusação de crime comum ou de responsabilidade, o processo será enviado ao Supremo Tribunal Federal ou ao Senado Federal.\nCAPÍTULO III\nDO JULGAMENTO",
+   "hash": "1d8553c2b7d2068dab51f5c969f0ce73afbf6aadbd8df59bb7251ab3a4e14101"
+  },
+  "24": {
+   "texto": "Art. 24. Recebido no Senado o decreto de acusação com o processo enviado pela Câmara dos Deputados e apresentado o libelo pela comissão acusadora, remeterá o Presidente cópia de tudo ao acusado, que, na mesma ocasião e nos termos dos parágrafos 2º e 3º do art. 23, será notificado para comparecer em dia prefixado perante o Senado.\nParágrafo único. Ao Presidente do Supremo Tribunal Federal enviar-se-á o processo em original, com a comunicação do dia designado para o julgamento.",
+   "hash": "cfa7432244cc2706dcfdb0d4048233b2f092f876fb2f8b851025a275a1c29e15"
+  },
+  "25": {
+   "texto": "Art. 25. O acusado comparecerá, por si ou pêlos seus advogados, podendo, ainda, oferecer novos meios de prova.",
+   "hash": "c0da24f6df0e7fe8ec05b8450525c9d9b622a93fe9866abb45ac7f962cb26cf4"
+  },
+  "26": {
+   "texto": "Art. 26. No caso de revelia, marcará o Presidente novo dia para o julgamento e nomeará para a defesa do acusado um advogado, a quem se facultará o exame de todas as peças de acusação.",
+   "hash": "56a75664122e7f4a395470f72a2cd265910df756d0887ecfef6fe79c98f54652"
+  },
+  "27": {
+   "texto": "Art. 27. No dia aprazado para o julgamento, presentes o acusado, seus advogados, ou o defensor nomeado a sua revelia, e a comissão acusadora, o Presidente do Supremo Tribunal Federal, abrindo a sessão, mandará ler o processo preparatório o libelo e os artigos de defesa; em seguida inquirirá as testemunhas, que deverão depor publicamente e fora da presença umas das outras.",
+   "hash": "f7a46e3d7357ea90c12e20b4e2de904eb3a7ad8fc2c4aacb07185431aa0588e3"
+  },
+  "28": {
+   "texto": "Art. 28. Qualquer membro da Comissão acusadora ou do Senado, e bem assim o acusado ou seus advogados, poderão requerer que se façam às testemunhas perguntas que julgarem necessárias.\nParágrafo único. A Comissão acusadora, ou o acusado ou seus advogados, poderão contestar ou argüir as testemunhas sem contudo interrompê-las e requerer a acareação.",
+   "hash": "fdf03ce0e59a02526a3998f8132d9de6730942a76784111d49cbc530dd0ae63d"
+  },
+  "29": {
+   "texto": "Art. 29. Realizar-se-á a seguir o debate verbal entre a comissão acusadora e o acusado ou os seus advogados pelo prazo que o Presidente fixar e que não poderá exceder de duas horas.",
+   "hash": "fc8d6b073176ad6d9dfafd03f5fac12e49e795265904b16a0c8c3bccef66b666"
+  },
+  "30": {
+   "texto": "Art. 30. Findos os debates orais e retiradas as partes, abrir-se-á discussão sobre o objeto da acusação.",
+   "hash": "70bd5f3e6731a4d1e847c46d83a64c46eb0a48a51c9d6ed7334f1ce4f708332f"
+  },
+  "31": {
+   "texto": "Art. 31. Encerrada a discussão o Presidente do Supremo Tribunal Federal fará relatório resumido da denúncia e das provas da acusação e da defesa e submeterá a votação nominal dos senadores o julgamento.",
+   "hash": "fcc94895714efb6aa9deb963492f1ba4fe2df62e4bb485e92a04bc2783b3e708"
+  },
+  "32": {
+   "texto": "Art. 32. Se o julgamento for absolutório produzirá desde logo, todos os efeitos a favor do acusado.",
+   "hash": "dd3e57e70443b1fdb8506e04dffb18fd990ac6febb0583e92fa7c7381bf2d3a3"
+  },
+  "33": {
+   "texto": "Art. 33. No caso de condenação, o Senado por iniciativa do presidente fixará o prazo de inabilitação do condenado para o exercício de qualquer função pública; e no caso de haver crime comum deliberará ainda sobre se o Presidente o deverá submeter à justiça ordinária, independentemente da ação de qualquer interessado.",
+   "hash": "82e749210a58804bd03d6a1e002a0bb52b3a56cf361442fa41f0bda9c366c6ee"
+  },
+  "34": {
+   "texto": "Art. 34. Proferida a sentença condenatória, o acusado estará, ipso facto destituído do cargo.",
+   "hash": "21a57db3b04ce508cceb3b5893f0adf5e7122f3f05635ae032c30bd59c03f217"
+  },
+  "35": {
+   "texto": "Art. 35. A resolução do Senado constará de sentença que será lavrada, nos autos do processo, pelo Presidente do Supremo Tribunal Federal, assinada pêlos senadores que funcionarem como juizes, transcrita na ata da sessão e, dentro desta, publicada no Diário Oficial e no Diário do Congresso Nacional.",
+   "hash": "71efd2078f7c94e5ce0e821744e8f2ec3c7c5b6936c6a299b59673218f24f057"
+  },
+  "36": {
+   "texto": "Art. 36. Não pode interferir, em nenhuma fase do processo de responsabilidade do Presidente da República ou dos Ministros de Estado, o deputado ou senador;\na) que tiver parentesco consangüíneo ou afim, com o acusado, em linha reta; em linha colateral, os irmãos cunhados, enquanto durar o cunhado, e os primos co-irmãos;\nb) que, como testemunha do processo tiver deposto de ciência própria.",
+   "hash": "3ce3616efc0674d603e4728ff0f29e1e43b989ecac9a5428b9b89ba25f3091b5"
+  },
+  "37": {
+   "texto": "Art. 37. O congresso Nacional deverá ser convocado, extraordinariamente, pelo terço de uma de suas câmaras, caso a sessão legislativa se encerre sem que se tenha ultimado o julgamento do Presidente da República ou de Ministro de Estado, bem como no caso de ser necessário o início imediato do processo.",
+   "hash": "d87fd1d121aae4320a2c5301604aeebfd3508a999f7a8fa6704802d9e49df66c"
+  },
+  "38": {
+   "texto": "Art. 38. No processo e julgamento do Presidente da República e dos Ministros de Estado, serão subsidiários desta lei, naquilo em que lhes forem aplicáveis, assim os regimentos internos da Câmara dos Deputados e do Senado Federal, como o Código de Processo Penal.\nPARTE TERCEIRA\nTÍTULO I\nCAPÍTULO I\nDOS MINISTROS DO SUPREMO TRIBUNAL FEDERAL",
+   "hash": "4f3adc586c9bfbf17aa064ea0b8faf31a060a871cc985156454ca21c5955859c"
+  },
+  "39": {
+   "texto": "Art. 39. São crimes de responsabilidade dos Ministros do Supremo Tribunal Federal:\n1- altera, por qualquer forma, exceto por via de recurso, a decisão ou voto já proferido em sessão do Tribunal;\n2 - proferir julgamento, quando, por lei, seja suspeito na causa;\n3 - exercer atividade político-partidária;\n4 - ser patentemente desidioso no cumprimento dos deveres do cargo; (Vide ADPF 1259) (Vide ADPF 1260)\n5 - proceder de modo incompatível com a honra dignidade e decôro de suas funções. (Vide ADPF 1259) (Vide ADPF 1260)",
+   "hash": "7ec66bd856a10d24c52cda993c1d616e02af7d5b97c287631b74eceef9c52f60"
+  },
+  "39-A": {
+   "texto": "Art. 39-A. Constituem, também, crimes de responsabilidade do Presidente do Supremo Tribunal Federal ou de seu substituto quando no exercício da Presidência, as condutas previstas no art. 10 desta Lei, quando por eles ordenadas ou praticadas. (Incluído pela Lei nº 10.028, de .2000)\nParágrafo único. O disposto neste artigo aplica-se aos Presidentes, e respectivos substitutos quando no exercício da Presidência, dos Tribunais Superiores, dos Tribunais de Contas, dos Tribunais Regionais Federais, do Trabalho e Eleitorais, dos Tribunais de Justiça e de Alçada dos Estados e do Distrito Federal, e aos Juízes Diretores de Foro ou função equivalente no primeiro grau de jurisdição. (Incluído pela Lei nº 10.028, de .2000)\nCAPÍTULO II\nDO PROCURADOR GERAL DA REPÚBLICA",
+   "hash": "fe745681e0b830f48ebc58be9f566bb34f392a9f1aa81c944637c0281e96753f"
+  },
+  "40": {
+   "texto": "Art. 40. São crimes de responsabilidade do Procurador Geral da República:\n1 - emitir parecer, quando, por lei, seja suspeito na causa;\n2 - recusar-se a prática de ato que lhe incumba;\n3 - ser patentemente desidioso no cumprimento de suas atribuições;\n4 - proceder de modo incompatível com a dignidade e o decôro do cargo.",
+   "hash": "f6105c799237eba10a2d2b68dbb0ff2b453b03b0acd67986135b48afc1841e51"
+  },
+  "40-A": {
+   "texto": "Art. 40-A. Constituem, também, crimes de responsabilidade do Procurador-Geral da República, ou de seu substituto quando no exercício da chefia do Ministério Público da União, as condutas previstas no art. 10 desta Lei, quando por eles ordenadas ou praticadas. (Incluído pela Lei nº 10.028, de .2000)\nParágrafo único. O disposto neste artigo aplica-se: (Incluído pela Lei nº 10.028, de .2000)\nI – ao Advogado-Geral da União; (Incluído pela Lei nº 10.028, de .2000)\nII – aos Procuradores-Gerais do Trabalho, Eleitoral e Militar, aos Procuradores-Gerais de Justiça dos Estados e do Distrito Federal, aos Procuradores-Gerais dos Estados e do Distrito Federal, e aos membros do Ministério Público da União e dos Estados, da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal, quando no exercício de função de chefia das unidades regionais ou locais das respectivas instituições. (Incluído pela Lei nº 10.028, de .2000)\nTÍTULO II\nDO PROCESSO E JULGAMENTO\nCAPÍTULO I\nDA DENÚNCIA",
+   "hash": "51c92bc044c6f3488162ad8333632854108b0fc9d1e9076572c8da2071f05696"
+  },
+  "41": {
+   "texto": "Art. 41. É permitido a todo cidadão denunciar perante o Senado Federal, os Ministros do Supremo Tribunal Federal e o Procurador Geral da República, pêlos crimes de responsabilidade que cometerem (artigos 39 e 40). (Vide ADPF 1259) (Vide ADPF 1260)",
+   "hash": "aab805f627b4ce52b53a8f5fcbb702f50fdfc29c10063f5890d5a64704a52dbb"
+  },
+  "41-A": {
+   "texto": "Art. 41-A. Respeitada a prerrogativa de foro que assiste às autoridades a que se referem o parágrafo único do art. 39-A e o inciso II do parágrafo único do art. 40-A, as ações penais contra elas ajuizadas pela prática dos crimes de responsabilidade previstos no art. 10 desta Lei serão processadas e julgadas de acordo com o rito instituído pela Lei no 8.038, de 28 de maio de 1990, permitido, a todo cidadão, o oferecimento da denúncia. (Incluído pela Lei nº 10.028, de .2000)",
+   "hash": "6444882121272cf45093475bb78ed62521475d0d1808f7f03b15b402d30c0966"
+  },
+  "42": {
+   "texto": "Art. 42. A denúncia só poderá ser recebida se o denunciado não tiver, por qualquer motivo, deixado definitivamente o cargo.",
+   "hash": "a7003928779a8d03cdd26e46b7616d002e094a8003762928de1d9d443033b5e4"
+  },
+  "43": {
+   "texto": "Art. 43. A denúncia, assinada pelo denunciante com a firma reconhecida deve ser acompanhada dos documentos que a comprovem ou da declaração de impossibilidade de apresentá-los, com a indicação do local onde possam ser encontrados. Nos crimes de que haja prova testemunhal, a denúncia deverá conter o rol das testemunhas, em número de cinco, no mínimo.",
+   "hash": "dd0bfb370e6338325f7ab5b39ee126740976629c6a1e84deb89af4eb23d81d55"
+  },
+  "44": {
+   "texto": "Art. 44. Recebida a denúncia pela Mesa do Senado, será lida no expediente da sessão seguinte e despachada a uma comissão especial, eleita para opinar sobre a mesma.",
+   "hash": "ff48269888807610bd14cd26e91581560551c7c4e2fdf219cfba40f576e535f8"
+  },
+  "45": {
+   "texto": "Art. 45. A comissão a que alude o artigo anterior, reunir-se-á dentro de 48 horas e, depois de eleger o seu presidente e relator, emitirá parecer no prazo de 10 dias sobre se a denúncia deve ser, ou não julgada objeto de deliberação. Dentro desse período poderá a comissão proceder às diligências que julgar necessárias.",
+   "hash": "cd384c808e9290152cf4a3fac359a75e6198ddcd9386ad46188538bbacdfaa82"
+  },
+  "46": {
+   "texto": "Art. 46. O parecer da comissão, com a denúncia e os documentos que a instruírem, será lido no expediente de sessão do Senado, publicado no Diário do Congresso Nacional e em avulsos, que deverão ser distribuídos entre os senadores, e dado para ordem do dia da sessão seguinte.",
+   "hash": "5f16aff06fdb7eae9e1377a516bd2bdef34547a20761b041272417c7a214c87e"
+  },
+  "47": {
+   "texto": "Art. 47. O parecer será submetido a uma só discussão, e a votação nominal considerando-se aprovado se reunir a maioria simples de votos. (Vide ADPF 1259) (Vide ADPF 1260)",
+   "hash": "12aa09f4f7cda51e08f94ed13d364cd4ed9063289f72a280310601840854ab55"
+  },
+  "48": {
+   "texto": "Art. 48. Se o Senado resolver que a denúncia não deve constituir objeto de deliberação, serão os papeis arquivados.",
+   "hash": "dd71196f7da247c306b6cd805b380a3b1e5d0a5a07174b44e43d5e08ecd616a5"
+  },
+  "49": {
+   "texto": "Art. 49. Se a denúncia for considerada objeto de deliberação, a Mesa remeterá cópia de tudo ao denunciado, para responder à acusação no prazo de 10 dias.",
+   "hash": "2fc4de862d393fc6b6246f2df09f4fe39b7656316066b72013aea77badf29ede"
+  },
+  "50": {
+   "texto": "Art. 50. Se o denunciado estiver fora do Distrito Federal, a cópia lhe será entregue pelo Presidente do Tribunal de Justiça do Estado em que se achar. Caso se ache fora do país ou em lugar incerto e não sabido, o que será verificado pelo 1º Secretário do Senado, a intimação farse-á por edital, publicado no Diário do Congresso Nacional, com a antecedência de 60 dias, aos quais se acrescerá, em comparecendo o denunciado, o prazo do art. 49.",
+   "hash": "eaa7dddaa57f87adda4038c86ff9c3b33f47e59a125a3010cb8c09d9f39e9e14"
+  },
+  "51": {
+   "texto": "Art. 51. Findo o prazo para a resposta do denunciado, seja esta recebida, ou não, a comissão dará parecer, dentro de dez dias, sobre a procedência ou improcedência da acusação.",
+   "hash": "62f411f90c0379f5daf2b8c8f46150b3c65f4479c96ef926c2423012ea913271"
+  },
+  "52": {
+   "texto": "Art. 52. Perante a comissão, o denunciante e o denunciado poderão comparecer pessoalmente ou por procurador, assistir a todos os atos e diligências por ela praticados, inquirir, reinquirir, contestar testemunhas e requerer a sua acareação. Para esse efeito, a comissão dará aos interessados conhecimento das suas reuniões e das diligências a que deva proceder, com a indicação de lugar, dia e hora.",
+   "hash": "abf7305459926d39f9d1800d94d038d015ff3f1c6568bb23a98f2daac26ce11b"
+  },
+  "53": {
+   "texto": "Art. 53. Findas as diligências, a comissão emitirá sobre o seu parecer, que será publicado e distribuído, com todas as peças que o instruírem e dado para ordem do dia 48 horas, no mínimo, depois da distribuição.",
+   "hash": "f4a4ced939ee6c1e0ea62015f4ed017852403eb22aa36fcb3a90d21cb5678cac"
+  },
+  "54": {
+   "texto": "Art. 54. Esse parecer terá uma só discussão e considerar-se-á aprovado se, em votação nominal, reunir a maioria simples dos votos. (Vide ADPF 1259) (Vide ADPF 1260)",
+   "hash": "979a489cb82d8c59029813afc7989eabbd7c4e01f637e2d62ee0c43f945039e2"
+  },
+  "55": {
+   "texto": "Art. 55. Se o Senado entender que não procede a acusação, serão os papeis arquivados. Caso decida o contrário, a Mesa dará imediato conhecimento dessa decisão ao Supremo Tribunal Federal, ao Presidente da República, ao denunciante e ao denunciado.",
+   "hash": "243d4c82fe51030d801c854ec2e09683852e7e59cf3bc4e7e8033762456064cc"
+  },
+  "56": {
+   "texto": "Art. 56. Se o denunciado não estiver no Distrito Federal, a decisão ser-lhe-á comunicada a requisição da Mesa, pelo Presidente do Tribunal de Justiça do Estado onde se achar. Se estiver fora do país ou em lugar incerto e não sabido, o que será verificado pelo 1º Secretário do Senado, far-se-á a intimação mediante edital pelo Diário do Congresso Nacional , com a antecedência de 60 dias.",
+   "hash": "faba2f82668840a2d21c21ce57f777da3def85a485a7dabfeba5e581a213662a"
+  },
+  "57": {
+   "texto": "Art. 57. A decisão produzirá desde a data da sua intimação os seguintes efeitos, contra o denunciado:\na) ficar suspenso do exercício das suas funções até sentença final; (Vide ADPF 1259) (Vide ADPF 1260)\nb) ficar sujeito a acusação criminal;\nc) perder, até sentença final, um terço dos vencimentos, que lhe será pago no caso de absolvição. (Vide ADPF 1259) (Vide ADPF 1260)\nCAPÍTULO II\nDA ACUSAÇÃO E DA DEFESA",
+   "hash": "1d2caeb7e69f60b74976f2c487196027ff9a8eff0dfee9df58d6b25b712415d8"
+  },
+  "58": {
+   "texto": "Art. 58. Intimado o denunciante ou o seu procurador da decisão a que aludem os três últimos artigos, ser-lhe-á dada vista do processo, na Secretaria do Senado, para, dentro de 48 horas, oferecer o libelo acusatório e o rol das testemunhas. Em seguida abrir-se-á vista ao denunciado ou ao seu defensor, pelo mesmo prazo para oferecer a contrariedade e o rol das testemunhas.",
+   "hash": "8b85595d75c708927b4e1d135b10d60a5f3cfa5994c6a0e4045d9a61a6675ff0"
+  },
+  "59": {
+   "texto": "Art. 59. Decorridos esses prazos, com o libelo e a contrariedade ou sem eles, serão os autos remetidos, em original, ao Presidente do Supremo Tribunal Federal, ou ao seu substituto legal, quando seja ele o denunciado, comunicando-se-lhe o dia designado para o julgamento e convidando-o para presidir a sessão.",
+   "hash": "5554d3514881f212f6dcce80542afb8407135750c240fcc88248b220fa934101"
+  },
+  "60": {
+   "texto": "Art. 60. O denunciante e o acusado serão notificados pela forma estabelecida no art. 56. para assistirem ao julgamento, devendo as testemunhas ser, por um magistrado, intimadas a comparecer a requisição da Mesa.\nParágrafo único. Entre a notificação e o julgamento deverá mediar o prazo mínimo de 10 dias.",
+   "hash": "874a54b43833b7280ef7183ccdaf2dda396a228d5bd27a2adbca9bd5dcbbbc7d"
+  },
+  "61": {
+   "texto": "Art. 61. No dia e hora marcados para o julgamento, o Senado reunir-se-á, sob a presidência do Presidente do Supremo Tribunal Federal ou do seu substituto legal. Verificada a presença de número legal de senadores, será aberta a sessão e feita a chamada das partes, acusador e acusado, que poderão comparecer pessoalmente ou pêlos seus procuradores.",
+   "hash": "c2344915721ecd6d177184606ef0135da30e606bfe72e26a9471095bc99206b2"
+  },
+  "62": {
+   "texto": "Art. 62. A revelia do acusador não importará transferência do julgamento, nem perempção da acusação.\n§ 1º A revelia do acusado determinará o adiamento de julgamento, para o qual o Presidente designará novo dia, nomeando um advogado para defender o revel.\n§ 2º Ao defensor nomeado será, facultado o exame de tôdas as peças do processo.",
+   "hash": "2365958744e96f4cf2e65044bd81971e93e60ff86d5e31ac17683aa9c55d7be2"
+  },
+  "63": {
+   "texto": "Art. 63. No dia definitivamente aprazado para o julgamento, verificado o número legal de senadores será aberta a sessão e facultado o ingresso às partes ou aos seus procuradores. Serão juizes todos os senadores presentes, com exceção dos impedidos nos termos do art. 36.\nParágrafo único. O impedimento poderá ser oposto pelo acusador ou pelo acusado e invocado por qualquer senador.",
+   "hash": "e008275185f538590d98d87956c8f081662672622b07b9ecc510e9e6746eaf77"
+  },
+  "64": {
+   "texto": "Art. 64. Constituído o Senado em Tribunal de julgamento, o Presidente mandará ler o processo e, em seguida, inquirirá publicamente as testemunhas, fora da presença umas das outras.",
+   "hash": "0220ca6b072db0ac67655fb49900ab9f5025a205cd0621842b466b71d90f30eb"
+  },
+  "65": {
+   "texto": "Art. 65. O acusador e o acusado, ou os seus procuradores, poderão reinquirir as testemunhas, contestá-las sem interrompê-las e requerer a sua acareação sejam feitas as perguntas que julgar necessárias.",
+   "hash": "65f5b6db065643c9c293a62a88e6beae92616768ddc19e07294b656ee68167b1"
+  },
+  "66": {
+   "texto": "Art. 66. Finda a inquirição, haverá debate oral, facultadas a réplica e a tréplica entre o acusador e o acusado, pelo prazo que o Presidente determinar,\nParágrafo único. Ultimado o debate, retirar-se-ão partes do recinto da sessão e abrir-se-á uma discussão única entre os senadores sobre o objeto da acusação.",
+   "hash": "83ee0979eeebbae93cea75c63cef57f378c41be0a103aa50d2ed572663879e37"
+  },
+  "67": {
+   "texto": "Art. 67. Encerrada a discussão, fará o Presidente um relatório resumido dos fundamentos da acusação e da defesa, bem como das respectivas provas, submetendo em seguida o caso a julgamento.\nCAPÍTULO III\nDA SENTENÇA",
+   "hash": "7c5346223154f1b71821a821b2ee9d8ab5c8b592ab95758a07f40ad99a62bceb"
+  },
+  "68": {
+   "texto": "Art. 68. O julgamento será feito, em votação nominal pêlos senadores desimpedidos que responderão \"sim\" ou \"não\" à seguinte pergunta enunciada pelo Presidente: \"Cometeu o acusado F. o crime que lhe é imputado e deve ser condenado à perda do seu cargo?\"\nParágrafo único. Se a resposta afirmativa obtiver, pelo menos, dois terços dos votos dos senadores presentes, o Presidente fará nova consulta ao plenário sobre o tempo não excedente de cinco anos, durante o qual o condenado deverá ficar inabilitado para o exercício de qualquer função pública.",
+   "hash": "c530b44470067f9a393256dfb98e082d3d2d2c696d7f54de077872829558d230"
+  },
+  "69": {
+   "texto": "Art. 69. De acordo com a decisão do Senado, o Presidente lavrará nos autos, a sentença que será assinada por ele e pêlos senadores, que tiverem tomado parte no julgamento, e transcrita na ata.",
+   "hash": "0e6bb6840ad15ac463f3bae7dec664d11f16529a341876a9cacdf1371a6625d8"
+  },
+  "70": {
+   "texto": "Art. 70. No caso de condenação, fica o acusado desde logo destituído do seu cargo. Se a sentença for absolutória, produzirá a imediata reabilitação do acusado, que voltará ao exercício do cargo, com direito à parte dos vencimentos de que tenha sido privado. (Vide ADPF 1259) (Vide ADPF 1260)",
+   "hash": "e068e14802b23cbb6536e71257e48a44fc10dae874dd61aa361158ea375bcb14"
+  },
+  "71": {
+   "texto": "Art. 71. Da sentença, dar-se-á imediato conhecimento ao Presidente da República, ao Supremo Tribunal Federal e ao acusado.",
+   "hash": "44ae718fe15ea2f2cc606ac84b06269bc7fd84b5c08ae9a3206c439cb7a5644c"
+  },
+  "72": {
+   "texto": "Art. 72. Se no dia do encerramento do Congresso Nacional não estiver concluído o processo ou julgamento de Ministro do Supremo Tribunal Federal ou do Procurador Geral da República, deverá ele ser convocado extraordinariamente pelo terço do Senado Federal.",
+   "hash": "bf2b2764d37f17e4739fe05a0d9157ecb0127df82a4f28fe7d4fa9c5e81522f0"
+  },
+  "73": {
+   "texto": "Art. 73 No processo e julgamento de Ministro do Supremo Tribunal, ou do Procurador Geral da República serão subsidiários desta lei, naquilo em que lhes forem aplicáveis, o Regimento Interno do Senado Federal e o Código de Processo Penal.\nPARTE QUARTA\nTÍTULO ÚNICO\nCAPÍTULO I\nDOS GOVERNADORES E SECRETÁRIOS DOS ESTADOS",
+   "hash": "0d1313a1faebcba44b1f4f0d3bbfcdd56bec6d63d48dde96cc809f85d45ff867"
+  },
+  "74": {
+   "texto": "Art. 74. Constituem crimes de responsabilidade dos governadores dos Estados ou dos seus Secretários, quando por eles praticados, os atos definidos como crimes nesta lei.\nCAPÍTULO II\nDA DENÚNCIA, ACUSAÇÃO E JULGAMENTO",
+   "hash": "37943265b6d7b7f05ea72c6d123c695fb29e64150e5337920218cbf37bca179a"
+  },
+  "75": {
+   "texto": "Art. 75. É permitido a todo cidadão denunciar o Governador perante a Assembléia Legislativa, por crime de responsabilidade.",
+   "hash": "e1d3d9213856b6e6615160f6a63d97fc9f636cea7313ae7c216f074edce695a0"
+  },
+  "76": {
+   "texto": "Art. 76.A denúncia assinada pelo denunciante e com a firma reconhecida, deve ser acompanhada dos documentos que a comprovem, ou da declaração de impossibilidade de apresentá-los com a indicação do local em que possam ser encontrados. Nos crimes de que houver prova testemunhal, conterão rol das testemunhas, em número de cinco pelo menos.\nParágrafo único. Não será recebida a denúncia depois que o Governador, por qualquer motivo, houver deixado definitivamente o cargo.",
+   "hash": "cc05bc233c83107227c98f16d9ea0a78109df9bda417c895651951f237e180b9"
+  },
+  "77": {
+   "texto": "Art. 77. Apresentada a denúncia e julgada objeto de deliberação, se a Assembléia Legislativa por maioria absoluta, decretar a procedência da acusação, será o Governador imediatamente suspenso de suas funções.",
+   "hash": "8ed4f57769d1a4f267ed5ccfcb3267ffcc86feac056d757b4fb4316e5daf1cf3"
+  },
+  "78": {
+   "texto": "Art. 78. O Governador será julgado nos crimes de responsabilidade, pela forma que determinar a Constituição do Estado e não poderá ser condenado, senão à perda do cargo, com inabilitação até cinco anos, para o exercício de qualquer função pública, sem prejuízo da ação da justiça comum.\n§ 1º Quando o tribunal de julgamento fôr de jurisdição mista, serão iguais, pelo número, os representantes dos órgãos que o integrarem, excluído o Presidente, que será o Presidente do Tribunal de Justiça.\n§ 2º Em qualquer hipótese, só poderá ser decretada a condenação pelo voto de dois têrços dos membros de que se compuser o tribunal de julgamento.\n§ 3º Nos Estados, onde as Constituições não determinarem o processo nos crimes de responsabilidade dos Governadores, aplicar-se-á o disposto nesta lei, devendo, porém, o julgamento ser proferido por um tribunal composto de cinco membros do Legislativo e de cinco desembargadores, sob a presidência do Presidente do Tribunal de Justiça local, que terá direito de voto no caso de empate. A escolha desse Tribunal será feita - a dos membros do legislativo, mediante eleição pela Assembléia: a dos desembargadores, mediante sorteio.\n§ 4º Êsses atos deverão ser executados dentro em cinco dias contados da data em que a Assembléia enviar ao Presidente do Tribunal de Justiça os autos do processo, depois de decretada a procedência da acusação.",
+   "hash": "fe534bf8cf791fa93e12788da5ef25dd4e410b4c3e662deff8a71e4d84d22bf0"
+  },
+  "79": {
+   "texto": "Art. 79. No processo e julgamento do Governador serão subsidiários desta lei naquilo em que lhe forem aplicáveis, assim o regimento interno da Assembléia Legislativa e do Tribunal de Justiça, como o Código de Processo Penal.\nParágrafo único. Os Secretários de Estado, nos crimes conexos com os dos governadores, serão sujeitos ao mesmo processo e julgamento.\nPARTE QUINTA\n(Incluído pela Lei Complementar nº 227, de 2026)\nTÍTULO ÚNICO\nCAPÍTULO ÚNICO\nDO PRESIDENTE DO COMITÊ GESTOR DO IMPOSTO SOBRE BENS E SERVIÇOS (CGIBS)",
+   "hash": "b75d46879bfa649171b2f548021ef27fb18521e7d1b8472f2bc1b38e4c62620c"
+  },
+  "79-A": {
+   "texto": "Art. 79-A. São crimes de responsabilidade do Presidente do CGIBS: (Incluído pela Lei Complementar nº 227, de 2026)\nI - omitir ou retardar dolosamente a publicação dos atos do CGIBS; (Incluído pela Lei Complementar nº 227, de 2026)\nII - deixar de prestar as contas relativas ao exercício anterior aos Poderes Legislativos dos entes federativos de origem dos membros titulares do Conselho Superior do CGIBS, até 30 de abril; (Incluído pela Lei Complementar nº 227, de 2026)\nIII - deixar de comparecer, sem justificação adequada, perante a Câmara dos Deputados ou o Senado Federal, ou qualquer das suas comissões, quando convocado para prestar pessoalmente informações acerca de assunto previamente determinado; (Incluído pela Lei Complementar nº 227, de 2026)\nIV - deixar de prestar à Câmara dos Deputados ou ao Senado Federal, no prazo de 30 (trinta) dias, sem motivo justo, as informações que lhe forem solicitadas por escrito, ou prestá-las com falsidade; (Incluído pela Lei Complementar nº 227, de 2026)\nV - os demais atos definidos nesta Lei, quando por ele praticados ou ordenados, ressalvados os constantes dos itens 1 e 2 do art. 9º e do item 1 do art. 10. (Incluído pela Lei Complementar nº 227, de 2026)",
+   "hash": "fa64800dda464c7b8867964e7e82de5c6fd09068d4221522aafb4d7e12c21377"
+  },
+  "79-B": {
+   "texto": "Art. 79-B. O processo e o julgamento do Presidente do CGIBS observarão o disposto nesta Lei para o Presidente da República e os Ministros de Estado, inclusive quanto às sanções aplicáveis. (Incluído pela Lei Complementar nº 227, de 2026)\nDISPOSIÇÕES GERAIS",
+   "hash": "8adc0b52063e825244fbae5d6e6382dc557728494e298de266d36b58af767c43"
+  },
+  "80": {
+   "texto": "Art. 80. Nos crimes de responsabilidade do Presidente da República e dos Ministros de Estado, a Câmara dos Deputados é tribunal de pronuncia e o Senado Federal, tribunal de julgamento; nos crimes de responsabilidade dos Ministros do Supremo Tribunal Federal e do Procurador Geral da República, o Senado Federal é, simultaneamente, tribunal de pronuncia e julgamento.\nParágrafo único. O Senado Federal, na apuração e julgamento dos crimes de responsabilidade funciona sob a presidência do Presidente do Supremo Tribunal, e só proferirá sentença condenatória pelo voto de dois terços dos seus membros.",
+   "hash": "89904b79d417a8bb1de785b32bf3114fe23e017a7710e1e683292dac3a316d22"
+  },
+  "81": {
+   "texto": "Art. 81 A declaração de procedência da acusação nos crimes de responsabilidade só poderá ser decretada pela maioria absoluta da Câmara que a preferir.",
+   "hash": "4f1920d565afe4274bd326f5f2f1027b3512f1c837e74ac51049cfa2a7845c7e"
+  },
+  "82": {
+   "texto": "Art. 82. Não poderá exceder de cento e vinte dias, contados da data da declaração da procedência da acusação, o prazo para o processo e julgamento dos crimes definidos nesta lei.\nRio de Janeiro, 10 de abril de 1950; 129º da Independência e 62º da República.\nEURICO GASPAR DUTRA\nHonório Monteiro\nSylvic de Noronha\nCanrobert P. da Costa\nRaul Fernandes\nGuilherme da Silveira\nJoão Valdetaro de Amorim e Mello\nDaniel de Carvalho\nClemente Mariani\nArmando Trompowsky\nEste texto não substitui o publicado no DOU de 12.4.1950\n*",
+   "hash": "3ec44ff827baf6bc9e23d38c39c09730e50b33a91cdfea042e3492fdfc2bb62e"
+  }
+ }
+}

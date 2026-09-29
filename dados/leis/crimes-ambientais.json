@@ -1,0 +1,369 @@
+{
+ "id": "crimes-ambientais",
+ "nome": "Lei de Crimes Ambientais",
+ "numero": "Lei nº 9.605/1998",
+ "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+ "versao": "2026-09-29",
+ "hash": "05ea24e37c21e68b6db8f3424d29be2a36d075cfd739df2997e8ec2794371ce2",
+ "etag": "\"1ceaf-655b88a5f0a03\"",
+ "last_modified": "Fri, 03 Jul 2026 17:49:04 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 9.605, DE 12 DE FEVEREIRO DE 1998.",
+  "Dispõe sobre as sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente, e dá outras providências.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+  "CAPÍTULO I",
+  "DISPOSIÇÕES GERAIS"
+ ],
+ "ultimo_download_completo": "2026-09-24T04:39:43-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º (VETADO)",
+   "hash": "d6b131527ceb082fa4955ff1888573d23382472a2d7c5eb2f86c8d0b6b49e839"
+  },
+  "2": {
+   "texto": "Art. 2º Quem, de qualquer forma, concorre para a prática dos crimes previstos nesta Lei, incide nas penas a estes cominadas, na medida da sua culpabilidade, bem como o diretor, o administrador, o membro de conselho e de órgão técnico, o auditor, o gerente, o preposto ou mandatário de pessoa jurídica, que, sabendo da conduta criminosa de outrem, deixar de impedir a sua prática, quando podia agir para evitá-la.",
+   "hash": "18ea3420ef5ec97fae83b9a11c22fe2a6ed03513e36fe850e59d9433517744ec"
+  },
+  "3": {
+   "texto": "Art. 3º As pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente conforme o disposto nesta Lei, nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da sua entidade.\nParágrafo único. A responsabilidade das pessoas jurídicas não exclui a das pessoas físicas, autoras, co-autoras ou partícipes do mesmo fato.",
+   "hash": "689c068f31134ff132c28742a3a6aa065caa482ca1199005198d8b16f18a57ad"
+  },
+  "4": {
+   "texto": "Art. 4º Poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for obstáculo ao ressarcimento de prejuízos causados à qualidade do meio ambiente.",
+   "hash": "da8eca244ffce6944c4e1c17626a5167786af9fa43d2878cd2d070a335e5b77c"
+  },
+  "5": {
+   "texto": "Art. 5º (VETADO)\nCAPÍTULO II\nDA APLICAÇÃO DA PENA",
+   "hash": "0932e7ed37e38141817d3fa7aa40db8f104ddfaf72490e282f0fc03fce262e05"
+  },
+  "6": {
+   "texto": "Art. 6º Para imposição e gradação da penalidade, a autoridade competente observará:\nI - a gravidade do fato, tendo em vista os motivos da infração e suas conseqüências para a saúde pública e para o meio ambiente;\nII - os antecedentes do infrator quanto ao cumprimento da legislação de interesse ambiental;\nIII - a situação econômica do infrator, no caso de multa.",
+   "hash": "83b3f5baaf62db01cf0b2aa3c38500b721ddf03b5bd6b2a4cc0c4fdb8efcf323"
+  },
+  "7": {
+   "texto": "Art. 7º As penas restritivas de direitos são autônomas e substituem as privativas de liberdade quando:\nI - tratar-se de crime culposo ou for aplicada a pena privativa de liberdade inferior a quatro anos;\nII - a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias do crime indicarem que a substituição seja suficiente para efeitos de reprovação e prevenção do crime.\nParágrafo único. As penas restritivas de direitos a que se refere este artigo terão a mesma duração da pena privativa de liberdade substituída.",
+   "hash": "97809f4fe6a566093f2b38aa6ed05052ca7abf6779eae785877232edb51602b4"
+  },
+  "8": {
+   "texto": "Art. 8º As penas restritivas de direito são:\nI - prestação de serviços à comunidade;\nII - interdição temporária de direitos;\nIII - suspensão parcial ou total de atividades;\nIV - prestação pecuniária;\nV - recolhimento domiciliar.",
+   "hash": "4f7b85af5361cfb4b0cefbd4c72658f63e7e200a4a862b29100c96ad6d4fd78d"
+  },
+  "9": {
+   "texto": "Art. 9º A prestação de serviços à comunidade consiste na atribuição ao condenado de tarefas gratuitas junto a parques e jardins públicos e unidades de conservação, e, no caso de dano da coisa particular, pública ou tombada, na restauração desta, se possível.",
+   "hash": "4f0d51249b8b05ba8d3cf995413f700461160e1cad0a5e554bd99ec6b4dc08c6"
+  },
+  "10": {
+   "texto": "Art. 10. As penas de interdição temporária de direito são a proibição de o condenado contratar com o Poder Público, de receber incentivos fiscais ou quaisquer outros benefícios, bem como de participar de licitações, pelo prazo de cinco anos, no caso de crimes dolosos, e de três anos, no de crimes culposos.",
+   "hash": "5c0a8f48d02380639e3129b4921dc2d2678d0a337c92d768d2801b44a130959b"
+  },
+  "11": {
+   "texto": "Art. 11. A suspensão de atividades será aplicada quando estas não estiverem obedecendo às prescrições legais.",
+   "hash": "32f01cb3d99a8d4a80c523a349a1719d9367090e52ba3ff175a731aab8a602cd"
+  },
+  "12": {
+   "texto": "Art. 12. A prestação pecuniária consiste no pagamento em dinheiro à vítima ou à entidade pública ou privada com fim social, de importância, fixada pelo juiz, não inferior a um salário mínimo nem superior a trezentos e sessenta salários mínimos. O valor pago será deduzido do montante de eventual reparação civil a que for condenado o infrator.",
+   "hash": "c7db6c9aba6680df63216662955fbb0b6a11ecba76ef6b5af1d69cb9e0d4809d"
+  },
+  "13": {
+   "texto": "Art. 13. O recolhimento domiciliar baseia-se na autodisciplina e senso de responsabilidade do condenado, que deverá, sem vigilância, trabalhar, freqüentar curso ou exercer atividade autorizada, permanecendo recolhido nos dias e horários de folga em residência ou em qualquer local destinado a sua moradia habitual, conforme estabelecido na sentença condenatória.",
+   "hash": "3cff34f698e649ca47b444168b985ba5db472234d1e53b44130efa2df939421b"
+  },
+  "14": {
+   "texto": "Art. 14. São circunstâncias que atenuam a pena:\nI - baixo grau de instrução ou escolaridade do agente;\nII - arrependimento do infrator, manifestado pela espontânea reparação do dano, ou limitação significativa da degradação ambiental causada;\nIII - comunicação prévia pelo agente do perigo iminente de degradação ambiental;\nIV - colaboração com os agentes encarregados da vigilância e do controle ambiental.",
+   "hash": "9c8920e45773117a5761b5de58dd0c8b5e5d0fe8222b9b600ba624f6e0838b15"
+  },
+  "15": {
+   "texto": "Art. 15. São circunstâncias que agravam a pena, quando não constituem ou qualificam o crime:\nI - reincidência nos crimes de natureza ambiental;\nII - ter o agente cometido a infração:\na) para obter vantagem pecuniária;\nb) coagindo outrem para a execução material da infração;\nc) afetando ou expondo a perigo, de maneira grave, a saúde pública ou o meio ambiente;\nd) concorrendo para danos à propriedade alheia;\ne) atingindo áreas de unidades de conservação ou áreas sujeitas, por ato do Poder Público, a regime especial de uso;\nf) atingindo áreas urbanas ou quaisquer assentamentos humanos;\ng) em período de defeso à fauna;\nh) em domingos ou feriados;\ni) à noite;\nj) em épocas de seca ou inundações;\nl) no interior do espaço territorial especialmente protegido;\nm) com o emprego de métodos cruéis para abate ou captura de animais;\nn) mediante fraude ou abuso de confiança;\no) mediante abuso do direito de licença, permissão ou autorização ambiental;\np) no interesse de pessoa jurídica mantida, total ou parcialmente, por verbas públicas ou beneficiada por incentivos fiscais;\nq) atingindo espécies ameaçadas, listadas em relatórios oficiais das autoridades competentes;\nr) facilitada por funcionário público no exercício de suas funções.",
+   "hash": "f99ffdf58e7845cd80463e3e902a20f3baa7c75f45f95b4478fb709bdf8c96c2"
+  },
+  "16": {
+   "texto": "Art. 16. Nos crimes previstos nesta Lei, a suspensão condicional da pena pode ser aplicada nos casos de condenação a pena privativa de liberdade não superior a três anos.",
+   "hash": "eccabd271ee1d6b34843fecaa51027287344e59c9c2237af7fb22adb24b03385"
+  },
+  "17": {
+   "texto": "Art. 17. A verificação da reparação a que se refere o § 2º do art. 78 do Código Penal será feita mediante laudo de reparação do dano ambiental, e as condições a serem impostas pelo juiz deverão relacionar-se com a proteção ao meio ambiente.",
+   "hash": "4eedee87de2aed6ee6d8e18354438520567862a1825f6369dec0d6f672fbb0ea"
+  },
+  "18": {
+   "texto": "Art. 18. A multa será calculada segundo os critérios do Código Penal; se revelar-se ineficaz, ainda que aplicada no valor máximo, poderá ser aumentada até três vezes, tendo em vista o valor da vantagem econômica auferida.",
+   "hash": "8c548af779438a55f9d7bf89babe248010836c9b01332660998e9c4424d5a321"
+  },
+  "19": {
+   "texto": "Art. 19. A perícia de constatação do dano ambiental, sempre que possível, fixará o montante do prejuízo causado para efeitos de prestação de fiança e cálculo de multa.\nParágrafo único. A perícia produzida no inquérito civil ou no juízo cível poderá ser aproveitada no processo penal, instaurando-se o contraditório.",
+   "hash": "45be02c33f9cd246e568c54d01829e66bdfb097537f2af8cb36cad7e8221586c"
+  },
+  "20": {
+   "texto": "Art. 20. A sentença penal condenatória, sempre que possível, fixará o valor mínimo para reparação dos danos causados pela infração, considerando os prejuízos sofridos pelo ofendido ou pelo meio ambiente.\nParágrafo único. Transitada em julgado a sentença condenatória, a execução poderá efetuar-se pelo valor fixado nos termos do caput, sem prejuízo da liquidação para apuração do dano efetivamente sofrido.",
+   "hash": "52d222e393073aca67d5c8ce34021f17fcadc89f786cc7c707bd65d70b2c1f56"
+  },
+  "21": {
+   "texto": "Art. 21. As penas aplicáveis isolada, cumulativa ou alternativamente às pessoas jurídicas, de acordo com o disposto no art. 3º, são:\nI - multa;\nII - restritivas de direitos;\nIII - prestação de serviços à comunidade.",
+   "hash": "a95d9d269164905f41e41c00bf539242e9611e78438b5a5d2316ae9fb9cf5e3c"
+  },
+  "22": {
+   "texto": "Art. 22. As penas restritivas de direitos da pessoa jurídica são:\nI - suspensão parcial ou total de atividades;\nII - interdição temporária de estabelecimento, obra ou atividade;\nIII - proibição de contratar com o Poder Público, bem como dele obter subsídios, subvenções ou doações.\n§ 1º A suspensão de atividades será aplicada quando estas não estiverem obedecendo às disposições legais ou regulamentares, relativas à proteção do meio ambiente.\n§ 2º A interdição será aplicada quando o estabelecimento, obra ou atividade estiver funcionando sem a devida autorização, ou em desacordo com a concedida, ou com violação de disposição legal ou regulamentar.\n§ 3º A proibição de contratar com o Poder Público e dele obter subsídios, subvenções ou doações não poderá exceder o prazo de dez anos.",
+   "hash": "4296abc9212129ec58e5248c079f6325617f79d171daab8c722d99486ddf1358"
+  },
+  "23": {
+   "texto": "Art. 23. A prestação de serviços à comunidade pela pessoa jurídica consistirá em:\nI - custeio de programas e de projetos ambientais;\nII - execução de obras de recuperação de áreas degradadas;\nIII - manutenção de espaços públicos;\nIV - contribuições a entidades ambientais ou culturais públicas.",
+   "hash": "35455202ead6e19afbfc4e451ad9fc74ec14e7e8f95b0d22138d0a922864ae72"
+  },
+  "24": {
+   "texto": "Art. 24. A pessoa jurídica constituída ou utilizada, preponderantemente, com o fim de permitir, facilitar ou ocultar a prática de crime definido nesta Lei terá decretada sua liquidação forçada, seu patrimônio será considerado instrumento do crime e como tal perdido em favor do Fundo Penitenciário Nacional.\nCAPÍTULO III\nDA APREENSÃO DO PRODUTO E DO INSTRUMENTO DE INFRAÇÃO\nADMINISTRATIVA OU DE CRIME",
+   "hash": "6acacbd5fd43e5b5532318698d500f2c713ab0f3ca6550f4537528da4a634904"
+  },
+  "25": {
+   "texto": "Art. 25. Verificada a infração, serão apreendidos seus produtos e instrumentos, lavrando-se os respectivos autos. (Vide ADPF 640)\n§ 1o Os animais serão prioritariamente libertados em seu habitat ou, sendo tal medida inviável ou não recomendável por questões sanitárias, entregues a jardins zoológicos, fundações ou entidades assemelhadas, para guarda e cuidados sob a responsabilidade de técnicos habilitados. (Redação dada pela Lei nº 13.052, de 2014)\n§ 2o Até que os animais sejam entregues às instituições mencionadas no § 1o deste artigo, o órgão autuante zelará para que eles sejam mantidos em condições adequadas de acondicionamento e transporte que garantam o seu bem-estar físico. (Redação dada pela Lei nº 13.052, de 2014) (Vide ADPF 640)\n§ 3º Tratando-se de produtos perecíveis ou madeiras, serão estes avaliados e doados a instituições científicas, hospitalares, penais e outras com fins beneficentes. (Renumerando do §2º para §3º pela Lei nº 13.052, de 2014)\n§ 4° Os produtos e subprodutos da fauna não perecíveis serão destruídos ou doados a instituições científicas, culturais ou educacionais. (Renumerando do §3º para §4º pela Lei nº 13.052, de 2014)\n§ 5º Os instrumentos utilizados na prática da infração serão vendidos, garantida a sua descaracterização por meio da reciclagem. (Renumerando do §4º para §5º pela Lei nº 13.052, de 2014)\nPrejudicada\nCAPÍTULO IV\nDA AÇÃO E DO PROCESSO PENAL",
+   "hash": "99fa603c7ab584b0f87775af615c599af1464c907e9e182548b99aa059f017d8"
+  },
+  "26": {
+   "texto": "Art. 26. Nas infrações penais previstas nesta Lei, a ação penal é pública incondicionada.\nParágrafo único. (VETADO)",
+   "hash": "6613c5d8cec8ed8491cd2574e24d4b374416e8be5e1539c42e92324b1f01ca70"
+  },
+  "27": {
+   "texto": "Art. 27. Nos crimes ambientais de menor potencial ofensivo, a proposta de aplicação imediata de pena restritiva de direitos ou multa, prevista no art. 76 da Lei nº 9.099, de 26 de setembro de 1995, somente poderá ser formulada desde que tenha havido a prévia composição do dano ambiental, de que trata o art. 74 da mesma lei, salvo em caso de comprovada impossibilidade.",
+   "hash": "8cfcda83f4f6f3d23316f76d88b8eec7b20ca296c947b44155d09ecaa969bb0d"
+  },
+  "28": {
+   "texto": "Art. 28. As disposições do art. 89 da Lei nº 9.099, de 26 de setembro de 1995, aplicam-se aos crimes de menor potencial ofensivo definidos nesta Lei, com as seguintes modificações:\nI - a declaração de extinção de punibilidade, de que trata o § 5° do artigo referido no caput, dependerá de laudo de constatação de reparação do dano ambiental, ressalvada a impossibilidade prevista no inciso I do § 1° do mesmo artigo;\nII - na hipótese de o laudo de constatação comprovar não ter sido completa a reparação, o prazo de suspensão do processo será prorrogado, até o período máximo previsto no artigo referido no caput, acrescido de mais um ano, com suspensão do prazo da prescrição;\nIII - no período de prorrogação, não se aplicarão as condições dos incisos II, III e IV do § 1° do artigo mencionado no caput;\nIV - findo o prazo de prorrogação, proceder-se-á à lavratura de novo laudo de constatação de reparação do dano ambiental, podendo, conforme seu resultado, ser novamente prorrogado o período de suspensão, até o máximo previsto no inciso II deste artigo, observado o disposto no inciso III;\nV - esgotado o prazo máximo de prorrogação, a declaração de extinção de punibilidade dependerá de laudo de constatação que comprove ter o acusado tomado as providências necessárias à reparação integral do dano.\nCAPÍTULO V\nDOS CRIMES CONTRA O MEIO AMBIENTE\nSeção I\nDos Crimes contra a Fauna",
+   "hash": "83bc8d9c1b4d5906ea5c4b45140845a66d64d62a49ab570a649e13abd7011c73"
+  },
+  "29": {
+   "texto": "Art. 29. Matar, perseguir, caçar, apanhar, utilizar espécimes da fauna silvestre, nativos ou em rota migratória, sem a devida permissão, licença ou autorização da autoridade competente, ou em desacordo com a obtida:\nPena - detenção de seis meses a um ano, e multa.\n§ 1º Incorre nas mesmas penas:\nI - quem impede a procriação da fauna, sem licença, autorização ou em desacordo com a obtida;\nII - quem modifica, danifica ou destrói ninho, abrigo ou criadouro natural;\nIII - quem vende, expõe à venda, exporta ou adquire, guarda, tem em cativeiro ou depósito, utiliza ou transporta ovos, larvas ou espécimes da fauna silvestre, nativa ou em rota migratória, bem como produtos e objetos dela oriundos, provenientes de criadouros não autorizados ou sem a devida permissão, licença ou autorização da autoridade competente.\n§ 2º No caso de guarda doméstica de espécie silvestre não considerada ameaçada de extinção, pode o juiz, considerando as circunstâncias, deixar de aplicar a pena.\n§ 3° São espécimes da fauna silvestre todos aqueles pertencentes às espécies nativas, migratórias e quaisquer outras, aquáticas ou terrestres, que tenham todo ou parte de seu ciclo de vida ocorrendo dentro dos limites do território brasileiro, ou águas jurisdicionais brasileiras.\n§ 4º A pena é aumentada de metade, se o crime é praticado:\nI - contra espécie rara ou considerada ameaçada de extinção, ainda que somente no local da infração;\nII - em período proibido à caça;\nIII - durante a noite;\nIV - com abuso de licença;\nV - em unidade de conservação;\nVI - com emprego de métodos ou instrumentos capazes de provocar destruição em massa.\n§ 5º A pena é aumentada até o triplo, se o crime decorre do exercício de caça profissional.\n§ 6º As disposições deste artigo não se aplicam aos atos de pesca.",
+   "hash": "ba16a70f935a4cc2c3acb93ff3e07282a161a86965ee8201f76d5c1ce6704504"
+  },
+  "30": {
+   "texto": "Art. 30. Exportar para o exterior peles e couros de anfíbios e répteis em bruto, sem a autorização da autoridade ambiental competente:\nPena - reclusão, de um a três anos, e multa.",
+   "hash": "005d2ab62f731cf8013c2af216e88a3e57a252acda003672e287249bf16ba9aa"
+  },
+  "31": {
+   "texto": "Art. 31. Introduzir espécime animal no País, sem parecer técnico oficial favorável e licença expedida por autoridade competente:\nPena - detenção, de três meses a um ano, e multa.",
+   "hash": "172a89f95403efcae0bf89b7d96c5423cc041d949dadc7ec53389239bc705457"
+  },
+  "32": {
+   "texto": "Art. 32. Praticar ato de abuso, maus-tratos, ferir ou mutilar animais silvestres, domésticos ou domesticados, nativos ou exóticos: (Vide ADPF 640)\nPena - detenção, de três meses a um ano, e multa.\n§ 1º Incorre nas mesmas penas quem realiza experiência dolorosa ou cruel em animal vivo, ainda que para fins didáticos ou científicos, quando existirem recursos alternativos. (Vide ADPF 640)\n§ 1º-A Quando se tratar de cão ou gato, a pena para as condutas descritas no caput deste artigo será de reclusão, de 2 (dois) a 5 (cinco) anos, multa e proibição da guarda. (Incluído pela Lei nº 14.064, de 2020)\n§ 1º-B. Incorre nas mesmas penas quem realiza ou permite a realização de tatuagens e a colocação de piercings em cães e gatos, com fins estéticos. (Incluído pela Lei nº 15.150, de 2025)\n§ 1º-C. Incorre nas mesmas penas quem provoca desastre ambiental que prejudique a vida, a integridade física ou o bem-estar de animais silvestres ou domésticos. (Incluído pela Lei nº 15.355, de 2026)\n§ 2º A pena é aumentada de um sexto a um terço, se ocorre morte do animal. (Vide ADPF 640)",
+   "hash": "0dafec89377cfe3caf8b61c9f567d6b3981c937a2eaafae7bf6fa6edc4ba81c8"
+  },
+  "33": {
+   "texto": "Art. 33. Provocar, pela emissão de efluentes ou carreamento de materiais, o perecimento de espécimes da fauna aquática existentes em rios, lagos, açudes, lagoas, baías ou águas jurisdicionais brasileiras:\nPena - detenção, de um a três anos, ou multa, ou ambas cumulativamente.\nParágrafo único. Incorre nas mesmas penas:\nI - quem causa degradação em viveiros, açudes ou estações de aqüicultura de domínio público;\nII - quem explora campos naturais de invertebrados aquáticos e algas, sem licença, permissão ou autorização da autoridade competente;\nIII - quem fundeia embarcações ou lança detritos de qualquer natureza sobre bancos de moluscos ou corais, devidamente demarcados em carta náutica.",
+   "hash": "96aba6cd87c4d12b165782659084d9c16b3e5e3ac82ec408e07538537ba259ea"
+  },
+  "34": {
+   "texto": "Art. 34. Pescar em período no qual a pesca seja proibida ou em lugares interditados por órgão competente:\nPena - detenção de um ano a três anos ou multa, ou ambas as penas cumulativamente.\nParágrafo único. Incorre nas mesmas penas quem:\nI - pesca espécies que devam ser preservadas ou espécimes com tamanhos inferiores aos permitidos;\nII - pesca quantidades superiores às permitidas, ou mediante a utilização de aparelhos, petrechos, técnicas e métodos não permitidos;\nIII - transporta, comercializa, beneficia ou industrializa espécimes provenientes da coleta, apanha e pesca proibidas.",
+   "hash": "4046fa2ec7723077da738e83feb93a0402155f8d9efd75715648f777d6d9a5d4"
+  },
+  "35": {
+   "texto": "Art. 35. Pescar mediante a utilização de:\nI - explosivos ou substâncias que, em contato com a água, produzam efeito semelhante;\nII - substâncias tóxicas, ou outro meio proibido pela autoridade competente:\nPena - reclusão de um ano a cinco anos.",
+   "hash": "24e91ef4befd682b6bdf64c0ad8d3f01caae4b493dea56f136815e7d6f861ac9"
+  },
+  "36": {
+   "texto": "Art. 36. Para os efeitos desta Lei, considera-se pesca todo ato tendente a retirar, extrair, coletar, apanhar, apreender ou capturar espécimes dos grupos dos peixes, crustáceos, moluscos e vegetais hidróbios, suscetíveis ou não de aproveitamento econômico, ressalvadas as espécies ameaçadas de extinção, constantes nas listas oficiais da fauna e da flora.",
+   "hash": "a5229fb6b971246446171fcbd8e15a560ac78dce5bb1750490d59e1deb4808ba"
+  },
+  "37": {
+   "texto": "Art. 37. Não é crime o abate de animal, quando realizado:\nI - em estado de necessidade, para saciar a fome do agente ou de sua família;\nII - para proteger lavouras, pomares e rebanhos da ação predatória ou destruidora de animais, desde que legal e expressamente autorizado pela autoridade competente;\nIII – (VETADO)\nIV - por ser nocivo o animal, desde que assim caracterizado pelo órgão competente.\nSeção II\nDos Crimes contra a Flora",
+   "hash": "77be4cbf5f2a65185a2ab5aaf23fed32262f522cfda3f4f4652663a15107e16e"
+  },
+  "38": {
+   "texto": "Art. 38. Destruir ou danificar floresta considerada de preservação permanente, mesmo que em formação, ou utilizá-la com infringência das normas de proteção:\nPena - detenção, de um a três anos, ou multa, ou ambas as penas cumulativamente.\nParágrafo único. Se o crime for culposo, a pena será reduzida à metade.",
+   "hash": "970b283c3d901cf2b4c6a11cc9f24487d27e011ed1054468a3261eea8283beb5"
+  },
+  "38-A": {
+   "texto": "Art. 38-A. Destruir ou danificar vegetação primária ou secundária, em estágio avançado ou médio de regeneração, do Bioma Mata Atlântica, ou utilizá-la com infringência das normas de proteção: (Incluído pela Lei nº 11.428, de 2006).\nPena - detenção, de 1 (um) a 3 (três) anos, ou multa, ou ambas as penas cumulativamente. (Incluído pela Lei nº 11.428, de 2006).\nParágrafo único. Se o crime for culposo, a pena será reduzida à metade. (Incluído pela Lei nº 11.428, de 2006).",
+   "hash": "20ef99762727b0fd496dd0320166db57926e67aaa8fa2e478f1cd6ff5698f640"
+  },
+  "39": {
+   "texto": "Art. 39. Cortar árvores em floresta considerada de preservação permanente, sem permissão da autoridade competente:\nPena - detenção, de um a três anos, ou multa, ou ambas as penas cumulativamente.",
+   "hash": "333e29d0b2db98bc641f0ba2175378beb7be752f77f9d88e8616c0c6636a9e63"
+  },
+  "40": {
+   "texto": "Art. 40. Causar dano direto ou indireto às Unidades de Conservação e às áreas de que trata o art. 27 do Decreto nº 99.274, de 6 de junho de 1990, independentemente de sua localização:\nPena - reclusão, de um a cinco anos.\n§ 1o Entende-se por Unidades de Conservação de Proteção Integral as Estações Ecológicas, as Reservas Biológicas, os Parques Nacionais, os Monumentos Naturais e os Refúgios de Vida Silvestre. (Redação dada pela Lei nº 9.985, de 2000)\n§ 2o A ocorrência de dano afetando espécies ameaçadas de extinção no interior das Unidades de Conservação de Proteção Integral será considerada circunstância agravante para a fixação da pena. (Redação dada pela Lei nº 9.985, de 2000)\n§ 3º Se o crime for culposo, a pena será reduzida à metade.",
+   "hash": "53406160a317d7bf8e5edc57dce7438fa32c4a9dd8e3c4a6f36ff8652666026d"
+  },
+  "40-A": {
+   "texto": "Art. 40-A. (VETADO) (Incluído pela Lei nº 9.985, de 2000)\n§ 1o Entende-se por Unidades de Conservação de Uso Sustentável as Áreas de Proteção Ambiental, as Áreas de Relevante Interesse Ecológico, as Florestas Nacionais, as Reservas Extrativistas, as Reservas de Fauna, as Reservas de Desenvolvimento Sustentável e as Reservas Particulares do Patrimônio Natural. (Incluído pela Lei nº 9.985, de 2000)\n§ 2o A ocorrência de dano afetando espécies ameaçadas de extinção no interior das Unidades de Conservação de Uso Sustentável será considerada circunstância agravante para a fixação da pena. (Incluído pela Lei nº 9.985, de 2000)\n§ 3o Se o crime for culposo, a pena será reduzida à metade. (Incluído pela Lei nº 9.985, de 2000)",
+   "hash": "c7d08c6acf027fd7b109dc7aff5a4087372825995f20cdcf6798a303cc02e9ce"
+  },
+  "41": {
+   "texto": "Art. 41. Provocar incêndio em floresta ou em demais formas de vegetação: (Redação dada pela Lei nº 14.944, de 2024)\nPena - reclusão, de dois a quatro anos, e multa.\nParágrafo único. Se o crime é culposo, a pena é de detenção de seis meses a um ano, e multa.",
+   "hash": "e8e36e018aed37321a8c8c12ff8cf25094a0b60eff47b2f06d40fbb4fb9905a0"
+  },
+  "42": {
+   "texto": "Art. 42. Fabricar, vender, transportar ou soltar balões que possam provocar incêndios nas florestas e demais formas de vegetação, em áreas urbanas ou qualquer tipo de assentamento humano:\nPena - detenção de um a três anos ou multa, ou ambas as penas cumulativamente.",
+   "hash": "8fbdc3a98e73932bf6765b0717744425b308ea7189c3b7a3215d062651585815"
+  },
+  "43": {
+   "texto": "Art. 43. (VETADO)",
+   "hash": "2a84eb6f9150a8b5c5bf3d271befbcacfc0edc1db179a85595b515e69af6b5b9"
+  },
+  "44": {
+   "texto": "Art. 44. Extrair de florestas de domínio público ou consideradas de preservação permanente, sem prévia autorização, pedra, areia, cal ou qualquer espécie de minerais:\nPena - detenção, de seis meses a um ano, e multa.",
+   "hash": "019cb44fcbd3de3c69ce20c7f6814a2b40536cd014b2844c9c824cb313c2b9ca"
+  },
+  "45": {
+   "texto": "Art. 45. Cortar ou transformar em carvão madeira de lei, assim classificada por ato do Poder Público, para fins industriais, energéticos ou para qualquer outra exploração, econômica ou não, em desacordo com as determinações legais:\nPena - reclusão, de um a dois anos, e multa.",
+   "hash": "cd8dada004f5d821e393484a07299bf07dedcb7ecb1935b6ece672bc179d89ee"
+  },
+  "46": {
+   "texto": "Art. 46. Receber ou adquirir, para fins comerciais ou industriais, madeira, lenha, carvão e outros produtos de origem vegetal, sem exigir a exibição de licença do vendedor, outorgada pela autoridade competente, e sem munir-se da via que deverá acompanhar o produto até final beneficiamento:\nPena - detenção, de seis meses a um ano, e multa.\nParágrafo único. Incorre nas mesmas penas quem vende, expõe à venda, tem em depósito, transporta ou guarda madeira, lenha, carvão e outros produtos de origem vegetal, sem licença válida para todo o tempo da viagem ou do armazenamento, outorgada pela autoridade competente.",
+   "hash": "7ec10ab398e19892f8a8f0628e338fa83e3d13795a14ec61648b6d3fd82d6239"
+  },
+  "47": {
+   "texto": "Art. 47. (VETADO)",
+   "hash": "1eb8d7a02c26377100c2fbf46eb713357662fc3e4a435e3276e93aa5bf8d9224"
+  },
+  "48": {
+   "texto": "Art. 48. Impedir ou dificultar a regeneração natural de florestas e demais formas de vegetação:\nPena - detenção, de seis meses a um ano, e multa.",
+   "hash": "eabd9024ad3e611bd5daf239695577503c18849d223a069a61327fd2ac258dc8"
+  },
+  "49": {
+   "texto": "Art. 49. Destruir, danificar, lesar ou maltratar, por qualquer modo ou meio, plantas de ornamentação de logradouros públicos ou em propriedade privada alheia:\nPena - detenção, de três meses a um ano, ou multa, ou ambas as penas cumulativamente.\n§ 1º No crime culposo, a pena é de um a seis meses, ou multa. (Redação dada pela Lei nº 15.299, de 2025)\n§ 2º Não incorre em crime quem procede à poda ou ao corte de árvore quando o órgão ambiental responsável não responder de maneira fundamentada, no prazo máximo de 45 (quarenta e cinco) dias, a requerimento que solicita o corte ou a poda em razão da possibilidade de ocorrência de acidente devidamente atestada por empresa ou profissional habilitado, considerada tacitamente autorizada sua realização quando esgotado o referido prazo. (Incluído pela Lei nº 15.299, de 2025)",
+   "hash": "5ec4863d9aed2af5d2d1d6b1ede86a8842fcdb6a5ebf536ade9e199d70314f92"
+  },
+  "50": {
+   "texto": "Art. 50. Destruir ou danificar florestas nativas ou plantadas ou vegetação fixadora de dunas, protetora de mangues, objeto de especial preservação:\nPena - detenção, de três meses a um ano, e multa.",
+   "hash": "a5ba2c840cc94288260a87a3625b7cd9f818c31d4c6d3d24291af63250483e76"
+  },
+  "50-A": {
+   "texto": "Art. 50-A. Desmatar, explorar economicamente ou degradar floresta, plantada ou nativa, em terras de domínio público ou devolutas, sem autorização do órgão competente: (Incluído pela Lei nº 11.284, de 2006)\nPena - reclusão de 2 (dois) a 4 (quatro) anos e multa. (Incluído pela Lei nº 11.284, de 2006)\n§ 1o Não é crime a conduta praticada quando necessária à subsistência imediata pessoal do agente ou de sua família. (Incluído pela Lei nº 11.284, de 2006)\n§ 2o Se a área explorada for superior a 1.000 ha (mil hectares), a pena será aumentada de 1 (um) ano por milhar de hectare. (Incluído pela Lei nº 11.284, de 2006)",
+   "hash": "ff61b301ede3ef802af8dfa9878801ab305323b0abf3bacc92eb7dce7619c275"
+  },
+  "51": {
+   "texto": "Art. 51. Comercializar motosserra ou utilizá-la em florestas e nas demais formas de vegetação, sem licença ou registro da autoridade competente:\nPena - detenção, de três meses a um ano, e multa.",
+   "hash": "d21440cbf4e061ca9ae816626cde30f5f138c06c8bdc9140f5c971e08b4a9bc0"
+  },
+  "52": {
+   "texto": "Art. 52. Penetrar em Unidades de Conservação conduzindo substâncias ou instrumentos próprios para caça ou para exploração de produtos ou subprodutos florestais, sem licença da autoridade competente:\nPena - detenção, de seis meses a um ano, e multa.",
+   "hash": "e1026dc751a52ea71fe143695a4e8447edfc074d3838e0cd4a022f5fcf5cde73"
+  },
+  "53": {
+   "texto": "Art. 53. Nos crimes previstos nesta Seção, a pena é aumentada de um sexto a um terço se:\nI - do fato resulta a diminuição de águas naturais, a erosão do solo ou a modificação do regime climático;\nII - o crime é cometido:\na) no período de queda das sementes;\nb) no período de formação de vegetações;\nc) contra espécies raras ou ameaçadas de extinção, ainda que a ameaça ocorra somente no local da infração;\nd) em época de seca ou inundação;\ne) durante a noite, em domingo ou feriado.\nSeção III\nDa Poluição e outros Crimes Ambientais",
+   "hash": "ed10c77ba8fe4a77ae4cdc903586275012dff6d563320089830744a4a579f604"
+  },
+  "54": {
+   "texto": "Art. 54. Causar poluição de qualquer natureza em níveis tais que resultem ou possam resultar em danos à saúde humana, ou que provoquem a mortandade de animais ou a destruição significativa da flora:\nPena - reclusão, de um a quatro anos, e multa.\n§ 1º Se o crime é culposo:\nPena - detenção, de seis meses a um ano, e multa.\n§ 2º Se o crime:\nI - tornar uma área, urbana ou rural, imprópria para a ocupação humana;\nII - causar poluição atmosférica que provoque a retirada, ainda que momentânea, dos habitantes das áreas afetadas, ou que cause danos diretos à saúde da população;\nIII - causar poluição hídrica que torne necessária a interrupção do abastecimento público de água de uma comunidade;\nIV - dificultar ou impedir o uso público das praias;\nV - ocorrer por lançamento de resíduos sólidos, líquidos ou gasosos, ou detritos, óleos ou substâncias oleosas, em desacordo com as exigências estabelecidas em leis ou regulamentos:\nPena - reclusão, de um a cinco anos.\n§ 3º Incorre nas mesmas penas previstas no parágrafo anterior quem deixar de adotar, quando assim o exigir a autoridade competente, medidas de precaução em caso de risco de dano ambiental grave ou irreversível.",
+   "hash": "23c0e5ccd1f4fa306100be288c4c2e307d247861482b96bcd3e521a284587167"
+  },
+  "55": {
+   "texto": "Art. 55. Executar pesquisa, lavra ou extração de recursos minerais sem a competente autorização, permissão, concessão ou licença, ou em desacordo com a obtida:\nPena - detenção, de seis meses a um ano, e multa.\nParágrafo único. Nas mesmas penas incorre quem deixa de recuperar a área pesquisada ou explorada, nos termos da autorização, permissão, licença, concessão ou determinação do órgão competente.",
+   "hash": "69edc7174c6a8e0d79dc43b4b2610fed9b978c52dbed81e334fffc055dc61e90"
+  },
+  "56": {
+   "texto": "Art. 56. Produzir, processar, embalar, importar, exportar, comercializar, fornecer, transportar, armazenar, guardar, ter em depósito ou usar produto ou substância tóxica, perigosa ou nociva à saúde humana ou ao meio ambiente, em desacordo com as exigências estabelecidas em leis ou nos seus regulamentos:\nPena - reclusão, de um a quatro anos, e multa.\n§ 1o Nas mesmas penas incorre quem: (Redação dada pela Lei nº 12.305, de 2010)\nI - abandona os produtos ou substâncias referidos no caput ou os utiliza em desacordo com as normas ambientais ou de segurança; (Incluído pela Lei nº 12.305, de 2010)\nII - manipula, acondiciona, armazena, coleta, transporta, reutiliza, recicla ou dá destinação final a resíduos perigosos de forma diversa da estabelecida em lei ou regulamento. (Incluído pela Lei nº 12.305, de 2010)\n§ 2º Se o produto ou a substância for nuclear ou radioativa, a pena é aumentada de um sexto a um terço.\n§ 3º Se o crime é culposo:\nPena - detenção, de seis meses a um ano, e multa.",
+   "hash": "7dd0fc83e5a17cd8175f6c3e0beeccb7321d488ff2f8cd800bd3f590ffb545bc"
+  },
+  "57": {
+   "texto": "Art. 57. (VETADO)",
+   "hash": "6621e04c349ca30384f36f230712c731347ab87bec7f6b2677e6f681b5b729c4"
+  },
+  "58": {
+   "texto": "Art. 58. Nos crimes dolosos previstos nesta Seção, as penas serão aumentadas:\nI - de um sexto a um terço, se resulta dano irreversível à flora ou ao meio ambiente em geral;\nII - de um terço até a metade, se resulta lesão corporal de natureza grave em outrem;\nIII - até o dobro, se resultar a morte de outrem.\nParágrafo único. As penalidades previstas neste artigo somente serão aplicadas se do fato não resultar crime mais grave.",
+   "hash": "d0aa93804d29350e13ca0aa2729a27e5dc48ce6f6cfd9e7a6df2661b0917cd21"
+  },
+  "59": {
+   "texto": "Art. 59. (VETADO)",
+   "hash": "eca9cf23be7fd8f8f1b45561714f1c7378bb2ecf71e17ddcf458daef488ac593"
+  },
+  "60": {
+   "texto": "Art. 60. Construir, reformar, ampliar, instalar ou fazer funcionar, em qualquer parte do território nacional, estabelecimentos, obras ou serviços potencialmente poluidores, sem licença ou autorização dos órgãos ambientais competentes, ou contrariando as normas legais e regulamentares pertinentes:\nPena - detenção, de 6 (seis) meses a 2 (dois) anos, ou multa, ou ambas as penas, cumulativamente. (Redação dada pela Lei nº 15.190, de 2025) Vigência\nParágrafo único. A pena é aumentada até o dobro se o licenciamento da atividade ou do empreendimento for sujeito ao Estudo Prévio de Impacto Ambiental. (Incluído pela Lei nº 15.190, de 2025) Vigência",
+   "hash": "be558682a70a854b66724b83f87f86ca982abc2f66ca860f65693d23efb87c9b"
+  },
+  "61": {
+   "texto": "Art. 61. Disseminar doença ou praga ou espécies que possam causar dano à agricultura, à pecuária, à fauna, à flora ou aos ecossistemas:\nPena - reclusão, de um a quatro anos, e multa.\nSeção IV\nDos Crimes contra o Ordenamento Urbano e o Patrimônio Cultural",
+   "hash": "4405c621d66e27f92b8295d485c4f6086fa99020ab243dfda40ee76d037a0466"
+  },
+  "62": {
+   "texto": "Art. 62. Destruir, inutilizar ou deteriorar:\nI - bem especialmente protegido por lei, ato administrativo ou decisão judicial;\nII - arquivo, registro, museu, biblioteca, pinacoteca, instalação científica ou similar protegido por lei, ato administrativo ou decisão judicial:\nPena - reclusão, de um a três anos, e multa.\nParágrafo único. Se o crime for culposo, a pena é de seis meses a um ano de detenção, sem prejuízo da multa.",
+   "hash": "3137fa905757173819ac96af789ca8c36ad676cc7f6fcaed89f3f314ad617127"
+  },
+  "63": {
+   "texto": "Art. 63. Alterar o aspecto ou estrutura de edificação ou local especialmente protegido por lei, ato administrativo ou decisão judicial, em razão de seu valor paisagístico, ecológico, turístico, artístico, histórico, cultural, religioso, arqueológico, etnográfico ou monumental, sem autorização da autoridade competente ou em desacordo com a concedida:\nPena - reclusão, de um a três anos, e multa.",
+   "hash": "c0a83dbc0633b4722210b2d65ad71f631b076f9c90ad017b3d7d7c5181dc38a9"
+  },
+  "64": {
+   "texto": "Art. 64. Promover construção em solo não edificável, ou no seu entorno, assim considerado em razão de seu valor paisagístico, ecológico, artístico, turístico, histórico, cultural, religioso, arqueológico, etnográfico ou monumental, sem autorização da autoridade competente ou em desacordo com a concedida:\nPena - detenção, de seis meses a um ano, e multa.",
+   "hash": "1ec15fd451d8030b63426330194122f6ac286e4a5f712d1c15d46c9ea11eb3c2"
+  },
+  "65": {
+   "texto": "Art. 65. Pichar ou por outro meio conspurcar edificação ou monumento urbano: (Redação dada pela Lei nº 12.408, de 2011)\nPena - detenção, de 3 (três) meses a 1 (um) ano, e multa. (Redação dada pela Lei nº 12.408, de 2011)\n§ 1o Se o ato for realizado em monumento ou coisa tombada em virtude do seu valor artístico, arqueológico ou histórico, a pena é de 6 (seis) meses a 1 (um) ano de detenção e multa. (Renumerado do parágrafo único pela Lei nº 12.408, de 2011)\n§ 2o Não constitui crime a prática de grafite realizada com o objetivo de valorizar o patrimônio público ou privado mediante manifestação artística, desde que consentida pelo proprietário e, quando couber, pelo locatário ou arrendatário do bem privado e, no caso de bem público, com a autorização do órgão competente e a observância das posturas municipais e das normas editadas pelos órgãos governamentais responsáveis pela preservação e conservação do patrimônio histórico e artístico nacional. (Incluído pela Lei nº 12.408, de 2011)\nSeção V\nDos Crimes contra a Administração Ambiental",
+   "hash": "18365ad0685eefc29ef999d0144bdc5c2968db4002f90d5123945a203227eec7"
+  },
+  "66": {
+   "texto": "Art. 66. Fazer o funcionário público afirmação falsa ou enganosa, omitir a verdade, sonegar informações ou dados técnico-científicos em procedimentos de autorização ou de licenciamento ambiental:\nPena - reclusão, de um a três anos, e multa.",
+   "hash": "83ff1ced983d4f476b2f738b1b4fc03f5f88edac51abb16e4282d716d1d80235"
+  },
+  "67": {
+   "texto": "Art. 67. Conceder dolosamente o funcionário público licença, autorização ou permissão que sabe estar em desacordo com as normas ambientais a atividades, obras ou serviços cuja realização depende de ato autorizativo do poder público: (Redação dada pela Lei nº 15.190, de 2025) Vigência\n(Revogado pela Lei nº 15.190, de 2025) Vigência\nPena - detenção, de 1 (um) a 3 (três) anos, e multa. (Redação dada pela Lei nº 15.190, de 2025) Vigência\nParágrafo único. (Revogado). (Redação dada pela Lei nº 15.190, de 2025) Vigência",
+   "hash": "0a350190c92851ed130db43b7a6156d3771fa7d94db1d7e703bf40dadd9c2a2b"
+  },
+  "68": {
+   "texto": "Art. 68. Deixar, aquele que tiver o dever legal ou contratual de fazê-lo, de cumprir obrigação de relevante interesse ambiental:\nPena - detenção, de um a três anos, e multa.\nParágrafo único. Se o crime é culposo, a pena é de três meses a um ano, sem prejuízo da multa.",
+   "hash": "53df8a00cc9acca87b5c89e25992d0ff71ee44d0c7c0dc75f270c0b0a70308a7"
+  },
+  "69": {
+   "texto": "Art. 69. Obstar ou dificultar a ação fiscalizadora do Poder Público no trato de questões ambientais:\nPena - detenção, de um a três anos, e multa.",
+   "hash": "8f14a0a56d73a42a57ed11b4e2304cb31edf1e785e587e84696ebe02eb96c8d7"
+  },
+  "69-A": {
+   "texto": "Art. 69-A. Elaborar ou apresentar, no licenciamento, concessão florestal ou qualquer outro procedimento administrativo, estudo, laudo ou relatório ambiental total ou parcialmente falso ou enganoso, inclusive por omissão: (Incluído pela Lei nº 11.284, de 2006)\nPena - reclusão, de 3 (três) a 6 (seis) anos, e multa. (Incluído pela Lei nº 11.284, de 2006)\n§ 1o Se o crime é culposo: (Incluído pela Lei nº 11.284, de 2006)\nPena - detenção, de 1 (um) a 3 (três) anos. (Incluído pela Lei nº 11.284, de 2006)\n§ 2o A pena é aumentada de 1/3 (um terço) a 2/3 (dois terços), se há dano significativo ao meio ambiente, em decorrência do uso da informação falsa, incompleta ou enganosa. (Incluído pela Lei nº 11.284, de 2006)\nCAPÍTULO VI\nDA INFRAÇÃO ADMINISTRATIVA",
+   "hash": "543b785efba68afac740e26d2d3b5f7498d594571f55a2993a6ad88c6c72effd"
+  },
+  "70": {
+   "texto": "Art. 70. Considera-se infração administrativa ambiental toda ação ou omissão que viole as regras jurídicas de uso, gozo, promoção, proteção e recuperação do meio ambiente.\n§ 1º São autoridades competentes para lavrar auto de infração ambiental e instaurar processo administrativo os funcionários de órgãos ambientais integrantes do Sistema Nacional de Meio Ambiente - SISNAMA, designados para as atividades de fiscalização, bem como os agentes das Capitanias dos Portos, do Ministério da Marinha.\n§ 2º Qualquer pessoa, constatando infração ambiental, poderá dirigir representação às autoridades relacionadas no parágrafo anterior, para efeito do exercício do seu poder de polícia.\n§ 3º A autoridade ambiental que tiver conhecimento de infração ambiental é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de co-responsabilidade.\n§ 4º As infrações ambientais são apuradas em processo administrativo próprio, assegurado o direito de ampla defesa e o contraditório, observadas as disposições desta Lei.",
+   "hash": "8c7aa34b185bff8a7259ea069c276b3588562de1314b91acd14b72e34aa40038"
+  },
+  "71": {
+   "texto": "Art. 71. O processo administrativo para apuração de infração ambiental deve observar os seguintes prazos máximos:\nI - vinte dias para o infrator oferecer defesa ou impugnação contra o auto de infração, contados da data da ciência da autuação;\nII - trinta dias para a autoridade competente julgar o auto de infração, contados da data da sua lavratura, apresentada ou não a defesa ou impugnação;\nIII - vinte dias para o infrator recorrer da decisão condenatória à instância superior do Sistema Nacional do Meio Ambiente - SISNAMA, ou à Diretoria de Portos e Costas, do Ministério da Marinha, de acordo com o tipo de autuação;\nIV – cinco dias para o pagamento de multa, contados da data do recebimento da notificação.",
+   "hash": "eb5a8cb15182ad09a48ee7e7cb02ac9f9d0f21572591d4169f1bc92d1f110f28"
+  },
+  "72": {
+   "texto": "Art. 72. As infrações administrativas são punidas com as seguintes sanções, observado o disposto no art. 6º:\nI - advertência;\nII - multa simples;\nIII - multa diária;\nIV - apreensão dos animais, produtos e subprodutos da fauna e flora, instrumentos, petrechos, equipamentos ou veículos de qualquer natureza utilizados na infração;\nV - destruição ou inutilização do produto;\nVI - suspensão de venda e fabricação do produto;\nVII - embargo de obra ou atividade;\nVIII - demolição de obra;\nIX - suspensão parcial ou total de atividades;\nX – (VETADO)\nXI - restritiva de direitos.\n§ 1º Se o infrator cometer, simultaneamente, duas ou mais infrações, ser-lhe-ão aplicadas, cumulativamente, as sanções a elas cominadas.\n§ 2º A advertência será aplicada pela inobservância das disposições desta Lei e da legislação em vigor, ou de preceitos regulamentares, sem prejuízo das demais sanções previstas neste artigo.\n§ 3º A multa simples será aplicada sempre que o agente, por negligência ou dolo:\nI - advertido por irregularidades que tenham sido praticadas, deixar de saná-las, no prazo assinalado por órgão competente do SISNAMA ou pela Capitania dos Portos, do Ministério da Marinha;\nII - opuser embaraço à fiscalização dos órgãos do SISNAMA ou da Capitania dos Portos, do Ministério da Marinha.\n§ 4° A multa simples pode ser convertida em serviços de preservação, melhoria e recuperação da qualidade do meio ambiente.\n§ 5º A multa diária será aplicada sempre que o cometimento da infração se prolongar no tempo.\n§ 6º A apreensão e destruição referidas nos incisos IV e V do caput obedecerão ao disposto no art. 25 desta Lei.\n§ 7º As sanções indicadas nos incisos VI a IX do caput serão aplicadas quando o produto, a obra, a atividade ou o estabelecimento não estiverem obedecendo às prescrições legais ou regulamentares.\n§ 8º As sanções restritivas de direito são:\nI - suspensão de registro, licença ou autorização;\nII - cancelamento de registro, licença ou autorização;\nIII - perda ou restrição de incentivos e benefícios fiscais;\nIV - perda ou suspensão da participação em linhas de financiamento em estabelecimentos oficiais de crédito;\nV - proibição de contratar com a Administração Pública, pelo período de até três anos.",
+   "hash": "d71b05d93ff224d4f4ad6b4aecea345cf4d3d46b498a482cb98315eed67b8387"
+  },
+  "73": {
+   "texto": "Art. 73. Os valores arrecadados em pagamento de multas por infração ambiental serão revertidos ao Fundo Nacional do Meio Ambiente, criado pela Lei nº 7.797, de 10 de julho de 1989, ao Fundo Naval, criado pelo Decreto nº 20.923, de 8 de janeiro de 1932, ao Fundo Nacional para Calamidades Públicas, Proteção e Defesa Civil (Funcap), criado pela Lei nº 12.340, de 1º de dezembro de 2010, e aos fundos estaduais ou municipais de meio ambiente, ou correlatos, conforme dispuser o órgão arrecadador. (Redação dada pela Lei nº 14.691, de 2023)\n§ 1º Reverterão ao Fundo Nacional do Meio Ambiente 50% (cinquenta por cento) dos valores arrecadados em pagamento de multas aplicadas pela União, percentual que poderá ser alterado a critério dos órgãos arrecadadores. (Incluído pela Lei nº 14.691, de 2023)\n§ 2º (VETADO). (Incluído pela Lei nº 14.691, de 2023)",
+   "hash": "2da073574d6bb8cd53dd348e3e2ef6c7412027621c557317343b745cda89af1d"
+  },
+  "74": {
+   "texto": "Art. 74. A multa terá por base a unidade, hectare, metro cúbico, quilograma ou outra medida pertinente, de acordo com o objeto jurídico lesado.",
+   "hash": "3d0b79c0c29d7616e856ac67c435c7a6defac36c0a4a1e18c9400eed0b022e13"
+  },
+  "75": {
+   "texto": "Art. 75. O valor da multa de que trata este Capítulo será fixado no regulamento desta Lei e corrigido periodicamente, com base nos índices estabelecidos na legislação pertinente, sendo o mínimo de R$ 50,00 (cinqüenta reais) e o máximo de R$ 50.000.000,00 (cinqüenta milhões de reais).",
+   "hash": "0d107d31035d6fe5f4465d92324b3fdad9567bc113de71fffa3368975b633479"
+  },
+  "76": {
+   "texto": "Art. 76. O pagamento de multa imposta pelos Estados, Municípios, Distrito Federal ou Territórios substitui a multa federal na mesma hipótese de incidência.\nCAPÍTULO VII\nDA COOPERAÇÃO INTERNACIONAL PARA A PRESERVAÇÃO DO MEIO AMBIENTE",
+   "hash": "6b0f1a3d58354093525db4a69b05999825b3cb9a2d3138a8283f98ecf0cf3490"
+  },
+  "77": {
+   "texto": "Art. 77. Resguardados a soberania nacional, a ordem pública e os bons costumes, o Governo brasileiro prestará, no que concerne ao meio ambiente, a necessária cooperação a outro país, sem qualquer ônus, quando solicitado para:\nI - produção de prova;\nII - exame de objetos e lugares;\nIII - informações sobre pessoas e coisas;\nIV - presença temporária da pessoa presa, cujas declarações tenham relevância para a decisão de uma causa;\nV - outras formas de assistência permitidas pela legislação em vigor ou pelos tratados de que o Brasil seja parte.\n§ 1° A solicitação de que trata este artigo será dirigida ao Ministério da Justiça, que a remeterá, quando necessário, ao órgão judiciário competente para decidir a seu respeito, ou a encaminhará à autoridade capaz de atendê-la.\n§ 2º A solicitação deverá conter:\nI - o nome e a qualificação da autoridade solicitante;\nII - o objeto e o motivo de sua formulação;\nIII - a descrição sumária do procedimento em curso no país solicitante;\nIV - a especificação da assistência solicitada;\nV - a documentação indispensável ao seu esclarecimento, quando for o caso.",
+   "hash": "cbacdae29e000d8b6ceb4fe5394f5e3f8e63b552d009c882ae22792b62b9eb1f"
+  },
+  "78": {
+   "texto": "Art. 78. Para a consecução dos fins visados nesta Lei e especialmente para a reciprocidade da cooperação internacional, deve ser mantido sistema de comunicações apto a facilitar o intercâmbio rápido e seguro de informações com órgãos de outros países.\nCAPÍTULO VIII\nDISPOSIÇÕES FINAIS",
+   "hash": "b50c44a1188a057ab62bac1572540da8f7f2cd61a0d0a8bdab2c4f58b0efd55a"
+  },
+  "79": {
+   "texto": "Art. 79. Aplicam-se subsidiariamente a esta Lei as disposições do Código Penal e do Código de Processo Penal.",
+   "hash": "963b1bc62b6ab84294f271fba554cb58c22c1e87d1c23d335cafbade5fe43f7e"
+  },
+  "79-A": {
+   "texto": "Art. 79-A. Para o cumprimento do disposto nesta Lei, os órgãos ambientais integrantes do SISNAMA, responsáveis pela execução de programas e projetos e pelo controle e fiscalização dos estabelecimentos e das atividades suscetíveis de degradarem a qualidade ambiental, ficam autorizados a celebrar, com força de título executivo extrajudicial, termo de compromisso com pessoas físicas ou jurídicas responsáveis pela construção, instalação, ampliação e funcionamento de estabelecimentos e atividades utilizadores de recursos ambientais, considerados efetiva ou potencialmente poluidores. (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\n§ 1o O termo de compromisso a que se refere este artigo destinar-se-á, exclusivamente, a permitir que as pessoas físicas e jurídicas mencionadas no caput possam promover as necessárias correções de suas atividades, para o atendimento das exigências impostas pelas autoridades ambientais competentes, sendo obrigatório que o respectivo instrumento disponha sobre: (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nI - o nome, a qualificação e o endereço das partes compromissadas e dos respectivos representantes legais; (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nII - o prazo de vigência do compromisso, que, em função da complexidade das obrigações nele fixadas, poderá variar entre o mínimo de noventa dias e o máximo de três anos, com possibilidade de prorrogação por igual período; (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nIII - a descrição detalhada de seu objeto, o valor do investimento previsto e o cronograma físico de execução e de implantação das obras e serviços exigidos, com metas trimestrais a serem atingidas; (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nIV - as multas que podem ser aplicadas à pessoa física ou jurídica compromissada e os casos de rescisão, em decorrência do não-cumprimento das obrigações nele pactuadas; (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nV - o valor da multa de que trata o inciso IV não poderá ser superior ao valor do investimento previsto; (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\nVI - o foro competente para dirimir litígios entre as partes. (Incluído pela Medida Provisória nº 2.163-41, de 2001)\n§ 2o No tocante aos empreendimentos em curso até o dia 30 de março de 1998, envolvendo construção, instalação, ampliação e funcionamento de estabelecimentos e atividades utilizadores de recursos ambientais, considerados efetiva ou potencialmente poluidores, a assinatura do termo de compromisso deverá ser requerida pelas pessoas físicas e jurídicas interessadas, até o dia 31 de dezembro de 1998, mediante requerimento escrito protocolizado junto aos órgãos competentes do SISNAMA, devendo ser firmado pelo dirigente máximo do estabelecimento. (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\n§ 3o Da data da protocolização do requerimento previsto no § 2o e enquanto perdurar a vigência do correspondente termo de compromisso, ficarão suspensas, em relação aos fatos que deram causa à celebração do instrumento, a aplicação de sanções administrativas contra a pessoa física ou jurídica que o houver firmado. (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\n§ 4o A celebração do termo de compromisso de que trata este artigo não impede a execução de eventuais multas aplicadas antes da protocolização do requerimento. (Redação dada pela Medida Provisória nº 2.163-41, de 2001)\n§ 5o Considera-se rescindido de pleno direito o termo de compromisso, quando descumprida qualquer de suas cláusulas, ressalvado o caso fortuito ou de força maior. (Incluído pela Medida Provisória nº 2.163-41, de 2001)\n§ 6o O termo de compromisso deverá ser firmado em até noventa dias, contados da protocolização do requerimento. (Incluído pela Medida Provisória nº 2.163-41, de 2001)\n§ 7o O requerimento de celebração do termo de compromisso deverá conter as informações necessárias à verificação da sua viabilidade técnica e jurídica, sob pena de indeferimento do plano. (Incluído pela Medida Provisória nº 2.163-41, de 2001)\n§ 8o Sob pena de ineficácia, os termos de compromisso deverão ser publicados no órgão oficial competente, mediante extrato. (Incluído pela Medida Provisória nº 2.163-41, de 2001)",
+   "hash": "dad47096c9ed4dcea00abc052b416ad714f640150998e61b17270cdc88caa455"
+  },
+  "80": {
+   "texto": "Art. 80. O Poder Executivo regulamentará esta Lei no prazo de noventa dias a contar de sua publicação.",
+   "hash": "a6e77748f5e66b1692a3150781e7451ab06b3ed117dc55ac4769cc0060880a3c"
+  },
+  "81": {
+   "texto": "Art. 81. (VETADO)",
+   "hash": "b4c1b2e51559f2c7f42c61da92e8ab2f5d5e316eab46f86abe75f559739b484a"
+  },
+  "82": {
+   "texto": "Art. 82. Revogam-se as disposições em contrário.\nBrasília, 12 de fevereiro de 1998; 177º da Independência e 110º da República.\nFERNANDO HENRIQUE CARDOSO\nGustavo Krause\nEste texto não substitui o publicado no DOU de 13.2.1998 e retificado em 17.2.1998\n*",
+   "hash": "e7a902fb923aaee0437ff15acf6989a8e9f7cc64c68c71ad0fef7ad406a88fed"
+  }
+ }
+}

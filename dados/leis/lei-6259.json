@@ -1,0 +1,83 @@
+{
+ "id": "lei-6259",
+ "nome": "Vigilância Epidemiológica e Notificação Compulsória",
+ "numero": "Lei nº 6.259/1975",
+ "url": "https://www.planalto.gov.br/ccivil_03/leis/l6259.htm",
+ "versao": "2026-09-29",
+ "hash": "08adaf83ad21dc78642fcb5230799e153ef051c0c11cbfa2fd109ffe3dca8018",
+ "etag": "\"3ca0-650289e098f8b\"",
+ "last_modified": "Thu, 23 Apr 2026 23:00:40 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI No 6.259, DE 30 DE OUTUBRO DE 1975.",
+  "Dispõe sobre a organização das ações de Vigilância Epidemiológica, sobre o Programa Nacional de Imunizações, estabelece normas relativas à notificação compulsória de doenças, e dá outras providências.",
+  "O PRESIDENTE DA REPÚBLICA , faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-23T04:50:09-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art 1º Consoante as atribuições que lhe foram conferidas dentro do Sistema Nacional de Saúde, na forma do artigo 1º da Lei nº 6.229, inciso I e seus itens a e d , de 17 de julho de 1975, o Ministério da Saúde, coordenará as ações relacionadas com o controle das doenças transmissíveis, orientando sua execução inclusive quanto à vigilância epidemiológica, à aplicação da notificação compulsória, ao programa de imunizações e ao atendimento de agravos coletivos à saúde, bem como os decorrentes de calamidade pública.\nParágrafo único. Para o controle de epidemias e na ocorrência de casos de agravo à saúde decorrentes de calamidades públicas, o Ministério da Saúde, na execução das ações de que trata este artigo, coordenará a utilização de todos os recursos médicos e hospitalares necessários, públicos e privados, existentes nas áreas afetadas, podendo delegar essa competência às Secretarias de Saúde dos Estados, do Distrito Federal e dos Territórios.\nTÍTULO I\nDa Ação de Vigilância Epidemiológica",
+   "hash": "b84ba349653860fbb729a59e65f839128ca75ca414b166affb1aea9c29c00364"
+  },
+  "2": {
+   "texto": "Art 2º A ação de vigilância epidemiológica compreende as informações, investigações e levantamentos necessários à programação e à avaliação das medidas de controle de doenças e de situações de agravos à saúde.\n§ 1º Compete ao Ministério da Saúde definir, em Regulamento, a organização e as atribuições dos serviços incumbidos da ação de Vigilância Epidemiológica, promover a sua implantação e coordenação.\n§ 2º A ação de Vigilância Epidemiológica será efetuada pelo conjunto dos serviços de saúde, públicos e privados, devidamente habilitados para tal fim.\nTítulo II\nDo Programa Nacional de Imunizações",
+   "hash": "dfdfba62d29a0d1bcc88654bf64733cc386a4c59ba9440f100a6b33b98794a06"
+  },
+  "3": {
+   "texto": "Art 3º Cabe ao Ministério da Saúde a elaboração do Programa Nacional de Imunizações, que definirá as vacinações, inclusive as de caráter obrigatório.\nParágrafo único. As vacinações obrigatórias serão praticadas de modo sistemático e gratuito pelos órgãos e entidades públicas, bem como pelas entidades privadas, subvencionadas pelos Governos Federal, Estaduais e Municipais, em todo o território nacional.",
+   "hash": "77864acca19709e347f386bb78d548e7a070c995aea873923fc443936c45a572"
+  },
+  "4": {
+   "texto": "Art 4º O Ministério da Saúde coordenará e apoiará, técnica, material e financeiramente, a execução do programa, em âmbito nacional e regional.\n§ 1º As ações relacionadas, com a execução do programa, são de responsabilidade das Secretarias de Saúde das Unidades Federadas, ou órgãos e entidades equivalentes, nas áreas dos seus respectivos territórios.\n§ 2º O Ministério da Saúde poderá participar, em caráter supletivo, das ações previstas no programa e assumir sua execução, quando o interesse nacional ou situações de emergência o justifiquem.\n§ 3º Ficará, em geral, a cargo do Ministério da Previdência e Assistência Social, por intermédio da Central de Medicamentos, o esquema de aquisição e distribuição de medicamentos, a ser custeado pelos órgãos federais interessados.",
+   "hash": "5aeaccccbe465d178e168c62a8f4011d38604d804394255b8e5f27b34c5053de"
+  },
+  "5": {
+   "texto": "Art 5º O cumprimento da obrigatoriedade das vacinações será comprovado através de Atestado de Vacinação.\n§ 1º O Atestado de Vacinação será emitido pelos serviços públicos de saúde ou por médicos em exercício de atividades privadas, devidamente credenciados para tal fim pela autoridade de saúde competente.\n§ 2º O Atestado de Vacinação, em qualquer caso, será fornecido gratuitamente, com prazo de validade determinado, não podendo ser retido, por nenhum motivo, por pessoa física ou jurídica, de direito público ou privado.\n§ 3º Anualmente, para o pagamento do salário-família, será exigida do segurado a apresentação dos Atestados de Vacinação dos seus beneficiários, que comprovarem o recebimento das vacinações obrigatórias, na forma que vier a ser estabelecida em regulamento.",
+   "hash": "b2937c7a4dcf94c61d2fe477ad1343fb4f6285d1b1283f4a98b091e333625a76"
+  },
+  "6": {
+   "texto": "Art 6º Os governos estaduais, com audiência prévia do Ministério da Saúde, poderão propor medidas legislativas complementares visando ao cumprimento das vacinações, obrigatórias por parte da população, no âmbito dos seus territórios.\nParágrafo único. As medidas de que trata este artigo serão observadas pelas entidades federais, estaduais e municipais, públicas e privadas, no âmbito do respectivo Estado.\nTÍTULO III\nDa Notificação Compulsória de Doenças",
+   "hash": "c5c67db15b42ea6b76a8f3d9da621637ab1ef5882fcfac11def882d5f57b4597"
+  },
+  "7": {
+   "texto": "Art 7º São de notificação compulsória às autoridades sanitárias os casos suspeitos ou confirmados:\nI - de doenças que podem implicar medidas de isolamento ou quarentena, de acordo com o Regulamento Sanitário Internacional.\nII - de doenças constantes de relação elaborada pelo Ministério da Saúde, para cada Unidade da Federação, a ser atualizada periodicamente.\n§ 1º Na relação de doenças de que trata o inciso II deste artigo será incluído item para casos de \"agravo inusitado à saúde\".\n§ 2º O Ministério da Saúde poderá exigir dos Serviços de Saúde a notificação negativa da ocorrência de doenças constantes da relação de que tratam os itens I e II deste artigo.",
+   "hash": "492ac1c6136fa619fdcee7d08268aa5c4490d69a2a06ff85fdb0d12c7b12bfb4"
+  },
+  "8": {
+   "texto": "Art 8º É dever de todo cidadão comunicar à autoridade sanitária local a ocorrência de fato, comprovado ou presumível, de caso de doença transmissível, sendo obrigatória a médicos e outros profissionais de saúde no exercício da profissão, bem como aos responsáveis por organizações e estabelecimentos públicos e particulares de saúde e ensino a notificação de casos suspeitos ou confirmados das doenças relacionadas em conformidade com o artigo 7º.",
+   "hash": "b46f1ec0484e808ec918c4114a1d27bf75d527df0732ed4cfe3217679ae34a44"
+  },
+  "9": {
+   "texto": "Art 9º A autoridade sanitária proporcionará as facilidades ao processo de notificação compulsória, para o fiel cumprimento desta Lei.",
+   "hash": "0833d9cbe9294c19354b51614e34f73acd7e87004263f86aba264578f4319771"
+  },
+  "10": {
+   "texto": "Art. 10. A notificação compulsória de casos de doenças e de agravos à saúde tem caráter sigiloso, o qual deve ser observado pelos profissionais especificados no caput do art. 8º desta Lei que tenham procedido à notificação, pelas autoridades sanitárias que a tenham recebido e por todos os trabalhadores ou servidores que lidam com dados da notificação. (Redação dada pela Lei nº 14.289, de 2022)\nParágrafo único. A identificação do paciente de doenças referidas neste artigo, fora do âmbito médico sanitário, somente poderá efetivar-se, em caráter excepcional, em caso de grande risco à comunidade a juízo da autoridade sanitária e com conhecimento prévio do paciente ou do seu responsável.",
+   "hash": "2158b46573dbbaae91cc0347017aa54402b02eeef1e8c1146d14028e3f01f0e1"
+  },
+  "11": {
+   "texto": "Art 11. Recebida a notificação, a autoridade sanitária é obrigada a proceder à investigação epidemiológica pertinente para elucidação do diagnóstico e averiguação da disseminação da doença na população sob o risco.\nParágrafo único. A autoridade poderá exigir e executar investigações, inquéritos e levantamentos epidemiológicos junto a indivíduos e a grupos populacionais determinados, sempre que julgar oportuno visando à proteção da saúde pública.",
+   "hash": "0a258eab2c9edb3677bbfd05e4387dda99b5938fafe4a34f93b1052c34d650a3"
+  },
+  "12": {
+   "texto": "Art 12. Em decorrência dos resultados, parciais ou finais, das investigações, dos inquéritos ou levantamentos epidemiológicos de que tratam o artigo 11 e seu parágrafo único, a autoridade sanitária fica obrigada a adotar, prontamente, as medidas indicadas para o controle da doença, no que concerne a indivíduos, grupos populacionais e ambiente.",
+   "hash": "e8248a62f1af790d3f0d1b6f65ec5cdc65b31ed74e27ab75acad68ae849b3a55"
+  },
+  "13": {
+   "texto": "Art 13. As pessoas físicas e as entidades públicas ou privadas, abrangidas pelas medidas referidas no artigo 12, ficam sujeitas ao controle determinado pela autoridade sanitária.\nTÍTULO IV\nDisposições Finais",
+   "hash": "d831e84a5e44ee3d8abce668ac8d59cd036e4b11fccbb786631895b9c03f59dc"
+  },
+  "14": {
+   "texto": "Art. 14. A inobservância das obrigações estabelecidas nesta Lei constitui infração sanitária e sujeita o infrator às penalidades previstas em lei, sem prejuízo das demais sanções penais cabíveis. (Redação dada pela lei nº 13.730, de 2018)",
+   "hash": "ad08c39db979314ae57c7c993b5b2cabc3476be0a573c626d28346e618dc9810"
+  },
+  "15": {
+   "texto": "Art 15. O Poder Executivo, por iniciativa do Ministério da Saúde, expedirá a regulamentação desta Lei.",
+   "hash": "30057716e93520d74cae0a0e1c065232e2adc553e7f05ce7d548e48acfa5ca63"
+  },
+  "16": {
+   "texto": "Art 16. Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário.\nBrasília, 30 de outubro de 1975; 154º da Independência e 87º da República.\nERNESTO GEISEL\nJosé Carlos Seixas\nL. G. do Nascimento e Silva\nEste texto não substitui o publicado no DOU de 31.10.1975\n*",
+   "hash": "c7d6d0bf2598056b5a8e8f76dd9c97f2d232921b9fce9d82d9f46d2a80de028d"
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "mandado-seguranca",
+ "nome": "Lei do Mandado de Segurança",
+ "numero": "Lei nº 12.016/2009",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm",
+ "versao": "2026-09-29",
+ "hash": "ba1b4ea4a38cd1d849c65d187bb5db49bf5b20520134e8c2c0ec28d2b0a3f4be",
+ "etag": "\"87fd-650290bcd69bc\"",
+ "last_modified": "Thu, 23 Apr 2026 23:31:22 GMT",
+ "versao_leitor": 4,
+ "preambulo": [
+  "LEI Nº 12.016, DE 7 DE AGOSTO DE 2009.",
+  "Disciplina o mandado de segurança individual e coletivo e dá outras providências.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-23T04:48:06-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1o Conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, sempre que, ilegalmente ou com abuso de poder, qualquer pessoa física ou jurídica sofrer violação ou houver justo receio de sofrê-la por parte de autoridade, seja de que categoria for e sejam quais forem as funções que exerça. (Vide ADIN 4296)\n§ 1o Equiparam-se às autoridades, para os efeitos desta Lei, os representantes ou órgãos de partidos políticos e os administradores de entidades autárquicas, bem como os dirigentes de pessoas jurídicas ou as pessoas naturais no exercício de atribuições do poder público, somente no que disser respeito a essas atribuições.\n§ 2o Não cabe mandado de segurança contra os atos de gestão comercial praticados pelos administradores de empresas públicas, de sociedade de economia mista e de concessionárias de serviço público. (Vide ADIN 4296)\n§ 3o Quando o direito ameaçado ou violado couber a várias pessoas, qualquer delas poderá requerer o mandado de segurança.",
+   "hash": "d307c9e00ee610a105eb7cf13f2fe5b93502aef370cfa2f45db998adbc74918a"
+  },
+  "2": {
+   "texto": "Art. 2o Considerar-se-á federal a autoridade coatora se as consequências de ordem patrimonial do ato contra o qual se requer o mandado houverem de ser suportadas pela União ou entidade por ela controlada.",
+   "hash": "3a0cad6fce960ffd0a4dab1f4d294eb4361eb2065e18ce44fcec912749812d0a"
+  },
+  "3": {
+   "texto": "Art. 3o O titular de direito líquido e certo decorrente de direito, em condições idênticas, de terceiro poderá impetrar mandado de segurança a favor do direito originário, se o seu titular não o fizer, no prazo de 30 (trinta) dias, quando notificado judicialmente.\nParágrafo único. O exercício do direito previsto no caput deste artigo submete-se ao prazo fixado no art. 23 desta Lei, contado da notificação.",
+   "hash": "97bf6d5eafbcfad620852812e439ad933eebb0258b7a6bbef11e69d8888970e6"
+  },
+  "4": {
+   "texto": "Art. 4o Em caso de urgência, é permitido, observados os requisitos legais, impetrar mandado de segurança por telegrama, radiograma, fax ou outro meio eletrônico de autenticidade comprovada.\n§ 1o Poderá o juiz, em caso de urgência, notificar a autoridade por telegrama, radiograma ou outro meio que assegure a autenticidade do documento e a imediata ciência pela autoridade.\n§ 2o O texto original da petição deverá ser apresentado nos 5 (cinco) dias úteis seguintes.\n§ 3o Para os fins deste artigo, em se tratando de documento eletrônico, serão observadas as regras da Infra-Estrutura de Chaves Públicas Brasileira - ICP-Brasil.",
+   "hash": "b13dfa6994738366672d750fab2eb271cc0a13a8182bf7e37ce15e5ec4cf9054"
+  },
+  "5": {
+   "texto": "Art. 5o Não se concederá mandado de segurança quando se tratar:\nI - de ato do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução;\nII - de decisão judicial da qual caiba recurso com efeito suspensivo;\nIII - de decisão judicial transitada em julgado.\nParágrafo único. (VETADO)",
+   "hash": "d3d7c89852e0e8884cd2f59b0ba8434098831ca139ab17c8c1623e1ee3ccacae"
+  },
+  "6": {
+   "texto": "Art. 6o A petição inicial, que deverá preencher os requisitos estabelecidos pela lei processual, será apresentada em 2 (duas) vias com os documentos que instruírem a primeira reproduzidos na segunda e indicará, além da autoridade coatora, a pessoa jurídica que esta integra, à qual se acha vinculada ou da qual exerce atribuições.\n§ 1o No caso em que o documento necessário à prova do alegado se ache em repartição ou estabelecimento público ou em poder de autoridade que se recuse a fornecê-lo por certidão ou de terceiro, o juiz ordenará, preliminarmente, por ofício, a exibição desse documento em original ou em cópia autêntica e marcará, para o cumprimento da ordem, o prazo de 10 (dez) dias. O escrivão extrairá cópias do documento para juntá-las à segunda via da petição.\n§ 2o Se a autoridade que tiver procedido dessa maneira for a própria coatora, a ordem far-se-á no próprio instrumento da notificação.\n§ 3o Considera-se autoridade coatora aquela que tenha praticado o ato impugnado ou da qual emane a ordem para a sua prática.\n§ 4o (VETADO)\n§ 5o Denega-se o mandado de segurança nos casos previstos pelo art. 267 da Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.\n§ 6o O pedido de mandado de segurança poderá ser renovado dentro do prazo decadencial, se a decisão denegatória não lhe houver apreciado o mérito.",
+   "hash": "85aa1a811040ca20cd629a50478f88a1e079fac2eb5f33a4c21ca0d499dae270"
+  },
+  "7": {
+   "texto": "Art. 7o Ao despachar a inicial, o juiz ordenará:\nI - que se notifique o coator do conteúdo da petição inicial, enviando-lhe a segunda via apresentada com as cópias dos documentos, a fim de que, no prazo de 10 (dez) dias, preste as informações;\nII - que se dê ciência do feito ao órgão de representação judicial da pessoa jurídica interessada, enviando-lhe cópia da inicial sem documentos, para que, querendo, ingresse no feito;\nIII - que se suspenda o ato que deu motivo ao pedido, quando houver fundamento relevante e do ato impugnado puder resultar a ineficácia da medida, caso seja finalmente deferida, sendo facultado exigir do impetrante caução, fiança ou depósito, com o objetivo de assegurar o ressarcimento à pessoa jurídica. (Vide ADIN 4296)\n§ 1o Da decisão do juiz de primeiro grau que conceder ou denegar a liminar caberá agravo de instrumento, observado o disposto na Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.\n§ 2o Não será concedida medida liminar que tenha por objeto a compensação de créditos tributários, a entrega de mercadorias e bens provenientes do exterior, a reclassificação ou equiparação de servidores públicos e a concessão de aumento ou a extensão de vantagens ou pagamento de qualquer natureza. (Vide ADIN 4296)\n§ 3o Os efeitos da medida liminar, salvo se revogada ou cassada, persistirão até a prolação da sentença.\n§ 4o Deferida a medida liminar, o processo terá prioridade para julgamento.\n§ 5o As vedações relacionadas com a concessão de liminares previstas neste artigo se estendem à tutela antecipada a que se referem os arts. 273 e 461 da Lei no 5.869, de 11 janeiro de 1973 - Código de Processo Civil.",
+   "hash": "17af8b1d0ca13cf0240b3dc4377709202e0087f517478eae5feb4de286d8acac"
+  },
+  "8": {
+   "texto": "Art. 8o Será decretada a perempção ou caducidade da medida liminar ex officio ou a requerimento do Ministério Público quando, concedida a medida, o impetrante criar obstáculo ao normal andamento do processo ou deixar de promover, por mais de 3 (três) dias úteis, os atos e as diligências que lhe cumprirem.",
+   "hash": "e3a15b3ce7fbefa092359e7dd455f851a54ac32aada8f5da32776998af5e7cdb"
+  },
+  "9": {
+   "texto": "Art. 9o As autoridades administrativas, no prazo de 48 (quarenta e oito) horas da notificação da medida liminar, remeterão ao Ministério ou órgão a que se acham subordinadas e ao Advogado-Geral da União ou a quem tiver a representação judicial da União, do Estado, do Município ou da entidade apontada como coatora cópia autenticada do mandado notificatório, assim como indicações e elementos outros necessários às providências a serem tomadas para a eventual suspensão da medida e defesa do ato apontado como ilegal ou abusivo de poder.",
+   "hash": "fda66410674025b56e6de9670dae7c0c8bd5f217357938bf5e5019a33ee27ecc"
+  },
+  "10": {
+   "texto": "Art. 10. A inicial será desde logo indeferida, por decisão motivada, quando não for o caso de mandado de segurança ou lhe faltar algum dos requisitos legais ou quando decorrido o prazo legal para a impetração.\n§ 1o Do indeferimento da inicial pelo juiz de primeiro grau caberá apelação e, quando a competência para o julgamento do mandado de segurança couber originariamente a um dos tribunais, do ato do relator caberá agravo para o órgão competente do tribunal que integre.\n§ 2o O ingresso de litisconsorte ativo não será admitido após o despacho da petição inicial.",
+   "hash": "a8f605adbf9c007e9fe5a36e822dbb28faacd770e2860cb19b950e0cde73de92"
+  },
+  "11": {
+   "texto": "Art. 11. Feitas as notificações, o serventuário em cujo cartório corra o feito juntará aos autos cópia autêntica dos ofícios endereçados ao coator e ao órgão de representação judicial da pessoa jurídica interessada, bem como a prova da entrega a estes ou da sua recusa em aceitá-los ou dar recibo e, no caso do art. 4o desta Lei, a comprovação da remessa.",
+   "hash": "b25164f7ac16a9c379c27737ee60ab51fdec036e9b8374ce88423594acac0147"
+  },
+  "12": {
+   "texto": "Art. 12. Findo o prazo a que se refere o inciso I do caput do art. 7o desta Lei, o juiz ouvirá o representante do Ministério Público, que opinará, dentro do prazo improrrogável de 10 (dez) dias.\nParágrafo único. Com ou sem o parecer do Ministério Público, os autos serão conclusos ao juiz, para a decisão, a qual deverá ser necessariamente proferida em 30 (trinta) dias.",
+   "hash": "a8eed3c3b82023509a6b82bf597962c2d3aca7c185e4438873f9387b02b233e3"
+  },
+  "13": {
+   "texto": "Art. 13. Concedido o mandado, o juiz transmitirá em ofício, por intermédio do oficial do juízo, ou pelo correio, mediante correspondência com aviso de recebimento, o inteiro teor da sentença à autoridade coatora e à pessoa jurídica interessada.\nParágrafo único. Em caso de urgência, poderá o juiz observar o disposto no art. 4o desta Lei.",
+   "hash": "4c69bfa290da4e1c7ca68186a77a8bce7394819bff5ad4e3293d64ffa690bd50"
+  },
+  "14": {
+   "texto": "Art. 14. Da sentença, denegando ou concedendo o mandado, cabe apelação.\n§ 1o Concedida a segurança, a sentença estará sujeita obrigatoriamente ao duplo grau de jurisdição.\n§ 2o Estende-se à autoridade coatora o direito de recorrer.\n§ 3o A sentença que conceder o mandado de segurança pode ser executada provisoriamente, salvo nos casos em que for vedada a concessão da medida liminar.\n§ 4o O pagamento de vencimentos e vantagens pecuniárias assegurados em sentença concessiva de mandado de segurança a servidor público da administração direta ou autárquica federal, estadual e municipal somente será efetuado relativamente às prestações que se vencerem a contar da data do ajuizamento da inicial.",
+   "hash": "6bafe6ca9725fc15140c19d149d27de0a3a335ff823f190c0b547923d2ff141a"
+  },
+  "15": {
+   "texto": "Art. 15. Quando, a requerimento de pessoa jurídica de direito público interessada ou do Ministério Público e para evitar grave lesão à ordem, à saúde, à segurança e à economia públicas, o presidente do tribunal ao qual couber o conhecimento do respectivo recurso suspender, em decisão fundamentada, a execução da liminar e da sentença, dessa decisão caberá agravo, sem efeito suspensivo, no prazo de 5 (cinco) dias, que será levado a julgamento na sessão seguinte à sua interposição.\n§ 1o Indeferido o pedido de suspensão ou provido o agravo a que se refere o caput deste artigo, caberá novo pedido de suspensão ao presidente do tribunal competente para conhecer de eventual recurso especial ou extraordinário.\n§ 2o É cabível também o pedido de suspensão a que se refere o § 1o deste artigo, quando negado provimento a agravo de instrumento interposto contra a liminar a que se refere este artigo.\n§ 3o A interposição de agravo de instrumento contra liminar concedida nas ações movidas contra o poder público e seus agentes não prejudica nem condiciona o julgamento do pedido de suspensão a que se refere este artigo.\n§ 4o O presidente do tribunal poderá conferir ao pedido efeito suspensivo liminar se constatar, em juízo prévio, a plausibilidade do direito invocado e a urgência na concessão da medida.\n§ 5o As liminares cujo objeto seja idêntico poderão ser suspensas em uma única decisão, podendo o presidente do tribunal estender os efeitos da suspensão a liminares supervenientes, mediante simples aditamento do pedido original.",
+   "hash": "d86dbe094b7b857d561939a5c6c6a8e23e7e434dc64dbc62ef9094c4d7266fa3"
+  },
+  "16": {
+   "texto": "Art. 16. Nos casos de competência originária dos tribunais, caberá ao relator a instrução do processo, sendo assegurada a defesa oral na sessão do julgamento.",
+   "hash": "f231e3120bebc04aa551d5ac7d191f9997ba1671739fe90b36251a6c01019ea6"
+  },
+  "16#2": {
+   "texto": "Art. 16. Nos casos de competência originária dos tribunais, caberá ao relator a instrução do processo, sendo assegurada a defesa oral na sessão do julgamento do mérito ou do pedido liminar. (Redação dada pela Lei nº 13.676, de 2018)\nParágrafo único. Da decisão do relator que conceder ou denegar a medida liminar caberá agravo ao órgão competente do tribunal que integre.",
+   "hash": "6a06f824c0b9ed84e6270a6addb5fa9b097c0acd37aeb98b0cae289f79a3889a"
+  },
+  "17": {
+   "texto": "Art. 17. Nas decisões proferidas em mandado de segurança e nos respectivos recursos, quando não publicado, no prazo de 30 (trinta) dias, contado da data do julgamento, o acórdão será substituído pelas respectivas notas taquigráficas, independentemente de revisão.",
+   "hash": "beab3dd6248f2fd645d13c259fa6cd8537fe65a608fdd673b17f4dcb271958fe"
+  },
+  "18": {
+   "texto": "Art. 18. Das decisões em mandado de segurança proferidas em única instância pelos tribunais cabe recurso especial e extraordinário, nos casos legalmente previstos, e recurso ordinário, quando a ordem for denegada.",
+   "hash": "bbb32506c49d0ea2ab9072c1eaee0fd9c27ffe0edf5bed2fa76a169eca5fdc22"
+  },
+  "19": {
+   "texto": "Art. 19. A sentença ou o acórdão que denegar mandado de segurança, sem decidir o mérito, não impedirá que o requerente, por ação própria, pleiteie os seus direitos e os respectivos efeitos patrimoniais.",
+   "hash": "ff7d713cadbbe48cfbb1032ec7a878500b1255b136521fe8f5fb8dbffd64b6de"
+  },
+  "20": {
+   "texto": "Art. 20. Os processos de mandado de segurança e os respectivos recursos terão prioridade sobre todos os atos judiciais, salvo habeas corpus.\n§ 1o Na instância superior, deverão ser levados a julgamento na primeira sessão que se seguir à data em que forem conclusos ao relator.\n§ 2o O prazo para a conclusão dos autos não poderá exceder de 5 (cinco) dias.",
+   "hash": "50596d6091ecba47e08f53770148a087b6fd7756c8e4c30f813fec6668e754a2"
+  },
+  "21": {
+   "texto": "Art. 21. O mandado de segurança coletivo pode ser impetrado por partido político com representação no Congresso Nacional, na defesa de seus interesses legítimos relativos a seus integrantes ou à finalidade partidária, ou por organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há, pelo menos, 1 (um) ano, em defesa de direitos líquidos e certos da totalidade, ou de parte, dos seus membros ou associados, na forma dos seus estatutos e desde que pertinentes às suas finalidades, dispensada, para tanto, autorização especial.\nParágrafo único. Os direitos protegidos pelo mandado de segurança coletivo podem ser:\nI - coletivos, assim entendidos, para efeito desta Lei, os transindividuais, de natureza indivisível, de que seja titular grupo ou categoria de pessoas ligadas entre si ou com a parte contrária por uma relação jurídica básica;\nII - individuais homogêneos, assim entendidos, para efeito desta Lei, os decorrentes de origem comum e da atividade ou situação específica da totalidade ou de parte dos associados ou membros do impetrante.",
+   "hash": "7457959d42ddd7d886c71b0379e97797b91a48ffb94f487bd981f67d2c279b7f"
+  },
+  "22": {
+   "texto": "Art. 22. No mandado de segurança coletivo, a sentença fará coisa julgada limitadamente aos membros do grupo ou categoria substituídos pelo impetrante. (Vide ADIN 4296)\n§ 1o O mandado de segurança coletivo não induz litispendência para as ações individuais, mas os efeitos da coisa julgada não beneficiarão o impetrante a título individual se não requerer a desistência de seu mandado de segurança no prazo de 30 (trinta) dias a contar da ciência comprovada da impetração da segurança coletiva.\n§ 2o No mandado de segurança coletivo, a liminar só poderá ser concedida após a audiência do representante judicial da pessoa jurídica de direito público, que deverá se pronunciar no prazo de 72 (setenta e duas) horas. (Vide ADIN 4296)",
+   "hash": "da8eb38bc9e3704526c4d4885504ba45deb9c60232b95daf5f75bd10319c347a"
+  },
+  "23": {
+   "texto": "Art. 23. O direito de requerer mandado de segurança extinguir-se-á decorridos 120 (cento e vinte) dias, contados da ciência, pelo interessado, do ato impugnado. (Vide ADIN 4296)",
+   "hash": "040343f8f75edc1a91f257d126973f914373795317ccaebaa82ea4b9e0152557"
+  },
+  "24": {
+   "texto": "Art. 24. Aplicam-se ao mandado de segurança os arts. 46 a 49 da Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.",
+   "hash": "264c142faf8f0532019114d83b1e5a3a7b681ee1b39efd7a73ca02f76c553e84"
+  },
+  "25": {
+   "texto": "Art. 25. Não cabem, no processo de mandado de segurança, a interposição de embargos infringentes e a condenação ao pagamento dos honorários advocatícios, sem prejuízo da aplicação de sanções no caso de litigância de má-fé. (Vide ADIN 4296)",
+   "hash": "e3ef46cef54d38f58fd0a0f64410afed349b3250b4b4068888e56848ddc3bdb2"
+  },
+  "26": {
+   "texto": "Art. 26. Constitui crime de desobediência, nos termos do art. 330 do Decreto-Lei no 2.848, de 7 de dezembro de 1940, o não cumprimento das decisões proferidas em mandado de segurança, sem prejuízo das sanções administrativas e da aplicação da Lei no 1.079, de 10 de abril de 1950, quando cabíveis.",
+   "hash": "800c42ad5abfc6538ffc5e5a342b19b6f292cacf024ae0a8e438b207ec38d963"
+  },
+  "27": {
+   "texto": "Art. 27. Os regimentos dos tribunais e, no que couber, as leis de organização judiciária deverão ser adaptados às disposições desta Lei no prazo de 180 (cento e oitenta) dias, contado da sua publicação.",
+   "hash": "b0b0a7b457be3f9fa02ab9a64d11ff3520b5eb8056bb7b86b1cf7575b15bec49"
+  },
+  "28": {
+   "texto": "Art. 28. Esta Lei entra em vigor na data de sua publicação.",
+   "hash": "37239cec598cf7638340ad65de2b7c2e3fc3d595f3ead7f4b0f7ef67255af8ba"
+  },
+  "29": {
+   "texto": "Art. 29. Revogam-se as Leis nos 1.533, de 31 de dezembro de 1951, 4.166, de 4 de dezembro de 1962, 4.348, de 26 de junho de 1964, 5.021, de 9 de junho de 1966; o art. 3o da Lei no 6.014, de 27 de dezembro de 1973, o art. 1o da Lei no 6.071, de 3 de julho de 1974, o art. 12 da Lei no 6.978, de 19 de janeiro de 1982, e o art. 2o da Lei no 9.259, de 9 de janeiro de 1996.\nBrasília, 7 de agosto de 2009; 188o da Independência e 121o da República.\nLUIZ INÁCIO LULA DA SILVA\nTarso Genro\nJosé Antonio Dias Toffoli\nEste texto não substitui o publicado no DOU de 10.8.2009\n*",
+   "hash": "b5c435b99710159faad02f19843782ef7b5cb7d5790e14461ca6fcea0d38877c"
+  }
+ }
+}
