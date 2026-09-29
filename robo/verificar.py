@@ -19,6 +19,8 @@ import os
 import re
 import sys
 import time
+import zlib
+from datetime import timedelta
 import unicodedata
 from datetime import datetime
 from pathlib import Path
@@ -207,12 +209,17 @@ def lacunas(artigos):
 
 def salvar_bruto(caminho, conteudo):
     caminho.parent.mkdir(parents=True, exist_ok=True)
-    with gzip.open(caminho, "wb") as f:
+    # mtime=0: o mesmo conteúdo gera sempre o mesmo arquivo (não cria commits à toa)
+    with open(caminho, "wb") as bruto, gzip.GzipFile(fileobj=bruto, mode="wb", mtime=0) as f:
         f.write(conteudo)
 
 
 def hash_da_lei(artigos):
     return sha256(json.dumps([[k, v["hash"]] for k, v in artigos.items()]))
+
+
+class NaoEncontrada(Exception):
+    pass
 
 
 def baixar(url, cabecalhos_extra):
@@ -226,6 +233,8 @@ def baixar(url, cabecalhos_extra):
     for tentativa in range(1, TENTATIVAS + 1):
         try:
             r = requests.get(url, headers=cabecalhos, timeout=TIMEOUT)
+            if r.status_code in (404, 410):
+                raise NaoEncontrada(f"{url} não existe (código {r.status_code})")
             if r.status_code != 304:
                 r.raise_for_status()
             return r
@@ -236,6 +245,74 @@ def baixar(url, cabecalhos_extra):
     raise ultimo_erro
 
 
+# ------------------------------------------------------------- endereços no Planalto
+BASE = "https://www.planalto.gov.br/ccivil_03/"
+PASTAS_ANO = [(2004, 2006, "_ato2004-2006"), (2007, 2010, "_ato2007-2010"), (2011, 2014, "_ato2011-2014"),
+              (2015, 2018, "_ato2015-2018"), (2019, 2022, "_ato2019-2022"), (2023, 2026, "_ato2023-2026"),
+              (2027, 2030, "_ato2027-2030")]
+
+
+def candidatos(lei):
+    """Endereços prováveis da lei no Planalto, do texto compilado (atualizado) para o simples."""
+    if lei.get("url"):
+        return [lei["url"]]
+    tipo, n, ano = lei.get("tipo"), lei.get("n"), lei.get("ano")
+    if tipo == "cf":
+        return [BASE + "constituicao/constituicaocompilado.htm", BASE + "constituicao/constituicao.htm"]
+    nd = f"{n:,}".replace(",", ".") if n else ""
+    def variantes(prefixo, *nomes):
+        saida = []
+        for nome in nomes:
+            saida += [f"{prefixo}{nome}compilado.htm", f"{prefixo}{nome}compilada.htm", f"{prefixo}{nome}cons.htm", f"{prefixo}{nome}.htm"]
+        return [BASE + x for x in saida]
+    if tipo == "dl":
+        return variantes("decreto-lei/", f"del{n}", f"Del{n}")
+    if tipo == "lc":
+        return variantes("leis/lcp/", f"lcp{n}")
+    pasta = next((p for a, b, p in PASTAS_ANO if a <= ano <= b), None)
+    if tipo == "decreto":
+        return variantes(f"{pasta}/{ano}/decreto/", f"d{n}", f"D{n}") if pasta else variantes("decreto/", f"d{n}", f"D{n}")
+    if pasta:
+        return variantes(f"{pasta}/{ano}/lei/", f"l{n}", f"L{n}")
+    if ano >= 2001:
+        return variantes(f"leis/{ano}/", f"l{n}", f"l{nd}", f"L{nd}") + variantes(f"leis/LEIS_{ano}/", f"L{n}")
+    return variantes("leis/", f"l{n}", f"L{n}")
+
+
+def confere(lei, html, artigos):
+    """A página baixada é mesmo desta lei? (evita guardar a lei errada)"""
+    if not artigos:
+        return False
+    texto = re.sub(r"<[^>]+>", " ", html[:60000])
+    compacto = re.sub(r"[.\s]", "", texto).upper()
+    if lei.get("tipo") == "cf":
+        return "CONSTITUI" in compacto
+    if lei.get("n"):
+        return str(lei["n"]) in compacto
+    return True
+
+
+def obter_pagina(lei, anterior, cond):
+    """Baixa a página da lei. Sem histórico, testa os endereços prováveis até achar o certo."""
+    if anterior and anterior.get("url"):
+        return anterior["url"], baixar(anterior["url"], cond)
+    ultimo = None
+    for url in candidatos(lei):
+        try:
+            r = baixar(url, {})
+        except NaoEncontrada as e:
+            ultimo = e
+            time.sleep(1)
+            continue
+        html = decodificar(r.content)
+        arts, _, _ = extrair_artigos(html)
+        if confere(lei, html, arts):
+            return url, r
+        ultimo = Exception(f"{url} não corresponde a esta norma")
+        time.sleep(1)
+    raise ultimo or Exception("nenhum endereço funcionou")
+
+
 # ------------------------------------------------------------- verificação
 
 def verificar_lei(lei, status_anterior):
@@ -244,7 +321,8 @@ def verificar_lei(lei, status_anterior):
     reg.update({
         "nome": lei["nome"],
         "numero": lei.get("numero", ""),
-        "url": lei["url"],
+        "area": lei.get("area", ""),
+        "apelidos": lei.get("apelidos", ""),
         "fonte": "Planalto — texto compilado",
         "ultima_tentativa": momento.isoformat(timespec="seconds"),
     })
@@ -275,9 +353,10 @@ def verificar_lei(lei, status_anterior):
         cond["If-Modified-Since"] = anterior["last_modified"]
 
     try:
-        resp = baixar(lei["url"], cond)
+        url, resp = obter_pagina(lei, anterior, cond)
     except Exception as e:
         return erro(f"Não foi possível acessar a fonte: {e}")
+    reg["url"] = url
 
     def confirmar(status, mensagem):
         reg["status"] = status
@@ -305,7 +384,7 @@ def verificar_lei(lei, status_anterior):
         "artigos_ausentes_na_sequencia": ausentes[:30],
     }
 
-    minimo = lei.get("minimo_artigos", 5)
+    minimo = lei.get("minimo_artigos", 1)
     if n < minimo:
         return erro(f"Leitura suspeita: apenas {n} artigos encontrados (esperado ao menos {minimo}). "
                     "O texto guardado foi mantido.")
@@ -318,7 +397,7 @@ def verificar_lei(lei, status_anterior):
         "id": lei["id"],
         "nome": lei["nome"],
         "numero": lei.get("numero", ""),
-        "url": lei["url"],
+        "url": url,
         "versao": momento.date().isoformat(),
         "hash": hash_novo,
         "etag": resp.headers.get("ETag"),
@@ -330,6 +409,9 @@ def verificar_lei(lei, status_anterior):
     }
 
     if anterior is None:
+        # espalha o "download completo semanal" pelos dias da semana (não baixa tudo no mesmo dia)
+        atraso = zlib.crc32(lei["id"].encode()) % DIAS_DOWNLOAD_COMPLETO
+        novo["ultimo_download_completo"] = (momento - timedelta(days=atraso)).isoformat(timespec="seconds")
         salvar_json(arq_texto, novo)
         reg.update({"versao": novo["versao"], "n_artigos": n, "hash": hash_novo})
         return confirmar("ATUALIZADA", f"Primeira carga concluída: {n} artigos lidos.")
@@ -406,6 +488,10 @@ def escrever_resumo(status):
                       f"{'sim' if d.get('fonte_envia_last_modified') else 'não'} | "
                       f"{d.get('artigos_com_numero_repetido', '—')} | "
                       f"{', '.join(map(str, d.get('artigos_ausentes_na_sequencia', []))) or 'nenhum'} |")
+    nunca = [r for r in status.values() if r.get("status") == "ERRO_VERIFICACAO" and not r.get("ultima_verificacao_ok")]
+    if nunca:
+        linhas += ["", f"### Normas ainda não localizadas no Planalto ({len(nunca)})", ""]
+        linhas += [f"- {r['nome']} ({r.get('numero', '')}): {r.get('mensagem', '')}" for r in nunca]
     texto = "\n".join(linhas)
     print(texto)
     destino = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -417,22 +503,25 @@ def escrever_resumo(status):
 def main():
     leis = ler_json(ARQ_LEIS, [])
     status = ler_json(ARQ_STATUS, {})
+    ja_funcionavam = {k for k, v in status.items() if v.get("ultima_verificacao_ok")}
     for lei in leis:
         print(f"Verificando {lei['nome']}…", flush=True)
         try:
             status[lei["id"]] = verificar_lei(lei, status.get(lei["id"]))
         except Exception as e:  # um problema inesperado numa lei não pode derrubar as outras
             reg = dict(status.get(lei["id"]) or {})
-            reg.update({"nome": lei["nome"], "url": lei["url"], "status": "ERRO_VERIFICACAO",
+            reg.update({"nome": lei["nome"], "numero": lei.get("numero", ""), "area": lei.get("area", ""),
+                        "apelidos": lei.get("apelidos", ""), "status": "ERRO_VERIFICACAO",
                         "ultima_tentativa": agora().isoformat(timespec="seconds"),
                         "mensagem": f"Erro inesperado ao processar a página: {type(e).__name__}: {e}"})
             status[lei["id"]] = reg
         time.sleep(3)  # intervalo educado entre consultas à fonte
     salvar_json(ARQ_STATUS, status)
     escrever_resumo(status)
-    # Falha proposital quando alguma lei não pôde ser verificada:
-    # o GitHub envia um e-mail avisando que a execução falhou.
-    if any(r.get("status") == "ERRO_VERIFICACAO" for r in status.values()):
+    # Falha proposital (o GitHub envia e-mail) quando uma lei que já funcionava deixou de ser verificada.
+    # Leis novas que ainda não foram localizadas aparecem no resumo, sem disparar e-mail todo dia.
+    ids = {l["id"] for l in leis}
+    if any(status[k].get("status") == "ERRO_VERIFICACAO" for k in ja_funcionavam & ids):
         sys.exit(1)
 
 
