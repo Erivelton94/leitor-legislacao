@@ -47,7 +47,7 @@ DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de nov
 
 # Versão do leitor de artigos. Quando o leitor é melhorado, o texto é relido sem gerar
 # falso alerta de "alteração na lei" (a mudança veio do leitor, não da legislação).
-VERSAO_LEITOR = 3
+VERSAO_LEITOR = 4
 
 # Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A.", "Art. 359-M-A."
 RE_ARTIGO = re.compile(
@@ -99,6 +99,7 @@ def decodificar(conteudo: bytes) -> str:
 # ------------------------------------------------------------ leitura da lei
 
 QUEBRA = "\x00"  # marcador interno das quebras <br>
+RE_EPIGRAFE = re.compile(r"^(LEI|DECRETO|CONSTITUI|EMENDA|MEDIDA PROVIS|RESOLU)", re.IGNORECASE)
 RE_ROTULO = re.compile(r"^Art\.?\s*[\dA-Zº°o\-]+\.?\s+(?=Art\.?\s*\d)")
 PREPOSICOES = ("de", "do", "da", "dos", "das", "no", "na", "nos", "nas", "pelo", "pela", "o", "a", "e", "ao")
 
@@ -168,12 +169,19 @@ def extrair_artigos(html):
         prontas += dividir(linha)
 
     blocos = []  # [(id, [linhas])]
+    antes_do_art1 = []
     for linha in prontas:
         m = RE_ARTIGO.match(linha)
         if m:
             blocos.append((m.group(1) + (m.group(2) or ""), [linha]))
         elif blocos and linha != blocos[-1][1][-1]:  # ignora linha repetida em sequência
             blocos[-1][1].append(linha)
+        elif not blocos:
+            antes_do_art1.append(linha)
+
+    # Preâmbulo: da epígrafe ("LEI Nº 7.210, DE…") até antes do Art. 1º (ementa e primeiros títulos).
+    inicio = next((i for i, l in enumerate(antes_do_art1) if RE_EPIGRAFE.match(l)), None)
+    preambulo = antes_do_art1[inicio:] if inicio is not None else []
 
     # Mesmo número mais de uma vez: fica a versão com conteúdo; rótulos vazios saem.
     grupos = {}
@@ -186,7 +194,7 @@ def extrair_artigos(html):
             chave = ident if i == 0 else f"{ident}#{i + 1}"
             repetidos += i > 0
             resultado[chave] = {"texto": texto, "hash": sha256(texto)}
-    return resultado, repetidos
+    return resultado, repetidos, preambulo
 
 
 def lacunas(artigos):
@@ -286,7 +294,7 @@ def verificar_lei(lei, status_anterior):
                                        "sem precisar baixar o texto.")
 
     salvar_bruto(bruto, resp.content)
-    artigos, repetidos = extrair_artigos(decodificar(resp.content))
+    artigos, repetidos, preambulo = extrair_artigos(decodificar(resp.content))
     n = len(artigos)
     ausentes = lacunas(artigos)
     reg["diagnostico"] = {
@@ -316,6 +324,7 @@ def verificar_lei(lei, status_anterior):
         "etag": resp.headers.get("ETag"),
         "last_modified": resp.headers.get("Last-Modified"),
         "versao_leitor": VERSAO_LEITOR,
+        "preambulo": preambulo,
         "ultimo_download_completo": momento.isoformat(timespec="seconds"),
         "artigos": artigos,
     }
