@@ -1,0 +1,36 @@
+name: Verificar legislação
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # todo dia às 06:00 (horário de Recife)
+  workflow_dispatch:       # permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write          # o robô precisa salvar os resultados no repositório
+
+concurrency: verificacao
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Verificar leis no Planalto
+        run: python robo/verificar.py
+
+      - name: Salvar resultados no repositório
+        if: always()
+        run: |
+          git config user.name "robo-legislacao"
+          git config user.email "robo-legislacao@users.noreply.github.com"
+          git add dados
+          git diff --cached --quiet || git commit -m "Verificação de $(TZ=America/Recife date '+%d/%m/%Y %H:%M')"
+          git push
