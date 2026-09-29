@@ -355,7 +355,13 @@ svg.tinta { position: absolute; left: 0; top: 0; width: 100%; height: 100%; over
 .aviso-tinta::after { content: attr(data-rotulo); }
 button.aviso-tinta { cursor: pointer; color: var(--oliva); font-weight: 600; }
 .alerta-tinta { border-color: var(--alt); color: var(--alt); }
-.barra-caneta { flex-wrap: nowrap; }
+.barra-caneta { flex-direction: column; align-items: stretch; gap: 8px; }
+.linha-caneta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.barra-caneta .icone-btn[aria-pressed="true"] { background: var(--oliva); color: var(--papel); }
+.barra-caneta .icone-btn:disabled { opacity: 0.35; }
+.caneta-dedo.modo-caneta #texto-lei { touch-action: none; }
+#cursor-borracha { position: fixed; z-index: 60; pointer-events: none; border-radius: 50%; border: 1.5px solid var(--tinta);
+  background: rgba(127, 127, 127, 0.12); display: none; }
 .barra-caneta .cor-btn { width: 34px; height: 34px; }
 .barra-caneta .cor-btn[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--papel), 0 0 0 5px var(--tinta); }
 .cor-marca { background: linear-gradient(135deg, rgba(250,204,21,.9), rgba(250,204,21,.35)); }
@@ -2472,13 +2478,22 @@ function paiDaLei(id) { const p = pastasDe("leis").find(x => (x.leis || []).incl
 function paiDoCaderno(id) { const p = pastasDe("questoes").find(x => (x.cadernos || []).includes(id)); return p ? `#/questoes/pasta/${p.id}` : "#/questoes"; }
 
 /* =====================================================================
-   CANETA (Apple Pencil): o Pencil desenha, o dedo continua rolando.
+   CANETA: Apple Pencil (e, se você ligar, o dedo).
+   - Pencil desenha; dedo rola. Com "Usar o dedo" ligado, 1 dedo desenha
+     e 2 dedos rolam a página.
+   - Borracha: "traço inteiro" ou "só onde passar" (precisa), 3 tamanhos.
+   - Desfazer e Refazer.
    Cada desenho fica preso ao artigo e ao tamanho de letra em que foi feito.
    ===================================================================== */
 const NS_SVG = "http://www.w3.org/2000/svg";
 const CORES_CANETA = [["#D32F2F", "Vermelho"], ["#1E5BD8", "Azul"], ["#15803D", "Verde"], ["#1F2A36", "Preto"], ["marca", "Marca-texto"]];
 const ESPESSURAS = [[1.5, "Fina"], [2.5, "Média"], [4, "Grossa"]];
-const caneta = Object.assign({ ativa: false, cor: "#D32F2F", esp: 2.5, borracha: false }, { desfazer: [], tracando: null, apagando: null });
+const TAMANHOS_BORRACHA = [[5, "P"], [10, "M"], [18, "G"]];
+const caneta = Object.assign({ ativa: false, cor: "#D32F2F", esp: 2.5, borracha: false, modoBorracha: "parcial", raio: 10, dedo: false },
+  lerLS("preferencias-caneta", {}), { ativa: false, borracha: false, hist: [], refeitos: [], tracando: null, apagando: null });
+function gravarPrefCaneta() {
+  gravarLS("preferencias-caneta", { cor: caneta.cor, esp: caneta.esp, modoBorracha: caneta.modoBorracha, raio: caneta.raio, dedo: caneta.dedo });
+}
 const idTinta = (lei, art, fonte) => `tinta|${lei}|${art}|${fonte}`;
 function tintasDoArtigo(lei, art) { return itens("tinta", t => t.lei === lei && t.art === art && t.tracos && t.tracos.length); }
 function larguraTexto() { return Math.round($("#texto-lei")?.clientWidth || 0); }
@@ -2492,12 +2507,13 @@ function caminhoD(p) {
   for (let i = 2; i < p.length - 2; i += 2) d += ` Q${p[i]} ${p[i + 1]} ${((p[i] + p[i + 2]) / 2).toFixed(1)} ${((p[i + 1] + p[i + 3]) / 2).toFixed(1)}`;
   return d + ` L${p[p.length - 2]} ${p[p.length - 1]}`;
 }
+const larguraTraco = t => (t.cor === "marca" ? 14 : t.esp);
 function elTraco(t) {
   const el = document.createElementNS(NS_SVG, "path");
   const marca = t.cor === "marca";
   el.setAttribute("d", caminhoD(t.pts));
   el.setAttribute("stroke", marca ? "rgba(250, 204, 21, 0.4)" : t.cor);
-  el.setAttribute("stroke-width", marca ? 14 : t.esp);
+  el.setAttribute("stroke-width", larguraTraco(t));
   el.setAttribute("fill", "none");
   el.setAttribute("stroke-linecap", marca ? "butt" : "round");
   el.setAttribute("stroke-linejoin", "round");
@@ -2509,6 +2525,10 @@ function svgDo(div, criar) {
   if (!s && criar) { s = document.createElementNS(NS_SVG, "svg"); s.setAttribute("class", "tinta"); s.setAttribute("aria-hidden", "true"); div.appendChild(s); }
   return s;
 }
+function desenharTracos(div, item) {
+  const s = svgDo(div, true);
+  s.replaceChildren(...item.tracos.map(elTraco));
+}
 function pintarTinta(leiId, div) {
   div.querySelectorAll(":scope > svg.tinta, :scope > .aviso-tinta").forEach(e => e.remove());
   const art = div.dataset.art;
@@ -2516,8 +2536,7 @@ function pintarTinta(leiId, div) {
   if (!todas.length) return;
   const atual = tintaVisivel(leiId, art);
   if (atual) {
-    const s = svgDo(div, true);
-    atual.tracos.forEach(t => s.appendChild(elTraco(t)));
+    desenharTracos(div, atual);
     if (atual.hashArt !== estado.leis[leiId]?.artigos[art]?.hash) {
       const a = document.createElement("span");
       a.className = "aviso-tinta alerta-tinta";
@@ -2530,7 +2549,6 @@ function pintarTinta(leiId, div) {
     const b = document.createElement("button");
     b.className = "aviso-tinta";
     b.dataset.fonteTinta = outra.fonte;
-    const larg = larguraTexto();
     b.dataset.rotulo = outra.fonte !== ajustes.fonte
       ? `✎ Desenho feito com letra tamanho ${outra.fonte} · mostrar`
       : "✎ Desenho feito com a tela em outra posição (gire o iPad para vê-lo)";
@@ -2544,100 +2562,212 @@ function repintarTintas() {
 let tempoResize = null;
 window.addEventListener("resize", () => { clearTimeout(tempoResize); tempoResize = setTimeout(repintarTintas, 300); });
 
-async function salvarTinta(item) { await salvarItem(item); }
 function itemTintaAtual(div) {
   const lei = estado.leis[leiAberta], art = div.dataset.art;
   const id = idTinta(leiAberta, art, ajustes.fonte);
   const ex = estado.itens.get(id);
-  if (ex && !ex.apagado) return ex;
+  if (ex && !ex.apagado && ex.tracos) return ex;
   return { id, tipo: "tinta", lei: leiAberta, art, fonte: ajustes.fonte, largura: larguraTexto(),
            versao: lei.versao, hashArt: lei.artigos[art]?.hash, tracos: [] };
 }
 function pontoRel(div, ev) { const r = div.getBoundingClientRect(); return [+(ev.clientX - r.left).toFixed(1), +(ev.clientY - r.top).toFixed(1)]; }
 
+/* ---------- desfazer / refazer (guarda o "antes" e o "depois" de cada ação) ---------- */
+function registrarAcao(item, antes) {
+  caneta.hist.push({ item: item.id, art: item.art, antes, depois: item.tracos.slice() });
+  if (caneta.hist.length > 100) caneta.hist.shift();
+  caneta.refeitos = [];
+  atualizarBotoesHist();
+}
+async function aplicarVersaoTracos(acao, qual) {
+  const base = estado.itens.get(acao.item) || { id: acao.item, tipo: "tinta" };
+  const item = { ...base, apagado: false, tracos: acao[qual].slice() };
+  if (!item.lei) { const [, lei, art, fonte] = acao.item.split("|"); Object.assign(item, { lei, art, fonte: Number(fonte), largura: larguraTexto(), versao: estado.leis[lei]?.versao, hashArt: estado.leis[lei]?.artigos[art]?.hash }); }
+  await salvarItem(item);
+  const div = document.getElementById("art-" + acao.art);
+  if (div) pintarTinta(leiAberta, div);
+}
+async function desfazerTinta() {
+  const a = caneta.hist.pop(); if (!a) return;
+  await aplicarVersaoTracos(a, "antes"); caneta.refeitos.push(a); atualizarBotoesHist();
+}
+async function refazerTinta() {
+  const a = caneta.refeitos.pop(); if (!a) return;
+  await aplicarVersaoTracos(a, "depois"); caneta.hist.push(a); atualizarBotoesHist();
+}
+function atualizarBotoesHist() {
+  const d = $("#cn-desfazer"), r = $("#cn-refazer");
+  if (d) d.disabled = !caneta.hist.length;
+  if (r) r.disabled = !caneta.refeitos.length;
+}
+
+/* ---------- borracha ---------- */
+function distPontoSegmento(px, py, ax, ay, bx, by) {
+  const dx = bx - ax, dy = by - ay, l2 = dx * dx + dy * dy;
+  const t = l2 ? Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / l2)) : 0;
+  return Math.hypot(px - (ax + t * dx), py - (ay + t * dy));
+}
+function densificar(p, passo = 1.5) {        // pontos a cada ~1,5 px: o corte da borracha fica preciso
+  const out = [p[0], p[1]];
+  for (let i = 2; i < p.length; i += 2) {
+    const x0 = out[out.length - 2], y0 = out[out.length - 1], x1 = p[i], y1 = p[i + 1];
+    const n = Math.floor(Math.hypot(x1 - x0, y1 - y0) / passo);
+    for (let k = 1; k <= n; k++) out.push(+(x0 + (x1 - x0) * k / (n + 1)).toFixed(1), +(y0 + (y1 - y0) * k / (n + 1)).toFixed(1));
+    out.push(x1, y1);
+  }
+  return out;
+}
+function passarBorracha(a, x, y) {
+  const [ax, ay] = a.ultimo;           // segmento da borracha (não "pula" traços em movimentos rápidos)
+  a.ultimo = [x, y];
+  const item = a.item;
+  let mudou = false;
+  const novos = [];
+  for (const t of item.tracos) {
+    const alcance = caneta.raio + larguraTraco(t) / 2;
+    const pts = densificar(t.pts);
+    const dentro = [];
+    for (let i = 0; i < pts.length; i += 2) dentro.push(distPontoSegmento(pts[i], pts[i + 1], ax, ay, x, y) <= alcance);
+    if (!dentro.some(Boolean)) { novos.push(t); continue; }
+    mudou = true;
+    if (caneta.modoBorracha === "traco") continue;             // apaga o traço inteiro
+    let run = [];                                              // apaga só o trecho tocado: o traço vira pedaços
+    const fechar = () => { if (run.length >= 4) novos.push({ ...t, id: uid().slice(0, 8), pts: run }); run = []; };
+    dentro.forEach((d, k) => { if (d) fechar(); else run.push(pts[2 * k], pts[2 * k + 1]); });
+    fechar();
+  }
+  if (mudou) { item.tracos = novos; desenharTracos(a.div, item); }
+}
+function mostrarCursorBorracha(ev) {
+  let c = $("#cursor-borracha");
+  if (!c) { c = document.createElement("div"); c.id = "cursor-borracha"; document.body.appendChild(c); }
+  const d = caneta.raio * 2;
+  Object.assign(c.style, { width: d + "px", height: d + "px", left: ev.clientX - caneta.raio + "px", top: ev.clientY - caneta.raio + "px", display: "block" });
+}
+function esconderCursorBorracha() { const c = $("#cursor-borracha"); if (c) c.style.display = "none"; }
+
+/* ---------- entrada: Pencil, mouse e (opcional) dedo ---------- */
+// pontos intermediários do movimento (quando o navegador não os fornece, usa o próprio evento)
+function eventosDe(e) { const l = e.getCoalescedEvents ? e.getCoalescedEvents() : []; return l.length ? l : [e]; }
+const dedos = new Map();
+let rolagemDedos = null;
+const mediaY = () => [...dedos.values()].reduce((s, p) => s + p.y, 0) / dedos.size;
+function cancelarTraco() {
+  if (caneta.tracando) { caneta.tracando.el.remove(); caneta.tracando = null; }
+  if (caneta.apagando) {                                    // desfaz o que a borracha já tinha apagado neste gesto
+    const a = caneta.apagando; a.item.tracos = a.antes; desenharTracos(a.div, a.item); caneta.apagando = null; esconderCursorBorracha();
+  }
+}
 document.addEventListener("pointerdown", e => {
-  if (!caneta.ativa || !leiAberta || e.pointerType === "touch") return;
+  if (!caneta.ativa || !leiAberta) return;
+  const noTexto = e.target.closest && e.target.closest("#texto-lei");
+  if (e.pointerType === "touch") {
+    if (!caneta.dedo || !noTexto) return;
+    dedos.set(e.pointerId, { y: e.clientY });
+    if (dedos.size >= 2) { cancelarTraco(); rolagemDedos = { y: mediaY() }; return; }   // 2 dedos = rolar
+  }
   const div = e.target.closest && e.target.closest("#texto-lei .artigo");
   if (!div) return;
   e.preventDefault();
-  if (caneta.borracha) { caneta.apagando = div; apagarNoPonto(div, e); return; }
+  if (caneta.borracha) {
+    const item = tintaVisivel(leiAberta, div.dataset.art);
+    if (!item) return;
+    const p = pontoRel(div, e);
+    caneta.apagando = { div, item, antes: item.tracos.slice(), ultimo: p, pointerId: e.pointerId };
+    mostrarCursorBorracha(e);
+    passarBorracha(caneta.apagando, ...p);
+    return;
+  }
   const t = { id: uid().slice(0, 8), cor: caneta.cor, esp: caneta.esp, pts: pontoRel(div, e) };
   const el = elTraco(t);
   svgDo(div, true).appendChild(el);
-  caneta.tracando = { div, t, el };
+  caneta.tracando = { div, t, el, pointerId: e.pointerId };
 }, { passive: false });
 document.addEventListener("pointermove", e => {
-  if (caneta.apagando) { e.preventDefault(); apagarNoPonto(caneta.apagando, e); return; }
+  if (e.pointerType === "touch" && dedos.has(e.pointerId)) {
+    dedos.get(e.pointerId).y = e.clientY;
+    if (rolagemDedos && dedos.size >= 2) { e.preventDefault(); const m = mediaY(); window.scrollBy(0, rolagemDedos.y - m); rolagemDedos.y = m; return; }
+  }
+  const a = caneta.apagando;
+  if (a && a.pointerId === e.pointerId) {
+    e.preventDefault(); mostrarCursorBorracha(e);
+    for (const ev of eventosDe(e)) passarBorracha(a, ...pontoRel(a.div, ev));
+    return;
+  }
   const tr = caneta.tracando;
-  if (!tr) return;
+  if (!tr || tr.pointerId !== e.pointerId) return;
   e.preventDefault();
-  for (const ev of (e.getCoalescedEvents ? e.getCoalescedEvents() : [e])) tr.t.pts.push(...pontoRel(tr.div, ev));
+  for (const ev of eventosDe(e)) tr.t.pts.push(...pontoRel(tr.div, ev));
   tr.el.setAttribute("d", caminhoD(tr.t.pts));
 }, { passive: false });
-async function fimTraco() {
-  caneta.apagando = null;
+async function fimPonteiro(e) {
+  if (e.pointerType === "touch") { dedos.delete(e.pointerId); if (dedos.size < 2) rolagemDedos = null; }
+  const a = caneta.apagando;
+  if (a && a.pointerId === e.pointerId) {
+    caneta.apagando = null; esconderCursorBorracha();
+    if (a.item.tracos.length !== a.antes.length || a.item.tracos.some((t, k) => t !== a.antes[k])) {
+      await salvarItem(a.item); registrarAcao(a.item, a.antes);
+    }
+    return;
+  }
   const tr = caneta.tracando;
-  if (!tr) return;
+  if (!tr || tr.pointerId !== e.pointerId) return;
   caneta.tracando = null;
   const item = itemTintaAtual(tr.div);
+  const antes = item.tracos.slice();
   item.tracos = [...item.tracos, tr.t];
-  await salvarTinta(item);
-  caneta.desfazer.push({ tipo: "add", item: item.id, traco: tr.t });
+  await salvarItem(item);
+  registrarAcao(item, antes);
   pintarTinta(leiAberta, tr.div);
 }
-document.addEventListener("pointerup", fimTraco);
-document.addEventListener("pointercancel", fimTraco);
-// No iPad: impede que o Pencil role a página ou selecione texto; o dedo continua livre.
+document.addEventListener("pointerup", fimPonteiro);
+document.addEventListener("pointercancel", e => { if (e.pointerType === "touch") { dedos.delete(e.pointerId); if (dedos.size < 2) rolagemDedos = null; } cancelarTraco(); });
+// iPad: impede que o Pencil role a página ou selecione texto; o dedo só é bloqueado com "Usar o dedo" ligado.
 for (const tipo of ["touchstart", "touchmove"]) {
   document.addEventListener(tipo, e => {
-    if (!caneta.ativa || !leiAberta) return;
-    if ([...e.touches].some(t => t.touchType === "stylus") && e.target.closest && e.target.closest("#texto-lei")) e.preventDefault();
+    if (!caneta.ativa || !leiAberta || !(e.target.closest && e.target.closest("#texto-lei"))) return;
+    if ([...e.touches].some(t => t.touchType === "stylus") || caneta.dedo) e.preventDefault();
   }, { passive: false });
 }
-function apagarNoPonto(div, ev) {
-  const item = tintaVisivel(leiAberta, div.dataset.art);
-  if (!item) return;
-  const [x, y] = pontoRel(div, ev);
-  const alvo = item.tracos.find(t => {
-    const raio = t.cor === "marca" ? 12 : 10;
-    for (let i = 0; i < t.pts.length; i += 2) if (Math.hypot(t.pts[i] - x, t.pts[i + 1] - y) <= raio) return true;
-    return false;
-  });
-  if (!alvo) return;
-  item.tracos = item.tracos.filter(t => t !== alvo);
-  div.querySelector(`path[data-traco="${alvo.id}"]`)?.remove();
-  caneta.desfazer.push({ tipo: "del", item: item.id, traco: alvo });
-  salvarTinta(item);
-}
-async function desfazerTinta() {
-  const acao = caneta.desfazer.pop();
-  if (!acao) return;
-  const item = estado.itens.get(acao.item);
-  if (!item) return;
-  item.tracos = acao.tipo === "add" ? item.tracos.filter(t => t.id !== acao.traco.id) : [...item.tracos, acao.traco];
-  item.apagado = false;
-  await salvarTinta(item);
-  const div = document.getElementById("art-" + item.art);
-  if (div) pintarTinta(leiAberta, div);
-}
+
+/* ---------- barra da caneta ---------- */
 function montarBarraCaneta() {
   const b = $("#barra-caneta");
-  b.innerHTML = `${CORES_CANETA.map(([c, n]) => `<button class="cor-btn ${c === "marca" ? "cor-marca" : ""}" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${!caneta.borracha && caneta.cor === c}" style="${c === "marca" ? "" : `background:${c}`}"></button>`).join("")}
-    <span class="sep"></span>
-    <div class="segmentado">${ESPESSURAS.map(([v, n]) => `<button data-esp="${v}" aria-pressed="${caneta.esp === v}">${n}</button>`).join("")}</div>
-    <span class="sep"></span>
-    <button class="icone-btn" id="cn-borracha" aria-pressed="${caneta.borracha}">${caneta.borracha ? "● Borracha" : "Borracha"}</button>
-    <button class="icone-btn" id="cn-desfazer">Desfazer</button>
-    <button class="icone-btn" id="cn-fechar">Concluir</button>`;
-  $$("[data-cor-caneta]", b).forEach(x => x.onclick = () => { caneta.cor = x.dataset.corCaneta; caneta.borracha = false; montarBarraCaneta(); });
-  $$("[data-esp]", b).forEach(x => x.onclick = () => { caneta.esp = Number(x.dataset.esp); caneta.borracha = false; montarBarraCaneta(); });
+  const opcoesTraco = `<div class="segmentado">${ESPESSURAS.map(([v, n]) => `<button data-esp="${v}" aria-pressed="${!caneta.borracha && caneta.esp === v}">${n}</button>`).join("")}</div>`;
+  const opcoesBorracha = `<div class="segmentado" aria-label="Como apagar">
+      <button data-modo-borracha="parcial" aria-pressed="${caneta.modoBorracha === "parcial"}">Só onde passar</button>
+      <button data-modo-borracha="traco" aria-pressed="${caneta.modoBorracha === "traco"}">Traço inteiro</button></div>
+    <div class="segmentado" aria-label="Tamanho da borracha">${TAMANHOS_BORRACHA.map(([v, n]) => `<button data-raio="${v}" aria-pressed="${caneta.raio === v}">${n}</button>`).join("")}</div>`;
+  b.innerHTML = `
+    <div class="linha-caneta">
+      ${CORES_CANETA.map(([c, n]) => `<button class="cor-btn ${c === "marca" ? "cor-marca" : ""}" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${!caneta.borracha && caneta.cor === c}" style="${c === "marca" ? "" : `background:${c}`}"></button>`).join("")}
+      <span class="sep"></span>
+      <button class="icone-btn" id="cn-borracha" aria-pressed="${caneta.borracha}">Borracha</button>
+      <button class="icone-btn" id="cn-desfazer" aria-label="Desfazer">↶ Desfazer</button>
+      <button class="icone-btn" id="cn-refazer" aria-label="Refazer">↷ Refazer</button>
+    </div>
+    <div class="linha-caneta">
+      ${caneta.borracha ? opcoesBorracha : opcoesTraco}
+      <span class="sep"></span>
+      <button class="icone-btn" id="cn-dedo" aria-pressed="${caneta.dedo}" title="Com o dedo ligado: 1 dedo desenha/apaga, 2 dedos rolam">${caneta.dedo ? "✋ Dedo: ligado" : "✋ Usar o dedo"}</button>
+      <button class="icone-btn" id="cn-fechar">Concluir</button>
+    </div>`;
+  $$("[data-cor-caneta]", b).forEach(x => x.onclick = () => { caneta.cor = x.dataset.corCaneta; caneta.borracha = false; gravarPrefCaneta(); montarBarraCaneta(); });
+  $$("[data-esp]", b).forEach(x => x.onclick = () => { caneta.esp = Number(x.dataset.esp); gravarPrefCaneta(); montarBarraCaneta(); });
+  $$("[data-modo-borracha]", b).forEach(x => x.onclick = () => { caneta.modoBorracha = x.dataset.modoBorracha; gravarPrefCaneta(); montarBarraCaneta(); });
+  $$("[data-raio]", b).forEach(x => x.onclick = () => { caneta.raio = Number(x.dataset.raio); gravarPrefCaneta(); montarBarraCaneta(); });
   $("#cn-borracha").onclick = () => { caneta.borracha = !caneta.borracha; montarBarraCaneta(); };
   $("#cn-desfazer").onclick = desfazerTinta;
+  $("#cn-refazer").onclick = refazerTinta;
+  $("#cn-dedo").onclick = () => { caneta.dedo = !caneta.dedo; gravarPrefCaneta(); document.body.classList.toggle("caneta-dedo", caneta.dedo); montarBarraCaneta(); };
   $("#cn-fechar").onclick = () => alternarCaneta(false);
+  atualizarBotoesHist();
 }
 function alternarCaneta(ligar = !caneta.ativa) {
   caneta.ativa = ligar && !!leiAberta;
+  if (!caneta.ativa) { cancelarTraco(); dedos.clear(); rolagemDedos = null; }
   document.body.classList.toggle("modo-caneta", caneta.ativa);
+  document.body.classList.toggle("caneta-dedo", caneta.ativa && caneta.dedo);
   $("#barra-caneta").classList.toggle("oculto", !caneta.ativa);
   $("#btn-caneta").setAttribute("aria-pressed", caneta.ativa);
   $("#btn-caneta").textContent = caneta.ativa ? "✏️ Caneta ligada" : "✏️ Caneta";
