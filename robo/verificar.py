@@ -12,6 +12,7 @@ Regra de confiabilidade: se a fonte falhar ou a leitura parecer estranha,
 o status vira ERRO_VERIFICACAO e o texto guardado NÃO é substituído.
 """
 
+import gzip
 import hashlib
 import json
 import os
@@ -32,6 +33,7 @@ PASTA_DADOS = RAIZ / "dados"
 PASTA_TEXTOS = PASTA_DADOS / "leis"
 PASTA_HIST = PASTA_DADOS / "historico"
 ARQ_STATUS = PASTA_DADOS / "status.json"
+PASTA_BRUTO = PASTA_DADOS / "bruto"  # cópia da última página baixada (auditoria)
 
 FUSO = ZoneInfo("America/Recife")
 # O Planalto recusa conexões que se identificam como robô (confirmado no diagnóstico),
@@ -41,10 +43,15 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TENTATIVAS = 3
 TIMEOUT = 60
 QUEDA_MAXIMA = 0.10  # se o nº de artigos cair mais de 10%, a leitura é considerada suspeita
+DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de novo 1x por semana
 
-# Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A."
+# Versão do leitor de artigos. Quando o leitor é melhorado, o texto é relido sem gerar
+# falso alerta de "alteração na lei" (a mudança veio do leitor, não da legislação).
+VERSAO_LEITOR = 2
+
+# Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A.", "Art. 359-M-A."
 RE_ARTIGO = re.compile(
-    r"^Art\.\s*(\d+)\s*(?:º|°|ª|o(?![a-zà-ú]))?\s*(?:-([A-Z]{1,2})(?![a-zà-ú]))?"
+    r"^Art\.\s*(\d+)\s*(?:º|°|ª|o(?![a-zà-ú]))?\s*((?:-[A-Z]{1,2}(?![a-zà-ú]))*)"
 )
 
 
@@ -108,7 +115,7 @@ def extrair_artigos(html):
     for linha in linhas:
         m = RE_ARTIGO.match(linha)
         if m:
-            ident = m.group(1) + (f"-{m.group(2)}" if m.group(2) else "")
+            ident = m.group(1) + (m.group(2) or "")
             chave, n = ident, 2
             while chave in artigos:
                 chave, n = f"{ident}#{n}", n + 1
@@ -124,6 +131,20 @@ def extrair_artigos(html):
         texto = "\n".join(partes)
         resultado[chave] = {"texto": texto, "hash": sha256(texto)}
     return resultado, repetidos
+
+
+def lacunas(artigos):
+    """Números de artigo ausentes na sequência 1..último (ex.: Art. 1 sumido = leitura suspeita)."""
+    numeros = {int(re.match(r"\d+", k).group()) for k in artigos}
+    if not numeros:
+        return []
+    return [n for n in range(1, max(numeros) + 1) if n not in numeros]
+
+
+def salvar_bruto(caminho, conteudo):
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    with gzip.open(caminho, "wb") as f:
+        f.write(conteudo)
 
 
 def hash_da_lei(artigos):
@@ -173,9 +194,20 @@ def verificar_lei(lei, status_anterior):
     anterior = ler_json(arq_texto)
 
     cond = {}
-    if anterior and anterior.get("etag"):
+    bruto = PASTA_BRUTO / f"{lei['id']}.html.gz"
+    ultimo_completo = anterior.get("ultimo_download_completo") if anterior else None
+    precisa_completo = (
+        anterior is None
+        or not bruto.exists()
+        or anterior.get("versao_leitor") != VERSAO_LEITOR
+        or not ultimo_completo
+        or (momento - datetime.fromisoformat(ultimo_completo)).days >= DIAS_DOWNLOAD_COMPLETO
+    )
+    if precisa_completo:
+        pass  # sem cabeçalhos condicionais: a página vem inteira
+    elif anterior.get("etag"):
         cond["If-None-Match"] = anterior["etag"]
-    if anterior and anterior.get("last_modified"):
+    if not precisa_completo and anterior.get("last_modified"):
         cond["If-Modified-Since"] = anterior["last_modified"]
 
     try:
@@ -190,15 +222,23 @@ def verificar_lei(lei, status_anterior):
         return reg
 
     if resp.status_code == 304:
-        return confirmar("ATUALIZADA", "A fonte confirmou que a página não mudou (resposta 304).")
+        reg.update({"versao": anterior["versao"], "n_artigos": len(anterior["artigos"]),
+                    "hash": anterior["hash"]})
+        reg.setdefault("diagnostico", {})["fonte_envia_etag"] = bool(anterior.get("etag"))
+        reg["diagnostico"]["fonte_envia_last_modified"] = bool(anterior.get("last_modified"))
+        return confirmar("ATUALIZADA", "A fonte confirmou que a página não mudou (resposta 304), "
+                                       "sem precisar baixar o texto.")
 
+    salvar_bruto(bruto, resp.content)
     artigos, repetidos = extrair_artigos(decodificar(resp.content))
     n = len(artigos)
+    ausentes = lacunas(artigos)
     reg["diagnostico"] = {
         "tamanho_pagina_kb": round(len(resp.content) / 1024, 1),
         "fonte_envia_etag": bool(resp.headers.get("ETag")),
         "fonte_envia_last_modified": bool(resp.headers.get("Last-Modified")),
         "artigos_com_numero_repetido": repetidos,
+        "artigos_ausentes_na_sequencia": ausentes[:30],
     }
 
     minimo = lei.get("minimo_artigos", 5)
@@ -219,6 +259,8 @@ def verificar_lei(lei, status_anterior):
         "hash": hash_novo,
         "etag": resp.headers.get("ETag"),
         "last_modified": resp.headers.get("Last-Modified"),
+        "versao_leitor": VERSAO_LEITOR,
+        "ultimo_download_completo": momento.isoformat(timespec="seconds"),
         "artigos": artigos,
     }
 
@@ -227,12 +269,19 @@ def verificar_lei(lei, status_anterior):
         reg.update({"versao": novo["versao"], "n_artigos": n, "hash": hash_novo})
         return confirmar("ATUALIZADA", f"Primeira carga concluída: {n} artigos lidos.")
 
+    if anterior.get("versao_leitor") != VERSAO_LEITOR:
+        # O leitor foi melhorado: relê o texto sem registrar como alteração da lei.
+        novo["versao"] = anterior["versao"]
+        salvar_json(arq_texto, novo)
+        reg.update({"versao": novo["versao"], "n_artigos": n, "hash": hash_novo})
+        return confirmar("ATUALIZADA", f"Texto relido com o leitor atualizado ({n} artigos). "
+                                       "Isso não é alteração da lei.")
+
     if anterior["hash"] == hash_novo:
-        if (anterior.get("etag"), anterior.get("last_modified")) != (novo["etag"], novo["last_modified"]):
-            anterior["etag"], anterior["last_modified"] = novo["etag"], novo["last_modified"]
-            salvar_json(arq_texto, anterior)
+        novo["versao"] = anterior["versao"]
+        salvar_json(arq_texto, novo)  # atualiza ETag e data do último download completo
         reg.update({"versao": anterior["versao"], "n_artigos": n, "hash": hash_novo})
-        return confirmar("ATUALIZADA", f"Sem alterações ({n} artigos conferidos).")
+        return confirmar("ATUALIZADA", f"Sem alterações ({n} artigos conferidos no texto completo).")
 
     # --- houve mudança: registra exatamente o que mudou
     velhos, novos = anterior["artigos"], artigos
@@ -283,14 +332,15 @@ def escrever_resumo(status):
                       f"{reg.get('n_artigos', '—')} | {formatar(reg.get('ultima_verificacao_ok'))} | "
                       f"{reg.get('mensagem', '')} |")
     linhas += ["", "### Diagnóstico técnico da fonte", "",
-               "| Lei | Página (KB) | Envia ETag | Envia Last-Modified | Artigos repetidos |",
-               "|---|---|---|---|---|"]
+               "| Lei | Página (KB) | Envia ETag | Envia Last-Modified | Artigos repetidos | Números ausentes |",
+               "|---|---|---|---|---|---|"]
     for reg in status.values():
         d = reg.get("diagnostico", {})
         linhas.append(f"| {reg['nome']} | {d.get('tamanho_pagina_kb', '—')} | "
                       f"{'sim' if d.get('fonte_envia_etag') else 'não'} | "
                       f"{'sim' if d.get('fonte_envia_last_modified') else 'não'} | "
-                      f"{d.get('artigos_com_numero_repetido', '—')} |")
+                      f"{d.get('artigos_com_numero_repetido', '—')} | "
+                      f"{', '.join(map(str, d.get('artigos_ausentes_na_sequencia', []))) or 'nenhum'} |")
     texto = "\n".join(linhas)
     print(texto)
     destino = os.environ.get("GITHUB_STEP_SUMMARY")
