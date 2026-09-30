@@ -7,7 +7,7 @@
  "hash": "d77e0ab60d8df26b13d95d8adda514e9cc6c5d7d0e00f5e7ea8117e1a81e7410",
  "etag": "\"25eb5-65028bffb8073\"",
  "last_modified": "Thu, 23 Apr 2026 23:10:10 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI No 10.741, DE 1º DE OUTUBRO DE 2003.",
   "(Vide Decreto nº 6.214, de 2007)",
@@ -15,479 +15,597 @@
   "TÍTULO I",
   "Disposições Preliminares"
  ],
- "ultimo_download_completo": "2026-09-26T04:45:51-03:00",
+ "ultimo_download_completo": "2026-09-30T12:34:26-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º É instituído o Estatuto da Pessoa Idosa, destinado a regular os direitos assegurados às pessoas com idade igual ou superior a 60 (sessenta) anos. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "d378cc0e86429d07ad4804a9a9e552d5fb73024880e5a0392245a4a93b0d8ecb"
+   "hash": "d378cc0e86429d07ad4804a9a9e552d5fb73024880e5a0392245a4a93b0d8ecb",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º A pessoa idosa goza de todos os direitos fundamentais inerentes à pessoa humana, sem prejuízo da proteção integral de que trata esta Lei, assegurando-se-lhe, por lei ou por outros meios, todas as oportunidades e facilidades, para preservação de sua saúde física e mental e seu aperfeiçoamento moral, intelectual, espiritual e social, em condições de liberdade e dignidade. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "bc9df8dcab831a6cfd2acf6dd5a9a68f2d6a53efd9fb209f3cbf9a233483b7c7"
+   "hash": "bc9df8dcab831a6cfd2acf6dd5a9a68f2d6a53efd9fb209f3cbf9a233483b7c7",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º É obrigação da família, da comunidade, da sociedade e do poder público assegurar à pessoa idosa, com absoluta prioridade, a efetivação do direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à convivência familiar e comunitária. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º A garantia de prioridade compreende: (Redação dada pela Lei nº 13.466, de 2017)\nI – atendimento preferencial imediato e individualizado junto aos órgãos públicos e privados prestadores de serviços à população;\nII – preferência na formulação e na execução de políticas sociais públicas específicas;\nIII – destinação privilegiada de recursos públicos nas áreas relacionadas com a proteção à pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nIV – viabilização de formas alternativas de participação, ocupação e convívio da pessoa idosa com as demais gerações; (Redação dada pela Lei nº 14.423, de 2022)\nV – priorização do atendimento da pessoa idosa por sua própria família, em detrimento do atendimento asilar, exceto dos que não a possuam ou careçam de condições de manutenção da própria sobrevivência; (Redação dada pela Lei nº 14.423, de 2022)\nVI – capacitação e reciclagem dos recursos humanos nas áreas de geriatria e gerontologia e na prestação de serviços às pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nVII – estabelecimento de mecanismos que favoreçam a divulgação de informações de caráter educativo sobre os aspectos biopsicossociais de envelhecimento;\nVIII – garantia de acesso à rede de serviços de saúde e de assistência social locais.\nIX – prioridade no recebimento da restituição do Imposto de Renda. (Incluído pela Lei nº 11.765, de 2008).\n§ 2º Entre as pessoas idosas, é assegurada prioridade especial aos maiores de 80 (oitenta) anos, atendendo-se suas necessidades sempre preferencialmente em relação às demais pessoas idosas. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "6e9db554fd24bcb14305ec051c2d6119b46edfeec870736c1dcb6ff66d38e14d"
+   "hash": "6e9db554fd24bcb14305ec051c2d6119b46edfeec870736c1dcb6ff66d38e14d",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º Nenhuma pessoa idosa será objeto de qualquer tipo de negligência, discriminação, violência, crueldade ou opressão, e todo atentado aos seus direitos, por ação ou omissão, será punido na forma da lei. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º É dever de todos prevenir a ameaça ou violação aos direitos da pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2o As obrigações previstas nesta Lei não excluem da prevenção outras decorrentes dos princípios por ela adotados.",
-   "hash": "0f9aac27a108eb31841bef1144bf4060cbe5f1e2ac2c40d027c339044dd95134"
+   "hash": "0f9aac27a108eb31841bef1144bf4060cbe5f1e2ac2c40d027c339044dd95134",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o A inobservância das normas de prevenção importará em responsabilidade à pessoa física ou jurídica nos termos da lei.",
-   "hash": "42063fe6cd0d52a1b4c0cbf0daf482485ffc0456c560e6c9eb4000ae90e0aded"
+   "hash": "42063fe6cd0d52a1b4c0cbf0daf482485ffc0456c560e6c9eb4000ae90e0aded",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6o Todo cidadão tem o dever de comunicar à autoridade competente qualquer forma de violação a esta Lei que tenha testemunhado ou de que tenha conhecimento.",
-   "hash": "cb4108f4f61e5cfd033483ad05d2e6f6ef70ad4bb985383afabb37363230d0b7"
+   "hash": "cb4108f4f61e5cfd033483ad05d2e6f6ef70ad4bb985383afabb37363230d0b7",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7º Os Conselhos Nacional, Estaduais, do Distrito Federal e Municipais da Pessoa Idosa, previstos na Lei nº 8.842, de 4 de janeiro de 1994, zelarão pelo cumprimento dos direitos da pessoa idosa, definidos nesta Lei. (Redação dada pela Lei nº 14.423, de 2022)\nTÍTULO II\nDos Direitos Fundamentais\nCAPÍTULO I\nDo Direito à Vida",
-   "hash": "d4d51f9c691d94d88aef30efae687da0cd5b4d34bb23df89f1e0042d50ab8344"
+   "hash": "d4d51f9c691d94d88aef30efae687da0cd5b4d34bb23df89f1e0042d50ab8344",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o O envelhecimento é um direito personalíssimo e a sua proteção um direito social, nos termos desta Lei e da legislação vigente.",
-   "hash": "b8b30758c5581ab52f5b10fdba74019f53b8ec5b32772851cea1e337963837ad"
+   "hash": "b8b30758c5581ab52f5b10fdba74019f53b8ec5b32772851cea1e337963837ad",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o É obrigação do Estado, garantir à pessoa idosa a proteção à vida e à saúde, mediante efetivação de políticas sociais públicas que permitam um envelhecimento saudável e em condições de dignidade.\nCAPÍTULO II\nDo Direito à Liberdade, ao Respeito e à Dignidade",
-   "hash": "39e14e29f6d4b97b3337072a4d4441d0223aa6c5af80f8ef9cba9f7b33df0fa3"
+   "hash": "39e14e29f6d4b97b3337072a4d4441d0223aa6c5af80f8ef9cba9f7b33df0fa3",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. É obrigação do Estado e da sociedade assegurar à pessoa idosa a liberdade, o respeito e a dignidade, como pessoa humana e sujeito de direitos civis, políticos, individuais e sociais, garantidos na Constituição e nas leis. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1o O direito à liberdade compreende, entre outros, os seguintes aspectos:\nI – faculdade de ir, vir e estar nos logradouros públicos e espaços comunitários, ressalvadas as restrições legais;\nII – opinião e expressão;\nIII – crença e culto religioso;\nIV – prática de esportes e de diversões;\nV – participação na vida familiar e comunitária;\nVI – participação na vida política, na forma da lei;\nVII – faculdade de buscar refúgio, auxílio e orientação.\n§ 2o O direito ao respeito consiste na inviolabilidade da integridade física, psíquica e moral, abrangendo a preservação da imagem, da identidade, da autonomia, de valores, idéias e crenças, dos espaços e dos objetos pessoais.\n§ 3º É dever de todos zelar pela dignidade da pessoa idosa, colocando-a a salvo de qualquer tratamento desumano, violento, aterrorizante, vexatório ou constrangedor. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO III\nDos Alimentos",
-   "hash": "edb4db5e34cef25adf62cb279654cb1c51c8c5bb47e8880ef3f7d7d3e0267baf"
+   "hash": "edb4db5e34cef25adf62cb279654cb1c51c8c5bb47e8880ef3f7d7d3e0267baf",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. Os alimentos serão prestados à pessoa idosa na forma da lei civil. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "99f7b6fade91d57e46a6671d4b403a46a5468a3b2f7ee6bf68224aadf91d004e"
+   "hash": "99f7b6fade91d57e46a6671d4b403a46a5468a3b2f7ee6bf68224aadf91d004e",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. A obrigação alimentar é solidária, podendo a pessoa idosa optar entre os prestadores. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "b534a37677401fb0d4b4ce6bbcb3172b5dfa303c8586d4092a94392c638fda3f"
+   "hash": "b534a37677401fb0d4b4ce6bbcb3172b5dfa303c8586d4092a94392c638fda3f",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. As transações relativas a alimentos poderão ser celebradas perante o Promotor de Justiça ou Defensor Público, que as referendará, e passarão a ter efeito de título executivo extrajudicial nos termos da lei processual civil. (Redação dada pela Lei nº 11.737, de 2008)",
-   "hash": "2d41149415d1774bd996df39ef19d7a714e1428200f2e45b52c48d9dc6c79417"
+   "hash": "2d41149415d1774bd996df39ef19d7a714e1428200f2e45b52c48d9dc6c79417",
+   "ordem": 12
   },
   "14": {
    "texto": "Art. 14. Se a pessoa idosa ou seus familiares não possuírem condições econômicas de prover o seu sustento, impõe-se ao poder público esse provimento, no âmbito da assistência social. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO IV\nDo Direito à Saúde",
-   "hash": "379f45a551557be25c97c24d286454bb02605268978610682a415e0203a114cd"
+   "hash": "379f45a551557be25c97c24d286454bb02605268978610682a415e0203a114cd",
+   "ordem": 13
   },
   "15": {
    "texto": "Art. 15. É assegurada a atenção integral à saúde da pessoa idosa, por intermédio do Sistema Único de Saúde (SUS), garantindo-lhe o acesso universal e igualitário, em conjunto articulado e contínuo das ações e serviços, para a prevenção, promoção, proteção e recuperação da saúde, incluindo a atenção especial às doenças que afetam preferencialmente as pessoas idosas. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º A prevenção e a manutenção da saúde da pessoa idosa serão efetivadas por meio de: (Redação dada pela Lei nº 14.423, de 2022)\nI – cadastramento da população idosa em base territorial;\nII – atendimento geriátrico e gerontológico em ambulatórios;\nIII – unidades geriátricas de referência, com pessoal especializado nas áreas de geriatria e gerontologia social;\nIV – atendimento domiciliar, incluindo a internação, para a população que dele necessitar e esteja impossibilitada de se locomover, inclusive para as pessoas idosas abrigadas e acolhidas por instituições públicas, filantrópicas ou sem fins lucrativos e eventualmente conveniadas com o poder público, nos meios urbano e rural; (Redação dada pela Lei nº 14.423, de 2022)\nV – reabilitação orientada pela geriatria e gerontologia, para redução das seqüelas decorrentes do agravo da saúde.\n§ 2º Incumbe ao poder público fornecer às pessoas idosas, gratuitamente, medicamentos, especialmente os de uso continuado, assim como próteses, órteses e outros recursos relativos ao tratamento, habilitação ou reabilitação. (Redação dada pela Lei nº 14.423, de 2022)\n§ 3º É vedada a discriminação da pessoa idosa nos planos de saúde pela cobrança de valores diferenciados em razão da idade. (Redação dada pela Lei nº 14.423, de 2022)\n§ 4º As pessoas idosas com deficiência ou com limitação incapacitante terão atendimento especializado, nos termos da lei. (Redação dada pela Lei nº 14.423, de 2022)\n§ 5º É vedado exigir o comparecimento da pessoa idosa enferma perante os órgãos públicos, hipótese na qual será admitido o seguinte procedimento: (Redação dada pela Lei nº 14.423, de 2022)\nI - quando de interesse do poder público, o agente promoverá o contato necessário com a pessoa idosa em sua residência; ou (Redação dada pela Lei nº 14.423, de 2022)\nII - quando de interesse da própria pessoa idosa, esta se fará representar por procurador legalmente constituído. (Redação dada pela Lei nº 14.423, de 2022)\n§ 6º É assegurado à pessoa idosa enferma o atendimento domiciliar pela perícia médica do Instituto Nacional do Seguro Social (INSS), pelo serviço público de saúde ou pelo serviço privado de saúde, contratado ou conveniado, que integre o SUS, para expedição do laudo de saúde necessário ao exercício de seus direitos sociais e de isenção tributária. (Redação dada pela Lei nº 14.423, de 2022)\n§ 7º Em todo atendimento de saúde, os maiores de 80 (oitenta) anos terão preferência especial sobre as demais pessoas idosas, exceto em caso de emergência. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "e224584852ceac0c18eb95caab1eee899bf01bc71ace050c4f7bbaea236a7973"
+   "hash": "e224584852ceac0c18eb95caab1eee899bf01bc71ace050c4f7bbaea236a7973",
+   "ordem": 14
   },
   "16": {
    "texto": "Art. 16. À pessoa idosa internada ou em observação é assegurado o direito a acompanhante, devendo o órgão de saúde proporcionar as condições adequadas para a sua permanência em tempo integral, segundo o critério médico. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. Caberá ao profissional de saúde responsável pelo tratamento conceder autorização para o acompanhamento da pessoa idosa ou, no caso de impossibilidade, justificá-la por escrito. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "649b1c7546ca62b702ed93c5ea89d16b186b0fac1e0c1f00bea8246725074ffa"
+   "hash": "649b1c7546ca62b702ed93c5ea89d16b186b0fac1e0c1f00bea8246725074ffa",
+   "ordem": 15
   },
   "17": {
    "texto": "Art. 17. À pessoa idosa que esteja no domínio de suas faculdades mentais é assegurado o direito de optar pelo tratamento de saúde que lhe for reputado mais favorável. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. Não estando a pessoa idosa em condições de proceder à opção, esta será feita: (Redação dada pela Lei nº 14.423, de 2022)\nI – pelo curador, quando a pessoa idosa for interditada; (Redação dada pela Lei nº 14.423, de 2022)\nII – pelos familiares, quando a pessoa idosa não tiver curador ou este não puder ser contactado em tempo hábil; (Redação dada pela Lei nº 14.423, de 2022)\nIII – pelo médico, quando ocorrer iminente risco de vida e não houver tempo hábil para consulta a curador ou familiar;\nIV – pelo próprio médico, quando não houver curador ou familiar conhecido, caso em que deverá comunicar o fato ao Ministério Público.",
-   "hash": "caa3e96e7d143edac92b361dee3514d12903e536f8e375e993b8c254f53abf49"
+   "hash": "caa3e96e7d143edac92b361dee3514d12903e536f8e375e993b8c254f53abf49",
+   "ordem": 16
   },
   "18": {
    "texto": "Art. 18. As instituições de saúde devem atender aos critérios mínimos para o atendimento às necessidades da pessoa idosa, promovendo o treinamento e a capacitação dos profissionais, assim como orientação a cuidadores familiares e grupos de autoajuda. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "5774db09d8cfa685b2bacf07585d7a205f9261c0360767ec55917f607418c5ed"
+   "hash": "5774db09d8cfa685b2bacf07585d7a205f9261c0360767ec55917f607418c5ed",
+   "ordem": 17
   },
   "19": {
    "texto": "Art. 19. Os casos de suspeita ou confirmação de violência praticada contra pessoas idosas serão objeto de notificação compulsória pelos serviços de saúde públicos e privados à autoridade sanitária, bem como serão obrigatoriamente comunicados por eles a quaisquer dos seguintes órgãos: (Redação dada pela Lei nº 14.423, de 2022)\nI – autoridade policial;\nII – Ministério Público;\nIII – Conselho Municipal da Pessoa Idosa; (Redação dada pela Lei nº 14.423, de 2022)\nIV – Conselho Estadual da Pessoa Idosa; (Redação dada pela Lei nº 14.423, de 2022)\nV – Conselho Nacional da Pessoa Idosa. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º Para os efeitos desta Lei, considera-se violência contra a pessoa idosa qualquer ação ou omissão praticada em local público ou privado que lhe cause morte, dano ou sofrimento físico ou psicológico. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2o Aplica-se, no que couber, à notificação compulsória prevista no caput deste artigo, o disposto na Lei no 6.259, de 30 de outubro de 1975. (Incluído pela Lei nº 12.461, de 2011)\nCAPÍTULO V\nDa Educação, Cultura, Esporte e Lazer",
-   "hash": "2656da49293815e5b2472234307abf3e1f4d6882fa049dc8fd940d6c8f0ceb2d"
+   "hash": "2656da49293815e5b2472234307abf3e1f4d6882fa049dc8fd940d6c8f0ceb2d",
+   "ordem": 18
   },
   "20": {
    "texto": "Art. 20. A pessoa idosa tem direito a educação, cultura, esporte, lazer, diversões, espetáculos, produtos e serviços que respeitem sua peculiar condição de idade. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "d17aa1578c0e76e7c1fe83143cef1b0b831e5036d546ca1b7f5c2aa7df2e2346"
+   "hash": "d17aa1578c0e76e7c1fe83143cef1b0b831e5036d546ca1b7f5c2aa7df2e2346",
+   "ordem": 19
   },
   "21": {
    "texto": "Art. 21. O poder público criará oportunidades de acesso da pessoa idosa à educação, adequando currículos, metodologias e material didático aos programas educacionais a ela destinados. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º Os cursos especiais para pessoas idosas incluirão conteúdo relativo às técnicas de comunicação, computação e demais avanços tecnológicos, para sua integração à vida moderna. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2º As pessoas idosas participarão das comemorações de caráter cívico ou cultural, para transmissão de conhecimentos e vivências às demais gerações, no sentido da preservação da memória e da identidade culturais. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "8d220cf56cfbffafdfb02864290a3d30925b8ea9f9a0205a80ad599248ee7011"
+   "hash": "8d220cf56cfbffafdfb02864290a3d30925b8ea9f9a0205a80ad599248ee7011",
+   "ordem": 20
   },
   "22": {
    "texto": "Art. 22. Nos currículos mínimos dos diversos níveis de ensino formal serão inseridos conteúdos voltados ao processo de envelhecimento, ao respeito e à valorização da pessoa idosa, de forma a eliminar o preconceito e a produzir conhecimentos sobre a matéria. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "5d135e6a2c64198212550f240801eccfe436e83bdce0154d10fb3d9050c203e2"
+   "hash": "5d135e6a2c64198212550f240801eccfe436e83bdce0154d10fb3d9050c203e2",
+   "ordem": 21
   },
   "23": {
    "texto": "Art. 23. A participação das pessoas idosas em atividades culturais e de lazer será proporcionada mediante descontos de pelo menos 50% (cinquenta por cento) nos ingressos para eventos artísticos, culturais, esportivos e de lazer, bem como o acesso preferencial aos respectivos locais. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "ba6410c28c315665a47bcd3d1bfad5704c641ebf444a312fb169be59296a8b4a"
+   "hash": "ba6410c28c315665a47bcd3d1bfad5704c641ebf444a312fb169be59296a8b4a",
+   "ordem": 22
   },
   "24": {
    "texto": "Art. 24. Os meios de comunicação manterão espaços ou horários especiais voltados às pessoas idosas, com finalidade informativa, educativa, artística e cultural, e ao público sobre o processo de envelhecimento. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "926fe6e31e60f61b6378935b5443ba57bab906e7c6bcf38920c76583b044def1"
+   "hash": "926fe6e31e60f61b6378935b5443ba57bab906e7c6bcf38920c76583b044def1",
+   "ordem": 23
   },
   "25": {
    "texto": "Art. 25. As instituições de educação superior ofertarão às pessoas idosas, na perspectiva da educação ao longo da vida, cursos e programas de extensão, presenciais ou a distância, constituídos por atividades formais e não formais. (Redação dada pela lei nº 13.535, de 2017)\nParágrafo único. O poder público apoiará a criação de universidade aberta para as pessoas idosas e incentivará a publicação de livros e periódicos, de conteúdo e padrão editorial adequados à pessoa idosa, que facilitem a leitura, considerada a natural redução da capacidade visual. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO VI\nDa Profissionalização e do Trabalho",
-   "hash": "7206ef9134aa7358a68cd149af9b112e2dcf0e92bd87dca8129e801ee52d3a32"
+   "hash": "7206ef9134aa7358a68cd149af9b112e2dcf0e92bd87dca8129e801ee52d3a32",
+   "ordem": 24
   },
   "26": {
    "texto": "Art. 26. A pessoa idosa tem direito ao exercício de atividade profissional, respeitadas suas condições físicas, intelectuais e psíquicas. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "1ae1bac62d3b370f743d4dbd64a8dc5d492b5e7e4a8b6f973b19a02d74ab577a"
+   "hash": "1ae1bac62d3b370f743d4dbd64a8dc5d492b5e7e4a8b6f973b19a02d74ab577a",
+   "ordem": 25
   },
   "27": {
    "texto": "Art. 27. Na admissão da pessoa idosa em qualquer trabalho ou emprego, são vedadas a discriminação e a fixação de limite máximo de idade, inclusive para concursos, ressalvados os casos em que a natureza do cargo o exigir. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. O primeiro critério de desempate em concurso público será a idade, dando-se preferência ao de idade mais elevada.",
-   "hash": "82d0eea5f2e8c5f1f26265c923a2301195f0c3ac1a99105461da296adf01fd07"
+   "hash": "82d0eea5f2e8c5f1f26265c923a2301195f0c3ac1a99105461da296adf01fd07",
+   "ordem": 26
   },
   "28": {
    "texto": "Art. 28. O Poder Público criará e estimulará programas de:\nI – profissionalização especializada para as pessoas idosas, aproveitando seus potenciais e habilidades para atividades regulares e remuneradas; (Redação dada pela Lei nº 14.423, de 2022)\nII – preparação dos trabalhadores para a aposentadoria, com antecedência mínima de 1 (um) ano, por meio de estímulo a novos projetos sociais, conforme seus interesses, e de esclarecimento sobre os direitos sociais e de cidadania;\nIII – estímulo às empresas privadas para admissão de pessoas idosas ao trabalho. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO VII\nDa Previdência Social",
-   "hash": "9116ff15c5a36df086232932f64e4da4ac713dddba625fff5be1b6425d805647"
+   "hash": "9116ff15c5a36df086232932f64e4da4ac713dddba625fff5be1b6425d805647",
+   "ordem": 27
   },
   "29": {
    "texto": "Art. 29. Os benefícios de aposentadoria e pensão do Regime Geral da Previdência Social observarão, na sua concessão, critérios de cálculo que preservem o valor real dos salários sobre os quais incidiram contribuição, nos termos da legislação vigente.\nParágrafo único. Os valores dos benefícios em manutenção serão reajustados na mesma data de reajuste do salário-mínimo, pro rata, de acordo com suas respectivas datas de início ou do seu último reajustamento, com base em percentual definido em regulamento, observados os critérios estabelecidos pela Lei no 8.213, de 24 de julho de 1991.",
-   "hash": "87287c223e50d3825042ea615f78ca77dd570814d5bb00861c0118fc46d9cebe"
+   "hash": "87287c223e50d3825042ea615f78ca77dd570814d5bb00861c0118fc46d9cebe",
+   "ordem": 28
   },
   "30": {
    "texto": "Art. 30. A perda da condição de segurado não será considerada para a concessão da aposentadoria por idade, desde que a pessoa conte com, no mínimo, o tempo de contribuição correspondente ao exigido para efeito de carência na data de requerimento do benefício.\nParágrafo único. O cálculo do valor do benefício previsto no caput observará o disposto no caput e § 2o do art. 3o da Lei no 9.876, de 26 de novembro de 1999, ou, não havendo salários-de-contribuição recolhidos a partir da competência de julho de 1994, o disposto no art. 35 da Lei no 8.213, de 1991.",
-   "hash": "e5fb6d9a5f1ea8abe65bcc7b8bd5c779bd0931e3de0b588170f120f6b3629c24"
+   "hash": "e5fb6d9a5f1ea8abe65bcc7b8bd5c779bd0931e3de0b588170f120f6b3629c24",
+   "ordem": 29
   },
   "31": {
    "texto": "Art. 31. O pagamento de parcelas relativas a benefícios, efetuado com atraso por responsabilidade da Previdência Social, será atualizado pelo mesmo índice utilizado para os reajustamentos dos benefícios do Regime Geral de Previdência Social, verificado no período compreendido entre o mês que deveria ter sido pago e o mês do efetivo pagamento.",
-   "hash": "d3883fb33272c6f16cf2f7c00cd63dcc7529c57912c00ec784f423b5f7fcafcb"
+   "hash": "d3883fb33272c6f16cf2f7c00cd63dcc7529c57912c00ec784f423b5f7fcafcb",
+   "ordem": 30
   },
   "32": {
    "texto": "Art. 32. O Dia Mundial do Trabalho, 1o de Maio, é a data-base dos aposentados e pensionistas.\nCAPÍTULO VIII\nDa Assistência Social",
-   "hash": "19d71a86c56280cdb718ee3680700f882331a2a8b07465cca3aebcad15600d01"
+   "hash": "19d71a86c56280cdb718ee3680700f882331a2a8b07465cca3aebcad15600d01",
+   "ordem": 31
   },
   "33": {
    "texto": "Art. 33. A assistência social às pessoas idosas será prestada, de forma articulada, conforme os princípios e diretrizes previstos na Lei Orgânica da Assistência Social (Loas), na Política Nacional da Pessoa Idosa, no SUS e nas demais normas pertinentes (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "3bbb81d6d43e7b2e60ae9f23e3b85196400a2a8b40fe4a4a0d8e10e2ddd7cb22"
+   "hash": "3bbb81d6d43e7b2e60ae9f23e3b85196400a2a8b40fe4a4a0d8e10e2ddd7cb22",
+   "ordem": 32
   },
   "34": {
    "texto": "Art. 34. Às pessoas idosas, a partir de 65 (sessenta e cinco) anos, que não possuam meios para prover sua subsistência, nem de tê-la provida por sua família, é assegurado o benefício mensal de 1 (um) salário mínimo, nos termos da Loas. (Vide Decreto nº 6.214, de 2007) (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. O benefício já concedido a qualquer membro da família nos termos do caput não será computado para os fins do cálculo da renda familiar per capita a que se refere a Loas.",
-   "hash": "c00df31d9a4170c30d8103ee7027d08fce6e2de28012f693a6ea58a99e4317fa"
+   "hash": "c00df31d9a4170c30d8103ee7027d08fce6e2de28012f693a6ea58a99e4317fa",
+   "ordem": 33
   },
   "35": {
    "texto": "Art. 35. Todas as entidades de longa permanência, ou casa-lar, são obrigadas a firmar contrato de prestação de serviços com a pessoa idosa abrigada.\n§ 1º No caso de entidade filantrópica, ou casa-lar, é facultada a cobrança de participação da pessoa idosa no custeio da entidade. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2º O Conselho Municipal da Pessoa Idosa ou o Conselho Municipal da Assistência Social estabelecerá a forma de participação prevista no § 1º deste artigo, que não poderá exceder a 70% (setenta por cento) de qualquer benefício previdenciário ou de assistência social percebido pela pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\n§ 3o Se a pessoa idosa for incapaz, caberá a seu representante legal firmar o contrato a que se refere o caput deste artigo.",
-   "hash": "e7d5911adf79853ff6f02cb199ffb27b603f708505443b4ff02b805f1235b3e7"
+   "hash": "e7d5911adf79853ff6f02cb199ffb27b603f708505443b4ff02b805f1235b3e7",
+   "ordem": 34
   },
   "36": {
    "texto": "Art. 36. O acolhimento de pessoas idosas em situação de risco social, por adulto ou núcleo familiar, caracteriza a dependência econômica, para os efeitos legais. (Vigência) (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO IX\nDa Habitação",
-   "hash": "a2aad4e0d2d4740604f5e12ecae50023ba6a7527f0fe64c6c56c1225ff5e8c8c"
+   "hash": "a2aad4e0d2d4740604f5e12ecae50023ba6a7527f0fe64c6c56c1225ff5e8c8c",
+   "ordem": 35
   },
   "37": {
    "texto": "Art. 37. A pessoa idosa tem direito a moradia digna, no seio da família natural ou substituta, ou desacompanhada de seus familiares, quando assim o desejar, ou, ainda, em instituição pública ou privada. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1o A assistência integral na modalidade de entidade de longa permanência será prestada quando verificada inexistência de grupo familiar, casa-lar, abandono ou carência de recursos financeiros próprios ou da família.\n§ 2º Toda instituição dedicada ao atendimento à pessoa idosa fica obrigada a manter identificação externa visível, sob pena de interdição, além de atender toda a legislação pertinente. (Redação dada pela Lei nº 14.423, de 2022)\n§ 3º As instituições que abrigarem pessoas idosas são obrigadas a manter padrões de habitação compatíveis com as necessidades delas, bem como provê-las com alimentação regular e higiene indispensáveis às normas sanitárias e com estas condizentes, sob as penas da lei. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "b22fe877ae9cb30109d8c33074b4a98d66bc8dfd7a61f9877da6d5334fcc7dcd"
+   "hash": "b22fe877ae9cb30109d8c33074b4a98d66bc8dfd7a61f9877da6d5334fcc7dcd",
+   "ordem": 36
   },
   "38": {
    "texto": "Art. 38. Nos programas habitacionais, públicos ou subsidiados com recursos públicos, a pessoa idosa goza de prioridade na aquisição de imóvel para moradia própria, observado o seguinte: (Redação dada pela Lei nº 14.423, de 2022)\nI - reserva de pelo menos 3% (três por cento) das unidades habitacionais residenciais para atendimento às pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nII – implantação de equipamentos urbanos comunitários voltados à pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nIII – eliminação de barreiras arquitetônicas e urbanísticas, para garantia de acessibilidade à pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nIV – critérios de financiamento compatíveis com os rendimentos de aposentadoria e pensão.\nParágrafo único. As unidades residenciais reservadas para atendimento a pessoas idosas devem situar-se, preferencialmente, no pavimento térreo. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO X\nDo Transporte",
-   "hash": "82d0e574591dadd1a35cddf8a8d84e1b8c184e9a93b48ad908a465f3ff9a86f5"
+   "hash": "82d0e574591dadd1a35cddf8a8d84e1b8c184e9a93b48ad908a465f3ff9a86f5",
+   "ordem": 37
   },
   "39": {
    "texto": "Art. 39. Aos maiores de 65 (sessenta e cinco) anos fica assegurada a gratuidade dos transportes coletivos públicos urbanos e semi-urbanos, exceto nos serviços seletivos e especiais, quando prestados paralelamente aos serviços regulares.\n§ 1º Para ter acesso à gratuidade, basta que a pessoa idosa apresente qualquer documento pessoal que faça prova de sua idade. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2º Nos veículos de transporte coletivo de que trata este artigo, serão reservados 10% (dez por cento) dos assentos para as pessoas idosas, devidamente identificados com a placa de reservado preferencialmente para pessoas idosas. (Redação dada pela Lei nº 14.423, de 2022)\n§ 3o No caso das pessoas compreendidas na faixa etária entre 60 (sessenta) e 65 (sessenta e cinco) anos, ficará a critério da legislação local dispor sobre as condições para exercício da gratuidade nos meios de transporte previstos no caput deste artigo.",
-   "hash": "bdead7d720b7a6bf8c71ac429f3284f52757150105ddc9caf5caea0e2b704492"
+   "hash": "bdead7d720b7a6bf8c71ac429f3284f52757150105ddc9caf5caea0e2b704492",
+   "ordem": 38
   },
   "40": {
    "texto": "Art. 40. No sistema de transporte coletivo interestadual observar-se-á, nos termos da legislação específica: (Regulamento) (Vide Decreto nº 5.934, de 2006)\nI – a reserva de 2 (duas) vagas gratuitas por veículo para pessoas idosas com renda igual ou inferior a 2 (dois) salários mínimos; (Redação dada pela Lei nº 14.423, de 2022)\nII – desconto de 50% (cinquenta por cento), no mínimo, no valor das passagens, para as pessoas idosas que excederem as vagas gratuitas, com renda igual ou inferior a 2 (dois) salários mínimos. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. Caberá aos órgãos competentes definir os mecanismos e os critérios para o exercício dos direitos previstos nos incisos I e II.",
-   "hash": "cf13c61171e8e506b015cc1d49da2e46e60c93466714c6de223eaa34b50bd83d"
+   "hash": "cf13c61171e8e506b015cc1d49da2e46e60c93466714c6de223eaa34b50bd83d",
+   "ordem": 39
   },
   "41": {
    "texto": "Art. 41. É assegurada a reserva para as pessoas idosas, nos termos da lei local, de 5% (cinco por cento) das vagas nos estacionamentos públicos e privados, as quais deverão ser posicionadas de forma a garantir a melhor comodidade à pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "b4311f34bc42335f2ef22b0dab16f300c046e4f04f61e0bf7a49b0eb04180903"
+   "hash": "b4311f34bc42335f2ef22b0dab16f300c046e4f04f61e0bf7a49b0eb04180903",
+   "ordem": 40
   },
   "42": {
    "texto": "Art. 42. São asseguradas a prioridade e a segurança da pessoa idosa nos procedimentos de embarque e desembarque nos veículos do sistema de transporte coletivo. (Redação dada pela Lei nº 14.423, de 2022)\nTÍTULO III\nDas Medidas de Proteção\nCAPÍTULO I\nDas Disposições Gerais",
-   "hash": "f055051cc94489d0002fad9af3ad9702843f6b0ddc50fbd0f50c5ed10f050995"
+   "hash": "f055051cc94489d0002fad9af3ad9702843f6b0ddc50fbd0f50c5ed10f050995",
+   "ordem": 41
   },
   "43": {
    "texto": "Art. 43. As medidas de proteção à pessoa idosa são aplicáveis sempre que os direitos reconhecidos nesta Lei forem ameaçados ou violados: (Redação dada pela Lei nº 14.423, de 2022)\nI – por ação ou omissão da sociedade ou do Estado;\nII – por falta, omissão ou abuso da família, curador ou entidade de atendimento;\nIII – em razão de sua condição pessoal.\nCAPÍTULO II\nDas Medidas Específicas de Proteção",
-   "hash": "325722f669ff1f60db1c3544b43aebb098b8fe9a07cf3921c2f688bc0385f531"
+   "hash": "325722f669ff1f60db1c3544b43aebb098b8fe9a07cf3921c2f688bc0385f531",
+   "ordem": 42
   },
   "44": {
    "texto": "Art. 44. As medidas de proteção à pessoa idosa previstas nesta Lei poderão ser aplicadas, isolada ou cumulativamente, e levarão em conta os fins sociais a que se destinam e o fortalecimento dos vínculos familiares e comunitários. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "53cd1a4d9be8eae63080ebae921c90a3cdba3ea7a3e1c0612cdbdfc4dd6b47b8"
+   "hash": "53cd1a4d9be8eae63080ebae921c90a3cdba3ea7a3e1c0612cdbdfc4dd6b47b8",
+   "ordem": 43
   },
   "45": {
    "texto": "Art. 45. Verificada qualquer das hipóteses previstas no art. 43, o Ministério Público ou o Poder Judiciário, a requerimento daquele, poderá determinar, dentre outras, as seguintes medidas:\nI – encaminhamento à família ou curador, mediante termo de responsabilidade;\nII – orientação, apoio e acompanhamento temporários;\nIII – requisição para tratamento de sua saúde, em regime ambulatorial, hospitalar ou domiciliar;\nIV – inclusão em programa oficial ou comunitário de auxílio, orientação e tratamento a usuários dependentes de drogas lícitas ou ilícitas, à própria pessoa idosa ou à pessoa de sua convivência que lhe cause perturbação; (Redação dada pela Lei nº 14.423, de 2022)\nV – abrigo em entidade;\nVI – abrigo temporário.\nTÍTULO IV\nDa Política de Atendimento ao Idoso\nCAPÍTULO I\nDisposições Gerais",
-   "hash": "95a8a7ec65d22041cbcb9141688c7d7a382179a47d4bb2116084cdca78e931e6"
+   "hash": "95a8a7ec65d22041cbcb9141688c7d7a382179a47d4bb2116084cdca78e931e6",
+   "ordem": 44
   },
   "46": {
    "texto": "Art. 46. A política de atendimento à pessoa idosa far-se-á por meio do conjunto articulado de ações governamentais e não governamentais da União, dos Estados, do Distrito Federal e dos Municípios. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "e520eba61e86305e067471f9fb8264fb1be638b8070aa09b87773f2ae182fac4"
+   "hash": "e520eba61e86305e067471f9fb8264fb1be638b8070aa09b87773f2ae182fac4",
+   "ordem": 45
   },
   "47": {
    "texto": "Art. 47. São linhas de ação da política de atendimento:\nI – políticas sociais básicas, previstas na Lei no 8.842, de 4 de janeiro de 1994;\nII – políticas e programas de assistência social, em caráter supletivo, para aqueles que necessitarem;\nIII – serviços especiais de prevenção e atendimento às vítimas de negligência, maus-tratos, exploração, abuso, crueldade e opressão;\nIV – serviço de identificação e localização de parentes ou responsáveis por pessoas idosas abandonados em hospitais e instituições de longa permanência; (Redação dada pela Lei nº 14.423, de 2022)\nV – proteção jurídico-social por entidades de defesa dos direitos das pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nVI – mobilização da opinião pública no sentido da participação dos diversos segmentos da sociedade no atendimento da pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO II\nDas Entidades de Atendimento ao Idoso",
-   "hash": "04b2ef3a1bc162e880e5339c1132f701a938fe115fab6bad50f1d6bbfc2e2b1e"
+   "hash": "04b2ef3a1bc162e880e5339c1132f701a938fe115fab6bad50f1d6bbfc2e2b1e",
+   "ordem": 46
   },
   "48": {
    "texto": "Art. 48. As entidades de atendimento são responsáveis pela manutenção das próprias unidades, observadas as normas de planejamento e execução emanadas do órgão competente da Política Nacional da Pessoa Idosa, conforme a Lei nº 8.842, de 4 de janeiro de 1994. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. As entidades governamentais e não governamentais de assistência à pessoa idosa ficam sujeitas à inscrição de seus programas perante o órgão competente da Vigilância Sanitária e o Conselho Municipal da Pessoa Idosa e, em sua falta, perante o Conselho Estadual ou Nacional da Pessoa Idosa, especificando os regimes de atendimento, observados os seguintes requisitos: (Redação dada pela Lei nº 14.423, de 2022)\nI – oferecer instalações físicas em condições adequadas de habitabilidade, higiene, salubridade e segurança;\nII – apresentar objetivos estatutários e plano de trabalho compatíveis com os princípios desta Lei;\nIII – estar regularmente constituída;\nIV – demonstrar a idoneidade de seus dirigentes.",
-   "hash": "31902c447dc13885b68f6b662460ea736c41f44d7d1cf44ec65440f0b0ef9633"
+   "hash": "31902c447dc13885b68f6b662460ea736c41f44d7d1cf44ec65440f0b0ef9633",
+   "ordem": 47
   },
   "49": {
    "texto": "Art. 49. As entidades que desenvolvam programas de institucionalização de longa permanência adotarão os seguintes princípios:\nI – preservação dos vínculos familiares;\nII – atendimento personalizado e em pequenos grupos;\nIII – manutenção da pessoa idosa na mesma instituição, salvo em caso de força maior; (Redação dada pela Lei nº 14.423, de 2022)\nIV – participação da pessoa idosa nas atividades comunitárias, de caráter interno e externo; (Redação dada pela Lei nº 14.423, de 2022)\nV – observância dos direitos e garantias das pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nVI – preservação da identidade da pessoa idosa e oferecimento de ambiente de respeito e dignidade. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. O dirigente de instituição prestadora de atendimento à pessoa idosa responderá civil e criminalmente pelos atos que praticar em detrimento da pessoa idosa, sem prejuízo das sanções administrativas. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "6f5577e9b9d954c11ac6722e5f6c46a0a774a97630f342670d6f2ee8aa9504bb"
+   "hash": "6f5577e9b9d954c11ac6722e5f6c46a0a774a97630f342670d6f2ee8aa9504bb",
+   "ordem": 48
   },
   "50": {
    "texto": "Art. 50. Constituem obrigações das entidades de atendimento:\nI – celebrar contrato escrito de prestação de serviço com a pessoa idosa, especificando o tipo de atendimento, as obrigações da entidade e prestações decorrentes do contrato, com os respectivos preços, se for o caso; (Redação dada pela Lei nº 14.423, de 2022)\nII – observar os direitos e as garantias de que são titulares as pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nIII – fornecer vestuário adequado, se for pública, e alimentação suficiente;\nIV – oferecer instalações físicas em condições adequadas de habitabilidade;\nV – oferecer atendimento personalizado;\nVI – diligenciar no sentido da preservação dos vínculos familiares;\nVII – oferecer acomodações apropriadas para recebimento de visitas;\nVIII – proporcionar cuidados à saúde, conforme a necessidade da pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nIX – promover atividades educacionais, esportivas, culturais e de lazer;\nX – propiciar assistência religiosa àqueles que desejarem, de acordo com suas crenças;\nXI – proceder a estudo social e pessoal de cada caso;\nXII – comunicar à autoridade competente de saúde toda ocorrência de pessoa idosa com doenças infectocontagiosas; (Redação dada pela Lei nº 14.423, de 2022)\nXIII – providenciar ou solicitar que o Ministério Público requisite os documentos necessários ao exercício da cidadania àqueles que não os tiverem, na forma da lei;\nXIV – fornecer comprovante de depósito dos bens móveis que receberem das pessoas idosas; (Redação dada pela Lei nº 14.423, de 2022)\nXV – manter arquivo de anotações no qual constem data e circunstâncias do atendimento, nome da pessoa idosa, responsável, parentes, endereços, cidade, relação de seus pertences, bem como o valor de contribuições, e suas alterações, se houver, e demais dados que possibilitem sua identificação e a individualização do atendimento; (Redação dada pela Lei nº 14.423, de 2022)\nXVI – comunicar ao Ministério Público, para as providências cabíveis, a situação de abandono moral ou material por parte dos familiares;\nXVII – manter no quadro de pessoal profissionais com formação específica.",
-   "hash": "4d317158acd1a3c8c7dec435878a7ff245eb39f499c58c2656b0ea1d82a30bf8"
+   "hash": "4d317158acd1a3c8c7dec435878a7ff245eb39f499c58c2656b0ea1d82a30bf8",
+   "ordem": 49
   },
   "51": {
    "texto": "Art. 51. As instituições filantrópicas ou sem fins lucrativos prestadoras de serviço às pessoas idosas terão direito à assistência judiciária gratuita. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO III\nDa Fiscalização das Entidades de Atendimento",
-   "hash": "ea290fc55d5a455e853a6d872a234ffe730323632d41cb2c5437aac2c5a986fe"
+   "hash": "ea290fc55d5a455e853a6d872a234ffe730323632d41cb2c5437aac2c5a986fe",
+   "ordem": 50
   },
   "52": {
    "texto": "Art. 52. As entidades governamentais e não governamentais de atendimento à pessoa idosa serão fiscalizadas pelos Conselhos da Pessoa Idosa, Ministério Público, Vigilância Sanitária e outros previstos em lei. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "60eb133069ecf7ba561c1d54479321405fd92a0e11c1f592a79ba6657836f9d1"
+   "hash": "60eb133069ecf7ba561c1d54479321405fd92a0e11c1f592a79ba6657836f9d1",
+   "ordem": 51
   },
   "53": {
    "texto": "Art. 53. O art. 7o da Lei no 8.842, de 1994, passa a vigorar com a seguinte redação:\n\"Art. 7o Compete aos Conselhos de que trata o art. 6o desta Lei a supervisão, o acompanhamento, a fiscalização e a avaliação da política nacional do idoso, no âmbito das respectivas instâncias político-administrativas.\" (NR)",
-   "hash": "fb0c2b83e230d6ed911f19aaae3688808bff35354eb84aeb13101af5cfb704f0"
+   "hash": "fb0c2b83e230d6ed911f19aaae3688808bff35354eb84aeb13101af5cfb704f0",
+   "ordem": 52
   },
   "54": {
    "texto": "Art. 54. Será dada publicidade das prestações de contas dos recursos públicos e privados recebidos pelas entidades de atendimento.",
-   "hash": "0581b90e257e562c9342b852a35de41bba0d0408fab44c8881b541f64093b5fc"
+   "hash": "0581b90e257e562c9342b852a35de41bba0d0408fab44c8881b541f64093b5fc",
+   "ordem": 53
   },
   "55": {
    "texto": "Art. 55. As entidades de atendimento que descumprirem as determinações desta Lei ficarão sujeitas, sem prejuízo da responsabilidade civil e criminal de seus dirigentes ou prepostos, às seguintes penalidades, observado o devido processo legal:\nI – as entidades governamentais:\na) advertência;\nb) afastamento provisório de seus dirigentes;\nc) afastamento definitivo de seus dirigentes;\nd) fechamento de unidade ou interdição de programa;\nII – as entidades não-governamentais:\na) advertência;\nb) multa;\nc) suspensão parcial ou total do repasse de verbas públicas;\nd) interdição de unidade ou suspensão de programa;\ne) proibição de atendimento a pessoas idosas a bem do interesse público. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1º Havendo danos às pessoas idosas abrigadas ou qualquer tipo de fraude em relação ao programa, caberá o afastamento provisório dos dirigentes ou a interdição da unidade e a suspensão do programa. (Redação dada pela Lei nº 14.423, de 2022)\n§ 2o A suspensão parcial ou total do repasse de verbas públicas ocorrerá quando verificada a má aplicação ou desvio de finalidade dos recursos.\n§ 3º Na ocorrência de infração por entidade de atendimento que coloque em risco os direitos assegurados nesta Lei, será o fato comunicado ao Ministério Público, para as providências cabíveis, inclusive para promover a suspensão das atividades ou dissolução da entidade, com a proibição de atendimento a pessoas idosas a bem do interesse público, sem prejuízo das providências a serem tomadas pela Vigilância Sanitária. (Redação dada pela Lei nº 14.423, de 2022)\n§ 4º Na aplicação das penalidades, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a pessoa idosa, as circunstâncias agravantes ou atenuantes e os antecedentes da entidade. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO IV\nDas Infrações Administrativas",
-   "hash": "5c6eeadaf8714edb90c5c54c08a3e765d5a7d772e7cecbc61fcade8d59f43b25"
+   "hash": "5c6eeadaf8714edb90c5c54c08a3e765d5a7d772e7cecbc61fcade8d59f43b25",
+   "ordem": 54
   },
   "56": {
    "texto": "Art. 56. Deixar a entidade de atendimento de cumprir as determinações do art. 50 desta Lei:\nPena – multa de R$ 500,00 (quinhentos reais) a R$ 3.000,00 (três mil reais), se o fato não for caracterizado como crime, podendo haver a interdição do estabelecimento até que sejam cumpridas as exigências legais.\nParágrafo único. No caso de interdição do estabelecimento de longa permanência, as pessoas idosas abrigadas serão transferidas para outra instituição, a expensas do estabelecimento interditado, enquanto durar a interdição. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "a7cdd771526f6a74a97831aab964ea6331f45122be463c8e4d68fafa683f6f00"
+   "hash": "a7cdd771526f6a74a97831aab964ea6331f45122be463c8e4d68fafa683f6f00",
+   "ordem": 55
   },
   "57": {
    "texto": "Art. 57. Deixar o profissional de saúde ou o responsável por estabelecimento de saúde ou instituição de longa permanência de comunicar à autoridade competente os casos de crimes contra pessoa idosa de que tiver conhecimento: (Redação dada pela Lei nº 14.423, de 2022)\nPena – multa de R$ 500,00 (quinhentos reais) a R$ 3.000,00 (três mil reais), aplicada em dobro no caso de reincidência.",
-   "hash": "8baccfc6c953abc268d4a024b3dc3d87655f9dcd964cf1f79eb9a0d64d7cd333"
+   "hash": "8baccfc6c953abc268d4a024b3dc3d87655f9dcd964cf1f79eb9a0d64d7cd333",
+   "ordem": 56
   },
   "58": {
    "texto": "Art. 58. Deixar de cumprir as determinações desta Lei sobre a prioridade no atendimento à pessoa idosa: (Redação dada pela Lei nº 14.423, de 2022)\nPena – multa de R$ 500,00 (quinhentos reais) a R$ 1.000,00 (mil reais) e multa civil a ser estipulada pelo juiz, conforme o dano sofrido pela pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO V\nDa Apuração Administrativa de Infração às\nNormas de Proteção à Pessoa Idosa\n(Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "07eebd69859cabc8e40dc777e23d0425e4a753f40efaaf27aff33b7deaf59f4e"
+   "hash": "07eebd69859cabc8e40dc777e23d0425e4a753f40efaaf27aff33b7deaf59f4e",
+   "ordem": 57
   },
   "59": {
    "texto": "Art. 59. Os valores monetários expressos no Capítulo IV serão atualizados anualmente, na forma da lei.",
-   "hash": "a743444e678b6ca1ec16e9b9bd750aa1d942bbd88fa1a7e55adcccb3394405f6"
+   "hash": "a743444e678b6ca1ec16e9b9bd750aa1d942bbd88fa1a7e55adcccb3394405f6",
+   "ordem": 58
   },
   "60": {
    "texto": "Art. 60. O procedimento para a imposição de penalidade administrativa por infração às normas de proteção à pessoa idosa terá início com requisição do Ministério Público ou auto de infração elaborado por servidor efetivo e assinado, se possível, por 2 (duas) testemunhas. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1o No procedimento iniciado com o auto de infração poderão ser usadas fórmulas impressas, especificando-se a natureza e as circunstâncias da infração.\n§ 2o Sempre que possível, à verificação da infração seguir-se-á a lavratura do auto, ou este será lavrado dentro de 24 (vinte e quatro) horas, por motivo justificado.",
-   "hash": "727130536831a69c06a7e6fd182944fae8e782cafacc4e9615e9bdcf3d60b7a4"
+   "hash": "727130536831a69c06a7e6fd182944fae8e782cafacc4e9615e9bdcf3d60b7a4",
+   "ordem": 59
   },
   "61": {
    "texto": "Art. 61. O autuado terá prazo de 10 (dez) dias para a apresentação da defesa, contado da data da intimação, que será feita:\nI – pelo autuante, no instrumento de autuação, quando for lavrado na presença do infrator;\nII – por via postal, com aviso de recebimento.",
-   "hash": "bd544e5e02d4f9b0fd911791c037c716ca31c20e57f270df365351ddd9e9d8b1"
+   "hash": "bd544e5e02d4f9b0fd911791c037c716ca31c20e57f270df365351ddd9e9d8b1",
+   "ordem": 60
   },
   "62": {
    "texto": "Art. 62. Havendo risco para a vida ou à saúde da pessoa idosa, a autoridade competente aplicará à entidade de atendimento as sanções regulamentares, sem prejuízo da iniciativa e das providências que vierem a ser adotadas pelo Ministério Público ou pelas demais instituições legitimadas para a fiscalização. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "280d3e37696cf7e9b8e87cb7d70205e1c04c84b9ef1be80d4e5716b132caa5dd"
+   "hash": "280d3e37696cf7e9b8e87cb7d70205e1c04c84b9ef1be80d4e5716b132caa5dd",
+   "ordem": 61
   },
   "63": {
    "texto": "Art. 63. Nos casos em que não houver risco para a vida ou a saúde da pessoa idosa abrigada, a autoridade competente aplicará à entidade de atendimento as sanções regulamentares, sem prejuízo da iniciativa e das providências que vierem a ser adotadas pelo Ministério Público ou pelas demais instituições legitimadas para a fiscalização.\nCAPÍTULO VI\nDa Apuração Judicial de Irregularidades em Entidade de Atendimento",
-   "hash": "17ffbeeff87e7fba1f72b2313e0a909be64ed43d5b754fddb38ce3aeb3db8563"
+   "hash": "17ffbeeff87e7fba1f72b2313e0a909be64ed43d5b754fddb38ce3aeb3db8563",
+   "ordem": 62
   },
   "64": {
    "texto": "Art. 64. Aplicam-se, subsidiariamente, ao procedimento administrativo de que trata este Capítulo as disposições das Leis nos 6.437, de 20 de agosto de 1977, e 9.784, de 29 de janeiro de 1999.",
-   "hash": "7c4ea6b51cc4ba1ee65fd9ed60186ba145eb7d8fc3434dcd77347dac97d1a3af"
+   "hash": "7c4ea6b51cc4ba1ee65fd9ed60186ba145eb7d8fc3434dcd77347dac97d1a3af",
+   "ordem": 63
   },
   "65": {
    "texto": "Art. 65. O procedimento de apuração de irregularidade em entidade governamental e não governamental de atendimento à pessoa idosa terá início mediante petição fundamentada de pessoa interessada ou iniciativa do Ministério Público. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "331218c9de4c9c07fc83ec6470637a47a229dfe14ae4f5c5be44075f0ce2b2c5"
+   "hash": "331218c9de4c9c07fc83ec6470637a47a229dfe14ae4f5c5be44075f0ce2b2c5",
+   "ordem": 64
   },
   "66": {
    "texto": "Art. 66. Havendo motivo grave, poderá a autoridade judiciária, ouvido o Ministério Público, decretar liminarmente o afastamento provisório do dirigente da entidade ou outras medidas que julgar adequadas, para evitar lesão aos direitos da pessoa idosa, mediante decisão fundamentada. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "9e3b9e3189dffe831c41a32f06e1fb93d9ab358396d9980b964c18e26c86e9ec"
+   "hash": "9e3b9e3189dffe831c41a32f06e1fb93d9ab358396d9980b964c18e26c86e9ec",
+   "ordem": 65
   },
   "67": {
    "texto": "Art. 67. O dirigente da entidade será citado para, no prazo de 10 (dez) dias, oferecer resposta escrita, podendo juntar documentos e indicar as provas a produzir.",
-   "hash": "8847d171abdb2f0850b936b670efdc17a60f091216fee213031952fee384843a"
+   "hash": "8847d171abdb2f0850b936b670efdc17a60f091216fee213031952fee384843a",
+   "ordem": 66
   },
   "68": {
    "texto": "Art. 68. Apresentada a defesa, o juiz procederá na conformidade do art. 69 ou, se necessário, designará audiência de instrução e julgamento, deliberando sobre a necessidade de produção de outras provas.\n§ 1o Salvo manifestação em audiência, as partes e o Ministério Público terão 5 (cinco) dias para oferecer alegações finais, decidindo a autoridade judiciária em igual prazo.\n§ 2o Em se tratando de afastamento provisório ou definitivo de dirigente de entidade governamental, a autoridade judiciária oficiará a autoridade administrativa imediatamente superior ao afastado, fixando-lhe prazo de 24 (vinte e quatro) horas para proceder à substituição.\n§ 3o Antes de aplicar qualquer das medidas, a autoridade judiciária poderá fixar prazo para a remoção das irregularidades verificadas. Satisfeitas as exigências, o processo será extinto, sem julgamento do mérito.\n§ 4o A multa e a advertência serão impostas ao dirigente da entidade ou ao responsável pelo programa de atendimento.\nTÍTULO V\nDo Acesso à Justiça\nCAPÍTULO I\nDisposições Gerais",
-   "hash": "7a4dc5238cd3cf7137fc4b890cf1ca75c5fb5f08f07a02f3e086c2a683f80ef0"
+   "hash": "7a4dc5238cd3cf7137fc4b890cf1ca75c5fb5f08f07a02f3e086c2a683f80ef0",
+   "ordem": 67
   },
   "69": {
    "texto": "Art. 69. Aplica-se, subsidiariamente, às disposições deste Capítulo, o procedimento sumário previsto no Código de Processo Civil, naquilo que não contrarie os prazos previstos nesta Lei.",
-   "hash": "c6652a912ac75ba7869bff4109016b5136b4b1212052a7897ec068461527b620"
+   "hash": "c6652a912ac75ba7869bff4109016b5136b4b1212052a7897ec068461527b620",
+   "ordem": 68
   },
   "70": {
    "texto": "Art. 70. O poder público poderá criar varas especializadas e exclusivas da pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "3caafce2e19cbd8b5c69a27af15eb13ea6eccb69ebfde2eaaca22537e8ce4e4c"
+   "hash": "3caafce2e19cbd8b5c69a27af15eb13ea6eccb69ebfde2eaaca22537e8ce4e4c",
+   "ordem": 69
   },
   "71": {
    "texto": "Art. 71. É assegurada prioridade na tramitação dos processos e procedimentos e na execução dos atos e diligências judiciais em que figure como parte ou interveniente pessoa com idade igual ou superior a 60 (sessenta) anos, em qualquer instância.\n§ 1o O interessado na obtenção da prioridade a que alude este artigo, fazendo prova de sua idade, requererá o benefício à autoridade judiciária competente para decidir o feito, que determinará as providências a serem cumpridas, anotando-se essa circunstância em local visível nos autos do processo.\n§ 2o A prioridade não cessará com a morte do beneficiado, estendendo-se em favor do cônjuge supérstite, companheiro ou companheira, com união estável, maior de 60 (sessenta) anos.\n§ 3o A prioridade se estende aos processos e procedimentos na Administração Pública, empresas prestadoras de serviços públicos e instituições financeiras, ao atendimento preferencial junto à Defensoria Publica da União, dos Estados e do Distrito Federal em relação aos Serviços de Assistência Judiciária.\n§ 4º Para o atendimento prioritário, será garantido à pessoa idosa o fácil acesso aos assentos e caixas, identificados com a destinação a pessoas idosas em local visível e caracteres legíveis. (Redação dada pela Lei nº 14.423, de 2022)\n§ 5º Dentre os processos de pessoas idosas, dar-se-á prioridade especial aos das maiores de 80 (oitenta) anos. (Redação dada pela Lei nº 14.423, de 2022)\nCAPÍTULO II\nDo Ministério Público",
-   "hash": "069072e1f4bcb0be92ae3ccaf740a98fcaf7b60f64764c71e6e50bd5c3618953"
+   "hash": "069072e1f4bcb0be92ae3ccaf740a98fcaf7b60f64764c71e6e50bd5c3618953",
+   "ordem": 70
   },
   "72": {
    "texto": "Art. 72. (VETADO)",
-   "hash": "8fc57bf316fecc40cb4e7846232911ea74849e5ce9a51ec9d54ffbc491daa4eb"
+   "hash": "8fc57bf316fecc40cb4e7846232911ea74849e5ce9a51ec9d54ffbc491daa4eb",
+   "ordem": 71
   },
   "73": {
    "texto": "Art. 73. As funções do Ministério Público, previstas nesta Lei, serão exercidas nos termos da respectiva Lei Orgânica.",
-   "hash": "69ea3ac0168611906298a73673db7321d36f58d887332cb66870b4476c3acbc5"
+   "hash": "69ea3ac0168611906298a73673db7321d36f58d887332cb66870b4476c3acbc5",
+   "ordem": 72
   },
   "74": {
    "texto": "Art. 74. Compete ao Ministério Público:\nI – instaurar o inquérito civil e a ação civil pública para a proteção dos direitos e interesses difusos ou coletivos, individuais indisponíveis e individuais homogêneos da pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nII – promover e acompanhar as ações de alimentos, de interdição total ou parcial, de designação de curador especial, em circunstâncias que justifiquem a medida e oficiar em todos os feitos em que se discutam os direitos das pessoas idosas em condições de risco; (Redação dada pela Lei nº 14.423, de 2022)\nIII – atuar como substituto processual da pessoa idosa em situação de risco, conforme o disposto no art. 43 desta Lei; (Redação dada pela Lei nº 14.423, de 2022)\nIV – promover a revogação de instrumento procuratório da pessoa idosa, nas hipóteses previstas no art. 43 desta Lei, quando necessário ou o interesse público justificar; (Redação dada pela Lei nº 14.423, de 2022)\nV – instaurar procedimento administrativo e, para instruí-lo:\na) expedir notificações, colher depoimentos ou esclarecimentos e, em caso de não comparecimento injustificado da pessoa notificada, requisitar condução coercitiva, inclusive pela Polícia Civil ou Militar;\nb) requisitar informações, exames, perícias e documentos de autoridades municipais, estaduais e federais, da administração direta e indireta, bem como promover inspeções e diligências investigatórias;\nc) requisitar informações e documentos particulares de instituições privadas;\nVI – instaurar sindicâncias, requisitar diligências investigatórias e a instauração de inquérito policial, para a apuração de ilícitos ou infrações às normas de proteção à pessoa idosa; (Redação dada pela Lei nº 14.423, de 2022)\nVII – zelar pelo efetivo respeito aos direitos e garantias legais assegurados à pessoa idosa, promovendo as medidas judiciais e extrajudiciais cabíveis; (Redação dada pela Lei nº 14.423, de 2022)\nVIII – inspecionar as entidades públicas e particulares de atendimento e os programas de que trata esta Lei, adotando de pronto as medidas administrativas ou judiciais necessárias à remoção de irregularidades porventura verificadas;\nIX – requisitar força policial, bem como a colaboração dos serviços de saúde, educacionais e de assistência social, públicos, para o desempenho de suas atribuições;\nX – referendar transações envolvendo interesses e direitos das pessoas idosas previstos nesta Lei. (Redação dada pela Lei nº 14.423, de 2022)\n§ 1o A legitimação do Ministério Público para as ações cíveis previstas neste artigo não impede a de terceiros, nas mesmas hipóteses, segundo dispuser a lei.\n§ 2o As atribuições constantes deste artigo não excluem outras, desde que compatíveis com a finalidade e atribuições do Ministério Público.\n§ 3º O representante do Ministério Público, no exercício de suas funções, terá livre acesso a toda entidade de atendimento à pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "d06ab8f37efa1117f0ab44df13b012479e42d2849f4034847f39f41d6eb5253c"
+   "hash": "d06ab8f37efa1117f0ab44df13b012479e42d2849f4034847f39f41d6eb5253c",
+   "ordem": 73
   },
   "75": {
    "texto": "Art. 75. Nos processos e procedimentos em que não for parte, atuará obrigatoriamente o Ministério Público na defesa dos direitos e interesses de que cuida esta Lei, hipóteses em que terá vista dos autos depois das partes, podendo juntar documentos, requerer diligências e produção de outras provas, usando os recursos cabíveis.",
-   "hash": "cc584d79c04c90856c99813317656e2b8c355cf98234e79da729a36552a23d62"
+   "hash": "cc584d79c04c90856c99813317656e2b8c355cf98234e79da729a36552a23d62",
+   "ordem": 74
   },
   "76": {
    "texto": "Art. 76. A intimação do Ministério Público, em qualquer caso, será feita pessoalmente.",
-   "hash": "9cc664fe4aac29d09ed14307503d659d2fb9c9c4db3acb24a094e5e33ddc4108"
+   "hash": "9cc664fe4aac29d09ed14307503d659d2fb9c9c4db3acb24a094e5e33ddc4108",
+   "ordem": 75
   },
   "77": {
    "texto": "Art. 77. A falta de intervenção do Ministério Público acarreta a nulidade do feito, que será declarada de ofício pelo juiz ou a requerimento de qualquer interessado.\nCAPÍTULO III\nDa Proteção Judicial dos Interesses Difusos, Coletivos e Individuais Indisponíveis ou Homogêneos",
-   "hash": "911f018d2a374cb5fde1ff70882bcb6df8c51ee6f5128b7597d0e93ed3b7db0d"
+   "hash": "911f018d2a374cb5fde1ff70882bcb6df8c51ee6f5128b7597d0e93ed3b7db0d",
+   "ordem": 76
   },
   "78": {
    "texto": "Art. 78. As manifestações processuais do representante do Ministério Público deverão ser fundamentadas.",
-   "hash": "8a27da610c5776822510f93ab766c9dcbf2c7c5e86dec5271e5a93bdd24ec90a"
+   "hash": "8a27da610c5776822510f93ab766c9dcbf2c7c5e86dec5271e5a93bdd24ec90a",
+   "ordem": 77
   },
   "79": {
    "texto": "Art. 79. Regem-se pelas disposições desta Lei as ações de responsabilidade por ofensa aos direitos assegurados à pessoa idosa, referentes à omissão ou ao oferecimento insatisfatório de: (Redação dada pela Lei nº 14.423, de 2022)\nI – acesso às ações e serviços de saúde;\nII – atendimento especializado à pessoa idosa com deficiência ou com limitação incapacitante; (Redação dada pela Lei nº 14.423, de 2022)\nIII – atendimento especializado à pessoa idosa com doença infectocontagiosa; (Redação dada pela Lei nº 14.423, de 2022)\nIV – serviço de assistência social visando ao amparo da pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. As hipóteses previstas neste artigo não excluem da proteção judicial outros interesses difusos, coletivos, individuais indisponíveis ou homogêneos, próprios da pessoa idosa, protegidos em lei. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "e4cf2c663c2170dc281048ede2da528620c2fdc8b9211d592adf86a914337d95"
+   "hash": "e4cf2c663c2170dc281048ede2da528620c2fdc8b9211d592adf86a914337d95",
+   "ordem": 78
   },
   "80": {
    "texto": "Art. 80. As ações previstas neste Capítulo serão propostas no foro do domicílio da pessoa idosa, cujo juízo terá competência absoluta para processar a causa, ressalvadas as competências da Justiça Federal e a competência originária dos Tribunais Superiores. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "925dba83fb03b6b887268531a50689ee691828388c9b1d237da686665d902a84"
+   "hash": "925dba83fb03b6b887268531a50689ee691828388c9b1d237da686665d902a84",
+   "ordem": 79
   },
   "81": {
    "texto": "Art. 81. Para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos, consideram-se legitimados, concorrentemente:\nI – o Ministério Público;\nII – a União, os Estados, o Distrito Federal e os Municípios;\nIII – a Ordem dos Advogados do Brasil;\nIV – as associações legalmente constituídas há pelo menos 1 (um) ano e que incluam entre os fins institucionais a defesa dos interesses e direitos da pessoa idosa, dispensada a autorização da assembléia, se houver prévia autorização estatutária.\n§ 1o Admitir-se-á litisconsórcio facultativo entre os Ministérios Públicos da União e dos Estados na defesa dos interesses e direitos de que cuida esta Lei.\n§ 2o Em caso de desistência ou abandono da ação por associação legitimada, o Ministério Público ou outro legitimado deverá assumir a titularidade ativa.",
-   "hash": "56705dddfb8de7b83ef21848e79ad81f423d1ded6b7a97ae8af9fb4bf58ca546"
+   "hash": "56705dddfb8de7b83ef21848e79ad81f423d1ded6b7a97ae8af9fb4bf58ca546",
+   "ordem": 80
   },
   "82": {
    "texto": "Art. 82. Para defesa dos interesses e direitos protegidos por esta Lei, são admissíveis todas as espécies de ação pertinentes.\nParágrafo único. Contra atos ilegais ou abusivos de autoridade pública ou agente de pessoa jurídica no exercício de atribuições de Poder Público, que lesem direito líquido e certo previsto nesta Lei, caberá ação mandamental, que se regerá pelas normas da lei do mandado de segurança.",
-   "hash": "ec2248c47445c798eeff5b6019edc1412b9723c3180eddce46beec70e2191649"
+   "hash": "ec2248c47445c798eeff5b6019edc1412b9723c3180eddce46beec70e2191649",
+   "ordem": 81
   },
   "83": {
    "texto": "Art. 83. Na ação que tenha por objeto o cumprimento de obrigação de fazer ou não-fazer, o juiz concederá a tutela específica da obrigação ou determinará providências que assegurem o resultado prático equivalente ao adimplemento.\n§ 1o Sendo relevante o fundamento da demanda e havendo justificado receio de ineficácia do provimento final, é lícito ao juiz conceder a tutela liminarmente ou após justificação prévia, na forma do art. 273 do Código de Processo Civil.\n§ 2o O juiz poderá, na hipótese do § 1o ou na sentença, impor multa diária ao réu, independentemente do pedido do autor, se for suficiente ou compatível com a obrigação, fixando prazo razoável para o cumprimento do preceito.\n§ 3o A multa só será exigível do réu após o trânsito em julgado da sentença favorável ao autor, mas será devida desde o dia em que se houver configurado.",
-   "hash": "7b197d9d97465d40d737255b80b38aae84d3bb79df1295976b388cd783a971a2"
+   "hash": "7b197d9d97465d40d737255b80b38aae84d3bb79df1295976b388cd783a971a2",
+   "ordem": 82
   },
   "84": {
    "texto": "Art. 84. Os valores das multas previstas nesta Lei reverterão ao Fundo da Pessoa Idosa, onde houver, ou na falta deste, ao Fundo Municipal de Assistência Social, ficando vinculados ao atendimento à pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)\nParágrafo único. As multas não recolhidas até 30 (trinta) dias após o trânsito em julgado da decisão serão exigidas por meio de execução promovida pelo Ministério Público, nos mesmos autos, facultada igual iniciativa aos demais legitimados em caso de inércia daquele.",
-   "hash": "e77cfa0042cc9cb14c86b4bac4bbeccae7b5a1b42779007b01f288adb415b1af"
+   "hash": "e77cfa0042cc9cb14c86b4bac4bbeccae7b5a1b42779007b01f288adb415b1af",
+   "ordem": 83
   },
   "85": {
    "texto": "Art. 85. O juiz poderá conferir efeito suspensivo aos recursos, para evitar dano irreparável à parte.",
-   "hash": "e7bc3c79e30d94e524d08968420d0b15644dccf40f9dfdf3905c25ef0d590683"
+   "hash": "e7bc3c79e30d94e524d08968420d0b15644dccf40f9dfdf3905c25ef0d590683",
+   "ordem": 84
   },
   "86": {
    "texto": "Art. 86. Transitada em julgado a sentença que impuser condenação ao Poder Público, o juiz determinará a remessa de peças à autoridade competente, para apuração da responsabilidade civil e administrativa do agente a que se atribua a ação ou omissão.",
-   "hash": "12dc1294c2c6a196ea0e41b467428241f1b9e89296daa21c0e6ae90985232133"
+   "hash": "12dc1294c2c6a196ea0e41b467428241f1b9e89296daa21c0e6ae90985232133",
+   "ordem": 85
   },
   "87": {
    "texto": "Art. 87. Decorridos 60 (sessenta) dias do trânsito em julgado da sentença condenatória favorável à pessoa idosa sem que o autor lhe promova a execução, deverá fazê-lo o Ministério Público, facultada igual iniciativa aos demais legitimados, como assistentes ou assumindo o polo ativo, em caso de inércia desse órgão. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "8862e110a0858b2d7c32d4a17b1521a13e3f7e50c5852da03485d20ccbc547b5"
+   "hash": "8862e110a0858b2d7c32d4a17b1521a13e3f7e50c5852da03485d20ccbc547b5",
+   "ordem": 86
   },
   "88": {
    "texto": "Art. 88. Nas ações de que trata este Capítulo, não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas.\nParágrafo único. Não se imporá sucumbência ao Ministério Público.",
-   "hash": "7357ced735c295d7bc078339e4cbed41942e0115e368e1fa5bd5028bc3b69318"
+   "hash": "7357ced735c295d7bc078339e4cbed41942e0115e368e1fa5bd5028bc3b69318",
+   "ordem": 87
   },
   "89": {
    "texto": "Art. 89. Qualquer pessoa poderá, e o servidor deverá, provocar a iniciativa do Ministério Público, prestando-lhe informações sobre os fatos que constituam objeto de ação civil e indicando-lhe os elementos de convicção.",
-   "hash": "74cfbc83257c00057fe7a4e55dd7764ffd10f94ea7378ab46d1659202a2329c8"
+   "hash": "74cfbc83257c00057fe7a4e55dd7764ffd10f94ea7378ab46d1659202a2329c8",
+   "ordem": 88
   },
   "90": {
    "texto": "Art. 90. Os agentes públicos em geral, os juízes e tribunais, no exercício de suas funções, quando tiverem conhecimento de fatos que possam configurar crime de ação pública contra a pessoa idosa ou ensejar a propositura de ação para sua defesa, devem encaminhar as peças pertinentes ao Ministério Público, para as providências cabíveis. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "3cbbf105348e4b354bd6c06bd2d5484ee0cd2649e9ad457cfc952bc8f0705a0c"
+   "hash": "3cbbf105348e4b354bd6c06bd2d5484ee0cd2649e9ad457cfc952bc8f0705a0c",
+   "ordem": 89
   },
   "91": {
    "texto": "Art. 91. Para instruir a petição inicial, o interessado poderá requerer às autoridades competentes as certidões e informações que julgar necessárias, que serão fornecidas no prazo de 10 (dez) dias.",
-   "hash": "88d8783c45359267514c20a3760eafab5c54b1fe5a65eef5b6e502e7b17f0760"
+   "hash": "88d8783c45359267514c20a3760eafab5c54b1fe5a65eef5b6e502e7b17f0760",
+   "ordem": 90
   },
   "92": {
    "texto": "Art. 92. O Ministério Público poderá instaurar sob sua presidência, inquérito civil, ou requisitar, de qualquer pessoa, organismo público ou particular, certidões, informações, exames ou perícias, no prazo que assinalar, o qual não poderá ser inferior a 10 (dez) dias.\n§ 1o Se o órgão do Ministério Público, esgotadas todas as diligências, se convencer da inexistência de fundamento para a propositura da ação civil ou de peças informativas, determinará o seu arquivamento, fazendo-o fundamentadamente.\n§ 2o Os autos do inquérito civil ou as peças de informação arquivados serão remetidos, sob pena de se incorrer em falta grave, no prazo de 3 (três) dias, ao Conselho Superior do Ministério Público ou à Câmara de Coordenação e Revisão do Ministério Público.\n§ 3o Até que seja homologado ou rejeitado o arquivamento, pelo Conselho Superior do Ministério Público ou por Câmara de Coordenação e Revisão do Ministério Público, as associações legitimadas poderão apresentar razões escritas ou documentos, que serão juntados ou anexados às peças de informação.\n§ 4o Deixando o Conselho Superior ou a Câmara de Coordenação e Revisão do Ministério Público de homologar a promoção de arquivamento, será designado outro membro do Ministério Público para o ajuizamento da ação.\nTÍTULO VI\nDos Crimes\nCAPÍTULO I\nDisposições Gerais",
-   "hash": "eb0c456e43bc3ea89b778a0df3e80111ff9f7d90266b1649e080d3422f3ee004"
+   "hash": "eb0c456e43bc3ea89b778a0df3e80111ff9f7d90266b1649e080d3422f3ee004",
+   "ordem": 91
   },
   "93": {
    "texto": "Art. 93. Aplicam-se subsidiariamente, no que couber, as disposições da Lei no 7.347, de 24 de julho de 1985.",
-   "hash": "2402918247d5d543054977d3ef867089cd08227033ea96102962396c1e3b03ca"
+   "hash": "2402918247d5d543054977d3ef867089cd08227033ea96102962396c1e3b03ca",
+   "ordem": 92
   },
   "94": {
    "texto": "Art. 94. Aos crimes previstos nesta Lei aplicam-se, no que couber, as disposições do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal). (Redação dada pela Lei nº 15.163, de 2025)\nParágrafo único. Aos crimes previstos nesta Lei e aos crimes praticados com violência contra a pessoa idosa, independentemente da pena prevista, não se aplica a Lei nº 9.099, de 26 de setembro de 1995. (Incluído pela Lei nº 15.163, de 2025)\nCAPÍTULO II\nDos Crimes em Espécie",
-   "hash": "0ea89815b0bf44db572e1a89e0b37ca38db53909f30822fb8062ba40ea4676de"
+   "hash": "0ea89815b0bf44db572e1a89e0b37ca38db53909f30822fb8062ba40ea4676de",
+   "ordem": 93
   },
   "95": {
    "texto": "Art. 95. Os crimes definidos nesta Lei são de ação penal pública incondicionada, não se lhes aplicando os arts. 181 e 182 do Código Penal.",
-   "hash": "364d06826aa8c6f5f95b617b1403170e77df1a958c352a27643be6a7017b2fc9"
+   "hash": "364d06826aa8c6f5f95b617b1403170e77df1a958c352a27643be6a7017b2fc9",
+   "ordem": 94
   },
   "96": {
    "texto": "Art. 96. Discriminar pessoa idosa, impedindo ou dificultando seu acesso a operações bancárias, aos meios de transporte, ao direito de contratar ou por qualquer outro meio ou instrumento necessário ao exercício da cidadania, por motivo de idade:\nPena – reclusão de 6 (seis) meses a 1 (um) ano e multa.\n§ 1o Na mesma pena incorre quem desdenhar, humilhar, menosprezar ou discriminar pessoa idosa, por qualquer motivo.\n§ 2o A pena será aumentada de 1/3 (um terço) se a vítima se encontrar sob os cuidados ou responsabilidade do agente.\n§ 3º Não constitui crime a negativa de crédito motivada por superendividamento da pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "570b9f43fa6bfdbb23116753c240ae7bcfedea1bca3667ac14935d8c52ace2b0"
+   "hash": "570b9f43fa6bfdbb23116753c240ae7bcfedea1bca3667ac14935d8c52ace2b0",
+   "ordem": 95
   },
   "97": {
    "texto": "Art. 97. Deixar de prestar assistência à pessoa idosa, quando possível fazê-lo sem risco pessoal, em situação de iminente perigo, ou recusar, retardar ou dificultar sua assistência à saúde, sem justa causa, ou não pedir, nesses casos, o socorro de autoridade pública: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 6 (seis) meses a 1 (um) ano e multa.\nParágrafo único. A pena é aumentada de metade, se da omissão resulta lesão corporal de natureza grave, e triplicada, se resulta a morte.",
-   "hash": "6aa5a5e2b464d5503d04a433c37aa2ea0bd00060f62a6e3987a65c6ca56887d1"
+   "hash": "6aa5a5e2b464d5503d04a433c37aa2ea0bd00060f62a6e3987a65c6ca56887d1",
+   "ordem": 96
   },
   "98": {
    "texto": "Art. 98. Abandonar a pessoa idosa em hospitais, casas de saúde, entidades de longa permanência, ou congêneres, ou não prover suas necessidades básicas, quando obrigado por lei ou mandado: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 6 (seis) meses a 3 (três) anos e multa.",
-   "hash": "e7578fb03c9835c8c14c8690781657228adfb7c1614c48b3140784f12db5cb8a"
+   "hash": "e7578fb03c9835c8c14c8690781657228adfb7c1614c48b3140784f12db5cb8a",
+   "ordem": 97
   },
   "99": {
    "texto": "Art. 99. Expor a perigo a integridade e a saúde, física ou psíquica, da pessoa idosa, submetendo-a a condições desumanas ou degradantes ou privando-a de alimentos e cuidados indispensáveis, quando obrigado a fazê-lo, ou sujeitando-a a trabalho excessivo ou inadequado: (Redação dada pela Lei nº 14.423, de 2022)\nPena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025)\n§ 1o Se do fato resulta lesão corporal de natureza grave:\nPena - reclusão, de 3 (três) a 7 (sete) anos. (Redação dada pela Lei nº 15.163, de 2025)\n§ 2o Se resulta a morte:\nPena - reclusão, de 8 (oito) a 14 (quatorze) anos. (Redação dada pela Lei nº 15.163, de 2025)",
-   "hash": "a45b7eca3556bda40a8795a5c6f19b2dabdba64b56bb591372d866e0457716ce"
+   "hash": "a45b7eca3556bda40a8795a5c6f19b2dabdba64b56bb591372d866e0457716ce",
+   "ordem": 98
   },
   "100": {
    "texto": "Art. 100. Constitui crime punível com reclusão de 6 (seis) meses a 1 (um) ano e multa:\nI – obstar o acesso de alguém a qualquer cargo público por motivo de idade;\nII – negar a alguém, por motivo de idade, emprego ou trabalho;\nIII – recusar, retardar ou dificultar atendimento ou deixar de prestar assistência à saúde, sem justa causa, a pessoa idosa;\nIV – deixar de cumprir, retardar ou frustrar, sem justo motivo, a execução de ordem judicial expedida na ação civil a que alude esta Lei;\nV – recusar, retardar ou omitir dados técnicos indispensáveis à propositura da ação civil objeto desta Lei, quando requisitados pelo Ministério Público.",
-   "hash": "dee12a94de72a455a10c485919925ca0ec65d8cfc102d5365746eeb8127f677d"
+   "hash": "dee12a94de72a455a10c485919925ca0ec65d8cfc102d5365746eeb8127f677d",
+   "ordem": 99
   },
   "101": {
    "texto": "Art. 101. Deixar de cumprir, retardar ou frustrar, sem justo motivo, a execução de ordem judicial expedida nas ações em que for parte ou interveniente a pessoa idosa: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 6 (seis) meses a 1 (um) ano e multa.",
-   "hash": "f736367a7c910477e02f23604bbd781c4e3ff02dbbc687860f7ac336868395f7"
+   "hash": "f736367a7c910477e02f23604bbd781c4e3ff02dbbc687860f7ac336868395f7",
+   "ordem": 100
   },
   "102": {
    "texto": "Art. 102. Apropriar-se de ou desviar bens, proventos, pensão ou qualquer outro rendimento da pessoa idosa, dando-lhes aplicação diversa da de sua finalidade: (Redação dada pela Lei nº 14.423, de 2022)\nPena – reclusão de 1 (um) a 4 (quatro) anos e multa.",
-   "hash": "f3fdfa275094aa2a7e346b63ef4db89d1c2deeb90ed6001ef81d7f73b77c245f"
+   "hash": "f3fdfa275094aa2a7e346b63ef4db89d1c2deeb90ed6001ef81d7f73b77c245f",
+   "ordem": 101
   },
   "103": {
    "texto": "Art. 103. Negar o acolhimento ou a permanência da pessoa idosa, como abrigada, por recusa desta em outorgar procuração à entidade de atendimento: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 6 (seis) meses a 1 (um) ano e multa.",
-   "hash": "ff276b4b2685b9a21ea863e09c03d6058bd27fe1886bbff4431b699ddf82cf4e"
+   "hash": "ff276b4b2685b9a21ea863e09c03d6058bd27fe1886bbff4431b699ddf82cf4e",
+   "ordem": 102
   },
   "104": {
    "texto": "Art. 104. Reter o cartão magnético de conta bancária relativa a benefícios, proventos ou pensão da pessoa idosa, bem como qualquer outro documento com objetivo de assegurar recebimento ou ressarcimento de dívida: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 6 (seis) meses a 2 (dois) anos e multa.",
-   "hash": "6488b246e837028877ef0628cfe88ee54b0541b1a40d1d1fabbc8b8f40780d4a"
+   "hash": "6488b246e837028877ef0628cfe88ee54b0541b1a40d1d1fabbc8b8f40780d4a",
+   "ordem": 103
   },
   "105": {
    "texto": "Art. 105. Exibir ou veicular, por qualquer meio de comunicação, informações ou imagens depreciativas ou injuriosas à pessoa idosa: (Redação dada pela Lei nº 14.423, de 2022)\nPena – detenção de 1 (um) a 3 (três) anos e multa.",
-   "hash": "79dd39326ef6ac46607ea3a9232e7d4ea0485bb5dbce7e18af661c9e182e12c5"
+   "hash": "79dd39326ef6ac46607ea3a9232e7d4ea0485bb5dbce7e18af661c9e182e12c5",
+   "ordem": 104
   },
   "106": {
    "texto": "Art. 106. Induzir pessoa idosa sem discernimento de seus atos a outorgar procuração para fins de administração de bens ou deles dispor livremente:\nPena – reclusão de 2 (dois) a 4 (quatro) anos.",
-   "hash": "3acc4284340fa7a1e1ae39e13682f7ea7f26ed388e2ce396568e1df94a904642"
+   "hash": "3acc4284340fa7a1e1ae39e13682f7ea7f26ed388e2ce396568e1df94a904642",
+   "ordem": 105
   },
   "107": {
    "texto": "Art. 107. Coagir, de qualquer modo, a pessoa idosa a doar, contratar, testar ou outorgar procuração: (Redação dada pela Lei nº 14.423, de 2022)\nPena – reclusão de 2 (dois) a 5 (cinco) anos.",
-   "hash": "6be525b28a1a51321fcc67d6d2c2436719ec5d490a9d341e469e5fcdb79de197"
+   "hash": "6be525b28a1a51321fcc67d6d2c2436719ec5d490a9d341e469e5fcdb79de197",
+   "ordem": 106
   },
   "108": {
    "texto": "Art. 108. Lavrar ato notarial que envolva pessoa idosa sem discernimento de seus atos, sem a devida representação legal:\nPena – reclusão de 2 (dois) a 4 (quatro) anos.\nTÍTULO VII\nDisposições Finais e Transitórias",
-   "hash": "601a843c8fe17b01cca7322957cd4b2414338c2fbb749c2fc930e3c09511f618"
+   "hash": "601a843c8fe17b01cca7322957cd4b2414338c2fbb749c2fc930e3c09511f618",
+   "ordem": 107
   },
   "109": {
    "texto": "Art. 109. Impedir ou embaraçar ato do representante do Ministério Público ou de qualquer outro agente fiscalizador:\nPena – reclusão de 6 (seis) meses a 1 (um) ano e multa.",
-   "hash": "055fa157e6271ff5a4e0b09d8255612034b35ca28599e22709812c4802f63379"
+   "hash": "055fa157e6271ff5a4e0b09d8255612034b35ca28599e22709812c4802f63379",
+   "ordem": 108
   },
   "110": {
    "texto": "Art. 110. O Decreto-Lei no 2.848, de 7 de dezembro de 1940, Código Penal, passa a vigorar com as seguintes alterações:\n\"Art. 61. ............................................................................\n............................................................................\nII - ............................................................................\n............................................................................\nh) contra criança, maior de 60 (sessenta) anos, enfermo ou mulher grávida;\n.............................................................................\" (NR)\n\"Art. 121. ............................................................................\n............................................................................\n§ 4o No homicídio culposo, a pena é aumentada de 1/3 (um terço), se o crime resulta de inobservância de regra técnica de profissão, arte ou ofício, ou se o agente deixa de prestar imediato socorro à vítima, não procura diminuir as conseqüências do seu ato, ou foge para evitar prisão em flagrante. Sendo doloso o homicídio, a pena é aumentada de 1/3 (um terço) se o crime é praticado contra pessoa menor de 14 (quatorze) ou maior de 60 (sessenta) anos.\n.............................................................................\" (NR)\n\"Art. 133. ............................................................................\n............................................................................\n§ 3o ............................................................................\n............................................................................\nIII – se a vítima é maior de 60 (sessenta) anos.\" (NR)\n\"Art. 140. ............................................................................\n............................................................................\n§ 3o Se a injúria consiste na utilização de elementos referentes a raça, cor, etnia, religião, origem ou a condição de pessoa idosa ou portadora de deficiência:\n............................................................................ (NR)\n\"Art. 141. ............................................................................\n............................................................................\nIV – contra pessoa maior de 60 (sessenta) anos ou portadora de deficiência, exceto no caso de injúria.\n.............................................................................\" (NR)\n\"Art. 148. ............................................................................\n............................................................................\n§ 1o............................................................................\nI – se a vítima é ascendente, descendente, cônjuge do agente ou maior de 60 (sessenta) anos.\n............................................................................\" (NR)\n\"Art. 159............................................................................\n............................................................................\n§ 1o Se o seqüestro dura mais de 24 (vinte e quatro) horas, se o seqüestrado é menor de 18 (dezoito) ou maior de 60 (sessenta) anos, ou se o crime é cometido por bando ou quadrilha.\n............................................................................\" (NR)\n\"Art. 183............................................................................\n............................................................................\nIII – se o crime é praticado contra pessoa com idade igual ou superior a 60 (sessenta) anos.\" (NR)\n\"Art. 244. Deixar, sem justa causa, de prover a subsistência do cônjuge, ou de filho menor de 18 (dezoito) anos ou inapto para o trabalho, ou de ascendente inválido ou maior de 60 (sessenta) anos, não lhes proporcionando os recursos necessários ou faltando ao pagamento de pensão alimentícia judicialmente acordada, fixada ou majorada; deixar, sem justa causa, de socorrer descendente ou ascendente, gravemente enfermo:\n............................................................................\" (NR)",
-   "hash": "41837937c4cf9021dcabde1c75914fa2b93fd3eb5c5aa6e5ac17cfb5e5c00322"
+   "hash": "41837937c4cf9021dcabde1c75914fa2b93fd3eb5c5aa6e5ac17cfb5e5c00322",
+   "ordem": 109
   },
   "111": {
    "texto": "Art. 111. O O art. 21 do Decreto-Lei no 3.688, de 3 de outubro de 1941, Lei das Contravenções Penais, passa a vigorar acrescido do seguinte parágrafo único:\n\"Art. 21............................................................................\n............................................................................\nParágrafo único. Aumenta-se a pena de 1/3 (um terço) até a metade se a vítima é maior de 60 (sessenta) anos.\" (NR)",
-   "hash": "a6a36bc413c036eab223697fb361beb1d7c2d5509c6051cf5b5a2e6d3d1cc8c5"
+   "hash": "a6a36bc413c036eab223697fb361beb1d7c2d5509c6051cf5b5a2e6d3d1cc8c5",
+   "ordem": 110
   },
   "112": {
    "texto": "Art. 112. O inciso II do § 4o do art. 1o da Lei no 9.455, de 7 de abril de 1997, passa a vigorar com a seguinte redação:\n\"Art. 1o ............................................................................\n............................................................................\n§ 4o ............................................................................\nII – se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos;\n............................................................................\" (NR)",
-   "hash": "e050b3b78880e1aca02e371bc4630d57726191f9aeacf3498c4dcd8f15f7b2f5"
+   "hash": "e050b3b78880e1aca02e371bc4630d57726191f9aeacf3498c4dcd8f15f7b2f5",
+   "ordem": 111
   },
   "113": {
    "texto": "Art. 113. O inciso III do art. 18 da Lei no 6.368, de 21 de outubro de 1976, passa a vigorar com a seguinte redação:\n\"Art. 18............................................................................\n............................................................................\nIII – se qualquer deles decorrer de associação ou visar a menores de 21 (vinte e um) anos ou a pessoa com idade igual ou superior a 60 (sessenta) anos ou a quem tenha, por qualquer causa, diminuída ou suprimida a capacidade de discernimento ou de autodeterminação:\n............................................................................\" (NR)",
-   "hash": "6d2a1f5f26c11b125bf7cde7a61795c1fffbaacda85bd64dcc0d5a8f3149af19"
+   "hash": "6d2a1f5f26c11b125bf7cde7a61795c1fffbaacda85bd64dcc0d5a8f3149af19",
+   "ordem": 112
   },
   "114": {
    "texto": "Art. 114. O art 1º da Lei no 10.048, de 8 de novembro de 2000, passa a vigorar com a seguinte redação:\n\"Art. 1o As pessoas portadoras de deficiência, os idosos com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes e as pessoas acompanhadas por crianças de colo terão atendimento prioritário, nos termos desta Lei.\" (NR)",
-   "hash": "7df2b939231b681d43f3f3de7de1471542b5b64d7c4de58dcc9ff18deb6d133c"
+   "hash": "7df2b939231b681d43f3f3de7de1471542b5b64d7c4de58dcc9ff18deb6d133c",
+   "ordem": 113
   },
   "115": {
    "texto": "Art. 115. O Orçamento da Seguridade Social destinará ao Fundo Nacional de Assistência Social, até que o Fundo Nacional da Pessoa Idosa seja criado, os recursos necessários, em cada exercício financeiro, para aplicação em programas e ações relativos à pessoa idosa. (Redação dada pela Lei nº 14.423, de 2022)",
-   "hash": "5428e1685b8374c65b987a13c8448eca2ab71d6b675a456b09fe6a9c930d0153"
+   "hash": "5428e1685b8374c65b987a13c8448eca2ab71d6b675a456b09fe6a9c930d0153",
+   "ordem": 114
   },
   "116": {
    "texto": "Art. 116. Serão incluídos nos censos demográficos dados relativos à população idosa do País.",
-   "hash": "f0a436e8e7582c131a1093f3635e913695f746ef2dd77351e2cc2b3fe01a8a90"
+   "hash": "f0a436e8e7582c131a1093f3635e913695f746ef2dd77351e2cc2b3fe01a8a90",
+   "ordem": 115
   },
   "117": {
    "texto": "Art. 117. O Poder Executivo encaminhará ao Congresso Nacional projeto de lei revendo os critérios de concessão do Benefício de Prestação Continuada previsto na Lei Orgânica da Assistência Social, de forma a garantir que o acesso ao direito seja condizente com o estágio de desenvolvimento sócio-econômico alcançado pelo País.",
-   "hash": "041d732ec54db7039001ffe33692eb09834c556ca57e7c77f6d38b667430c98d"
+   "hash": "041d732ec54db7039001ffe33692eb09834c556ca57e7c77f6d38b667430c98d",
+   "ordem": 116
   },
   "118": {
    "texto": "Art. 118. Esta Lei entra em vigor decorridos 90 (noventa) dias da sua publicação, ressalvado o disposto no caput do art. 36, que vigorará a partir de 1o de janeiro de 2004.\nBrasília, 1o de outubro de 2003; 182o da Independência e 115o da República.\nLUIZ INÁCIO LULA DA SILVA\nMárcio Thomaz Bastos\nAntonio Palocci Filho\nRubem Fonseca Filho\nHumberto Sérgio Costa LIma\nGuido Mantega\nRicardo José Ribeiro Berzoini\nBenedita Souza da Silva Sampaio\nÁlvaro Augusto Ribeiro Costa\nEste texto não substitui o publicado no DOU de 3.10.2003\n*",
-   "hash": "f2075c2719ddac3c658f5fd18378a4a34bc4691d3c43c2c8a23c53ea58f3a0da"
+   "hash": "f2075c2719ddac3c658f5fd18378a4a34bc4691d3c43c2c8a23c53ea58f3a0da",
+   "ordem": 117
   }
  }
 }

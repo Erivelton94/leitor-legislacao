@@ -7,7 +7,7 @@
  "hash": "c6489c2238d6c7c49c1b16c3f4e11a2a33705afb297df92d9d49116565d49f5c",
  "etag": "\"1566d-650289ea82d03\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:50 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 9.099, DE 26 DE SETEMBRO DE 1995.",
   "Vigência",
@@ -16,403 +16,502 @@
   "CAPÍTULO I",
   "Disposições Gerais"
  ],
- "ultimo_download_completo": "2026-09-26T04:39:56-03:00",
+ "ultimo_download_completo": "2026-09-30T12:31:36-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Os Juizados Especiais Cíveis e Criminais, órgãos da Justiça Ordinária, serão criados pela União, no Distrito Federal e nos Territórios, e pelos Estados, para conciliação, processo, julgamento e execução, nas causas de sua competência.",
-   "hash": "a66764077b833c1cdc2e6749c736450ff265d19824f492ee14e5315858289e51"
+   "hash": "a66764077b833c1cdc2e6749c736450ff265d19824f492ee14e5315858289e51",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º O processo orientar-se-á pelos critérios da oralidade, simplicidade, informalidade, economia processual e celeridade, buscando, sempre que possível, a conciliação ou a transação.\nCapítulo II\nDos Juizados Especiais Cíveis\nSeção I\nDa Competência",
-   "hash": "ac3eea3fde62501a2226d698a5cd557b9a2f305d930e8664fa512b2e1495eeb3"
+   "hash": "ac3eea3fde62501a2226d698a5cd557b9a2f305d930e8664fa512b2e1495eeb3",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas:\nI - as causas cujo valor não exceda a quarenta vezes o salário mínimo;\nII - as enumeradas no art. 275, inciso II, do Código de Processo Civil;\nIII - a ação de despejo para uso próprio;\nIV - as ações possessórias sobre bens imóveis de valor não excedente ao fixado no inciso I deste artigo.\n§ 1º Compete ao Juizado Especial promover a execução:\nI - dos seus julgados;\nII - dos títulos executivos extrajudiciais, no valor de até quarenta vezes o salário mínimo, observado o disposto no § 1º do art. 8º desta Lei.\n§ 2º Ficam excluídas da competência do Juizado Especial as causas de natureza alimentar, falimentar, fiscal e de interesse da Fazenda Pública, e também as relativas a acidentes de trabalho, a resíduos e ao estado e capacidade das pessoas, ainda que de cunho patrimonial.\n§ 3º A opção pelo procedimento previsto nesta Lei importará em renúncia ao crédito excedente ao limite estabelecido neste artigo, excetuada a hipótese de conciliação.",
-   "hash": "318fef1e5a2b3a427a38f217159b5d7dd7528953aee299973536994535611ba6"
+   "hash": "318fef1e5a2b3a427a38f217159b5d7dd7528953aee299973536994535611ba6",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º É competente, para as causas previstas nesta Lei, o Juizado do foro:\nI - do domicílio do réu ou, a critério do autor, do local onde aquele exerça atividades profissionais ou econômicas ou mantenha estabelecimento, filial, agência, sucursal ou escritório;\nII - do lugar onde a obrigação deva ser satisfeita;\nIII - do domicílio do autor ou do local do ato ou fato, nas ações para reparação de dano de qualquer natureza.\nParágrafo único. Em qualquer hipótese, poderá a ação ser proposta no foro previsto no inciso I deste artigo.\nSeção II\nDo Juiz, dos Conciliadores e dos Juízes Leigos",
-   "hash": "a1103c99a58fa7c2191abc02255d4718b2e281b52e8aa82ca040bb74a9dab9b0"
+   "hash": "a1103c99a58fa7c2191abc02255d4718b2e281b52e8aa82ca040bb74a9dab9b0",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5º O Juiz dirigirá o processo com liberdade para determinar as provas a serem produzidas, para apreciá-las e para dar especial valor às regras de experiência comum ou técnica.",
-   "hash": "40f807b95f30fb8b78f2a737080aaf31bc1a22edfeb6d6913d400b0b6b2328c2"
+   "hash": "40f807b95f30fb8b78f2a737080aaf31bc1a22edfeb6d6913d400b0b6b2328c2",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º O Juiz adotará em cada caso a decisão que reputar mais justa e equânime, atendendo aos fins sociais da lei e às exigências do bem comum.",
-   "hash": "2cff10b742152ef1d6747c6feee7033cfd2553026dbf45c08fc263fc11693fe0"
+   "hash": "2cff10b742152ef1d6747c6feee7033cfd2553026dbf45c08fc263fc11693fe0",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7º Os conciliadores e Juízes leigos são auxiliares da Justiça, recrutados, os primeiros, preferentemente, entre os bacharéis em Direito, e os segundos, entre advogados com mais de cinco anos de experiência.\nParágrafo único. Os Juízes leigos ficarão impedidos de exercer a advocacia perante os Juizados Especiais, enquanto no desempenho de suas funções.\nSeção III\nDas Partes",
-   "hash": "5dbb9c1115e1fe0ea2d2f1de9170ad7c8cf184366009ce3f11191cf4dd5cf3e0"
+   "hash": "5dbb9c1115e1fe0ea2d2f1de9170ad7c8cf184366009ce3f11191cf4dd5cf3e0",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8º Não poderão ser partes, no processo instituído por esta Lei, o incapaz, o preso, as pessoas jurídicas de direito público, as empresas públicas da União, a massa falida e o insolvente civil.\n§ 1o Somente serão admitidas a propor ação perante o Juizado Especial: (Redação dada pela Lei nº 12.126, de 2009)\nI - as pessoas físicas capazes, excluídos os cessionários de direito de pessoas jurídicas; (Incluído pela Lei nº 12.126, de 2009)\nII - as pessoas enquadradas como microempreendedores individuais, microempresas e empresas de pequeno porte na forma da Lei Complementar no 123, de 14 de dezembro de 2006; (Redação dada pela Lei Complementar nº 147, de 2014)\nIII - as pessoas jurídicas qualificadas como Organização da Sociedade Civil de Interesse Público, nos termos da Lei no 9.790, de 23 de março de 1999; (Incluído pela Lei nº 12.126, de 2009)\nIV - as sociedades de crédito ao microempreendedor, nos termos do art. 1o da Lei no 10.194, de 14 de fevereiro de 2001. (Incluído pela Lei nº 12.126, de 2009)\n§ 2º O maior de dezoito anos poderá ser autor, independentemente de assistência, inclusive para fins de conciliação.",
-   "hash": "a2211ab1b24cf1ee620f5c1dc7dafc2140fdc4c51bb7a331148fd3ae295d8fd6"
+   "hash": "a2211ab1b24cf1ee620f5c1dc7dafc2140fdc4c51bb7a331148fd3ae295d8fd6",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9º Nas causas de valor até vinte salários mínimos, as partes comparecerão pessoalmente, podendo ser assistidas por advogado; nas de valor superior, a assistência é obrigatória.\n§ 1º Sendo facultativa a assistência, se uma das partes comparecer assistida por advogado, ou se o réu for pessoa jurídica ou firma individual, terá a outra parte, se quiser, assistência judiciária prestada por órgão instituído junto ao Juizado Especial, na forma da lei local.\n§ 2º O Juiz alertará as partes da conveniência do patrocínio por advogado, quando a causa o recomendar.\n§ 3º O mandato ao advogado poderá ser verbal, salvo quanto aos poderes especiais.\n§ 4o O réu, sendo pessoa jurídica ou titular de firma individual, poderá ser representado por preposto credenciado, munido de carta de preposição com poderes para transigir, sem haver necessidade de vínculo empregatício. (Redação dada pela Lei nº 12.137, de 2009)",
-   "hash": "60b8628b630d67fbcb327f06541008d0d298baf4096b20f417433045636c64ef"
+   "hash": "60b8628b630d67fbcb327f06541008d0d298baf4096b20f417433045636c64ef",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. Não se admitirá, no processo, qualquer forma de intervenção de terceiro nem de assistência. Admitir-se-á o litisconsórcio.",
-   "hash": "d5484c11ada3b9dc1d93a596127b7fd10bc0b79e30d695898ee06c0f86b1540d"
+   "hash": "d5484c11ada3b9dc1d93a596127b7fd10bc0b79e30d695898ee06c0f86b1540d",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. O Ministério Público intervirá nos casos previstos em lei.\nSeção IV\nDos atos processuais",
-   "hash": "ee4fa1d81584304faa8b5469d431defb13e1cf2dded921dfdfecc1c32225fd71"
+   "hash": "ee4fa1d81584304faa8b5469d431defb13e1cf2dded921dfdfecc1c32225fd71",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. Os atos processuais serão públicos e poderão realizar-se em horário noturno, conforme dispuserem as normas de organização judiciária.",
-   "hash": "df5f6fee01cebcea363d11b62c41d1e9c8f12a898f20d8ed1577875c3a0d4118"
+   "hash": "df5f6fee01cebcea363d11b62c41d1e9c8f12a898f20d8ed1577875c3a0d4118",
+   "ordem": 11
   },
   "12-A": {
    "texto": "Art. 12-A. Na contagem de prazo em dias, estabelecido por lei ou pelo juiz, para a prática de qualquer ato processual, inclusive para a interposição de recursos, computar-se-ão somente os dias úteis. (Incluído pela Lei nº 13.728, de 2018)",
-   "hash": "cd4de0a44ff1cfad810deaa0ea53e8bf24d4b050634e7004cb30dd72694edc2f"
+   "hash": "cd4de0a44ff1cfad810deaa0ea53e8bf24d4b050634e7004cb30dd72694edc2f",
+   "ordem": 12
   },
   "13": {
    "texto": "Art. 13. Os atos processuais serão válidos sempre que preencherem as finalidades para as quais forem realizados, atendidos os critérios indicados no art. 2º desta Lei.\n§ 1º Não se pronunciará qualquer nulidade sem que tenha havido prejuízo.\n§ 2º A prática de atos processuais em outras comarcas poderá ser solicitada por qualquer meio idôneo de comunicação.\n§ 3º Apenas os atos considerados essenciais serão registrados resumidamente, em notas manuscritas, datilografadas, taquigrafadas ou estenotipadas. Os demais atos poderão ser gravados em fita magnética ou equivalente, que será inutilizada após o trânsito em julgado da decisão.\n§ 4º As normas locais disporão sobre a conservação das peças do processo e demais documentos que o instruem.\nSeção V\nDo pedido",
-   "hash": "973a5974c5fc0f87c4b6c53e07c575c2ee8d77a041c15cf3e7922ff01fb25511"
+   "hash": "973a5974c5fc0f87c4b6c53e07c575c2ee8d77a041c15cf3e7922ff01fb25511",
+   "ordem": 13
   },
   "14": {
    "texto": "Art. 14. O processo instaurar-se-á com a apresentação do pedido, escrito ou oral, à Secretaria do Juizado.\n§ 1º Do pedido constarão, de forma simples e em linguagem acessível:\nI - o nome, a qualificação e o endereço das partes;\nII - os fatos e os fundamentos, de forma sucinta;\nIII - o objeto e seu valor.\n§ 2º É lícito formular pedido genérico quando não for possível determinar, desde logo, a extensão da obrigação.\n§ 3º O pedido oral será reduzido a escrito pela Secretaria do Juizado, podendo ser utilizado o sistema de fichas ou formulários impressos.",
-   "hash": "0c4a10e1d0f83307aa90f7ea0a58f933ec0e593412dd97059da3d3a517f49b6f"
+   "hash": "0c4a10e1d0f83307aa90f7ea0a58f933ec0e593412dd97059da3d3a517f49b6f",
+   "ordem": 14
   },
   "15": {
    "texto": "Art. 15. Os pedidos mencionados no art. 3º desta Lei poderão ser alternativos ou cumulados; nesta última hipótese, desde que conexos e a soma não ultrapasse o limite fixado naquele dispositivo.",
-   "hash": "25aa1c388427b8224416c54894c04d2980ead8dbb8a96fdbf6a24e5b4fa17bc4"
+   "hash": "25aa1c388427b8224416c54894c04d2980ead8dbb8a96fdbf6a24e5b4fa17bc4",
+   "ordem": 15
   },
   "16": {
    "texto": "Art. 16. Registrado o pedido, independentemente de distribuição e autuação, a Secretaria do Juizado designará a sessão de conciliação, a realizar-se no prazo de quinze dias.",
-   "hash": "04fe916f12fae2bfcb422f136a4b0ba528258855e5a4a1be4d061110653f6ab0"
+   "hash": "04fe916f12fae2bfcb422f136a4b0ba528258855e5a4a1be4d061110653f6ab0",
+   "ordem": 16
   },
   "17": {
    "texto": "Art. 17. Comparecendo inicialmente ambas as partes, instaurar-se-á, desde logo, a sessão de conciliação, dispensados o registro prévio de pedido e a citação.\nParágrafo único. Havendo pedidos contrapostos, poderá ser dispensada a contestação formal e ambos serão apreciados na mesma sentença.\nSeção VI\nDas Citações e Intimações",
-   "hash": "5625927dcc75cce1887eaf53adead2a424994dbe830d1c691b410eedb44bbf3e"
+   "hash": "5625927dcc75cce1887eaf53adead2a424994dbe830d1c691b410eedb44bbf3e",
+   "ordem": 17
   },
   "18": {
    "texto": "Art. 18. A citação far-se-á:\nI - por correspondência, com aviso de recebimento em mão própria;\nII - tratando-se de pessoa jurídica ou firma individual, mediante entrega ao encarregado da recepção, que será obrigatoriamente identificado;\nIII - sendo necessário, por oficial de justiça, independentemente de mandado ou carta precatória.\n§ 1º A citação conterá cópia do pedido inicial, dia e hora para comparecimento do citando e advertência de que, não comparecendo este, considerar-se-ão verdadeiras as alegações iniciais, e será proferido julgamento, de plano.\n§ 2º Não se fará citação por edital.\n§ 3º O comparecimento espontâneo suprirá a falta ou nulidade da citação.",
-   "hash": "69cb2d723123c92dfbef71ee85e331740bea51870542c39cfd004a63a9fb6b4f"
+   "hash": "69cb2d723123c92dfbef71ee85e331740bea51870542c39cfd004a63a9fb6b4f",
+   "ordem": 18
   },
   "19": {
    "texto": "Art. 19. As intimações serão feitas na forma prevista para citação, ou por qualquer outro meio idôneo de comunicação.\n§ 1º Dos atos praticados na audiência, considerar-se-ão desde logo cientes as partes.\n§ 2º As partes comunicarão ao juízo as mudanças de endereço ocorridas no curso do processo, reputando-se eficazes as intimações enviadas ao local anteriormente indicado, na ausência da comunicação.\nSeção VII\nDa Revelia",
-   "hash": "67d0d956b3230e904476d8d8f30baeb87c0b86fd24d2c2df826021f92acf1204"
+   "hash": "67d0d956b3230e904476d8d8f30baeb87c0b86fd24d2c2df826021f92acf1204",
+   "ordem": 19
   },
   "20": {
    "texto": "Art. 20. Não comparecendo o demandado à sessão de conciliação ou à audiência de instrução e julgamento, reputar-se-ão verdadeiros os fatos alegados no pedido inicial, salvo se o contrário resultar da convicção do Juiz.\nSeção VIII\nDa Conciliação e do Juízo Arbitral",
-   "hash": "069d1f1e8d0864bb03827afabb84d90cb40e8b81614006249722e7bc0e613387"
+   "hash": "069d1f1e8d0864bb03827afabb84d90cb40e8b81614006249722e7bc0e613387",
+   "ordem": 20
   },
   "21": {
    "texto": "Art. 21. Aberta a sessão, o Juiz togado ou leigo esclarecerá as partes presentes sobre as vantagens da conciliação, mostrando-lhes os riscos e as conseqüências do litígio, especialmente quanto ao disposto no § 3º do art. 3º desta Lei.",
-   "hash": "863c22554130526b452ace6e0227fc3fdc4d4501bfe144454527955fc13c19d5"
+   "hash": "863c22554130526b452ace6e0227fc3fdc4d4501bfe144454527955fc13c19d5",
+   "ordem": 21
   },
   "22": {
    "texto": "Art. 22. A conciliação será conduzida pelo Juiz togado ou leigo ou por conciliador sob sua orientação.\n§ 1º Obtida a conciliação, esta será reduzida a escrito e homologada pelo Juiz togado mediante sentença com eficácia de título executivo. (Incluído pela Lei nº 13.994, de 2020).\n§ 2º É cabível a conciliação não presencial conduzida pelo Juizado mediante o emprego dos recursos tecnológicos disponíveis de transmissão de sons e imagens em tempo real, devendo o resultado da tentativa de conciliação ser reduzido a escrito com os anexos pertinentes. (Incluído pela Lei nº 13.994, de 2020).",
-   "hash": "4494f0944521e20735e05126f159b4d7d82957d396c4db250e56e548e67404e4"
+   "hash": "4494f0944521e20735e05126f159b4d7d82957d396c4db250e56e548e67404e4",
+   "ordem": 22
   },
   "23": {
    "texto": "Art. 23. Se o demandado não comparecer ou recusar-se a participar da tentativa de conciliação não presencial, o Juiz togado proferirá sentença. (Redação dada pela Lei nº 13.994, de 2020)",
-   "hash": "0937daac02087665cc5a84695905747508a69a876f36081392a02d27e4112137"
+   "hash": "0937daac02087665cc5a84695905747508a69a876f36081392a02d27e4112137",
+   "ordem": 23
   },
   "24": {
    "texto": "Art. 24. Não obtida a conciliação, as partes poderão optar, de comum acordo, pelo juízo arbitral, na forma prevista nesta Lei.\n§ 1º O juízo arbitral considerar-se-á instaurado, independentemente de termo de compromisso, com a escolha do árbitro pelas partes. Se este não estiver presente, o Juiz convocá-lo-á e designará, de imediato, a data para a audiência de instrução.\n§ 2º O árbitro será escolhido dentre os juízes leigos.",
-   "hash": "c4ec1be3a4085ef3243c941023b4cdd88a7a8087a4fa0f69f9380bf5d1a5784c"
+   "hash": "c4ec1be3a4085ef3243c941023b4cdd88a7a8087a4fa0f69f9380bf5d1a5784c",
+   "ordem": 24
   },
   "25": {
    "texto": "Art. 25. O árbitro conduzirá o processo com os mesmos critérios do Juiz, na forma dos arts. 5º e 6º desta Lei, podendo decidir por eqüidade.",
-   "hash": "64f6748421dc6a346800ee5d7ae708effeb97984ffdb27d31fe780b723941b9f"
+   "hash": "64f6748421dc6a346800ee5d7ae708effeb97984ffdb27d31fe780b723941b9f",
+   "ordem": 25
   },
   "26": {
    "texto": "Art. 26. Ao término da instrução, ou nos cinco dias subseqüentes, o árbitro apresentará o laudo ao Juiz togado para homologação por sentença irrecorrível.\nSeção IX\nDa Instrução e Julgamento",
-   "hash": "25aed9ce4587f15dfc5d6704b2982f4101776bd49f8a6e8352e912f533551881"
+   "hash": "25aed9ce4587f15dfc5d6704b2982f4101776bd49f8a6e8352e912f533551881",
+   "ordem": 26
   },
   "27": {
    "texto": "Art. 27. Não instituído o juízo arbitral, proceder-se-á imediatamente à audiência de instrução e julgamento, desde que não resulte prejuízo para a defesa.\nParágrafo único. Não sendo possível a sua realização imediata, será a audiência designada para um dos quinze dias subseqüentes, cientes, desde logo, as partes e testemunhas eventualmente presentes.",
-   "hash": "cefeda6f88552275eb42ce689318210358695fbddf717de3b15a189e30bfb8b0"
+   "hash": "cefeda6f88552275eb42ce689318210358695fbddf717de3b15a189e30bfb8b0",
+   "ordem": 27
   },
   "28": {
    "texto": "Art. 28. Na audiência de instrução e julgamento serão ouvidas as partes, colhida a prova e, em seguida, proferida a sentença.",
-   "hash": "da3c80cf6a7a93725306de225c622336f166fd00e14159fb619a3aa156147078"
+   "hash": "da3c80cf6a7a93725306de225c622336f166fd00e14159fb619a3aa156147078",
+   "ordem": 28
   },
   "29": {
    "texto": "Art. 29. Serão decididos de plano todos os incidentes que possam interferir no regular prosseguimento da audiência. As demais questões serão decididas na sentença.\nParágrafo único. Sobre os documentos apresentados por uma das partes, manifestar-se-á imediatamente a parte contrária, sem interrupção da audiência.\nSeção X\nDa Resposta do Réu",
-   "hash": "67571156ddf00ef3fe2516257279d68b81babd709ef64bae2f014cfdd06fb4d1"
+   "hash": "67571156ddf00ef3fe2516257279d68b81babd709ef64bae2f014cfdd06fb4d1",
+   "ordem": 29
   },
   "30": {
    "texto": "Art. 30. A contestação, que será oral ou escrita, conterá toda matéria de defesa, exceto argüição de suspeição ou impedimento do Juiz, que se processará na forma da legislação em vigor.",
-   "hash": "fb3457de53fc35345823122778797cc3cdd062def3f4504734f5790af9589c36"
+   "hash": "fb3457de53fc35345823122778797cc3cdd062def3f4504734f5790af9589c36",
+   "ordem": 30
   },
   "31": {
    "texto": "Art. 31. Não se admitirá a reconvenção. É lícito ao réu, na contestação, formular pedido em seu favor, nos limites do art. 3º desta Lei, desde que fundado nos mesmos fatos que constituem objeto da controvérsia.\nParágrafo único. O autor poderá responder ao pedido do réu na própria audiência ou requerer a designação da nova data, que será desde logo fixada, cientes todos os presentes.\nSeção XI\nDas Provas",
-   "hash": "315bfefc6cca8d8fc53b905ddc877e2e8f4c7926088b541ff5e13a5bae78c9fc"
+   "hash": "315bfefc6cca8d8fc53b905ddc877e2e8f4c7926088b541ff5e13a5bae78c9fc",
+   "ordem": 31
   },
   "32": {
    "texto": "Art. 32. Todos os meios de prova moralmente legítimos, ainda que não especificados em lei, são hábeis para provar a veracidade dos fatos alegados pelas partes.",
-   "hash": "473b4c474a50cff5bd74fcca1f94b4e0b181a29d44d6447a69c15e57a6548b40"
+   "hash": "473b4c474a50cff5bd74fcca1f94b4e0b181a29d44d6447a69c15e57a6548b40",
+   "ordem": 32
   },
   "33": {
    "texto": "Art. 33. Todas as provas serão produzidas na audiência de instrução e julgamento, ainda que não requeridas previamente, podendo o Juiz limitar ou excluir as que considerar excessivas, impertinentes ou protelatórias.",
-   "hash": "b22b2bfa0fe64c6250e33245e6521f5dd23b3081fea6dfd560c3e8e5e05fcbb8"
+   "hash": "b22b2bfa0fe64c6250e33245e6521f5dd23b3081fea6dfd560c3e8e5e05fcbb8",
+   "ordem": 33
   },
   "34": {
    "texto": "Art. 34. As testemunhas, até o máximo de três para cada parte, comparecerão à audiência de instrução e julgamento levadas pela parte que as tenha arrolado, independentemente de intimação, ou mediante esta, se assim for requerido.\n§ 1º O requerimento para intimação das testemunhas será apresentado à Secretaria no mínimo cinco dias antes da audiência de instrução e julgamento.\n§ 2º Não comparecendo a testemunha intimada, o Juiz poderá determinar sua imediata condução, valendo-se, se necessário, do concurso da força pública.",
-   "hash": "85b34aba3f4b9c0173653f0a00b929676d30d66efa347b3a1fe417ea898fb9db"
+   "hash": "85b34aba3f4b9c0173653f0a00b929676d30d66efa347b3a1fe417ea898fb9db",
+   "ordem": 34
   },
   "35": {
    "texto": "Art. 35. Quando a prova do fato exigir, o Juiz poderá inquirir técnicos de sua confiança, permitida às partes a apresentação de parecer técnico.\nParágrafo único. No curso da audiência, poderá o Juiz, de ofício ou a requerimento das partes, realizar inspeção em pessoas ou coisas, ou determinar que o faça pessoa de sua confiança, que lhe relatará informalmente o verificado.",
-   "hash": "4e623012a60390bd9cffb606bc44e90ffcabfca156bb4eb264f7e945d3bf652b"
+   "hash": "4e623012a60390bd9cffb606bc44e90ffcabfca156bb4eb264f7e945d3bf652b",
+   "ordem": 35
   },
   "36": {
    "texto": "Art. 36. A prova oral não será reduzida a escrito, devendo a sentença referir, no essencial, os informes trazidos nos depoimentos.",
-   "hash": "65ec0f8d76e6c8274ab48d928bc2a87d4bb2458f9de6d068f94ac3a91be69f3b"
+   "hash": "65ec0f8d76e6c8274ab48d928bc2a87d4bb2458f9de6d068f94ac3a91be69f3b",
+   "ordem": 36
   },
   "37": {
    "texto": "Art. 37. A instrução poderá ser dirigida por Juiz leigo, sob a supervisão de Juiz togado.\nSeção XII\nDa Sentença",
-   "hash": "12e996429f2909fda2f7926c81feb7b7fdd2ffe83d0215a3c69f713f51837bff"
+   "hash": "12e996429f2909fda2f7926c81feb7b7fdd2ffe83d0215a3c69f713f51837bff",
+   "ordem": 37
   },
   "38": {
    "texto": "Art. 38. A sentença mencionará os elementos de convicção do Juiz, com breve resumo dos fatos relevantes ocorridos em audiência, dispensado o relatório.\nParágrafo único. Não se admitirá sentença condenatória por quantia ilíquida, ainda que genérico o pedido.",
-   "hash": "008691a097d69e9e6c58869f0b79cae46c4c3ffb20f32fef1ce67fdf2c97d8b7"
+   "hash": "008691a097d69e9e6c58869f0b79cae46c4c3ffb20f32fef1ce67fdf2c97d8b7",
+   "ordem": 38
   },
   "39": {
    "texto": "Art. 39. É ineficaz a sentença condenatória na parte que exceder a alçada estabelecida nesta Lei.",
-   "hash": "c7adb3349ed98abfe73e16cce8dbcc70cd2ec5704eb2c9cb252821767dee847b"
+   "hash": "c7adb3349ed98abfe73e16cce8dbcc70cd2ec5704eb2c9cb252821767dee847b",
+   "ordem": 39
   },
   "40": {
    "texto": "Art. 40. O Juiz leigo que tiver dirigido a instrução proferirá sua decisão e imediatamente a submeterá ao Juiz togado, que poderá homologá-la, proferir outra em substituição ou, antes de se manifestar, determinar a realização de atos probatórios indispensáveis.",
-   "hash": "becdfb9c28729b4c09dc4d1938807449d7b6ddcd492561072bdad603373b0db1"
+   "hash": "becdfb9c28729b4c09dc4d1938807449d7b6ddcd492561072bdad603373b0db1",
+   "ordem": 40
   },
   "41": {
    "texto": "Art. 41. Da sentença, excetuada a homologatória de conciliação ou laudo arbitral, caberá recurso para o próprio Juizado.\n§ 1º O recurso será julgado por uma turma composta por três Juízes togados, em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado.\n§ 2º No recurso, as partes serão obrigatoriamente representadas por advogado.",
-   "hash": "22bc932009480331ceb648358d7320729a7bf6e5b7f904a8d59f94873d82d6d9"
+   "hash": "22bc932009480331ceb648358d7320729a7bf6e5b7f904a8d59f94873d82d6d9",
+   "ordem": 41
   },
   "42": {
    "texto": "Art. 42. O recurso será interposto no prazo de dez dias, contados da ciência da sentença, por petição escrita, da qual constarão as razões e o pedido do recorrente.\n§ 1º O preparo será feito, independentemente de intimação, nas quarenta e oito horas seguintes à interposição, sob pena de deserção.\n§ 2º Após o preparo, a Secretaria intimará o recorrido para oferecer resposta escrita no prazo de dez dias.",
-   "hash": "ff6d00cb1a839fd72aaf3cdd3285556618f5528d9d882e9e3a142cd38a8c8e6a"
+   "hash": "ff6d00cb1a839fd72aaf3cdd3285556618f5528d9d882e9e3a142cd38a8c8e6a",
+   "ordem": 42
   },
   "43": {
    "texto": "Art. 43. O recurso terá somente efeito devolutivo, podendo o Juiz dar-lhe efeito suspensivo, para evitar dano irreparável para a parte.",
-   "hash": "6fb654abc586e36f55e2e0e54a31196a1a6b6eff756e2ef31362094b4bc19cda"
+   "hash": "6fb654abc586e36f55e2e0e54a31196a1a6b6eff756e2ef31362094b4bc19cda",
+   "ordem": 43
   },
   "44": {
    "texto": "Art. 44. As partes poderão requerer a transcrição da gravação da fita magnética a que alude o § 3º do art. 13 desta Lei, correndo por conta do requerente as despesas respectivas.",
-   "hash": "9c048378661e02f717db02e7ac2c11dd78b57c79d85b400010bde357073d78f1"
+   "hash": "9c048378661e02f717db02e7ac2c11dd78b57c79d85b400010bde357073d78f1",
+   "ordem": 44
   },
   "45": {
    "texto": "Art. 45. As partes serão intimadas da data da sessão de julgamento.",
-   "hash": "b8e1ac8632dc696527c403bc6f3fe2dbd49beea30f633581fc87f1917a886dbb"
+   "hash": "b8e1ac8632dc696527c403bc6f3fe2dbd49beea30f633581fc87f1917a886dbb",
+   "ordem": 45
   },
   "46": {
    "texto": "Art. 46. O julgamento em segunda instância constará apenas da ata, com a indicação suficiente do processo, fundamentação sucinta e parte dispositiva. Se a sentença for confirmada pelos próprios fundamentos, a súmula do julgamento servirá de acórdão.",
-   "hash": "b29dafe0a595a477baba2311e8aae77993223443512b414e59292b6621e5f38c"
+   "hash": "b29dafe0a595a477baba2311e8aae77993223443512b414e59292b6621e5f38c",
+   "ordem": 46
   },
   "47": {
    "texto": "Art. 47. (VETADO)\nSeção XIII\nDos Embargos de Declaração",
-   "hash": "b34759615c92bdeb8076c45ce1ed0e7ca8bf43c05ec4e2d19023a076733bcc5a"
+   "hash": "b34759615c92bdeb8076c45ce1ed0e7ca8bf43c05ec4e2d19023a076733bcc5a",
+   "ordem": 47
   },
   "48": {
    "texto": "Art. 48. Caberão embargos de declaração contra sentença ou acórdão nos casos previstos no Código de Processo Civil. (Redação dada pela Lei nº 13.105, de 2015) (Vigência)\nParágrafo único. Os erros materiais podem ser corrigidos de ofício.",
-   "hash": "1c89e8fc3058d0e4fcf0a40f0b277121582bfd10aaee776f7e3dc865fe249786"
+   "hash": "1c89e8fc3058d0e4fcf0a40f0b277121582bfd10aaee776f7e3dc865fe249786",
+   "ordem": 48
   },
   "49": {
    "texto": "Art. 49. Os embargos de declaração serão interpostos por escrito ou oralmente, no prazo de cinco dias, contados da ciência da decisão.",
-   "hash": "b742ccdf0faf8d3063798103128180b3f8cd1e322e65e290d4f61d66b77e38ec"
+   "hash": "b742ccdf0faf8d3063798103128180b3f8cd1e322e65e290d4f61d66b77e38ec",
+   "ordem": 49
   },
   "50": {
    "texto": "Art. 50. Os embargos de declaração interrompem o prazo para a interposição de recurso. (Redação dada pela Lei nº 13.105, de 2015) (Vigência)\nSeção XIV\nDa Extinção do Processo Sem Julgamento do Mérito",
-   "hash": "175d432cf6ab5efc09d20127d82e4435a5d35159cd324073794fb533a67190d7"
+   "hash": "175d432cf6ab5efc09d20127d82e4435a5d35159cd324073794fb533a67190d7",
+   "ordem": 50
   },
   "51": {
    "texto": "Art. 51. Extingue-se o processo, além dos casos previstos em lei:\nI - quando o autor deixar de comparecer a qualquer das audiências do processo;\nII - quando inadmissível o procedimento instituído por esta Lei ou seu prosseguimento, após a conciliação;\nIII - quando for reconhecida a incompetência territorial;\nIV - quando sobrevier qualquer dos impedimentos previstos no art. 8º desta Lei;\nV - quando, falecido o autor, a habilitação depender de sentença ou não se der no prazo de trinta dias;\nVI - quando, falecido o réu, o autor não promover a citação dos sucessores no prazo de trinta dias da ciência do fato.\n§ 1º A extinção do processo independerá, em qualquer hipótese, de prévia intimação pessoal das partes.\n§ 2º No caso do inciso I deste artigo, quando comprovar que a ausência decorre de força maior, a parte poderá ser isentada, pelo Juiz, do pagamento das custas.\nSeção XV\nDa Execução",
-   "hash": "66d5f5a6f580b575529671b7b4ee80fd1f31249a6186d70dbded84987c20c0ef"
+   "hash": "66d5f5a6f580b575529671b7b4ee80fd1f31249a6186d70dbded84987c20c0ef",
+   "ordem": 51
   },
   "52": {
    "texto": "Art. 52. A execução da sentença processar-se-á no próprio Juizado, aplicando-se, no que couber, o disposto no Código de Processo Civil, com as seguintes alterações:\nI - as sentenças serão necessariamente líquidas, contendo a conversão em Bônus do Tesouro Nacional - BTN ou índice equivalente;\nII - os cálculos de conversão de índices, de honorários, de juros e de outras parcelas serão efetuados por servidor judicial;\nIII - a intimação da sentença será feita, sempre que possível, na própria audiência em que for proferida. Nessa intimação, o vencido será instado a cumprir a sentença tão logo ocorra seu trânsito em julgado, e advertido dos efeitos do seu descumprimento (inciso V);\nIV - não cumprida voluntariamente a sentença transitada em julgado, e tendo havido solicitação do interessado, que poderá ser verbal, proceder-se-á desde logo à execução, dispensada nova citação;\nV - nos casos de obrigação de entregar, de fazer, ou de não fazer, o Juiz, na sentença ou na fase de execução, cominará multa diária, arbitrada de acordo com as condições econômicas do devedor, para a hipótese de inadimplemento. Não cumprida a obrigação, o credor poderá requerer a elevação da multa ou a transformação da condenação em perdas e danos, que o Juiz de imediato arbitrará, seguindo-se a execução por quantia certa, incluída a multa vencida de obrigação de dar, quando evidenciada a malícia do devedor na execução do julgado;\nVI - na obrigação de fazer, o Juiz pode determinar o cumprimento por outrem, fixado o valor que o devedor deve depositar para as despesas, sob pena de multa diária;\nVII - na alienação forçada dos bens, o Juiz poderá autorizar o devedor, o credor ou terceira pessoa idônea a tratar da alienação do bem penhorado, a qual se aperfeiçoará em juízo até a data fixada para a praça ou leilão. Sendo o preço inferior ao da avaliação, as partes serão ouvidas. Se o pagamento não for à vista, será oferecida caução idônea, nos casos de alienação de bem móvel, ou hipotecado o imóvel;\nVIII - é dispensada a publicação de editais em jornais, quando se tratar de alienação de bens de pequeno valor;\nIX - o devedor poderá oferecer embargos, nos autos da execução, versando sobre:\na) falta ou nulidade da citação no processo, se ele correu à revelia;\nb) manifesto excesso de execução;\nc) erro de cálculo;\nd) causa impeditiva, modificativa ou extintiva da obrigação, superveniente à sentença.",
-   "hash": "3965f6e29ce21eed48b67ed86102f1c542de447bb5b09c443a9d4fdf63d108cf"
+   "hash": "3965f6e29ce21eed48b67ed86102f1c542de447bb5b09c443a9d4fdf63d108cf",
+   "ordem": 52
   },
   "53": {
    "texto": "Art. 53. A execução de título executivo extrajudicial, no valor de até quarenta salários mínimos, obedecerá ao disposto no Código de Processo Civil, com as modificações introduzidas por esta Lei.\n§ 1º Efetuada a penhora, o devedor será intimado a comparecer à audiência de conciliação, quando poderá oferecer embargos (art. 52, IX), por escrito ou verbalmente.\n§ 2º Na audiência, será buscado o meio mais rápido e eficaz para a solução do litígio, se possível com dispensa da alienação judicial, devendo o conciliador propor, entre outras medidas cabíveis, o pagamento do débito a prazo ou a prestação, a dação em pagamento ou a imediata adjudicação do bem penhorado.\n§ 3º Não apresentados os embargos em audiência, ou julgados improcedentes, qualquer das partes poderá requerer ao Juiz a adoção de uma das alternativas do parágrafo anterior.\n§ 4º Não encontrado o devedor ou inexistindo bens penhoráveis, o processo será imediatamente extinto, devolvendo-se os documentos ao autor.\nSeção XVI\nDas Despesas",
-   "hash": "a07f6c53713354671abd047b4c47320d0451fbc6f96c31f458461c329d8d5980"
+   "hash": "a07f6c53713354671abd047b4c47320d0451fbc6f96c31f458461c329d8d5980",
+   "ordem": 53
   },
   "54": {
    "texto": "Art. 54. O acesso ao Juizado Especial independerá, em primeiro grau de jurisdição, do pagamento de custas, taxas ou despesas.\nParágrafo único. O preparo do recurso, na forma do § 1º do art. 42 desta Lei, compreenderá todas as despesas processuais, inclusive aquelas dispensadas em primeiro grau de jurisdição, ressalvada a hipótese de assistência judiciária gratuita.",
-   "hash": "26f112ef08600e50c526df2b59144deca1e342acb36b525283f5e65aeeec68a5"
+   "hash": "26f112ef08600e50c526df2b59144deca1e342acb36b525283f5e65aeeec68a5",
+   "ordem": 54
   },
   "55": {
    "texto": "Art. 55. A sentença de primeiro grau não condenará o vencido em custas e honorários de advogado, ressalvados os casos de litigância de má-fé. Em segundo grau, o recorrente, vencido, pagará as custas e honorários de advogado, que serão fixados entre dez por cento e vinte por cento do valor de condenação ou, não havendo condenação, do valor corrigido da causa.\nParágrafo único. Na execução não serão contadas custas, salvo quando:\nI - reconhecida a litigância de má-fé;\nII - improcedentes os embargos do devedor;\nIII - tratar-se de execução de sentença que tenha sido objeto de recurso improvido do devedor.\nSeção XVII\nDisposições Finais",
-   "hash": "ce2f210cac6dd4788fb7815cfcc82a9ab7097a07d8bb21ab39af71685226ad46"
+   "hash": "ce2f210cac6dd4788fb7815cfcc82a9ab7097a07d8bb21ab39af71685226ad46",
+   "ordem": 55
   },
   "56": {
    "texto": "Art. 56. Instituído o Juizado Especial, serão implantadas as curadorias necessárias e o serviço de assistência judiciária.",
-   "hash": "04d451e517cc08fabdc2472282ea2034f83dcff1e9d96272cc642fd71279d8dd"
+   "hash": "04d451e517cc08fabdc2472282ea2034f83dcff1e9d96272cc642fd71279d8dd",
+   "ordem": 56
   },
   "57": {
    "texto": "Art. 57. O acordo extrajudicial, de qualquer natureza ou valor, poderá ser homologado, no juízo competente, independentemente de termo, valendo a sentença como título executivo judicial.\nParágrafo único. Valerá como título extrajudicial o acordo celebrado pelas partes, por instrumento escrito, referendado pelo órgão competente do Ministério Público.",
-   "hash": "a95d10facd78c19181e2c1892970fce8db455efb08fc98cfe851dbd6f1618350"
+   "hash": "a95d10facd78c19181e2c1892970fce8db455efb08fc98cfe851dbd6f1618350",
+   "ordem": 57
   },
   "58": {
    "texto": "Art. 58. As normas de organização judiciária local poderão estender a conciliação prevista nos arts. 22 e 23 a causas não abrangidas por esta Lei.",
-   "hash": "c6382bd520d644fbe697d362e51fe8a64ead82f8bdcec845dd11fa47b3ea1bd7"
+   "hash": "c6382bd520d644fbe697d362e51fe8a64ead82f8bdcec845dd11fa47b3ea1bd7",
+   "ordem": 58
   },
   "59": {
    "texto": "Art. 59. Não se admitirá ação rescisória nas causas sujeitas ao procedimento instituído por esta Lei.\nCapítulo III\nDos Juizados Especiais Criminais\nDisposições Gerais",
-   "hash": "0bad85638e7aff335a6e1d6a30bfe60caec55dcefd3c97e7805df28e8eba3a2b"
+   "hash": "0bad85638e7aff335a6e1d6a30bfe60caec55dcefd3c97e7805df28e8eba3a2b",
+   "ordem": 59
   },
   "60": {
    "texto": "Art. 60. O Juizado Especial Criminal, provido por juízes togados ou togados e leigos, tem competência para a conciliação, o julgamento e a execução das infrações penais de menor potencial ofensivo, respeitadas as regras de conexão e continência. (Redação dada pela Lei nº 11.313, de 2006)\nParágrafo único. Na reunião de processos, perante o juízo comum ou o tribunal do júri, decorrentes da aplicação das regras de conexão e continência, observar-se-ão os institutos da transação penal e da composição dos danos civis. (Incluído pela Lei nº 11.313, de 2006)",
-   "hash": "e97864b5dc76defff1ce30b6d4b88957b48150e7e78e45840b955cb3d1e6005b"
+   "hash": "e97864b5dc76defff1ce30b6d4b88957b48150e7e78e45840b955cb3d1e6005b",
+   "ordem": 60
   },
   "61": {
    "texto": "Art. 61. Consideram-se infrações penais de menor potencial ofensivo, para os efeitos desta Lei, as contravenções penais e os crimes a que a lei comine pena máxima não superior a 2 (dois) anos, cumulada ou não com multa. (Redação dada pela Lei nº 11.313, de 2006)",
-   "hash": "6cac2aa5a41da316b314b20facb11280df8336e98d7a80d1a0d68cbab3c84d1c"
+   "hash": "6cac2aa5a41da316b314b20facb11280df8336e98d7a80d1a0d68cbab3c84d1c",
+   "ordem": 61
   },
   "62": {
    "texto": "Art. 62. O processo perante o Juizado Especial orientar-se-á pelos critérios da oralidade, simplicidade, informalidade, economia processual e celeridade, objetivando, sempre que possível, a reparação dos danos sofridos pela vítima e a aplicação de pena não privativa de liberdade. (Redação dada pela Lei nº 13.603, de 2018)\nSeção I\nDa Competência e dos Atos Processuais",
-   "hash": "927010a1f460638d757a11739d20aa2b1e804e32a21ebaab70d17418b9d7e184"
+   "hash": "927010a1f460638d757a11739d20aa2b1e804e32a21ebaab70d17418b9d7e184",
+   "ordem": 62
   },
   "63": {
    "texto": "Art. 63. A competência do Juizado será determinada pelo lugar em que foi praticada a infração penal.",
-   "hash": "8c593edae3d7449b799ea500a7f23e65026eb09e19074f89b8fc20eaccdad825"
+   "hash": "8c593edae3d7449b799ea500a7f23e65026eb09e19074f89b8fc20eaccdad825",
+   "ordem": 63
   },
   "64": {
    "texto": "Art. 64. Os atos processuais serão públicos e poderão realizar-se em horário noturno e em qualquer dia da semana, conforme dispuserem as normas de organização judiciária.",
-   "hash": "e1dad1d9d8ee6195937cbb35b3ca31146f373075010cc289a3e10dd2f179cd29"
+   "hash": "e1dad1d9d8ee6195937cbb35b3ca31146f373075010cc289a3e10dd2f179cd29",
+   "ordem": 64
   },
   "65": {
    "texto": "Art. 65. Os atos processuais serão válidos sempre que preencherem as finalidades para as quais foram realizados, atendidos os critérios indicados no art. 62 desta Lei.\n§ 1º Não se pronunciará qualquer nulidade sem que tenha havido prejuízo.\n§ 2º A prática de atos processuais em outras comarcas poderá ser solicitada por qualquer meio hábil de comunicação.\n§ 3º Serão objeto de registro escrito exclusivamente os atos havidos por essenciais. Os atos realizados em audiência de instrução e julgamento poderão ser gravados em fita magnética ou equivalente.",
-   "hash": "957f03e7ba5d9c808285accc11dfefa7f967472bc6851b8eee48efa9a3bb33c7"
+   "hash": "957f03e7ba5d9c808285accc11dfefa7f967472bc6851b8eee48efa9a3bb33c7",
+   "ordem": 65
   },
   "66": {
    "texto": "Art. 66. A citação será pessoal e far-se-á no próprio Juizado, sempre que possível, ou por mandado.\nParágrafo único. Não encontrado o acusado para ser citado, o Juiz encaminhará as peças existentes ao Juízo comum para adoção do procedimento previsto em lei.",
-   "hash": "e75046a1eee598bcacaad8a9dc8c47721de19e3b1da3b2c487a4323687c9357f"
+   "hash": "e75046a1eee598bcacaad8a9dc8c47721de19e3b1da3b2c487a4323687c9357f",
+   "ordem": 66
   },
   "67": {
    "texto": "Art. 67. A intimação far-se-á por correspondência, com aviso de recebimento pessoal ou, tratando-se de pessoa jurídica ou firma individual, mediante entrega ao encarregado da recepção, que será obrigatoriamente identificado, ou, sendo necessário, por oficial de justiça, independentemente de mandado ou carta precatória, ou ainda por qualquer meio idôneo de comunicação.\nParágrafo único. Dos atos praticados em audiência considerar-se-ão desde logo cientes as partes, os interessados e defensores.",
-   "hash": "6745ce431003d7f8bc53e2b28ccf368444e5b7d5f5a354c8877f217271d7833d"
+   "hash": "6745ce431003d7f8bc53e2b28ccf368444e5b7d5f5a354c8877f217271d7833d",
+   "ordem": 67
   },
   "68": {
    "texto": "Art. 68. Do ato de intimação do autor do fato e do mandado de citação do acusado, constará a necessidade de seu comparecimento acompanhado de advogado, com a advertência de que, na sua falta, ser-lhe-á designado defensor público.\nSeção II\nDa Fase Preliminar",
-   "hash": "5dfde4fdeefa8968abea274cabd3b863ee0dcb044586d643a5f5c0ad549a5e8b"
+   "hash": "5dfde4fdeefa8968abea274cabd3b863ee0dcb044586d643a5f5c0ad549a5e8b",
+   "ordem": 68
   },
   "69": {
    "texto": "Art. 69. A autoridade policial que tomar conhecimento da ocorrência lavrará termo circunstanciado e o encaminhará imediatamente ao Juizado, com o autor do fato e a vítima, providenciando-se as requisições dos exames periciais necessários.\nParágrafo único. Ao autor do fato que, após a lavratura do termo, for imediatamente encaminhado ao juizado ou assumir o compromisso de a ele comparecer, não se imporá prisão em flagrante, nem se exigirá fiança. Em caso de violência doméstica, o juiz poderá determinar, como medida de cautela, seu afastamento do lar, domicílio ou local de convivência com a vítima. (Redação dada pela Lei nº 10.455, de 13.5.2002))",
-   "hash": "30946cc74ede249c2172d4fa531bf521d034977d1be4794003c7eda60d409171"
+   "hash": "30946cc74ede249c2172d4fa531bf521d034977d1be4794003c7eda60d409171",
+   "ordem": 69
   },
   "70": {
    "texto": "Art. 70. Comparecendo o autor do fato e a vítima, e não sendo possível a realização imediata da audiência preliminar, será designada data próxima, da qual ambos sairão cientes.",
-   "hash": "6bd4a739ba687ce7a932b30087d1edf4b6a40b6250c5831ba088414c0445558a"
+   "hash": "6bd4a739ba687ce7a932b30087d1edf4b6a40b6250c5831ba088414c0445558a",
+   "ordem": 70
   },
   "71": {
    "texto": "Art. 71. Na falta do comparecimento de qualquer dos envolvidos, a Secretaria providenciará sua intimação e, se for o caso, a do responsável civil, na forma dos arts. 67 e 68 desta Lei.",
-   "hash": "c9a6e068526b9fa5cb5c89f26f6dae5398a0c2790514f9fa683477d27e8cf42d"
+   "hash": "c9a6e068526b9fa5cb5c89f26f6dae5398a0c2790514f9fa683477d27e8cf42d",
+   "ordem": 71
   },
   "72": {
    "texto": "Art. 72. Na audiência preliminar, presente o representante do Ministério Público, o autor do fato e a vítima e, se possível, o responsável civil, acompanhados por seus advogados, o Juiz esclarecerá sobre a possibilidade da composição dos danos e da aceitação da proposta de aplicação imediata de pena não privativa de liberdade.",
-   "hash": "86ac9879726c0fe710c4680b217bdc9943cfe1d3957366278870a6228ad270de"
+   "hash": "86ac9879726c0fe710c4680b217bdc9943cfe1d3957366278870a6228ad270de",
+   "ordem": 72
   },
   "73": {
    "texto": "Art. 73. A conciliação será conduzida pelo Juiz ou por conciliador sob sua orientação.\nParágrafo único. Os conciliadores são auxiliares da Justiça, recrutados, na forma da lei local, preferentemente entre bacharéis em Direito, excluídos os que exerçam funções na administração da Justiça Criminal.",
-   "hash": "9d172f8055d6a0d5b333d64780dcf97e71db04fb0ca6130f4f6da9ceecac04b3"
+   "hash": "9d172f8055d6a0d5b333d64780dcf97e71db04fb0ca6130f4f6da9ceecac04b3",
+   "ordem": 73
   },
   "74": {
    "texto": "Art. 74. A composição dos danos civis será reduzida a escrito e, homologada pelo Juiz mediante sentença irrecorrível, terá eficácia de título a ser executado no juízo civil competente.\nParágrafo único. Tratando-se de ação penal de iniciativa privada ou de ação penal pública condicionada à representação, o acordo homologado acarreta a renúncia ao direito de queixa ou representação.",
-   "hash": "b6993d509ef51cabe40c1a4c4bf829377f0d6ff18c5ad5245a1e301908ecb300"
+   "hash": "b6993d509ef51cabe40c1a4c4bf829377f0d6ff18c5ad5245a1e301908ecb300",
+   "ordem": 74
   },
   "75": {
    "texto": "Art. 75. Não obtida a composição dos danos civis, será dada imediatamente ao ofendido a oportunidade de exercer o direito de representação verbal, que será reduzida a termo.\nParágrafo único. O não oferecimento da representação na audiência preliminar não implica decadência do direito, que poderá ser exercido no prazo previsto em lei.",
-   "hash": "26bd88229a93851c751965da576b7016560d02df4f7fa96cc7bc902cdcbb13a9"
+   "hash": "26bd88229a93851c751965da576b7016560d02df4f7fa96cc7bc902cdcbb13a9",
+   "ordem": 75
   },
   "76": {
    "texto": "Art. 76. Havendo representação ou tratando-se de crime de ação penal pública incondicionada, não sendo caso de arquivamento, o Ministério Público poderá propor a aplicação imediata de pena restritiva de direitos ou multas, a ser especificada na proposta.\n§ 1º Nas hipóteses de ser a pena de multa a única aplicável, o Juiz poderá reduzi-la até a metade.\n§ 2º Não se admitirá a proposta se ficar comprovado:\nI - ter sido o autor da infração condenado, pela prática de crime, à pena privativa de liberdade, por sentença definitiva;\nII - ter sido o agente beneficiado anteriormente, no prazo de cinco anos, pela aplicação de pena restritiva ou multa, nos termos deste artigo;\nIII - não indicarem os antecedentes, a conduta social e a personalidade do agente, bem como os motivos e as circunstâncias, ser necessária e suficiente a adoção da medida.\n§ 3º Aceita a proposta pelo autor da infração e seu defensor, será submetida à apreciação do Juiz.\n§ 4º Acolhendo a proposta do Ministério Público aceita pelo autor da infração, o Juiz aplicará a pena restritiva de direitos ou multa, que não importará em reincidência, sendo registrada apenas para impedir novamente o mesmo benefício no prazo de cinco anos.\n§ 5º Da sentença prevista no parágrafo anterior caberá a apelação referida no art. 82 desta Lei.\n§ 6º A imposição da sanção de que trata o § 4º deste artigo não constará de certidão de antecedentes criminais, salvo para os fins previstos no mesmo dispositivo, e não terá efeitos civis, cabendo aos interessados propor ação cabível no juízo cível.\nSeção III\nDo Procedimento Sumariíssimo",
-   "hash": "8db6f55670ad40a98a390d596e789cb9fa6a387d1470ae39d02f69dc57c83ba4"
+   "hash": "8db6f55670ad40a98a390d596e789cb9fa6a387d1470ae39d02f69dc57c83ba4",
+   "ordem": 76
   },
   "77": {
    "texto": "Art. 77. Na ação penal de iniciativa pública, quando não houver aplicação de pena, pela ausência do autor do fato, ou pela não ocorrência da hipótese prevista no art. 76 desta Lei, o Ministério Público oferecerá ao Juiz, de imediato, denúncia oral, se não houver necessidade de diligências imprescindíveis.\n§ 1º Para o oferecimento da denúncia, que será elaborada com base no termo de ocorrência referido no art. 69 desta Lei, com dispensa do inquérito policial, prescindir-se-á do exame do corpo de delito quando a materialidade do crime estiver aferida por boletim médico ou prova equivalente.\n§ 2º Se a complexidade ou circunstâncias do caso não permitirem a formulação da denúncia, o Ministério Público poderá requerer ao Juiz o encaminhamento das peças existentes, na forma do parágrafo único do art. 66 desta Lei.\n§ 3º Na ação penal de iniciativa do ofendido poderá ser oferecida queixa oral, cabendo ao Juiz verificar se a complexidade e as circunstâncias do caso determinam a adoção das providências previstas no parágrafo único do art. 66 desta Lei.",
-   "hash": "3b134c5dfd605c071b758db7f03d6b9ff52028577f648ae4a3f7bebe4115c519"
+   "hash": "3b134c5dfd605c071b758db7f03d6b9ff52028577f648ae4a3f7bebe4115c519",
+   "ordem": 77
   },
   "78": {
    "texto": "Art. 78. Oferecida a denúncia ou queixa, será reduzida a termo, entregando-se cópia ao acusado, que com ela ficará citado e imediatamente cientificado da designação de dia e hora para a audiência de instrução e julgamento, da qual também tomarão ciência o Ministério Público, o ofendido, o responsável civil e seus advogados.\n§ 1º Se o acusado não estiver presente, será citado na forma dos arts. 66 e 68 desta Lei e cientificado da data da audiência de instrução e julgamento, devendo a ela trazer suas testemunhas ou apresentar requerimento para intimação, no mínimo cinco dias antes de sua realização.\n§ 2º Não estando presentes o ofendido e o responsável civil, serão intimados nos termos do art. 67 desta Lei para comparecerem à audiência de instrução e julgamento.\n§ 3º As testemunhas arroladas serão intimadas na forma prevista no art. 67 desta Lei.",
-   "hash": "cc1aa6ab8f68bc4a4cff5727e4a9303ebc323256b372ab998ea40572b928aae9"
+   "hash": "cc1aa6ab8f68bc4a4cff5727e4a9303ebc323256b372ab998ea40572b928aae9",
+   "ordem": 78
   },
   "79": {
    "texto": "Art. 79. No dia e hora designados para a audiência de instrução e julgamento, se na fase preliminar não tiver havido possibilidade de tentativa de conciliação e de oferecimento de proposta pelo Ministério Público, proceder-se-á nos termos dos arts. 72, 73, 74 e 75 desta Lei.",
-   "hash": "fe1d93a7530c18e406066fc6f8887fc2b1ac7479644795ce5352d81d2df404e7"
+   "hash": "fe1d93a7530c18e406066fc6f8887fc2b1ac7479644795ce5352d81d2df404e7",
+   "ordem": 79
   },
   "80": {
    "texto": "Art. 80. Nenhum ato será adiado, determinando o Juiz, quando imprescindível, a condução coercitiva de quem deva comparecer.",
-   "hash": "f1cadd725ef8792f69af4c21ca3873e9dd5b8aed4012a0e2f9cc7c9211b56fc4"
+   "hash": "f1cadd725ef8792f69af4c21ca3873e9dd5b8aed4012a0e2f9cc7c9211b56fc4",
+   "ordem": 80
   },
   "81": {
    "texto": "Art. 81. Aberta a audiência, será dada a palavra ao defensor para responder à acusação, após o que o Juiz receberá, ou não, a denúncia ou queixa; havendo recebimento, serão ouvidas a vítima e as testemunhas de acusação e defesa, interrogando-se a seguir o acusado, se presente, passando-se imediatamente aos debates orais e à prolação da sentença.\n§ 1º Todas as provas serão produzidas na audiência de instrução e julgamento, podendo o Juiz limitar ou excluir as que considerar excessivas, impertinentes ou protelatórias.\n§ 1º-A. Durante a audiência, todas as partes e demais sujeitos processuais presentes no ato deverão respeitar a dignidade da vítima, sob pena de responsabilização civil, penal e administrativa, cabendo ao juiz garantir o cumprimento do disposto neste artigo, vedadas: (Incluído pela Lei nº 14.245, de 2021)\nI - a manifestação sobre circunstâncias ou elementos alheios aos fatos objeto de apuração nos autos; (Incluído pela Lei nº 14.245, de 2021)\nII - a utilização de linguagem, de informações ou de material que ofendam a dignidade da vítima ou de testemunhas. (Incluído pela Lei nº 14.245, de 2021)\n§ 2º De todo o ocorrido na audiência será lavrado termo, assinado pelo Juiz e pelas partes, contendo breve resumo dos fatos relevantes ocorridos em audiência e a sentença.\n§ 3º A sentença, dispensado o relatório, mencionará os elementos de convicção do Juiz.",
-   "hash": "a05a2f515b58c9db49786b5083619b3a4e0a775f2e0c269c0dce03cacf485c04"
+   "hash": "a05a2f515b58c9db49786b5083619b3a4e0a775f2e0c269c0dce03cacf485c04",
+   "ordem": 81
   },
   "82": {
    "texto": "Art. 82. Da decisão de rejeição da denúncia ou queixa e da sentença caberá apelação, que poderá ser julgada por turma composta de três Juízes em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado.\n§ 1º A apelação será interposta no prazo de dez dias, contados da ciência da sentença pelo Ministério Público, pelo réu e seu defensor, por petição escrita, da qual constarão as razões e o pedido do recorrente.\n§ 2º O recorrido será intimado para oferecer resposta escrita no prazo de dez dias.\n§ 3º As partes poderão requerer a transcrição da gravação da fita magnética a que alude o § 3º do art. 65 desta Lei.\n§ 4º As partes serão intimadas da data da sessão de julgamento pela imprensa.\n§ 5º Se a sentença for confirmada pelos próprios fundamentos, a súmula do julgamento servirá de acórdão.",
-   "hash": "2c63b6c2b60d5aa8e361e31f77e1e1b474d06a673d0e00514bbcf8fa45442447"
+   "hash": "2c63b6c2b60d5aa8e361e31f77e1e1b474d06a673d0e00514bbcf8fa45442447",
+   "ordem": 82
   },
   "83": {
    "texto": "Art. 83. Cabem embargos de declaração quando, em sentença ou acórdão, houver obscuridade, contradição ou omissão. (Redação dada pela Lei nº 13.105, de 2015) (Vigência)\n§ 1º Os embargos de declaração serão opostos por escrito ou oralmente, no prazo de cinco dias, contados da ciência da decisão.\n§ 2o Os embargos de declaração interrompem o prazo para a interposição de recurso. (Redação dada pela Lei nº 13.105, de 2015) (Vigência)\n§ 3º Os erros materiais podem ser corrigidos de ofício.\nSeção IV\nDa Execução",
-   "hash": "9e113a02d44b2ab10868a2b58e14bc337837ff04c2c9e5107cb17b403b3ee56c"
+   "hash": "9e113a02d44b2ab10868a2b58e14bc337837ff04c2c9e5107cb17b403b3ee56c",
+   "ordem": 83
   },
   "84": {
    "texto": "Art. 84. Aplicada exclusivamente pena de multa, seu cumprimento far-se-á mediante pagamento na Secretaria do Juizado.\nParágrafo único. Efetuado o pagamento, o Juiz declarará extinta a punibilidade, determinando que a condenação não fique constando dos registros criminais, exceto para fins de requisição judicial.",
-   "hash": "5eb43006b4a967e240eec324b86df13741f7a04a29e0ba3d2c5176c846f2d9b0"
+   "hash": "5eb43006b4a967e240eec324b86df13741f7a04a29e0ba3d2c5176c846f2d9b0",
+   "ordem": 84
   },
   "85": {
    "texto": "Art. 85. Não efetuado o pagamento de multa, será feita a conversão em pena privativa da liberdade, ou restritiva de direitos, nos termos previstos em lei.",
-   "hash": "9fdc6b59f678a157fdf69e4864a3c905e64d140e354a2a73ffb32c4f68bdd8b9"
+   "hash": "9fdc6b59f678a157fdf69e4864a3c905e64d140e354a2a73ffb32c4f68bdd8b9",
+   "ordem": 85
   },
   "86": {
    "texto": "Art. 86. A execução das penas privativas de liberdade e restritivas de direitos, ou de multa cumulada com estas, será processada perante o órgão competente, nos termos da lei.\nSeção V\nDas Despesas Processuais",
-   "hash": "aee73fdc26a098e46255e8da043e676b62517d239592b88fe4b6b8a3fe12b831"
+   "hash": "aee73fdc26a098e46255e8da043e676b62517d239592b88fe4b6b8a3fe12b831",
+   "ordem": 86
   },
   "87": {
    "texto": "Art. 87. Nos casos de homologação do acordo civil e aplicação de pena restritiva de direitos ou multa (arts. 74 e 76, § 4º), as despesas processuais serão reduzidas, conforme dispuser lei estadual.\nSeção VI\nDisposições Finais",
-   "hash": "8b5b80ab403629bfa962b5cde61b1a11d1b56ab08c38dea02e12a529167773a5"
+   "hash": "8b5b80ab403629bfa962b5cde61b1a11d1b56ab08c38dea02e12a529167773a5",
+   "ordem": 87
   },
   "88": {
    "texto": "Art. 88. Além das hipóteses do Código Penal e da legislação especial, dependerá de representação a ação penal relativa aos crimes de lesões corporais leves e lesões culposas.",
-   "hash": "60b2ee4ce4b3880eb776dff7ce7d341b876f156f1a0d038e65c206bf902d1ac7"
+   "hash": "60b2ee4ce4b3880eb776dff7ce7d341b876f156f1a0d038e65c206bf902d1ac7",
+   "ordem": 88
   },
   "89": {
    "texto": "Art. 89. Nos crimes em que a pena mínima cominada for igual ou inferior a um ano, abrangidas ou não por esta Lei, o Ministério Público, ao oferecer a denúncia, poderá propor a suspensão do processo, por dois a quatro anos, desde que o acusado não esteja sendo processado ou não tenha sido condenado por outro crime, presentes os demais requisitos que autorizariam a suspensão condicional da pena (art. 77 do Código Penal).\n§ 1º Aceita a proposta pelo acusado e seu defensor, na presença do Juiz, este, recebendo a denúncia, poderá suspender o processo, submetendo o acusado a período de prova, sob as seguintes condições:\nI - reparação do dano, salvo impossibilidade de fazê-lo;\nII - proibição de freqüentar determinados lugares;\nIII - proibição de ausentar-se da comarca onde reside, sem autorização do Juiz;\nIV - comparecimento pessoal e obrigatório a juízo, mensalmente, para informar e justificar suas atividades.\n§ 2º O Juiz poderá especificar outras condições a que fica subordinada a suspensão, desde que adequadas ao fato e à situação pessoal do acusado.\n§ 3º A suspensão será revogada se, no curso do prazo, o beneficiário vier a ser processado por outro crime ou não efetuar, sem motivo justificado, a reparação do dano.\n§ 4º A suspensão poderá ser revogada se o acusado vier a ser processado, no curso do prazo, por contravenção, ou descumprir qualquer outra condição imposta.\n§ 5º Expirado o prazo sem revogação, o Juiz declarará extinta a punibilidade.\n§ 6º Não correrá a prescrição durante o prazo de suspensão do processo.\n§ 7º Se o acusado não aceitar a proposta prevista neste artigo, o processo prosseguirá em seus ulteriores termos.",
-   "hash": "b88558fa9a72c3d7198fdac6f9e4a7a60df5425fea4e69c727c7f3b51db1173d"
+   "hash": "b88558fa9a72c3d7198fdac6f9e4a7a60df5425fea4e69c727c7f3b51db1173d",
+   "ordem": 89
   },
   "90": {
    "texto": "Art. 90. As disposições desta Lei não se aplicam aos processos penais cuja instrução já estiver iniciada. (Vide ADIN nº 1.719-9)",
-   "hash": "13274848cb0f7f434734f2e4c7e7d04a43c7cc55e64ac25e4b5ec484e48dfc80"
+   "hash": "13274848cb0f7f434734f2e4c7e7d04a43c7cc55e64ac25e4b5ec484e48dfc80",
+   "ordem": 90
   },
   "90-A": {
    "texto": "Art. 90-A. As disposições desta Lei não se aplicam no âmbito da Justiça Militar. (Artigo incluído pela Lei nº 9.839, de 27.9.1999)",
-   "hash": "51fda6613b158e604c8a3915c1b774d4162f767adebc9deb39cb901a781ff5ad"
+   "hash": "51fda6613b158e604c8a3915c1b774d4162f767adebc9deb39cb901a781ff5ad",
+   "ordem": 91
   },
   "91": {
    "texto": "Art. 91. Nos casos em que esta Lei passa a exigir representação para a propositura da ação penal pública, o ofendido ou seu representante legal será intimado para oferecê-la no prazo de trinta dias, sob pena de decadência.",
-   "hash": "d13a12ab5b597c480433f775a3a8198846a0f8095681e5d58bf8beb4f12bcf9b"
+   "hash": "d13a12ab5b597c480433f775a3a8198846a0f8095681e5d58bf8beb4f12bcf9b",
+   "ordem": 92
   },
   "92": {
    "texto": "Art. 92. Aplicam-se subsidiariamente as disposições dos Códigos Penal e de Processo Penal, no que não forem incompatíveis com esta Lei.\nCapítulo IV\nDisposições Finais Comuns",
-   "hash": "1fdd6731ac16d6d481b44e9439006435122ab4e618810636f2c85f3c1db6f6bd"
+   "hash": "1fdd6731ac16d6d481b44e9439006435122ab4e618810636f2c85f3c1db6f6bd",
+   "ordem": 93
   },
   "93": {
    "texto": "Art. 93. Lei Estadual disporá sobre o Sistema de Juizados Especiais Cíveis e Criminais, sua organização, composição e competência.",
-   "hash": "4ecc335d6e39c7ec9c20582e5b810e4888afdf07e49dc7b3c1f6d96c3beafb9d"
+   "hash": "4ecc335d6e39c7ec9c20582e5b810e4888afdf07e49dc7b3c1f6d96c3beafb9d",
+   "ordem": 94
   },
   "94": {
    "texto": "Art. 94. Os serviços de cartório poderão ser prestados, e as audiências realizadas fora da sede da Comarca, em bairros ou cidades a ela pertencentes, ocupando instalações de prédios públicos, de acordo com audiências previamente anunciadas.",
-   "hash": "a405183ba6b867492bd6efe2c124825ccec063879cf7437e7e8581f3e84d8f5b"
+   "hash": "a405183ba6b867492bd6efe2c124825ccec063879cf7437e7e8581f3e84d8f5b",
+   "ordem": 95
   },
   "95": {
    "texto": "Art. 95. Os Estados, Distrito Federal e Territórios criarão e instalarão os Juizados Especiais no prazo de seis meses, a contar da vigência desta Lei.\nParágrafo único. No prazo de 6 (seis) meses, contado da publicação desta Lei, serão criados e instalados os Juizados Especiais Itinerantes, que deverão dirimir, prioritariamente, os conflitos existentes nas áreas rurais ou nos locais de menor concentração populacional. (Redação dada pela Lei nº 12.726, de 2012)",
-   "hash": "cba70fdb0fe1d903b5e266dc98057dbe5abc0db7ebeddb4f1d8bf2d9f9798df7"
+   "hash": "cba70fdb0fe1d903b5e266dc98057dbe5abc0db7ebeddb4f1d8bf2d9f9798df7",
+   "ordem": 96
   },
   "96": {
    "texto": "Art. 96. Esta Lei entra em vigor no prazo de sessenta dias após a sua publicação.",
-   "hash": "39ceb8b07d40577897912257db608814387fb805f37185c8e69de465bbbd0be4"
+   "hash": "39ceb8b07d40577897912257db608814387fb805f37185c8e69de465bbbd0be4",
+   "ordem": 97
   },
   "97": {
    "texto": "Art. 97. Ficam revogadas a Lei nº 4.611, de 2 de abril de 1965 e a Lei nº 7.244, de 7 de novembro de 1984.\nBrasília, 26 de setembro de 1995; 174º da Independência e 107º da República.\nFERNANDO HENRIQUE CARDOSO\nNelson A. Jobim\nEste texto não substitui o publicado no DOU de 27.9.1995\n*",
-   "hash": "eeb74ec30295b878c6e3321f84ef6dcde2e38e48c88ddaa591c053a0d22cb597"
+   "hash": "eeb74ec30295b878c6e3321f84ef6dcde2e38e48c88ddaa591c053a0d22cb597",
+   "ordem": 98
   }
  }
 }

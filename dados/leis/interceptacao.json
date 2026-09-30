@@ -7,69 +7,83 @@
  "hash": "8d03fec043c4c452839f0d8bd1c9e522ca91543ae730e41b7d51f989135be76c",
  "etag": "\"4d58-650289eb3ba0b\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:51 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 9.296, DE 24 DE JULHO DE 1996.",
   "Regulamenta o inciso XII, parte final, do art. 5° da Constituição Federal.",
   "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-27T04:40:05-03:00",
+ "ultimo_download_completo": "2026-09-30T12:31:40-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º A interceptação de comunicações telefônicas, de qualquer natureza, para prova em investigação criminal e em instrução processual penal, observará o disposto nesta Lei e dependerá de ordem do juiz competente da ação principal, sob segredo de justiça.\nParágrafo único. O disposto nesta Lei aplica-se à interceptação do fluxo de comunicações em sistemas de informática e telemática.",
-   "hash": "a677dbcf0095a54253c5460cce4dafbd9f043ba3f77cfa38c7c8f4a8cb58086c"
+   "hash": "a677dbcf0095a54253c5460cce4dafbd9f043ba3f77cfa38c7c8f4a8cb58086c",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2° Não será admitida a interceptação de comunicações telefônicas quando ocorrer qualquer das seguintes hipóteses:\nI - não houver indícios razoáveis da autoria ou participação em infração penal;\nII - a prova puder ser feita por outros meios disponíveis;\nIII - o fato investigado constituir infração penal punida, no máximo, com pena de detenção.\nParágrafo único. Em qualquer hipótese deve ser descrita com clareza a situação objeto da investigação, inclusive com a indicação e qualificação dos investigados, salvo impossibilidade manifesta, devidamente justificada.",
-   "hash": "2f4c2558e7d8abfb51d89a4c0ed521a3f8342b6a72bb0b798c098dfa3ed2c3e8"
+   "hash": "2f4c2558e7d8abfb51d89a4c0ed521a3f8342b6a72bb0b798c098dfa3ed2c3e8",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3° A interceptação das comunicações telefônicas poderá ser determinada pelo juiz, de ofício ou a requerimento:\nI - da autoridade policial, na investigação criminal;\nII - do representante do Ministério Público, na investigação criminal e na instrução processual penal.",
-   "hash": "1a94040ca3e996444687523acd94a7aeb859ec3ae604b032239abc67588b5f94"
+   "hash": "1a94040ca3e996444687523acd94a7aeb859ec3ae604b032239abc67588b5f94",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4° O pedido de interceptação de comunicação telefônica conterá a demonstração de que a sua realização é necessária à apuração de infração penal, com indicação dos meios a serem empregados.\n§ 1° Excepcionalmente, o juiz poderá admitir que o pedido seja formulado verbalmente, desde que estejam presentes os pressupostos que autorizem a interceptação, caso em que a concessão será condicionada à sua redução a termo.\n§ 2° O juiz, no prazo máximo de vinte e quatro horas, decidirá sobre o pedido.",
-   "hash": "e6d6b6ec4ea02ff807aee13b0f164adf45dbb53e57fc2c14ab63ca3b069bb99d"
+   "hash": "e6d6b6ec4ea02ff807aee13b0f164adf45dbb53e57fc2c14ab63ca3b069bb99d",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5° A decisão será fundamentada, sob pena de nulidade, indicando também a forma de execução da diligência, que não poderá exceder o prazo de quinze dias, renovável por igual tempo uma vez comprovada a indispensabilidade do meio de prova.",
-   "hash": "3f29d22025c853a2a337b118434b1caefddc070b0a2cfc4a482d3905ed3f0916"
+   "hash": "3f29d22025c853a2a337b118434b1caefddc070b0a2cfc4a482d3905ed3f0916",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6° Deferido o pedido, a autoridade policial conduzirá os procedimentos de interceptação, dando ciência ao Ministério Público, que poderá acompanhar a sua realização.\n§ 1° No caso de a diligência possibilitar a gravação da comunicação interceptada, será determinada a sua transcrição.\n§ 2° Cumprida a diligência, a autoridade policial encaminhará o resultado da interceptação ao juiz, acompanhado de auto circunstanciado, que deverá conter o resumo das operações realizadas.\n§ 3° Recebidos esses elementos, o juiz determinará a providência do art. 8° , ciente o Ministério Público.",
-   "hash": "9076878f7ff98629ef4a06332e25d4f439d5fcc42433b04d0ae9f9581deca9a8"
+   "hash": "9076878f7ff98629ef4a06332e25d4f439d5fcc42433b04d0ae9f9581deca9a8",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7° Para os procedimentos de interceptação de que trata esta Lei, a autoridade policial poderá requisitar serviços e técnicos especializados às concessionárias de serviço público.",
-   "hash": "be4e3a08cabbb79cc8dd735971010f4b85296aca00e6dee2d596f64e25ea298d"
+   "hash": "be4e3a08cabbb79cc8dd735971010f4b85296aca00e6dee2d596f64e25ea298d",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8° A interceptação de comunicação telefônica, de qualquer natureza, ocorrerá em autos apartados, apensados aos autos do inquérito policial ou do processo criminal, preservando-se o sigilo das diligências, gravações e transcrições respectivas.\nParágrafo único. A apensação somente poderá ser realizada imediatamente antes do relatório da autoridade, quando se tratar de inquérito policial (Código de Processo Penal, art.10, § 1°) ou na conclusão do processo ao juiz para o despacho decorrente do disposto nos arts. 407, 502 ou 538 do Código de Processo Penal.",
-   "hash": "99f52ee42b165c7a41d7e4aafa4113a6b132e4de44b1cd8b07181883cb727492"
+   "hash": "99f52ee42b165c7a41d7e4aafa4113a6b132e4de44b1cd8b07181883cb727492",
+   "ordem": 7
   },
   "8-A": {
    "texto": "Art. 8º-A. Para investigação ou instrução criminal, poderá ser autorizada pelo juiz, a requerimento da autoridade policial ou do Ministério Público, a captação ambiental de sinais eletromagnéticos, ópticos ou acústicos, quando: (Incluído pela Lei nº 13.964, de 2019)\nI - a prova não puder ser feita por outros meios disponíveis e igualmente eficazes; e (Incluído pela Lei nº 13.964, de 2019)\nII - houver elementos probatórios razoáveis de autoria e participação em infrações criminais cujas penas máximas sejam superiores a 4 (quatro) anos ou em infrações penais conexas. (Incluído pela Lei nº 13.964, de 2019)\n§ 1º O requerimento deverá descrever circunstanciadamente o local e a forma de instalação do dispositivo de captação ambiental. (Incluído pela Lei nº 13.964, de 2019)\n§ 2º (VETADO).\n§ 2º A instalação do dispositivo de captação ambiental poderá ser realizada, quando necessária, por meio de operação policial disfarçada ou no período noturno, exceto na casa, nos termos do inciso XI do caput do art. 5º da Constituição Federal. (Incluído pela Lei nº 13.964, de 2019) (Vigência)\n§ 3º A captação ambiental não poderá exceder o prazo de 15 (quinze) dias, renovável por decisão judicial por iguais períodos, se comprovada a indispensabilidade do meio de prova e quando presente atividade criminal permanente, habitual ou continuada. (Incluído pela Lei nº 13.964, de 2019)\n§ 4º (VETADO).\n§ 4º A captação ambiental feita por um dos interlocutores sem o prévio conhecimento da autoridade policial ou do Ministério Público poderá ser utilizada, em matéria de defesa, quando demonstrada a integridade da gravação. (Incluído pela Lei nº 13.964, de 2019) (Vigência)\n§ 5º Aplicam-se subsidiariamente à captação ambiental as regras previstas na legislação específica para a interceptação telefônica e telemática. (Incluído pela Lei nº 13.964, de 2019)",
-   "hash": "54b00cc530ad19fb0391b4f0918336600bc48d15cbbfbdea04fc9c97f128e4b4"
+   "hash": "54b00cc530ad19fb0391b4f0918336600bc48d15cbbfbdea04fc9c97f128e4b4",
+   "ordem": 8
   },
   "9": {
    "texto": "Art. 9° A gravação que não interessar à prova será inutilizada por decisão judicial, durante o inquérito, a instrução processual ou após esta, em virtude de requerimento do Ministério Público ou da parte interessada.\nParágrafo único. O incidente de inutilização será assistido pelo Ministério Público, sendo facultada a presença do acusado ou de seu representante legal.",
-   "hash": "5e71f31af64be4b5e1eeb60d92535811352b778827f6188423dda8a9f5473466"
+   "hash": "5e71f31af64be4b5e1eeb60d92535811352b778827f6188423dda8a9f5473466",
+   "ordem": 9
   },
   "10": {
    "texto": "Art. 10. Constitui crime realizar interceptação de comunicações telefônicas, de informática ou telemática, promover escuta ambiental ou quebrar segredo da Justiça, sem autorização judicial ou com objetivos não autorizados em lei: (Redação dada pela Lei nº 13.869. de 2019) (Vigência)\nPena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa. (Redação dada pela Lei nº 13.869. de 2019) (Vigência)\nParágrafo único. Incorre na mesma pena a autoridade judicial que determina a execução de conduta prevista no caput deste artigo com objetivo não autorizado em lei. (Incluído pela Lei nº 13.869. de 2019) (Vigência)",
-   "hash": "6b3b17cb20cb9125e4ffb505ea201e3f44db39b2c46338bb9fbefedb0fdc2a6e"
+   "hash": "6b3b17cb20cb9125e4ffb505ea201e3f44db39b2c46338bb9fbefedb0fdc2a6e",
+   "ordem": 10
   },
   "10-A": {
    "texto": "Art. 10-A. Realizar captação ambiental de sinais eletromagnéticos, ópticos ou acústicos para investigação ou instrução criminal sem autorização judicial, quando esta for exigida: (Incluído pela Lei nº 13.964, de 2019)\nPena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa. (Incluído pela Lei nº 13.964, de 2019)\n§ 1º Não há crime se a captação é realizada por um dos interlocutores. (Incluído pela Lei nº 13.964, de 2019)\n§ 2º A pena será aplicada em dobro ao funcionário público que descumprir determinação de sigilo das investigações que envolvam a captação ambiental ou revelar o conteúdo das gravações enquanto mantido o sigilo judicial. (Incluído pela Lei nº 13.964, de 2019)",
-   "hash": "c1f81f6520e229bdb56714f844cf2298225b268e5077876aea8f7232dd9258b9"
+   "hash": "c1f81f6520e229bdb56714f844cf2298225b268e5077876aea8f7232dd9258b9",
+   "ordem": 11
   },
   "11": {
    "texto": "Art. 11. Esta Lei entra em vigor na data de sua publicação.",
-   "hash": "cdd6037568529e71e49f25f3453a857b94471b476fe8914d407c2af12fcc3c51"
+   "hash": "cdd6037568529e71e49f25f3453a857b94471b476fe8914d407c2af12fcc3c51",
+   "ordem": 12
   },
   "12": {
    "texto": "Art. 12. Revogam-se as disposições em contrário.\nBrasília, 24 de julho de 1996; 175º da Independência e 108º da República.\nFERNANDO HENRIQUE CARDOSO\nNelson A. Jobim\nEste texto não substitui o publicado no D.O.U. de 25.7.1996\n*",
-   "hash": "d8385743fccd6c83364beebed75957d3c54fdf2b809989a726798fad7332793d"
+   "hash": "d8385743fccd6c83364beebed75957d3c54fdf2b809989a726798fad7332793d",
+   "ordem": 13
   }
  }
 }

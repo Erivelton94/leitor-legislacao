@@ -7,7 +7,7 @@
  "hash": "d412458cca08f4cf689a9b14ce41eaf747860a6d93576b7a7dabdfd26099696b",
  "etag": "\"149ce-650290fa15901\"",
  "last_modified": "Thu, 23 Apr 2026 23:32:26 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.846, DE 1º DE AGOSTO DE 2013.",
   "Vigência",
@@ -18,167 +18,207 @@
   "CAPÍTULO I",
   "DISPOSIÇÕES GERAIS"
  ],
- "ultimo_download_completo": "2026-09-26T04:47:14-03:00",
+ "ultimo_download_completo": "2026-09-30T12:35:03-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta Lei dispõe sobre a responsabilização objetiva administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, nacional ou estrangeira.\nParágrafo único. Aplica-se o disposto nesta Lei às sociedades empresárias e às sociedades simples, personificadas ou não, independentemente da forma de organização ou modelo societário adotado, bem como a quaisquer fundações, associações de entidades ou pessoas, ou sociedades estrangeiras, que tenham sede, filial ou representação no território brasileiro, constituídas de fato ou de direito, ainda que temporariamente.",
-   "hash": "b27ad247cd73daaf3cbf45fde56ea32763895a92a49833ceb8fcf0f9f319a0cf"
+   "hash": "b27ad247cd73daaf3cbf45fde56ea32763895a92a49833ceb8fcf0f9f319a0cf",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º As pessoas jurídicas serão responsabilizadas objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos previstos nesta Lei praticados em seu interesse ou benefício, exclusivo ou não.",
-   "hash": "a03d9113c86bd692cf571830e4bd1e720f78151329425b5e5b0fcd652dca1f0e"
+   "hash": "a03d9113c86bd692cf571830e4bd1e720f78151329425b5e5b0fcd652dca1f0e",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º A responsabilização da pessoa jurídica não exclui a responsabilidade individual de seus dirigentes ou administradores ou de qualquer pessoa natural, autora, coautora ou partícipe do ato ilícito.\n§ 1º A pessoa jurídica será responsabilizada independentemente da responsabilização individual das pessoas naturais referidas no caput .\n§ 2º Os dirigentes ou administradores somente serão responsabilizados por atos ilícitos na medida da sua culpabilidade.",
-   "hash": "ca6f1d779917600eeaaa2583e24454535383718a697d443ccd05d36d4ddf51cf"
+   "hash": "ca6f1d779917600eeaaa2583e24454535383718a697d443ccd05d36d4ddf51cf",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º Subsiste a responsabilidade da pessoa jurídica na hipótese de alteração contratual, transformação, incorporação, fusão ou cisão societária.\n§ 1º Nas hipóteses de fusão e incorporação, a responsabilidade da sucessora será restrita à obrigação de pagamento de multa e reparação integral do dano causado, até o limite do patrimônio transferido, não lhe sendo aplicáveis as demais sanções previstas nesta Lei decorrentes de atos e fatos ocorridos antes da data da fusão ou incorporação, exceto no caso de simulação ou evidente intuito de fraude, devidamente comprovados.\n§ 2º As sociedades controladoras, controladas, coligadas ou, no âmbito do respectivo contrato, as consorciadas serão solidariamente responsáveis pela prática dos atos previstos nesta Lei, restringindo-se tal responsabilidade à obrigação de pagamento de multa e reparação integral do dano causado.\nCAPÍTULO II\nDOS ATOS LESIVOS À ADMINISTRAÇÃO PÚBLICA NACIONAL OU ESTRANGEIRA",
-   "hash": "7adbe8d6c3285b30946b613ccd019101b457e0601f606c4f18015f305bd32778"
+   "hash": "7adbe8d6c3285b30946b613ccd019101b457e0601f606c4f18015f305bd32778",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5º Constituem atos lesivos à administração pública, nacional ou estrangeira, para os fins desta Lei, todos aqueles praticados pelas pessoas jurídicas mencionadas no parágrafo único do art. 1º , que atentem contra o patrimônio público nacional ou estrangeiro, contra princípios da administração pública ou contra os compromissos internacionais assumidos pelo Brasil, assim definidos:\nI - prometer, oferecer ou dar, direta ou indiretamente, vantagem indevida a agente público, ou a terceira pessoa a ele relacionada;\nII - comprovadamente, financiar, custear, patrocinar ou de qualquer modo subvencionar a prática dos atos ilícitos previstos nesta Lei;\nIII - comprovadamente, utilizar-se de interposta pessoa física ou jurídica para ocultar ou dissimular seus reais interesses ou a identidade dos beneficiários dos atos praticados;\nIV - no tocante a licitações e contratos:\na) frustrar ou fraudar, mediante ajuste, combinação ou qualquer outro expediente, o caráter competitivo de procedimento licitatório público;\nb) impedir, perturbar ou fraudar a realização de qualquer ato de procedimento licitatório público;\nc) afastar ou procurar afastar licitante, por meio de fraude ou oferecimento de vantagem de qualquer tipo;\nd) fraudar licitação pública ou contrato dela decorrente;\ne) criar, de modo fraudulento ou irregular, pessoa jurídica para participar de licitação pública ou celebrar contrato administrativo;\nf) obter vantagem ou benefício indevido, de modo fraudulento, de modificações ou prorrogações de contratos celebrados com a administração pública, sem autorização em lei, no ato convocatório da licitação pública ou nos respectivos instrumentos contratuais; ou\ng) manipular ou fraudar o equilíbrio econômico-financeiro dos contratos celebrados com a administração pública;\nV - dificultar atividade de investigação ou fiscalização de órgãos, entidades ou agentes públicos, ou intervir em sua atuação, inclusive no âmbito das agências reguladoras e dos órgãos de fiscalização do sistema financeiro nacional.\n§ 1º Considera-se administração pública estrangeira os órgãos e entidades estatais ou representações diplomáticas de país estrangeiro, de qualquer nível ou esfera de governo, bem como as pessoas jurídicas controladas, direta ou indiretamente, pelo poder público de país estrangeiro.\n§ 2º Para os efeitos desta Lei, equiparam-se à administração pública estrangeira as organizações públicas internacionais.\n§ 3º Considera-se agente público estrangeiro, para os fins desta Lei, quem, ainda que transitoriamente ou sem remuneração, exerça cargo, emprego ou função pública em órgãos, entidades estatais ou em representações diplomáticas de país estrangeiro, assim como em pessoas jurídicas controladas, direta ou indiretamente, pelo poder público de país estrangeiro ou em organizações públicas internacionais.\nCAPÍTULO III\nDA RESPONSABILIZAÇÃO ADMINISTRATIVA",
-   "hash": "2ad8e0be40de6ff0065dfab4208896e9f0e1f4b7e7999d8483dd2904f76f0b15"
+   "hash": "2ad8e0be40de6ff0065dfab4208896e9f0e1f4b7e7999d8483dd2904f76f0b15",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º Na esfera administrativa, serão aplicadas às pessoas jurídicas consideradas responsáveis pelos atos lesivos previstos nesta Lei as seguintes sanções:\nI - multa, no valor de 0,1% (um décimo por cento) a 20% (vinte por cento) do faturamento bruto do último exercício anterior ao da instauração do processo administrativo, excluídos os tributos, a qual nunca será inferior à vantagem auferida, quando for possível sua estimação; e\nII - publicação extraordinária da decisão condenatória.\n§ 1º As sanções serão aplicadas fundamentadamente, isolada ou cumulativamente, de acordo com as peculiaridades do caso concreto e com a gravidade e natureza das infrações.\n§ 2º A aplicação das sanções previstas neste artigo será precedida da manifestação jurídica elaborada pela Advocacia Pública ou pelo órgão de assistência jurídica, ou equivalente, do ente público.\n§ 3º A aplicação das sanções previstas neste artigo não exclui, em qualquer hipótese, a obrigação da reparação integral do dano causado.\n§ 4º Na hipótese do inciso I do caput , caso não seja possível utilizar o critério do valor do faturamento bruto da pessoa jurídica, a multa será de R$ 6.000,00 (seis mil reais) a R$ 60.000.000,00 (sessenta milhões de reais).\n§ 5º A publicação extraordinária da decisão condenatória ocorrerá na forma de extrato de sentença, a expensas da pessoa jurídica, em meios de comunicação de grande circulação na área da prática da infração e de atuação da pessoa jurídica ou, na sua falta, em publicação de circulação nacional, bem como por meio de afixação de edital, pelo prazo mínimo de 30 (trinta) dias, no próprio estabelecimento ou no local de exercício da atividade, de modo visível ao público, e no sítio eletrônico na rede mundial de computadores.\n§ 6º (VETADO).",
-   "hash": "19d8f0cbb338674afc0128bb89d1551a98dee244c6426be338ce71b10fcc7f68"
+   "hash": "19d8f0cbb338674afc0128bb89d1551a98dee244c6426be338ce71b10fcc7f68",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7º Serão levados em consideração na aplicação das sanções:\nI - a gravidade da infração;\nII - a vantagem auferida ou pretendida pelo infrator;\nIII - a consumação ou não da infração;\nIV - o grau de lesão ou perigo de lesão;\nV - o efeito negativo produzido pela infração;\nVI - a situação econômica do infrator;\nVII - a cooperação da pessoa jurídica para a apuração das infrações;\nVIII - a existência de mecanismos e procedimentos internos de integridade, auditoria e incentivo à denúncia de irregularidades e a aplicação efetiva de códigos de ética e de conduta no âmbito da pessoa jurídica;\nIX - o valor dos contratos mantidos pela pessoa jurídica com o órgão ou entidade pública lesados; e\nX - (VETADO).\nParágrafo único. Os parâmetros de avaliação de mecanismos e procedimentos previstos no inciso VIII do caput serão estabelecidos em regulamento do Poder Executivo federal.\nCAPÍTULO IV\nDO PROCESSO ADMINISTRATIVO DE RESPONSABILIZAÇÃO",
-   "hash": "45b5253dd5efc0c8f8b7cb1f2fcc4a2d93851245ed758a16607467929ddd852e"
+   "hash": "45b5253dd5efc0c8f8b7cb1f2fcc4a2d93851245ed758a16607467929ddd852e",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8º A instauração e o julgamento de processo administrativo para apuração da responsabilidade de pessoa jurídica cabem à autoridade máxima de cada órgão ou entidade dos Poderes Executivo, Legislativo e Judiciário, que agirá de ofício ou mediante provocação, observados o contraditório e a ampla defesa.\n§ 1º A competência para a instauração e o julgamento do processo administrativo de apuração de responsabilidade da pessoa jurídica poderá ser delegada, vedada a subdelegação.\n§ 2º No âmbito do Poder Executivo federal, a Controladoria-Geral da União - CGU terá competência concorrente para instaurar processos administrativos de responsabilização de pessoas jurídicas ou para avocar os processos instaurados com fundamento nesta Lei, para exame de sua regularidade ou para corrigir-lhes o andamento.",
-   "hash": "795c985eda6c884ffb483b4ca5ad318701f92172721b80f7d788464ced9199e1"
+   "hash": "795c985eda6c884ffb483b4ca5ad318701f92172721b80f7d788464ced9199e1",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9º Competem à Controladoria-Geral da União - CGU a apuração, o processo e o julgamento dos atos ilícitos previstos nesta Lei, praticados contra a administração pública estrangeira, observado o disposto no Artigo 4 da Convenção sobre o Combate da Corrupção de Funcionários Públicos Estrangeiros em Transações Comerciais Internacionais, promulgada pelo Decreto nº 3.678, de 30 de novembro de 2000.",
-   "hash": "3bef733a402e96097be86c51e411db40e1bcf9ec92ce6ebf41c8d15298cbc328"
+   "hash": "3bef733a402e96097be86c51e411db40e1bcf9ec92ce6ebf41c8d15298cbc328",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. O processo administrativo para apuração da responsabilidade de pessoa jurídica será conduzido por comissão designada pela autoridade instauradora e composta por 2 (dois) ou mais servidores estáveis.\n§ 1º O ente público, por meio do seu órgão de representação judicial, ou equivalente, a pedido da comissão a que se refere o caput , poderá requerer as medidas judiciais necessárias para a investigação e o processamento das infrações, inclusive de busca e apreensão.\n§ 2º A comissão poderá, cautelarmente, propor à autoridade instauradora que suspenda os efeitos do ato ou processo objeto da investigação.\n§ 3º A comissão deverá concluir o processo no prazo de 180 (cento e oitenta) dias contados da data da publicação do ato que a instituir e, ao final, apresentar relatórios sobre os fatos apurados e eventual responsabilidade da pessoa jurídica, sugerindo de forma motivada as sanções a serem aplicadas.\n§ 4º O prazo previsto no § 3º poderá ser prorrogado, mediante ato fundamentado da autoridade instauradora.",
-   "hash": "40a1b93e86247d949c842647ab4af54e9b161a3555769e1f3df9c9f83e75d5e6"
+   "hash": "40a1b93e86247d949c842647ab4af54e9b161a3555769e1f3df9c9f83e75d5e6",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. No processo administrativo para apuração de responsabilidade, será concedido à pessoa jurídica prazo de 30 (trinta) dias para defesa, contados a partir da intimação.",
-   "hash": "4634d4740aebd99b87506aaa82174cb74327a737d38825995d615c5e70ad0416"
+   "hash": "4634d4740aebd99b87506aaa82174cb74327a737d38825995d615c5e70ad0416",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. O processo administrativo, com o relatório da comissão, será remetido à autoridade instauradora, na forma do art. 10, para julgamento.",
-   "hash": "c86c579972da433e0dbafecc49af31f0b612576a74da75513aa2926fd985bf27"
+   "hash": "c86c579972da433e0dbafecc49af31f0b612576a74da75513aa2926fd985bf27",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. A instauração de processo administrativo específico de reparação integral do dano não prejudica a aplicação imediata das sanções estabelecidas nesta Lei.\nParágrafo único. Concluído o processo e não havendo pagamento, o crédito apurado será inscrito em dívida ativa da fazenda pública.",
-   "hash": "5664e698152fc0f1aa826f91e2b28193b710212104031877484f39806b2c7df9"
+   "hash": "5664e698152fc0f1aa826f91e2b28193b710212104031877484f39806b2c7df9",
+   "ordem": 12
   },
   "14": {
    "texto": "Art. 14. A personalidade jurídica poderá ser desconsiderada sempre que utilizada com abuso do direito para facilitar, encobrir ou dissimular a prática dos atos ilícitos previstos nesta Lei ou para provocar confusão patrimonial, sendo estendidos todos os efeitos das sanções aplicadas à pessoa jurídica aos seus administradores e sócios com poderes de administração, observados o contraditório e a ampla defesa.",
-   "hash": "f864dccc4aaa6226f454a730a4b15d6df631d525f03c1beb7553093b980c8ae0"
+   "hash": "f864dccc4aaa6226f454a730a4b15d6df631d525f03c1beb7553093b980c8ae0",
+   "ordem": 13
   },
   "15": {
    "texto": "Art. 15. A comissão designada para apuração da responsabilidade de pessoa jurídica, após a conclusão do procedimento administrativo, dará conhecimento ao Ministério Público de sua existência, para apuração de eventuais delitos.",
-   "hash": "62a512ce67438399408eb8fbcd3f301d403d8cbb4bf817669ba2ab8d7f1a049c"
+   "hash": "62a512ce67438399408eb8fbcd3f301d403d8cbb4bf817669ba2ab8d7f1a049c",
+   "ordem": 14
   },
   "15#2": {
    "texto": "Art. 15. A comissão designada para apuração da responsabilidade de pessoa jurídica, após a conclusão do procedimento administrativo, dará conhecimento ao Ministério Público de sua existência, para apuração de eventuais delitos.\nCAPÍTULO V\nDO ACORDO DE LENIÊNCIA",
-   "hash": "bfe4c8a6e52a5ece4c2dedc7a9adb7d74179429ab2cce06ee0123a070b3f5863"
+   "hash": "bfe4c8a6e52a5ece4c2dedc7a9adb7d74179429ab2cce06ee0123a070b3f5863",
+   "ordem": 15
   },
   "16": {
    "texto": "Art. 16\nI - a identificação dos demais envolvidos na infração, quando couber; e\nII - a obtenção célere de informações e documentos que comprovem o ilícito sob apuração.",
-   "hash": "337f3752e267e822499171f9b046141d761fbd43066ca4949007e345e45e8700"
+   "hash": "337f3752e267e822499171f9b046141d761fbd43066ca4949007e345e45e8700",
+   "ordem": 16
   },
   "16#2": {
    "texto": "Art. 16. A União, os Estados, o Distrito Federal e os Municípios poderão, no âmbito de suas competências, por meio de seus órgãos de controle interno, de forma isolada ou em conjunto com o Ministério Público ou com a Advocacia Pública, celebrar acordo de leniência com as pessoas jurídicas responsáveis pela prática dos atos e pelos fatos investigados e previstos nesta Lei que colaborem efetivamente com as investigações e com o processo administrativo, de forma que dessa colaboração resulte: (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nI - a identificação dos demais envolvidos na infração, quando couber; (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nII - a obtenção de informações e documentos que comprovem a infração noticiada ou sob investigação; (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nIII - a cooperação da pessoa jurídica com as investigações, em face de sua responsabilidade objetiva; e (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nIV - o comprometimento da pessoa jurídica na implementação ou na melhoria de mecanismos internos de integridade. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)",
-   "hash": "d9e174d2e32c21b19d233b527c293c4bba3e0ed0ebc22689686d741e9ef3ed3a"
+   "hash": "d9e174d2e32c21b19d233b527c293c4bba3e0ed0ebc22689686d741e9ef3ed3a",
+   "ordem": 17
   },
   "16#3": {
    "texto": "Art. 16. A autoridade máxima de cada órgão ou entidade pública poderá celebrar acordo de leniência com as pessoas jurídicas responsáveis pela prática dos atos previstos nesta Lei que colaborem efetivamente com as investigações e o processo administrativo, sendo que dessa colaboração resulte:\nI - a identificação dos demais envolvidos na infração, quando couber; e\nII - a obtenção célere de informações e documentos que comprovem o ilícito sob apuração.\n§ 1º O acordo de que trata o caput somente poderá ser celebrado se preenchidos, cumulativamente, os seguintes requisitos:\n(Vigência encerrada)\nI - a pessoa jurídica seja a primeira a se manifestar sobre seu interesse em cooperar para a apuração do ato ilícito;\nII - a pessoa jurídica cesse completamente seu envolvimento na infração investigada a partir da data de propositura do acordo;\n(Vigência encerrada)\nIII - a pessoa jurídica admita sua participação no ilícito e coopere plena e permanentemente com as investigações e o processo administrativo, comparecendo, sob suas expensas, sempre que solicitada, a todos os atos processuais, até seu encerramento.\nIV - a pessoa jurídica se comprometa a implementar ou a melhorar os mecanismos internos de integridade, auditoria, incentivo às denúncias de irregularidades e à aplicação efetiva de código de ética e de conduta. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)\n§ 2º A celebração do acordo de leniência isentará a pessoa jurídica das sanções previstas no inciso II do art. 6º e no inciso IV do art. 19 e reduzirá em até 2/3 (dois terços) o valor da multa aplicável.\n(Vigência encerrada)\nº (Vigência encerrada)\n(Vigência encerrada)\nIII - no caso de a pessoa jurídica ser a primeira a firmar o acordo de leniência sobre os atos e fatos investigados, a redução poderá chegar até a sua completa remissão, não sendo aplicável à pessoa jurídica qualquer outra sanção de natureza pecuniária decorrente das infrações especificadas no acordo. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)\n§2º A celebração do acordo de leniência isentará a pessoa jurídica das sanções previstas no inciso II do art. 6º e no inciso IV do art. 19 e reduzirá em até 2/3 (dois terços) o valor da multa aplicável.\n§ 3º O acordo de leniência não exime a pessoa jurídica da obrigação de reparar integralmente o dano causado.\n§ 4º O acordo de leniência estipulará as condições necessárias para assegurar a efetividade da colaboração e o resultado útil do processo.\n§ 4º O acordo de leniência estipulará as condições necessárias para assegurar a efetividade da colaboração e o resultado útil do processo administrativo e quando estipular a obrigatoriedade de reparação do dano poderá conter cláusulas sobre a forma de amortização, que considerem a capacidade econômica da pessoa jurídica. (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\n§ 4º O acordo de leniência estipulará as condições necessárias para assegurar a efetividade da colaboração e o resultado útil do processo.\n§ 5º Os efeitos do acordo de leniência serão estendidos às pessoas jurídicas que integram o mesmo grupo econômico, de fato e de direito, desde que firmem o acordo em conjunto, respeitadas as condições nele estabelecidas.\n§ 6º A proposta de acordo de leniência somente se tornará pública após a efetivação do respectivo acordo, salvo no interesse das investigações e do processo administrativo.\n§ 7º Não importará em reconhecimento da prática do ato ilícito investigado a proposta de acordo de leniência rejeitada.\n§ 8º Em caso de descumprimento do acordo de leniência, a pessoa jurídica ficará impedida de celebrar novo acordo pelo prazo de 3 (três) anos contados do conhecimento pela administração pública do referido descumprimento.\n§ 9º A celebração do acordo de leniência interrompe o prazo prescricional dos atos ilícitos previstos nesta Lei.\n(Vigência encerrada)\n§ 9º A celebração do acordo de leniência interrompe o prazo prescricional dos atos ilícitos previstos nesta Lei.\n§ 10. A Controladoria-Geral da União - CGU é o órgão competente para celebrar os acordos de leniência no âmbito do Poder Executivo federal, bem como no caso de atos lesivos praticados contra a administração pública estrangeira.\n(Vigência encerrada)",
-   "hash": "9ea5d79bdabe71c485eb5e368cb07e95d6084d44d7ba70183a807e82285cca31"
+   "hash": "9ea5d79bdabe71c485eb5e368cb07e95d6084d44d7ba70183a807e82285cca31",
+   "ordem": 18
   },
   "17": {
    "texto": "Art. 17. A administração pública poderá também celebrar acordo de leniência com a pessoa jurídica responsável pela prática de ilícitos previstos na Lei nº 8.666, de 21 de junho de 1993, com vistas à isenção ou atenuação das sanções administrativas estabelecidas em seus arts. 86 a 88.",
-   "hash": "bbbef147cdf00ef19ec9c4eb48f79fd5577be73cb636b36e0ccce1015c974487"
+   "hash": "bbbef147cdf00ef19ec9c4eb48f79fd5577be73cb636b36e0ccce1015c974487",
+   "ordem": 19
   },
   "17#2": {
    "texto": "Art. 17. A administração pública poderá também celebrar acordo de leniência com a pessoa jurídica responsável pela prática de ilícitos previstos na Lei nº 8.666, de 21 de junho de 1993, com vistas à isenção ou atenuação das sanções administrativas estabelecidas em seus arts. 86 a 88.",
-   "hash": "bbbef147cdf00ef19ec9c4eb48f79fd5577be73cb636b36e0ccce1015c974487"
+   "hash": "bbbef147cdf00ef19ec9c4eb48f79fd5577be73cb636b36e0ccce1015c974487",
+   "ordem": 20
   },
   "17-A": {
    "texto": "Art. 17-A. Os processos administrativos referentes a licitações e contratos em curso em outros órgãos ou entidades que versem sobre o mesmo objeto do acordo de leniência deverão, com a celebração deste, ser sobrestados e, posteriormente, arquivados, em caso de cumprimento integral do acordo pela pessoa jurídica. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)",
-   "hash": "122a526707f8c8f2e03067747861f28c7d0af3fddd1ccc7d961017295949255f"
+   "hash": "122a526707f8c8f2e03067747861f28c7d0af3fddd1ccc7d961017295949255f",
+   "ordem": 21
   },
   "17-B": {
    "texto": "Art. 17-B. Os documentos porventura juntados durante o processo para elaboração do acordo de leniência deverão ser devolvidos à pessoa jurídica quando não ocorrer a celebração do acordo, não permanecendo cópias em poder dos órgãos celebrantes. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nCAPÍTULO VI\nDA RESPONSABILIZAÇÃO JUDICIAL",
-   "hash": "c29fa49679a7efeeacf7b0de3d6d8f69ac7b750bc58db6effa6b6c30dbb5745e"
+   "hash": "c29fa49679a7efeeacf7b0de3d6d8f69ac7b750bc58db6effa6b6c30dbb5745e",
+   "ordem": 22
   },
   "18": {
    "texto": "Art. 18. Na esfera administrativa, a responsabilidade da pessoa jurídica não afasta a possibilidade de sua responsabilização na esfera judicial.",
-   "hash": "ed38345f0831e86a0ebdf5aba7f736a7baa666631f101daf3b96d5e38c61f7cb"
+   "hash": "ed38345f0831e86a0ebdf5aba7f736a7baa666631f101daf3b96d5e38c61f7cb",
+   "ordem": 23
   },
   "18#2": {
    "texto": "Art. 18. Na esfera administrativa, a responsabilidade da pessoa jurídica não afasta a possibilidade de sua responsabilização na esfera judicial.",
-   "hash": "ed38345f0831e86a0ebdf5aba7f736a7baa666631f101daf3b96d5e38c61f7cb"
+   "hash": "ed38345f0831e86a0ebdf5aba7f736a7baa666631f101daf3b96d5e38c61f7cb",
+   "ordem": 24
   },
   "19": {
    "texto": "Art. 19. Em razão da prática de atos previstos no art. 5º desta Lei, a União, os Estados, o Distrito Federal e os Municípios, por meio das respectivas Advocacias Públicas ou órgãos de representação judicial, ou equivalentes, e o Ministério Público, poderão ajuizar ação com vistas à aplicação das seguintes sanções às pessoas jurídicas infratoras:\nI - perdimento dos bens, direitos ou valores que representem vantagem ou proveito direta ou indiretamente obtidos da infração, ressalvado o direito do lesado ou de terceiro de boa-fé;\nII - suspensão ou interdição parcial de suas atividades;\nIII - dissolução compulsória da pessoa jurídica;\nIV - proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos ou entidades públicas e de instituições financeiras públicas ou controladas pelo poder público, pelo prazo mínimo de 1 (um) e máximo de 5 (cinco) anos.\n§ 1º A dissolução compulsória da pessoa jurídica será determinada quando comprovado:\nI - ter sido a personalidade jurídica utilizada de forma habitual para facilitar ou promover a prática de atos ilícitos; ou\nII - ter sido constituída para ocultar ou dissimular interesses ilícitos ou a identidade dos beneficiários dos atos praticados.\n§ 2º (VETADO).\n§ 3º As sanções poderão ser aplicadas de forma isolada ou cumulativa.\n§ 4º O Ministério Público ou a Advocacia Pública ou órgão de representação judicial, ou equivalente, do ente público poderá requerer a indisponibilidade de bens, direitos ou valores necessários à garantia do pagamento da multa ou da reparação integral do dano causado, conforme previsto no art. 7º , ressalvado o direito do terceiro de boa-fé.",
-   "hash": "71742769a28e5b0aca934197738c23e933d769e2faf86fa70be0ee5311e28312"
+   "hash": "71742769a28e5b0aca934197738c23e933d769e2faf86fa70be0ee5311e28312",
+   "ordem": 25
   },
   "20": {
    "texto": "Art. 20. Nas ações ajuizadas pelo Ministério Público, poderão ser aplicadas as sanções previstas no art. 6º , sem prejuízo daquelas previstas neste Capítulo, desde que constatada a omissão das autoridades competentes para promover a responsabilização administrativa.\nParágrafo único. A proposta do acordo de leniência poderá ser feita mesmo após eventual ajuizamento das ações cabíveis. (Incluído pela Medida provisória nº 703, de 2015) (Vigência encerrada)",
-   "hash": "c49fc464ba3a0b69badd6b8fada56ff07f3779f739fcb896426119292cecdb3c"
+   "hash": "c49fc464ba3a0b69badd6b8fada56ff07f3779f739fcb896426119292cecdb3c",
+   "ordem": 26
   },
   "21": {
    "texto": "Art. 21. Nas ações de responsabilização judicial, será adotado o rito previsto na Lei nº 7.347, de 24 de julho de 1985.\nParágrafo único. A condenação torna certa a obrigação de reparar, integralmente, o dano causado pelo ilícito, cujo valor será apurado em posterior liquidação, se não constar expressamente da sentença.\nCAPÍTULO VII\nDISPOSIÇÕES FINAIS",
-   "hash": "ddc83f69897aa390afc70d75839756d5d6b3bc63b04e2dd05a770136c91f86f7"
+   "hash": "ddc83f69897aa390afc70d75839756d5d6b3bc63b04e2dd05a770136c91f86f7",
+   "ordem": 27
   },
   "22": {
    "texto": "Art. 22. Fica criado no âmbito do Poder Executivo federal o Cadastro Nacional de Empresas Punidas - CNEP, que reunirá e dará publicidade às sanções aplicadas pelos órgãos ou entidades dos Poderes Executivo, Legislativo e Judiciário de todas as esferas de governo com base nesta Lei.\n§ 1º Os órgãos e entidades referidos no caput deverão informar e manter atualizados, no Cnep, os dados relativos às sanções por eles aplicadas.\n§ 2º O Cnep conterá, entre outras, as seguintes informações acerca das sanções aplicadas:\nI - razão social e número de inscrição da pessoa jurídica ou entidade no Cadastro Nacional da Pessoa Jurídica - CNPJ;\nII - tipo de sanção; e\nIII - data de aplicação e data final da vigência do efeito limitador ou impeditivo da sanção, quando for o caso.\n§ 3º As autoridades competentes, para celebrarem acordos de leniência previstos nesta Lei, também deverão prestar e manter atualizadas no Cnep, após a efetivação do respectivo acordo, as informações acerca do acordo de leniência celebrado, salvo se esse procedimento vier a causar prejuízo às investigações e ao processo administrativo.\n§ 4º Caso a pessoa jurídica não cumpra os termos do acordo de leniência, além das informações previstas no § 3º , deverá ser incluída no Cnep referência ao respectivo descumprimento.\n§ 5º Os registros das sanções e acordos de leniência serão excluídos depois de decorrido o prazo previamente estabelecido no ato sancionador ou do cumprimento integral do acordo de leniência e da reparação do eventual dano causado, mediante solicitação do órgão ou entidade sancionadora.",
-   "hash": "63ce5fcefa2ceedae4e04d7b6c533e359cd63996a275c0a06aa6fe1a237652a3"
+   "hash": "63ce5fcefa2ceedae4e04d7b6c533e359cd63996a275c0a06aa6fe1a237652a3",
+   "ordem": 28
   },
   "23": {
    "texto": "Art. 23. Os órgãos ou entidades dos Poderes Executivo, Legislativo e Judiciário de todas as esferas de governo deverão informar e manter atualizados, para fins de publicidade, no Cadastro Nacional de Empresas Inidôneas e Suspensas - CEIS, de caráter público, instituído no âmbito do Poder Executivo federal, os dados relativos às sanções por eles aplicadas, nos termos do disposto nos arts. 87 e 88 da Lei no 8.666, de 21 de junho de 1993.",
-   "hash": "71b8acba7a410b44c8db5b61868ba5081c0ef0fe595933dfb5272309b25fb7ed"
+   "hash": "71b8acba7a410b44c8db5b61868ba5081c0ef0fe595933dfb5272309b25fb7ed",
+   "ordem": 29
   },
   "24": {
    "texto": "Art. 24. A multa e o perdimento de bens, direitos ou valores aplicados com fundamento nesta Lei serão destinados preferencialmente aos órgãos ou entidades públicas lesadas.",
-   "hash": "099a98afdd758994db75c3ad69c42616cf5458e8fad34f76b902ff45fc89d00a"
+   "hash": "099a98afdd758994db75c3ad69c42616cf5458e8fad34f76b902ff45fc89d00a",
+   "ordem": 30
   },
   "25": {
    "texto": "Art. 25. Prescrevem em 5 (cinco) anos as infrações previstas nesta Lei, contados da data da ciência da infração ou, no caso de infração permanente ou continuada, do dia em que tiver cessado.\nParágrafo único. Na esfera administrativa ou judicial, a prescrição será interrompida com a instauração de processo que tenha por objeto a apuração da infração.\n(Vigência encerrada)\nParágrafo único. Na esfera administrativa ou judicial, a prescrição será interrompida com a instauração de processo que tenha por objeto a apuração da infração.",
-   "hash": "02092c9ab5212670220984dc586df9ce8516c52673583d28bafb004cf268f659"
+   "hash": "02092c9ab5212670220984dc586df9ce8516c52673583d28bafb004cf268f659",
+   "ordem": 31
   },
   "26": {
    "texto": "Art. 26. A pessoa jurídica será representada no processo administrativo na forma do seu estatuto ou contrato social.\n§ 1º As sociedades sem personalidade jurídica serão representadas pela pessoa a quem couber a administração de seus bens.\n§ 2º A pessoa jurídica estrangeira será representada pelo gerente, representante ou administrador de sua filial, agência ou sucursal aberta ou instalada no Brasil.",
-   "hash": "f122107bf61937695cbb3f6482309b8f524b99800dfca330f36a4743c521aa4f"
+   "hash": "f122107bf61937695cbb3f6482309b8f524b99800dfca330f36a4743c521aa4f",
+   "ordem": 32
   },
   "27": {
    "texto": "Art. 27. A autoridade competente que, tendo conhecimento das infrações previstas nesta Lei, não adotar providências para a apuração dos fatos será responsabilizada penal, civil e administrativamente nos termos da legislação específica aplicável.",
-   "hash": "d27adb6a87ff80c7ba0b5d2762506a23db8ee5e06e7de47b07cdcc668633ffc6"
+   "hash": "d27adb6a87ff80c7ba0b5d2762506a23db8ee5e06e7de47b07cdcc668633ffc6",
+   "ordem": 33
   },
   "28": {
    "texto": "Art. 28. Esta Lei aplica-se aos atos lesivos praticados por pessoa jurídica brasileira contra a administração pública estrangeira, ainda que cometidos no exterior.",
-   "hash": "76ba4ffb22e843d8cb3c15215d18cd6830293ee1c056ff8a63466aa6b1dff5d4"
+   "hash": "76ba4ffb22e843d8cb3c15215d18cd6830293ee1c056ff8a63466aa6b1dff5d4",
+   "ordem": 34
   },
   "29": {
    "texto": "Art. 29. O disposto nesta Lei não exclui as competências do Conselho Administrativo de Defesa Econômica, do Ministério da Justiça e do Ministério da Fazenda para processar e julgar fato que constitua infração à ordem econômica.\n(Vigência encerrada)",
-   "hash": "74036f17b905051ff450709ffbd90860b2a1d66b838815622ee9ff77d12474d7"
+   "hash": "74036f17b905051ff450709ffbd90860b2a1d66b838815622ee9ff77d12474d7",
+   "ordem": 35
   },
   "30": {
    "texto": "Art. 30. A aplicação das sanções previstas nesta Lei não afeta os processos de responsabilização e aplicação de penalidades decorrentes de:\nI - ato de improbidade administrativa nos termos da Lei nº 8.429, de 2 de junho de 1992 ; e\nII - atos ilícitos alcançados pela Lei nº 8.666, de 21 de junho de 1993, ou outras normas de licitações e contratos da administração pública, inclusive no tocante ao Regime Diferenciado de Contratações Públicas - RDC instituído pela Lei nº 12.462, de 4 de agosto de 2011.",
-   "hash": "7ab613468d851424598a767d311d050cabdb7ad5c42c8eb18839994f164b860c"
+   "hash": "7ab613468d851424598a767d311d050cabdb7ad5c42c8eb18839994f164b860c",
+   "ordem": 36
   },
   "30#2": {
    "texto": "Art. 30. Ressalvada a hipótese de acordo de leniência que expressamente as inclua, a aplicação das sanções previstas nesta Lei não afeta os processos de responsabilização e aplicação de penalidades decorrentes de: (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\nI - ato de improbidade administrativa nos termos da Lei nº 8.429, de 199 2; (Redação dada pela Medida provisória nº 703, de 2015) (Vigência encerrada)\n(Vigência encerrada)\nº (Vigência encerrada)",
-   "hash": "5ff5ee546c4647a65da263369c6c2ae706c7da3360ade9d178ef1674c8b92df7"
+   "hash": "5ff5ee546c4647a65da263369c6c2ae706c7da3360ade9d178ef1674c8b92df7",
+   "ordem": 37
   },
   "30#3": {
    "texto": "Art. 30. A aplicação das sanções previstas nesta Lei não afeta os processos de responsabilização e aplicação de penalidades decorrentes de:\nI - ato de improbidade administrativa nos termos da Lei nº 8.429, de 2 de junho de 1992 ; e\nII - atos ilícitos alcançados pela Lei nº 8.666, de 21 de junho de 1993, ou outras normas de licitações e contratos da administração pública, inclusive no tocante ao Regime Diferenciado de Contratações Públicas - RDC instituído pela Lei nº 12.462, de 4 de agosto de 2011.",
-   "hash": "7ab613468d851424598a767d311d050cabdb7ad5c42c8eb18839994f164b860c"
+   "hash": "7ab613468d851424598a767d311d050cabdb7ad5c42c8eb18839994f164b860c",
+   "ordem": 38
   },
   "31": {
    "texto": "Art. 31. Esta Lei entra em vigor 180 (cento e oitenta) dias após a data de sua publicação.\nBrasília, 1º de agosto de 2013; 192º da Independência e 125º da República.\nDILMA ROUSSEFF\nJosé Eduardo Cardozo\nLuís Inácio Lucena Adams\nJorge Hage Sobrinho\nEste texto não substitui o publicado no DOU de 2.8.2013\n*",
-   "hash": "e5b965c15e903fab1bd93d94254365b702ff7b061fee56bb6ca7288d669a79b1"
+   "hash": "e5b965c15e903fab1bd93d94254365b702ff7b061fee56bb6ca7288d669a79b1",
+   "ordem": 39
   }
  }
 }

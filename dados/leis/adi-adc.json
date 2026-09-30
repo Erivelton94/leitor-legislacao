@@ -7,7 +7,7 @@
  "hash": "67b792f460c39cd4109bb7e9b225c3ee20b4be3b49866056bc96b3c8e5dfbcae",
  "etag": "\"9e34-650289ef18a43\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:55 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI No 9.868, DE 10 DE NOVEMBRO DE 1999.",
   "Dispõe sobre o processo e julgamento da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade perante o Supremo Tribunal Federal.",
@@ -16,163 +16,202 @@
   "DA AÇÃO DIRETA DE INCONSTITUCIONALIDADE E DA",
   "AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE"
  ],
- "ultimo_download_completo": "2026-09-24T04:48:37-03:00",
+ "ultimo_download_completo": "2026-09-30T12:35:45-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1o Esta Lei dispõe sobre o processo e julgamento da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade perante o Supremo Tribunal Federal.\nCAPÍTULO II\nDA AÇÃO DIRETA DE INCONSTITUCIONALIDADE\nSeção I\nDa Admissibilidade e do Procedimento da\nAção Direta de Inconstitucionalidade",
-   "hash": "5db011df6e18013cc79761d219f8785c6b2454046f00d867b39d5150ebac7200"
+   "hash": "5db011df6e18013cc79761d219f8785c6b2454046f00d867b39d5150ebac7200",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2o Podem propor a ação direta de inconstitucionalidade: (Vide artigo 103 da Constituição Federal)\nI - o Presidente da República;\nII - a Mesa do Senado Federal;\nIII - a Mesa da Câmara dos Deputados;\nIV - a Mesa de Assembléia Legislativa ou a Mesa da Câmara Legislativa do Distrito Federal;\nV - o Governador de Estado ou o Governador do Distrito Federal;\nVI - o Procurador-Geral da República;\nVII - o Conselho Federal da Ordem dos Advogados do Brasil;\nVIII - partido político com representação no Congresso Nacional;\nIX - confederação sindical ou entidade de classe de âmbito nacional.\nParágrafo único. (VETADO)",
-   "hash": "7a8038931961e0104f4a6a847fbae4ef7f176a5290cd1f3812180928c6175efc"
+   "hash": "7a8038931961e0104f4a6a847fbae4ef7f176a5290cd1f3812180928c6175efc",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o A petição indicará:\nI - o dispositivo da lei ou do ato normativo impugnado e os fundamentos jurídicos do pedido em relação a cada uma das impugnações;\nII - o pedido, com suas especificações.\nParágrafo único. A petição inicial, acompanhada de instrumento de procuração, quando subscrita por advogado, será apresentada em duas vias, devendo conter cópias da lei ou do ato normativo impugnado e dos documentos necessários para comprovar a impugnação.",
-   "hash": "5e1aa66d0779a93141b134526a6b174cec13499d2e463500db63057e29b6852c"
+   "hash": "5e1aa66d0779a93141b134526a6b174cec13499d2e463500db63057e29b6852c",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4o A petição inicial inepta, não fundamentada e a manifestamente improcedente serão liminarmente indeferidas pelo relator.\nParágrafo único. Cabe agravo da decisão que indeferir a petição inicial.",
-   "hash": "4d1778e6ad54b47191e0c511580afd10d3405fec331bb08ba0f5bc3c40e10278"
+   "hash": "4d1778e6ad54b47191e0c511580afd10d3405fec331bb08ba0f5bc3c40e10278",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o Proposta a ação direta, não se admitirá desistência.\nParágrafo único. (VETADO)",
-   "hash": "73c4d26fc41651c1b9998aa0cdcdafeb0880693d3e7bcd64153fee14cb1a2319"
+   "hash": "73c4d26fc41651c1b9998aa0cdcdafeb0880693d3e7bcd64153fee14cb1a2319",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6o O relator pedirá informações aos órgãos ou às autoridades das quais emanou a lei ou o ato normativo impugnado.\nParágrafo único. As informações serão prestadas no prazo de trinta dias contado do recebimento do pedido.",
-   "hash": "24a2260df4f1fd1b212eaeb525098cc55bb076605c7d7aad805ad6796779da08"
+   "hash": "24a2260df4f1fd1b212eaeb525098cc55bb076605c7d7aad805ad6796779da08",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7o Não se admitirá intervenção de terceiros no processo de ação direta de inconstitucionalidade.\n§ 1o (VETADO)\n§ 2o O relator, considerando a relevância da matéria e a representatividade dos postulantes, poderá, por despacho irrecorrível, admitir, observado o prazo fixado no parágrafo anterior, a manifestação de outros órgãos ou entidades.",
-   "hash": "f166c2eefe044580283d5239c3b5f972b5f32ed87e3bf8f4165d9a95c261009f"
+   "hash": "f166c2eefe044580283d5239c3b5f972b5f32ed87e3bf8f4165d9a95c261009f",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o Decorrido o prazo das informações, serão ouvidos, sucessivamente, o Advogado-Geral da União e o Procurador-Geral da República, que deverão manifestar-se, cada qual, no prazo de quinze dias.",
-   "hash": "7a7f21005a6aa8795c759a66baece30abba56cb8a1c3fde2de5bb9d45196959d"
+   "hash": "7a7f21005a6aa8795c759a66baece30abba56cb8a1c3fde2de5bb9d45196959d",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o Vencidos os prazos do artigo anterior, o relator lançará o relatório, com cópia a todos os Ministros, e pedirá dia para julgamento.\n§ 1o Em caso de necessidade de esclarecimento de matéria ou circunstância de fato ou de notória insuficiência das informações existentes nos autos, poderá o relator requisitar informações adicionais, designar perito ou comissão de peritos para que emita parecer sobre a questão, ou fixar data para, em audiência pública, ouvir depoimentos de pessoas com experiência e autoridade na matéria.\n§ 2o O relator poderá, ainda, solicitar informações aos Tribunais Superiores, aos Tribunais federais e aos Tribunais estaduais acerca da aplicação da norma impugnada no âmbito de sua jurisdição.\n§ 3o As informações, perícias e audiências a que se referem os parágrafos anteriores serão realizadas no prazo de trinta dias, contado da solicitação do relator.\nSeção II\nDa Medida Cautelar em Ação Direta de Inconstitucionalidade",
-   "hash": "2fe80b23f219c8075709527ad25c81ab680d4fb7de8bb6f5b3f5789527bcebc0"
+   "hash": "2fe80b23f219c8075709527ad25c81ab680d4fb7de8bb6f5b3f5789527bcebc0",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. Salvo no período de recesso, a medida cautelar na ação direta será concedida por decisão da maioria absoluta dos membros do Tribunal, observado o disposto no art. 22, após a audiência dos órgãos ou autoridades dos quais emanou a lei ou ato normativo impugnado, que deverão pronunciar-se no prazo de cinco dias.\n§ 1o O relator, julgando indispensável, ouvirá o Advogado-Geral da União e o Procurador-Geral da República, no prazo de três dias.\n§ 2o No julgamento do pedido de medida cautelar, será facultada sustentação oral aos representantes judiciais do requerente e das autoridades ou órgãos responsáveis pela expedição do ato, na forma estabelecida no Regimento do Tribunal.\n§ 3o Em caso de excepcional urgência, o Tribunal poderá deferir a medida cautelar sem a audiência dos órgãos ou das autoridades das quais emanou a lei ou o ato normativo impugnado.",
-   "hash": "ae49d1b1339e0ec052b23b79162b72f1b81cdfd58d5d3def4cd324d032576f67"
+   "hash": "ae49d1b1339e0ec052b23b79162b72f1b81cdfd58d5d3def4cd324d032576f67",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. Concedida a medida cautelar, o Supremo Tribunal Federal fará publicar em seção especial do Diário Oficial da União e do Diário da Justiça da União a parte dispositiva da decisão, no prazo de dez dias, devendo solicitar as informações à autoridade da qual tiver emanado o ato, observando-se, no que couber, o procedimento estabelecido na Seção I deste Capítulo.\n§ 1o A medida cautelar, dotada de eficácia contra todos, será concedida com efeito ex nunc, salvo se o Tribunal entender que deva conceder-lhe eficácia retroativa.\n§ 2o A concessão da medida cautelar torna aplicável a legislação anterior acaso existente, salvo expressa manifestação em sentido contrário.",
-   "hash": "2edfc219a01f3dd1d049e8f965a939b537406b0d976b8f3bd84971a52c4fcb1d"
+   "hash": "2edfc219a01f3dd1d049e8f965a939b537406b0d976b8f3bd84971a52c4fcb1d",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. Havendo pedido de medida cautelar, o relator, em face da relevância da matéria e de seu especial significado para a ordem social e a segurança jurídica, poderá, após a prestação das informações, no prazo de dez dias, e a manifestação do Advogado-Geral da União e do Procurador-Geral da República, sucessivamente, no prazo de cinco dias, submeter o processo diretamente ao Tribunal, que terá a faculdade de julgar definitivamente a ação. (Vide ADO Nº 26)\nCapítulo II-A\n(Incluído pela Lei nº 12.063, de 2009).\nDa Ação Direta de Inconstitucionalidade por Omissão\nSeção I\n(Incluído pela Lei nº 12.063, de 2009).\nDa Admissibilidade e do Procedimento da Ação Direta de Inconstitucionalidade por Omissão",
-   "hash": "f0e0abcd8c462e8859b96be6bcbceec77f1aeb9075fe0d13a5b587679f875c8e"
+   "hash": "f0e0abcd8c462e8859b96be6bcbceec77f1aeb9075fe0d13a5b587679f875c8e",
+   "ordem": 11
   },
   "12-A": {
    "texto": "Art. 12-A. Podem propor a ação direta de inconstitucionalidade por omissão os legitimados à propositura da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade. (Incluído pela Lei nº 12.063, de 2009).",
-   "hash": "12c447b6ec32d14602cd6d1f5588c57a668429b58809f4c0b339735dd9e5f3bc"
+   "hash": "12c447b6ec32d14602cd6d1f5588c57a668429b58809f4c0b339735dd9e5f3bc",
+   "ordem": 12
   },
   "12-B": {
    "texto": "Art. 12-B. A petição indicará: (Incluído pela Lei nº 12.063, de 2009).\nI - a omissão inconstitucional total ou parcial quanto ao cumprimento de dever constitucional de legislar ou quanto à adoção de providência de índole administrativa; (Incluído pela Lei nº 12.063, de 2009).\nII - o pedido, com suas especificações. (Incluído pela Lei nº 12.063, de 2009).\nParágrafo único. A petição inicial, acompanhada de instrumento de procuração, se for o caso, será apresentada em 2 (duas) vias, devendo conter cópias dos documentos necessários para comprovar a alegação de omissão. (Incluído pela Lei nº 12.063, de 2009).",
-   "hash": "01f25ee12fb6fd09fb7398b96c35700d95ac749db803558141fe4735d24a5971"
+   "hash": "01f25ee12fb6fd09fb7398b96c35700d95ac749db803558141fe4735d24a5971",
+   "ordem": 13
   },
   "12-C": {
    "texto": "Art. 12-C. A petição inicial inepta, não fundamentada, e a manifestamente improcedente serão liminarmente indeferidas pelo relator. (Incluído pela Lei nº 12.063, de 2009).\nParágrafo único. Cabe agravo da decisão que indeferir a petição inicial. (Incluído pela Lei nº 12.063, de 2009).",
-   "hash": "7aafa2562cea341f5c5d3e64df7f64ba4008d096f4b407a56fe93371f566812d"
+   "hash": "7aafa2562cea341f5c5d3e64df7f64ba4008d096f4b407a56fe93371f566812d",
+   "ordem": 14
   },
   "12-D": {
    "texto": "Art. 12-D. Proposta a ação direta de inconstitucionalidade por omissão, não se admitirá desistência. (Incluído pela Lei nº 12.063, de 2009).",
-   "hash": "8d55bd5709b32403d2037ff795b8656be9501b304b205ab5040d7889df173263"
+   "hash": "8d55bd5709b32403d2037ff795b8656be9501b304b205ab5040d7889df173263",
+   "ordem": 15
   },
   "12-E": {
    "texto": "Art. 12-E. Aplicam-se ao procedimento da ação direta de inconstitucionalidade por omissão, no que couber, as disposições constantes da Seção I do Capítulo II desta Lei. (Incluído pela Lei nº 12.063, de 2009).\n§ 1o Os demais titulares referidos no art. 2o desta Lei poderão manifestar-se, por escrito, sobre o objeto da ação e pedir a juntada de documentos reputados úteis para o exame da matéria, no prazo das informações, bem como apresentar memoriais. (Incluído pela Lei nº 12.063, de 2009).\n§ 2o O relator poderá solicitar a manifestação do Advogado-Geral da União, que deverá ser encaminhada no prazo de 15 (quinze) dias. (Incluído pela Lei nº 12.063, de 2009).\n§ 3o O Procurador-Geral da República, nas ações em que não for autor, terá vista do processo, por 15 (quinze) dias, após o decurso do prazo para informações. (Incluído pela Lei nº 12.063, de 2009).\nSeção II\n(Incluído pela Lei nº 12.063, de 2009).\nDa Medida Cautelar em Ação Direta de Inconstitucionalidade por Omissão",
-   "hash": "cf5f73d2244e05312f2c24b98e680dfbd0c3eb3610502f0ed8ceb5fc717856f8"
+   "hash": "cf5f73d2244e05312f2c24b98e680dfbd0c3eb3610502f0ed8ceb5fc717856f8",
+   "ordem": 16
   },
   "12-F": {
    "texto": "Art. 12-F. Em caso de excepcional urgência e relevância da matéria, o Tribunal, por decisão da maioria absoluta de seus membros, observado o disposto no art. 22, poderá conceder medida cautelar, após a audiência dos órgãos ou autoridades responsáveis pela omissão inconstitucional, que deverão pronunciar-se no prazo de 5 (cinco) dias. (Incluído pela Lei nº 12.063, de 2009).\n§ 1o A medida cautelar poderá consistir na suspensão da aplicação da lei ou do ato normativo questionado, no caso de omissão parcial, bem como na suspensão de processos judiciais ou de procedimentos administrativos, ou ainda em outra providência a ser fixada pelo Tribunal. (Incluído pela Lei nº 12.063, de 2009).\n§ 2o O relator, julgando indispensável, ouvirá o Procurador-Geral da República, no prazo de 3 (três) dias. (Incluído pela Lei nº 12.063, de 2009).\n§ 3o No julgamento do pedido de medida cautelar, será facultada sustentação oral aos representantes judiciais do requerente e das autoridades ou órgãos responsáveis pela omissão inconstitucional, na forma estabelecida no Regimento do Tribunal. (Incluído pela Lei nº 12.063, de 2009).",
-   "hash": "a057265ed1eb9fd6d9d70facdd0dad4a036afc2a38dfb7b46d9a325dfc83a059"
+   "hash": "a057265ed1eb9fd6d9d70facdd0dad4a036afc2a38dfb7b46d9a325dfc83a059",
+   "ordem": 17
   },
   "12-G": {
    "texto": "Art.12-G. Concedida a medida cautelar, o Supremo Tribunal Federal fará publicar, em seção especial do Diário Oficial da União e do Diário da Justiça da União, a parte dispositiva da decisão no prazo de 10 (dez) dias, devendo solicitar as informações à autoridade ou ao órgão responsável pela omissão inconstitucional, observando-se, no que couber, o procedimento estabelecido na Seção I do Capítulo II desta Lei. (Incluído pela Lei nº 12.063, de 2009).\nSeção III\n(Incluído pela Lei nº 12.063, de 2009).\nDa Decisão na Ação Direta de Inconstitucionalidade por Omissão",
-   "hash": "377dccfc43e71f31618ae71be40291750bcb724be5f513cd618b7b7f0879b574"
+   "hash": "377dccfc43e71f31618ae71be40291750bcb724be5f513cd618b7b7f0879b574",
+   "ordem": 18
   },
   "12-H": {
    "texto": "Art. 12-H. Declarada a inconstitucionalidade por omissão, com observância do disposto no art. 22, será dada ciência ao Poder competente para a adoção das providências necessárias. (Incluído pela Lei nº 12.063, de 2009).\n§ 1o Em caso de omissão imputável a órgão administrativo, as providências deverão ser adotadas no prazo de 30 (trinta) dias, ou em prazo razoável a ser estipulado excepcionalmente pelo Tribunal, tendo em vista as circunstâncias específicas do caso e o interesse público envolvido. (Incluído pela Lei nº 12.063, de 2009).\n§ 2o Aplica-se à decisão da ação direta de inconstitucionalidade por omissão, no que couber, o disposto no Capítulo IV desta Lei. (Incluído pela Lei nº 12.063, de 2009).\nCAPÍTULO III\nDA AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE\nSeção I\nDa Admissibilidade e do Procedimento da\nAção Declaratória de Constitucionalidade",
-   "hash": "243313241d77622ce47f8ddaa0d0f50bd5e40113055b739ed315b170fb062605"
+   "hash": "243313241d77622ce47f8ddaa0d0f50bd5e40113055b739ed315b170fb062605",
+   "ordem": 19
   },
   "13": {
    "texto": "Art. 13. Podem propor a ação declaratória de constitucionalidade de lei ou ato normativo federal: (Vide artigo 103 da Constituição Federal)\nI - o Presidente da República;\nII - a Mesa da Câmara dos Deputados;\nIII - a Mesa do Senado Federal;\nIV - o Procurador-Geral da República.",
-   "hash": "a7da13078c52719e24fd88bf32c79ddd6d01af77323470b18c2c46373164edfa"
+   "hash": "a7da13078c52719e24fd88bf32c79ddd6d01af77323470b18c2c46373164edfa",
+   "ordem": 20
   },
   "14": {
    "texto": "Art. 14. A petição inicial indicará:\nI - o dispositivo da lei ou do ato normativo questionado e os fundamentos jurídicos do pedido;\nII - o pedido, com suas especificações;\nIII - a existência de controvérsia judicial relevante sobre a aplicação da disposição objeto da ação declaratória.\nParágrafo único. A petição inicial, acompanhada de instrumento de procuração, quando subscrita por advogado, será apresentada em duas vias, devendo conter cópias do ato normativo questionado e dos documentos necessários para comprovar a procedência do pedido de declaração de constitucionalidade.",
-   "hash": "b8c9c3b02325e90fcdc8db7885fef478944a6c4f19979b9511c10e3199094d9b"
+   "hash": "b8c9c3b02325e90fcdc8db7885fef478944a6c4f19979b9511c10e3199094d9b",
+   "ordem": 21
   },
   "15": {
    "texto": "Art. 15. A petição inicial inepta, não fundamentada e a manifestamente improcedente serão liminarmente indeferidas pelo relator.\nParágrafo único. Cabe agravo da decisão que indeferir a petição inicial.",
-   "hash": "1dbfe75c9eff41a3ab17c449b6d311ec4cafabed6b57df31af3950affe13f575"
+   "hash": "1dbfe75c9eff41a3ab17c449b6d311ec4cafabed6b57df31af3950affe13f575",
+   "ordem": 22
   },
   "16": {
    "texto": "Art. 16. Proposta a ação declaratória, não se admitirá desistência.",
-   "hash": "aba8e96867b63e5b0061d346035ffd7e289d85a13661505cc13f061226c9459e"
+   "hash": "aba8e96867b63e5b0061d346035ffd7e289d85a13661505cc13f061226c9459e",
+   "ordem": 23
   },
   "17": {
    "texto": "Art. 17. (VETADO)",
-   "hash": "b077d98a1d146833f8c605e0fb419aa6ed9574cfefd95dc71a61bc673816998f"
+   "hash": "b077d98a1d146833f8c605e0fb419aa6ed9574cfefd95dc71a61bc673816998f",
+   "ordem": 24
   },
   "18": {
    "texto": "Art. 18. Não se admitirá intervenção de terceiros no processo de ação declaratória de constitucionalidade.\n§ 1o (VETADO)\n§ 2o (VETADO)",
-   "hash": "2f5a422a6e5981f93a0d78419a81960ab2c0b91a1b0be4991c6364b83d8aa46e"
+   "hash": "2f5a422a6e5981f93a0d78419a81960ab2c0b91a1b0be4991c6364b83d8aa46e",
+   "ordem": 25
   },
   "19": {
    "texto": "Art. 19. Decorrido o prazo do artigo anterior, será aberta vista ao Procurador-Geral da República, que deverá pronunciar-se no prazo de quinze dias.",
-   "hash": "5aeef84d2be7e60a3f2421133db90d64df8c4f39271eb52434cf98cd8c9d537d"
+   "hash": "5aeef84d2be7e60a3f2421133db90d64df8c4f39271eb52434cf98cd8c9d537d",
+   "ordem": 26
   },
   "20": {
    "texto": "Art. 20. Vencido o prazo do artigo anterior, o relator lançará o relatório, com cópia a todos os Ministros, e pedirá dia para julgamento.\n§ 1o Em caso de necessidade de esclarecimento de matéria ou circunstância de fato ou de notória insuficiência das informações existentes nos autos, poderá o relator requisitar informações adicionais, designar perito ou comissão de peritos para que emita parecer sobre a questão ou fixar data para, em audiência pública, ouvir depoimentos de pessoas com experiência e autoridade na matéria.\n§ 2o O relator poderá solicitar, ainda, informações aos Tribunais Superiores, aos Tribunais federais e aos Tribunais estaduais acerca da aplicação da norma questionada no âmbito de sua jurisdição.\n§ 3o As informações, perícias e audiências a que se referem os parágrafos anteriores serão realizadas no prazo de trinta dias, contado da solicitação do relator.\nSeção II\nDa Medida Cautelar em Ação Declaratória\nde Constitucionalidade",
-   "hash": "d74edb4776df3dc9934a0de5d031941fde15c53ccd7ce2dd6de09a2e85edd2e8"
+   "hash": "d74edb4776df3dc9934a0de5d031941fde15c53ccd7ce2dd6de09a2e85edd2e8",
+   "ordem": 27
   },
   "21": {
    "texto": "Art. 21. O Supremo Tribunal Federal, por decisão da maioria absoluta de seus membros, poderá deferir pedido de medida cautelar na ação declaratória de constitucionalidade, consistente na determinação de que os juízes e os Tribunais suspendam o julgamento dos processos que envolvam a aplicação da lei ou do ato normativo objeto da ação até seu julgamento definitivo.\nParágrafo único. Concedida a medida cautelar, o Supremo Tribunal Federal fará publicar em seção especial do Diário Oficial da União a parte dispositiva da decisão, no prazo de dez dias, devendo o Tribunal proceder ao julgamento da ação no prazo de cento e oitenta dias, sob pena de perda de sua eficácia.\nCAPÍTULO IV\nDA DECISÃO NA AÇÃO DIRETA DE INCONSTITUCIONALIDADE\nE NA AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE",
-   "hash": "7daa584a528de21deba723467505f39b58f3cc9d280ae3ca3705d02ed36741de"
+   "hash": "7daa584a528de21deba723467505f39b58f3cc9d280ae3ca3705d02ed36741de",
+   "ordem": 28
   },
   "22": {
    "texto": "Art. 22. A decisão sobre a constitucionalidade ou a inconstitucionalidade da lei ou do ato normativo somente será tomada se presentes na sessão pelo menos oito Ministros.",
-   "hash": "9b54ee540b63aad4017e1796bc6f80fe1d871dfb8fbea1d376e6c58f9be99f53"
+   "hash": "9b54ee540b63aad4017e1796bc6f80fe1d871dfb8fbea1d376e6c58f9be99f53",
+   "ordem": 29
   },
   "23": {
    "texto": "Art. 23. Efetuado o julgamento, proclamar-se-á a constitucionalidade ou a inconstitucionalidade da disposição ou da norma impugnada se num ou noutro sentido se tiverem manifestado pelo menos seis Ministros, quer se trate de ação direta de inconstitucionalidade ou de ação declaratória de constitucionalidade.\nParágrafo único. Se não for alcançada a maioria necessária à declaração de constitucionalidade ou de inconstitucionalidade, estando ausentes Ministros em número que possa influir no julgamento, este será suspenso a fim de aguardar-se o comparecimento dos Ministros ausentes, até que se atinja o número necessário para prolação da decisão num ou noutro sentido.",
-   "hash": "ec48ea83233d9f16782f71a4eb1ec6229bcb008f8878563d504fd3e0807561b4"
+   "hash": "ec48ea83233d9f16782f71a4eb1ec6229bcb008f8878563d504fd3e0807561b4",
+   "ordem": 30
   },
   "24": {
    "texto": "Art. 24. Proclamada a constitucionalidade, julgar-se-á improcedente a ação direta ou procedente eventual ação declaratória; e, proclamada a inconstitucionalidade, julgar-se-á procedente a ação direta ou improcedente eventual ação declaratória.",
-   "hash": "81310d3e83103db30dd05986de01e892750725e6ec201fb02be64e5be025c9f7"
+   "hash": "81310d3e83103db30dd05986de01e892750725e6ec201fb02be64e5be025c9f7",
+   "ordem": 31
   },
   "25": {
    "texto": "Art. 25. Julgada a ação, far-se-á a comunicação à autoridade ou ao órgão responsável pela expedição do ato.",
-   "hash": "78dd51b107b54b790f13323525f2ce524b88ec7c7a89330c1bbb4442b63b6611"
+   "hash": "78dd51b107b54b790f13323525f2ce524b88ec7c7a89330c1bbb4442b63b6611",
+   "ordem": 32
   },
   "26": {
    "texto": "Art. 26. A decisão que declara a constitucionalidade ou a inconstitucionalidade da lei ou do ato normativo em ação direta ou em ação declaratória é irrecorrível, ressalvada a interposição de embargos declaratórios, não podendo, igualmente, ser objeto de ação rescisória.",
-   "hash": "38ae9a4c1e5589cf42375b83a54a1f3fd0137f3faf97b8bb0e26a770fc85c69b"
+   "hash": "38ae9a4c1e5589cf42375b83a54a1f3fd0137f3faf97b8bb0e26a770fc85c69b",
+   "ordem": 33
   },
   "27": {
    "texto": "Art. 27. Ao declarar a inconstitucionalidade de lei ou ato normativo, e tendo em vista razões de segurança jurídica ou de excepcional interesse social, poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros, restringir os efeitos daquela declaração ou decidir que ela só tenha eficácia a partir de seu trânsito em julgado ou de outro momento que venha a ser fixado.",
-   "hash": "6885e1a798e2891d1d6392d50ac8dd3de9f61f673492dbc01f88607ab3a066d6"
+   "hash": "6885e1a798e2891d1d6392d50ac8dd3de9f61f673492dbc01f88607ab3a066d6",
+   "ordem": 34
   },
   "28": {
    "texto": "Art. 28. Dentro do prazo de dez dias após o trânsito em julgado da decisão, o Supremo Tribunal Federal fará publicar em seção especial do Diário da Justiça e do Diário Oficial da União a parte dispositiva do acórdão.\nParágrafo único. A declaração de constitucionalidade ou de inconstitucionalidade, inclusive a interpretação conforme a Constituição e a declaração parcial de inconstitucionalidade sem redução de texto, têm eficácia contra todos e efeito vinculante em relação aos órgãos do Poder Judiciário e à Administração Pública federal, estadual e municipal.\nCAPÍTULO V\nDAS DISPOSIÇÕES GERAIS E FINAIS",
-   "hash": "0a60fdc47a8f807d2e24e93f6ab2b6e373bf7a9f6c16849b66dc399c4168a915"
+   "hash": "0a60fdc47a8f807d2e24e93f6ab2b6e373bf7a9f6c16849b66dc399c4168a915",
+   "ordem": 35
   },
   "29": {
    "texto": "Art. 29. O art. 482 do Código de Processo Civil fica acrescido dos seguintes parágrafos:\n\"Art. 482. ...........................................................................\n§ 1o O Ministério Público e as pessoas jurídicas de direito público responsáveis pela edição do ato questionado, se assim o requererem, poderão manifestar-se no incidente de inconstitucionalidade, observados os prazos e condições fixados no Regimento Interno do Tribunal.\n§ 2o Os titulares do direito de propositura referidos no art. 103 da Constituição poderão manifestar-se, por escrito, sobre a questão constitucional objeto de apreciação pelo órgão especial ou pelo Pleno do Tribunal, no prazo fixado em Regimento, sendo-lhes assegurado o direito de apresentar memoriais ou de pedir a juntada de documentos.\n§ 3o O relator, considerando a relevância da matéria e a representatividade dos postulantes, poderá admitir, por despacho irrecorrível, a manifestação de outros órgãos ou entidades.\"",
-   "hash": "5dd0e207eb42f1e2ec37d4690598cf328aee13458599aaabda8ef6e9bd6ee9ff"
+   "hash": "5dd0e207eb42f1e2ec37d4690598cf328aee13458599aaabda8ef6e9bd6ee9ff",
+   "ordem": 36
   },
   "30": {
    "texto": "Art. 30. O art. 8o da Lei no 8.185, de 14 de maio de 1991, passa a vigorar acrescido dos seguintes dispositivos:\n\"Art.8o .............................................................................\nI - .....................................................................................\n........................................................................................\nn) a ação direta de inconstitucionalidade de lei ou ato normativo do Distrito Federal em face da sua Lei Orgânica;\n.......................................................................................\n§ 3o São partes legítimas para propor a ação direta de inconstitucionalidade:\nI- o Governador do Distrito Federal;\nII - a Mesa da Câmara Legislativa;\nIII - o Procurador-Geral de Justiça;\nIV - a Ordem dos Advogados do Brasil, seção do Distrito Federal;\nV - as entidades sindicais ou de classe, de atuação no Distrito Federal, demonstrando que a pretensão por elas deduzida guarda relação de pertinência direta com os seus objetivos institucionais;\nVI - os partidos políticos com representação na Câmara Legislativa.\n§ 4o Aplicam-se ao processo e julgamento da ação direta de Inconstitucionalidade perante o Tribunal de Justiça do Distrito Federal e Territórios as seguintes disposições:\nI - o Procurador-Geral de Justiça será sempre ouvido nas ações diretas de constitucionalidade ou de inconstitucionalidade;\nII - declarada a inconstitucionalidade por omissão de medida para tornar efetiva norma da Lei Orgânica do Distrito Federal, a decisão será comunicada ao Poder competente para adoção das providências necessárias, e, tratando-se de órgão administrativo, para fazê-lo em trinta dias;\nIII - somente pelo voto da maioria absoluta de seus membros ou de seu órgão especial, poderá o Tribunal de Justiça declarar a inconstitucionalidade de lei ou de ato normativo do Distrito Federal ou suspender a sua vigência em decisão de medida cautelar.\n§ 5o Aplicam-se, no que couber, ao processo de julgamento da ação direta de inconstitucionalidade de lei ou ato normativo do Distrito Federal em face da sua Lei Orgânica as normas sobre o processo e o julgamento da ação direta de inconstitucionalidade perante o Supremo Tribunal Federal.\"",
-   "hash": "5ea02656d91790eea8189724f4b6111c1f53a460cbbaa028e4c614b5bd5015f5"
+   "hash": "5ea02656d91790eea8189724f4b6111c1f53a460cbbaa028e4c614b5bd5015f5",
+   "ordem": 37
   },
   "31": {
    "texto": "Art. 31. Esta Lei entra em vigor na data de sua publicação.\nBrasília, 10 de novembro de 1999; 178o da Independência e 111o da República.\nFERNANDO HENRIQUE CARDOSO\nJosé Carlos Dias\nEste texto não substitui o publicado no DOU de 11.11.1999\n*",
-   "hash": "15e4fb63a8adfceea63e6e9a3059595c0e834761e55e8c824bf050ca0f911f75"
+   "hash": "15e4fb63a8adfceea63e6e9a3059595c0e834761e55e8c824bf050ca0f911f75",
+   "ordem": 38
   }
  }
 }

@@ -7,29 +7,33 @@
  "hash": "342e2639a29206776b871f53e532c2f1468e7d9fa9d944365c98cd3a23f3d7e6",
  "etag": "\"1e64-65250e208f705\"",
  "last_modified": "Thu, 21 May 2026 09:53:23 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 9.455, DE 7 DE ABRIL DE 1997.",
   "Define os crimes de tortura e dá outras providências.",
   "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-24T04:39:21-03:00",
+ "ultimo_download_completo": "2026-09-30T12:31:16-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Constitui crime de tortura:\nI - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:\na) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;\nb) para provocar ação ou omissão de natureza criminosa;\nc) em razão de discriminação racial ou religiosa;\nII - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo.\nIII – submeter mulher, reiteradamente, a intenso sofrimento físico ou mental, no contexto de violência doméstica e familiar, sem prejuízo da aplicação das penas correspondentes a outras infrações penais. (Incluído pela Lei nº 15.410, de 2026)\nPena - reclusão, de dois a oito anos.\n§ 1º Na mesma pena incorre quem submete pessoa presa ou sujeita a medida de segurança a sofrimento físico ou mental, por intermédio da prática de ato não previsto em lei ou não resultante de medida legal.\n§ 2º Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos.\n§ 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos.\n§ 4º Aumenta-se a pena de um sexto até um terço:\nI - se o crime é cometido por agente público;\nII – se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos; '(Redação dada pela Lei nº 10.741, de 2003)\nIII - se o crime é cometido mediante seqüestro.\n§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.\n§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia.\n§ 7º O condenado por crime previsto nesta Lei, salvo a hipótese do § 2º, iniciará o cumprimento da pena em regime fechado.",
-   "hash": "bfcf7f00a820d3d93364ecbdad46afc2d57efd7cd885e5764433ba010ced4153"
+   "hash": "bfcf7f00a820d3d93364ecbdad46afc2d57efd7cd885e5764433ba010ced4153",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º O disposto nesta Lei aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira.",
-   "hash": "e1cd312b892ce9843d3a29e2d137a5c154adaaca3500a5c6a6d9fd830d68e73f"
+   "hash": "e1cd312b892ce9843d3a29e2d137a5c154adaaca3500a5c6a6d9fd830d68e73f",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º Esta Lei entra em vigor na data de sua publicação.",
-   "hash": "beb64cfe34bd57e4a185559dd41f05d6400cffd658a6d0ef86b6716821283271"
+   "hash": "beb64cfe34bd57e4a185559dd41f05d6400cffd658a6d0ef86b6716821283271",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º Revoga-se o art. 233 da Lei nº 8.069, de 13 de julho de 1990 - Estatuto da Criança e do Adolescente.\nBrasília, 7 de abril de 1997; 176º da Independência e 109º da República.\nFERNANDO HENRIQUE CARDOSO\nNelson A. Jobim\nEste texto não substitui o publicado no D.O.U. de 8.4.1997\n*",
-   "hash": "8e69bfaaad8bf617281333b5c5d197cd5f1b7f85b2633624dfc98463eafd1503"
+   "hash": "8e69bfaaad8bf617281333b5c5d197cd5f1b7f85b2633624dfc98463eafd1503",
+   "ordem": 3
   }
  }
 }

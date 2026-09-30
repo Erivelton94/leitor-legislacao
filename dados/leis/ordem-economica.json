@@ -7,7 +7,7 @@
  "hash": "def2eee4cf429807ba581a885d58bdc07c86404e337150a7344395c5dd993e22",
  "etag": "\"3897-65c245aea80c7\"",
  "last_modified": "Wed, 23 Sep 2026 10:57:54 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 8.176, DE 8 DE FEVEREIRO DE 1991.",
   "Mensagem de veto",
@@ -15,47 +15,57 @@
   "Define crimes contra a ordem econômica e cria o Sistema de Estoques de Combustíveis.",
   "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:"
  ],
- "ultimo_download_completo": "2026-09-27T04:43:28-03:00",
+ "ultimo_download_completo": "2026-09-30T12:33:18-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1° Constitui crime contra a ordem econômica:\nI - adquirir, distribuir e revender derivados de petróleo, gás natural e suas frações recuperáveis, álcool etílico, hidratado carburante e demais combustíveis líquidos carburantes, em desacordo com as normas estabelecidas na forma da lei;\nII - usar gás liquefeito de petróleo para fins automotivos, em desacordo com as normas estabelecidas na forma da lei. (Redação dada pela Lei nº 15.348, de 2026)\nPena: detenção de um a cinco anos.",
-   "hash": "fb39ec7e87bfbccb09f309e7160a351bcf10eed2fd0407d853d3858b225a294f"
+   "hash": "fb39ec7e87bfbccb09f309e7160a351bcf10eed2fd0407d853d3858b225a294f",
+   "ordem": 0
   },
   "1-A": {
    "texto": "Art. 1º-A. Constitui crime contra a ordem econômica adquirir, receber, transportar ou contratar serviço de transporte, conduzir, ocultar, ter em depósito ou contratar serviço de armazenagem, vender, expor à venda, distribuir ou de qualquer forma utilizar ou manter em unidades produtoras, em tanques de armazenamento de bases e terminais terrestres e aquaviários, em dutos, em vagões de ferrovias, em caminhões-tanques, em embarcações ou em aeronaves, no exercício de atividade comercial ou industrial, petróleo e derivados, gás natural e suas frações recuperáveis, álcool etílico hidratado carburante e demais combustíveis fluidos carburantes, inclusive biocombustíveis, e óleos lubrificantes, em proveito próprio ou alheio, que sabe ser produto de crime. (Incluído pela Lei nº 15.517, de 2026)\nPena: reclusão, de 3 (três) a 8 (oito) anos, e multa. (Incluído pela Lei nº 15.517, de 2026)\n§ 1º Equipara-se à atividade comercial, para efeito deste artigo, qualquer forma de comércio irregular ou clandestino, inclusive o exercido em residência. (Incluído pela Lei nº 15.517, de 2026)\n§ 2º O crime previsto no caput deste artigo é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa. (Incluído pela Lei nº 15.517, de 2026)\n§ 3º Constitui efeito da condenação a interdição do estabelecimento pelo dobro do prazo da pena aplicada. (Incluído pela Lei nº 15.517, de 2026)",
-   "hash": "5c88cfd9c429eb6e4a10cb98cfaa110a90d9cb860b18d5f2210a100a2b8357d1"
+   "hash": "5c88cfd9c429eb6e4a10cb98cfaa110a90d9cb860b18d5f2210a100a2b8357d1",
+   "ordem": 1
   },
   "1-B": {
    "texto": "Art. 1º-B. Constitui crime contra a ordem econômica adquirir, receber ou manter em unidades produtoras, em tanques de armazenamento de bases e terminais terrestres e aquaviários, em dutos, em vagões de ferrovias, em caminhões-tanques, em embarcações ou em aeronaves petróleo e derivados, gás natural e suas frações recuperáveis, álcool etílico hidratado carburante e demais combustíveis fluidos carburantes, inclusive biocombustíveis, e óleos lubrificantes, em proveito próprio ou alheio, que, por sua natureza ou pela desproporção entre o valor e o preço, ou pela condição de quem os oferece, devam presumir-se obtidos por meio criminoso. (Incluído pela Lei nº 15.517, de 2026)\nPena: reclusão, de 1 (um) a 4 (quatro) anos, e multa. (Incluído pela Lei nº 15.517, de 2026)\n§ 1º Se o agente é primário, poderá o juiz, consideradas as circunstâncias e as consequências do crime, diminuir a pena de 1/3 (um terço) a 2/3 (dois terços) ou deixar de aplicar a multa. (Incluído pela Lei nº 15.517, de 2026)\n§ 2º O crime previsto no caput deste artigo é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa. (Incluído pela Lei nº 15.517, de 2026)",
-   "hash": "dae3765aed00820d4b97e7f8f1a1ac8e039fc04597e8ec25b3a36953a4155f3d"
+   "hash": "dae3765aed00820d4b97e7f8f1a1ac8e039fc04597e8ec25b3a36953a4155f3d",
+   "ordem": 2
   },
   "1-C": {
    "texto": "Art. 1º-C. Nos crimes previstos nos arts. 1º-A e 1º-B desta Lei, a condenação terá como efeito a perda do cargo, da função ou do emprego público, com a inabilitação para o seu exercício pelo dobro do prazo da pena aplicada. (Incluído pela Lei nº 15.517, de 2026)",
-   "hash": "cab903595d4bba4eee38af9f431c7ad2241d76b5d41878bc2eea6d47d1e713c0"
+   "hash": "cab903595d4bba4eee38af9f431c7ad2241d76b5d41878bc2eea6d47d1e713c0",
+   "ordem": 3
   },
   "1-D": {
    "texto": "Art. 1º-D. O juiz determinará a alienação antecipada, na forma do art. 144-A do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para preservação do valor dos bens, sempre que estiverem sujeitos a qualquer grau de deterioração ou depreciação ou quando houver dificuldade para sua manutenção. (Incluído pela Lei nº 15.517, de 2026)",
-   "hash": "078174beae1bd6a6faa57e1c657e27eec0bbdeb8525ab345462333303deb5848"
+   "hash": "078174beae1bd6a6faa57e1c657e27eec0bbdeb8525ab345462333303deb5848",
+   "ordem": 4
   },
   "2": {
    "texto": "Art. 2° Constitui crime contra o patrimônio, na modalidade de usurpacão, produzir bens ou explorar matéria-prima pertencentes à União, sem autorização legal ou em desacordo com as obrigações impostas pelo título autorizativo.\nPena: detenção, de um a cinco anos e multa.\n§ 1° Incorre na mesma pena aquele que, sem autorização legal, adquirir, transportar, industrializar, tiver consigo, consumir ou comercializar produtos ou matéria-prima, obtidos na forma prevista no caput deste artigo.\n§ 2° No crime definido neste artigo, a pena de multa será fixada entre dez e trezentos e sessenta dias-multa, conforme seja necessário e suficiente para a reprovação e a prevenção do crime.\n§ 3° O dia-multa será fixado pelo juiz em valor não inferior a quatorze nem superior a duzentos Bônus do Tesouro Nacional (BTN).",
-   "hash": "18aec3cc1ee058fc25014f09282f3598d2f8bd81f78862deaeaeaa4ad095635b"
+   "hash": "18aec3cc1ee058fc25014f09282f3598d2f8bd81f78862deaeaeaa4ad095635b",
+   "ordem": 5
   },
   "3": {
    "texto": "Art. 3° (Vetado).",
-   "hash": "12bb10ee9817c3af3b4af5715af59989d1c681fb6889fd57be966ce48ac3257a"
+   "hash": "12bb10ee9817c3af3b4af5715af59989d1c681fb6889fd57be966ce48ac3257a",
+   "ordem": 6
   },
   "4": {
    "texto": "Art. 4° Fica instituído o Sistema Nacional de Estoques de Combustíveis. (Vide Lei nº 14.134, de 2021)\n§ 1° O Poder Executivo encaminhará ao Congresso Nacional, dentro de cada exercício financeiro, o Plano Anual de Estoques Estratégicos de Combustíveis para o exercício seguinte, do qual constarão as fontes de recursos financeiros necessários a sua manutenção.\n§ 2° O Poder Executivo estabelecerá, no prazo de sessenta dias as normas que regulamentarão o Sistema Nacional de Estoques de Combustíveis e o Plano Anual de Estoques Estratégicos de Combustíveis.",
-   "hash": "b129621b5d1eaf7b12cd264757b59323beba1f1bbc668695e2375c9165538406"
+   "hash": "b129621b5d1eaf7b12cd264757b59323beba1f1bbc668695e2375c9165538406",
+   "ordem": 7
   },
   "5": {
    "texto": "Art. 5° Esta lei entra em vigor cinco dias após a sua publicação.",
-   "hash": "9fd52bd3652c13d2bbf52317decab291085fd85193598629fa27d0d6d20b72f3"
+   "hash": "9fd52bd3652c13d2bbf52317decab291085fd85193598629fa27d0d6d20b72f3",
+   "ordem": 8
   },
   "6": {
    "texto": "Art. 6° Revogam-se as disposições em contrário, em especial o art. 18 da Lei n° 8.137, de 27 de dezembro de 1990, restaurando-se a numeração dos artigos do Decreto-Lei n° 2.848, de 7 de dezembro de 1940 Código Penal Brasileiro, alterado por aquele dispositivo.\nBrasília, 8 de fevereiro de 1991; 170° da Independência e 103° da República.\nFERNANDO COLLOR\nJarbas Passarinho\nZélia M. Cardoso de Mello\nOzires Silva\nEste texto não substitui o publicado no DOU de 13.2.1991\n*",
-   "hash": "b4d9f351c3f438f2a209971b26f4b0a1785603a0594db4e04dba20306ba4d286"
+   "hash": "b4d9f351c3f438f2a209971b26f4b0a1785603a0594db4e04dba20306ba4d286",
+   "ordem": 9
   }
  }
 }

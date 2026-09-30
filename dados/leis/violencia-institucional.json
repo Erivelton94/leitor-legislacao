@@ -7,29 +7,33 @@
  "hash": "839758f72d748e49bf6057d17124dae8166ecaec8166d12a792e71d0ac919b5e",
  "etag": "\"2e0a-6502916d868a4\"",
  "last_modified": "Thu, 23 Apr 2026 23:34:27 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 14.321, DE 31 DE MARÇO DE 2022",
   "Altera a Lei nº 13.869, de 5 de setembro de 2019, para tipificar o crime de violência institucional.",
   "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-24T04:44:43-03:00",
+ "ultimo_download_completo": "2026-09-30T12:33:52-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta Lei tipifica o crime de violência institucional.",
-   "hash": "dbafb7a21a96d5cf63e9e1fe496920cf6894d1fdcdb5497c9749e9ff20a70aa0"
+   "hash": "dbafb7a21a96d5cf63e9e1fe496920cf6894d1fdcdb5497c9749e9ff20a70aa0",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º A Lei nº 13.869, de 5 de setembro de 2019, passa a vigorar acrescida do seguinte art. 15-A:\n“Violência Institucional",
-   "hash": "725c10269c06ba8e88d710e24dd6c674c9619da0877c4aeba06579606d4a5303"
+   "hash": "725c10269c06ba8e88d710e24dd6c674c9619da0877c4aeba06579606d4a5303",
+   "ordem": 1
   },
   "15-A": {
    "texto": "Art. 15-A. Submeter a vítima de infração penal ou a testemunha de crimes violentos a procedimentos desnecessários, repetitivos ou invasivos, que a leve a reviver, sem estrita necessidade:\nI - a situação de violência; ou\nII - outras situações potencialmente geradoras de sofrimento ou estigmatização:\nPena - detenção, de 3 (três) meses a 1 (um) ano, e multa.\n§ 1º Se o agente público permitir que terceiro intimide a vítima de crimes violentos, gerando indevida revitimização, aplica-se a pena aumentada de 2/3 (dois terços).\n§ 2º Se o agente público intimidar a vítima de crimes violentos, gerando indevida revitimização, aplica-se a pena em dobro.”",
-   "hash": "1c07d4874eadfbcf768300237f10c88a9dfa7974204c87ba5afc6640941d2fb4"
+   "hash": "1c07d4874eadfbcf768300237f10c88a9dfa7974204c87ba5afc6640941d2fb4",
+   "ordem": 2
   },
   "3": {
    "texto": "Art. 3º Esta Lei entra em vigor na data de sua publicação.\nBrasília, 31 de março de 2022; 201o da Independência e 134o da República.\nJAIR MESSIAS BOLSONARO\nAnderson Gustavo Torres\nCristiane Rodrigues Britto\nEste texto não substitui o publicado no DOU de 1º.4.2022\n*",
-   "hash": "32ee1ace17560ea67d7aa4bc81f58f112fba33b006580b4aa0a22f83cfa1282e"
+   "hash": "32ee1ace17560ea67d7aa4bc81f58f112fba33b006580b4aa0a22f83cfa1282e",
+   "ordem": 3
   }
  }
 }

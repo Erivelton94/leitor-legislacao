@@ -7,7 +7,7 @@
  "hash": "40cab070a449249fb13eb208a4ae551567ca3f3b009dd4c640dc8dff24e80951",
  "etag": "\"1a59a-650290de7f4eb\"",
  "last_modified": "Thu, 23 Apr 2026 23:31:57 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.527, DE 18 DE NOVEMBRO DE 2011.",
   "Vigência",
@@ -16,207 +16,257 @@
   "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
   "CAPÍTULO I"
  ],
- "ultimo_download_completo": "2026-09-25T04:47:05-03:00",
+ "ultimo_download_completo": "2026-09-30T12:34:59-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta Lei dispõe sobre os procedimentos a serem observados pela União, Estados, Distrito Federal e Municípios, com o fim de garantir o acesso a informações previsto no inciso XXXIII do art. 5º , no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.\nParágrafo único. Subordinam-se ao regime desta Lei:\nI - os órgãos públicos integrantes da administração direta dos Poderes Executivo, Legislativo, incluindo as Cortes de Contas, e Judiciário e do Ministério Público;\nII - as autarquias, as fundações públicas, as empresas públicas, as sociedades de economia mista e demais entidades controladas direta ou indiretamente pela União, Estados, Distrito Federal e Municípios.",
-   "hash": "60cfe06c425f4ff08e740e6a69163dbf5fd1fb91e79017bc033190437e518283"
+   "hash": "60cfe06c425f4ff08e740e6a69163dbf5fd1fb91e79017bc033190437e518283",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º Aplicam-se as disposições desta Lei, no que couber, às entidades privadas sem fins lucrativos que recebam, para realização de ações de interesse público, recursos públicos diretamente do orçamento ou mediante subvenções sociais, contrato de gestão, termo de parceria, convênios, acordo, ajustes ou outros instrumentos congêneres.\nParágrafo único. A publicidade a que estão submetidas as entidades citadas no caput refere-se à parcela dos recursos públicos recebidos e à sua destinação, sem prejuízo das prestações de contas a que estejam legalmente obrigadas.",
-   "hash": "f6fcfe0a15f9a313c9c953e5ca13d250495ba47d3785455751bafa6607f2c590"
+   "hash": "f6fcfe0a15f9a313c9c953e5ca13d250495ba47d3785455751bafa6607f2c590",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º Os procedimentos previstos nesta Lei destinam-se a assegurar o direito fundamental de acesso à informação e devem ser executados em conformidade com os princípios básicos da administração pública e com as seguintes diretrizes:\nI - observância da publicidade como preceito geral e do sigilo como exceção;\nII - divulgação de informações de interesse público, independentemente de solicitações;\nIII - utilização de meios de comunicação viabilizados pela tecnologia da informação;\nIV - fomento ao desenvolvimento da cultura de transparência na administração pública;\nV - desenvolvimento do controle social da administração pública.",
-   "hash": "2c1762997088da860e1b9956ccfb308dc16912232859bb73fe651e4a2046d8f2"
+   "hash": "2c1762997088da860e1b9956ccfb308dc16912232859bb73fe651e4a2046d8f2",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º Para os efeitos desta Lei, considera-se:\nI - informação: dados, processados ou não, que podem ser utilizados para produção e transmissão de conhecimento, contidos em qualquer meio, suporte ou formato;\nII - documento: unidade de registro de informações, qualquer que seja o suporte ou formato;\nIII - informação sigilosa: aquela submetida temporariamente à restrição de acesso público em razão de sua imprescindibilidade para a segurança da sociedade e do Estado;\nIV - informação pessoal: aquela relacionada à pessoa natural identificada ou identificável;\nV - tratamento da informação: conjunto de ações referentes à produção, recepção, classificação, utilização, acesso, reprodução, transporte, transmissão, distribuição, arquivamento, armazenamento, eliminação, avaliação, destinação ou controle da informação;\nVI - disponibilidade: qualidade da informação que pode ser conhecida e utilizada por indivíduos, equipamentos ou sistemas autorizados;\nVII - autenticidade: qualidade da informação que tenha sido produzida, expedida, recebida ou modificada por determinado indivíduo, equipamento ou sistema;\nVIII - integridade: qualidade da informação não modificada, inclusive quanto à origem, trânsito e destino;\nIX - primariedade: qualidade da informação coletada na fonte, com o máximo de detalhamento possível, sem modificações.",
-   "hash": "5dbfe0878388122d7e44c6db1210cd0d3ef0b98422d8df7067d5f2c3e08a2498"
+   "hash": "5dbfe0878388122d7e44c6db1210cd0d3ef0b98422d8df7067d5f2c3e08a2498",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5º É dever do Estado garantir o direito de acesso à informação, que será franqueada, mediante procedimentos objetivos e ágeis, de forma transparente, clara e em linguagem de fácil compreensão.\nCAPÍTULO II\nDO ACESSO A INFORMAÇÕES E DA SUA DIVULGAÇÃO",
-   "hash": "3f9510a61958f766ef99a5380a1637862c00b9df96ef87397213ec2216903427"
+   "hash": "3f9510a61958f766ef99a5380a1637862c00b9df96ef87397213ec2216903427",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º Cabe aos órgãos e entidades do poder público, observadas as normas e procedimentos específicos aplicáveis, assegurar a:\nI - gestão transparente da informação, propiciando amplo acesso a ela e sua divulgação;\nII - proteção da informação, garantindo-se sua disponibilidade, autenticidade e integridade; e\nIII - proteção da informação sigilosa e da informação pessoal, observada a sua disponibilidade, autenticidade, integridade e eventual restrição de acesso.",
-   "hash": "850485efdab82d21824b803e2b7c2135645601da9e2ae23da810e53fd9a495a4"
+   "hash": "850485efdab82d21824b803e2b7c2135645601da9e2ae23da810e53fd9a495a4",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7º O acesso à informação de que trata esta Lei compreende, entre outros, os direitos de obter:\nI - orientação sobre os procedimentos para a consecução de acesso, bem como sobre o local onde poderá ser encontrada ou obtida a informação almejada;\nII - informação contida em registros ou documentos, produzidos ou acumulados por seus órgãos ou entidades, recolhidos ou não a arquivos públicos;\nIII - informação produzida ou custodiada por pessoa física ou entidade privada decorrente de qualquer vínculo com seus órgãos ou entidades, mesmo que esse vínculo já tenha cessado;\nIV - informação primária, íntegra, autêntica e atualizada;\nV - informação sobre atividades exercidas pelos órgãos e entidades, inclusive as relativas à sua política, organização e serviços;\nVI - informação pertinente à administração do patrimônio público, utilização de recursos públicos, licitação, contratos administrativos; e\nVII - informação relativa:\na) à implementação, acompanhamento e resultados dos programas, projetos e ações dos órgãos e entidades públicas, bem como metas e indicadores propostos;\nb) ao resultado de inspeções, auditorias, prestações e tomadas de contas realizadas pelos órgãos de controle interno e externo, incluindo prestações de contas relativas a exercícios anteriores.\nVIII – (VETADO). (Incluído pela Lei nº 14.345, de 2022)\n§ 1º O acesso à informação previsto no caput não compreende as informações referentes a projetos de pesquisa e desenvolvimento científicos ou tecnológicos cujo sigilo seja imprescindível à segurança da sociedade e do Estado.\n§ 2º Quando não for autorizado acesso integral à informação por ser ela parcialmente sigilosa, é assegurado o acesso à parte não sigilosa por meio de certidão, extrato ou cópia com ocultação da parte sob sigilo.\n§ 3º O direito de acesso aos documentos ou às informações neles contidas utilizados como fundamento da tomada de decisão e do ato administrativo será assegurado com a edição do ato decisório respectivo.\n§ 4º A negativa de acesso às informações objeto de pedido formulado aos órgãos e entidades referidas no art. 1º , quando não fundamentada, sujeitará o responsável a medidas disciplinares, nos termos do art. 32 desta Lei.\n§ 5º Informado do extravio da informação solicitada, poderá o interessado requerer à autoridade competente a imediata abertura de sindicância para apurar o desaparecimento da respectiva documentação.\n§ 6º Verificada a hipótese prevista no § 5º deste artigo, o responsável pela guarda da informação extraviada deverá, no prazo de 10 (dez) dias, justificar o fato e indicar testemunhas que comprovem sua alegação.",
-   "hash": "6844ca25af203e271fbe376fc077ee7cb3a8f65aed7fc8c41cbfd0829cd7eb81"
+   "hash": "6844ca25af203e271fbe376fc077ee7cb3a8f65aed7fc8c41cbfd0829cd7eb81",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8º É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências, de informações de interesse coletivo ou geral por eles produzidas ou custodiadas.\n§ 1º Na divulgação das informações a que se refere o caput, deverão constar, no mínimo:\nI - registro das competências e estrutura organizacional, endereços e telefones das respectivas unidades e horários de atendimento ao público;\nII - registros de quaisquer repasses ou transferências de recursos financeiros;\nIII - registros das despesas;\nIV - informações concernentes a procedimentos licitatórios, inclusive os respectivos editais e resultados, bem como a todos os contratos celebrados;\nV - dados gerais para o acompanhamento de programas, ações, projetos e obras de órgãos e entidades; e\nVI - respostas a perguntas mais frequentes da sociedade.\n§ 2º Para cumprimento do disposto no caput, os órgãos e entidades públicas deverão utilizar todos os meios e instrumentos legítimos de que dispuserem, sendo obrigatória a divulgação em sítios oficiais da rede mundial de computadores (internet).\n§ 3º Os sítios de que trata o § 2º deverão, na forma de regulamento, atender, entre outros, aos seguintes requisitos:\nI - conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;\nII - possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;\nIII - possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;\nIV - divulgar em detalhes os formatos utilizados para estruturação da informação;\nV - garantir a autenticidade e a integridade das informações disponíveis para acesso;\nVI - manter atualizadas as informações disponíveis para acesso;\nVII - indicar local e instruções que permitam ao interessado comunicar-se, por via eletrônica ou telefônica, com o órgão ou entidade detentora do sítio; e\nVIII - adotar as medidas necessárias para garantir a acessibilidade de conteúdo para pessoas com deficiência, nos termos do art. 17 da Lei nº 10.098, de 19 de dezembro de 2000, e do art. 9º da Convenção sobre os Direitos das Pessoas com Deficiência, aprovada pelo Decreto Legislativo nº 186, de 9 de julho de 2008.\n§ 4º Os Municípios com população de até 10.000 (dez mil) habitantes ficam dispensados da divulgação obrigatória na internet a que se refere o § 2º , mantida a obrigatoriedade de divulgação, em tempo real, de informações relativas à execução orçamentária e financeira, nos critérios e prazos previstos no art. 73-B da Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal).",
-   "hash": "3970c413eece5df4040af54daf92c6ca18eff79b4beebc44796de837abcfc661"
+   "hash": "3970c413eece5df4040af54daf92c6ca18eff79b4beebc44796de837abcfc661",
+   "ordem": 7
   },
   "8-A": {
    "texto": "Art. 8º-A. As entidades com personalidade jurídica de direito privado, constituídas sob a forma de serviço social autônomo, que sejam destinatárias de contribuições ou de recursos públicos federais decorrentes de contrato de gestão deverão divulgar as seguintes informações relativas aos respectivos empregados: (Incluído pela Lei nº 15.141, de 2025)\nI - o plano de cargos e salários, inclusive com a divulgação dos critérios para a evolução na carreira e para a fixação da política salarial; (Incluído pela Lei nº 15.141, de 2025)\nII - o quantitativo total de empregados da entidade, discriminado por cargo e por faixas salariais, acompanhado do nome do empregado e do cargo por ele ocupado; (Incluído pela Lei nº 15.141, de 2025)\nIII - lista, discriminada por faixas salariais, das parcelas remuneratórias e indenizatórias, ainda que eventuais, incluídos os auxílios, as ajudas de custo, as gratificações, os jetons e quaisquer outras vantagens pecuniárias, que os empregados possam receber em virtude de condições específicas; e (Incluído pela Lei nº 15.141, de 2025)\nIV - o quantitativo de funções gratificadas, os critérios para sua ocupação e o rol dos empregados que ocupam cada espécie de função gratificada. (Incluído pela Lei nº 15.141, de 2025)",
-   "hash": "f4381da98546b36250e37fd268345d7369befe17ae5f3dda95a8014347951379"
+   "hash": "f4381da98546b36250e37fd268345d7369befe17ae5f3dda95a8014347951379",
+   "ordem": 8
   },
   "8-B": {
    "texto": "Art. 8º-B.. Os conselhos de fiscalização profissional devem divulgar, de forma nominal e individualizada, lista das parcelas remuneratórias e indenizatórias, ainda que eventuais, incluídos os auxílios, as ajudas de custo, as gratificações, os jetons e quaisquer outras vantagens pecuniárias, que os empregados possam receber em virtude de condições específicas. (Incluído pela Lei nº 15.141, de 2025)",
-   "hash": "b93dd0b8fac717ed191a0eb96805010915a90f4b1a083ff2b87ac5530db9f7ce"
+   "hash": "b93dd0b8fac717ed191a0eb96805010915a90f4b1a083ff2b87ac5530db9f7ce",
+   "ordem": 9
   },
   "9": {
    "texto": "Art. 9º O acesso a informações públicas será assegurado mediante:\nI - criação de serviço de informações ao cidadão, nos órgãos e entidades do poder público, em local com condições apropriadas para:\na) atender e orientar o público quanto ao acesso a informações;\nb) informar sobre a tramitação de documentos nas suas respectivas unidades;\nc) protocolizar documentos e requerimentos de acesso a informações; e\nII - realização de audiências ou consultas públicas, incentivo à participação popular ou a outras formas de divulgação.\nCAPÍTULO III\nDO PROCEDIMENTO DE ACESSO À INFORMAÇÃO\nSeção I\nDo Pedido de Acesso",
-   "hash": "a8cb05946e73f2d99f34373f5becdd0b066a06e4d0b1ac5ccdf03ba9b0b27483"
+   "hash": "a8cb05946e73f2d99f34373f5becdd0b066a06e4d0b1ac5ccdf03ba9b0b27483",
+   "ordem": 10
   },
   "10": {
    "texto": "Art. 10. Qualquer interessado poderá apresentar pedido de acesso a informações aos órgãos e entidades referidos no art. 1º desta Lei, por qualquer meio legítimo, devendo o pedido conter a identificação do requerente e a especificação da informação requerida.\n§ 1º Para o acesso a informações de interesse público, a identificação do requerente não pode conter exigências que inviabilizem a solicitação.\n§ 2º Os órgãos e entidades do poder público devem viabilizar alternativa de encaminhamento de pedidos de acesso por meio de seus sítios oficiais na internet.\n§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
-   "hash": "2bc2fbf7057c1760b0e3c4deb9438c909b7bcf9fc41c12ceb70cc01cb4c1b47d"
+   "hash": "2bc2fbf7057c1760b0e3c4deb9438c909b7bcf9fc41c12ceb70cc01cb4c1b47d",
+   "ordem": 11
   },
   "11": {
    "texto": "Art. 11. O órgão ou entidade pública deverá autorizar ou conceder o acesso imediato à informação disponível.\n§ 1º Não sendo possível conceder o acesso imediato, na forma disposta no caput, o órgão ou entidade que receber o pedido deverá, em prazo não superior a 20 (vinte) dias:\nI - comunicar a data, local e modo para se realizar a consulta, efetuar a reprodução ou obter a certidão;\nII - indicar as razões de fato ou de direito da recusa, total ou parcial, do acesso pretendido; ou\nIII - comunicar que não possui a informação, indicar, se for do seu conhecimento, o órgão ou a entidade que a detém, ou, ainda, remeter o requerimento a esse órgão ou entidade, cientificando o interessado da remessa de seu pedido de informação.\n§ 2º O prazo referido no § 1º poderá ser prorrogado por mais 10 (dez) dias, mediante justificativa expressa, da qual será cientificado o requerente.\n§ 3º Sem prejuízo da segurança e da proteção das informações e do cumprimento da legislação aplicável, o órgão ou entidade poderá oferecer meios para que o próprio requerente possa pesquisar a informação de que necessitar.\n§ 4º Quando não for autorizado o acesso por se tratar de informação total ou parcialmente sigilosa, o requerente deverá ser informado sobre a possibilidade de recurso, prazos e condições para sua interposição, devendo, ainda, ser-lhe indicada a autoridade competente para sua apreciação.\n§ 5º A informação armazenada em formato digital será fornecida nesse formato, caso haja anuência do requerente.\n§ 6º Caso a informação solicitada esteja disponível ao público em formato impresso, eletrônico ou em qualquer outro meio de acesso universal, serão informados ao requerente, por escrito, o lugar e a forma pela qual se poderá consultar, obter ou reproduzir a referida informação, procedimento esse que desonerará o órgão ou entidade pública da obrigação de seu fornecimento direto, salvo se o requerente declarar não dispor de meios para realizar por si mesmo tais procedimentos.",
-   "hash": "fcee0cf4d592c470854d8212d17eb78e041afee1e1765b7f351e68d91b691b8a"
+   "hash": "fcee0cf4d592c470854d8212d17eb78e041afee1e1765b7f351e68d91b691b8a",
+   "ordem": 12
   },
   "12": {
    "texto": "Art. 12\nParágrafo único. Estará isento de ressarcir os custos previstos no caput todo aquele cuja situação econômica não lhe permita fazê-lo sem prejuízo do sustento próprio ou da família, declarada nos termos da Lei nº 7.115, de 29 de agosto de 1983.",
-   "hash": "0125717dcab145188cb833d76187aa6a9126de014733d266a64690e775ab4a57"
+   "hash": "0125717dcab145188cb833d76187aa6a9126de014733d266a64690e775ab4a57",
+   "ordem": 13
   },
   "12#2": {
    "texto": "Art. 12. O serviço de busca e de fornecimento de informação é gratuito. (Redação dada pela Lei nº 14.129, de 2021) (Vigência)\n§ 1º O órgão ou a entidade poderá cobrar exclusivamente o valor necessário ao ressarcimento dos custos dos serviços e dos materiais utilizados, quando o serviço de busca e de fornecimento da informação exigir reprodução de documentos pelo órgão ou pela entidade pública consultada. (Incluído pela Lei nº 14.129, de 2021) (Vigência)\n§ 2º Estará isento de ressarcir os custos previstos no § 1º deste artigo aquele cuja situação econômica não lhe permita fazê-lo sem prejuízo do sustento próprio ou da família, declarada nos termos da Lei nº 7.115, de 29 de agosto de 1983. (Incluído pela Lei nº 14.129, de 2021) (Vigência)",
-   "hash": "7e938c80b2ad9a4f08e6f3dc0a6da85055e50f161e7e99dfdb0370a1b0b37b09"
+   "hash": "7e938c80b2ad9a4f08e6f3dc0a6da85055e50f161e7e99dfdb0370a1b0b37b09",
+   "ordem": 14
   },
   "13": {
    "texto": "Art. 13. Quando se tratar de acesso à informação contida em documento cuja manipulação possa prejudicar sua integridade, deverá ser oferecida a consulta de cópia, com certificação de que esta confere com o original.\nParágrafo único. Na impossibilidade de obtenção de cópias, o interessado poderá solicitar que, a suas expensas e sob supervisão de servidor público, a reprodução seja feita por outro meio que não ponha em risco a conservação do documento original.",
-   "hash": "3ec7141ea58ae0247f7bdb8d24f02fee2683f2b02a64caa3e32ba38a4574cc77"
+   "hash": "3ec7141ea58ae0247f7bdb8d24f02fee2683f2b02a64caa3e32ba38a4574cc77",
+   "ordem": 15
   },
   "14": {
    "texto": "Art. 14. É direito do requerente obter o inteiro teor de decisão de negativa de acesso, por certidão ou cópia.\nSeção II\nDos Recursos",
-   "hash": "b7bf6bbf57049cd4ddeb3fee842f41bbb5f1043d3980bf061f302bf2c6843198"
+   "hash": "b7bf6bbf57049cd4ddeb3fee842f41bbb5f1043d3980bf061f302bf2c6843198",
+   "ordem": 16
   },
   "15": {
    "texto": "Art. 15. No caso de indeferimento de acesso a informações ou às razões da negativa do acesso, poderá o interessado interpor recurso contra a decisão no prazo de 10 (dez) dias a contar da sua ciência.\nParágrafo único. O recurso será dirigido à autoridade hierarquicamente superior à que exarou a decisão impugnada, que deverá se manifestar no prazo de 5 (cinco) dias.",
-   "hash": "a099fb515281426ff9aae0a9af04bb5d1146907c9154c4f15293dffe6d40a721"
+   "hash": "a099fb515281426ff9aae0a9af04bb5d1146907c9154c4f15293dffe6d40a721",
+   "ordem": 17
   },
   "16": {
    "texto": "Art. 16. Negado o acesso a informação pelos órgãos ou entidades do Poder Executivo Federal, o requerente poderá recorrer à Controladoria-Geral da União, que deliberará no prazo de 5 (cinco) dias se:\nI - o acesso à informação não classificada como sigilosa for negado;\nII - a decisão de negativa de acesso à informação total ou parcialmente classificada como sigilosa não indicar a autoridade classificadora ou a hierarquicamente superior a quem possa ser dirigido pedido de acesso ou desclassificação;\nIII - os procedimentos de classificação de informação sigilosa estabelecidos nesta Lei não tiverem sido observados; e\nIV - estiverem sendo descumpridos prazos ou outros procedimentos previstos nesta Lei.\n§ 1º O recurso previsto neste artigo somente poderá ser dirigido à Controladoria-Geral da União depois de submetido à apreciação de pelo menos uma autoridade hierarquicamente superior àquela que exarou a decisão impugnada, que deliberará no prazo de 5 (cinco) dias.\n§ 2º Verificada a procedência das razões do recurso, a Controladoria-Geral da União determinará ao órgão ou entidade que adote as providências necessárias para dar cumprimento ao disposto nesta Lei.\n§ 3º Negado o acesso à informação pela Controladoria-Geral da União, poderá ser interposto recurso à Comissão Mista de Reavaliação de Informações, a que se refere o art. 35.",
-   "hash": "cd7c231e9e6c92d3a0cea2be84b76dd55adbf6926495b17c34e85f47bfe8241e"
+   "hash": "cd7c231e9e6c92d3a0cea2be84b76dd55adbf6926495b17c34e85f47bfe8241e",
+   "ordem": 18
   },
   "17": {
    "texto": "Art. 17. No caso de indeferimento de pedido de desclassificação de informação protocolado em órgão da administração pública federal, poderá o requerente recorrer ao Ministro de Estado da área, sem prejuízo das competências da Comissão Mista de Reavaliação de Informações, previstas no art. 35, e do disposto no art. 16.\n§ 1º O recurso previsto neste artigo somente poderá ser dirigido às autoridades mencionadas depois de submetido à apreciação de pelo menos uma autoridade hierarquicamente superior à autoridade que exarou a decisão impugnada e, no caso das Forças Armadas, ao respectivo Comando.\n§ 2º Indeferido o recurso previsto no caput que tenha como objeto a desclassificação de informação secreta ou ultrassecreta, caberá recurso à Comissão Mista de Reavaliação de Informações prevista no art. 35.",
-   "hash": "3110c68ddb967229504c8964fdc9b08a3043ddb180712f674ea8a61d9d3fb47d"
+   "hash": "3110c68ddb967229504c8964fdc9b08a3043ddb180712f674ea8a61d9d3fb47d",
+   "ordem": 19
   },
   "18": {
    "texto": "Art. 18. Os procedimentos de revisão de decisões denegatórias proferidas no recurso previsto no art. 15 e de revisão de classificação de documentos sigilosos serão objeto de regulamentação própria dos Poderes Legislativo e Judiciário e do Ministério Público, em seus respectivos âmbitos, assegurado ao solicitante, em qualquer caso, o direito de ser informado sobre o andamento de seu pedido.",
-   "hash": "b6a300a1e83a42b397b791f198a5a2488e31c5bfdf19b4441582f9f1df33b5ae"
+   "hash": "b6a300a1e83a42b397b791f198a5a2488e31c5bfdf19b4441582f9f1df33b5ae",
+   "ordem": 20
   },
   "19": {
    "texto": "Art. 19. (VETADO).\n§ 1º (VETADO).\n§ 2º Os órgãos do Poder Judiciário e do Ministério Público informarão ao Conselho Nacional de Justiça e ao Conselho Nacional do Ministério Público, respectivamente, as decisões que, em grau de recurso, negarem acesso a informações de interesse público.",
-   "hash": "0672d7f72df25d5fcf3c0e56cf95bd0f7d80275204df31b26cdf3fbb331054cb"
+   "hash": "0672d7f72df25d5fcf3c0e56cf95bd0f7d80275204df31b26cdf3fbb331054cb",
+   "ordem": 21
   },
   "20": {
    "texto": "Art. 20. Aplica-se subsidiariamente, no que couber, a Lei nº 9.784, de 29 de janeiro de 1999, ao procedimento de que trata este Capítulo.\nCAPÍTULO IV\nDAS RESTRIÇÕES DE ACESSO À INFORMAÇÃO\nSeção I\nDisposições Gerais",
-   "hash": "5201f72ec9b315f098602baca15982c05178a4e712c1a75f14850e21958e22d4"
+   "hash": "5201f72ec9b315f098602baca15982c05178a4e712c1a75f14850e21958e22d4",
+   "ordem": 22
   },
   "21": {
    "texto": "Art. 21. Não poderá ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais.\nParágrafo único. As informações ou documentos que versem sobre condutas que impliquem violação dos direitos humanos praticada por agentes públicos ou a mando de autoridades públicas não poderão ser objeto de restrição de acesso.",
-   "hash": "f0cfc4ce6cb773cc25ad8f22d0afdbd9e083869d7f83588254f55e2d87eb1b59"
+   "hash": "f0cfc4ce6cb773cc25ad8f22d0afdbd9e083869d7f83588254f55e2d87eb1b59",
+   "ordem": 23
   },
   "22": {
    "texto": "Art. 22. O disposto nesta Lei não exclui as demais hipóteses legais de sigilo e de segredo de justiça nem as hipóteses de segredo industrial decorrentes da exploração direta de atividade econômica pelo Estado ou por pessoa física ou entidade privada que tenha qualquer vínculo com o poder público.\nSeção II\nDa Classificação da Informação quanto ao Grau e Prazos de Sigilo",
-   "hash": "9ff045fdf14c70c5d24b36a629117e0fef57dcd6c6a264745505165df9c9cb7f"
+   "hash": "9ff045fdf14c70c5d24b36a629117e0fef57dcd6c6a264745505165df9c9cb7f",
+   "ordem": 24
   },
   "23": {
    "texto": "Art. 23. São consideradas imprescindíveis à segurança da sociedade ou do Estado e, portanto, passíveis de classificação as informações cuja divulgação ou acesso irrestrito possam:\nI - pôr em risco a defesa e a soberania nacionais ou a integridade do território nacional;\nII - prejudicar ou pôr em risco a condução de negociações ou as relações internacionais do País, ou as que tenham sido fornecidas em caráter sigiloso por outros Estados e organismos internacionais;\nIII - pôr em risco a vida, a segurança ou a saúde da população;\nIV - oferecer elevado risco à estabilidade financeira, econômica ou monetária do País;\nV - prejudicar ou causar risco a planos ou operações estratégicos das Forças Armadas;\nVI - prejudicar ou causar risco a projetos de pesquisa e desenvolvimento científico ou tecnológico, assim como a sistemas, bens, instalações ou áreas de interesse estratégico nacional;\nVII - pôr em risco a segurança de instituições ou de altas autoridades nacionais ou estrangeiras e seus familiares; ou\nVIII - comprometer atividades de inteligência, bem como de investigação ou fiscalização em andamento, relacionadas com a prevenção ou repressão de infrações.",
-   "hash": "c4f4bae110830270d75983235559b72149f4e6bf34fc5881d897a592289a7890"
+   "hash": "c4f4bae110830270d75983235559b72149f4e6bf34fc5881d897a592289a7890",
+   "ordem": 25
   },
   "24": {
    "texto": "Art. 24. A informação em poder dos órgãos e entidades públicas, observado o seu teor e em razão de sua imprescindibilidade à segurança da sociedade ou do Estado, poderá ser classificada como ultrassecreta, secreta ou reservada.\n§ 1º Os prazos máximos de restrição de acesso à informação, conforme a classificação prevista no caput, vigoram a partir da data de sua produção e são os seguintes:\nI - ultrassecreta: 25 (vinte e cinco) anos;\nII - secreta: 15 (quinze) anos; e\nIII - reservada: 5 (cinco) anos.\n§ 2º As informações que puderem colocar em risco a segurança do Presidente e Vice-Presidente da República e respectivos cônjuges e filhos(as) serão classificadas como reservadas e ficarão sob sigilo até o término do mandato em exercício ou do último mandato, em caso de reeleição.\n§ 3º Alternativamente aos prazos previstos no § 1º , poderá ser estabelecida como termo final de restrição de acesso a ocorrência de determinado evento, desde que este ocorra antes do transcurso do prazo máximo de classificação.\n§ 4º Transcorrido o prazo de classificação ou consumado o evento que defina o seu termo final, a informação tornar-se-á, automaticamente, de acesso público.\n§ 5º Para a classificação da informação em determinado grau de sigilo, deverá ser observado o interesse público da informação e utilizado o critério menos restritivo possível, considerados:\nI - a gravidade do risco ou dano à segurança da sociedade e do Estado; e\nII - o prazo máximo de restrição de acesso ou o evento que defina seu termo final.\nSeção III\nDa Proteção e do Controle de Informações Sigilosas",
-   "hash": "0ec01eae35ad202c2f4ae1926550aa5bf7ab6e7bfb4a31c0c819f943abe709a3"
+   "hash": "0ec01eae35ad202c2f4ae1926550aa5bf7ab6e7bfb4a31c0c819f943abe709a3",
+   "ordem": 26
   },
   "25": {
    "texto": "Art. 25. É dever do Estado controlar o acesso e a divulgação de informações sigilosas produzidas por seus órgãos e entidades, assegurando a sua proteção. (Regulamento)\n§ 1º O acesso, a divulgação e o tratamento de informação classificada como sigilosa ficarão restritos a pessoas que tenham necessidade de conhecê-la e que sejam devidamente credenciadas na forma do regulamento, sem prejuízo das atribuições dos agentes públicos autorizados por lei.\n§ 2º O acesso à informação classificada como sigilosa cria a obrigação para aquele que a obteve de resguardar o sigilo.\n§ 3º Regulamento disporá sobre procedimentos e medidas a serem adotados para o tratamento de informação sigilosa, de modo a protegê-la contra perda, alteração indevida, acesso, transmissão e divulgação não autorizados.",
-   "hash": "9cebdded0e97f92233e32600bbca8f6c849b72feafacb9a36f135b5276e81976"
+   "hash": "9cebdded0e97f92233e32600bbca8f6c849b72feafacb9a36f135b5276e81976",
+   "ordem": 27
   },
   "26": {
    "texto": "Art. 26. As autoridades públicas adotarão as providências necessárias para que o pessoal a elas subordinado hierarquicamente conheça as normas e observe as medidas e procedimentos de segurança para tratamento de informações sigilosas.\nParágrafo único. A pessoa física ou entidade privada que, em razão de qualquer vínculo com o poder público, executar atividades de tratamento de informações sigilosas adotará as providências necessárias para que seus empregados, prepostos ou representantes observem as medidas e procedimentos de segurança das informações resultantes da aplicação desta Lei.\nSeção IV\nDos Procedimentos de Classificação, Reclassificação e Desclassificação",
-   "hash": "59aecbb4c09560ee53bee5476e1347ba02d75ca1e3dc25f7c286e99c3bae7469"
+   "hash": "59aecbb4c09560ee53bee5476e1347ba02d75ca1e3dc25f7c286e99c3bae7469",
+   "ordem": 28
   },
   "27": {
    "texto": "Art. 27. A classificação do sigilo de informações no âmbito da administração pública federal é de competência: (Regulamento)\nI - no grau de ultrassecreto, das seguintes autoridades:\na) Presidente da República;\nb) Vice-Presidente da República;\nc) Ministros de Estado e autoridades com as mesmas prerrogativas;\nd) Comandantes da Marinha, do Exército e da Aeronáutica; e\ne) Chefes de Missões Diplomáticas e Consulares permanentes no exterior;\nII - no grau de secreto, das autoridades referidas no inciso I, dos titulares de autarquias, fundações ou empresas públicas e sociedades de economia mista; e\nIII - no grau de reservado, das autoridades referidas nos incisos I e II e das que exerçam funções de direção, comando ou chefia, nível DAS 101.5, ou superior, do Grupo-Direção e Assessoramento Superiores, ou de hierarquia equivalente, de acordo com regulamentação específica de cada órgão ou entidade, observado o disposto nesta Lei.\n§ 1º A competência prevista nos incisos I e II, no que se refere à classificação como ultrassecreta e secreta, poderá ser delegada pela autoridade responsável a agente público, inclusive em missão no exterior, vedada a subdelegação.\n§ 2º A classificação de informação no grau de sigilo ultrassecreto pelas autoridades previstas nas alíneas “d” e “e” do inciso I deverá ser ratificada pelos respectivos Ministros de Estado, no prazo previsto em regulamento.\n§ 3º A autoridade ou outro agente público que classificar informação como ultrassecreta deverá encaminhar a decisão de que trata o art. 28 à Comissão Mista de Reavaliação de Informações, a que se refere o art. 35, no prazo previsto em regulamento.",
-   "hash": "6f002f2e73caa7bbaab4571f065b0d1a09d9cf2e400d24fde6e7bbf819abacda"
+   "hash": "6f002f2e73caa7bbaab4571f065b0d1a09d9cf2e400d24fde6e7bbf819abacda",
+   "ordem": 29
   },
   "28": {
    "texto": "Art. 28. A classificação de informação em qualquer grau de sigilo deverá ser formalizada em decisão que conterá, no mínimo, os seguintes elementos:\nI - assunto sobre o qual versa a informação;\nII - fundamento da classificação, observados os critérios estabelecidos no art. 24;\nIII - indicação do prazo de sigilo, contado em anos, meses ou dias, ou do evento que defina o seu termo final, conforme limites previstos no art. 24; e\nIV - identificação da autoridade que a classificou.\nParágrafo único. A decisão referida no caput será mantida no mesmo grau de sigilo da informação classificada.",
-   "hash": "e32003c135001c1acf7a5928f51bd5f366f9a199a190388434352dc9c156b6a7"
+   "hash": "e32003c135001c1acf7a5928f51bd5f366f9a199a190388434352dc9c156b6a7",
+   "ordem": 30
   },
   "29": {
    "texto": "Art. 29. A classificação das informações será reavaliada pela autoridade classificadora ou por autoridade hierarquicamente superior, mediante provocação ou de ofício, nos termos e prazos previstos em regulamento, com vistas à sua desclassificação ou à redução do prazo de sigilo, observado o disposto no art. 24. (Regulamento)\n§ 1º O regulamento a que se refere o caput deverá considerar as peculiaridades das informações produzidas no exterior por autoridades ou agentes públicos.\n§ 2º Na reavaliação a que se refere o caput, deverão ser examinadas a permanência dos motivos do sigilo e a possibilidade de danos decorrentes do acesso ou da divulgação da informação.\n§ 3º Na hipótese de redução do prazo de sigilo da informação, o novo prazo de restrição manterá como termo inicial a data da sua produção.",
-   "hash": "deb4bf9c2968ee5c5decd85c57f4ea3a6625d4e7aff63830913a66e6a566e827"
+   "hash": "deb4bf9c2968ee5c5decd85c57f4ea3a6625d4e7aff63830913a66e6a566e827",
+   "ordem": 31
   },
   "30": {
    "texto": "Art. 30. A autoridade máxima de cada órgão ou entidade publicará, anualmente, em sítio à disposição na internet e destinado à veiculação de dados e informações administrativas, nos termos de regulamento:\nI - rol das informações que tenham sido desclassificadas nos últimos 12 (doze) meses;\nII - rol de documentos classificados em cada grau de sigilo, com identificação para referência futura;\nIII - relatório estatístico contendo a quantidade de pedidos de informação recebidos, atendidos e indeferidos, bem como informações genéricas sobre os solicitantes.\n§ 1º Os órgãos e entidades deverão manter exemplar da publicação prevista no caput para consulta pública em suas sedes.\n§ 2º Os órgãos e entidades manterão extrato com a lista de informações classificadas, acompanhadas da data, do grau de sigilo e dos fundamentos da classificação.\nSeção V\nDas Informações Pessoais",
-   "hash": "e369d1afb6f909c5460741780bd62ec559453e0fe6a39df8547ad4402a5043b5"
+   "hash": "e369d1afb6f909c5460741780bd62ec559453e0fe6a39df8547ad4402a5043b5",
+   "ordem": 32
   },
   "31": {
    "texto": "Art. 31. O tratamento das informações pessoais deve ser feito de forma transparente e com respeito à intimidade, vida privada, honra e imagem das pessoas, bem como às liberdades e garantias individuais.\n§ 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:\nI - terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem; e\nII - poderão ter autorizada sua divulgação ou acesso por terceiros diante de previsão legal ou consentimento expresso da pessoa a que elas se referirem.\n§ 2º Aquele que obtiver acesso às informações de que trata este artigo será responsabilizado por seu uso indevido.\n§ 3º O consentimento referido no inciso II do § 1º não será exigido quando as informações forem necessárias:\nI - à prevenção e diagnóstico médico, quando a pessoa estiver física ou legalmente incapaz, e para utilização única e exclusivamente para o tratamento médico;\nII - à realização de estatísticas e pesquisas científicas de evidente interesse público ou geral, previstos em lei, sendo vedada a identificação da pessoa a que as informações se referirem;\nIII - ao cumprimento de ordem judicial;\nIV - à defesa de direitos humanos; ou\nV - à proteção do interesse público e geral preponderante.\n§ 4º A restrição de acesso à informação relativa à vida privada, honra e imagem de pessoa não poderá ser invocada com o intuito de prejudicar processo de apuração de irregularidades em que o titular das informações estiver envolvido, bem como em ações voltadas para a recuperação de fatos históricos de maior relevância.\n§ 5º Regulamento disporá sobre os procedimentos para tratamento de informação pessoal.\nCAPÍTULO V\nDAS RESPONSABILIDADES",
-   "hash": "7918059081bb1793482e619c7617d43fd9cc351c01e8dd8b373cef938d3d07cb"
+   "hash": "7918059081bb1793482e619c7617d43fd9cc351c01e8dd8b373cef938d3d07cb",
+   "ordem": 33
   },
   "32": {
    "texto": "Art. 32. Constituem condutas ilícitas que ensejam responsabilidade do agente público ou militar:\nI - recusar-se a fornecer informação requerida nos termos desta Lei, retardar deliberadamente o seu fornecimento ou fornecê-la intencionalmente de forma incorreta, incompleta ou imprecisa;\nII - utilizar indevidamente, bem como subtrair, destruir, inutilizar, desfigurar, alterar ou ocultar, total ou parcialmente, informação que se encontre sob sua guarda ou a que tenha acesso ou conhecimento em razão do exercício das atribuições de cargo, emprego ou função pública;\nIII - agir com dolo ou má-fé na análise das solicitações de acesso à informação;\nIV - divulgar ou permitir a divulgação ou acessar ou permitir acesso indevido à informação sigilosa ou informação pessoal;\nV - impor sigilo à informação para obter proveito pessoal ou de terceiro, ou para fins de ocultação de ato ilegal cometido por si ou por outrem;\nVI - ocultar da revisão de autoridade superior competente informação sigilosa para beneficiar a si ou a outrem, ou em prejuízo de terceiros; e\nVII - destruir ou subtrair, por qualquer meio, documentos concernentes a possíveis violações de direitos humanos por parte de agentes do Estado.\n§ 1º Atendido o princípio do contraditório, da ampla defesa e do devido processo legal, as condutas descritas no caput serão consideradas:\nI - para fins dos regulamentos disciplinares das Forças Armadas, transgressões militares médias ou graves, segundo os critérios neles estabelecidos, desde que não tipificadas em lei como crime ou contravenção penal; ou\nII - para fins do disposto na Lei nº 8.112, de 11 de dezembro de 1990, e suas alterações, infrações administrativas, que deverão ser apenadas, no mínimo, com suspensão, segundo os critérios nela estabelecidos.\n§ 2º Pelas condutas descritas no caput, poderá o militar ou agente público responder, também, por improbidade administrativa, conforme o disposto nas Leis nºs 1.079, de 10 de abril de 1950, e 8.429, de 2 de junho de 1992.",
-   "hash": "d068ac08e73c13d711759ba7047022523712bb96333438c13a26b53ece9ba632"
+   "hash": "d068ac08e73c13d711759ba7047022523712bb96333438c13a26b53ece9ba632",
+   "ordem": 34
   },
   "33": {
    "texto": "Art. 33. A pessoa física ou entidade privada que detiver informações em virtude de vínculo de qualquer natureza com o poder público e deixar de observar o disposto nesta Lei estará sujeita às seguintes sanções:\nI - advertência;\nII - multa;\nIII - rescisão do vínculo com o poder público;\nIV - suspensão temporária de participar em licitação e impedimento de contratar com a administração pública por prazo não superior a 2 (dois) anos; e\nV - declaração de inidoneidade para licitar ou contratar com a administração pública, até que seja promovida a reabilitação perante a própria autoridade que aplicou a penalidade.\n§ 1º As sanções previstas nos incisos I, III e IV poderão ser aplicadas juntamente com a do inciso II, assegurado o direito de defesa do interessado, no respectivo processo, no prazo de 10 (dez) dias.\n§ 2º A reabilitação referida no inciso V será autorizada somente quando o interessado efetivar o ressarcimento ao órgão ou entidade dos prejuízos resultantes e após decorrido o prazo da sanção aplicada com base no inciso IV.\n§ 3º A aplicação da sanção prevista no inciso V é de competência exclusiva da autoridade máxima do órgão ou entidade pública, facultada a defesa do interessado, no respectivo processo, no prazo de 10 (dez) dias da abertura de vista.",
-   "hash": "edbaa8e7d1431bbf72e588b7da2efb3243d52c13c6e3ac32dc6f84cfb83fca99"
+   "hash": "edbaa8e7d1431bbf72e588b7da2efb3243d52c13c6e3ac32dc6f84cfb83fca99",
+   "ordem": 35
   },
   "34": {
    "texto": "Art. 34. Os órgãos e entidades públicas respondem diretamente pelos danos causados em decorrência da divulgação não autorizada ou utilização indevida de informações sigilosas ou informações pessoais, cabendo a apuração de responsabilidade funcional nos casos de dolo ou culpa, assegurado o respectivo direito de regresso.\nParágrafo único. O disposto neste artigo aplica-se à pessoa física ou entidade privada que, em virtude de vínculo de qualquer natureza com órgãos ou entidades, tenha acesso a informação sigilosa ou pessoal e a submeta a tratamento indevido.\nCAPÍTULO VI\nDISPOSIÇÕES FINAIS E TRANSITÓRIAS",
-   "hash": "b08cbcbd25a3263a69ebd132522b203437f8be5e15147637016f5816161a11d3"
+   "hash": "b08cbcbd25a3263a69ebd132522b203437f8be5e15147637016f5816161a11d3",
+   "ordem": 36
   },
   "35": {
    "texto": "Art. 35. (VETADO).\n§ 1º É instituída a Comissão Mista de Reavaliação de Informações, que decidirá, no âmbito da administração pública federal, sobre o tratamento e a classificação de informações sigilosas e terá competência para:\nI - requisitar da autoridade que classificar informação como ultrassecreta e secreta esclarecimento ou conteúdo, parcial ou integral da informação;\nII - rever a classificação de informações ultrassecretas ou secretas, de ofício ou mediante provocação de pessoa interessada, observado o disposto no art. 7º e demais dispositivos desta Lei; e\nIII - prorrogar o prazo de sigilo de informação classificada como ultrassecreta, sempre por prazo determinado, enquanto o seu acesso ou divulgação puder ocasionar ameaça externa à soberania nacional ou à integridade do território nacional ou grave risco às relações internacionais do País, observado o prazo previsto no § 1º do art. 24.\n§ 2º O prazo referido no inciso III é limitado a uma única renovação.\n§ 3º A revisão de ofício a que se refere o inciso II do § 1º deverá ocorrer, no máximo, a cada 4 (quatro) anos, após a reavaliação prevista no art. 39, quando se tratar de documentos ultrassecretos ou secretos.\n§ 4º A não deliberação sobre a revisão pela Comissão Mista de Reavaliação de Informações nos prazos previstos no § 3º implicará a desclassificação automática das informações.\n§ 5º Regulamento disporá sobre a composição, organização e funcionamento da Comissão Mista de Reavaliação de Informações, observado o mandato de 2 (dois) anos para seus integrantes e demais disposições desta Lei. (Regulamento)",
-   "hash": "7e5876d94331e1e92e7660bc64403eef0c686bb65bc8d6ffb2d7a9f8d23a89ec"
+   "hash": "7e5876d94331e1e92e7660bc64403eef0c686bb65bc8d6ffb2d7a9f8d23a89ec",
+   "ordem": 37
   },
   "36": {
    "texto": "Art. 36. O tratamento de informação sigilosa resultante de tratados, acordos ou atos internacionais atenderá às normas e recomendações constantes desses instrumentos.",
-   "hash": "349315d3ef902ec2cbe7f22a44c1eed0add7f6c850fa1033b9672df4b679856b"
+   "hash": "349315d3ef902ec2cbe7f22a44c1eed0add7f6c850fa1033b9672df4b679856b",
+   "ordem": 38
   },
   "37": {
    "texto": "Art. 37. É instituído, no âmbito do Gabinete de Segurança Institucional da Presidência da República, o Núcleo de Segurança e Credenciamento (NSC), que tem por objetivos: (Regulamento)\nI - promover e propor a regulamentação do credenciamento de segurança de pessoas físicas, empresas, órgãos e entidades para tratamento de informações sigilosas; e\nII - garantir a segurança de informações sigilosas, inclusive aquelas provenientes de países ou organizações internacionais com os quais a República Federativa do Brasil tenha firmado tratado, acordo, contrato ou qualquer outro ato internacional, sem prejuízo das atribuições do Ministério das Relações Exteriores e dos demais órgãos competentes.\nParágrafo único. Regulamento disporá sobre a composição, organização e funcionamento do NSC.",
-   "hash": "19007c01ac10db90659a26df8544b63416e8a0f6b35272a2f020d1c6f73a6946"
+   "hash": "19007c01ac10db90659a26df8544b63416e8a0f6b35272a2f020d1c6f73a6946",
+   "ordem": 39
   },
   "38": {
    "texto": "Art. 38. Aplica-se, no que couber, a Lei nº 9.507, de 12 de novembro de 1997, em relação à informação de pessoa, física ou jurídica, constante de registro ou banco de dados de entidades governamentais ou de caráter público.",
-   "hash": "4a4da7dbe7e612851b5b49b51f47c8f77a1ad95bf588f8826034ace1563404e4"
+   "hash": "4a4da7dbe7e612851b5b49b51f47c8f77a1ad95bf588f8826034ace1563404e4",
+   "ordem": 40
   },
   "39": {
    "texto": "Art. 39. Os órgãos e entidades públicas deverão proceder à reavaliação das informações classificadas como ultrassecretas e secretas no prazo máximo de 2 (dois) anos, contado do termo inicial de vigência desta Lei.\n§ 1º A restrição de acesso a informações, em razão da reavaliação prevista no caput, deverá observar os prazos e condições previstos nesta Lei.\n§ 2º No âmbito da administração pública federal, a reavaliação prevista no caput poderá ser revista, a qualquer tempo, pela Comissão Mista de Reavaliação de Informações, observados os termos desta Lei.\n§ 3º Enquanto não transcorrido o prazo de reavaliação previsto no caput, será mantida a classificação da informação nos termos da legislação precedente.\n§ 4º As informações classificadas como secretas e ultrassecretas não reavaliadas no prazo previsto no caput serão consideradas, automaticamente, de acesso público.",
-   "hash": "2907a5a524e50d49e451bed8f7098b700cd125f18011fc55b6238a0226738ab8"
+   "hash": "2907a5a524e50d49e451bed8f7098b700cd125f18011fc55b6238a0226738ab8",
+   "ordem": 41
   },
   "40": {
    "texto": "Art. 40. No prazo de 60 (sessenta) dias, a contar da vigência desta Lei, o dirigente máximo de cada órgão ou entidade da administração pública federal direta e indireta designará autoridade que lhe seja diretamente subordinada para, no âmbito do respectivo órgão ou entidade, exercer as seguintes atribuições:\nI - assegurar o cumprimento das normas relativas ao acesso a informação, de forma eficiente e adequada aos objetivos desta Lei;\nII - monitorar a implementação do disposto nesta Lei e apresentar relatórios periódicos sobre o seu cumprimento;\nIII - recomendar as medidas indispensáveis à implementação e ao aperfeiçoamento das normas e procedimentos necessários ao correto cumprimento do disposto nesta Lei; e\nIV - orientar as respectivas unidades no que se refere ao cumprimento do disposto nesta Lei e seus regulamentos.",
-   "hash": "c06903263e18023d70aa833c059170a54c0969ea8b0de16690afe5923e84e9ff"
+   "hash": "c06903263e18023d70aa833c059170a54c0969ea8b0de16690afe5923e84e9ff",
+   "ordem": 42
   },
   "41": {
    "texto": "Art. 41. O Poder Executivo Federal designará órgão da administração pública federal responsável:\nI - pela promoção de campanha de abrangência nacional de fomento à cultura da transparência na administração pública e conscientização do direito fundamental de acesso à informação;\nII - pelo treinamento de agentes públicos no que se refere ao desenvolvimento de práticas relacionadas à transparência na administração pública;\nIII - pelo monitoramento da aplicação da lei no âmbito da administração pública federal, concentrando e consolidando a publicação de informações estatísticas relacionadas no art. 30;\nIV - pelo encaminhamento ao Congresso Nacional de relatório anual com informações atinentes à implementação desta Lei.",
-   "hash": "1ff8ac31a5d52b810092ace8e8a2c42cabe37ba9b1d2691ca7afbe6cd9c99872"
+   "hash": "1ff8ac31a5d52b810092ace8e8a2c42cabe37ba9b1d2691ca7afbe6cd9c99872",
+   "ordem": 43
   },
   "42": {
    "texto": "Art. 42. O Poder Executivo regulamentará o disposto nesta Lei no prazo de 180 (cento e oitenta) dias a contar da data de sua publicação.",
-   "hash": "03ecfb206a030be810ab3b4e155818eb240bd0d31dd2c942296206984189d856"
+   "hash": "03ecfb206a030be810ab3b4e155818eb240bd0d31dd2c942296206984189d856",
+   "ordem": 44
   },
   "43": {
    "texto": "Art. 43. O inciso VI do art. 116 da Lei no 8.112, de 11 de dezembro de 1990, passa a vigorar com a seguinte redação:\n“Art. 116. ...................................................................\n............................................................................................\nVI - levar as irregularidades de que tiver ciência em razão do cargo ao conhecimento da autoridade superior ou, quando houver suspeita de envolvimento desta, ao conhecimento de outra autoridade competente para apuração;\n.................................................................................” (NR)",
-   "hash": "a657bc642836e812deee5f8e74dcc043bb3a9cc60a4206eb5e889824cec17cbc"
+   "hash": "a657bc642836e812deee5f8e74dcc043bb3a9cc60a4206eb5e889824cec17cbc",
+   "ordem": 45
   },
   "44": {
    "texto": "Art. 44. O Capítulo IV do Título IV da Lei nº 8.112, de 1990, passa a vigorar acrescido do seguinte art. 126-A:\n“Art. 126-A. Nenhum servidor poderá ser responsabilizado civil, penal ou administrativamente por dar ciência à autoridade superior ou, quando houver suspeita de envolvimento desta, a outra autoridade competente para apuração de informação concernente à prática de crimes ou improbidade de que tenha conhecimento, ainda que em decorrência do exercício de cargo, emprego ou função pública.”",
-   "hash": "57483cbe3fc3e08d77f380a8a209f29c87ed3301f1aa1bd99d8eebaee3fcdb02"
+   "hash": "57483cbe3fc3e08d77f380a8a209f29c87ed3301f1aa1bd99d8eebaee3fcdb02",
+   "ordem": 46
   },
   "45": {
    "texto": "Art. 45. Cabe aos Estados, ao Distrito Federal e aos Municípios, em legislação própria, obedecidas as normas gerais estabelecidas nesta Lei, definir regras específicas, especialmente quanto ao disposto no art. 9º e na Seção II do Capítulo III.",
-   "hash": "089af4cb2a19e12b69eb98a41f8639dfcef33e6f0bbfe3cff632c14e621cbf64"
+   "hash": "089af4cb2a19e12b69eb98a41f8639dfcef33e6f0bbfe3cff632c14e621cbf64",
+   "ordem": 47
   },
   "46": {
    "texto": "Art. 46. Revogam-se:\nI - a Lei nº 11.111, de 5 de maio de 2005 ; e\nII - os arts. 22 a 24 da Lei nº 8.159, de 8 de janeiro de 1991.",
-   "hash": "817e379fd8401b5609ae7eb93b24b84672c0e0a1244af140d282f7efa74e0b67"
+   "hash": "817e379fd8401b5609ae7eb93b24b84672c0e0a1244af140d282f7efa74e0b67",
+   "ordem": 48
   },
   "47": {
    "texto": "Art. 47. Esta Lei entra em vigor 180 (cento e oitenta) dias após a data de sua publicação.\nBrasília, 18 de novembro de 2011; 190º da Independência e 123º da República.\nDILMA ROUSSEFF\nJosé Eduardo Cardoso\nCelso Luiz Nunes Amorim\nAntonio de Aguiar Patriota\nMiriam Belchior\nPaulo Bernardo Silva\nGleisi Hoffmann\nJosé Elito Carvalho Siqueira\nHelena Chagas\nLuís Inácio Lucena Adams\nJorge Hage Sobrinho\nMaria do Rosário Nunes\nEste texto não substitui o publicado no DOU de 18.11.2011 - Edição extra\n*",
-   "hash": "34d94b7b8b76a78ef249ea1445ede271715cc73cf1e1c03cad71c773071c2c4e"
+   "hash": "34d94b7b8b76a78ef249ea1445ede271715cc73cf1e1c03cad71c773071c2c4e",
+   "ordem": 49
   }
  }
 }

@@ -7,70 +7,84 @@
  "hash": "22202a43a65356e72feb6ab1b7b9ec8f368f6d19d1bed9912405b536478016b4",
  "etag": "\"3365-650289ef3b10b\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:55 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI No 9.882, DE 3 DE DEZEMBRO DE 1999.",
   "(Vide ADIN 2.231, de 2000)",
   "Dispõe sobre o processo e julgamento da argüição de descumprimento de preceito fundamental, nos termos do § 1o do art. 102 da Constituição Federal.",
   "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-25T04:48:45-03:00",
+ "ultimo_download_completo": "2026-09-30T12:35:49-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1o A argüição prevista no § 1o do art. 102 da Constituição Federal será proposta perante o Supremo Tribunal Federal, e terá por objeto evitar ou reparar lesão a preceito fundamental, resultante de ato do Poder Público.\nParágrafo único. Caberá também argüição de descumprimento de preceito fundamental:\nI - quando for relevante o fundamento da controvérsia constitucional sobre lei ou ato normativo federal, estadual ou municipal, incluídos os anteriores à Constituição;\nII – (VETADO)",
-   "hash": "fc3821175ad20d7ee850cee61e6886b19069642bc5819c482a9419687eabab93"
+   "hash": "fc3821175ad20d7ee850cee61e6886b19069642bc5819c482a9419687eabab93",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2o Podem propor argüição de descumprimento de preceito fundamental:\nI - os legitimados para a ação direta de inconstitucionalidade;\nII - (VETADO)\n§ 1o Na hipótese do inciso II, faculta-se ao interessado, mediante representação, solicitar a propositura de argüição de descumprimento de preceito fundamental ao Procurador-Geral da República, que, examinando os fundamentos jurídicos do pedido, decidirá do cabimento do seu ingresso em juízo.\n§ 2o (VETADO)",
-   "hash": "6a01542286177fe9d4bfdb363a5698a7cee8877f5debe6fdefe6bc7d04f9b9ff"
+   "hash": "6a01542286177fe9d4bfdb363a5698a7cee8877f5debe6fdefe6bc7d04f9b9ff",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o A petição inicial deverá conter:\nI - a indicação do preceito fundamental que se considera violado;\nII - a indicação do ato questionado;\nIII - a prova da violação do preceito fundamental;\nIV - o pedido, com suas especificações;\nV - se for o caso, a comprovação da existência de controvérsia judicial relevante sobre a aplicação do preceito fundamental que se considera violado.\nParágrafo único. A petição inicial, acompanhada de instrumento de mandato, se for o caso, será apresentada em duas vias, devendo conter cópias do ato questionado e dos documentos necessários para comprovar a impugnação.",
-   "hash": "56e3fd0cae168651298d64633da9ea67fe9d42643b94e8f1c1a3ee41963ae0ce"
+   "hash": "56e3fd0cae168651298d64633da9ea67fe9d42643b94e8f1c1a3ee41963ae0ce",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4o A petição inicial será indeferida liminarmente, pelo relator, quando não for o caso de argüição de descumprimento de preceito fundamental, faltar algum dos requisitos prescritos nesta Lei ou for inepta.\n§ 1o Não será admitida argüição de descumprimento de preceito fundamental quando houver qualquer outro meio eficaz de sanar a lesividade.\n§ 2o Da decisão de indeferimento da petição inicial caberá agravo, no prazo de cinco dias.",
-   "hash": "5019e72a803e7578651edaf951a8221038cea62a30b2f4578503236a422ba79c"
+   "hash": "5019e72a803e7578651edaf951a8221038cea62a30b2f4578503236a422ba79c",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o O Supremo Tribunal Federal, por decisão da maioria absoluta de seus membros, poderá deferir pedido de medida liminar na argüição de descumprimento de preceito fundamental.\n§ 1o Em caso de extrema urgência ou perigo de lesão grave, ou ainda, em período de recesso, poderá o relator conceder a liminar, ad referendum do Tribunal Pleno.\n§ 2o O relator poderá ouvir os órgãos ou autoridades responsáveis pelo ato questionado, bem como o Advogado-Geral da União ou o Procurador-Geral da República, no prazo comum de cinco dias.\n§ 3o A liminar poderá consistir na determinação de que juízes e tribunais suspendam o andamento de processo ou os efeitos de decisões judiciais, ou de qualquer outra medida que apresente relação com a matéria objeto da argüição de descumprimento de preceito fundamental, salvo se decorrentes da coisa julgada.\n§ 4o (VETADO)",
-   "hash": "2591f450d79f8f609900b6f9fc5be717344f16a08a99a6e10e0f6608ee636b91"
+   "hash": "2591f450d79f8f609900b6f9fc5be717344f16a08a99a6e10e0f6608ee636b91",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6o Apreciado o pedido de liminar, o relator solicitará as informações às autoridades responsáveis pela prática do ato questionado, no prazo de dez dias.\n§ 1o Se entender necessário, poderá o relator ouvir as partes nos processos que ensejaram a argüição, requisitar informações adicionais, designar perito ou comissão de peritos para que emita parecer sobre a questão, ou ainda, fixar data para declarações, em audiência pública, de pessoas com experiência e autoridade na matéria.\n§ 2o Poderão ser autorizadas, a critério do relator, sustentação oral e juntada de memoriais, por requerimento dos interessados no processo.",
-   "hash": "f0f4cd77db9a20ded200550a1c5b94b237b85a79c4e7a9bc8325f507d9516421"
+   "hash": "f0f4cd77db9a20ded200550a1c5b94b237b85a79c4e7a9bc8325f507d9516421",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7o Decorrido o prazo das informações, o relator lançará o relatório, com cópia a todos os ministros, e pedirá dia para julgamento.\nParágrafo único. O Ministério Público, nas argüições que não houver formulado, terá vista do processo, por cinco dias, após o decurso do prazo para informações.",
-   "hash": "10ef90cd90659aee6ab48c83b8c214d49bf284c33d79647b727161a8b026979a"
+   "hash": "10ef90cd90659aee6ab48c83b8c214d49bf284c33d79647b727161a8b026979a",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o A decisão sobre a argüição de descumprimento de preceito fundamental somente será tomada se presentes na sessão pelo menos dois terços dos Ministros.\n§ 1o (VETADO)\n§ 2o (VETADO)",
-   "hash": "b76b68c329a2f1be8be6da3e5dabcb4416159a762c744bd7ec3bf8d145e73623"
+   "hash": "b76b68c329a2f1be8be6da3e5dabcb4416159a762c744bd7ec3bf8d145e73623",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o (VETADO)",
-   "hash": "9e292c991ddc643f25e3a2ffdb219b406a697902541075a24f2af259f16af196"
+   "hash": "9e292c991ddc643f25e3a2ffdb219b406a697902541075a24f2af259f16af196",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. Julgada a ação, far-se-á comunicação às autoridades ou órgãos responsáveis pela prática dos atos questionados, fixando-se as condições e o modo de interpretação e aplicação do preceito fundamental.\n§ 1o O presidente do Tribunal determinará o imediato cumprimento da decisão, lavrando-se o acórdão posteriormente.\n§ 2o Dentro do prazo de dez dias contado a partir do trânsito em julgado da decisão, sua parte dispositiva será publicada em seção especial do Diário da Justiça e do Diário Oficial da União.\n§ 3o A decisão terá eficácia contra todos e efeito vinculante relativamente aos demais órgãos do Poder Público. (Vide ADPF 774)",
-   "hash": "78224aaf98139d424a92d8e8b28cbbdcaee41a06296006d0123c964d322618d4"
+   "hash": "78224aaf98139d424a92d8e8b28cbbdcaee41a06296006d0123c964d322618d4",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. Ao declarar a inconstitucionalidade de lei ou ato normativo, no processo de argüição de descumprimento de preceito fundamental, e tendo em vista razões de segurança jurídica ou de excepcional interesse social, poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros, restringir os efeitos daquela declaração ou decidir que ela só tenha eficácia a partir de seu trânsito em julgado ou de outro momento que venha a ser fixado.",
-   "hash": "7035edadf92e4b7d7d22b5309635d8ee1b53d0bbdfe4466db5bb6a40e854e404"
+   "hash": "7035edadf92e4b7d7d22b5309635d8ee1b53d0bbdfe4466db5bb6a40e854e404",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. A decisão que julgar procedente ou improcedente o pedido em argüição de descumprimento de preceito fundamental é irrecorrível, não podendo ser objeto de ação rescisória.",
-   "hash": "255a816f02b6d3b29d44231c0b33d2df3d9ab5925ad3344548ee2f8f706fb873"
+   "hash": "255a816f02b6d3b29d44231c0b33d2df3d9ab5925ad3344548ee2f8f706fb873",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. Caberá reclamação contra o descumprimento da decisão proferida pelo Supremo Tribunal Federal, na forma do seu Regimento Interno.",
-   "hash": "00b42b6db27885c3d905f86bb22d062064e887ba8a0d742f9c53991ce096e6c5"
+   "hash": "00b42b6db27885c3d905f86bb22d062064e887ba8a0d742f9c53991ce096e6c5",
+   "ordem": 12
   },
   "14": {
    "texto": "Art. 14. Esta Lei entra em vigor na data de sua publicação.\nBrasília, 3 de dezembro de 1999; 178o da Independência e 1 11o da República.\nFERNANDO HENRIQUE CARDOSO\nJosé Carlos Dias\nEste texto não substitui o publicado no DOU de 6.12.1999\n*",
-   "hash": "25078a9778b15231fd98781681060205d380742e6d7254f6d4a3bbce6deebcb0"
+   "hash": "25078a9778b15231fd98781681060205d380742e6d7254f6d4a3bbce6deebcb0",
+   "ordem": 13
   }
  }
 }

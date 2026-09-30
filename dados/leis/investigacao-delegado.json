@@ -7,30 +7,34 @@
  "hash": "9c437efbc9ea4ef0de7757477855c103f416241fc2399e7b731d09d318039cb1",
  "etag": "\"175d-650290f9ea599\"",
  "last_modified": "Thu, 23 Apr 2026 23:32:26 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.830, DE 20 DE JUNHO DE 2013.",
   "Mensagem de veto",
   "Dispõe sobre a investigação criminal conduzida pelo delegado de polícia.",
   "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-23T04:41:47-03:00",
+ "ultimo_download_completo": "2026-09-30T12:32:26-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta Lei dispõe sobre a investigação criminal conduzida pelo delegado de polícia.",
-   "hash": "773661bd1d5eaa3a46d3ea6297d703c6445f7ad5ef2292d2e593941b59c64110"
+   "hash": "773661bd1d5eaa3a46d3ea6297d703c6445f7ad5ef2292d2e593941b59c64110",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado.\n§ 1º Ao delegado de polícia, na qualidade de autoridade policial, cabe a condução da investigação criminal por meio de inquérito policial ou outro procedimento previsto em lei, que tem como objetivo a apuração das circunstâncias, da materialidade e da autoria das infrações penais. (Vide ADI 5043)\n§ 2º Durante a investigação criminal, cabe ao delegado de polícia a requisição de perícia, informações, documentos e dados que interessem à apuração dos fatos.\n§ 3º (VETADO).\n§ 4º O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação.\n§ 5º A remoção do delegado de polícia dar-se-á somente por ato fundamentado.\n§ 6º O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias.",
-   "hash": "1bc61c7ad02f05fbdb8f6673e943b5bf7c3f9ae2992d75f452b52cef96fac247"
+   "hash": "1bc61c7ad02f05fbdb8f6673e943b5bf7c3f9ae2992d75f452b52cef96fac247",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados.",
-   "hash": "ec3933873a18b194d8b0af6a3c95a59555d1460c42eb145079ce1e1737cadbc1"
+   "hash": "ec3933873a18b194d8b0af6a3c95a59555d1460c42eb145079ce1e1737cadbc1",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação.\nBrasília, 20 de junho de 2013; 192º da Independência e 125º da República.\nDILMA ROUSSEFF\nJosé Eduardo Cardozo\nMiriam Belchior\nLuís Inácio Lucena Adams\nEste texto não substitui o publicado no DOU de 21.6.2013",
-   "hash": "f15238192733a1f9220edabc9c10ca72dc49ace9736e1bea608bb821ef95113d"
+   "hash": "f15238192733a1f9220edabc9c10ca72dc49ace9736e1bea608bb821ef95113d",
+   "ordem": 3
   }
  }
 }

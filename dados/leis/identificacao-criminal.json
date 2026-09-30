@@ -7,65 +7,78 @@
  "hash": "08d51d649ee564862462d2ffc607973966479f8bb6eb67316cea4b44c98401be",
  "etag": "\"705b-650290bd24004\"",
  "last_modified": "Thu, 23 Apr 2026 23:31:22 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.037, DE 1º DE OUTUBRO DE 2009.",
   "Dispõe sobre a identificação criminal do civilmente identificado, regulamentando o art. 5, inciso LVIII, da Constituição Federal.",
   "O VICE – PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-29T04:40:31-03:00",
+ "ultimo_download_completo": "2026-09-30T12:31:51-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1 O civilmente identificado não será submetido a identificação criminal, salvo nos casos previstos nesta Lei.",
-   "hash": "a0aa074ad7c88842b2ddbc75490fd1480354a9e048d218fe5cb313986630a298"
+   "hash": "a0aa074ad7c88842b2ddbc75490fd1480354a9e048d218fe5cb313986630a298",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2 A identificação civil é atestada por qualquer dos seguintes documentos:\nI – carteira de identidade;\nII – carteira de trabalho;\nIII – carteira profissional;\nIV – passaporte;\nV – carteira de identificação funcional;\nVI – outro documento público que permita a identificação do indiciado.\nParágrafo único. Para as finalidades desta Lei, equiparam-se aos documentos de identificação civis os documentos de identificação militares.",
-   "hash": "4dc241ebc89f158e09abdccb4f7f16aeba85e2bb20403ee534d735ad05e66579"
+   "hash": "4dc241ebc89f158e09abdccb4f7f16aeba85e2bb20403ee534d735ad05e66579",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3 Embora apresentado documento de identificação, poderá ocorrer identificação criminal quando:\nI – o documento apresentar rasura ou tiver indício de falsificação;\nII – o documento apresentado for insuficiente para identificar cabalmente o indiciado;\nIII – o indiciado portar documentos de identidade distintos, com informações conflitantes entre si;\nIV – a identificação criminal for essencial às investigações policiais, segundo despacho da autoridade judiciária competente, que decidirá de ofício ou mediante representação da autoridade policial, do Ministério Público ou da defesa;\nV – constar de registros policiais o uso de outros nomes ou diferentes qualificações;\nVI – o estado de conservação ou a distância temporal ou da localidade da expedição do documento apresentado impossibilite a completa identificação dos caracteres essenciais.\nVII – houver recebimento da denúncia pelo juiz por: (Incluído pela Lei nº 15.295, de 2025) Vigência\na) crime praticado com grave violência contra a pessoa; (Incluído pela Lei nº 15.295, de 2025) Vigência\nb) crime contra a liberdade sexual ou crime sexual contra vulnerável; (Incluído pela Lei nº 15.295, de 2025) Vigência\nc) crimes contra criança ou adolescente previstos nos arts. 240, 241, 241-A, 241-B e 241-C da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente); (Incluído pela Lei nº 15.295, de 2025) Vigência\nd) crime previsto no art. 2º da Lei nº 12.850, de 2 de agosto de 2013, quando a organização criminosa utilizar ou tiver à sua disposição armas de fogo. (Incluído pela Lei nº 15.295, de 2025) Vigência\nParágrafo único. As cópias dos documentos apresentados deverão ser juntadas aos autos do inquérito, ou outra forma de investigação, ainda que consideradas insuficientes para identificar o indiciado.",
-   "hash": "e89ab4dcb73b5dce00556f5a17c1d1ebc74dc813b4d647a98cad9ad303adda61"
+   "hash": "e89ab4dcb73b5dce00556f5a17c1d1ebc74dc813b4d647a98cad9ad303adda61",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4 Quando houver necessidade de identificação criminal, a autoridade encarregada tomará as providências necessárias para evitar o constrangimento do identificado.",
-   "hash": "6adf4ff40259b96c63cccafa9861f27ab64d7cd2ec29aaf0410d4173dfd36da6"
+   "hash": "6adf4ff40259b96c63cccafa9861f27ab64d7cd2ec29aaf0410d4173dfd36da6",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5 A identificação criminal incluirá o processo datiloscópico e o fotográfico, que serão juntados aos autos da comunicação da prisão em flagrante, ou do inquérito policial ou outra forma de investigação.\n§ 1º Nas hipóteses dos incisos IV e VII do caput do art. 3º, a identificação criminal incluirá a coleta de material biológico para a obtenção do perfil genético. (Incluído pela Lei nº 15.295, de 2025) Vigência\n§ 2º Nos casos de prisão em flagrante em decorrência do cometimento dos crimes referidos no inciso VII do caput do art. 3º desta Lei, também será realizada a identificação criminal que incluirá a coleta de material biológico para a obtenção do perfil genético. (Incluído pela Lei nº 15.295, de 2025) Vigência",
-   "hash": "f45e6c4916601041b3f29f822777b57f91003d22ed876f64f9c4e5f35ef612c0"
+   "hash": "f45e6c4916601041b3f29f822777b57f91003d22ed876f64f9c4e5f35ef612c0",
+   "ordem": 4
   },
   "5-A": {
    "texto": "Art. 5o-A. Os dados relacionados à coleta do perfil genético deverão ser armazenados em banco de dados de perfis genéticos, gerenciado por unidade oficial de perícia criminal. (Incluído pela Lei nº 12.654, de 2012)\n§ 1o As informações genéticas contidas nos bancos de dados de perfis genéticos não poderão revelar traços somáticos ou comportamentais das pessoas, exceto determinação genética de gênero, consoante as normas constitucionais e internacionais sobre direitos humanos, genoma humano e dados genéticos. (Incluído pela Lei nº 12.654, de 2012)\n§ 2o Os dados constantes dos bancos de dados de perfis genéticos terão caráter sigiloso, respondendo civil, penal e administrativamente aquele que permitir ou promover sua utilização para fins diversos dos previstos nesta Lei ou em decisão judicial. (Incluído pela Lei nº 12.654, de 2012)\n§ 3o As informações obtidas a partir da coincidência de perfis genéticos deverão ser consignadas em laudo pericial firmado por perito oficial devidamente habilitado. (Incluído pela Lei nº 12.654, de 2012)",
-   "hash": "7f4916e526050dbd7048319f675eccca31015f3d7051852698a19bb077f13e26"
+   "hash": "7f4916e526050dbd7048319f675eccca31015f3d7051852698a19bb077f13e26",
+   "ordem": 5
   },
   "6": {
    "texto": "Art. 6 É vedado mencionar a identificação criminal do indiciado em atestados de antecedentes ou em informações não destinadas ao juízo criminal, antes do trânsito em julgado da sentença condenatória.",
-   "hash": "e5184ef10beba5c77887fa83958249ef23f52432acdfd890b5b68e00dcfb0561"
+   "hash": "e5184ef10beba5c77887fa83958249ef23f52432acdfd890b5b68e00dcfb0561",
+   "ordem": 6
   },
   "7": {
    "texto": "Art. 7 No caso de não oferecimento da denúncia, ou sua rejeição, ou absolvição, é facultado ao indiciado ou ao réu, após o arquivamento definitivo do inquérito, ou trânsito em julgado da sentença, requerer a retirada da identificação fotográfica do inquérito ou processo, desde que apresente provas de sua identificação civil.",
-   "hash": "4d3966b96da82ce0c81dc7eaaec33a992f828e5c1a69836238b67ed6dd540050"
+   "hash": "4d3966b96da82ce0c81dc7eaaec33a992f828e5c1a69836238b67ed6dd540050",
+   "ordem": 7
   },
   "7-A": {
    "texto": "Art. 7º-A. A exclusão dos perfis genéticos dos bancos de dados ocorrerá: (Redação dada pela Lei nº 13.964, de 2019)\nI - no caso de absolvição do acusado; ou (Incluído pela Lei nº 13.964, de 2019)\nII - no caso de condenação do acusado, mediante requerimento, após decorridos 20 (vinte) anos do cumprimento da pena. (Incluído pela Lei nº 13.964, de 2019)",
-   "hash": "154f5e033975f9a54c3ca8648bdd0a382ef7da535bb62a878be9c9370aa21efe"
+   "hash": "154f5e033975f9a54c3ca8648bdd0a382ef7da535bb62a878be9c9370aa21efe",
+   "ordem": 8
   },
   "7-B": {
    "texto": "Art. 7o-B. A identificação do perfil genético será armazenada em banco de dados sigiloso, conforme regulamento a ser expedido pelo Poder Executivo. (Incluído pela Lei nº 12.654, de 2012)",
-   "hash": "9897b30e3776d878cae63b35f7fee0366cc9d591ff36fcc67ab3a5e2bf503c74"
+   "hash": "9897b30e3776d878cae63b35f7fee0366cc9d591ff36fcc67ab3a5e2bf503c74",
+   "ordem": 9
   },
   "7-C": {
    "texto": "Art. 7º-C. Fica autorizada a criação, no Ministério da Justiça e Segurança Pública, do Banco Nacional Multibiométrico e de Impressões Digitais. (Incluído pela Lei nº 13.964, de 2019)\n§ 1º A formação, a gestão e o acesso ao Banco Nacional Multibiométrico e de Impressões Digitais serão regulamentados em ato do Poder Executivo federal. (Incluído pela Lei nº 13.964, de 2019)\n§ 2º O Banco Nacional Multibiométrico e de Impressões Digitais tem como objetivo armazenar dados de registros biométricos, de impressões digitais e, quando possível, de íris, face e voz, para subsidiar investigações criminais federais, estaduais ou distritais. (Incluído pela Lei nº 13.964, de 2019)\n§ 3º O Banco Nacional Multibiométrico e de Impressões Digitais será integrado pelos registros biométricos, de impressões digitais, de íris, face e voz colhidos em investigações criminais ou por ocasião da identificação criminal. (Incluído pela Lei nº 13.964, de 2019)\n§ 4º Poderão ser colhidos os registros biométricos, de impressões digitais, de íris, face e voz dos presos provisórios ou definitivos quando não tiverem sido extraídos por ocasião da identificação criminal. (Incluído pela Lei nº 13.964, de 2019)\n§ 5º Poderão integrar o Banco Nacional Multibiométrico e de Impressões Digitais, ou com ele interoperar, os dados de registros constantes em quaisquer bancos de dados geridos por órgãos dos Poderes Executivo, Legislativo e Judiciário das esferas federal, estadual e distrital, inclusive pelo Tribunal Superior Eleitoral e pelos Institutos de Identificação Civil. (Incluído pela Lei nº 13.964, de 2019)\n§ 6º No caso de bancos de dados de identificação de natureza civil, administrativa ou eleitoral, a integração ou o compartilhamento dos registros do Banco Nacional Multibiométrico e de Impressões Digitais será limitado às impressões digitais e às informações necessárias para identificação do seu titular. (Incluído pela Lei nº 13.964, de 2019)\n§ 7º A integração ou a interoperação dos dados de registros multibiométricos constantes de outros bancos de dados com o Banco Nacional Multibiométrico e de Impressões Digitais ocorrerá por meio de acordo ou convênio com a unidade gestora. (Incluído pela Lei nº 13.964, de 2019)\n§ 8º Os dados constantes do Banco Nacional Multibiométrico e de Impressões Digitais terão caráter sigiloso, e aquele que permitir ou promover sua utilização para fins diversos dos previstos nesta Lei ou em decisão judicial responderá civil, penal e administrativamente. (Incluído pela Lei nº 13.964, de 2019)\n§ 9º As informações obtidas a partir da coincidência de registros biométricos relacionados a crimes deverão ser consignadas em laudo pericial firmado por perito oficial habilitado. (Incluído pela Lei nº 13.964, de 2019)\n§ 10. É vedada a comercialização, total ou parcial, da base de dados do Banco Nacional Multibiométrico e de Impressões Digitais. (Incluído pela Lei nº 13.964, de 2019)\n§ 11. A autoridade policial e o Ministério Público poderão requerer ao juiz competente, no caso de inquérito ou ação penal instaurados, o acesso ao Banco Nacional Multibiométrico e de Impressões Digitais. (Incluído pela Lei nº 13.964, de 2019)",
-   "hash": "3d23dd003147b4dcf228787279a5bf5e9c327b2d0420d5f50323cf54b9cb8837"
+   "hash": "3d23dd003147b4dcf228787279a5bf5e9c327b2d0420d5f50323cf54b9cb8837",
+   "ordem": 10
   },
   "8": {
    "texto": "Art. 8 Esta Lei entra em vigor na data de sua publicação.",
-   "hash": "208be7c917197704a6f5e880d3d2574f4f067b3b9793e4972a0271b8ff081cb0"
+   "hash": "208be7c917197704a6f5e880d3d2574f4f067b3b9793e4972a0271b8ff081cb0",
+   "ordem": 11
   },
   "9": {
    "texto": "Art. 9 Revoga-se a Lei n 10.054, de 7 de dezembro de 2000.\nBrasília, 1o de outubro de 2009; 188 da Independência e 121 da República.\nJOSÉ ALENCAR GOMES DA SILVA\nLuiz Paulo Teles Ferreira Barreto\nEste texto não substitui o publicado no DOU de 2.10.2009",
-   "hash": "8fbed06a8949f08680ab7cc1fbea909a65e3421dc218a47ec16bed8d0cc1dff4"
+   "hash": "8fbed06a8949f08680ab7cc1fbea909a65e3421dc218a47ec16bed8d0cc1dff4",
+   "ordem": 12
   }
  }
 }

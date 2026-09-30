@@ -7,7 +7,7 @@
  "hash": "11f437502b263ff3d5092c63e89259783cba8b2bb1acad97820f3633bf94485a",
  "etag": "\"27e6a-6571bdade5800\"",
  "last_modified": "Tue, 21 Jul 2026 09:43:28 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 8.080, DE 19 DE SETEMBRO DE 1990.",
   "Regulamento",
@@ -19,367 +19,457 @@
   "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:",
   "DISPOSIÇÃO PRELIMINAR"
  ],
- "ultimo_download_completo": "2026-09-26T04:49:02-03:00",
+ "ultimo_download_completo": "2026-09-30T12:35:56-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta lei regula, em todo o território nacional, as ações e serviços de saúde, executados isolada ou conjuntamente, em caráter permanente ou eventual, por pessoas naturais ou jurídicas de direito Público ou privado.\nTÍTULO I\nDAS DISPOSIÇÕES GERAIS",
-   "hash": "82995831d1cac56f0a61693baed7df35cb97cfaa29368688be6a49c1bc145479"
+   "hash": "82995831d1cac56f0a61693baed7df35cb97cfaa29368688be6a49c1bc145479",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º A saúde é um direito fundamental do ser humano, devendo o Estado prover as condições indispensáveis ao seu pleno exercício.\n§ 1º O dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças e de outros agravos e no estabelecimento de condições que assegurem acesso universal e igualitário às ações e aos serviços para a sua promoção, proteção e recuperação.\n§ 2º O dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade.",
-   "hash": "ca415495bf01c372d00511f80305bce4698863fad0f55db49675fe58d1361e5d"
+   "hash": "ca415495bf01c372d00511f80305bce4698863fad0f55db49675fe58d1361e5d",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o Os níveis de saúde expressam a organização social e econômica do País, tendo a saúde como determinantes e condicionantes, entre outros, a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, a atividade física, o transporte, o lazer e o acesso aos bens e serviços essenciais. (Redação dada pela Lei nº 12.864, de 2013)\nParágrafo único. Dizem respeito também à saúde as ações que, por força do disposto no artigo anterior, se destinam a garantir às pessoas e à coletividade condições de bem-estar físico, mental e social.\nTÍTULO II\nDO SISTEMA ÚNICO DE SAÚDE\nDISPOSIÇÃO PRELIMINAR",
-   "hash": "a802b20212cfbcc6a34c8ddbbaa315e4f6f60f646b00b55ec7ccff889ba369dc"
+   "hash": "a802b20212cfbcc6a34c8ddbbaa315e4f6f60f646b00b55ec7ccff889ba369dc",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º O conjunto de ações e serviços de saúde, prestados por órgãos e instituições públicas federais, estaduais e municipais, da Administração direta e indireta e das fundações mantidas pelo Poder Público, constitui o Sistema Único de Saúde (SUS).\n§ 1º Estão incluídas no disposto neste artigo as instituições públicas federais, estaduais e municipais de controle de qualidade, pesquisa e produção de insumos, medicamentos, inclusive de sangue e hemoderivados, e de equipamentos para saúde.\n§ 2º A iniciativa privada poderá participar do Sistema Único de Saúde (SUS), em caráter complementar.\nCAPÍTULO I\nDos Objetivos e Atribuições",
-   "hash": "46759a0b408929f4d3d9d403df1b77118c8daa53f08b78b5447c4b3f04fea306"
+   "hash": "46759a0b408929f4d3d9d403df1b77118c8daa53f08b78b5447c4b3f04fea306",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5º São objetivos do Sistema Único de Saúde SUS:\nI - a identificação e divulgação dos fatores condicionantes e determinantes da saúde;\nII - a formulação de política de saúde destinada a promover, nos campos econômico e social, a observância do disposto no § 1º do art. 2º desta lei;\nIII - a assistência às pessoas por intermédio de ações de promoção, proteção e recuperação da saúde, com a realização integrada das ações assistenciais e das atividades preventivas.",
-   "hash": "ea9309e39743c398ca88d0f8433029a5eac3261ee7d2d052487cf4a58e5f4417"
+   "hash": "ea9309e39743c398ca88d0f8433029a5eac3261ee7d2d052487cf4a58e5f4417",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º Estão incluídas ainda no campo de atuação do Sistema Único de Saúde (SUS):\nI - a execução de ações:\na) de vigilância sanitária;\nb) de vigilância epidemiológica;\nc) de saúde do trabalhador; (Redação dada pela Lei nº 14.572, de 2023)\nd) de assistência terapêutica integral, inclusive farmacêutica;\ne) de saúde bucal; (Incluída pela Lei nº 14.572, de 2023)\nf) de promoção do desenvolvimento produtivo, tecnológico e da inovação do Complexo Econômico-Industrial da Saúde (Ceis); (Incluída pela Lei nº 15.471, de 2026)\nII - a participação na formulação da política e na execução de ações de saneamento básico;\nIII - a ordenação da formação de recursos humanos na área de saúde;\nIV - a vigilância nutricional e a orientação alimentar;\nV - a colaboração na proteção do meio ambiente, nele compreendido o do trabalho;\nVI - a formulação da política de medicamentos, equipamentos, imunobiológicos e outros insumos de interesse para a saúde e a participação na sua produção;\nVII - o controle e a fiscalização de serviços, produtos e substâncias de interesse para a saúde;\nVIII - a fiscalização e a inspeção de alimentos, água e bebidas para consumo humano;\nIX - a participação no controle e na fiscalização da produção, transporte, guarda e utilização de substâncias e produtos psicoativos, tóxicos e radioativos;\nX - o incremento, em sua área de atuação, do desenvolvimento científico e tecnológico;\nXI - a formulação e execução da política de sangue e seus derivados.\nXII – a formulação e a execução da política de informação e assistência toxicológica e de logística de antídotos e medicamentos utilizados em intoxicações. (Incluído pela Lei nº 14.715, de 2023)\nXIII - a formulação e a execução de instrumentos de políticas públicas para o Ceis, como o uso do poder de compra do SUS, o financiamento, a regulação, o desenvolvimento científico, tecnológico e industrial e outros incentivos. (Incluído pela Lei nº 15.471, de 2026)\n§ 1º Entende-se por vigilância sanitária um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde, abrangendo:\nI - o controle de bens de consumo que, direta ou indiretamente, se relacionem com a saúde, compreendidas todas as etapas e processos, da produção ao consumo; e\nII - o controle da prestação de serviços que se relacionam direta ou indiretamente com a saúde.\n§ 2º Entende-se por vigilância epidemiológica um conjunto de ações que proporcionam o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva, com a finalidade de recomendar e adotar as medidas de prevenção e controle das doenças ou agravos.\n§ 3º Entende-se por saúde do trabalhador, para fins desta lei, um conjunto de atividades que se destina, através das ações de vigilância epidemiológica e vigilância sanitária, à promoção e proteção da saúde dos trabalhadores, assim como visa à recuperação e reabilitação da saúde dos trabalhadores submetidos aos riscos e agravos advindos das condições de trabalho, abrangendo:\nI - assistência ao trabalhador vítima de acidentes de trabalho ou portador de doença profissional e do trabalho;\nII - participação, no âmbito de competência do Sistema Único de Saúde (SUS), em estudos, pesquisas, avaliação e controle dos riscos e agravos potenciais à saúde existentes no processo de trabalho;\nIII - participação, no âmbito de competência do Sistema Único de Saúde (SUS), da normatização, fiscalização e controle das condições de produção, extração, armazenamento, transporte, distribuição e manuseio de substâncias, de produtos, de máquinas e de equipamentos que apresentam riscos à saúde do trabalhador;\nIV - avaliação do impacto que as tecnologias provocam à saúde;\nV - informação ao trabalhador e à sua respectiva entidade sindical e às empresas sobre os riscos de acidentes de trabalho, doença profissional e do trabalho, bem como os resultados de fiscalizações, avaliações ambientais e exames de saúde, de admissão, periódicos e de demissão, respeitados os preceitos da ética profissional;\nVI - participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas;\nVII - revisão periódica da listagem oficial de doenças originadas no processo de trabalho, tendo na sua elaboração a colaboração das entidades sindicais; e\nVIII - a garantia ao sindicato dos trabalhadores de requerer ao órgão competente a interdição de máquina, de setor de serviço ou de todo ambiente de trabalho, quando houver exposição a risco iminente para a vida ou saúde dos trabalhadores.\n§ 4º Entende-se por saúde bucal o conjunto articulado de ações, em todos os níveis de complexidade, que visem a garantir promoção, prevenção, recuperação e reabilitação odontológica, individual e coletiva, inseridas no contexto da integralidade da atenção à saúde. (Incluído pela Lei nº 14.572, de 2023)\n§ 5º Entende-se por assistência toxicológica, a que se refere o inciso XII do caput deste artigo, o conjunto de ações e serviços de prevenção, diagnóstico e tratamento das intoxicações agudas e crônicas decorrentes da exposição a substâncias químicas, medicamentos e toxinas de animais peçonhentos e de plantas tóxicas. (Incluído pela Lei nº 14.715, de 2023)\n§ 6º Entende-se por Complexo Econômico-Industrial da Saúde (Ceis) a base econômica, produtiva e tecnológica dos serviços de saúde existente no País, que contempla a produção e a inovação de produtos estratégicos para a saúde, como medicamentos, vacinas, soros, hemoderivados, dispositivos médicos, insumos farmacêuticos ativos, componentes e insumos críticos para a produção. (Incluído pela Lei nº 15.471, de 2026)",
-   "hash": "bb10c973ed212019834ae800dd441f981a0b52f2badb6990998af941a26f9de2"
+   "hash": "bb10c973ed212019834ae800dd441f981a0b52f2badb6990998af941a26f9de2",
+   "ordem": 5
   },
   "6#2": {
    "texto": "Art. 6ºA. As diferentes instâncias gestoras do Sistema Único de Saúde (SUS) ficam obrigadas a disponibilizar nas respectivas páginas eletrônicas na internet os estoques de medicamentos das farmácias públicas que estiverem sob sua gestão, com atualização quinzenal, de forma acessível ao cidadão comum. (Incluído pela Lei nº 14.654, de 2023) Vigência\nCAPÍTULO II\nDos Princípios e Diretrizes",
-   "hash": "ad605843ca1d1831b311934ea99c6effa3cc7836f87c7f26ae7029750578fea4"
+   "hash": "ad605843ca1d1831b311934ea99c6effa3cc7836f87c7f26ae7029750578fea4",
+   "ordem": 6
   },
   "7": {
    "texto": "Art. 7º As ações e serviços públicos de saúde e os serviços privados contratados ou conveniados que integram o Sistema Único de Saúde (SUS), são desenvolvidos de acordo com as diretrizes previstas no art. 198 da Constituição Federal, obedecendo ainda aos seguintes princípios:\nI - universalidade de acesso aos serviços de saúde em todos os níveis de assistência;\nII - integralidade de assistência, entendida como conjunto articulado e contínuo das ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de complexidade do sistema;\nIII - preservação da autonomia das pessoas na defesa de sua integridade física e moral;\nIV - igualdade da assistência à saúde, sem preconceitos ou privilégios de qualquer espécie;\nV - direito à informação, às pessoas assistidas, sobre sua saúde;\nVI - divulgação de informações quanto ao potencial dos serviços de saúde e a sua utilização pelo usuário;\nVII - utilização da epidemiologia para o estabelecimento de prioridades, a alocação de recursos e a orientação programática;\nVIII - participação da comunidade;\nIX - descentralização político-administrativa, com direção única em cada esfera de governo:\na) ênfase na descentralização dos serviços para os municípios;\nb) regionalização e hierarquização da rede de serviços de saúde;\nX - integração em nível executivo das ações de saúde, meio ambiente e saneamento básico;\nXI - conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União, dos Estados, do Distrito Federal e dos Municípios na prestação de serviços de assistência à saúde da população;\nXII - capacidade de resolução dos serviços em todos os níveis de assistência; e\nXIII - organização dos serviços públicos de modo a evitar duplicidade de meios para fins idênticos.\nXIV – organização de atendimento público específico e especializado para mulheres e vítimas de violência doméstica em geral, que garanta, entre outros, atendimento, acompanhamento psicológico e cirurgias plásticas reparadoras, em conformidade com a Lei n 12.845, de 1 de agosto de 2013. (Redação dada pela Lei nº 13.427, de 2017)\nXV – proteção integral dos direitos humanos de todos os usuários e especial atenção à identificação de maus-tratos, de negligência e de violência sexual praticados contra crianças e adolescentes. (Incluído pela Lei nº 14.679, de 2023)\nXVI – atenção humanizada. (Incluído pela Lei nº 15.126, de 2025)\nParágrafo único. Para os efeitos do inciso XIV do caput deste artigo, as mulheres vítimas de qualquer tipo de violência têm o direito de serem acolhidas e atendidas nos serviços de saúde prestados no âmbito do SUS, na rede própria ou conveniada, em local e ambiente que garantam sua privacidade e restrição do acesso de terceiros não autorizados pela paciente, em especial o do agressor. (Incluído pela Lei nº 14.847, de 2024)\nCAPÍTULO III\nDa Organização, da Direção e da Gestão",
-   "hash": "831dd5cd5d6b04923ebf016d9e8d6ef39cef536f7678af5f7539c0384d734da5"
+   "hash": "831dd5cd5d6b04923ebf016d9e8d6ef39cef536f7678af5f7539c0384d734da5",
+   "ordem": 7
   },
   "8": {
    "texto": "Art. 8º As ações e serviços de saúde, executados pelo Sistema Único de Saúde (SUS), seja diretamente ou mediante participação complementar da iniciativa privada, serão organizados de forma regionalizada e hierarquizada em níveis de complexidade crescente.",
-   "hash": "6465cb522153280aacb15e4b92ac4220fc722d742af6492512550c76d076375e"
+   "hash": "6465cb522153280aacb15e4b92ac4220fc722d742af6492512550c76d076375e",
+   "ordem": 8
   },
   "9": {
    "texto": "Art. 9º A direção do Sistema Único de Saúde (SUS) é única, de acordo com o inciso I do art. 198 da Constituição Federal, sendo exercida em cada esfera de governo pelos seguintes órgãos:\nI - no âmbito da União, pelo Ministério da Saúde;\nII - no âmbito dos Estados e do Distrito Federal, pela respectiva Secretaria de Saúde ou órgão equivalente; e\nIII - no âmbito dos Municípios, pela respectiva Secretaria de Saúde ou órgão equivalente.",
-   "hash": "0ec976f04d1dcde2de068b01296b35bdca469cddca756fcca03a48c253ba76aa"
+   "hash": "0ec976f04d1dcde2de068b01296b35bdca469cddca756fcca03a48c253ba76aa",
+   "ordem": 9
   },
   "10": {
    "texto": "Art. 10. Os municípios poderão constituir consórcios para desenvolver em conjunto as ações e os serviços de saúde que lhes correspondam.\n§ 1º Aplica-se aos consórcios administrativos intermunicipais o princípio da direção única, e os respectivos atos constitutivos disporão sobre sua observância.\n§ 2º No nível municipal, o Sistema Único de Saúde (SUS), poderá organizar-se em distritos de forma a integrar e articular recursos, técnicas e práticas voltadas para a cobertura total das ações de saúde.",
-   "hash": "10b7c3b39b19de353186f7543c6323d2beb8c271d8fa56f4ef50964d4406a3dd"
+   "hash": "10b7c3b39b19de353186f7543c6323d2beb8c271d8fa56f4ef50964d4406a3dd",
+   "ordem": 10
   },
   "11": {
    "texto": "Art. 11. (Vetado).",
-   "hash": "7b0cc1abb4ba4d8b2a85183807730995854f972b6d92bb32c590cc453f34c498"
+   "hash": "7b0cc1abb4ba4d8b2a85183807730995854f972b6d92bb32c590cc453f34c498",
+   "ordem": 11
   },
   "12": {
    "texto": "Art. 12. Serão criadas comissões intersetoriais de âmbito nacional, subordinadas ao Conselho Nacional de Saúde, integradas pelos Ministérios e órgãos competentes e por entidades representativas da sociedade civil.\nParágrafo único. As comissões intersetoriais terão a finalidade de articular políticas e programas de interesse para a saúde, cuja execução envolva áreas não compreendidas no âmbito do Sistema Único de Saúde (SUS).",
-   "hash": "6e35626d302dfe1ca095725c7c4335e4e208259913e28f6e4588d98866e7123e"
+   "hash": "6e35626d302dfe1ca095725c7c4335e4e208259913e28f6e4588d98866e7123e",
+   "ordem": 12
   },
   "13": {
    "texto": "Art. 13. A articulação das políticas e programas, a cargo das comissões intersetoriais, abrangerá, em especial, as seguintes atividades:\nI - alimentação e nutrição;\nII - saneamento e meio ambiente;\nIII - vigilância sanitária e farmacoepidemiologia;\nIV - recursos humanos;\nV - ciência e tecnologia; e\nVI - saúde do trabalhador.",
-   "hash": "51d26d10db2dc4255d25118597c86f591bc73be60667525a29f7e71a795b5160"
+   "hash": "51d26d10db2dc4255d25118597c86f591bc73be60667525a29f7e71a795b5160",
+   "ordem": 13
   },
   "14": {
    "texto": "Art. 14. Deverão ser criadas Comissões Permanentes de integração entre os serviços de saúde e as instituições de ensino profissional e superior.\nParágrafo único. Cada uma dessas comissões terá por finalidade propor prioridades, métodos e estratégias para a formação e educação continuada dos recursos humanos do Sistema Único de Saúde (SUS), na esfera correspondente, assim como em relação à pesquisa e à cooperação técnica entre essas instituições.",
-   "hash": "37394c50d015ba00ea3b319f42dbeea54e7ecb156e009935d67b9b405bb372cd"
+   "hash": "37394c50d015ba00ea3b319f42dbeea54e7ecb156e009935d67b9b405bb372cd",
+   "ordem": 14
   },
   "14-A": {
    "texto": "Art. 14-A. As Comissões Intergestores Bipartite e Tripartite são reconhecidas como foros de negociação e pactuação entre gestores, quanto aos aspectos operacionais do Sistema Único de Saúde (SUS). (Incluído pela Lei nº 12.466, de 2011).\nParágrafo único. A atuação das Comissões Intergestores Bipartite e Tripartite terá por objetivo: (Incluído pela Lei nº 12.466, de 2011).\nI - decidir sobre os aspectos operacionais, financeiros e administrativos da gestão compartilhada do SUS, em conformidade com a definição da política consubstanciada em planos de saúde, aprovados pelos conselhos de saúde; (Incluído pela Lei nº 12.466, de 2011).\nII - definir diretrizes, de âmbito nacional, regional e intermunicipal, a respeito da organização das redes de ações e serviços de saúde, principalmente no tocante à sua governança institucional e à integração das ações e serviços dos entes federados; (Incluído pela Lei nº 12.466, de 2011).\nIII - fixar diretrizes sobre as regiões de saúde, distrito sanitário, integração de territórios, referência e contrarreferência e demais aspectos vinculados à integração das ações e serviços de saúde entre os entes federados. (Incluído pela Lei nº 12.466, de 2011).",
-   "hash": "a90ea0f43385f4594a56dd246086f7eeace2d56c8207892dc4ce45c2a04f0a61"
+   "hash": "a90ea0f43385f4594a56dd246086f7eeace2d56c8207892dc4ce45c2a04f0a61",
+   "ordem": 15
   },
   "14-B": {
    "texto": "Art. 14-B. O Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional de Secretarias Municipais de Saúde (Conasems) são reconhecidos como entidades representativas dos entes estaduais e municipais para tratar de matérias referentes à saúde e declarados de utilidade pública e de relevante função social, na forma do regulamento. (Incluído pela Lei nº 12.466, de 2011).\n§ 1o O Conass e o Conasems receberão recursos do orçamento geral da União por meio do Fundo Nacional de Saúde, para auxiliar no custeio de suas despesas institucionais, podendo ainda celebrar convênios com a União. (Incluído pela Lei nº 12.466, de 2011).\n§ 2o Os Conselhos de Secretarias Municipais de Saúde (Cosems) são reconhecidos como entidades que representam os entes municipais, no âmbito estadual, para tratar de matérias referentes à saúde, desde que vinculados institucionalmente ao Conasems, na forma que dispuserem seus estatutos. (Incluído pela Lei nº 12.466, de 2011).\nCAPÍTULO IV\nDa Competência e das Atribuições\nSeção I\nDas Atribuições Comuns",
-   "hash": "bfd0de453646f29d252b9cf2ab2746fe1411eea70976a540208c1e07b4c3f766"
+   "hash": "bfd0de453646f29d252b9cf2ab2746fe1411eea70976a540208c1e07b4c3f766",
+   "ordem": 16
   },
   "15": {
    "texto": "Art. 15. A União, os Estados, o Distrito Federal e os Municípios exercerão, em seu âmbito administrativo, as seguintes atribuições:\nI - definição das instâncias e mecanismos de controle, avaliação e de fiscalização das ações e serviços de saúde;\nII - administração dos recursos orçamentários e financeiros destinados, em cada ano, à saúde;\nIII - acompanhamento, avaliação e divulgação do nível de saúde da população e das condições ambientais;\nIV - organização e coordenação do sistema de informação de saúde;\nV - elaboração de normas técnicas e estabelecimento de padrões de qualidade e parâmetros de custos que caracterizam a assistência à saúde;\nVI - elaboração de normas técnicas e estabelecimento de padrões de qualidade para promoção da saúde do trabalhador;\nVII - participação de formulação da política e da execução das ações de saneamento básico e colaboração na proteção e recuperação do meio ambiente;\nVIII - elaboração e atualização periódica do plano de saúde;\nIX - participação na formulação e na execução da política de formação e desenvolvimento de recursos humanos para a saúde;\nX - elaboração da proposta orçamentária do Sistema Único de Saúde (SUS), de conformidade com o plano de saúde;\nXI - elaboração de normas para regular as atividades de serviços privados de saúde, tendo em vista a sua relevância pública;\nXII - realização de operações externas de natureza financeira de interesse da saúde, autorizadas pelo Senado Federal;\nXIII - para atendimento de necessidades coletivas, urgentes e transitórias, decorrentes de situações de perigo iminente, de calamidade pública ou de irrupção de epidemias, a autoridade competente da esfera administrativa correspondente poderá requisitar bens e serviços, tanto de pessoas naturais como de jurídicas, sendo-lhes assegurada justa indenização; (Vide ADIN 3454)\nXIV - implementar o Sistema Nacional de Sangue, Componentes e Derivados;\nXV - propor a celebração de convênios, acordos e protocolos internacionais relativos à saúde, saneamento e meio ambiente;\nXVI - elaborar normas técnico-científicas de promoção, proteção e recuperação da saúde;\nXVII - promover articulação com os órgãos de fiscalização do exercício profissional e outras entidades representativas da sociedade civil para a definição e controle dos padrões éticos para pesquisa, ações e serviços de saúde;\nXVIII - promover a articulação da política e dos planos de saúde;\nXIX - realizar pesquisas e estudos na área de saúde;\nXX - definir as instâncias e mecanismos de controle e fiscalização inerentes ao poder de polícia sanitária;\nXXI - fomentar, coordenar e executar programas e projetos estratégicos e de atendimento emergencial.\nSeção II\nDa Competência",
-   "hash": "c032a44790bf8b4f3852a6f4bf67ed51025af6baf1c324a8d3dde3f19089d26d"
+   "hash": "c032a44790bf8b4f3852a6f4bf67ed51025af6baf1c324a8d3dde3f19089d26d",
+   "ordem": 17
   },
   "16": {
    "texto": "Art. 16. À direção nacional do SUS compete: (Redação dada pela Lei nº 14.572, de 2023)\nI - formular, avaliar e apoiar políticas de alimentação e nutrição;\nII - participar na formulação e na implementação das políticas:\na) de controle das agressões ao meio ambiente;\nb) de saneamento básico; e\nc) relativas às condições e aos ambientes de trabalho;\nIII - definir e coordenar os sistemas:\na) de redes integradas de assistência de alta complexidade;\nb) de rede de laboratórios de saúde pública;\nc) de vigilância epidemiológica; e\nd) vigilância sanitária;\nIV - participar da definição de normas e mecanismos de controle, com órgão afins, de agravo sobre o meio ambiente ou dele decorrentes, que tenham repercussão na saúde humana;\nV - participar da definição de normas, critérios e padrões para o controle das condições e dos ambientes de trabalho e coordenar a política de saúde do trabalhador;\nVI - coordenar e participar na execução das ações de vigilância epidemiológica;\nVII - estabelecer normas e executar a vigilância sanitária de portos, aeroportos e fronteiras, podendo a execução ser complementada pelos Estados, Distrito Federal e Municípios;\nVIII - estabelecer critérios, parâmetros e métodos para o controle da qualidade sanitária de produtos, substâncias e serviços de consumo e uso humano;\nIX - promover articulação com os órgãos educacionais e de fiscalização do exercício profissional, bem como com entidades representativas de formação de recursos humanos na área de saúde;\nX - formular, avaliar, elaborar normas e participar na execução da política nacional e produção de insumos e equipamentos para a saúde, em articulação com os demais órgãos governamentais;\nXI - identificar os serviços estaduais e municipais de referência nacional para o estabelecimento de padrões técnicos de assistência à saúde;\nXII - controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde;\nXIII - prestar cooperação técnica e financeira aos Estados, ao Distrito Federal e aos Municípios para o aperfeiçoamento da sua atuação institucional;\nXIV - elaborar normas para regular as relações entre o Sistema Único de Saúde (SUS) e os serviços privados contratados de assistência à saúde;\nXV - promover a descentralização para as Unidades Federadas e para os Municípios, dos serviços e ações de saúde, respectivamente, de abrangência estadual e municipal;\nXVI - normatizar e coordenar nacionalmente o Sistema Nacional de Sangue, Componentes e Derivados;\nXVII - acompanhar, controlar e avaliar as ações e os serviços de saúde, respeitadas as competências estaduais e municipais;\nXVIII - elaborar o Planejamento Estratégico Nacional no âmbito do SUS, em cooperação técnica com os Estados, Municípios e Distrito Federal;\nXIX - estabelecer o Sistema Nacional de Auditoria e coordenar a avaliação técnica e financeira do SUS em todo o Território Nacional em cooperação técnica com os Estados, Municípios e Distrito Federal. (Vide Decreto nº 1.651, de 1995)\nXX - definir as diretrizes e as normas para a estruturação física e organizacional dos serviços de saúde bucal. (Incluído pela Lei nº 14.572, de 2023)\n§ 1º A União poderá executar ações de vigilância epidemiológica e sanitária em circunstâncias especiais, como na ocorrência de agravos inusitados à saúde, que possam escapar do controle da direção estadual do Sistema Único de Saúde (SUS) ou que representem risco de disseminação nacional. (Renumerado do parágrafo único pela Lei nº 14.141, de 2021)\n§ 2º Em situações epidemiológicas que caracterizem emergência em saúde pública, poderá ser adotado procedimento simplificado para a remessa de patrimônio genético ao exterior, na forma do regulamento. (Incluído pela Lei nº 14.141, de 2021)\n§ 3º Os benefícios resultantes da exploração econômica de produto acabado ou material reprodutivo oriundo de acesso ao patrimônio genético de que trata o § 2º deste artigo serão repartidos nos termos da Lei nº 13.123, de 20 de maio de 2015. (Incluído pela Lei nº 14.141, de 2021)\n§ 4º Em situações de urgência em saúde pública, caracterizadas por grande tempo de espera, alta demanda e necessidade de atenção especializada, reconhecidas pelo Ministério da Saúde, a União, por intermédio do Ministério da Saúde e das entidades da administração pública indireta, poderá, por tempo determinado, executar ações, contratar e prestar serviços de atenção especializada nos Estados, no Distrito Federal e nos Municípios, conforme regulamento do gestor federal do SUS. (Incluído pela Medida Provisória nº 1.301, de 2025)\n§ 4º Em situações de urgência em saúde pública, caracterizadas por grande tempo de espera, alta demanda e necessidade de atenção especializada, reconhecidas pelo Ministério da Saúde, a União, por intermédio do Ministério da Saúde e das entidades da administração pública indireta, poderá, por tempo determinado, executar ações, contratar e prestar serviços de atenção especializada nos Estados, no Distrito Federal e nos Municípios, conforme regulamento do gestor federal do SUS. (Incluído pela Lei nº 15.233, de 2025)",
-   "hash": "9f9e961e51e318e735e1f28181bd3f736bdf6e06593c5e5d934e94c2f1d1a5bc"
+   "hash": "9f9e961e51e318e735e1f28181bd3f736bdf6e06593c5e5d934e94c2f1d1a5bc",
+   "ordem": 18
   },
   "17": {
    "texto": "Art. 17. À direção estadual do Sistema Único de Saúde (SUS) compete:\nI - promover a descentralização para os Municípios dos serviços e das ações de saúde;.\nII - acompanhar, controlar e avaliar as redes hierarquizadas do Sistema Único de Saúde (SUS);\nIII - prestar apoio técnico e financeiro aos Municípios e executar supletivamente ações e serviços de saúde;\nIV - coordenar e, em caráter complementar, executar ações e serviços:\na) de vigilância epidemiológica;\nb) de vigilância sanitária;\nc) de alimentação e nutrição; (Redação dada pela Lei nº 14.572, de 2023)\nd) de saúde do trabalhador;\ne) de saúde bucal; (Incluída pela Lei nº 14.572, de 2023)\nV - participar, junto com os órgãos afins, do controle dos agravos do meio ambiente que tenham repercussão na saúde humana;\nVI - participar da formulação da política e da execução de ações de saneamento básico;\nVII - participar das ações de controle e avaliação das condições e dos ambientes de trabalho;\nVIII - em caráter suplementar, formular, executar, acompanhar e avaliar a política de insumos e equipamentos para a saúde;\nIX - identificar estabelecimentos hospitalares de referência e gerir sistemas públicos de alta complexidade, de referência estadual e regional;\nX - coordenar a rede estadual de laboratórios de saúde pública e hemocentros, e gerir as unidades que permaneçam em sua organização administrativa;\nXI - estabelecer normas, em caráter suplementar, para o controle e avaliação das ações e serviços de saúde;\nXII - formular normas e estabelecer padrões, em caráter suplementar, de procedimentos de controle de qualidade para produtos e substâncias de consumo humano;\nXIII - colaborar com a União na execução da vigilância sanitária de portos, aeroportos e fronteiras;\nXIV - o acompanhamento, a avaliação e divulgação dos indicadores de morbidade e mortalidade no âmbito da unidade federada.",
-   "hash": "0d962e96053d71ee1bafb1d5f78a951557b0c1c73f6a04e9a5c673437b04c2f5"
+   "hash": "0d962e96053d71ee1bafb1d5f78a951557b0c1c73f6a04e9a5c673437b04c2f5",
+   "ordem": 19
   },
   "18": {
    "texto": "Art. 18. À direção municipal do SUS compete: (Redação dada pela Lei nº 14.572, de 2023)\nI - planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde;\nII - participar do planejamento, programação e organização da rede regionalizada e hierarquizada do Sistema Único de Saúde (SUS), em articulação com sua direção estadual;\nIII - participar da execução, controle e avaliação das ações referentes às condições e aos ambientes de trabalho;\nIV - executar serviços:\na) de vigilância epidemiológica;\nb) vigilância sanitária;\nc) de alimentação e nutrição;\nd) de saneamento básico; (Redação dada pela Lei nº 14.572, de 2023)\ne) de saúde do trabalhador;\nf) de saúde bucal; (Incluída pela Lei nº 14.572, de 2023)\nV - dar execução, no âmbito municipal, à política de insumos e equipamentos para a saúde;\nVI - colaborar na fiscalização das agressões ao meio ambiente que tenham repercussão sobre a saúde humana e atuar, junto aos órgãos municipais, estaduais e federais competentes, para controlá-las;\nVII - formar consórcios administrativos intermunicipais;\nVIII - gerir laboratórios públicos de saúde e hemocentros;\nIX - colaborar com a União e os Estados na execução da vigilância sanitária de portos, aeroportos e fronteiras;\nX - observado o disposto no art. 26 desta Lei, celebrar contratos e convênios com entidades prestadoras de serviços privados de saúde, bem como controlar e avaliar sua execução;\nXI - controlar e fiscalizar os procedimentos dos serviços privados de saúde;\nXII - normatizar complementarmente as ações e serviços públicos de saúde no seu âmbito de atuação.",
-   "hash": "d41aa80e0f27611f282f389eaacba91fd4e435004a6996c7676ab151a276f29b"
+   "hash": "d41aa80e0f27611f282f389eaacba91fd4e435004a6996c7676ab151a276f29b",
+   "ordem": 20
   },
   "19": {
    "texto": "Art. 19. Ao Distrito Federal competem as atribuições reservadas aos Estados e aos Municípios.\nCAPÍTULO V\nDo Subsistema de Atenção à Saúde Indígena\n(Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "93488f4e536ba68ab16d3d0de160008d310d40731ee53d641501ea8c8dba28e4"
+   "hash": "93488f4e536ba68ab16d3d0de160008d310d40731ee53d641501ea8c8dba28e4",
+   "ordem": 21
   },
   "19-A": {
    "texto": "Art. 19-A. As ações e serviços de saúde voltados para o atendimento das populações indígenas, em todo o território nacional, coletiva ou individualmente, obedecerão ao disposto nesta Lei. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "2e19bb032fa60c02ebb56d79aa259ca97fd577ab6f6a84cebbf23ca88adf382a"
+   "hash": "2e19bb032fa60c02ebb56d79aa259ca97fd577ab6f6a84cebbf23ca88adf382a",
+   "ordem": 22
   },
   "19-B": {
    "texto": "Art. 19-B. É instituído um Subsistema de Atenção à Saúde Indígena, componente do Sistema Único de Saúde – SUS, criado e definido por esta Lei, e pela Lei no 8.142, de 28 de dezembro de 1990, com o qual funcionará em perfeita integração. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "b84c559b56f25cb4b62fb2b0b99b9a4252aa6d09080893079a2ae8a65563ecfb"
+   "hash": "b84c559b56f25cb4b62fb2b0b99b9a4252aa6d09080893079a2ae8a65563ecfb",
+   "ordem": 23
   },
   "19-C": {
    "texto": "Art. 19-C. Caberá à União, com seus recursos próprios, financiar o Subsistema de Atenção à Saúde Indígena. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "40129217182f270ea6b821dfe3668f38c7a0624bb119b2dc466d5bdbf80e2e07"
+   "hash": "40129217182f270ea6b821dfe3668f38c7a0624bb119b2dc466d5bdbf80e2e07",
+   "ordem": 24
   },
   "19-D": {
    "texto": "Art. 19-D. O SUS promoverá a articulação do Subsistema instituído por esta Lei com os órgãos responsáveis pela Política Indígena do País. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "09de9c45d9548231a91e9d93dec5c0821be3119f478974675df9e717d4761939"
+   "hash": "09de9c45d9548231a91e9d93dec5c0821be3119f478974675df9e717d4761939",
+   "ordem": 25
   },
   "19-E": {
    "texto": "Art. 19-E. Os Estados, Municípios, outras instituições governamentais e não-governamentais poderão atuar complementarmente no custeio e execução das ações. (Incluído pela Lei nº 9.836, de 1999)\n§ 1º A União instituirá mecanismo de financiamento específico para os Estados, o Distrito Federal e os Municípios, sempre que houver necessidade de atenção secundária e terciária fora dos territórios indígenas. (Incluído pela Lei nº 14.021, de 2020)\n§ 2º Em situações emergenciais e de calamidade pública: (Incluído pela Lei nº 14.021, de 2020)\nI - a União deverá assegurar aporte adicional de recursos não previstos nos planos de saúde dos Distritos Sanitários Especiais Indígenas (Dseis) ao Subsistema de Atenção à Saúde Indígena; (Incluído pela Lei nº 14.021, de 2020)\nII - deverá ser garantida a inclusão dos povos indígenas nos planos emergenciais para atendimento dos pacientes graves das Secretarias Municipais e Estaduais de Saúde, explicitados os fluxos e as referências para o atendimento em tempo oportuno. (Incluído pela Lei nº 14.021, de 2020)",
-   "hash": "4ae6fdca09d27c3a02934b3ca2e96c9089457cf2fe7cc407ec361a32b2873004"
+   "hash": "4ae6fdca09d27c3a02934b3ca2e96c9089457cf2fe7cc407ec361a32b2873004",
+   "ordem": 26
   },
   "19-F": {
    "texto": "Art. 19-F. Dever-se-á obrigatoriamente levar em consideração a realidade local e as especificidades da cultura dos povos indígenas e o modelo a ser adotado para a atenção à saúde indígena, que se deve pautar por uma abordagem diferenciada e global, contemplando os aspectos de assistência à saúde, saneamento básico, nutrição, habitação, meio ambiente, demarcação de terras, educação sanitária e integração institucional. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "e5c0ecde13e88bd137aeb2ef50843f5242003662805edff0ec46182a6754e7db"
+   "hash": "e5c0ecde13e88bd137aeb2ef50843f5242003662805edff0ec46182a6754e7db",
+   "ordem": 27
   },
   "19-G": {
    "texto": "Art. 19-G. O Subsistema de Atenção à Saúde Indígena deverá ser, como o SUS, descentralizado, hierarquizado e regionalizado. (Incluído pela Lei nº 9.836, de 1999)\n§ 1o O Subsistema de que trata o caput deste artigo terá como base os Distritos Sanitários Especiais Indígenas. (Incluído pela Lei nº 9.836, de 1999)\n§ 1º-A. A rede do SUS deverá obrigatoriamente fazer o registro e a notificação da declaração de raça ou cor, garantindo a identificação de todos os indígenas atendidos nos sistemas públicos de saúde. (Incluído pela Lei nº 14.021, de 2020)\n§ 1º-B. A União deverá integrar os sistemas de informação da rede do SUS com os dados do Subsistema de Atenção à Saúde Indígena. (Incluído pela Lei nº 14.021, de 2020)\n§ 2o O SUS servirá de retaguarda e referência ao Subsistema de Atenção à Saúde Indígena, devendo, para isso, ocorrer adaptações na estrutura e organização do SUS nas regiões onde residem as populações indígenas, para propiciar essa integração e o atendimento necessário em todos os níveis, sem discriminações. (Incluído pela Lei nº 9.836, de 1999)\n§ 3o As populações indígenas devem ter acesso garantido ao SUS, em âmbito local, regional e de centros especializados, de acordo com suas necessidades, compreendendo a atenção primária, secundária e terciária à saúde. (Incluído pela Lei nº 9.836, de 1999)",
-   "hash": "4a6988a55f12d856129853fffcb432dc6de75f5c3e0c2561ec0bbf3e4caa236c"
+   "hash": "4a6988a55f12d856129853fffcb432dc6de75f5c3e0c2561ec0bbf3e4caa236c",
+   "ordem": 28
   },
   "19-H": {
    "texto": "Art. 19-H. As populações indígenas terão direito a participar dos organismos colegiados de formulação, acompanhamento e avaliação das políticas de saúde, tais como o Conselho Nacional de Saúde e os Conselhos Estaduais e Municipais de Saúde, quando for o caso. (Incluído pela Lei nº 9.836, de 1999)\nCAPÍTULO VI\nDO SUBSISTEMA DE ATENDIMENTO E INTERNAÇÃO DOMICILIAR\n(Incluído pela Lei nº 10.424, de 2002)",
-   "hash": "d0cf793a555a0debf8824d5fc540b84f65a093f5c71f2c4a840933f6fe767dac"
+   "hash": "d0cf793a555a0debf8824d5fc540b84f65a093f5c71f2c4a840933f6fe767dac",
+   "ordem": 29
   },
   "19-I": {
    "texto": "Art. 19-I. São estabelecidos, no âmbito do Sistema Único de Saúde, o atendimento domiciliar e a internação domiciliar. (Incluído pela Lei nº 10.424, de 2002)\n§ 1o Na modalidade de assistência de atendimento e internação domiciliares incluem-se, principalmente, os procedimentos médicos, de enfermagem, fisioterapêuticos, psicológicos e de assistência social, entre outros necessários ao cuidado integral dos pacientes em seu domicílio. (Incluído pela Lei nº 10.424, de 2002)\n§ 2o O atendimento e a internação domiciliares serão realizados por equipes multidisciplinares que atuarão nos níveis da medicina preventiva, terapêutica e reabilitadora. (Incluído pela Lei nº 10.424, de 2002)\n§ 3o O atendimento e a internação domiciliares só poderão ser realizados por indicação médica, com expressa concordância do paciente e de sua família. (Incluído pela Lei nº 10.424, de 2002)\nCAPÍTULO VII\n(Redação dada pela Lei nº 14.737, de 2023)\nDO SUBSISTEMA DE ACOMPANHAMENTO À MULHER NOS SERVIÇOS DE SAÚDE",
-   "hash": "74c007917bc1592269f0f0288b6b7feef1bd5c7ecd84de7bd07d7863e7fbe58b"
+   "hash": "74c007917bc1592269f0f0288b6b7feef1bd5c7ecd84de7bd07d7863e7fbe58b",
+   "ordem": 30
   },
   "19-J": {
    "texto": "Art. 19-J. Em consultas, exames e procedimentos realizados em unidades de saúde públicas ou privadas, toda mulher tem o direito de fazer-se acompanhar por pessoa maior de idade, durante todo o período do atendimento, independentemente de notificação prévia. (Redação dada pela Lei nº 14.737, de 2023)\n§ 1º O acompanhante de que trata o caput deste artigo será de livre indicação da paciente ou, nos casos em que ela esteja impossibilitada de manifestar sua vontade, de seu representante legal, e estará obrigado a preservar o sigilo das informações de saúde de que tiver conhecimento em razão do acompanhamento. (Redação dada pela Lei nº 14.737, de 2023)\n§ 2º No caso de atendimento que envolva qualquer tipo de sedação ou rebaixamento do nível de consciência, caso a paciente não indique acompanhante, a unidade de saúde responsável pelo atendimento indicará pessoa para acompanhá-la, preferencialmente profissional de saúde do sexo feminino, sem custo adicional para a paciente, que poderá recusar o nome indicado e solicitar a indicação de outro, independentemente de justificativa, registrando-se o nome escolhido no documento gerado durante o atendimento. (Redação dada pela Lei nº 14.737, de 2023)\n§ 2º-A Em caso de atendimento com sedação, a eventual renúncia da paciente ao direito previsto neste artigo deverá ser feita por escrito, após o esclarecimento dos seus direitos, com no mínimo 24 (vinte e quatro) horas de antecedência, assinada por ela e arquivada em seu prontuário. (Incluído pela Lei nº 14.737, de 2023)\n§ 3o Ficam os hospitais de todo o País obrigados a manter, em local visível de suas dependências, aviso informando sobre o direito estabelecido no caput deste artigo. (Incluído pela Lei nº 12.895, de 2013)\n§ 3º As unidades de saúde de todo o País ficam obrigadas a manter, em local visível de suas dependências, aviso que informe sobre o direito estabelecido neste artigo. (Redação dada pela Lei nº 14.737, de 2023)\n§ 4º No caso de atendimento realizado em centro cirúrgico ou unidade de terapia intensiva com restrições relacionadas à segurança ou à saúde dos pacientes, devidamente justificadas pelo corpo clínico, somente será admitido acompanhante que seja profissional de saúde. (Incluído pela Lei nº 14.737, de 2023)\n§ 5º Em casos de urgência e emergência, os profissionais de saúde ficam autorizados a agir na proteção e defesa da saúde e da vida da paciente, ainda que na ausência do acompanhante requerido. (Incluído pela Lei nº 14.737, de 2023)",
-   "hash": "a4a8255d4bfacffd58d81bdc2638be486381e9ca261d5d635d4fab8c7d4c2a68"
+   "hash": "a4a8255d4bfacffd58d81bdc2638be486381e9ca261d5d635d4fab8c7d4c2a68",
+   "ordem": 31
   },
   "19-L": {
    "texto": "Art. 19-L. (VETADO) (Incluído pela Lei nº 11.108, de 2005)\nCAPÍTULO VIII\n(Incluído pela Lei nº 12.401, de 2011)\nDA ASSISTÊNCIA TERAPÊUTICA E DA INCORPORAÇÃO DE TECNOLOGIA EM SAÚDE”",
-   "hash": "414116a0c977a91400b8bae15db170dd9c429fd4838a8b950e04772730e5c6d5"
+   "hash": "414116a0c977a91400b8bae15db170dd9c429fd4838a8b950e04772730e5c6d5",
+   "ordem": 32
   },
   "19-M": {
    "texto": "Art. 19-M. A assistência terapêutica integral a que se refere a alínea d do inciso I do art. 6o consiste em: (Incluído pela Lei nº 12.401, de 2011)\nI - dispensação de medicamentos e produtos de interesse para a saúde, cuja prescrição esteja em conformidade com as diretrizes terapêuticas definidas em protocolo clínico para a doença ou o agravo à saúde a ser tratado ou, na falta do protocolo, em conformidade com o disposto no art. 19-P; (Incluído pela Lei nº 12.401, de 2011)\nII - oferta de procedimentos terapêuticos, em regime domiciliar, ambulatorial e hospitalar, constantes de tabelas elaboradas pelo gestor federal do Sistema Único de Saúde - SUS, realizados no território nacional por serviço próprio, conveniado ou contratado.",
-   "hash": "c669bdcf0e0147ea91533ff8658ea61eec264b05d7bf754ad64b6fe603cafa94"
+   "hash": "c669bdcf0e0147ea91533ff8658ea61eec264b05d7bf754ad64b6fe603cafa94",
+   "ordem": 33
   },
   "19-N": {
    "texto": "Art. 19-N. Para os efeitos do disposto no art. 19-M, são adotadas as seguintes definições: (Incluído pela Lei nº 12.401, de 2011)\nI - produtos de interesse para a saúde: órteses, próteses, bolsas coletoras e equipamentos médicos; (Incluído pela Lei nº 12.401, de 2011)\nII - protocolo clínico e diretriz terapêutica: documento que estabelece critérios para o diagnóstico da doença ou do agravo à saúde; o tratamento preconizado, com os medicamentos e demais produtos apropriados, quando couber; as posologias recomendadas; os mecanismos de controle clínico; e o acompanhamento e a verificação dos resultados terapêuticos, a serem seguidos pelos gestores do SUS. (Incluído pela Lei nº 12.401, de 2011)",
-   "hash": "8f8e69cc0c1f4670f09f3915cbb301fe271ce0fbb30ab18c39140130bb006030"
+   "hash": "8f8e69cc0c1f4670f09f3915cbb301fe271ce0fbb30ab18c39140130bb006030",
+   "ordem": 34
   },
   "19-O": {
    "texto": "Art. 19-O. Os protocolos clínicos e as diretrizes terapêuticas deverão estabelecer os medicamentos ou produtos necessários nas diferentes fases evolutivas da doença ou do agravo à saúde de que tratam, bem como aqueles indicados em casos de perda de eficácia e de surgimento de intolerância ou reação adversa relevante, provocadas pelo medicamento, produto ou procedimento de primeira escolha. (Incluído pela Lei nº 12.401, de 2011)\n§ 1º Em qualquer caso, os medicamentos ou produtos de que trata o caput deste artigo serão aqueles avaliados quanto à sua eficácia, segurança, efetividade e custo-efetividade para as diferentes fases evolutivas da doença ou do agravo à saúde de que trata o protocolo. (Redação dada pela Lei nº 15.379, de 2026)\n§ 2º Os protocolos clínicos e as diretrizes terapêuticas do câncer incluirão a utilização de imunoterapia quando se mostrar superior ou mais segura que as opções tradicionais, na forma do regulamento. (Incluído pela Lei nº 15.379, de 2026)",
-   "hash": "c161a10600d4e682c94ee735c6dfd14cc881720e20d66b7ce3219d20ec666b9d"
+   "hash": "c161a10600d4e682c94ee735c6dfd14cc881720e20d66b7ce3219d20ec666b9d",
+   "ordem": 35
   },
   "19-P": {
    "texto": "Art. 19-P. Na falta de protocolo clínico ou de diretriz terapêutica, a dispensação será realizada: (Incluído pela Lei nº 12.401, de 2011)\nI - com base nas relações de medicamentos instituídas pelo gestor federal do SUS, observadas as competências estabelecidas nesta Lei, e a responsabilidade pelo fornecimento será pactuada na Comissão Intergestores Tripartite; (Incluído pela Lei nº 12.401, de 2011)\nII - no âmbito de cada Estado e do Distrito Federal, de forma suplementar, com base nas relações de medicamentos instituídas pelos gestores estaduais do SUS, e a responsabilidade pelo fornecimento será pactuada na Comissão Intergestores Bipartite; (Incluído pela Lei nº 12.401, de 2011)\nIII - no âmbito de cada Município, de forma suplementar, com base nas relações de medicamentos instituídas pelos gestores municipais do SUS, e a responsabilidade pelo fornecimento será pactuada no Conselho Municipal de Saúde. (Incluído pela Lei nº 12.401, de 2011)",
-   "hash": "d02368832ca434d844fcf7ed66b88ac503c04c4b744800ae59dd22173a4195be"
+   "hash": "d02368832ca434d844fcf7ed66b88ac503c04c4b744800ae59dd22173a4195be",
+   "ordem": 36
   },
   "19-Q": {
    "texto": "Art. 19-Q. A incorporação, a exclusão ou a alteração pelo SUS de novos medicamentos, produtos e procedimentos, bem como a constituição ou a alteração de protocolo clínico ou de diretriz terapêutica, são atribuições do Ministério da Saúde, assessorado pela Comissão Nacional de Incorporação de Tecnologias no SUS. (Incluído pela Lei nº 12.401, de 2011)\n§ 1º A Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde (Conitec), cuja composição e regimento são definidos em regulamento, contará com a participação de 1 (um) representante indicado pelo Conselho Nacional de Saúde, de 1 (um) representante, especialista na área, indicado pelo Conselho Federal de Medicina, de 1 (um) representante, especialista na área, indicado pela Associação Médica Brasileira, e de 1 (um) representante de organização da sociedade civil constituída há mais de 2 (dois) anos e atuante na área da respectiva especialidade ou patologia, assegurado o direito a voto. (Redação dada pela Lei nº 15.120, de 2025 Vigência\n§ 1º-A. O assento destinado ao representante de organização da sociedade civil de caráter nacional é de ocupação rotativa e será preenchido pela entidade cuja representatividade seja afeta à condição de saúde analisada. (Incluído pela Lei nº 15.120, de 2025 Vigência\n§ 2o O relatório da Comissão Nacional de Incorporação de Tecnologias no SUS levará em consideração, necessariamente: (Incluído pela Lei nº 12.401, de 2011)\nI - as evidências científicas sobre a eficácia, a acurácia, a efetividade e a segurança do medicamento, produto ou procedimento objeto do processo, acatadas pelo órgão competente para o registro ou a autorização de uso; (Incluído pela Lei nº 12.401, de 2011)\nII - a avaliação econômica comparativa dos benefícios e dos custos em relação às tecnologias já incorporadas, inclusive no que se refere aos atendimentos domiciliar, ambulatorial ou hospitalar, quando cabível. (Incluído pela Lei nº 12.401, de 2011)\n§ 3º As metodologias empregadas na avaliação econômica a que se refere o inciso II do § 2º deste artigo serão dispostas em regulamento e amplamente divulgadas, inclusive em relação aos indicadores e parâmetros de custo-efetividade utilizados em combinação com outros critérios. (Incluído pela Lei nº 14.313, de 2022)",
-   "hash": "31e29202f132bb4b7718f274a1503e073f1ea5c5deae1b16c0713bb4e804af6d"
+   "hash": "31e29202f132bb4b7718f274a1503e073f1ea5c5deae1b16c0713bb4e804af6d",
+   "ordem": 37
   },
   "19-R": {
    "texto": "Art. 19-R. A incorporação, a exclusão e a alteração a que se refere o art. 19-Q serão efetuadas mediante a instauração de processo administrativo, a ser concluído em prazo não superior a 180 (cento e oitenta) dias, contado da data em que foi protocolado o pedido, admitida a sua prorrogação por 90 (noventa) dias corridos, quando as circunstâncias exigirem. (Incluído pela Lei nº 12.401, de 2011)\n§ 1o O processo de que trata o caput deste artigo observará, no que couber, o disposto na Lei no 9.784, de 29 de janeiro de 1999, e as seguintes determinações especiais: (Incluído pela Lei nº 12.401, de 2011)\nI - apresentação pelo interessado dos documentos e, se cabível, das amostras de produtos, na forma do regulamento, com informações necessárias para o atendimento do disposto no § 2o do art. 19-Q; (Incluído pela Lei nº 12.401, de 2011)\nII - (VETADO); (Incluído pela Lei nº 12.401, de 2011)\nIII - realização de consulta pública que inclua a divulgação do parecer emitido pela Comissão Nacional de Incorporação de Tecnologias no SUS; (Incluído pela Lei nº 12.401, de 2011)\nIV - realização de audiência pública, antes da tomada de decisão, se a relevância da matéria justificar o evento. (Incluído pela Lei nº 12.401, de 2011)\nV - distribuição aleatória, respeitadas a especialização e a competência técnica requeridas para a análise da matéria; (Incluído pela Lei nº 14.313, de 2022)\nVI - publicidade dos atos processuais. (Incluído pela Lei nº 14.313, de 2022)\n§ 2o (VETADO). (Incluído pela Lei nº 12.401, de 2011)\n§ 3º O procedimento referido no caput deste artigo tramitará em regime prioritário quando se tratar de análise de medicamento, de produto ou de procedimento relacionado à assistência da pessoa com câncer. (Incluído pela Lei nº 14.758, de 2023)",
-   "hash": "f05ef25c5c40752aa9ee1ed277ffe9a39a0df1d263fe6bcefa189645de3dd2b4"
+   "hash": "f05ef25c5c40752aa9ee1ed277ffe9a39a0df1d263fe6bcefa189645de3dd2b4",
+   "ordem": 38
   },
   "19-S": {
    "texto": "Art. 19-S. (VETADO). (Incluído pela Lei nº 12.401, de 2011)",
-   "hash": "8dec23f3f574ac43d78cb0095828771cd4777c14d56b11e19dbf60e22ab24ad7"
+   "hash": "8dec23f3f574ac43d78cb0095828771cd4777c14d56b11e19dbf60e22ab24ad7",
+   "ordem": 39
   },
   "19-T": {
    "texto": "Art. 19-T. São vedados, em todas as esferas de gestão do SUS: (Incluído pela Lei nº 12.401, de 2011)\nI - o pagamento, o ressarcimento ou o reembolso de medicamento, produto e procedimento clínico ou cirúrgico experimental, ou de uso não autorizado pela Agência Nacional de Vigilância Sanitária - ANVISA; (Incluído pela Lei nº 12.401, de 2011)\nII - a dispensação, o pagamento, o ressarcimento ou o reembolso de medicamento e produto, nacional ou importado, sem registro na Anvisa. (Incluído pela Lei nº 12.401, de 2011)\nParágrafo único. Excetuam-se do disposto neste artigo: (Incluído pela Lei nº 14.313, de 2022)\nI - medicamento e produto em que a indicação de uso seja distinta daquela aprovada no registro na Anvisa, desde que seu uso tenha sido recomendado pela Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde (Conitec), demonstradas as evidências científicas sobre a eficácia, a acurácia, a efetividade e a segurança, e esteja padronizado em protocolo estabelecido pelo Ministério da Saúde; (Incluído pela Lei nº 14.313, de 2022)\nII - medicamento e produto recomendados pela Conitec e adquiridos por intermédio de organismos multilaterais internacionais, para uso em programas de saúde pública do Ministério da Saúde e suas entidades vinculadas, nos termos do § 5º do art. 8º da Lei nº 9.782, de 26 de janeiro de 1999. (Incluído pela Lei nº 14.313, de 2022)",
-   "hash": "011cc46247930a4835c2252dc11a8d63ddd07f9898db5e88f183affee3656970"
+   "hash": "011cc46247930a4835c2252dc11a8d63ddd07f9898db5e88f183affee3656970",
+   "ordem": 40
   },
   "19-U": {
    "texto": "Art. 19-U. A responsabilidade financeira pelo fornecimento de medicamentos, produtos de interesse para a saúde ou procedimentos de que trata este Capítulo será pactuada na Comissão Intergestores Tripartite. (Incluído pela Lei nº 12.401, de 2011)",
-   "hash": "4796d94378916345c7535fe875366f3fc636ddfc16a5ad1916dab60c16befb19"
+   "hash": "4796d94378916345c7535fe875366f3fc636ddfc16a5ad1916dab60c16befb19",
+   "ordem": 41
   },
   "19-V": {
    "texto": "Art. 19-V. Os gestores do SUS, em todas as esferas, realizarão campanhas permanentes de conscientização contra a automedicação, com o objetivo de informar a população sobre os riscos dessa prática, especialmente quanto à ingestão de antibióticos ou de medicamentos sujeitos a controle especial. (Incluído pela Lei nº 14.912, de 2024)",
-   "hash": "65a6eeb58bbd0dc2e96828dfafeeb5034371dfb16bb3bbb3a2d2a7869ebab473"
+   "hash": "65a6eeb58bbd0dc2e96828dfafeeb5034371dfb16bb3bbb3a2d2a7869ebab473",
+   "ordem": 42
   },
   "19-W": {
    "texto": "Art. 19-W. Os laboratórios farmacêuticos de natureza pública que tiverem as condições técnicas para a produção de fármacos deverão produzir os princípios ativos destinados ao tratamento das doenças determinadas socialmente, nos termos de regulamento. (Incluído pela Lei nº 14.977, de 2025) Vigência\n§ 1º Os laboratórios farmacêuticos de natureza pública que não tiverem as condições técnicas para a produção de fármacos poderão desenvolver projetos e celebrar acordos, convênios e outros ajustes com vistas à adaptação de sua linha produtiva e à aquisição de tecnologias e processos direcionados à produção farmoquímica. (Incluído pela Lei nº 14.977, de 2025) Vigência\n§ 2º O poder público fica autorizado a financiar, a estimular, a promover e a buscar parcerias nacionais e internacionais com laboratórios farmoquímicos que detenham a tecnologia para a produção de fármacos, a fim de obter os requisitos necessários à transferência dessa tecnologia e do conhecimento para os laboratórios de natureza pública capacitados na forma deste artigo. (Incluído pela Lei nº 14.977, de 2025) Vigência\nTÍTULO III\nDOS SERVIÇOS PRIVADOS DE ASSISTÊNCIA À SAÙDE\nCAPÍTULO I\nDo Funcionamento",
-   "hash": "0339a57811984ea08d1cc97a336230524ff8343bb010f2ae1bcd8290277362a8"
+   "hash": "0339a57811984ea08d1cc97a336230524ff8343bb010f2ae1bcd8290277362a8",
+   "ordem": 43
   },
   "20": {
    "texto": "Art. 20. Os serviços privados de assistência à saúde caracterizam-se pela atuação, por iniciativa própria, de profissionais liberais, legalmente habilitados, e de pessoas jurídicas de direito privado na promoção, proteção e recuperação da saúde.",
-   "hash": "2689e72aec30a49f8141e87f9e27ebf44c45f3c249f5ec2a19b81a5dae3c470e"
+   "hash": "2689e72aec30a49f8141e87f9e27ebf44c45f3c249f5ec2a19b81a5dae3c470e",
+   "ordem": 44
   },
   "21": {
    "texto": "Art. 21. A assistência à saúde é livre à iniciativa privada.",
-   "hash": "81c115eb35157ce10189dffda9f1771e935f2053b3ec105138bfbe8fd89fc0f9"
+   "hash": "81c115eb35157ce10189dffda9f1771e935f2053b3ec105138bfbe8fd89fc0f9",
+   "ordem": 45
   },
   "22": {
    "texto": "Art. 22. Na prestação de serviços privados de assistência à saúde, serão observados os princípios éticos e as normas expedidas pelo órgão de direção do Sistema Único de Saúde (SUS) quanto às condições para seu funcionamento.",
-   "hash": "18ec776ccc863c5cc5659a0d67bcaca2031805a2e7a61aca30886e868968dde9"
+   "hash": "18ec776ccc863c5cc5659a0d67bcaca2031805a2e7a61aca30886e868968dde9",
+   "ordem": 46
   },
   "23": {
    "texto": "Art. 23. É permitida a participação direta ou indireta, inclusive controle, de empresas ou de capital estrangeiro na assistência à saúde nos seguintes casos: (Redação dada pela Lei nº 13.097, de 2015)\nI - doações de organismos internacionais vinculados à Organização das Nações Unidas, de entidades de cooperação técnica e de financiamento e empréstimos; (Incluído pela Lei nº 13.097, de 2015)\nII - pessoas jurídicas destinadas a instalar, operacionalizar ou explorar: (Incluído pela Lei nº 13.097, de 2015)\na) hospital geral, inclusive filantrópico, hospital especializado, policlínica, clínica geral e clínica especializada; e (Incluído pela Lei nº 13.097, de 2015)\nb) ações e pesquisas de planejamento familiar; (Incluído pela Lei nº 13.097, de 2015)\nIII - serviços de saúde mantidos, sem finalidade lucrativa, por empresas, para atendimento de seus empregados e dependentes, sem qualquer ônus para a seguridade social; e (Incluído pela Lei nº 13.097, de 2015)\nIV - demais casos previstos em legislação específica. (Incluído pela Lei nº 13.097, de 2015)\nCAPÍTULO II\nDa Participação Complementar",
-   "hash": "dff6bff2640331d03c1000667243bdc5b907ede2dd7e8240c676fc4ca9946161"
+   "hash": "dff6bff2640331d03c1000667243bdc5b907ede2dd7e8240c676fc4ca9946161",
+   "ordem": 47
   },
   "24": {
    "texto": "Art. 24. Quando as suas disponibilidades forem insuficientes para garantir a cobertura assistencial à população de uma determinada área, o Sistema Único de Saúde (SUS) poderá recorrer aos serviços ofertados pela iniciativa privada.\nParágrafo único. A participação complementar dos serviços privados será formalizada mediante contrato ou convênio, observadas, a respeito, as normas de direito público.",
-   "hash": "b613c38af87bd6fdef63586cfcd1ab6d0503a6784fa0b25fee4d6467e4961389"
+   "hash": "b613c38af87bd6fdef63586cfcd1ab6d0503a6784fa0b25fee4d6467e4961389",
+   "ordem": 48
   },
   "25": {
    "texto": "Art. 25. Na hipótese do artigo anterior, as entidades filantrópicas e as sem fins lucrativos terão preferência para participar do Sistema Único de Saúde (SUS).",
-   "hash": "61ba29c0811643302feb6131080e90d4add0a43c30f4c7a0d0ee9d69af0dddf5"
+   "hash": "61ba29c0811643302feb6131080e90d4add0a43c30f4c7a0d0ee9d69af0dddf5",
+   "ordem": 49
   },
   "26": {
    "texto": "Art. 26. Os critérios e valores para a remuneração de serviços e os parâmetros de cobertura assistencial serão estabelecidos pela direção nacional do Sistema Único de Saúde (SUS), aprovados no Conselho Nacional de Saúde.\n§ 1° Na fixação dos critérios, valores, formas de reajuste e de pagamento da remuneração aludida neste artigo, a direção nacional do Sistema Único de Saúde (SUS) deverá fundamentar seu ato em demonstrativo econômico-financeiro que garanta a efetiva qualidade de execução dos serviços contratados.\n§ 2° Os serviços contratados submeter-se-ão às normas técnicas e administrativas e aos princípios e diretrizes do Sistema Único de Saúde (SUS), mantido o equilíbrio econômico e financeiro do contrato.\n§ 3° (Vetado).\n§ 4° Aos proprietários, administradores e dirigentes de entidades ou serviços contratados é vedado exercer cargo de chefia ou função de confiança no Sistema Único de Saúde (SUS).\n§ 5º Os valores a que se refere o caput deste artigo, para o conjunto das remunerações dos serviços de saúde, serão definidos no mês de dezembro de cada ano, por meio de ato do Ministério da Saúde, devendo-se buscar a garantia da qualidade do atendimento, o equilíbrio econômico-financeiro na prestação dos serviços e a preservação do valor real destinado à remuneração de serviços, observada a disponibilidade orçamentária e financeira. (Incluído pela Lei nº 14.820, de 2024)\nTÍTULO III-A\n(Incluído pela Lei nº 14.510, de 2022)\nDA TELESSAÚDE",
-   "hash": "e2a17d107694b6b0dce86542cd3eb7ec9ed9d359f7e5f28a5780159a7839e73a"
+   "hash": "e2a17d107694b6b0dce86542cd3eb7ec9ed9d359f7e5f28a5780159a7839e73a",
+   "ordem": 50
   },
   "26-A": {
    "texto": "Art. 26-A. A telessaúde abrange a prestação remota de serviços relacionados a todas as profissões da área da saúde regulamentadas pelos órgãos competentes do Poder Executivo federal e obedecerá aos seguintes princípios: (Incluído pela Lei nº 14.510, de 2022)\nI - autonomia do profissional de saúde; (Incluído pela Lei nº 14.510, de 2022)\nII - consentimento livre e informado do paciente;\nIII - direito de recusa ao atendimento na modalidade telessaúde, com a garantia do atendimento presencial sempre que solicitado; (Incluído pela Lei nº 14.510, de 2022)\nIV - dignidade e valorização do profissional de saúde; (Incluído pela Lei nº 14.510, de 2022)\nV - assistência segura e com qualidade ao paciente; (Incluído pela Lei nº 14.510, de 2022)\nVI - confidencialidade dos dados; (Incluído pela Lei nº 14.510, de 2022)\nVII - promoção da universalização do acesso dos brasileiros às ações e aos serviços de saúde; (Incluído pela Lei nº 14.510, de 2022)\nVIII - estrita observância das atribuições legais de cada profissão; (Incluído pela Lei nº 14.510, de 2022)\nIX - responsabilidade digital. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "56680c113d6ef2e47c59554808c6683f5ebcc7811b50db01d4383fbaf9afdf5f"
+   "hash": "56680c113d6ef2e47c59554808c6683f5ebcc7811b50db01d4383fbaf9afdf5f",
+   "ordem": 51
   },
   "26-B": {
    "texto": "Art. 26-B. Para fins desta Lei, considera-se telessaúde a modalidade de prestação de serviços de saúde a distância, por meio da utilização das tecnologias da informação e da comunicação, que envolve, entre outros, a transmissão segura de dados e informações de saúde, por meio de textos, de sons, de imagens ou outras formas adequadas. (Incluído pela Lei nº 14.510, de 2022)\nParágrafo único. Os atos do profissional de saúde, quando praticados na modalidade telessaúde, terão validade em todo o território nacional. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "76c651a308876efe8f59ab96f3a3eb387a20a5b6e6fc30621ed9126f30dde9d3"
+   "hash": "76c651a308876efe8f59ab96f3a3eb387a20a5b6e6fc30621ed9126f30dde9d3",
+   "ordem": 52
   },
   "26-C": {
    "texto": "Art. 26-C. Ao profissional de saúde são asseguradas a liberdade e a completa independência de decidir sobre a utilização ou não da telessaúde, inclusive com relação à primeira consulta, atendimento ou procedimento, e poderá indicar a utilização de atendimento presencial ou optar por ele, sempre que entender necessário. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "0ced677a553a9c900b7fadddbb41b2b06b6345a4fe3217d36d65756af52935df"
+   "hash": "0ced677a553a9c900b7fadddbb41b2b06b6345a4fe3217d36d65756af52935df",
+   "ordem": 53
   },
   "26-D": {
    "texto": "Art. 26-D. Compete aos conselhos federais de fiscalização do exercício profissional a normatização ética relativa à prestação dos serviços previstos neste Título, aplicando-se os padrões normativos adotados para as modalidades de atendimento presencial, no que não colidirem com os preceitos desta Lei. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "56aa0bd5bd288f280391ee847dbe68e37603fe0c2ffeeb9be9e435f32c3784b5"
+   "hash": "56aa0bd5bd288f280391ee847dbe68e37603fe0c2ffeeb9be9e435f32c3784b5",
+   "ordem": 54
   },
   "26-E": {
    "texto": "Art. 26-E. Na prestação de serviços por telessaúde, serão observadas as normas expedidas pelo órgão de direção do Sistema Único de Saúde (SUS) quanto às condições para seu funcionamento, observada a competência dos demais órgãos reguladores. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "a3b26eb43d0448bbad8df69a0ffca7a4b2826d43052e3199e8086f4934362ea2"
+   "hash": "a3b26eb43d0448bbad8df69a0ffca7a4b2826d43052e3199e8086f4934362ea2",
+   "ordem": 55
   },
   "26-F": {
    "texto": "Art. 26-F. O ato normativo que pretenda restringir a prestação de serviço de telessaúde deverá demonstrar a imprescindibilidade da medida para que sejam evitados danos à saúde dos pacientes. (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "abe13b1cb7d459013da561c35a74c3fd60d52b1c16d52a0ddb1854de2a11c1fd"
+   "hash": "abe13b1cb7d459013da561c35a74c3fd60d52b1c16d52a0ddb1854de2a11c1fd",
+   "ordem": 56
   },
   "26-G": {
    "texto": "Art. 26-G. A prática da telessaúde deve seguir as seguintes determinações: (Incluído pela Lei nº 14.510, de 2022)\nI - ser realizada por consentimento livre e esclarecido do paciente, ou de seu representante legal, e sob responsabilidade do profissional de saúde; (Incluído pela Lei nº 14.510, de 2022)\nII - prestar obediência aos ditames das Leis nºs 12.965, de 23 de abril de 2014 (Marco Civil da Internet), 12.842, de 10 de julho de 2013 (Lei do Ato Médico), 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados), 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor) e, nas hipóteses cabíveis, aos ditames da Lei nº 13.787, de 27 de dezembro de 2018 (Lei do Prontuário Eletrônico). (Incluído pela Lei nº 14.510, de 2022)",
-   "hash": "e3d3ea203080a2a08b40cb4e36638c1d0acfe609d1fee3ca11aa39e1d4c26e92"
+   "hash": "e3d3ea203080a2a08b40cb4e36638c1d0acfe609d1fee3ca11aa39e1d4c26e92",
+   "ordem": 57
   },
   "26-H": {
    "texto": "Art. 26-H. É dispensada a inscrição secundária ou complementar do profissional de saúde que exercer a profissão em outra jurisdição exclusivamente por meio da modalidade telessaúde. (Incluído pela Lei nº 14.510, de 2022)\nTÍTULO IV\nDOS RECURSOS HUMANOS",
-   "hash": "fcced8c6465f7ec09435ceb59b4252306f130ff8598e4b481ca0b561b999e47c"
+   "hash": "fcced8c6465f7ec09435ceb59b4252306f130ff8598e4b481ca0b561b999e47c",
+   "ordem": 58
   },
   "27": {
    "texto": "Art. 27. A política de recursos humanos na área da saúde será formalizada e executada, articuladamente, pelas diferentes esferas de governo, em cumprimento dos seguintes objetivos:\nI - organização de um sistema de formação de recursos humanos em todos os níveis de ensino, inclusive de pós-graduação, além da elaboração de programas de permanente aperfeiçoamento de pessoal;\nII - (Vetado)\nIII - (Vetado)\nIV - valorização da dedicação exclusiva aos serviços do Sistema Único de Saúde (SUS).\nParágrafo único. Os serviços públicos que integram o Sistema Único de Saúde (SUS) constituem campo de prática para ensino e pesquisa, mediante normas específicas, elaboradas conjuntamente com o sistema educacional.",
-   "hash": "1570d7dafd0990f41028a767641c89abed4736cba21ce67e4e40336db420901c"
+   "hash": "1570d7dafd0990f41028a767641c89abed4736cba21ce67e4e40336db420901c",
+   "ordem": 59
   },
   "28": {
    "texto": "Art. 28. Os cargos e funções de chefia, direção e assessoramento, no âmbito do Sistema Único de Saúde (SUS), só poderão ser exercidas em regime de tempo integral.\n§ 1° Os servidores que legalmente acumulam dois cargos ou empregos poderão exercer suas atividades em mais de um estabelecimento do Sistema Único de Saúde (SUS).\n§ 2° O disposto no parágrafo anterior aplica-se também aos servidores em regime de tempo integral, com exceção dos ocupantes de cargos ou função de chefia, direção ou assessoramento.",
-   "hash": "4c0d5a8d96ebaa15ce293e128af148dccbcb72ee80e1231c9f8c48a90d3e3c55"
+   "hash": "4c0d5a8d96ebaa15ce293e128af148dccbcb72ee80e1231c9f8c48a90d3e3c55",
+   "ordem": 60
   },
   "29": {
    "texto": "Art. 29. (Vetado).",
-   "hash": "610548c72160f13c72a29430bb022b63ca9e595d63b98d9241a9d010da8a8931"
+   "hash": "610548c72160f13c72a29430bb022b63ca9e595d63b98d9241a9d010da8a8931",
+   "ordem": 61
   },
   "30": {
    "texto": "Art. 30. As especializações na forma de treinamento em serviço sob supervisão serão regulamentadas por Comissão Nacional, instituída de acordo com o art. 12 desta Lei, garantida a participação das entidades profissionais correspondentes.\nTÍTULO V\nDO FINANCIAMENTO\nCAPÍTULO I\nDos Recursos",
-   "hash": "457c2b0f12dc410f10fa6a9a160669a5e01a56cae9f4ae7e05a4ba380c8c7ded"
+   "hash": "457c2b0f12dc410f10fa6a9a160669a5e01a56cae9f4ae7e05a4ba380c8c7ded",
+   "ordem": 62
   },
   "31": {
    "texto": "Art. 31. O orçamento da seguridade social destinará ao Sistema Único de Saúde (SUS) de acordo com a receita estimada, os recursos necessários à realização de suas finalidades, previstos em proposta elaborada pela sua direção nacional, com a participação dos órgãos da Previdência Social e da Assistência Social, tendo em vista as metas e prioridades estabelecidas na Lei de Diretrizes Orçamentárias.",
-   "hash": "2e337e95633e52fe2975b8866a46ae81329252d8eac3dc6543576b15d426ff02"
+   "hash": "2e337e95633e52fe2975b8866a46ae81329252d8eac3dc6543576b15d426ff02",
+   "ordem": 63
   },
   "32": {
    "texto": "Art. 32. São considerados de outras fontes os recursos provenientes de:\nI - (Vetado)\nII - Serviços que possam ser prestados sem prejuízo da assistência à saúde;\nIII - ajuda, contribuições, doações e donativos;\nIV - alienações patrimoniais e rendimentos de capital;\nV - taxas, multas, emolumentos e preços públicos arrecadados no âmbito do Sistema Único de Saúde (SUS); e\nVI - rendas eventuais, inclusive comerciais e industriais.\n§ 1° Ao Sistema Único de Saúde (SUS) caberá metade da receita de que trata o inciso I deste artigo, apurada mensalmente, a qual será destinada à recuperação de viciados.\n§ 2° As receitas geradas no âmbito do Sistema Único de Saúde (SUS) serão creditadas diretamente em contas especiais, movimentadas pela sua direção, na esfera de poder onde forem arrecadadas.\n§ 3º As ações de saneamento que venham a ser executadas supletivamente pelo Sistema Único de Saúde (SUS), serão financiadas por recursos tarifários específicos e outros da União, Estados, Distrito Federal, Municípios e, em particular, do Sistema Financeiro da Habitação (SFH).\n§ 4º (Vetado).\n§ 5º As atividades de pesquisa e desenvolvimento científico e tecnológico em saúde serão co-financiadas pelo Sistema Único de Saúde (SUS), pelas universidades e pelo orçamento fiscal, além de recursos de instituições de fomento e financiamento ou de origem externa e receita própria das instituições executoras.\n§ 6º (Vetado).\nCAPÍTULO II\nDa Gestão Financeira",
-   "hash": "3351096e1bc3779e66127927fffbc28fa635af848cf763a43868acfc93494207"
+   "hash": "3351096e1bc3779e66127927fffbc28fa635af848cf763a43868acfc93494207",
+   "ordem": 64
   },
   "33": {
    "texto": "Art. 33. Os recursos financeiros do Sistema Único de Saúde (SUS) serão depositados em conta especial, em cada esfera de sua atuação, e movimentados sob fiscalização dos respectivos Conselhos de Saúde.\n§ 1º Na esfera federal, os recursos financeiros, originários do Orçamento da Seguridade Social, de outros Orçamentos da União, além de outras fontes, serão administrados pelo Ministério da Saúde, através do Fundo Nacional de Saúde.\n§ 2º (Vetado).\n§ 3º (Vetado).\n§ 4º O Ministério da Saúde acompanhará, através de seu sistema de auditoria, a conformidade à programação aprovada da aplicação dos recursos repassados a Estados e Municípios. Constatada a malversação, desvio ou não aplicação dos recursos, caberá ao Ministério da Saúde aplicar as medidas previstas em lei.",
-   "hash": "2f5d9750de3741e7f2ba3f2df56ced8fdb2376aaa4dc7b4a3917668b2677a3ff"
+   "hash": "2f5d9750de3741e7f2ba3f2df56ced8fdb2376aaa4dc7b4a3917668b2677a3ff",
+   "ordem": 65
   },
   "34": {
    "texto": "Art. 34. As autoridades responsáveis pela distribuição da receita efetivamente arrecadada transferirão automaticamente ao Fundo Nacional de Saúde (FNS), observado o critério do parágrafo único deste artigo, os recursos financeiros correspondentes às dotações consignadas no Orçamento da Seguridade Social, a projetos e atividades a serem executados no âmbito do Sistema Único de Saúde (SUS).\nParágrafo único. Na distribuição dos recursos financeiros da Seguridade Social será observada a mesma proporção da despesa prevista de cada área, no Orçamento da Seguridade Social.",
-   "hash": "6a50d314b6e5d6c5f69fb26d593974ba5c3ba164754710a07d2f07b5f7d05da2"
+   "hash": "6a50d314b6e5d6c5f69fb26d593974ba5c3ba164754710a07d2f07b5f7d05da2",
+   "ordem": 66
   },
   "35": {
    "texto": "Art. 35. Para o estabelecimento de valores a serem transferidos a Estados, Distrito Federal e Municípios, será utilizada a combinação dos seguintes critérios, segundo análise técnica de programas e projetos:\nI - perfil demográfico da região;\nII - perfil epidemiológico da população a ser coberta;\nIII - características quantitativas e qualitativas da rede de saúde na área;\nIV - desempenho técnico, econômico e financeiro no período anterior;\nV - níveis de participação do setor saúde nos orçamentos estaduais e municipais;\nVI - previsão do plano qüinqüenal de investimentos da rede;\nVII - ressarcimento do atendimento a serviços prestados para outras esferas de governo.\n(Revogado pela Lei Complementar nº 141, de 2012) (Vide Lei nº 8.142, de 1990)\n§ 2º Nos casos de Estados e Municípios sujeitos a notório processo de migração, os critérios demográficos mencionados nesta lei serão ponderados por outros indicadores de crescimento populacional, em especial o número de eleitores registrados.\n§ 3º (Vetado).\n§ 4º (Vetado).\n§ 5º (Vetado).\n§ 6º O disposto no parágrafo anterior não prejudica a atuação dos órgãos de controle interno e externo e nem a aplicação de penalidades previstas em lei, em caso de irregularidades verificadas na gestão dos recursos transferidos.\nCAPÍTULO III\nDo Planejamento e do Orçamento",
-   "hash": "a2f1c702487abe4d6a22b7fadeb9f36ea5b82875bc30925750c392d68a48d0a9"
+   "hash": "a2f1c702487abe4d6a22b7fadeb9f36ea5b82875bc30925750c392d68a48d0a9",
+   "ordem": 67
   },
   "36": {
    "texto": "Art. 36. O processo de planejamento e orçamento do Sistema Único de Saúde (SUS) será ascendente, do nível local até o federal, ouvidos seus órgãos deliberativos, compatibilizando-se as necessidades da política de saúde com a disponibilidade de recursos em planos de saúde dos Municípios, dos Estados, do Distrito Federal e da União.\n§ 1º Os planos de saúde serão a base das atividades e programações de cada nível de direção do Sistema Único de Saúde (SUS), e seu financiamento será previsto na respectiva proposta orçamentária.\n§ 2º É vedada a transferência de recursos para o financiamento de ações não previstas nos planos de saúde, exceto em situações emergenciais ou de calamidade pública, na área de saúde.",
-   "hash": "c35417d80ebb6f1f21cffc73a82c93b9bf5d7bbcc991ad3791fe119ddee239d1"
+   "hash": "c35417d80ebb6f1f21cffc73a82c93b9bf5d7bbcc991ad3791fe119ddee239d1",
+   "ordem": 68
   },
   "37": {
    "texto": "Art. 37. O Conselho Nacional de Saúde estabelecerá as diretrizes a serem observadas na elaboração dos planos de saúde, em função das características epidemiológicas e da organização dos serviços em cada jurisdição administrativa.",
-   "hash": "79bf1572914618815ca2a2a74b324d3a70e62ee6c9dac4c2fc8612e2c982653a"
+   "hash": "79bf1572914618815ca2a2a74b324d3a70e62ee6c9dac4c2fc8612e2c982653a",
+   "ordem": 69
   },
   "38": {
    "texto": "Art. 38. Não será permitida a destinação de subvenções e auxílios a instituições prestadoras de serviços de saúde com finalidade lucrativa.\nDAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
-   "hash": "7b82baebc873f1b4f6c69928bee99c7a1c6144d3960f57bd85b059bcbbda3f60"
+   "hash": "7b82baebc873f1b4f6c69928bee99c7a1c6144d3960f57bd85b059bcbbda3f60",
+   "ordem": 70
   },
   "39": {
    "texto": "Art. 39. (Vetado).\n§ 1º (Vetado).\n§ 2º (Vetado).\n§ 3º (Vetado).\n§ 4º (Vetado).\n§ 5º A cessão de uso dos imóveis de propriedade do Inamps para órgãos integrantes do Sistema Único de Saúde (SUS) será feita de modo a preservá-los como patrimônio da Seguridade Social.\n§ 6º Os imóveis de que trata o parágrafo anterior serão inventariados com todos os seus acessórios, equipamentos e outros bens móveis e ficarão disponíveis para utilização pelo órgão de direção municipal do Sistema Único de Saúde - SUS ou, eventualmente, pelo estadual, em cuja circunscrição administrativa se encontrem, mediante simples termo de recebimento.\n§ 7º (Vetado).\n§ 8º O acesso aos serviços de informática e bases de dados, mantidos pelo Ministério da Saúde e pelo Ministério do Trabalho e da Previdência Social, será assegurado às Secretarias Estaduais e Municipais de Saúde ou órgãos congêneres, como suporte ao processo de gestão, de forma a permitir a gerencia informatizada das contas e a disseminação de estatísticas sanitárias e epidemiológicas médico-hospitalares.",
-   "hash": "696ad49ea035e142c4a27f4939d1691b9d89ff5452963bdc364e0a7991484060"
+   "hash": "696ad49ea035e142c4a27f4939d1691b9d89ff5452963bdc364e0a7991484060",
+   "ordem": 71
   },
   "40": {
    "texto": "Art. 40. (Vetado)",
-   "hash": "3e14ef751d432797de3423fc5c77606667a5af520fbc3d433f9bd05fec9c419a"
+   "hash": "3e14ef751d432797de3423fc5c77606667a5af520fbc3d433f9bd05fec9c419a",
+   "ordem": 72
   },
   "41": {
    "texto": "Art. 41. As ações desenvolvidas pela Fundação das Pioneiras Sociais e pelo Instituto Nacional do Câncer, supervisionadas pela direção nacional do Sistema Único de Saúde (SUS), permanecerão como referencial de prestação de serviços, formação de recursos humanos e para transferência de tecnologia.",
-   "hash": "8e6752443dcb818c3cb1016e5f713a1c1378e3b65e53853c198a4204ab5c1f10"
+   "hash": "8e6752443dcb818c3cb1016e5f713a1c1378e3b65e53853c198a4204ab5c1f10",
+   "ordem": 73
   },
   "42": {
    "texto": "Art. 42. (Vetado).",
-   "hash": "1133d4c9a9fd75c5ab88677eb7788bd541c1f56d76a33190a79593234421c2bf"
+   "hash": "1133d4c9a9fd75c5ab88677eb7788bd541c1f56d76a33190a79593234421c2bf",
+   "ordem": 74
   },
   "43": {
    "texto": "Art. 43. A gratuidade das ações e serviços de saúde fica preservada nos serviços públicos contratados, ressalvando-se as cláusulas dos contratos ou convênios estabelecidos com as entidades privadas.",
-   "hash": "c69d036a3af658e7bee30f128f7038db464aaaac3340a937aeb0a06ccc9c997d"
+   "hash": "c69d036a3af658e7bee30f128f7038db464aaaac3340a937aeb0a06ccc9c997d",
+   "ordem": 75
   },
   "44": {
    "texto": "Art. 44. (Vetado).",
-   "hash": "ae6201a92f656f47265d3bd97d90b8d41fe9cfb4d26edf27e34ed4d4e5c7522f"
+   "hash": "ae6201a92f656f47265d3bd97d90b8d41fe9cfb4d26edf27e34ed4d4e5c7522f",
+   "ordem": 76
   },
   "45": {
    "texto": "Art. 45. Os serviços de saúde dos hospitais universitários e de ensino integram-se ao Sistema Único de Saúde (SUS), mediante convênio, preservada a sua autonomia administrativa, em relação ao patrimônio, aos recursos humanos e financeiros, ensino, pesquisa e extensão nos limites conferidos pelas instituições a que estejam vinculados.\n§ 1º Os serviços de saúde de sistemas estaduais e municipais de previdência social deverão integrar-se à direção correspondente do Sistema Único de Saúde (SUS), conforme seu âmbito de atuação, bem como quaisquer outros órgãos e serviços de saúde.\n§ 2º Em tempo de paz e havendo interesse recíproco, os serviços de saúde das Forças Armadas poderão integrar-se ao Sistema Único de Saúde (SUS), conforme se dispuser em convênio que, para esse fim, for firmado.",
-   "hash": "9b1ca568027818802a44d6eaef089b68e87340b98029c60363b4b86df7c13ea9"
+   "hash": "9b1ca568027818802a44d6eaef089b68e87340b98029c60363b4b86df7c13ea9",
+   "ordem": 77
   },
   "46": {
    "texto": "Art. 46. o Sistema Único de Saúde (SUS), estabelecerá mecanismos de incentivos à participação do setor privado no investimento em ciência e tecnologia e estimulará a transferência de tecnologia das universidades e institutos de pesquisa aos serviços de saúde nos Estados, Distrito Federal e Municípios, e às empresas nacionais.",
-   "hash": "b05a7cd926f9e189eb9196b039022d506d99b94fdc5aed3cc7cff712da87483d"
+   "hash": "b05a7cd926f9e189eb9196b039022d506d99b94fdc5aed3cc7cff712da87483d",
+   "ordem": 78
   },
   "47": {
    "texto": "Art. 47. O Ministério da Saúde, em articulação com os níveis estaduais e municipais do Sistema Único de Saúde (SUS), organizará, no prazo de dois anos, um sistema nacional de informações em saúde, integrado em todo o território nacional, abrangendo questões epidemiológicas e de prestação de serviços. (Regulamento)",
-   "hash": "571aeb3883eaea9da3daa5f9ecc504c9cdfe417f3bbd1d3d911041bfc4c72122"
+   "hash": "571aeb3883eaea9da3daa5f9ecc504c9cdfe417f3bbd1d3d911041bfc4c72122",
+   "ordem": 79
   },
   "47-A": {
    "texto": "Art. 47-A. O SUS contará com sistema de dados públicos mantido pelo Ministério da Saúde, que conterá informações sobre o tempo médio de espera para a realização de consultas, de procedimentos, de exames e de demais ações e serviços de atenção especializada à saúde. (Incluído pela Lei nº 15.233, de 2025)\n§ 1º Compete ao Ministério da Saúde regulamentar o sistema de que trata o caput deste artigo, especialmente quanto à interoperabilidade para recebimento dos dados dos entes federativos, permitida a gestão compartilhada pela União e pelos entes subnacionais, garantidos o atendimento aos princípios e os parâmetros estabelecidos na Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), quando aplicáveis. (Incluído pela Lei nº 15.233, de 2025)\n§ 2º As secretarias estaduais, distrital e municipais de saúde deverão garantir o registro das informações da regulação assistencial em seu âmbito de gestão e enviar, obrigatoriamente, os dados ao Ministério da Saúde. (Incluído pela Lei nº 15.233, de 2025)\n§ 3º Os pedidos de novas habilitações, credenciamentos e majoração de valores relacionados à prestação de serviços estabelecidos pelas políticas e pelos programas de atenção especializada à saúde somente serão analisados e concedidos, na forma prevista no regulamento de que trata o § 1º, para os entes federativos que cumprirem o disposto no § 2º deste artigo. (Incluído pela Lei nº 15.233, de 2025)",
-   "hash": "a294ed2d4cb55ac1136d1c387bbd168c228fd387463b2438fbdabfa32a0dfe57"
+   "hash": "a294ed2d4cb55ac1136d1c387bbd168c228fd387463b2438fbdabfa32a0dfe57",
+   "ordem": 80
   },
   "48": {
    "texto": "Art. 48. (Vetado).",
-   "hash": "ba53c2b822670f9bb85e1d52e8611976126463b58c18187dc682db87e96f1b3c"
+   "hash": "ba53c2b822670f9bb85e1d52e8611976126463b58c18187dc682db87e96f1b3c",
+   "ordem": 81
   },
   "49": {
    "texto": "Art. 49. (Vetado).",
-   "hash": "ab2f8653a61cb80b3c985c8899be1989a742acb869e52ef89e25bc44a10ee96b"
+   "hash": "ab2f8653a61cb80b3c985c8899be1989a742acb869e52ef89e25bc44a10ee96b",
+   "ordem": 82
   },
   "50": {
    "texto": "Art. 50. Os convênios entre a União, os Estados e os Municípios, celebrados para implantação dos Sistemas Unificados e Descentralizados de Saúde, ficarão rescindidos à proporção que seu objeto for sendo absorvido pelo Sistema Único de Saúde (SUS).",
-   "hash": "a55bc9548e9044e0c76f5c97f9215bea4180ed5319b12c7db666bbe668f490e5"
+   "hash": "a55bc9548e9044e0c76f5c97f9215bea4180ed5319b12c7db666bbe668f490e5",
+   "ordem": 83
   },
   "51": {
    "texto": "Art. 51. (Vetado).",
-   "hash": "3cf2768520be5d6063aa136a6848cf9ac305e0b85e58f52b02d014a493074d4a"
+   "hash": "3cf2768520be5d6063aa136a6848cf9ac305e0b85e58f52b02d014a493074d4a",
+   "ordem": 84
   },
   "52": {
    "texto": "Art. 52. Sem prejuízo de outras sanções cabíveis, constitui crime de emprego irregular de verbas ou rendas públicas (Código Penal, art. 315) a utilização de recursos financeiros do Sistema Único de Saúde (SUS) em finalidades diversas das previstas nesta lei.",
-   "hash": "f4392f7e5b19e1333c99a631e6eced6c17c65c0dd8b26590a7336ad7110d2619"
+   "hash": "f4392f7e5b19e1333c99a631e6eced6c17c65c0dd8b26590a7336ad7110d2619",
+   "ordem": 85
   },
   "53": {
    "texto": "Art. 53. (Vetado).",
-   "hash": "d3cbaf1f16ee7800d5cbd2604ffe17e5ebdf15fb506d70bbf36f542e0c1e1ab2"
+   "hash": "d3cbaf1f16ee7800d5cbd2604ffe17e5ebdf15fb506d70bbf36f542e0c1e1ab2",
+   "ordem": 86
   },
   "53-A": {
    "texto": "Art. 53-A. Na qualidade de ações e serviços de saúde, as atividades de apoio à assistência à saúde são aquelas desenvolvidas pelos laboratórios de genética humana, produção e fornecimento de medicamentos e produtos para saúde, laboratórios de analises clínicas, anatomia patológica e de diagnóstico por imagem e são livres à participação direta ou indireta de empresas ou de capitais estrangeiros. (Incluído pela Lei nº 13.097, de 2015)",
-   "hash": "92b543e2724f369c6b96357eeb915eef07c6d705e83bf90639319484c418dd45"
+   "hash": "92b543e2724f369c6b96357eeb915eef07c6d705e83bf90639319484c418dd45",
+   "ordem": 87
   },
   "54": {
    "texto": "Art. 54. Esta lei entra em vigor na data de sua publicação.",
-   "hash": "a6d00e911266cbcea00f8f8c74a1572f8c8586cbeca0a0c5bf3fc9ecf64cf8b4"
+   "hash": "a6d00e911266cbcea00f8f8c74a1572f8c8586cbeca0a0c5bf3fc9ecf64cf8b4",
+   "ordem": 88
   },
   "55": {
    "texto": "Art. 55. São revogadas a Lei nº. 2.312, de 3 de setembro de 1954, a Lei nº. 6.229, de 17 de julho de 1975, e demais disposições em contrário.\nBrasília, 19 de setembro de 1990; 169º da Independência e 102º da República.\nFERNANDO COLLOR\nAlceni Guerra\nEste texto não substitui o publicado no DOU de 20.9.1990\n*",
-   "hash": "af547d2d239307256c36e3e436987ff2b720552928effaa80eaddc3b4bce46cb"
+   "hash": "af547d2d239307256c36e3e436987ff2b720552928effaa80eaddc3b4bce46cb",
+   "ordem": 89
   }
  }
 }

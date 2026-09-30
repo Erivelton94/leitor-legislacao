@@ -7,7 +7,7 @@
  "hash": "4fc82de700cfcaaf33be2a052c89465aee9146fd4ffed55ffeac53c6d936e8dc",
  "etag": "\"12d73-650290cfdb42b\"",
  "last_modified": "Thu, 23 Apr 2026 23:31:42 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.288, DE 20 DE JULHO DE 2010.",
   "Vigência",
@@ -17,267 +17,332 @@
   "TÍTULO I",
   "DISPOSIÇÕES PRELIMINARES"
  ],
- "ultimo_download_completo": "2026-09-28T04:46:11-03:00",
+ "ultimo_download_completo": "2026-09-30T12:34:34-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1o Esta Lei institui o Estatuto da Igualdade Racial, destinado a garantir à população negra a efetivação da igualdade de oportunidades, a defesa dos direitos étnicos individuais, coletivos e difusos e o combate à discriminação e às demais formas de intolerância étnica.\nParágrafo único. Para efeito deste Estatuto, considera-se:\nI - discriminação racial ou étnico-racial: toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular ou restringir o reconhecimento, gozo ou exercício, em igualdade de condições, de direitos humanos e liberdades fundamentais nos campos político, econômico, social, cultural ou em qualquer outro campo da vida pública ou privada;\nII - desigualdade racial: toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica;\nIII - desigualdade de gênero e raça: assimetria existente no âmbito da sociedade que acentua a distância social entre mulheres negras e os demais segmentos sociais;\nIV - população negra: o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça usado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou que adotam autodefinição análoga;\nV - políticas públicas: as ações, iniciativas e programas adotados pelo Estado no cumprimento de suas atribuições institucionais;\nVI - ações afirmativas: os programas e medidas especiais adotados pelo Estado e pela iniciativa privada para a correção das desigualdades raciais e para a promoção da igualdade de oportunidades.",
-   "hash": "6414ff441686e081926e08ff142b6827519659e208c412a99d40e9da66d1a7be"
+   "hash": "6414ff441686e081926e08ff142b6827519659e208c412a99d40e9da66d1a7be",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2o É dever do Estado e da sociedade garantir a igualdade de oportunidades, reconhecendo a todo cidadão brasileiro, independentemente da etnia ou da cor da pele, o direito à participação na comunidade, especialmente nas atividades políticas, econômicas, empresariais, educacionais, culturais e esportivas, defendendo sua dignidade e seus valores religiosos e culturais.",
-   "hash": "acaf8c1234a862c9078f2632e5d827f08adf58e30fa547e03cba47c44210ff74"
+   "hash": "acaf8c1234a862c9078f2632e5d827f08adf58e30fa547e03cba47c44210ff74",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o Além das normas constitucionais relativas aos princípios fundamentais, aos direitos e garantias fundamentais e aos direitos sociais, econômicos e culturais, o Estatuto da Igualdade Racial adota como diretriz político-jurídica a inclusão das vítimas de desigualdade étnico-racial, a valorização da igualdade étnica e o fortalecimento da identidade nacional brasileira.",
-   "hash": "3d85d3c96a55c64a6cc29d66440c3085be2135750800b8bbf7281afb21a68df6"
+   "hash": "3d85d3c96a55c64a6cc29d66440c3085be2135750800b8bbf7281afb21a68df6",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4o A participação da população negra, em condição de igualdade de oportunidade, na vida econômica, social, política e cultural do País será promovida, prioritariamente, por meio de:\nI - inclusão nas políticas públicas de desenvolvimento econômico e social;\nII - adoção de medidas, programas e políticas de ação afirmativa;\nIII - modificação das estruturas institucionais do Estado para o adequado enfrentamento e a superação das desigualdades étnicas decorrentes do preconceito e da discriminação étnica;\nIV - promoção de ajustes normativos para aperfeiçoar o combate à discriminação étnica e às desigualdades étnicas em todas as suas manifestações individuais, institucionais e estruturais;\nV - eliminação dos obstáculos históricos, socioculturais e institucionais que impedem a representação da diversidade étnica nas esferas pública e privada;\nVI - estímulo, apoio e fortalecimento de iniciativas oriundas da sociedade civil direcionadas à promoção da igualdade de oportunidades e ao combate às desigualdades étnicas, inclusive mediante a implementação de incentivos e critérios de condicionamento e prioridade no acesso aos recursos públicos;\nVII - implementação de programas de ação afirmativa destinados ao enfrentamento das desigualdades étnicas no tocante à educação, cultura, esporte e lazer, saúde, segurança, trabalho, moradia, meios de comunicação de massa, financiamentos públicos, acesso à terra, à Justiça, e outros.\nParágrafo único. Os programas de ação afirmativa constituir-se-ão em políticas públicas destinadas a reparar as distorções e desigualdades sociais e demais práticas discriminatórias adotadas, nas esferas pública e privada, durante o processo de formação social do País.",
-   "hash": "61e790fc398bb2dc3f0f95eea33095afffd06b6e03c1dd8c8d99b3cb15e18168"
+   "hash": "61e790fc398bb2dc3f0f95eea33095afffd06b6e03c1dd8c8d99b3cb15e18168",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o Para a consecução dos objetivos desta Lei, é instituído o Sistema Nacional de Promoção da Igualdade Racial (Sinapir), conforme estabelecido no Título III.\nTÍTULO II\nDOS DIREITOS FUNDAMENTAIS\nCAPÍTULO I\nDO DIREITO À SAÚDE",
-   "hash": "999f97dac8e482226d6791b903c1c5c0225745ef8bfc2daeaf0747c74434ce3a"
+   "hash": "999f97dac8e482226d6791b903c1c5c0225745ef8bfc2daeaf0747c74434ce3a",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6o O direito à saúde da população negra será garantido pelo poder público mediante políticas universais, sociais e econômicas destinadas à redução do risco de doenças e de outros agravos.\n§ 1o O acesso universal e igualitário ao Sistema Único de Saúde (SUS) para promoção, proteção e recuperação da saúde da população negra será de responsabilidade dos órgãos e instituições públicas federais, estaduais, distritais e municipais, da administração direta e indireta.\n§ 2o O poder público garantirá que o segmento da população negra vinculado aos seguros privados de saúde seja tratado sem discriminação.",
-   "hash": "5c7c022d25cd93ead4928851935eed6e5cc1069c81f0f5cfe3cb23e3dd72b1c4"
+   "hash": "5c7c022d25cd93ead4928851935eed6e5cc1069c81f0f5cfe3cb23e3dd72b1c4",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7o O conjunto de ações de saúde voltadas à população negra constitui a Política Nacional de Saúde Integral da População Negra, organizada de acordo com as diretrizes abaixo especificadas:\nI - ampliação e fortalecimento da participação de lideranças dos movimentos sociais em defesa da saúde da população negra nas instâncias de participação e controle social do SUS;\nII - produção de conhecimento científico e tecnológico em saúde da população negra;\nIII - desenvolvimento de processos de informação, comunicação e educação para contribuir com a redução das vulnerabilidades da população negra.",
-   "hash": "c78aac4fca06482b317980013f17691c4eae99470338b8b2ac57ef5e9ae71c75"
+   "hash": "c78aac4fca06482b317980013f17691c4eae99470338b8b2ac57ef5e9ae71c75",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o Constituem objetivos da Política Nacional de Saúde Integral da População Negra:\nI - a promoção da saúde integral da população negra, priorizando a redução das desigualdades étnicas e o combate à discriminação nas instituições e serviços do SUS;\nII - a melhoria da qualidade dos sistemas de informação do SUS no que tange à coleta, ao processamento e à análise dos dados desagregados por cor, etnia e gênero;\nIII - o fomento à realização de estudos e pesquisas sobre racismo e saúde da população negra;\nIV - a inclusão do conteúdo da saúde da população negra nos processos de formação e educação permanente dos trabalhadores da saúde;\nV - a inclusão da temática saúde da população negra nos processos de formação política das lideranças de movimentos sociais para o exercício da participação e controle social no SUS.\nParágrafo único. Os moradores das comunidades de remanescentes de quilombos serão beneficiários de incentivos específicos para a garantia do direito à saúde, incluindo melhorias nas condições ambientais, no saneamento básico, na segurança alimentar e nutricional e na atenção integral à saúde.\nCAPÍTULO II\nDO DIREITO À EDUCAÇÃO, À CULTURA, AO ESPORTE E AO LAZER\nSeção I\nDisposições Gerais",
-   "hash": "5220caa1a5e58eb58b3f47caa01b70fec741f9c07f4cf4da2124f4910b73df6b"
+   "hash": "5220caa1a5e58eb58b3f47caa01b70fec741f9c07f4cf4da2124f4910b73df6b",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o A população negra tem direito a participar de atividades educacionais, culturais, esportivas e de lazer adequadas a seus interesses e condições, de modo a contribuir para o patrimônio cultural de sua comunidade e da sociedade brasileira.",
-   "hash": "fc89d766948d5c60ccd03a1c56d6d52d973acead1c4446cfe413fe1873666dba"
+   "hash": "fc89d766948d5c60ccd03a1c56d6d52d973acead1c4446cfe413fe1873666dba",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. Para o cumprimento do disposto no art. 9o, os governos federal, estaduais, distrital e municipais adotarão as seguintes providências:\nI - promoção de ações para viabilizar e ampliar o acesso da população negra ao ensino gratuito e às atividades esportivas e de lazer;\nII - apoio à iniciativa de entidades que mantenham espaço para promoção social e cultural da população negra;\nIII - desenvolvimento de campanhas educativas, inclusive nas escolas, para que a solidariedade aos membros da população negra faça parte da cultura de toda a sociedade;\nIV - implementação de políticas públicas para o fortalecimento da juventude negra brasileira.\nSeção II\nDa Educação",
-   "hash": "b4c98b6302a3d50531f95adc13b6ba3e3b187c2f3a20662a153ae55ecdb971d7"
+   "hash": "b4c98b6302a3d50531f95adc13b6ba3e3b187c2f3a20662a153ae55ecdb971d7",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. Nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, é obrigatório o estudo da história geral da África e da história da população negra no Brasil, observado o disposto na Lei no 9.394, de 20 de dezembro de 1996.\n§ 1o Os conteúdos referentes à história da população negra no Brasil serão ministrados no âmbito de todo o currículo escolar, resgatando sua contribuição decisiva para o desenvolvimento social, econômico, político e cultural do País.\n§ 2o O órgão competente do Poder Executivo fomentará a formação inicial e continuada de professores e a elaboração de material didático específico para o cumprimento do disposto no caput deste artigo.\n§ 3o Nas datas comemorativas de caráter cívico, os órgãos responsáveis pela educação incentivarão a participação de intelectuais e representantes do movimento negro para debater com os estudantes suas vivências relativas ao tema em comemoração.",
-   "hash": "38cc4faaf637aa029a4c1d2eb4febc89f4c49224c7e487f254306ddd1c29fd0d"
+   "hash": "38cc4faaf637aa029a4c1d2eb4febc89f4c49224c7e487f254306ddd1c29fd0d",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. Os órgãos federais, distritais e estaduais de fomento à pesquisa e à pós-graduação poderão criar incentivos a pesquisas e a programas de estudo voltados para temas referentes às relações étnicas, aos quilombos e às questões pertinentes à população negra.",
-   "hash": "0c78bb5719199827fc06d260d453527aab3bd239f1aba6676f4c80817334d8e0"
+   "hash": "0c78bb5719199827fc06d260d453527aab3bd239f1aba6676f4c80817334d8e0",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. O Poder Executivo federal, por meio dos órgãos competentes, incentivará as instituições de ensino superior públicas e privadas, sem prejuízo da legislação em vigor, a:\nI - resguardar os princípios da ética em pesquisa e apoiar grupos, núcleos e centros de pesquisa, nos diversos programas de pós-graduação que desenvolvam temáticas de interesse da população negra;\nII - incorporar nas matrizes curriculares dos cursos de formação de professores temas que incluam valores concernentes à pluralidade étnica e cultural da sociedade brasileira;\nIII - desenvolver programas de extensão universitária destinados a aproximar jovens negros de tecnologias avançadas, assegurado o princípio da proporcionalidade de gênero entre os beneficiários;\nIV - estabelecer programas de cooperação técnica, nos estabelecimentos de ensino públicos, privados e comunitários, com as escolas de educação infantil, ensino fundamental, ensino médio e ensino técnico, para a formação docente baseada em princípios de equidade, de tolerância e de respeito às diferenças étnicas.",
-   "hash": "d9e78b2a2fc9b83c1623770abdc50af444c99d5c331d620be843a80bcc162bf8"
+   "hash": "d9e78b2a2fc9b83c1623770abdc50af444c99d5c331d620be843a80bcc162bf8",
+   "ordem": 12
   },
   "14": {
    "texto": "Art. 14. O poder público estimulará e apoiará ações socioeducacionais realizadas por entidades do movimento negro que desenvolvam atividades voltadas para a inclusão social, mediante cooperação técnica, intercâmbios, convênios e incentivos, entre outros mecanismos.",
-   "hash": "8329442c6965590a1579cbc192ce0f2b436a4763b55b22da93d9b05244a52de1"
+   "hash": "8329442c6965590a1579cbc192ce0f2b436a4763b55b22da93d9b05244a52de1",
+   "ordem": 13
   },
   "15": {
    "texto": "Art. 15. O poder público adotará programas de ação afirmativa.",
-   "hash": "5f0575636e6f7a0719703c3cc74b2adf77690a7702677aab9efc6d48f9463246"
+   "hash": "5f0575636e6f7a0719703c3cc74b2adf77690a7702677aab9efc6d48f9463246",
+   "ordem": 14
   },
   "16": {
    "texto": "Art. 16. O Poder Executivo federal, por meio dos órgãos responsáveis pelas políticas de promoção da igualdade e de educação, acompanhará e avaliará os programas de que trata esta Seção.\nSeção III\nDa Cultura",
-   "hash": "c7579826bdd3a69ddcd139fedd79701a253cf701630a26c3716bb39496211632"
+   "hash": "c7579826bdd3a69ddcd139fedd79701a253cf701630a26c3716bb39496211632",
+   "ordem": 15
   },
   "17": {
    "texto": "Art. 17. O poder público garantirá o reconhecimento das sociedades negras, clubes e outras formas de manifestação coletiva da população negra, com trajetória histórica comprovada, como patrimônio histórico e cultural, nos termos dos arts. 215 e 216 da Constituição Federal.",
-   "hash": "3aac146880b10ebeb84d03c255f27bcc1e016fc42ec5ee192ba795b512d9c1fe"
+   "hash": "3aac146880b10ebeb84d03c255f27bcc1e016fc42ec5ee192ba795b512d9c1fe",
+   "ordem": 16
   },
   "18": {
    "texto": "Art. 18. É assegurado aos remanescentes das comunidades dos quilombos o direito à preservação de seus usos, costumes, tradições e manifestos religiosos, sob a proteção do Estado.\nParágrafo único. A preservação dos documentos e dos sítios detentores de reminiscências históricas dos antigos quilombos, tombados nos termos do § 5o do art. 216 da Constituição Federal, receberá especial atenção do poder público.",
-   "hash": "62b9266a69d292d345f9312eb8450324dd62a84fe855c5d60e0c6a82ac2b5574"
+   "hash": "62b9266a69d292d345f9312eb8450324dd62a84fe855c5d60e0c6a82ac2b5574",
+   "ordem": 17
   },
   "19": {
    "texto": "Art. 19. O poder público incentivará a celebração das personalidades e das datas comemorativas relacionadas à trajetória do samba e de outras manifestações culturais de matriz africana, bem como sua comemoração nas instituições de ensino públicas e privadas.",
-   "hash": "f044164e52ccd2bf9ce75143a9bf79d2625ae5dd4b2cccf73284f7d95bd636a1"
+   "hash": "f044164e52ccd2bf9ce75143a9bf79d2625ae5dd4b2cccf73284f7d95bd636a1",
+   "ordem": 18
   },
   "20": {
    "texto": "Art. 20. O poder público garantirá o registro e a proteção da capoeira, em todas as suas modalidades, como bem de natureza imaterial e de formação da identidade cultural brasileira, nos termos do art. 216 da Constituição Federal.\nParágrafo único. O poder público buscará garantir, por meio dos atos normativos necessários, a preservação dos elementos formadores tradicionais da capoeira nas suas relações internacionais.\nSeção IV\nDo Esporte e Lazer",
-   "hash": "8a4a78532a29e54d245ccb84641190e6debc770a10130e35cf677f2363415956"
+   "hash": "8a4a78532a29e54d245ccb84641190e6debc770a10130e35cf677f2363415956",
+   "ordem": 19
   },
   "21": {
    "texto": "Art. 21. O poder público fomentará o pleno acesso da população negra às práticas desportivas, consolidando o esporte e o lazer como direitos sociais.",
-   "hash": "2be5f1889cb260a8db295f552ed988d99b921756186585179fed8b5a787f924b"
+   "hash": "2be5f1889cb260a8db295f552ed988d99b921756186585179fed8b5a787f924b",
+   "ordem": 20
   },
   "22": {
    "texto": "Art. 22. A capoeira é reconhecida como desporto de criação nacional, nos termos do art. 217 da Constituição Federal.\n§ 1o A atividade de capoeirista será reconhecida em todas as modalidades em que a capoeira se manifesta, seja como esporte, luta, dança ou música, sendo livre o exercício em todo o território nacional.\n§ 2o É facultado o ensino da capoeira nas instituições públicas e privadas pelos capoeiristas e mestres tradicionais, pública e formalmente reconhecidos.\nCAPÍTULO III\nDO DIREITO À LIBERDADE DE CONSCIÊNCIA E DE CRENÇA E AO LIVRE EXERCÍCIO DOS CULTOS RELIGIOSOS",
-   "hash": "ee62ba32090ed7ee3b76eb38ed5f595feefe654a648c8d782687714c0094bc99"
+   "hash": "ee62ba32090ed7ee3b76eb38ed5f595feefe654a648c8d782687714c0094bc99",
+   "ordem": 21
   },
   "23": {
    "texto": "Art. 23. É inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias.",
-   "hash": "d9cf782e1fc12f310e349591013f39fdde4d2eba6e03e0e6faa49538ca01cd10"
+   "hash": "d9cf782e1fc12f310e349591013f39fdde4d2eba6e03e0e6faa49538ca01cd10",
+   "ordem": 22
   },
   "24": {
    "texto": "Art. 24. O direito à liberdade de consciência e de crença e ao livre exercício dos cultos religiosos de matriz africana compreende:\nI - a prática de cultos, a celebração de reuniões relacionadas à religiosidade e a fundação e manutenção, por iniciativa privada, de lugares reservados para tais fins;\nII - a celebração de festividades e cerimônias de acordo com preceitos das respectivas religiões;\nIII - a fundação e a manutenção, por iniciativa privada, de instituições beneficentes ligadas às respectivas convicções religiosas;\nIV - a produção, a comercialização, a aquisição e o uso de artigos e materiais religiosos adequados aos costumes e às práticas fundadas na respectiva religiosidade, ressalvadas as condutas vedadas por legislação específica;\nV - a produção e a divulgação de publicações relacionadas ao exercício e à difusão das religiões de matriz africana;\nVI - a coleta de contribuições financeiras de pessoas naturais e jurídicas de natureza privada para a manutenção das atividades religiosas e sociais das respectivas religiões;\nVII - o acesso aos órgãos e aos meios de comunicação para divulgação das respectivas religiões;\nVIII - a comunicação ao Ministério Público para abertura de ação penal em face de atitudes e práticas de intolerância religiosa nos meios de comunicação e em quaisquer outros locais.",
-   "hash": "b4bbd6183808bdcd4e959237c9311480d2ca330190d501b546ec8aa2a6522af4"
+   "hash": "b4bbd6183808bdcd4e959237c9311480d2ca330190d501b546ec8aa2a6522af4",
+   "ordem": 23
   },
   "25": {
    "texto": "Art. 25. É assegurada a assistência religiosa aos praticantes de religiões de matrizes africanas internados em hospitais ou em outras instituições de internação coletiva, inclusive àqueles submetidos a pena privativa de liberdade.",
-   "hash": "68b26b306dca34558d6a8f317a4164c1af3029324bb709cf70ad432be3d4c27b"
+   "hash": "68b26b306dca34558d6a8f317a4164c1af3029324bb709cf70ad432be3d4c27b",
+   "ordem": 24
   },
   "26": {
    "texto": "Art. 26. O poder público adotará as medidas necessárias para o combate à intolerância com as religiões de matrizes africanas e à discriminação de seus seguidores, especialmente com o objetivo de:\nI - coibir a utilização dos meios de comunicação social para a difusão de proposições, imagens ou abordagens que exponham pessoa ou grupo ao ódio ou ao desprezo por motivos fundados na religiosidade de matrizes africanas;\nII - inventariar, restaurar e proteger os documentos, obras e outros bens de valor artístico e cultural, os monumentos, mananciais, flora e sítios arqueológicos vinculados às religiões de matrizes africanas;\nIII - assegurar a participação proporcional de representantes das religiões de matrizes africanas, ao lado da representação das demais religiões, em comissões, conselhos, órgãos e outras instâncias de deliberação vinculadas ao poder público.\nCAPÍTULO IV\nDO ACESSO À TERRA E À MORADIA ADEQUADA\nSeção I\nDo Acesso à Terra",
-   "hash": "052e12dfd83c9dc9d0c116aa733e2012496904e3bfc30273eba92b7f44549445"
+   "hash": "052e12dfd83c9dc9d0c116aa733e2012496904e3bfc30273eba92b7f44549445",
+   "ordem": 25
   },
   "27": {
    "texto": "Art. 27. O poder público elaborará e implementará políticas públicas capazes de promover o acesso da população negra à terra e às atividades produtivas no campo.",
-   "hash": "c10a75b7e91d393bb1645d10c458ac3885315dc9f40f345d7bc27a21fad378a8"
+   "hash": "c10a75b7e91d393bb1645d10c458ac3885315dc9f40f345d7bc27a21fad378a8",
+   "ordem": 26
   },
   "28": {
    "texto": "Art. 28. Para incentivar o desenvolvimento das atividades produtivas da população negra no campo, o poder público promoverá ações para viabilizar e ampliar o seu acesso ao financiamento agrícola.",
-   "hash": "0c3fa48b499ab742f978ed7ee86571d317d7d8a9e5076b4c4b0501b9c2a238f2"
+   "hash": "0c3fa48b499ab742f978ed7ee86571d317d7d8a9e5076b4c4b0501b9c2a238f2",
+   "ordem": 27
   },
   "29": {
    "texto": "Art. 29. Serão assegurados à população negra a assistência técnica rural, a simplificação do acesso ao crédito agrícola e o fortalecimento da infraestrutura de logística para a comercialização da produção.",
-   "hash": "1ab0c236ba895118e7605ba5c189e1421ad4993681810804bd16e21ded5b2b83"
+   "hash": "1ab0c236ba895118e7605ba5c189e1421ad4993681810804bd16e21ded5b2b83",
+   "ordem": 28
   },
   "30": {
    "texto": "Art. 30. O poder público promoverá a educação e a orientação profissional agrícola para os trabalhadores negros e as comunidades negras rurais.",
-   "hash": "9bbcd3dc3f87bd76f7e71dda7db4c511ef863b4b4637cfaff0c6ffa1282e7dc8"
+   "hash": "9bbcd3dc3f87bd76f7e71dda7db4c511ef863b4b4637cfaff0c6ffa1282e7dc8",
+   "ordem": 29
   },
   "31": {
    "texto": "Art. 31. Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos.",
-   "hash": "9f1dd3c16990338e03c657979555b33a9209362b88a7b1877c383b49171c0f69"
+   "hash": "9f1dd3c16990338e03c657979555b33a9209362b88a7b1877c383b49171c0f69",
+   "ordem": 30
   },
   "32": {
    "texto": "Art. 32. O Poder Executivo federal elaborará e desenvolverá políticas públicas especiais voltadas para o desenvolvimento sustentável dos remanescentes das comunidades dos quilombos, respeitando as tradições de proteção ambiental das comunidades.",
-   "hash": "de6944562f48e4b761e56446f05e5571f37fadcfbeeba926a411df9539d2f01f"
+   "hash": "de6944562f48e4b761e56446f05e5571f37fadcfbeeba926a411df9539d2f01f",
+   "ordem": 31
   },
   "33": {
    "texto": "Art. 33. Para fins de política agrícola, os remanescentes das comunidades dos quilombos receberão dos órgãos competentes tratamento especial diferenciado, assistência técnica e linhas especiais de financiamento público, destinados à realização de suas atividades produtivas e de infraestrutura.",
-   "hash": "62acd94f1bf4dd6ba3e2787891ed73e1f7406b2c7120ba60366f6b746509eb76"
+   "hash": "62acd94f1bf4dd6ba3e2787891ed73e1f7406b2c7120ba60366f6b746509eb76",
+   "ordem": 32
   },
   "34": {
    "texto": "Art. 34. Os remanescentes das comunidades dos quilombos se beneficiarão de todas as iniciativas previstas nesta e em outras leis para a promoção da igualdade étnica.\nSeção II\nDa Moradia",
-   "hash": "1f22373fa7a6e84d093cf76e44f3a694c0160bd9b78dde0c58cd612921a935dc"
+   "hash": "1f22373fa7a6e84d093cf76e44f3a694c0160bd9b78dde0c58cd612921a935dc",
+   "ordem": 33
   },
   "35": {
    "texto": "Art. 35. O poder público garantirá a implementação de políticas públicas para assegurar o direito à moradia adequada da população negra que vive em favelas, cortiços, áreas urbanas subutilizadas, degradadas ou em processo de degradação, a fim de reintegrá-las à dinâmica urbana e promover melhorias no ambiente e na qualidade de vida.\nParágrafo único. O direito à moradia adequada, para os efeitos desta Lei, inclui não apenas o provimento habitacional, mas também a garantia da infraestrutura urbana e dos equipamentos comunitários associados à função habitacional, bem como a assistência técnica e jurídica para a construção, a reforma ou a regularização fundiária da habitação em área urbana.",
-   "hash": "2aa4153da11444d8eedbf74b0cfb6bea8a2759d151b7485d7e0e7221c2b42a5e"
+   "hash": "2aa4153da11444d8eedbf74b0cfb6bea8a2759d151b7485d7e0e7221c2b42a5e",
+   "ordem": 34
   },
   "36": {
    "texto": "Art. 36. Os programas, projetos e outras ações governamentais realizadas no âmbito do Sistema Nacional de Habitação de Interesse Social (SNHIS), regulado pela Lei no 11.124, de 16 de junho de 2005, devem considerar as peculiaridades sociais, econômicas e culturais da população negra.\nParágrafo único. Os Estados, o Distrito Federal e os Municípios estimularão e facilitarão a participação de organizações e movimentos representativos da população negra na composição dos conselhos constituídos para fins de aplicação do Fundo Nacional de Habitação de Interesse Social (FNHIS).",
-   "hash": "aa6a5dafdb1af2c5e2e1d376226ed675f1a08a9f9a6580aa11618d94f56f093c"
+   "hash": "aa6a5dafdb1af2c5e2e1d376226ed675f1a08a9f9a6580aa11618d94f56f093c",
+   "ordem": 35
   },
   "37": {
    "texto": "Art. 37. Os agentes financeiros, públicos ou privados, promoverão ações para viabilizar o acesso da população negra aos financiamentos habitacionais.\nCAPÍTULO V\nDO TRABALHO",
-   "hash": "f418896c58313fa30b58b29d401153853ef30a0067535f2032fd5e59db977d55"
+   "hash": "f418896c58313fa30b58b29d401153853ef30a0067535f2032fd5e59db977d55",
+   "ordem": 36
   },
   "38": {
    "texto": "Art. 38. A implementação de políticas voltadas para a inclusão da população negra no mercado de trabalho será de responsabilidade do poder público, observando-se:\nI - o instituído neste Estatuto;\nII - os compromissos assumidos pelo Brasil ao ratificar a Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial, de 1965;\nIII - os compromissos assumidos pelo Brasil ao ratificar a Convenção no 111, de 1958, da Organização Internacional do Trabalho (OIT), que trata da discriminação no emprego e na profissão;\nIV - os demais compromissos formalmente assumidos pelo Brasil perante a comunidade internacional.",
-   "hash": "6a4bb8fec1508d9c8d4a56e5c86216c42650b2e4692faa03b845b7af9a5e121e"
+   "hash": "6a4bb8fec1508d9c8d4a56e5c86216c42650b2e4692faa03b845b7af9a5e121e",
+   "ordem": 37
   },
   "39": {
    "texto": "Art. 39. O poder público promoverá ações que assegurem a igualdade de oportunidades no mercado de trabalho para a população negra, inclusive mediante a implementação de medidas visando à promoção da igualdade nas contratações do setor público e o incentivo à adoção de medidas similares nas empresas e organizações privadas.\n§ 1o A igualdade de oportunidades será lograda mediante a adoção de políticas e programas de formação profissional, de emprego e de geração de renda voltados para a população negra.\n§ 2o As ações visando a promover a igualdade de oportunidades na esfera da administração pública far-se-ão por meio de normas estabelecidas ou a serem estabelecidas em legislação específica e em seus regulamentos.\n§ 3o O poder público estimulará, por meio de incentivos, a adoção de iguais medidas pelo setor privado.\n§ 4o As ações de que trata o caput deste artigo assegurarão o princípio da proporcionalidade de gênero entre os beneficiários.\n§ 5o Será assegurado o acesso ao crédito para a pequena produção, nos meios rural e urbano, com ações afirmativas para mulheres negras.\n§ 6o O poder público promoverá campanhas de sensibilização contra a marginalização da mulher negra no trabalho artístico e cultural.\n§ 7o O poder público promoverá ações com o objetivo de elevar a escolaridade e a qualificação profissional nos setores da economia que contem com alto índice de ocupação por trabalhadores negros de baixa escolarização.\n§ 8º Os registros administrativos direcionados a órgãos e entidades da Administração Pública, a empregadores privados e a trabalhadores que lhes sejam subordinados conterão campos destinados a identificar o segmento étnico e racial a que pertence o trabalhador retratado no respectivo documento, com utilização do critério da autoclassificação em grupos previamente delimitados. (Incluído pela Lei nº 14.553, de 2023)\n§ 9º Sem prejuízo de extensão obrigatória a outros documentos ou registros de mesma natureza identificados em regulamento, aplica-se o disposto no § 8º deste artigo a: (Incluído pela Lei nº 14.553, de 2023)\nI - formulários de admissão e demissão no emprego; (Incluído pela Lei nº 14.553, de 2023)\nII - formulários de acidente de trabalho; (Incluído pela Lei nº 14.553, de 2023)\nIII - instrumentos de registro do Sistema Nacional de Emprego (Sine), ou de estrutura que venha a suceder-lhe em suas finalidades; (Incluído pela Lei nº 14.553, de 2023)\nIV - Relação Anual de Informações Sociais (Rais), ou outro documento criado posteriormente com conteúdo e propósitos a ela assemelhados; (Incluído pela Lei nº 14.553, de 2023)\nV - documentos, inclusive os disponibilizados em meio eletrônico, destinados à inscrição de segurados e dependentes no Regime Geral de Previdência Social; (Incluído pela Lei nº 14.553, de 2023)\nVI - questionários de pesquisas levadas a termo pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou por órgão ou entidade posteriormente incumbida das atribuições imputadas a essa autarquia. (Incluído pela Lei nº 14.553, de 2023)",
-   "hash": "71fd4088f7736ad918bbdb0c80703519eab7aec6d951bb0d3a7c1d89c6cad7e7"
+   "hash": "71fd4088f7736ad918bbdb0c80703519eab7aec6d951bb0d3a7c1d89c6cad7e7",
+   "ordem": 38
   },
   "40": {
    "texto": "Art. 40. O Conselho Deliberativo do Fundo de Amparo ao Trabalhador (Codefat) formulará políticas, programas e projetos voltados para a inclusão da população negra no mercado de trabalho e orientará a destinação de recursos para seu financiamento.",
-   "hash": "49c205a7a3d80bc54b620b28546aff60f36784b3c8e6baf64fa927011840d5c7"
+   "hash": "49c205a7a3d80bc54b620b28546aff60f36784b3c8e6baf64fa927011840d5c7",
+   "ordem": 39
   },
   "41": {
    "texto": "Art. 41. As ações de emprego e renda, promovidas por meio de financiamento para constituição e ampliação de pequenas e médias empresas e de programas de geração de renda, contemplarão o estímulo à promoção de empresários negros.\nParágrafo único. O poder público estimulará as atividades voltadas ao turismo étnico com enfoque nos locais, monumentos e cidades que retratem a cultura, os usos e os costumes da população negra.",
-   "hash": "c321f87ce00bc0ca180248d48f206678dd4e98d66eaf1df892acb60504daf89b"
+   "hash": "c321f87ce00bc0ca180248d48f206678dd4e98d66eaf1df892acb60504daf89b",
+   "ordem": 40
   },
   "42": {
    "texto": "Art. 42. O Poder Executivo federal poderá implementar critérios para provimento de cargos em comissão e funções de confiança destinados a ampliar a participação de negros, buscando reproduzir a estrutura da distribuição étnica nacional ou, quando for o caso, estadual, observados os dados demográficos oficiais.\nCAPÍTULO VI\nDOS MEIOS DE COMUNICAÇÃO",
-   "hash": "9395aef21fb1d9245518b4756b8ea9ff51d79344978c5ec61e632be8a50c5c37"
+   "hash": "9395aef21fb1d9245518b4756b8ea9ff51d79344978c5ec61e632be8a50c5c37",
+   "ordem": 41
   },
   "43": {
    "texto": "Art. 43. A produção veiculada pelos órgãos de comunicação valorizará a herança cultural e a participação da população negra na história do País.",
-   "hash": "2d05f8790995358b56fcf549d3d1730ebe61b910aefe34159175ac13b939d65a"
+   "hash": "2d05f8790995358b56fcf549d3d1730ebe61b910aefe34159175ac13b939d65a",
+   "ordem": 42
   },
   "44": {
    "texto": "Art. 44. Na produção de filmes e programas destinados à veiculação pelas emissoras de televisão e em salas cinematográficas, deverá ser adotada a prática de conferir oportunidades de emprego para atores, figurantes e técnicos negros, sendo vedada toda e qualquer discriminação de natureza política, ideológica, étnica ou artística.\nParágrafo único. A exigência disposta no caput não se aplica aos filmes e programas que abordem especificidades de grupos étnicos determinados.",
-   "hash": "901aa29db18a320c3ccc26d56b5f0f6f7b4d9b3605c3773ba17759c81eed5cf2"
+   "hash": "901aa29db18a320c3ccc26d56b5f0f6f7b4d9b3605c3773ba17759c81eed5cf2",
+   "ordem": 43
   },
   "45": {
    "texto": "Art. 45. Aplica-se à produção de peças publicitárias destinadas à veiculação pelas emissoras de televisão e em salas cinematográficas o disposto no art. 44.",
-   "hash": "a12f174eb184960bf2212efa5774e5b2882e557f448c7436da41156e617f7af6"
+   "hash": "a12f174eb184960bf2212efa5774e5b2882e557f448c7436da41156e617f7af6",
+   "ordem": 44
   },
   "46": {
    "texto": "Art. 46. Os órgãos e entidades da administração pública federal direta, autárquica ou fundacional, as empresas públicas e as sociedades de economia mista federais deverão incluir cláusulas de participação de artistas negros nos contratos de realização de filmes, programas ou quaisquer outras peças de caráter publicitário.\n§ 1o Os órgãos e entidades de que trata este artigo incluirão, nas especificações para contratação de serviços de consultoria, conceituação, produção e realização de filmes, programas ou peças publicitárias, a obrigatoriedade da prática de iguais oportunidades de emprego para as pessoas relacionadas com o projeto ou serviço contratado.\n§ 2o Entende-se por prática de iguais oportunidades de emprego o conjunto de medidas sistemáticas executadas com a finalidade de garantir a diversidade étnica, de sexo e de idade na equipe vinculada ao projeto ou serviço contratado.\n§ 3o A autoridade contratante poderá, se considerar necessário para garantir a prática de iguais oportunidades de emprego, requerer auditoria por órgão do poder público federal.\n§ 4o A exigência disposta no caput não se aplica às produções publicitárias quando abordarem especificidades de grupos étnicos determinados.\nTÍTULO III\nDo Sistema NACIONAL DE PROMOÇÃO DA IGUALDADE RACIAL\n(SINAPIR)\nCAPÍTULO I\nDISPOSIÇÃO PRELIMINAR",
-   "hash": "c63823a3e815cde5de99a43fd5c428ab02948faedec1d303d6fcce7d5af63bae"
+   "hash": "c63823a3e815cde5de99a43fd5c428ab02948faedec1d303d6fcce7d5af63bae",
+   "ordem": 45
   },
   "47": {
    "texto": "Art. 47. É instituído o Sistema Nacional de Promoção da Igualdade Racial (Sinapir) como forma de organização e de articulação voltadas à implementação do conjunto de políticas e serviços destinados a superar as desigualdades étnicas existentes no País, prestados pelo poder público federal.\n§ 1o Os Estados, o Distrito Federal e os Municípios poderão participar do Sinapir mediante adesão.\n§ 2o O poder público federal incentivará a sociedade e a iniciativa privada a participar do Sinapir.\nCAPÍTULO II\nDOS OBJETIVOS",
-   "hash": "84c1324893193918c74c9b40a2be107efe8abaa0fbe43b44a4789794c3c7e0bb"
+   "hash": "84c1324893193918c74c9b40a2be107efe8abaa0fbe43b44a4789794c3c7e0bb",
+   "ordem": 46
   },
   "48": {
    "texto": "Art. 48. São objetivos do Sinapir:\nI - promover a igualdade étnica e o combate às desigualdades sociais resultantes do racismo, inclusive mediante adoção de ações afirmativas;\nII - formular políticas destinadas a combater os fatores de marginalização e a promover a integração social da população negra;\nIII - descentralizar a implementação de ações afirmativas pelos governos estaduais, distrital e municipais;\nIV - articular planos, ações e mecanismos voltados à promoção da igualdade étnica;\nV - garantir a eficácia dos meios e dos instrumentos criados para a implementação das ações afirmativas e o cumprimento das metas a serem estabelecidas.\nCAPÍTULO III\nDA ORGANIZAÇÃO E COMPETÊNCIA",
-   "hash": "b8fc41c39558af8db1832fb702e17463708f5f1e779fc0131b64532c4509cb0e"
+   "hash": "b8fc41c39558af8db1832fb702e17463708f5f1e779fc0131b64532c4509cb0e",
+   "ordem": 47
   },
   "49": {
    "texto": "Art. 49. O Poder Executivo federal elaborará plano nacional de promoção da igualdade racial contendo as metas, princípios e diretrizes para a implementação da Política Nacional de Promoção da Igualdade Racial (PNPIR).\n§ 1o A elaboração, implementação, coordenação, avaliação e acompanhamento da PNPIR, bem como a organização, articulação e coordenação do Sinapir, serão efetivados pelo órgão responsável pela política de promoção da igualdade étnica em âmbito nacional. (Vide Lei nº 12.990, de 2014)\n§ 2o É o Poder Executivo federal autorizado a instituir fórum intergovernamental de promoção da igualdade étnica, a ser coordenado pelo órgão responsável pelas políticas de promoção da igualdade étnica, com o objetivo de implementar estratégias que visem à incorporação da política nacional de promoção da igualdade étnica nas ações governamentais de Estados e Municípios.\n§ 3o As diretrizes das políticas nacional e regional de promoção da igualdade étnica serão elaboradas por órgão colegiado que assegure a participação da sociedade civil.\n§ 4º A Fundação Instituto Brasileiro de Geografia e Estatística (IBGE) realizará, a cada 5 (cinco) anos, pesquisa destinada a identificar o percentual de ocupação por parte de segmentos étnicos e raciais no âmbito do setor público, a fim de obter subsídios direcionados à implementação da PNPIR. (Incluído pela Lei nº 14.553, de 2023)",
-   "hash": "3b371c455612e757ba3c10309e56a1816b050a137ee2b2794e73eb676c405c78"
+   "hash": "3b371c455612e757ba3c10309e56a1816b050a137ee2b2794e73eb676c405c78",
+   "ordem": 48
   },
   "50": {
    "texto": "Art. 50. Os Poderes Executivos estaduais, distrital e municipais, no âmbito das respectivas esferas de competência, poderão instituir conselhos de promoção da igualdade étnica, de caráter permanente e consultivo, compostos por igual número de representantes de órgãos e entidades públicas e de organizações da sociedade civil representativas da população negra.\nParágrafo único. O Poder Executivo priorizará o repasse dos recursos referentes aos programas e atividades previstos nesta Lei aos Estados, Distrito Federal e Municípios que tenham criado conselhos de promoção da igualdade étnica.\nCAPÍTULO IV\nDas Ouvidorias Permanentes E DO ACESSO À JUSTIÇA E À SEGURANÇA",
-   "hash": "796ec84ceffdd3512b3d9e80b989f61b64900bc1574d5ae02b54ecc8bad86d4f"
+   "hash": "796ec84ceffdd3512b3d9e80b989f61b64900bc1574d5ae02b54ecc8bad86d4f",
+   "ordem": 49
   },
   "51": {
    "texto": "Art. 51. O poder público federal instituirá, na forma da lei e no âmbito dos Poderes Legislativo e Executivo, Ouvidorias Permanentes em Defesa da Igualdade Racial, para receber e encaminhar denúncias de preconceito e discriminação com base em etnia ou cor e acompanhar a implementação de medidas para a promoção da igualdade.",
-   "hash": "8e147147fcaf7fbf2fe76c7c195724746e6fbb8e02c47738b70c02e002fbd75e"
+   "hash": "8e147147fcaf7fbf2fe76c7c195724746e6fbb8e02c47738b70c02e002fbd75e",
+   "ordem": 50
   },
   "52": {
    "texto": "Art. 52. É assegurado às vítimas de discriminação étnica o acesso aos órgãos de Ouvidoria Permanente, à Defensoria Pública, ao Ministério Público e ao Poder Judiciário, em todas as suas instâncias, para a garantia do cumprimento de seus direitos.\nParágrafo único. O Estado assegurará atenção às mulheres negras em situação de violência, garantida a assistência física, psíquica, social e jurídica.",
-   "hash": "697924f4ee86b1214c2583ce3bd9c968db6bd5d65d18ac9cafbb1c8f595f4bf3"
+   "hash": "697924f4ee86b1214c2583ce3bd9c968db6bd5d65d18ac9cafbb1c8f595f4bf3",
+   "ordem": 51
   },
   "53": {
    "texto": "Art. 53. O Estado adotará medidas especiais para coibir a violência policial incidente sobre a população negra.\nParágrafo único. O Estado implementará ações de ressocialização e proteção da juventude negra em conflito com a lei e exposta a experiências de exclusão social.",
-   "hash": "816a40d315a65d95fd67e6ebec48f835a79537b0de396824d1d77283af36449f"
+   "hash": "816a40d315a65d95fd67e6ebec48f835a79537b0de396824d1d77283af36449f",
+   "ordem": 52
   },
   "54": {
    "texto": "Art. 54. O Estado adotará medidas para coibir atos de discriminação e preconceito praticados por servidores públicos em detrimento da população negra, observado, no que couber, o disposto na Lei no 7.716, de 5 de janeiro de 1989.",
-   "hash": "1a327c1b6132205254670a7e0d05bbbf752a25bf777b9542c46dc42a1286f4ed"
+   "hash": "1a327c1b6132205254670a7e0d05bbbf752a25bf777b9542c46dc42a1286f4ed",
+   "ordem": 53
   },
   "55": {
    "texto": "Art. 55. Para a apreciação judicial das lesões e das ameaças de lesão aos interesses da população negra decorrentes de situações de desigualdade étnica, recorrer-se-á, entre outros instrumentos, à ação civil pública, disciplinada na Lei no 7.347, de 24 de julho de 1985.\nCAPÍTULO V\nDO FINANCIAMENTO DAS INICIATIVAS DE PROMOÇÃO DA IGUALDADE RACIAL",
-   "hash": "f514ffe6c1c6cb948f6b665c077982c644ca0a1d3f9d63d10b7aad012458d6a6"
+   "hash": "f514ffe6c1c6cb948f6b665c077982c644ca0a1d3f9d63d10b7aad012458d6a6",
+   "ordem": 54
   },
   "56": {
    "texto": "Art. 56. Na implementação dos programas e das ações constantes dos planos plurianuais e dos orçamentos anuais da União, deverão ser observadas as políticas de ação afirmativa a que se refere o inciso VII do art. 4o desta Lei e outras políticas públicas que tenham como objetivo promover a igualdade de oportunidades e a inclusão social da população negra, especialmente no que tange a:\nI - promoção da igualdade de oportunidades em educação, emprego e moradia;\nII - financiamento de pesquisas, nas áreas de educação, saúde e emprego, voltadas para a melhoria da qualidade de vida da população negra;\nIII - incentivo à criação de programas e veículos de comunicação destinados à divulgação de matérias relacionadas aos interesses da população negra;\nIV - incentivo à criação e à manutenção de microempresas administradas por pessoas autodeclaradas negras;\nV - iniciativas que incrementem o acesso e a permanência das pessoas negras na educação fundamental, média, técnica e superior;\nVI - apoio a programas e projetos dos governos estaduais, distrital e municipais e de entidades da sociedade civil voltados para a promoção da igualdade de oportunidades para a população negra;\nVII - apoio a iniciativas em defesa da cultura, da memória e das tradições africanas e brasileiras.\n§ 1o O Poder Executivo federal é autorizado a adotar medidas que garantam, em cada exercício, a transparência na alocação e na execução dos recursos necessários ao financiamento das ações previstas neste Estatuto, explicitando, entre outros, a proporção dos recursos orçamentários destinados aos programas de promoção da igualdade, especialmente nas áreas de educação, saúde, emprego e renda, desenvolvimento agrário, habitação popular, desenvolvimento regional, cultura, esporte e lazer.\n§ 2o Durante os 5 (cinco) primeiros anos, a contar do exercício subsequente à publicação deste Estatuto, os órgãos do Poder Executivo federal que desenvolvem políticas e programas nas áreas referidas no § 1o deste artigo discriminarão em seus orçamentos anuais a participação nos programas de ação afirmativa referidos no inciso VII do art. 4o desta Lei.\n§ 3o O Poder Executivo é autorizado a adotar as medidas necessárias para a adequada implementação do disposto neste artigo, podendo estabelecer patamares de participação crescente dos programas de ação afirmativa nos orçamentos anuais a que se refere o § 2o deste artigo.\n§ 4o O órgão colegiado do Poder Executivo federal responsável pela promoção da igualdade racial acompanhará e avaliará a programação das ações referidas neste artigo nas propostas orçamentárias da União.",
-   "hash": "3651bea721bfb0b3b5683d98a5624a4d17802a3d52ba8e3b57531f461562ec53"
+   "hash": "3651bea721bfb0b3b5683d98a5624a4d17802a3d52ba8e3b57531f461562ec53",
+   "ordem": 55
   },
   "57": {
    "texto": "Art. 57. Sem prejuízo da destinação de recursos ordinários, poderão ser consignados nos orçamentos fiscal e da seguridade social para financiamento das ações de que trata o art. 56:\nI - transferências voluntárias dos Estados, do Distrito Federal e dos Municípios;\nII - doações voluntárias de particulares;\nIII - doações de empresas privadas e organizações não governamentais, nacionais ou internacionais;\nIV - doações voluntárias de fundos nacionais ou internacionais;\nV - doações de Estados estrangeiros, por meio de convênios, tratados e acordos internacionais.\nTÍTULO IV\nDISPOSIÇÕES FINAIS",
-   "hash": "84c7ff5731d24d05cfa6f9e1540d7a0c06739260d90dbb97f2fb01effb858048"
+   "hash": "84c7ff5731d24d05cfa6f9e1540d7a0c06739260d90dbb97f2fb01effb858048",
+   "ordem": 56
   },
   "58": {
    "texto": "Art. 58. As medidas instituídas nesta Lei não excluem outras em prol da população negra que tenham sido ou venham a ser adotadas no âmbito da União, dos Estados, do Distrito Federal ou dos Municípios.",
-   "hash": "1c95f430d83de9711ad361e6ec69cf821f849d459baca4e3c17c26a69bf68e81"
+   "hash": "1c95f430d83de9711ad361e6ec69cf821f849d459baca4e3c17c26a69bf68e81",
+   "ordem": 57
   },
   "59": {
    "texto": "Art. 59. O Poder Executivo federal criará instrumentos para aferir a eficácia social das medidas previstas nesta Lei e efetuará seu monitoramento constante, com a emissão e a divulgação de relatórios periódicos, inclusive pela rede mundial de computadores.",
-   "hash": "ef2a64105c31ac7cc34743eaad1ca10a3366fb801989c05f207eeef3bdcb082a"
+   "hash": "ef2a64105c31ac7cc34743eaad1ca10a3366fb801989c05f207eeef3bdcb082a",
+   "ordem": 58
   },
   "60": {
    "texto": "Art. 60. Os arts. 3o e 4o da Lei nº 7.716, de 1989, passam a vigorar com a seguinte redação:\n“Art. 3o ........................................................................\nParágrafo único. Incorre na mesma pena quem, por motivo de discriminação de raça, cor, etnia, religião ou procedência nacional, obstar a promoção funcional.” (NR)\n“Art. 4o ........................................................................\n§ 1º Incorre na mesma pena quem, por motivo de discriminação de raça ou de cor ou práticas resultantes do preconceito de descendência ou origem nacional ou étnica:\nI - deixar de conceder os equipamentos necessários ao empregado em igualdade de condições com os demais trabalhadores;\nII - impedir a ascensão funcional do empregado ou obstar outra forma de benefício profissional;\nIII - proporcionar ao empregado tratamento diferenciado no ambiente de trabalho, especialmente quanto ao salário.\n§ 2o Ficará sujeito às penas de multa e de prestação de serviços à comunidade, incluindo atividades de promoção da igualdade racial, quem, em anúncios ou qualquer outra forma de recrutamento de trabalhadores, exigir aspectos de aparência próprios de raça ou etnia para emprego cujas atividades não justifiquem essas exigências.” (NR)",
-   "hash": "2c431d849bdf5e684a09e3c34c36ded6eb584b49952cdc34a0da55195de92a44"
+   "hash": "2c431d849bdf5e684a09e3c34c36ded6eb584b49952cdc34a0da55195de92a44",
+   "ordem": 59
   },
   "61": {
    "texto": "Art. 61. Os arts. 3o e 4o da Lei nº 9.029, de 13 de abril de 1995, passam a vigorar com a seguinte redação:\n“Art. 3o Sem prejuízo do prescrito no art. 2o e nos dispositivos legais que tipificam os crimes resultantes de preconceito de etnia, raça ou cor, as infrações do disposto nesta Lei são passíveis das seguintes cominações:\n...................................................................................” (NR)\n“Art. 4o O rompimento da relação de trabalho por ato discriminatório, nos moldes desta Lei, além do direito à reparação pelo dano moral, faculta ao empregado optar entre:\n...................................................................................” (NR)",
-   "hash": "1d1dec09d2987898d30884a0f14aa3f4880026cd9dde2cba6f357a40dc7a2cc8"
+   "hash": "1d1dec09d2987898d30884a0f14aa3f4880026cd9dde2cba6f357a40dc7a2cc8",
+   "ordem": 60
   },
   "62": {
    "texto": "Art. 62. O art. 13 da Lei no 7.347, de 1985, passa a vigorar acrescido do seguinte § 2o, renumerando-se o atual parágrafo único como § 1o:\n“Art. 13. ........................................................................\n§ 1o ...............................................................................\n§ 2º Havendo acordo ou condenação com fundamento em dano causado por ato de discriminação étnica nos termos do disposto no art. 1o desta Lei, a prestação em dinheiro reverterá diretamente ao fundo de que trata o caput e será utilizada para ações de promoção da igualdade étnica, conforme definição do Conselho Nacional de Promoção da Igualdade Racial, na hipótese de extensão nacional, ou dos Conselhos de Promoção de Igualdade Racial estaduais ou locais, nas hipóteses de danos com extensão regional ou local, respectivamente.” (NR)",
-   "hash": "04e0d131d4fb25ed1365aad5c8f3fac8fd97ead3baf446155c1270bf742bb8df"
+   "hash": "04e0d131d4fb25ed1365aad5c8f3fac8fd97ead3baf446155c1270bf742bb8df",
+   "ordem": 61
   },
   "63": {
    "texto": "Art. 63. O § 1o do art. 1o da Lei nº 10.778, de 24 de novembro de 2003, passa a vigorar com a seguinte redação:\n“Art. 1o .......................................................................\n§ 1º Para os efeitos desta Lei, entende-se por violência contra a mulher qualquer ação ou conduta, baseada no gênero, inclusive decorrente de discriminação ou desigualdade étnica, que cause morte, dano ou sofrimento físico, sexual ou psicológico à mulher, tanto no âmbito público quanto no privado.\n...................................................................................” (NR)",
-   "hash": "40a13773d67ac54fd2550aecf8058717f6b2db502aa141eb601342dfaebf939f"
+   "hash": "40a13773d67ac54fd2550aecf8058717f6b2db502aa141eb601342dfaebf939f",
+   "ordem": 62
   },
   "64": {
    "texto": "Art. 64. O § 3o do art. 20 da Lei nº 7.716, de 1989, passa a vigorar acrescido do seguinte inciso III:\n“Art. 20. ......................................................................\n.............................................................................................\n§ 3o ...............................................................................\n.............................................................................................\nIII - a interdição das respectivas mensagens ou páginas de informação na rede mundial de computadores.\n...................................................................................” (NR)",
-   "hash": "1c5ab434a484b50992f370edc4af7a6db1f2f1ff4a50690517f67cd6f2e7342e"
+   "hash": "1c5ab434a484b50992f370edc4af7a6db1f2f1ff4a50690517f67cd6f2e7342e",
+   "ordem": 63
   },
   "65": {
    "texto": "Art. 65. Esta Lei entra em vigor 90 (noventa) dias após a data de sua publicação.\nBrasília, 20 de julho de 2010; 189o da Independência e 122o da República.\nLUIZ INÁCIO LULA DA SILVA\nEloi Ferreira de Araújo\nEste texto não substitui o publicado no DOU de 21.7.2010\n*",
-   "hash": "f708b188dce0cf217bbbd016eff1ffbd9f85d13c92c3ebab76dbab5cd055ed7d"
+   "hash": "f708b188dce0cf217bbbd016eff1ffbd9f85d13c92c3ebab76dbab5cd055ed7d",
+   "ordem": 64
   }
  }
 }

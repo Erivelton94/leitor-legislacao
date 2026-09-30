@@ -7,134 +7,164 @@
  "hash": "219a28f6143dd51204f2b238d96ca83dca627f5662e1e4b21c2f95e3a579c101",
  "etag": "\"b934-650289d816814\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:31 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "DECRETO-LEI Nº 4.657, DE 4 DE SETEMBRO DE 1942.",
   "(Regulamento)",
   "Lei de Introdução às normas do Direito Brasileiro. (Redação dada pela Lei nº 12.376, de 2010)",
   "O Presidente da República, usando da atribuição que lhe confere o artigo 180 da Constituição, decreta:"
  ],
- "ultimo_download_completo": "2026-09-28T04:37:34-03:00",
+ "ultimo_download_completo": "2026-09-30T12:29:59-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1o Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.\n§ 1o Nos Estados estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia três meses depois de oficialmente publicada. (Vide Lei nº 1.991, de 1953) (Vide Lei nº 2.145, de 1953) (Vide Lei nº 2.410, de 1955) (Vide Lei nº 2.770, de 1956) (Vide Lei nº 3.244, de 1957) (Vide Lei nº 4.966, de 1966) (Vide Decreto-Lei nº 333, de 1967) (Vide Lei nº 2.807, de 1956) (Vide Lei nº 4.820, de 1965)\n§ 2o (Revogado pela Lei nº 12.036, de 2009).\n§ 3o Se, antes de entrar a lei em vigor, ocorrer nova publicação de seu texto, destinada a correção, o prazo deste artigo e dos parágrafos anteriores começará a correr da nova publicação.\n§ 4o As correções a texto de lei já em vigor consideram-se lei nova.",
-   "hash": "77891887998520aa105f54d352ee86fbc18d88a8ecbad18d3666aede48f7c1c9"
+   "hash": "77891887998520aa105f54d352ee86fbc18d88a8ecbad18d3666aede48f7c1c9",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2o Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.\n§ 1o A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.\n§ 2o A lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior.\n§ 3o Salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência.",
-   "hash": "d30e70845c8df25e47b5cc55fce95a2dd07f38002fac153af47fca05ab31af73"
+   "hash": "d30e70845c8df25e47b5cc55fce95a2dd07f38002fac153af47fca05ab31af73",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o Ninguém se escusa de cumprir a lei, alegando que não a conhece.",
-   "hash": "6b76f08dcc74ce03e92903c83ef0107b8aed7ef7818d41a8459ab852fede699b"
+   "hash": "6b76f08dcc74ce03e92903c83ef0107b8aed7ef7818d41a8459ab852fede699b",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4o Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.",
-   "hash": "b02f099bc2e305128b7268f3c51ffcf12bfc5cdc7e7760be1a4e3c6f56a313b3"
+   "hash": "b02f099bc2e305128b7268f3c51ffcf12bfc5cdc7e7760be1a4e3c6f56a313b3",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.",
-   "hash": "b4a114a4441501a5af953cdcc960fe713988ee9ba6c4cd67ac0e219627a09cdb"
+   "hash": "b4a114a4441501a5af953cdcc960fe713988ee9ba6c4cd67ac0e219627a09cdb",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada. (Redação dada pela Lei nº 3.238, de 1957)\n§ 1º Reputa-se ato jurídico perfeito o já consumado segundo a lei vigente ao tempo em que se efetuou. (Incluído pela Lei nº 3.238, de 1957)\n§ 2º Consideram-se adquiridos assim os direitos que o seu titular, ou alguém por êle, possa exercer, como aquêles cujo comêço do exercício tenha têrmo pré-fixo, ou condição pré-estabelecida inalterável, a arbítrio de outrem. (Incluído pela Lei nº 3.238, de 1957)\n§ 3º Chama-se coisa julgada ou caso julgado a decisão judicial de que já não caiba recurso. (Incluído pela Lei nº 3.238, de 1957)",
-   "hash": "65d20de0b722211fcaa848e9c52dc637a00840e01c2023530b158a35be888874"
+   "hash": "65d20de0b722211fcaa848e9c52dc637a00840e01c2023530b158a35be888874",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7o A lei do país em que domiciliada a pessoa determina as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família.\n§ 1o Realizando-se o casamento no Brasil, será aplicada a lei brasileira quanto aos impedimentos dirimentes e às formalidades da celebração.\n§ 2o O casamento de estrangeiros poderá celebrar-se perante autoridades diplomáticas ou consulares do país de ambos os nubentes. (Redação dada pela Lei nº 3.238, de 1957)\n§ 3o Tendo os nubentes domicílio diverso, regerá os casos de invalidade do matrimônio a lei do primeiro domicílio conjugal.\n§ 4o O regime de bens, legal ou convencional, obedece à lei do país em que tiverem os nubentes domicílio, e, se este for diverso, a do primeiro domicílio conjugal.\n§ 5º - O estrangeiro casado, que se naturalizar brasileiro, pode, mediante expressa anuência de seu cônjuge, requerer ao juiz, no ato de entrega do decreto de naturalização, se apostile ao mesmo a adoção do regime de comunhão parcial de bens, respeitados os direitos de terceiros e dada esta adoção ao competente registro. (Redação dada pela Lei nº 6.515, de 1977)\n§ 6 O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forem brasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença, salvo se houver sido antecedida de separação judicial por igual prazo, caso em que a homologação produzirá efeito imediato, obedecidas as condições estabelecidas para a eficácia das sentenças estrangeiras no país. O Superior Tribunal de Justiça, na forma de seu regimento interno, poderá reexaminar, a requerimento do interessado, decisões já proferidas em pedidos de homologação de sentenças estrangeiras de divórcio de brasileiros, a fim de que passem a produzir todos os efeitos legais. (Redação dada pela Lei nº 12.036, de 2009).\n§ 7o Salvo o caso de abandono, o domicílio do chefe da família estende-se ao outro cônjuge e aos filhos não emancipados, e o do tutor ou curador aos incapazes sob sua guarda.\n§ 8o Quando a pessoa não tiver domicílio, considerar-se-á domiciliada no lugar de sua residência ou naquele em que se encontre.",
-   "hash": "b08b03f7407d3cacb8e4eb7134cd8c62ab00ccc95b726d4bd347a785f54dd90a"
+   "hash": "b08b03f7407d3cacb8e4eb7134cd8c62ab00ccc95b726d4bd347a785f54dd90a",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o Para qualificar os bens e regular as relações a eles concernentes, aplicar-se-á a lei do país em que estiverem situados.\n§ 1o Aplicar-se-á a lei do país em que for domiciliado o proprietário, quanto aos bens moveis que ele trouxer ou se destinarem a transporte para outros lugares.\n§ 2o O penhor regula-se pela lei do domicílio que tiver a pessoa, em cuja posse se encontre a coisa apenhada.",
-   "hash": "876997b3e4a7762bd4b636fc817a79d58accf9902f9922c8027d5ecd936adf92"
+   "hash": "876997b3e4a7762bd4b636fc817a79d58accf9902f9922c8027d5ecd936adf92",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o Para qualificar e reger as obrigações, aplicar-se-á a lei do país em que se constituirem.\n§ 1o Destinando-se a obrigação a ser executada no Brasil e dependendo de forma essencial, será esta observada, admitidas as peculiaridades da lei estrangeira quanto aos requisitos extrínsecos do ato.\n§ 2o A obrigação resultante do contrato reputa-se constituida no lugar em que residir o proponente.",
-   "hash": "c7760769d5fa5de6cf07a0e7c8cb08ec85f886dacd1707cee54cb322a37410a2"
+   "hash": "c7760769d5fa5de6cf07a0e7c8cb08ec85f886dacd1707cee54cb322a37410a2",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. A sucessão por morte ou por ausência obedece à lei do país em que domiciliado o defunto ou o desaparecido, qualquer que seja a natureza e a situação dos bens.\n§ 1º A sucessão de bens de estrangeiros, situados no País, será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, ou de quem os represente, sempre que não lhes seja mais favorável a lei pessoal do de cujus. (Redação dada pela Lei nº 9.047, de 1995)\n§ 2o A lei do domicílio do herdeiro ou legatário regula a capacidade para suceder.",
-   "hash": "d4c6a0e4c13c522fd3b0767b01b935a37e4ff9535872965c396c59c0b1a7f532"
+   "hash": "d4c6a0e4c13c522fd3b0767b01b935a37e4ff9535872965c396c59c0b1a7f532",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. As organizações destinadas a fins de interesse coletivo, como as sociedades e as fundações, obedecem à lei do Estado em que se constituirem.\n§ 1o Não poderão, entretanto ter no Brasil filiais, agências ou estabelecimentos antes de serem os atos constitutivos aprovados pelo Governo brasileiro, ficando sujeitas à lei brasileira.\n§ 2o Os Governos estrangeiros, bem como as organizações de qualquer natureza, que eles tenham constituido, dirijam ou hajam investido de funções públicas, não poderão adquirir no Brasil bens imóveis ou susceptiveis de desapropriação.\n§ 3o Os Governos estrangeiros podem adquirir a propriedade dos prédios necessários à sede dos representantes diplomáticos ou dos agentes consulares. (Vide Lei nº 4.331, de 1964)",
-   "hash": "4a43142cdc856c4dbd738f11aab7cfdb8a8e62673de6f006ba4240114e35a66d"
+   "hash": "4a43142cdc856c4dbd738f11aab7cfdb8a8e62673de6f006ba4240114e35a66d",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. É competente a autoridade judiciária brasileira, quando for o réu domiciliado no Brasil ou aqui tiver de ser cumprida a obrigação.\n§ 1o Só à autoridade judiciária brasileira compete conhecer das ações relativas a imóveis situados no Brasil.\n§ 2o A autoridade judiciária brasileira cumprirá, concedido o exequatur e segundo a forma estabelecida pela lei brasileira, as diligências deprecadas por autoridade estrangeira competente, observando a lei desta, quanto ao objeto das diligências.",
-   "hash": "755296b98aa7431ba76bb1e8bc3bab5ac73e1457042ed3983401b9d096262d57"
+   "hash": "755296b98aa7431ba76bb1e8bc3bab5ac73e1457042ed3983401b9d096262d57",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. A prova dos fatos ocorridos em país estrangeiro rege-se pela lei que nele vigorar, quanto ao ônus e aos meios de produzir-se, não admitindo os tribunais brasileiros provas que a lei brasileira desconheça.",
-   "hash": "6b8ecb8a8e0daf03185ad2d9e03e2b6b4917c8a3964bdc52b9cf8c44e1e66ca1"
+   "hash": "6b8ecb8a8e0daf03185ad2d9e03e2b6b4917c8a3964bdc52b9cf8c44e1e66ca1",
+   "ordem": 12
   },
   "14": {
    "texto": "Art. 14. Não conhecendo a lei estrangeira, poderá o juiz exigir de quem a invoca prova do texto e da vigência.",
-   "hash": "d700bd7185e31815efbf8fdbef12debb4ffca5c9fe48449db922743ae17d3fc3"
+   "hash": "d700bd7185e31815efbf8fdbef12debb4ffca5c9fe48449db922743ae17d3fc3",
+   "ordem": 13
   },
   "15": {
    "texto": "Art. 15. Será executada no Brasil a sentença proferida no estrangeiro, que reuna os seguintes requisitos:\na) haver sido proferida por juiz competente;\nb) terem sido os partes citadas ou haver-se legalmente verificado à revelia;\nc) ter passado em julgado e estar revestida das formalidades necessárias para a execução no lugar em que foi proferida;\nd) estar traduzida por intérprete autorizado;\ne) ter sido homologada pelo Supremo Tribunal Federal. (Vide art.105, I, i da Constituição Federal).\nParágrafo único. (Revogado pela Lei nº 12.036, de 2009).",
-   "hash": "c2445dfa24e31d8cebda004b17855749fa4187a4aee7e57670a5689234584a4e"
+   "hash": "c2445dfa24e31d8cebda004b17855749fa4187a4aee7e57670a5689234584a4e",
+   "ordem": 14
   },
   "16": {
    "texto": "Art. 16. Quando, nos termos dos artigos precedentes, se houver de aplicar a lei estrangeira, ter-se-á em vista a disposição desta, sem considerar-se qualquer remissão por ela feita a outra lei.",
-   "hash": "930577b59668993dda2e3dbf9ec2c63b78bc4e27e7e09b65cce0dcd02f665913"
+   "hash": "930577b59668993dda2e3dbf9ec2c63b78bc4e27e7e09b65cce0dcd02f665913",
+   "ordem": 15
   },
   "17": {
    "texto": "Art. 17. As leis, atos e sentenças de outro país, bem como quaisquer declarações de vontade, não terão eficácia no Brasil, quando ofenderem a soberania nacional, a ordem pública e os bons costumes.",
-   "hash": "9ebc40fa99be5fd968da9e7f78c3e713f25a4359ee1115a9490c52f2dd042479"
+   "hash": "9ebc40fa99be5fd968da9e7f78c3e713f25a4359ee1115a9490c52f2dd042479",
+   "ordem": 16
   },
   "18": {
    "texto": "Art. 18. Tratando-se de brasileiros, são competentes as autoridades consulares brasileiras para lhes celebrar o casamento e os mais atos de Registro Civil e de tabelionato, inclusive o registro de nascimento e de óbito dos filhos de brasileiro ou brasileira nascido no país da sede do Consulado. (Redação dada pela Lei nº 3.238, de 1957)\n§ 1º As autoridades consulares brasileiras também poderão celebrar a separação consensual e o divórcio consensual de brasileiros, não havendo filhos menores ou incapazes do casal e observados os requisitos legais quanto aos prazos, devendo constar da respectiva escritura pública as disposições relativas à descrição e à partilha dos bens comuns e à pensão alimentícia e, ainda, ao acordo quanto à retomada pelo cônjuge de seu nome de solteiro ou à manutenção do nome adotado quando se deu o casamento. (Incluído pela Lei nº 12.874, de 2013) Vigência\n§ 2o É indispensável a assistência de advogado, devidamente constituído, que se dará mediante a subscrição de petição, juntamente com ambas as partes, ou com apenas uma delas, caso a outra constitua advogado próprio, não se fazendo necessário que a assinatura do advogado conste da escritura pública. (Incluído pela Lei nº 12.874, de 2013) Vigência",
-   "hash": "b15667a76920fecaef383fe43ab94a090edd94f5b24a1e36559bb02af734513d"
+   "hash": "b15667a76920fecaef383fe43ab94a090edd94f5b24a1e36559bb02af734513d",
+   "ordem": 17
   },
   "19": {
    "texto": "Art. 19. Reputam-se válidos todos os atos indicados no artigo anterior e celebrados pelos cônsules brasileiros na vigência do Decreto-lei nº 4.657, de 4 de setembro de 1942, desde que satisfaçam todos os requisitos legais. (Incluído pela Lei nº 3.238, de 1957)\nParágrafo único. No caso em que a celebração dêsses atos tiver sido recusada pelas autoridades consulares, com fundamento no artigo 18 do mesmo Decreto-lei, ao interessado é facultado renovar o pedido dentro em 90 (noventa) dias contados da data da publicação desta lei. (Incluído pela Lei nº 3.238, de 1957)",
-   "hash": "71acc4bf36a8557121335d28de9cc00a2376cfd568018f8b1d938ad38b3669ea"
+   "hash": "71acc4bf36a8557121335d28de9cc00a2376cfd568018f8b1d938ad38b3669ea",
+   "ordem": 18
   },
   "20": {
    "texto": "Art. 20. Nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\nParágrafo único. A motivação demonstrará a necessidade e a adequação da medida imposta ou da invalidação de ato, contrato, ajuste, processo ou norma administrativa, inclusive em face das possíveis alternativas. (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "8d67c9b30db6aa08ed8b3740fe0547f8edc42c1b5ecf1df0d9e14bcc27a620b2"
+   "hash": "8d67c9b30db6aa08ed8b3740fe0547f8edc42c1b5ecf1df0d9e14bcc27a620b2",
+   "ordem": 19
   },
   "21": {
    "texto": "Art. 21. A decisão que, nas esferas administrativa, controladora ou judicial, decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso suas consequências jurídicas e administrativas. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\nParágrafo único. A decisão a que se refere o caput deste artigo deverá, quando for o caso, indicar as condições para que a regularização ocorra de modo proporcional e equânime e sem prejuízo aos interesses gerais, não se podendo impor aos sujeitos atingidos ônus ou perdas que, em função das peculiaridades do caso, sejam anormais ou excessivos. (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "7218922d8469697affb62623c2bf08a02f0ab3b58b13763159cc303901b94b67"
+   "hash": "7218922d8469697affb62623c2bf08a02f0ab3b58b13763159cc303901b94b67",
+   "ordem": 20
   },
   "22": {
    "texto": "Art. 22. Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados. (Regulamento)\n§ 1º Em decisão sobre regularidade de conduta ou validade de ato, contrato, ajuste, processo ou norma administrativa, serão consideradas as circunstâncias práticas que houverem imposto, limitado ou condicionado a ação do agente. (Incluído pela Lei nº 13.655, de 2018)\n§ 2º Na aplicação de sanções, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a administração pública, as circunstâncias agravantes ou atenuantes e os antecedentes do agente. (Incluído pela Lei nº 13.655, de 2018)\n§ 3º As sanções aplicadas ao agente serão levadas em conta na dosimetria das demais sanções de mesma natureza e relativas ao mesmo fato. (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "1e8d1914673cccd4ea48cef3a8d2aa573fadf096fd76e6a16bb126bff83c9e21"
+   "hash": "1e8d1914673cccd4ea48cef3a8d2aa573fadf096fd76e6a16bb126bff83c9e21",
+   "ordem": 21
   },
   "23": {
    "texto": "Art. 23. A decisão administrativa, controladora ou judicial que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado, impondo novo dever ou novo condicionamento de direito, deverá prever regime de transição quando indispensável para que o novo dever ou condicionamento de direito seja cumprido de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais. (Regulamento)\nParágrafo único. (VETADO). (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "8e780a1699e41d834e9447717868a8d9281dbfb34e15ec2440f7bfc80d868d61"
+   "hash": "8e780a1699e41d834e9447717868a8d9281dbfb34e15ec2440f7bfc80d868d61",
+   "ordem": 22
   },
   "24": {
    "texto": "Art. 24. A revisão, nas esferas administrativa, controladora ou judicial, quanto à validade de ato, contrato, ajuste, processo ou norma administrativa cuja produção já se houver completado levará em conta as orientações gerais da época, sendo vedado que, com base em mudança posterior de orientação geral, se declarem inválidas situações plenamente constituídas. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\nParágrafo único. Consideram-se orientações gerais as interpretações e especificações contidas em atos públicos de caráter geral ou em jurisprudência judicial ou administrativa majoritária, e ainda as adotadas por prática administrativa reiterada e de amplo conhecimento público. (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "a76fc667c1186618ab39c9a574e0702c4e21472295bd469d5d5ecc8fc4b5813f"
+   "hash": "a76fc667c1186618ab39c9a574e0702c4e21472295bd469d5d5ecc8fc4b5813f",
+   "ordem": 23
   },
   "25": {
    "texto": "Art. 25. (VETADO). (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "c5c60f73b0440eec000026ee13d93334f233db9efd16319864a253be1b5edbbc"
+   "hash": "c5c60f73b0440eec000026ee13d93334f233db9efd16319864a253be1b5edbbc",
+   "ordem": 24
   },
   "26": {
    "texto": "Art. 26. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\n§ 1º O compromisso referido no caput deste artigo: (Incluído pela Lei nº 13.655, de 2018)\nI - buscará solução jurídica proporcional, equânime, eficiente e compatível com os interesses gerais; (Incluído pela Lei nº 13.655, de 2018)\nII – (VETADO); (Incluído pela Lei nº 13.655, de 2018)\nIII - não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral; (Incluído pela Lei nº 13.655, de 2018)\nIV - deverá prever com clareza as obrigações das partes, o prazo para seu cumprimento e as sanções aplicáveis em caso de descumprimento. (Incluído pela Lei nº 13.655, de 2018)\n§ 2º (VETADO). (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "b8ebc777298f4dd5a48b0a827b6261b7c9b38bf7bf2414b789ed672b2a620979"
+   "hash": "b8ebc777298f4dd5a48b0a827b6261b7c9b38bf7bf2414b789ed672b2a620979",
+   "ordem": 25
   },
   "27": {
    "texto": "Art. 27. A decisão do processo, nas esferas administrativa, controladora ou judicial, poderá impor compensação por benefícios indevidos ou prejuízos anormais ou injustos resultantes do processo ou da conduta dos envolvidos. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\n§ 1º A decisão sobre a compensação será motivada, ouvidas previamente as partes sobre seu cabimento, sua forma e, se for o caso, seu valor. (Incluído pela Lei nº 13.655, de 2018)\n§ 2º Para prevenir ou regular a compensação, poderá ser celebrado compromisso processual entre os envolvidos. (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "516a6c26b2ebe02fe913c0b4bac3ec2f9e0198d4e34f00608a7962c3a0f5da67"
+   "hash": "516a6c26b2ebe02fe913c0b4bac3ec2f9e0198d4e34f00608a7962c3a0f5da67",
+   "ordem": 26
   },
   "28": {
    "texto": "Art. 28. O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\n§ 1º (VETADO). (Incluído pela Lei nº 13.655, de 2018)\n§ 2º (VETADO). (Incluído pela Lei nº 13.655, de 2018)\n§ 3º (VETADO). (Incluído pela Lei nº 13.655, de 2018)",
-   "hash": "f1018f38a1ee47a4ac5002f11b8a44d02556510fc9f764063b46810cc702ed28"
+   "hash": "f1018f38a1ee47a4ac5002f11b8a44d02556510fc9f764063b46810cc702ed28",
+   "ordem": 27
   },
   "29": {
    "texto": "Art. 29. Em qualquer órgão ou Poder, a edição de atos normativos por autoridade administrativa, salvo os de mera organização interna, poderá ser precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico, a qual será considerada na decisão. (Incluído pela Lei nº 13.655, de 2018) (Vigência) (Regulamento)\n§ 1º A convocação conterá a minuta do ato normativo e fixará o prazo e demais condições da consulta pública, observadas as normas legais e regulamentares específicas, se houver. (Incluído pela Lei nº 13.655, de 2018) (Vigência)\n§ 2º (VETADO). (Incluído pela Lei nº 13.655, de 2018) (Vigência)",
-   "hash": "15767415c80b5d6d6c7fc166ab7818265a9382c001aaefe1621c1c2f6a68c9bb"
+   "hash": "15767415c80b5d6d6c7fc166ab7818265a9382c001aaefe1621c1c2f6a68c9bb",
+   "ordem": 28
   },
   "30": {
    "texto": "Art. 30. As autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas. (Incluído pela Lei nº 13.655, de 2018) (Regulamento)\nParágrafo único. Os instrumentos previstos no caput deste artigo terão caráter vinculante em relação ao órgão ou entidade a que se destinam, até ulterior revisão. (Incluído pela Lei nº 13.655, de 2018)\nRio de Janeiro, 4 de setembro de 1942, 121o da Independência e 54o da República.\nGETULIO VARGAS\nAlexandre Marcondes Filho\nOswaldo Aranha.\nEste texto não substitui o publicado no DOU de 9.9.1942, retificado em 8.10.1942 e retificado em 17.6.1943\n*",
-   "hash": "a4d4bc7359b58997440c97526b5381ccdb09c1ccceaec769c8ed955c07a15e2c"
+   "hash": "a4d4bc7359b58997440c97526b5381ccdb09c1ccceaec769c8ed955c07a15e2c",
+   "ordem": 29
   }
  }
 }

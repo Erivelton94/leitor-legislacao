@@ -7,40 +7,47 @@
  "hash": "f12c5414107553854866ab656f975619223546235345d59645635d3f53eb9303",
  "etag": "\"31f4-650289e4f722b\"",
  "last_modified": "Thu, 23 Apr 2026 23:00:45 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 7.960, DE 21 DE DEZEMBRO DE 1989.",
   "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-29T04:40:22-03:00",
+ "ultimo_download_completo": "2026-09-30T12:31:48-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1° Caberá prisão temporária: (Vide ADI 3360) (Vide ADI 4109)\nI - quando imprescindível para as investigações do inquérito policial;\nII - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;\nIII - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:\na) homicídio doloso (art. 121, caput, e seu § 2°);\nb) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);\nc) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);\nd) extorsão (art. 158, caput, e seus §§ 1° e 2°);\ne) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);\nf) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)\ng) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)\nh) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)\ni) epidemia com resultado de morte (art. 267, § 1°);\nj) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);\nl) quadrilha ou bando (art. 288), todos do Código Penal;\nm) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;\nn) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);\no) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).\np) crimes previstos na Lei de Terrorismo. (Incluído pela Lei nº 13.260, de 2016)",
-   "hash": "08dea2fe29871513334e7f3b9cc7f81ee57935a50a6e6589f4d68f1b043c1d00"
+   "hash": "08dea2fe29871513334e7f3b9cc7f81ee57935a50a6e6589f4d68f1b043c1d00",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.\n§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público.\n§ 2° O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 24 (vinte e quatro) horas, contadas a partir do recebimento da representação ou do requerimento.\n§ 3° O Juiz poderá, de ofício, ou a requerimento do Ministério Público e do Advogado, determinar que o preso lhe seja apresentado, solicitar informações e esclarecimentos da autoridade policial e submetê-lo a exame de corpo de delito.\n§ 4° Decretada a prisão temporária, expedir-se-á mandado de prisão, em duas vias, uma das quais será entregue ao indiciado e servirá como nota de culpa.\n§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado. (Incluído pela Lei nº 13.869. de 2019)\n§ 5° A prisão somente poderá ser executada depois da expedição de mandado judicial.\n§ 6° Efetuada a prisão, a autoridade policial informará o preso dos direitos previstos no art. 5° da Constituição Federal.\n§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva. (Redação dada pela Lei nº 13.869. de 2019)\n§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária. (Incluído pela Lei nº 13.869. de 2019)",
-   "hash": "96baf5ed69e6006275f73d119ce4ce5bf9501ab6c5d80e874f1bcdde92248d7a"
+   "hash": "96baf5ed69e6006275f73d119ce4ce5bf9501ab6c5d80e874f1bcdde92248d7a",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3° Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos.",
-   "hash": "6adc769dcdcfb67eefbd99dc0d4f9de94b88e97f2ef1f93354b3febed57673bc"
+   "hash": "6adc769dcdcfb67eefbd99dc0d4f9de94b88e97f2ef1f93354b3febed57673bc",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4° O art. 4° da Lei n° 4.898, de 9 de dezembro de 1965, fica acrescido da alínea i, com a seguinte redação:\n\"Art. 4° ...............................................................\ni) prolongar a execução de prisão temporária, de pena ou de medida de segurança, deixando de expedir em tempo oportuno ou de cumprir imediatamente ordem de liberdade;\"",
-   "hash": "de0946e2ab50978d67db5c8a021c8284faa4385d14d628b82ccb7af1e7084c5a"
+   "hash": "de0946e2ab50978d67db5c8a021c8284faa4385d14d628b82ccb7af1e7084c5a",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5° Em todas as comarcas e seções judiciárias haverá um plantão permanente de vinte e quatro horas do Poder Judiciário e do Ministério Público para apreciação dos pedidos de prisão temporária.",
-   "hash": "3c843290160f646081b39d7e411fcf54d0a3e0c1531234d3023b2a86a5eb1687"
+   "hash": "3c843290160f646081b39d7e411fcf54d0a3e0c1531234d3023b2a86a5eb1687",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6° Esta Lei entra em vigor na data de sua publicação.",
-   "hash": "07ae326f3bcda8526ff6baf4243fd974b29cf5ce62dfdcb256547518f214b790"
+   "hash": "07ae326f3bcda8526ff6baf4243fd974b29cf5ce62dfdcb256547518f214b790",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7° Revogam-se as disposições em contrário.\nBrasília, 21 de dezembro de 1989; 168° da Independência e 101° da República.\nJOSÉ SARNEY\nJ. Saulo Ramos\nEste texto não substitui o publicado no DOU de 22.12.1989\n*",
-   "hash": "ca5dfd7f36644c699b2dfae6a55c28822b69858c0c273d0f7cc61f5145e33f65"
+   "hash": "ca5dfd7f36644c699b2dfae6a55c28822b69858c0c273d0f7cc61f5145e33f65",
+   "ordem": 6
   }
  }
 }

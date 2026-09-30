@@ -7,7 +7,7 @@
  "hash": "5029d368dfb65b36a519b1a49e9dadede4b183217431b072935da1a4f047881d",
  "etag": "\"1ce91-650291064ef51\"",
  "last_modified": "Thu, 23 Apr 2026 23:32:39 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI Nº 12.965, DE 23 DE ABRIL DE 2014",
   "Regulamento",
@@ -16,155 +16,192 @@
   "CAPÍTULO I",
   "DISPOSIÇÕES PRELIMINARES"
  ],
- "ultimo_download_completo": "2026-09-23T04:42:23-03:00",
+ "ultimo_download_completo": "2026-09-30T12:32:43-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º Esta Lei estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil e determina as diretrizes para atuação da União, dos Estados, do Distrito Federal e dos Municípios em relação à matéria.\n(Rejeitada)",
-   "hash": "4dc8faeba8e74dcad3d540f380dd8601cce90b64a70bf253e321c3bd08adb2d5"
+   "hash": "4dc8faeba8e74dcad3d540f380dd8601cce90b64a70bf253e321c3bd08adb2d5",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2º A disciplina do uso da internet no Brasil tem como fundamento o respeito à liberdade de expressão, bem como:\nI - o reconhecimento da escala mundial da rede;\nII - os direitos humanos, o desenvolvimento da personalidade e o exercício da cidadania em meios digitais;\nIII - a pluralidade e a diversidade;\nIV - a abertura e a colaboração;\nV - a livre iniciativa, a livre concorrência e a defesa do consumidor; e\nVI - a finalidade social da rede.",
-   "hash": "7c7ea781dd50a9f8b84695990085e771491e405d70de039a283f0e78d41f8fd3"
+   "hash": "7c7ea781dd50a9f8b84695990085e771491e405d70de039a283f0e78d41f8fd3",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3º A disciplina do uso da internet no Brasil tem os seguintes princípios:\nI - garantia da liberdade de expressão, comunicação e manifestação de pensamento, nos termos da Constituição Federal;\nII - proteção da privacidade;\nIII - proteção dos dados pessoais, na forma da lei;\nIV - preservação e garantia da neutralidade de rede;\nV - preservação da estabilidade, segurança e funcionalidade da rede, por meio de medidas técnicas compatíveis com os padrões internacionais e pelo estímulo ao uso de boas práticas;\nVI - responsabilização dos agentes de acordo com suas atividades, nos termos da lei;\nVII - preservação da natureza participativa da rede;\nVIII - liberdade dos modelos de negócios promovidos na internet, desde que não conflitem com os demais princípios estabelecidos nesta Lei.\nParágrafo único. Os princípios expressos nesta Lei não excluem outros previstos no ordenamento jurídico pátrio relacionados à matéria ou nos tratados internacionais em que a República Federativa do Brasil seja parte.",
-   "hash": "517e20a6db53d65244f44d0f18772ceb182443c44b6f1b224bc397f0eaba4add"
+   "hash": "517e20a6db53d65244f44d0f18772ceb182443c44b6f1b224bc397f0eaba4add",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4º A disciplina do uso da internet no Brasil tem por objetivo a promoção:\nI - do direito de acesso à internet a todos;\nII - do acesso à informação, ao conhecimento e à participação na vida cultural e na condução dos assuntos públicos;\nIII - da inovação e do fomento à ampla difusão de novas tecnologias e modelos de uso e acesso; e\nIV - da adesão a padrões tecnológicos abertos que permitam a comunicação, a acessibilidade e a interoperabilidade entre aplicações e bases de dados.",
-   "hash": "c41f31ddc6e12edb441cf770c4dcd22b8710714454722878ba47dcb977447055"
+   "hash": "c41f31ddc6e12edb441cf770c4dcd22b8710714454722878ba47dcb977447055",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5º Para os efeitos desta Lei, considera-se:\nI - internet: o sistema constituído do conjunto de protocolos lógicos, estruturado em escala mundial para uso público e irrestrito, com a finalidade de possibilitar a comunicação de dados entre terminais por meio de diferentes redes;\nII - terminal: o computador ou qualquer dispositivo que se conecte à internet;\nIII - endereço de protocolo de internet (endereço IP): o código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais;\nIV - administrador de sistema autônomo: a pessoa física ou jurídica que administra blocos de endereço IP específicos e o respectivo sistema autônomo de roteamento, devidamente cadastrada no ente nacional responsável pelo registro e distribuição de endereços IP geograficamente referentes ao País;\nV - conexão à internet: a habilitação de um terminal para envio e recebimento de pacotes de dados pela internet, mediante a atribuição ou autenticação de um endereço IP;\nVI - registro de conexão: o conjunto de informações referentes à data e hora de início e término de uma conexão à internet, sua duração e o endereço IP utilizado pelo terminal para o envio e recebimento de pacotes de dados;\nVII - aplicações de internet: o conjunto de funcionalidades que podem ser acessadas por meio de um terminal conectado à internet; e\n(Rejeitada)\nVII - aplicações de internet: o conjunto de funcionalidades que podem ser acessadas por meio de um terminal conectado à internet; e\nVIII - registros de acesso a aplicações de internet: o conjunto de informações referentes à data e hora de uso de uma determinada aplicação de internet a partir de um determinado endereço IP.\n(Rejeitada)\nVIII - registros de acesso a aplicações de internet: o conjunto de informações referentes à data e hora de uso de uma determinada aplicação de internet a partir de um determinado endereço IP.\n(Rejeitada)",
-   "hash": "7670f97ff84a513f9a486549c81d1d0ee1fad3338a15c37394266d755fd236a8"
+   "hash": "7670f97ff84a513f9a486549c81d1d0ee1fad3338a15c37394266d755fd236a8",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6º Na interpretação desta Lei serão levados em conta, além dos fundamentos, princípios e objetivos previstos, a natureza da internet, seus usos e costumes particulares e sua importância para a promoção do desenvolvimento humano, econômico, social e cultural.\nCAPÍTULO II\nDOS DIREITOS E GARANTIAS DOS USUÁRIOS\nSeção I\nDisposições gerais\n(Rejeitada)",
-   "hash": "b1784129bb1aa5e4a17b103c62790a58a077b257550c4bbde6c8c2601eb4b79f"
+   "hash": "b1784129bb1aa5e4a17b103c62790a58a077b257550c4bbde6c8c2601eb4b79f",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7º O acesso à internet é essencial ao exercício da cidadania, e ao usuário são assegurados os seguintes direitos:\nI - inviolabilidade da intimidade e da vida privada, sua proteção e indenização pelo dano material ou moral decorrente de sua violação;\nII - inviolabilidade e sigilo do fluxo de suas comunicações pela internet, salvo por ordem judicial, na forma da lei;\nIII - inviolabilidade e sigilo de suas comunicações privadas armazenadas, salvo por ordem judicial;\nIV - não suspensão da conexão à internet, salvo por débito diretamente decorrente de sua utilização;\nV - manutenção da qualidade contratada da conexão à internet;\nVI - informações claras e completas constantes dos contratos de prestação de serviços, com detalhamento sobre o regime de proteção aos registros de conexão e aos registros de acesso a aplicações de internet, bem como sobre práticas de gerenciamento da rede que possam afetar sua qualidade;\nVII - não fornecimento a terceiros de seus dados pessoais, inclusive registros de conexão, e de acesso a aplicações de internet, salvo mediante consentimento livre, expresso e informado ou nas hipóteses previstas em lei;\nVIII - informações claras e completas sobre coleta, uso, armazenamento, tratamento e proteção de seus dados pessoais, que somente poderão ser utilizados para finalidades que:\na) justifiquem sua coleta;\nb) não sejam vedadas pela legislação; e\nc) estejam especificadas nos contratos de prestação de serviços ou em termos de uso de aplicações de internet;\nIX - consentimento expresso sobre coleta, uso, armazenamento e tratamento de dados pessoais, que deverá ocorrer de forma destacada das demais cláusulas contratuais;\nX - exclusão definitiva dos dados pessoais que tiver fornecido a determinada aplicação de internet, a seu requerimento, ao término da relação entre as partes, ressalvadas as hipóteses de guarda obrigatória de registros previstas nesta Lei;\nX - exclusão definitiva dos dados pessoais que tiver fornecido a determinada aplicação de internet, a seu requerimento, ao término da relação entre as partes, ressalvadas as hipóteses de guarda obrigatória de registros previstas nesta Lei e na que dispõe sobre a proteção de dados pessoais; (Redação dada pela Lei nº 13.709, de 2018) (Vigência)\nXI - publicidade e clareza de eventuais políticas de uso dos provedores de conexão à internet e de aplicações de internet;\nXII - acessibilidade, consideradas as características físico-motoras, perceptivas, sensoriais, intelectuais e mentais do usuário, nos termos da lei; e\nXIII - aplicação das normas de proteção e defesa do consumidor nas relações de consumo realizadas na internet.",
-   "hash": "4bd18ac0754bf9703203b7a2d230508cc6d0e0d6b99bf7fa7f5a33c442b5d908"
+   "hash": "4bd18ac0754bf9703203b7a2d230508cc6d0e0d6b99bf7fa7f5a33c442b5d908",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8º A garantia do direito à privacidade e à liberdade de expressão nas comunicações é condição para o pleno exercício do direito de acesso à internet.\nParágrafo único. São nulas de pleno direito as cláusulas contratuais que violem o disposto no caput, tais como aquelas que:\nI - impliquem ofensa à inviolabilidade e ao sigilo das comunicações privadas, pela internet; ou\nII - em contrato de adesão, não ofereçam como alternativa ao contratante a adoção do foro brasileiro para solução de controvérsias decorrentes de serviços prestados no Brasil.\nSeção II\nDos direitos e das garantias dos usuários de redes sociais\n(Rejeitada)",
-   "hash": "72550ee32f45ebc474acdfbc60970ca3a1075ffeba21c3868cf545f97ebe3987"
+   "hash": "72550ee32f45ebc474acdfbc60970ca3a1075ffeba21c3868cf545f97ebe3987",
+   "ordem": 7
   },
   "8-A": {
    "texto": "Art. 8º-A (Rejeitada)\n(Rejeitada)\nII - contraditório, ampla defesa e recurso, a serem obrigatoriamente observados nas hipóteses de moderação de conteúdo, devendo o provedor de redes sociais oferecer, no mínimo, um canal eletrônico de comunicação dedicado ao exercício desses direitos; (Incluído pela Medida Provisória nº 1.068, de 2021) (Rejeitada)\n(Rejeitada)",
-   "hash": "e9237217c1adf541f226cd463717968112a64283ca571bf537c1aae794cf6681"
+   "hash": "e9237217c1adf541f226cd463717968112a64283ca571bf537c1aae794cf6681",
+   "ordem": 8
   },
   "8-B": {
    "texto": "Art. 8º-B (Rejeitada)\n(Rejeitada)",
-   "hash": "9423dda3f307ef1c31e9d451395d632812fcb5a5a6f8bd61bc88fb418a90cffe"
+   "hash": "9423dda3f307ef1c31e9d451395d632812fcb5a5a6f8bd61bc88fb418a90cffe",
+   "ordem": 9
   },
   "8-C": {
    "texto": "Art. 8º-C (Rejeitada)\n(Rejeitada)",
-   "hash": "34d2ff17997a9062f99e6fea8ab37df0055579d446d36bbd6dad8e7f1b223563"
+   "hash": "34d2ff17997a9062f99e6fea8ab37df0055579d446d36bbd6dad8e7f1b223563",
+   "ordem": 10
   },
   "8-D": {
    "texto": "Art. 8º-D (Rejeitada)\n(Rejeitada)\nCAPÍTULO III\nDA PROVISÃO DE CONEXÃO E DE APLICAÇÕES DE INTERNET\nSeção I\nDa Neutralidade de Rede",
-   "hash": "801bb0808479c47409e11b5631cf7151a4045f733066dba9023665acf244bd7f"
+   "hash": "801bb0808479c47409e11b5631cf7151a4045f733066dba9023665acf244bd7f",
+   "ordem": 11
   },
   "9": {
    "texto": "Art. 9º O responsável pela transmissão, comutação ou roteamento tem o dever de tratar de forma isonômica quaisquer pacotes de dados, sem distinção por conteúdo, origem e destino, serviço, terminal ou aplicação.\n§ 1º A discriminação ou degradação do tráfego será regulamentada nos termos das atribuições privativas do Presidente da República previstas no inciso IV do art. 84 da Constituição Federal, para a fiel execução desta Lei, ouvidos o Comitê Gestor da Internet e a Agência Nacional de Telecomunicações, e somente poderá decorrer de:\nI - requisitos técnicos indispensáveis à prestação adequada dos serviços e aplicações; e\nII - priorização de serviços de emergência.\n§ 2º Na hipótese de discriminação ou degradação do tráfego prevista no § 1º , o responsável mencionado no caput deve:\nI - abster-se de causar dano aos usuários, na forma do art. 927 da Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil;\nII - agir com proporcionalidade, transparência e isonomia;\nIII - informar previamente de modo transparente, claro e suficientemente descritivo aos seus usuários sobre as práticas de gerenciamento e mitigação de tráfego adotadas, inclusive as relacionadas à segurança da rede; e\nIV - oferecer serviços em condições comerciais não discriminatórias e abster-se de praticar condutas anticoncorrenciais.\n§ 3º Na provisão de conexão à internet, onerosa ou gratuita, bem como na transmissão, comutação ou roteamento, é vedado bloquear, monitorar, filtrar ou analisar o conteúdo dos pacotes de dados, respeitado o disposto neste artigo.\nSeção II\nDa Proteção aos Registros, aos Dados Pessoais e às Comunicações Privadas",
-   "hash": "fbd375740412dccb595d6bf0ad1d7410563d541f346d2a8a9d90b484e5a7618a"
+   "hash": "fbd375740412dccb595d6bf0ad1d7410563d541f346d2a8a9d90b484e5a7618a",
+   "ordem": 12
   },
   "10": {
    "texto": "Art. 10. A guarda e a disponibilização dos registros de conexão e de acesso a aplicações de internet de que trata esta Lei, bem como de dados pessoais e do conteúdo de comunicações privadas, devem atender à preservação da intimidade, da vida privada, da honra e da imagem das partes direta ou indiretamente envolvidas.\n§ 1º O provedor responsável pela guarda somente será obrigado a disponibilizar os registros mencionados no caput, de forma autônoma ou associados a dados pessoais ou a outras informações que possam contribuir para a identificação do usuário ou do terminal, mediante ordem judicial, na forma do disposto na Seção IV deste Capítulo, respeitado o disposto no art. 7º .\n§ 2º O conteúdo das comunicações privadas somente poderá ser disponibilizado mediante ordem judicial, nas hipóteses e na forma que a lei estabelecer, respeitado o disposto nos incisos II e III do art. 7º .\n§ 3º O disposto no caput não impede o acesso aos dados cadastrais que informem qualificação pessoal, filiação e endereço, na forma da lei, pelas autoridades administrativas que detenham competência legal para a sua requisição.\n§ 4º As medidas e os procedimentos de segurança e de sigilo devem ser informados pelo responsável pela provisão de serviços de forma clara e atender a padrões definidos em regulamento, respeitado seu direito de confidencialidade quanto a segredos empresariais.",
-   "hash": "dc5c028edb626cd155d052310a01093ea82706ef36f70c02125911428bef6f49"
+   "hash": "dc5c028edb626cd155d052310a01093ea82706ef36f70c02125911428bef6f49",
+   "ordem": 13
   },
   "11": {
    "texto": "Art. 11. Em qualquer operação de coleta, armazenamento, guarda e tratamento de registros, de dados pessoais ou de comunicações por provedores de conexão e de aplicações de internet em que pelo menos um desses atos ocorra em território nacional, deverão ser obrigatoriamente respeitados a legislação brasileira e os direitos à privacidade, à proteção dos dados pessoais e ao sigilo das comunicações privadas e dos registros.\n§ 1º O disposto no caput aplica-se aos dados coletados em território nacional e ao conteúdo das comunicações, desde que pelo menos um dos terminais esteja localizado no Brasil.\n(Rejeitada)\n§ 2º O disposto no caput aplica-se mesmo que as atividades sejam realizadas por pessoa jurídica sediada no exterior, desde que oferte serviço ao público brasileiro ou pelo menos uma integrante do mesmo grupo econômico possua estabelecimento no Brasil.\n§ 3º Os provedores de conexão e de aplicações de internet deverão prestar, na forma da regulamentação, informações que permitam a verificação quanto ao cumprimento da legislação brasileira referente à coleta, à guarda, ao armazenamento ou ao tratamento de dados, bem como quanto ao respeito à privacidade e ao sigilo de comunicações.\n§ 4º Decreto regulamentará o procedimento para apuração de infrações ao disposto neste artigo.",
-   "hash": "2543436b39ba0a49fb75062b8c8b1029e02719e058a635af0bb2fe71f48fe25d"
+   "hash": "2543436b39ba0a49fb75062b8c8b1029e02719e058a635af0bb2fe71f48fe25d",
+   "ordem": 14
   },
   "12": {
    "texto": "Art. 12. Sem prejuízo das demais sanções cíveis, criminais ou administrativas, as infrações às normas previstas nos arts. 10 e 11 ficam sujeitas, conforme o caso, às seguintes sanções, aplicadas de forma isolada ou cumulativa:\nI - advertência, com indicação de prazo para adoção de medidas corretivas;\nII - multa de até 10% (dez por cento) do faturamento do grupo econômico no Brasil no seu último exercício, excluídos os tributos, considerados a condição econômica do infrator e o princípio da proporcionalidade entre a gravidade da falta e a intensidade da sanção;\nIII - suspensão temporária das atividades que envolvam os atos previstos no art. 11; ou\nIV - proibição de exercício das atividades que envolvam os atos previstos no art. 11.\nParágrafo único. Tratando-se de empresa estrangeira, responde solidariamente pelo pagamento da multa de que trata o caput sua filial, sucursal, escritório ou estabelecimento situado no País.\nSubseção I\nDa Guarda de Registros de Conexão",
-   "hash": "83bdb5ea93d6aa71564368d69501504977ff2de91ee429e84000c222cc96b6ba"
+   "hash": "83bdb5ea93d6aa71564368d69501504977ff2de91ee429e84000c222cc96b6ba",
+   "ordem": 15
   },
   "13": {
    "texto": "Art. 13. Na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo o dever de manter os registros de conexão, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 1 (um) ano, nos termos do regulamento.\n§ 1º A responsabilidade pela manutenção dos registros de conexão não poderá ser transferida a terceiros.\n§ 2º A autoridade policial ou administrativa ou o Ministério Público poderá requerer cautelarmente que os registros de conexão sejam guardados por prazo superior ao previsto no caput.\n§ 3º Na hipótese do § 2º , a autoridade requerente terá o prazo de 60 (sessenta) dias, contados a partir do requerimento, para ingressar com o pedido de autorização judicial de acesso aos registros previstos no caput.\n§ 4º O provedor responsável pela guarda dos registros deverá manter sigilo em relação ao requerimento previsto no § 2º , que perderá sua eficácia caso o pedido de autorização judicial seja indeferido ou não tenha sido protocolado no prazo previsto no § 3º .\n§ 5º Em qualquer hipótese, a disponibilização ao requerente dos registros de que trata este artigo deverá ser precedida de autorização judicial, conforme disposto na Seção IV deste Capítulo.\n§ 6º Na aplicação de sanções pelo descumprimento ao disposto neste artigo, serão considerados a natureza e a gravidade da infração, os danos dela resultantes, eventual vantagem auferida pelo infrator, as circunstâncias agravantes, os antecedentes do infrator e a reincidência.\nSubseção II\nDa Guarda de Registros de Acesso a Aplicações de Internet na Provisão de Conexão",
-   "hash": "efcedeb499609d7f0fb04affa07459268035fa7da0f059f42d51fe3fc3dac28c"
+   "hash": "efcedeb499609d7f0fb04affa07459268035fa7da0f059f42d51fe3fc3dac28c",
+   "ordem": 16
   },
   "14": {
    "texto": "Art. 14. Na provisão de conexão, onerosa ou gratuita, é vedado guardar os registros de acesso a aplicações de internet.\nSubseção III\nDa Guarda de Registros de Acesso a Aplicações de Internet na Provisão de Aplicações",
-   "hash": "97caf219f8c243bbfd45142f3096d63cb648a0b674cb45e1eb3703b1e55e66c4"
+   "hash": "97caf219f8c243bbfd45142f3096d63cb648a0b674cb45e1eb3703b1e55e66c4",
+   "ordem": 17
   },
   "15": {
    "texto": "Art. 15. O provedor de aplicações de internet constituído na forma de pessoa jurídica e que exerça essa atividade de forma organizada, profissionalmente e com fins econômicos deverá manter os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 6 (seis) meses, nos termos do regulamento.\n§ 1º Ordem judicial poderá obrigar, por tempo certo, os provedores de aplicações de internet que não estão sujeitos ao disposto no caput a guardarem registros de acesso a aplicações de internet, desde que se trate de registros relativos a fatos específicos em período determinado.\n§ 2º A autoridade policial ou administrativa ou o Ministério Público poderão requerer cautelarmente a qualquer provedor de aplicações de internet que os registros de acesso a aplicações de internet sejam guardados, inclusive por prazo superior ao previsto no caput, observado o disposto nos §§ 3º e 4º do art. 13.\n§ 3º Em qualquer hipótese, a disponibilização ao requerente dos registros de que trata este artigo deverá ser precedida de autorização judicial, conforme disposto na Seção IV deste Capítulo.\n§ 4º Na aplicação de sanções pelo descumprimento ao disposto neste artigo, serão considerados a natureza e a gravidade da infração, os danos dela resultantes, eventual vantagem auferida pelo infrator, as circunstâncias agravantes, os antecedentes do infrator e a reincidência.",
-   "hash": "519f9406be02c86a9e5891f6771d5626cb7d11c3c8cbd8cbff03992ff693fede"
+   "hash": "519f9406be02c86a9e5891f6771d5626cb7d11c3c8cbd8cbff03992ff693fede",
+   "ordem": 18
   },
   "16": {
    "texto": "Art. 16. Na provisão de aplicações de internet, onerosa ou gratuita, é vedada a guarda:\nI - dos registros de acesso a outras aplicações de internet sem que o titular dos dados tenha consentido previamente, respeitado o disposto no art. 7º ; ou\nII - de dados pessoais que sejam excessivos em relação à finalidade para a qual foi dado consentimento pelo seu titular.\nII - de dados pessoais que sejam excessivos em relação à finalidade para a qual foi dado consentimento pelo seu titular, exceto nas hipóteses previstas na Lei que dispõe sobre a proteção de dados pessoais. (Redação dada pela Lei nº 13.709, de 2018) (Vigência)",
-   "hash": "add9e7b9d4da713f46309ea78f3d1f65c528f45311b003cd33ca632ef826be6b"
+   "hash": "add9e7b9d4da713f46309ea78f3d1f65c528f45311b003cd33ca632ef826be6b",
+   "ordem": 19
   },
   "17": {
    "texto": "Art. 17. Ressalvadas as hipóteses previstas nesta Lei, a opção por não guardar os registros de acesso a aplicações de internet não implica responsabilidade sobre danos decorrentes do uso desses serviços por terceiros.\nSeção III\nDa Responsabilidade por Danos Decorrentes de Conteúdo Gerado por Terceiros",
-   "hash": "5142e60d2ca5b721142f98db217b813397eab76bdc584f88ae73d952f352c188"
+   "hash": "5142e60d2ca5b721142f98db217b813397eab76bdc584f88ae73d952f352c188",
+   "ordem": 20
   },
   "18": {
    "texto": "Art. 18. O provedor de conexão à internet não será responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros.",
-   "hash": "571291b903131f05e5d7fdc03262306efb47bd061e933995a9a12950da0508bd"
+   "hash": "571291b903131f05e5d7fdc03262306efb47bd061e933995a9a12950da0508bd",
+   "ordem": 21
   },
   "19": {
    "texto": "Art. 19. Com o intuito de assegurar a liberdade de expressão e impedir a censura, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente, ressalvadas as disposições legais em contrário.\n§ 1º A ordem judicial de que trata o caput deverá conter, sob pena de nulidade, identificação clara e específica do conteúdo apontado como infringente, que permita a localização inequívoca do material.\n§ 2º A aplicação do disposto neste artigo para infrações a direitos de autor ou a direitos conexos depende de previsão legal específica, que deverá respeitar a liberdade de expressão e demais garantias previstas no art. 5º da Constituição Federal.\n§ 3º As causas que versem sobre ressarcimento por danos decorrentes de conteúdos disponibilizados na internet relacionados à honra, à reputação ou a direitos de personalidade, bem como sobre a indisponibilização desses conteúdos por provedores de aplicações de internet, poderão ser apresentadas perante os juizados especiais.\n§ 4º O juiz, inclusive no procedimento previsto no § 3º , poderá antecipar, total ou parcialmente, os efeitos da tutela pretendida no pedido inicial, existindo prova inequívoca do fato e considerado o interesse da coletividade na disponibilização do conteúdo na internet, desde que presentes os requisitos de verossimilhança da alegação do autor e de fundado receio de dano irreparável ou de difícil reparação.",
-   "hash": "885298ea7e7ca9ee4ac4350687f8c885828c5e9a07bdbe53aef7c28d349e1d67"
+   "hash": "885298ea7e7ca9ee4ac4350687f8c885828c5e9a07bdbe53aef7c28d349e1d67",
+   "ordem": 22
   },
   "20": {
    "texto": "Art. 20. Sempre que tiver informações de contato do usuário diretamente responsável pelo conteúdo a que se refere o art. 19, caberá ao provedor de aplicações de internet comunicar-lhe os motivos e informações relativos à indisponibilização de conteúdo, com informações que permitam o contraditório e a ampla defesa em juízo, salvo expressa previsão legal ou expressa determinação judicial fundamentada em contrário.\nParágrafo único. Quando solicitado pelo usuário que disponibilizou o conteúdo tornado indisponível, o provedor de aplicações de internet que exerce essa atividade de forma organizada, profissionalmente e com fins econômicos substituirá o conteúdo tornado indisponível pela motivação ou pela ordem judicial que deu fundamento à indisponibilização.",
-   "hash": "e8951f5aa68c0a37459998a10c79647c1d83e5ae043edd87b64cedb33af60e44"
+   "hash": "e8951f5aa68c0a37459998a10c79647c1d83e5ae043edd87b64cedb33af60e44",
+   "ordem": 23
   },
   "21": {
    "texto": "Art. 21. O provedor de aplicações de internet que disponibilize conteúdo gerado por terceiros será responsabilizado subsidiariamente pela violação da intimidade decorrente da divulgação, sem autorização de seus participantes, de imagens, de vídeos ou de outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado quando, após o recebimento de notificação pelo participante ou seu representante legal, deixar de promover, de forma diligente, no âmbito e nos limites técnicos do seu serviço, a indisponibilização desse conteúdo.\nParágrafo único. A notificação prevista no caput deverá conter, sob pena de nulidade, elementos que permitam a identificação específica do material apontado como violador da intimidade do participante e a verificação da legitimidade para apresentação do pedido.\nSeção IV\nDa Requisição Judicial de Registros",
-   "hash": "37ed59e3637ffbc855f44a23dfdd5899c2b5d5998bec1b17d459ede79e06d59c"
+   "hash": "37ed59e3637ffbc855f44a23dfdd5899c2b5d5998bec1b17d459ede79e06d59c",
+   "ordem": 24
   },
   "22": {
    "texto": "Art. 22. A parte interessada poderá, com o propósito de formar conjunto probatório em processo judicial cível ou penal, em caráter incidental ou autônomo, requerer ao juiz que ordene ao responsável pela guarda o fornecimento de registros de conexão ou de registros de acesso a aplicações de internet.\nParágrafo único. Sem prejuízo dos demais requisitos legais, o requerimento deverá conter, sob pena de inadmissibilidade:\nI - fundados indícios da ocorrência do ilícito;\nII - justificativa motivada da utilidade dos registros solicitados para fins de investigação ou instrução probatória; e\nIII - período ao qual se referem os registros.",
-   "hash": "84de82f0a5ce5a25524d95d9ab02d4c9febd5a78798f6b3d807fa42757c543a6"
+   "hash": "84de82f0a5ce5a25524d95d9ab02d4c9febd5a78798f6b3d807fa42757c543a6",
+   "ordem": 25
   },
   "23": {
    "texto": "Art. 23. Cabe ao juiz tomar as providências necessárias à garantia do sigilo das informações recebidas e à preservação da intimidade, da vida privada, da honra e da imagem do usuário, podendo determinar segredo de justiça, inclusive quanto aos pedidos de guarda de registro.\nCAPÍTULO IV\nDA ATUAÇÃO DO PODER PÚBLICO",
-   "hash": "0ce6d46760d4fe06bffd2b2760e4c76bea7d7e412da488075eacc06e7cd91e0b"
+   "hash": "0ce6d46760d4fe06bffd2b2760e4c76bea7d7e412da488075eacc06e7cd91e0b",
+   "ordem": 26
   },
   "24": {
    "texto": "Art. 24. Constituem diretrizes para a atuação da União, dos Estados, do Distrito Federal e dos Municípios no desenvolvimento da internet no Brasil:\nI - estabelecimento de mecanismos de governança multiparticipativa, transparente, colaborativa e democrática, com a participação do governo, do setor empresarial, da sociedade civil e da comunidade acadêmica;\nII - promoção da racionalização da gestão, expansão e uso da internet, com participação do Comitê Gestor da internet no Brasil;\nIII - promoção da racionalização e da interoperabilidade tecnológica dos serviços de governo eletrônico, entre os diferentes Poderes e âmbitos da Federação, para permitir o intercâmbio de informações e a celeridade de procedimentos;\nIV - promoção da interoperabilidade entre sistemas e terminais diversos, inclusive entre os diferentes âmbitos federativos e diversos setores da sociedade;\nV - adoção preferencial de tecnologias, padrões e formatos abertos e livres;\nVI - publicidade e disseminação de dados e informações públicos, de forma aberta e estruturada;\nVII - otimização da infraestrutura das redes e estímulo à implantação de centros de armazenamento, gerenciamento e disseminação de dados no País, promovendo a qualidade técnica, a inovação e a difusão das aplicações de internet, sem prejuízo à abertura, à neutralidade e à natureza participativa;\nVIII - desenvolvimento de ações e programas de capacitação para uso da internet;\nIX - promoção da cultura e da cidadania; e\nX - prestação de serviços públicos de atendimento ao cidadão de forma integrada, eficiente, simplificada e por múltiplos canais de acesso, inclusive remotos.",
-   "hash": "144b47bb673ab95775c2cc60215158028f9a7f495ca1503bae677bdae8571c78"
+   "hash": "144b47bb673ab95775c2cc60215158028f9a7f495ca1503bae677bdae8571c78",
+   "ordem": 27
   },
   "25": {
    "texto": "Art. 25. As aplicações de internet de entes do poder público devem buscar:\nI - compatibilidade dos serviços de governo eletrônico com diversos terminais, sistemas operacionais e aplicativos para seu acesso;\nII - acessibilidade a todos os interessados, independentemente de suas capacidades físico-motoras, perceptivas, sensoriais, intelectuais, mentais, culturais e sociais, resguardados os aspectos de sigilo e restrições administrativas e legais;\nIII - compatibilidade tanto com a leitura humana quanto com o tratamento automatizado das informações;\nIV - facilidade de uso dos serviços de governo eletrônico; e\nV - fortalecimento da participação social nas políticas públicas.",
-   "hash": "8771dc4e3ca137e23f8e8ce3c23f56ba4ae8f204a16b039bf335315a64035a29"
+   "hash": "8771dc4e3ca137e23f8e8ce3c23f56ba4ae8f204a16b039bf335315a64035a29",
+   "ordem": 28
   },
   "26": {
    "texto": "Art. 26. O cumprimento do dever constitucional do Estado na prestação da educação, em todos os níveis de ensino, inclui a capacitação, integrada a outras práticas educacionais, para o uso seguro, consciente e responsável da internet como ferramenta para o exercício da cidadania, a promoção da cultura e o desenvolvimento tecnológico.",
-   "hash": "8b0f748afd3f6b313b6edd504e32d1bee1540167c9d56434b18954240c0c86a8"
+   "hash": "8b0f748afd3f6b313b6edd504e32d1bee1540167c9d56434b18954240c0c86a8",
+   "ordem": 29
   },
   "27": {
    "texto": "Art. 27. As iniciativas públicas de fomento à cultura digital e de promoção da internet como ferramenta social devem:\nI - promover a inclusão digital;\nII - buscar reduzir as desigualdades, sobretudo entre as diferentes regiões do País, no acesso às tecnologias da informação e comunicação e no seu uso; e\nIII - fomentar a produção e circulação de conteúdo nacional.",
-   "hash": "48c6741d11e28b742350e037d47b7126ef757426433e6098cd80823bf6f32521"
+   "hash": "48c6741d11e28b742350e037d47b7126ef757426433e6098cd80823bf6f32521",
+   "ordem": 30
   },
   "28": {
    "texto": "Art. 28. O Estado deve, periodicamente, formular e fomentar estudos, bem como fixar metas, estratégias, planos e cronogramas, referentes ao uso e desenvolvimento da internet no País.\nCAPÍTULO IV-A\nDAS SANÇÕES\n(Rejeitada)",
-   "hash": "6c6a1fc50e38496b166149563436209a50b4af16641b3a168d523be73a8eaecc"
+   "hash": "6c6a1fc50e38496b166149563436209a50b4af16641b3a168d523be73a8eaecc",
+   "ordem": 31
   },
   "28-A": {
    "texto": "Art. 28-A. Sem prejuízo das demais sanções cíveis, criminais ou administrativas, as infrações às normas previstas nos art. 8º-A, art. 8º-B, art. 8º-C, art. 10 e art. 11 ficam sujeitas, conforme o caso, às seguintes sanções: (Incluído pela Medida Provisória nº 1.068, de 2021) (Rejeitada)\n(Rejeitada)\nCAPÍTULO V\nDISPOSIÇÕES FINAIS",
-   "hash": "93432a66630cda0e4c495b8feabf09075a274a3a4f819077e3d75f882017fb36"
+   "hash": "93432a66630cda0e4c495b8feabf09075a274a3a4f819077e3d75f882017fb36",
+   "ordem": 32
   },
   "29": {
    "texto": "Art. 29. O usuário terá a opção de livre escolha na utilização de programa de computador em seu terminal para exercício do controle parental de conteúdo entendido por ele como impróprio a seus filhos menores, desde que respeitados os princípios desta Lei e da Lei nº 8.069, de 13 de julho de 1990 - Estatuto da Criança e do Adolescente.\nParágrafo único. Cabe ao poder público, em conjunto com os provedores de conexão e de aplicações de internet e a sociedade civil, promover a educação e fornecer informações sobre o uso dos programas de computador previstos no caput, bem como para a definição de boas práticas para a inclusão digital de crianças e adolescentes.",
-   "hash": "e63b96846b05cd517a1a000d0af081ad9c0f603ad27667f362185df93957a6c1"
+   "hash": "e63b96846b05cd517a1a000d0af081ad9c0f603ad27667f362185df93957a6c1",
+   "ordem": 33
   },
   "30": {
    "texto": "Art. 30. A defesa dos interesses e dos direitos estabelecidos nesta Lei poderá ser exercida em juízo, individual ou coletivamente, na forma da lei.",
-   "hash": "b4a0d882a5161e311158ceb2139fa1d6192f4307346d6ecb348454febfc48b61"
+   "hash": "b4a0d882a5161e311158ceb2139fa1d6192f4307346d6ecb348454febfc48b61",
+   "ordem": 34
   },
   "31": {
    "texto": "Art. 31. Até a entrada em vigor da lei específica prevista no § 2º do art. 19, a responsabilidade do provedor de aplicações de internet por danos decorrentes de conteúdo gerado por terceiros, quando se tratar de infração a direitos de autor ou a direitos conexos, continuará a ser disciplinada pela legislação autoral vigente aplicável na data da entrada em vigor desta Lei.",
-   "hash": "ed31053b9de29aecb80d0f346029483a60ee605420fafd5bc206ed9f668b9c13"
+   "hash": "ed31053b9de29aecb80d0f346029483a60ee605420fafd5bc206ed9f668b9c13",
+   "ordem": 35
   },
   "32": {
    "texto": "Art. 32. Esta Lei entra em vigor após decorridos 60 (sessenta) dias de sua publicação oficial.\nBrasília, 23 de abril de 2014; 193º da Independência e 126º da República.\nDILMA ROUSSEFF\nJosé Eduardo Cardozo\nMiriam Belchior\nPaulo Bernardo Silva\nClélio Campolina Diniz\nEste texto não substitui o publicado no DOU de 24.4.2014\n*",
-   "hash": "f1b6af5ff843253dc0210813a92eb9eeb0d81da6efd8ffb4c9c1bc41ff74eba4"
+   "hash": "f1b6af5ff843253dc0210813a92eb9eeb0d81da6efd8ffb4c9c1bc41ff74eba4",
+   "ordem": 36
   }
  }
 }

@@ -7,65 +7,78 @@
  "hash": "df2274403ae2642221ad5a9282ad97230bd6d73355361648a7b71ae0f3a95b6b",
  "etag": "\"3075-65a91318348c1\"",
  "last_modified": "Thu, 03 Sep 2026 09:58:27 GMT",
- "versao_leitor": 4,
+ "versao_leitor": 5,
  "preambulo": [
   "LEI No 10.216, DE 6 DE ABRIL DE 2001.",
   "Dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais e redireciona o modelo assistencial em saúde mental.",
   "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
  ],
- "ultimo_download_completo": "2026-09-29T04:49:27-03:00",
+ "ultimo_download_completo": "2026-09-30T12:36:08-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1o Os direitos e a proteção das pessoas acometidas de transtorno mental, de que trata esta Lei, são assegurados sem qualquer forma de discriminação quanto à raça, cor, sexo, orientação sexual, religião, opção política, nacionalidade, idade, família, recursos econômicos e ao grau de gravidade ou tempo de evolução de seu transtorno, ou qualquer outra.",
-   "hash": "3efe3e74b55256662caf2d58195bded2cfb163e5aabdcdfb470b1cdd80b85d08"
+   "hash": "3efe3e74b55256662caf2d58195bded2cfb163e5aabdcdfb470b1cdd80b85d08",
+   "ordem": 0
   },
   "2": {
    "texto": "Art. 2o Nos atendimentos em saúde mental, de qualquer natureza, a pessoa e seus familiares ou responsáveis serão formalmente cientificados dos direitos enumerados no parágrafo único deste artigo.\nParágrafo único. São direitos da pessoa portadora de transtorno mental:\nI - ter acesso ao melhor tratamento do sistema de saúde, consentâneo às suas necessidades;\nII - ser tratada com humanidade e respeito e no interesse exclusivo de beneficiar sua saúde, visando alcançar sua recuperação pela inserção na família, no trabalho e na comunidade;\nIII - ser protegida contra qualquer forma de abuso e exploração;\nIV - ter garantia de sigilo nas informações prestadas;\nV - ter direito à presença médica, em qualquer tempo, para esclarecer a necessidade ou não de sua hospitalização involuntária;\nVI - ter livre acesso aos meios de comunicação disponíveis;\nVII - receber o maior número de informações a respeito de sua doença e de seu tratamento;\nVIII - ser tratada em ambiente terapêutico pelos meios menos invasivos possíveis;\nIX - ser tratada, preferencialmente, em serviços comunitários de saúde mental.",
-   "hash": "a5e0fb228d7f9997845a6155d7d3d0ddd5d5c5a257e7a08c286bd0998fd29fa4"
+   "hash": "a5e0fb228d7f9997845a6155d7d3d0ddd5d5c5a257e7a08c286bd0998fd29fa4",
+   "ordem": 1
   },
   "3": {
    "texto": "Art. 3o É responsabilidade do Estado o desenvolvimento da política de saúde mental, a assistência e a promoção de ações de saúde aos portadores de transtornos mentais, com a devida participação da sociedade e da família, a qual será prestada em estabelecimento de saúde mental, assim entendidas as instituições ou unidades que ofereçam assistência em saúde aos portadores de transtornos mentais.",
-   "hash": "9ddc94b49feea4aa39bf3ef6a1db0c27d7df3850bad40c24580296761d3090cf"
+   "hash": "9ddc94b49feea4aa39bf3ef6a1db0c27d7df3850bad40c24580296761d3090cf",
+   "ordem": 2
   },
   "4": {
    "texto": "Art. 4o A internação, em qualquer de suas modalidades, só será indicada quando os recursos extra-hospitalares se mostrarem insuficientes.\n§ 1o O tratamento visará, como finalidade permanente, a reinserção social do paciente em seu meio.\n§ 2o O tratamento em regime de internação será estruturado de forma a oferecer assistência integral à pessoa portadora de transtornos mentais, incluindo serviços médicos, de assistência social, psicológicos, ocupacionais, de lazer, e outros.\n§ 3o É vedada a internação de pacientes portadores de transtornos mentais em instituições com características asilares, ou seja, aquelas desprovidas dos recursos mencionados no § 2o e que não assegurem aos pacientes os direitos enumerados no parágrafo único do art. 2o.",
-   "hash": "9b266277fe92644fbbef2311a62470d03e9bab3f3681e46ed3fc1ac93355852a"
+   "hash": "9b266277fe92644fbbef2311a62470d03e9bab3f3681e46ed3fc1ac93355852a",
+   "ordem": 3
   },
   "5": {
    "texto": "Art. 5o O paciente há longo tempo hospitalizado ou para o qual se caracterize situação de grave dependência institucional, decorrente de seu quadro clínico ou de ausência de suporte social, será objeto de política específica de alta planejada e reabilitação psicossocial assistida, sob responsabilidade da autoridade sanitária competente e supervisão de instância a ser definida pelo Poder Executivo, assegurada a continuidade do tratamento, quando necessário.",
-   "hash": "b5154cf8f580e379f297d6be23f34df932a4dde86fb3742d9eaec886ed8a7fb9"
+   "hash": "b5154cf8f580e379f297d6be23f34df932a4dde86fb3742d9eaec886ed8a7fb9",
+   "ordem": 4
   },
   "6": {
    "texto": "Art. 6o A internação psiquiátrica somente será realizada mediante laudo médico circunstanciado que caracterize os seus motivos.\nParágrafo único. São considerados os seguintes tipos de internação psiquiátrica:\nI - internação voluntária: aquela que se dá com o consentimento do usuário;\nII - internação involuntária: aquela que se dá sem o consentimento do usuário e a pedido de terceiro; e\nIII - internação compulsória: aquela determinada pela Justiça.",
-   "hash": "b3eae67cbf718b200e985c3211e760285dd8c0a6988d930fa94ed14edca17e91"
+   "hash": "b3eae67cbf718b200e985c3211e760285dd8c0a6988d930fa94ed14edca17e91",
+   "ordem": 5
   },
   "7": {
    "texto": "Art. 7o A pessoa que solicita voluntariamente sua internação, ou que a consente, deve assinar, no momento da admissão, uma declaração de que optou por esse regime de tratamento.\nParágrafo único. O término da internação voluntária dar-se-á por solicitação escrita do paciente ou por determinação do médico assistente.",
-   "hash": "df057da0549c742e040cd932420b3d93d5f6ab92e6e175cb17046bca548e9179"
+   "hash": "df057da0549c742e040cd932420b3d93d5f6ab92e6e175cb17046bca548e9179",
+   "ordem": 6
   },
   "8": {
    "texto": "Art. 8o A internação voluntária ou involuntária somente será autorizada por médico devidamente registrado no Conselho Regional de Medicina - CRM do Estado onde se localize o estabelecimento.\n§ 1o A internação psiquiátrica involuntária deverá, no prazo de setenta e duas horas, ser comunicada ao Ministério Público Estadual pelo responsável técnico do estabelecimento no qual tenha ocorrido, devendo esse mesmo procedimento ser adotado quando da respectiva alta.\n§ 2o O término da internação involuntária dar-se-á por solicitação escrita do familiar, ou responsável legal, ou quando estabelecido pelo especialista responsável pelo tratamento.",
-   "hash": "e0f5e0f45900c99175591f37e29553a2cf81e8a0d920792a4db7438b8294f10d"
+   "hash": "e0f5e0f45900c99175591f37e29553a2cf81e8a0d920792a4db7438b8294f10d",
+   "ordem": 7
   },
   "9": {
    "texto": "Art. 9o A internação compulsória é determinada, de acordo com a legislação vigente, pelo juiz competente, que levará em conta as condições de segurança do estabelecimento, quanto à salvaguarda do paciente, dos demais internados e funcionários.",
-   "hash": "d2e4cacb7aa9fd9cd7efa779dcfe94e5c7174e4c6da0ec1bd4523a636c8c4381"
+   "hash": "d2e4cacb7aa9fd9cd7efa779dcfe94e5c7174e4c6da0ec1bd4523a636c8c4381",
+   "ordem": 8
   },
   "10": {
    "texto": "Art. 10. Evasão, transferência, acidente, intercorrência clínica grave e falecimento serão comunicados pela direção do estabelecimento de saúde mental aos familiares, ou ao representante legal do paciente, bem como à autoridade sanitária responsável, no prazo máximo de vinte e quatro horas da data da ocorrência.",
-   "hash": "04f24f5c2004eed386a4c378becdb3bbfae0261990c2a8e36ed8a1b3a0c4a4dc"
+   "hash": "04f24f5c2004eed386a4c378becdb3bbfae0261990c2a8e36ed8a1b3a0c4a4dc",
+   "ordem": 9
   },
   "11": {
    "texto": "Art. 11. Pesquisas científicas para fins diagnósticos ou terapêuticos não poderão ser realizadas sem o consentimento expresso do paciente, ou de seu representante legal, e sem a devida comunicação aos conselhos profissionais competentes e ao Conselho Nacional de Saúde.",
-   "hash": "b22a5a2d37ff292c1508692db9f6a7fc747c874b931ecdcaa320cc94c3f0bd22"
+   "hash": "b22a5a2d37ff292c1508692db9f6a7fc747c874b931ecdcaa320cc94c3f0bd22",
+   "ordem": 10
   },
   "12": {
    "texto": "Art. 12. O Conselho Nacional de Saúde, no âmbito de sua atuação, criará comissão nacional para acompanhar a implementação desta Lei.",
-   "hash": "4197123eb58f81f0936b15599cb6ab299bc55dc8410fc8174cc4f00606d471db"
+   "hash": "4197123eb58f81f0936b15599cb6ab299bc55dc8410fc8174cc4f00606d471db",
+   "ordem": 11
   },
   "13": {
    "texto": "Art. 13. Esta Lei entra em vigor na data de sua publicação.\nBrasília, 6 de abril de 2001; 180o da Independência e 113o da República.\nFERNANDO HENRIQUE CARDOSO\nJose Gregori\nJosé Serra\nRoberto Brant\nEste texto não substitui o publicado no D.O.U. de 9.4.2001\n*",
-   "hash": "9c74a139d36c8ea3f357115d3fd41ba8b6d845bd027e83c2b8ae7f37f7487328"
+   "hash": "9c74a139d36c8ea3f357115d3fd41ba8b6d845bd027e83c2b8ae7f37f7487328",
+   "ordem": 12
   }
  }
 }
