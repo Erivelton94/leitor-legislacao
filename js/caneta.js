@@ -618,7 +618,7 @@ function alternarCaneta(ligar = !caneta.ativa) {
   document.body.classList.toggle("caneta-dedo", caneta.ativa && caneta.dedo);
   $("#barra-caneta").classList.toggle("oculto", !caneta.ativa);
   $("#btn-caneta").setAttribute("aria-pressed", caneta.ativa);
-  $("#btn-caneta").textContent = caneta.ativa ? "✏️ Caneta ligada" : "✏️ Caneta";
+  $("#btn-caneta").innerHTML = caneta.ativa ? '✏️<span class="rot"> Caneta ligada</span>' : '✏️<span class="rot"> Caneta</span>';
   if ($("#res-caneta")) $("#res-caneta").setAttribute("aria-pressed", caneta.ativa);
   if (caneta.ativa) { esconderBarra(); window.getSelection()?.removeAllRanges(); montarBarraCaneta(); }
 }

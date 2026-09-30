@@ -3,7 +3,7 @@
    ===================================================================== */
 function definirTopo({ titulo, leitor = false, voltar = null }) {
   $("#titulo").textContent = titulo;
-  for (const id of ["btn-sumario", "btn-ir", "btn-buscar-lei", "btn-ouvir", "btn-caneta", "btn-tela-cheia", "btn-aa"]) $("#" + id).classList.toggle("oculto", !leitor);
+  for (const id of ["btn-sumario", "btn-ir", "btn-buscar-lei", "btn-ouvir", "btn-caneta", "btn-tela-cheia", "btn-aa", "btn-mais-leitor"]) $("#" + id).classList.toggle("oculto", !leitor);
   $("#btn-voltar").classList.toggle("oculto", !voltar && pilhaNav.length < 2);
   $("#btn-voltar").dataset.destino = voltar || "";
   $("#abas").classList.toggle("oculto", leitor);

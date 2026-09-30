@@ -1006,6 +1006,7 @@ async function telaResumoOriginal(r) {
   try {
     if (r.formato === "pdf") await montarPdf(r);
     else await montarDocx(r, editado);
+    caberNaTela();
   } catch (e) {
     const nuvem = typeof cfgSync === "function" && cfgSync() && /não está neste aparelho/.test(e.message);
     $("#texto-lei").innerHTML = nuvem

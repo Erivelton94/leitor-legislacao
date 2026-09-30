@@ -165,6 +165,18 @@ async def testes(b):
         confere("Constituição: ADCT vem depois do Art. 250", k >= 0 and seq[k + 1] == "1#2", seq[k + 1:k + 3] if k >= 0 else "sem art. 250")
         await ctx3.close()
 
+    # 10b) Celular: nada passa da largura da tela
+    ctx6, pg6 = await novo_aparelho(b, 390, 844)
+    await pg6.evaluate("location.hash='#/lei/lep/112'"); await pg6.wait_for_timeout(2000)
+    await pg6.click("#btn-caneta"); await pg6.wait_for_timeout(300)
+    fx = await pg6.locator("#cn-fechar").bounding_box()
+    ok_lei = await pg6.evaluate("document.documentElement.scrollWidth") <= 390 and fx["x"] + fx["width"] <= 390
+    await pg6.evaluate("alternarCaneta(false)")
+    await pg6.goto(U + "#/questoes"); await pg6.wait_for_timeout(1200)
+    ok_q = await pg6.evaluate("document.documentElement.scrollWidth") <= 390
+    confere("Celular: leitura, caneta e questões cabem na tela", ok_lei and ok_q)
+    await ctx6.close()
+
     # 11) Boas-vindas na primeira abertura
     ctx4 = await b.new_context(viewport={"width": 1180, "height": 820}); pg4 = await ctx4.new_page()
     await pg4.goto(U + "#/acervo"); await pg4.wait_for_timeout(2500)

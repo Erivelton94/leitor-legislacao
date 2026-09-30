@@ -60,6 +60,7 @@ function provedorGitHub(cfg) {
   };
 }
 function provedorGoogle() {
+  const G = lerLS("sync-google-base", "https://www.googleapis.com");     // (os testes usam um servidor de mentira)
   const chamar = async (url, op = {}) => {
     const tk = lerLS("google-token", null);
     if (!tk || Date.now() > tk.expira - 60000) { const e = new Error("Toque em ☁️ para reconectar ao Google (a conexão dura 1 hora por segurança)."); e.reconectar = true; throw e; }
@@ -74,7 +75,7 @@ function provedorGoogle() {
     async listar() {
       const m = new Map(); ids = new Map(); let pag = "";
       do {
-        const r = await chamar(`https://www.googleapis.com/drive/v3/files?spaces=appDataFolder&pageSize=1000&fields=nextPageToken,files(id,name,md5Checksum)${pag ? "&pageToken=" + pag : ""}`);
+        const r = await chamar(`${G}/drive/v3/files?spaces=appDataFolder&pageSize=1000&fields=nextPageToken,files(id,name,md5Checksum)${pag ? "&pageToken=" + pag : ""}`);
         if (!r.ok) throw new Error("Google Drive respondeu " + r.status);
         const j = await r.json();
         for (const f of j.files || []) { m.set(f.name, { ref: f.id, hash: f.md5Checksum }); ids.set(f.name, f.id); }
@@ -83,18 +84,20 @@ function provedorGoogle() {
       return m;
     },
     async baixar(p) {
-      const r = await chamar(`https://www.googleapis.com/drive/v3/files/${ids.get(p)}?alt=media`);
+      const r = await chamar(`${G}/drive/v3/files/${ids.get(p)}?alt=media`);
       if (!r.ok) throw new Error(`Não foi possível baixar ${p} (${r.status})`);
       return new Uint8Array(await r.arrayBuffer());
     },
     async enviar(p, bytes, anterior) {
-      let r;
-      if (anterior) r = await chamar(`https://www.googleapis.com/upload/drive/v3/files/${anterior.ref}?uploadType=media&fields=id,md5Checksum`, { method: "PATCH", body: bytes });
-      else {
-        const meta = new Blob([JSON.stringify({ name: p, parents: ["appDataFolder"] })], { type: "application/json" });
-        const fd = new FormData(); fd.append("metadata", meta); fd.append("file", new Blob([bytes]));
-        r = await chamar("https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,md5Checksum", { method: "POST", body: fd });
-      }
+      // Envio "em partes" (resumable): aceita arquivos grandes (o envio simples do Google para em 5 MB)
+      const ini = await chamar(`${G}/upload/drive/v3/files${anterior ? "/" + anterior.ref : ""}?uploadType=resumable&fields=id,md5Checksum`, {
+        method: anterior ? "PATCH" : "POST",
+        headers: { "Content-Type": "application/json; charset=UTF-8", "X-Upload-Content-Length": String(bytes.length), "X-Upload-Content-Type": "application/octet-stream" },
+        body: JSON.stringify(anterior ? {} : { name: p, parents: ["appDataFolder"] }),
+      });
+      const destino = ini.ok && ini.headers.get("Location");
+      if (!destino) throw new Error(`Não foi possível começar o envio de ${p} (${ini.status})`);
+      const r = await fetch(destino, { method: "PUT", headers: { "Content-Type": "application/octet-stream" }, body: bytes });
       if (!r.ok) throw new Error(`Não foi possível enviar ${p} (${r.status})`);
       const j = await r.json();
       return { ref: j.id, hash: j.md5Checksum };
@@ -252,12 +255,18 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
     const metas = await bdTodos("resumos");
     const arqsLocais = await bdTodos("arquivos");
     // os arquivos originais sobem ANTES da lista de resumos: outro aparelho nunca vê um resumo sem o arquivo dele
+    const falhas = [];
+    const tentar = async (nome, fn) => {                      // um arquivo com problema não impede os outros
+      try { await fn(); } catch (e) { if (e.reconectar || e.senha || e.conflito) throw e; falhas.push(`${nome}: ${e.message}`); }
+    };
     for (const a of arqsLocais) {
       const caminho = `arquivos/${a.id}`;
       if (lista.has(caminho)) continue;
       atualizarIndicadorSync("rodando", `Enviando ${a.nome || "arquivo"}…`);
-      const r = await p.enviar(caminho, await cifrar(new Uint8Array(await a.blob.arrayBuffer())), null);
-      lista.set(caminho, r); enviados++;
+      await tentar(a.nome || "arquivo", async () => {
+        const r = await p.enviar(caminho, await cifrar(new Uint8Array(await a.blob.arrayBuffer())), null);
+        lista.set(caminho, r); enviados++;
+      });
     }
     for (const cont of await bdTodos("resumos_conteudo")) {
       const m = metas.find(x => x.id === cont.id);
@@ -274,10 +283,12 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
       if (m.apagado || !m.arquivo || idsArq.has(m.arquivo) || !lista.has(`arquivos/${m.arquivo}`)) continue;
       const info = infoRemota.get(m.arquivo) || {};
       atualizarIndicadorSync("rodando", `Baixando ${m.origem || m.titulo || "arquivo"}…`);
-      const bytes = await decifrar(await p.baixar(`arquivos/${m.arquivo}`));
-      await bdGravar("arquivos", { id: m.arquivo, nome: info.nome || m.origem, atualizadoEm: info.atualizadoEm || agoraISO(), blob: new Blob([bytes], { type: info.tipo || TIPOS[m.formato] || "" }) });
-      await bdApagar("miniaturas", m.id);
-      idsArq.add(m.arquivo); trazidos++;
+      await tentar(m.origem || m.titulo || "arquivo", async () => {
+        const bytes = await decifrar(await p.baixar(`arquivos/${m.arquivo}`));
+        await bdGravar("arquivos", { id: m.arquivo, nome: info.nome || m.origem, atualizadoEm: info.atualizadoEm || agoraISO(), blob: new Blob([bytes], { type: info.tipo || TIPOS[m.formato] || "" }) });
+        await bdApagar("miniaturas", m.id);
+        idsArq.add(m.arquivo); trazidos++;
+      });
     }
     const imgsLocais = await bdTodos("imagens");
     const idsImg = new Set(imgsLocais.map(i => i.id));
@@ -285,21 +296,23 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
     for (const im of imgsLocais) {
       if (remotasImg.has(im.id)) continue;
       const caminho = `imagens/${im.id}.${EXT_IMG[im.tipoMime || im.blob?.type] || "jpg"}`;
-      const r = await p.enviar(caminho, await cifrar(new Uint8Array(await im.blob.arrayBuffer())), null);
-      lista.set(caminho, r); enviados++;
+      await tentar("imagem", async () => { const r = await p.enviar(caminho, await cifrar(new Uint8Array(await im.blob.arrayBuffer())), null); lista.set(caminho, r); enviados++; });
     }
     for (const [id, ext] of remotasImg) {
       if (idsImg.has(id)) continue;
-      const bytes = await decifrar(await p.baixar(`imagens/${id}.${ext}`));
-      await bdGravar("imagens", { id, blob: new Blob([bytes], { type: MIME_EXT[ext] || "image/jpeg" }), tipoMime: MIME_EXT[ext] || "image/jpeg", atualizadoEm: agoraISO() });
-      trazidos++;
+      await tentar("imagem", async () => {
+        const bytes = await decifrar(await p.baixar(`imagens/${id}.${ext}`));
+        await bdGravar("imagens", { id, blob: new Blob([bytes], { type: MIME_EXT[ext] || "image/jpeg" }), tipoMime: MIME_EXT[ext] || "image/jpeg", atualizadoEm: agoraISO() });
+        trazidos++;
+      });
     }
 
-    est.ultimaEm = agoraISO(); est.erro = null; est.trazidos = trazidos; est.enviados = enviados;
+    est.ultimaEm = agoraISO(); est.trazidos = trazidos; est.enviados = enviados;
+    est.erro = falhas.length ? `${falhas.length} arquivo(s) não sincronizado(s) — o app tenta de novo na próxima vez. ${falhas[0]}` : null;
     gravarLS("sync-estado", est);
     sync.ultimoErro = null;
     if (enviados) gravarLS("ultimo-backup", est.ultimaEm);                    // a nuvem conta como backup
-    atualizarIndicadorSync("ok");
+    atualizarIndicadorSync(falhas.length ? "erro" : "ok");
     if (trazidos) aplicarSincronizacaoNaTela(trazidos);
   } catch (e) {
     gravarLS("sync-estado", est);

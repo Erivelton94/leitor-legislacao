@@ -3,10 +3,10 @@
    O zoom do navegador é bloqueado nessas telas; quem aumenta é o próprio
    texto. Assim as barras de ferramentas nunca se mexem nem mudam de tamanho.
    ===================================================================== */
-let zoomConteudo = 1, larguraBaseZoom = 0, pinca = null;
+let zoomConteudo = 1, larguraBaseZoom = 0, pinca = null, zoomBase = 1;
 const fz = () => ($("#zoom-caixa") ? zoomConteudo : 1);
 function zerarZoom() {
-  zoomConteudo = 1; larguraBaseZoom = 0; pinca = null;
+  zoomConteudo = 1; larguraBaseZoom = 0; pinca = null; zoomBase = 1;
   $("#selo-zoom")?.remove();
 }
 function ajustarCaixaZoom() {
@@ -19,7 +19,7 @@ function ajustarCaixaZoom() {
 function aplicarZoom(novo, cx = window.innerWidth / 2, cy = window.innerHeight / 2) {
   const cont = $("#texto-lei"), caixa = $("#zoom-caixa"), rolagem = $(".zoom-rolagem");
   if (!cont || !caixa) return;
-  novo = Math.min(3, Math.max(1, Math.round(novo * 100) / 100));
+  novo = Math.min(3, Math.max(zoomBase, Math.round(novo * 100) / 100));
   if (novo === zoomConteudo) return;
   const r0 = cont.getBoundingClientRect();
   const lx = (cx - r0.left) / zoomConteudo, ly = (cy - r0.top) / zoomConteudo;       // o ponto entre os dedos fica parado
@@ -35,16 +35,31 @@ function aplicarZoom(novo, cx = window.innerWidth / 2, cy = window.innerHeight /
   window.scrollBy(0, r1.top + ly * novo - cy);
   mostrarSeloZoom();
 }
+/* telas estreitas (celular): a página do PDF/Word é reduzida para caber inteira na largura */
+function caberNaTela() {
+  const cont = $("#texto-lei"), visor = $(".visor-original");
+  if (!cont || !visor || !cont.classList.contains("paginas-resumo")) return;
+  const larg = cont.offsetWidth, disp = visor.clientWidth - 16;
+  const base = larg > disp ? Math.max(0.3, Math.floor(disp / larg * 100) / 100) : 1;
+  const estavaNaBase = zoomConteudo === zoomBase;
+  zoomBase = base;
+  if (estavaNaBase || zoomConteudo < base) {
+    if (zoomConteudo === base) zoomConteudo += 0.001;          // força o redesenho no tamanho certo
+    aplicarZoom(base, 0, 0);
+    const rolagem = $(".zoom-rolagem"); if (rolagem) rolagem.scrollLeft = 0;
+  }
+}
+window.addEventListener("resize", () => { if ($(".paginas-resumo")) setTimeout(caberNaTela, 200); });
 function mostrarSeloZoom() {
   let s = $("#selo-zoom");
-  if (zoomConteudo === 1) { s?.remove(); return; }
+  if (zoomConteudo === zoomBase) { s?.remove(); return; }
   if (!s) {
     s = document.createElement("button");
     s.id = "selo-zoom"; s.className = "selo-zoom";
-    s.onclick = () => { aplicarZoom(1); redesenharPaginasNitidas(); };
+    s.onclick = () => { aplicarZoom(zoomBase); redesenharPaginasNitidas(); };
     ($("#camada-fixa") || document.body).appendChild(s);
   }
-  s.textContent = `🔍 ${Math.round(zoomConteudo * 100)}% · voltar a 100%`;
+  s.textContent = zoomBase < 1 ? `🔍 ${Math.round(zoomConteudo / zoomBase * 100)}% · caber na tela` : `🔍 ${Math.round(zoomConteudo * 100)}% · voltar a 100%`;
 }
 let tempoNitidez = null;
 function redesenharPaginasNitidas() {        // PDF: depois do zoom, as páginas visíveis são redesenhadas mais nítidas

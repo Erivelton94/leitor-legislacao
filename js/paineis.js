@@ -45,6 +45,13 @@ $("#btn-buscar-lei").onclick = () => {
 };
 $("#btn-voltar").onclick = () => voltar();
 $("#btn-caneta").onclick = () => alternarCaneta();
+/* celular: as opções da leitura ficam reunidas no "⋯" */
+$("#btn-mais-leitor").onclick = () => {
+  const itens = [["btn-sumario", "📑 Sumário"], ["btn-ir", "🔢 Ir para o artigo"], ["btn-buscar-lei", "🔍 Buscar nesta lei"],
+    ["btn-ouvir", ouvir.ativo ? "🔇 Parar de ouvir" : "🔊 Ouvir a lei"], ["btn-tela-cheia", document.body.classList.contains("tela-cheia") ? "⛶ Sair da tela cheia" : "⛶ Tela cheia"], ["btn-aa", "Aa  Tamanho da letra e tema"]];
+  abrirPainel(`<h2>Leitura ${botaoFechar}</h2><div class="acoes">${itens.map(([id, r]) => `<button data-mais="${id}">${r}</button>`).join("")}</div>`);
+  $$("#painel-caixa [data-mais]").forEach(b => b.onclick = () => { const alvo = b.dataset.mais; fecharPainel(); setTimeout(() => $("#" + alvo).click(), 60); });
+};
 $("#btn-ouvir").onclick = () => (ouvir.ativo ? pararOuvir() : ouvirAPartirDe(artigoNoTopo()));
 $("#btn-tela-cheia").onclick = () => alternarTelaCheia();
 

@@ -139,6 +139,7 @@ mark { background: var(--marca); color: inherit; border-radius: 2px; }
   display: flex; align-items: flex-end; justify-content: center;
 }
 .painel-caixa {
+  box-sizing: border-box;
   background: var(--papel); width: 100%; max-width: 640px; max-height: 82vh; overflow-y: auto;
   border-radius: 16px 16px 0 0; padding: 18px 18px calc(24px + env(safe-area-inset-bottom, 0px));
 }
@@ -574,3 +575,61 @@ svg.tinta { will-change: auto; }
 .aviso-rapido.visivel { opacity: .95; transform: translate(-50%, 0); }
 .bv-botoes { flex-direction: row !important; justify-content: center; flex-wrap: wrap; }
 .bv-botoes button { flex: 0 0 auto; min-width: 110px; }
+
+/* ===================== CELULAR E TELAS PEQUENAS ===================== */
+.rot-curto { display: none; }
+#btn-mais-leitor { display: none; }
+@media (max-width: 640px) {
+  .topo { padding: 8px 10px; gap: 2px; }
+  .topo h1 { font-size: 16px; }
+  .icone-btn { min-width: 40px; padding: 0 8px; }
+  /* leitura: só Voltar, título, caneta, nuvem e "⋯" */
+  #btn-sumario, #btn-ir, #btn-buscar-lei, #btn-ouvir, #btn-tela-cheia, #btn-aa { display: none !important; }
+  #btn-mais-leitor:not(.oculto) { display: inline-flex; font-size: 22px; }
+  #btn-caneta .rot { display: none; }
+  #btn-voltar { font-size: 0; min-width: 36px; padding: 0 6px; }
+  #btn-voltar::before { content: "‹"; font-size: 28px; line-height: 1; }
+  /* abas embaixo: nomes curtos, sem cortar */
+  .abas { padding-left: 2px; padding-right: 2px; }
+  .abas button { min-width: 0; flex: 1 1 0; font-size: 10.5px; padding: 6px 1px; gap: 2px; }
+  .abas svg { width: 21px; height: 21px; }
+  .rot-longo { display: none; }
+  .rot-curto { display: inline; }
+  /* filtros e campos ocupam a largura toda */
+  .filtros > select, .filtros > input, .filtros > .campo { flex: 1 1 100%; width: 100%; max-width: 100%; min-width: 0 !important; }
+  .segmentado { max-width: 100%; flex-wrap: wrap; }
+  .segmentado button { padding: 8px 10px; font-size: 13.5px; }
+  .secao { padding-left: 12px; padding-right: 12px; }
+  .acoes-linha > .botao { flex: 1 1 auto; }
+  /* barra da caneta embaixo/em cima: quebra em duas linhas em vez de sair da tela */
+  .barra-caneta:not(.lateral) { max-width: calc(100vw - 16px); box-sizing: border-box; }
+  .barra-caneta:not(.lateral) .barra-fina { flex-wrap: wrap; justify-content: center; row-gap: 4px; }
+  .barra-caneta:not(.lateral) .barra-fina .sep { display: none; }
+  .barra-caneta .bf { width: 40px; height: 40px; }
+  .barra-caneta:not(.lateral) .painel-opcoes { max-width: 100%; }
+  .barra-caneta.lateral { max-height: 86vh; overflow-y: auto; }
+  .barra-caneta.lateral .painel-opcoes { width: min(232px, calc(100vw - 90px)); }
+  /* barra de grifar e player de áudio */
+  .barra-selecao { gap: 4px; padding: 6px; }
+  .barra-selecao .cor-btn { width: 34px; height: 34px; }
+  .player-ouvir { max-width: calc(100vw - 16px); box-sizing: border-box; padding: 4px 6px; }
+  .player-ouvir button { width: 38px; height: 38px; }
+  .ouvir-rot { min-width: 0; font-size: 12px; }
+  /* resumos: grade com 2 miniaturas por linha; barra flutuante menor */
+  .grade-resumos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 14px; }
+  .dock { padding: 4px; right: 6px; }
+  .dock.esquerda { left: 6px; right: auto; }
+  .dock-btn { width: 40px; height: 40px; font-size: 18px; }
+  .visor-original { padding: 10px 8px 140px; }
+  .num-pagina { display: none; }
+  .barra-resumo { padding: 0 12px; }
+  .barra-resumo .botao { flex: 1 1 auto; }
+  /* questões */
+  .q-cab, .q-meta { font-size: 13px; }
+  .ferramentas-imagem { max-width: calc(100vw - 16px); box-sizing: border-box; }
+  .selo-zoom { font-size: 12px; padding: 6px 12px; }
+}
+@media (max-width: 380px) {
+  .abas button { font-size: 9.5px; }
+  .topo h1 { font-size: 15px; }
+}

@@ -27,10 +27,11 @@
   <button class="icone-btn oculto" id="btn-ir">Ir para art.</button>
   <button class="icone-btn oculto" id="btn-buscar-lei" aria-label="Buscar nesta lei">Buscar</button>
   <button class="icone-btn oculto" id="btn-ouvir" title="Ouvir a lei em voz alta">🔊 Ouvir</button>
-  <button class="icone-btn oculto" id="btn-caneta" aria-pressed="false">✏️ Caneta</button>
+  <button class="icone-btn oculto" id="btn-caneta" aria-pressed="false">✏️<span class="rot"> Caneta</span></button>
   <button class="icone-btn oculto" id="btn-tela-cheia" aria-pressed="false">⛶ Tela cheia</button>
   <button class="icone-btn oculto" id="btn-sync" title="Sincronização">☁️</button>
   <button class="icone-btn oculto" id="btn-aa" aria-label="Ajustes de leitura">Aa</button>
+  <button class="icone-btn oculto" id="btn-mais-leitor" aria-label="Mais opções da leitura">⋯</button>
 </header>
 
 <div id="aviso-offline" class="aviso oculto"></div>
@@ -48,13 +49,13 @@
     Resumos</button>
   <button data-rota="pesquisar">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
-    Pesquisar</button>
+    <span class="rot-longo">Pesquisar</span><span class="rot-curto">Buscar</span></button>
   <button data-rota="estudos">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3.5h9l3 3V20.5H6z"/><path d="M9 11h6M9 15h4"/></svg>
-    Meus estudos</button>
+    <span class="rot-longo">Meus estudos</span><span class="rot-curto">Estudos</span></button>
   <button data-rota="ajustes">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
-    Configurações</button>
+    <span class="rot-longo">Configurações</span><span class="rot-curto">Ajustes</span></button>
 </nav>
 <div id="camada-fixa">
 <div id="barra-selecao" class="barra-selecao oculto" role="toolbar" aria-label="Trecho selecionado">
