@@ -8,7 +8,7 @@
    - Opcional: senha — tudo é embaralhado (AES) antes de sair do aparelho.
    ===================================================================== */
 // ID do cliente Google do app (criado pelo dono do app no Google Cloud; veja as instruções).
-const GOOGLE_CLIENT_ID = "";
+const GOOGLE_CLIENT_ID = "556131873310-ogmdl7uhvtpi0v0qggqs2l4krkd8dg1c.apps.googleusercontent.com";
 const sync = { rodando: false, tempo: null, chave: null, google: null, ultimoErro: null };
 const cfgSync = () => lerLS("sync-config", null);
 const estSync = () => lerLS("sync-estado", { hashes: {}, locais: {} });
