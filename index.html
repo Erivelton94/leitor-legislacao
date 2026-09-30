@@ -706,6 +706,7 @@ const bdTodos = store => bd(store, "readonly", s => s.getAll());
 const bdLer = (store, id) => bd(store, "readonly", s => s.get(id));
 const bdGravar = (store, obj) => bd(store, "readwrite", s => s.put(obj));
 const bdApagar = (store, id) => bd(store, "readwrite", s => s.delete(id));
+const bdLimpar = store => bd(store, "readwrite", s => s.clear());
 
 async function carregarItens() {
   for (const it of await bdTodos("itens")) estado.itens.set(it.id, it);
@@ -2287,10 +2288,11 @@ async function telaAjustes() {
   const ultimo = lerLS("ultimo-backup", null);
   $("#conteudo").innerHTML = `
   <div class="secao"><h2>Backup dos seus estudos</h2><div class="cartao">
-    <p>Grifos, anotações, imagens, favoritos e pastas ficam guardados neste aparelho. Exporte um backup para o iCloud Drive (ou outra nuvem) e importe no outro aparelho. A importação junta os dados: em cada item fica a versão mais recente e nada é apagado.</p>
+    <p>Tudo fica guardado neste aparelho. O <strong>backup completo</strong> gera um único arquivo com o app inteiro como está agora: as leis do acervo com o texto, pastas, grifos, anotações, imagens, desenhos, favoritos, cadernos de questões e respostas, resumos (arquivos originais, edições e marcações) e as suas preferências.</p>
+    <p class="contagem">Ao importar, você escolhe: restaurar exatamente como está no arquivo ou juntar com o que já existe no aparelho.</p>
     <p>Último backup: ${ultimo ? esc(dataHora(ultimo)) : "nenhum ainda"}.</p>
     <div class="acoes" style="margin-bottom:14px">
-      <button id="btn-exportar" class="botao primario">Exportar backup</button>
+      <button id="btn-exportar" class="botao primario">Exportar backup completo</button>
       <button id="btn-importar">Importar backup</button>
     </div></div></div>
   <div class="secao"><h2>Atualizações</h2><div class="cartao">
@@ -2696,35 +2698,74 @@ function base64ParaBlob(b64, tipo) {
   for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
   return new Blob([bytes], { type: tipo || "image/jpeg" });
 }
+/* Backup COMPLETO: um único arquivo com o app inteiro como está agora —
+   leis do acervo (com o texto), pastas, grifos, anotações e imagens, desenhos,
+   favoritos, cadernos de questões e respostas, resumos (arquivos originais,
+   edições, marcações e imagens) e as suas preferências. */
+const CHAVES_APP = ["ajustes", "ajustes-resumo", "alteracoes-nao-vistas", "dock-lado", "dock-recolhido", "filtros-q", "info-cadernos",
+  "info-leis", "pos-q", "pos-resumo", "posicao", "preferencias-caneta", "status-em", "tela-cheia", "ultima-mudanca"];
+const LOJAS_BACKUP = ["itens", "imagens", "resumos", "resumos_conteudo", "arquivos", "miniaturas"];
+const caminhoDados = url => { const k = url.indexOf("/dados/"); return k >= 0 ? url.slice(k + 1) : url; };
 async function exportarBackup() {
   const btn = $("#btn-exportar");
-  if (btn) btn.textContent = "Preparando…";
-  const imgs = await bdTodos("imagens");
-  const pacote = {
-    app: "leitor-legislacao", formato: 1, exportadoEm: agoraISO(),
-    itens: [...estado.itens.values()],
-    resumos: await bdTodos("resumos"),
-    resumosConteudo: await bdTodos("resumos_conteudo"),
-    arquivos: await Promise.all((await bdTodos("arquivos")).map(async a => ({ id: a.id, nome: a.nome, tipo: a.blob.type, atualizadoEm: a.atualizadoEm, dados: await blobParaBase64(a.blob) }))),
-    imagens: await Promise.all(imgs.map(async i => ({ id: i.id, tipoMime: i.tipoMime, atualizadoEm: i.atualizadoEm, dados: await blobParaBase64(i.blob) }))),
-    ajustes, posicao: lerLS("posicao", {}),
-  };
-  const d = new Date();
-  const p2 = n => String(n).padStart(2, "0");
-  const nome = `backup-legislacao-${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())}-${p2(d.getHours())}${p2(d.getMinutes())}.json`;
-  const arquivo = new File([JSON.stringify(pacote)], nome, { type: "application/json" });
-  let ok = false;
+  const passo = t => { if (btn) btn.textContent = t; };
   try {
-    if (navigator.canShare && navigator.canShare({ files: [arquivo] })) { await navigator.share({ files: [arquivo], title: nome }); ok = true; }
-  } catch (e) { if (e.name === "AbortError") { if (btn) btn.textContent = "Exportar backup"; return; } }
-  if (!ok) {
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(arquivo); a.download = nome;
-    document.body.appendChild(a); a.click(); a.remove();
-    ok = true;
+    passo("Juntando anotações e grifos…");
+    const itensTodos = [...estado.itens.values()];
+    passo("Juntando imagens…");
+    const imgs = await bdTodos("imagens");
+    const imagens = await Promise.all(imgs.map(async i => ({ id: i.id, tipoMime: i.tipoMime || i.blob.type, atualizadoEm: i.atualizadoEm, dono: i.dono, dados: await blobParaBase64(i.blob) })));
+    passo("Juntando resumos…");
+    const resumosTodos = await bdTodos("resumos");
+    const arquivos = await Promise.all((await bdTodos("arquivos")).map(async a => ({ id: a.id, nome: a.nome, tipo: a.blob.type, atualizadoEm: a.atualizadoEm, dados: await blobParaBase64(a.blob) })));
+    passo("Juntando leis e questões…");
+    const cache = await caches.open(CACHE_DADOS);
+    const dados = [];
+    for (const req of await cache.keys()) {
+      const r = await cache.match(req); if (!r) continue;
+      dados.push({ url: caminhoDados(req.url), tipo: r.headers.get("content-type") || "application/json", texto: await r.text() });
+    }
+    const armazenamento = {};
+    for (const k of CHAVES_APP) { const v = localStorage.getItem(k); if (v !== null) armazenamento[k] = v; }
+    const ativos = itensTodos.filter(i => !i.apagado);
+    const conta = t => ativos.filter(i => i.tipo === t).length;
+    const resumo = {
+      leis: Object.keys(lerLS("info-leis", {})).length, grifos: conta("grifo"), anotacoes: conta("anotacao"), favoritos: conta("favorito"),
+      desenhos: conta("tinta"), respostas: conta("resposta"), pastas: conta("pasta"), resumos: resumosTodos.filter(r => !r.apagado).length,
+      imagens: imagens.length, cadernos: dados.filter(d => d.url.startsWith("dados/questoes/") && !d.url.endsWith("indice.json")).length,
+    };
+    const pacote = {
+      app: "leitor-legislacao", formato: 2, completo: true, exportadoEm: agoraISO(), resumo,
+      itens: itensTodos, resumos: resumosTodos, resumosConteudo: await bdTodos("resumos_conteudo"),
+      arquivos, imagens, dados, armazenamento,
+      ajustes, posicao: lerLS("posicao", {}),          // (compatível com a importação antiga)
+    };
+    passo("Gerando o arquivo…");
+    const d = new Date();
+    const p2 = n => String(n).padStart(2, "0");
+    const nome = `backup-completo-estudos-${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())}-${p2(d.getHours())}${p2(d.getMinutes())}.json`;
+    const arquivo = new File([JSON.stringify(pacote)], nome, { type: "application/json" });
+    let cancelado = false;
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [arquivo] })) await navigator.share({ files: [arquivo], title: nome });
+      else throw new Error("sem compartilhar");
+    } catch (e) {
+      if (e.name === "AbortError") cancelado = true;
+      else { const a = document.createElement("a"); a.href = URL.createObjectURL(arquivo); a.download = nome; document.body.appendChild(a); a.click(); a.remove(); }
+    }
+    if (cancelado) { passo("Exportar backup completo"); return; }
+    gravarLS("ultimo-backup", pacote.exportadoEm);
+    if (location.hash.startsWith("#/ajustes")) telaAjustes();
+    abrirPainel(`<h2>Backup completo gerado ${botaoFechar}</h2>
+      <p><strong>${esc(nome)}</strong> · ${(arquivo.size / 1048576).toFixed(1).replace(".", ",")} MB</p>
+      <p class="contagem">Contém: ${resumo.leis} lei(s) com o texto · ${resumo.grifos} grifo(s) · ${resumo.anotacoes} anotação(ões) · ${resumo.favoritos} favorito(s) ·
+        ${resumo.desenhos} página(s)/artigo(s) com desenhos · ${resumo.pastas} pasta(s) · ${resumo.cadernos} caderno(s) de questões · ${resumo.respostas} resposta(s) ·
+        ${resumo.resumos} resumo(s) com os arquivos originais · ${resumo.imagens} imagem(ns) · e as suas preferências.</p>
+      <p class="contagem">Guarde este arquivo no iCloud Drive ou no Google Drive. Para restaurar, use “Importar backup” em qualquer aparelho.</p>`);
+  } catch (e) {
+    passo("Exportar backup completo");
+    alert("Não foi possível gerar o backup: " + e.message);
   }
-  gravarLS("ultimo-backup", pacote.exportadoEm);
-  if (location.hash.startsWith("#/ajustes")) telaAjustes();
 }
 
 $("#entrada-backup").onchange = async e => {
@@ -2734,8 +2775,60 @@ $("#entrada-backup").onchange = async e => {
   let p;
   try { p = JSON.parse(await arq.text()); } catch { alert("Este arquivo não é um backup válido do app."); return; }
   if (p.app !== "leitor-legislacao" || !Array.isArray(p.itens)) { alert("Este arquivo não é um backup do Leitor de Legislação."); return; }
+  if (p.completo) return escolherRestauracao(p);
+  return mesclarBackup(p);
+};
+function escolherRestauracao(p) {
+  const r = p.resumo || {};
+  abrirPainel(`<h2>Importar backup completo ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">Backup de ${esc(dataHora(p.exportadoEm))}: ${r.leis ?? "?"} lei(s), ${r.grifos ?? "?"} grifo(s), ${r.anotacoes ?? "?"} anotação(ões), ${r.resumos ?? "?"} resumo(s), ${r.respostas ?? "?"} resposta(s) de questões.</p>
+    <div class="acoes">
+      <button id="rest-exato"><strong>Restaurar exatamente como está no arquivo</strong><br><span class="contagem">O app fica idêntico ao do backup. O que existe hoje neste aparelho é substituído.</span></button>
+      <button id="rest-juntar"><strong>Juntar com o que já existe neste aparelho</strong><br><span class="contagem">Nada é apagado: em cada item fica a versão mais recente, e as leis e cadernos que faltam são acrescentados.</span></button>
+    </div>`);
+  $("#rest-exato").onclick = async () => {
+    if (!confirm("Restaurar exatamente como no backup? Tudo o que está neste aparelho hoje será substituído pelo conteúdo do arquivo.")) return;
+    $("#rest-exato").disabled = true; $("#rest-exato").textContent = "Restaurando…";
+    await restaurarTudo(p, true);
+  };
+  $("#rest-juntar").onclick = async () => {
+    $("#rest-juntar").disabled = true; $("#rest-juntar").textContent = "Juntando…";
+    await restaurarTudo(p, false);
+  };
+}
+async function restaurarTudo(p, exato) {
+  const cache = await caches.open(CACHE_DADOS);
+  if (exato) {
+    for (const loja of LOJAS_BACKUP) await bdLimpar(loja);
+    for (const k of CHAVES_APP) localStorage.removeItem(k);
+    for (const req of await cache.keys()) await cache.delete(req);
+    for (const it of p.itens) await bdGravar("itens", it);
+    for (const r of p.resumos || []) await bdGravar("resumos", r);
+    for (const c of p.resumosConteudo || []) await bdGravar("resumos_conteudo", c);
+    for (const a of p.arquivos || []) await bdGravar("arquivos", { id: a.id, nome: a.nome, atualizadoEm: a.atualizadoEm, blob: base64ParaBlob(a.dados, a.tipo) });
+    for (const im of p.imagens || []) await bdGravar("imagens", { id: im.id, blob: base64ParaBlob(im.dados, im.tipoMime), tipoMime: im.tipoMime, atualizadoEm: im.atualizadoEm, dono: im.dono });
+    for (const [k, v] of Object.entries(p.armazenamento || {})) localStorage.setItem(k, v);
+    for (const d of p.dados || []) await cache.put(new Request(d.url), new Response(d.texto, { headers: { "content-type": d.tipo } }));
+  } else {
+    await mesclarBackup(p, true);
+    for (const d of p.dados || []) if (!(await cache.match(d.url))) await cache.put(new Request(d.url), new Response(d.texto, { headers: { "content-type": d.tipo } }));
+    // o acervo e os cadernos passam a ter também os do backup (as preferências deste aparelho continuam)
+    const arm = p.armazenamento || {};
+    for (const k of ["info-leis", "info-cadernos"]) {
+      if (!arm[k]) continue;
+      const deles = JSON.parse(arm[k]), meus = lerLS(k, {});
+      for (const [id, v] of Object.entries(deles)) if (!meus[id]) meus[id] = v;
+      gravarLS(k, meus);
+    }
+  }
+  gravarLS("ultimo-backup", p.exportadoEm);
+  sessionStorage.setItem("aviso-restaurado", exato ? "exato" : "juntado");
+  location.hash = "#/acervo";
+  location.reload();          // recomeça o app já com tudo no lugar
+}
+async function mesclarBackup(p, silencioso = false) {
   const maisRecenteLocal = [...estado.itens.values()].reduce((m, i) => (i.atualizadoEm > m ? i.atualizadoEm : m), "");
-  if (maisRecenteLocal && p.exportadoEm < maisRecenteLocal &&
+  if (!silencioso && maisRecenteLocal && p.exportadoEm < maisRecenteLocal &&
       !confirm(`Este backup é de ${dataHora(p.exportadoEm)}, e há alterações mais recentes neste aparelho (${dataHora(maisRecenteLocal)}).\n\nA importação não apaga nada: em cada item fica a versão mais recente. Continuar?`)) return;
   let novos = 0, atualizados = 0, mantidos = 0, imgsNovas = 0;
   for (const it of p.itens) {
@@ -2768,11 +2861,12 @@ $("#entrada-backup").onchange = async e => {
   // imagens que nenhuma anotação usa mais são removidas
   for (const im of await bdTodos("imagens")) if (!usadas.has(im.id)) await bdApagar("imagens", im.id);
   gravarLS("ultima-mudanca", agoraISO());
+  if (silencioso) return;
   abrirPainel(`<h2>Backup importado ${botaoFechar}</h2>
     <p>Itens novos: ${novos}<br>Itens atualizados com a versão do backup: ${atualizados}<br>Itens mantidos (versão do aparelho era igual ou mais nova): ${mantidos}<br>Imagens adicionadas: ${imgsNovas}</p>
     <p class="contagem">Backup de ${dataHora(p.exportadoEm)}.</p>`);
   if (location.hash.startsWith("#/ajustes")) telaAjustes();
-};
+}
 
 /* =====================================================================
    NAVEGAÇÃO: o botão Voltar leva para a tela de onde você veio
@@ -5243,6 +5337,13 @@ async function iniciar() {
   catch { alert("Não foi possível abrir o armazenamento de anotações neste navegador. Grifos e anotações não serão salvos."); }
   await atualizarTudo();
   rotear();
+  const restaurado = sessionStorage.getItem("aviso-restaurado");
+  if (restaurado) {
+    sessionStorage.removeItem("aviso-restaurado");
+    abrirPainel(`<h2>Backup importado ${botaoFechar}</h2><p>${restaurado === "exato"
+      ? "O app foi restaurado exatamente como estava no backup: leis, anotações, grifos, desenhos, questões, resumos e preferências."
+      : "O backup foi juntado ao que já existia: em cada item ficou a versão mais recente, e as leis e cadernos que faltavam foram acrescentados."}</p>`);
+  }
 }
 /* Zoom com os dedos: as barras ficam paradas no mesmo lugar da tela e no mesmo tamanho.
    A camada acompanha a parte visível (visualViewport) e desfaz a ampliação só nela. */
