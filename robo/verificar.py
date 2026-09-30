@@ -49,7 +49,7 @@ DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de nov
 
 # Versão do leitor de artigos. Quando o leitor é melhorado, o texto é relido sem gerar
 # falso alerta de "alteração na lei" (a mudança veio do leitor, não da legislação).
-VERSAO_LEITOR = 4
+VERSAO_LEITOR = 5  # 5: artigos na ordem do documento (ADCT separado da CF)
 
 # Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A.", "Art. 359-M-A."
 RE_ARTIGO = re.compile(
@@ -140,6 +140,10 @@ def substantivo(texto):
     return len(re.findall(r"\w", resto)) >= 3
 
 
+# o título do ADCT sozinho numa linha (citações "…do Ato das Disposições…" no meio do texto não contam)
+RE_ADCT = re.compile(r"^\s*ATO\s+DAS\s+DISPOSI[ÇC][ÕO]ES\s+CONSTITUCIONAIS\s+TRANSIT[ÓO]RIAS\s*$", re.M)
+
+
 def extrair_artigos(html):
     """Devolve ({id_artigo: {texto, hash}}, nº de artigos com número repetido)."""
     # html5lib interpreta HTML malformado do mesmo jeito que o navegador (o Planalto tem muito).
@@ -186,16 +190,27 @@ def extrair_artigos(html):
     preambulo = antes_do_art1[inicio:] if inicio is not None else []
 
     # Mesmo número mais de uma vez: fica a versão com conteúdo; rótulos vazios saem.
+    # A 2ª ocorrência de um número recebe "#2" (ex.: na Constituição, o Art. 1º do ADCT é "1#2").
     grupos = {}
-    for ident, partes in blocos:
-        grupos.setdefault(ident, []).append("\n".join(partes))
-    resultado, repetidos = {}, 0
-    for ident, textos in grupos.items():
-        uteis = [t for t in textos if substantivo(t)] or [textos[-1]]
-        for i, texto in enumerate(uteis):
+    for pos, (ident, partes) in enumerate(blocos):
+        grupos.setdefault(ident, []).append((pos, "\n".join(partes)))
+    escolhidos, repetidos = [], 0
+    for ident, itens in grupos.items():
+        uteis = [x for x in itens if substantivo(x[1])] or [itens[-1]]
+        for i, (pos, texto) in enumerate(uteis):
             chave = ident if i == 0 else f"{ident}#{i + 1}"
             repetidos += i > 0
-            resultado[chave] = {"texto": texto, "hash": sha256(texto)}
+            escolhidos.append((pos, chave, texto))
+    # Ordem do documento (e não do número): o ADCT vem depois da parte principal da Constituição,
+    # em vez de ficar intercalado com ela. "ordem" diz ao app a sequência certa.
+    escolhidos.sort()
+    resultado, secao = {}, None
+    for ordem, (_, chave, texto) in enumerate(escolhidos):
+        resultado[chave] = {"texto": texto, "hash": sha256(texto), "ordem": ordem}
+        if secao:
+            resultado[chave]["secao"] = secao
+        if RE_ADCT.search(texto):
+            secao = "ADCT"
     return resultado, repetidos, preambulo
 
 
