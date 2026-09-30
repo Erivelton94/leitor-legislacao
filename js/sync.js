@@ -251,13 +251,7 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
     }
     const metas = await bdTodos("resumos");
     const arqsLocais = await bdTodos("arquivos");
-    for (const cont of await bdTodos("resumos_conteudo")) {
-      const m = metas.find(x => x.id === cont.id);
-      if (m && !m.apagado) await enviarJson(lista, `resumos/${cont.id}.json`, cont);
-    }
-    await enviarJson(lista, "resumos.json", { resumos: metas, arquivos: arqsLocais.map(a => ({ id: a.id, nome: a.nome, tipo: a.blob?.type || "", atualizadoEm: a.atualizadoEm })) });
-
-    // 4) arquivos originais e imagens: sobem e descem uma vez só
+    // os arquivos originais sobem ANTES da lista de resumos: outro aparelho nunca vê um resumo sem o arquivo dele
     for (const a of arqsLocais) {
       const caminho = `arquivos/${a.id}`;
       if (lista.has(caminho)) continue;
@@ -265,13 +259,25 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
       const r = await p.enviar(caminho, await cifrar(new Uint8Array(await a.blob.arrayBuffer())), null);
       lista.set(caminho, r); enviados++;
     }
+    for (const cont of await bdTodos("resumos_conteudo")) {
+      const m = metas.find(x => x.id === cont.id);
+      if (m && !m.apagado) await enviarJson(lista, `resumos/${cont.id}.json`, cont);
+    }
+    await enviarJson(lista, "resumos.json", { resumos: metas, arquivos: arqsLocais.map(a => ({ id: a.id, nome: a.nome, tipo: a.blob?.type || "", atualizadoEm: a.atualizadoEm })) });
+
+    // 4) arquivos originais e imagens: sobem e descem uma vez só.
+    // Todo resumo cujo arquivo ainda não está neste aparelho é buscado de novo a cada sincronização.
     const idsArq = new Set(arqsLocais.map(a => a.id));
-    for (const a of arquivosRemotos) {
-      if (idsArq.has(a.id) || !lista.has(`arquivos/${a.id}`)) continue;
-      atualizarIndicadorSync("rodando", `Baixando ${a.nome || "arquivo"}…`);
-      const bytes = await decifrar(await p.baixar(`arquivos/${a.id}`));
-      await bdGravar("arquivos", { id: a.id, nome: a.nome, atualizadoEm: a.atualizadoEm, blob: new Blob([bytes], { type: a.tipo }) });
-      trazidos++;
+    const infoRemota = new Map(arquivosRemotos.map(a => [a.id, a]));
+    const TIPOS = { pdf: "application/pdf", docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" };
+    for (const m of await bdTodos("resumos")) {
+      if (m.apagado || !m.arquivo || idsArq.has(m.arquivo) || !lista.has(`arquivos/${m.arquivo}`)) continue;
+      const info = infoRemota.get(m.arquivo) || {};
+      atualizarIndicadorSync("rodando", `Baixando ${m.origem || m.titulo || "arquivo"}…`);
+      const bytes = await decifrar(await p.baixar(`arquivos/${m.arquivo}`));
+      await bdGravar("arquivos", { id: m.arquivo, nome: info.nome || m.origem, atualizadoEm: info.atualizadoEm || agoraISO(), blob: new Blob([bytes], { type: info.tipo || TIPOS[m.formato] || "" }) });
+      await bdApagar("miniaturas", m.id);
+      idsArq.add(m.arquivo); trazidos++;
     }
     const imgsLocais = await bdTodos("imagens");
     const idsImg = new Set(imgsLocais.map(i => i.id));

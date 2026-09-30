@@ -1007,7 +1007,18 @@ async function telaResumoOriginal(r) {
     if (r.formato === "pdf") await montarPdf(r);
     else await montarDocx(r, editado);
   } catch (e) {
-    $("#texto-lei").innerHTML = `<p class="vazio">Não foi possível abrir o arquivo: ${esc(e.message)}</p>`;
+    const nuvem = typeof cfgSync === "function" && cfgSync() && /não está neste aparelho/.test(e.message);
+    $("#texto-lei").innerHTML = nuvem
+      ? `<div class="vazio"><p>O arquivo original deste resumo ainda não chegou da nuvem a este aparelho.</p>
+          <div class="acoes" style="justify-content:center"><button class="botao primario" id="buscar-nuvem">☁️ Buscar na nuvem agora</button></div>
+          <p class="contagem" id="msg-nuvem"></p></div>`
+      : `<p class="vazio">Não foi possível abrir o arquivo: ${esc(e.message)}</p>`;
+    if (nuvem) $("#buscar-nuvem").onclick = async () => {
+      $("#buscar-nuvem").disabled = true; $("#msg-nuvem").textContent = "Buscando… (arquivos grandes podem levar alguns segundos)";
+      await sincronizar("arquivo faltando");
+      if (await lerArquivoOriginal(r)) telaResumoLer(r.id);
+      else $("#msg-nuvem").textContent = estSync().erro ? "⚠️ " + estSync().erro : "O arquivo ainda não está na nuvem. Abra o app no outro aparelho com internet para ele terminar de enviar, e tente de novo.";
+    };
     return;
   }
   if ($("#continuar")) {
