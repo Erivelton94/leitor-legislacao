@@ -386,7 +386,8 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .ferramentas-imagem { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
   display: flex; gap: 4px; align-items: center; flex-wrap: wrap; background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 6px; box-shadow: 0 6px 20px rgba(0,0,0,.15); }
 .ferramentas-imagem button { border: 1px solid var(--fio); background: var(--papel); border-radius: 8px; padding: 7px 10px; font-size: 13px; }
-.visor-original { padding: 16px 8px 140px; overflow-x: auto; }
+.visor-original { padding: 16px 8px 140px; }
+@media (max-width: 800px) { .visor-original { overflow-x: auto; } }     /* rolagem lateral só em telas estreitas */
 /* grade de pastas e miniaturas, como no computador */
 .trilha { font-size: 13px; color: var(--tinta-2); margin: 0 0 10px; }
 .trilha a { color: var(--oliva); text-decoration: none; font-weight: 600; }
@@ -426,10 +427,31 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .barra-caneta { border-radius: 18px; box-shadow: 0 8px 28px rgba(0,0,0,.16); }
 .bf { position: relative; }
 .bf-cor { position: absolute; right: 5px; bottom: 5px; width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--folha); }
-.barra-caneta.lateral { left: auto; right: 12px; top: 50%; bottom: auto; transform: translateY(-50%); flex-direction: row; align-items: center; max-height: 90vh; }
-.barra-caneta.lateral .barra-fina { flex-direction: column; }
-.barra-caneta.lateral .barra-fina .sep { width: 70%; height: 1px; margin: 4px 0; }
-.barra-caneta.lateral .painel-opcoes { max-width: 250px; border-top: 0; border-right: 1px solid var(--fio); padding: 4px 8px 4px 2px; max-height: 80vh; overflow-y: auto; }
+.cores-linha { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.bf-opcoes { display: inline-flex; align-items: center; gap: 6px; }
+.bf-resumo { display: inline-flex; align-items: center; gap: 6px; }
+/* barra na vertical (direita ou esquerda): tudo centralizado numa coluna */
+.barra-caneta.lateral { left: auto; right: 12px; top: 50%; bottom: auto; transform: translateY(-50%); flex-direction: row; align-items: center;
+  gap: 0; padding: 6px; max-height: 94vh; max-width: none; }
+.barra-caneta.lateral.esquerda { right: auto; left: 12px; }
+.barra-caneta.lateral .barra-fina { flex-direction: column; align-items: center; gap: 4px; }
+.barra-caneta.lateral .bf { width: 46px; height: 46px; flex: none; }
+.barra-caneta.lateral .bf-opcoes { width: 46px !important; padding: 0 !important; flex-direction: column; justify-content: center; gap: 1px; }
+.barra-caneta.lateral .bf-resumo { font-size: 0; gap: 0; }
+.barra-caneta.lateral .bf-resumo .ponto-cor { width: 20px; height: 20px; }
+.barra-caneta.lateral .bf-seta { font-size: 10px; line-height: 1; color: var(--tinta-2); }
+.barra-caneta.lateral .barra-fina .sep { width: 30px; height: 1px; margin: 3px 0; align-self: center; flex: none; }
+.barra-caneta.lateral .painel-opcoes { flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; gap: 10px;
+  width: 232px; max-height: 84vh; overflow-y: auto; border-top: 0; border-right: 1px solid var(--fio); padding: 6px 12px 6px 6px; }
+.barra-caneta.lateral.esquerda .painel-opcoes { border-right: 0; border-left: 1px solid var(--fio); padding: 6px 6px 6px 12px; }
+.barra-caneta.lateral .painel-opcoes .segmentado { display: flex; width: 100%; }
+.barra-caneta.lateral .painel-opcoes .segmentado button { flex: 1; padding: 9px 4px; }
+.barra-caneta.lateral .icones-escolha { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+.barra-caneta.lateral .icone-escolha { width: 100%; }
+.barra-caneta.lateral .dica-icones { text-align: left; }
+.dock.esquerda { right: auto; left: 12px; }
+.dock.esquerda.recolhido { left: 0; right: auto; border-radius: 0 12px 12px 0; }
+.paginas-resumo section.docx { overflow: visible !important; }          /* ícones na margem do Word não são cortados */
 .tela-cheia .barra-caneta.lateral { top: 50%; }
 /* impressão (salvar como PDF) */
 @media print {
@@ -3138,7 +3160,15 @@ document.addEventListener("pointerdown", e => {
     const item = itemTintaAtual(div);
     const antes = fotografar(item);
     let c = acharCarimbo(item, ...p);                       // tocou num ícone: arrasta
-    if (!c) { c = { id: uid().slice(0, 8), icone: caneta.icone, tam: caneta.tamIcone, x: p[0], y: p[1] }; item.carimbos.push(c); }
+    if (!c) {
+      // ícone novo: é guardado na hora (se o iPad interromper o toque, ele não some)
+      c = { id: uid().slice(0, 8), icone: caneta.icone, tam: caneta.tamIcone, x: p[0], y: p[1] };
+      item.carimbos.push(c);
+      desenharTracos(div, item);
+      salvarItem(item).then(() => registrarAcao(item, antes));
+      caneta.arrastando = { div, item, c, antes: fotografar(item), dx: 0, dy: 0, pointerId: e.pointerId };
+      return;
+    }
     desenharTracos(div, item);
     caneta.arrastando = { div, item, c, antes, dx: c.x - p[0], dy: c.y - p[1], pointerId: e.pointerId };
     return;
@@ -3253,17 +3283,20 @@ function montarBarraCaneta() {
   const b = $("#barra-caneta");
   const f = caneta.ferramenta;
   if (!caneta.posicao) caneta.posicao = caneta.noTopo ? "topo" : "baixo";
+  if (caneta.posicao === "lateral") caneta.posicao = "direita";
+  const vertical = caneta.posicao === "direita" || caneta.posicao === "esquerda";
   b.classList.toggle("no-topo", caneta.posicao === "topo");
-  b.classList.toggle("lateral", caneta.posicao === "lateral");
+  b.classList.toggle("lateral", vertical);
+  b.classList.toggle("esquerda", caneta.posicao === "esquerda");
   const seg = (lista, atual, attr) => `<div class="segmentado">${lista.map(([v, n]) => `<button ${attr}="${v}" aria-pressed="${atual === v}">${n}</button>`).join("")}</div>`;
-  const cores = CORES_CANETA.map(([c, n]) => `<button class="cor-btn" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${caneta.cor === c}" style="background:${f === "marca" ? translucida(c, 0.45) : c}"></button>`).join("");
+  const cores = `<div class="cores-linha">${CORES_CANETA.map(([c, n]) => `<button class="cor-btn" data-cor-caneta="${c}" aria-label="${n}" aria-pressed="${caneta.cor === c}" style="background:${f === "marca" ? translucida(c, 0.45) : c}"></button>`).join("")}</div>`;
   let resumo, opcoes;
   if (f === "caneta") { resumo = `<span class="ponto-cor" style="background:${caneta.cor}"></span>${ESP_CANETA.find(x => x[0] === caneta.esp)?.[1] || ""}`; opcoes = cores + seg(ESP_CANETA, caneta.esp, "data-esp"); }
   else if (f === "marca") { resumo = `<span class="ponto-cor" style="background:${translucida(caneta.cor, 0.5)}"></span>${ESP_MARCA.find(x => x[0] === caneta.espMarca)?.[1] || ""}`; opcoes = cores + seg(ESP_MARCA, caneta.espMarca, "data-esp-marca"); }
   else if (f === "icone") { resumo = `<span style="font-size:18px">${caneta.icone}</span>${TAM_ICONE.find(x => x[0] === caneta.tamIcone)?.[1] || ""}`;
     opcoes = `<div class="icones-escolha">${ICONES.map(([i, n]) => `<button class="icone-escolha" data-icone="${i}" aria-pressed="${caneta.icone === i}" title="${n}" aria-label="${n}">${i}</button>`).join("")}</div>` + seg(TAM_ICONE, caneta.tamIcone, "data-tam-icone") +
       '<p class="dica-icones" style="width:100%">Toque no texto ou na margem para colocar · arraste para mover · apague com a borracha</p>'; }
-  else { resumo = `${caneta.modoBorracha === "traco" ? "Traço inteiro" : "Livre"} · ${TAMANHOS_BORRACHA.find(x => x[0] === caneta.raio)?.[1] || ""}`;
+  else { resumo = `<span class="ind-borracha" style="font-size:16px">${caneta.modoBorracha === "traco" ? "⌫" : "◯"}</span>${caneta.modoBorracha === "traco" ? "Traço inteiro" : "Livre"} · ${TAMANHOS_BORRACHA.find(x => x[0] === caneta.raio)?.[1] || ""}`;
     opcoes = `<div class="segmentado"><button data-modo-borracha="parcial" aria-pressed="${caneta.modoBorracha === "parcial"}">Livre (só onde passar)</button>
       <button data-modo-borracha="traco" aria-pressed="${caneta.modoBorracha === "traco"}">Traço inteiro</button></div>` + seg(TAMANHOS_BORRACHA, caneta.raio, "data-raio") +
       '<p class="dica-icones" style="width:100%">A borracha apaga desenhos, marca-texto, ícones e também grifos feitos no texto.</p>'; }
@@ -3272,15 +3305,15 @@ function montarBarraCaneta() {
       ${[["caneta", "✏️", "Caneta"], ["marca", "🖍️", "Marca-texto"], ["icone", "⭐", "Ícones"], ["borracha", "⌫", "Borracha"]].map(([v, i, n]) =>
         `<button class="bf" data-ferramenta="${v}" aria-pressed="${f === v}" aria-label="${n}" title="${n}">${i}${v === "caneta" || v === "marca" ? `<span class="bf-cor" style="background:${v === "marca" ? translucida(caneta.cor, 0.6) : caneta.cor}"></span>` : ""}</button>`).join("")}
       <span class="sep"></span>
-      <button class="bf bf-opcoes" id="cn-opcoes" aria-expanded="${!!caneta.opcoesAbertas}" title="Cor, espessura e opções">${resumo} ${caneta.opcoesAbertas ? "▴" : "▾"}</button>
+      <button class="bf bf-opcoes" id="cn-opcoes" aria-expanded="${!!caneta.opcoesAbertas}" title="Cor, espessura e opções"><span class="bf-resumo">${resumo}</span><span class="bf-seta">${caneta.opcoesAbertas ? "▴" : "▾"}</span></button>
       <span class="sep"></span>
       <button class="bf" id="cn-desfazer" aria-label="Desfazer" title="Desfazer">↶</button>
       <button class="bf" id="cn-refazer" aria-label="Refazer" title="Refazer">↷</button>
       <button class="bf" id="cn-dedo" aria-pressed="${caneta.dedo}" aria-label="Usar o dedo" title="Usar o dedo (1 dedo desenha, 2 dedos rolam)">✋</button>
-      <button class="bf" id="cn-posicao" aria-label="Mudar a barra de lugar" title="Levar a barra para ${{ baixo: "cima", topo: "a lateral", lateral: "baixo" }[caneta.posicao]}">${{ baixo: "⤒", topo: "⇥", lateral: "⤓" }[caneta.posicao]}</button>
+      <button class="bf" id="cn-posicao" aria-label="Mudar a barra de lugar" title="Levar a barra para ${{ baixo: "cima", topo: "a direita", direita: "a esquerda", esquerda: "baixo" }[caneta.posicao]}">${{ baixo: "⤒", topo: "⇥", direita: "⇤", esquerda: "⤓" }[caneta.posicao]}</button>
       <button class="bf" id="cn-fechar" aria-label="Concluir" title="Concluir">✕</button>
     </div>`;
-  b.innerHTML = caneta.posicao === "topo" ? barra + painel : painel + barra;     // as opções abrem para o lado do texto
+  b.innerHTML = caneta.posicao === "topo" || caneta.posicao === "esquerda" ? barra + painel : painel + barra;     // as opções abrem para o lado do texto
   const ligar = (sel, fn, fechar) => $$(sel, b).forEach(x => x.onclick = () => { fn(x); if (fechar) caneta.opcoesAbertas = false; gravarPrefCaneta(); montarBarraCaneta(); });
   ligar("[data-ferramenta]", x => { caneta.opcoesAbertas = caneta.ferramenta === x.dataset.ferramenta ? !caneta.opcoesAbertas : false; caneta.ferramenta = x.dataset.ferramenta; });
   ligar("#cn-opcoes", () => { caneta.opcoesAbertas = !caneta.opcoesAbertas; });
@@ -3292,7 +3325,7 @@ function montarBarraCaneta() {
   ligar("[data-modo-borracha]", x => { caneta.modoBorracha = x.dataset.modoBorracha; });
   ligar("[data-raio]", x => { caneta.raio = Number(x.dataset.raio); }, true);
   ligar("#cn-dedo", () => { caneta.dedo = !caneta.dedo; document.body.classList.toggle("caneta-dedo", caneta.dedo); });
-  ligar("#cn-posicao", () => { caneta.posicao = { baixo: "topo", topo: "lateral", lateral: "baixo" }[caneta.posicao]; });
+  ligar("#cn-posicao", () => { caneta.posicao = { baixo: "topo", topo: "direita", direita: "esquerda", esquerda: "baixo" }[caneta.posicao]; });
   $("#cn-desfazer").onclick = desfazerTinta;
   $("#cn-refazer").onclick = refazerTinta;
   $("#cn-fechar").onclick = () => alternarCaneta(false);
@@ -4659,12 +4692,16 @@ function imprimirResumoAberto() {
 }
 function painelBaixar(r) {
   const pdf = r.formato === "pdf", word = r.formato === "docx";
-  abrirPainel(`<h2>Baixar ${botaoFechar}</h2><div class="acoes">
-    ${pdf || word ? `<button data-baixar="original">⬇️ Arquivo original (${pdf ? "PDF" : "Word"})</button>` : ""}
-    ${pdf ? '<button data-baixar="pdf-marcado">⬇️ PDF com as minhas marcações (caneta, marca-texto e ícones)</button>' : ""}
-    ${word ? '<button data-baixar="word-editado">⬇️ Word com as minhas edições (.doc)</button>' : ""}
-    ${word || r.formato === "html" ? '<button data-baixar="imprimir">🖨️ PDF com edições e marcações (Imprimir → Salvar como PDF)</button>' : ""}
-    </div><p class="contagem" id="msg-baixar">${word ? "O .doc abre no Word, no Pages e no Google Docs. Os desenhos da caneta saem na opção de PDF." : pdf ? "O PDF com marcações mantém o texto selecionável do original." : ""}</p>`);
+  const opcoes = [];
+  if (pdf || word) opcoes.push(["original", `⬇️ Versão original, como foi adicionada (sem alterações) — ${pdf ? "PDF" : "Word"}`]);
+  if (pdf) opcoes.push(["pdf-marcado", "⬇️ Versão original com as minhas marcações — PDF"]);
+  if (word) opcoes.push(["word-editado", "⬇️ Versão original com as minhas alterações — Word (.doc)"]);
+  if (word || r.formato === "html") opcoes.push(["imprimir", "⬇️ Versão com as minhas alterações e marcações — PDF"]);
+  const nota = pdf ? "Num PDF, a versão com marcações já sai em PDF: traços, marca-texto e ícones por cima do original, com o texto ainda selecionável."
+    : word ? "No Word saem as alterações de texto, as cores e o marca-texto do editor. Os desenhos e ícones da caneta não existem no formato Word; para levá-los junto, use a versão em PDF (abre a janela de impressão: toque em Compartilhar → Salvar em Arquivos)."
+    : "A versão em PDF abre a janela de impressão: toque em Compartilhar → Salvar em Arquivos.";
+  abrirPainel(`<h2>Baixar ${botaoFechar}</h2><div class="acoes">${opcoes.map(([v, t]) => `<button data-baixar="${v}">${t}</button>`).join("")}</div>
+    <p class="contagem" id="msg-baixar">${nota}</p>`);
   $$("#painel-caixa [data-baixar]").forEach(b => b.onclick = async () => {
     const msg = $("#msg-baixar");
     const txt = b.textContent; b.disabled = true; b.textContent = "Preparando…";
@@ -4683,9 +4720,11 @@ function painelBaixar(r) {
    ===================================================================== */
 function montarDock(r) {
   const recolhido = lerLS("dock-recolhido", false);
+  const lado = lerLS("dock-lado", "direita");
   const d = document.createElement("div");
   d.id = "dock-resumo";
-  d.className = "dock" + (recolhido ? " recolhido" : "");
+  d.className = "dock" + (recolhido ? " recolhido" : "") + (lado === "esquerda" ? " esquerda" : "");
+  const setaRecolher = (rec, esq) => (rec ? (esq ? "›" : "‹") : (esq ? "‹" : "›"));
   d.setAttribute("role", "toolbar");
   d.innerHTML = `
     <button class="dock-btn" id="res-caneta" aria-pressed="false" title="Caneta, marca-texto e ícones" aria-label="Caneta">✏️</button>
@@ -4695,12 +4734,18 @@ function montarDock(r) {
     <button class="dock-btn estrela-dock" data-fav-resumo="${esc(r.id)}" aria-pressed="${!!r.favorito}" title="Favoritar" aria-label="Favoritar">${r.favorito ? "★" : "☆"}</button>
     <button class="dock-btn" id="res-baixar" title="Baixar (original, com marcações ou com edições)" aria-label="Baixar">⬇️</button>
     <button class="dock-btn" id="res-mais" title="Mais opções" aria-label="Mais opções">⋯</button>
-    <button class="dock-alca" id="dock-alca" title="${recolhido ? "Mostrar ferramentas" : "Recolher"}" aria-label="Recolher ou mostrar as ferramentas">${recolhido ? "‹" : "›"}</button>`;
+    <button class="dock-btn" id="dock-lado" title="Levar a barra para o outro lado" aria-label="Trocar de lado">⇄</button>
+    <button class="dock-alca" id="dock-alca" title="${recolhido ? "Mostrar ferramentas" : "Recolher"}" aria-label="Recolher ou mostrar as ferramentas">${setaRecolher(recolhido, lado === "esquerda")}</button>`;
   document.body.appendChild(d);
   $("#dock-alca").onclick = () => {
     const rec = !d.classList.contains("recolhido");
     d.classList.toggle("recolhido", rec); gravarLS("dock-recolhido", rec);
-    $("#dock-alca").textContent = rec ? "‹" : "›";
+    $("#dock-alca").textContent = setaRecolher(rec, d.classList.contains("esquerda"));
+  };
+  $("#dock-lado").onclick = () => {
+    const esq = !d.classList.contains("esquerda");
+    d.classList.toggle("esquerda", esq); gravarLS("dock-lado", esq ? "esquerda" : "direita");
+    $("#dock-alca").textContent = setaRecolher(false, esq);
   };
   $("#res-baixar").onclick = () => painelBaixar(r);
 }
