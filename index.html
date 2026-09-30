@@ -428,6 +428,8 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .bf { position: relative; }
 .bf-cor { position: absolute; right: 5px; bottom: 5px; width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--folha); }
 .cores-linha { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+#camada-fixa { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; z-index: 45; pointer-events: none; transform-origin: 0 0; transform: translate(0px, 0px); }
+#camada-fixa > * { pointer-events: auto; }
 .bf-opcoes { display: inline-flex; align-items: center; gap: 6px; }
 .bf-resumo { display: inline-flex; align-items: center; gap: 6px; }
 /* barra na vertical (direita ou esquerda): tudo centralizado numa coluna */
@@ -564,19 +566,6 @@ svg.tinta { will-change: auto; }
 <div id="aviso-offline" class="aviso oculto"></div>
 <main id="conteudo"></main>
 
-<div id="barra-selecao" class="barra-selecao oculto" role="toolbar" aria-label="Trecho selecionado">
-  <button class="cor-btn g-amarelo" data-cor="amarelo" aria-label="Grifar em amarelo"></button>
-  <button class="cor-btn g-verde" data-cor="verde" aria-label="Grifar em verde"></button>
-  <button class="cor-btn g-azul" data-cor="azul" aria-label="Grifar em azul"></button>
-  <button class="cor-btn g-vermelho" data-cor="vermelho" aria-label="Grifar em vermelho"></button>
-  <span class="sep"></span>
-  <button class="icone-btn" data-acao-sel="anotar">Anotar</button>
-  <button class="icone-btn" data-acao-sel="favoritar">Favoritar</button>
-  <button class="icone-btn" data-acao-sel="copiar">Copiar</button>
-</div>
-
-<div id="barra-caneta" class="barra-selecao barra-caneta oculto" role="toolbar" aria-label="Caneta"></div>
-
 <nav class="abas" id="abas" aria-label="Menu principal">
   <button data-rota="acervo" aria-current="page">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.6-.9 3.4 15.2-3.6.8z"/></svg>
@@ -597,8 +586,24 @@ svg.tinta { will-change: auto; }
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
     Configurações</button>
 </nav>
+<div id="camada-fixa">
+<div id="barra-selecao" class="barra-selecao oculto" role="toolbar" aria-label="Trecho selecionado">
+  <button class="cor-btn g-amarelo" data-cor="amarelo" aria-label="Grifar em amarelo"></button>
+  <button class="cor-btn g-verde" data-cor="verde" aria-label="Grifar em verde"></button>
+  <button class="cor-btn g-azul" data-cor="azul" aria-label="Grifar em azul"></button>
+  <button class="cor-btn g-vermelho" data-cor="vermelho" aria-label="Grifar em vermelho"></button>
+  <span class="sep"></span>
+  <button class="icone-btn" data-acao-sel="anotar">Anotar</button>
+  <button class="icone-btn" data-acao-sel="favoritar">Favoritar</button>
+  <button class="icone-btn" data-acao-sel="copiar">Copiar</button>
+</div>
+
+<div id="barra-caneta" class="barra-selecao barra-caneta oculto" role="toolbar" aria-label="Caneta"></div>
+
+
 
 <div id="painel" class="painel oculto" role="dialog" aria-modal="true"><div class="painel-caixa" id="painel-caixa"></div></div>
+</div>
 <input type="file" id="entrada-imagens" accept="image/*" multiple hidden>
 <input type="file" id="entrada-backup" accept=".json,application/json" hidden>
 
@@ -700,6 +705,7 @@ async function salvarItem(item) {
   await bdGravar("itens", item);
   estado.itens.set(item.id, item);
   versaoItens++;
+  if (/^tinta\|resumo:[^|]+\|p1\|/.test(item.id)) bdApagar("miniaturas", item.id.split("|")[1].slice(7));
   gravarLS("ultima-mudanca", item.atualizadoEm);
   return item;
 }
@@ -3635,10 +3641,30 @@ async function mostrarMiniatura(el) {
     moldura.style.transform = `scale(${escala})`;
   }
 }
+function tintaDaPrimeiraPagina(resumoId) {
+  return itens("tinta", t => t.lei === "resumo:" + resumoId && t.art === "p1" && t.fonte === 0 && temConteudo(t))[0] || null;
+}
+function desenharTintaNoCanvas(ctx, t, k) {
+  ctx.save(); ctx.scale(k, k);
+  for (const tr of t.tracos || []) {
+    if (!tr.pts || tr.pts.length < 2) continue;
+    const marca = ehMarca(tr);
+    ctx.strokeStyle = marca ? translucida(tr.cor, tr.cor === "#1F2A36" ? 0.22 : 0.35) : tr.cor;
+    ctx.lineWidth = larguraTraco(tr); ctx.lineCap = marca ? "butt" : "round"; ctx.lineJoin = "round";
+    ctx.stroke(new Path2D(caminhoD(tr.pts)));
+  }
+  ctx.globalAlpha = 0.62; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  for (const c of t.carimbos || []) { ctx.font = `${c.tam}px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif`; ctx.fillText(c.icone, c.x, c.y); }
+  ctx.restore();
+}
+/* os estilos do Word usam o mesmo prefixo em todo documento; na grade, cada miniatura ganha o seu */
+const prefixarClassesDocx = (html, prefixo) => html.replace(/\bdocx(?=[\s_"'.{:,>\-\[)]|$)/g, prefixo);
+async function invalidarMiniatura(resumoId) { if (resumoId) await bdApagar("miniaturas", resumoId); }
 async function gerarMiniatura(r) {
   if (!r) return null;
   let m = null;
   try {
+    const tinta = tintaDaPrimeiraPagina(r.id);
     if (r.formato === "pdf") {
       const pdfjs = await abrirPdfJs();
       const blob = await lerArquivoOriginal(r); if (!blob) return null;
@@ -3649,24 +3675,30 @@ async function gerarMiniatura(r) {
       const c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
       const ctx = c.getContext("2d"); ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, c.width, c.height);
       await pg.render({ canvasContext: ctx, viewport: vp }).promise;
+      if (tinta) desenharTintaNoCanvas(ctx, tinta, c.width / LARGURA_PDF);      // os seus traços e ícones aparecem na miniatura
       const img = await new Promise(ok => c.toBlob(ok, "image/jpeg", 0.72));
       c.width = 0; await doc.destroy();
       m = { id: r.id, tipo: "img", blob: img };
     } else if (r.formato === "docx") {
-      const docx = await abrirDocxPreview();
-      const blob = await lerArquivoOriginal(r); if (!blob) return null;
+      const prefixo = "m" + r.id.replace(/[^a-z0-9]/gi, "").slice(0, 8);
       const tmp = document.createElement("div");
       tmp.style.cssText = "position:absolute;left:-99999px;top:0;width:900px";
       document.body.appendChild(tmp);
-      const prefixo = "m" + r.id.replace(/[^a-z0-9]/gi, "").slice(0, 8);     // estilos próprios: miniaturas não se misturam
-      await docx.renderAsync(blob, tmp, tmp, { className: prefixo, inWrapper: false, breakPages: true, ignoreLastRenderedPageBreak: true, useBase64URL: true });
+      const editado = (await bdLer("resumos_conteudo", r.id))?.html;
+      if (editado) tmp.innerHTML = prefixarClassesDocx(editado, prefixo);      // a versão com as suas edições
+      else {
+        const docx = await abrirDocxPreview();
+        const blob = await lerArquivoOriginal(r); if (!blob) { tmp.remove(); return null; }
+        await docx.renderAsync(blob, tmp, tmp, { className: prefixo, inWrapper: false, breakPages: true, ignoreLastRenderedPageBreak: true, useBase64URL: true });
+      }
       const secao = tmp.querySelector("section");
       const largura = secao ? secao.offsetWidth : 794;
-      if (secao) {                                              // só o começo da primeira página
+      if (secao) {
+        if (tinta) { secao.style.position = "relative"; desenharTracos(secao, tinta); }
         const artigo = secao.querySelector("article") || secao;
-        let alt = 0;
-        for (const filho of [...artigo.children]) { if (alt > largura * 1.45) filho.remove(); else alt += filho.offsetHeight; }
-        $$("section", tmp).forEach((s, k) => { if (k > 0) s.remove(); });
+        let alt = 0;                                            // só o começo da primeira página
+        for (const filho of [...artigo.children]) { if (filho.tagName === "svg") continue; if (alt > largura * 1.45) filho.remove(); else alt += filho.offsetHeight; }
+        $$("section", tmp).forEach((sec, k) => { if (k > 0) sec.remove(); });
       }
       m = { id: r.id, tipo: "html", html: tmp.innerHTML, largura };
       tmp.remove();
@@ -4474,6 +4506,7 @@ function editarDocx(r) {
   };
 }
 async function gravarConteudoOriginal(id, html) {
+  invalidarMiniatura(id);
   const texto = textoPlanoDe(html.replace(/<style[\s\S]*?<\/style>/g, ""));
   await bdGravar("resumos_conteudo", { id, html, texto });
   if (resumos.textos) resumos.textos.set(id, semAcento(texto));
@@ -4542,7 +4575,7 @@ function menuResumoOriginal(r, editado) {
   };
   if ($("#o-restaurar")) $("#o-restaurar").onclick = async () => {
     if (!confirm("Voltar ao Word original? As suas edições de texto serão apagadas (os desenhos continuam).")) return;
-    await bdApagar("resumos_conteudo", r.id); fecharPainel(); telaResumoLer(r.id);
+    await bdApagar("resumos_conteudo", r.id); await invalidarMiniatura(r.id); fecharPainel(); telaResumoLer(r.id);
   };
   $("#o-tinta").onclick = async () => {
     const lista = itens("tinta", t => t.lei === "resumo:" + r.id);
@@ -4736,7 +4769,7 @@ function montarDock(r) {
     <button class="dock-btn" id="res-mais" title="Mais opções" aria-label="Mais opções">⋯</button>
     <button class="dock-btn" id="dock-lado" title="Levar a barra para o outro lado" aria-label="Trocar de lado">⇄</button>
     <button class="dock-alca" id="dock-alca" title="${recolhido ? "Mostrar ferramentas" : "Recolher"}" aria-label="Recolher ou mostrar as ferramentas">${setaRecolher(recolhido, lado === "esquerda")}</button>`;
-  document.body.appendChild(d);
+  ($("#camada-fixa") || document.body).appendChild(d);
   $("#dock-alca").onclick = () => {
     const rec = !d.classList.contains("recolhido");
     d.classList.toggle("recolhido", rec); gravarLS("dock-recolhido", rec);
@@ -4894,6 +4927,20 @@ async function iniciar() {
   await atualizarTudo();
   rotear();
 }
+/* Zoom com os dedos: as barras ficam paradas no mesmo lugar da tela e no mesmo tamanho.
+   A camada acompanha a parte visível (visualViewport) e desfaz a ampliação só nela. */
+function ajustarCamadaAoZoom() {
+  const c = $("#camada-fixa"), vv = window.visualViewport;
+  if (!c) return;
+  c.style.width = window.innerWidth + "px";
+  c.style.height = window.innerHeight + "px";
+  c.style.transform = vv && Math.abs(vv.scale - 1) > 0.01
+    ? `translate(${vv.offsetLeft}px, ${vv.offsetTop}px) scale(${1 / vv.scale})`
+    : "translate(0px, 0px)";
+}
+if (window.visualViewport) { visualViewport.addEventListener("resize", ajustarCamadaAoZoom); visualViewport.addEventListener("scroll", ajustarCamadaAoZoom); }
+window.addEventListener("resize", ajustarCamadaAoZoom);
+setTimeout(ajustarCamadaAoZoom, 0);
 let ultimaAtualizacao = Date.now();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && window.salvarResumoPendente) window.salvarResumoPendente(); });
 document.addEventListener("visibilitychange", async () => {
