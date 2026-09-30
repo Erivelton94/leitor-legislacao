@@ -1,0 +1,21 @@
+name: Testes do app
+
+on:
+  push:
+    paths: ["index.html", "sw.js", "js/**", "css/**", "tests/**"]
+  workflow_dispatch:
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar o navegador de teste
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Testar o app
+        run: python tests/testar_app.py
