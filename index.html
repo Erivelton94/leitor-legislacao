@@ -386,6 +386,20 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .ferramentas-imagem { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
   display: flex; gap: 4px; align-items: center; flex-wrap: wrap; background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 6px; box-shadow: 0 6px 20px rgba(0,0,0,.15); }
 .ferramentas-imagem button { border: 1px solid var(--fio); background: var(--papel); border-radius: 8px; padding: 7px 10px; font-size: 13px; }
+.visor-original { padding: 12px 8px 140px; overflow-x: auto; }
+.paginas-resumo { margin: 0 auto; }
+.pagina-resumo { position: relative; background: #fff; margin: 0 auto 16px !important; box-shadow: 0 2px 10px rgba(0,0,0,.12); border-radius: 2px; }
+div.pagina-resumo { padding: 0 !important; }            /* PDF: a página inteira é o desenho; no Word, as margens do documento ficam */
+.canvas-pagina { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.num-pagina { position: absolute; right: -34px; top: 4px; font-size: 12px; color: var(--tinta-2); font-family: var(--sans); }
+.textLayer { position: absolute; inset: 0; overflow: hidden; line-height: 1; z-index: 1; text-size-adjust: none; -webkit-text-size-adjust: none; }
+.textLayer span, .textLayer br { color: transparent; position: absolute; white-space: pre; cursor: text; transform-origin: 0% 0%; }
+.textLayer ::selection { background: rgba(30, 91, 216, 0.28); }
+.paginas-resumo section.docx { margin-left: auto; margin-right: auto; color: #000; }
+.paginas-resumo section.docx[contenteditable="true"] { outline: 2px dashed var(--oliva); outline-offset: 4px; }
+.barra-docx { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); max-width: 900px; margin: 8px auto; }
+.barra-docx .bolinha { width: 20px; height: 20px; border-radius: 50%; display: inline-block; border: 1px solid var(--fio); }
+.alvo-busca { background: var(--g-amarelo) !important; }
 .foco-resumo .topo, .foco-resumo .barra-resumo, .foco-resumo #abas, .foco-resumo #aviso-continuar, .foco-resumo #aviso-offline { display: none !important; }
 .foco-resumo .leitura-resumo { padding-top: calc(env(safe-area-inset-top, 0px) + 40px); }
 .sair-foco { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 8px); right: 10px; z-index: 45; opacity: 0.85; }
@@ -415,7 +429,7 @@ path.endireitado { animation: pisca-reto .25s ease-out; }
 .linha-caneta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: center; }
 .barra-caneta .icone-btn[aria-pressed="true"] { background: var(--oliva); color: var(--papel); }
 .barra-caneta .icone-btn:disabled { opacity: 0.35; }
-.caneta-dedo.modo-caneta .leitor-wrap { touch-action: none; }
+.caneta-dedo.modo-caneta .leitor-wrap, .caneta-dedo.modo-caneta .visor-original { touch-action: none; }
 .caneta-dedo.modo-caneta .sumario-lateral { touch-action: auto; }
 #cursor-borracha { position: fixed; z-index: 60; pointer-events: none; border-radius: 50%; border: 1.5px solid var(--tinta);
   background: rgba(127, 127, 127, 0.12); display: none; }
@@ -574,10 +588,10 @@ aplicarAjustes();
 let BD = null;
 function abrirBD() {
   return new Promise((ok, erro) => {
-    const r = indexedDB.open("meus-estudos", 2);
+    const r = indexedDB.open("meus-estudos", 3);
     r.onupgradeneeded = () => {
       const db = r.result;
-      for (const nome of ["itens", "imagens", "resumos", "resumos_conteudo"])
+      for (const nome of ["itens", "imagens", "resumos", "resumos_conteudo", "arquivos"])
         if (!db.objectStoreNames.contains(nome)) db.createObjectStore(nome, { keyPath: "id" });
     };
     r.onsuccess = () => ok(BD = r.result);
@@ -1452,7 +1466,7 @@ function resumoMarcacoes() {
     if (i.apagado) continue;
     if (i.tipo === "notaq") { q.comentarios++; continue; }
     if (i.tipo === "favorito" && i.alvo === "questao") { q.favoritas++; continue; }
-    if (!i.lei) continue;
+    if (!i.lei || String(i.lei).startsWith("resumo:")) continue;
     if (i.tipo === "anotacao") de(i.lei).anotacoes++;
     else if (i.tipo === "grifo") de(i.lei).grifos++;
     else if (i.tipo === "favorito") de(i.lei).favoritos++;
@@ -2276,7 +2290,7 @@ let selecaoAtual = null;
 function esconderBarra() { $("#barra-selecao").classList.add("oculto"); }
 function lerSelecao() {
   const sel = window.getSelection();
-  if (caneta.ativa || !leiAberta || !sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
+  if (caneta.ativa || !leiAberta || ehResumoAberto() || !sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
   const r = sel.getRangeAt(0);
   const noIni = r.startContainer.nodeType === 1 ? r.startContainer : r.startContainer.parentElement;
   const noFim = r.endContainer.nodeType === 1 ? r.endContainer : r.endContainer.parentElement;
@@ -2594,6 +2608,7 @@ async function exportarBackup() {
     itens: [...estado.itens.values()],
     resumos: await bdTodos("resumos"),
     resumosConteudo: await bdTodos("resumos_conteudo"),
+    arquivos: await Promise.all((await bdTodos("arquivos")).map(async a => ({ id: a.id, nome: a.nome, tipo: a.blob.type, atualizadoEm: a.atualizadoEm, dados: await blobParaBase64(a.blob) }))),
     imagens: await Promise.all(imgs.map(async i => ({ id: i.id, tipoMime: i.tipoMime, atualizadoEm: i.atualizadoEm, dados: await blobParaBase64(i.blob) }))),
     ajustes, posicao: lerLS("posicao", {}),
   };
@@ -2643,6 +2658,7 @@ $("#entrada-backup").onchange = async e => {
     else if (conteudos.has(r.id)) await bdGravar("resumos_conteudo", conteudos.get(r.id));
     loc ? atualizados++ : novos++;
   }
+  for (const a of p.arquivos || []) if (!(await bdLer("arquivos", a.id))) await bdGravar("arquivos", { id: a.id, nome: a.nome, atualizadoEm: a.atualizadoEm, blob: base64ParaBlob(a.dados, a.tipo) });
   resumos.lista = null; resumos.textos = null;
   const usadas = new Set(itens("anotacao").flatMap(n => n.imagens || []));
   for (const c of await bdTodos("resumos_conteudo")) for (const id of imagensDoHtml(c.html || "")) usadas.add(id);   // imagens dos resumos também ficam
@@ -2734,7 +2750,7 @@ function larguraTexto() {
 }
 function tintaVisivel(lei, art) {
   const larg = larguraTexto();
-  return tintasDoArtigo(lei, art).find(t => t.fonte === ajustes.fonte && Math.abs((t.largura || larg) - larg) <= 8) || null;
+  return tintasDoArtigo(lei, art).find(t => t.fonte === fonteAtual() && Math.abs((t.largura || larg) - larg) <= 8) || null;
 }
 function caminhoD(p) {
   if (p.length < 4) return `M${p[0]} ${p[1]} l0.1 0`;
@@ -2788,7 +2804,7 @@ function pintarTinta(leiId, div) {
   const atual = tintaVisivel(leiId, art);
   if (atual) {
     desenharTracos(div, atual);
-    if (atual.hashArt !== estado.leis[leiId]?.artigos[art]?.hash) {
+    if (estado.leis[leiId] && atual.hashArt !== estado.leis[leiId]?.artigos[art]?.hash) {
       const a = document.createElement("span");
       a.className = "aviso-tinta alerta-tinta";
       a.dataset.rotulo = `✎ O artigo mudou depois destas marcações (feitas na versão de ${dataCurta(atual.versao)})`;
@@ -2800,7 +2816,7 @@ function pintarTinta(leiId, div) {
     const b = document.createElement("button");
     b.className = "aviso-tinta";
     b.dataset.fonteTinta = outra.fonte;
-    b.dataset.rotulo = outra.fonte !== ajustes.fonte
+    b.dataset.rotulo = outra.fonte !== fonteAtual()
       ? `✎ Desenhos e ícones feitos com letra tamanho ${outra.fonte} · mostrar`
       : "✎ Desenhos feitos com a tela em outra posição (gire o iPad para vê-los)";
     div.appendChild(b);
@@ -2818,11 +2834,11 @@ window.addEventListener("resize", () => { larguraCache = null; clearTimeout(temp
 
 function itemTintaAtual(div) {
   const lei = estado.leis[leiAberta], art = div.dataset.art;
-  const id = idTinta(leiAberta, art, ajustes.fonte);
+  const id = idTinta(leiAberta, art, fonteAtual());
   const ex = estado.itens.get(id);
   if (ex && !ex.apagado && (ex.tracos || ex.carimbos)) { ex.tracos = ex.tracos || []; ex.carimbos = ex.carimbos || []; return ex; }
-  return { id, tipo: "tinta", lei: leiAberta, art, fonte: ajustes.fonte, largura: larguraTexto(),
-           versao: lei.versao, hashArt: lei.artigos[art]?.hash, tracos: [], carimbos: [] };
+  return { id, tipo: "tinta", lei: leiAberta, art, fonte: fonteAtual(), largura: larguraTexto(),
+           versao: lei?.versao || "", hashArt: lei?.artigos[art]?.hash || "", tracos: [], carimbos: [] };
 }
 function pontoRel(div, ev) { const r = div.getBoundingClientRect(); return [+(ev.clientX - r.left).toFixed(1), +(ev.clientY - r.top).toFixed(1)]; }
 const fotografar = item => ({ tracos: (item.tracos || []).slice(), carimbos: (item.carimbos || []).map(c => ({ ...c })) });
@@ -2951,7 +2967,7 @@ function esconderCursorBorracha() { const c = $("#cursor-borracha"); if (c) c.st
 function eventosDe(e) { const l = e.getCoalescedEvents ? e.getCoalescedEvents() : []; return l.length ? l : [e]; }
 const dedos = new Map();
 let rolagemDedos = null;
-const naAreaDaLei = e => !!(e.target.closest && e.target.closest("#conteudo.modo-leitor .leitor-wrap") && !e.target.closest(".sumario-lateral"));
+const naAreaDaLei = e => !!(e.target.closest && e.target.closest("#conteudo.modo-leitor .leitor-wrap, #conteudo.modo-leitor .visor-original") && !e.target.closest(".sumario-lateral"));
 function artigoNoPonto(e) {
   const direto = e.target.closest && e.target.closest("#texto-lei .artigo");
   if (direto) return direto;
@@ -3233,6 +3249,7 @@ function alternarCaneta(ligar = !caneta.ativa) {
   $("#barra-caneta").classList.toggle("oculto", !caneta.ativa);
   $("#btn-caneta").setAttribute("aria-pressed", caneta.ativa);
   $("#btn-caneta").textContent = caneta.ativa ? "✏️ Caneta ligada" : "✏️ Caneta";
+  if ($("#res-caneta")) $("#res-caneta").textContent = caneta.ativa ? "✏️ Caneta ligada" : "✏️ Caneta";
   if (caneta.ativa) { esconderBarra(); window.getSelection()?.removeAllRanges(); montarBarraCaneta(); }
 }
 
@@ -3289,6 +3306,9 @@ async function gravarConteudo(id, html) {
 }
 const imagensDoHtml = html => [...html.matchAll(/data-img="([^"]+)"/g)].map(m => m[1]);
 async function excluirResumo(id) {
+  const meta = resumos.lista.get(id);
+  if (meta?.arquivo) await bdApagar("arquivos", meta.arquivo);
+  for (const t of itens("tinta", t => t.lei === "resumo:" + id)) await apagarItem(t.id);
   const html = await lerConteudo(id);
   for (const img of imagensDoHtml(html)) await bdApagar("imagens", img);
   await bdApagar("resumos_conteudo", id);
@@ -3390,8 +3410,7 @@ async function telaResumos(filtro = "todas", materia = "") {
   const busca = sessionStorage.getItem("busca-resumos") || "";
   $("#conteudo").innerHTML = `<div class="secao">
     <div class="acoes-linha">
-      <button class="botao primario" id="novo-resumo">+ Novo resumo</button>
-      <button class="botao" id="importar-resumos">Importar Word ou PDF</button>
+      <button class="botao primario" id="importar-resumos">Importar Word ou PDF</button>
       ${!materia ? '<button class="botao" id="nova-materia">+ Nova matéria</button>' : ""}
     </div>
     <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, matéria ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
@@ -3420,12 +3439,12 @@ async function telaResumos(filtro = "todas", materia = "") {
     }
     if (filtro !== "recentes" || termo.length >= 2) lista.sort((a, b) => b.atualizadoEm.localeCompare(a.atualizadoEm));
     h += lista.length ? `<ul class="lista-cartoes">${lista.map(cartaoResumo).join("")}</ul>`
-      : (h ? "" : `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nenhum resumo arquivado." : "Nenhum resumo ainda. Crie um novo ou importe seus arquivos do Word ou PDF."}</p>`);
+      : (h ? "" : `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nenhum resumo arquivado." : "Nenhum resumo ainda. Importe seus arquivos do Word ou PDF."}</p>`);
     $("#lista-res").innerHTML = h;
   };
   $("#busca-res").oninput = aoParar(render, 200);
   $$("[data-filtro-res]").forEach(b => b.onclick = () => { history.replaceState(null, "", "#/resumos/" + b.dataset.filtroRes); telaResumos(b.dataset.filtroRes); });
-  $("#novo-resumo").onclick = async () => {
+  if ($("#novo-resumo")) $("#novo-resumo").onclick = async () => {
     const r = { id: uid(), titulo: "", materia: materia || "", assunto: "", favorito: false, arquivado: false, previa: "" };
     await salvarMeta(r);
     await gravarConteudo(r.id, "<p><br></p>");
@@ -3454,20 +3473,21 @@ function menuResumo(id) {
   const r = resumos.lista.get(id);
   abrirPainel(`<h2>${esc(r.titulo || "Sem título")} ${botaoFechar}</h2><div class="acoes">
     <button data-href="#/resumo/${esc(id)}">👁️ Ler</button>
-    <button data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>
+    ${r.formato === "pdf" || r.formato === "docx" ? "" : `<button data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>`}
     <button id="r-duplicar">Duplicar resumo</button>
     <button id="r-materia">Mudar de matéria</button>
     <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
     <button id="r-excluir" style="color:var(--alt)">Excluir resumo</button></div>`);
   $("#r-duplicar").onclick = async () => {
     const novo = { ...r, id: uid(), titulo: (r.titulo || "Sem título") + " — cópia", favorito: false, criadoEm: null, abertoEm: null };
+    if (r.arquivo) { const a = await bdLer("arquivos", r.arquivo); if (a) { novo.arquivo = uid(); await bdGravar("arquivos", { ...a, id: novo.arquivo }); } }
     let html = await lerConteudo(id);
     for (const img of imagensDoHtml(html)) {            // a cópia tem as próprias imagens (apagar uma não afeta a outra)
       const im = await bdLer("imagens", img);
       if (im) { const nid = uid(); await bdGravar("imagens", { ...im, id: nid }); html = html.split(`data-img="${img}"`).join(`data-img="${nid}"`); }
     }
     await salvarMeta(novo); await gravarConteudo(novo.id, html);
-    fecharPainel(); location.hash = `#/resumo/${novo.id}/editar`;
+    fecharPainel(); location.hash = novo.formato === "pdf" || novo.formato === "docx" ? `#/resumo/${novo.id}` : `#/resumo/${novo.id}/editar`;
   };
   $("#r-materia").onclick = () => {
     const mats = materiasResumo();
@@ -3495,6 +3515,7 @@ async function telaResumoLer(id) {
   definirTopo({ titulo: r.titulo || "Sem título", voltar: r.materia ? `#/resumos/materia/${encodeURIComponent(r.materia)}` : "#/resumos" });
   $("#abas").classList.add("oculto");
   r.abertoEm = agoraISO(); salvarMeta(r, false);
+  if (r.formato === "pdf" || r.formato === "docx") return telaResumoOriginal(r);
   const html = await lerConteudo(id);
   const pos = lerLS("pos-resumo", {})[id] || 0;
   $("#conteudo").innerHTML = `<div class="barra-resumo">
@@ -3797,6 +3818,7 @@ function tituloDoArquivo(nome) {
 }
 async function importarArquivo(arq, materia, aoProgresso) {
   const ext = (arq.name.split(".").pop() || "").toLowerCase();
+  if (ext === "pdf" || ext === "docx") return importarOriginal(arq, ext, materia, aoProgresso);
   let html = "", detalhes = "";
   if (ext === "docx") {
     await carregarScript("libs/mammoth.browser.min.js");
@@ -3992,6 +4014,322 @@ function montarHtml(paginas) {
 }
 
 /* =====================================================================
+   RESUMOS NO VISUAL ORIGINAL (PDF e Word)
+   - PDF: páginas desenhadas iguais ao original; só as páginas perto da tela
+     ficam desenhadas (as outras são liberadas da memória).
+   - Word: mostrado com as cores, destaques, tabelas e imagens do arquivo;
+     o texto pode ser editado e a edição fica salva no app.
+   - Nos dois: caneta, marca-texto, ícones e borracha por cima de cada página.
+   ===================================================================== */
+const LARGURA_PDF = 760;                    // largura fixa da página: os desenhos ficam sempre no lugar certo
+const visor = { doc: null, observador: null, desenhadas: new Map(), textos: new Map(), id: null };
+const ehResumoAberto = () => typeof leiAberta === "string" && leiAberta.startsWith("resumo:");
+function fonteAtual() { return ehResumoAberto() ? 0 : ajustes.fonte; }
+async function lerArquivoOriginal(r) { return r.arquivo ? (await bdLer("arquivos", r.arquivo))?.blob || null : null; }
+function fecharVisor() {
+  if (visor.observador) visor.observador.disconnect();
+  for (const c of visor.desenhadas.values()) { c.width = 0; c.height = 0; }
+  visor.desenhadas.clear(); visor.textos.clear();
+  if (visor.doc) { visor.doc.destroy(); visor.doc = null; }
+  visor.id = null;
+}
+
+async function telaResumoOriginal(r) {
+  fecharVisor();
+  visor.id = r.id;
+  leiAberta = "resumo:" + r.id;             // a caneta usa o mesmo sistema da leitura das leis
+  larguraCache = null;
+  $("#conteudo").classList.add("modo-leitor");
+  const pos = lerLS("pos-resumo", {})[r.id] || 0;
+  const editado = r.formato === "docx" && (await bdLer("resumos_conteudo", r.id))?.html;
+  $("#conteudo").innerHTML = `<div class="barra-resumo">
+      <button class="botao" id="res-caneta">✏️ Caneta</button>
+      <button class="botao" id="res-buscar">🔍 Buscar</button>
+      ${r.formato === "docx" ? '<button class="botao" id="res-editar-docx">✏️ Editar texto</button>' : ""}
+      <button class="botao" id="res-foco">🎯 Modo foco</button>
+      <button class="botao" data-fav-resumo="${esc(r.id)}" aria-pressed="${!!r.favorito}">${r.favorito ? "★ Favorito" : "☆ Favoritar"}</button>
+      <button class="botao" id="res-mais">⋯</button>
+    </div>
+    ${pos > 0.05 ? `<div class="aviso" id="aviso-continuar">Você parou em ${Math.round(pos * 100)}% deste resumo. <button class="link" id="continuar">Continuar de onde parou</button> · <button class="link" id="do-inicio">Começar do início</button></div>` : ""}
+    <div class="barra-editor barra-docx oculto" id="barra-docx">
+      <button data-cmd="bold"><b>N</b></button><button data-cmd="italic"><i>I</i></button><button data-cmd="underline"><u>S</u></button>
+      <span class="sep"></span>
+      ${CORES_TEXTO.map(([c, n]) => `<button data-cor-docx="${c}" title="${n}"><span class="bolinha" style="background:${c}"></span></button>`).join("")}
+      <span class="sep"></span>
+      ${CORES_MARCA_RES.slice(0, 4).map(([c, n]) => `<button data-marca-docx="${c}" title="Marca-texto ${n}"><span class="bolinha" style="background:${c}"></span></button>`).join("")}
+      <span class="sep"></span>
+      <button data-cmd="undo">↶</button><button data-cmd="redo">↷</button>
+      <button id="docx-concluir" class="botao primario" style="min-width:90px">Concluir</button>
+      <span class="status-salvo" id="status-salvo" style="margin-left:auto"></span>
+    </div>
+    <div id="leitura-resumo" class="visor-original">
+      <div id="texto-lei" class="paginas-resumo" style="width:${r.formato === "pdf" ? LARGURA_PDF + "px" : "max-content"}"><p class="vazio">Abrindo o arquivo…</p></div>
+    </div>`;
+  $("#res-caneta").onclick = () => { alternarCaneta(); $("#res-caneta").textContent = caneta.ativa ? "✏️ Caneta ligada" : "✏️ Caneta"; };
+  $("#res-foco").onclick = () => alternarFocoResumo();
+  $("#res-buscar").onclick = () => painelBuscarOriginal(r);
+  $("#res-mais").onclick = () => menuResumoOriginal(r, !!editado);
+  try {
+    if (r.formato === "pdf") await montarPdf(r);
+    else await montarDocx(r, editado);
+  } catch (e) {
+    $("#texto-lei").innerHTML = `<p class="vazio">Não foi possível abrir o arquivo: ${esc(e.message)}</p>`;
+    return;
+  }
+  if ($("#continuar")) {
+    $("#continuar").onclick = () => { $("#aviso-continuar").remove(); rolarParaFracao(pos); };
+    $("#do-inicio").onclick = () => $("#aviso-continuar").remove();
+  }
+  if ($("#res-editar-docx")) $("#res-editar-docx").onclick = () => editarDocx(r);
+  let t = null;
+  window.onscroll = () => {
+    if (visor.id !== r.id) return;
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const el = $("#leitura-resumo"); if (!el) return;
+      const total = el.offsetHeight - window.innerHeight;
+      const f = total > 0 ? Math.min(1, Math.max(0, (window.scrollY - el.offsetTop) / total)) : 0;
+      const m = lerLS("pos-resumo", {}); m[r.id] = +f.toFixed(3); gravarLS("pos-resumo", m);
+    }, 500);
+  };
+}
+
+/* ---------- PDF ---------- */
+async function abrirPdfJs() {
+  await carregarScript("libs/pdf.min.js");
+  window.pdfjsLib.GlobalWorkerOptions.workerSrc = "libs/pdf.worker.min.js";
+  return window.pdfjsLib;
+}
+async function montarPdf(r) {
+  const pdfjs = await abrirPdfJs();
+  const blob = await lerArquivoOriginal(r);
+  if (!blob) throw new Error("o arquivo original não está neste aparelho");
+  visor.doc = await pdfjs.getDocument({ data: new Uint8Array(await blob.arrayBuffer()), isEvalSupported: false }).promise;
+  const cont = $("#texto-lei");
+  let h = "";
+  for (let n = 1; n <= visor.doc.numPages; n++) {
+    const pg = await visor.doc.getPage(n);
+    const vp = pg.getViewport({ scale: 1 });
+    const alt = Math.round(LARGURA_PDF * vp.height / vp.width);
+    h += `<div class="artigo pagina-resumo" id="art-p${n}" data-art="p${n}" data-pagina="${n}" style="height:${alt}px"><span class="num-pagina">${n}</span></div>`;
+  }
+  cont.innerHTML = h;
+  // desenha só as páginas perto da tela; as que ficam longe são liberadas
+  visor.observador = new IntersectionObserver(entradas => {
+    for (const e of entradas) {
+      const n = Number(e.target.dataset.pagina);
+      if (e.isIntersecting) desenharPaginaPdf(n, e.target);
+      else liberarPaginaPdf(n, e.target);
+    }
+  }, { rootMargin: "1200px 0px" });
+  $$(".pagina-resumo", cont).forEach(p => visor.observador.observe(p));
+  $$(".pagina-resumo", cont).forEach(p => pintarTinta(leiAberta, p));
+}
+async function desenharPaginaPdf(n, div) {
+  if (visor.desenhadas.has(n) || !visor.doc) return;
+  const c = document.createElement("canvas");
+  visor.desenhadas.set(n, c);
+  const pg = await visor.doc.getPage(n);
+  const base = pg.getViewport({ scale: 1 });
+  const escala = LARGURA_PDF / base.width;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const vp = pg.getViewport({ scale: escala * dpr });
+  c.width = vp.width; c.height = vp.height;
+  c.className = "canvas-pagina";
+  div.prepend(c);
+  try {
+    await pg.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+    // camada de texto invisível: permite selecionar e copiar
+    const camada = document.createElement("div");
+    camada.className = "textLayer";
+    const vpTexto = pg.getViewport({ scale: escala });
+    camada.style.setProperty("--scale-factor", escala);
+    div.insertBefore(camada, c.nextSibling);
+    const tc = await pg.getTextContent();
+    if (!visor.textos.has(n)) visor.textos.set(n, textoDaPaginaPdf(tc, base));
+    await window.pdfjsLib.renderTextLayer({ textContentSource: tc, container: camada, viewport: vpTexto }).promise;
+  } catch { /* página liberada durante o desenho */ }
+}
+function liberarPaginaPdf(n, div) {
+  const c = visor.desenhadas.get(n);
+  if (!c) return;
+  c.width = 0; c.height = 0; c.remove();
+  div.querySelector(".textLayer")?.remove();
+  visor.desenhadas.delete(n);
+}
+
+function textoDaPaginaPdf(tc, vp) {
+  const itens = tc.items.filter(i => i.str).map(i => ({ x: i.transform[4], y: vp.height - i.transform[5], w: i.width, h: i.height || Math.abs(i.transform[3]), s: i.str, b: false, i: false }));
+  return agruparLinhas(itens).map(l => l.texto).join(" ");
+}
+
+/* ---------- Word ---------- */
+async function abrirDocxPreview() {
+  await carregarScript("libs/jszip.min.js");
+  await carregarScript("libs/docx-preview.min.js");
+  return window.docx;
+}
+async function montarDocx(r, editado) {
+  const cont = $("#texto-lei");
+  if (editado) cont.innerHTML = editado;
+  else {
+    const docx = await abrirDocxPreview();
+    const blob = await lerArquivoOriginal(r);
+    if (!blob) throw new Error("o arquivo original não está neste aparelho");
+    cont.innerHTML = "";
+    await docx.renderAsync(blob, cont, cont, { inWrapper: false, ignoreLastRenderedPageBreak: true, breakPages: true, useBase64URL: true, experimental: true });
+  }
+  $$("section.docx", cont).forEach((s, k) => { s.classList.add("artigo", "pagina-resumo"); s.id = "art-p" + (k + 1); s.dataset.art = "p" + (k + 1); pintarTinta(leiAberta, s); });
+}
+function editarDocx(r) {
+  if (caneta.ativa) alternarCaneta(false);
+  const cont = $("#texto-lei");
+  const barra = $("#barra-docx");
+  barra.classList.remove("oculto");
+  $$("section.docx", cont).forEach(s => s.setAttribute("contenteditable", "true"));
+  $("#res-editar-docx").classList.add("oculto");
+  let tempo = null;
+  const salvar = async () => {
+    const clone = cont.cloneNode(true);
+    $$("[contenteditable]", clone).forEach(s => s.removeAttribute("contenteditable"));
+    $$("svg.tinta, .aviso-tinta", clone).forEach(e => e.remove());
+    $$("section.docx", clone).forEach(s => { s.classList.remove("artigo", "pagina-resumo"); s.removeAttribute("id"); });
+    const texto = await gravarConteudoOriginal(r.id, clone.innerHTML);
+    r.previa = texto.slice(0, 220); await salvarMeta(r);
+    $("#status-salvo").textContent = "Salvo agora";
+  };
+  const agendar = () => { $("#status-salvo").textContent = "Salvando…"; clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
+  window.salvarResumoPendente = async () => { clearTimeout(tempo); await salvar(); };
+  cont.addEventListener("input", agendar);
+  barra.onpointerdown = e => { if (e.target.closest("button")) e.preventDefault(); };
+  barra.onclick = e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.id === "docx-concluir") { salvar(); barra.classList.add("oculto"); $$("section.docx", cont).forEach(s => s.removeAttribute("contenteditable")); $("#res-editar-docx").classList.remove("oculto"); cont.removeEventListener("input", agendar); return; }
+    document.execCommand("styleWithCSS", false, true);
+    if (b.dataset.cmd) document.execCommand(b.dataset.cmd);
+    else if (b.dataset.corDocx) document.execCommand("foreColor", false, b.dataset.corDocx);
+    else if (b.dataset.marcaDocx) document.execCommand("hiliteColor", false, b.dataset.marcaDocx);
+    agendar();
+  };
+}
+async function gravarConteudoOriginal(id, html) {
+  const texto = textoPlanoDe(html.replace(/<style[\s\S]*?<\/style>/g, ""));
+  await bdGravar("resumos_conteudo", { id, html, texto });
+  if (resumos.textos) resumos.textos.set(id, semAcento(texto));
+  return texto;
+}
+
+/* ---------- busca, menu e ações ---------- */
+async function painelBuscarOriginal(r) {
+  abrirPainel(`<h2>Buscar neste resumo ${botaoFechar}</h2>
+    <input class="campo" id="busca-orig" type="search" placeholder="Palavra ou trecho" autocomplete="off"><div id="res-orig"></div>`);
+  const campo = $("#busca-orig"); campo.focus();
+  // o texto de todas as páginas é lido uma vez, em segundo plano, enquanto você digita
+  const carregarTextos = (async () => {
+    if (r.formato !== "pdf" || !visor.doc) return;
+    for (let n = 1; n <= visor.doc.numPages; n++) if (!visor.textos.has(n)) {
+      const pg = await visor.doc.getPage(n);
+      visor.textos.set(n, textoDaPaginaPdf(await pg.getTextContent(), pg.getViewport({ scale: 1 })));
+    }
+  })();
+  campo.oninput = aoParar(async () => {
+    await carregarTextos;
+    if (!$("#busca-orig")) return;
+    const termo = semAcento(campo.value.trim());
+    if (termo.length < 2) { $("#res-orig").innerHTML = ""; return; }
+    const achados = [];
+    if (r.formato === "pdf") {
+      for (const [n, t] of [...visor.textos.entries()].sort((a, b) => a[0] - b[0])) {
+        const p = semAcento(t).indexOf(termo);
+        if (p >= 0) achados.push({ alvo: "p" + n, rot: `Página ${n}`, trecho: t.slice(Math.max(0, p - 50), p + termo.length + 70) });
+      }
+    } else {
+      $$("#texto-lei p, #texto-lei td, #texto-lei li").forEach((el, k) => {
+        const t = el.textContent; const p = semAcento(t).indexOf(termo);
+        if (p >= 0 && achados.length < 60) { el.dataset.busca = "b" + k; achados.push({ el: "b" + k, rot: "Trecho", trecho: t.slice(Math.max(0, p - 50), p + termo.length + 70) }); }
+      });
+    }
+    $("#res-orig").innerHTML = `<p class="contagem">${achados.length ? achados.length + " resultado(s)" : "Nada encontrado."}</p><ul class="resultados">${achados.map(a =>
+      `<li><button data-ir-orig="${a.alvo || ""}" data-ir-el="${a.el || ""}"><span class="res-titulo">${a.rot}</span><span class="res-trecho">…${esc(a.trecho)}…</span></button></li>`).join("")}</ul>`;
+    $$("[data-ir-orig]").forEach(b => b.onclick = () => {
+      fecharPainel();
+      const alvo = b.dataset.irOrig ? document.getElementById("art-" + b.dataset.irOrig) : document.querySelector(`[data-busca="${b.dataset.irEl}"]`);
+      if (alvo) { alvo.scrollIntoView({ block: "start" }); if (b.dataset.irEl) { alvo.classList.add("alvo-busca"); setTimeout(() => alvo.classList.remove("alvo-busca"), 2500); } }
+    });
+  }, 250);
+}
+function menuResumoOriginal(r, editado) {
+  abrirPainel(`<h2>${esc(r.titulo)} ${botaoFechar}</h2><div class="acoes">
+    <button id="o-baixar">Baixar o arquivo original (${r.formato === "pdf" ? "PDF" : "Word"})</button>
+    ${r.formato === "pdf" ? '<button id="o-texto">Criar uma versão em texto editável</button>' : ""}
+    ${editado ? '<button id="o-restaurar">Desfazer minhas edições (voltar ao Word original)</button>' : ""}
+    <button id="o-tinta">Apagar desenhos e ícones deste resumo</button>
+    </div><p class="contagem">${r.formato === "pdf" ? "O texto de um PDF não pode ser editado; marque por cima com a caneta. Se precisar editar o texto, crie a versão em texto editável (o visual original não é mantido nela)." : "As edições ficam salvas no app; o arquivo original continua guardado."}</p>`);
+  $("#o-baixar").onclick = async () => {
+    const blob = await lerArquivoOriginal(r); if (!blob) return;
+    const nome = r.origem || (r.titulo + (r.formato === "pdf" ? ".pdf" : ".docx"));
+    const arq = new File([blob], nome, { type: blob.type });
+    try { if (navigator.canShare && navigator.canShare({ files: [arq] })) { await navigator.share({ files: [arq] }); return; } } catch (e) { if (e.name === "AbortError") return; }
+    const a = document.createElement("a"); a.href = URL.createObjectURL(arq); a.download = nome; document.body.appendChild(a); a.click(); a.remove();
+  };
+  if ($("#o-texto")) $("#o-texto").onclick = async () => {
+    $("#o-texto").textContent = "Convertendo…";
+    const pdfjs = await abrirPdfJs();
+    const blob = await lerArquivoOriginal(r);
+    const res = await pdfParaHtml(pdfjs, new Uint8Array(await blob.arrayBuffer()));
+    const novo = { id: uid(), titulo: r.titulo + " — texto editável", materia: r.materia, assunto: r.assunto, formato: "html", favorito: false, arquivado: false };
+    const texto = await gravarConteudo(novo.id, limparHtml(res.html));
+    novo.previa = texto.slice(0, 220);
+    await salvarMeta(novo);
+    fecharPainel(); location.hash = `#/resumo/${novo.id}/editar`;
+  };
+  if ($("#o-restaurar")) $("#o-restaurar").onclick = async () => {
+    if (!confirm("Voltar ao Word original? As suas edições de texto serão apagadas (os desenhos continuam).")) return;
+    await bdApagar("resumos_conteudo", r.id); fecharPainel(); telaResumoLer(r.id);
+  };
+  $("#o-tinta").onclick = async () => {
+    const lista = itens("tinta", t => t.lei === "resumo:" + r.id);
+    if (!lista.length) { $("#o-tinta").textContent = "Não há desenhos neste resumo"; return; }
+    if (!confirm(`Apagar os desenhos e ícones de ${lista.length} página(s)?`)) return;
+    for (const t of lista) await apagarItem(t.id);
+    fecharPainel(); repintarTintas();
+  };
+}
+
+/* ---------- importação no formato original ---------- */
+async function importarOriginal(arq, ext, materia, aoProgresso) {
+  const arquivoId = uid();
+  await bdGravar("arquivos", { id: arquivoId, blob: arq, nome: arq.name, atualizadoEm: agoraISO() });
+  let titulo = tituloDoArquivo(arq.name), texto = "", detalhes = "";
+  if (ext === "pdf") {
+    const pdfjs = await abrirPdfJs();
+    const res = await pdfParaHtml(pdfjs, new Uint8Array(await arq.arrayBuffer()), aoProgresso);   // só para o título e a busca
+    const tpl = document.createElement("template"); tpl.innerHTML = res.html;
+    const h = tpl.content.querySelector("h1,h2,h3");
+    if (h && h.textContent.trim().length < 90) titulo = h.textContent.trim();
+    texto = tpl.content.textContent.replace(/\s+/g, " ").trim();
+    detalhes = "PDF no visual original";
+    if (!texto) detalhes += " (sem texto selecionável: a busca não vai funcionar neste arquivo)";
+  } else {
+    await carregarScript("libs/jszip.min.js");
+    const zip = await window.JSZip.loadAsync(arq);
+    const xml = await zip.file("word/document.xml")?.async("string");
+    if (!xml) throw new Error("Este arquivo não parece ser um Word (.docx) válido.");
+    // texto dos parágrafos (para a busca e a prévia); o primeiro parágrafo curto vira o título
+    const decod = t => t.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'");
+    const paragrafos = xml.split(/<\/w:p>/).map(p => decod([...p.matchAll(/<w:t(?:\s[^>]*)?>([^<]*)<\/w:t>/g)].map(m => m[1]).join("")).trim()).filter(Boolean);
+    texto = paragrafos.join(" ").replace(/\s+/g, " ");
+    if (paragrafos[0] && paragrafos[0].length < 90) titulo = paragrafos[0];
+    detalhes = "Word no visual original";
+  }
+  const r = { id: uid(), titulo, materia, assunto: "", formato: ext === "pdf" ? "pdf" : "docx", arquivo: arquivoId, origem: arq.name, favorito: false, arquivado: false, previa: texto.slice(0, 220) };
+  await bdGravar("resumos_conteudo", { id: r.id, html: "", texto });
+  if (resumos.textos) resumos.textos.set(r.id, semAcento(texto));
+  await salvarMeta(r);
+  return { id: r.id, titulo, detalhes: `${detalhes} · ${(arq.size / 1048576).toFixed(1).replace(".", ",")} MB` };
+}
+
+/* =====================================================================
    CLIQUES GERAIS E NAVEGAÇÃO
    ===================================================================== */
 document.addEventListener("click", async e => {
@@ -4068,6 +4406,7 @@ document.addEventListener("click", async e => {
 async function rotear() {
   if (window.salvarResumoPendente) { await window.salvarResumoPendente(); window.salvarResumoPendente = null; }   // nada se perde ao sair do editor
   if (!location.hash.startsWith("#/resumo/")) { window.onscroll = null; resumoAberto = null; alternarFocoResumo(false); }
+  fecharVisor();
   registrarNavegacao();
   const voltou = voltandoNav, y = pilhaNav[pilhaNav.length - 1]?.y || 0;
   const destino = location.hash.replace(/^#\/?/, "").split("/");
