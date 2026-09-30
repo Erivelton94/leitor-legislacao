@@ -475,6 +475,9 @@ div.pagina-resumo { padding: 0 !important; }            /* PDF: a página inteir
 .textLayer span, .textLayer br { color: transparent; position: absolute; white-space: pre; cursor: text; transform-origin: 0% 0%; }
 .textLayer ::selection { background: rgba(30, 91, 216, 0.28); }
 .modo-caneta .textLayer { pointer-events: none; -webkit-user-select: none; user-select: none; }
+.modo-caneta .paginas-resumo section.docx * { pointer-events: none; -webkit-user-select: none; user-select: none; }
+svg.tinta image.figura-sel { outline: 2px dashed var(--oliva); }
+.acoes-figura { display: flex; flex-direction: column; gap: 8px; width: 100%; }
 .zoom-rolagem { min-width: 0; }
 .zoom-rolagem.ampliado { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 #zoom-caixa { margin: 0 auto; }
@@ -1061,7 +1064,7 @@ function marcasDaLei(lei) {
     if (i.tipo === "grifo") de(i.art).grifos.push(i);
     else if (i.tipo === "anotacao") de(i.art).notas.push(i);
     else if (i.tipo === "favorito" && i.alvo === "trecho") de(i.art).trechos.push(i);
-    else if (i.tipo === "tinta" && ((i.tracos && i.tracos.length) || (i.carimbos && i.carimbos.length))) de(i.art).tintas.push(i);
+    else if (i.tipo === "tinta" && ((i.tracos && i.tracos.length) || (i.carimbos && i.carimbos.length) || (i.figuras && i.figuras.length))) de(i.art).tintas.push(i);
   }
   cacheMarcas = { lei, v: versaoItens, m };
   return m;
@@ -2756,6 +2759,7 @@ $("#entrada-backup").onchange = async e => {
   resumos.lista = null; resumos.textos = null;
   const usadas = new Set(itens("anotacao").flatMap(n => n.imagens || []));
   for (const c of await bdTodos("resumos_conteudo")) for (const id of imagensDoHtml(c.html || "")) usadas.add(id);   // imagens dos resumos também ficam
+  for (const t of itens("tinta")) for (const f of t.figuras || []) usadas.add(f.img);                                  // e as colocadas por cima das páginas
   for (const im of p.imagens || []) {
     if (!usadas.has(im.id) || await bdLer("imagens", im.id)) continue;
     await bdGravar("imagens", { id: im.id, blob: base64ParaBlob(im.dados, im.tipoMime), tipoMime: im.tipoMime, atualizadoEm: im.atualizadoEm });
@@ -2828,14 +2832,14 @@ const caneta = Object.assign(
   { ferramenta: "caneta", cor: "#D32F2F", esp: 2.5, espMarca: 15, modoBorracha: "parcial", raio: 8, icone: "⭐", tamIcone: 40, dedo: false },
   lerLS("preferencias-caneta", {}),
   { ativa: false, hist: [], refeitos: [], tracando: null, apagando: null, arrastando: null });
-if (caneta.ferramenta === "borracha") caneta.ferramenta = "caneta";
+if (caneta.ferramenta === "borracha" || caneta.ferramenta === "figura") caneta.ferramenta = "caneta";
 if (![28, 40, 54].includes(caneta.tamIcone)) caneta.tamIcone = 40;     // tamanhos antigos passam para o novo padrão
 function gravarPrefCaneta() {
   const { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao } = caneta;
   gravarLS("preferencias-caneta", { ferramenta, cor, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao });
 }
 const idTinta = (lei, art, fonte) => `tinta|${lei}|${art}|${fonte}`;
-const temConteudo = t => (t.tracos && t.tracos.length) || (t.carimbos && t.carimbos.length);
+const temConteudo = t => (t.tracos && t.tracos.length) || (t.carimbos && t.carimbos.length) || (t.figuras && t.figuras.length);
 function tintasDoArtigo(lei, art) { return (marcasDaLei(lei).get(art)?.tintas || []).filter(temConteudo); }
 let larguraCache = null;
 function larguraTexto() {
@@ -2888,7 +2892,7 @@ function svgDo(div, criar) {
   return s;
 }
 function desenharTracos(div, item) {
-  svgDo(div, true).replaceChildren(...(item.tracos || []).map(elTraco), ...(item.carimbos || []).map(elCarimbo));
+  svgDo(div, true).replaceChildren(...(item.figuras || []).map(elFigura), ...(item.tracos || []).map(elTraco), ...(item.carimbos || []).map(elCarimbo));
 }
 function pintarTinta(leiId, div) {
   div.querySelectorAll(":scope > svg.tinta, :scope > .aviso-tinta").forEach(e => e.remove());
@@ -2935,7 +2939,7 @@ function itemTintaAtual(div) {
            versao: lei?.versao || "", hashArt: lei?.artigos[art]?.hash || "", tracos: [], carimbos: [] };
 }
 function pontoRel(div, ev) { const r = div.getBoundingClientRect(), z = fz(); return [+((ev.clientX - r.left) / z).toFixed(1), +((ev.clientY - r.top) / z).toFixed(1)]; }
-const fotografar = item => ({ tracos: (item.tracos || []).slice(), carimbos: (item.carimbos || []).map(c => ({ ...c })) });
+const fotografar = item => ({ tracos: (item.tracos || []).slice(), carimbos: (item.carimbos || []).map(c => ({ ...c })), figuras: (item.figuras || []).map(f => ({ ...f })) });
 
 /* ---------- desfazer / refazer ---------- */
 function registrarAcao(item, antes) { registrarGrupo([{ item: item.id, art: item.art, antes, depois: fotografar(item) }], []); }
@@ -2949,7 +2953,7 @@ function registrarGrupo(partes, grifos) {
 async function aplicarVersaoTracos(parte, qual) {
   const base = estado.itens.get(parte.item) || { id: parte.item, tipo: "tinta" };
   const foto = parte[qual];
-  const item = { ...base, apagado: false, tracos: foto.tracos.slice(), carimbos: foto.carimbos.map(c => ({ ...c })) };
+  const item = { ...base, apagado: false, tracos: foto.tracos.slice(), carimbos: foto.carimbos.map(c => ({ ...c })), figuras: (foto.figuras || []).map(f => ({ ...f })) };
   if (!item.lei) {
     const [, lei, art, fonte] = parte.item.split("|");
     Object.assign(item, { lei, art, fonte: Number(fonte), largura: larguraTexto(), versao: estado.leis[lei]?.versao, hashArt: estado.leis[lei]?.artigos[art]?.hash });
@@ -3039,6 +3043,15 @@ function passarBorracha(a, x, y) {
     return fica;
   });
   if (item.carimbos.length !== antesIcones) mudou = true;
+  if (item.figuras && item.figuras.length) {
+    const antesFig = item.figuras.length;
+    item.figuras = item.figuras.filter(f => {
+      const fica = !(x >= f.x - caneta.raio && x <= f.x + f.w + caneta.raio && y >= f.y - caneta.raio && y <= f.y + f.h + caneta.raio);
+      if (!fica) svg.querySelector(`image[data-figura="${f.id}"]`)?.remove();
+      return fica;
+    });
+    if (item.figuras.length !== antesFig) mudou = true;
+  }
   if (mudou) item.tracos = novos;
 }
 /* ao salvar, os pedaços cortados ficam com um ponto a cada ~2 px (precisão mantida, arquivo menor) */
@@ -3198,6 +3211,21 @@ document.addEventListener("pointerdown", e => {
   if (!div) return;
   e.preventDefault();
   const p = pontoRel(div, e);
+  if (f === "figura") {
+    const item = itemTintaAtual(div);
+    item.figuras = item.figuras || [];
+    const hit = acharFigura(item, ...p);
+    if (hit) {                                                  // tocou numa imagem: seleciona e arrasta
+      caneta.figuraSel = { art: div.dataset.art, id: hit.id };
+      desenharTracos(div, item);
+      caneta.arrastando = { div, item, fig: hit, antes: fotografar(item), dx: hit.x - p[0], dy: hit.y - p[1], pointerId: e.pointerId };
+      montarBarraCaneta();
+      return;
+    }
+    if (caneta.figuraPendente) { colocarFigura(div, p); return; }
+    caneta.opcoesAbertas = true; montarBarraCaneta();           // ainda não escolheu a imagem: abre as opções
+    return;
+  }
   if (f === "icone") {
     const item = itemTintaAtual(div);
     const antes = fotografar(item);
@@ -3227,6 +3255,12 @@ document.addEventListener("pointermove", e => {
   if (ar && ar.pointerId === e.pointerId) {
     e.preventDefault();
     const [x, y] = pontoRel(ar.div, e);
+    if (ar.fig) {
+      ar.fig.x = Math.round(x + ar.dx); ar.fig.y = Math.round(y + ar.dy);
+      const el = ar.div.querySelector(`svg.tinta image[data-figura="${ar.fig.id}"]`);
+      if (el) { el.setAttribute("x", ar.fig.x); el.setAttribute("y", ar.fig.y); }
+      return;
+    }
     ar.c.x = +(x + ar.dx).toFixed(1); ar.c.y = +(y + ar.dy).toFixed(1);
     const el = ar.div.querySelector(`svg.tinta text[data-carimbo="${ar.c.id}"]`);
     if (el) { el.setAttribute("x", ar.c.x); el.setAttribute("y", ar.c.y); } else desenharTracos(ar.div, ar.item);
@@ -3335,13 +3369,21 @@ function montarBarraCaneta() {
   else if (f === "icone") { resumo = `<span style="font-size:18px">${caneta.icone}</span>${TAM_ICONE.find(x => x[0] === caneta.tamIcone)?.[1] || ""}`;
     opcoes = `<div class="icones-escolha">${ICONES.map(([i, n]) => `<button class="icone-escolha" data-icone="${i}" aria-pressed="${caneta.icone === i}" title="${n}" aria-label="${n}">${i}</button>`).join("")}</div>` + seg(TAM_ICONE, caneta.tamIcone, "data-tam-icone") +
       '<p class="dica-icones" style="width:100%">Toque no texto ou na margem para colocar · arraste para mover · apague com a borracha</p>'; }
+  else if (f === "figura") {
+    resumo = `<span style="font-size:18px">🖼️</span>${caneta.figuraPendente ? "Toque na página" : "Imagem"}`;
+    opcoes = `<div class="acoes-figura">
+        <button class="botao primario" id="fig-escolher">📁 Escolher imagem</button>
+        ${caneta.figuraSel ? '<div class="segmentado"><button id="fig-menor">− Menor</button><button id="fig-maior">+ Maior</button></div><button class="botao" id="fig-excluir" style="color:var(--alt)">Excluir imagem</button>' : ""}
+      </div>
+      <p class="dica-icones" style="width:100%">${caneta.figuraPendente ? "Imagem escolhida: toque na página onde quer colocá-la." : "Escolha uma imagem e toque na página para colocar. Toque numa imagem para selecionar e arrastar."}</p>`;
+  }
   else { resumo = `<span class="ind-borracha" style="font-size:16px">${caneta.modoBorracha === "traco" ? "⌫" : "◯"}</span>${caneta.modoBorracha === "traco" ? "Traço inteiro" : "Livre"} · ${TAMANHOS_BORRACHA.find(x => x[0] === caneta.raio)?.[1] || ""}`;
     opcoes = `<div class="segmentado"><button data-modo-borracha="parcial" aria-pressed="${caneta.modoBorracha === "parcial"}">Livre (só onde passar)</button>
       <button data-modo-borracha="traco" aria-pressed="${caneta.modoBorracha === "traco"}">Traço inteiro</button></div>` + seg(TAMANHOS_BORRACHA, caneta.raio, "data-raio") +
       '<p class="dica-icones" style="width:100%">A borracha apaga desenhos, marca-texto, ícones e também grifos feitos no texto.</p>'; }
   const painel = `<div class="painel-opcoes ${caneta.opcoesAbertas ? "" : "oculto"}">${opcoes}</div>`;
   const barra = `<div class="barra-fina">
-      ${[["caneta", "✏️", "Caneta"], ["marca", "🖍️", "Marca-texto"], ["icone", "⭐", "Ícones"], ["borracha", "⌫", "Borracha"]].map(([v, i, n]) =>
+      ${[["caneta", "✏️", "Caneta"], ["marca", "🖍️", "Marca-texto"], ["icone", "⭐", "Ícones"], ...(ehResumoAberto() ? [["figura", "🖼️", "Imagem"]] : []), ["borracha", "⌫", "Borracha"]].map(([v, i, n]) =>
         `<button class="bf" data-ferramenta="${v}" aria-pressed="${f === v}" aria-label="${n}" title="${n}">${i}${v === "caneta" || v === "marca" ? `<span class="bf-cor" style="background:${v === "marca" ? translucida(caneta.cor, 0.6) : caneta.cor}"></span>` : ""}</button>`).join("")}
       <span class="sep"></span>
       <button class="bf bf-opcoes" id="cn-opcoes" aria-expanded="${!!caneta.opcoesAbertas}" title="Cor, espessura e opções"><span class="bf-resumo">${resumo}</span><span class="bf-seta">${caneta.opcoesAbertas ? "▴" : "▾"}</span></button>
@@ -3368,6 +3410,8 @@ function montarBarraCaneta() {
   $("#cn-desfazer").onclick = desfazerTinta;
   $("#cn-refazer").onclick = refazerTinta;
   $("#cn-fechar").onclick = () => alternarCaneta(false);
+  if ($("#fig-escolher", b)) $("#fig-escolher", b).onclick = () => escolherFiguraPendente();
+  if ($("#fig-menor", b)) { $("#fig-menor", b).onclick = () => mudarFiguraSelecionada("menor"); $("#fig-maior", b).onclick = () => mudarFiguraSelecionada("maior"); $("#fig-excluir", b).onclick = () => mudarFiguraSelecionada("excluir"); }
   atualizarBotoesHist();
 }
 function alternarCaneta(ligar = !caneta.ativa) {
@@ -3708,7 +3752,11 @@ async function gerarMiniatura(r) {
       const c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
       const ctx = c.getContext("2d"); ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, c.width, c.height);
       await pg.render({ canvasContext: ctx, viewport: vp }).promise;
-      if (tinta) desenharTintaNoCanvas(ctx, tinta, c.width / LARGURA_PDF);      // os seus traços e ícones aparecem na miniatura
+      if (tinta) {
+        const k = c.width / LARGURA_PDF;
+        for (const fg of tinta.figuras || []) { const reg = await bdLer("imagens", fg.img); if (reg) { const bmp = await createImageBitmap(reg.blob); ctx.drawImage(bmp, fg.x * k, fg.y * k, fg.w * k, fg.h * k); } }
+        desenharTintaNoCanvas(ctx, tinta, k);      // os seus traços e ícones aparecem na miniatura
+      }
       const img = await new Promise(ok => c.toBlob(ok, "image/jpeg", 0.72));
       c.width = 0; await doc.destroy();
       m = { id: r.id, tipo: "img", blob: img };
@@ -3727,7 +3775,10 @@ async function gerarMiniatura(r) {
       const secao = tmp.querySelector("section");
       const largura = secao ? secao.offsetWidth : 794;
       if (secao) {
-        if (tinta) { secao.style.position = "relative"; desenharTracos(secao, tinta); }
+        if (tinta) {
+          secao.style.position = "relative"; desenharTracos(secao, tinta);
+          for (const im of $$("image[data-figura]", secao)) { const fg = tinta.figuras.find(f => f.id === im.dataset.figura); const reg = fg && await bdLer("imagens", fg.img); if (reg) im.setAttribute("href", await blobParaDataUrl(reg.blob)); }
+        }
         const artigo = secao.querySelector("article") || secao;
         let alt = 0;                                            // só o começo da primeira página
         for (const filho of [...artigo.children]) { if (filho.tagName === "svg") continue; if (alt > largura * 1.45) filho.remove(); else alt += filho.offsetHeight; }
@@ -4384,6 +4435,8 @@ async function telaResumoOriginal(r) {
       <span class="sep"></span>
       ${CORES_MARCA_RES.slice(0, 4).map(([c, n]) => `<button data-marca-docx="${c}" title="Marca-texto ${n}"><span class="bolinha" style="background:${c}"></span></button>`).join("")}
       <span class="sep"></span>
+      <button id="docx-imagem" title="Inserir imagem">🖼️</button>
+      <span class="sep"></span>
       <button data-cmd="undo">↶</button><button data-cmd="redo">↷</button>
       <button id="docx-concluir" class="botao primario" style="min-width:90px">Concluir</button>
       <span class="status-salvo" id="status-salvo" style="margin-left:auto"></span>
@@ -4517,6 +4570,7 @@ function editarDocx(r) {
   $("#res-editar-docx").classList.add("oculto");
   let tempo = null;
   const salvar = async () => {
+    await internalizarImagensDocx(cont);
     const clone = cont.cloneNode(true);
     $$("[contenteditable]", clone).forEach(s => s.removeAttribute("contenteditable"));
     $$("svg.tinta, .aviso-tinta", clone).forEach(e => e.remove());
@@ -4529,10 +4583,33 @@ function editarDocx(r) {
   window.salvarResumoPendente = async () => { clearTimeout(tempo); await salvar(); };
   cont.addEventListener("input", agendar);
   cont.addEventListener("input", ajustarCaixaZoom);
+  let selDocx = null;
+  document.addEventListener("selectionchange", () => { const s = getSelection(); if (s.rangeCount && cont.contains(s.anchorNode)) selDocx = s.getRangeAt(0).cloneRange(); });
+  const voltarSelecao = () => { if (selDocx) { const s = getSelection(); s.removeAllRanges(); s.addRange(selDocx); } };
+  cont.onpaste = async e => {
+    const imgs = [...(e.clipboardData?.files || [])].filter(f => f.type.startsWith("image/"));
+    if (!imgs.length) { setTimeout(async () => { await internalizarImagensDocx(cont); agendar(); }, 50); return; }
+    e.preventDefault(); await inserirImagensDocx(imgs); agendar();
+  };
+  cont.ondragover = e => { if ([...(e.dataTransfer?.items || [])].some(i => i.kind === "file")) e.preventDefault(); };
+  cont.ondrop = async e => {
+    const imgs = [...(e.dataTransfer?.files || [])].filter(f => f.type.startsWith("image/")); if (!imgs.length) return;
+    e.preventDefault();
+    const pos = document.caretRangeFromPoint && document.caretRangeFromPoint(e.clientX, e.clientY);
+    if (pos) { const s = getSelection(); s.removeAllRanges(); s.addRange(pos); }
+    await inserirImagensDocx(imgs); agendar();
+  };
+  cont.onclick = e => ferramentasImagemDocx(barra.classList.contains("oculto") ? null : (e.target.tagName === "IMG" ? e.target : null));
+  $("#docx-imagem").onclick = () => {
+    const inp = document.createElement("input"); inp.type = "file"; inp.accept = "image/*"; inp.multiple = true;
+    inp.onchange = async () => { voltarSelecao(); await inserirImagensDocx([...inp.files]); agendar(); };
+    inp.click();
+  };
   barra.onpointerdown = e => { if (e.target.closest("button")) e.preventDefault(); };
   barra.onclick = e => {
     const b = e.target.closest("button"); if (!b) return;
-    if (b.id === "docx-concluir") { salvar(); barra.classList.add("oculto"); $$("section.docx", cont).forEach(s => s.removeAttribute("contenteditable")); $("#res-editar-docx").classList.remove("oculto"); cont.removeEventListener("input", agendar); return; }
+    if (b.id === "docx-imagem") return;
+    if (b.id === "docx-concluir") { ferramentasImagemDocx(null); salvar(); barra.classList.add("oculto"); $$("section.docx", cont).forEach(s => s.removeAttribute("contenteditable")); $("#res-editar-docx").classList.remove("oculto"); cont.removeEventListener("input", agendar); return; }
     document.execCommand("styleWithCSS", false, true);
     if (b.dataset.cmd) document.execCommand(b.dataset.cmd);
     else if (b.dataset.corDocx) document.execCommand("foreColor", false, b.dataset.corDocx);
@@ -4657,6 +4734,10 @@ async function importarOriginal(arq, ext, materia, aoProgresso) {
 /* =====================================================================
    BAIXAR: original, PDF com as suas marcações, Word com as suas edições
    ===================================================================== */
+async function createImageBitmapParaPng(blob) {
+  const bmp = await createImageBitmap(blob); const c = document.createElement("canvas"); c.width = bmp.width; c.height = bmp.height;
+  c.getContext("2d").drawImage(bmp, 0, 0); return new Promise(ok => c.toBlob(ok, "image/png"));
+}
 async function entregarArquivo(blob, nome) {
   const arq = new File([blob], nome, { type: blob.type });
   try { if (navigator.canShare && navigator.canShare({ files: [arq] })) { await navigator.share({ files: [arq], title: nome }); return; } }
@@ -4696,6 +4777,12 @@ async function exportarPdfComMarcacoes(r, aviso) {
         borderOpacity: marca ? (tr.cor === "#1F2A36" ? 0.22 : 0.35) : 1,
         borderLineCap: marca ? LineCapStyle.Butt : LineCapStyle.Round,
       });
+    }
+    for (const fg of t.figuras || []) {           // imagens que você colocou por cima da página
+      const reg = await bdLer("imagens", fg.img); if (!reg) continue;
+      const bytes = await reg.blob.arrayBuffer();
+      const emb = /png/.test(reg.blob.type) ? await pdf.embedPng(bytes) : await pdf.embedJpg(bytes).catch(async () => pdf.embedPng(await (await createImageBitmapParaPng(reg.blob)).arrayBuffer()));
+      pag.drawImage(emb, { x: fg.x * k, y: height - (fg.y + fg.h) * k, width: fg.w * k, height: fg.h * k });
     }
     for (const c of t.carimbos || []) {           // ícone vira uma pequena imagem (o PDF não tem emojis coloridos)
       if (!cacheIcone.has(c.icone)) {
@@ -4741,7 +4828,10 @@ async function exportarWordEditado(r) {
         return v ? `${k}:${v}` : "";
       }).filter(Boolean).join(";");
     });
-    els.forEach((el, k) => { el.setAttribute("style", estilos[k]); el.removeAttribute("class"); });
+    els.forEach((el, k) => {
+      if (el.tagName === "IMG") { const w = Math.round(el.getBoundingClientRect().width); el.setAttribute("width", w); el.removeAttribute("height"); estilos[k] = `width:${w}px;height:auto`; }
+      el.setAttribute("style", estilos[k]); el.removeAttribute("class");
+    });
     $$("style", tmp).forEach(e => e.remove());
     $$("section", tmp).forEach(sec => { sec.removeAttribute("class"); sec.removeAttribute("style"); });
     const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
@@ -4897,6 +4987,118 @@ document.addEventListener("touchend", e => {
 });
 // Safari (iPad): impede o zoom da página inteira nas telas que têm zoom próprio
 for (const ev of ["gesturestart", "gesturechange", "gestureend"]) document.addEventListener(ev, e => { if ($("#zoom-caixa")) e.preventDefault(); }, { passive: false });
+
+/* =====================================================================
+   IMAGENS NOS RESUMOS
+   - Em qualquer resumo (PDF ou Word): ferramenta 🖼️ na barra da caneta
+     coloca uma imagem por cima da página (como um adesivo).
+   - No Word em edição: colar, arrastar ou 🖼️ insere a imagem no texto.
+   As imagens são comprimidas e guardadas junto com o resumo, entram no
+   backup e saem nos arquivos baixados.
+   ===================================================================== */
+const urlsFiguras = new Map();
+async function urlDaFigura(id) {
+  if (!urlsFiguras.has(id)) { const r = await bdLer("imagens", id); if (r) urlsFiguras.set(id, URL.createObjectURL(r.blob)); }
+  return urlsFiguras.get(id) || "";
+}
+function elFigura(f) {
+  const el = document.createElementNS(NS_SVG, "image");
+  el.setAttribute("x", f.x); el.setAttribute("y", f.y); el.setAttribute("width", f.w); el.setAttribute("height", f.h);
+  el.setAttribute("preserveAspectRatio", "none");
+  el.setAttribute("class", "figura" + (caneta.figuraSel && caneta.figuraSel.id === f.id ? " figura-sel" : ""));
+  el.dataset.figura = f.id;
+  const pronto = urlsFiguras.get(f.img);
+  if (pronto) el.setAttribute("href", pronto);
+  else urlDaFigura(f.img).then(u => { if (u) el.setAttribute("href", u); });
+  return el;
+}
+function acharFigura(item, x, y) {
+  return [...(item.figuras || [])].reverse().find(f => x >= f.x && x <= f.x + f.w && y >= f.y && y <= f.y + f.h);
+}
+const blobParaDataUrl = blob => new Promise(ok => { const fr = new FileReader(); fr.onload = () => ok(fr.result); fr.readAsDataURL(blob); });
+async function escolherFiguraPendente() {
+  const inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "image/*";
+  inp.onchange = async () => {
+    const f = inp.files[0]; if (!f) return;
+    const comp = f.type === "image/gif" ? f : await comprimirImagem(f);
+    const id = uid();
+    await bdGravar("imagens", { id, blob: comp, tipoMime: comp.type, atualizadoEm: agoraISO(), dono: "resumo" });
+    const bmp = await createImageBitmap(comp);
+    caneta.figuraPendente = { img: id, proporcao: bmp.height / bmp.width };
+    bmp.close && bmp.close();
+    caneta.opcoesAbertas = false; montarBarraCaneta();
+  };
+  inp.click();
+}
+function colocarFigura(div, p) {
+  const pend = caneta.figuraPendente;
+  const item = itemTintaAtual(div);
+  item.figuras = item.figuras || [];
+  const antes = fotografar(item);
+  const w = Math.round(Math.min(div.offsetWidth * 0.45, 360)), h = Math.round(w * pend.proporcao);
+  const f = { id: uid().slice(0, 8), img: pend.img, x: Math.round(p[0] - w / 2), y: Math.round(p[1] - h / 2), w, h };
+  item.figuras.push(f);
+  caneta.figuraPendente = null;
+  caneta.figuraSel = { art: div.dataset.art, id: f.id };
+  desenharTracos(div, item);
+  salvarItem(item).then(() => registrarAcao(item, antes));
+  montarBarraCaneta();
+  return f;
+}
+async function mudarFiguraSelecionada(acao) {
+  const sel = caneta.figuraSel; if (!sel) return;
+  const div = document.getElementById("art-" + sel.art); if (!div) return;
+  const item = tintaVisivel(leiAberta, sel.art); if (!item) return;
+  const f = (item.figuras || []).find(x => x.id === sel.id); if (!f) return;
+  const antes = fotografar(item);
+  if (acao === "excluir") { item.figuras = item.figuras.filter(x => x !== f); caneta.figuraSel = null; }
+  else {
+    const k = acao === "maior" ? 1.25 : 0.8;
+    const cx = f.x + f.w / 2, cy = f.y + f.h / 2;
+    f.w = Math.round(Math.max(40, Math.min(1400, f.w * k))); f.h = Math.round(f.w * (f.h / (f.w / k)));
+    f.x = Math.round(cx - f.w / 2); f.y = Math.round(cy - f.h / 2);
+  }
+  desenharTracos(div, item);
+  await salvarItem(item); registrarAcao(item, antes);
+  montarBarraCaneta();
+}
+
+/* ---------- Word em edição: imagens dentro do texto (ficam guardadas no próprio resumo) ---------- */
+async function imagemParaDataUrl(arq) {
+  const comp = arq.type === "image/gif" ? arq : await comprimirImagem(arq);
+  return blobParaDataUrl(comp);
+}
+async function inserirImagensDocx(arquivos) {
+  for (const a of arquivos) {
+    if (!a.type.startsWith("image/")) continue;
+    const url = await imagemParaDataUrl(a);
+    document.execCommand("insertHTML", false, `<img src="${url}" style="max-width:100%;width:60%" alt="">`);
+  }
+}
+async function internalizarImagensDocx(raiz) {        // imagem colada pelo sistema com endereço temporário vira imagem guardada
+  for (const img of $$("img", raiz)) {
+    const src = img.getAttribute("src") || "";
+    if (src.startsWith("data:")) continue;
+    try { const r = await fetch(src); if (!r.ok) throw 0; img.setAttribute("src", await imagemParaDataUrl(await r.blob())); }
+    catch { /* não dá para recuperar: mantém como está */ }
+  }
+}
+function ferramentasImagemDocx(img) {
+  let b = $("#ferr-img-docx");
+  if (!img) { b?.remove(); return; }
+  if (!b) {
+    b = document.createElement("div"); b.id = "ferr-img-docx"; b.className = "ferramentas-imagem";
+    b.innerHTML = `<span class="contagem">Imagem:</span>${[25, 50, 75, 100].map(p => `<button data-larg-docx="${p}">${p}%</button>`).join("")}<button data-apagar-img-docx style="color:var(--alt)">Excluir</button>`;
+    ($("#camada-fixa") || document.body).appendChild(b);
+  }
+  b.onclick = e => {
+    const bt = e.target.closest("button"); if (!bt) return;
+    if (bt.dataset.largDocx) { img.style.width = bt.dataset.largDocx + "%"; img.style.maxWidth = "100%"; img.style.height = "auto"; }
+    if (bt.dataset.apagarImgDocx !== undefined) { img.remove(); b.remove(); }
+    $("#texto-lei").dispatchEvent(new Event("input"));
+  };
+}
 
 /* =====================================================================
    CLIQUES GERAIS E NAVEGAÇÃO
