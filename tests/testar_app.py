@@ -9,6 +9,8 @@ Para rodar no computador:  pip install playwright && python -m playwright instal
 """
 import asyncio, http.server, json, os, sys, threading, functools, datetime
 from playwright.async_api import async_playwright
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import github_falso
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX = os.path.join(RAIZ, "tests", "fixtures")
@@ -39,7 +41,7 @@ async def novo_aparelho(b, largura=1180, altura=820, leis=("lep", "codigo-penal"
     await pg.goto(U + "#/acervo")
     hoje = datetime.date.today().isoformat()
     info = {l: {"hash": "x", "versao": "2026-01-01"} for l in leis}
-    await pg.evaluate(f"localStorage.setItem('info-leis', {json.dumps(json.dumps(info))}); localStorage.setItem('lembrete-backup-dia', JSON.stringify('{hoje}'))")
+    await pg.evaluate(f"localStorage.setItem('info-leis', {json.dumps(json.dumps(info))}); localStorage.setItem('lembrete-backup-dia', JSON.stringify('{hoje}')); localStorage.setItem('boas-vindas-vista', 'true')")
     await pg.reload(); await pg.wait_for_timeout(3000)
     return ctx, pg
 
@@ -162,6 +164,33 @@ async def testes(b):
         k = seq.index("250") if "250" in seq else -1
         confere("Constituição: ADCT vem depois do Art. 250", k >= 0 and seq[k + 1] == "1#2", seq[k + 1:k + 3] if k >= 0 else "sem art. 250")
         await ctx3.close()
+
+    # 11) Boas-vindas na primeira abertura
+    ctx4 = await b.new_context(viewport={"width": 1180, "height": 820}); pg4 = await ctx4.new_page()
+    await pg4.goto(U + "#/acervo"); await pg4.wait_for_timeout(2500)
+    confere("Boas-vindas na primeira vez", "Bem-vindo" in (await pg4.inner_text("#painel-caixa") if await pg4.is_visible("#painel") else ""))
+    await ctx4.close()
+
+    # 12) Sincronização entre dois aparelhos (GitHub de mentira, com senha)
+    github_falso.iniciar(PORTA + 1)
+    async def conectar(pg_, senha):
+        await pg_.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}'))")
+        await pg_.evaluate("fecharPainel()"); await pg_.goto(U + "#/acervo"); await pg_.wait_for_timeout(500)
+        await pg_.goto(U + "#/ajustes"); await pg_.wait_for_timeout(1000)
+        await pg_.click("#sync-github"); await pg_.fill("#gh-repo", "Eu/dados"); await pg_.fill("#gh-token", github_falso.TOKEN); await pg_.fill("#gh-senha", senha)
+        await pg_.click("#gh-conectar"); await pg_.wait_for_timeout(6000)
+    await conectar(pg, "senha-teste")
+    embaralhado = all(v[:4] == b"LLC1" for k, v in github_falso.ARQUIVOS.items() if k != "cripto.json")
+    confere("Sincronização envia tudo protegido pela senha", len(github_falso.ARQUIVOS) >= 4 and embaralhado, f"{len(github_falso.ARQUIVOS)} arquivos na nuvem")
+    ctx5, pg5 = await novo_aparelho(b, 820, 1180, leis=())
+    await conectar(pg5, "senha-teste")
+    iguais = await pg5.evaluate("[...estado.itens.values()].filter(i=>!i.apagado).length") == await pg.evaluate("[...estado.itens.values()].filter(i=>!i.apagado).length")
+    confere("Outro aparelho recebe tudo da nuvem", iguais and await pg5.evaluate("(async()=>(await bdTodos('arquivos')).length)()") == 2)
+    await pg5.evaluate("salvarItem({id:'sinc-1',tipo:'anotacao',lei:'lep',art:'1',nota:'do outro aparelho',criadoEm:agoraISO()})")
+    await pg5.evaluate("clearTimeout(sync.tempo); sincronizar('teste')"); await pg5.wait_for_timeout(3000)
+    await pg.evaluate("sincronizar('teste')"); await pg.wait_for_timeout(3000)
+    confere("Edição chega ao primeiro aparelho", await pg.evaluate("(estado.itens.get('sinc-1')||{}).nota") == "do outro aparelho")
+    await ctx5.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])

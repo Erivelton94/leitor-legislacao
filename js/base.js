@@ -25,7 +25,10 @@ const estado = {
 
 function aoParar(fn, ms = 160) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 function lerLS(chave, padrao) { try { return JSON.parse(localStorage.getItem(chave)) ?? padrao; } catch { return padrao; } }
-function gravarLS(chave, valor) { try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {} }
+function gravarLS(chave, valor) {
+  try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {}
+  if ((chave === "info-leis" || chave === "cadernos-locais") && typeof marcarMudanca === "function") marcarMudanca();
+}
 function esc(t) { return String(t ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 function semAcento(t) { return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
 function dataHora(iso) {
@@ -87,7 +90,11 @@ function bd(store, modo, fn) {
 }
 const bdTodos = store => bd(store, "readonly", s => s.getAll());
 const bdLer = (store, id) => bd(store, "readonly", s => s.get(id));
-const bdGravar = (store, obj) => bd(store, "readwrite", s => s.put(obj));
+const LOJAS_SINCRONIZADAS = new Set(["itens", "resumos", "resumos_conteudo", "arquivos", "imagens"]);
+const bdGravar = (store, obj) => {
+  if (LOJAS_SINCRONIZADAS.has(store) && typeof marcarMudanca === "function") marcarMudanca();   // a nuvem recebe depois de alguns segundos
+  return bd(store, "readwrite", s => s.put(obj));
+};
 const bdApagar = (store, id) => bd(store, "readwrite", s => s.delete(id));
 const bdLimpar = store => bd(store, "readwrite", s => s.clear());
 

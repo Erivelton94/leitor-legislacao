@@ -145,6 +145,7 @@ async function lembrarBackup() {
   const dias = ult ? Math.floor((Date.now() - Date.parse(ult)) / 864e5) : Infinity;
   const hoje = new Date().toISOString().slice(0, 10);
   if (!temDados || dias < 7 || lerLS("lembrete-backup-dia", "") === hoje) return;
+  if (cfgSync() && !estSync().erro) return;                  // com a nuvem ligada e funcionando, o backup já é automático
   gravarLS("lembrete-backup-dia", hoje);
   abrirPainel(`<h2>💾 Hora do backup ${botaoFechar}</h2>
     <p>${ult ? `Seu último backup foi há <strong>${dias} dias</strong> (${esc(dataHora(ult))}).` : "Você ainda <strong>não fez nenhum backup</strong>."}
@@ -162,7 +163,16 @@ async function iniciar() {
   await atualizarTudo();
   rotear();
   const restaurado = sessionStorage.getItem("aviso-restaurado");
-  if (!restaurado) lembrarBackup();
+  const primeiraVez = !lerLS("boas-vindas-vista", false) && ![...estado.itens.values()].length && !Object.keys(lerLS("info-leis", {})).length;
+  if (primeiraVez) mostrarBoasVindas(0);
+  else if (!restaurado) lembrarBackup();
+  // sincronização: ao abrir, a cada 5 min com o app aberto, ao voltar a internet e ao sair do app
+  atualizarIndicadorSync(estSync().erro ? "erro" : "ok");
+  $("#btn-sync").onclick = tocarIndicadorSync;
+  if (cfgSync()) setTimeout(() => sincronizar("abertura"), 2500);
+  setInterval(() => { if (cfgSync() && document.visibilityState === "visible") sincronizar("periódica"); }, 300000);
+  window.addEventListener("online", () => { if (cfgSync()) sincronizar("voltou a internet"); });
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && cfgSync() && sync.tempo) { clearTimeout(sync.tempo); sync.tempo = null; sincronizar("saindo"); } });
   if (restaurado) {
     sessionStorage.removeItem("aviso-restaurado");
     abrirPainel(`<h2>Backup importado ${botaoFechar}</h2><p>${restaurado === "exato"

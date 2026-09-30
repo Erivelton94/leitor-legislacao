@@ -335,7 +335,7 @@ function painelImportarCaderno() {
           const cache = await caches.open(CACHE_DADOS);
           await cache.put(new Request(url), new Response(JSON.stringify(cad), { headers: { "content-type": "application/json" } }));
           const locais = lerLS("cadernos-locais", []).filter(c => c.id !== id);
-          locais.push({ id, titulo, materia: r.materia, url, qtd: r.questoes.length });
+          locais.push({ id, titulo, materia: r.materia, url, qtd: r.questoes.length, atualizadoEm: agoraISO() });
           gravarLS("cadernos-locais", locais);
           await carregarQuestoes();
           res.innerHTML = `<p class="txt-ok" style="margin-top:12px">✓ "${esc(titulo)}" adicionado com ${r.questoes.length} questões. <a href="#/caderno/${esc(id)}" data-fechar>Abrir o caderno</a></p>`;

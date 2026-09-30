@@ -555,3 +555,22 @@ svg.tinta { will-change: auto; }
   font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 3px 10px; margin: 2px 0 6px 0.6em; cursor: pointer; }
 .ind-questoes::after { content: attr(data-rotulo); }
 @media (max-width: 700px) { .tabela-desemp { display: block; } .linha-desemp { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; margin-bottom: 10px; } .barra-desemp { grid-column: 1 / -1; grid-row: 2; } }
+
+/* sincronização, boas-vindas */
+#btn-sync[data-situacao="erro"], #btn-sync[data-situacao="reconectar"], #btn-sync[data-situacao="senha"] { color: var(--alt); font-weight: 700; }
+#btn-sync[data-situacao="rodando"] { opacity: .7; }
+.passos-sync { padding-left: 20px; line-height: 1.55; font-size: 14.5px; }
+.passos-sync li { margin-bottom: 8px; }
+.passos-sync code { font-size: 13px; background: var(--folha); padding: 1px 5px; border-radius: 4px; }
+.boas-vindas { text-align: center; padding: 6px 4px; }
+.bv-icone { font-size: 54px; line-height: 1.1; margin: 6px 0 4px; }
+.boas-vindas p { font-size: 16px; line-height: 1.6; color: var(--tinta); }
+.bv-pontos { display: flex; gap: 6px; justify-content: center; margin: 14px 0; }
+.bv-pontos span { width: 8px; height: 8px; border-radius: 50%; background: var(--fio); }
+.bv-pontos span.atual { background: var(--oliva); width: 22px; border-radius: 4px; }
+.bv-botoes { justify-content: center; }
+.aviso-rapido { position: fixed; left: 50%; top: calc(env(safe-area-inset-top, 0px) + 70px); transform: translate(-50%, -20px); opacity: 0; transition: all .25s;
+  background: var(--tinta); color: var(--papel); padding: 9px 16px; border-radius: 999px; font-size: 14px; z-index: 60; pointer-events: none; }
+.aviso-rapido.visivel { opacity: .95; transform: translate(-50%, 0); }
+.bv-botoes { flex-direction: row !important; justify-content: center; flex-wrap: wrap; }
+.bv-botoes button { flex: 0 0 auto; min-width: 110px; }

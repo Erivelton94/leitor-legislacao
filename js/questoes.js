@@ -36,6 +36,7 @@ async function carregarQuestoes() {
   }
   gravarLS("info-cadernos", info);
   for (const loc of lerLS("cadernos-locais", [])) {             // cadernos importados de PDF no próprio app
+    if (loc.apagado) continue;
     const g = await cache.match(loc.url);
     if (g) estado.cadernos[loc.id] = { ...(await g.json()), local: true };
   }
@@ -210,17 +211,18 @@ function menuCaderno(id) {
   abrirPainel(`<h2>${esc(c.titulo)} ${botaoFechar}</h2>
     <div class="acoes">
       <button id="c-mover">📁 Mover para pasta…</button>
-      ${c.local ? '<button id="c-excluir" style="color:var(--alt)">Excluir este caderno importado</button>' : ""}
+      ${c.local ? '<button id="c-publicar">📤 Publicar este caderno para todos (dono do app)</button><button id="c-excluir" style="color:var(--alt)">Excluir este caderno importado</button>' : ""}
       <button id="c-redefinir">Redefinir o caderno inteiro (todas voltam a ficar sem resposta)</button>
     </div>
     <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
   $("#c-mover").onclick = () => painelMover("questoes", id, c.titulo, volta);
+  if ($("#c-publicar")) $("#c-publicar").onclick = () => prepararPublicacaoCaderno(id);
   if ($("#c-excluir")) $("#c-excluir").onclick = async () => {
     if (!confirm(`Excluir o caderno "${c.titulo}"? As suas respostas ficam guardadas no histórico e voltam se você importar o mesmo PDF de novo.`)) return;
     const locais = lerLS("cadernos-locais", []);
     const loc = locais.find(x => x.id === id);
     if (loc) await (await caches.open(CACHE_DADOS)).delete(loc.url);
-    gravarLS("cadernos-locais", locais.filter(x => x.id !== id));
+    gravarLS("cadernos-locais", locais.map(x => x.id === id ? { ...x, apagado: true, atualizadoEm: agoraISO() } : x));
     delete estado.cadernos[id];
     await carregarQuestoes(); fecharPainel(); volta();
   };
@@ -598,7 +600,7 @@ async function telaAjustes() {
   const ativos = [...estado.itens.values()].filter(i => !i.apagado);
   const bytesNotas = new Blob([JSON.stringify(ativos)]).size;
   const ultimo = lerLS("ultimo-backup", null);
-  $("#conteudo").innerHTML = `
+  $("#conteudo").innerHTML = htmlSecaoSync() + `
   <div class="secao"><h2>Backup dos seus estudos</h2><div class="cartao">
     <p>Tudo fica guardado neste aparelho. O <strong>backup completo</strong> gera um único arquivo com o app inteiro como está agora: as leis do acervo com o texto, pastas, grifos, anotações, imagens, desenhos, favoritos, cadernos de questões e respostas, resumos (arquivos originais, edições e marcações) e as suas preferências.</p>
     <p class="contagem">Ao importar, você escolhe: restaurar exatamente como está no arquivo ou juntar com o que já existe no aparelho.</p>
@@ -622,8 +624,11 @@ async function telaAjustes() {
     <div class="acoes" style="margin-bottom:14px"><button id="btn-limpar">Remover leis offline deste aparelho</button></div>
     <p>Remover as leis offline não apaga suas anotações, grifos, imagens nem favoritos. As leis são baixadas de novo quando você abrir cada uma com internet.</p>
   </div></div>
-  <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>`;
+  <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>
+  <div class="secao"><h2>Ajuda</h2><div class="cartao"><div class="acoes" style="margin-bottom:12px"><button id="btn-apresentacao">Rever a apresentação do app</button></div></div></div>`;
   montarAjustesLeitura($("#ajustes-leitura"));
+  ligarSecaoSync();
+  $("#btn-apresentacao").onclick = () => mostrarBoasVindas(0);
   $("#btn-exportar").onclick = exportarBackup;
   $("#btn-importar").onclick = () => $("#entrada-backup").click();
   $("#btn-atualizar").onclick = async e => { e.target.textContent = "Buscando…"; await atualizarTudo(); telaAjustes(); };
