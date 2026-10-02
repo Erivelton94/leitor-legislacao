@@ -55,14 +55,14 @@ function telaAcervo(pastaId = null) {
     const nFav = todos.filter(id => ehFavorito(idFavLei(id))).length;
     if (nFav) h += linhaPasta({ nome: "★ Favoritas" }, nFav, "lei(s)", "#/acervo/favoritas");
   }
-  for (const id of ids) {
+  for (const id of ordenarLeis(ids, todos)) {                // fixadas, depois as alteradas por último, depois as demais
     const i = todos.indexOf(id);
     const st = estado.status[id];
     const s = situacao(id);
     h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
       <span class="aba"></span>
       <button class="abrir" data-abrir="${esc(id)}">
-        <span class="lei-nome">${esc(nomeLei(id))}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
+        <span class="lei-nome">${ehFixada(id) ? '<span class="lei-pin" title="Fixada no topo">📌</span> ' : ""}${esc(nomeLei(id))}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
         <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
         <span class="selo ${s.cls}">${esc(s.txt)}</span>
         <span class="lei-verif">${esc(s.sub)}</span>

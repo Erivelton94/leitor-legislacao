@@ -107,9 +107,20 @@ async def testes(b):
     confere("Zoom com pinça amplia e a barra fica parada", z > 1.3 and round(b0["y"]) == round(b1["y"]), f"zoom {z}")
     await pg.click("#cn-fechar"); await pg.evaluate("aplicarZoom(1)")
 
+    # 5b) Ordem das leis: alterada sobe; fixada fica em primeiro; PDF da lei
+    await pg.goto(U + "#/acervo"); await pg.wait_for_timeout(800)
+    ordem = await pg.evaluate("[...document.querySelectorAll('.lei-item')].map(e=>e.querySelector('[data-abrir]').dataset.abrir)")
+    await pg.evaluate("alternarFixada('codigo-penal')"); await pg.evaluate("rotear()"); await pg.wait_for_timeout(600)
+    ordem2 = await pg.evaluate("[...document.querySelectorAll('.lei-item')].map(e=>e.querySelector('[data-abrir]').dataset.abrir)")
+    confere("Lei alterada sobe e lei fixada fica em primeiro", ordem[0] == "lep" and ordem2[0] == "codigo-penal", f"{ordem} → {ordem2}")
+    await pg.evaluate("alternarFixada('codigo-penal')")
+    tam = await pg.evaluate("(async()=>{ const a=prepararLei(await leiDoCache('lep')).arts; const b=await gerarPdfLei('lep', 0, 9, {grifos:true}); return b.size; })()")
+    confere("Gerar PDF de um trecho da lei", tam > 3000, f"{tam} bytes")
+
     # 6) Revisão rápida e ouvir
     await pg.goto(U + "#/revisao/lep"); await pg.wait_for_timeout(1500)
     confere("Revisão rápida mostra só o que foi marcado", await pg.evaluate("[...document.querySelectorAll('#texto-lei .artigo')].map(d=>d.dataset.art).join()") == "112")
+    confere("Revisão rápida na largura normal da leitura", await pg.evaluate("document.getElementById('texto-lei').getBoundingClientRect().width") > 500)
     await pg.goto(U + "#/lei/lep/112"); await pg.wait_for_timeout(1500)
     fala = await pg.evaluate("textoParaFala(document.getElementById('art-112'))[0]")
     confere("Texto para ouvir a lei é preparado", fala.startswith("Artigo 112"), fala[:40])

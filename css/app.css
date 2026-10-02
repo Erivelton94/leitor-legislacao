@@ -662,3 +662,8 @@ svg.tinta { will-change: auto; }
 .pasta-lixo summary::-webkit-details-marker { display: none; }
 .dentro-pasta { margin: 10px 0 0 6px; }
 .dentro-pasta .item-lixo { background: var(--papel); }
+
+/* revisão rápida: o texto ocupa a largura normal da leitura (sem a coluna do sumário) */
+.leitor-wrap.revisao { grid-template-columns: minmax(0, 1fr) !important; max-width: none; }
+.leitor-wrap.revisao .texto-lei { margin-left: auto; margin-right: auto; }
+.lei-pin { font-size: 0.85em; }
