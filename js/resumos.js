@@ -1295,9 +1295,14 @@ async function createImageBitmapParaPng(blob) {
   const bmp = await createImageBitmap(blob); const c = document.createElement("canvas"); c.width = bmp.width; c.height = bmp.height;
   c.getContext("2d").drawImage(bmp, 0, 0); return new Promise(ok => c.toBlob(ok, "image/png"));
 }
+/* No iPad/iPhone, salvar um arquivo é pelo "Compartilhar → Salvar em Arquivos".
+   No computador e no Android, o arquivo é baixado direto (vai para a pasta Downloads). */
+function ehAparelhoApple() {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+}
 async function entregarArquivo(blob, nome) {
   const arq = new File([blob], nome, { type: blob.type });
-  try { if (navigator.canShare && navigator.canShare({ files: [arq] })) { await navigator.share({ files: [arq], title: nome }); return; } }
+  try { if (ehAparelhoApple() && navigator.canShare && navigator.canShare({ files: [arq] })) { await navigator.share({ files: [arq], title: nome }); return; } }
   catch (e) { if (e.name === "AbortError") return; }
   const a = document.createElement("a");
   a.href = URL.createObjectURL(arq); a.download = nome;

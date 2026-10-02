@@ -19,7 +19,8 @@ async function painelBaixarLeiPdf(id) {
       <div class="linha-ajuste"><span>Até o artigo</span><select class="campo" id="pdf-ate">${opcoes}</select></div>
     </div>
     <label class="linha-ajuste"><span>Incluir os meus grifos (com as cores)</span><input type="checkbox" id="pdf-grifos" checked style="width:22px;height:22px"></label>
-    <label class="linha-ajuste" style="border:0"><span>Incluir as minhas anotações</span><input type="checkbox" id="pdf-notas" style="width:22px;height:22px"></label>
+    <label class="linha-ajuste"><span>Incluir caneta, marca-texto e ícones</span><input type="checkbox" id="pdf-desenhos" checked style="width:22px;height:22px"></label>
+    <label class="linha-ajuste" style="border:0"><span>Incluir as minhas anotações (com as imagens)</span><input type="checkbox" id="pdf-notas" checked style="width:22px;height:22px"></label>
     <div class="acoes" style="margin-top:8px"><button class="botao primario" id="pdf-gerar">Gerar PDF</button></div>
     <p class="contagem" id="pdf-msg"></p>`);
   $("#pdf-ate").value = String(arts.length - 1);
@@ -33,7 +34,7 @@ async function painelBaixarLeiPdf(id) {
     if (de > ate) [de, ate] = [ate, de];
     const b = $("#pdf-gerar"); b.disabled = true; b.textContent = "Gerando…";
     try {
-      const blob = await gerarPdfLei(id, de, ate, { grifos: $("#pdf-grifos").checked, notas: $("#pdf-notas").checked }, t => { $("#pdf-msg").textContent = t; });
+      const blob = await gerarPdfLei(id, de, ate, { grifos: $("#pdf-grifos").checked, notas: $("#pdf-notas").checked, desenhos: $("#pdf-desenhos").checked }, t => { $("#pdf-msg").textContent = t; });
       const sufixo = de === 0 && ate === arts.length - 1 ? "" : ` (${rotuloArt(arts[de].id, id)} a ${rotuloArt(arts[ate].id, id)})`;
       await entregarArquivo(blob, `${nomeLei(id)}${sufixo}.pdf`.replace(/[\\/:*?"<>|]/g, "-"));
       $("#pdf-msg").textContent = `✓ PDF gerado: ${ate - de + 1} artigo(s).`;
@@ -42,7 +43,7 @@ async function painelBaixarLeiPdf(id) {
   };
 }
 
-async function gerarPdfLei(id, de, ate, { grifos = true, notas = false } = {}, aviso) {
+async function gerarPdfLei(id, de, ate, { grifos = true, notas = true, desenhos = true } = {}, aviso) {
   await carregarScript("libs/pdf-lib.min.js");
   const { PDFDocument, StandardFonts, rgb } = window.PDFLib;
   const lei = await leiDoCache(id);
@@ -65,7 +66,7 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = false } = {}, a
   const cabe = h => { if (y - h < M.base) novaPagina(); };
   /* escreve um parágrafo com quebra de linha, justificado ou centralizado, com destaques (grifos) */
   const escrever = (textoBruto, op = {}) => {
-    const { fonte = F.texto, tam = 11.5, recuo = 0, alinhar = "justificar", cor = [0.1, 0.12, 0.15], destaques = [], negritoAte = 0, antes = 0, depois = 5, entrelinha = 1.42 } = op;
+    const { fonte = F.texto, tam = 11.5, recuo = 0, alinhar = "justificar", cor = [0.1, 0.12, 0.15], destaques = [], negritoAte = 0, antes = 0, depois = 5, entrelinha = 1.42, mapa = null, desloc = 0 } = op;
     const texto = limpar(textoBruto);
     if (!texto.trim()) return;
     const palavras = [...texto.matchAll(/\S+/g)].map(m => {
@@ -98,6 +99,7 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = false } = {}, a
           pag.drawRectangle({ x: x - 0.5, y: base - tam * 0.22, width: p.w + (continua ? gap : 0) + 1, height: tam * 1.18, color: rgb(...d[2]) });
         }
         pag.drawText(p.s, { x, y: base, size: tam, font: p.f, color: rgb(...cor) });
+        if (mapa) mapa.push({ o: desloc + p.ini, s: p.s, x, base, tam, f: p.f, pag });
         x += p.w + gap;
       });
       y -= alt;
@@ -143,12 +145,15 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = false } = {}, a
       else escrever(l.t, { fonte: F.titulo, tam: 9.5, alinhar: "esquerda", antes: 6, depois: 3, cor: [0.3, 0.33, 0.36] });
     }
     const gs = grifosDoArt(a.id);
+    const mapa = [];
+    let desloc = 0;                                            // posição do texto da linha dentro do artigo (como na tela)
     a.linhas.forEach((l, i) => {
       const t = limpar(l.t);
       const dest = destaquesDaLinha(t, gs);
+      const inicio = desloc; desloc += l.t.length;
       if (i === 0) {
         const m = t.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)/);
-        escrever(t, { negritoAte: m ? m[1].length : 0, destaques: dest, antes: 7, depois: 4 });
+        escrever(t, { negritoAte: m ? m[1].length : 0, destaques: dest, antes: 7, depois: 4, mapa, desloc: inicio });
         return;
       }
       const estilo = {
@@ -156,13 +161,68 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = false } = {}, a
         rubrica: { fonte: F.titulo, tam: 9.5, alinhar: "esquerda", antes: 4, cor: [0.3, 0.33, 0.36] }, estrutura: { fonte: F.titulo, tam: 9.5, alinhar: "esquerda", antes: 4 },
         notalinha: { fonte: F.italico, tam: 9, alinhar: "esquerda", cor: [0.4, 0.42, 0.45] },
       }[l.tipo] || {};
-      escrever(t, { ...estilo, destaques: dest });
+      escrever(t, { ...estilo, destaques: dest, mapa, desloc: inicio });
     });
-    if (notas) for (const n of itens("anotacao", n => n.lei === id && n.art === a.id && n.nota)) {
+    if (desenhos) await desenharTintaNoPdf(a.id, mapa);
+    if (notas) for (const n of itens("anotacao", n => n.lei === id && n.art === a.id && (n.nota || (n.imagens || []).length))) {
       cabe(30);
-      const topo = y;
-      escrever("Anotação: " + n.nota, { fonte: F.italico, tam: 10, recuo: 22, alinhar: "esquerda", cor: [0.2, 0.3, 0.45], antes: 2, depois: 6, negritoAte: 0 });
-      pag.drawRectangle({ x: M.esq + 12, y: y + 6, width: 2, height: Math.max(8, topo - y - 8), color: rgb(0.45, 0.55, 0.75) });
+      const paginaInicio = pag, topo = y;
+      if (n.nota) escrever("Anotação: " + n.nota, { fonte: F.italico, tam: 10, recuo: 22, alinhar: "esquerda", cor: [0.2, 0.3, 0.45], antes: 2, depois: 6 });
+      for (const idImg of n.imagens || []) {                     // imagens da anotação
+        const reg = await bdLer("imagens", idImg); if (!reg) continue;
+        try {
+          const bytes = await reg.blob.arrayBuffer();
+          const img = /png/.test(reg.blob.type) ? await pdf.embedPng(bytes) : await pdf.embedJpg(bytes).catch(async () => pdf.embedPng(await (await createImageBitmapParaPng(reg.blob)).arrayBuffer()));
+          const larg = Math.min(LARG - 30, 260), alt = larg * img.height / img.width;
+          cabe(alt + 8);
+          pag.drawImage(img, { x: M.esq + 22, y: y - alt, width: larg, height: alt });
+          y -= alt + 8;
+        } catch { /* imagem ilegível: segue sem ela */ }
+      }
+      if (pag === paginaInicio) pag.drawRectangle({ x: M.esq + 12, y: y + 6, width: 2, height: Math.max(8, topo - y - 8), color: rgb(0.45, 0.55, 0.75) });
+    }
+  }
+  async function desenharTintaNoPdf(art, mapa) {
+    if (!mapa.length) return;
+    const tintas = itens("tinta", t => t.lei === id && t.art === art && temConteudo(t));
+    if (!tintas.length) return;
+    const ondeEsta = o => {                                     // posição, no PDF, da letra de número "o" do artigo
+      let r = mapa.find(w => o >= w.o && o < w.o + w.s.length);
+      if (!r) r = mapa.find(w => w.o >= o) || mapa[mapa.length - 1];
+      const dentro = Math.max(0, Math.min(o - r.o, r.s.length));
+      return { pag: r.pag, x: r.x + r.f.widthOfTextAtSize(r.s.slice(0, dentro), r.tam), topo: r.base + r.tam * 0.9, tam: r.tam };
+    };
+    const ALT = A4[1];
+    const cacheIcone = new Map();
+    for (const t of tintas) {
+      const fonteTela = t.fonte || 19;
+      const posicionar = (anc, xs, ys) => {
+        const a2 = anc || { o: 0, x: 0, y: 4 };                // desenho antigo, sem âncora: usa o começo do artigo
+        const p = ondeEsta(a2.o), k = p.tam / fonteTela;
+        return { pag: p.pag, k, X: v => p.x + (v - a2.x) * k, Y: v => (ALT - p.topo) + (v - a2.y) * k };
+      };
+      for (const tr of t.tracos || []) {
+        if (!tr.pts || tr.pts.length < 4) continue;
+        const pos = posicionar(tr.anc);
+        const pts = tr.pts.map((v, i) => +(i % 2 ? pos.Y(v) : pos.X(v)).toFixed(2));
+        const [cr, cg, cb] = hexParaRgb(tr.cor);
+        const marca = ehMarca(tr);
+        pos.pag.drawSvgPath(caminhoD(pts), {
+          x: 0, y: ALT, borderColor: rgb(cr, cg, cb), borderWidth: larguraTraco(tr) * pos.k,
+          borderOpacity: marca ? (tr.cor === "#1F2A36" ? 0.22 : 0.35) : 1, borderLineCap: marca ? 0 : 1,
+        });
+      }
+      for (const c of t.carimbos || []) {
+        if (!cacheIcone.has(c.icone)) {
+          const cv = document.createElement("canvas"); cv.width = cv.height = 128;
+          const ctx = cv.getContext("2d"); ctx.font = '100px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif';
+          ctx.textAlign = "center"; ctx.textBaseline = "middle"; ctx.fillText(c.icone, 64, 70);
+          cacheIcone.set(c.icone, await pdf.embedPng(await (await new Promise(ok => cv.toBlob(ok, "image/png"))).arrayBuffer()));
+        }
+        const pos = posicionar(c.anc);
+        const tam = c.tam * pos.k;
+        pos.pag.drawImage(cacheIcone.get(c.icone), { x: pos.X(c.x) - tam / 2, y: ALT - pos.Y(c.y) - tam / 2, width: tam, height: tam, opacity: 0.62 });
+      }
     }
   }
   // rodapé com o nome da lei e o número da página

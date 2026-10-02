@@ -527,13 +527,36 @@ function ancoraDe(div, x, y) {                          // x, y: posição do de
   const r = div.getBoundingClientRect(), z = fz();
   const caneta = document.body.classList.contains("modo-caneta");
   if (caneta) document.body.classList.remove("modo-caneta");          // com a caneta ligada o texto fica "invisível" para o toque
-  const cr = document.caretRangeFromPoint(r.left + x * z, r.top + y * z);
+  const naMesmaLinha = o => { const q = retanguloDoCaractere(div, o); return q && y >= q[1] - q[2] * 0.6 && y <= q[1] + q[2] * 1.6 ? q : null; };
+  const tentar = cx => {
+    const cr = document.caretRangeFromPoint(r.left + cx * z, r.top + y * z);
+    if (!cr || !div.contains(cr.startContainer) || cr.startContainer.nodeType !== 3) return null;
+    let o = 0;
+    for (const n of nosDeTexto(div)) { if (n === cr.startContainer) { o += cr.startOffset; break; } o += n.data.length; }
+    const q = naMesmaLinha(o);
+    return q ? { o, x: q[0], y: q[1] } : null;
+  };
+  // primeiro onde o desenho começou; se ali não há texto desta linha (ex.: ícone na margem), procura a letra mais perto na mesma linha
+  let a = tentar(x);
+  const larg = r.width / z;
+  for (let d = 12; !a && d < larg; d += 12) a = tentar(x + d) || (x - d > 0 ? tentar(x - d) : null);
   if (caneta) document.body.classList.add("modo-caneta");
-  if (!cr || !div.contains(cr.startContainer) || cr.startContainer.nodeType !== 3) return null;
-  let o = 0;
-  for (const n of nosDeTexto(div)) { if (n === cr.startContainer) { o += cr.startOffset; break; } o += n.data.length; }
-  const pos = posicaoDoCaractere(div, o);
-  return pos ? { o, x: pos[0], y: pos[1] } : null;
+  return a;
+}
+function retanguloDoCaractere(div, o) {
+  let resto = o;
+  for (const n of nosDeTexto(div)) {
+    if (resto <= n.data.length) {
+      const rg = document.createRange();
+      rg.setStart(n, Math.min(resto, n.data.length)); rg.setEnd(n, Math.min(resto + 1, n.data.length));
+      const q = rg.getClientRects()[0] || rg.getBoundingClientRect();
+      if (!q || (!q.width && !q.height)) return null;
+      const rr = div.getBoundingClientRect(), z = fz();
+      return [+((q.left - rr.left) / z).toFixed(1), +((q.top - rr.top) / z).toFixed(1), +(q.height / z).toFixed(1)];
+    }
+    resto -= n.data.length;
+  }
+  return null;
 }
 function posicaoDoCaractere(div, o) {
   let resto = o;
@@ -574,13 +597,14 @@ function elementosAdaptados(div, item) {
 const ancorasPendentes = new Set();
 function completarAncoras(div, item) {
   if (ehResumoAberto() || ancorasPendentes.has(item.id)) return;
-  const falta = (item.tracos || []).some(t => !t.anc && t.pts.length >= 2) || (item.carimbos || []).some(c => !c.anc);
+  const longe = (anc, y) => anc && Math.abs(y - anc.y) > 45;                 // âncora numa linha distante: refaz
+  const falta = (item.tracos || []).some(t => (!t.anc || longe(t.anc, t.pts[1])) && t.pts.length >= 2) || (item.carimbos || []).some(c => !c.anc || longe(c.anc, c.y));
   if (!falta) return;
   ancorasPendentes.add(item.id);
   requestAnimationFrame(async () => {
     let mudou = false;
-    item.tracos = (item.tracos || []).map(t => { if (t.anc || t.pts.length < 2) return t; const a = ancoraDe(div, t.pts[0], t.pts[1]); if (a) { mudou = true; return { ...t, anc: a }; } return t; });
-    item.carimbos = (item.carimbos || []).map(c => { if (c.anc) return c; const a = ancoraDe(div, c.x, c.y); if (a) { mudou = true; return { ...c, anc: a }; } return c; });
+    item.tracos = (item.tracos || []).map(t => { if ((t.anc && !longe(t.anc, t.pts[1])) || t.pts.length < 2) return t; const a = ancoraDe(div, t.pts[0], t.pts[1]); if (a) { mudou = true; return { ...t, anc: a }; } return t; });
+    item.carimbos = (item.carimbos || []).map(c => { if (c.anc && !longe(c.anc, c.y)) return c; const a = ancoraDe(div, c.x, c.y); if (a) { mudou = true; return { ...c, anc: a }; } return c; });
     if (mudou) await bdGravar("itens", item);          // sem mudar a data: não é uma alteração sua
     ancorasPendentes.delete(item.id);
   });

@@ -429,7 +429,7 @@ async function exportarBackup() {
     const arquivo = new File([JSON.stringify(pacote)], nome, { type: "application/json" });
     let cancelado = false;
     try {
-      if (navigator.canShare && navigator.canShare({ files: [arquivo] })) await navigator.share({ files: [arquivo], title: nome });
+      if (ehAparelhoApple() && navigator.canShare && navigator.canShare({ files: [arquivo] })) await navigator.share({ files: [arquivo], title: nome });
       else throw new Error("sem compartilhar");
     } catch (e) {
       if (e.name === "AbortError") cancelado = true;
