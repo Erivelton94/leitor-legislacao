@@ -318,19 +318,31 @@ function catalogoParaVinculo() {
 function painelImportarCaderno() {
   abrirPainel(`<h2>Importar caderno de questões ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">Escolha o PDF da lista impressa (como os cadernos do TEC). O app lê banca, ano, cargo, assunto, enunciado, alternativas e gabarito, e liga cada questão ao artigo da lei quando o assunto indica (ex.: "art. 121 do CP"). Os endereços e números do site são descartados. Dá para escolher vários PDFs.</p>
-    <div class="acoes"><button class="botao primario" id="impq-escolher">Escolher PDF</button></div>
-    <input type="file" id="impq-arq" accept="application/pdf,.pdf" multiple hidden>
+    <p class="contagem">Também aceita o arquivo de caderno exportado pelo app (.json), que é como se passa um caderno pronto para outra pessoa.</p>
+    <div class="acoes"><button class="botao primario" id="impq-escolher">Escolher arquivo</button><button class="botao" id="impq-drive">☁️ Escolher no Google Drive</button></div>
+    <input type="file" id="impq-arq" accept="application/pdf,.pdf,application/json,.json" multiple hidden>
     <div id="impq-res"></div>`);
   $("#impq-escolher").onclick = () => $("#impq-arq").click();
-  $("#impq-arq").onchange = async e => {
-    const arqs = [...e.target.files]; e.target.value = "";
+  $("#impq-drive").onclick = async () => {
+    const res = $("#impq-res");
+    try { res.innerHTML = '<p class="contagem">Abrindo o Google Drive…</p>'; const arqs = await arquivosDoDrive(["application/pdf", "application/json"]); res.innerHTML = ""; if (arqs.length) processar(arqs); }
+    catch (err) { res.innerHTML = `<p class="alerta">⚠️ ${esc(err.message)}</p>`; }
+  };
+  $("#impq-arq").onchange = e => { const arqs = [...e.target.files]; e.target.value = ""; processar(arqs); };
+  const processar = async arqs => {
     const res = $("#impq-res");
     for (const arq of arqs) {
       res.innerHTML = `<p class="contagem">Lendo ${esc(arq.name)}…</p>`;
       let r;
       try {
-        const pdfjs = await abrirPdfJs();
-        r = await questoesDePdf(pdfjs, new Uint8Array(await arq.arrayBuffer()), catalogoParaVinculo(), (a, b) => { res.innerHTML = `<p class="contagem">Lendo ${esc(arq.name)}: página ${a} de ${b}…</p>`; });
+        if (/\.json$/i.test(arq.name) || arq.type === "application/json") {          // caderno exportado pelo app
+          const j = JSON.parse(await arq.text());
+          if (!Array.isArray(j.questoes)) throw new Error("este arquivo não é um caderno do app");
+          r = { titulo: j.titulo || tituloDoArquivo(arq.name).replace(/\.caderno$/, ""), materia: j.materia || "", assuntos: j.assuntos || [...new Set(j.questoes.map(q => q.assunto).filter(Boolean))], questoes: j.questoes, semGabarito: 0 };
+        } else {
+          const pdfjs = await abrirPdfJs();
+          r = await questoesDePdf(pdfjs, new Uint8Array(await arq.arrayBuffer()), catalogoParaVinculo(), (a, b) => { res.innerHTML = `<p class="contagem">Lendo ${esc(arq.name)}: página ${a} de ${b}…</p>`; });
+        }
       } catch (err) { res.innerHTML = `<p class="alerta">Não foi possível ler ${esc(arq.name)}: ${esc(err.message)}</p>`; continue; }
       if (!r.questoes.length) { res.innerHTML = `<p class="alerta">Nenhuma questão encontrada em ${esc(arq.name)}. O PDF precisa ser uma lista impressa com "Gabarito:" em cada questão.</p>`; continue; }
       const me = r.questoes.filter(q => q.tipo === "ME").length, ce = r.questoes.length - me;

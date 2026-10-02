@@ -147,6 +147,7 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
     ${materia ? `<p class="trilha"><a href="#/resumos">Meus Resumos</a> › ${assunto ? `<a href="${esc(rotaPasta(materia))}">${esc(materia)}</a> › ${esc(assunto)}` : esc(materia)}</p>` : ""}
     <div class="acoes-linha">
       <button class="botao primario" id="importar-resumos">Importar Word ou PDF</button>
+      <button class="botao" id="selecionar-res">☑️ Selecionar</button>
       ${!materia ? '<button class="botao" id="nova-materia">+ Nova matéria</button>' : !assunto ? '<button class="botao" id="novo-assunto">+ Novo assunto</button>' : ""}
     </div>
     <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, matéria, assunto ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
@@ -192,6 +193,8 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
   window.renderListaResumos = render;
   $$("[data-filtro-res]").forEach(b => b.onclick = () => { history.replaceState(null, "", "#/resumos/" + b.dataset.filtroRes); telaResumos(b.dataset.filtroRes); });
   $("#importar-resumos").onclick = () => painelImportarResumos(materia, assunto);
+  selecaoRes.ativa = false; selecaoRes.ids.clear(); atualizarBarraSelecao();
+  $("#selecionar-res").onclick = () => alternarSelecaoResumos();
   const nm = $("#nova-materia");
   if (nm) nm.onclick = async () => {
     const nome = prompt("Nome da matéria (ex.: Direito Penal, Português):");
@@ -217,7 +220,7 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
 }
 function tileResumo(r) {
   const nome = r.origem || r.titulo || "Sem título";
-  return `<div class="tile-resumo">
+  return `<div class="tile-resumo" data-id="${esc(r.id)}">
     <button class="tile-abrir" data-href="#/resumo/${esc(r.id)}" title="${esc(r.titulo || nome)}">
       <span class="miniatura" data-mini="${esc(r.id)}"><span class="mini-carregando">${r.formato === "pdf" ? "PDF" : r.formato === "docx" ? "DOC" : "TXT"}</span></span>
       <span class="nome-arquivo">${esc(nome)}</span>
@@ -369,25 +372,7 @@ function painelMoverResumo(r, depois) {
     r.materia = m.trim(); r.assunto = a.trim(); await salvarMeta(r); fecharPainel(); depois();
   };
 }
-function menuPastaResumo(tipo, materia, nome) {
-  abrirPainel(`<h2>📁 ${esc(nome)} ${botaoFechar}</h2><div class="acoes">
-    <button id="pr-renomear">Renomear a pasta</button>
-    <button id="pr-apagar" style="color:var(--alt)">Apagar a pasta (os resumos voltam para fora dela)</button></div>`);
-  const dentro = () => resumosAtivos().filter(r => tipo === "materia" ? r.materia === nome : r.materia === materia && r.assunto === nome);
-  $("#pr-renomear").onclick = async () => {
-    const novo = prompt("Novo nome:", nome); if (!novo || !novo.trim() || novo.trim() === nome) return;
-    for (const r of dentro()) { if (tipo === "materia") r.materia = novo.trim(); else r.assunto = novo.trim(); await salvarMeta(r); }
-    for (const i of itens(tipo === "materia" ? "materia" : "assunto", i => i.nome === nome && (tipo === "materia" || i.materia === materia))) { i.nome = novo.trim(); await salvarItem(i); }
-    if (tipo === "materia") for (const i of itens("assunto", i => i.materia === nome)) { i.materia = novo.trim(); await salvarItem(i); }
-    fecharPainel(); rotear();
-  };
-  $("#pr-apagar").onclick = async () => {
-    if (!confirm(`Apagar a pasta "${nome}"? Os resumos dela não são apagados; eles voltam para ${tipo === "materia" ? "fora das pastas" : "a matéria " + materia}.`)) return;
-    for (const r of dentro()) { if (tipo === "materia") { r.materia = ""; r.assunto = ""; } else r.assunto = ""; await salvarMeta(r); }
-    for (const i of itens(tipo === "materia" ? "materia" : "assunto", i => i.nome === nome && (tipo === "materia" || i.materia === materia))) await apagarItem(i.id);
-    fecharPainel(); rotear();
-  };
-}
+/* (menu da pasta: ver js/arquivos.js) */
 
 function menuResumo(id) {
   const r = resumos.lista.get(id);
@@ -395,19 +380,16 @@ function menuResumo(id) {
     <button data-href="#/resumo/${esc(id)}">👁️ Ler</button>
     ${r.formato === "pdf" || r.formato === "docx" ? "" : `<button data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>`}
     <button id="r-duplicar">Duplicar resumo</button>
+    <button id="r-copiar">📄 Copiar para outra pasta…</button>
+    <button id="r-drive">☁️ Enviar ao Google Drive</button>
     <button id="r-materia">📁 Mover para pasta…</button>
     <button id="r-baixar">⬇️ Baixar…</button>
     <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
     <button id="r-excluir" style="color:var(--alt)">Excluir resumo</button></div>`);
+  $("#r-copiar").onclick = () => painelEscolherPasta("Copiar para…", async d => { await duplicarResumo(r, d, ""); fecharPainel(); rotear(); });
+  $("#r-drive").onclick = () => painelExportarResumosDrive([r]);
   $("#r-duplicar").onclick = async () => {
-    const novo = { ...r, id: uid(), titulo: (r.titulo || "Sem título") + " — cópia", favorito: false, criadoEm: null, abertoEm: null };
-    if (r.arquivo) { const a = await bdLer("arquivos", r.arquivo); if (a) { novo.arquivo = uid(); await bdGravar("arquivos", { ...a, id: novo.arquivo }); } }
-    let html = await lerConteudo(id);
-    for (const img of imagensDoHtml(html)) {            // a cópia tem as próprias imagens (apagar uma não afeta a outra)
-      const im = await bdLer("imagens", img);
-      if (im) { const nid = uid(); await bdGravar("imagens", { ...im, id: nid }); html = html.split(`data-img="${img}"`).join(`data-img="${nid}"`); }
-    }
-    await salvarMeta(novo); await gravarConteudo(novo.id, html);
+    const novo = await duplicarResumo(r);
     fecharPainel(); location.hash = novo.formato === "pdf" || novo.formato === "docx" ? `#/resumo/${novo.id}` : `#/resumo/${novo.id}/editar`;
   };
   $("#r-materia").onclick = () => painelMoverResumo(r, () => rotear());
@@ -703,7 +685,8 @@ function painelImportarResumos(materiaAtual = "", assuntoAtual = "", arquivosSol
     <div class="linha-ajuste"><span>Matéria</span>
       <select class="campo" id="imp-materia"><option value="">Sem matéria</option>${mats.map(m => `<option ${m === materiaAtual ? "selected" : ""}>${esc(m)}</option>`).join("")}<option value="__nova">+ Nova matéria…</option></select></div>
     <div class="linha-ajuste"><span>Assunto</span><select class="campo" id="imp-assunto"></select></div>
-    <div class="acoes" style="margin-top:10px"><button class="botao primario" id="imp-escolher">${arquivosSoltos ? `Importar ${arquivosSoltos.length} arquivo(s)` : "Escolher arquivos"}</button></div>
+    <div class="acoes" style="margin-top:10px"><button class="botao primario" id="imp-escolher">${arquivosSoltos ? `Importar ${arquivosSoltos.length} arquivo(s)` : "Escolher arquivos"}</button>
+      ${arquivosSoltos ? "" : '<button class="botao" id="imp-drive">☁️ Escolher no Google Drive</button>'}</div>
     <input type="file" id="imp-arquivos" multiple accept=".docx,.pdf,.txt,.md,.markdown,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain" hidden>
     <div id="imp-progresso"></div>`);
   const preencherAssuntos = () => {
@@ -747,6 +730,11 @@ function painelImportarResumos(materiaAtual = "", assuntoAtual = "", arquivosSol
     if (location.hash.startsWith("#/resumos") && window.renderListaResumos) window.renderListaResumos();   // atualiza a lista sem fechar o painel
   };
   $("#imp-escolher").onclick = () => arquivosSoltos ? (importar(arquivosSoltos), arquivosSoltos = null) : $("#imp-arquivos").click();
+  if ($("#imp-drive")) $("#imp-drive").onclick = async () => {
+    const prog = $("#imp-progresso");
+    try { prog.innerHTML = '<p class="contagem">Abrindo o Google Drive…</p>'; const arqs = await arquivosDoDrive(MIME_RESUMO); prog.innerHTML = ""; if (arqs.length) importar(arqs); }
+    catch (e) { prog.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; }
+  };
   $("#imp-arquivos").onchange = e => { const a = [...e.target.files]; e.target.value = ""; importar(a); };
 }
 function tituloDoArquivo(nome) {
@@ -1320,7 +1308,7 @@ function hexParaRgb(hex) {
   return [(n >> 16) / 255, ((n >> 8) & 255) / 255, (n & 255) / 255];
 }
 /* PDF original + os seus traços e ícones desenhados por cima (o texto do PDF continua selecionável) */
-async function exportarPdfComMarcacoes(r, aviso) {
+async function exportarPdfComMarcacoes(r, aviso, soGerar = false) {
   await carregarScript("libs/pdf-lib.min.js");
   const { PDFDocument, rgb, LineCapStyle } = window.PDFLib;
   const orig = await lerArquivoOriginal(r);
@@ -1364,12 +1352,14 @@ async function exportarPdfComMarcacoes(r, aviso) {
   }
   if (aviso) aviso(`${tintas.length} página(s) com marcações`);
   const bytes = await pdf.save();
-  await entregarArquivo(new Blob([bytes], { type: "application/pdf" }), nomeBase(r) + " (com marcações).pdf");
+  const blob = new Blob([bytes], { type: "application/pdf" });
+  if (soGerar) return blob;
+  await entregarArquivo(blob, nomeBase(r) + " (com marcações).pdf");
 }
 /* Word com as suas edições: arquivo .doc que o Word, o Pages e o Google Docs abrem.
    Os estilos do documento são copiados para cada trecho (cores, faixas, destaques), porque
    o Word respeita melhor a formatação escrita direto no texto. */
-async function exportarWordEditado(r) {
+async function exportarWordEditado(r, soGerar = false) {
   const salvo = (await bdLer("resumos_conteudo", r.id))?.html;
   const tmp = document.createElement("div");
   tmp.style.cssText = "position:absolute;left:-99999px;top:0;width:900px";
@@ -1403,7 +1393,9 @@ async function exportarWordEditado(r) {
     const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
 <head><meta charset="utf-8"><title>${esc(r.titulo || "")}</title>
 <style>@page { size: 21cm 29.7cm; margin: 2cm; } body { font-family: "Times New Roman", serif; }</style></head><body>${tmp.innerHTML}</body></html>`;
-    await entregarArquivo(new Blob(["\ufeff", doc], { type: "application/msword" }), nomeBase(r) + " (editado).doc");
+    const blob = new Blob(["\ufeff", doc], { type: "application/msword" });
+    if (soGerar) return blob;
+    await entregarArquivo(blob, nomeBase(r) + " (editado).doc");
   } finally { tmp.remove(); }
 }
 /* Word (com edições e desenhos) em PDF: usa a impressão do iPad/computador ("Salvar como PDF") */

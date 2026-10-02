@@ -36,7 +36,7 @@ async function carregarQuestoes() {
   }
   gravarLS("info-cadernos", info);
   for (const loc of lerLS("cadernos-locais", [])) {             // cadernos importados de PDF no próprio app
-    if (loc.apagado) continue;
+    if (loc.apagado) { delete estado.cadernos[loc.id]; continue; }
     const g = await cache.match(loc.url);
     if (g) estado.cadernos[loc.id] = { ...(await g.json()), local: true };
   }
@@ -211,11 +211,19 @@ function menuCaderno(id) {
   abrirPainel(`<h2>${esc(c.titulo)} ${botaoFechar}</h2>
     <div class="acoes">
       <button id="c-mover">📁 Mover para pasta…</button>
+      <button id="c-drive">☁️ Enviar ao Google Drive</button>
+      <button id="c-baixar">⬇️ Baixar o caderno (arquivo para passar a outra pessoa)</button>
       ${c.local ? '<button id="c-publicar">📤 Publicar este caderno para todos (dono do app)</button><button id="c-excluir" style="color:var(--alt)">Excluir este caderno importado</button>' : ""}
       <button id="c-redefinir">Redefinir o caderno inteiro (todas voltam a ficar sem resposta)</button>
     </div>
     <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
   $("#c-mover").onclick = () => painelMover("questoes", id, c.titulo, volta);
+  $("#c-baixar").onclick = () => entregarArquivo(cadernoParaArquivo(c), `${c.titulo}.caderno.json`);
+  $("#c-drive").onclick = async () => {
+    const b = $("#c-drive"); b.disabled = true; b.textContent = "Enviando ao Google Drive…";
+    try { await exportarCadernoParaDrive(id); b.textContent = "✓ Enviado para Leitor de Legislação › Cadernos de questões"; }
+    catch (e) { b.disabled = false; b.textContent = "⚠️ " + e.message; }
+  };
   if ($("#c-publicar")) $("#c-publicar").onclick = () => prepararPublicacaoCaderno(id);
   if ($("#c-excluir")) $("#c-excluir").onclick = async () => {
     if (!confirm(`Excluir o caderno "${c.titulo}"? As suas respostas ficam guardadas no histórico e voltam se você importar o mesmo PDF de novo.`)) return;
@@ -616,14 +624,7 @@ async function telaAjustes() {
       <button id="btn-atualizar">Buscar atualizações agora</button>
       <a class="botao" href="${REPO_ACTIONS}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Pedir uma nova verificação no Planalto (abre o GitHub)</a>
     </div></div></div>
-  <div class="secao"><h2>Armazenamento</h2><div class="cartao">
-    <p>Legislações offline: ${leis.qtd} lei(s), ${mb(leis.bytes)}<br>
-       Anotações, grifos e favoritos: ${mb(bytesNotas)}<br>
-       Imagens: ${imgs.length} imagem(ns), ${mb(bytesImg)}<br>
-       <strong>Total: ${mb(leis.bytes + bytesNotas + bytesImg)}</strong></p>
-    <div class="acoes" style="margin-bottom:14px"><button id="btn-limpar">Remover leis offline deste aparelho</button></div>
-    <p>Remover as leis offline não apaga suas anotações, grifos, imagens nem favoritos. As leis são baixadas de novo quando você abrir cada uma com internet.</p>
-  </div></div>
+  <div id="secao-armazenamento"><div class="secao"><h2>Armazenamento</h2><div class="cartao"><p class="contagem">Calculando…</p></div></div></div>
   <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>
   <div class="secao"><h2>Ajuda</h2><div class="cartao"><div class="acoes" style="margin-bottom:12px"><button id="btn-apresentacao">Rever a apresentação do app</button></div></div></div>`;
   montarAjustesLeitura($("#ajustes-leitura"));
@@ -632,13 +633,7 @@ async function telaAjustes() {
   $("#btn-exportar").onclick = exportarBackup;
   $("#btn-importar").onclick = () => $("#entrada-backup").click();
   $("#btn-atualizar").onclick = async e => { e.target.textContent = "Buscando…"; await atualizarTudo(); telaAjustes(); };
-  $("#btn-limpar").onclick = async () => {
-    if (!confirm("Remover as leis salvas neste aparelho? Suas anotações e grifos continuam guardados.")) return;
-    const cache = await caches.open(CACHE_DADOS);
-    for (const req of await cache.keys()) if (req.url.includes("/dados/leis/")) await cache.delete(req);
-    estado.leis = {}; estado.info = {}; gravarLS("info-leis", {});
-    telaAjustes();
-  };
+  medirArmazenamento().then(m => { const el = $("#secao-armazenamento"); if (el) { el.innerHTML = htmlArmazenamento(m); ligarArmazenamento(); } });
 }
 
 function montarAjustesLeitura(alvo) {

@@ -11,6 +11,8 @@ import asyncio, http.server, json, os, sys, threading, functools, datetime
 from playwright.async_api import async_playwright
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import github_falso
+import google_falso
+import re as _re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX = os.path.join(RAIZ, "tests", "fixtures")
@@ -46,7 +48,19 @@ async def novo_aparelho(b, largura=1180, altura=820, leis=("lep", "codigo-penal"
     return ctx, pg
 
 
+def nomes_repetidos():
+    """Duas funções com o mesmo nome em arquivos diferentes: a segunda apaga a primeira sem avisar."""
+    vistos, repetidos = {}, []
+    for nome in sorted(os.listdir(os.path.join(RAIZ, "js"))):
+        for m in _re.finditer(r"^(?:async\s+)?(?:function|const|let)\s+([A-Za-z_$][\w$]*)", open(os.path.join(RAIZ, "js", nome), encoding="utf-8").read(), _re.M):
+            if m.group(1) in vistos: repetidos.append(f"{m.group(1)} ({vistos[m.group(1)]} e {nome})")
+            vistos[m.group(1)] = nome
+    return repetidos
+
+
 async def testes(b):
+    rep = nomes_repetidos()
+    confere("Nenhum nome de função repetido entre os arquivos", not rep, rep[:3])
     # 1) Abertura e leitura
     ctx, pg = await novo_aparelho(b)
     confere("App abre sem erros", not pg.erros, pg.erros[:2])
@@ -203,6 +217,32 @@ async def testes(b):
     await pg.evaluate("sincronizar('teste')"); await pg.wait_for_timeout(3000)
     confere("Edição chega ao primeiro aparelho", await pg.evaluate("(estado.itens.get('sinc-1')||{}).nota") == "do outro aparelho")
     await ctx5.close()
+
+    # 13) Google Drive (de mentira): sincronização em partes, enviar resumo e caderno ao Drive; seleção de vários
+    google_falso.iniciar(PORTA + 2)
+    ctx7, pg7 = await novo_aparelho(b)
+    base = f"http://localhost:{PORTA + 2}"
+    await pg7.evaluate(f"""localStorage.setItem('sync-google-base', JSON.stringify('{base}'));
+      localStorage.setItem('google-token', JSON.stringify({{token:'{google_falso.TOKEN}', expira: Date.now()+3600000}}));
+      localStorage.setItem('google-token-arquivos', JSON.stringify({{token:'{google_falso.TOKEN}', expira: Date.now()+3600000}}));""")
+    await pg7.goto(U + "#/resumos"); await pg7.wait_for_timeout(700)
+    await pg7.click("#importar-resumos"); await pg7.set_input_files("#imp-arquivos", [os.path.join(FIX, "resumo-teste.pdf"), os.path.join(FIX, "resumo-teste.docx")])
+    await pg7.wait_for_selector("#imp-progresso .lista-cartoes", timeout=60000); await pg7.evaluate("fecharPainel()")
+    await pg7.evaluate("gravarLS('sync-config', {provedor:'google', senha:'', conectadoEm:agoraISO()}); gravarLS('sync-estado', {hashes:{}, locais:{}})")
+    await pg7.evaluate("sincronizar('teste')"); await pg7.wait_for_timeout(5000)
+    arquivos_nuvem = [a for a in google_falso.ARQUIVOS.values() if a["name"].startswith("arquivos/")]
+    confere("Sincronização pelo Google Drive envia os arquivos", len(arquivos_nuvem) == 2 and not await pg7.evaluate("estSync().erro"))
+    await pg7.goto(U + "#/resumos"); await pg7.wait_for_timeout(800)
+    await pg7.click("#selecionar-res")
+    for t in await pg7.locator(".tile-resumo").all(): await t.click()
+    await pg7.click("[data-sel=drive]"); await pg7.click("[data-versao=original]"); await pg7.wait_for_timeout(3000)
+    no_drive = [a["name"] for a in google_falso.ARQUIVOS.values() if a.get("parents") and a["parents"][0] != "appDataFolder" and a.get("mimeType") != "application/vnd.google-apps.folder"]
+    confere("Selecionar vários e enviar ao Google Drive", sorted(no_drive) == ["resumo-teste.docx", "resumo-teste.pdf"], no_drive)
+    await pg7.evaluate("fecharPainel(); alternarSelecaoResumos(true)")
+    for t in await pg7.locator(".tile-resumo").all(): await t.click()
+    await pg7.click("[data-sel=duplicar]"); await pg7.wait_for_timeout(1500)
+    confere("Duplicar vários de uma vez", await pg7.evaluate("resumosAtivos().length") == 4)
+    await ctx7.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])
