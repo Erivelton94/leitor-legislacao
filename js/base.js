@@ -40,7 +40,10 @@ function dataCurta(iso) { if (!iso) return "—"; const [a, m, d] = iso.slice(0,
 function agoraISO() { return new Date().toISOString(); }
 function uid() { return (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2)); }
 function urlLei(id) { return `dados/leis/${id}.json`; }
-function nomeLei(id) { return estado.status[id]?.nome || id; }
+function nomeLei(id) {
+  const proprio = estado.itens.get("nome-lei|" + id);                 // nome que você deu à lei
+  return proprio && !proprio.apagado ? proprio.nome : (estado.status[id]?.nome || id);
+}
 function rotuloArt(art, lei = leiAberta) {
   const base = "Art. " + String(art).replace(/#\d+$/, "");
   const l = lei && estado.leis[lei];
@@ -48,7 +51,7 @@ function rotuloArt(art, lei = leiAberta) {
 }
 
 /* ---------------- ajustes de leitura ---------------- */
-const ajustes = Object.assign({ fonte: 19, entrelinha: 1.7, tema: "auto" }, lerLS("ajustes", {}));
+const ajustes = Object.assign({ fonte: 19, entrelinha: 1.7, tema: "light" }, lerLS("ajustes", {}));     // começa no modo claro; a pessoa escolhe depois
 function aplicarAjustes() {
   const r = document.documentElement;
   r.style.setProperty("--fonte", ajustes.fonte + "px");

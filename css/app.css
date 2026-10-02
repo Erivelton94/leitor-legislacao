@@ -650,3 +650,15 @@ svg.tinta { will-change: auto; }
 .barra-sel-res button { border: 0; background: transparent; padding: 8px 10px; border-radius: 10px; font-size: 14px; color: var(--tinta); }
 .barra-sel-res button:disabled { opacity: .35; }
 .barra-sel-res .sel-n { font-size: 13px; font-weight: 600; color: var(--oliva); padding: 0 6px; }
+
+/* lixeira */
+.lista-lixo { list-style: none; padding: 0; margin: 8px 0 18px; }
+.item-lixo { background: var(--folha); border: 1px solid var(--fio); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+.lixo-txt { display: flex; flex-direction: column; gap: 2px; }
+.lixo-acoes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.lixo-acoes button { border: 1px solid var(--fio); background: var(--papel); border-radius: 10px; padding: 8px 12px; font-size: 14px; color: var(--oliva); font-weight: 600; }
+.lixo-acoes button.perigo { color: var(--alt); }
+.pasta-lixo summary { cursor: pointer; list-style: none; }
+.pasta-lixo summary::-webkit-details-marker { display: none; }
+.dentro-pasta { margin: 10px 0 0 6px; }
+.dentro-pasta .item-lixo { background: var(--papel); }

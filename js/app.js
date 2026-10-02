@@ -115,6 +115,7 @@ async function rotearTela() {
   if (partes[0] === "ajustes") return telaAjustes();
   if (partes[0] === "catalogo") return telaCatalogo();
   if (partes[0] === "revisao" && partes[1]) return telaRevisao(partes[1]);
+  if (partes[0] === "lixeira") return telaLixeira();
   if (partes[0] === "resumos") return partes[1] === "materia" ? telaResumos("todas", partes[2] || "", partes[3] || "") : telaResumos(partes[1] || "todas");
   if (partes[0] === "resumo" && partes[1]) return partes[2] === "editar" ? telaResumoEditar(partes[1]) : telaResumoLer(partes[1]);
   if (partes[0] === "acervo" && partes[1] === "pasta") return telaAcervo(partes[2]);
@@ -170,6 +171,7 @@ async function iniciar() {
   atualizarIndicadorSync(estSync().erro ? "erro" : "ok");
   $("#btn-sync").onclick = tocarIndicadorSync;
   if (cfgSync()) setTimeout(() => sincronizar("abertura"), 2500);
+  setTimeout(() => limparLixeiraVencida().catch(() => {}), 4000);        // o que passou de 30 dias na lixeira some
   setInterval(() => { if (cfgSync() && document.visibilityState === "visible") sincronizar("periódica"); }, 300000);
   window.addEventListener("online", () => { if (cfgSync()) sincronizar("voltou a internet"); });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && cfgSync() && sync.tempo) { clearTimeout(sync.tempo); sync.tempo = null; sincronizar("saindo"); } });

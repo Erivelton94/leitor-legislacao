@@ -36,9 +36,14 @@ async function carregarQuestoes() {
   }
   gravarLS("info-cadernos", info);
   for (const loc of lerLS("cadernos-locais", [])) {             // cadernos importados de PDF no próprio app
-    if (loc.apagado) { delete estado.cadernos[loc.id]; continue; }
+    if (loc.apagado || loc.lixeira) { delete estado.cadernos[loc.id]; continue; }
     const g = await cache.match(loc.url);
     if (g) estado.cadernos[loc.id] = { ...(await g.json()), local: true };
+  }
+  for (const [id, c] of Object.entries(estado.cadernos)) {            // nome que você deu ao caderno
+    const p = nomeProprio("caderno", id);
+    c.tituloOriginal = c.tituloOriginal || c.titulo;
+    c.titulo = p && !p.apagado ? p.nome : c.tituloOriginal;
   }
   estado.q = new Map();
   for (const c of Object.values(estado.cadernos)) for (const q of c.questoes) { q.caderno = c.id; estado.q.set(q.id, q); }
@@ -181,7 +186,8 @@ function telaQuestoes(pastaId = null) {
       <p><strong>Seu desempenho:</strong> ${g.respostas} respostas registradas · <span class="txt-ok">${g.acertosTotal} acertos</span> · <span class="txt-erro">${g.errosTotal} erros</span>${g.respostas ? ` · <strong>${g.pctTotal}% de acerto</strong>` : ""}</p>
       <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a>
         <button id="nova-pasta-q">+ Nova pasta</button>
-        <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button></div>
+        <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button>
+        ${lerLS("cadernos-locais", []).some(c => c.lixeira && !c.apagado) ? '<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira</a>' : ""}</div>
     </div></div>`;
   }
   h += `<ul class="acervo">`;
@@ -210,14 +216,16 @@ function menuCaderno(id) {
   const volta = () => rotear();
   abrirPainel(`<h2>${esc(c.titulo)} ${botaoFechar}</h2>
     <div class="acoes">
+      <button id="c-renomear">✏️ Renomear</button>
       <button id="c-mover">📁 Mover para pasta…</button>
       <button id="c-drive">☁️ Enviar ao Google Drive</button>
       <button id="c-baixar">⬇️ Baixar o caderno (arquivo para passar a outra pessoa)</button>
-      ${c.local ? '<button id="c-publicar">📤 Publicar este caderno para todos (dono do app)</button><button id="c-excluir" style="color:var(--alt)">Excluir este caderno importado</button>' : ""}
+      ${c.local ? '<button id="c-publicar">📤 Publicar este caderno para todos (dono do app)</button><button id="c-excluir" style="color:var(--alt)">🗑 Mandar este caderno para a lixeira</button>' : ""}
       <button id="c-redefinir">Redefinir o caderno inteiro (todas voltam a ficar sem resposta)</button>
     </div>
     <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
   $("#c-mover").onclick = () => painelMover("questoes", id, c.titulo, volta);
+  $("#c-renomear").onclick = async () => { if (await renomearCaderno(id)) { fecharPainel(); volta(); } };
   $("#c-baixar").onclick = () => entregarArquivo(cadernoParaArquivo(c), `${c.titulo}.caderno.json`);
   $("#c-drive").onclick = async () => {
     const b = $("#c-drive"); b.disabled = true; b.textContent = "Enviando ao Google Drive…";
@@ -226,13 +234,8 @@ function menuCaderno(id) {
   };
   if ($("#c-publicar")) $("#c-publicar").onclick = () => prepararPublicacaoCaderno(id);
   if ($("#c-excluir")) $("#c-excluir").onclick = async () => {
-    if (!confirm(`Excluir o caderno "${c.titulo}"? As suas respostas ficam guardadas no histórico e voltam se você importar o mesmo PDF de novo.`)) return;
-    const locais = lerLS("cadernos-locais", []);
-    const loc = locais.find(x => x.id === id);
-    if (loc) await (await caches.open(CACHE_DADOS)).delete(loc.url);
-    gravarLS("cadernos-locais", locais.map(x => x.id === id ? { ...x, apagado: true, atualizadoEm: agoraISO() } : x));
-    delete estado.cadernos[id];
-    await carregarQuestoes(); fecharPainel(); volta();
+    await cadernoParaLixeira(id); fecharPainel(); volta();
+    mostrarAvisoRapido("🗑 O caderno foi para a lixeira (dá para restaurar por 30 dias)");
   };
   $("#c-redefinir").onclick = async () => {
     if (!confirm(`As ${c.questoes.length} questões de "${c.titulo}" voltam a ficar sem resposta. Suas estatísticas continuam com todos os acertos e erros. Redefinir?`)) return;

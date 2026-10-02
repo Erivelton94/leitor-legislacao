@@ -199,6 +199,7 @@ function menuLei(id) {
   const fav = ehFavorito(idFavLei(id));
   abrirPainel(`<h2>${esc(nomeLei(id))} ${botaoFechar}</h2>
     <div class="acoes">
+      <button id="l-renomear">✏️ Renomear</button>
       <button id="l-mover">📁 Mover para pasta…</button>
       <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
       <button id="l-nota">Anotar a lei (anotação geral)</button>
@@ -208,6 +209,7 @@ function menuLei(id) {
       <button id="l-remover" style="color:var(--alt)">Remover do meu acervo</button>
     </div>`);
   $("#l-marcacoes").onclick = () => painelApagarMarcacoes(id);
+  $("#l-renomear").onclick = async () => { if (await renomear("lei", id, nomeLei(id), estado.status[id]?.nome || id)) { fecharPainel(); rotear(); } };
   $("#l-mover").onclick = () => painelMover("leis", id, nomeLei(id), () => rotear());
   $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); rotear(); };
   $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });

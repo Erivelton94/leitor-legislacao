@@ -62,12 +62,12 @@ function telaAcervo(pastaId = null) {
     h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
       <span class="aba"></span>
       <button class="abrir" data-abrir="${esc(id)}">
-        <span class="lei-nome">${esc(st.nome)}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
+        <span class="lei-nome">${esc(nomeLei(id))}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
         <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
         <span class="selo ${s.cls}">${esc(s.txt)}</span>
         <span class="lei-verif">${esc(s.sub)}</span>
       </button>
-      <button class="mais" data-menu-lei="${esc(id)}" aria-label="Opções de ${esc(st.nome)}">⋯</button>
+      <button class="mais" data-menu-lei="${esc(id)}" aria-label="Opções de ${esc(nomeLei(id))}">⋯</button>
     </li>`;
   }
   h += "</ul>";
@@ -79,7 +79,7 @@ function telaAcervo(pastaId = null) {
 
 /* ---------- catálogo: buscar e adicionar leis ao acervo ---------- */
 function textoBusca(st) {
-  return semAcento([st.nome, st.numero, st.apelidos, st.area].join(" ")) + " " + String(st.numero || "").replace(/\D/g, "");
+  return semAcento([st.nome, nomeLei(st.id || ""), st.numero, st.apelidos, st.area].join(" ")) + " " + String(st.numero || "").replace(/\D/g, "");
 }
 function telaCatalogo() {
   definirTopo({ titulo: "Adicionar leis", voltar: "#/acervo" });
@@ -161,7 +161,7 @@ function temDadosSemBackup() {
 let leiAberta = null;
 async function telaLei(id, alvo) {
   const st = estado.status[id];
-  definirTopo({ titulo: st ? st.nome : "Lei", leitor: true, voltar: paiDaLei(id) });
+  definirTopo({ titulo: st ? nomeLei(id) : "Lei", leitor: true, voltar: paiDaLei(id) });
   let lei = await leiDoCache(id);
   if (!lei) { await sincronizarLei(id); lei = await leiDoCache(id); }
   if (!lei) {

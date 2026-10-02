@@ -183,7 +183,7 @@ function menuPastaResumo(tipo, materia, nome) {
     <button id="pr-renomear">Renomear a pasta</button>
     <button id="pr-mover">Mover a pasta…</button>
     <button id="pr-apagar-pasta">Apagar só a pasta (os ${n} arquivo(s) voltam para ${tipo === "materia" ? "o início" : "a pasta " + esc(materia)})</button>
-    <button id="pr-apagar-tudo" style="color:var(--alt)">Apagar a pasta e os ${n} arquivo(s) dentro dela</button></div>`);
+    <button id="pr-apagar-tudo" style="color:var(--alt)">🗑 Mandar a pasta e os ${n} arquivo(s) para a lixeira</button></div>`);
   const itensPasta = () => itens(tipo === "materia" ? "materia" : "assunto", i => i.nome === nome && (tipo === "materia" || i.materia === materia));
   $("#pr-renomear").onclick = async () => {
     const novo = prompt("Novo nome:", nome); if (!novo || !novo.trim() || novo.trim() === nome) return;
@@ -200,12 +200,11 @@ function menuPastaResumo(tipo, materia, nome) {
     fecharPainel(); irPara(tipo === "materia" ? "#/resumos" : rotaPasta(materia));
   };
   $("#pr-apagar-tudo").onclick = async () => {
-    if (!confirm(`Apagar a pasta "${nome}" e os ${n} arquivo(s) que estão nela${tipo === "materia" ? " (inclusive nas subpastas)" : ""}? Eles serão excluídos de vez, com os desenhos e imagens. Não dá para desfazer sem um backup.`)) return;
-    for (const r of dentro()) await excluirResumo(r.id);
+    await resumosParaLixeira(dentro(), { id: uid(), nome, tipo, materia });       // na lixeira, aparecem juntos como uma pasta
     for (const i of itensPasta()) await apagarItem(i.id);
     if (tipo === "materia") for (const i of itens("assunto", i => i.materia === nome)) await apagarItem(i.id);
-    resumos.lista = null; await carregarResumos();
     fecharPainel(); irPara(tipo === "materia" ? "#/resumos" : rotaPasta(materia));
+    mostrarAvisoRapido(`🗑 Pasta "${nome}" foi para a lixeira (dá para restaurar por 30 dias)`);
   };
   $("#pr-mover").onclick = () => moverPastaResumo(tipo, materia, nome);
 }
@@ -287,9 +286,8 @@ async function acaoSelecaoResumos(acao) {
   if (acao === "arquivar") { const todosArq = lista.every(r => r.arquivado); for (const r of lista) { r.arquivado = !todosArq; await salvarMeta(r); } return terminar(); }
   if (acao === "drive") return painelExportarResumosDrive(lista);
   if (acao === "apagar") {
-    if (!confirm(`Apagar ${lista.length} arquivo(s) de vez, com os desenhos e imagens? Não dá para desfazer sem um backup.`)) return;
-    for (const r of lista) await excluirResumo(r.id);
-    resumos.lista = null; await carregarResumos();
+    await resumosParaLixeira(lista);
+    mostrarAvisoRapido(`🗑 ${lista.length} arquivo(s) foram para a lixeira`);
     return terminar();
   }
 }
@@ -330,6 +328,7 @@ function htmlArmazenamento(m) {
     <div class="linha-arm"><div><strong>Textos das leis</strong><br><span class="contagem">${m.nLeis} lei(s) · ${mb(m.leis)} · são baixados de novo quando você abrir a lei</span></div><button id="arm-leis">Apagar</button></div>
     <div class="linha-arm"><div><strong>Resumos</strong><br><span class="contagem">${m.nResumos} resumo(s) com arquivos e edições · ${mb(m.resumos)}</span></div><button id="arm-resumos" ${m.nResumos ? "" : "disabled"}>Apagar</button></div>
     <div class="linha-arm"><div><strong>Cadernos de questões importados</strong><br><span class="contagem">${m.nCadernos} caderno(s) · ${mb(m.cadernos)} · o histórico de respostas continua</span></div><button id="arm-cadernos" ${m.nCadernos ? "" : "disabled"}>Apagar</button></div>
+    <div class="linha-arm"><div><strong>🗑 Lixeira</strong><br><span class="contagem">${itensDaLixeira().total} item(ns) · somem sozinhos depois de 30 dias</span></div><a class="botao" href="#/lixeira" style="text-decoration:none">Abrir</a></div>
     <div class="linha-arm"><div><strong>Marcações e imagens</strong><br><span class="contagem">grifos, anotações, desenhos, respostas · ${mb(m.marcacoes + m.imagens)}</span></div><span class="contagem">—</span></div>
     <div class="acoes" style="margin:14px 0 6px"><button id="arm-tudo" style="color:var(--alt)">Apagar tudo do app neste aparelho…</button></div>
     <p class="contagem">${cfgSync() ? "Com a sincronização ligada, apagar resumos ou cadernos também apaga nos seus outros aparelhos. “Apagar tudo” desconecta este aparelho e mantém a cópia na nuvem." : "Faça um backup antes de apagar, se quiser poder recuperar."}</p>
@@ -344,15 +343,15 @@ function ligarArmazenamento() {
   };
   $("#arm-resumos").onclick = async () => {
     await carregarResumos();
-    const lista = resumosAtivos();
-    if (!confirm(`Apagar os ${lista.length} resumo(s), com os arquivos originais, edições, desenhos e imagens, e as pastas de resumos?`)) return;
+    const lista = [...resumos.lista.values()].filter(r => !r.apagado);
+    if (!confirm(`Apagar DE VEZ os ${lista.length} resumo(s) (inclusive os da lixeira), com os arquivos originais, edições, desenhos e imagens, e as pastas de resumos? Isto não passa pela lixeira.`)) return;
     for (const r of lista) await excluirResumo(r.id);
     for (const i of itens("materia").concat(itens("assunto"))) await apagarItem(i.id);
     resumos.lista = null; await carregarResumos(); telaAjustes();
   };
   $("#arm-cadernos").onclick = async () => {
     const locais = lerLS("cadernos-locais", []);
-    if (!confirm(`Apagar os ${locais.filter(c => !c.apagado).length} caderno(s) importado(s)? As suas respostas ficam no histórico e voltam a valer se você importar o mesmo caderno de novo.`)) return;
+    if (!confirm(`Apagar DE VEZ os ${locais.filter(c => !c.apagado).length} caderno(s) importado(s), inclusive os da lixeira? As suas respostas ficam no histórico e voltam a valer se você importar o mesmo caderno de novo.`)) return;
     const cache = await caches.open(CACHE_DADOS);
     for (const c of locais) if (!c.apagado) await cache.delete(c.url);
     gravarLS("cadernos-locais", locais.map(c => ({ ...c, apagado: true, atualizadoEm: agoraISO() })));

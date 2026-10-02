@@ -191,10 +191,11 @@ async def testes(b):
     confere("Celular: leitura, caneta e questões cabem na tela", ok_lei and ok_q)
     await ctx6.close()
 
-    # 11) Boas-vindas na primeira abertura
-    ctx4 = await b.new_context(viewport={"width": 1180, "height": 820}); pg4 = await ctx4.new_page()
+    # 11) Boas-vindas na primeira abertura (e no modo claro, mesmo com o aparelho no escuro)
+    ctx4 = await b.new_context(viewport={"width": 1180, "height": 820}, color_scheme="dark"); pg4 = await ctx4.new_page()
     await pg4.goto(U + "#/acervo"); await pg4.wait_for_timeout(2500)
     confere("Boas-vindas na primeira vez", "Bem-vindo" in (await pg4.inner_text("#painel-caixa") if await pg4.is_visible("#painel") else ""))
+    confere("Primeira abertura no modo claro", await pg4.evaluate("ajustes.tema") == "light" and await pg4.evaluate("getComputedStyle(document.body).backgroundColor") == "rgb(245, 246, 242)")
     await ctx4.close()
 
     # 12) Sincronização entre dois aparelhos (GitHub de mentira, com senha)
@@ -242,6 +243,17 @@ async def testes(b):
     for t in await pg7.locator(".tile-resumo").all(): await t.click()
     await pg7.click("[data-sel=duplicar]"); await pg7.wait_for_timeout(1500)
     confere("Duplicar vários de uma vez", await pg7.evaluate("resumosAtivos().length") == 4)
+    # 14) Lixeira e renomear
+    await pg7.evaluate("fecharPainel(); alternarSelecaoResumos(true)")
+    for t in (await pg7.locator(".tile-resumo").all())[:2]: await t.click()
+    await pg7.click("[data-sel=apagar]"); await pg7.wait_for_timeout(1000)
+    na_lixeira = await pg7.evaluate("itensDaLixeira().total")
+    await pg7.goto(U + "#/lixeira"); await pg7.wait_for_timeout(600)
+    for _ in range(na_lixeira): await pg7.locator("[data-rest-res]").first.click(); await pg7.wait_for_timeout(500)
+    confere("Lixeira: apagar e restaurar", na_lixeira == 2 and await pg7.evaluate("resumosAtivos().length") == 4 and await pg7.evaluate("itensDaLixeira().total") == 0)
+    await pg7.evaluate("renomear('lei', 'lep', nomeLei('lep'), 'x')") if False else None
+    await pg7.evaluate("salvarItem({id:'nome-lei|lep', tipo:'nome-lei', alvo:'lep', nome:'Minha LEP'})")
+    confere("Renomear lei", await pg7.evaluate("nomeLei('lep')") == "Minha LEP")
     await ctx7.close()
 
     erros = pg.erros + pg2.erros

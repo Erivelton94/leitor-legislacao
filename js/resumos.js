@@ -11,7 +11,7 @@ async function carregarResumos() {
   resumos.lista = new Map();
   for (const r of await bdTodos("resumos")) resumos.lista.set(r.id, r);
 }
-const resumosAtivos = () => [...resumos.lista.values()].filter(r => !r.apagado);
+const resumosAtivos = () => [...resumos.lista.values()].filter(r => !r.apagado && !r.lixeira);
 async function salvarMeta(r, tocar = true) {
   if (tocar) r.atualizadoEm = agoraISO();
   if (!r.criadoEm) r.criadoEm = r.atualizadoEm;
@@ -148,6 +148,7 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
     <div class="acoes-linha">
       <button class="botao primario" id="importar-resumos">Importar Word ou PDF</button>
       <button class="botao" id="selecionar-res">☑️ Selecionar</button>
+      ${itensDaLixeira().total ? `<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira (${itensDaLixeira().total})</a>` : ""}
       ${!materia ? '<button class="botao" id="nova-materia">+ Nova matéria</button>' : !assunto ? '<button class="botao" id="novo-assunto">+ Novo assunto</button>' : ""}
     </div>
     <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, matéria, assunto ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
@@ -379,13 +380,15 @@ function menuResumo(id) {
   abrirPainel(`<h2>${esc(r.titulo || "Sem título")} ${botaoFechar}</h2><div class="acoes">
     <button data-href="#/resumo/${esc(id)}">👁️ Ler</button>
     ${r.formato === "pdf" || r.formato === "docx" ? "" : `<button data-href="#/resumo/${esc(id)}/editar">✏️ Editar</button>`}
+    <button id="r-renomear">✏️ Renomear</button>
     <button id="r-duplicar">Duplicar resumo</button>
     <button id="r-copiar">📄 Copiar para outra pasta…</button>
     <button id="r-drive">☁️ Enviar ao Google Drive</button>
     <button id="r-materia">📁 Mover para pasta…</button>
     <button id="r-baixar">⬇️ Baixar…</button>
     <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
-    <button id="r-excluir" style="color:var(--alt)">Excluir resumo</button></div>`);
+    <button id="r-excluir" style="color:var(--alt)">🗑 Mandar para a lixeira</button></div>`);
+  $("#r-renomear").onclick = async () => { if (await renomearResumo(r)) { await invalidarMiniatura(r.id); fecharPainel(); rotear(); } };
   $("#r-copiar").onclick = () => painelEscolherPasta("Copiar para…", async d => { await duplicarResumo(r, d, ""); fecharPainel(); rotear(); });
   $("#r-drive").onclick = () => painelExportarResumosDrive([r]);
   $("#r-duplicar").onclick = async () => {
@@ -396,8 +399,8 @@ function menuResumo(id) {
   $("#r-baixar").onclick = () => painelBaixar(r);
   $("#r-arquivar").onclick = async () => { r.arquivado = !r.arquivado; await salvarMeta(r); fecharPainel(); rotear(); };
   $("#r-excluir").onclick = async () => {
-    if (!confirm(`Excluir "${r.titulo || "Sem título"}"? As imagens dele também serão apagadas. Não dá para desfazer sem um backup.`)) return;
-    await excluirResumo(id); fecharPainel(); rotear();
+    await resumoParaLixeira(r); fecharPainel(); rotear();
+    mostrarAvisoRapido("🗑 Foi para a lixeira (dá para restaurar por 30 dias)");
   };
 }
 
