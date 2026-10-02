@@ -7,6 +7,14 @@
    "arquivo": "dp-crimes-contra-a-pessoa.json",
    "qtd": 124,
    "hash": "b44c4fbb1b218092"
+  },
+  {
+   "id": "lei-de-execucao-penal",
+   "titulo": "Lei de Execução Penal",
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "arquivo": "lei-de-execucao-penal.json",
+   "qtd": 576,
+   "hash": "6c0b412a5323"
   }
  ]
 }
