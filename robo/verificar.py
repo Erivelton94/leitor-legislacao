@@ -52,6 +52,21 @@ DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de nov
 VERSAO_LEITOR = 5  # 5: artigos na ordem do documento (ADCT separado da CF)
 
 # Início de artigo: "Art. 1º", "Art. 1o", "Art. 10.", "Art. 112.", "Art. 5º-A.", "Art. 359-M-A."
+# Tratados internacionais (anexos dos decretos de promulgação) numeram "Artigo 1" ou "ARTIGO IV".
+# Só vale para normas marcadas com "tratado": true no catálogo, para não mexer nas outras leis.
+RE_ARTIGO_TRATADO = re.compile(r"^(?:ARTIGO|Artigo|REGRA|Regra)\s+(\d+|[IVXLC]+)(?![a-zà-úA-Z])\s*(?:º|°)?")
+
+
+def romano_para_int(t):
+    if t.isdigit():
+        return int(t)
+    v = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+    n = 0
+    for i, c in enumerate(t):
+        n += -v[c] if i + 1 < len(t) and v[c] < v[t[i + 1]] else v[c]
+    return n
+
+
 RE_ARTIGO = re.compile(
     r"^Art\.?\s*(\d+)\s*(?:º|°|ª|o(?![a-zà-ú]))?\s*((?:-[A-Z]{1,2}(?![a-zà-ú]))*)"
 )
@@ -144,7 +159,50 @@ def substantivo(texto):
 RE_ADCT = re.compile(r"^\s*ATO\s+DAS\s+DISPOSI[ÇC][ÕO]ES\s+CONSTITUCIONAIS\s+TRANSIT[ÓO]RIAS\s*$", re.M)
 
 
-def extrair_artigos(html):
+RE_RODAPE_PDF = re.compile(r"^\d{1,3}\s+(?:Cf\.|Nota|Resolução|Ibid|Nações Unidas|Conselho|Official|Human|Eighth|A/CONF|UNODC|E/CN|Segundo|Nível)")
+RE_INICIO_PARAGRAFO = re.compile(r"^(?:\d+\.\s|\(?[a-z]\)\s|(?:Regra|Artigo|Observação preliminar)\s+\d+$)")
+
+
+def pdf_para_html(conteudo, cabecalhos=()):
+    """Texto de um PDF -> HTML simples: junta as linhas quebradas de cada parágrafo e
+    tira cabeçalhos de página, números de página e notas de rodapé."""
+    from pypdf import PdfReader
+    import io
+    leitor = PdfReader(io.BytesIO(conteudo))
+    linhas = []
+    for pagina in leitor.pages:
+        for l in (pagina.extract_text() or "").split("\n"):
+            l = normalizar(l.replace("\u2011", "-"))
+            if not l or l.isdigit() or l in cabecalhos or RE_RODAPE_PDF.match(l):
+                continue
+            linhas.append(l)
+    # Uma linha continua o parágrafo de cima só se a de cima foi até o fim da largura (linha longa)
+    # e não terminou em ponto; títulos e linhas curtas começam parágrafo novo.
+    paragrafos, ultima = [], ""
+    for l in linhas:
+        anterior = paragrafos[-1] if paragrafos else ""
+        continua = (paragrafos and len(ultima) >= 60 and not re.search(r"[.:;]$", ultima)
+                    and not RE_INICIO_PARAGRAFO.match(l) and not RE_ARTIGO_TRATADO.match(l))
+        if continua:
+            paragrafos[-1] = (anterior[:-1] if anterior.endswith("-") and not anterior.endswith(" -") else anterior + " ") + l
+        else:
+            paragrafos.append(l)
+        ultima = l
+    corpo = "".join(f"<p>{p.replace('&', '&amp;').replace('<', '&lt;')}</p>" for p in paragrafos)
+    return f"<html><body>{corpo}</body></html>"
+
+
+def conteudo_html(lei, resp):
+    if lei.get("formato") == "pdf" or resp.content[:5] == b"%PDF-":
+        return pdf_para_html(resp.content, tuple(lei.get("cabecalhos", [])))
+    return decodificar(resp.content)
+
+
+def opcoes_da(lei):
+    return {k: lei[k] for k in ("marca_inicio", "marca_fim") if lei.get(k)}
+
+
+def extrair_artigos(html, tratado=False, opcoes=None):
     """Devolve ({id_artigo: {texto, hash}}, nº de artigos com número repetido)."""
     # html5lib interpreta HTML malformado do mesmo jeito que o navegador (o Planalto tem muito).
     soup = BeautifulSoup(html, "html5lib")
@@ -167,6 +225,16 @@ def extrair_artigos(html):
     if len(linhas) < 10:  # página sem parágrafos <p>: usa o texto corrido
         linhas = [normalizar(l) for l in soup.get_text("\n").split("\n")]
 
+    opcoes = opcoes or {}
+    if opcoes.get("marca_inicio"):
+        ini = next((i for i, l in enumerate(linhas) if opcoes["marca_inicio"] in l), None)
+        if ini is not None:
+            linhas = linhas[ini:]
+    if opcoes.get("marca_fim"):
+        fim = next((i for i, l in enumerate(linhas) if i > 0 and opcoes["marca_fim"] in l), None)
+        if fim is not None:
+            linhas = linhas[:fim]
+
     prontas = []
     for linha in linhas:
         if not linha:
@@ -178,8 +246,11 @@ def extrair_artigos(html):
     antes_do_art1 = []
     for linha in prontas:
         m = RE_ARTIGO.match(linha)
+        mt = RE_ARTIGO_TRATADO.match(linha) if tratado and not m else None
         if m:
             blocos.append((m.group(1) + (m.group(2) or ""), [linha]))
+        elif mt:
+            blocos.append((mt.group(1), [linha]))          # numeração original do documento (1, 2… ou I, II…)
         elif blocos and linha != blocos[-1][1][-1]:  # ignora linha repetida em sequência
             blocos[-1][1].append(linha)
         elif not blocos:
@@ -187,7 +258,7 @@ def extrair_artigos(html):
 
     # Preâmbulo: da epígrafe ("LEI Nº 7.210, DE…") até antes do Art. 1º (ementa e primeiros títulos).
     inicio = next((i for i, l in enumerate(antes_do_art1) if RE_EPIGRAFE.match(l)), None)
-    preambulo = antes_do_art1[inicio:] if inicio is not None else []
+    preambulo = antes_do_art1[inicio:] if inicio is not None else (antes_do_art1 if opcoes.get("marca_inicio") else [])
 
     # Mesmo número mais de uma vez: fica a versão com conteúdo; rótulos vazios saem.
     # A 2ª ocorrência de um número recebe "#2" (ex.: na Constituição, o Art. 1º do ADCT é "1#2").
@@ -271,6 +342,8 @@ def candidatos(lei):
     """Endereços prováveis da lei no Planalto, do texto compilado (atualizado) para o simples."""
     if lei.get("url"):
         return [lei["url"]]
+    if lei.get("urls"):                          # endereços alternativos, testados em ordem
+        return list(lei["urls"])
     tipo, n, ano = lei.get("tipo"), lei.get("n"), lei.get("ano")
     if tipo == "cf":
         return [BASE + "constituicao/constituicaocompilado.htm", BASE + "constituicao/constituicao.htm"]
@@ -304,6 +377,8 @@ def confere(lei, html, artigos):
         return "CONSTITUI" in compacto
     if lei.get("n"):
         return str(lei["n"]) in compacto
+    if lei.get("confere_texto"):
+        return lei["confere_texto"].replace(" ", "").upper() in compacto
     return True
 
 
@@ -319,8 +394,8 @@ def obter_pagina(lei, anterior, cond):
             ultimo = e
             time.sleep(1)
             continue
-        html = decodificar(r.content)
-        arts, _, _ = extrair_artigos(html)
+        html = conteudo_html(lei, r)
+        arts, _, _ = extrair_artigos(html, lei.get("tratado", False), opcoes_da(lei))
         if confere(lei, html, arts):
             return url, r
         ultimo = Exception(f"{url} não corresponde a esta norma")
@@ -338,7 +413,7 @@ def verificar_lei(lei, status_anterior):
         "numero": lei.get("numero", ""),
         "area": lei.get("area", ""),
         "apelidos": lei.get("apelidos", ""),
-        "fonte": "Planalto — texto compilado",
+        "fonte": lei.get("fonte", "Planalto — texto compilado"),
         "ultima_tentativa": momento.isoformat(timespec="seconds"),
     })
 
@@ -388,7 +463,7 @@ def verificar_lei(lei, status_anterior):
                                        "sem precisar baixar o texto.")
 
     salvar_bruto(bruto, resp.content)
-    artigos, repetidos, preambulo = extrair_artigos(decodificar(resp.content))
+    artigos, repetidos, preambulo = extrair_artigos(conteudo_html(lei, resp), lei.get("tratado", False), opcoes_da(lei))
     n = len(artigos)
     ausentes = lacunas(artigos)
     reg["diagnostico"] = {

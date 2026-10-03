@@ -116,6 +116,10 @@ async def testes(b):
     await pg.evaluate("alternarFixada('codigo-penal')")
     tam = await pg.evaluate("(async()=>{ const a=prepararLei(await leiDoCache('lep')).arts; const b=await gerarPdfLei('lep', 0, 9, {grifos:true}); return b.size; })()")
     confere("Gerar PDF de um trecho da lei", tam > 3000, f"{tam} bytes")
+    com, sem = await pg.evaluate("""(async()=>{ const arts=prepararLei(await leiDoCache('lep')).arts; const k=arts.findIndex(a=>a.id==='112');
+        const c=await gerarPdfLei('lep', k, k, {grifos:true, desenhos:true, notas:true}); const s=await gerarPdfLei('lep', k, k, {grifos:false, desenhos:false, notas:false});
+        return [c.size, s.size]; })()""")
+    confere("PDF da lei leva caneta, ícones e grifos", com > sem + 500, f"com marcações {com} bytes, sem {sem} bytes")
 
     # 6) Revisão rápida e ouvir
     await pg.goto(U + "#/revisao/lep"); await pg.wait_for_timeout(1500)
@@ -266,6 +270,32 @@ async def testes(b):
     await pg7.evaluate("salvarItem({id:'nome-lei|lep', tipo:'nome-lei', alvo:'lep', nome:'Minha LEP'})")
     confere("Renomear lei", await pg7.evaluate("nomeLei('lep')") == "Minha LEP")
     await ctx7.close()
+
+    # 15) Armazenamento: apagar marcações escolhidas (todas as leis)
+    ctx8, pg8 = await novo_aparelho(b)
+    await pg8.evaluate("""(async()=>{ await salvarItem({id:'g9',tipo:'grifo',lei:'lep',art:'1',cor:'verde',texto:'x',criadoEm:agoraISO()});
+      await salvarItem({id:'t9',tipo:'tinta',lei:'lep',art:'1',fonte:19,tracos:[{id:'z',pts:[0,0,9,9],cor:'#000',esp:2}],carimbos:[]}); })()""")
+    await pg8.goto(U + "#/ajustes"); await pg8.wait_for_timeout(1800)
+    await pg8.click("#arm-marcacoes"); await pg8.check("#apagar-todas"); await pg8.click("#confirmar-apagar-todas"); await pg8.wait_for_timeout(1200)
+    confere("Armazenamento: apagar grifos, caneta e ícones", await pg8.evaluate("itens('grifo').length + itens('tinta').length") == 0 and await pg8.evaluate("Object.keys(lerLS('info-leis',{})).length") == 2)
+    await ctx8.close()
+
+    # 16) Apagar todos os meus dados: esvazia a conta (nuvem e outros aparelhos), mas continua conectado
+    github_falso.ARQUIVOS.clear(); github_falso.ARQUIVOS["README.md"] = b"# dados"
+    ctx9, pg9 = await novo_aparelho(b)
+    await pg9.evaluate("salvarItem({id:'z1',tipo:'anotacao',lei:'lep',art:'1',nota:'x',criadoEm:agoraISO()})")
+    await conectar(pg9, "")
+    ctx10, pg10 = await novo_aparelho(b, leis=()); await conectar(pg10, "")
+    await pg9.goto(U + "#/acervo"); await pg9.goto(U + "#/ajustes"); await pg9.wait_for_timeout(1800)
+    ordem_arm = [t.strip() for t in await pg9.locator("#secao-armazenamento .linha-arm strong").all_inner_texts()]
+    confere("Armazenamento na ordem pedida", ordem_arm[:3] == ["Textos das leis", "Minhas marcações e anotações", "Cadernos de questões importados"], ordem_arm)
+    await pg9.evaluate("() => { window.prompt = () => 'APAGAR'; }")
+    await pg9.click("#arm-tudo"); await pg9.wait_for_timeout(5000)
+    a_ok = await pg9.evaluate("estado.itens.size") == 0 and await pg9.evaluate("!!cfgSync()")
+    await pg10.evaluate("sincronizar('teste')"); await pg10.wait_for_timeout(4000)
+    b_ok = await pg10.evaluate("estado.itens.size") == 0 and await pg10.evaluate("!!cfgSync()")
+    confere("Apagar todos os dados: conta vazia, sem desconectar, também no outro aparelho", a_ok and b_ok and "README.md" in github_falso.ARQUIVOS)
+    await ctx9.close(); await ctx10.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])

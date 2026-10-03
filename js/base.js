@@ -45,8 +45,10 @@ function nomeLei(id) {
   return proprio && !proprio.apagado ? proprio.nome : (estado.status[id]?.nome || id);
 }
 function rotuloArt(art, lei = leiAberta) {
-  const base = "Art. " + String(art).replace(/#\d+$/, "");
   const l = lei && estado.leis[lei];
+  const orig = l && l.artigos && l.artigos[art] && (l.artigos[art].texto || "").match(/^(Artigo|ARTIGO|Regra|REGRA)\s+(\d+|[IVXLC]+)(?![a-zà-úA-Z])/);
+  if (orig) return orig[1].charAt(0) + orig[1].slice(1).toLowerCase() + " " + orig[2];      // tratados: numeração original
+  const base = "Art. " + String(art).replace(/#\d+$/, "");
   return l && l.artigos && l.artigos[art] && l.artigos[art].secao === "ADCT" ? "ADCT, " + base : base;
 }
 
@@ -360,7 +362,7 @@ function artigoHTML(a, alterados, leiId) {
   const caput = a.linhas[0].t;
   const semNotas = caput.replace(RE_NOTA, "").replace(/^Art\.?\s*[\dºo°\-A-Z]+\.?\s*[-–]?\s*/, "").trim();
   const revogado = !semNotas && /Revogad/i.test(caput);
-  const m = caput.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)(.*)$/);
+  const m = caput.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)(.*)$/) || caput.match(/^((?:ARTIGO|Artigo|REGRA|Regra)\s+(?:\d+|[IVXLC]+)\s*[º°]?\.?)(?![a-zà-úA-Z])(.*)$/);
   const rot = m ? m[1] : "";
   const resto = m ? m[2] : caput;
   const cls = ["artigo"];

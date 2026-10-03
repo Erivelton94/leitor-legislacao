@@ -326,13 +326,23 @@ function htmlArmazenamento(m) {
   return `<div class="secao"><h2>Armazenamento</h2><div class="cartao">
     <p class="contagem" style="margin-top:0">Total ocupado neste aparelho: <strong>${mb(total)}</strong></p>
     <div class="linha-arm"><div><strong>Textos das leis</strong><br><span class="contagem">${m.nLeis} lei(s) · ${mb(m.leis)} · são baixados de novo quando você abrir a lei</span></div><button id="arm-leis">Apagar</button></div>
-    <div class="linha-arm"><div><strong>Resumos</strong><br><span class="contagem">${m.nResumos} resumo(s) com arquivos e edições · ${mb(m.resumos)}</span></div><button id="arm-resumos" ${m.nResumos ? "" : "disabled"}>Apagar</button></div>
+    <div class="linha-arm"><div><strong>Minhas marcações e anotações</strong><br><span class="contagem">grifos, anotações, caneta, marca-texto, ícones, favoritos e respostas das questões · ${mb(m.marcacoes + m.imagens)}</span></div><button id="arm-marcacoes">Apagar…</button></div>
     <div class="linha-arm"><div><strong>Cadernos de questões importados</strong><br><span class="contagem">${m.nCadernos} caderno(s) · ${mb(m.cadernos)} · o histórico de respostas continua</span></div><button id="arm-cadernos" ${m.nCadernos ? "" : "disabled"}>Apagar</button></div>
+    <div class="linha-arm"><div><strong>Resumos</strong><br><span class="contagem">${m.nResumos} resumo(s) com arquivos e edições · ${mb(m.resumos)}</span></div><button id="arm-resumos" ${m.nResumos ? "" : "disabled"}>Apagar</button></div>
     <div class="linha-arm"><div><strong>🗑 Lixeira</strong><br><span class="contagem">${itensDaLixeira().total} item(ns) · somem sozinhos depois de 30 dias</span></div><a class="botao" href="#/lixeira" style="text-decoration:none">Abrir</a></div>
-    <div class="linha-arm"><div><strong>Marcações e imagens</strong><br><span class="contagem">grifos, anotações, desenhos, ícones, favoritos, respostas · ${mb(m.marcacoes + m.imagens)}</span></div><button id="arm-marcacoes">Apagar…</button></div>
-    <div class="acoes" style="margin:14px 0 6px"><button id="arm-tudo" style="color:var(--alt)">Apagar tudo do app neste aparelho…</button></div>
-    <p class="contagem">${cfgSync() ? "Com a sincronização ligada, apagar resumos ou cadernos também apaga nos seus outros aparelhos. “Apagar tudo” desconecta este aparelho e mantém a cópia na nuvem." : "Faça um backup antes de apagar, se quiser poder recuperar."}</p>
+    <div class="acoes" style="margin:14px 0 6px"><button id="arm-tudo" style="color:var(--alt)">Apagar todos os meus dados…</button></div>
+    <p class="contagem">${cfgSync() ? "Com a sincronização ligada, o que você apaga aqui também é apagado na sua nuvem e nos seus outros aparelhos. “Apagar todos os meus dados” esvazia a sua conta, mas você continua conectado." : "Faça um backup antes de apagar, se quiser poder recuperar."}</p>
   </div></div>`;
+}
+/* deixa o app vazio neste aparelho, mas mantém a conexão com a nuvem (GitHub/Google) */
+async function apagarDadosDoAparelho() {
+  for (const loja of ["itens", "imagens", "resumos", "resumos_conteudo", "arquivos", "miniaturas"]) await bdLimpar(loja);
+  await caches.delete(CACHE_DADOS);
+  const doApp = new Set([...CHAVES_APP, "boas-vindas-vista", "ultimo-backup", "lembrete-backup-dia", "preferencias-caneta", "ajustes-resumo",
+    "pos-resumo", "dock-lado", "dock-recolhido", "tela-cheia", "ouvir-vel", "cadernos-locais"]);
+  for (const k of doApp) localStorage.removeItem(k);
+  localStorage.setItem("boas-vindas-vista", "true");
+  estado.itens = new Map(); estado.leis = {}; estado.cadernos = {}; resumos.lista = null;
 }
 function ligarArmazenamento() {
   $("#arm-leis").onclick = () => {
@@ -382,15 +392,33 @@ function ligarArmazenamento() {
   };
   $("#arm-marcacoes").onclick = () => painelApagarTodasMarcacoes();
   $("#arm-tudo").onclick = async () => {
-    if (!confirm("Apagar TUDO do app neste aparelho? Leis, marcações, respostas, cadernos, resumos e preferências. O app volta a ficar como novo." + (cfgSync() ? "\n\nA cópia na nuvem NÃO é apagada: este aparelho só é desconectado, e você pode recuperar tudo conectando de novo." : "")) ) return;
-    const confirma = prompt('Para confirmar, digite APAGAR:');
+    const nuvem = cfgSync();
+    if (!confirm("Apagar TODOS os seus dados do app? Leis do acervo, marcações, anotações, desenhos, respostas, cadernos, resumos e preferências."
+      + (nuvem ? `\n\nComo a sincronização está ligada, os dados também serão apagados da sua nuvem (${nuvem.provedor === "google" ? "Google Drive" : "GitHub"}) e dos seus outros aparelhos conectados. Você continua conectado à conta, mas ela fica vazia.` : "")
+      + "\n\nNão dá para desfazer (a não ser que você tenha um backup completo guardado).")) return;
+    const confirma = prompt("Para confirmar, digite APAGAR:");
     if ((confirma || "").trim().toUpperCase() !== "APAGAR") return;
-    for (const loja of ["itens", "imagens", "resumos", "resumos_conteudo", "arquivos", "miniaturas"]) await bdLimpar(loja);
-    await caches.delete(CACHE_DADOS);
-    const doApp = new Set([...CHAVES_APP, "sync-config", "sync-estado", "google-token", "google-token-arquivos", "google-client-id", "boas-vindas-vista",
-      "ultimo-backup", "lembrete-backup-dia", "preferencias-caneta", "ajustes-resumo", "pos-resumo", "dock-lado", "dock-recolhido", "tela-cheia", "ouvir-vel", "cadernos-locais"]);
-    for (const k of doApp) localStorage.removeItem(k);
-    sessionStorage.clear();
+    abrirPainel(`<h2>Apagando os seus dados…</h2><p class="contagem" id="msg-zerar">Começando…</p>`);
+    const msg = t => { const m = $("#msg-zerar"); if (m) m.textContent = t; };
+    if (nuvem) {
+      if (!navigator.onLine) { msg("Sem internet: não foi possível apagar da nuvem. Nada foi apagado. Tente de novo com internet."); return; }
+      try {
+        const p = provedorAtual();
+        await p.preparar();
+        const lista = await p.listar();
+        const DO_APP = /^(config\.json|itens\.json|resumos\.json|cripto\.json|reset\.json|resumos\/|arquivos\/|imagens\/|cadernos\/)/;
+        const caminhos = [...lista.keys()].filter(c => DO_APP.test(c));
+        let n = 0;
+        for (const c of caminhos) { msg(`Apagando da nuvem: ${++n} de ${caminhos.length}…`); await p.apagar(c, lista.get(c)); }
+        const em = agoraISO();
+        await p.enviar("reset.json", paraBytes({ em, aviso: "Dados apagados pelo usuário" }), null);   // avisa os outros aparelhos
+        gravarLS("sync-reset-visto", em);
+      } catch (e) { msg("⚠️ Não foi possível apagar da nuvem: " + e.message + ". Nada foi apagado neste aparelho; tente de novo."); return; }
+    }
+    msg("Apagando deste aparelho…");
+    await apagarDadosDoAparelho();
+    if (nuvem) gravarLS("sync-estado", { hashes: {}, locais: {} });
+    sessionStorage.setItem("aviso-zerado", "este");
     location.hash = "#/acervo"; location.reload();
   };
 }

@@ -20,7 +20,7 @@ class Falso(http.server.BaseHTTPRequestHandler):
     def _cors(self):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type, X-Upload-Content-Length, X-Upload-Content-Type")
-        self.send_header("Access-Control-Allow-Methods", "GET, POST, PATCH, PUT, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, PATCH, PUT, DELETE, OPTIONS")
         self.send_header("Access-Control-Expose-Headers", "Location")
 
     def _resp(self, cod, corpo=b"", tipo="application/json", extra=None):
@@ -112,6 +112,17 @@ class Falso(http.server.BaseHTTPRequestHandler):
         else:
             fid = uuid.uuid4().hex[:12]; ARQUIVOS[fid] = {**meta, "dados": dados}
         return self._resp(200, self._info(fid))
+
+
+def _apagar(self):
+    if not self._auth(): return
+    m = re.match(r"/drive/v3/files/([^/]+)$", urlparse(self.path).path)
+    if not m or m.group(1) not in ARQUIVOS: return self._resp(404, {})
+    del ARQUIVOS[m.group(1)]
+    self.send_response(204); self._cors(); self.end_headers()
+
+
+Falso.do_DELETE = _apagar
 
 
 def iniciar(porta):

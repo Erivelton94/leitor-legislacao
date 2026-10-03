@@ -152,7 +152,7 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = true, desenhos 
       const dest = destaquesDaLinha(t, gs);
       const inicio = desloc; desloc += l.t.length;
       if (i === 0) {
-        const m = t.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)/);
+        const m = t.match(/^(Art\.?\s*[\dºo°]+(?:-[A-Z]{1,2})*\.?)/) || t.match(/^((?:ARTIGO|Artigo|REGRA|Regra)\s+(?:\d+|[IVXLC]+)\s*[º°]?\.?)(?![a-zà-úA-Z])/);
         escrever(t, { negritoAte: m ? m[1].length : 0, destaques: dest, antes: 7, depois: 4, mapa, desloc: inicio });
         return;
       }

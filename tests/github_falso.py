@@ -18,7 +18,7 @@ class Falso(http.server.BaseHTTPRequestHandler):
     def _cors(self):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type, Accept, X-GitHub-Api-Version")
-        self.send_header("Access-Control-Allow-Methods", "GET, PUT, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, PUT, DELETE, OPTIONS")
         self.send_header("Access-Control-Expose-Headers", "github-authentication-token-expiration")
 
     def _resp(self, cod, corpo=b"", tipo="application/json"):
@@ -60,6 +60,20 @@ class Falso(http.server.BaseHTTPRequestHandler):
             return self._resp(409, {"message": "sha does not match"})
         ARQUIVOS[p] = base64.b64decode(corpo["content"])
         self._resp(200, {"content": {"path": p, "sha": sha(ARQUIVOS[p])}})
+
+
+def _apagar(self):
+    if not self._auth(): return
+    partes = urlparse(self.path).path.strip("/").split("/")
+    p = unquote("/".join(partes[4:]))
+    corpo = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
+    if p not in ARQUIVOS: return self._resp(404, {"message": "Not Found"})
+    if corpo.get("sha") != sha(ARQUIVOS[p]): return self._resp(409, {"message": "sha does not match"})
+    del ARQUIVOS[p]
+    self._resp(200, {"commit": {}})
+
+
+Falso.do_DELETE = _apagar
 
 
 def iniciar(porta):

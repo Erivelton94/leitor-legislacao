@@ -48,6 +48,11 @@ function provedorGitHub(cfg) {
       if (!r.ok) throw new Error(`Não foi possível baixar ${p} (${r.status})`);
       return new Uint8Array(await r.arrayBuffer());
     },
+    async apagar(p, anterior) {
+      const r = await chamar(`/repos/${cfg.repo}/contents/${caminho(p)}`, { method: "DELETE", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: "Dados apagados pelo usuário", sha: anterior.ref, branch: ramo }) });
+      if (!r.ok && r.status !== 404) throw new Error(`Não foi possível apagar ${p} da nuvem (${r.status})`);
+    },
     async enviar(p, bytes, anterior) {
       const corpo = { message: "Sincronização do Leitor de Legislação", content: bytesParaBase64(bytes), branch: ramo };
       if (anterior) corpo.sha = anterior.ref;
@@ -87,6 +92,10 @@ function provedorGoogle() {
       const r = await chamar(`${G}/drive/v3/files/${ids.get(p)}?alt=media`);
       if (!r.ok) throw new Error(`Não foi possível baixar ${p} (${r.status})`);
       return new Uint8Array(await r.arrayBuffer());
+    },
+    async apagar(p, anterior) {
+      const r = await chamar(`${G}/drive/v3/files/${anterior.ref}`, { method: "DELETE" });
+      if (!r.ok && r.status !== 404) throw new Error(`Não foi possível apagar ${p} da nuvem (${r.status})`);
     },
     async enviar(p, bytes, anterior) {
       // Envio "em partes" (resumable): aceita arquivos grandes (o envio simples do Google para em 5 MB)
@@ -196,6 +205,18 @@ async function sincronizar(motivo = "manual", tentativa = 1) {
   try {
     await p.preparar();
     const lista = await p.listar();
+    if (lista.has("reset.json") && lista.get("reset.json").hash !== est.hashes["reset.json"]) {
+      const aviso = deBytes(await p.baixar("reset.json"));
+      if ((aviso.em || "") > lerLS("sync-reset-visto", "")) {
+        gravarLS("sync-reset-visto", aviso.em);
+        await apagarDadosDoAparelho();
+        gravarLS("sync-estado", { hashes: { "reset.json": lista.get("reset.json").hash }, locais: {} });
+        sessionStorage.setItem("aviso-zerado", "outro");
+        location.hash = "#/acervo"; location.reload();
+        return;
+      }
+      est.hashes["reset.json"] = lista.get("reset.json").hash;
+    }
     await prepararSenha(p, lista);
 
     // 1) acervo e cadernos importados

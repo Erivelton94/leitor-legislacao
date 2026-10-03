@@ -163,6 +163,14 @@ async function iniciar() {
   catch { alert("Não foi possível abrir o armazenamento de anotações neste navegador. Grifos e anotações não serão salvos."); }
   await atualizarTudo();
   rotear();
+  const zerado = sessionStorage.getItem("aviso-zerado");
+  if (zerado) {
+    sessionStorage.removeItem("aviso-zerado");
+    setTimeout(() => abrirPainel(`<h2>Dados apagados ${botaoFechar}</h2><p>${zerado === "outro"
+      ? "Os seus dados foram apagados em outro aparelho conectado à mesma conta, então este aparelho também foi esvaziado."
+      : "Todos os seus dados foram apagados."}${cfgSync() ? " Você continua conectado à sua nuvem: o que fizer daqui em diante volta a ser guardado nela." : ""}</p>
+      <div class="acoes"><a class="botao primario" href="#/catalogo" style="text-decoration:none" data-fechar>+ Adicionar leis</a></div>`), 300);
+  }
   const restaurado = sessionStorage.getItem("aviso-restaurado");
   const primeiraVez = !lerLS("boas-vindas-vista", false) && ![...estado.itens.values()].length && !Object.keys(lerLS("info-leis", {})).length;
   if (primeiraVez) mostrarBoasVindas(0);
