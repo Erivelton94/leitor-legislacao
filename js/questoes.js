@@ -37,8 +37,9 @@ async function carregarQuestoes() {
   gravarLS("info-cadernos", info);
   for (const loc of lerLS("cadernos-locais", [])) {             // cadernos importados de PDF no próprio app
     if (loc.apagado || loc.lixeira) { delete estado.cadernos[loc.id]; continue; }
+    if (loc.publicado && estado.cadernos[loc.id] && !estado.cadernos[loc.id].local) continue;   // já está publicado: vale o do app
     const g = await cache.match(loc.url);
-    if (g) estado.cadernos[loc.id] = { ...(await g.json()), local: true };
+    if (g) estado.cadernos[loc.id] = { ...(await g.json()), local: true, publicado: !!loc.publicado };
   }
   for (const [id, c] of Object.entries(estado.cadernos)) {            // nome que você deu ao caderno
     const p = nomeProprio("caderno", id);
@@ -139,6 +140,7 @@ function painelMover(area, itemId, nomeItem, depois) {
 }
 function menuPasta(id, depois) {
   const p = estado.itens.get(id);
+  if ((p.area || "leis") === "questoes") return menuPastaQuestoes(id, depois);
   abrirPainel(`<h2>📁 ${esc(p.nome)} ${botaoFechar}</h2><div class="acoes">
     <button id="p-renomear">Renomear a pasta</button>
     <button id="p-apagar" style="color:var(--alt)">Apagar a pasta</button></div>
@@ -176,9 +178,11 @@ function telaQuestoes(pastaId = null) {
     return;
   }
   const mapa = mapaRespostas();
-  const pastas = pastasDe("questoes");
-  const emPasta = new Set(pastas.flatMap(p => p.cadernos || []));
-  const visiveis = pasta ? cads.filter(c => (pasta.cadernos || []).includes(c.id)) : cads.filter(c => !emPasta.has(c.id));
+  const todasPastas = pastasDe("questoes");
+  const pastas = todasPastas.filter(p => !p.arquivada);
+  const emPasta = new Set(todasPastas.flatMap(p => p.cadernos || []));
+  const visiveis = (pasta ? cads.filter(c => (pasta.cadernos || []).includes(c.id)) : cads.filter(c => !emPasta.has(c.id))).filter(c => pasta || !cadernoArquivado(c.id));
+  const nArquivados = todasPastas.filter(p => p.arquivada).length + cads.filter(c => cadernoArquivado(c.id)).length;
   let h = "";
   if (!pasta) {
     const g = estatisticas([...estado.q.values()], mapa);
@@ -187,6 +191,7 @@ function telaQuestoes(pastaId = null) {
       <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a>
         <button id="nova-pasta-q">+ Nova pasta</button>
         <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button>
+        ${nArquivados ? `<a class="botao" href="#/questoes/arquivados" style="text-decoration:none">📦 Arquivados (${nArquivados})</a>` : ""}
         ${lerLS("cadernos-locais", []).some(c => c.lixeira && !c.apagado) ? '<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira</a>' : ""}</div>
     </div></div>`;
   }
@@ -196,7 +201,7 @@ function telaQuestoes(pastaId = null) {
     const e = estatisticas(c.questoes, mapa);
     h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
       <button class="abrir" data-href="#/caderno/${esc(c.id)}">
-        <span class="lei-nome">${esc(c.titulo)}</span>
+        <span class="lei-nome">${esc(c.titulo)}${cfgDono() ? (ehVisivelParaTodos(c.id) ? ' <span class="selo-vis" title="Visível para todos">👁</span>' : ' <span class="selo-vis" title="Só na sua conta">🙈</span>') : ""}${cadernoArquivado(c.id) ? ' <span class="selo-vis">📦</span>' : ""}</span>
         <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões · ${c.assuntos.length} assuntos</span>
         <span class="barra-prog" aria-hidden="true"><span style="width:${e.total ? Math.round(100 * e.resolvidas / e.total) : 0}%"></span></span>
         <span class="lei-verif">Rodada atual: ${e.resolvidas} de ${e.total} resolvidas · Histórico: ${e.acertosTotal} acertos e ${e.errosTotal} erros${e.respostas ? ` (${e.pctTotal}%)` : ""}</span>
@@ -220,7 +225,7 @@ function menuCaderno(id) {
       <button id="c-mover">📁 Mover para pasta…</button>
       <button id="c-drive">☁️ Enviar ao Google Drive</button>
       <button id="c-baixar">⬇️ Baixar o caderno (arquivo para passar a outra pessoa)</button>
-      ${c.local ? '<button id="c-publicar">📤 Publicar este caderno para todos (dono do app)</button><button id="c-excluir" style="color:var(--alt)">🗑 Mandar este caderno para a lixeira</button>' : ""}
+      ${botoesCadernoExtras(id)}
       <button id="c-redefinir">Redefinir o caderno inteiro (todas voltam a ficar sem resposta)</button>
     </div>
     <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
@@ -232,11 +237,7 @@ function menuCaderno(id) {
     try { await exportarCadernoParaDrive(id); b.textContent = "✓ Enviado para Leitor de Legislação › Cadernos de questões"; }
     catch (e) { b.disabled = false; b.textContent = "⚠️ " + e.message; }
   };
-  if ($("#c-publicar")) $("#c-publicar").onclick = () => prepararPublicacaoCaderno(id);
-  if ($("#c-excluir")) $("#c-excluir").onclick = async () => {
-    await cadernoParaLixeira(id); fecharPainel(); volta();
-    mostrarAvisoRapido("🗑 O caderno foi para a lixeira (dá para restaurar por 30 dias)");
-  };
+  ligarCadernoExtras(id, volta);
   $("#c-redefinir").onclick = async () => {
     if (!confirm(`As ${c.questoes.length} questões de "${c.titulo}" voltam a ficar sem resposta. Suas estatísticas continuam com todos os acertos e erros. Redefinir?`)) return;
     await redefinirQuestoes(c.questoes.map(q => q.id));
@@ -629,9 +630,11 @@ async function telaAjustes() {
     </div></div></div>
   <div id="secao-armazenamento"><div class="secao"><h2>Armazenamento</h2><div class="cartao"><p class="contagem">Calculando…</p></div></div></div>
   <div class="secao"><h2>Leitura</h2><div class="cartao"><div id="ajustes-leitura"></div></div></div>
+  ${htmlSecaoDono()}
   <div class="secao"><h2>Ajuda</h2><div class="cartao"><div class="acoes" style="margin-bottom:12px"><button id="btn-apresentacao">Rever a apresentação do app</button></div></div></div>`;
   montarAjustesLeitura($("#ajustes-leitura"));
   ligarSecaoSync();
+  ligarSecaoDono();
   $("#btn-apresentacao").onclick = () => mostrarBoasVindas(0);
   $("#btn-exportar").onclick = exportarBackup;
   $("#btn-importar").onclick = () => $("#entrada-backup").click();

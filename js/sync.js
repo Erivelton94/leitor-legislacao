@@ -5,7 +5,7 @@
      o app envia o que mudou e traz o que mudou nos outros aparelhos.
    - Em cada item vale a versão mais recente (igual ao "juntar" do backup).
    - Arquivos grandes (PDF, Word, imagens) sobem uma vez só.
-   - Opcional: senha — tudo é embaralhado (AES) antes de sair do aparelho.
+   - Sem senha: assim ninguém corre o risco de perder os dados por esquecê-la.
    ===================================================================== */
 // ID do cliente Google do app (criado pelo dono do app no Google Cloud; veja as instruções).
 const GOOGLE_CLIENT_ID = "556131873310-ogmdl7uhvtpi0v0qggqs2l4krkd8dg1c.apps.googleusercontent.com";
@@ -143,16 +143,11 @@ async function chaveDaSenha(senha, sal) {
   const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(senha), "PBKDF2", false, ["deriveKey"]);
   return crypto.subtle.deriveKey({ name: "PBKDF2", salt: sal, iterations: 150000, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]);
 }
-async function cifrar(bytes) {
-  if (!sync.chave) return bytes;
-  const iv = crypto.getRandomValues(new Uint8Array(12));
-  const c = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, sync.chave, bytes));
-  const out = new Uint8Array(4 + 12 + c.length); out.set(MARCA_CIFRA); out.set(iv, 4); out.set(c, 16); return out;
-}
+async function cifrar(bytes) { return bytes; }           // a proteção por senha foi removida do app
 async function decifrar(bytes) {
   const cifrado = bytes.length > 16 && MARCA_CIFRA.every((v, i) => bytes[i] === v);
   if (!cifrado) return bytes;
-  if (!sync.chave) { const e = new Error("Os dados na nuvem estão protegidos por senha. Informe a senha em Configurações → Sincronização."); e.senha = true; throw e; }
+  if (!sync.chave) { const e = new Error("Os dados na nuvem ainda estão com a senha antiga. Toque em ☁️🔒 para removê-la."); e.senha = true; throw e; }
   try { return new Uint8Array(await crypto.subtle.decrypt({ name: "AES-GCM", iv: bytes.subarray(4, 16) }, sync.chave, bytes.subarray(16))); }
   catch { const e = new Error("Senha da sincronização incorreta."); e.senha = true; throw e; }
 }
@@ -161,19 +156,29 @@ const deBytes = b => JSON.parse(new TextDecoder().decode(b));
 async function prepararSenha(p, lista) {
   const c = cfgSync();
   sync.chave = null;
-  if (lista.has("cripto.json")) {
-    const info = deBytes(await p.baixar("cripto.json"));
-    if (!c.senha) { const e = new Error("Os dados na nuvem estão protegidos por senha. Informe a senha em Configurações → Sincronização."); e.senha = true; throw e; }
-    sync.chave = await chaveDaSenha(c.senha, base64ParaBytes(info.sal));
-    const teste = new TextDecoder().decode(await decifrar(base64ParaBytes(info.teste)));
-    if (teste !== "leitor-ok") throw new Error("Senha da sincronização incorreta.");
-  } else if (c.senha) {
-    const sal = crypto.getRandomValues(new Uint8Array(16));
-    sync.chave = await chaveDaSenha(c.senha, sal);
-    const teste = await cifrar(new TextEncoder().encode("leitor-ok"));
-    const r = await p.enviar("cripto.json", paraBytes({ sal: bytesParaBase64(sal), teste: bytesParaBase64(teste), criadoEm: agoraISO() }), null);
-    lista.set("cripto.json", r);
+  if (!lista.has("cripto.json")) {                       // nuvem sem senha: só limpa a senha antiga guardada no aparelho
+    if (c.senha !== undefined) { delete c.senha; gravarLS("sync-config", c); }
+    return;
   }
+  // a nuvem foi protegida por senha numa versão anterior: remove a proteção, uma única vez
+  const senha = c.senha || lerLS("sync-senha-antiga", "");
+  if (!senha) { const e = new Error("Os dados na nuvem ainda estão com a senha antiga. Toque em ☁️🔒 e digite essa senha uma última vez para removê-la."); e.senha = true; throw e; }
+  const info = deBytes(await p.baixar("cripto.json"));
+  sync.chave = await chaveDaSenha(senha, base64ParaBytes(info.sal));
+  const teste = new TextDecoder().decode(await decifrar(base64ParaBytes(info.teste)));
+  if (teste !== "leitor-ok") { localStorage.removeItem("sync-senha-antiga"); throw Object.assign(new Error("Senha antiga incorreta."), { senha: true }); }
+  let n = 0;
+  for (const [caminho, ref] of [...lista]) {
+    if (caminho === "cripto.json" || caminho === "reset.json" || !/^(config|itens|resumos)\.json$|^(resumos|arquivos|imagens|cadernos)\//.test(caminho)) continue;
+    const bruto = await p.baixar(caminho);
+    if (!(bruto.length > 16 && MARCA_CIFRA.every((v, k) => bruto[k] === v))) continue;
+    atualizarIndicadorSync("rodando", `Removendo a senha: ${++n}…`);
+    lista.set(caminho, await p.enviar(caminho, await decifrar(bruto), ref));
+  }
+  await p.apagar("cripto.json", lista.get("cripto.json"));
+  lista.delete("cripto.json");
+  sync.chave = null;
+  delete c.senha; gravarLS("sync-config", c); localStorage.removeItem("sync-senha-antiga");
 }
 
 /* ---------- a sincronização em si ---------- */
@@ -370,8 +375,25 @@ function atualizarIndicadorSync(situacao, detalhe) {
   b.title = detalhe || { ok: "Sincronizado", rodando: "Sincronizando…", pendente: "Alterações serão enviadas em instantes", offline: "Sem internet: envia quando voltar",
     erro: "Erro na sincronização (toque para ver)", reconectar: "Toque para reconectar ao Google", senha: "Informe a senha da sincronização" }[situacao] || "";
 }
+function painelSenhaAntiga() {
+  abrirPainel(`<h2>Remover a senha antiga ${botaoFechar}</h2>
+    <p>A proteção por senha foi retirada do app, para ninguém correr o risco de perder os dados por esquecer a senha.</p>
+    <p class="contagem">Os seus dados na nuvem ainda estão com a senha que você usava. Digite essa senha <strong>uma última vez</strong>: o app tira a proteção e, depois disso, nenhum aparelho seu vai pedir senha.</p>
+    <input class="campo" id="senha-antiga" type="password" placeholder="Senha antiga">
+    <div class="acoes"><button class="botao primario" id="senha-antiga-ok">Remover a senha</button></div><p class="contagem" id="senha-antiga-msg"></p>`);
+  $("#senha-antiga-ok").onclick = async () => {
+    const v = $("#senha-antiga").value; if (!v) return;
+    gravarLS("sync-senha-antiga", v);
+    $("#senha-antiga-msg").textContent = "Removendo a senha e sincronizando…";
+    await sincronizar("remover senha");
+    const e = estSync();
+    if (e.erro) $("#senha-antiga-msg").textContent = "⚠️ " + e.erro;
+    else { fecharPainel(); mostrarAvisoRapido("🔓 Senha removida: a sincronização segue sem senha"); if (location.hash.startsWith("#/ajustes")) telaAjustes(); }
+  };
+}
 async function tocarIndicadorSync() {
   const b = $("#btn-sync");
+  if (b.dataset.situacao === "senha") return painelSenhaAntiga();
   if (b.dataset.situacao === "reconectar") {
     try { await conectarGoogle(false); sincronizar("reconectou"); } catch (e) { alert(e.message); }
     return;
@@ -393,20 +415,19 @@ function htmlSecaoSync() {
   </div></div>`;
   const venc = c.tokenExpira ? Math.floor((Date.parse(c.tokenExpira.replace(" UTC", "Z").replace(" ", "T")) - Date.now()) / 864e5) : null;
   return `<div class="secao" id="secao-sync"><h2>☁️ Sincronização automática</h2><div class="cartao">
-    <p>Conectado ao <strong>${c.provedor === "google" ? "Google Drive" : "GitHub · " + esc(c.repo)}</strong>${c.senha ? " · 🔒 protegido por senha" : ""}.</p>
+    <p>Conectado ao <strong>${c.provedor === "google" ? "Google Drive" : "GitHub · " + esc(c.repo)}</strong>.</p>
     <p class="contagem">${e.ultimaEm ? `Última sincronização: ${esc(dataHora(e.ultimaEm))}.` : "Ainda não sincronizou."} ${e.erro ? `<br><span class="alerta">⚠️ ${esc(e.erro)}</span>` : ""}
       ${venc !== null && venc < 15 ? `<br><span class="alerta">A chave do GitHub vence em ${venc} dia(s). Gere uma nova e troque aqui.</span>` : ""}</p>
     <div class="acoes" style="margin-bottom:12px">
       <button class="botao primario" id="sync-agora">Sincronizar agora</button>
       ${c.provedor === "github" ? '<button class="botao" id="sync-trocar-chave">Trocar a chave</button>' : '<button class="botao" id="sync-reconectar">Reconectar ao Google</button>'}
-      <button class="botao" id="sync-senha">${c.senha ? "Trocar a senha neste aparelho" : "Informar senha (se a nuvem tiver)"}</button>
       <button class="botao" id="sync-desligar" style="color:var(--alt)">Desconectar este aparelho</button>
     </div>
     <p class="contagem">Desconectar não apaga nada: nem neste aparelho, nem na nuvem.</p>
   </div></div>`;
 }
 function ligarSecaoSync() {
-  const c = cfgSync();
+  const c = cfgSync(), e = estSync();
   if (!c) {
     $("#sync-github").onclick = () => painelConectarGitHub();
     $("#sync-google").onclick = () => painelConectarGoogle();
@@ -415,11 +436,8 @@ function ligarSecaoSync() {
   $("#sync-agora").onclick = async () => { $("#sync-agora").textContent = "Sincronizando…"; await sincronizar("manual"); telaAjustes(); };
   if ($("#sync-trocar-chave")) $("#sync-trocar-chave").onclick = () => painelConectarGitHub(c);
   if ($("#sync-reconectar")) $("#sync-reconectar").onclick = async () => { try { await conectarGoogle(false); await sincronizar("reconectou"); telaAjustes(); } catch (e) { alert(e.message); } };
-  $("#sync-senha").onclick = () => {
-    const s = prompt("Senha da sincronização (a mesma em todos os seus aparelhos). Deixe em branco para não usar senha:", "");
-    if (s === null) return;
-    const cc = cfgSync(); cc.senha = s || ""; gravarLS("sync-config", cc); sincronizar("senha").then(telaAjustes);
-  };
+  if (e.erro && /senha antiga/.test(e.erro) && $("#sync-agora")) $("#sync-agora").insertAdjacentHTML("afterend", '<button class="botao" id="sync-remover-senha">🔓 Remover a senha antiga</button>');
+  if ($("#sync-remover-senha")) $("#sync-remover-senha").onclick = () => painelSenhaAntiga();
   $("#sync-desligar").onclick = () => {
     if (!confirm("Desconectar este aparelho da nuvem? Nada é apagado; ele só deixa de sincronizar.")) return;
     localStorage.removeItem("sync-config"); localStorage.removeItem("sync-estado"); localStorage.removeItem("google-token");
@@ -438,9 +456,6 @@ function painelConectarGitHub(atual) {
     <input class="campo" id="gh-repo" placeholder="SeuUsuario/meus-estudos-dados" value="${esc(atual?.repo || "")}" autocapitalize="off" autocorrect="off">
     <label class="contagem">Chave (token)</label>
     <input class="campo" id="gh-token" type="password" placeholder="github_pat_…" autocapitalize="off" autocorrect="off">
-    <label class="contagem">Senha para proteger os dados (opcional)</label>
-    <input class="campo" id="gh-senha" type="password" placeholder="Deixe em branco para não usar" value="${esc(atual?.senha || "")}">
-    <p class="contagem">Com senha, tudo é embaralhado antes de sair do aparelho; nem quem abrir o repositório consegue ler. Use a mesma senha nos outros aparelhos. Se esquecer a senha, os dados da nuvem ficam ilegíveis (os do aparelho continuam).</p>
     <div class="acoes"><button class="botao primario" id="gh-conectar">Conectar</button></div><p id="gh-msg" class="contagem"></p>`);
   $("#gh-conectar").onclick = async () => {
     const repo = $("#gh-repo").value.trim().replace(/^https?:\/\/github\.com\//, "").replace(/\/$/, "");
@@ -451,7 +466,7 @@ function painelConectarGitHub(atual) {
       const info = await provedorGitHub({ repo, token }).preparar();
       if (!info.private) { if (!confirm("Atenção: esse repositório é PÚBLICO, e qualquer pessoa poderia ver seus dados. Continuar mesmo assim? (Recomendado: torná-lo privado nas configurações do repositório.)")) { $("#gh-conectar").disabled = false; $("#gh-msg").textContent = ""; return; } }
       if (info.permissions && info.permissions.push === false) throw new Error("A chave não tem permissão de escrita. Em Contents, escolha Read and write.");
-      gravarLS("sync-config", { provedor: "github", repo, token, senha: $("#gh-senha").value, conectadoEm: agoraISO() });
+      gravarLS("sync-config", { provedor: "github", repo, token, conectadoEm: agoraISO() });
       gravarLS("sync-estado", { hashes: {}, locais: {} });
       $("#gh-msg").textContent = "Conectado. Fazendo a primeira sincronização (pode levar alguns minutos se houver muitos arquivos)…";
       await sincronizar("primeira");
@@ -465,14 +480,12 @@ function painelConectarGoogle() {
   abrirPainel(`<h2>Entrar com Google ${botaoFechar}</h2>
     <p>Os dados ficam numa <strong>pasta escondida do seu Google Drive</strong>, que só este app acessa (não aparece entre os seus arquivos e não mexe em nada deles).</p>
     <p class="contagem">Por segurança, o Google mantém a conexão por 1 hora. Depois disso, o ícone ☁️↻ aparece no topo: um toque reconecta. As suas edições nunca se perdem — ficam no aparelho e sobem na próxima conexão.</p>
-    <label class="contagem">Senha para proteger os dados (opcional)</label>
-    <input class="campo" id="go-senha" type="password" placeholder="Deixe em branco para não usar">
     <div class="acoes"><button class="botao primario" id="go-conectar">Entrar com Google</button></div><p id="go-msg" class="contagem"></p>`);
   $("#go-conectar").onclick = async () => {
     $("#go-msg").textContent = "Abrindo o Google…";
     try {
       await conectarGoogle(true);
-      gravarLS("sync-config", { provedor: "google", senha: $("#go-senha").value, conectadoEm: agoraISO() });
+      gravarLS("sync-config", { provedor: "google", conectadoEm: agoraISO() });
       gravarLS("sync-estado", { hashes: {}, locais: {} });
       $("#go-msg").textContent = "Conectado. Fazendo a primeira sincronização…";
       await sincronizar("primeira");

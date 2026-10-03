@@ -104,6 +104,7 @@ async function rotearTela() {
   $("#conteudo").classList.remove("modo-leitor");
   if (partes[0] === "alteracoes" && partes[1]) return telaAlteracoes(partes[1]);
   if (partes[0] === "pesquisar") return telaPesquisar();
+  if (partes[0] === "questoes" && partes[1] === "arquivados") return telaQuestoesArquivadas();
   if (partes[0] === "questoes") return telaQuestoes(partes[1] === "pasta" ? partes[2] : null);
   if (partes[0] === "estatisticas") return telaEstatisticasGerais();
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);

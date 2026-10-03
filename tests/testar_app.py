@@ -219,13 +219,13 @@ async def testes(b):
         await pg_.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}'))")
         await pg_.evaluate("fecharPainel()"); await pg_.goto(U + "#/acervo"); await pg_.wait_for_timeout(500)
         await pg_.goto(U + "#/ajustes"); await pg_.wait_for_timeout(1000)
-        await pg_.click("#sync-github"); await pg_.fill("#gh-repo", "Eu/dados"); await pg_.fill("#gh-token", github_falso.TOKEN); await pg_.fill("#gh-senha", senha)
+        await pg_.click("#sync-github"); await pg_.fill("#gh-repo", "Eu/dados"); await pg_.fill("#gh-token", github_falso.TOKEN)
         await pg_.click("#gh-conectar"); await pg_.wait_for_timeout(6000)
-    await conectar(pg, "senha-teste")
-    embaralhado = all(v[:4] == b"LLC1" for k, v in github_falso.ARQUIVOS.items() if k != "cripto.json")
-    confere("Sincronização envia tudo protegido pela senha", len(github_falso.ARQUIVOS) >= 4 and embaralhado, f"{len(github_falso.ARQUIVOS)} arquivos na nuvem")
+    await conectar(pg, "")
+    legivel = not any(v[:4] == b"LLC1" for v in github_falso.ARQUIVOS.values()) and "cripto.json" not in github_falso.ARQUIVOS
+    confere("Sincronização envia tudo (sem senha)", len(github_falso.ARQUIVOS) >= 4 and legivel, f"{len(github_falso.ARQUIVOS)} arquivos na nuvem")
     ctx5, pg5 = await novo_aparelho(b, 820, 1180, leis=())
-    await conectar(pg5, "senha-teste")
+    await conectar(pg5, "")
     iguais = await pg5.evaluate("[...estado.itens.values()].filter(i=>!i.apagado).length") == await pg.evaluate("[...estado.itens.values()].filter(i=>!i.apagado).length")
     confere("Outro aparelho recebe tudo da nuvem", iguais and await pg5.evaluate("(async()=>(await bdTodos('arquivos')).length)()") == 2)
     await pg5.evaluate("salvarItem({id:'sinc-1',tipo:'anotacao',lei:'lep',art:'1',nota:'do outro aparelho',criadoEm:agoraISO()})")
@@ -276,7 +276,7 @@ async def testes(b):
     await pg8.evaluate("""(async()=>{ await salvarItem({id:'g9',tipo:'grifo',lei:'lep',art:'1',cor:'verde',texto:'x',criadoEm:agoraISO()});
       await salvarItem({id:'t9',tipo:'tinta',lei:'lep',art:'1',fonte:19,tracos:[{id:'z',pts:[0,0,9,9],cor:'#000',esp:2}],carimbos:[]}); })()""")
     await pg8.goto(U + "#/ajustes"); await pg8.wait_for_timeout(1800)
-    await pg8.click("#arm-marcacoes"); await pg8.check("#apagar-todas"); await pg8.click("#confirmar-apagar-todas"); await pg8.wait_for_timeout(1200)
+    await pg8.click("#arm-leis"); await pg8.click("#leis-marcacoes"); await pg8.wait_for_timeout(1200)
     confere("Armazenamento: apagar grifos, caneta e ícones", await pg8.evaluate("itens('grifo').length + itens('tinta').length") == 0 and await pg8.evaluate("Object.keys(lerLS('info-leis',{})).length") == 2)
     await ctx8.close()
 
@@ -288,7 +288,7 @@ async def testes(b):
     ctx10, pg10 = await novo_aparelho(b, leis=()); await conectar(pg10, "")
     await pg9.goto(U + "#/acervo"); await pg9.goto(U + "#/ajustes"); await pg9.wait_for_timeout(1800)
     ordem_arm = [t.strip() for t in await pg9.locator("#secao-armazenamento .linha-arm strong").all_inner_texts()]
-    confere("Armazenamento na ordem pedida", ordem_arm[:3] == ["Textos das leis", "Minhas marcações e anotações", "Cadernos de questões importados"], ordem_arm)
+    confere("Armazenamento com Leis, Questões e Resumos", ordem_arm[:3] == ["Leis", "Questões", "Resumos"], ordem_arm)
     await pg9.evaluate("() => { window.prompt = () => 'APAGAR'; }")
     await pg9.click("#arm-tudo"); await pg9.wait_for_timeout(5000)
     a_ok = await pg9.evaluate("estado.itens.size") == 0 and await pg9.evaluate("!!cfgSync()")
@@ -296,6 +296,50 @@ async def testes(b):
     b_ok = await pg10.evaluate("estado.itens.size") == 0 and await pg10.evaluate("!!cfgSync()")
     confere("Apagar todos os dados: conta vazia, sem desconectar, também no outro aparelho", a_ok and b_ok and "README.md" in github_falso.ARQUIVOS)
     await ctx9.close(); await ctx10.close()
+
+    # 17) Quem usava senha numa versão anterior: a senha é removida e os dados continuam
+    github_falso.ARQUIVOS.clear()
+    ctx11, pg11 = await novo_aparelho(b, leis=())
+    await pg11.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}'))")
+    await pg11.evaluate("""(async()=>{                       // monta uma nuvem como a da versão antiga, com senha
+      gravarLS('sync-config', {provedor:'github', repo:'Eu/d', token:'""" + github_falso.TOKEN + """', senha:'velha'});
+      const p = provedorAtual(); await p.preparar();
+      const sal = crypto.getRandomValues(new Uint8Array(16)); const k = await chaveDaSenha('velha', sal);
+      const enc = async b => { const iv = crypto.getRandomValues(new Uint8Array(12)); const c = new Uint8Array(await crypto.subtle.encrypt({name:'AES-GCM', iv}, k, b));
+        const o = new Uint8Array(16 + c.length); o.set(MARCA_CIFRA); o.set(iv, 4); o.set(c, 16); return o; };
+      await p.enviar('cripto.json', paraBytes({sal: bytesParaBase64(sal), teste: bytesParaBase64(await enc(new TextEncoder().encode('leitor-ok')))}), null);
+      await p.enviar('itens.json', await enc(paraBytes([{id:'velho', tipo:'anotacao', lei:'lep', art:'1', nota:'feita com senha', atualizadoEm:'2026-01-01T00:00:00'}])), null);
+      gravarLS('sync-estado', {hashes:{}, locais:{}});
+    })()""")
+    await pg11.evaluate("sincronizar('teste')"); await pg11.wait_for_timeout(4000)
+    sem_cifra = "cripto.json" not in github_falso.ARQUIVOS and not github_falso.ARQUIVOS["itens.json"].startswith(b"LLC1")
+    confere("Senha antiga removida sem perder dados", sem_cifra and await pg11.evaluate("(estado.itens.get('velho')||{}).nota") == "feita com senha"
+            and await pg11.evaluate("cfgSync().senha === undefined"))
+    await ctx11.close()
+
+    # 18) Dono do app: visível para outros (publica/despublica), arquivar e excluir cadernos e pastas
+    github_falso.ARQUIVOS.clear()
+    github_falso.ARQUIVOS["dados/questoes/indice.json"] = json.dumps({"cadernos": []}).encode()
+    ctx12, pg12 = await novo_aparelho(b)
+    await pg12.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}')); localStorage.setItem('dono-config', JSON.stringify({{repo:'Erivelton94/leitor-legislacao', token:'{github_falso.TOKEN}'}}))")
+    await pg12.goto(U + "#/questoes"); await pg12.wait_for_timeout(1500)
+    await pg12.click("#importar-caderno"); await pg12.set_input_files("#impq-arq", os.path.join(FIX, "caderno-teste.pdf"))
+    await pg12.wait_for_selector("#impq-salvar", timeout=60000); await pg12.click("#impq-salvar"); await pg12.wait_for_timeout(1200); await pg12.evaluate("fecharPainel()")
+    cid = await pg12.evaluate("Object.values(estado.cadernos).find(c=>c.local).id")
+    await pg12.evaluate(f"menuCaderno('{cid}')"); await pg12.click("#c-visivel"); await pg12.wait_for_timeout(2500)
+    publicado = f"dados/questoes/{cid}.json" in github_falso.ARQUIVOS and cid in github_falso.ARQUIVOS["dados/questoes/indice.json"].decode()
+    await pg12.evaluate(f"menuCaderno('{cid}')"); await pg12.click("#c-visivel"); await pg12.wait_for_timeout(2500)
+    despublicado = f"dados/questoes/{cid}.json" not in github_falso.ARQUIVOS and cid not in github_falso.ARQUIVOS["dados/questoes/indice.json"].decode() and await pg12.evaluate(f"!!estado.cadernos['{cid}']")
+    confere("Dono: ligar e desligar “visível para outros usuários”", publicado and despublicado)
+    await pg12.evaluate(f"menuCaderno('{cid}')"); await pg12.click("#c-arquivar"); await pg12.wait_for_timeout(1200)
+    some = await pg12.locator(f"[data-menu-cad='{cid}']").count() == 0
+    await pg12.goto(U + "#/questoes/arquivados"); await pg12.wait_for_timeout(800)
+    confere("Arquivar caderno: some da lista e aparece em Arquivados", some and await pg12.locator(f"[data-menu-cad='{cid}']").count() == 1)
+    await pg12.evaluate(f"(async()=>{{ await arquivarCaderno('{cid}', false); const p = await salvarItem({{id:'pq1', tipo:'pasta', area:'questoes', nome:'Teste', leis:[], cadernos:['{cid}']}}); }})()")
+    await pg12.goto(U + "#/questoes"); await pg12.wait_for_timeout(800)
+    await pg12.click("[data-menu-pasta='pq1']"); await pg12.click("#pq-apagar-tudo"); await pg12.wait_for_timeout(1500)
+    confere("Excluir pasta de questões leva os cadernos para a lixeira", await pg12.evaluate(f"!estado.cadernos['{cid}'] && itensDaLixeira().cads.length === 1"))
+    await ctx12.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])
