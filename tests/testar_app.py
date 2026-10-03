@@ -317,6 +317,16 @@ async def testes(b):
             and await pg11.evaluate("cfgSync().senha === undefined"))
     await ctx11.close()
 
+    # 17b) Seção "Dono do app" escondida; aparece com 15 toques no título "Configurações"
+    ctx13, pg13 = await novo_aparelho(b, leis=())
+    await pg13.goto(U + "#/ajustes"); await pg13.wait_for_timeout(1200)
+    escondida = await pg13.locator("#secao-dono").count() == 0
+    for _ in range(14): await pg13.click("#titulo"); await pg13.wait_for_timeout(60)
+    ainda = await pg13.locator("#secao-dono").count() == 0
+    await pg13.click("#titulo"); await pg13.wait_for_timeout(500)
+    confere("Dono do app: escondido e revelado com 15 toques no título", escondida and ainda and await pg13.locator("#secao-dono").count() == 1)
+    await ctx13.close()
+
     # 18) Dono do app: visível para outros (publica/despublica), arquivar e excluir cadernos e pastas
     github_falso.ARQUIVOS.clear()
     github_falso.ARQUIVOS["dados/questoes/indice.json"] = json.dumps({"cadernos": []}).encode()

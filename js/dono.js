@@ -154,8 +154,11 @@ function menuPastaQuestoes(id, depois) {
 }
 
 /* ---------- Configurações → Dono do app ---------- */
+/* A seção só aparece para quem tocar 15 vezes seguidas no título "Configurações"
+   (ou para quem já conectou a chave de dono). Para os outros usuários, ela não existe. */
 function htmlSecaoDono() {
   const c = cfgDono();
+  if (!c && !lerLS("dono-revelado", false)) return "";
   return `<div class="secao" id="secao-dono"><h2>👑 Dono do app</h2><div class="cartao">
     ${c ? `<p>Chave de dono conectada (${esc(c.repo || REPO_APP)}). No ⋯ de cada caderno aparece “Visível para outros usuários”.</p>
       <div class="acoes" style="margin-bottom:12px"><button id="dono-sair" style="color:var(--alt)">Desconectar a chave de dono</button></div>`
@@ -164,7 +167,7 @@ function htmlSecaoDono() {
   </div></div>`;
 }
 function ligarSecaoDono() {
-  if ($("#dono-sair")) $("#dono-sair").onclick = () => { if (!confirm("Desconectar a chave de dono deste aparelho?")) return; localStorage.removeItem("dono-config"); telaAjustes(); };
+  if ($("#dono-sair")) $("#dono-sair").onclick = () => { if (!confirm("Desconectar a chave de dono deste aparelho?")) return; localStorage.removeItem("dono-config"); localStorage.removeItem("dono-revelado"); telaAjustes(); };
   if ($("#dono-conectar")) $("#dono-conectar").onclick = () => {
     abrirPainel(`<h2>Chave de dono do app ${botaoFechar}</h2>
       <ol class="passos-sync">
@@ -203,3 +206,20 @@ function telaQuestoesArquivadas() {
   if (!pastas.length && !cads.length) h += `<p class="vazio">Nada arquivado.</p>`;
   $("#conteudo").innerHTML = h;
 }
+
+/* toque secreto: 15 toques seguidos (até 1,5 s entre um e outro) no título "Configurações" */
+const toqueSecreto = { n: 0, ultimo: 0 };
+document.addEventListener("click", e => {
+  if (!e.target.closest || !e.target.closest("#titulo") || !location.hash.startsWith("#/ajustes")) return;
+  if (cfgDono() || lerLS("dono-revelado", false)) return;
+  const agora = Date.now();
+  toqueSecreto.n = agora - toqueSecreto.ultimo <= 1500 ? toqueSecreto.n + 1 : 1;
+  toqueSecreto.ultimo = agora;
+  if (toqueSecreto.n >= 15) {
+    toqueSecreto.n = 0;
+    gravarLS("dono-revelado", true);
+    telaAjustes();
+    mostrarAvisoRapido("👑 Opções de dono do app reveladas");
+    setTimeout(() => $("#secao-dono")?.scrollIntoView({ block: "center" }), 400);
+  }
+});
