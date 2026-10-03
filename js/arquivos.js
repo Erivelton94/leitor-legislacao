@@ -329,17 +329,40 @@ function htmlArmazenamento(m) {
     <div class="linha-arm"><div><strong>Resumos</strong><br><span class="contagem">${m.nResumos} resumo(s) com arquivos e edições · ${mb(m.resumos)}</span></div><button id="arm-resumos" ${m.nResumos ? "" : "disabled"}>Apagar</button></div>
     <div class="linha-arm"><div><strong>Cadernos de questões importados</strong><br><span class="contagem">${m.nCadernos} caderno(s) · ${mb(m.cadernos)} · o histórico de respostas continua</span></div><button id="arm-cadernos" ${m.nCadernos ? "" : "disabled"}>Apagar</button></div>
     <div class="linha-arm"><div><strong>🗑 Lixeira</strong><br><span class="contagem">${itensDaLixeira().total} item(ns) · somem sozinhos depois de 30 dias</span></div><a class="botao" href="#/lixeira" style="text-decoration:none">Abrir</a></div>
-    <div class="linha-arm"><div><strong>Marcações e imagens</strong><br><span class="contagem">grifos, anotações, desenhos, respostas · ${mb(m.marcacoes + m.imagens)}</span></div><span class="contagem">—</span></div>
+    <div class="linha-arm"><div><strong>Marcações e imagens</strong><br><span class="contagem">grifos, anotações, desenhos, ícones, favoritos, respostas · ${mb(m.marcacoes + m.imagens)}</span></div><button id="arm-marcacoes">Apagar…</button></div>
     <div class="acoes" style="margin:14px 0 6px"><button id="arm-tudo" style="color:var(--alt)">Apagar tudo do app neste aparelho…</button></div>
     <p class="contagem">${cfgSync() ? "Com a sincronização ligada, apagar resumos ou cadernos também apaga nos seus outros aparelhos. “Apagar tudo” desconecta este aparelho e mantém a cópia na nuvem." : "Faça um backup antes de apagar, se quiser poder recuperar."}</p>
   </div></div>`;
 }
 function ligarArmazenamento() {
-  $("#arm-leis").onclick = async () => {
-    if (!confirm("Apagar os textos das leis deste aparelho? Suas anotações, grifos e desenhos continuam guardados; as leis voltam a ser baixadas quando você abrir cada uma.")) return;
-    const cache = await caches.open(CACHE_DADOS);
-    for (const req of await cache.keys()) if (req.url.includes("/dados/leis/")) await cache.delete(req);
-    estado.leis = {}; telaAjustes();
+  $("#arm-leis").onclick = () => {
+    const deLei = i => !String(i.lei || "").startsWith("resumo:");
+    const marcas = [...itens("grifo"), ...itens("anotacao"), ...itens("tinta", i => deLei(i) && temConteudo(i)), ...itens("favorito", i => i.alvo !== "questao")];
+    abrirPainel(`<h2>Textos das leis ${botaoFechar}</h2>
+      <p class="contagem" style="margin-top:0">Escolha o que apagar neste aparelho:</p>
+      <div class="acoes">
+        <button id="leis-so-texto">Apagar só os textos das leis<br><span class="contagem">Libera espaço. Os seus grifos, anotações e desenhos continuam, e o texto é baixado de novo quando você abrir a lei.</span></button>
+        <button id="leis-marcacoes" ${marcas.length ? "" : "disabled"} style="color:var(--alt)">Apagar as minhas marcações nas leis (${marcas.length})<br><span class="contagem">Grifos, anotações, caneta, marca-texto, ícones e favoritos de todas as leis. As leis continuam no acervo.</span></button>
+        <button id="leis-tudo" style="color:var(--alt)">Apagar os textos e as minhas marcações nas leis</button>
+      </div><p class="contagem">As marcações apagadas não passam pela lixeira. Se quiser poder voltar atrás, faça antes um backup completo.</p>`);
+    const apagarTextos = async () => {
+      const cache = await caches.open(CACHE_DADOS);
+      for (const req of await cache.keys()) if (req.url.includes("/dados/leis/")) await cache.delete(req);
+      estado.leis = {};
+    };
+    const apagarMarcas = async () => {
+      for (const i of marcas) await apagarItem(i.id);
+      versaoItens++;
+    };
+    $("#leis-so-texto").onclick = async () => { await apagarTextos(); fecharPainel(); mostrarAvisoRapido("Textos das leis apagados (as marcações continuam)"); telaAjustes(); };
+    $("#leis-marcacoes").onclick = async () => {
+      if (!confirm(`Apagar ${marcas.length} marcação(ões) de todas as leis? Não dá para desfazer sem um backup.`)) return;
+      await apagarMarcas(); fecharPainel(); mostrarAvisoRapido(`🗑 ${marcas.length} marcação(ões) das leis apagada(s)`); telaAjustes();
+    };
+    $("#leis-tudo").onclick = async () => {
+      if (!confirm(`Apagar os textos das leis e as ${marcas.length} marcação(ões) que você fez nelas? Não dá para desfazer sem um backup.`)) return;
+      await apagarMarcas(); await apagarTextos(); fecharPainel(); mostrarAvisoRapido("Textos e marcações das leis apagados"); telaAjustes();
+    };
   };
   $("#arm-resumos").onclick = async () => {
     await carregarResumos();
@@ -357,6 +380,7 @@ function ligarArmazenamento() {
     gravarLS("cadernos-locais", locais.map(c => ({ ...c, apagado: true, atualizadoEm: agoraISO() })));
     await carregarQuestoes(); telaAjustes();
   };
+  $("#arm-marcacoes").onclick = () => painelApagarTodasMarcacoes();
   $("#arm-tudo").onclick = async () => {
     if (!confirm("Apagar TUDO do app neste aparelho? Leis, marcações, respostas, cadernos, resumos e preferências. O app volta a ficar como novo." + (cfgSync() ? "\n\nA cópia na nuvem NÃO é apagada: este aparelho só é desconectado, e você pode recuperar tudo conectando de novo." : "")) ) return;
     const confirma = prompt('Para confirmar, digite APAGAR:');
@@ -368,5 +392,53 @@ function ligarArmazenamento() {
     for (const k of doApp) localStorage.removeItem(k);
     sessionStorage.clear();
     location.hash = "#/acervo"; location.reload();
+  };
+}
+
+/* apagar marcações de TODAS as leis, dos resumos e das questões, escolhendo o tipo */
+function painelApagarTodasMarcacoes() {
+  const deResumo = i => String(i.lei || "").startsWith("resumo:");
+  const grupos = [
+    ["grifo", "Grifos das leis", () => itens("grifo")],
+    ["anotacao", "Anotações das leis (e as imagens delas)", () => itens("anotacao")],
+    ["tinta-lei", "Caneta, marca-texto e ícones nas leis", () => itens("tinta", i => !deResumo(i) && temConteudo(i))],
+    ["fav-lei", "Favoritos (leis, artigos e trechos)", () => itens("favorito", i => i.alvo !== "questao")],
+    ["tinta-res", "Caneta, marca-texto, ícones e imagens nos resumos", () => itens("tinta", i => deResumo(i) && temConteudo(i))],
+    ["resposta", "Respostas das questões (histórico e estatísticas)", () => [...itens("resposta"), ...itens("reset")]],
+    ["questao-extra", "Comentários e favoritos das questões", () => [...itens("notaq"), ...itens("favorito", i => i.alvo === "questao")]],
+  ];
+  abrirPainel(`<h2>Apagar marcações ${botaoFechar}</h2>
+    <p class="contagem" style="margin-top:0">Vale para todas as leis, resumos e cadernos. As leis, os arquivos dos resumos e os cadernos continuam; só as marcações escolhidas são apagadas${cfgSync() ? ", também nos seus outros aparelhos sincronizados" : ""}.</p>
+    ${grupos.map(([f, rot, lista]) => { const n = lista().length; return `<label class="linha-ajuste"><span>${rot} <span class="contagem">(${n})</span></span>
+      <input type="checkbox" data-apagar-grupo="${f}" ${n ? "" : "disabled"} style="width:22px;height:22px"></label>`; }).join("")}
+    <label class="linha-ajuste" style="border:0"><span><strong>Marcar todas</strong></span><input type="checkbox" id="apagar-todas" style="width:22px;height:22px"></label>
+    <p class="contagem">Isto não passa pela lixeira. Se quiser poder voltar atrás, faça antes um backup completo (Configurações → Exportar backup completo).</p>
+    <div class="acoes" style="margin-top:10px"><button class="botao" id="confirmar-apagar-todas" style="color:var(--alt);text-align:center" disabled>Apagar as marcações selecionadas</button></div>
+    <p class="contagem" id="msg-apagar-todas"></p>`);
+  const caixas = () => $$("#painel-caixa [data-apagar-grupo]:not(:disabled)");
+  const marcados = () => caixas().filter(c => c.checked).map(c => c.dataset.apagarGrupo);
+  const atualizar = () => { $("#confirmar-apagar-todas").disabled = !marcados().length; };
+  caixas().forEach(c => c.onchange = atualizar);
+  $("#apagar-todas").onchange = e => { caixas().forEach(c => { c.checked = e.target.checked; }); atualizar(); };
+  $("#confirmar-apagar-todas").onclick = async () => {
+    const escolhidos = grupos.filter(g => marcados().includes(g[0]));
+    const lista = escolhidos.flatMap(g => g[2]());
+    if (!lista.length || !confirm(`Apagar ${lista.length} marcação(ões)? Isso não pode ser desfeito sem um backup.`)) return;
+    const b = $("#confirmar-apagar-todas"); b.disabled = true;
+    const resumosTocados = new Set();
+    let n = 0;
+    for (const i of lista) {
+      for (const f of i.figuras || []) if (f.img) await bdApagar("imagens", f.img);           // imagens colocadas por cima das páginas
+      if (i.tipo === "tinta" && String(i.lei || "").startsWith("resumo:")) resumosTocados.add(i.lei.slice(7));
+      await apagarItem(i.id);
+      if (++n % 25 === 0) $("#msg-apagar-todas").textContent = `Apagando… ${n} de ${lista.length}`;
+    }
+    for (const a of itens("anotacao", x => x.grifoId && !estado.itens.get(x.grifoId)?.tipo)) await salvarItem({ ...a, grifoId: null });
+    for (const id of resumosTocados) await bdApagar("miniaturas", id).catch(() => {});      // a miniatura é refeita sem os desenhos
+    versaoItens++;
+    if (escolhidos.some(g => g[0] === "resposta")) await carregarQuestoes();
+    fecharPainel();
+    mostrarAvisoRapido(`🗑 ${lista.length} marcação(ões) apagada(s)`);
+    telaAjustes();
   };
 }
