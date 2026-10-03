@@ -1,0 +1,448 @@
+{
+ "id": "pacto-san-jose",
+ "nome": "Pacto de San José da Costa Rica (Convenção Americana sobre Direitos Humanos)",
+ "numero": "Decreto nº 678/1992",
+ "url": "https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm",
+ "versao": "2026-10-02",
+ "hash": "2bdca6849d54a1ffee04c1281bde8fe5d0c464cb0d1d662a5afdfd6865036dce",
+ "etag": "\"22212-650289bb98125\"",
+ "last_modified": "Thu, 23 Apr 2026 23:00:01 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "DECRETO No 678, DE 6 DE NOVEMBRO DE 1992",
+  "Promulga a Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica), de 22 de novembro de 1969.",
+  "O VICE-PRESIDENTE DA REPÚBLICA , no exercício do cargo de PRESIDENTE DA REPÚBLICA , no uso da atribuição que lhe confere o art. 84, inciso VIII, da Constituição, e",
+  "Considerando que a Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica), adotada no âmbito da Organização dos Estados Americanos, em São José da Costa Rica, em 22 de novembro de 1969, entrou em vigor internacional em 18 de julho de 1978, na forma do segundo parágrafo de seu art. 74;",
+  "Considerando que o Governo brasileiro depositou a Carta de Adesão a essa Convenção em 25 de setembro de 1992;",
+  "Considerando que a Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica) entrou em vigor, para o Brasil, em 25 de setembro de 1992, de conformidade com o disposto no segundo parágrafo de seu artigo 74;",
+  "DECRETA:"
+ ],
+ "ultimo_download_completo": "2026-09-26T23:52:26-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1° A Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica), celebrada em São José da Costa Rica, em 22 de novembro de 1969, apensa por cópia ao presente Decreto, deverá ser cumprida tão inteiramente como nela se contém.",
+   "hash": "eff5bb0956b8abfcaf33fd4122cb0aee065cd2685194baa329b3ced465d6f555",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Art. 2° Ao depositar a Carta de Adesão a esse ato internacional, em 25 de setembro de 1992, o Governo brasileiro fez a seguinte declaração interpretativa: \"O Governo do Brasil entende que os artigos 43 e 48, alínea \"d\", não incluem o direito automático de visitas e inspeções in loco da Comissão Interamericana de Direitos Humanos, as quais dependerão da anuência expressa do Estado\".",
+   "hash": "e2d9b7bdd8c7b70e64d53b8b0b8a1179812af2680b585c3fca01a6aa8a379eda",
+   "ordem": 1
+  },
+  "3": {
+   "texto": "Art. 3° O presente Decreto entra em vigor na data de sua publicação.\nBrasília, 06 de novembro de 1992; 171° da Independência e 104° da República.\nITAMAR FRANCO\nFernando Henrique Cardoso\nEste texto não substitui o publicado no DOU de 9.11.1992\nDownload para anexo em PDF\nANEXO AO DECRETO QUE PROMULGA A CONVENÇÃO AMERICANA SOBRE DIREITOS HUMANOS (PACTO DE SÃO JOSE DA COSTA RICA) - MRE\nCONVENÇÃO AMERICANA SOBRE DIREITOS HUMANOS\nPREÂMBULO\nOs Estados americanos signatários da presente Convenção,\nReafirmando seu propósito de consolidar neste Continente, dentro do quadro das instituições democráticas, um regime de liberdade pessoal e de justiça social, fundado no respeito dos direitos essenciais do homem;\nReconhecendo que os direitos essenciais do homem não derivam do fato de ser ele nacional de determinado Estado, mas sim do fato de ter como fundamento os atributos da pessoa humana, razão por que justificam uma proteção internacional, de natureza convencional, coadjuvante ou complementar da que oferece o direito interno dos Estados americanos;\nConsiderando que esses princípios foram consagrados na Carta da Organização dos Estados Americanos, na Declaração Americana dos Direitos e Deveres do Homem e na Declaração Universal dos Direitos do Homem e que foram reafirmados e desenvolvidos em outros instrumentos internacionais, tanto de âmbito mundial como regional;\nReiterando que, de acordo com a Declaração Universal dos Direitos do Homem, só pode ser realizado o ideal do ser humano livre, isento do temor e da miséria, se forem criadas condições que permitam a cada pessoa gozar dos seus direitos econômicos, sociais e culturais, bem como dos seus direitos civis e políticos; e\nConsiderando que a Terceira Conferência Interamericana Extraordinária (Buenos Aires, 1967) aprovou a incorporação à própria Carta da Organização de normas mais amplas sobre direitos econômicos, sociais e educacionais e resolveu que uma convenção interamericana sobre direitos humanos determinasse a estrutura, competência e processo dos órgãos encarregados dessa matéria,\nConvieram no seguinte:\nPARTE I\nDeveres dos Estados e Direitos Protegidos\nCAPÍTULO I\nEnumeração de Deveres",
+   "hash": "3fe3bee90b0dff31f19351cd20dd7231cdd4d1c3add5f5cd76e5854ad52ae3a6",
+   "ordem": 2
+  },
+  "1#2": {
+   "texto": "ARTIGO 1\nObrigação de Respeitar os Direitos\n1. Os Estados-Partes nesta Convenção comprometem-se a respeitar os direitos e liberdades nela reconhecidos e a garantir seu livre e pleno exercício a toda pessoa que esteja sujeita à sua jurisdição, sem discriminação alguma por motivo de raça, cor, sexo, idioma, religião, opiniões políticas ou de qualquer outra natureza, origem nacional ou social, posição econômica, nascimento ou qualquer outra condição social.\n2. Para os efeitos desta Convenção, pessoa é todo ser humano.",
+   "hash": "a9c07c51898b60c82d989da631ce0c9b9d73b978bc60a2d131eae95e7ebae92f",
+   "ordem": 3
+  },
+  "2#2": {
+   "texto": "ARTIGO 2\nDever de Adotar Disposições de Direito Interno\nSe o exercício dos direitos e liberdades mencionados no artigo 1 ainda não estiver garantido por disposições legislativas ou de outra natureza, os Estados-Partes comprometem-se a adotar, de acordo com as suas normas constitucionais e com as disposições desta Convenção, as medidas legislativas ou de outra natureza que forem necessárias para tornar efetivos tais direitos e liberdades.\nCAPÍTULO II\nDireitos Civis e Políticos",
+   "hash": "62a4f284b01277a22cd98179674b302d8e5a570e6b889791be600539f0169da4",
+   "ordem": 4
+  },
+  "3#2": {
+   "texto": "ARTIGO 3\nDireito ao Reconhecimento da Personalidade Jurídica\nToda pessoa tem direito ao reconhecimento de sua personalidade jurídica.",
+   "hash": "7fc7fc2f0245d1e085a168b18e259a5441ecc929b73dada384e402c533cce942",
+   "ordem": 5
+  },
+  "4": {
+   "texto": "ARTIGO 4\nDireito à Vida\n1. Toda pessoa tem o direito de que se respeite sua vida. Esse direito deve ser protegido pela lei e, em geral, desde o momento da concepção. Ninguém pode ser privado da vida arbitrariamente.\n2. Nos países que não houverem abolido a pena de morte, esta só poderá ser imposta pelos delitos mais graves, em cumprimento de sentença final de tribunal competente e em conformidade com lei que estabeleça tal pena, promulgada antes de haver o delito sido cometido. Tampouco se estenderá sua aplicação a delitos aos quais não se aplique atualmente.\n3. Não se pode restabelecer a pena de morte nos Estados que a hajam abolido.\n4. Em nenhum caso pode a pena de morte ser aplicada por delitos políticos, nem por delitos comuns conexos com delitos políticos.\n5. Não se deve impor a pena de morte a pessoa que, no momento da perpetração do delito, for menor de dezoito anos, ou maior de setenta, nem aplicá-la a mulher em estado de gravidez.\n6. Toda pessoa condenada à morte tem direito a solicitar anistia, indulto ou comutação da pena, os quais podem ser concedidos em todos os casos. Não se pode executar a pena de morte enquanto o pedido estiver pendente de decisão ante a autoridade competente.",
+   "hash": "fdc2df7eec58b0215cacb3da1f66f72f7dc27b7df59445f5ef84153d8fd27529",
+   "ordem": 6
+  },
+  "5": {
+   "texto": "ARTIGO 5\nDireito à Integridade Pessoal\n1. Toda pessoa tem o direito de que se respeite sua integridade física, psíquica e moral.\n2. Ninguém deve ser submetido a torturas, nem a penas ou tratos cruéis, desumanos ou degradantes. Toda pessoa privada da liberdade deve ser tratada com o respeito devido à dignidade inerente ao ser humano.\n3. A pena não pode passar da pessoa do delinqüente.\n4. Os processados devem ficar separados dos condenados, salvo em circunstâncias excepcionais, e ser submetidos a tratamento adequado à sua condição de pessoas não condenadas.\n5. Os menores, quando puderem ser processados, devem ser separados dos adultos e conduzidos a tribunal especializado, com a maior rapidez possível, para seu tratamento.\n6. As penas privativas da liberdade devem ter por finalidade essencial a reforma e a readaptação social dos condenados.",
+   "hash": "e8efd3d39689b8304b6316b8fbef75f0e787e4c51b6d7010ac7526827c326305",
+   "ordem": 7
+  },
+  "6": {
+   "texto": "ARTIGO 6\nProibição da Escravidão e da Servidão\n1. Ninguém pode ser submetido a escravidão ou a servidão, e tanto estas como o tráfico de escravos e o tráfico de mulheres são proibidos em todas as formas.\n2. Ninguém deve ser constrangido a executar trabalho forçado ou obrigatório. Nos países em que se prescreve, para certos delitos, pena privativa da liberdade acompanhada de trabalhos forçados, esta disposição não pode ser interpretada no sentido de que proíbe o cumprimento da dita pena, imposta por juiz ou tribunal competente. O trabalho forçado não deve afetar a dignidade nem a capacidade física e intelectual do recluso.\n3. Não constituem trabalhos forçados ou obrigatórios para os efeitos deste artigo:\na) os trabalhos ou serviços normalmente exigidos de pessoa reclusa em cumprimento de sentença ou resolução formal expedida pela autoridade judiciária competente. Tais trabalhos ou serviços devem ser executados sob a vigilância e controle das autoridades públicas, e os indivíduos que os executarem não devem ser postos à disposição de particulares, companhias ou pessoas jurídicas de caráter privado:\nb) o serviço militar e, nos países onde se admite a isenção por motivos de consciência, o serviço nacional que a lei estabelecer em lugar daquele;\nc) o serviço imposto em casos de perigo ou calamidade que ameace a existência ou o bem-estar da comunidade; e\nd) o trabalho ou serviço que faça parte das obrigações cívicas normais.",
+   "hash": "ab9d11c30b1822c791c95bd55a48d37f16e5968af3de7537ff3022bf13448979",
+   "ordem": 8
+  },
+  "7": {
+   "texto": "ARTIGO 7\nDireito à Liberdade Pessoal\n1. Toda pessoa tem direito à liberdade e à segurança pessoais.\n2. Ninguém pode ser privado de sua liberdade física, salvo pelas causas e nas condições previamente fixadas pelas constituições políticas dos Estados-Partes ou pelas leis de acordo com elas promulgadas.\n3. Ninguém pode ser submetido a detenção ou encarceramento arbitrários.\n4. Toda pessoa detida ou retida deve ser informada das razões da sua detenção e notificada, sem demora, da acusação ou acusações formuladas contra ela.\n5. Toda pessoa detida ou retida deve ser conduzida, sem demora, à presença de um juiz ou outra autoridade autorizada pela lei a exercer funções judiciais e tem direito a ser julgada dentro de um prazo razoável ou a ser posta em liberdade, sem prejuízo de que prossiga o processo. Sua liberdade pode ser condicionada a garantias que assegurem o seu comparecimento em juízo.\n6. Toda pessoa privada da liberdade tem direito a recorrer a um juiz ou tribunal competente, a fim de que este decida, sem demora, sobre a legalidade de sua prisão ou detenção e ordene sua soltura se a prisão ou a detenção forem ilegais. Nos Estados-Partes cujas leis prevêem que toda pessoa que se vir ameaçada de ser privada de sua liberdade tem direito a recorrer a um juiz ou tribunal competente a fim de que este decida sobre a legalidade de tal ameaça, tal recurso não pode ser restringido nem abolido. O recurso pode ser interposto pela própria pessoa ou por outra pessoa.\n7. Ninguém deve ser detido por dívida. Este princípio não limita os mandados de autoridade judiciária competente expedidos em virtude de inadimplemento de obrigação alimentar.",
+   "hash": "e87b528b384f9fa63621549d0457e19a57e3821785f5b50356107ac3f4d9bafd",
+   "ordem": 9
+  },
+  "8": {
+   "texto": "ARTIGO 8\nGarantias Judiciais\n1. Toda pessoa tem direito a ser ouvida, com as devidas garantias e dentro de um prazo razoável, por um juiz ou tribunal competente, independente e imparcial, estabelecido anteriormente por lei, na apuração de qualquer acusação penal formulada contra ela, ou para que se determinem seus direitos ou obrigações de natureza civil, trabalhista, fiscal ou de qualquer outra natureza.\n2. Toda pessoa acusada de delito tem direito a que se presuma sua inocência enquanto não se comprove legalmente sua culpa. Durante o processo, toda pessoa tem direito, em plena igualdade, às seguintes garantias mínimas:\na) direito do acusado de ser assistido gratuitamente por tradutor ou intérprete, se não compreender ou não falar o idioma do juízo ou tribunal;\nb) comunicação prévia e pormenorizada ao acusado da acusação formulada;\nc) concessão ao acusado do tempo e dos meios adequados para a preparação de sua defesa;\nd) direito do acusado de defender-se pessoalmente ou de ser assistido por um defensor de sua escolha e de comunicar-se, livremente e em particular, com seu defensor;\ne) direito irrenunciável de ser assistido por um defensor proporcionado pelo Estado, remunerado ou não, segundo a legislação interna, se o acusado não se defender ele próprio nem nomear defensor dentro do prazo estabelecido pela lei;\nf) direito da defesa de inquirir as testemunhas presentes no tribunal e de obter o comparecimento, como testemunhas ou peritos, de outras pessoas que possam lançar luz sobre os fatos.\ng) direito de não ser obrigado a depor contra si mesma, nem a declarar-se culpada; e\nh) direito de recorrer da sentença para juiz ou tribunal superior.\n3. A confissão do acusado só é válida se feita sem coação de nenhuma natureza.\n4. O acusado absolvido por sentença passada em julgado não poderá se submetido a novo processo pelos mesmos fatos.\n5. O processo penal deve ser público, salvo no que for necessário para preservar os interesses da justiça.",
+   "hash": "adaefce629251440d58ac9c307daa5c252eb8922000741965c66c8582a50a1ab",
+   "ordem": 10
+  },
+  "9": {
+   "texto": "ARTIGO 9\nPrincípio da Legalidade e da Retroatividade\nNinguém pode ser condenado por ações ou omissões que, no memento em que forem cometidas, não sejam delituosas, de acordo com o direito aplicável. Tampouco se pode impor pena mais grave que a aplicável no momento da perpetração do delito. Se depois da perpetração do delito a lei dispuser a imposição de pena mais leve, o delinqüente será por isso beneficiado.",
+   "hash": "8dafc1d5ce07c65d5ab62bbb374fe5502359e9d7354cbf864324d0116936fdbe",
+   "ordem": 11
+  },
+  "10": {
+   "texto": "ARTIGO 10\nDireito a Indenização\nToda pessoa tem direito de ser indenizada conforme a lei, no caso de haver sido condenada em sentença passada em julgado, por erro judiciário.",
+   "hash": "db134cac9102c429ba2e8384c3e7802cd51af1e7cd57b6d2e8e1895b3e0a5185",
+   "ordem": 12
+  },
+  "11": {
+   "texto": "ARTIGO 11\nProteção da Honra e da Dignidade\n1. Toda pessoa tem direito ao respeito de sua honra e ao reconhecimento de sua dignidade.\n2. Ninguém pode ser objeto de ingerências arbitrárias ou abusivas em sua vida privada, na de sua família, em seu domicílio ou em sua correspondência, nem de ofensas ilegais à sua honra ou reputação.\n3. Toda pessoa tem direito à proteção da lei contra tais ingerências ou tais ofensas.",
+   "hash": "b34b94b02a00fa14a417e1ff710f01d28c30e2c74e0444b1f7cd8c2aff28176d",
+   "ordem": 13
+  },
+  "12": {
+   "texto": "ARTIGO 12\nLiberdade de Consciência e de Religião\n1. Toda pessoa tem direito à liberdade de consciência e de religião. Esse direito implica a liberdade de conservar sua religião ou suas crenças, ou de mudar de religião ou de crenças, bem como a liberdade de professar e divulgar sua religião ou suas crenças, individual ou coletivamente, tanto em público como em privado.\n2. Ninguém pode ser objeto de medidas restritivas que possam limitar sua liberdade de conservar sua religião ou suas crenças, ou de mudar de religião ou de crenças.\n3. A liberdade de manifestar a própria religião e as próprias crenças está sujeita unicamente às limitações prescritas pela lei e que sejam necessárias para proteger a segurança, a ordem, a saúde ou a moral públicas ou os direitos ou liberdades das demais pessoas.\n4. Os pais, e quando for o caso os tutores, têm direito a que seus filhos ou pupilos recebam a educação religiosa e moral que esteja acorde com suas próprias convicções.",
+   "hash": "d3344d851f90e91e6687e455a896554b16a3684117045ef0f030915cbab86b2c",
+   "ordem": 14
+  },
+  "13": {
+   "texto": "ARTIGO 13\nLiberdade de Pensamento e de Expressão\n1. Toda pessoa tem direito à liberdade de pensamento e de expressão. Esse direito compreende a liberdade de buscar, receber e difundir informações e idéias de toda natureza, sem consideração de fronteiras, verbalmente ou por escrito, ou em forma impressa ou artística, ou por qualquer outro processo de sua escolha.\n2. O exercício do direito previsto no inciso precedente não pode estar sujeito a censura prévia, mas a responsabilidades ulteriores, que devem ser expressamente fixadas pela lei a ser necessárias para assegurar:\na) o respeito aos direitos ou à reputação das demais pessoas; ou\nb) a proteção da segurança nacional, da ordem pública, ou da saúde ou da moral públicas.\n3. Não se pode restringir o direito de expressão por vias ou meios indiretos, tais como o abuso de controles oficiais ou particulares de papel de imprensa, de freqüências radioelétricas ou de equipamentos e aparelhos usados na difusão de informação, nem por quaisquer outros meios destinados a obstar a comunicação e a circulação de idéias e opiniões.\n4. A lei pode submeter os espetáculos públicos a censura prévia, com o objetivo exclusivo de regular o acesso a eles, para proteção moral da infância e da adolescência, sem prejuízo do disposto no inciso 2.\n5. A lei deve proibir toda propaganda a favor da guerra, bem como toda apologia ao ódio nacional, racial ou religioso que constitua incitação à discriminação, à hostilidade, ao crime ou à violência.",
+   "hash": "53f9f7aef5d93cef9920e0dba0cc486ed80778d0e7c312b94ce21e5f3abc4881",
+   "ordem": 15
+  },
+  "14": {
+   "texto": "ARTIGO 14\nDireito de Retificação ou Resposta\n1. Toda pessoa atingida por informações inexatas ou ofensivas emitidas em seu prejuízo por meios de difusão legalmente regulamentados e que se dirijam ao público em geral, tem direito a fazer, pelo mesmo órgão de difusão, sua retificação ou resposta, nas condições que estabeleça a lei.\n2. Em nenhum caso a retificação ou a resposta eximirão das outras responsabilidades legais em que se houver incorrido.\n3. Para a efetiva proteção da honra e da reputação, todo publicação ou empresa jornalística, cinematográfica, de rádio ou televisão, deve ter uma pessoa responsável que não seja protegida por imunidades nem goze de foro especial.",
+   "hash": "8ce5556b5c9476d9e9fb22c1a07a7e93825ad6e1bd7e0e6b2b1a4d90d33bf397",
+   "ordem": 16
+  },
+  "15": {
+   "texto": "ARTIGO 15\nDireito de Reunião\nÉ reconhecido o direito de reunião pacífica e sem armas. O exercício de tal direito só pode estar sujeito às restrições previstas pela lei e que sejam necessárias, numa sociedade democrática, no interesse da segurança nacional, da segurança ou da ordem públicas, ou para proteger a saúde ou a moral públicas ou os direitos e liberdades das demais pessoas.",
+   "hash": "424c4e71a8c4cdf0ec6d8fae8369c5aaa530f49b51a778f763dd0b142ab3005a",
+   "ordem": 17
+  },
+  "16": {
+   "texto": "ARTIGO 16\nLiberdade de Associação\n1. Todas as pessoas têm o direito de associar-se livremente com fins ideológicos, religiosos, políticos, econômicos, trabalhistas, sociais, culturais, desportivos ou de qualquer outra natureza.\n2. O exercício de tal direito só pode estar sujeito às restrições previstas pela lei que sejam necessárias, numa sociedade democrática, no interesse da segurança nacional, da segurança ou da ordem públicas, ou para proteger a saúde ou a moral públicas ou os direitos e liberdades das demais pessoas.\n3. O disposto neste artigo não impede a imposição de restrições legais, e mesmo a privação do exercício do direito de associação, aos membros das forças armadas e da polícia.",
+   "hash": "429adfd1e41ca3622cefe98fedbc496c9d8e00f30e8d463c8d85ea6c3fa5f660",
+   "ordem": 18
+  },
+  "17": {
+   "texto": "ARTIGO 17\nProteção da Família\n1. A família é o elemento natural e fundamental da sociedade e deve ser protegida pela sociedade e pelo Estado.\n2. É reconhecido o direito do homem e da mulher de contraírem casamento e de fundarem uma família, se tiverem a idade e as condições para isso exigidas pelas leis internas, na medida em que não afetem estas o princípio da não discriminação estabelecido nesta Convenção.\n3. O casamento não pode ser celebrado sem o livre e pleno consentimento dos contraentes.\n4. Os Estados-Partes devem tomar medidas apropriadas no sentido de assegurar a igualdade de direitos e a adequada equivalência de responsabilidades dos cônjuges quanto ao casamento, durante o casamento e em caso de dissolução do mesmo. Em caso de dissolução, serão adotadas disposições que assegurem a proteção necessária aos filhos, com base unicamente no interesse e conveniência dos mesmos.\n5. A lei deve reconhecer iguais direitos tanto aos filhos nascidos fora do casamento como aos nascidos dentro do casamento.",
+   "hash": "136af1c9b79bc4d0e8dff61981dfeca1d485a44b4df8dea070450530cd6bc465",
+   "ordem": 19
+  },
+  "18": {
+   "texto": "ARTIGO 18\nDireito ao Nome\nToda pessoa tem direito a um prenome e aos nomes de seus pais ou ao de um destes. A lei deve regular a forma de assegurar a todos esse direito, mediante nomes fictícios, se for necessário.",
+   "hash": "737fb9b1917af60a70a735bfc8c30a7eb9af520f3e8b138b51547cd8657f35b6",
+   "ordem": 20
+  },
+  "19": {
+   "texto": "ARTIGO 19\nDireitos da Criança\nToda criança tem direito às medidas de proteção que a sua condição de menor requer por parte da sua família, da sociedade e do Estado.",
+   "hash": "3d62b3a62e791ec2c757b26e08fdf32108841f088778b462e0a866a51aba2395",
+   "ordem": 21
+  },
+  "20": {
+   "texto": "ARTIGO 20\nDireito à Nacionalidade\n1. Toda pessoa tem direito a uma nacionalidade.\n2. Toda pessoa tem direito à nacionalidade do Estado em cujo território houver nascido, se não tiver direito a outra.\n3. A ninguém se deve privar arbitrariamente de sua nacionalidade nem do direito de mudá-la.",
+   "hash": "bb761b1ccae49066e70b67f8dc67378ab7a6c2fb97a80c302845a6edf790db4e",
+   "ordem": 22
+  },
+  "21": {
+   "texto": "ARTIGO 21\nDireito à Propriedade Privada\n1. Toda pessoa tem direito ao uso e gozo dos seus bens. A lei pode subordinar esse uso e gozo ao interesse social.\n2. Nenhuma pessoa pode ser privada de seus bens, salvo mediante o pagamento de indenização justa, por motivo de utilidade pública ou de interesse social e nos casos e na forma estabelecidos pela lei.\n3. Tanto a usura como qualquer outra forma de exploração do homem pelo homem devem ser reprimidas pela lei.",
+   "hash": "732c1691f657c0bb06ba84d30d6e04a3d30353ada94baab18b405cd9bc94dd6f",
+   "ordem": 23
+  },
+  "22": {
+   "texto": "ARTIGO 22\nDireito de Circulação e de Residência\n1. Toda pessoa que se ache legalmente no território de um Estado tem direito de circular nele e de nele residir em conformidade com as disposições legais.\n2. Toda pessoa tem o direito de sair livremente de qualquer país, inclusive do próprio.\n3. O exercício dos direitos acima mencionados não pode ser restringido senão em virtude de lei, na medida indispensável, numa sociedade democrática, para prevenir infrações penais ou para proteger a segurança nacional, a segurança ou a ordem públicas, a moral ou a saúde públicas, ou os direitos e liberdades das demais pessoas.\n4. O exercício dos direitos reconhecidos no inciso 1 pode também ser restringido pela lei, em zonas determinadas, por motivo de interesse público.\n5. Ninguém pode ser expulso do território do Estado do qual for nacional, nem ser privado do direito de nele entrar.\n6. O estrangeiro que se ache legalmente no território de um Estado-Parte nesta Convenção só poderá dele ser expulso em cumprimento de decisão adotada de acordo com a lei.\n7. Toda pessoa tem o direito de buscar e receber asilo em território estrangeiro, em caso de perseguição por delitos políticos ou comuns conexos com delitos políticos e de acordo com a legislação de cada Estado e com os convênios internacionais.\n8. Em nenhum caso o estrangeiro pode ser expulso ou entregue a outro país, seja ou não de origem, onde seu direito à vida ou à liberdade pessoal esteja em risco de violação por causa da sua raça, nacionalidade, religião, condição social ou de suas opiniões políticas.\n9. É proibida a expulsão coletiva de estrangeiros.",
+   "hash": "834ad53b690b277e96b044b56a07017a2464721281d96180565fb58842e5ce0c",
+   "ordem": 24
+  },
+  "23": {
+   "texto": "ARTIGO 23\nDireitos Políticos\n1. Todos os cidadãos devem gozar dos seguintes direitos e oportunidades:\na) de participar da direção dos assuntos públicos, diretamente ou por meio de representantes livremente eleitos;\nb) de votar e ser eleitos em eleições periódicas autênticas, realizadas por sufrágio universal e igual e por voto secreto que garanta a livre expressão da vontade dos eleitores; e\nc) de ter acesso, em condições gerais de igualdade, às funções públicas de seu país.\n2. A lei pode regular o exercício dos direitos e oportunidades e a que se refere o inciso anterior, exclusivamente por motivos de idade, nacionalidade, residência, idioma, instrução, capacidade civil ou mental, ou condenação, por juiz competente, em processo penal.",
+   "hash": "3a8b596184e0e961c716ffd32c3cc456f3c43b6cc84972ca01584254fa42cd66",
+   "ordem": 25
+  },
+  "24": {
+   "texto": "ARTIGO 24\nIgualdade Perante a Lei\nTodas as pessoas são iguais perante a lei. Por conseguinte, têm direito, sem discriminação, a igual proteção da lei.",
+   "hash": "3862b6609e50239f3eae715bfe983cb9d1524ee4a214b16c219abb7006e9e8d2",
+   "ordem": 26
+  },
+  "25": {
+   "texto": "ARTIGO 25\nProteção Judicial\n1. Toda pessoa tem direito a um recurso simples e rápido ou a qualquer outro recurso efetivo, perante os juízes ou tribunais competentes, que a proteja contra atos que violem seus direitos fundamentais reconhecidos pela constituição, pela lei ou pela presente Convenção, mesmo quando tal violação seja cometida por pessoas que estejam atuando no exercício de suas funções oficiais.\n2. Os Estados-Partes comprometem-se:\na) a assegurar que a autoridade competente prevista pelo sistema legal do Estado decida sobre os direitos de toda pessoa que interpuser tal recurso;\nb) a desenvolver as possibilidades de recurso judicial; e\nc) a assegurar o cumprimento, pelas autoridades competentes, de toda decisão em que se tenha considerado procedente o recurso.\nCAPÍTULO III\nDireitos Econômicos, Sociais e Culturais",
+   "hash": "3fa8121b36a4692df68239b0f3484f926a68bc1e99cf643994b0194a3c225113",
+   "ordem": 27
+  },
+  "26": {
+   "texto": "ARTIGO 26\nDesenvolvimento Progressivo\nOs Estados-Partes comprometem-se a adotar providências, tanto no âmbito interno como mediante cooperação internacional, especialmente econômica e técnica, a fim de conseguir progressivamente a plena efetividade dos direitos que decorrem das normas econômicas, sociais e sobre educação, ciência e cultura, constantes da Carta da Organização dos Estados Americanos, reformada pelo Protocolo de Buenos Aires, na medida dos recursos disponíveis, por via legislativa ou por outros meios apropriados.\nCAPÍTULO IV\nSuspensão de Garantias, Interpretação e Aplicação",
+   "hash": "b9e64febcbda7c26ca4d4686aae9b92b1eecf00143cc74e2af29ed28a29a200f",
+   "ordem": 28
+  },
+  "27": {
+   "texto": "ARTIGO 27\nSuspensão de Garantias\n1. Em caso de guerra, de perigo público, ou de outra emergência que ameace a independência ou segurança do Estado-Parte, este poderá adotar disposições que, na medida e pelo tempo estritamente limitados às exigências da situação, suspendam as obrigações contraídas em virtude desta Convenção, desde que tais disposições não sejam incompatíveis com as demais obrigações que lhe impõe o Direito Internacional e não encerrem discriminação alguma fundada em motivos de raça, cor, sexo, idioma, religião ou origem social.\n2. A disposição precedente não autoriza a suspensão dos direitos determinados nos seguintes artigos: 3 (Direito ao Reconhecimento da Personalidade Jurídica), 4 (Direito à vida), 5 (Direito à Integridade Pessoal), 6 (Proibição da Escravidão e Servidão), 9 (Princípio da Legalidade e da Retroatividade), 12 (Liberdade de Consciência e de Religião), 17 (Proteção da Família), 18 (Direito ao Nome), 19 (Direitos da Criança), 20 (Direito à Nacionalidade) e 23 (Direitos Políticos), nem das garantias indispensáveis para a proteção de tais direitos.\n3. Todo Estado-Parte que fizer uso do direito de suspensão deverá informar imediatamente os outros Estados-Partes na presente Convenção, por intermédio do Secretário-Geral da Organização dos Estados Americanos, das disposições cuja aplicação haja suspendido, dos motivos determinantes da suspensão e da data em que haja dado por terminada tal suspensão.",
+   "hash": "fc03a76cc3acfeb430efa0eff81aa7987b0bd9e419196f3468d7f6871862ee5d",
+   "ordem": 29
+  },
+  "28": {
+   "texto": "ARTIGO 28\nCláusula Federal\n1. Quando se tratar de um Estado-Parte constituído como Estado federal, o governo nacional do aludido Estado-Parte cumprirá todas as disposições da presente Convenção, relacionadas com as matérias sobre as quais exerce competência legislativa e judicial.\n2. No tocante às disposições relativas às matérias que correspondem à competência das entidades componentes da federação, o governo nacional deve tomar imediatamente as medidas pertinentes, em conformidade com sua constituição e suas leis, a fim de que as autoridades competentes das referidas entidades possam adotar as disposições cabíveis para o cumprimento desta Convenção.\n3. Quando dois ou mais Estados-Partes decidirem constituir entre eles uma federação ou outro tipo de associação, diligenciarão no sentido de que o pacto comunitário respectivo contenha as disposições necessárias para que continuem sendo efetivas no novo Estado assim organizado as normas da presente Convenção.",
+   "hash": "7b50c1e41413bce47b5c4381487dd4d784ca7fb3170f7bc2851db8b8fac35747",
+   "ordem": 30
+  },
+  "29": {
+   "texto": "ARTIGO 29\nNormas de Interpretação\nNenhuma disposição desta Convenção pode ser interpretada no sentido de:\na) permitir a qualquer dos Estados-Partes, grupo ou pessoa, suprimir o gozo e exercício dos direitos e liberdades reconhecidos na Convenção ou limitá-los em maior medida do que a nela prevista;\nb) limitar o gozo e exercício de qualquer direito ou liberdade que possam ser reconhecidos de acordo com as leis de qualquer dos Estados-Partes ou de acordo com outra convenção em que seja parte um dos referidos Estados;\nc) excluir outros direitos e garantias que são inerentes ao ser humano ou que decorrem da forma democrática representativa de governo; e\nd) excluir ou limitar o efeito que possam produzir a Declaração Americana dos Direitos e Deveres do Homem e outros atos internacionais da mesma natureza.",
+   "hash": "f26225d437fa635d588679e17b95a5ffaf033e0f449a4d96056f97d5c66fcc3c",
+   "ordem": 31
+  },
+  "30": {
+   "texto": "ARTIGO 30\nAlcance das Restrições\nAs restrições permitidas, de acordo com esta Convenção, ao gozo e exercício dos direitos e liberdades nela reconhecidos, não podem ser aplicadas senão de acordo com leis que forem promulgadas por motivo de interesse geral e com o propósito para o qual houverem sido estabelecidas.",
+   "hash": "f537ab367f4903acdd8f81818a83ed0037cdb90e427e3f798338fe730871294a",
+   "ordem": 32
+  },
+  "31": {
+   "texto": "ARTIGO 31\nReconhecimento de Outros Direitos\nPoderão ser incluídos no regime de proteção desta Convenção outros direitos e liberdades que forem reconhecidos de acordo com os processos estabelecidos nos artigos 69 e 70.\nCAPÍTULO V\nDeveres das Pessoas",
+   "hash": "410dd88315aad9f9b01312198aca57e17aecebc12a4bc7e7fa92aac25a44c881",
+   "ordem": 33
+  },
+  "32": {
+   "texto": "ARTIGO 32\nCorrelação entre Deveres e Direitos\n1. Toda pessoa tem deveres para com a família, a comunidade e a humanidade.\n2. Os direitos de cada pessoa são limitados pelos direitos dos demais, pela segurança de todos e pelas justas exigências do bem comum, numa sociedade democrática.\nPARTE II\nMeios da Proteção\nCAPÍTULO VI\nÓrgãos Competentes",
+   "hash": "c884929c4048edb969de491210dff19ba016600fc3c45bbd2f57ea627772bc28",
+   "ordem": 34
+  },
+  "33": {
+   "texto": "ARTIGO 33\nSão competentes para conhecer dos assuntos relacionados com o cumprimento dos compromissos assumidos pelos Estados-Partes nesta Convenção:\na) a Comissão Interamericana de Direitos Humanos, doravante denominada a Comissão; e\nb) a Corte Interamericana de Direitos Humanos, doravante denominada a Corte.\nCAPÍTULO VII\nComissão Interamericana de Direitos Humanos\nSeção 1 - Organização",
+   "hash": "ec151f97c8651f3725bd04474b18962d70ccf7f9edbc750a2b8b6f6c29403a5f",
+   "ordem": 35
+  },
+  "34": {
+   "texto": "ARTIGO 34\nA Comissão Interamericana de Direitos Humanos compor-se-á de sete membros, que deverão ser pessoas de alta autoridade moral e de reconhecido saber em matéria de direitos humanos.",
+   "hash": "d35dbb3fce15dbaef05c818e28b94e109e96c29fc83929c6de9ac6af0bed2f0a",
+   "ordem": 36
+  },
+  "35": {
+   "texto": "ARTIGO 35\nA Comissão representa todos os Membros da Organização dos Estados Americanos.",
+   "hash": "c0273c040a22d27e8c5702e7e74085af7aa2814a6691d1e0aff106862ecb208c",
+   "ordem": 37
+  },
+  "36": {
+   "texto": "ARTIGO 36\n1. Os membros da Comissão serão eleitos a título pessoal, pela Assembléia-Geral da Organização, de uma lista de candidatos propostos pelos governos dos Estados-Membros.\n2. Cada um dos referidos governos pode propor até três candidatos, nacionais do Estado que os propuser ou de qualquer outro Estado-Membro da Organização dos Estados Americanos. Quando for proposta uma lista de três candidatos, pelo menos um deles deverá ser nacional de Estado diferente do proponente.",
+   "hash": "f5e02ecd1326a2d2d1d9d33a1b0952fb21fa17e656d2edb72a70b6c2bd7353aa",
+   "ordem": 38
+  },
+  "37": {
+   "texto": "ARTIGO 37\n1. Os membros da Comissão serão eleitos por quatro anos e só poderão ser reeleitos uma vez, porém o mandato de três dos membros designados na primeira eleição expirará ao cabo de dois anos. Logo depois da referida eleição, serão determinados por sorteio, na Assembléia-Geral, os nomes desses três membros.\n2. Não pode fazer parte da Comissão mais de um nacional de um mesmo Estado.",
+   "hash": "9cee8e4e7bf9785da6d8f7f4f93e147b4b736ee37477a4c53b25ced5ff1409ed",
+   "ordem": 39
+  },
+  "38": {
+   "texto": "ARTIGO 38\nAs vagas que ocorrerem na Comissão, que não se devam à expiração normal do mandado, serão preenchidas pelo Conselho Permanente da Organização, de acordo com o que dispuser o Estatuto da Comissão.",
+   "hash": "48e3a719eadf228bab137fdd249ae3fdabed3a92e74c38c9db08ab2119d310bc",
+   "ordem": 40
+  },
+  "39": {
+   "texto": "ARTIGO 39\nA Comissão elaborará seu estatuto e submetê-lo-á à aprovação da Assembléia-Geral e expedirá seu próprio regulamento.",
+   "hash": "bc6210f78df8568a7f9ba35d40b4a13e952700c859d72511a6dcebc9edf06782",
+   "ordem": 41
+  },
+  "40": {
+   "texto": "ARTIGO 40\nOs serviços de secretaria da Comissão devem ser desempenhados pela unidade funcional especializada que faz parte da Secretaria-Geral da Organização e deve dispor dos recursos necessários para cumprir as tarefas que lhe forem confiadas pela Comissão.\nSeção 2 - Funções",
+   "hash": "cfd3191c5cb82667674dc978d65c2735770331ec3191f0bdfcb03b19d990318a",
+   "ordem": 42
+  },
+  "41": {
+   "texto": "ARTIGO 41\nA Comissão tem a função principal de promover a observância e a defesa dos direitos humanos e, no exercício do seu mandato, tem as seguintes funções e atribuições:\na) estimular a consciência dos direitos humanos nos povos da América;\nb) formular recomendações aos governos dos Estados-Membros, quando o considerar conveniente, no sentido de que adotem medidas progressivas em prol dos direitos humanos no âmbito de suas leis internas e seus preceitos constitucionais, bem como disposições apropriadas para promover o devido respeito a esses direitos;\nc) preparar os estudos ou relatórios que considerar convenientes para o desempenho de suas funções;\nd) solicitar aos governos dos Estados-Membros que lhe proporcionem informações sobre as medidas que adotarem em matéria de direitos humanos;\ne) atender às consultas que, por meio da Secretaria-Geral da Organização dos Estados Americanos, lhe formularem os Estados-Membros sobre questões relacionadas com os direitos humanos e, dentro de suas possibilidades, prestar-lhes o assessoramento que eles lhe solicitarem;\nf) atuar com respeito às petições e outras comunicações, no exercício de sua autoridade, de conformidade com o disposto nos artigos 44 a 51 desta Convenção; e\ng) apresentar um relatório anual à Assembléia-Geral da Organização dos Estados Americanos.",
+   "hash": "417ede7792e98c46101fb0e68f32b67012ba9a32be6987e7ec0a3459a1afcfb2",
+   "ordem": 43
+  },
+  "42": {
+   "texto": "ARTIGO 42\nOs Estados-Partes devem remeter à Comissão cópia dos relatórios e estudos que, em seus respectivos campos, submetem anualmente às Comissões Executivas do Conselho Interamericano Econômico e Social e do Conselho Interamericano de Educação, Ciência e Cultura, a fim de que aquela vele por que se promovam os direitos decorrentes das normas econômicas, sociais e sobre educação, ciência e cultura, constantes da Carta da Organização dos Estados Americanos, reformada pelo Protocolo de Buenos Aires.",
+   "hash": "26fea83151c6a8539b8cc3c9807f728d49b6b5f777686e07cb5a85688695bd30",
+   "ordem": 44
+  },
+  "43": {
+   "texto": "ARTIGO 43\nOs Estados-Partes obrigam-se a proporcionar à Comissão as informações que esta lhes solicitar sobre a maneira pela qual o seu direito interno assegura a aplicação efetiva de quaisquer disposições desta Convenção.\nSeção 3 - Competência",
+   "hash": "06ae43bb781a2f2ea6f0483a13e096a8e9dedfe9cfa769b6e8e6c8cf3cd6ce32",
+   "ordem": 45
+  },
+  "44": {
+   "texto": "ARTIGO 44\nQualquer pessoa ou grupo de pessoas, ou entidade não governamental legalmente reconhecida em um ou mais Estados-Membros da Organização, pode apresentar à Comissão petições que contenham denúncias ou queixas de violação desta Convenção por um Estado-Parte.",
+   "hash": "bf33cac9a56d7f4e53e62edd733b606895a9c0283f142c3fb1f415134685903a",
+   "ordem": 46
+  },
+  "45": {
+   "texto": "ARTIGO 45\n1. Todo Estado-Parte pode, no momento do depósito do seu instrumento de ratificação desta Convenção ou de adesão a ela, ou em qualquer momento posterior, declarar que reconhece a competência da Comissão para receber e examinar as comunicações em que um Estado-Parte alegue haver outro Estado-Parte incorrido em violações dos direitos humanos estabelecidos nesta Convenção.\n2. As comunicações feitas em virtude deste artigo só podem ser admitidas e examinadas se forem apresentadas por um Estado-Parte que haja feito uma declaração pela qual reconheça a referida competência da Comissão. A Comissão não admitirá nenhuma comunicação contra um Estado-Parte que não haja feito tal declaração.\n3. As declarações sobre reconhecimento de competência podem ser feitas para que esta vigore por tempo indefinido, por período determinado ou para casos específicos.\n4. As declarações serão depositadas na Secretaria-Geral da Organização dos Estados Americanos, a qual encaminhará cópia das mesmas aos Estados-Membros da referida Organização.",
+   "hash": "90deed64712a65aa7265c78a013b2a392c6b0bd6cf334808f7abda2cf52b7231",
+   "ordem": 47
+  },
+  "46": {
+   "texto": "ARTIGO 46\n1. Para que uma petição ou comunicação apresentada de acordo com os artigos 44 ou 45 seja admitida pela Comissão, será necessário:\na) que hajam sido interpostos e esgotados os recursos da jurisdição interna, de acordo com os princípios de direito internacional geralmente reconhecidos;\nb) que seja apresentada dentro do prazo de seis meses, a partir da data em que o presumido prejudicado em seus direitos tenha sido notificado da decisão definitiva;\nc) que a matéria da petição ou comunicação não esteja pendente de outro processo de solução internacional; e\nd) que, no caso do artigo 44, a petição contenha o nome, a nacionalidade, a profissão, o domicílio e a assinatura da pessoa ou pessoas ou do representante legal da entidade que submeter a petição.\n2. As disposições das alíneas a e b do inciso 1 deste artigo não se aplicarão quando:\na) não existir, na legislação interna do Estado de que se tratar, o devido processo legal para a proteção do direito ou direitos que se alegue tenham sido violados;\nb) não se houver permitido ao presumido prejudicado em seus direitos o acesso aos recursos da jurisdição interna, ou houver sido ele impedido de esgotá-los; e\nc) houver demora injustificada na decisão sobre os mencionados recursos.",
+   "hash": "985d583d2f608bdf07a4eb4b1d69b33e341c7db978136becb44574b89531c53b",
+   "ordem": 48
+  },
+  "47": {
+   "texto": "ARTIGO 47\nA Comissão declarará inadmissível toda petição ou comunicação apresentada de acordo com os artigos 44 ou 45 quando:\na) não preencher algum dos requisitos estabelecidos no artigo 46;\nb) não expuser fatos que caracterizem violação dos direitos garantidos por esta Convenção;\nc) pela exposição do próprio peticionário ou do Estado, for manifestamente infundada a petição ou comunicação ou for evidente sua total improcedência; ou\nd) for substancialmente reprodução de petição ou comunicação anterior, já examinada pela Comissão ou por outro organismo internacional.\nSeção 4 - Processo",
+   "hash": "184a8a601426ae5bf18acef6121de5ab0529ca7938fc247aa2634aa7d2c8a338",
+   "ordem": 49
+  },
+  "48": {
+   "texto": "ARTIGO 48\n1. A Comissão, ao receber uma petição ou comunicação na qual se alegue violação de qualquer dos direitos consagrados nesta Convenção, procederá da seguinte maneira:\na) se reconhecer a admissibilidade da petição ou comunicação, solicitará informações ao Governo do Estado ao qual pertença a autoridade apontada como responsável pela violação alegada e transcreverá as partes pertinentes da petição ou comunicação. As referidas informações devem ser enviadas dentro de um prazo razoável, fixado pela Comissão ao considerar as circunstâncias de cada caso;\nb) recebidas as informações, ou transcorrido o prazo fixado sem que sejam elas recebidas, verificará se existem ou subsistem os motivos da petição ou comunicação. No caso de não existirem ou não subsistirem, mandará arquivar o expediente;\nc) poderá também declarar a inadmissibilidade ou a improcedência da petição ou comunicação, com base em informação ou prova superveniente;\nd) se o expediente não houver sido arquivado, e com o fim de comprovar os fatos, a Comissão procederá, com conhecimento das partes, a um exame do assunto exposto na petição ou comunicação. Se for necessário e conveniente, a Comissão procederá a uma investigação para cuja eficaz realização solicitará, e os Estados interessados lhe proporcionarão, todas as facilidades necessárias;\ne) poderá pedir aos Estados interessados qualquer informação pertinente e receberá, se isso lhe for solicitado, as exposições verbais ou escritas que apresentarem os interessados; e\nf) pôr-se-á à disposição das partes interessadas, a fim de chegar a uma solução amistosa do assunto, fundada no respeito aos direitos humanos reconhecidos nesta Convenção.\n2. Entretanto, em casos graves e urgentes, pode ser realizada uma investigação, mediante prévio consentimento do Estado em cujo território se alegue haver sido cometida a violação, tão somente com a apresentação de uma petição ou comunicação que reúna todos os requisitos formais de admissibilidade.",
+   "hash": "2355d3f4b3ea896c66bb9037995c1232897a44a5dfe52293dc7eb24d574e13cf",
+   "ordem": 50
+  },
+  "49": {
+   "texto": "ARTIGO 49\nSe se houver chegado a uma solução amistosa de acordo com as disposições do inciso 1, f, do artigo 48, a Comissão redigirá um relatório que será encaminhado ao peticionário e aos Estados-Partes nesta Convenção e, posteriormente, transmitido, para sua publicação, ao Secretário-Geral da Organização dos Estados Americanos. O referido relatório conterá uma breve exposição dos fatos e da solução alcançada. Se qualquer das partes no caso o solicitar, ser-lhe-á proporcionada a mais ampla informação possível.",
+   "hash": "15cf3677ef51c271f79f4f3021316f824aa54e609f8612148f42612606f6bae0",
+   "ordem": 51
+  },
+  "50": {
+   "texto": "ARTIGO 50\n1. Se não se chegar a uma solução, e dentro do prazo que for fixado pelo Estatuto da Comissão, esta redigirá um relatório no qual exporá os fatos e suas conclusões. Se o relatório não representar, no todo ou em parte, o acordo unânime dos membros da Comissão, qualquer deles poderá agregar ao referido relatório seu voto em separado. Também se agregarão ao relatório as exposições verbais ou escritas que houverem sido feitas pelos interessados em virtude do inciso 1, e, do artigo 48.\n2. O relatório será encaminhado aos Estados interessados, aos quais não será facultado publicá-lo.\n3. Ao encaminhar o relatório, a Comissão pode formular as proposições e recomendações que julgar adequadas.",
+   "hash": "fa4d6c652bd73b15ae000eb3904db9f9c3fc6fffc190c2a3de95aee4b06d3314",
+   "ordem": 52
+  },
+  "51": {
+   "texto": "ARTIGO 51\n1. Se no prazo de três meses, a partir da remessa aos Estados interessados do relatório da Comissão, o assunto não houver sido solucionado ou submetido à decisão da Corte pela Comissão ou pelo Estado interessado, aceitando sua competência, a Comissão poderá emitir, pelo voto da maioria absoluta dos seus membros, sua opinião e conclusões sobre a questão submetida à sua consideração.\n2. A comissão fará as recomendações pertinentes e fixará um prazo dentro do qual o Estado deve tomar as medidas que lhe competirem para remediar a situação examinada.\n3. Transcorrido o prazo fixado, a Comissão decidirá, pelo voto da maioria absoluta dos seus membros, se o Estado tomou ou não medidas adequadas e se publica ou não seu relatório.\nCAPÍTULO VIII\nCorte Interamericana de Direitos Humanos\nSeção 1 - Organização",
+   "hash": "6b3f14376eb865d15ce038609c2a426c06f3202172a6b587ab892d67106c98c9",
+   "ordem": 53
+  },
+  "52": {
+   "texto": "ARTIGO 52\n1. A Corte compor-se-á de sete juízes, nacionais dos Estados-Membros da Organização, eleitos a título pessoal dentre juristas da mais alta autoridade moral, de reconhecida competência em matéria de direitos humanos, que reúnam as condições requeridas para o exercício das mais elevadas funções judiciais, de acordo com a lei do Estado do qual sejam nacionais, ou do Estado que os propuser como candidatos.\n2. Não deve haver dois juízes da mesma nacionalidade.",
+   "hash": "cb8a949eec6ceddc2be125f026c3136f67efb532cfea14f361fb18f484244592",
+   "ordem": 54
+  },
+  "53": {
+   "texto": "ARTIGO 53\n1. Os juízes da Corte serão eleitos, em votação secreta e pelo voto da maioria absoluta dos Estados-Partes na Convenção, na Assembléia-Geral da Organização, de uma lista de candidatos propostos pelos mesmos Estados.\n2. Cada um dos Estados-Partes pode propor até três candidatos, nacionais do Estado que os propuser ou de qualquer outro Estado-Membro da Organização dos Estados Americanos. Quando se propuser uma lista de três candidatos, pelo menos um deles deverá ser nacional de Estado diferente do proponente.",
+   "hash": "5bdbb203797b9dea0d42b130af85aec97526ab9087122dec93e28111cd29b034",
+   "ordem": 55
+  },
+  "54": {
+   "texto": "ARTIGO 54\n1. Os juízes da Corte serão eleitos por um período de seis anos e só poderão ser reeleitos uma vez. O mandato de três dos juízes designados na primeira eleição expirará ao cabo de três anos. Imediatamente depois da referida eleição, determinar-se-ão por sorteio, na Assembléia-Geral, os nomes desses três juízes.\n2. O juiz eleito para substituir outro cujo mandato não haja expirado, completará o período deste.\n3. Os juízes permanecerão em suas funções até o término dos seus mandatos. Entretanto, continuarão funcionando nos casos de que já houverem tomado conhecimento e que se encontrem em fase de sentença e, para tais efeitos, não serão substituídos pelos novos juízes eleitos.",
+   "hash": "209f1f546c78cfe504cb10a1533f985fc05b7ef514e8b5e2a009da9b2fea071a",
+   "ordem": 56
+  },
+  "55": {
+   "texto": "ARTIGO 55\n1. O juiz que for nacional de algum dos Estados-Partes no caso submetido à Corte conservará o seu direito de conhecer o mesmo.\n2. Se um dos juízes chamados a conhecer do caso for de nacionalidade de um dos Estados-Partes, outro Estado-Parte no caso poderá designar uma pessoa de sua escolha para integrar a Corte na qualidade de juiz ad hoc.\n3. Se, dentre os juízes chamados a conhecer do caso, nenhum for da nacionalidade dos Estados partes, cada um destes poderá designar um juiz ad hoc.\n4. O juiz ad hoc deve reunir os requisitos indicados no artigo 52.\n5. Se vários Estados-Partes na Convenção tiverem o mesmo interesse no caso, serão considerados como uma só parte, para os fins das disposições anteriores. Em caso de dúvida, a Corte decidirá.",
+   "hash": "9db2f68473b8eddc09684efbbf44116c238be2fc02ff8448f6efd7db33db074c",
+   "ordem": 57
+  },
+  "56": {
+   "texto": "ARTIGO 56\nO quorum para as deliberações da Corte é constituído por cinco juízes.",
+   "hash": "7dfa70cc24aba42fd85431212647eb079d7d5fb3a28c46307563d50723e32bce",
+   "ordem": 58
+  },
+  "57": {
+   "texto": "ARTIGO 57\nA Comissão comparecerá em todos os casos perante a Corte.",
+   "hash": "db580ae669524deaa22fbfc0183296772b464303f497732adb46ad896b5b1743",
+   "ordem": 59
+  },
+  "58": {
+   "texto": "ARTIGO 58\n1. A Corte terá sua sede no lugar que for determinado, na Assembléia-Geral da Organização, pelos Estados-Partes na Convenção, mas poderá realizar reuniões no território de qualquer Estado-Membro da Organização dos Estados Americanos em que o considerar conveniente pela maioria dos seus membros e mediante prévia aquiescência do Estado respectivo. Os Estados-Partes na Convenção podem, na Assembléia-Geral, por dois terços dos seus votos, mudar a sede da Corte.\n2. A Corte designará seu Secretário.\n3. O Secretário residirá na sede da Corte e deverá assistir às reuniões que ela realizar fora da mesma.",
+   "hash": "870de915c7c048ba0493477b323845edbc57733af17f9445323633afe33782e8",
+   "ordem": 60
+  },
+  "59": {
+   "texto": "ARTIGO 59\nA Secretaria da Corte será por esta estabelecida e funcionará sob a direção do Secretário da Corte, de acordo com as normas administrativas da Secretaria-Geral da Organização em tudo o que não for incompatível com a independência da Corte. Seus funcionários serão nomeados pelo Secretário-Geral da Organização, em consulta com o Secretário da Corte.",
+   "hash": "42856e316fdc0f88efbac2eef7db7cd9b4be8cbf531b2eb54533b0e96cfff4b4",
+   "ordem": 61
+  },
+  "60": {
+   "texto": "ARTIGO 60\nA Corte elaborará seu estatuto e submetê-lo-á à aprovação da Assembléia-Geral e expedirá seu regimento.\nSeção 2 - Competência e Funções",
+   "hash": "7e1dc46dceb7cc70df8918a46e8137fe908b14316c9433a3fc0161c847060960",
+   "ordem": 62
+  },
+  "61": {
+   "texto": "ARTIGO 61\n1. Somente os Estados-Partes e a Comissão têm direito de submeter caso à decisão da Corte.\n2. Para que a Corte possa conhecer de qualquer caso, é necessário que sejam esgotados os processos previstos nos artigos 48 a 50.",
+   "hash": "3b0cc21a47ac3a71aa6f777e274df390a4b7b0dbe52c6c36fd3bdf9a06b1b45d",
+   "ordem": 63
+  },
+  "62": {
+   "texto": "ARTIGO 62\n1. Todo Estado-Parte pode, no momento do depósito do seu instrumento de ratificação desta Convenção ou de adesão a ela, ou em qualquer momento posterior, declarar que reconhece como obrigatória, de pleno direito e sem convenção especial, a competência da Corte em todos os casos relativos à interpretação ou aplicação desta Convenção.\n2. A declaração pode ser feita incondicionalmente, ou sob condição de reciprocidade, por prazo determinado ou para casos específicos. Deverá ser apresentada ao Secretário-Geral da Organização, que encaminhará cópias da mesma aos outros Estados-Membros da Organização e ao Secretário da Corte.\n3. A Corte tem competência para conhecer de qualquer caso relativo à interpretação e aplicação das disposições desta Convenção que lhe seja submetido, desde que os Estados-Partes no caso tenham reconhecido ou reconheçam a referida competência, seja por declaração especial, como prevêem os incisos anteriores, seja por convenção especial.",
+   "hash": "a24e0f16b4706f4e9dbdf18b1f95b76de416f8a8b00c2966178b8cf178c218da",
+   "ordem": 64
+  },
+  "63": {
+   "texto": "ARTIGO 63\n1. Quando decidir que houve violação de um direito ou liberdade protegido nesta Convenção, a Corte determinará que se assegure ao prejudicado o gozo do seu direito ou liberdade violados. Determinará também, se isso for procedente, que sejam reparadas as conseqüências da medida ou situação que haja configurado a violação desses direitos, bem como o pagamento de indenização justa à parte lesada.\n2. Em casos de extrema gravidade e urgência, e quando se fizer necessário evitar danos irreparáveis às pessoas, a Corte, nos assuntos de que estiver conhecendo, poderá tomar as medidas provisórias que considerar pertinentes. Se se tratar de assuntos que ainda não estiverem submetidos ao seu conhecimento, poderá atuar a pedido da Comissão.",
+   "hash": "2ccc91cc71c9c89d44f6dc418b6b378726ccf2ab4efe364cee662ddb4677ec25",
+   "ordem": 65
+  },
+  "64": {
+   "texto": "ARTIGO 64\n1. Os Estados-Membros da Organização poderão consultar a Corte sobre a interpretação desta Convenção ou de outros tratados concernentes à proteção dos direitos humanos nos Estados americanos. Também poderão consultá-la, no que lhes compete, os órgãos enumerados no capítulo X da Carta da Organização dos Estados Americanos, reformada pelo Protocolo de Buenos Aires.\n2. A Corte, a pedido de um Estado-Membro da Organização, poderá emitir pareceres sobre a compatibilidade entre qualquer de suas leis internas e os mencionados instrumentos internacionais.",
+   "hash": "0580f03ee311a909c6309540bcfb2f7688bdbec27d3c3976dc764e8b09e88a81",
+   "ordem": 66
+  },
+  "65": {
+   "texto": "ARTIGO 65\nA Corte submeterá à consideração da Assembléia-Geral da Organização, em cada período ordinário de sessões, um relatório sobre suas atividades no ano anterior. De maneira especial, e com as recomendações pertinentes, indicará os casos em que um Estado não tenha dado cumprimento a suas sentenças.\nSeção 3 - Processo",
+   "hash": "5c1b8939329ab47ff4a97839bc8d497761d29963e409d240e4a2644447e58525",
+   "ordem": 67
+  },
+  "66": {
+   "texto": "ARTIGO 66\n1. A sentença da Corte deve ser fundamentada.\n2. Se a sentença não expressar no todo ou em parte a opinião unânime dos juízes, qualquer deles terá direito a que se agregue à sentença o seu voto dissidente ou individual.",
+   "hash": "052e100e2103e86f45581557d56e8c91f5d95ffb7d5d8dba19f35265e8323f3c",
+   "ordem": 68
+  },
+  "67": {
+   "texto": "ARTIGO 67\nA sentença da Corte será definitiva e inapelável. Em caso de divergência sobre o sentido ou alcance da sentença, a Corte interpretá-la-á, a pedido de qualquer das partes, desde que o pedido seja apresentado dentro de noventa dias a partir da data da notificação da sentença.",
+   "hash": "0721ae64c4c9df5d2b575f0a4a2912d79e71cb3046b85c2c720d0aa05f552d71",
+   "ordem": 69
+  },
+  "68": {
+   "texto": "ARTIGO 68\n1. Os Estados-Partes na Convenção comprometem-se a cumprir a decisão da Corte em todo caso em que forem partes.\n2. A parte da sentença que determinar indenização compensatória poderá ser executada no país respectivo pelo processo interno vigente para a execução de sentenças contra o Estado.",
+   "hash": "618652d4da1e1da7a55241ad3b16d12686621147c417932ba294ebb8d2399c42",
+   "ordem": 70
+  },
+  "69": {
+   "texto": "ARTIGO 69\nA sentença da Corte deve ser notificada às partes no caso e transmitida aos Estados-Partes na Convenção.\nCAPITULO IX\nDisposições Comuns",
+   "hash": "b34a6a0253a9f56ad078d0f898e6b93ec7ffe70789e52ff08efff25ac2f03905",
+   "ordem": 71
+  },
+  "70": {
+   "texto": "ARTIGO 70\n1. Os juízes da Corte e os membros da Comissão gozam, desde o momento de sua eleição e enquanto durar o seu mandato, das imunidades reconhecidas aos agentes diplomáticos pelo Direito Internacional. Durante o exercício dos seus cargos gozam, além disso, dos privilégios diplomáticos necessários para o desempenho de suas funções.\n2. Não se poderá exigir responsabilidade em tempo algum dos juízes da Corte, nem dos membros da Comissão, por votos e opiniões emitidos no exercício de suas funções.",
+   "hash": "002a7bcfe57303ca8afdb2bf6cc781a4773c601f3c4fdddb8256ea38c7517e32",
+   "ordem": 72
+  },
+  "71": {
+   "texto": "ARTIGO 71\nOs cargos de juiz da Corte ou de membro da Comissão são incompatíveis com outras atividades que possam afetar sua independência ou imparcialidade conforme o que for determinado nos respectivos estatutos.",
+   "hash": "0318d77855f754ff4e9b6a05c0a6a4a35e5e76a38511d676cd549a3010fb8e5b",
+   "ordem": 73
+  },
+  "72": {
+   "texto": "ARTIGO 72\nOs juízes da Corte e os membros da Comissão perceberão honorários e despesas de viagem na forma e nas condições que determinarem os seus estatutos, levando em conta a importância e independência de suas funções. Tais honorários e despesas de viagem serão fixados no orçamento-programa da Organização dos Estados Americanos, no qual devem ser incluídas, além disso, as despesas da Corte e da sua Secretaria. Para tais efeitos, a Corte elaborará o seu próprio projeto de orçamento e submetê-lo-á à aprovação da Assembléia-Geral, por intermédio da Secretaria-Geral. Esta última não poderá nele introduzir modificações.",
+   "hash": "2af057082a85892fcd16cb65a33c77b8ed75993db1f660bca3c43bdc83a53ead",
+   "ordem": 74
+  },
+  "73": {
+   "texto": "ARTIGO 73\nSomente por solicitação da Comissão ou da Corte, conforme o caso, cabe à Assembléia-Geral da Organização resolver sobre as sanções aplicáveis aos membros da Comissão ou aos juízes da Corte que incorrerem nos casos previstos nos respectivos estatutos. Para expedir uma resolução, será necessária maioria de dois terços dos votos dos Estados-Membros da Organização, no caso dos membros da Comissão; e, além disso, de dois terços dos votos dos Estados-Partes na Convenção, se se tratar dos juízes da Corte.\nPARTE III\nDisposições Gerais e Transitórias\nCAPÍTULO X\nAssinatura, Ratificação, Reserva, Emenda, Protocolo e Denúncia",
+   "hash": "87da636ee59108ba9bf8fb2494c6b668122a0eeb8637fdb344155ba3643a63d5",
+   "ordem": 75
+  },
+  "74": {
+   "texto": "ARTIGO 74\n1. Esta Convenção fica aberta à assinatura e à ratificação ou adesão de todos os Estados-Membros da Organização dos Estados Americanos.\n2. A ratificação desta Convenção ou a adesão a ela efetuar-se-á mediante depósito de um instrumento de ratificação ou de adesão na Secretaria-Geral da Organização dos Estados Americanos. Esta Convenção entrará em vigor logo que onze Estados houverem depositado os seus respectivos instrumentos de ratificação ou de adesão. Com referência a qualquer outro Estado que a ratificar ou que a ela aderir ulteriormente, a Convenção entrará em vigor na data do depósito do seu instrumento de ratificação ou de adesão.\n3. O Secretário-Geral informará todos os Estados Membros da Organização sobre a entrada em vigor da Convenção.",
+   "hash": "e7e2438d0ff15c534b7fbf4e36c2ddbd8616df38647e04259dc298f1a0cab526",
+   "ordem": 76
+  },
+  "75": {
+   "texto": "ARTIGO 75\nEsta Convenção só pode ser objeto de reservas em conformidade com as disposições da Convenção de Viena sobre Direito dos Tratados, assinada em 23 de maio de 1969.",
+   "hash": "92ee66dcb16bc1b40131e23f229046465071ecf310ddd81df2279f01f4ea0b0e",
+   "ordem": 77
+  },
+  "76": {
+   "texto": "ARTIGO 76\n1. Qualquer Estado-Parte, diretamente, e a Comissão ou a Corte, por intermédio do Secretário-Geral, podem submeter à Assembléia-Geral, para o que julgarem conveniente, proposta de emenda a esta Convenção.\n2. As emendas entrarão em vigor para os Estados que ratificarem as mesmas na data em que houver sido depositado o respectivo instrumento de ratificação que corresponda ao número de dois terços dos Estados-Partes nesta Convenção. Quanto aos outros Estados-Partes, entrarão em vigor na data em que depositarem eles os seus respectivos instrumentos de ratificação.",
+   "hash": "24b028e73db50e97f2953bd698cc8f6c5b7a16022c4cc1fac0da997a43a89e97",
+   "ordem": 78
+  },
+  "77": {
+   "texto": "ARTIGO 77\n1. De acordo com a faculdade estabelecida no artigo 31, qualquer Estado-Parte e a Comissão podem submeter à consideração dos Estados-Partes reunidos por ocasião da Assembléia-Geral, projetos de protocolos adicionais a esta Convenção, com a finalidade de incluir progressivamente no regime de proteção da mesma outros direitos e liberdades.\n2. Cada protocolo deve estabelecer as modalidades de sua entrada em vigor e será aplicado somente entre os Estados-Partes no mesmo.",
+   "hash": "65c5bf0d0bfcaa58c06d84f3d0dafbcb147116ef9247de5aef0ca753ecf78260",
+   "ordem": 79
+  },
+  "78": {
+   "texto": "ARTIGO 78\n1. Os Estados-Partes poderão denunciar esta Convenção depois de expirado um prazo de cinco anos, a partir da data de entrada em vigor da mesma e mediante aviso prévio de um ano, notificando o Secretário-Geral da Organização, o qual deve informar as outras Partes.\n2. Tal denúncia não terá o efeito de desligar o Estado-Parte interessado das obrigações contidas nesta Convenção, no que diz respeito a qualquer ato que, podendo constituir violação dessas obrigações, houver sido cometido por ele anteriormente à data na qual a denúncia produzir efeito.\nCAPÍTULO XI\nDisposições Transitórias\nSeção 1 - Comissão Interamericana de Direitos Humanos",
+   "hash": "7b4c934205153eb44a8d0f79eb9e9f2f25aa0073a24d8a3d0fb452c1e8c0636a",
+   "ordem": 80
+  },
+  "79": {
+   "texto": "ARTIGO 79\nAo entrar em vigor esta Convenção, o Secretário-Geral pedirá por escrito a cada Estado-Membro da Organização que apresente, dentro de um prazo de noventa dias, seus candidatos a membro da Comissão Interamericana de Direitos Humanos. O Secretário-Geral preparará uma lista por ordem alfabética dos candidatos apresentados e a encaminhará aos Estados-Membros da Organização pelo menos trinta dias antes da Assembléia-Geral seguinte.",
+   "hash": "4de8eeeef41ffebc3854dca3bd7cc6178aae900dd182a1d6a4b145b79553ad63",
+   "ordem": 81
+  },
+  "80": {
+   "texto": "ARTIGO 80\nA eleição dos membros da Comissão far-se-á dentre os candidatos que figurem na lista a que se refere o artigo 79, por votação secreta da Assembléia-Geral, e serão declarados eleitos os candidatos que obtiverem maior número de votos e a maioria absoluta dos votos dos representantes dos Estados-Membros. Se, para eleger todos os membros da Comissão, for necessário realizar várias votações, serão eliminados sucessivamente, na forma que for determinada pela Assembléia-Geral, os candidatos que receberem menor número de votos.\nSeção 2 - Corte Interamericana de Direitos Humanos",
+   "hash": "7862cdefab9b69d3b1776502a0fcdc0e6f0a7f64ba205f3556db3b8b2ba65826",
+   "ordem": 82
+  },
+  "81": {
+   "texto": "ARTIGO 81\nAo entrar em vigor esta Convenção, o Secretário-Geral solicitará por escrito a cada Estado-Parte que apresente, dentro de um prazo de noventa dias, seus candidatos a juiz da Corte Interamericana de Direitos Humanos. O Secretário-Geral preparará uma lista por ordem alfabética dos candidatos apresentados e a encaminhará aos Estados-Partes pelo menos trinta dias antes da Assembléia-Geral seguinte.",
+   "hash": "631d036296beb5f0bc9bbd52281d5c4fb3115bc9c05731b2743856a10baeafc7",
+   "ordem": 83
+  },
+  "82": {
+   "texto": "ARTIGO 82\nA eleição dos juízes da Corte far-se-á dentre os candidatos que figurem na lista a que se refere o artigo 81, por votação secreta dos Estados-Partes, na Assembléia-Geral, e serão declarados eleitos os candidatos que obtiverem maior número de votos e a maioria absoluta dos votos dos representantes dos Estados-Partes. Se, para eleger todos os juízes da Corte, for necessário realizar várias votações, serão eliminados sucessivamente, na forma que for determinada pelos Estados-Partes, os candidatos que receberem menor número de votos.\nDeclarações e reservas\nDeclaração do Chile\nA Delegação do Chile apõe sua assinatura a esta Convenção, sujeita à sua posterior aprovação parlamentar e ratificação, em conformidade com as normas constitucionais vigentes.\nDeclaração do Equador\nA Delegação do Equador tem a honra de assinar a Convenção Americana sobre Direitos Humanos. Não crê necessário especificar reserva alguma, deixando a salvo tão-somente a faculdade geral constante da mesma Convenção, que deixa aos governos a liberdade de ratificá-la.\nReserva do Uruguai\nO artigo 80, parágrafo 2, da Constituição da República Oriental do Uruguai, estabelece que se suspende a cidadania \"pela condição de legalmente processado em causa criminal de que possa resultar pena de penitenciária\". Essa limitação ao exercício dos direitos reconhecidos no artigo 23 da Convenção não está prevista entre as circunstâncias que a tal respeito prevê o parágrafo 2 do referido artigo 23, motivo por que a Delegação do Uruguai formula a reserva pertinente.\nEm fé do que, os plenipotenciários abaixo-assinados, cujos plenos poderes foram encontrados em boa e devida forma, assinam esta Convenção, que se denominará \"Pacto de São José da Costa Rica\", na cidade de São José, Costa Rica, em vinte e dois de novembro de mil novecentos e sessenta e nove.\n***\nDECLARAÇÃO INTERPRETATIVA DO BRASIL\nAo depositar a Carta de Adesão à Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica), em 25 de setembro de 1992, o Governo brasileiro fez a seguinte declaração interpretativa sobre os artigos 43 e 48, alínea \"d\":\n\"O Governo do Brasil entende que os artigos 43 e 48, alínea \"d\", não incluem o direito automático de visitas e inspeções in loco da Comissão Interamericana de Direitos Humanos, as quais dependerão da anuência expressa do Estado.\"\n*",
+   "hash": "7a3d0825f14e1990f27f62369b14495da5278f9df6ebcfe969a4d34bb9b77ed5",
+   "ordem": 84
+  }
+ }
+}

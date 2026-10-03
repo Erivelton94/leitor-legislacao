@@ -1,0 +1,175 @@
+{
+ "id": "dudh",
+ "nome": "Declaração Universal dos Direitos Humanos",
+ "numero": "ONU — Resolução 217 A (III), de 1948",
+ "url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+ "versao": "2026-10-02",
+ "hash": "e72478b026976a8a47e68cfafc9834811f33855225e4c46de565ecd3b95ffed4",
+ "etag": null,
+ "last_modified": "Fri, 02 Oct 2026 22:12:55 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "Preâmbulo",
+  "Considerando que o reconhecimento da dignidade inerente a todos os membros da família humana e de seus direitos iguais e inalienáveis é o fundamento da liberdade, da justiça e da paz no mundo,",
+  "Considerando que o desprezo e o desrespeito pelos direitos humanos resultaram em atos bárbaros que ultrajaram a consciência da humanidade e que o advento de um mundo em que mulheres e homens gozem de liberdade de palavra, de crença e da liberdade de viverem a salvo do temor e da necessidade foi proclamado como a mais alta aspiração do ser humano comum,",
+  "Considerando ser essencial que os direitos humanos sejam protegidos pelo império da lei, para que o ser humano não seja compelido, como último recurso, à rebelião contra a tirania e a opressão,",
+  "Considerando ser essencial promover o desenvolvimento de relações amistosas entre as nações,",
+  "Considerando que os povos das Nações Unidas reafirmaram, na Carta, sua fé nos direitos fundamentais do ser humano, na dignidade e no valor da pessoa humana e na igualdade de direitos do homem e da mulher e que decidiram promover o progresso social e melhores condições de vida em uma liberdade mais ampla,",
+  "Considerando que os Países-Membros se comprometeram a promover, em cooperação com as Nações Unidas, o respeito universal aos direitos e liberdades fundamentais do ser humano e a observância desses direitos e liberdades,",
+  "Considerando que uma compreensão comum desses direitos e liberdades é da mais alta importância para o pleno cumprimento desse compromisso,",
+  "Agora portanto a Assembleia Geral proclama a presente Declaração Universal dos Direitos Humanos como o ideal comum a ser atingido por todos os povos e todas as nações, com o objetivo de que cada indivíduo e cada órgão da sociedade tendo sempre em mente esta Declaração, esforce-se, por meio do ensino e da educação, por promover o respeito a esses direitos e liberdades, e, pela adoção de medidas progressivas de caráter nacional e internacional, por assegurar o seu reconhecimento e a sua observância universais e efetivos, tanto entre os povos dos próprios Países-Membros quanto entre os povos dos territórios sob sua jurisdição."
+ ],
+ "ultimo_download_completo": "2026-09-28T23:52:49-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Artigo 1\nTodos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.",
+   "hash": "6eb8e205187b9c6d99fdbf34f00e42bad38242d8020d5ee8d8621e7ec7036fee",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Artigo 2\n1. Todo ser humano tem capacidade para gozar os direitos e as liberdades estabelecidos nesta Declaração, sem distinção de qualquer espécie, seja de raça, cor, sexo, língua, religião, opinião política ou de outra natureza, origem nacional ou social, riqueza, nascimento, ou qualquer outra condição.\n2. Não será também feita nenhuma distinção fundada na condição política, jurídica ou internacional do país ou território a que pertença uma pessoa, quer se trate de um território independente, sob tutela, sem governo próprio, quer sujeito a qualquer outra limitação de soberania.",
+   "hash": "2a628a9abc6e1142ebee510addf20b0035d96ce5513e4a4119277afb34380fe2",
+   "ordem": 1
+  },
+  "3": {
+   "texto": "Artigo 3\nTodo ser humano tem direito à vida, à liberdade e à segurança pessoal.",
+   "hash": "61b657c4e694ff53466cfb3090010cef8a8889dcd8b43123c4f4abff3d35f323",
+   "ordem": 2
+  },
+  "4": {
+   "texto": "Artigo 4\nNinguém será mantido em escravidão ou servidão; a escravidão e o tráfico de escravos serão proibidos em todas as suas formas.",
+   "hash": "104fd6cd6a2da777c94abe6077ec7295d4f6cd8d7287cd3739961e849732a83c",
+   "ordem": 3
+  },
+  "5": {
+   "texto": "Artigo 5\nNinguém será submetido à tortura, nem a tratamento ou castigo cruel, desumano ou degradante.",
+   "hash": "a508f5d43f0717f24a116273a89c862f1a79ac92bd88ef7a0d1081844fa43ba0",
+   "ordem": 4
+  },
+  "6": {
+   "texto": "Artigo 6\nTodo ser humano tem o direito de ser, em todos os lugares, reconhecido como pessoa perante a lei.",
+   "hash": "b70d37b0763394a7f1b54e6063bbbe15f8b87a186f977df40973bb4f3c027bb9",
+   "ordem": 5
+  },
+  "7": {
+   "texto": "Artigo 7\nTodos são iguais perante a lei e têm direito, sem qualquer distinção, a igual proteção da lei. Todos têm direito a igual proteção contra qualquer discriminação que viole a presente Declaração e contra qualquer incitamento a tal discriminação.",
+   "hash": "cb00ed4f0a062857bc0046632122368a48c4828d11361c52dc321c83980e88ba",
+   "ordem": 6
+  },
+  "8": {
+   "texto": "Artigo 8\nTodo ser humano tem direito a receber dos tribunais nacionais competentes remédio efetivo para os atos que violem os direitos fundamentais que lhe sejam reconhecidos pela constituição ou pela lei.",
+   "hash": "a338b5678e86524d94f6d7acb16582dc7731f7b576fc0324fee1684d5f7062d7",
+   "ordem": 7
+  },
+  "9": {
+   "texto": "Artigo 9\nNinguém será arbitrariamente preso, detido ou exilado.",
+   "hash": "2812eb6281bfaebfe8bf003fd318a9f5d10dfe2598f01f4b3c7a54352dc0a7d3",
+   "ordem": 8
+  },
+  "10": {
+   "texto": "Artigo 10\nTodo ser humano tem direito, em plena igualdade, a uma justa e pública audiência por parte de um tribunal independente e imparcial, para decidir seus direitos e deveres ou fundamento de qualquer acusação criminal contra ele.",
+   "hash": "60f2cfde529ec05cea3ada8388ea05255cee0384c0488442fa81fd08c741165a",
+   "ordem": 9
+  },
+  "11": {
+   "texto": "Artigo 11\n1.Todo ser humano acusado de um ato delituoso tem o direito de ser presumido inocente até que a sua culpabilidade tenha sido provada de acordo com a lei, em julgamento público no qual lhe tenham sido asseguradas todas as garantias necessárias à sua defesa.\n2. Ninguém poderá ser culpado por qualquer ação ou omissão que, no momento, não constituíam delito perante o direito nacional ou internacional. Também não será imposta pena mais forte de que aquela que, no momento da prática, era aplicável ao ato delituoso.",
+   "hash": "cb4bae540ea61af1ada54ae28864a75fc3d496d3ebb2cb20f8db1d10980b81a4",
+   "ordem": 10
+  },
+  "12": {
+   "texto": "Artigo 12\nNinguém será sujeito à interferência na sua vida privada, na sua família, no seu lar ou na sua correspondência, nem a ataque à sua honra e reputação. Todo ser humano tem direito à proteção da lei contra tais interferências ou ataques.",
+   "hash": "1560884e7ca35440b36537784bf7a6bf61a28e600e09bbcbffa4e104a5caf5a0",
+   "ordem": 11
+  },
+  "13": {
+   "texto": "Artigo 13\n1. Todo ser humano tem direito à liberdade de locomoção e residência dentro das fronteiras de cada Estado.\n2. Todo ser humano tem o direito de deixar qualquer país, inclusive o próprio e a esse regressar.",
+   "hash": "623bb8cf402482bb8a114a5865bc144bba433c2882957e0a036a5838bb30c90e",
+   "ordem": 12
+  },
+  "14": {
+   "texto": "Artigo 14\n1. Todo ser humano, vítima de perseguição, tem o direito de procurar e de gozar asilo em outros países.\n2. Esse direito não pode ser invocado em caso de perseguição legitimamente motivada por crimes de direito comum ou por atos contrários aos objetivos e princípios das Nações Unidas.",
+   "hash": "23098307c699936e2e5f944b06cf59cabce9eba67ebee4128ad05ac23054e391",
+   "ordem": 13
+  },
+  "15": {
+   "texto": "Artigo 15\n1. Todo ser humano tem direito a uma nacionalidade.\n2. Ninguém será arbitrariamente privado de sua nacionalidade, nem do direito de mudar de nacionalidade.",
+   "hash": "b9ae9ca08b949ced01cf92eef3546ca7dabc7690700e8f0aa87be9a15eb36634",
+   "ordem": 14
+  },
+  "16": {
+   "texto": "Artigo 16\n1. Os homens e mulheres de maior idade, sem qualquer restrição de raça, nacionalidade ou religião, têm o direito de contrair matrimônio e fundar uma família. Gozam de iguais direitos em relação ao casamento, sua duração e sua dissolução.\n2. O casamento não será válido senão com o livre e pleno consentimento dos nubentes.\n3. A família é o núcleo natural e fundamental da sociedade e tem direito à proteção da sociedade e do Estado.",
+   "hash": "5c551504dd72bfe9c99d5984938ccb2fec0a4c36560983792d45bda320bacf7e",
+   "ordem": 15
+  },
+  "17": {
+   "texto": "Artigo 17\n1. Todo ser humano tem direito à propriedade, só ou em sociedade com outros.\n2. Ninguém será arbitrariamente privado de sua propriedade.",
+   "hash": "c791cc1217345baf522fc88e54cd3c398cb9e14ea187482a8557b8997f16a6b3",
+   "ordem": 16
+  },
+  "18": {
+   "texto": "Artigo 18\nTodo ser humano tem direito à liberdade de pensamento, consciência e religião; esse direito inclui a liberdade de mudar de religião ou crença e a liberdade de manifestar essa religião ou crença pelo ensino, pela prática, pelo culto em público ou em particular.",
+   "hash": "3209d54b0b3fc9bf608edc378da48f05fe5ec9356d2b5d50cee044335805d5e8",
+   "ordem": 17
+  },
+  "19": {
+   "texto": "Artigo 19\nTodo ser humano tem direito à liberdade de opinião e expressão; esse direito inclui a liberdade de, sem interferência, ter opiniões e de procurar, receber e transmitir informações e idéias por quaisquer meios e independentemente de fronteiras.",
+   "hash": "921b74deae6e95a4e257ba7193cd7f3407581c83d72bbdce1007e204f6417d58",
+   "ordem": 18
+  },
+  "20": {
+   "texto": "Artigo 20\n1. Todo ser humano tem direito à liberdade de reunião e associação pacífica.\n2. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "hash": "d5cc2fae86e0df7695b8c064cf3cca92983f97aa6c2fe4ad5121a03981a4cc49",
+   "ordem": 19
+  },
+  "21": {
+   "texto": "Artigo 21\n1. Todo ser humano tem o direito de tomar parte no governo de seu país diretamente ou por intermédio de representantes livremente escolhidos.\n2. Todo ser humano tem igual direito de acesso ao serviço público do seu país.\n3. A vontade do povo será a base da autoridade do governo; essa vontade será expressa em eleições periódicas e legítimas, por sufrágio universal, por voto secreto ou processo equivalente que assegure a liberdade de voto.",
+   "hash": "14853c1c126f94430bbf3f98bc0fe8182d7a71c6b3008f7c31b4daa55248b3fb",
+   "ordem": 20
+  },
+  "22": {
+   "texto": "Artigo 22\nTodo ser humano, como membro da sociedade, tem direito à segurança social, à realização pelo esforço nacional, pela cooperação internacional e de acordo com a organização e recursos de cada Estado, dos direitos econômicos, sociais e culturais indispensáveis à sua dignidade e ao livre desenvolvimento da sua personalidade.",
+   "hash": "2f5d3002aa338d6297c0b9dd0ef51a3dba2d8d5f9975155a518d9f142b00c29e",
+   "ordem": 21
+  },
+  "23": {
+   "texto": "Artigo 23\n1. Todo ser humano tem direito ao trabalho, à livre escolha de emprego, a condições justas e favoráveis de trabalho e à proteção contra o desemprego.\n2. Todo ser humano, sem qualquer distinção, tem direito a igual remuneração por igual trabalho.\n3. Todo ser humano que trabalha tem direito a uma remuneração justa e satisfatória que lhe assegure, assim como à sua família, uma existência compatível com a dignidade humana e a que se acrescentarão, se necessário, outros meios de proteção social.\n4. Todo ser humano tem direito a organizar sindicatos e a neles ingressar para proteção de seus interesses.",
+   "hash": "647a202517f5158fb5b241c79aae6e8da29e0be42239eab9bc0f29bad7a40ebd",
+   "ordem": 22
+  },
+  "24": {
+   "texto": "Artigo 24\nTodo ser humano tem direito a repouso e lazer, inclusive a limitação razoável das horas de trabalho e a férias remuneradas periódicas.",
+   "hash": "8af29f6f82bbdbd6c4e26537d3bde771e4d8a07dbce0d8730a104909f3fc95f1",
+   "ordem": 23
+  },
+  "25": {
+   "texto": "Artigo 25\n1. Todo ser humano tem direito a um padrão de vida capaz de assegurar a si e à sua família saúde, bem-estar, inclusive alimentação, vestuário, habitação, cuidados médicos e os serviços sociais indispensáveis e direito à segurança em caso de desemprego, doença invalidez, viuvez, velhice ou outros casos de perda dos meios de subsistência em circunstâncias fora de seu controle.\n2. A maternidade e a infância têm direito a cuidados e assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimônio, gozarão da mesma proteção social.",
+   "hash": "10366be54164f7cb0c933723923ae853dd532f2174d90a735f9fa07525e1d796",
+   "ordem": 24
+  },
+  "26": {
+   "texto": "Artigo 26\n1. Todo ser humano tem direito à instrução. A instrução será gratuita, pelo menos nos graus elementares e fundamentais. A instrução elementar será obrigatória. A instrução técnico-profissional será acessível a todos, bem como a instrução superior, esta baseada no mérito.\n2. A instrução será orientada no sentido do pleno desenvolvimento da personalidade humana e do fortalecimento do respeito pelos direitos do ser humano e pelas liberdades fundamentais. A instrução promoverá a compreensão, a tolerância e a amizade entre todas as nações e grupos raciais ou religiosos e coadjuvará as atividades das Nações Unidas em prol da manutenção da paz.\n3. Os pais têm prioridade de direito na escolha do gênero de instrução que será ministrada a seus filhos.",
+   "hash": "a392d1f3222de9633f8a880abba1a6f3346f139c86d62c3655274285a2b56ff4",
+   "ordem": 25
+  },
+  "27": {
+   "texto": "Artigo 27\n1. Todo ser humano tem o direito de participar livremente da vida cultural da comunidade, de fruir as artes e de participar do progresso científico e de seus benefícios.\n2. Todo ser humano tem direito à proteção dos interesses morais e materiais decorrentes de qualquer produção científica literária ou artística da qual seja autor.",
+   "hash": "952b84aef384765502d63ecf3ef07054312f2fb0df739ca5d813130f844c2d80",
+   "ordem": 26
+  },
+  "28": {
+   "texto": "Artigo 28\nTodo ser humano tem direito a uma ordem social e internacional em que os direitos e liberdades estabelecidos na presente Declaração possam ser plenamente realizados.",
+   "hash": "1092475d096f32f43b2314a59e2e3e5d570d9f1324f6bdb277cdfb38d3a23c5f",
+   "ordem": 27
+  },
+  "29": {
+   "texto": "Artigo 29\n1. Todo ser humano tem deveres para com a comunidade, na qual o livre e pleno desenvolvimento de sua personalidade é possível.\n2. No exercício de seus direitos e liberdades, todo ser humano estará sujeito apenas às limitações determinadas pela lei, exclusivamente com o fim de assegurar o devido reconhecimento e respeito dos direitos e liberdades de outrem e de satisfazer as justas exigências da moral, da ordem pública e do bem-estar de uma sociedade democrática.\n3. Esses direitos e liberdades não podem, em hipótese alguma, ser exercidos contrariamente aos objetivos e princípios das Nações Unidas.",
+   "hash": "1dd75be38c022150f4ea82f3c55627e6c9b86b52b899ca43e7c4caa8662c81be",
+   "ordem": 28
+  },
+  "30": {
+   "texto": "Artigo 30\nNenhuma disposição da presente Declaração pode ser interpretada como o reconhecimento a qualquer Estado, grupo ou pessoa, do direito de exercer qualquer atividade ou praticar qualquer ato destinado à destruição de quaisquer dos direitos e liberdades aqui estabelecidos.",
+   "hash": "f1c022e82f240f4c0adae63064b0f5485b90c502c6984b81993bedbd66d9c4b9",
+   "ordem": 29
+  }
+ }
+}

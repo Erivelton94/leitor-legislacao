@@ -1,0 +1,299 @@
+{
+ "id": "pidcp",
+ "nome": "Pacto Internacional sobre Direitos Civis e Políticos",
+ "numero": "Decreto nº 592/1992",
+ "url": "https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d0592.htm",
+ "versao": "2026-10-02",
+ "hash": "ddac3d00a02e7f2d2b8e9da7963258df6c92ad4aa88333551b3baf06e7144436",
+ "etag": "\"16fba-65028aff8a3e6\"",
+ "last_modified": "Thu, 23 Apr 2026 23:05:41 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "DECRETO No 592, DE 6 DE JULHO DE 1992.",
+  "Atos Internacionais. Pacto Internacional sobre Direitos Civis e Políticos. Promulgação.",
+  "O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, inciso VIII, da Constituição, e",
+  "Considerando que o Pacto Internacional sobre Direitos Civis e Políticos foi adotado pela XXI Sessão da Assembléia-Geral das Nações Unidas, em 16 de dezembro de 1966;",
+  "Considerando que o Congresso Nacional aprovou o texto do referido diploma internacional por meio do Decreto Legislativo n° 226, de 12 de dezembro de 1991;",
+  "Considerando que a Carta de Adesão ao Pacto Internacional sobre Direitos Civis e Políticos foi depositada em 24 de janeiro de 1992;",
+  "Considerando que o Pacto ora promulgado entrou em vigor, para o Brasil, em 24 de abril de 1992, na forma de seu artigo 49, parágrafo 2;",
+  "DECRETA:"
+ ],
+ "ultimo_download_completo": "2026-10-02T23:52:30-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1° O Pacto Internacional sobre Direitos Civis e Políticos, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém.",
+   "hash": "c3ab6f5d693263131beb748d4df384ab2a6d2364adc94eb9b87828169a11e345",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Art. 2° Este Decreto entra em vigor na data de sua publicação.\nBrasília, 06 de julho de 1992; 171° da Independência e 104° da República.\nFERNANDO COLLOR\nCelso Lafer\nEste texto não substitui o publicado no D.O.U. de 7.7.1992\nANEXO AO DECRETO QUE PROMULGA O PACTO INTERNACIONAL SOBRE DIREITOS CIVIS E POLÍTICOS/MRE\nPACTO INTERNACIONAL SOBRE DIREITOS CIVIS E POLÍTICOS\nPREÂMBULO\nOs Estados Partes do presente Pacto,\nConsiderando que, em conformidade com os princípios proclamados na Carta das Nações Unidas, o reconhecimento da dignidade inerente a todos os membros da família humana e de seus direitos iguais e inalienáveis constitui o fundamento da liberdade, da justiça e da paz no mundo,\nReconhecendo que esses direitos decorrem da dignidade inerente à pessoa humana,\nReconhecendo que, em conformidade com a Declaração Universal dos Direitos do Homem, o ideal do ser humano livre, no gozo das liberdades civis e políticas e liberto do temor e da miséria, não pode ser realizado a menos que se criem as condições que permitam a cada um gozar de seus direitos civis e políticos, assim como de seus direitos econômicos, sociais e culturais,\nConsiderando que a Carta das Nações Unidas impõe aos Estados a obrigação de promover o respeito universal e efetivo dos direitos e das liberdades do homem,\nCompreendendo que o indivíduo, por ter deveres para com seus semelhantes e para com a coletividade a que pertence, tem a obrigação de lutar pela promoção e observância dos direitos reconhecidos no presente Pacto,\nAcordam o seguinte:\nPARTE I",
+   "hash": "042844ee23dc87ad2b0865ae39eb76ed4c324f18a40462979841ed3a46862550",
+   "ordem": 1
+  },
+  "1#2": {
+   "texto": "ARTIGO 1\n1. Todos os povos têm direito à autodeterminação. Em virtude desse direito, determinam livremente seu estatuto político e asseguram livremente seu desenvolvimento econômico, social e cultural.\n2. Para a consecução de seus objetivos, todos os povos podem dispor livremente de suas riquezas e de seus recursos naturais, sem prejuízo das obrigações decorrentes da cooperação econômica internacional, baseada no princípio do proveito mútuo, e do Direito Internacional. Em caso algum, poderá um povo ser privado de seus meios de subsistência.\n3. Os Estados Partes do presente Pacto, inclusive aqueles que tenham a responsabilidade de administrar territórios não-autônomos e territórios sob tutela, deverão promover o exercício do direito à autodeterminação e respeitar esse direito, em conformidade com as disposições da Carta das Nações Unidas.\nPARTE II",
+   "hash": "3d1bbc6a70a45d8de053be3d89ae5f256e626b0635851b8d8a7705e4cda02d6e",
+   "ordem": 2
+  },
+  "2#2": {
+   "texto": "ARTIGO 2\n1. Os Estados Partes do presente Pacto comprometem-se a respeitar e a garantir a todos os indivíduos que se achem em seu território e que estejam sujeitos a sua jurisdição os direitos reconhecidos no presente Pacto, sem discriminação alguma por motivo de raça, cor, sexo, língua, religião, opinião política ou de outra natureza, origem nacional ou social, situação econômica, nascimento ou qualquer outra condição.\n2. Na ausência de medidas legislativas ou de outra natureza destinadas a tornar efetivos os direitos reconhecidos no presente Pacto, os Estados Partes do presente Pacto comprometem-se a tomar as providências necessárias com vistas a adotá-las, levando em consideração seus respectivos procedimentos constitucionais e as disposições do presente Pacto.\n3. Os Estados Partes do presente Pacto comprometem-se a:\na) Garantir que toda pessoa, cujos direitos e liberdades reconhecidos no presente Pacto tenham sido violados, possa dispor de um recurso efetivo, mesmo que a violência tenha sido perpetrada por pessoas que agiam no exercício de funções oficiais;\nb) Garantir que toda pessoa que interpuser tal recurso terá seu direito determinado pela competente autoridade judicial, administrativa ou legislativa ou por qualquer outra autoridade competente prevista no ordenamento jurídico do Estado em questão; e a desenvolver as possibilidades de recurso judicial;\nc) Garantir o cumprimento, pelas autoridades competentes, de qualquer decisão que julgar procedente tal recurso.",
+   "hash": "2306f505be4887b4c9c42921866b103fde28953a1ff6ca1102ac34e0a3d9b669",
+   "ordem": 3
+  },
+  "3": {
+   "texto": "ARTIGO 3\nOs Estados Partes do presente Pacto comprometem-se a assegurar a homens e mulheres igualdade no gozo de todos os direitos civis e políticos enunciados no presente Pacto.",
+   "hash": "2f818ec9174516085b9f5d252f65bfb77e3da3f5b0a0dd77fb20e6afa2557786",
+   "ordem": 4
+  },
+  "4": {
+   "texto": "ARTIGO 4\n1. Quando situações excepcionais ameacem a existência da nação e sejam proclamadas oficialmente, os Estados Partes do presente Pacto podem adotar, na estrita medida exigida pela situação, medidas que suspendam as obrigações decorrentes do presente Pacto, desde que tais medidas não sejam incompatíveis com as demais obrigações que lhes sejam impostas pelo Direito Internacional e não acarretem discriminação alguma apenas por motivo de raça, cor, sexo, língua, religião ou origem social.\n2. A disposição precedente não autoriza qualquer suspensão dos artigos 6, 7, 8 (parágrafos 1 e 2), 11, 15, 16, e 18.\n3. Os Estados Partes do presente Pacto que fizerem uso do direito de suspensão devem comunicar imediatamente aos outros Estados Partes do presente Pacto, por intermédio do Secretário-Geral da Organização das Nações Unidas, as disposições que tenham suspenso, bem como os motivos de tal suspensão. Os Estados partes deverão fazer uma nova comunicação, igualmente por intermédio do Secretário-Geral da Organização das Nações Unidas, na data em que terminar tal suspensão.",
+   "hash": "ff0ee8056028ab045719aeabfd910e298970f351c588fcf63263754c4c145ec0",
+   "ordem": 5
+  },
+  "5": {
+   "texto": "ARTIGO 5\n1. Nenhuma disposição do presente Pacto poderá ser interpretada no sentido de reconhecer a um Estado, grupo ou indivíduo qualquer direito de dedicar-se a quaisquer atividades ou praticar quaisquer atos que tenham por objetivo destruir os direitos ou liberdades reconhecidos no presente Pacto ou impor-lhe limitações mais amplas do que aquelas nele previstas.\n2. Não se admitirá qualquer restrição ou suspensão dos direitos humanos fundamentais reconhecidos ou vigentes em qualquer Estado Parte do presente Pacto em virtude de leis, convenções, regulamentos ou costumes, sob pretexto de que o presente Pacto não os reconheça ou os reconheça em menor grau.\nPARTE III",
+   "hash": "c4ad3f2b66a8a87b4d5d3abe3cf9dcfc9157412b2349129a07ab4dc54d5a1937",
+   "ordem": 6
+  },
+  "6": {
+   "texto": "ARTIGO 6\n1. O direito à vida é inerente à pessoa humana. Este direito deverá ser protegido pela lei. Ninguém poderá ser arbitrariamente privado de sua vida.\n2. Nos países em que a pena de morte não tenha sido abolida, esta poderá ser imposta apenas nos casos de crimes mais graves, em conformidade com legislação vigente na época em que o crime foi cometido e que não esteja em conflito com as disposições do presente Pacto, nem com a Convenção sobre a Prevenção e a Punição do Crime de Genocídio. Poder-se-á aplicar essa pena apenas em decorrência de uma sentença transitada em julgado e proferida por tribunal competente.\n3. Quando a privação da vida constituir crime de genocídio, entende-se que nenhuma disposição do presente artigo autorizará qualquer Estado Parte do presente Pacto a eximir-se, de modo algum, do cumprimento de qualquer das obrigações que tenham assumido em virtude das disposições da Convenção sobre a Prevenção e a Punição do Crime de Genocídio.\n4. Qualquer condenado à morte terá o direito de pedir indulto ou comutação da pena. A anistia, o indulto ou a comutação da pena poderão ser concedidos em todos os casos.\n5. A pena de morte não deverá ser imposta em casos de crimes cometidos por pessoas menores de 18 anos, nem aplicada a mulheres em estado de gravidez.\n6. Não se poderá invocar disposição alguma do presente artigo para retardar ou impedir a abolição da pena de morte por um Estado Parte do presente Pacto.",
+   "hash": "a97b420cc64c96609b72fefcf52d450d18ad4856394fa44ed47f7e919be5ed56",
+   "ordem": 7
+  },
+  "7": {
+   "texto": "ARTIGO 7\nNinguém poderá ser submetido à tortura, nem a penas ou tratamento cruéis, desumanos ou degradantes. Será proibido, sobretudo, submeter uma pessoa, sem seu livre consentimento, a experiências médicas ou científicas.",
+   "hash": "81043f0ffe5efe8001c484ab3e1fd2200340c12b3654b452d95547d53781caad",
+   "ordem": 8
+  },
+  "8": {
+   "texto": "ARTIGO 8\n1. Ninguém poderá ser submetido à escravidão; a escravidão e o tráfico de escravos, em todos as suas formas, ficam proibidos.\n2. Ninguém poderá ser submetido à servidão.\n3. a) Ninguém poderá ser obrigado a executar trabalhos forçados ou obrigatórios;\nb) A alínea a) do presente parágrafo não poderá ser interpretada no sentido de proibir, nos países em que certos crimes sejam punidos com prisão e trabalhos forçados, o cumprimento de uma pena de trabalhos forçados, imposta por um tribunal competente;\nc) Para os efeitos do presente parágrafo, não serão considerados \"trabalhos forçados ou obrigatórios\":\ni) qualquer trabalho ou serviço, não previsto na alínea b), normalmente exigido de um individuo que tenha sido encarcerado em cumprimento de decisão judicial ou que, tendo sido objeto de tal decisão, ache-se em liberdade condicional;\nii) qualquer serviço de caráter militar e, nos países em que se admite a isenção por motivo de consciência, qualquer serviço nacional que a lei venha a exigir daqueles que se oponham ao serviço militar por motivo de consciência;\niii) qualquer serviço exigido em casos de emergência ou de calamidade que ameacem o bem-estar da comunidade;\niv) qualquer trabalho ou serviço que faça parte das obrigações cívicas normais.",
+   "hash": "4975c29b7ff734bef17a77b43ca80b62e71b68e3aa8f64e18e45ee81665f20dc",
+   "ordem": 9
+  },
+  "9": {
+   "texto": "ARTIGO 9\n1. Toda pessoa tem direito à liberdade e à segurança pessoais. Ninguém poderá ser preso ou encarcerado arbitrariamente. Ninguém poderá ser privado de sua liberdade, salvo pelos motivos previstos em lei e em conformidade com os procedimentos nela estabelecidos.\n2. Qualquer pessoa, ao ser presa, deverá ser informada das razões da prisão e notificada, sem demora, das acusações formuladas contra ela.\n3. Qualquer pessoa presa ou encarcerada em virtude de infração penal deverá ser conduzida, sem demora, à presença do juiz ou de outra autoridade habilitada por lei a exercer funções judiciais e terá o direito de ser julgada em prazo razoável ou de ser posta em liberdade. A prisão preventiva de pessoas que aguardam julgamento não deverá constituir a regra geral, mas a soltura poderá estar condicionada a garantias que assegurem o comparecimento da pessoa em questão à audiência, a todos os atos do processo e, se necessário for, para a execução da sentença.\n4. Qualquer pessoa que seja privada de sua liberdade por prisão ou encarceramento terá o direito de recorrer a um tribunal para que este decida sobre a legalidade de seu encarceramento e ordene sua soltura, caso a prisão tenha sido ilegal.\n5. Qualquer pessoa vítima de prisão ou encarceramento ilegais terá direito à reparação.",
+   "hash": "3f33572db9502c9fac243b72a98d1cca2d1e5cd713198cbd3c731ed061e62cc3",
+   "ordem": 10
+  },
+  "10": {
+   "texto": "ARTIGO 10\n1. Toda pessoa privada de sua liberdade deverá ser tratada com humanidade e respeito à dignidade inerente à pessoa humana.\n2. a) As pessoas processadas deverão ser separadas, salvo em circunstâncias excepcionais, das pessoas condenadas e receber tratamento distinto, condizente com sua condição de pessoa não-condenada.\nb) As pessoas processadas, jovens, deverão ser separadas das adultas e julgadas o mais rápido possível.\n3. O regime penitenciário consistirá num tratamento cujo objetivo principal seja a reforma e a reabilitação moral dos prisioneiros. Os delinqüentes juvenis deverão ser separados dos adultos e receber tratamento condizente com sua idade e condição jurídica.",
+   "hash": "9e4f35dab9c7263a2368677a4761a4d36f1cda3c7f4558244e32c17c2a428299",
+   "ordem": 11
+  },
+  "11": {
+   "texto": "ARTIGO 11\nNinguém poderá ser preso apenas por não poder cumprir com uma obrigação contratual.",
+   "hash": "b6894df222355800778b60ce7eb0320e99a8a64d12e79ce4690c0ac7cf5c86f5",
+   "ordem": 12
+  },
+  "12": {
+   "texto": "ARTIGO 12\n1. Toda pessoa que se ache legalmente no território de um Estado terá o direito de nele livremente circular e escolher sua residência.\n2. Toda pessoa terá o direito de sair livremente de qualquer país, inclusive de seu próprio país.\n3. Os direitos supracitados não poderão constituir objeto de restrições, a menos que estejam previstas em lei e no intuito de proteger a segurança nacional e a ordem, a saúde ou a moral públicas, bem como os direitos e liberdades das demais pessoas, e que sejam compatíveis com os outros direitos reconhecidos no presente Pacto.\n4. Ninguém poderá ser privado arbitrariamente do direito de entrar em seu próprio país.",
+   "hash": "62da79f904ded1f06dc0ba20caaef8c312fe8179fe3bee191932d6ca340f7a87",
+   "ordem": 13
+  },
+  "13": {
+   "texto": "ARTIGO 13\nUm estrangeiro que se ache legalmente no território de um Estado Parte do presente Pacto só poderá dele ser expulso em decorrência de decisão adotada em conformidade com a lei e, a menos que razões imperativas de segurança nacional a isso se oponham, terá a possibilidade de expor as razões que militem contra sua expulsão e de ter seu caso reexaminado pelas autoridades competentes, ou por uma ou várias pessoas especialmente designadas pelas referidas autoridades, e de fazer-se representar com esse objetivo.",
+   "hash": "648aee984e4dbc0bc3c0ede733e5b5449fa8228c8e5c7d10b814adcf3d49410e",
+   "ordem": 14
+  },
+  "14": {
+   "texto": "ARTIGO 14\n1. Todas as pessoas são iguais perante os tribunais e as cortes de justiça. Toda pessoa terá o direito de ser ouvida publicamente e com as devidas garantias por um tribunal competente, independente e imparcial, estabelecido por lei, na apuração de qualquer acusação de caráter penal formulada contra ela ou na determinação de seus direitos e obrigações de caráter civil. A imprensa e o público poderão ser excluídos de parte ou da totalidade de um julgamento, quer por motivo de moral pública, de ordem pública ou de segurança nacional em uma sociedade democrática, quer quando o interesse da vida privada das Partes o exija, que na medida em que isso seja estritamente necessário na opinião da justiça, em circunstâncias específicas, nas quais a publicidade venha a prejudicar os interesses da justiça; entretanto, qualquer sentença proferida em matéria penal ou civil deverá tornar-se pública, a menos que o interesse de menores exija procedimento oposto, ou o processo diga respeito à controvérsias matrimoniais ou à tutela de menores.\n2. Toda pessoa acusada de um delito terá direito a que se presuma sua inocência enquanto não for legalmente comprovada sua culpa.\n3. Toda pessoa acusada de um delito terá direito, em plena igualdade, a, pelo menos, as seguintes garantias:\na) De ser informado, sem demora, numa língua que compreenda e de forma minuciosa, da natureza e dos motivos da acusão contra ela formulada;\nb) De dispor do tempo e dos meios necessários à preparação de sua defesa e a comunicar-se com defensor de sua escolha;\nc) De ser julgado sem dilações indevidas;\nd) De estar presente no julgamento e de defender-se pessoalmente ou por intermédio de defensor de sua escolha; de ser informado, caso não tenha defensor, do direito que lhe assiste de tê-lo e, sempre que o interesse da justiça assim exija, de ter um defensor designado ex-offício gratuitamente, se não tiver meios para remunerá-lo;\ne) De interrogar ou fazer interrogar as testemunhas de acusão e de obter o comparecimento e o interrogatório das testemunhas de defesa nas mesmas condições de que dispõem as de acusação;\nf) De ser assistida gratuitamente por um intérprete, caso não compreenda ou não fale a língua empregada durante o julgamento;\ng) De não ser obrigada a depor contra si mesma, nem a confessar-se culpada.\n4. O processo aplicável a jovens que não sejam maiores nos termos da legislação penal levará em conta a idade dos mesmos e a importância de promover sua reintegração social.\n5. Toda pessoa declarada culpada por um delito terá o direito de recorrer da sentença condenatória e da pena a uma instância superior, em conformidade com a lei.\n6. Se uma sentença condenatória passada em julgado for posteriormente anulada ou se um indulto for concedido, pela ocorrência ou descoberta de fatos novos que provem cabalmente a existência de erro judicial, a pessoa que sofreu a pena decorrente dessa condenação deverá ser indenizada, de acordo com a lei, a menos que fique provado que se lhe pode imputar, total ou parcialmente, a não-revelação dos fatos desconhecidos em tempo útil.\n7. Ninguém poderá ser processado ou punido por um delito pelo qual já foi absolvido ou condenado por sentença passada em julgado, em conformidade com a lei e os procedimentos penais de cada país.",
+   "hash": "a5f5b1ca92f9f3c4d85256d2cc84652b60e91da793c9fdfa73e389df88b19020",
+   "ordem": 15
+  },
+  "15": {
+   "texto": "ARTIGO 15\n1. Ninguém poderá ser condenado por atos ou omissões que não constituam delito de acordo com o direito nacional ou internacional, no momento em que foram cometidos. Tampouco poder-se-a impor pena mais grave do que a aplicável no momento da ocorrência do delito. Se, depois de perpetrado o delito, a lei estipular a imposição de pena mais leve, o delinqüente deverá dela beneficiar-se.\n2. Nenhuma disposição do presente Pacto impedirá o julgamento ou a condenação de qualquer indivíduo por atos ou omissões que, no momento em que foram cometidos, eram considerados delituosos de acordo com os princípios gerais de direito reconhecidos pela comunidade das nações.",
+   "hash": "101598c5a98b38c3aeb869df2f1be367507e0b2611ec9cd8aa75cab53dabf9b4",
+   "ordem": 16
+  },
+  "16": {
+   "texto": "ARTIGO 16\nToda pessoa terá direito, em qualquer lugar, ao reconhecimento de sua personalidade jurídica.",
+   "hash": "227274c4daae472ed9bae876bf294b2c54bf0aa31cf7b7fc94ae42c4f36e2ad4",
+   "ordem": 17
+  },
+  "17": {
+   "texto": "ARTIGO 17\n1. Ninguém poderá ser objeto de ingerências arbitrárias ou ilegais em sua vida privada, em sua família, em seu domicílio ou em sua correspondência, nem de ofensas ilegais às suas honra e reputação.\n2. Toda pessoa terá direito à proteção da lei contra essas ingerências ou ofensas.",
+   "hash": "66c0610594dcbb88fb50584b99c370feb692b4220713e7c37a7ce56925fe234c",
+   "ordem": 18
+  },
+  "18": {
+   "texto": "ARTIGO 18\n1. Toda pessoa terá direito à liberdade de pensamento, de consciência e de religião. Esse direito implicará a liberdade de ter ou adotar uma religião ou uma crença de sua escolha e a liberdade de professar sua religião ou crença, individual ou coletivamente, tanto pública como privadamente, por meio do culto, da celebração de ritos, de práticas e do ensino.\n2. Ninguém poderá ser submetido a medidas coercitivas que possam restringir sua liberdade de ter ou de adotar uma religião ou crença de sua escolha.\n3. A liberdade de manifestar a própria religião ou crença estará sujeita apenas à limitações previstas em lei e que se façam necessárias para proteger a segurança, a ordem, a saúde ou a moral públicas ou os direitos e as liberdades das demais pessoas.\n4. Os Estados Partes do presente Pacto comprometem-se a respeitar a liberdade dos pais – e, quando for o caso, dos tutores legais – de assegurar a educação religiosa e moral dos filhos que esteja de acordo com suas próprias convicções.",
+   "hash": "cb27a50b968ff5a73127909954540305b3550ead241d75b58b9285637b7742b5",
+   "ordem": 19
+  },
+  "19": {
+   "texto": "ARTIGO 19\n1. Ninguém poderá ser molestado por suas opiniões.\n2. Toda pessoa terá direito à liberdade de expressão; esse direito incluirá a liberdade de procurar, receber e difundir informações e idéias de qualquer natureza, independentemente de considerações de fronteiras, verbalmente ou por escrito, em forma impressa ou artística, ou por qualquer outro meio de sua escolha.\n3. O exercício do direito previsto no parágrafo 2 do presente artigo implicará deveres e responsabilidades especiais. Conseqüentemente, poderá estar sujeito a certas restrições, que devem, entretanto, ser expressamente previstas em lei e que se façam necessárias para:\na) assegurar o respeito dos direitos e da reputação das demais pessoas;\nb) proteger a segurança nacional, a ordem, a saúde ou a moral públicas.",
+   "hash": "1c0d226425316c5c6a2745ee360db20884b30432dea0368d081f0ebc69bbee9a",
+   "ordem": 20
+  },
+  "20": {
+   "texto": "ARTIGO 20\n1. Será proibida por lei qualquer propaganda em favor da guerra.\n2. Será proibida por lei qualquer apologia do ódio nacional, racial ou religioso que constitua incitamento à discriminação, à hostilidade ou à violência.",
+   "hash": "f58ccf35326a64e9ef8df7da8c8a9201607ad5f0309215ab2007ed91fbd5adde",
+   "ordem": 21
+  },
+  "21": {
+   "texto": "ARTIGO 21\nO direito de reunião pacífica será reconhecido. O exercício desse direito estará sujeito apenas às restrições previstas em lei e que se façam necessárias, em uma sociedade democrática, no interesse da segurança nacional, da segurança ou da ordem públicas, ou para proteger a saúde ou a moral públicas ou os direitos e as liberdades das demais pessoas.",
+   "hash": "1407b58cb7979160d97610b4096b54646c42dce38d56e16044ba2d423c2b45e0",
+   "ordem": 22
+  },
+  "22": {
+   "texto": "ARTIGO 22\n1. Toda pessoa terá o direito de associar-se livremente a outras, inclusive o direito de constituir sindicatos e de a eles filiar-se, para a proteção de seus interesses.\n2. O exercício desse direito estará sujeito apenas às restrições previstas em lei e que se façam necessárias, em uma sociedade democrática, no interesse da segurança nacional, da segurança e da ordem públicas, ou para proteger a saúde ou a moral públicas ou os direitos e liberdades das demais pessoas. O presente artigo não impedirá que se submeta a restrições legais o exercício desse direito por membros das forças armadas e da polícia.\n3. Nenhuma das disposições do presente artigo permitirá que Estados Partes da Convenção de 1948 da Organização Internacional do Trabalho, relativa à liberdade sindical e à proteção do direito sindical, venham a adotar medidas legislativas que restrinjam – ou aplicar a lei de maneira a restringir – as garantias previstas na referida Convenção.",
+   "hash": "f4df7e186044824165f11506000bc3e205a5a551eaa9e9009d19a7dfaa7bed80",
+   "ordem": 23
+  },
+  "23": {
+   "texto": "ARTIGO 23\n1. A família é o elemento natural e fundamental da sociedade e terá o direito de ser protegida pela sociedade e pelo Estado.\n2. Será reconhecido o direito do homem e da mulher de, em idade núbil, contrair casamento e constituir família.\n3. Casamento algum será celebrado sem o consentimento livre e pleno dos futuros esposos.\n4. Os Estados Partes do presente Pacto deverão adotar as medidas apropriadas para assegurar a igualdade de direitos e responsabilidades dos esposos quanto ao casamento, durante o mesmo e por ocasião de sua dissolução. Em caso de dissolução, deverão adotar-se disposições que assegurem a proteção necessária para os filhos.",
+   "hash": "83b99f9ed4b2be7dc7fb802b9f6c0b33d23a067d62b3a23edb4de0488d893123",
+   "ordem": 24
+  },
+  "24": {
+   "texto": "ARTIGO 24\n1. Toda criança terá direito, sem discriminação alguma por motivo de cor, sexo, língua, religião, origem nacional ou social, situação econômica ou nascimento, às medidas de proteção que a sua condição de menor requerer por parte de sua família, da sociedade e do Estado.\n2. Toda criança deverá ser registrada imediatamente após seu nascimento e deverá receber um nome.\n3. Toda criança terá o direito de adquirir uma nacionalidade.",
+   "hash": "662961c6eee6f01d4e48178df013474878c995441f6a093fdea2c52818480d5e",
+   "ordem": 25
+  },
+  "25": {
+   "texto": "ARTIGO 25\nTodo cidadão terá o direito e a possibilidade, sem qualquer das formas de discriminação mencionadas no artigo 2 e sem restrições infundadas:\na) de participar da condução dos assuntos públicos, diretamente ou por meio de representantes livremente escolhidos;\nb) de votar e de ser eleito em eleições periódicas, autênticas, realizadas por sufrágio universal e igualitário e por voto secreto, que garantam a manifestação da vontade dos eleitores;\nc) de ter acesso, em condições gerais de igualdade, às funções públicas de seu país.",
+   "hash": "fdbb67f792c3260f53ec418ade0d9daddcedb2da32e8f3354cf4cd5596da4285",
+   "ordem": 26
+  },
+  "26": {
+   "texto": "ARTIGO 26\nTodas as pessoas são iguais perante a lei e têm direito, sem discriminação alguma, a igual proteção da Lei. A este respeito, a lei deverá proibir qualquer forma de discriminação e garantir a todas as pessoas proteção igual e eficaz contra qualquer discriminação por motivo de raça, cor, sexo, língua, religião, opinião política ou de outra natureza, origem nacional ou social, situação econômica, nascimento ou qualquer outra situação.",
+   "hash": "31cc961f69fdae06acb218783870d1428723b78d3f43aced9d700af754d35469",
+   "ordem": 27
+  },
+  "27": {
+   "texto": "ARTIGO 27\nNos Estados em que haja minorias étnicas, religiosas ou lingüísticas, as pessoas pertencentes a essas minorias não poderão ser privadas do direito de ter, conjuntamente com outros membros de seu grupo, sua própria vida cultural, de professar e praticar sua própria religião e usar sua própria língua.\nPARTE IV",
+   "hash": "f26e7a533b664dbbbecd7f4b171945de2ecd2d1a6174f09bb9373e7e96075bbb",
+   "ordem": 28
+  },
+  "28": {
+   "texto": "ARTIGO 28\n1. Constituir-se-á um Comitê de Diretores Humanos (doravante denominado o \"Comitê\" no presente Pacto). O Comitê será composto de dezoito membros e desempenhará as funções descritas adiante.\n2. O Comitê será integrado por nacionais dos Estados Partes do presente Pacto, os quais deverão ser pessoas de elevada reputação moral e reconhecida competência em matéria de direitos humanos, levando-se em consideração a utilidade da participação de algumas pessoas com experiência jurídica.\n3. Os membros do Comitê serão eleitos e exercerão suas funções a título pessoal.",
+   "hash": "0f6213c9de01b088cb7e441d2683fb681c6f002f83ff42246e4182110c9424f3",
+   "ordem": 29
+  },
+  "29": {
+   "texto": "ARTIGO 29\n1. Os membros do Comitê serão eleitos em votação secreta dentre uma lista de pessoas que preencham os requisitos previstos no artigo 28 e indicadas, com esse objetivo, pelos Estados Partes do presente Pacto.\n2. Cada Estado Parte no presente Pacto poderá indicar duas pessoas. Essas pessoas deverão ser nacionais do Estado que as indicou.\n3. A mesma pessoa poderá ser indicada mais de uma vez.",
+   "hash": "3d0759b70242d4901ae5e5ab9b7690f1a2ad73938bf9a3e37a7edc7b321345aa",
+   "ordem": 30
+  },
+  "30": {
+   "texto": "ARTIGO 30\n1. A primeira eleição realizar-se-á no máximo seis meses após a data de entrada em vigor do presente Pacto.\n2. Ao menos quatro meses antes da data de cada eleição do Comitê, e desde que não seja uma eleição para preencher uma vaga declarada nos termos do artigo 34, o Secretário-Geral da Organização das Nações Unidas convidará, por escrito, os Estados Partes do presente Protocolo a indicar, no prazo de três meses, os candidatos a membro do Comitê.\n3. O Secretário-Geral da Organização das Nações Unidas organizará uma lista por ordem alfabética de todos os candidatos assim designados, mencionando os Estados Partes que os tiverem indicado, e a comunicará aos Estados Partes do presente Pacto, no máximo um mês antes da data de cada eleição.\n4. Os membros do Comitê serão eleitos em reuniões dos Estados Partes convocadas pelo Secretário-Geral da Organização das Nações Unidas na sede da Organização. Nessas reuniões, em que o quorum será estabelecido por dois terços dos Estados Partes do presente Pacto, serão eleitos membros do Comitê os candidatos que obtiverem o maior número de votos e a maioria absoluta dos votos dos representantes dos Estados Partes presentes e votantes.",
+   "hash": "8e44561f8d287b0b872e24f8c94527e24fb81fc58a9296403b285588486cc1a7",
+   "ordem": 31
+  },
+  "31": {
+   "texto": "ARTIGO 31\n1. O Comitê não poderá ter mais de um nacional de um mesmo Estado.\n2. Nas eleições do Comitê, levar-se-ão em consideração uma distribuição geográfica eqüitativa e uma representação das diversas formas de civilização, bem como dos principais sistemas jurídicos.",
+   "hash": "66a57b3980a081ce0749bf53e7bccc8c522143bc163aad2a7dc0f0a684ef5dd7",
+   "ordem": 32
+  },
+  "32": {
+   "texto": "ARTIGO 32\n1. Os membros do Comitê serão eleitos para um mandato de quatro anos. Poderão, caso suas candidaturas sejam apresentadas novamente, ser reeleitos. Entretanto, o mandato de nove dos membros eleitos na primeira eleição expirará ao final de dois anos; imediatamente após a primeira eleição, o presidente da reunião a que se refere o parágrafo 4 do artigo 30 indicará, por sorteio, os nomes desses nove membros.\n2. Ao expirar o mandato dos membros, as eleições se realizarão de acordo com o disposto nos artigos precedentes desta Parte do presente Pacto.",
+   "hash": "b8b03386444b74b3d2d05dd28adc24a2c8387cdde0967babb9a7127d21a660f5",
+   "ordem": 33
+  },
+  "33": {
+   "texto": "ARTIGO 33\n1. Se, na opinião unânime dos demais membros, um membro do Comitê deixar de desempenhar suas funções por motivos distintos de uma ausência temporária, o Presidente comunicará tal fato ao Secretário-Geral da Organização das Nações Unidas, que declarará vago o lugar que o referido membro ocupava.\n2. Em caso de morte ou renúncia de um membro do Comitê, o Presidente comunicará imediatamente tal fato ao Secretário-Geral da Organização das Nações Unidas, que declarará vago o lugar desde a data da morte ou daquela em que a renúncia passe a produzir efeitos.",
+   "hash": "5e601c3ea0412790f319c065515d66dadb88e82638c813518f7383c28bb97b01",
+   "ordem": 34
+  },
+  "34": {
+   "texto": "ARTIGO 34\n1. Quando uma vaga for declarada nos termos do artigo 33 e o mandato do membro a ser substituído não expirar no prazo de seis meses a contar da data em que tenha sido declarada a vaga, o Secretário-Geral da Organização das Nações Unidas comunicará tal fato aos Estados Partes do presente Pacto, que poderão, no prazo de dois meses, indicar candidatos, em conformidade com o artigo 29, para preencher a vaga.\n2. O Secretário-Geral da Organização das Nações Unidas organizará uma lista por ordem alfabética dos candidatos assim designados e a comunicará aos Estados Partes do presente Pacto. A eleição destinada a preencher tal vaga será realizada nos termos das disposições pertinentes desta parte do presente Pacto.\n3. Qualquer membro do Comitê eleito para preencher uma vaga em conformidade com o artigo 33 fará parte do Comitê durante o restante do mandato do membro que deixar vago o lugar do Comitê, nos termos do referido artigo.",
+   "hash": "d2abd1b723d64bfc966dbcfc5025d82ad4b80dac7bbc4bbf4a960af9f6a96b31",
+   "ordem": 35
+  },
+  "35": {
+   "texto": "ARTIGO 35\nOs membros do Comitê receberão, com a aprovação da Assembléia-Geral da Organização das Nações Unidas, honorários provenientes de recursos da Organização das Nações Unidas, nas condições fixadas, considerando-se a importância das funções do Comitê, pela Assembléia-Geral.",
+   "hash": "928ba45b30db22a8e17bc37e663c8bbe33361591ac6a002aa595eea4c8c1a0f2",
+   "ordem": 36
+  },
+  "36": {
+   "texto": "ARTIGO 36\nO Secretário-Geral da Organização das Nações Unidas colocará à disposição do Comitê o pessoal e os serviços necessários ao desempenho eficaz das funções que lhe são atribuídas em virtude do presente Pacto.",
+   "hash": "d6926b77bb6fce0c146e171cb1b87c51d19500b94e6cb6a1f5a516ec0efabc37",
+   "ordem": 37
+  },
+  "37": {
+   "texto": "ARTIGO 37\n1. O Secretário-Geral da Organização das Nações Unidas convocará os Membros do Comitê para a primeira reunião, a realizar-se na sede da Organização.\n2. Após a primeira reunião, o Comitê deverá reunir-se em todas as ocasiões previstas em suas regras de procedimento.\n3. As reuniões do Comitê serão realizadas normalmente na sede da Organização das Nações Unidas ou no Escritório das Nações Unidas em Genebra.",
+   "hash": "b7761a22effa9590f8d8ebd11017af89584a1d1c6cf76dcd8ba918d99f5fc707",
+   "ordem": 38
+  },
+  "38": {
+   "texto": "ARTIGO 38\nTodo Membro do Comitê deverá, antes de iniciar suas funções, assumir, em sessão pública, o compromisso solene de que desempenhará suas funções imparcial e conscientemente.",
+   "hash": "053ca2f4371a602de2872b961e8dc0bbef03153bf8d9085149fab9daa75dbbe2",
+   "ordem": 39
+  },
+  "39": {
+   "texto": "ARTIGO 39\n1. O Comitê elegerá sua mesa para um período de dois anos. Os membros da mesa poderão ser reeleitos.\n2. O próprio Comitê estabelecerá suas regras de procedimento; estas, contudo, deverão conter, entre outras, as seguintes disposições:\na) O quorum será de doze membros;\nb) As decisões do Comitê serão tomadas por maioria de votos dos membros presentes.",
+   "hash": "6203f95e14bf2b1398e56037fb3a5e1f4bd4a41b1844c4d85c8669d9fe78c09c",
+   "ordem": 40
+  },
+  "40": {
+   "texto": "ARTIGO 40\n1. Os Estados Partes do presente Pacto comprometem-se a submeter relatórios sobre as medidas por eles adotadas para tornar efetivos os direitos reconhecidos no presente Pacto e sobre o processo alcançado no gozo desses direitos:\na) Dentro do prazo de um ano, a contar do início da vigência do presente Pacto nos Estados Partes interessados;\nb) A partir de então, sempre que o Comitê vier a solicitar.\n2. Todos os relatórios serão submetidos ao Secretário-Geral da Organização das Nações Unidas, que os encaminhará, para exame, ao Comitê. Os relatórios deverão sublinhar, caso existam, os fatores e as dificuldades que prejudiquem a implementação do presente Pacto.\n3. O Secretário-Geral da Organização das Nações Unidas poderá, após consulta ao Comitê, encaminhar às agências especializadas interessadas cópias das partes dos relatórios que digam respeito a sua esfera de competência.\n4. O Comitê estudará os relatórios apresentados pelos Estados Partes do presente Pacto e transmitirá aos Estados Partes seu próprio relatório, bem como os comentários gerais que julgar oportunos. O Comitê poderá igualmente transmitir ao Conselho Econômico e Social os referidos comentários, bem como cópias dos relatórios que houver recebido dos Estados Partes do presente Pacto.\n5. Os Estados Partes no presente Pacto poderão submeter ao Comitê as observações que desejarem formular relativamente aos comentários feitos nos termos do parágrafo 4 do presente artigo.",
+   "hash": "283496ddcf859765929889252933a94f82f7b8b775fb3c63c059d2eaf5e5687b",
+   "ordem": 41
+  },
+  "41": {
+   "texto": "ARTIGO 41\n1. Com base no presente Artigo, todo Estado Parte do presente Pacto poderá declarar, a qualquer momento, que reconhece a competência do Comitê para receber e examinar as comunicações em que um Estado Parte alegue que outro Estado Parte não vem cumprindo as obrigações que lhe impõe o presente Pacto. As referidas comunicações só serão recebidas e examinadas nos termos do presente artigo no caso de serem apresentadas por um Estado Parte que houver feito uma declaração em que reconheça, com relação a si próprio, a competência do Comitê. O Comitê não receberá comunicação alguma relativa a um Estado Parte que não houver feito uma declaração dessa natureza. As comunicações recebidas em virtude do presente artigo estarão sujeitas ao procedimento que se segue:\na) Se um Estado Parte do presente Pacto considerar que outro Estado Parte não vem cumprindo as disposições do presente Pacto poderá, mediante comunicação escrita, levar a questão ao conhecimento deste Estado Parte. Dentro do prazo de três meses, a contar da data do recebimento da comunicação, o Estado destinatário fornecerá ao Estado que enviou a comunicação explicações ou quaisquer outras declarações por escrito que esclareçam a questão, as quais deverão fazer referência, até onde seja possível e pertinente, aos procedimentos nacionais e aos recursos jurídicos adotados, em trâmite ou disponíveis sobre a questão;\nb) Se, dentro do prazo de seis meses, a contar da data do recebimento da comunicação original pelo Estado destinatário, a questão não estiver dirimida satisfatoriamente para ambos os Estados Partes interessados, tanto um como o outro terão o direito de submetê-la ao Comitê, mediante notificação endereçada ao Comitê ou ao outro Estado interessado;\nc) O Comitê tratará de todas as questões que se lhe submetem em virtude do presente artigo somente após ter-se assegurado de que todos os recursos jurídicos internos disponíveis tenham sido utilizados e esgotados, em consonância com os princípios do Direito Internacional geralmente reconhecidos. Não se aplicará essa regra quanto a aplicação dos mencionados recursos prolongar-se injustificadamente;\nd) O Comitê realizará reuniões confidenciais quando estiver examinando as comunicações previstas no presente artigo;\ne) Sem prejuízo das disposições da alínea c), o Comitê colocará seus bons ofícios à disposição dos Estados Partes interessados no intuito de alcançar uma solução amistosa para a questão, baseada no respeito aos direitos humanos e liberdades fundamentais reconhecidos no presente Pacto;\nf) Em todas as questões que se lhe submetam em virtude do presente artigo, o Comitê poderá solicitar aos Estados Partes interessados, a que se faz referência na alínea b), que lhe forneçam quaisquer informações pertinentes;\ng) Os Estados Partes interessados, a que se faz referência na alínea b), terão direito de fazer-se representar quando as questões forem examinadas no Comitê e de apresentar suas observações verbalmente e/ou por escrito;\nh) O Comitê, dentro dos doze meses seguintes à data de recebimento da notificação mencionada na alínea b), apresentará relatório em que:\n(i) se houver sido alcançada uma solução nos termos da alínea e), o Comitê restringir-se-á, em seu relatório, a uma breve exposição dos fatos e da solução alcançada.\n(ii) se não houver sido alcançada solução alguma nos termos da alínea e), o Comitê, restringir-se-á, em seu relatório, a uma breve exposição dos fatos; serão anexados ao relatório o texto das observações escritas e as atas das observações orais apresentadas pelos Estados Partes interessados.\nPara cada questão, o relatório será encaminhado aos Estados Partes interessados.\n2. As disposições do presente artigo entrarão em vigor a partir do momento em que dez Estados Partes do presente Pacto houverem feito as declarações mencionadas no parágrafo 1 deste artigo. As referidas declarações serão depositadas pelos Estados Partes junto ao Secretário-Geral da Organização das Nações Unidas, que enviará cópias das mesmas aos demais Estados Partes. Toda declaração poderá ser retirada, a qualquer momento, mediante notificação endereçada ao Secretário-Geral. Far-se-á essa retirada sem prejuízo do exame de quaisquer questões que constituam objeto de uma comunicação já transmitida nos termos deste artigo; em virtude do presente artigo, não se receberá qualquer nova comunicação de um Estado Parte uma vez que o Secretário-Geral tenha recebido a notificação sobre a retirada da declaração, a menos que o Estado Parte interessado haja feito uma nova declaração.",
+   "hash": "21f26b90622296be010fb40f7827acbd992457385ab5e3259ec3f0751b0cf597",
+   "ordem": 42
+  },
+  "42": {
+   "texto": "ARTIGO 42\n1. a) Se uma questão submetida ao Comitê, nos termos do artigo 41, não estiver dirimida satisfatoriamente para os Estados Partes interessados, o Comitê poderá, com o consentimento prévio dos Estados Partes interessados, constituir uma Comissão ad hoc (doravante denominada \"a Comissão\"). A Comissão colocará seus bons ofícios à disposição dos Estados Partes interessados no intuito de se alcançar uma solução amistosa para a questão baseada no respeito ao presente Pacto.\nb) A Comissão será composta de cinco membros designados com o consentimento dos Estados Partes interessados. Se os Estados Partes interessados não chegarem a um acordo a respeito da totalidade ou de parte da composição da Comissão dentro do prazo de três meses, os membro da Comissão em relação aos quais não se chegou a acordo serão eleitos pelo Comitê, entre os seus próprios membros, em votação secreta e por maioria de dois terços dos membros do Comitê.\n2. Os membros da Comissão exercerão suas funções a título pessoal. Não poderão ser nacionais dos Estados interessados, nem de Estado que não seja Parte do presente Pacto, nem de um Estado Parte que não tenha feito a declaração prevista no artigo 41.\n3. A própria Comissão elegerá seu Presidente e estabelecerá suas regras de procedimento.\n4. As reuniões da Comissão serão realizadas normalmente na sede da Organização das Nações Unidas ou no Escritório das Nações Unidas em Genebra. Entretanto, poderão realizar-se em qualquer outro lugar apropriado que a Comissão determinar, após consulta ao Secretário-Geral da Organização das Nações Unidas e aos Estados Partes interessados.\n5. O secretariado referido no artigo 36 também prestará serviços às comissões designadas em virtude do presente artigo.\n6. As informações obtidas e coligidas pelo Comitê serão colocadas à disposição da Comissão, a qual poderá solicitar aos Estados Partes interessados que lhe forneçam qualquer outra informação pertinente.\n7. Após haver estudado a questão sob todos os seus aspectos, mas, em qualquer caso, no prazo de doze meses após dela ter tomado conhecimento, a Comissão apresentará um relatório ao Presidente do Comitê, que o encaminhará aos Estados Partes interessados:\na) Se a Comissão não puder terminar o exame da questão, restringir-se-á, em seu relatório, a uma breve exposição sobre o estágio em que se encontra o exame da questão;\nb) Se houver sido alcançado uma solução amistosa para a questão, baseada no respeito dos direitos humanos reconhecidos no presente Pacto, a Comissão restringir-se-á, em seu relatório, a uma breve exposição dos fatos e da solução alcançada;\nc) Se não houver sido alcançada solução nos termos da alínea b), a Comissão incluirá no relatório suas conclusões sobre os fatos relativos à questão debatida entre os Estados Partes interessados, assim como sua opinião sobre a possibilidade de solução amistosa para a questão, o relatório incluirá as observações escritas e as atas das observações orais feitas pelos Estados Partes interessados;\nd) Se o relatório da Comissão for apresentado nos termos da alínea c), os Estados Partes interessados comunicarão, no prazo de três meses a contar da data do recebimento do relatório, ao Presidente do Comitê se aceitam ou não os termos do relatório da Comissão.\n8. As disposições do presente artigo não prejudicarão as atribuições do Comitê previstas no artigo 41.\n9. Todas as despesas dos membros da Comissão serão repartidas eqüitativamente entre os Estados Partes interessados, com base em estimativas a serem estabelecidas pelo Secretário-Geral da Organização das Nações Unidas.\n10. O Secretário-Geral da Organização das Nações Unidas poderá, caso seja necessário, pagar as despesas dos membros da Comissão antes que sejam reembolsadas pelos Estados Partes interessados, em conformidade com o parágrafo 9 do presente artigo.",
+   "hash": "4b60bd90e46ab8aedcc36b38cb141ae65e55978717875c4934346eeeed677125",
+   "ordem": 43
+  },
+  "43": {
+   "texto": "ARTIGO 43\nOs membros do Comitê e os membros da Comissão de Conciliação ad hoc que forem designados nos termos do artigo 42 terão direito às facilidades, privilégios e imunidades que se concedem aos peritos no desempenho de missões para a Organização das Nações Unidas, em conformidade com as seções pertinentes da Convenção sobre Privilégios e Imunidades das Nações Unidas.",
+   "hash": "f1b02254bbd87986ee31efe488557d64f72a499aeabc074276d9731fb84d3c0e",
+   "ordem": 44
+  },
+  "44": {
+   "texto": "ARTIGO 44\nAs disposições relativas à implementação do presente Pacto aplicar-se-ão sem prejuízo dos procedimentos instituídos em matéria de direito humanos pelos – ou em virtude dos mesmos – instrumentos constitutivos e pelas Convenções da Organização das Nações Unidas e das agências especializadas e não impedirão que os Estados Partes venham a recorrer a outros procedimentos para a solução de controvérsias em conformidade com os acordos internacionais gerais ou especiais vigentes entre eles.",
+   "hash": "16a26674ba04941276c9fd5e08c947521859fc08e57172276e54add3e0f64ae4",
+   "ordem": 45
+  },
+  "45": {
+   "texto": "ARTIGO 45\nO Comitê submeterá à Assembléia-Geral, por intermédio do Conselho Econômico e Social, um relatório sobre suas atividades.\nPARTE V",
+   "hash": "b5439859dd89cc2ad85ed592eb415e4b656f5b4437b4c19477a67d262f81dd20",
+   "ordem": 46
+  },
+  "46": {
+   "texto": "ARTIGO 46\nNenhuma disposição do presente Pacto poderá ser interpretada em detrimento das disposições da Carta das Nações Unidas e das constituições das agências especializadas, as quais definem as responsabilidades respectivas dos diversos órgãos da Organização das Nações Unidas e das agências especializadas relativamente às questões tratadas no presente Pacto.",
+   "hash": "8717b6a9a641b9311ab822425c55861be137d656a17f839894c3cd0f897df612",
+   "ordem": 47
+  },
+  "47": {
+   "texto": "ARTIGO 47\nNenhuma disposição do presente Pacto poderá ser interpretada em detrimento do direito inerente a todos os povos de desfrutar e utilizar plena e livremente suas riquezas e seus recursos naturais.\nPARTE VI",
+   "hash": "b0e3c1be2f54f6ab9b1a55ac7a2bef95c4cb745d93bce0223ce017afe90052f0",
+   "ordem": 48
+  },
+  "48": {
+   "texto": "ARTIGO 48\n1. O presente Pacto está aberto à assinatura de todos os Estados Membros da Organização das Nações Unidas ou membros de qualquer de suas agências especializadas, de todo Estado Parte do Estatuto da Corte Internacional de Justiça, bem como de qualquer outro Estado convidado pela Assembléia-Geral a tornar-se Parte do presente Pacto.\n2. O presente Pacto está sujeito a ratificação. Os instrumentos de ratificação serão depositados junto ao Secretário-Geral da Organização das Nações Unidas.\n3. O presente Pacto está aberto à adesão de qualquer dos Estados mencionados no parágrafo 1 do presente artigo.\n4. Far-se-á a adesão mediante depósito do instrumento de adesão junto ao Secretário-Geral da Organização das Nações Unidas.\n5. O Secretário-Geral da Organização das Nações Unidas informará todos os Estados que hajam assinado o presente Pacto ou a ele aderido do depósito de cada instrumento de ratificação ou adesão.",
+   "hash": "2d2ac50e6905163a941788d311121a33fe0efd77ead4056a3288ec820da52ac9",
+   "ordem": 49
+  },
+  "49": {
+   "texto": "ARTIGO 49\n1. O presente Pacto entrará em vigor três meses após a data do depósito, junto ao Secretário-Geral da Organização das Nações Unidas, do trigésimo-quinto instrumento de ratificação ou adesão.\n2. Para os Estados que vierem a ratificar o presente Pacto ou a ele aderir após o depósito do trigésimo-quinto instrumento de ratificação ou adesão, o presente Pacto entrará em vigor três meses após a data do depósito, pelo Estado em questão, de seu instrumento de ratificação ou adesão.",
+   "hash": "7e98f733e4ddde25f6241e442ae557c5c5a3aedb41ee77271efdd78d94c38416",
+   "ordem": 50
+  },
+  "50": {
+   "texto": "ARTIGO 50\nAplicar-se-ão as disposições do presente Pacto, sem qualquer limitação ou exceção, a todas as unidades constitutivas dos Estados federativos.",
+   "hash": "4d62030c5a4a9ff08df9e0260bda766b605526ba1f8264a9f9543405f6ed116d",
+   "ordem": 51
+  },
+  "51": {
+   "texto": "ARTIGO 51\n1. Qualquer Estado Parte do presente Pacto poderá propor emendas e depositá-las junto ao Secretário-Geral da Organização das Nações Unidas. O Secretário-Geral comunicará todas as propostas de emenda aos Estados Partes do presente Pacto, pedindo-lhes que o notifiquem se desejam que se convoque uma conferência dos Estados Partes destinada a examinar as propostas e submetê-las a votação. Se pelo menos um terço dos Estados Partes se manifestar a favor da referida convocação, o Secretário-Geral convocará a conferência sob os auspícios da Organização das Nações Unidas. Qualquer emenda adotada pela maioria dos Estados Partes presentes e votantes na conferência será submetida à aprovação da Assembléia-Geral das Nações Unidas.\n2. Tais emendas entrarão em vigor quando aprovadas pela Assembléia-Geral das Nações Unidas e aceitas em conformidade com seus respectivos procedimentos constitucionais, por uma maioria de dois terços dos Estados Partes no presente Pacto.\n3. Ao entrarem em vigor, tais emendas serão obrigatórias para os Estados Partes que as aceitaram, ao passo que os demais Estados Partes permanecem obrigados pelas disposições do presente Pacto e pelas emendas anteriores por eles aceitas.",
+   "hash": "7691db4cdfb5f804219e36860cad385b4d99313ca81761a9b32550e8f19e9bf7",
+   "ordem": 52
+  },
+  "52": {
+   "texto": "ARTIGO 52\nIndependentemente das notificações previstas no parágrafo 5 do artigo 48, o Secretário-Geral da Organização das Nações Unidas comunicará a todos os Estados referidos no parágrafo 1 do referido artigo:\na) as assinaturas, ratificações e adesões recebidas em conformidade com o artigo 48;\nb) a data de entrada em vigor do Pacto, nos termos do artigo 49, e a data em entrada em vigor de quaisquer emendas, nos termos do artigo 51.",
+   "hash": "331d2bd8b9de95bf0a6384654a4f0e0afc4c00edcf987a236685fcf5e3c632cc",
+   "ordem": 53
+  },
+  "53": {
+   "texto": "ARTIGO 53\n1. O presente Pacto, cujos textos em chinês, espanhol, francês, inglês e russo são igualmente autênticos, será depositado nos arquivos da Organização das Nações Unidas.\n2. O Secretário-Geral da Organização das Nações Unidas encaminhará cópias autênticas do presente Pacto a todos os Estados mencionados no artigo 48.\nEm fé do quê, os abaixo-assinados, devidamente autorizados por seus respectivos Governos, assinaram o presente Pacto, aberto à assinatura em Nova York, aos 19 dias do mês de dezembro do ano de mil novecentos e sessenta e seis.",
+   "hash": "4910a9b1b9248d2855656055c8ceae40b4103fc90d2ae094e559801faee86644",
+   "ordem": 54
+  }
+ }
+}

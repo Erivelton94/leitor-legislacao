@@ -1,0 +1,119 @@
+{
+ "id": "dignidade-sexual",
+ "nome": "Crimes contra a Dignidade Sexual",
+ "numero": "Lei nº 12.015/2009",
+ "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12015.htm",
+ "versao": "2026-10-02",
+ "hash": "8a333f6a174003203e2f5106a6eb1ddf6d957a70af0b91bbf6f3f64e4672cd2b",
+ "etag": "\"91f4-650290bcd2754\"",
+ "last_modified": "Thu, 23 Apr 2026 23:31:22 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "LEI Nº 12.015, DE 7 DE AGOSTO DE 2009.",
+  "Altera o Título VI da Parte Especial do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, e o art. 1o da Lei no 8.072, de 25 de julho de 1990, que dispõe sobre os crimes hediondos, nos termos do inciso XLIII do art. 5o da Constituição Federal e revoga a Lei no 2.252, de 1o de julho de 1954, que trata de corrupção de menores.",
+  "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:"
+ ],
+ "ultimo_download_completo": "2026-09-28T23:54:37-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1o Esta Lei altera o Título VI da Parte Especial do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, e o art. 1º da Lei no 8.072, de 25 de julho de 1990, que dispõe sobre os crimes hediondos, nos termos do inciso XLIII do art. 5o da Constituição Federal.",
+   "hash": "067bcae2574a77571bddf7599b64c9fba3af7076ea33582698bfc7f0be146f5b",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Art. 2o O Título VI da Parte Especial do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar com as seguintes alterações:\n“TÍTULO VI\nDOS CRIMES CONTRA A DIGNIDADE SEXUAL\nCAPÍTULO I\nDOS CRIMES CONTRA A LIBERDADE SEXUAL\nEstupro",
+   "hash": "c8842c3b10573c55631f769edeb331cceb8e2da31b688b1da8d23a5278614954",
+   "ordem": 1
+  },
+  "213": {
+   "texto": "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:\nPena - reclusão, de 6 (seis) a 10 (dez) anos.\n§ 1o Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:\nPena - reclusão, de 8 (oito) a 12 (doze) anos.\n§ 2o Se da conduta resulta morte:\nPena - reclusão, de 12 (doze) a 30 (trinta) anos.” (NR)\n“Violação sexual mediante fraude",
+   "hash": "c87c571ef2865d6bb5ff5654794b1fbc717ccf4e9b8030abc0c99348f809f1e4",
+   "ordem": 2
+  },
+  "215": {
+   "texto": "Art. 215. Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima:\nPena - reclusão, de 2 (dois) a 6 (seis) anos.\nParágrafo único. Se o crime é cometido com o fim de obter vantagem econômica, aplica-se também multa.” (NR)\n“Assédio sexual",
+   "hash": "9e385d8723094504644abc36d6d8ab28fd4ac5bf2c22997648b5cec386895269",
+   "ordem": 3
+  },
+  "216-A": {
+   "texto": "Art. 216-A. ....................................................................\n..............................................................................................\n§ 2o A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos.” (NR)\n“CAPÍTULO II\nDOS CRIMES SEXUAIS CONTRA VULNERÁVEL",
+   "hash": "b409b7b0b05ddd3c208c0c51b5be9d102e657aea92d11e06d30c4f658a050575",
+   "ordem": 4
+  },
+  "218": {
+   "texto": "Art. 218. Induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem:\nPena - reclusão, de 2 (dois) a 5 (cinco) anos.\nParágrafo único. (VETADO).” (NR)\n“Ação penal",
+   "hash": "925a3d76eeb85a643c50aae32085bff01d35e354170d7b695947e6c1df2a214c",
+   "ordem": 5
+  },
+  "225": {
+   "texto": "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública condicionada à representação.\nParágrafo único. Procede-se, entretanto, mediante ação penal pública incondicionada se a vítima é menor de 18 (dezoito) anos ou pessoa vulnerável.” (NR)\n“CAPÍTULO V\nDO LENOCÍNIO E DO TRÁFICO DE PESSOA PARA FIM DE\nPROSTITUIÇÃO OU OUTRA FORMA DE\nEXPLORAÇÃO SEXUAL\n.............................................................................................\nFavorecimento da prostituição ou outra forma de exploração sexual",
+   "hash": "567d795b4d9a0cbb83333ce4621c89993ace78022190e82f7180c90073ebdc69",
+   "ordem": 6
+  },
+  "228": {
+   "texto": "Art. 228. Induzir ou atrair alguém à prostituição ou outra forma de exploração sexual, facilitá-la, impedir ou dificultar que alguém a abandone:\nPena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa.\n§ 1o Se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou se assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância:\nPena - reclusão, de 3 (três) a 8 (oito) anos.\n...................................................................................” (NR)\n“Art. 229. Manter, por conta própria ou de terceiro, estabelecimento em que ocorra exploração sexual, haja, ou não, intuito de lucro ou mediação direta do proprietário ou gerente:\n...................................................................................” (NR)\n“Rufianismo",
+   "hash": "c21f314f12a771ce245bee660d721887b7fc1037926553210ed6c538cfd7e4e2",
+   "ordem": 7
+  },
+  "230": {
+   "texto": "Art. 230. ......................................................................\n.............................................................................................\n§ 1o Se a vítima é menor de 18 (dezoito) e maior de 14 (catorze) anos ou se o crime é cometido por ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou por quem assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância:\nPena - reclusão, de 3 (três) a 6 (seis) anos, e multa.\n§ 2o Se o crime é cometido mediante violência, grave ameaça, fraude ou outro meio que impeça ou dificulte a livre manifestação da vontade da vítima:\nPena - reclusão, de 2 (dois) a 8 (oito) anos, sem prejuízo da pena correspondente à violência.” (NR)\n“Tráfico internacional de pessoa para fim de exploração sexual",
+   "hash": "9c8f99b4e870e8db9841737b3623ac4ffbe5bf21fe8f86481132429956f809a8",
+   "ordem": 8
+  },
+  "231": {
+   "texto": "Art. 231. Promover ou facilitar a entrada, no território nacional, de alguém que nele venha a exercer a prostituição ou outra forma de exploração sexual, ou a saída de alguém que vá exercê-la no estrangeiro.\nPena - reclusão, de 3 (três) a 8 (oito) anos.\n§ 1o Incorre na mesma pena aquele que agenciar, aliciar ou comprar a pessoa traficada, assim como, tendo conhecimento dessa condição, transportá-la, transferi-la ou alojá-la.\n§ 2o A pena é aumentada da metade se:\nI - a vítima é menor de 18 (dezoito) anos;\nII - a vítima, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato;\nIII - se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou se assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância; ou\nIV - há emprego de violência, grave ameaça ou fraude.\n§ 3o Se o crime é cometido com o fim de obter vantagem econômica, aplica-se também multa.” (NR)\n“Tráfico interno de pessoa para fim de exploração sexual",
+   "hash": "75d2865529d72bd6e7331f7902de6839edc4cb528968764258c14c50d7503256",
+   "ordem": 9
+  },
+  "231-A": {
+   "texto": "Art. 231-A. Promover ou facilitar o deslocamento de alguém dentro do território nacional para o exercício da prostituição ou outra forma de exploração sexual:\nPena - reclusão, de 2 (dois) a 6 (seis) anos.\n§ 1o Incorre na mesma pena aquele que agenciar, aliciar, vender ou comprar a pessoa traficada, assim como, tendo conhecimento dessa condição, transportá-la, transferi-la ou alojá-la.\n§ 2o A pena é aumentada da metade se:\nI - a vítima é menor de 18 (dezoito) anos;\nII - a vítima, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato;\nIII - se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou se assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância; ou\nIV - há emprego de violência, grave ameaça ou fraude.\n§ 3o Se o crime é cometido com o fim de obter vantagem econômica, aplica-se também multa.” (NR)",
+   "hash": "fc96430041c3eaffb06f2f47f791295081f2c14d38419984364054089df10de0",
+   "ordem": 10
+  },
+  "3": {
+   "texto": "Art. 3o O Decreto-Lei nº 2.848, de 1940, Código Penal, passa a vigorar acrescido dos seguintes arts. 217-A, 218-A, 218-B, 234-A, 234-B e 234-C:\n“Estupro de vulnerável",
+   "hash": "49a43a5b10141f3898c242b4304d42ce8b9613346aa23bf85e4582c256922500",
+   "ordem": 11
+  },
+  "217-A": {
+   "texto": "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos:\nPena - reclusão, de 8 (oito) a 15 (quinze) anos.\n§ 1o Incorre na mesma pena quem pratica as ações descritas no caput com alguém que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, ou que, por qualquer outra causa, não pode oferecer resistência.\n§ 2o (VETADO)\n§ 3o Se da conduta resulta lesão corporal de natureza grave:\nPena - reclusão, de 10 (dez) a 20 (vinte) anos.\n§ 4o Se da conduta resulta morte:\nPena - reclusão, de 12 (doze) a 30 (trinta) anos.”\n“Satisfação de lascívia mediante presença de criança ou adolescente",
+   "hash": "55d5a1b50d55c06d8538e78be8d4ddd5186abaca18cd3bd548a503440b8d4acd",
+   "ordem": 12
+  },
+  "218-A": {
+   "texto": "Art. 218-A. Praticar, na presença de alguém menor de 14 (catorze) anos, ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso, a fim de satisfazer lascívia própria ou de outrem:\nPena - reclusão, de 2 (dois) a 4 (quatro) anos.”\n“Favorecimento da prostituição ou outra forma de exploração sexual de vulnerável",
+   "hash": "f5743a0c2e18789c843c1508ea6daf70cb1b3e5097e580a8750e37d0400518ca",
+   "ordem": 13
+  },
+  "218-B": {
+   "texto": "Art. 218-B. Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 18 (dezoito) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone:\nPena - reclusão, de 4 (quatro) a 10 (dez) anos.\n§ 1o Se o crime é praticado com o fim de obter vantagem econômica, aplica-se também multa.\n§ 2o Incorre nas mesmas penas:\nI - quem pratica conjunção carnal ou outro ato libidinoso com alguém menor de 18 (dezoito) e maior de 14 (catorze) anos na situação descrita no caput deste artigo;\nII - o proprietário, o gerente ou o responsável pelo local em que se verifiquem as práticas referidas no caput deste artigo.\n§ 3o Na hipótese do inciso II do § 2o, constitui efeito obrigatório da condenação a cassação da licença de localização e de funcionamento do estabelecimento.”\n“CAPÍTULO VII\nDISPOSIÇÕES GERAIS\nAumento de pena",
+   "hash": "da99c166baa71518793495965cdb9d110c062db82719c8fe6ecab76c3bba7952",
+   "ordem": 14
+  },
+  "234-A": {
+   "texto": "Art. 234-A. Nos crimes previstos neste Título a pena é aumentada:\nI – (VETADO);\nII – (VETADO);\nIII - de metade, se do crime resultar gravidez; e\nIV - de um sexto até a metade, se o agente transmite à vitima doença sexualmente transmissível de que sabe ou deveria saber ser portador.”\n“Art. 234-B. Os processos em que se apuram crimes definidos neste Título correrão em segredo de justiça.”\n“Art. 234-C. (VETADO).”",
+   "hash": "6511d3c4bf3ffd64d2865225671b56abb9d9f5a94946d132c462d68f76e9af70",
+   "ordem": 15
+  },
+  "4": {
+   "texto": "Art. 4o O art. 1o da Lei no 8.072, de 25 de julho de 1990, Lei de Crimes Hediondos, passa a vigorar com a seguinte redação:\n“Art. 1o ............................................................................\n..............................................................................................\nV - estupro (art. 213, caput e §§ 1o e 2o);\nVI - estupro de vulnerável (art. 217-A, caput e §§ 1o, 2o, 3o e 4o);\n...................................................................................................\n...................................................................................” (NR)",
+   "hash": "17a3ff7f3e1f89f6b49a8441fad350970dd557b133bc0d0a2897de8a7fb5b34e",
+   "ordem": 16
+  },
+  "5": {
+   "texto": "Art. 5o A Lei no 8.069, de 13 de julho de 1990, passa a vigorar acrescida do seguinte artigo:\n“Art. 244-B. Corromper ou facilitar a corrupção de menor de 18 (dezoito) anos, com ele praticando infração penal ou induzindo-o a praticá-la:\nPena - reclusão, de 1 (um) a 4 (quatro) anos.\n§ 1o Incorre nas penas previstas no caput deste artigo quem pratica as condutas ali tipificadas utilizando-se de quaisquer meios eletrônicos, inclusive salas de bate-papo da internet.\n§ 2o As penas previstas no caput deste artigo são aumentadas de um terço no caso de a infração cometida ou induzida estar incluída no rol do art. 1o da Lei no 8.072, de 25 de julho de 1990.”",
+   "hash": "e8503f929d9eb19a270078487cb6ba295741f730e3d0174bf5160644d93c2d55",
+   "ordem": 17
+  },
+  "6": {
+   "texto": "Art. 6o Esta Lei entra em vigor na data de sua publicação.",
+   "hash": "03fbe57c3e464baa5db4cbab1563464ad46ee2feb048716a7833a833781ca325",
+   "ordem": 18
+  },
+  "7": {
+   "texto": "Art. 7o Revogam-se os arts. 214, 216, 223, 224 e 232 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, e a Lei no 2.252, de 1o de julho de 1954.\nBrasília, 7 de agosto de 2009; 188o da Independência e 121o da República.\nLUIZ INÁCIO LULA DA SILVA\nTarso Genro\nEste texto não substitui o publicado no DOU de 10.8.2009\n*",
+   "hash": "e3321028ba6587096f98f2a4069b806031e615d45a6663fec5922609a17352ff",
+   "ordem": 19
+  }
+ }
+}

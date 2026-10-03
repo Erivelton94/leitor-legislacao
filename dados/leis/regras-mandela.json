@@ -1,0 +1,642 @@
+{
+ "id": "regras-mandela",
+ "nome": "Regras de Mandela (Regras Mínimas da ONU para o Tratamento de Presos)",
+ "numero": "ONU, 2015 — tradução oficial do CNJ",
+ "url": "https://cdn.penalreform.org/wp-content/uploads/2017/04/Mandela-Rules_Portuguese.pdf",
+ "versao": "2026-10-02",
+ "hash": "43780efcaf32b669a294ca28d09605ba2bc9e05b72f0987fc2158e6b2d86dbcf",
+ "etag": "W/\"58e7861d-e3589\"",
+ "last_modified": "Fri, 07 Apr 2017 12:29:17 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "Observações Preliminares",
+  "Observação preliminar 1",
+  "As seguintes Regras não pretendem descrever em detalhes um modelo de sistema prisional. Elas buscam somente, com base no consenso geral do pensamento contemporâneo e nos elementos essenciais dos mais adequados sistemas de hoje, estabelecer os bons princípios e práticas no tratamento de presos e na gestão prisional.",
+  "Observação preliminar 2",
+  "1. Tendo em vista a grande variedade das condições jurídicas, sociais, econômicas e geográficas no mundo, é evidente que nem todas as regras podem ser sempre aplicadas em todos os lugares. Devem, entretanto, servir como estímulo para o constante empenho na superação das dificuldades práticas que se opõem a sua aplicação, na certeza de que representam, em seu conjunto, as condições mínimas aceitáveis pelas Nações Unidas.",
+  "2. Por outro lado, as regras abrangem uma área na qual o pensamento está em constante desenvolvimento. Não pretendem impedir experiências e práticas, desde que essas se coadunem com os princípios e objetivos que emanam do texto das Regras. De acordo com esse espírito, a administração prisional central sempre poderá autorizar qualquer exceção às regras.",
+  "Observação preliminar 3",
+  "1. A primeira parte das Regras trata da administração geral dos estabelecimentos prisionais e aplica-se a todas as categorias de presos, criminais ou civis, em prisão preventiva ou condenados, inclusive os que estejam em medidas de segurança ou medidas corretivas ordenadas pelo juiz.",
+  "2. A segunda parte contém regras aplicáveis somente às categorias especiais tratadas em cada Seção.",
+  "Contudo, as regras na Seção A, aplicáveis a presos condenados, devem ser igualmente aplicadas às categorias de presos tratadas nas Seções B, C e D, desde que não conflitem com as regras que regem essas categorias e condicionadas a serem melhores para tais presos.",
+  "Observação preliminar 4",
+  "1. Estas Regras não buscam regular a gestão de instituições reservadas para jovens em conflito com a lei, tais como as unidades de internação e semiliberdade. Todavia, de um modo geral, podem ser igualmente aplicadas a tais estabelecimentos.",
+  "2. A categoria de presos juvenis deve compreender pelo menos todos os jovens que estão sob a jurisdição das cortes juvenis. Como regra, tais jovens não devem ser condenados a penas de reclusão.",
+  "a designação genérica de gênero, conforme permitido pelas normas da Língua Portuguesa. No entanto, ciente de que nesta revisão das Regras Mínimas para o Tratamento de Reclusos houve uma preocupação com a igualdade de gênero dos presos, recomenda-se a leitura destas Regras imbuído do espírito proposto pelas Nações Unidas, aplicando-as tanto para os homens presos como para as mulheres presas, exceto nos casos em que houver expressa diferenciação de gênero.",
+  "I . Regras de aplicação geral",
+  "Princípios básicos"
+ ],
+ "ultimo_download_completo": "2026-09-30T23:52:53-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Regra 1\nTodos os presos devem ser tratados com respeito, devido a seu valor e dignidade inerentes ao ser humano. Nenhum preso deverá ser submetido a tortura ou tratamentos ou sanções cruéis, desumanos ou degradantes e deverá ser protegido de tais atos, não sendo estes justificáveis em qualquer circunstância.\nA segurança dos presos, dos servidores prisionais, dos prestadores de serviço e dos visitantes deve ser sempre assegurada.",
+   "hash": "880da3397418a0d2b54af4ee73f5c9977577e8df476e4f003d3f885479ec60c8",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Regra 2\n1. Estas Regras devem ser aplicadas com imparcialidade. Não haverá discriminação baseada em raça, cor, sexo, idioma, religião, opinião política ou qualquer outra opinião, origem nacional ou social, propriedades, nascimento ou qualquer outra condição. As crenças religiosas e os preceitos morais dos presos serão respeitados.\n2. Para que o princípio da não discriminação seja posto em prática, as administrações prisionais devem levar em conta as necessidades individuais dos presos, particularmente daqueles em situação de maior vulnerabilidade. Medidas para proteger e promover os direitos dos presos portadores de necessidades especiais são necessárias e não serão consideradas discriminatórias.",
+   "hash": "7a047f0d8bf6c265cdd5b93d907748d1c7fa0e0f9b4a07f50161658753adb7bd",
+   "ordem": 1
+  },
+  "3": {
+   "texto": "Regra 3\nO encarceramento e outras medidas que excluam uma pessoa do convívio com o mundo externo são aflitivas pelo próprio fato de ser retirado destas pessoas o direito à autodeterminação ao serem privadas de sua liberdade. Portanto, o sistema prisional não deverá agravar o sofrimento inerente a tal situação, exceto em casos incidentais, em que a separação seja justificável, ou nos casos de manutenção da disciplina.",
+   "hash": "188bc563ed0d7580e0183ac8810c883ed137592056f7308f516254210c896421",
+   "ordem": 2
+  },
+  "4": {
+   "texto": "Regra 4\n1. Os objetivos de uma sentença de encarceramento ou de medida similar restritiva de liberdade são, prioritariamente, de proteger a sociedade contra a criminalidade e de reduzir a reincidência. Tais propósitos só podem ser alcançados se o período de encarceramento for utilizado para assegurar, na medida do possível, a reintegração de tais indivíduos à sociedade após sua soltura, para que possam levar uma vida autossuficiente, com respeito às leis.\n2. Para esse fim, as administrações prisionais e demais autoridades competentes devem oferecer educação, formação profissional e trabalho, bem como outras formas de assistência apropriadas e disponíveis, inclusive aquelas de natureza reparadora, moral, espiritual, social, esportiva e de saúde. Tais programas, atividades e serviços devem ser oferecidos em consonância com as necessidades individuais de tratamento dos presos.",
+   "hash": "400e1181527a69e55e65fa635024fe8663e03f65cd9905a60e161489afab05ff",
+   "ordem": 3
+  },
+  "5": {
+   "texto": "Regra 5\n1. O regime prisional deve procurar minimizar as diferenças entre a vida no cárcere e aquela em liberdade que tendem a reduzir a responsabilidade dos presos ou o respeito à sua dignidade como seres humanos.\n2. As administrações prisionais devem fazer todos os ajustes possíveis para garantir que os presos portadores de deficiências físicas, mentais ou outra incapacidade tenham acesso completo e efetivo à vida prisional em base de igualdade.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS Registros",
+   "hash": "0163e3e23f387fe4e300b5aa5eb589d3e4ba65ff58db01ef65509d4f93da1777",
+   "ordem": 4
+  },
+  "6": {
+   "texto": "Regra 6\nDeverá existir um sistema padronizado de gerenciamento dos registros dos presos em todos os locais de encarceramento. Tal sistema pode ser um banco de dados ou um livro de registro, com páginas numeradas e assinadas. Devem existir procedimentos que garantam um sistema seguro de trilhas de auditoria e que impeçam o acesso não autorizado ou a modificação de qualquer informação contida no sistema.",
+   "hash": "9bdb0e82f93aa976caa89fc3b02bfb918c17a8bcfaab59af19dbc32b3d30c4e2",
+   "ordem": 5
+  },
+  "7": {
+   "texto": "Regra 7\nNenhuma pessoa será admitida em um estabelecimento prisional sem uma ordem de detenção válida.\nAs seguintes informações serão adicionadas ao sistema de registro do preso quando de sua entrada:\n(a) Informações precisas que permitam determinar sua identidade única, respeitando a sua autoatribuição de gênero;\n(b) Os motivos e a autoridade responsável pela sua detenção, além da data, horário e local de prisão;\n(c) A data e o horário de sua entrada e soltura, bem como de qualquer transferência;\n(d) Quaisquer ferimentos visíveis e reclamações acerca de maus-tratos sofridos;\n(e) Um inventário de seus bens pessoais;\n(f) Os nomes de seus familiares e, quando aplicável, de seus filhos, incluindo a idade, o local de residência e o estado de sua custódia ou tutela;\n(g) Contato de emergência e informações acerca do parente mais próximo.",
+   "hash": "14020f61372ed03d066ec21a41368f4ebf6541503ee72173b53fbccdf14b6a51",
+   "ordem": 6
+  },
+  "8": {
+   "texto": "Regra 8\nAs seguintes informações serão adicionadas ao sistema de registro do preso durante seu encarceramento, quando aplicáveis:\n(a) Informação relativa ao processo judicial, incluindo datas de audiências e representação legal;\n(b) Avaliações iniciais e relatórios de classificação;\n(c) Informação relativa ao comportamento e à disciplina;\n(d) Solicitações e reclamações, inclusive alegações de tortura ou outros tratamentos ou sanções cruéis, desumanos ou degradantes, a menos que sejam de natureza confidencial;\n(e) Informação acerca do recebimento de sanções disciplinares;\n(f) Informação das circunstâncias e causas de quaisquer ferimentos ou morte e, no caso de falecimento, o destino do corpo.",
+   "hash": "bd25c61d115527926946c439f440931eeaa2937604ad3a848fd6331ef2e33eba",
+   "ordem": 7
+  },
+  "9": {
+   "texto": "Regra 9\nTodos os registros mencionados nas Regras 7 e 8 serão mantidos confidenciais e acessíveis somente àqueles cujas responsabilidades profissionais requeiram o acesso. Todo preso terá acesso aos seus registros, sujeito às supressões autorizadas pela legislação interna, e direito a receber uma cópia oficial de tais registros quando de sua soltura.",
+   "hash": "e668634285521fdfcafd29ebc80ad7c014510682daa646c472911c16c464a305",
+   "ordem": 8
+  },
+  "10": {
+   "texto": "Regra 10\nO sistema de registro dos presos também será utilizado para gerar dados confiáveis acerca de tendências e características da população prisional, incluindo taxas de ocupação, a fim de criar as bases para a tomada de decisões fundadas em evidências.\nSeparação de categorias",
+   "hash": "11918ad5d4037c9846149991b93b8a8dd09f6e5e9ae8349262a7e5f05e3c52d7",
+   "ordem": 9
+  },
+  "11": {
+   "texto": "Regra 11\nAs diferentes categorias de presos devem ser mantidas em estabelecimentos prisionais separados ou em diferentes setores de um mesmo estabelecimento prisional, levando em consideração seu sexo, idade, antecedentes criminais, razões da detenção e necessidades de tratamento. Assim:\n(a) Homens e mulheres devem, sempre que possível, permanecer detidos em unidades separadas.\nNos estabelecimentos que recebam homens e mulheres, todos os recintos destinados às mulheres devem ser totalmente separados;\n(b) Presos preventivos devem ser mantidos separados daqueles condenados;\n(c) Indivíduos presos por dívidas, ou outros presos civis, devem ser mantidos separados dos indivíduos presos por infrações criminais;\n(d) Jovens presos devem ser mantidos separados dos adultos.\nAcomodações",
+   "hash": "c3343b3688ffe927e763c514ce11dc846cde3a50e9776837d489f9122d9384a0",
+   "ordem": 10
+  },
+  "12": {
+   "texto": "Regra 12\n1. As celas ou quartos destinados ao descanso noturno não devem ser ocupados por mais de um preso.\nSe, por razões especiais, tais como superlotação temporária, for necessário que a administração prisional central faça uma exceção à regra, não é recomendável que dois presos sejam alojados em uma mesma cela ou quarto.\n2. Onde houver dormitórios, estes deverão ser ocupados por presos cuidadosamente selecionados como sendo capazes de serem alojados juntos. Durante a noite, deve haver vigilância regular, de acordo com a natureza do estabelecimento prisional.",
+   "hash": "7f26da6cf692d19faf69af4c673fb9cbbdbcea14083824cf3fc15e2fc7de3946",
+   "ordem": 11
+  },
+  "13": {
+   "texto": "Regra 13\nTodas os ambientes de uso dos presos e, em particular, todos os quartos, celas e dormitórios, devem satisfazer as exigências de higiene e saúde, levando-se em conta as condições climáticas e, particularmente, o conteúdo volumétrico de ar, o espaço mínimo, a iluminação, o aquecimento e a ventilação.",
+   "hash": "318d577477e7ede1103d77790c59aa8c24d823a0cc1c3b1ca97436579bb8e9bd",
+   "ordem": 12
+  },
+  "14": {
+   "texto": "Regra 14\nEm todos os locais onde os presos deverão viver ou trabalhar:\n(a) As janelas devem ser grandes o suficiente para que os presos possam ler ou trabalhar com luz natural e devem ser construídas de forma a permitir a entrada de ar fresco mesmo quando haja ventilação artificial;\n(b) Luz artificial deverá ser suficiente para os presos poderem ler ou trabalhar sem prejudicar a visão.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS",
+   "hash": "b9d62475a91e9e534ac34dbb4b40a187b79498b3371e2efb9f4a6a092ee2c5b7",
+   "ordem": 13
+  },
+  "15": {
+   "texto": "Regra 15\nAs instalações sanitárias devem ser adequadas para possibilitar que todos os presos façam suas necessidades fisiológicas quando necessário e com higiene e decência.",
+   "hash": "b10aaaac220ad2c66ef1b191e0c4de67971dec9aadc4c7996e3a574a9686eaf4",
+   "ordem": 14
+  },
+  "16": {
+   "texto": "Regra 16\nDevem ser fornecidas instalações adequadas para banho, a fim de que todo preso possa tomar banho, e assim possa ser exigido, na temperatura apropriada ao clima, com a frequência necessária para a higiene geral de acordo com a estação do ano e a região geográfica, mas pelo menos uma vez por semana em clima temperado.",
+   "hash": "260aad797f7585d723e06c37022c82566b2ebf7ea258e3004c9913a2a528efa0",
+   "ordem": 15
+  },
+  "17": {
+   "texto": "Regra 17\nTodos os locais de um estabelecimento prisional frequentados regularmente pelos presos deverão ser sempre mantidos e conservados minuciosamente limpos.\nHigiene pessoal",
+   "hash": "2152846722cf21e6984c3127d9f09038e72c79fdc94b1e277cb9b45682423d59",
+   "ordem": 16
+  },
+  "18": {
+   "texto": "Regra 18\n1. Deve ser exigido que o preso mantenha sua limpeza pessoal e, para esse fim, deve ter acesso a água e artigos de higiene, conforme necessário para sua saúde e limpeza.\n2. A fim de que os prisioneiros possam manter uma boa aparência, compatível com seu autorrespeito, devem ter à disposição meios para o cuidado adequado do cabelo e da barba, e homens devem poder barbear-se regularmente.\nVestuário próprio e roupas de cama",
+   "hash": "2e85f7790fff2f2490efd152a4b8a6636eec62d05b85fd414efa40ef46a3ae66",
+   "ordem": 17
+  },
+  "19": {
+   "texto": "Regra 19\n1. Todo preso que não tiver permissão de usar roupas próprias deve receber roupas apropriadas para o clima e adequadas para mantê-lo em boa saúde. Tais roupas não devem, de maneira alguma, ser degradantes ou humilhantes.\n2. Todas as roupas devem estar limpas e ser mantidas em condições adequadas. Roupas íntimas devem ser trocadas e lavadas com a frequência necessária para a manutenção da higiene.\n3. Em circunstâncias excepcionais, sempre que um preso se afastar do estabelecimento prisional, por motivo autorizado, deverá ter permissão de usar suas próprias roupas ou outra que seja discreta.",
+   "hash": "e98f04a5bc4d2c7508bcb362c6d64ab3da7ce52a50ed8f5d67641351c4cfc098",
+   "ordem": 18
+  },
+  "20": {
+   "texto": "Regra 20\nSe os presos tiverem permissão de usar suas próprias roupas, devem-se adotar procedimentos adequados na sua entrada no estabelecimento prisional para assegurar que elas estejam limpas e próprias para uso.",
+   "hash": "85491be09c5a4cdef286639cb5145eb920f930261a698efd8819b7df595edf2c",
+   "ordem": 19
+  },
+  "21": {
+   "texto": "Regra 21\nTodo prisioneiro deve, de acordo com os padrões locais e nacionais, ter uma cama separada, e roupas de cama suficientes que devem estar limpas quando distribuídas, ser mantidas em boas condições e ser trocadas com a frequência necessária para garantir sua limpeza.\nAlimentação",
+   "hash": "618d01e90f2fe245a7d59dc2ec20c72f431157fd00d4a06ae0d258a4ed95ee66",
+   "ordem": 20
+  },
+  "22": {
+   "texto": "Regra 22\n1. Todo preso deve receber da administração prisional, em horários regulares, alimento com valor nutricional adequado à sua saúde e resistência, de qualidade, bem preparada e bem servida.\n2. Todo preso deve ter acesso a água potável sempre que necessitar.\nExercício e esporte",
+   "hash": "cc775e44da0c4e386494345ad17bdd9850567f42acc2795a6c2117bb6318cc11",
+   "ordem": 21
+  },
+  "23": {
+   "texto": "Regra 23\n1. Todo preso que não trabalhar a céu aberto deve ter pelo menos uma hora diária de exercícios ao ar livre, se o clima permitir.\n2. Jovens presos, e outros com idade e condições físicas adequadas, devem receber treinamento físico e de lazer durante o período de exercício. Para este fim, espaço, instalações e equipamentos devem ser providenciados.\nServiços de Saúde",
+   "hash": "25b8b11a6525bacf89f8dbe2da5eb9c0c0e49b297d42e744ce187ee448461bbf",
+   "ordem": 22
+  },
+  "24": {
+   "texto": "Regra 24\n1. O provimento de serviços médicos para os presos é uma responsabilidade do Estado. Os presos devem usufruir dos mesmos padrões de serviços de saúde disponíveis à comunidade, e os serviços de saúde necessários devem ser gratuitos, sem discriminação motivada pela sua situação jurídica.\n2. Os serviços de saúde serão organizados conjuntamente com a administração geral da saúde pública e de forma a garantir a continuidade do tratamento e da assistência, inclusive nos casos de HIV , tuberculose e outras doenças infecciosas, abrangendo também a dependência às drogas.",
+   "hash": "c7fae6f7850d03c0147c41927dcc4f29110d2cc92460259edc0acea9a942d480",
+   "ordem": 23
+  },
+  "25": {
+   "texto": "Regra 25\n1. Toda unidade prisional deve contar com um serviço de saúde incumbido de avaliar, promover, proteger e melhorar a saúde física e mental dos presos, prestando particular atenção aos presos com necessidades especiais ou problemas de saúde que dificultam sua reabilitação.\n2. Os serviços de saúde devem ser compostos por equipe interdisciplinar, com pessoal qualificado suficiente, atuando com total independência clínica, e deve abranger a experiência necessária de psicologia e psiquiatria. Serviço odontológico qualificado deve ser disponibilizado a todo preso.",
+   "hash": "64ee23d5b56aab3970f2dadfc3e3e17a0b34a61e0c3dd309acd699a444f141ca",
+   "ordem": 24
+  },
+  "26": {
+   "texto": "Regra 26\n1. Os serviços de saúde devem elaborar registros médicos individuais, confidenciais e precisos e mantê-los atualizados para todos os presos, que a eles devem ter acesso garantido, sempre que solicitado.\nO preso poderá indicar uma terceira parte para acessar seu registro médico.\n2. O registro médico deve ser encaminhado para o serviço de saúde da unidade prisional para a qual o preso for transferido, e estar sujeito à confidencialidade médica.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS",
+   "hash": "4e11f9971ac901899222b0c84fee78eee68a08b041646bdf30546868cbea8a70",
+   "ordem": 25
+  },
+  "27": {
+   "texto": "Regra 27\n1. Todos os estabelecimentos prisionais devem assegurar o pronto acesso a atenção médica em casos urgentes. Os presos que necessitem de tratamento especializado ou de cirurgia devem ser transferidos para instituições especializadas ou hospitais civis. Se as unidades prisionais possuírem instalações hospitalares, devem contar com pessoal e equipamento apropriados para prestar tratamento e atenção adequados aos presos a eles encaminhados.\n2. As decisões clínicas só podem ser tomadas pelos profissionais de saúde responsáveis, e não podem ser modificadas ou ignoradas pela equipe prisional não médica.",
+   "hash": "6f67a40b7a8de9bb07bfe2f9232dfc379b8e7a8f0703abcb797f7d6aada37633",
+   "ordem": 26
+  },
+  "28": {
+   "texto": "Regra 28\nNas unidades prisionais femininas, deve haver acomodação especial para todas as necessidades de cuidado e tratamento pré e pós-natais. Devem-se adotar procedimentos específicos para que os nascimentos ocorram em um hospital fora da unidade prisional. Se a criança nascer na unidade prisional, este fato não deve constar de sua certidão de nascimento.",
+   "hash": "0d1a5167ae5a33cb153958abdefe33c039f4de0a0c46b3585ce953feac040f34",
+   "ordem": 27
+  },
+  "29": {
+   "texto": "Regra 29\n1. A decisão de permitir uma criança de ficar com seu pai ou com sua mãe na unidade prisional deve se basear no melhor interesse da criança. Nas unidades prisionais que abrigam filhos de detentos, providências devem ser tomadas para garantir:\n(a) creches internas ou externas dotadas de pessoal qualificado, onde as crianças poderão ser deixadas quando não estiverem sob o cuidado de seu pai ou sua mãe.\n(b) Serviços de saúde pediátricos, incluindo triagem médica, no ingresso e monitoramento constante de seu desenvolvimento por especialistas.\n2. As crianças nas unidades prisionais com seu pai ou sua mãe nunca devem ser tratadas como presos.",
+   "hash": "78fec894d110ece956effe77ab0eeebcd4e8e6ab7849e519cac056bedd9c93ab",
+   "ordem": 28
+  },
+  "30": {
+   "texto": "Regra 30\nUm médico, ou qualquer outro profissional de saúde qualificado, seja este subordinado ou não ao médico, deve ver, conversar e examinar todos os presos, assim que possível, tão logo sejam admitidos na unidade prisional, e depois, quando necessário. Deve-se prestar especial atenção a:\n(a) Identificar as necessidades de atendimento médico e adotar as medidas de tratamento necessárias;\n(b) Identificar quaisquer maus-tratos a que o preso recém-admitido tenha sido submetido antes de sua entrada na unidade prisional;\n(c) Identificar qualquer sinal de estresse psicológico, ou de qualquer outro tipo, causado pelo encarceramento, incluindo, mas não apenas, risco de suicídio ou lesões autoprovocadas, e sintomas de abstinência resultantes do uso de drogas, medicamentos ou álcool; além de administrar todas as medidas ou tratamentos apropriados individualizados;\n(d) Nos casos em que há suspeita de o preso estar com doença infectocontagiosa, deve-se providenciar o asilamento clínico, durante o período infeccioso, e tratamento adequado;\n(e) Determinar a aptidão do preso para trabalhar, praticar exercícios e participar das demais atividades, conforme for o caso.",
+   "hash": "f9fff0218664771850b8669ee5782eb2a414cc3e96e5832e265a8991a0361e9b",
+   "ordem": 29
+  },
+  "31": {
+   "texto": "Regra 31\nO médico ou, onde aplicável, outros profissionais qualificados de saúde devem ter acesso diário a todos os presos doentes, a todos os presos que relatem problemas físicos ou mentais de saúde ou ferimentos e a qualquer preso ao qual lhes chamem à atenção. Todos os exames médicos devem ser conduzidos em total confidencialidade.",
+   "hash": "3aa7a0e03a14a9efcf2ad21d713e67f5093de4f63f3cd1dc7a41c86444d2ad3d",
+   "ordem": 30
+  },
+  "32": {
+   "texto": "Regra 32\n1. A relação entre o médico ou outros profissionais de saúde e o preso deve ser regida pelos mesmos padrões éticos e profissionais aplicados aos pacientes da comunidade, em particular:\n(a) O dever de proteger a saúde física e mental do preso, e a prevenção e tratamento de doenças baseados somente em fundamentos clínicos;\n(b) A aderência à autonomia do preso no que concerne à sua própria saúde, e ao consentimento informado na relação médico-paciente;\n(c) A confidencialidade da informação médica, a menos que manter tal confidencialidade resulte em uma ameaça real e iminente ao paciente ou aos demais;\n(d) A absoluta proibição de participar, ativa ou passivamente, em atos que possam consistir em tortura ou tratamentos ou sanções cruéis, desumanos ou degradantes, incluindo experimentos médicos ou científicos que possam ser prejudiciais à saúde do preso, tais como a remoção de células, tecidos ou órgãos.\n2. Sem prejuízo do parágrafo 1 (d) desta Regra, deve ser permitido ao preso, por meio de seu livre e informado consentimento e de acordo com as leis aplicáveis, participar de experimentos clínicos e outras pesquisas de saúde acessíveis à comunidade, se o resultado de tais pesquisas e experimentos possam produzir um benefício direto e significativo à sua saúde; e doar células, tecidos ou órgãos a parentes.",
+   "hash": "28550d273514e4ce36ccb0b8b88efc26742009782c4a57d2a87ec0cafe613613",
+   "ordem": 31
+  },
+  "33": {
+   "texto": "Regra 33\nO médico deve relatar ao diretor sempre que considerar que a saúde física ou mental de um preso foi ou será prejudicialmente afetada pelo encarceramento contínuo ou pelas condições do encarceramento.",
+   "hash": "0aed61dc81f4838c9201c0be47037be3c98e325ff790f3ae805612f50373a1e9",
+   "ordem": 32
+  },
+  "34": {
+   "texto": "Regra 34\nSe, durante o exame de admissão ou a prestação posterior de cuidados médicos, o médico ou profissional de saúde perceber qualquer sinal de tortura ou tratamento ou sanções cruéis, desumanos ou degradantes, deve registrar e relatar tais casos à autoridade médica, administrativa ou judicial competente. Salvaguardas procedimentais apropriadas devem ser seguidas para garantir que o preso ou indivíduos a ele associados não sejam expostos a perigos previsíveis.",
+   "hash": "7788aea010a2b67fd751adf3429829c85a812b656bae3109f4f748af3108a3e5",
+   "ordem": 33
+  },
+  "35": {
+   "texto": "Regra 35\n1. O médico ou o profissional competente de saúde pública deve regularmente inspecionar e aconselhar o diretor sobre:\n(a) A quantidade, qualidade, preparação e fornecimento de alimentos;\n(b) A higiene e limpeza da unidade prisional e dos presos;\n(c) O saneamento, temperatura, iluminação e ventilação da unidade prisional;\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS\n(d) A adequação da limpeza e das roupas dos presos, bem como das roupas de cama;\n(e) O cumprimento das regras em relação a educação física e esportes, nos casos em que não houver pessoal técnico para tais atividades.\n2. O diretor prisional deve levar em consideração os conselhos e relatórios fornecidos de acordo com o parágrafo 1 desta Regra e com a Regra 33 e deve tomar medidas imediatas para implementação dos conselhos e recomendações feitos. Se o conselho ou a recomendação não for de sua competência ou se não concordar com estes, deverá submeter imediatamente seu próprio relatório, juntamente com o conselho ou a recomendação recebido às autoridades superiores.\nRestrições, disciplina e sanções",
+   "hash": "77e3c322c965476b901e2c72611c1848975589627c42e18427cda55c8362d63a",
+   "ordem": 34
+  },
+  "36": {
+   "texto": "Regra 36\nA disciplina e a ordem devem ser mantidas, mas sem maiores restrições do que as necessárias para garantir a custódia segura, a segurança da unidade prisional e uma vida comunitária bem organizada.",
+   "hash": "e98557020520f1d5eb14b35ff8e1aced3e08275e957f7e7c13e1714e7175e6a8",
+   "ordem": 35
+  },
+  "37": {
+   "texto": "Regra 37\nOs seguintes itens devem sempre ser pendentes de autorização por lei ou por regulamento da autoridade administrativa competente:\n(a) Conduta que constitua infração disciplinar;\n(b) Tipos e duração das sanções que podem ser impostas;\n(c) Autoridade competente para impor tais sanções.\nd) Qualquer forma de separação involuntária da população prisional geral, como o confinamento solitário, o isolamento, a segregação, as unidades de cuidado especial ou alojamentos restritos, seja por razão de sanção disciplinar ou para a manutenção da ordem e segurança, inclusive políticas de promulgação e procedimentos que regulamentem o uso e a revisão da imposição e da liberação de qualquer forma de separação involuntária.",
+   "hash": "679751f255d9a8472abfb2f9632e9f46bb9be3f716e267b56284de4255398c3f",
+   "ordem": 36
+  },
+  "38": {
+   "texto": "Regra 38\n1. As administrações prisionais são encorajadas a utilizar, na medida do possível, a prevenção de conflitos, mediação ou qualquer outro mecanismo alternativo de solução de disputas para prevenir infrações disciplinares e resolver conflitos.\n2. Para os presos que estejam, ou estiveram separados, a administração prisional deve tomar as medidas necessárias para aliviar os efeitos prejudiciais do confinamento provocados neles e na comunidade que os recebe quando de sua soltura.",
+   "hash": "094215e8afcb2dcd42e241e6570f1473525c81aa8eace98e9e9cf8a92f1f5ae4",
+   "ordem": 37
+  },
+  "39": {
+   "texto": "Regra 39\n1. Nenhum preso pode ser punido, exceto com base nas disposições legais ou regulamentares referidas na Regra 37 e nos princípios de justiça e de devido processo legal; e jamais será punido duas vezes pela mesma infração.\n2. As administrações prisionais devem assegurar a proporcionalidade entre a sanção disciplinar e a infração para a qual foi estabelecida e devem manter registros apropriados de todas as sanções disciplinares impostas.\n3. Antes de impor uma sanção disciplinar, os administradores devem levar em consideração se e como uma eventual doença mental ou incapacidade de desenvolvimento do preso possa ter contribuído para sua conduta e o cometimento de infração ou ato que fundamentou a sanção disciplinar. Os administradores prisionais não devem punir qualquer conduta do preso que seja considerada resultado direto de sua doença mental ou incapacidade intelectual.",
+   "hash": "b28e93f1814110b15e70844ccfbca54a65e34155cb02d93de13058659b589876",
+   "ordem": 38
+  },
+  "40": {
+   "texto": "Regra 40\n1. Nenhum preso deve ser empregado, a serviço da unidade prisional, em cumprimento a qualquer medida disciplinar.\n2. Esta regra, entretanto, não impede o funcionamento adequado de sistemas baseados na autoadministração, sob os quais atividades ou responsabilidades sociais, educacionais ou desportivas são confiadas, sob supervisão, aos presos, organizados em grupos, para fins de tratamento.",
+   "hash": "0dd534237ec1213eddb84e8fb39458d94f6791340ec312fcdc24c1c1701f2da2",
+   "ordem": 39
+  },
+  "41": {
+   "texto": "Regra 41\n1. Qualquer alegação de infração disciplinar cometida por um preso deve ser reportada prontamente à autoridade competente, que deve investigá-la sem atraso indevido.\n2. O preso deve ser informado, sem demora e em uma linguagem que compreenda, da natureza das acusações contra sua pessoa, e deve-lhe ser garantido prazo e meios adequados para preparar sua defesa.\n3. O preso deve ter direito a se defender pessoalmente, ou por meio de assistência legal, quando os interesses da justiça assim o requeiram, particularmente em casos que envolvam infrações disciplinares graves. Se o preso não entender ou falar o idioma utilizado na audiência disciplinar, devem ser assistidos gratuitamente por um intérprete competente.\n4. O preso deve ter a oportunidade de buscar revisão judicial das sanções disciplinares impostas contra sua pessoa.\n5. No caso de infração disciplinar ser processada como crime, o preso deve ter direito a todas as garantias do devido processo legal, aplicáveis aos processos criminais, incluindo total acesso a um defensor jurídico.",
+   "hash": "fec9127700c8bbed5e61e5ba647586bd5ae0aca86c4b9bad7b47fb66f6936001",
+   "ordem": 40
+  },
+  "42": {
+   "texto": "Regra 42\nAs condições gerais de vida expressas nestas Regras, incluindo aquelas relacionadas à iluminação, à ventilação, à temperatura, ao saneamento, à nutrição, à água potável, à acessibilidade a ambientes ao ar livre e ao exercício físico, à higiene pessoal, aos cuidados médicos e ao espaço pessoal adequado, devem ser aplicadas a todos os presos, sem exceção.",
+   "hash": "b11ecb2f5d5bcf6394882b1f95dba9195d478d02e24e26b59d127052aff90f25",
+   "ordem": 41
+  },
+  "43": {
+   "texto": "Regra 43\n1. Em nenhuma hipótese devem as restrições ou sanções disciplinares implicar em tortura ou outra forma de tratamento ou sanções cruéis, desumanos ou degradantes. As seguintes práticas, em particular, devem ser proibidas:\n(a) Confinamento solitário indefinido;\n(b) Confinamento solitário prolongado;\n(c) Encarceramento em cela escura ou constantemente iluminada;\n(d) Castigos corporais ou redução da dieta ou água potável do preso;\n(e) Castigos coletivos.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS\n2. Instrumentos de imobilização jamais devem ser utilizados como sanção a infrações disciplinares.\n3. Sanções disciplinares ou medidas restritivas não devem incluir a proibição de contato com a família.\nO contato familiar só pode ser restringido por um prazo limitado e quando for estritamente necessário para a manutenção da segurança e da ordem.",
+   "hash": "5f0f54bb4b0938ca6f36fa28197d93efce2d9bb47d38e8bc45d004569ef70578",
+   "ordem": 42
+  },
+  "44": {
+   "texto": "Regra 44\nPara os objetivos destas Regras, o confinamento solitário refere-se ao confinamento do preso por 22 horas ou mais, por dia, sem contato humano significativo. O confinamento solitário prolongado refere-se ao confinamento solitário por mais de 15 dias consecutivos.",
+   "hash": "6fae116ee37ac76f56000fa4e05e74a07074340f6e538ff24b4e045ec550cd8e",
+   "ordem": 43
+  },
+  "45": {
+   "texto": "Regra 45\n1. O confinamento solitário será utilizado somente em casos excepcionais como último recurso, pelo menor prazo possível e sujeito a uma revisão independente, e somente de acordo com autorização de autoridade competente. Não deverá ser imposto como consequência da sentença do preso.\n2. A determinação de confinamento solitário será proibida no caso de preso portador de deficiência mental ou física quando essas condições possam ser agravadas por tal medida. A proibição do uso do confinamento solitário e de medidas similares em casos envolvendo mulheres e crianças, como referido em outros padrões e normas das Nações Unidas sobre prevenção ao crime e justiça criminal,29 permanece aplicável.",
+   "hash": "f3637b21052fb4660e83c235453b640615d7b9663129601a7bbf5a23949fb405",
+   "ordem": 44
+  },
+  "46": {
+   "texto": "Regra 46\n1. Os profissionais de saúde não devem ter qualquer papel na imposição de sanções disciplinares ou outras medidas restritivas. Devem, no entanto, prestar especial atenção à saúde dos presos mantidos sob qualquer forma de separação involuntária, com visitas diárias a tais presos, e providenciando pronto atendimento e assistência médica quando solicitado pelo preso ou por agentes prisionais.\n2. Os profissionais de saúde devem reportar ao diretor, sem demora, qualquer efeito colateral causado pelas sanções disciplinares ou outras medidas restritivas à saúde física ou mental do preso submetido a tais sanções ou medidas e devem aconselhar o diretor se considerarem necessário interrompê-las por razões físicas ou psicológicas.\n3. Os profissionais de saúde devem ter a autoridade para rever e recomendar alterações na separação involuntária de um preso, com vistas a assegurar que tal separação não agrave as condições médicas ou a deficiência física ou mental do preso.\nInstrumentos de restrição",
+   "hash": "1df526153438704a2f99f4cc974a42fa1caae7e7cbc63e6ac023924e570ec758",
+   "ordem": 45
+  },
+  "47": {
+   "texto": "Regra 47\n1. O uso de correntes, de imobilizadores de ferro ou outros instrumentos restritivos que são inerentemente degradantes ou dolorosos devem ser proibidos.\n2. Outros instrumentos restritivos devem ser utilizados apenas quando previstos em lei e nas seguintes circunstâncias:\nRegras das Nações Unidas para o Tratamento de Mulheres Presas e Medidas não Privativas de Liberdade para Mulheres Infratoras (Regras de Bangkok) (Resolução n. 65/229, anexo).\n(a) Como precaução contra a fuga durante uma transferência, desde que sejam removidos quando o preso estiver diante de autoridade judicial ou administrativa;\n(b) Por ordem do diretor da unidade prisional, se outros métodos de controle falharem, a fim de evitar que um preso machuque a si mesmo ou a outrem ou que danifique propriedade; em tais circunstâncias, o diretor deve imediatamente alertar o médico ou outro profissional de saúde qualificado e reportar à autoridade administrativa superior.",
+   "hash": "c2914ec37618bcf33da4db457a4292167312e7d76f22db82ee2a2d3bd4a09de6",
+   "ordem": 46
+  },
+  "48": {
+   "texto": "Regra 48\n1. Quando a utilização de instrumentos restritivos for autorizada, de acordo com o parágrafo 2 da regra 47, os seguintes princípios serão aplicados:\n(a) Os instrumentos restritivos serão utilizados apenas quando outras formas menos severas de controle não forem efetivas para enfrentar os riscos representados pelo movimento sem a restrição;\n(b) O método de restrição será o menos invasivo necessário, e razoável para controlar a movimentação do preso, baseado no nível e natureza do risco apresentado;\n(c) Os instrumentos de restrição devem ser utilizados apenas durante o período exigido e devem ser retirados, assim que possível, depois que o risco que motivou a restrição não esteja mais presente.\n2. Os instrumentos de restrição não devem ser utilizados em mulheres em trabalho de parto, nem durante e imediatamente após o parto.",
+   "hash": "59391e41fab50aecf986e953fc0a2a108719ff05acf41dea97a27b40bb904031",
+   "ordem": 47
+  },
+  "49": {
+   "texto": "Regra 49\nA administração prisional deve buscar e promover o treinamento no uso de técnicas de controle que afastem a necessidade de utilizar instrumentos restritivos ou que reduzam seu caráter invasivo.\nRevistas íntimas e inspeção em celas",
+   "hash": "2ae2e456b8abb92607ceed0f8de0a178beb8e603ae67e0de360f4f7b559bca8c",
+   "ordem": 48
+  },
+  "50": {
+   "texto": "Regra 50\nAs leis e regulamentos acerca das revistas íntimas e inspeções de celas devem estar em conformidade com as obrigações do Direito Internacional e devem levar em conta os padrões e as normas internacionais, considerando-se a necessidade de garantir a segurança nas unidades prisionais. As revistas íntimas e inspeções serão conduzidas respeitando-se a inerente dignidade humana e privacidade do indivíduo sob inspeção, assim como os princípios da proporcionalidade, legalidade e necessidade.",
+   "hash": "f34cb8768fdd29d219b2c92daff292746cd8f86d22686506409bffe884c4b6c6",
+   "ordem": 49
+  },
+  "51": {
+   "texto": "Regra 51\nAs revistas íntimas e inspeções não serão utilizadas para assediar, intimidar ou invadir desnecessariamente a privacidade do preso. Para os fins de responsabilização, a administração prisional deve manter registros apropriados das revistas íntimas e inspeções, em particular daquelas que envolvam o ato de despir e de inspecionar partes íntimas do corpo e inspeções nas celas, bem como as razões das inspeções, a identidade daqueles que as conduziram e quaisquer resultados dessas inspeções.",
+   "hash": "91bd21b5b68edfce5071e0d3e67db3f7f71e90a6f8a4337d008fa15fbf3cd455",
+   "ordem": 50
+  },
+  "52": {
+   "texto": "Regra 52\n1. Revistas íntimas invasivas, incluindo o ato de despir e de inspecionar partes íntimas do corpo, devem ser empreendidas apenas quando forem absolutamente necessárias. As administrações prisionais devem ser encorajadas a desenvolver e utilizar outras alternativas apropriadas ao invés de revistas íntimas REGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS invasivas. As revistas íntimas invasivas serão conduzidas de forma privada e por pessoal treinado do mesmo gênero do indivíduo inspecionado.\n2. As revistas das partes íntimas serão conduzidas apenas por profissionais de saúde qualificados, que não sejam os principais responsáveis pela atenção à saúde do preso, ou, no mínimo, por pessoal apropriadamente treinado por profissionais da área médica nos padrões de higiene, saúde e segurança.",
+   "hash": "3030fb282894ea75460e2a12a0c0637a1c4b8de52b9974f7223f9416b598622d",
+   "ordem": 51
+  },
+  "53": {
+   "texto": "Regra 53\nOs presos devem ter acesso aos documentos relacionados aos seus processos judiciais e serem autorizados a mantê-los consigo, sem que a administração prisional tenha acesso a estes.\nInformações e direito à queixa dos presos",
+   "hash": "8c7cde4d332ebf8ef56dbd4ddb631a5cfda7cee429a9730365d06d34d25868a3",
+   "ordem": 52
+  },
+  "54": {
+   "texto": "Regra 54\nTodo preso, na sua entrada, deve receber informação escrita sobre:\n(a) A legislação e os regulamentos concernentes à unidade prisional e ao sistema prisional;\n(b) Seus direitos, inclusive métodos autorizados de busca de informação, acesso à assistência jurídica, inclusive gratuita, e procedimentos para fazer solicitações e reclamações;\n(c) Suas obrigações, inclusive as sanções disciplinares aplicáveis; e\n(d) Todos os assuntos necessários para possibilitar ao preso adaptar-se à vida de reclusão.",
+   "hash": "75522408658f80e4c2ab20b52bbe61067701783e258fc71d601a2f77577fb7de",
+   "ordem": 53
+  },
+  "55": {
+   "texto": "Regra 55\n1. As informações mencionadas na regra 54 devem estar disponíveis nos idiomas mais utilizados, de acordo com as necessidades da população prisional. Se um preso não compreender qualquer desses idiomas, deverá ser fornecida a assistência de um intérprete.\n2. Se o preso for analfabeto, as informações devem ser fornecidas verbalmente. Presos com deficiências sensoriais devem receber as informações de maneira apropriada a suas necessidades.\n3. A administração prisional deve exibir, com destaque, informativos nas áreas de trânsito comum da unidade prisional.",
+   "hash": "028a92bea9dbe144969310745d2407cee0f1c8520a24756a1a2c2d0e2c9580c6",
+   "ordem": 54
+  },
+  "56": {
+   "texto": "Regra 56\n1. Todo preso deve ter a oportunidade, em qualquer dia, de fazer solicitações ou reclamações ao diretor da unidade prisional ou ao servidor prisional autorizado a representá-lo.\n2. Deve ser viabilizada a possibilidade de os presos fazerem solicitações ou reclamações, durante as inspeções da unidade prisional, ao inspetor prisional. O preso deve ter a oportunidade de conversar com o inspetor ou com qualquer outro oficial de inspeção, livremente e em total confidencialidade, sem a presença do diretor ou de outros membros da equipe.\n3. Todo preso deve ter o direito de fazer uma solicitação ou reclamação sobre seu tratamento, sem censura quanto ao conteúdo, à administração prisional central, à autoridade judiciária ou a outras autoridades competentes, inclusive àqueles com poderes de revisão e de remediação.\n4. Os direitos previstos nos parágrafos 1 a 3 desta Regra serão estendidos ao seu advogado. Nos casos em que nem o preso, nem o seu advogado tenham a possibilidade de exercer tais direitos, um membro da família do preso ou qualquer outra pessoa que tenha conhecimento do caso poderá exercê-los.",
+   "hash": "fbf658f5fd5605e10bcafa9524399260dbc2d40acac2e357452cbcced58a632b",
+   "ordem": 55
+  },
+  "57": {
+   "texto": "Regra 57\n1. Toda solicitação ou reclamação deve ser prontamente apreciada e respondida sem demora. Se a solicitação ou reclamação for rejeitada, ou no caso de atraso indevido, o reclamante terá o direito de levá-la à autoridade judicial ou outra autoridade.\n2. Mecanismos de salvaguardas devem ser criados para assegurar que os presos possam fazer solicitações e reclamações de forma segura e, se requisitado pelo reclamante, confidencialmente. O preso, ou qualquer outra pessoa mencionada no parágrafo 4 da Regra 56, não deve ser exposto a qualquer risco de retaliação, intimidação ou outras consequências negativas como resultado de uma solicitação ou reclamação.\n3. Alegações de tortura ou tratamentos ou sanções cruéis, desumanos ou degradantes deverão ser apreciadas imediatamente e devem resultar em uma pronta e imparcial investigação, conduzida por autoridade nacional independente, de acordo com os parágrafos 1 e 2 da Regra 71.\nContato com o mundo exterior",
+   "hash": "e46ec62bbc76d305cc3f21ebc7f15ef265ec8f1bf6198913f20afa375d712ff6",
+   "ordem": 56
+  },
+  "58": {
+   "texto": "Regra 58\n1. Os prisioneiros devem ter permissão, sob a supervisão necessária, de comunicarem-se periodicamente com seus familiares e amigos, periodicamente:\n(a) por correspondência e utilizando, onde houver, de telecomunicações, meios digitais, eletrônicos e outros; e\n(b) por meio de visitas.\n2. Onde forem permitidas as visitais conjugais, este direito deve ser garantido sem discriminação, e as mulheres presas exercerão este direito nas mesmas bases que os homens. Devem ser instaurados procedimentos, e locais devem ser disponibilizados, de forma a garantir o justo e igualitário acesso, respeitando-se a segurança e a dignidade.",
+   "hash": "075cdb8b811b0ef025d28e083c23983491d96c40143d7bbfb0fc028c9c340990",
+   "ordem": 57
+  },
+  "59": {
+   "texto": "Regra 59\nOs presos devem ser alocados, na medida do possível, em unidades prisionais próximas às suas casas ou ao local de sua reabilitação social.",
+   "hash": "ba6ab0955c6b7077400a9f2e78187107292aa15cf6f4e0db0c99196b0176a2e7",
+   "ordem": 58
+  },
+  "60": {
+   "texto": "Regra 60\n1. A entrada de visitantes nas unidades prisionais depende do consentimento do visitante de se submeter à revista. O visitante pode revogar seu consentimento a qualquer tempo; nesse caso, a administração prisional poderá vedar seu acesso.\n2. Os procedimentos de entrada e revista para visitantes não devem ser degradantes e devem ser governados por princípios não menos protetivos que aqueles delineados nas Regras 50 a 52. Revistas em partes íntimas do corpo devem ser evitadas e não devem ser utilizadas em crianças.",
+   "hash": "0fd5d11bcedddeca50736ddf834c377d897b439d3c38d7c1bdcf70fc4be79664",
+   "ordem": 59
+  },
+  "61": {
+   "texto": "Regra 61\n1. Os presos devem ter a oportunidade, tempo e meios adequados para receberem visitas e de se comunicaram com um advogado de sua própria escolha ou com um defensor público, sem demora, interceptação ou censura, em total confidencialidade, sobre qualquer assunto legal, em conformidade com a legislação local. Tais encontros podem estar sob as vistas de agentes prisionais, mas não passíveis de serem ouvidos por estes.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS\n2. Nos casos em que os presos não falam o idioma local, a administração prisional deve facilitar o acesso aos serviços de um intérprete competente e independente.\n3. Os presos devem ter acesso a assistência jurídica efetiva.",
+   "hash": "0a21894fc1b49a988e3bb129a351e5ef90905cbef96ce2673101ebc12882be4d",
+   "ordem": 60
+  },
+  "62": {
+   "texto": "Regra 62\n1. Presos estrangeiros devem ter acesso a recursos razoáveis para se comunicarem com os representantes diplomáticos e consulares do Estado ao qual pertencem.\n2. Presos originários de Estados sem representação diplomática ou consular no país e refugiados ou apátridas devem ter acesso a recursos similares para se comunicarem com os representantes diplomáticos do Estado encarregados de seus interesses ou com qualquer autoridade nacional ou internacional que tenha como tarefa proteger tais indivíduos.",
+   "hash": "789988bbece8047bf7d186649cf3a84e7139c732fd1e70220177025ff4782bb4",
+   "ordem": 61
+  },
+  "63": {
+   "texto": "Regra 63\nOs presos devem ser regularmente informados sobre os assuntos mais importantes dos noticiários, por meio de leitura de jornais, de periódicos ou de publicações institucionais especiais, por transmissões sem fio, por palestras ou por quaisquer meios similares autorizados ou controlados pela administração prisional.\nLivros",
+   "hash": "6333380e722c73641bf221f2a656c2a8d82003fc368e938c4bb921bb3ffb3cee",
+   "ordem": 62
+  },
+  "64": {
+   "texto": "Regra 64\nToda unidade prisional deve ter uma biblioteca para uso de todas as categorias de presos, adequadamente provida de livros de lazer e de instrução, e os presos devem ser incentivados a fazer uso dela.\nReligião",
+   "hash": "b6515be00466079b65e3bb3aa01a73e3d18ed107c8966ee9925fb46f427ce319",
+   "ordem": 63
+  },
+  "65": {
+   "texto": "Regra 65\n1. Se a unidade prisional contiver um número suficiente de presos de uma mesma religião, deve ser indicado ou aprovado um representante qualificado daquela religião. Se o número de prisioneiros justificar tal procedimento, e se as condições permitirem, deve-se adotar este procedimento em tempo integral.\n2. Um representante qualificado indicado ou aprovado conforme o parágrafo 1 desta Regra deve ter permissão para realizar celebrações regulares e fazer visitas pastorais privadas a presos de sua religião em horário apropriado.\n3. O direito de entrar em contato com um representante qualificado de sua religião nunca deve ser negado a qualquer preso. Por outro lado, se um preso se opuser à visita de qualquer representante religioso, sua decisão deve ser plenamente respeitada.",
+   "hash": "cee4ea9527c7b60fdc4f12879a87e337e2774afd16b60da1509c99b0bdb05bc1",
+   "ordem": 64
+  },
+  "66": {
+   "texto": "Regra 66\nTodo preso deve ter o direito de atender às necessidades de sua vida religiosa, participando de celebrações realizadas nas unidades prisionais e mantendo consigo livros de prática e de ensino de sua confissão.\nRetenção de pertences dos presos",
+   "hash": "3b9b2ef83f5adc132be61af65d70b612ee6c0c35b6892d28e5e1204697c193f0",
+   "ordem": 65
+  },
+  "67": {
+   "texto": "Regra 67\n1. Todo dinheiro, objeto de valor, roupa e outros objetos pertencentes a um preso, que sob o regulamento de uma unidade prisional não possam ser guardados com ele ao entrar na unidade prisional, devem ser mantidos sob cuidados e segurança. Um inventário deve ser assinado pelo preso e deve-se zelar para manter os pertences em boas condições.\n2. Na liberação do preso, todos os artigos e dinheiro devem ser devolvidos a ele, exceto se tiver sido autorizado a gastar o dinheiro ou enviar qualquer pertence para fora da unidade prisional, ou tenha sido necessário destruir qualquer peça de roupa por motivos de higiene. O preso deve assinar um recibo referente aos artigos e dinheiro que lhe forem devolvidos.\n3. Qualquer dinheiro ou pertence recebido de fora da unidade prisional está submetido a essas mesmas regras.\n4. Se um preso trouxer quaisquer drogas ou medicamentos, o médico ou outro profissional da saúde qualificado decidirá sobre a sua utilização.\nNotificações",
+   "hash": "69fb17ee732e22308262679e3caec5de5523a952b2de012a207e396bf339fb34",
+   "ordem": 66
+  },
+  "68": {
+   "texto": "Regra 68\nTodo preso deve ter o direito, e a ele devem ser assegurados os meios para tanto, de informar imediatamente a sua família, ou qualquer outra pessoa designada como seu contato, sobre seu encarceramento, ou sobre sua transferência para outra unidade prisional, ou, ainda, sobre qualquer doença ou ferimento graves. A divulgação de informações pessoais dos presos deve estar submetida à legislação local.",
+   "hash": "70e1ee5d41dfc64baa05a24e1a86e1f84d2061de5e3cb0994a4ea68734d1b4ac",
+   "ordem": 67
+  },
+  "69": {
+   "texto": "Regra 69\nEm caso de morte de um preso, o diretor da unidade prisional deve informar, imediatamente, o parente mais próximo ou contato de emergência do preso. Os indivíduos designados pelo preso para receberem as informações sobre sua saúde devem ser notificados pelo diretor em caso de doença grave, ferimento ou transferência para uma instituição médica. A solicitação explícita de um preso, de que seu cônjuge ou parente mais próximo não seja informado em caso de doença ou ferimento, deve ser respeitada.",
+   "hash": "61855f71d729cbd0617d4c1246328642f6b038bf7da72a82a7bcfe6e367fbd18",
+   "ordem": 68
+  },
+  "70": {
+   "texto": "Regra 70\nA administração prisional deve informar imediatamente o preso sobre doença grave ou a morte de parente próximo, cônjuge ou companheiro. Quando as circunstâncias permitirem, o preso deve ser autorizado a ir ver, sob escolta ou sozinho, o parente próximo, o cônjuge ou o companheiro, que esteja gravemente doente ou a participar do funeral de tais pessoas.\nInvestigações",
+   "hash": "020f4bd6eafa71ec31384167cc02d4f8cdf9d24ff07656f15673aa4e7ecc8c04",
+   "ordem": 69
+  },
+  "71": {
+   "texto": "Regra 71\n1. Não obstante uma investigação interna, o diretor da unidade prisional deve reportar, imediatamente, a morte, o desaparecimento ou o ferimento grave à autoridade judicial ou a outra autoridade competente, independente da administração prisional; e deve determinar a investigação imediata, imparcial e efetiva REGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS sobre as circunstâncias e causas de tais eventos. A administração prisional deve cooperar integralmente com a referida autoridade e assegurar que todas as evidências sejam preservadas.\n2. A obrigação do parágrafo 1 desta Regra deve ser igualmente aplicada quando houver indícios razoáveis para se supor que um ato de tortura ou tratamento ou sanção cruéis, desumanos ou degradantes tenha sido cometido na unidade prisional, mesmo que não tenha recebido reclamação formal.\n3. Quando houver indícios razoáveis para se supor que atos referidos no parágrafo 2 desta Regra tenham sido praticados, devem ser tomadas providências imediatas para garantir que todas as pessoas potencialmente implicadas não tenham envolvimento nas investigações ou contato com as testemunhas, vítimas e seus familiares.",
+   "hash": "4d5804239cc7863ab7857ebeb319b26c14be616b80568676abb2acc88629fde3",
+   "ordem": 70
+  },
+  "72": {
+   "texto": "Regra 72\nA administração prisional deve tratar o corpo de um preso falecido com respeito e dignidade. O corpo do preso falecido deve ser devolvido ao seu parente mais próximo o mais rapidamente possível e no mais tardar quando concluída a investigação. A administração prisional deve providenciar um funeral culturalmente adequado, se não houver outra parte disposta ou capaz de fazê-lo, e deve manter completo registro do fato.\nRemoção de presos",
+   "hash": "f6808431d4fb939440d2be4fce46e1ba19382a44e0f91bc3cdbfc5ec6e033b9b",
+   "ordem": 71
+  },
+  "73": {
+   "texto": "Regra 73\n1. Quando os presos estiverem sendo removidos de ou para uma unidade, devem ser expostos ao público pelo menor tempo possível, e devem ser adotadas as devidas salvaguardas para protegê-los de insultos, curiosidade e qualquer forma de publicidade.\n2. Deve ser proibido o transporte de presos em veículo com ventilação ou iluminação inadequadas ou que possa submetê-los a qualquer forma de sofrimento físico.\n3. O transporte de presos deve ter as despesas pagas pela administração e ser feito em condições iguais para todos.\nFuncionários da unidade prisional",
+   "hash": "29a259f7ea99b9cf0091a79f8f0a47bd546258d5aafcf6d630fb507c06c190c8",
+   "ordem": 72
+  },
+  "74": {
+   "texto": "Regra 74\n1. A administração prisional deve promover seleção cuidadosa de funcionários de todos os níveis, uma vez que a administração adequada da unidade prisional depende da integridade, humanidade, capacidade profissional e adequação para o trabalho de seus funcionários.\n2. A administração prisional deve, constantemente, suscitar e manter no espírito dos funcionários e da opinião pública a convicção de que este trabalho é um serviço social de grande importância, e para atingir seu objetivo deve utilizar todos os meios apropriados para informar o público.\n3. Para garantir os fins anteriormente citados, os funcionários devem ser indicados para trabalho em período integral como agentes prisionais profissionais e a condição de servidor público, com estabilidade no emprego, sujeito apenas à boa conduta, eficiência e aptidão física. O salário deve ser suficiente para atrair e reter homens e mulheres compatíveis com o cargo; os benefícios e condições de emprego devem ser condizentes com a natureza exigente do trabalho.",
+   "hash": "9ded6c53a864ba2329c19ef13b6ce6b32c6d3637fec03ec90196729050438eea",
+   "ordem": 73
+  },
+  "75": {
+   "texto": "Regra 75\n1. Os funcionários devem possuir um padrão adequado de educação e receber as condições e os meios para exercerem suas funções de forma profissional.\n2. Antes de tomarem posse, os funcionários devem receber treinamento em suas tarefas gerais e específicas, que deve refletir as melhores práticas modernas, baseadas em dados empíricos, das ciências penais. Apenas os candidatos que forem aprovados nas provas teóricas e práticas ao final do treinamento devem ser admitidos no serviço prisional.\n3. A administração prisional deve garantir a capacitação contínua por meio de cursos de treinamento em serviço, com o objetivo de manter e aperfeiçoar o conhecimento e a capacidade profissional de seus funcionários, depois de tomarem posse e durante sua carreira.",
+   "hash": "51c7434ac2a2586b3f969536a5cbf7f4e050e02027e340949c62a8a10feda62a",
+   "ordem": 74
+  },
+  "76": {
+   "texto": "Regra 76\n1. O treinamento a que se refere o parágrafo 2 da Regra 75 deve incluir, no mínimo, treinamento em:\n(a) Legislação, regulamentos e políticas nacionais relevantes, bem como os instrumentos internacionais e regionais aplicáveis, as premissas que devem guiar o trabalho e as interações dos funcionários com os internos.\n(b) Direitos e deveres dos funcionários no exercício de suas funções, incluindo o respeito à dignidade humana de todos os presos e a proibição de certas condutas, em particular a prática de tortura ou tratamentos ou sanções cruéis, desumanos ou degradantes.\n(c) Segurança, incluindo o conceito de segurança dinâmica, o uso da força e instrumentos de restrição, e o gerenciamento de infratores violentos, levando-se em consideração técnicas preventivas e alternativas, como negociação e mediação;\n(d) Técnicas de primeiros socorros, as necessidades psicossociais dos presos e as correspondentes dinâmicas no ambiente prisional, bem como a atenção e a assistência social, incluindo o diagnóstico prévio de doenças mentais.\n2. Os funcionários que estiverem incumbidos de trabalhar com certas categorias de presos, ou que estejam designados para outras funções específicas, devem receber treinamento específico com foco em tais particularidades.",
+   "hash": "8b108133be30a093001ccac9979d91cfa0127bf312ec4006df63fccec38dacf0",
+   "ordem": 75
+  },
+  "77": {
+   "texto": "Regra 77\nTodos os membros da equipe devem, a todo momento, portar-se e executar suas atividades de maneira que o seu exemplo seja uma boa influência sobre os presos e mereçam seu respeito.",
+   "hash": "c449df31f26c0c81b9d2f93e642bf6fb2e971329e8468499527dec4da4316cbb",
+   "ordem": 76
+  },
+  "78": {
+   "texto": "Regra 78\n1. Na medida do possível, a equipe prisional deve incluir um número suficiente de especialistas tais como psiquiatras, psicólogos, assistentes sociais, professores e instrutores técnicos.\n2. Os serviços de assistentes sociais, professores e instrutores técnicos devem ser providos de forma permanente, sem excluir a participação de trabalhadores de tempo parcial e voluntários.",
+   "hash": "6cd9f380c2fb0bf29e738dd49aff99e0adc60fec9263668121e1dbc3b052a6de",
+   "ordem": 77
+  },
+  "79": {
+   "texto": "Regra 79\n1. O diretor da unidade prisional deve ser adequadamente qualificado para a tarefa no que se refere a personalidade, capacidade administrativa e treinamento e experiência apropriados.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS\n2. O diretor da unidade prisional deve dedicar-se em tempo integral a suas tarefas profissionais e não deve ser indicado em tempo parcial. Deve residir nas dependências da unidade prisional ou nas imediações.\n3. Quando duas ou mais unidades prisionais estiverem sob o controle de um mesmo diretor, ele deve visitar cada uma delas a intervalos regulares. Em cada uma das unidades prisionais deve haver um agente responsável.",
+   "hash": "dce1beaeb043ac34a1e3d92b5e7df5d8d3ee01163f0de89c664e84571e6ed528",
+   "ordem": 78
+  },
+  "80": {
+   "texto": "Regra 80\n1. O diretor, o seu representante e a maioria dos funcionários da unidade prisional devem falar o idioma da maior parte dos presos ou um idioma entendido pela maioria deles.\n2. Sempre que necessário, devem-se utilizar os serviços de intérprete qualificado.",
+   "hash": "8d1bcd9cd091dbdd8a23f0fcbeda0fd0af54965c027c39a69155e32528fa95f4",
+   "ordem": 79
+  },
+  "81": {
+   "texto": "Regra 81\n1. Em uma unidade prisional para homens e mulheres, a parte da unidade destinada a mulheres deve estar sob a supervisão de uma oficial feminina responsável que tenha a custódia das chaves de toda aquela parte da unidade.\n2. Nenhum funcionário do sexo masculino deve entrar na parte feminina da unidade prisional a menos que esteja acompanhado de uma agente.\n3. As presas devem ser atendidas e supervisionadas somente por agentes femininas. Entretanto, isso não impede que membros homens da equipe, especialmente médicos e professores, desempenhem suas atividades profissionais em unidades prisionais ou nas áreas destinadas a mulheres.",
+   "hash": "bae92ff8399e487b15998a7aaf46469830c6778fce86e0faa80a180d78643a8f",
+   "ordem": 80
+  },
+  "82": {
+   "texto": "Regra 82\n1. Os funcionários das unidades prisionais não devem, em seu relacionamento com os presos, usar de força, exceto em caso de autodefesa, tentativa de fuga, ou resistência ativa ou passiva a uma ordem fundada em leis ou regulamentos. Agentes que recorram ao uso da força não devem fazê-lo além do estritamente necessário e devem relatar o incidente imediatamente ao diretor da unidade prisional.\n2. Os agentes prisionais devem receber treinamento físico para capacitá-los a controlar presos agressivos.\n3. Exceto em circunstâncias especiais, no cumprimento das tarefas que exigem contato direto com os presos, os funcionários prisionais não devem estar armados. Além disso, a equipe não deve, em circunstância alguma, portar armas, a menos que seja treinada para fazer uso delas.\nInspeções internas e externas",
+   "hash": "e94a46dd2955c9e21b4d7e8a1c11162e8b3e1bccdcbfd44408d99c9f459c0cfc",
+   "ordem": 81
+  },
+  "83": {
+   "texto": "Regra 83\n1. Deve haver um sistema duplo de inspeções regulares nas unidades prisionais e nos serviços penais:\n(a) Inspeções internas ou administrativas conduzidas pela administração prisional central;\n(b) Inspeções externas conduzidas por órgão independente da administração prisional, que pode incluir órgãos internacionais ou regionais competentes.\n2. Em ambos os casos, o objetivo das inspeções deve ser o de assegurar que as unidades prisionais sejam gerenciadas de acordo com as leis, regulamentos, políticas e procedimentos existentes, a fim de alcançar os objetivos dos serviços penais e prisionais, e a proteção dos direitos dos presos.",
+   "hash": "76fd56f277b40136e25fcf055c7397f85e5c6ada35102dddef801c044a6e93c1",
+   "ordem": 82
+  },
+  "84": {
+   "texto": "Regra 84\n1. Os inspetores devem ter a autoridade para:\n(a) Acessar todas as informações acerca do número de presos e dos locais de encarceramento, bem como toda a informação relevante para o tratamento dos presos, inclusive seus registros e as condições de detenção;\n(b) Escolher livremente qual estabelecimento prisional deve ser inspecionado, inclusive fazendo visitas de iniciativa própria sem prévio aviso, e quais presos devem ser entrevistados;\n(c) Conduzir entrevistas com os presos e com os funcionários prisionais, em total privacidade e confidencialidade, durante suas visitas;\n(c) Fazer recomendações à administração prisional e a outras autoridades competentes.\n2. Equipes de inspeção externa devem ser compostas por inspetores qualificados e experientes, indicados por uma autoridade competente, e devem contar com profissionais de saúde. Deve-se buscar uma representação paritária de gênero.",
+   "hash": "c54feae47ea53ad253b86f2984728b9c560ad5583348385893c557fe19f8c967",
+   "ordem": 83
+  },
+  "85": {
+   "texto": "Regra 85\n1. Toda inspeção será seguida de um relatório escrito a ser submetido à autoridade competente. Esforços devem ser empreendidos para tornar os relatórios de inspeções externas de acesso público, excluindo-se qualquer dado pessoal dos presos, a menos que tenham fornecido seu consentimento explícito.\n2. A administração prisional ou qualquer outra autoridade competente, conforme apropriado, indicará, em um prazo razoável, se as recomendações advindas de inspeções externas serão implementadas.\nII . Regras aplicáveis a categorias especiais\nA . Presos sentenciados\nPrincípios orientadores",
+   "hash": "f7dc7a5da84f60be446c9e5ab1b0d5c06bcd5a2f51b7d057ffbabc1fca429e54",
+   "ordem": 84
+  },
+  "86": {
+   "texto": "Regra 86\nOs princípios orientadores a seguir objetivam mostrar o espírito sob o qual os estabelecimentos prisionais devem ser administrados e os fins que devem almejar, de acordo com a declaração feita na Observação Preliminar 1 destas Regras.",
+   "hash": "5c49054515a084035987d5db87e0f6313e15d42b4944815f890ace7ddefe4534",
+   "ordem": 85
+  },
+  "87": {
+   "texto": "Regra 87\nAntes do término do cumprimento de uma pena ou medida, é desejável que sejam tomadas providências necessárias para assegurar ao preso um retorno progressivo à vida em sociedade. Este propósito pode ser alcançado, de acordo com o caso, com a adoção de um regime de pré-soltura, organizado dentro da mesma unidade prisional ou em outra instituição apropriada, ou mediante liberdade condicional sob algum tipo de vigilância, que não deve ser confiada à polícia, mas deve ser combinada com uma assistência social eficaz.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS",
+   "hash": "c03e95a6f0179adc8f66de5da79693fbddd4c8e1d4002ce0ce9090c576738156",
+   "ordem": 86
+  },
+  "88": {
+   "texto": "Regra 88\n1. O tratamento dos presos deve enfatizar não a sua exclusão da comunidade, mas sua participação contínua nela. Assim, as agências comunitárias devem, sempre que possível, ser indicadas para auxiliar a equipe da unidade prisional na tarefa de reabilitação social dos presos.\n2. Todo estabelecimento prisional deve ter trabalhadores sociais encarregados de manter e aperfeiçoar todas as relações desejáveis de um preso com sua família e com agências sociais reconhecidas. Devem-se adotar procedimentos para proteger, ao máximo possível, de acordo com a lei e a sentença, os direitos relacionados aos interesses civis, à previdência social e aos demais benefícios sociais dos presos.",
+   "hash": "f77152eab3aaa59b4c827f2d9bfb00704782ff64acd0152a44f4f64909b547f3",
+   "ordem": 87
+  },
+  "89": {
+   "texto": "Regra 89\n1. O cumprimento destes princípios requer a individualização do tratamento e, para tal, é necessário um sistema flexível de classificação dos presos em grupos. Deve-se, portanto, distribuir tais grupos em unidades prisionais separadas adequadas ao tratamento de cada um.\n2. Essas unidades prisionais não precisam proporcionar o mesmo grau de segurança para todos os grupos. É recomendável que vários graus de segurança sejam disponibilizados, de acordo com as necessidades de diferentes grupos. As unidades abertas, exatamente pelo fato de não proporcionarem segurança física contra fuga, mas confiarem na autodisciplina dos detentos, proporcionam as condições mais favoráveis para a reabilitação de presos cuidadosamente selecionados.\n3. O número de detentos em unidades prisionais fechadas não deve ser grande demais a ponto de coibir o tratamento individualizado. Em alguns países, entende-se que a população de tais unidades não deve passar de quinhentos detentos. Em unidades abertas, a população deve ser a menor possível.\n4. Por outro lado, não é recomendável manter unidades prisionais que sejam pequenas demais ao ponto de impedirem o provimento de instalações adequadas.",
+   "hash": "6b9f3125c3ba5c66a42cd702721e41253e3ae8760495feb2c8c9174ff18c0caf",
+   "ordem": 88
+  },
+  "90": {
+   "texto": "Regra 90\nA tarefa da sociedade não termina com a liberação de um preso. Deve haver, portanto, agências governamentais ou privadas capazes de prestar acompanhamento pós-soltura de forma eficiente, direcionado à diminuição do preconceito contra ele e visando à sua reinserção social.\nTratamento",
+   "hash": "c0f05a6eb128120e180184da974f0ae6f6db060236abdde3827ff9e60cb9543c",
+   "ordem": 89
+  },
+  "91": {
+   "texto": "Regra 91\nO tratamento de presos sentenciados ao encarceramento ou a medida similar deve ter como propósito, até onde a sentença permitir, criar nos presos a vontade de levar uma vida de acordo com a lei e autossuficiente após sua soltura e capacitá-los a isso, além de desenvolver seu senso de responsabilidade e autorrespeito.",
+   "hash": "176062510d630d5f6a14dc82476fd6c0ecb9702db06be77b6fa3cac7336f58bd",
+   "ordem": 90
+  },
+  "92": {
+   "texto": "Regra 92\n1. Para esses fins, todos os meios apropriados devem ser usados, inclusive cuidados religiosos em países onde isso é possível, educação, orientação e capacitação vocacionais, assistência social direcionada, aconselhamento profissional, desenvolvimento físico e fortalecimento de seu caráter moral. Tudo isso deve ser feito de acordo com as necessidades individuais de cada preso, levando em consideração sua história social e criminal, suas capacidades e aptidões mentais, seu temperamento pessoal, o tempo da sentença e suas perspectivas para depois da liberação.\n2. Para cada preso com uma sentença de extensão adequada, o diretor prisional deve receber, no mais breve possível após sua entrada, relatórios sobre todos os assuntos referentes a ele mencionados no parágrafo 1 desta Regra. Esses relatórios devem sempre incluir relatório do médico ou do profissional de saúde qualificado sobre a condição física e mental do preso.\n3. Os relatórios e demais documentos relevantes devem ser postos em um arquivo individual. Esse arquivo deve ser mantido atualizado e classificado de maneira a possibilitar a consulta pelo pessoal responsável, sempre que houver necessidade.\nClassificação e individualização",
+   "hash": "bb377e6412c32b35b402b9d3ea41ef2ea3476486f1c8628e0b2e1ba60272517f",
+   "ordem": 91
+  },
+  "93": {
+   "texto": "Regra 93\n1. As finalidades da classificação devem ser:\n(a) Separar dos demais presos aqueles que, por motivo de seu histórico criminal ou pela sua personalidade, possam vir a exercer uma influência negativa sobre os demais presos;\n(b) Dividir os presos em classes, a fim de facilitar o tratamento, visando à sua reinserção social.\n2. Na medida do possível, as unidades prisionais, ou setores separados de uma unidade, devem ser usadas para o tratamento de diferentes classes de presos.",
+   "hash": "f4d24262fc5b9290055fddf08dee4d274c99b24e876f3210ec8e8baa6935ff2d",
+   "ordem": 92
+  },
+  "94": {
+   "texto": "Regra 94\nAssim que possível, após a entrada e após um estudo da personalidade de cada preso sentenciado com extensão adequada, deve-se preparar um programa de tratamento para ele baseado no conhecimento obtido sobre suas necessidades, capacidades e disposições.\nPrivilégios",
+   "hash": "be65f836397c37186782dc70d426787df17e3308cae4071a3cb810897058e7c0",
+   "ordem": 93
+  },
+  "95": {
+   "texto": "Regra 95\nToda unidade prisional deve estabelecer sistemas de privilégios adequados para as diferentes classes de presos e diferentes métodos de tratamento, a fim de incentivar uma boa conduta, desenvolver o senso de responsabilidade e assegurar o interesse e a cooperação dos presos no seu tratamento.\nTrabalho",
+   "hash": "a072aa0c447310326504c0a167b236cab43c78013fc06f7d0986539baf643dbe",
+   "ordem": 94
+  },
+  "96": {
+   "texto": "Regra 96\n1. Os presos condenados devem ter a oportunidade de trabalhar e/ou participar ativamente de sua reabilitação, sendo esta atividade sujeita à determinação, por um médico ou outro profissional de saúde qualificado, de sua aptidão física e mental.\n2. Trabalho suficiente de natureza útil deve ser oferecido aos presos de modo a conservá-los ativos durante um dia normal de trabalho.",
+   "hash": "5e9f36944548823c6fdce53a3caf410b5381b24adaa3f31de2bc2cbd75845996",
+   "ordem": 95
+  },
+  "97": {
+   "texto": "Regra 97\n1. O trabalho na prisão não deve ser de natureza estressante.\n2. Os presos não devem ser mantidos em regime de escravidão ou servidão.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS\n3. Nenhum preso será solicitado a trabalhar para beneficiar pessoal ou privativamente qualquer membro da equipe prisional.",
+   "hash": "d871b1afcea6b94f23bb3435002de730eeb0ac72ec6d76a685119a758ecc5661",
+   "ordem": 96
+  },
+  "98": {
+   "texto": "Regra 98\n1. Quando possível, o trabalho realizado deve manter ou aumentar a habilidade dos presos para que possam viver de maneira digna após sua liberação.\n2. Os presos devem receber treinamento vocacional, em profissões úteis, das quais possam tirar proveito, especialmente os presos jovens.\n3. Dentro dos limites compatíveis com a seleção vocacional apropriada e das exigências da administração e disciplina prisional, os presos devem poder escolher o tipo de trabalho que gostariam de exercer.",
+   "hash": "1e3aed2050184b7095983974b87863c504c32f4e3f9bbf29731fb77da15f928e",
+   "ordem": 97
+  },
+  "99": {
+   "texto": "Regra 99\n1. A organização e os métodos de trabalho nas unidades prisionais devem ser os mais parecidos possíveis com aqueles realizados fora da unidade, para, dessa forma, preparar os presos para as condições de uma vida profissional normal.\n2. Os interesses dos presos e de seu treinamento vocacional, entretanto, não devem ser subordinados à obtenção de lucro financeiro por uma atividade dentro da unidade prisional.",
+   "hash": "c7463e7438e279a34a98841aab04ba5204eef789ec51d5fbc1fdbf944538c287",
+   "ordem": 98
+  },
+  "100": {
+   "texto": "Regra 100\n1. As indústrias e explorações agrícolas, preferencialmente, devem ser operadas diretamente pela administração prisional e não por contratantes privados.\n2. Se o local onde os presos estiverem trabalhando não estiver sob o controle da administração prisional, devem sempre permanecer sob a supervisão dos agentes prisionais. A menos que o trabalho seja para outros departamentos do governo, o salário normal deve ser pago à administração prisional pelas pessoas para as quais o trabalho é executado, levando em consideração a produtividade dos presos.",
+   "hash": "8deda5ce2bbd847c544feb9d120e3107f8e3692c386f3f70374d10f413d221ea",
+   "ordem": 99
+  },
+  "101": {
+   "texto": "Regra 101\n1. As precauções fixadas para proteger a segurança e a saúde dos trabalhadores livres devem ser igualmente observadas nas unidades prisionais.\n2. Devem-se adotar procedimentos para indenizar os presos por acidentes de trabalho, inclusive por enfermidades provocadas pelo trabalho, em termos não menos favoráveis que aqueles estendidos pela lei a trabalhadores livres.",
+   "hash": "9ef433e0f6834a935c502b3d8fedc53a454ad74925b415472ec31e42cda2d78f",
+   "ordem": 100
+  },
+  "102": {
+   "texto": "Regra 102\n1. O número máximo de horas trabalhadas, por dia e por semana, pelos presos deve ser fixado em lei pelo regulamento administrativo, levando em consideração as normas e os costumes locais em relação ao emprego de trabalhadores livres.\n2. As horas fixadas devem permitir um dia de descanso por semana e tempo suficiente para o estudo e para outras atividades exigidas como parte do tratamento e reinserção dos presos.",
+   "hash": "8873da423ab2eb772ab0a3640186aa14c276a73b616d4538e9156e7e589d05ae",
+   "ordem": 101
+  },
+  "103": {
+   "texto": "Regra 103\n1. Deve haver um sistema de remuneração igualitária para o trabalho dos presos.\n2. Dentro do sistema, os presos deverão ter permissão para gastar pelo menos parte do que ganharem em artigos aprovados para uso próprio e para enviar uma parte de seus ganhos para sua família.\n3. O sistema deve também possibilitar que uma parte dos ganhos seja reservada pela administração prisional para constituir um fundo de poupança a ser destinado ao preso quando da sua liberação.\nEducação e lazer",
+   "hash": "16c034d58c97dbb9c90437809c6c0931b33fc1e4b4c37dab85d940fbabcde8d1",
+   "ordem": 102
+  },
+  "104": {
+   "texto": "Regra 104\n1. Instrumentos devem ser criados para promover a educação de todos os presos que possam se beneficiar disso, incluindo instrução religiosa, em países onde isso é possível. A educação de analfabetos e jovens presos deve ser compulsória, e a administração prisional deve destinar atenção especial a isso.\n2. Na medida do possível, a educação dos presos deve ser integrada ao sistema educacional do país, para que após sua liberação eles possam continuar seus estudos sem maiores dificuldades.",
+   "hash": "59bbb11fcb91c9c7a7a35462cd6a9932e4df192a4564f784381ab56eb094158f",
+   "ordem": 103
+  },
+  "105": {
+   "texto": "Regra 105\nTodas as unidades prisionais devem oferecer atividades recreativas e culturais em benefício da saúde física e mental dos presos.\nRelações sociais e assistência pós-prisional",
+   "hash": "260d06251d62feed7d3e3a1937c60c987766fad400b1e9ad214b1d12f584d7da",
+   "ordem": 104
+  },
+  "106": {
+   "texto": "Regra 106\nAtenção especial deve ser dada para a manutenção e o aperfeiçoamento das relações entre o preso e sua família, conforme apropriado ao melhor interesse de ambos.",
+   "hash": "111407724af1e83fd38f0b857153e9443dce851a353544d4655228bffd764ddc",
+   "ordem": 105
+  },
+  "107": {
+   "texto": "Regra 107\nDesde o início do cumprimento da sentença de um preso, deve-se considerar seu futuro após a liberação, e ele deve ser incentivado e auxiliado a manter ou estabelecer relações com indivíduos ou entidades fora da unidade prisional, da melhor forma possível, para promover sua própria reabilitação social e os seus interesses e de sua família.",
+   "hash": "42da2e09b574b28a076d8c52e61f6de0052dcd3487e7756a4bcfd94ec06a6977",
+   "ordem": 106
+  },
+  "108": {
+   "texto": "Regra 108\n1. Os serviços e as agências, sejam governamentais ou não, que ajudam presos libertos a se restabelecerem na sociedade devem assegurar, na medida do possível e do necessário, que eles possuam os documentos e papéis de identificação apropriados, que tenham casa e trabalho adequados, que estejam adequadamente vestidos, levando em consideração o clima e a estação do ano, e que tenham meios suficientes para alcançar seu destino e para se sustentarem no período imediatamente posterior a sua liberação.\n2. Os representantes autorizados de tais agências devem ter todo o acesso necessário à unidade prisional e aos presos e devem ser consultados sobre o futuro do preso desde o início de sua sentença.\n3. As atividades de tais agências devem ser centralizadas ou coordenadas, na medida do possível, para garantir o melhor uso de seus esforços.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS B . Presos com transtornos mentais e/ou com problemas de saúde",
+   "hash": "4e3d75f99a30ca9f40d03c2a1368bde2c374eba4615d196376170c0b481571b7",
+   "ordem": 107
+  },
+  "109": {
+   "texto": "Regra 109\n1. Os indivíduos considerados imputáveis, ou que posteriormente foram diagnosticados com deficiência mental e/ou problemas de saúde severos, para os quais o encarceramento significaria um agravamento de sua condição, não devem ser detidos em unidades prisionais e devem-se adotar procedimentos para removê-los a instituição de doentes mentais, assim que possível.\n2. Se necessário, os demais presos que sofrem de outros problemas de saúde ou deficiências mentais devem ser observados e tratados sob cuidados de profissionais de saúde qualificados em instituições especializadas.\n3. O serviço de saúde das instituições penais deve proporcionar tratamento psiquiátrico a todos os outros prisioneiros que necessitarem.",
+   "hash": "a10471667e743ec664b76637c4c6243be1ffcb9b8480fa0f1021cff5c28a13b9",
+   "ordem": 108
+  },
+  "110": {
+   "texto": "Regra 110\nCaso necessário, medidas devem ser tomadas, juntamente com entidades apropriadas, para garantir a continuidade do tratamento psiquiátrico e para prestar acompanhamento após a liberação.\nC . Presos sob custódia ou aguardando julgamento",
+   "hash": "60b21e97e876d68d1a94f36f0abe82a48beaeb62ebd47592aa323fc4dbd41b89",
+   "ordem": 109
+  },
+  "111": {
+   "texto": "Regra 111\n1. Indivíduos presos ou detidos sob acusação criminal que estejam sob custódia policial ou prisional, mas que aguardem julgamento e sentença, devem ser tratados como “presos não julgados” doravante nestas Regras.\n2. Presos não condenados têm presunção de inocência e devem ser tratados como inocentes.\n3. Sem prejuízo das previsões legais para a proteção da liberdade individual ou do procedimento a ser observado com relação a presos não julgados, estes presos devem ser beneficiados com um regime especial descrito nas Regras a seguir somente em seus requisitos essenciais.",
+   "hash": "9aba078b45690efd5b12b75759539d35eb50d326efd843ecd2eaf2d870bc8cda",
+   "ordem": 110
+  },
+  "112": {
+   "texto": "Regra 112\n1. Presos não julgados deverão ser mantidos separados dos presos condenados.\n2. Jovens presos não julgados devem ser mantidos separados dos adultos e, em princípio, ser detidos em unidades separadas.",
+   "hash": "3eafadc2cd1bb9b0cd7dac632d5d12c9706f2c27a9bee8f6f70f596a8cfe38b8",
+   "ordem": 111
+  },
+  "113": {
+   "texto": "Regra 113\nPresos não julgados devem dormir sozinhos em quartos separados, com ressalva dos diferentes hábitos locais relacionados ao clima.",
+   "hash": "c7e084944133eaadc469490950dc9d033aabfcc9b5ff279aac3e413677ed9bf5",
+   "ordem": 112
+  },
+  "114": {
+   "texto": "Regra 114\nDentro dos limites compatíveis com o bom andamento da unidade prisional, os presos não julgados poderão, se assim desejarem, ter a sua alimentação vinda do meio externo, por intermédio da administração, com seus próprios recursos, de suas famílias ou de amigos. Caso contrário, a administração deve providenciar a alimentação.",
+   "hash": "f7f955cb656f979a91f171b52f76be2d8a10f08bffcb3e6ed0f1373bf575ab9a",
+   "ordem": 113
+  },
+  "115": {
+   "texto": "Regra 115\nUm preso não julgado deve ter permissão para vestir suas próprias roupas se estiverem limpas e forem apropriadas. Se usar roupa do estabelecimento prisional, esta será diferente da fornecida aos condenados.",
+   "hash": "44c483354122808f8f16815f4ac727d612aa7aa570ab2da5fc5472884bda42c0",
+   "ordem": 114
+  },
+  "116": {
+   "texto": "Regra 116\nUm prisioneiro não julgado deve ter a oportunidade de trabalhar, mas não será obrigado a fazê-lo. Caso opte por trabalhar, será remunerado pelos seus serviços.",
+   "hash": "08060ef2ca34fed5de4fbf4d3b97c43dcba2a8c0d1fdd6472e07105f0d12470c",
+   "ordem": 115
+  },
+  "117": {
+   "texto": "Regra 117\nUm preso não julgado deve ter permissão para obter, a suas expensas ou a de terceiros, livros, jornais, artigos de papelaria e de outros meios de ocupação que sejam compatíveis com os interesses da administração judicial e com a segurança e boa ordem da unidade prisional.",
+   "hash": "5df47da49bc82a6b35d3c09a04724ede842a82807daf79689094dd6e7fcb16c5",
+   "ordem": 116
+  },
+  "118": {
+   "texto": "Regra 118\nUm preso não julgado tem o direito de receber visitas, ser tratado por seu próprio médico ou dentista, desde que haja razão suficiente para isso e desde que custeie as despesas advindas do tratamento.",
+   "hash": "d47ac80bd66fb4b31fa518d6a9e2367793b478ce91d169c046c5e62f8dbb0b8e",
+   "ordem": 117
+  },
+  "119": {
+   "texto": "Regra 119\n1. Todo preso tem o direito de ser imediatamente informado das razões de sua detenção e sobre quaisquer acusações que pesem contra ele.\n2. Se um preso não julgado não tiver advogado de sua escolha, ser-lhe-á designado um defensor pela autoridade judicial, ou outra autoridade, em todos os casos em que os interesses da justiça o requeiram e sem custos para o preso não julgado, caso não tenha os meios suficientes para pagar. A denegação de acesso a assistente jurídico deve ser objeto de uma revisão independente, sem demora.",
+   "hash": "2018b378c861c711f26fd29488aee606daf173ee1304a9dd1f2948d9e32822a4",
+   "ordem": 118
+  },
+  "120": {
+   "texto": "Regra 120\n1. As premissas e modalidades que regem o acesso de um preso não julgado ao seu advogado ou defensor público, para os propósitos de sua defesa, serão regulados pelos mesmos princípios estabelecidos na Regra 61.\n2. O preso não julgado deve ter à sua disposição, quando solicitar, material para escrever, a fim de preparar os documentos relacionados à sua defesa, inclusive instruções confidenciais para seu advogado ou defensor público.\nD . Presos civis",
+   "hash": "579a6f2fb9bb8238131c10673dd60374cde43f8a422d23d924e91532ff04eb03",
+   "ordem": 119
+  },
+  "121": {
+   "texto": "Regra 121\nEm países onde a lei permite o encarceramento por dívida ou por ordem de uma corte sob qualquer outro processo não criminal, os indivíduos presos por estes motivos não devem ser submetidos a maior restrição ou severidade do que o necessário para garantir uma custódia segura e a boa ordem. Seu tratamento não será menos favorável do que aquele oferecido a presos não julgados, exceto para aqueles obrigados a trabalhar.\nREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOSREGRAS MÍNIMAS DAS NAÇÕES UNIDAS PARA O TRATAMENTO DE PRESOS E . Pessoas presas ou detidas sem acusação",
+   "hash": "fc4c443a60ef7446ec502921f2d0675dbc7b6cc2d8c86f7a29a02348ca4fe4d7",
+   "ordem": 120
+  },
+  "122": {
+   "texto": "Regra 122\nSem prejuízo das disposições contidas no artigo 9º do Pacto Internacional sobre Direitos Políticos e Civis,30 indivíduos presos ou detidos sem acusação devem ter as mesmas proteções contidas na Seção C, Partes I e II desta Regra. As disposições relevantes da Parte II, Seção A, desta Regra, devem ser igualmente aplicáveis desde que contribuam para o benefício desse grupo especial de pessoas sob custódia, garantindo que não sejam tomadas medidas que impliquem na reeducação ou reabilitação de indivíduos que não foram condenados por qualquer crime.",
+   "hash": "50561f22a03e3eb8dd265a87b66c7a263cf25f7f66895db3da125411c339a0c8",
+   "ordem": 121
+  }
+ }
+}

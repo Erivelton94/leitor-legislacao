@@ -1,0 +1,44 @@
+{
+ "id": "ec-104",
+ "nome": "Emenda Constitucional 104 — Polícias Penais",
+ "numero": "Emenda Constitucional nº 104/2019",
+ "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc104.htm",
+ "versao": "2026-10-02",
+ "hash": "a6293daa977d5c86ee8a652f58dc1181c789813161c8946e9941920b7bd44a50",
+ "etag": "\"2e5e-65028d9cb2ec8\"",
+ "last_modified": "Thu, 23 Apr 2026 23:17:23 GMT",
+ "versao_leitor": 5,
+ "preambulo": [
+  "EMENDA CONSTITUCIONAL Nº 104, DE 4 DE DEZEMBRO DE 2019",
+  "Altera o inciso XIV do caput do art. 21, o § 4º do art. 32 e o art. 144 da Constituição Federal, para criar as polícias penais federal, estaduais e distrital.",
+  "As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:"
+ ],
+ "ultimo_download_completo": "2026-09-29T23:48:52-03:00",
+ "artigos": {
+  "1": {
+   "texto": "Art. 1º O inciso XIV do caput do art. 21 da Constituição Federal passa a vigorar com a seguinte redação:\n\"Art. 21. ..................................................................................................................\n..........................................................................................................................................\nXIV - organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do Distrito Federal, bem como prestar assistência financeira ao Distrito Federal para a execução de serviços públicos, por meio de fundo próprio;\n.................................................................................................................................\" (NR)",
+   "hash": "77e10bbc08b1d0f993ce6a56368b7531258807781619b2365d5038827e134a75",
+   "ordem": 0
+  },
+  "2": {
+   "texto": "Art. 2º O § 4º do art. 32 da Constituição Federal passa a vigorar com a seguinte redação:\n\"Art. 32. ..................................................................................................................\n...........................................................................................................................................\n§ 4º Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, da polícia civil, da polícia penal, da polícia militar e do corpo de bombeiros militar.\" (NR)",
+   "hash": "b4c411de7fa2a747b542bb1dcff526be3f26247f4bcea8ab550f77f64d8fd1bb",
+   "ordem": 1
+  },
+  "3": {
+   "texto": "Art. 3º O art. 144 da Constituição Federal passa a vigorar com as seguintes alterações:\n\"Art. 144. ................................................................................................................\n..........................................................................................................................................\nVI - polícias penais federal, estaduais e distrital.\n..........................................................................................................................................\n§ 5º-A. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais.\n§ 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios.\n..................................................................................................................................\" (NR)",
+   "hash": "22908262306c0b46fabac72bbebddaffee59fd0f2c541301cc0cb85ef1889464",
+   "ordem": 2
+  },
+  "4": {
+   "texto": "Art. 4º O preenchimento do quadro de servidores das polícias penais será feito, exclusivamente, por meio de concurso público e por meio da transformação dos cargos isolados, dos cargos de carreira dos atuais agentes penitenciários e dos cargos públicos equivalentes.",
+   "hash": "bd94f38be90acef37cdc39e37805d33e3d81316841a55d3a496d5e5b2f6302ed",
+   "ordem": 3
+  },
+  "5": {
+   "texto": "Art. 5º Esta Emenda Constitucional entra em vigor na data de sua publicação.\nBrasília, em 4 de dezembro de 2019\nMesa da Câmara dos Deputados\nMesa do Senado Federal\nDeputado RODRIGO MAIA\nPresidente\nSenador DAVI ALCOLUMBRE\nPresidente\nDeputado MARCOS PEREIRA\n1º Vice-Presidente\nSenador ANTONIO ANASTASIA\n1º Vice-Presidente\nDeputado LUCIANO BIVAR\n2º Vice-Presidente\nSenador LASIER MARTINS\n2º Vice-Presidente\nDeputada SORAYA SANTOS\n1ª Secretária\nSenador SÉRGIO PETECÃO\n1º Secretário\nDeputado MÁRIO HERINGER\n2º Secretário\nSenador EDUARDO GOMES\n2º Secretário\nDeputado FÁBIO FARIA\n3º Secretário\nSenador FLÁVIO BOLSONARO\n3º Secretário\nDeputado ANDRÉ FUFUCA\n4º Secretário\nSenador LUIS CARLOS HEINZE\n4º Secretário\nEste texto não substitui o publicado no DOU 5.12.2019\n*",
+   "hash": "913e41b87de499a01b07aae0502522b11583da23c6d4fe29b601d18f9a941e7e",
+   "ordem": 4
+  }
+ }
+}
