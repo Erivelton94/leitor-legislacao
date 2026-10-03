@@ -1,0 +1,2829 @@
+{
+ "id": "local-poderes-administrativo-41b9a4412228",
+ "titulo": "Poderes Administrativo",
+ "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+ "versao": "2026-10-03",
+ "assuntos": [
+  "Poder Vinculado e Discricionário",
+  "Poder Regulamentar",
+  "Poder Hierárquico",
+  "Poder Disciplinar",
+  "Poder de Polícia",
+  "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+  "Deveres da Administração",
+  "Tópicos Mesclados de Poderes da Administração"
+ ],
+ "observacao": "Importado de PDF no app.",
+ "questoes": [
+  {
+   "enunciado": [
+    "A prerrogativa da autoridade pública competente de eleger, entre as condutas possíveis, a que represente maior conveniência e oportunidade ao interesse público decorre do poder"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "discricionário."
+    },
+    {
+     "letra": "B",
+     "texto": "finalístico."
+    },
+    {
+     "letra": "C",
+     "texto": "controlador."
+    },
+    {
+     "letra": "D",
+     "texto": "vinculante."
+    },
+    {
+     "letra": "E",
+     "texto": "impessoal."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC RO)",
+   "orgao": "PC RO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Vinculado e Discricionário",
+   "tipo": "ME",
+   "id": "q-7a206019c0fa",
+   "area": "",
+   "vinculo": null,
+   "ordem": 1
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes da administração pública, julgue o item a seguir.",
+    "Com base no poder discricionário, um agente público pode revogar um ato válido."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Vinculado e Discricionário",
+   "tipo": "CE",
+   "id": "q-acd7d67e8dde",
+   "area": "",
+   "vinculo": null,
+   "ordem": 2
+  },
+  {
+   "enunciado": [
+    "Considere que o Governador do Estado do Rio Grande do Norte editou decreto para a fiel execução de determinada lei estadual. Nessa hipótese, o supracitado decreto pode ser apontado como manifestação do"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "poder regulamentar."
+    },
+    {
+     "letra": "B",
+     "texto": "excesso de poder."
+    },
+    {
+     "letra": "C",
+     "texto": "desvio de poder."
+    },
+    {
+     "letra": "D",
+     "texto": "poder de polícia."
+    },
+    {
+     "letra": "E",
+     "texto": "poder hierárquico."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "Instituto AOCP",
+   "cargo": "Ana Soc (FUNDASE RN)",
+   "orgao": "FUNDASE RN/Assistente Social",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Regulamentar",
+   "tipo": "ME",
+   "id": "q-bbca7c25e914",
+   "area": "",
+   "vinculo": null,
+   "ordem": 3
+  },
+  {
+   "enunciado": [
+    "O poder dos Chefes de Executivo de explicar, de detalhar a lei para sua correta execução, ou de expedir decretos autônomos sobre matéria de sua competência ainda não disciplinada por lei denomina-se"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Poder de Polícia."
+    },
+    {
+     "letra": "B",
+     "texto": "Poder Regulamentar."
+    },
+    {
+     "letra": "C",
+     "texto": "Poder Disciplinar."
+    },
+    {
+     "letra": "D",
+     "texto": "Poder Hierárquico."
+    },
+    {
+     "letra": "E",
+     "texto": "Poder Discricionário."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "OIP (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Regulamentar",
+   "tipo": "ME",
+   "id": "q-989d036ee96b",
+   "area": "",
+   "vinculo": null,
+   "ordem": 4
+  },
+  {
+   "enunciado": [
+    "João, secretário municipal de saúde, celebrou, em nome da secretaria, contratação direta por dispensa de licitação, visando adquirir material da única empresa que fornece o respectivo produto na cidade. Após a contratação, um terceiro interessado apresentou recurso ao chefe de João, a fim de impugnar o certame. Diante da presunção de legitimidade, o chefe reputou correta a decisão de João.",
+    "Com base na situação hipotética precedente, julgue o item seguinte.",
+    "A impugnação da decisão de João, submetida ao crivo da chefia, insere-se no âmbito do poder administrativo disciplinar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "CGM (Cach Itapemirim)",
+   "orgao": "Pref Cach Itapemirim",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "CE",
+   "id": "q-d722b162cbf8",
+   "area": "",
+   "vinculo": null,
+   "ordem": 5
+  },
+  {
+   "enunciado": [
+    "Jorge, chefe de repartição vinculada a órgão público federal, determinou, de forma expressa, que todos os servidores deveriam tratar os administrados com respeito e urbanidade e que não toleraria ofensa verbal. No entanto, Bruno, um de seus subordinados que exerce cargo em comissão e não possui cargo efetivo, cometeu grave insubordinação em serviço ao insultar Fernanda, uma administrada que havia solicitado informações sobre o andamento de processo que tramitava no referido órgão. Jorge, na figura de autoridade pública competente, abriu processo administrativo disciplinar contra Bruno, que culminou na aplicação de pena de suspensão por 90 dias ao insubordinado.",
+    "Considerando essa situação hipotética e os dispositivos da Lei n.º 8.112/1990 e da Lei n.º 9.784/1999, bem como as disposições a respeito dos poderes administrativos e da responsabilidade civil do Estado no direito brasileiro, julgue o item subsequente.",
+    "No âmbito administrativo, a prática de insubordinação no serviço público configura ofensa ao poder hierárquico."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "CE",
+   "id": "q-d5e28895fa9d",
+   "area": "",
+   "vinculo": null,
+   "ordem": 6
+  },
+  {
+   "enunciado": [
+    "Determinado delegado de polícia que está investigando um crime cometido no interior de uma empresa estatal estadual com personalidade jurídica de direito privado e capital integralmente público, determinou a um agente de polícia a realização de uma diligência, a qual não foi cumprida porque o agente alegou que a ordem não tinha respaldo legal. Ao tomar ciência do descumprimento da ordem, o chefe aplicou a penalidade de suspensão de trinta dias. Irresignado, o agente ajuizou mandado de segurança contra o ato sancionador.",
+    "Considerando essa situação hipotética, julgue o item a seguir.",
+    "A ordem conferida ao agente pelo delegado configura exercício do poder de polícia."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "CE",
+   "id": "q-970711c7be26",
+   "area": "",
+   "vinculo": null,
+   "ordem": 7
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes da administração pública, julgue o item a seguir.",
+    "Ilustra o exercício do poder hierárquico o fato de um agente de trânsito aplicar multa a um motorista."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "CE",
+   "id": "q-cf42f86e7a54",
+   "area": "",
+   "vinculo": null,
+   "ordem": 8
+  },
+  {
+   "enunciado": [
+    "Assinale a alternativa INCORRETA acerca dos poderes administrativos."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O poder regulamentar consiste na possibilidade de o chefe do Poder Executivo editar atos administrativos gerais e abstratos, expedidos para dar fiel execução da lei."
+    },
+    {
+     "letra": "B",
+     "texto": "A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, ou revogá-los, por motivo de conveniência e oportunidade, respeitados os direitos adquiridos e ressalvada a apreciação judicial."
+    },
+    {
+     "letra": "C",
+     "texto": "O poder hierárquico é o poder de que dispõe a administração para organizar e distribuir as funções de seus órgãos, estabelecendo a relação de subordinação entre os servidores do seu quadro de pessoal."
+    },
+    {
+     "letra": "D",
+     "texto": "O agente público incorre em desvio de poder quando, mesmo dentro de sua esfera de competência, atua afastando-se do interesse público."
+    },
+    {
+     "letra": "E",
+     "texto": "É possível que o agente administrativo avoque para a sua esfera decisória a prática de ato de competência natural de outro agente de mesma hierarquia, para evitar a ocorrência de decisões eventualmente contraditórias."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "Instituto AOCP",
+   "cargo": "Ass Soc (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "ME",
+   "id": "q-64dde91405b9",
+   "area": "",
+   "vinculo": null,
+   "ordem": 9
+  },
+  {
+   "enunciado": [
+    "A Hierarquia, na Administração Pública, pressupõe uma organização, em escalas, dos agentes e dos órgãos públicos. Qual relação jurídica corresponde à hierarquia na Administração Pública?"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vinculação e Disciplina."
+    },
+    {
+     "letra": "B",
+     "texto": "Eficiência e Subordinação."
+    },
+    {
+     "letra": "C",
+     "texto": "Subordinação e Disciplina."
+    },
+    {
+     "letra": "D",
+     "texto": "Vinculação e Subordinação."
+    },
+    {
+     "letra": "E",
+     "texto": "Eficiência e Disciplina."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "Instituto AOCP",
+   "cargo": "Aux Per ML (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "ME",
+   "id": "q-fa57b5e43542",
+   "area": "",
+   "vinculo": null,
+   "ordem": 10
+  },
+  {
+   "enunciado": [
+    "O desdobramento do Poder Hierárquico pelo qual o agente superior detém a prerrogativa para o exercício de competência de atribuições originárias de seus subalternos denomina-se"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Poder Disciplinar."
+    },
+    {
+     "letra": "B",
+     "texto": "Avocação."
+    },
+    {
+     "letra": "C",
+     "texto": "Delegação."
+    },
+    {
+     "letra": "D",
+     "texto": "Subordinação."
+    },
+    {
+     "letra": "E",
+     "texto": "Poder Regulamentar."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "OIP (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Hierárquico",
+   "tipo": "ME",
+   "id": "q-f80f376b016f",
+   "area": "",
+   "vinculo": null,
+   "ordem": 11
+  },
+  {
+   "enunciado": [
+    "Após o devido processo, o diretor de determinado Centro de Atendimento Socioeducativo aplicou sanção a adolescente privado de liberdade que incorreu em falta grave, comprometendo a ordem e a segurança locais. No caso, a aplicação da penalidade representou o exercício do poder administrativo denominado de poder"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "de polícia."
+    },
+    {
+     "letra": "B",
+     "texto": "hierárquico."
+    },
+    {
+     "letra": "C",
+     "texto": "punitivo."
+    },
+    {
+     "letra": "D",
+     "texto": "disciplinar."
+    },
+    {
+     "letra": "E",
+     "texto": "regulamentar."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "Instituto AOCP",
+   "cargo": "Ag SS (SAP SC)",
+   "orgao": "SAP SC",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-f97a78c4d872",
+   "area": "",
+   "vinculo": null,
+   "ordem": 12
+  },
+  {
+   "enunciado": [
+    "A Corregedoria-Geral de Polícia Civil recebeu denúncia anônima de que Paula, servidora estadual efetiva da Secretaria de Estado de Fazenda cedida à Polícia Civil, atuava, habitualmente, com insubordinação para com seus superiores e divulgava informações da instituição nas redes sociais, sem autorização. Tendo como referência essa situação hipotética e as normas de direito disciplinar, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dada a possibilidade de delegação do poder disciplinar, caberão ao órgão cessionário a apuração e eventual aplicação de penalidade à servidora cedida."
+    },
+    {
+     "letra": "B",
+     "texto": "Caberá ao órgão cedente apurar os fatos e, se for o caso, aplicar penalidade à servidora cedida."
+    },
+    {
+     "letra": "C",
+     "texto": "Não cabe a instauração de procedimento disciplinar contra a servidora cedida, em razão de a denúncia ter sido anônima."
+    },
+    {
+     "letra": "D",
+     "texto": "O órgão cessionário poderá instaurar processo administrativo disciplinar contra a servidora cedida, para apurar falta funcional, porém o julgamento e eventual aplicação de penalidade caberão ao órgão cedente."
+    },
+    {
+     "letra": "E",
+     "texto": "O órgão cessionário não possui competência para apuração de falta disciplinar de servidor cedido, se a falta não atingir o referido órgão."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC RJ)",
+   "orgao": "PC RJ",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-1857cd207003",
+   "area": "",
+   "vinculo": null,
+   "ordem": 13
+  },
+  {
+   "enunciado": [
+    "Julgue o item seguinte acerca do direito administrativo.",
+    "Hércules, policial penal do DF, enquanto realizava o transporte de determinado preso, foi multado por avançar o sinal vermelho na condução de veículo oficial do sistema prisional. Nessa situação, a referida multa de trânsito decorre do poder disciplinar da Administração Pública."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (PP DF)",
+   "orgao": "PP DF",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "CE",
+   "id": "q-45bb7762c724",
+   "area": "",
+   "vinculo": null,
+   "ordem": 14
+  },
+  {
+   "enunciado": [
+    "No que se refere aos Poderes da Administração Pública, assinale a alternativa que apresenta disposição sobre o Poder Disciplinar."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É o que abrange as sanções impostas a particulares não sujeitos à disciplina interna da Administração"
+    },
+    {
+     "letra": "B",
+     "texto": "É o que está relacionado ao modo eficiente de atuação do agente público, do qual se espera o melhor desempenho possível de suas atribuições, para lograr os melhores resultados"
+    },
+    {
+     "letra": "C",
+     "texto": "É o que cabe à Administração Pública para apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina administrativa"
+    },
+    {
+     "letra": "D",
+     "texto": "É o que decorre da emanação de atos com efeitos gerais e abstratos que podem contrariar a lei"
+    },
+    {
+     "letra": "E",
+     "texto": "É o que dispensa que a Administração Pública indique os fundamentos de fato e de direito de suas decisões"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "IBFC",
+   "cargo": "Deleg (PC BA)",
+   "orgao": "PC BA",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-26c82a2dc6bf",
+   "area": "",
+   "vinculo": null,
+   "ordem": 15
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes administrativos ou poderes da Administração, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) Poder disciplinar é o que cabe à Administração Pública para apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina administrativa.",
+    "( ) Poder normativo ou regulamentar advém da possibilidade da emanação de atos com efeitos gerais e abstratos que não podem contrariar a lei. ( ) Estudantes de uma escola pública não se sujeitam ao poder disciplinar.",
+    "Assinale a alternativa que apresenta a sequência correta de cima para baixo."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V - V - V"
+    },
+    {
+     "letra": "B",
+     "texto": "V - F - V"
+    },
+    {
+     "letra": "C",
+     "texto": "F - F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "V - V - F"
+    },
+    {
+     "letra": "E",
+     "texto": "F - V - F"
+    }
+   ],
+   "gabarito": "D",
+   "banca": "IBFC",
+   "cargo": "Escr (PC BA)",
+   "orgao": "PC BA",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-ee2fb5c28000",
+   "area": "",
+   "vinculo": null,
+   "ordem": 16
+  },
+  {
+   "enunciado": [
+    "Quando a administração, após o devido processo administrativo, aplica penalidade a um servidor, ela o faz em razão do poder"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "hierárquico."
+    },
+    {
+     "letra": "B",
+     "texto": "regulamentar."
+    },
+    {
+     "letra": "C",
+     "texto": "disciplinar."
+    },
+    {
+     "letra": "D",
+     "texto": "vinculado."
+    },
+    {
+     "letra": "E",
+     "texto": "discricionário."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Dati Pol (PC RO)",
+   "orgao": "PC RO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-580345a736e2",
+   "area": "",
+   "vinculo": null,
+   "ordem": 17
+  },
+  {
+   "enunciado": [
+    "Após regular o processo administrativo, Tibério, servidor público aposentado há menos de dois anos, foi penalizado com a cassação de sua aposentadoria. Segundo consta dos autos do procedimento, a punição ocorreu porque Tibério, no último mês em que estava em atividade no serviço público, praticou infração grave, sujeita à penalidade de demissão. Com base no caso narrado e à luz dos poderes administrativos, é correto afirmar que a sanção aplicada decorre especificamente do"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "poder disciplinar."
+    },
+    {
+     "letra": "B",
+     "texto": "poder hierárquico."
+    },
+    {
+     "letra": "C",
+     "texto": "poder regulamentar."
+    },
+    {
+     "letra": "D",
+     "texto": "poder de polícia."
+    },
+    {
+     "letra": "E",
+     "texto": "abuso de poder."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "Instituto AOCP",
+   "cargo": "Ag Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-910536943cc5",
+   "area": "",
+   "vinculo": null,
+   "ordem": 18
+  },
+  {
+   "enunciado": [
+    "Os agentes de polícia do estado de Alagoas, no exercício de sua função, devem comedir a aplicação do uso de força em suas abordagens e ações, buscando agir de maneira adequada, sem extrapolar os limites legais impostos ao exercício do poder que lhes é conferido. Acerca do uso e do abuso de poder, julgue o item que se seguem.",
+    "O poder disciplinar não abrange as sanções impostas a particulares que não estejam sujeitos à disciplina interna da administração; nesse caso, as medidas punitivas encontram fundamento no poder de polícia."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "CE",
+   "id": "q-d3bc52c109b6",
+   "area": "",
+   "vinculo": null,
+   "ordem": 19
+  },
+  {
+   "enunciado": [
+    "Determinado delegado de polícia que está investigando um crime cometido no interior de uma empresa estatal estadual com personalidade jurídica de direito privado e capital integralmente público, determinou a um agente de polícia a realização de uma diligência, a qual não foi cumprida porque o agente alegou que a ordem não tinha respaldo legal. Ao tomar ciência do descumprimento da ordem, o chefe aplicou a penalidade de suspensão de trinta dias. Irresignado, o agente ajuizou mandado de segurança contra o ato sancionador.",
+    "Considerando essa situação hipotética, julgue o item a seguir.",
+    "A aplicação da sanção pelo delegado configura exercício do poder disciplinar e independe de abertura de processo administrativo quando há verdade sabida."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "CE",
+   "id": "q-286d1edb306c",
+   "area": "",
+   "vinculo": null,
+   "ordem": 20
+  },
+  {
+   "enunciado": [
+    "A administração pública detém determinados poderes, a partir dos quais busca satisfazer o interesse público, que se sobrepõe ao interesse privado. Nesse sentido, o poder de cada ente administrativo de apurar infrações e aplicar penalidades a servidores públicos consiste no poder"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "disciplinar."
+    },
+    {
+     "letra": "B",
+     "texto": "vinculado."
+    },
+    {
+     "letra": "C",
+     "texto": "discricionário."
+    },
+    {
+     "letra": "D",
+     "texto": "hierárquico."
+    },
+    {
+     "letra": "E",
+     "texto": "regulamentar."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Of Inv Pol (PC MA)",
+   "orgao": "PC MA/Escrivão",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-e5fa17ad9710",
+   "area": "",
+   "vinculo": null,
+   "ordem": 21
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes e deveres da administração pública, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A autoexecutoriedade é considerada exemplo de abuso de poder: o agente público poderá impor medidas coativas a terceiros somente se autorizado pelo Poder Judiciário."
+    },
+    {
+     "letra": "B",
+     "texto": "À administração pública cabe o poder disciplinar para apurar infrações e aplicar penalidades a pessoas sujeitas à disciplina administrativa, mesmo que não sejam servidores públicos."
+    },
+    {
+     "letra": "C",
+     "texto": "Poder vinculado é a prerrogativa do poder público para escolher aspectos do ato administrativo com base em critérios de conveniência e oportunidade; não é um poder autônomo, devendo estar associado ao exercício de outro poder."
+    },
+    {
+     "letra": "D",
+     "texto": "Faz parte do poder regulamentar estabelecer uma relação de coordenação e subordinação entre os vários órgãos, incluindo o poder de delegar e avocar atribuições."
+    },
+    {
+     "letra": "E",
+     "texto": "O dever de prestar contas aos tribunais de contas é específico dos servidores públicos; não é aplicável a dirigente de entidade privada que receba recursos públicos por convênio."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2016,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder Disciplinar",
+   "tipo": "ME",
+   "id": "q-35cd0fe24e1e",
+   "area": "",
+   "vinculo": null,
+   "ordem": 22
+  },
+  {
+   "enunciado": [
+    "Julgue o seguinte item, relativos a poderes administrativos, regime jurídico-administrativo e controle da administração pública.",
+    "A atividade do Estado que limita o exercício dos direitos individuais em benefício do interesse público é considerado poder de polícia."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adm (PF)",
+   "orgao": "PF",
+   "ano": 2025,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-a4ff4099c438",
+   "area": "",
+   "vinculo": null,
+   "ordem": 23
+  },
+  {
+   "enunciado": [
+    "Os casos de fechamento de estabelecimento comercial aberto sem a prévia obediência aos requisitos normativos, a remoção compulsória de veículo que obstrua via pública, a dissolução de um comício, de uma passeata fazem parte de um poder administrativo. Diante do exposto, assinale a alternativa que apresenta a qual poder administrativo eles fazem parte."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Polícia Militar"
+    },
+    {
+     "letra": "B",
+     "texto": "Polícia Administrativa"
+    },
+    {
+     "letra": "C",
+     "texto": "Polícia Federal"
+    },
+    {
+     "letra": "D",
+     "texto": "Polícia Civil"
+    },
+    {
+     "letra": "E",
+     "texto": "Polícia Judiciária"
+    }
+   ],
+   "gabarito": "B",
+   "banca": "IBFC",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-6ed3f5510354",
+   "area": "",
+   "vinculo": null,
+   "ordem": 24
+  },
+  {
+   "enunciado": [
+    "Julgue o próximo item, relativo a processo administrativo no âmbito da administração pública, atos administrativos, licitações e contratos administrativos, poder de polícia e processo administrativo disciplinar.",
+    "O poder de polícia sempre será dotado do atributo da discricionariedade, pois, na atuação de polícia, há certa margem de liberdade quanto a determinados elementos, como o motivo ou o objeto."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Papis (POLC AL)",
+   "orgao": "POLC AL",
+   "ano": 2023,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-c1b8d3930246",
+   "area": "",
+   "vinculo": null,
+   "ordem": 25
+  },
+  {
+   "enunciado": [
+    "Acerca das sociedades de economia mista, do poder de polícia e das licitações, julgue o item a seguir.",
+    "A polícia administrativa e a polícia judiciária, que incidem sobre a liberdade das pessoas, são equivalentes."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Aux Per (POLC AL)",
+   "orgao": "POLC AL",
+   "ano": 2023,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-871913c958cc",
+   "area": "",
+   "vinculo": null,
+   "ordem": 26
+  },
+  {
+   "enunciado": [
+    "Recebida denúncia de violência doméstica contra a mulher, a equipe de delegacia especializada de atendimento à mulher prendeu Jorge em flagrante delito, pela prática de tentativa de feminicídio, tendo sido apreendida a arma de fogo utilizada no crime. Após as diligências procedimentais do auto de prisão em flagrante e da apreensão da arma de fogo, o delegado adjunto lavrou o auto de infração pela apreensão da arma de fogo, aplicando multa em desfavor de Jorge. Acerca dessa situação hipotética, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A autoridade policial exerceu, concomitantemente, o poder de polícia judiciária e o poder de polícia administrativo."
+    },
+    {
+     "letra": "B",
+     "texto": "A lavratura do auto de infração decorre do poder de polícia judiciária, pois é consequência da apreensão da arma de fogo utilizada no crime."
+    },
+    {
+     "letra": "C",
+     "texto": "A multa aplicada será graduada pela autoridade competente, de acordo com a conveniência e oportunidade."
+    },
+    {
+     "letra": "D",
+     "texto": "O delegado adjunto poderia ter deixado de aplicar a multa pela apreensão da arma de fogo, em razão da sua discricionariedade administrativa."
+    },
+    {
+     "letra": "E",
+     "texto": "É ilegítima a aplicação de multa pela apreensão da arma de fogo, pois depende de autorização judicial."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC RJ)",
+   "orgao": "PC RJ",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-e95006f90884",
+   "area": "",
+   "vinculo": null,
+   "ordem": 27
+  },
+  {
+   "enunciado": [
+    "Conforme art. 144, § 4.º, da CF, “às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares”. Em face desse dispositivo e do regime jurídico do poder de polícia, é correto afirmar que"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "lei pode delegar a pessoas jurídicas de direito privado parcelas do exercício do poder de polícia judiciária, segundo jurisprudência recente do Supremo Tribunal Federal."
+    },
+    {
+     "letra": "B",
+     "texto": "razões de interesse público — como urgência para preenchimento de vaga ou necessidade premente de certa investigação de grave crime contra direitos fundamentais — podem justificar a nomeação de comissionada de delegado de polícia."
+    },
+    {
+     "letra": "C",
+     "texto": "delegados de Polícia de carreira podem exercer polícia administrativa."
+    },
+    {
+     "letra": "D",
+     "texto": "a polícia judiciária não se confunde com a polícia administrativa, embora ambas decorram do exercício do poder de império tipicamente estatal, indelegável a entidades privadas."
+    },
+    {
+     "letra": "E",
+     "texto": "o poder de polícia administrativa vem sendo criticado na doutrina como uma reminiscência autoritária do direito administrativo. Por isso, há quem sustente que ele foi substituído pela ideia de regulação ou de ordenação. Esse entendimento foi vitorioso recentemente no caso BH Trans, julgado pelo Superior Tribunal de Justiça."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC RJ)",
+   "orgao": "PC RJ",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-4a10d054a746",
+   "area": "",
+   "vinculo": null,
+   "ordem": 28
+  },
+  {
+   "enunciado": [
+    "Considerando os atributos do poder de polícia, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A polícia judiciária tem caráter predominantemente preventivo."
+    },
+    {
+     "letra": "B",
+     "texto": "A indelegabilidade de seu exercício, por envolver prerrogativas próprias do poder público, proíbe seu exercício por particular."
+    },
+    {
+     "letra": "C",
+     "texto": "Prescreve em cinco anos o prazo para a administração pública federal apurar infração, no exercício do poder de polícia, contado da data da prática do ato ou, em caso de infração continuada, da data de sua cessação."
+    },
+    {
+     "letra": "D",
+     "texto": "Por se tratar de ato administrativo, o controle do ato de polícia submete-se ao crivo exclusivo da administração pública, via recurso hierárquico."
+    },
+    {
+     "letra": "E",
+     "texto": "A prescrição para apuração de ato infracionário é interrompida em caso de exoneração da autoridade responsável pelo procedimento administrativo."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Tec Per (PC PB)",
+   "orgao": "PC PB/Área Geral",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-3431e0867538",
+   "area": "",
+   "vinculo": null,
+   "ordem": 29
+  },
+  {
+   "enunciado": [
+    "Um agente público, no exercício de sua função, apreendeu bens e interditou um estabelecimento comercial, sem manifestação judicial. Nessa situação hipotética, a prerrogativa de praticar tais atos e colocá-los em imediata execução, sem manifestação judicial, decorre da caraterística do poder de polícia denominada"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "vinculação."
+    },
+    {
+     "letra": "B",
+     "texto": "autoexecutoriedade."
+    },
+    {
+     "letra": "C",
+     "texto": "discricionariedade."
+    },
+    {
+     "letra": "D",
+     "texto": "razoabilidade."
+    },
+    {
+     "letra": "E",
+     "texto": "coercibilidade."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Tec Necro (PC RO)",
+   "orgao": "PC RO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-681a469e07c7",
+   "area": "",
+   "vinculo": null,
+   "ordem": 30
+  },
+  {
+   "enunciado": [
+    "A respeito do poder de polícia, julgue os próximos itens.",
+    "I Segundo o texto constitucional, o poder de polícia é exercido exclusivamente pelas corporações especializadas da polícia civil e da polícia militar. II Para o exercício adequado do poder de polícia, é necessário que a administração pública obtenha previamente autorização do Poder Judiciário. III No exercício do poder de polícia, o município poderá estabelecer os horários de funcionamento dos estabelecimentos comerciais situados em seu território. Assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nenhum item está certo."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas o item II está certo."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas o item III está certo."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas os itens I e II estão certos."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas os itens I e III estão certos."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-f5f1ba6632b8",
+   "area": "",
+   "vinculo": null,
+   "ordem": 31
+  },
+  {
+   "enunciado": [
+    "“[...] atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente à segurança, à higiene, à ordem, aos costumes, à disciplina da produção e do mercado, ao exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, à tranquilidade pública ou ao respeito à propriedade e aos direitos individuais ou coletivos.” Referente aos poderes e deveres da Administração Pública, é correto afirmar que o trecho apresentado retrata o"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "desvio de poder."
+    },
+    {
+     "letra": "B",
+     "texto": "excesso de poder."
+    },
+    {
+     "letra": "C",
+     "texto": "poder hierárquico."
+    },
+    {
+     "letra": "D",
+     "texto": "poder disciplinar."
+    },
+    {
+     "letra": "E",
+     "texto": "poder de polícia."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "Instituto AOCP",
+   "cargo": "Ag Soc (FUNDASE RN)",
+   "orgao": "FUNDASE RN",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-9d1107fbeac1",
+   "area": "",
+   "vinculo": null,
+   "ordem": 32
+  },
+  {
+   "enunciado": [
+    "Determinado agente da Polícia Federal revelou um segredo sobre uma operação policial que seria realizada para deter uma quadrilha de traficantes. Ele havia se apropriado desse segredo em razão do seu cargo. Tendo a operação fracassado, a administração da Polícia recebeu uma denúncia sobre o ocorrido e abriu processo administrativo disciplinar contra o referido servidor.",
+    "Considerando essa situação hipotética, julgue o item subsequente.",
+    "O processo aberto contra o servidor caracteriza poder de polícia administrativo."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "APF",
+   "orgao": "PF",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-33359a87a1af",
+   "area": "",
+   "vinculo": null,
+   "ordem": 33
+  },
+  {
+   "enunciado": [
+    "Jorge, chefe de repartição vinculada a órgão público federal, determinou, de forma expressa, que todos os servidores deveriam tratar os administrados com respeito e urbanidade e que não toleraria ofensa verbal. No entanto, Bruno, um de seus subordinados que exerce cargo em comissão e não possui cargo efetivo, cometeu grave insubordinação em serviço ao insultar Fernanda, uma administrada que havia solicitado informações sobre o andamento de processo que tramitava no referido órgão. Jorge, na figura de autoridade pública competente, abriu processo administrativo disciplinar contra Bruno, que culminou na aplicação de pena de suspensão por 90 dias ao insubordinado.",
+    "Considerando essa situação hipotética e os dispositivos da Lei n.º 8.112/1990 e da Lei n.º 9.784/1999, bem como as disposições a respeito dos poderes administrativos e da responsabilidade civil do Estado no direito brasileiro, julgue o item subsequente.",
+    "A punição de Bruno exemplifica o exercício do poder de polícia pela administração pública."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-fd2bb9e02672",
+   "area": "",
+   "vinculo": null,
+   "ordem": 34
+  },
+  {
+   "enunciado": [
+    "João, servidor público, aliciou um dos seus subordinados a se filiar ao sindicato da categoria a que ambos pertenciam. Em razão desse fato, instaurou-se processo administrativo contra João para apurar sua conduta funcional. Concluído o procedimento, o chefe da repartição, Antônio, aplicou a pena de advertência por escrito pelo ato praticado.",
+    "Considerando a situação hipotética precedente, o disposto na Lei n.º 8.112/1990, os requisitos do ato administrativo e os poderes da administração pública, julgue o item a seguir.",
+    "A punição por ato infracional praticado por servidor público configura exercício do poder de polícia administrativo"
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC DF)",
+   "orgao": "PC DF",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-1a56a1963ed5",
+   "area": "",
+   "vinculo": null,
+   "ordem": 35
+  },
+  {
+   "enunciado": [
+    "A respeito do poder de polícia, assinale a afirmativa INCORRETA."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quando o Poder Público, restringindo direitos individuais, intervém na esfera dos interesses privados para salvaguardar o interesse público, ele atua no exercício do poder de polícia."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder de polícia é uma prerrogativa de direito público conferida ao Estado, que vai usá-lo calcado na lei."
+    },
+    {
+     "letra": "C",
+     "texto": "Embora o poder de polícia vise restringir o uso e o gozo da liberdade e da propriedade, ele não pode servir de fundamento para a instituição de tributos."
+    },
+    {
+     "letra": "D",
+     "texto": "Tanto a Polícia Administrativa como a Polícia Judiciária se utilizam do poder de polícia, e ambas se enquadram no âmbito da função administrativa estatal."
+    },
+    {
+     "letra": "E",
+     "texto": "Respeitadas as competências constitucionais, é possível que o poder de polícia seja utilizado nos três graus federativos: o federal, o estadual e o municipal."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "IDECAN",
+   "cargo": "Of Inv Pol (PC CE)",
+   "orgao": "PC CE",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-3993597eb60e",
+   "area": "",
+   "vinculo": null,
+   "ordem": 36
+  },
+  {
+   "enunciado": [
+    "Acerca do poder de polícia, analise as afirmativas a seguir:",
+    "I. Enquanto o abuso de poder se dá por meio de atos discricionários, o desvio de poder ocorre apenas em atos vinculados.",
+    "II. O poder de polícia pode ser exercido, na forma da lei, por diversos órgãos e instituições públicas, como, por exemplo, a Câmara dos Deputados e o Senado Federal.",
+    "III. Há situações em que o poder de polícia pode ser preventivo ou repressivo, como também vinculado ou discricionário.",
+    "Assinale"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "se apenas a afirmativa I estiver correta."
+    },
+    {
+     "letra": "B",
+     "texto": "se apenas a afirmativa II estiver correta."
+    },
+    {
+     "letra": "C",
+     "texto": "se apenas a afirmativa III estiver correta."
+    },
+    {
+     "letra": "D",
+     "texto": "se apenas as afirmativas I e II estiverem corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "se apenas as afirmativas II e III estiverem corretas."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "IDECAN",
+   "cargo": "Of Inv Pol (PC CE)",
+   "orgao": "PC CE",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-e5697d6126e1",
+   "area": "",
+   "vinculo": null,
+   "ordem": 37
+  },
+  {
+   "enunciado": [
+    "Os agentes de polícia do estado de Alagoas, no exercício de sua função, devem comedir a aplicação do uso de força em suas abordagens e ações, buscando agir de maneira adequada, sem extrapolar os limites legais impostos ao exercício do poder que lhes é conferido. Acerca do uso e do abuso de poder, julgue o item que se seguem.",
+    "A discricionariedade é um dos atributos do poder de polícia, mas não se faz presente, por exemplo, na concessão de alvarás de construção e de licenças para dirigir veículos."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-ab8595f678a8",
+   "area": "",
+   "vinculo": null,
+   "ordem": 38
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes da administração pública, julgue o item a seguir.",
+    "Um policial exerce o poder de polícia administrativa ao realizar o ato de prisão em flagrante."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-786766076418",
+   "area": "",
+   "vinculo": null,
+   "ordem": 39
+  },
+  {
+   "enunciado": [
+    "Acerca da conceituação doutrinária de sociedade civil e de Estado, julgue o item a seguir.",
+    "Na conceituação clássica atinente à ideia liberal do século XVII, o poder de polícia relacionava-se à atividade estatal limitadora dos direitos individuais em benefício da coletividade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PRF",
+   "orgao": "PRF",
+   "ano": 2020,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-176d55a614c2",
+   "area": "",
+   "vinculo": null,
+   "ordem": 40
+  },
+  {
+   "enunciado": [
+    "Acerca da história da PRF, da sua atuação na época atual e dos poderes administrativos por ela abrangidos, julgue o próximo item. Conforme o doutrinador Helly Lopes Meirelles, a PRF não se encontra abrangida no conceito de polícia administrativa."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PRF",
+   "orgao": "PRF",
+   "ano": 2020,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-8543dd8e8ec0",
+   "area": "",
+   "vinculo": null,
+   "ordem": 41
+  },
+  {
+   "enunciado": [
+    "No tocante aos poderes administrativos e à responsabilidade civil do Estado, julgue o item.",
+    "Constitui poder de polícia a atividade da administração pública ou de empresa privada ou concessionária com delegação para disciplinar ou limitar direito, interesse ou liberdade, de modo a regular a prática de ato em razão do interesse público relativo à segurança."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PRF",
+   "orgao": "PRF",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-a34cc6ab6bca",
+   "area": "",
+   "vinculo": null,
+   "ordem": 42
+  },
+  {
+   "enunciado": [
+    "O poder conferido à Administração para restringir, frenar, condicionar, limitar o exercício de direitos e atividades econômicas dos particulares, a fim de preservar os interesses da coletividade, denomina-se"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Poder Regulamentar."
+    },
+    {
+     "letra": "B",
+     "texto": "Poder Normativo."
+    },
+    {
+     "letra": "C",
+     "texto": "Poder de Polícia."
+    },
+    {
+     "letra": "D",
+     "texto": "Poder Vinculado."
+    },
+    {
+     "letra": "E",
+     "texto": "Poder Discricionário."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "Instituto AOCP",
+   "cargo": "OIP (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-1ffa9b137e83",
+   "area": "",
+   "vinculo": null,
+   "ordem": 43
+  },
+  {
+   "enunciado": [
+    "No que diz respeito ao Poder de Polícia Administrativa, analise as afirmativas abaixo e assinale a alternativa correta.",
+    "I. O exercício do Poder de Polícia Administrativa, quando desempenhado pelo órgão competente nos limites da lei aplicável, é considerado regular. II. A Administração Pública pode limitar e disciplinar direito, interesse ou liberdade quando exercer o Poder de Polícia Administrativa. III. Não há definição expressa de Poder de Polícia na legislação brasileira."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas as afirmativas I e II estão corretas"
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas as afirmativas II e III estão corretas"
+    },
+    {
+     "letra": "C",
+     "texto": "As afirmativas I, II e III estão corretas"
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas as afirmativas I e III estão corretas"
+    }
+   ],
+   "gabarito": "A",
+   "banca": "IBFC",
+   "cargo": "GCM (Conde-PB)",
+   "orgao": "Pref Conde (PB)/3ª Classe",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-2e3a054794df",
+   "area": "",
+   "vinculo": null,
+   "ordem": 44
+  },
+  {
+   "enunciado": [
+    "Em relação ao poder de polícia, julgue os itens a seguir.",
+    "I O poder de polícia não tem relação com o direito do consumidor.",
+    "II O poder de polícia será sempre exercido em caráter vinculado, nos estritos termos da lei que autoriza o seu exercício.",
+    "III A polícia judiciária é privativa de corporações especializadas — polícias civis e militares —, enquanto a polícia administrativa se distribui entre diversos órgãos da administração.",
+    "Assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas o item I está certo."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas o item II está certo."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas o item III está certo."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas os itens I e II estão certos."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas os itens II e III estão certos."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Of Inv Pol (PC MA)",
+   "orgao": "PC MA/Investigador",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-4f1b7bc78a5f",
+   "area": "",
+   "vinculo": null,
+   "ordem": 45
+  },
+  {
+   "enunciado": [
+    "Dentre os poderes administrativos, está o poder de polícia, que pode ser definido como"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a prerrogativa concedida aos agentes administrativos de elegerem, entre várias condutas possíveis, a que traduz maior conveniência e oportunidade para o interesse público."
+    },
+    {
+     "letra": "B",
+     "texto": "o modo de atuar da autoridade administrativa que consiste em intervir no exercício das atividades individuais suscetíveis de fazer perigar interesses gerais, tendo por objeto evitar que se produzam, ampliem ou generalizem os danos sociais que a lei procura prevenir."
+    },
+    {
+     "letra": "C",
+     "texto": "a prerrogativa conferida à administração pública de editar atos gerais para complementar as leis e permitir a sua efetiva aplicação."
+    },
+    {
+     "letra": "D",
+     "texto": "o dever de agir conforme a moralidade e a impessoalidade."
+    },
+    {
+     "letra": "E",
+     "texto": "o poder da administração pública de anular e revogar seus próprios atos."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "Ag (ITEP RN)",
+   "orgao": "ITEP RN/Técnico Forense",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-8d3fef8e8b53",
+   "area": "",
+   "vinculo": null,
+   "ordem": 46
+  },
+  {
+   "enunciado": [
+    "Em relação aos poderes administrativos, julgue o item seguinte.",
+    "A demissão de servidor público configura sanção aplicada em decorrência do poder de polícia administrativa, uma vez que se caracteriza como atividade de controle repressiva e concreta com fundamento na supremacia do interesse público."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "DPF",
+   "orgao": "PF",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-0b5b7232cd90",
+   "area": "",
+   "vinculo": null,
+   "ordem": 47
+  },
+  {
+   "enunciado": [
+    "Acerca do poder de polícia — poder conferido à administração pública para impor limites ao exercício de direitos e de atividades individuais em função do interesse público —, julgue o próximo item.",
+    "São características do poder de polícia a discricionariedade, a autoexecutoriedade e a coercibilidade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC SE)",
+   "orgao": "PC SE",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-ff91b4366102",
+   "area": "",
+   "vinculo": null,
+   "ordem": 48
+  },
+  {
+   "enunciado": [
+    "Acerca do poder de polícia — poder conferido à administração pública para impor limites ao exercício de direitos e de atividades individuais em função do interesse público —, julgue o próximo item.",
+    "A polícia administrativa propõe-se a restringir o exercício de atividades ilícitas e, em regra, tem caráter preventivo."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC SE)",
+   "orgao": "PC SE",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-e9d410d30ca5",
+   "area": "",
+   "vinculo": null,
+   "ordem": 49
+  },
+  {
+   "enunciado": [
+    "Acerca do poder de polícia — poder conferido à administração pública para impor limites ao exercício de direitos e de atividades individuais em função do interesse público —, julgue o próximo item.",
+    "O poder de polícia é indelegável."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC SE)",
+   "orgao": "PC SE",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "CE",
+   "id": "q-7871a08aafc5",
+   "area": "",
+   "vinculo": null,
+   "ordem": 50
+  },
+  {
+   "enunciado": [
+    "De acordo com a legislação e a doutrina pertinentes, o poder de polícia administrativa"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "pode manifestar-se com a edição de atos normativos como decretos do chefe do Poder Executivo para a fiel regulamentação de leis."
+    },
+    {
+     "letra": "B",
+     "texto": "é poder de natureza vinculada, uma vez que o administrador não pode valorar a oportunidade e conveniência de sua prática, estabelecer o motivo e escolher seu conteúdo."
+    },
+    {
+     "letra": "C",
+     "texto": "pode ser exercido por órgão que também exerça o poder de polícia judiciária."
+    },
+    {
+     "letra": "D",
+     "texto": "é de natureza preventiva, não se prestando o seu exercício, portanto, à esfera repressiva."
+    },
+    {
+     "letra": "E",
+     "texto": "é poder administrativo que consiste na possibilidade de a administração aplicar punições a agentes públicos que cometam infrações funcionais."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2017,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-c2243b70f476",
+   "area": "",
+   "vinculo": null,
+   "ordem": 51
+  },
+  {
+   "enunciado": [
+    "Com relação ao poder de polícia, julgue os itens a seguir.",
+    "I A coercibilidade caracteriza-se pela possibilidade de a administração pública executar decisões pelos próprios meios, sem recorrer previamente ao Poder Judiciário.",
+    "II A autoexecutoriedade caracteriza-se pela obrigação de os administrados observarem os comandos emitidos por atos de polícia. III Denomina-se originário o poder de polícia que abrange leis e atos administrativos provenientes de pessoas políticas da Federação. IV O poder de polícia é discricionário, mas limitado por lei.",
+    "Estão certos apenas os itens"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e II."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III."
+    },
+    {
+     "letra": "C",
+     "texto": "II e III."
+    },
+    {
+     "letra": "D",
+     "texto": "II e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "III e IV."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPE (SERES PE)",
+   "orgao": "SERES PE",
+   "ano": 2017,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-17256696b73a",
+   "area": "",
+   "vinculo": null,
+   "ordem": 52
+  },
+  {
+   "enunciado": [
+    "A administração pública de determinado município brasileiro constatou o funcionamento irregular de um estabelecimento que comercializava refeições. Nessa hipótese,",
+    "I se houver tentativa do proprietário para impedir o fechamento do estabelecimento, a administração poderá utilizar-se da força pública, independentemente de decisão liminar.",
+    "II a administração, com a utilização de seus próprios meios, poderá impedir o funcionamento do estabelecimento.",
+    "III a administração estará impedida de utilizar o critério da discricionariedade para impedir o funcionamento do estabelecimento.",
+    "IV a administração deverá utilizar a polícia judiciária para executar o ato de impedir o funcionamento do estabelecimento.",
+    "Estão certos apenas os itens"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e II."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III."
+    },
+    {
+     "letra": "C",
+     "texto": "III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "II, III e IV."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PJC MT)",
+   "orgao": "PJC MT",
+   "ano": 2017,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-841ef95dd087",
+   "area": "",
+   "vinculo": null,
+   "ordem": 53
+  },
+  {
+   "enunciado": [
+    "Após investigação, foi localizada, no interior da residência de Paulo, farta quantidade de Cannabis sativa, vulgarmente conhecida por maconha, razão por que Paulo foi preso em flagrante pelo crime de tráfico de drogas. No momento de sua prisão, Paulo tentou resistir, motivo pelo qual os policiais, utilizando da força necessária, efetuaram sua imobilização.",
+    "Nessa situação hipotética, foi exercido o poder administrativo denominado"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "poder disciplinar, o qual permite que se detenham todos quantos estejam em desconformidade com a lei."
+    },
+    {
+     "letra": "B",
+     "texto": "poder regulamentar, que corresponde ao poder estatal de determinar quais práticas serão penalizadas no caso de o particular as cometer."
+    },
+    {
+     "letra": "C",
+     "texto": "poder hierárquico, devido ao fato de o Estado, representado na ocasião pelos policiais, ser um ente superior ao particular."
+    },
+    {
+     "letra": "D",
+     "texto": "poder discricionário, mas houve abuso no exercício desse poder, caracterizado pela utilização da força para proceder à prisão."
+    },
+    {
+     "letra": "E",
+     "texto": "poder de polícia, que corresponde ao direito do Estado em limitar o exercício dos direitos individuais em benefício do interesse público."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2016,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-065f4e8fc4e8",
+   "area": "",
+   "vinculo": null,
+   "ordem": 54
+  },
+  {
+   "enunciado": [
+    "A fiscalização ambiental de determinado estado da Federação verificou que a água utilizada para o consumo dos hóspedes de um hotel era captada de poços artesianos. Como o hotel não tinha a outorga do poder público para extração de água de aquífero subterrâneo, os fiscais lavraram o auto de infração e informaram ao gerente do hotel que lacrariam os poços artesianos, conforme a previsão da legislação estadual. O gerente resistiu à ação dos fiscais, razão pela qual policiais militares compareceram ao local e, diante do impasse, o gerente, acompanhado do advogado do hotel, e os fiscais foram conduzidos à delegacia local. O advogado alegou que os fiscais teriam agido com abuso de autoridade, uma vez que o poder público estadual não teria competência para fiscalizar poços artesianos, e requereu ao delegado de plantão a imediata liberação do gerente e o registro, em boletim de ocorrência, do abuso de poder por parte dos fiscais.",
+    "A partir dessa situação hipotética, assinale a opção correta, considerando as regras e princípios do direito administrativo."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Agentes de fiscalização não possuem poder de polícia, que é exclusivo dos órgãos de segurança pública. Por essa razão, os fiscais não poderiam entrar no hotel, propriedade privada, sem o acompanhamento dos policiais militares."
+    },
+    {
+     "letra": "B",
+     "texto": "A fiscalização estadual agiu corretamente ao aplicar o auto de infração: o hotel não poderia fazer uso de poço artesiano sem a outorga do poder público estadual. Contudo, os fiscais somente poderiam lacrar os poços se dispusessem de ordem judicial, razão pela qual ficou evidente o abuso de poder."
+    },
+    {
+     "letra": "C",
+     "texto": "As águas subterrâneas e em depósito são bens públicos da União, razão pela qual a fiscalização estadual não teria competência para atuar no presente caso."
+    },
+    {
+     "letra": "D",
+     "texto": "Os estados membros da Federação possuem domínio das águas subterrâneas e poder de polícia para precaver e prevenir danos ao meio ambiente. Assim, a fiscalização estadual não só tinha o poder, mas também, o dever de autuar."
+    },
+    {
+     "letra": "E",
+     "texto": "Não é necessária a outorga do ente público para o simples uso de poço artesiano. Logo, a conduta dos fiscais foi intempestiva e abusiva."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2016,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Poder de Polícia",
+   "tipo": "ME",
+   "id": "q-c14c0685672f",
+   "area": "",
+   "vinculo": null,
+   "ordem": 55
+  },
+  {
+   "enunciado": [
+    "João, servidor público, ocupa o cargo de Chefe de Departamento na Secretaria de Segurança Pública do Estado X. Recentemente, ele descobriu que um de seus subordinados, Pedro, está envolvido em um projeto comunitário que critica abertamente políticas do governo estadual. Ademais, o servidor ausenta-se durante o expediente para realizar as atividades do projeto. Incomodado com a postura de Pedro, João decide removê-lo para uma unidade organizacional mais distante, justificando a medida com o interesse da repartição. Pedro, indignado, recorre à Corregedoria. Diante dessa situação, é acertado dizer que a conduta de João foi"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "correta, pois João se utilizou de seu poder disciplinar de maneira legítima para manter a ordem dentro do departamento."
+    },
+    {
+     "letra": "B",
+     "texto": "incorreta, pois João não tinha competência ao realizar a remoção de seu subordinado Pedro."
+    },
+    {
+     "letra": "C",
+     "texto": "incorreta, pois João utilizou seu poder disciplinar para atingir uma finalidade diversa da do interesse público."
+    },
+    {
+     "letra": "D",
+     "texto": "correta, pois João, como chefe, tem o direito e o dever de realocar seus subordinados conforme compreende necessário."
+    },
+    {
+     "letra": "E",
+     "texto": "incorreta, pois João devia ter punido o servidor com penalidade mais gravosa, diante da necessidade de proteger o interesse público."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "IDECAN",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-21e8f7a915ca",
+   "area": "",
+   "vinculo": null,
+   "ordem": 56
+  },
+  {
+   "enunciado": [
+    "A aplicação de penalidade de suspensão a servidor por agente público cuja competência se limite à aplicação da penalidade de advertência configura ato viciado pelo(a)"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "usurpação de função."
+    },
+    {
+     "letra": "B",
+     "texto": "abuso de autoridade."
+    },
+    {
+     "letra": "C",
+     "texto": "função aparente."
+    },
+    {
+     "letra": "D",
+     "texto": "excesso de poder."
+    },
+    {
+     "letra": "E",
+     "texto": "impedimento."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC RO)",
+   "orgao": "PC RO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-ea574c4e0f33",
+   "area": "",
+   "vinculo": null,
+   "ordem": 57
+  },
+  {
+   "enunciado": [
+    "Os agentes de polícia do estado de Alagoas, no exercício de sua função, devem comedir a aplicação do uso de força em suas abordagens e ações, buscando agir de maneira adequada, sem extrapolar os limites legais impostos ao exercício do poder que lhes é conferido. Acerca do uso e do abuso de poder, julgue o item que se seguem.",
+    "Ato praticado com abuso de poder somente pode ser invalidado mediante revisão judicial."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "CE",
+   "id": "q-7f7b2f61cb0b",
+   "area": "",
+   "vinculo": null,
+   "ordem": 58
+  },
+  {
+   "enunciado": [
+    "Os agentes de polícia do estado de Alagoas, no exercício de sua função, devem comedir a aplicação do uso de força em suas abordagens e ações, buscando agir de maneira adequada, sem extrapolar os limites legais impostos ao exercício do poder que lhes é conferido. Acerca do uso e do abuso de poder, julgue o item que se seguem.",
+    "Ato praticado de forma abusiva e com finalidade diversa daquela atribuída pela lei é configurado como excesso de poder."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC AL)",
+   "orgao": "PC AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "CE",
+   "id": "q-1ddd465104e9",
+   "area": "",
+   "vinculo": null,
+   "ordem": 59
+  },
+  {
+   "enunciado": [
+    "Qual é o significado da expressão “Uso do Poder” na administração pública?"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É o poder administrativo representando uma prerrogativa especial de direito público outorgada aos agentes do Estado."
+    },
+    {
+     "letra": "B",
+     "texto": "É quando o Estado está realizando seus atos."
+    },
+    {
+     "letra": "C",
+     "texto": "É o Estado interferindo nos poderes legislativo e judiciário para suprir suas demandas."
+    },
+    {
+     "letra": "D",
+     "texto": "É quando o Estado percebe que deve agir de forma imediata."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas utiliza-se do Uso do Poder nos casos em que a lei silencia."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "Instituto AOCP",
+   "cargo": "GM (Novo Hamburgo)",
+   "orgao": "Pref Novo Hamburgo",
+   "ano": 2020,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-dd0b4b8dadeb",
+   "area": "",
+   "vinculo": null,
+   "ordem": 60
+  },
+  {
+   "enunciado": [
+    "Na administração pública, a utilização do poder deve guardar conformidade com o que a lei dispuser. Diante dessa afirmação, é correto afirmar que se o agente público não agir de acordo com a lei poderá incorrer em qual situação?"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Uso do Poder."
+    },
+    {
+     "letra": "B",
+     "texto": "Abuso do Poder."
+    },
+    {
+     "letra": "C",
+     "texto": "Omissão do Poder."
+    },
+    {
+     "letra": "D",
+     "texto": "Ação comissiva."
+    },
+    {
+     "letra": "E",
+     "texto": "Ação omissiva."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "GM (Novo Hamburgo)",
+   "orgao": "Pref Novo Hamburgo",
+   "ano": 2020,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-832a09ce69db",
+   "area": "",
+   "vinculo": null,
+   "ordem": 61
+  },
+  {
+   "enunciado": [
+    "No tocante aos poderes administrativos e à responsabilidade civil do Estado, julgue o item.",
+    "O abuso de poder, que inclui o excesso de poder e o desvio de finalidade, não decorre de conduta omissiva de agente público."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PRF",
+   "orgao": "PRF",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "CE",
+   "id": "q-707d03565369",
+   "area": "",
+   "vinculo": null,
+   "ordem": 62
+  },
+  {
+   "enunciado": [
+    "Abuso de poder é toda ação que torna irregular a execução do ato administrativo, legal ou ilegal, e que propicia, contra seu autor, medidas disciplinares, civis e criminais. Sobre o abuso de poder, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O abuso de poder pode estar presente somente nos atos discricionários e não nos atos vinculados."
+    },
+    {
+     "letra": "B",
+     "texto": "O abuso de poder pode ocorrer tanto por desvio de poder, ou finalidade, como por excesso de poder."
+    },
+    {
+     "letra": "C",
+     "texto": "O autor do abuso de poder será responsabilizado somente nas esferas administrativas e criminal e não na esfera cível."
+    },
+    {
+     "letra": "D",
+     "texto": "O abuso de poder pode estar presente somente nos atos ilegais e não nos atos legais."
+    },
+    {
+     "letra": "E",
+     "texto": "Desvio de finalidade e abuso de poder são expressões sinônimas em termos conceituais."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "Esc Pol (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-5bf783fa5d3b",
+   "area": "",
+   "vinculo": null,
+   "ordem": 63
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes administrativos, julgue o item a seguir.",
+    "O excesso de poder é a modalidade de abuso de poder nas situações em que o agente busca alcançar fim diverso daquele que a lei lhe permitiu."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF",
+   "orgao": "PF",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "CE",
+   "id": "q-28359e792d58",
+   "area": "",
+   "vinculo": null,
+   "ordem": 64
+  },
+  {
+   "enunciado": [
+    "A respeito dos poderes e deveres da administração, assinale a opção correta, considerando o disposto na CF."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A lei não pode criar instrumentos de fiscalização das finanças públicas, pois tais instrumentos são taxativamente listados na CF."
+    },
+    {
+     "letra": "B",
+     "texto": "A eficiência, um dever administrativo, não guarda relação com a realização de supervisão ministerial dos atos praticados por unidades da administração indireta."
+    },
+    {
+     "letra": "C",
+     "texto": "O abuso de poder consiste em conduta ilegítima do agente público, caracterizada pela atuação fora dos objetivos explícitos ou implícitos estabelecidos pela lei."
+    },
+    {
+     "letra": "D",
+     "texto": "A capacidade de inovar a ordem jurídica e criar obrigações caracteriza o poder regulamentar da administração."
+    },
+    {
+     "letra": "E",
+     "texto": "As consequências da condenação pela prática de ato de improbidade administrativa incluem a perda dos direitos políticos e a suspensão da função pública."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2017,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "ME",
+   "id": "q-ca8110050a47",
+   "area": "",
+   "vinculo": null,
+   "ordem": 65
+  },
+  {
+   "enunciado": [
+    "No que se refere a direito administrativo, ato administrativo e seus atributos e princípios, julgue o item que se segue.",
+    "Configura-se o abuso de poder quando o órgão ou o agente público extrapola os limites legais de sua atuação na prática de determinado ato administrativo."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PRF",
+   "orgao": "PRF",
+   "ano": 2016,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)",
+   "tipo": "CE",
+   "id": "q-4e81daa6ab28",
+   "area": "",
+   "vinculo": null,
+   "ordem": 66
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes administrativos, julgue o item a seguir.",
+    "A inércia do administrador ao não adotar conduta comissiva prevista em lei é ilegal em função do poder-dever de agir da administração pública, caso em que é inaplicável a reserva do possível."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF",
+   "orgao": "PF",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Deveres da Administração",
+   "tipo": "CE",
+   "id": "q-963ebba9ccd5",
+   "area": "",
+   "vinculo": null,
+   "ordem": 67
+  },
+  {
+   "enunciado": [
+    "Quando a administração pública avoca atribuições que não sejam da competência exclusiva do órgão subordinado, delega atribuições que não lhes sejam privativas, e cria limitações administrativas, ela exerce, respectivamente, os poderes"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "hierárquico, de polícia e de polícia."
+    },
+    {
+     "letra": "B",
+     "texto": "hierárquico, hierárquico e de polícia."
+    },
+    {
+     "letra": "C",
+     "texto": "de polícia, hierárquico e de polícia."
+    },
+    {
+     "letra": "D",
+     "texto": "hierárquico, hierárquico e hierárquico."
+    },
+    {
+     "letra": "E",
+     "texto": "de polícia, de polícia e de polícia."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-21fef2c4a6d3",
+   "area": "",
+   "vinculo": null,
+   "ordem": 68
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes da administração pública e dos atos administrativos, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O poder hierárquico da administração pública pode ser definido como o poder de punir as infrações funcionais dos servidores e demais indivíduos que estejam sujeitos à disciplina de órgãos públicos."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder regulamentar da administração pública consiste na possibilidade de expedição de atos normativos, ainda que primários, desde que não sejam contrários à lei."
+    },
+    {
+     "letra": "C",
+     "texto": "O poder de polícia da administração pública consiste na possibilidade de condicionar, restringir, frenar o exercício de atividade, o uso e o gozo de bens e direitos pelos particulares, em nome do interesse da coletividade."
+    },
+    {
+     "letra": "D",
+     "texto": "O ato administrativo discricionário depende da conveniência e oportunidade do órgão público, razão pela qual está imune ao controle do Poder Judiciário."
+    },
+    {
+     "letra": "E",
+     "texto": "O ato administrativo goza de presunção absoluta de legitimidade."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-748cc6edf92d",
+   "area": "",
+   "vinculo": null,
+   "ordem": 69
+  },
+  {
+   "enunciado": [
+    "Os poderes administrativos são fundamentais para a organização e o funcionamento da Administração Pública. Assinale a alternativa correta sobre os poderes hierárquico, disciplinar, regulamentar e de polícia."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O poder-dever de criar normas gerais e abstratas com a finalidade de hierarquizar ou classificar a aplicação das leis decorre do poder hierárquico."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder-dever de restringir e condicionar o exercício de direitos e atividades privadas para proteger interesses públicos, por meio de sanções, decorre do poder de polícia."
+    },
+    {
+     "letra": "C",
+     "texto": "O poder-dever de alterar competências, notadamente por meio da delegação e da avocação, decorre do poder regulamentar."
+    },
+    {
+     "letra": "D",
+     "texto": "O poder-dever de impor restrições e condicionamentos aos direitos individuais em prol do interesse coletivo decorre do poder hierárquico."
+    },
+    {
+     "letra": "E",
+     "texto": "O poder-dever de investigar e, após o contraditório e a ampla defesa, punir os servidores, nas hipóteses de infração, decorre do poder de polícia."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "IDECAN",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2024,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-1902fb921551",
+   "area": "",
+   "vinculo": null,
+   "ordem": 70
+  },
+  {
+   "enunciado": [
+    "No que diz respeito aos poderes da administração pública, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os casos de desvio de finalidade configuram espécie de abuso de poder."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder disciplinar permite a imposição de penalidades a todos os administrados, independentemente de vínculo com a administração pública."
+    },
+    {
+     "letra": "C",
+     "texto": "O poder de polícia é privativo das polícias civis e militares."
+    },
+    {
+     "letra": "D",
+     "texto": "O poder hierárquico não é reconhecido no âmbito do regime jurídico dos servidores civis."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "GCM (Boa Vista)",
+   "orgao": "Pref Boa Vista",
+   "ano": 2023,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-b6259ba4da58",
+   "area": "",
+   "vinculo": null,
+   "ordem": 71
+  },
+  {
+   "enunciado": [
+    "Os poderes legalmente conferidos à Administração estão disponíveis para consecução do interesse público e em função de finalidades específicas previstas em lei e na Constituição. O poder que trata da função da Administração Pública de editar atos com efeitos gerais e abstratos, compreendendo a edição de decretos regulamentares, instruções normativas, regimentos, resoluções e deliberações, está descrito a seguir. Assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Poder discricionário"
+    },
+    {
+     "letra": "B",
+     "texto": "Poder normativo"
+    },
+    {
+     "letra": "C",
+     "texto": "Poder disciplinar"
+    },
+    {
+     "letra": "D",
+     "texto": "Poder de polícia"
+    }
+   ],
+   "gabarito": "B",
+   "banca": "IBFC",
+   "cargo": "TAO (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2023,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-865ffe11aa97",
+   "area": "",
+   "vinculo": null,
+   "ordem": 72
+  },
+  {
+   "enunciado": [
+    "Em referência aos poderes administrativos, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O poder de polícia fundamenta-se em limites e regulações impostos ao particular, para que o Estado se mantenha superior ao mercado."
+    },
+    {
+     "letra": "B",
+     "texto": "A polícia administrativa é repressiva e está disseminada pelos órgãos da administração pública."
+    },
+    {
+     "letra": "C",
+     "texto": "Os regulamentos autônomos ou independentes são editados pelas autoridades competentes, em atendimento a norma legal, para prover matéria reservada à lei."
+    },
+    {
+     "letra": "D",
+     "texto": "A atividade de polícia é sempre vinculada e efetiva-se por atos administrativos expedidos por meio de exercício de competência também vinculada."
+    },
+    {
+     "letra": "E",
+     "texto": "O ato de polícia caracteriza-se por ser editado pela administração pública, de forma fundamentada, para atender ao interesse público e social, podendo incidir sobre a propriedade ou sobre a liberdade."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Tec Per (PC PB)",
+   "orgao": "PC PB/Área Geral",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-06539ed69937",
+   "area": "",
+   "vinculo": null,
+   "ordem": 73
+  },
+  {
+   "enunciado": [
+    "Os poderes da Administração Pública são elemento essencial para a caracterização da atuação estatal, abrangendo os poderes normativo, hierárquico, disciplinar e de polícia. A ampla gama de funções a serem exercidas pela Administração em um Estado organizado no modelo brasileiro demanda um igualmente amplo exercício dos poderes da Administração Pública, circunstância esta que denota a importância do tema para a adequada apreciação de medidas estatais. Diante desse contexto, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A Polícia Judiciária, embora seja atividade administrativa, prepara a atuação da função jurisdicional, enquanto a Polícia Administrativa, de caráter mais fiscalizador, é atividade da Administração que se exaure em si mesma."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder regulamentar por parte do Executivo se justifica pela supremacia do interesse público, de modo que regulamentos administrativos podem ultrapassar as disposições e o âmbito das leis nas quais se baseiam e se justificam."
+    },
+    {
+     "letra": "C",
+     "texto": "É vedado ao agente superior ajustar um ato administrativo de agente subordinado que contiver vício de legalidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Para a invalidação de conduta revestida de abuso de poder perpetrado por autoridade pública, o prejudicado deve se valer de ação judicial, sendo vedada a anulação administrativa do ato."
+    },
+    {
+     "letra": "E",
+     "texto": "A conveniência e a oportunidade, elementos do mérito na prática de atos administrativos discricionários, imbuem o agente público com a possibilidade de tomar decisões arbitrárias, por caracterizarem o exercício de um dos poderes da Administração Pública."
+    }
+   ],
+   "gabarito": "A",
+   "banca": "Instituto AOCP",
+   "cargo": "Del Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-e49be67d4076",
+   "area": "",
+   "vinculo": null,
+   "ordem": 74
+  },
+  {
+   "enunciado": [
+    "Considerando os poderes administrativos, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.",
+    "( ) No poder hierárquico, a submissão hierárquica retira do inferior a atuação política, isto é, despe o subordinado da ação de comando, permitindo-lhe, tão somente, agir no estrito âmbito de suas atribuições específicas.",
+    "( ) No uso do poder regulamentar, a Administração Pública controla o desempenho das funções executivas e a conduta interna de seus servidores, responsabilizando-os pelas faltas cometidas.",
+    "( ) Em relação ao poder de polícia distribuído entre as entidades estatais, a regra é a concorrência do policiamento administrativo dos municípios, estados e união, e a exceção é a exclusividade do policiamento.",
+    "( ) Por meio do poder disciplinar, a Administração atua atendendo o benefício do serviço e, por esse objetivo, julga a conveniência e oportunidade da punição do servidor, dentro das normas específicas da repartição."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – V – F."
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – F – V."
+    },
+    {
+     "letra": "C",
+     "texto": "V – F – F – V."
+    },
+    {
+     "letra": "D",
+     "texto": "F – V – V – F."
+    },
+    {
+     "letra": "E",
+     "texto": "F – F – V – V."
+    }
+   ],
+   "gabarito": "C",
+   "banca": "Instituto AOCP",
+   "cargo": "Esc Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2022,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-13b5fcd75aee",
+   "area": "",
+   "vinculo": null,
+   "ordem": 75
+  },
+  {
+   "enunciado": [
+    "Referente ao Direito Administrativo, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No controle judicial da atividade administrativa discricionária, cabe ao Poder Judiciário substituir a decisão do administrador, analisando e julgando o mérito do ato administrativo."
+    },
+    {
+     "letra": "B",
+     "texto": "O excesso de poder ocorre em casos nos quais a autoridade pública atua fora dos limites de sua competência."
+    },
+    {
+     "letra": "C",
+     "texto": "O poder regulamentar é o escalonamento no plano vertical dos órgãos e agentes da Administração que tem como objetivo a organização da função administrativa."
+    },
+    {
+     "letra": "D",
+     "texto": "As atribuições de delegar e avocar competência decorrem do poder disciplinar da administração pública."
+    },
+    {
+     "letra": "E",
+     "texto": "São atributos do poder de polícia: imperatividade, finalidade e motivação."
+    }
+   ],
+   "gabarito": "B",
+   "banca": "Instituto AOCP",
+   "cargo": "Ag (ITEP RN)",
+   "orgao": "ITEP RN/Técnico Forense",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-dd8ed59ef0f0",
+   "area": "",
+   "vinculo": null,
+   "ordem": 76
+  },
+  {
+   "enunciado": [
+    "Acerca dos poderes da administração pública, julgue o item a seguir.",
+    "Os poderes da administração pública, por serem inerentes à atividade administrativa, são irrenunciáveis."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "CE",
+   "id": "q-a8869d7170fc",
+   "area": "",
+   "vinculo": null,
+   "ordem": 77
+  },
+  {
+   "enunciado": [
+    "Poderes Administrativos são elementos indispensáveis para persecução do interesse público. São Poderes da Administração Pública, EXCETO"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Poder de Polícia."
+    },
+    {
+     "letra": "B",
+     "texto": "Poder Regulamentar."
+    },
+    {
+     "letra": "C",
+     "texto": "Poder Hierárquico."
+    },
+    {
+     "letra": "D",
+     "texto": "Poder Judicial."
+    },
+    {
+     "letra": "E",
+     "texto": "Poder Disciplinar."
+    }
+   ],
+   "gabarito": "D",
+   "banca": "Instituto AOCP",
+   "cargo": "Esc Pol (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2019,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-627ed11d33d3",
+   "area": "",
+   "vinculo": null,
+   "ordem": 78
+  },
+  {
+   "enunciado": [
+    "Com relação aos poderes administrativos, a prerrogativa da administração pública de editar atos normativos para ordenar a atuação de órgãos subordinados decorre do exercício do poder"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "discricionário."
+    },
+    {
+     "letra": "B",
+     "texto": "disciplinar."
+    },
+    {
+     "letra": "C",
+     "texto": "de polícia."
+    },
+    {
+     "letra": "D",
+     "texto": "regulamentar."
+    },
+    {
+     "letra": "E",
+     "texto": "hierárquico."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC MA)",
+   "orgao": "PC MA",
+   "ano": 2018,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-88aec4056db7",
+   "area": "",
+   "vinculo": null,
+   "ordem": 79
+  },
+  {
+   "enunciado": [
+    "Com relação aos poderes administrativos e ao uso e abuso desses poderes, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O poder de polícia refere-se às relações jurídicas especiais, decorrentes de vínculos jurídicos específicos existentes entre o Estado e o particular."
+    },
+    {
+     "letra": "B",
+     "texto": "O poder disciplinar, mediante o qual a administração públicaestá autorizada a apurar e aplicar penalidades, alcança tão somente os servidores que compõem o seu quadro de pessoal."
+    },
+    {
+     "letra": "C",
+     "texto": "A invalidação, por motivos de ilegalidade, de conduta abusiva praticada por administradores públicos ocorre no âmbito judicial, mas não na esfera administrativa."
+    },
+    {
+     "letra": "D",
+     "texto": "Poder regulamentar é a competência atribuída às entidades administrativas para a edição de normas técnicas de caráter normativo, executivo e judicante."
+    },
+    {
+     "letra": "E",
+     "texto": "Insere-se no âmbito do poder hierárquico a prerrogativa que os agentes públicos possuem de rever os atos praticados pelos subordinados para anulá-los, quando estes forem considerados ilegais, ou revogá-los por conveniência e oportunidade, nos termos da legislação respectiva."
+    }
+   ],
+   "gabarito": "E",
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Pol (PC GO)",
+   "orgao": "PC GO",
+   "ano": 2016,
+   "materia": "Direito Administrativo (Doutrina e Leis Federais)",
+   "assunto": "Tópicos Mesclados de Poderes da Administração",
+   "tipo": "ME",
+   "id": "q-e0fb5a69d554",
+   "area": "",
+   "vinculo": null,
+   "ordem": 80
+  }
+ ]
+}
