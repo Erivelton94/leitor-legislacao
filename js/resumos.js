@@ -285,8 +285,8 @@ function desenharTintaNoCanvas(ctx, t, k) {
     if (!tr.pts || tr.pts.length < 2) continue;
     const marca = ehMarca(tr);
     ctx.strokeStyle = marca ? translucida(tr.cor, tr.cor === "#1F2A36" ? 0.22 : 0.35) : tr.cor;
-    ctx.lineWidth = larguraTraco(tr); ctx.lineCap = marca ? "butt" : "round"; ctx.lineJoin = "round";
-    ctx.stroke(new Path2D(caminhoD(tr.pts)));
+    ctx.lineCap = marca ? "butt" : "round"; ctx.lineJoin = "round";
+    for (const pt of partesDoTraco(tr)) { ctx.lineWidth = pt.esp; ctx.stroke(new Path2D(caminhoD(pt.pts))); }
   }
   ctx.globalAlpha = 0.62; ctx.textAlign = "center"; ctx.textBaseline = "middle";
   for (const c of t.carimbos || []) { ctx.font = `${c.tam}px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif`; ctx.fillText(c.icone, c.x, c.y); }
@@ -1334,8 +1334,8 @@ async function exportarPdfComMarcacoes(r, aviso, soGerar = false) {
       if (!tr.pts || tr.pts.length < 4) continue;
       const [cr, cg, cb] = hexParaRgb(tr.cor);
       const marca = ehMarca(tr);
-      pag.drawSvgPath(caminhoD(tr.pts), {
-        x: 0, y: height, scale: k, borderColor: rgb(cr, cg, cb), borderWidth: larguraTraco(tr) * k,
+      for (const pt of partesDoTraco(tr)) pag.drawSvgPath(caminhoD(pt.pts), {
+        x: 0, y: height, scale: k, borderColor: rgb(cr, cg, cb), borderWidth: pt.esp * k,
         borderOpacity: marca ? (tr.cor === "#1F2A36" ? 0.22 : 0.35) : 1,
         borderLineCap: marca ? LineCapStyle.Butt : LineCapStyle.Round,
       });

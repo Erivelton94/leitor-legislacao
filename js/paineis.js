@@ -79,7 +79,7 @@ document.addEventListener("selectionchange", () => {
   clearTimeout(tempoSel);
   tempoSel = setTimeout(() => {
     const s = lerSelecao();
-    if (s && !s.erro) { selecaoAtual = s; $("#barra-selecao").classList.remove("oculto"); }
+    if (s && !s.erro) { selecaoAtual = s; marcarCorGrifo(); $("#barra-selecao").classList.remove("oculto"); }
     else if (!window.getSelection()?.toString()) setTimeout(() => { if (!window.getSelection()?.toString()) esconderBarra(); }, 300);
   }, 180);
 });
@@ -91,12 +91,15 @@ function novaAncora(s) {
     prefixo: s.textoArtigo.slice(Math.max(0, s.ini - 40), s.ini), sufixo: s.textoArtigo.slice(s.fim, s.fim + 40),
   };
 }
+/* o grifo lembra a última cor usada (fica destacada e é a cor do grifo criado junto com uma anotação) */
+function marcarCorGrifo() { const c = lerLS("cor-grifo", "amarelo"); $$("#barra-selecao [data-cor]").forEach(b => b.setAttribute("aria-pressed", b.dataset.cor === c)); }
 async function acaoSelecao(acao, cor) {
   const s = selecaoAtual;
   if (!s) return;
   window.getSelection()?.removeAllRanges();
   esconderBarra();
   if (acao === "grifar") {
+    gravarLS("cor-grifo", cor);
     await salvarItem({ id: uid(), tipo: "grifo", cor, ...novaAncora(s) });
     repintarArtigo(s.lei, s.art);
   } else if (acao === "anotar") {
@@ -293,7 +296,7 @@ function editorAnotacao(base) {
     if (!existente) { delete item.criadoEm; delete item.atualizadoEm; delete item.apagado; }
     if (item.criarGrifo) {
       const campos = ["lei", "art", "versao", "hashArt", "textoOriginal", "ini", "fim", "texto", "prefixo", "sufixo"];
-      const g = { id: uid(), tipo: "grifo", cor: "amarelo" };
+      const g = { id: uid(), tipo: "grifo", cor: lerLS("cor-grifo", "amarelo") };
       campos.forEach(c => { g[c] = item[c]; });
       await salvarItem(g);
       item.grifoId = g.id;

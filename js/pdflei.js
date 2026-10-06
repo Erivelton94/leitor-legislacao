@@ -204,13 +204,15 @@ async function gerarPdfLei(id, de, ate, { grifos = true, notas = true, desenhos 
       for (const tr of t.tracos || []) {
         if (!tr.pts || tr.pts.length < 4) continue;
         const pos = posicionar(tr.anc);
-        const pts = tr.pts.map((v, i) => +(i % 2 ? pos.Y(v) : pos.X(v)).toFixed(2));
         const [cr, cg, cb] = hexParaRgb(tr.cor);
         const marca = ehMarca(tr);
-        pos.pag.drawSvgPath(caminhoD(pts), {
-          x: 0, y: ALT, borderColor: rgb(cr, cg, cb), borderWidth: larguraTraco(tr) * pos.k,
-          borderOpacity: marca ? (tr.cor === "#1F2A36" ? 0.22 : 0.35) : 1, borderLineCap: marca ? 0 : 1,
-        });
+        for (const pt of partesDoTraco(tr)) {
+          const pts = pt.pts.map((v, i) => +(i % 2 ? pos.Y(v) : pos.X(v)).toFixed(2));
+          pos.pag.drawSvgPath(caminhoD(pts), {
+            x: 0, y: ALT, borderColor: rgb(cr, cg, cb), borderWidth: pt.esp * pos.k,
+            borderOpacity: marca ? (tr.cor === "#1F2A36" ? 0.22 : 0.35) : 1, borderLineCap: marca ? 0 : 1,
+          });
+        }
       }
       for (const c of t.carimbos || []) {
         if (!cacheIcone.has(c.icone)) {

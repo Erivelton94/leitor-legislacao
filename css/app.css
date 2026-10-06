@@ -669,3 +669,18 @@ svg.tinta { will-change: auto; }
 .lei-pin { font-size: 0.85em; }
 
 .selo-vis { font-size: 0.8em; }
+
+/* laço da caneta: contorno enquanto desenha e caixa da seleção */
+#laco-desenho { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 37; display: none; overflow: visible; }
+#laco-desenho path { fill: rgba(90, 110, 60, 0.08); stroke: var(--oliva, #5A6E3C); stroke-width: 1.5; stroke-dasharray: 6 5; }
+#selecao-laco { position: fixed; z-index: 37; display: none; border: 1.5px dashed var(--oliva, #5A6E3C); border-radius: 8px; background: rgba(90, 110, 60, 0.06); cursor: move; touch-action: none; }
+#selecao-laco .alca-laco { position: absolute; right: -14px; bottom: -14px; width: 28px; height: 28px; border-radius: 50%; background: var(--folha); border: 2px solid var(--oliva, #5A6E3C); cursor: nwse-resize; touch-action: none; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+#selecao-laco .menu-laco { position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translateX(-50%); display: flex; align-items: center; gap: 4px; padding: 6px 8px; white-space: nowrap;
+  background: var(--folha); border: 1px solid var(--fio); border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.18); cursor: default; }
+#selecao-laco.menu-embaixo .menu-laco { bottom: auto; top: calc(100% + 18px); }
+#selecao-laco .menu-laco .cor-btn { width: 26px; height: 26px; }
+#selecao-laco .menu-laco button[data-laco] { border: 0; background: none; color: var(--tinta); font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 8px; cursor: pointer; }
+#selecao-laco .menu-laco button.perigo { color: var(--alt); }
+#selecao-laco .menu-laco .sep { width: 1px; height: 22px; background: var(--fio); margin: 0 2px; }
+.rotulo-opcao { margin: 4px 0 -2px; width: 100%; font-size: 12px; color: var(--tinta-2); text-align: center; }
+#barra-selecao .cor-btn[aria-pressed="true"] { outline: 2px solid var(--tinta); outline-offset: 2px; }
