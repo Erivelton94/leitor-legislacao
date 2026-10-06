@@ -68,7 +68,23 @@ async function pastaNoDrive(token, nome, pai) {
   return (await c.json()).id;
 }
 /* janela do Google Drive para escolher arquivos */
+/* No iPad/iPhone, a janela do Google não funciona dentro do app (a Apple bloqueia os "cookies" do Google lá dentro).
+   Lá, abre a janela de arquivos do próprio iPad, que mostra o seu Google Drive de verdade (pastas, recentes,
+   compartilhados) pelo app Google Drive, e deixa marcar vários de uma vez. */
+function arquivosPelaJanelaDoAparelho(tipos) {
+  return new Promise(ok => {
+    const inp = document.createElement("input");
+    inp.type = "file"; inp.multiple = true; inp.accept = tipos.join(",");
+    inp.style.display = "none"; document.body.appendChild(inp);
+    const fim = lista => { inp.remove(); ok(lista); };
+    inp.onchange = () => fim([...inp.files]);
+    inp.addEventListener("cancel", () => fim([]));
+    mostrarAvisoRapido("Na janela, toque em “Procurar” e escolha Google Drive. Para marcar vários, toque em “Selecionar”.");
+    inp.click();                                               // precisa acontecer ainda dentro do toque
+  });
+}
 async function arquivosDoDrive(tipos) {
+  if (ehAparelhoApple() && !lerLS("forcar-picker-google", false)) return arquivosPelaJanelaDoAparelho(tipos);
   const token = await tokenDrive();
   await carregarScript("https://apis.google.com/js/api.js");
   await new Promise(ok => gapi.load("picker", ok));

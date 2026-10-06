@@ -554,6 +554,11 @@ async def testes(b):
             window.google={picker:{DocsView,PickerBuilder,ViewId:{DOCS:'docs'},DocsViewMode:{LIST:'list'},Feature:{MULTISELECT_ENABLED:'multi',SUPPORT_DRIVES:'drives'},Action:{PICKED:'picked',CANCEL:'cancel'}}};
             const r = await arquivosDoDrive(['application/pdf']); return {n:r.length, rotulos:reg.views.map(v=>v.rotulo), raiz:reg.views[0].pai, recentesSemPastas:reg.views[1].pastas===false, multi:reg.features.includes('multi')}; })()""")
         confere("Google Drive: abas Meu Drive (com pastas), Recentes, Compartilhados comigo e escolha de vários", drive["rotulos"][:3] == ["Meu Drive", "Recentes", "Compartilhados comigo"] and drive["raiz"] == "root" and drive["recentesSemPastas"] and drive["multi"], drive)
+        ipad = await d14.evaluate("""(async()=>{ window.ehAparelhoApple=()=>true; let token=false; window.tokenDrive=async()=>{token=true; return 'tk'};
+            let aberto=null; const orig=HTMLInputElement.prototype.click;
+            HTMLInputElement.prototype.click=function(){ if(this.type==='file'){ aberto={multi:this.multiple, accept:this.accept}; setTimeout(()=>this.dispatchEvent(new Event('cancel')),50); } else orig.call(this); };
+            const r = await arquivosDoDrive(['application/pdf']); HTMLInputElement.prototype.click=orig; return {token, aberto, n:r.length}; })()""")
+        confere("iPad: “Escolher no Google Drive” abre a janela de arquivos do iPad (vários de uma vez)", not ipad["token"] and ipad["aberto"] and ipad["aberto"]["multi"], ipad)
         confere("Nenhum erro de programa no compartilhamento", not d14.erros, d14.erros[:3])
     finally:
         shutil.rmtree(pasta_pub, ignore_errors=True)
