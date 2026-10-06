@@ -436,7 +436,7 @@ function ouvirAPartirDe(art) {
   const divs = $$("#texto-lei .artigo");
   const k = Math.max(0, divs.findIndex(d => d.dataset.art === art));
   ouvir.fila = divs.slice(k).map(d => d.dataset.art);
-  ouvir.pos = 0; ouvir.ativo = true;
+  ouvir.pos = 0; ouvir.ativo = true; ouvir.modo = "artigos";
   montarPlayer();
   falarAtual();
 }
@@ -446,8 +446,9 @@ function artigoNoTopo() {
 }
 function falarAtual() {
   speechSynthesis.cancel();
-  $$(".artigo.lendo").forEach(d => d.classList.remove("lendo"));
+  $$(".artigo.lendo, .lendo").forEach(d => d.classList.remove("lendo"));
   if (!ouvir.ativo) return;
+  if (ouvir.modo === "blocos") return falarBloco();
   const art = ouvir.fila[ouvir.pos];
   const div = art && document.getElementById("art-" + art);
   if (!div) { pararOuvir(); return; }
@@ -506,7 +507,55 @@ function montarPlayer() {
 function atualizarPlayer() {
   const r = $("#ouvir-rot"); if (!r) return;
   const art = ouvir.fila[ouvir.pos];
+  if (ouvir.modo === "blocos") { r.textContent = art ? `🔊 ${art.rotulo || ""}` : ""; return; }
   r.textContent = art ? `🔊 ${rotuloArt(art)}` : "";
+}
+/* OUVIR OS RESUMOS: o texto é dividido em blocos (parágrafos ou páginas) e lido a partir de onde você está */
+function ouvirBlocos(blocos, k = 0) {
+  if (!("speechSynthesis" in window)) { alert("Este aparelho não oferece leitura em voz alta no navegador."); return; }
+  if (!blocos.length) { alert("Não encontrei texto para ler neste resumo."); return; }
+  ouvir.modo = "blocos"; ouvir.fila = blocos; ouvir.pos = Math.max(0, Math.min(k, blocos.length - 1)); ouvir.ativo = true;
+  montarPlayer();
+  falarAtual();
+}
+function falarBloco() {
+  const b = ouvir.fila[ouvir.pos];
+  if (!b) { pararOuvir(); return; }
+  if (!b.partes) { b.carregar().then(p => { b.partes = p; if (ouvir.ativo && ouvir.fila[ouvir.pos] === b) falarAtual(); }).catch(() => { b.partes = []; falarAtual(); }); return; }
+  if (b.el) { b.el.classList.add("lendo"); b.el.scrollIntoView({ block: "start", behavior: "smooth" }); }
+  const voz = vozPortugues();
+  let i = 0;
+  const proxima = () => {
+    if (!ouvir.ativo || ouvir.fila[ouvir.pos] !== b) return;
+    if (i >= b.partes.length) { ouvir.pos++; atualizarPlayer(); setTimeout(falarAtual, 250); return; }
+    const u = new SpeechSynthesisUtterance(b.partes[i++]);
+    u.lang = "pt-BR"; u.rate = ouvir.vel; if (voz) u.voice = voz;
+    u.onend = proxima; u.onerror = e => { if (e.error !== "interrupted" && e.error !== "canceled") proxima(); };
+    ouvir.falando = u;
+    speechSynthesis.speak(u);
+  };
+  atualizarPlayer();
+  proxima();
+}
+const frasesDe = t => (t || "").replace(/\s+/g, " ").trim().replace(/([.!?;:])\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9§"“(])/g, "$1\n").split("\n").flatMap(f => f.length > 260 ? f.match(/.{1,240}(\s|$)/g) : [f]).map(f => f.trim()).filter(f => f.length > 1);
+/* monta os blocos do resumo aberto: texto (parágrafos), Word (parágrafos de cada página) ou PDF (texto de cada página) */
+function blocosDoResumo(r) {
+  if (r.formato === "pdf") {
+    return $$("#texto-lei .pagina-resumo").map(div => {
+      const n = Number(div.dataset.pagina);
+      return { el: div, rotulo: `página ${n}`, carregar: async () => { const pg = await visor.doc.getPage(n); const tc = await pg.getTextContent(); return frasesDe(tc.items.map(i => i.str + (i.hasEOL ? " " : "")).join("")); } };
+    });
+  }
+  const raiz = r.formato === "docx" ? $("#texto-lei") : $("#leitura-resumo");
+  if (!raiz) return [];
+  return $$("h1, h2, h3, h4, p, li, td", raiz).filter(el => !el.closest("li p, td p") || el.tagName === "P").filter(el => el.textContent.trim().length > 1 && !el.closest(".meta-resumo, .aviso-tinta, svg"))
+    .map(el => ({ el, rotulo: el.closest(".pagina-resumo") ? "página " + (el.closest(".pagina-resumo").dataset.art || "").slice(1) : "", partes: frasesDe(el.textContent) }));
+}
+function ouvirResumo(r) {
+  if (ouvir.ativo) { pararOuvir(); return; }
+  const blocos = blocosDoResumo(r);
+  const k = blocos.findIndex(b => b.el && b.el.getBoundingClientRect().bottom > 140);
+  ouvirBlocos(blocos, k < 0 ? 0 : k);
 }
 
 /* =====================================================================

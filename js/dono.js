@@ -77,19 +77,19 @@ async function arquivarCaderno(id, arquivar = true) {
 }
 async function arquivarPasta(pastaId, arquivar = true) {
   const p = estado.itens.get(pastaId);
-  if (arquivar && cfgDono()) for (const id of p.cadernos || []) if (ehVisivelParaTodos(id)) await despublicarCaderno(id);
+  if (arquivar && cfgDono()) for (const pid of [pastaId, ...descendentes(pastaId)]) for (const id of estado.itens.get(pid)?.cadernos || []) if (ehVisivelParaTodos(id)) await despublicarCaderno(id);
   await salvarItem({ ...p, arquivada: arquivar, arquivadaEm: arquivar ? agoraISO() : null });
 }
 
 /* ---------- excluir ---------- */
-async function excluirCaderno(id) {
+async function excluirCaderno(id, grupo = null) {
   const c = estado.cadernos[id];
   if (!c) return;
   if (!c.local || c.publicado) {
     if (!cfgDono()) { await arquivarCaderno(id, true); return "arquivado"; }   // caderno do app: quem não é dono só pode ocultar
     await despublicarCaderno(id);
   }
-  await cadernoParaLixeira(id);
+  await cadernoParaLixeira(id, grupo);
   return "lixeira";
 }
 
@@ -126,29 +126,6 @@ function ligarCadernoExtras(id, volta) {
     if (!confirm(doApp ? `Excluir "${c.titulo}"? Ele sai do app de todos os usuários e a sua cópia vai para a lixeira (30 dias para restaurar).`
       : `Excluir "${c.titulo}"? Ele vai para a lixeira (30 dias para restaurar).`)) return;
     try { await excluirCaderno(id); fecharPainel(); volta(); mostrarAvisoRapido("🗑 O caderno foi para a lixeira"); }
-    catch (e) { alert("Não foi possível excluir: " + e.message); }
-  };
-}
-
-/* ---------- pasta de questões: arquivar e excluir ---------- */
-function menuPastaQuestoes(id, depois) {
-  const p = estado.itens.get(id);
-  const dentro = (p.cadernos || []).filter(cid => estado.cadernos[cid]);
-  abrirPainel(`<h2>📁 ${esc(p.nome)} ${botaoFechar}</h2><div class="acoes">
-    <button id="pq-renomear">✏️ Renomear a pasta</button>
-    <button id="pq-arquivar">${p.arquivada ? "📤 Desarquivar a pasta" : "📦 Arquivar a pasta (com os cadernos dentro)"}</button>
-    <button id="pq-apagar">Apagar só a pasta (os ${dentro.length} caderno(s) voltam para fora das pastas)</button>
-    <button id="pq-apagar-tudo" style="color:var(--alt)">🗑 Excluir a pasta e os ${dentro.length} caderno(s) dentro dela</button></div>
-    <p class="contagem">${cfgDono() ? "Pasta arquivada ou excluída: os cadernos dela deixam de aparecer para os outros usuários." : "Cadernos do app (publicados pelo dono) não são excluídos: dentro de uma pasta excluída, eles ficam arquivados para você."}</p>`);
-  $("#pq-renomear").onclick = async () => { const n = prompt("Novo nome da pasta:", p.nome); if (!n || !n.trim()) return; p.nome = n.trim(); await salvarItem(p); fecharPainel(); depois(); };
-  $("#pq-arquivar").onclick = async () => {
-    try { await arquivarPasta(id, !p.arquivada); fecharPainel(); location.hash = "#/questoes"; rotear(); mostrarAvisoRapido(p.arquivada ? "📤 Pasta desarquivada" : "📦 Pasta arquivada"); }
-    catch (e) { alert("Não foi possível: " + e.message); }
-  };
-  $("#pq-apagar").onclick = async () => { if (!confirm(`Apagar a pasta "${p.nome}"? Os cadernos dela não são apagados.`)) return; await apagarItem(id); fecharPainel(); location.hash = "#/questoes"; };
-  $("#pq-apagar-tudo").onclick = async () => {
-    if (!confirm(`Excluir a pasta "${p.nome}" e os ${dentro.length} caderno(s) dentro dela? Os cadernos vão para a lixeira (30 dias para restaurar).`)) return;
-    try { for (const cid of dentro) await excluirCaderno(cid); await apagarItem(id); fecharPainel(); location.hash = "#/questoes"; mostrarAvisoRapido("🗑 Pasta excluída"); }
     catch (e) { alert("Não foi possível excluir: " + e.message); }
   };
 }
@@ -199,7 +176,7 @@ function telaQuestoesArquivadas() {
   const pastas = pastasDe("questoes").filter(p => p.arquivada);
   const cads = Object.values(estado.cadernos).filter(c => cadernoArquivado(c.id));
   let h = `<div class="secao"><p class="contagem" style="margin-top:0">Cadernos e pastas arquivados não aparecem na tela de Questões${cfgDono() ? " nem para os outros usuários" : ""}. Use o ⋯ para desarquivar.</p></div><ul class="acervo">`;
-  for (const p of pastas) h += linhaPasta(p, (p.cadernos || []).filter(id => estado.cadernos[id]).length, "caderno(s)", `#/questoes/pasta/${p.id}`);
+  for (const p of pastas) h += linhaPasta(p, rotuloQtd("questoes", p.id), "", `#/questoes/pasta/${p.id}`);
   for (const c of cads) h += `<li class="lei-item"><span class="aba"></span><button class="abrir" data-href="#/caderno/${esc(c.id)}"><span class="lei-nome">${esc(c.titulo)}</span>
     <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões</span></button><button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do caderno">⋯</button></li>`;
   h += "</ul>";

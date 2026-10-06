@@ -684,3 +684,15 @@ svg.tinta { will-change: auto; }
 #selecao-laco .menu-laco .sep { width: 1px; height: 22px; background: var(--fio); margin: 0 2px; }
 .rotulo-opcao { margin: 4px 0 -2px; width: 100%; font-size: 12px; color: var(--tinta-2); text-align: center; }
 #barra-selecao .cor-btn[aria-pressed="true"] { outline: 2px solid var(--tinta); outline-offset: 2px; }
+
+/* pastas em vários níveis e seleção de várias leis / cadernos */
+.arvore-pastas .no-arvore { padding-left: calc(14px + var(--nivel, 0) * 22px); text-align: left; }
+.acervo.selecionando .lei-item[data-sel-id], .acervo.selecionando .lei-item[data-sel-pasta] { cursor: pointer; padding-left: 40px; position: relative; }
+.acervo.selecionando .lei-item[data-sel-id]::before, .acervo.selecionando .lei-item[data-sel-pasta]::before { content: ""; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%;
+  border: 2px solid var(--oliva); background: var(--papel); box-sizing: border-box; }
+.acervo.selecionando .lei-item.marcado::before { content: "✓"; background: var(--oliva); color: var(--papel); font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+.acervo.selecionando .lei-item.marcado { outline: 2px solid var(--oliva); outline-offset: -2px; }
+.acervo.selecionando .lei-item .mais { visibility: hidden; }
+.selo-fixo { position: absolute; top: 6px; right: 40px; font-size: 15px; pointer-events: none; }
+.leitura-resumo .lendo, section.docx .lendo { background: var(--oliva-claro); border-radius: 4px; }
+.pagina-resumo.lendo { outline: 3px solid var(--oliva); outline-offset: 2px; }

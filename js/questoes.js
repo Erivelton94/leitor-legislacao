@@ -107,66 +107,11 @@ function listaFiltrada(s, mapa) {
       : f.situacao === "ja-errei" ? jaErrou(mapa, q.id) : situacaoQ(mapa, q.id) === f.situacao)));
 }
 
-/* ---------- pastas (Leis e Questões têm pastas próprias) ---------- */
-const campoPasta = area => (area === "questoes" ? "cadernos" : "leis");
-function pastasDe(area) {
-  return itens("pasta", p => (p.area || "leis") === area).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-}
-async function novaPasta(area) {
-  const nome = prompt(area === "questoes" ? "Nome da pasta (ex.: Polícia Civil – PE, Direito Penal):" : "Nome da pasta (ex.: Direito Penal, Legislação Especial):");
-  if (!nome || !nome.trim()) return null;
-  return salvarItem({ id: uid(), tipo: "pasta", area, nome: nome.trim(), leis: [], cadernos: [] });
-}
-async function moverParaPasta(area, itemId, pastaId) {
-  const campo = campoPasta(area);
-  for (const p of pastasDe(area)) {
-    const tem = (p[campo] || []).includes(itemId);
-    if (p.id === pastaId && !tem) { p[campo] = [...(p[campo] || []), itemId]; await salvarItem(p); }
-    else if (p.id !== pastaId && tem) { p[campo] = p[campo].filter(x => x !== itemId); await salvarItem(p); }
-  }
-}
-function painelMover(area, itemId, nomeItem, depois) {
-  const campo = campoPasta(area);
-  const pastas = pastasDe(area);
-  const atual = pastas.find(p => (p[campo] || []).includes(itemId));
-  abrirPainel(`<h2>Mover “${esc(nomeItem)}” ${botaoFechar}</h2>
-    <div class="acoes">
-      <button data-mover-para="" aria-pressed="${!atual}">${!atual ? "✓ " : ""}Fora das pastas</button>
-      ${pastas.map(p => `<button data-mover-para="${esc(p.id)}">${atual && atual.id === p.id ? "✓ " : ""}📁 ${esc(p.nome)}</button>`).join("")}
-      <button id="mover-nova">+ Criar pasta nova e mover para ela</button>
-    </div>`);
-  $$("#painel-caixa [data-mover-para]").forEach(b => b.onclick = async () => { await moverParaPasta(area, itemId, b.dataset.moverPara); fecharPainel(); depois(); });
-  $("#mover-nova").onclick = async () => { const p = await novaPasta(area); if (p) { await moverParaPasta(area, itemId, p.id); fecharPainel(); depois(); } };
-}
-function menuPasta(id, depois) {
-  const p = estado.itens.get(id);
-  if ((p.area || "leis") === "questoes") return menuPastaQuestoes(id, depois);
-  abrirPainel(`<h2>📁 ${esc(p.nome)} ${botaoFechar}</h2><div class="acoes">
-    <button id="p-renomear">Renomear a pasta</button>
-    <button id="p-apagar" style="color:var(--alt)">Apagar a pasta</button></div>
-    <p class="contagem">Apagar a pasta não apaga o que está dentro: os itens voltam para fora das pastas.</p>`);
-  $("#p-renomear").onclick = async () => {
-    const nome = prompt("Novo nome da pasta:", p.nome);
-    if (!nome || !nome.trim()) return;
-    p.nome = nome.trim(); await salvarItem(p); fecharPainel(); depois();
-  };
-  $("#p-apagar").onclick = async () => {
-    if (!confirm(`Apagar a pasta "${p.nome}"?`)) return;
-    await apagarItem(id); fecharPainel(); location.hash = (p.area || "leis") === "questoes" ? "#/questoes" : "#/acervo";
-  };
-}
-const ICONE_PASTA = `<svg class="ico-pasta" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h4.2l2 2h8.8A1.5 1.5 0 0 1 21 8.5v9A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5z"/></svg>`;
-function linhaPasta(p, qtd, rotulo, destino) {
-  return `<li class="lei-item pasta-item"><span class="aba"></span>
-    <button class="abrir" data-href="${esc(destino)}"><span class="lei-nome">${ICONE_PASTA}${esc(p.nome)}</span><span class="lei-num">${qtd} ${rotulo}</span></button>
-    ${p.id ? `<button class="mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta ${esc(p.nome)}">⋯</button>` : "<span></span>"}</li>`;
-}
-
 /* ---------- tela inicial de Questões (pastas em lista) ---------- */
 function telaQuestoes(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
-  if (pastaId && (!pasta || pasta.apagado)) { location.hash = "#/questoes"; return; }
-  definirTopo({ titulo: pasta ? pasta.nome : "Questões", voltar: pasta ? "#/questoes" : null });
+  if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes"; return; }
+  definirTopo({ titulo: pasta ? pasta.nome : "Questões", voltar: pasta ? voltarDaPasta("questoes", pastaId) : null });
   marcarAba("questoes");
   const cads = Object.values(estado.cadernos);
   if (!cads.length) {
@@ -179,9 +124,9 @@ function telaQuestoes(pastaId = null) {
   }
   const mapa = mapaRespostas();
   const todasPastas = pastasDe("questoes");
-  const pastas = todasPastas.filter(p => !p.arquivada);
-  const emPasta = new Set(todasPastas.flatMap(p => p.cadernos || []));
-  const visiveis = (pasta ? cads.filter(c => (pasta.cadernos || []).includes(c.id)) : cads.filter(c => !emPasta.has(c.id))).filter(c => pasta || !cadernoArquivado(c.id));
+  const pastas = pastasDe("questoes", pastaId || null).filter(p => !p.arquivada);
+  const noLugar = new Set(itensDaPasta("questoes", pastaId || null));
+  const visiveis = ordenarCadernos(cads.filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id)));
   const nArquivados = todasPastas.filter(p => p.arquivada).length + cads.filter(c => cadernoArquivado(c.id)).length;
   let h = "";
   if (!pasta) {
@@ -190,18 +135,22 @@ function telaQuestoes(pastaId = null) {
       <p><strong>Seu desempenho:</strong> ${g.respostas} respostas registradas · <span class="txt-ok">${g.acertosTotal} acertos</span> · <span class="txt-erro">${g.errosTotal} erros</span>${g.respostas ? ` · <strong>${g.pctTotal}% de acerto</strong>` : ""}</p>
       <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a>
         <button id="nova-pasta-q">+ Nova pasta</button>
+        ${botaoSelecionar("questoes")}
         <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button>
         ${nArquivados ? `<a class="botao" href="#/questoes/arquivados" style="text-decoration:none">📦 Arquivados (${nArquivados})</a>` : ""}
         ${lerLS("cadernos-locais", []).some(c => c.lixeira && !c.apagado) ? '<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira</a>' : ""}</div>
     </div></div>`;
   }
+  if (pasta) h += `<div class="secao" style="margin-bottom:0">${trilhaPasta("questoes", pastaId)}<div class="acoes-linha">
+      <button class="botao" id="nova-pasta-q">+ Nova subpasta</button>${botaoSelecionar("questoes")}
+      <button class="botao" data-menu-pasta="${esc(pastaId)}">⋯ Opções da pasta</button></div></div>`;
   h += `<ul class="acervo">`;
-  if (!pasta) for (const p of pastas) h += linhaPasta(p, (p.cadernos || []).filter(id => estado.cadernos[id]).length, "caderno(s)", `#/questoes/pasta/${p.id}`);
+  for (const p of pastas) h += linhaPasta(p, rotuloQtd("questoes", p.id), "", rotaPastaArea("questoes", p.id));
   visiveis.forEach((c, i) => {
     const e = estatisticas(c.questoes, mapa);
-    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
+    h += `<li class="lei-item" data-sel-id="${esc(c.id)}" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
       <button class="abrir" data-href="#/caderno/${esc(c.id)}">
-        <span class="lei-nome">${esc(c.titulo)}${cfgDono() ? (ehVisivelParaTodos(c.id) ? ' <span class="selo-vis" title="Visível para todos">👁</span>' : ' <span class="selo-vis" title="Só na sua conta">🙈</span>') : ""}${cadernoArquivado(c.id) ? ' <span class="selo-vis">📦</span>' : ""}</span>
+        <span class="lei-nome">${cadernoFixado(c.id) ? '<span class="lei-pin" title="Fixado no topo">📌</span> ' : ""}${esc(c.titulo)}${cfgDono() ? (ehVisivelParaTodos(c.id) ? ' <span class="selo-vis" title="Visível para todos">👁</span>' : ' <span class="selo-vis" title="Só na sua conta">🙈</span>') : ""}${cadernoArquivado(c.id) ? ' <span class="selo-vis">📦</span>' : ""}</span>
         <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões · ${c.assuntos.length} assuntos</span>
         <span class="barra-prog" aria-hidden="true"><span style="width:${e.total ? Math.round(100 * e.resolvidas / e.total) : 0}%"></span></span>
         <span class="lei-verif">Rodada atual: ${e.resolvidas} de ${e.total} resolvidas · Histórico: ${e.acertosTotal} acertos e ${e.errosTotal} erros${e.respostas ? ` (${e.pctTotal}%)` : ""}</span>
@@ -209,10 +158,11 @@ function telaQuestoes(pastaId = null) {
       <button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do caderno">⋯</button></li>`;
   });
   h += "</ul>";
-  if (pasta && !visiveis.length) h += `<p class="vazio">Pasta vazia. Use o botão ⋯ de um caderno e escolha “Mover para pasta”.</p>`;
+  if (pasta && !visiveis.length && !pastas.length) h += `<p class="vazio">Pasta vazia. Use o botão ⋯ de um caderno (ou ☑️ Selecionar) e escolha “Mover para pasta”.</p>`;
   $("#conteudo").innerHTML = h;
   const bn = $("#nova-pasta-q");
-  if (bn) bn.onclick = async () => { if (await novaPasta("questoes")) telaQuestoes(); };
+  if (bn) bn.onclick = async () => { if (await novaPasta("questoes", pastaId || null)) telaQuestoes(pastaId); };
+  ligarBotaoSelecionar();
   if ($("#importar-caderno")) $("#importar-caderno").onclick = painelImportarCaderno;
 }
 
@@ -223,6 +173,7 @@ function menuCaderno(id) {
     <div class="acoes">
       <button id="c-renomear">✏️ Renomear</button>
       <button id="c-mover">📁 Mover para pasta…</button>
+      <button id="c-fixar">${cadernoFixado(id) ? "📌 Desafixar do topo" : "📌 Fixar no topo"}</button>
       <button id="c-drive">☁️ Enviar ao Google Drive</button>
       <button id="c-baixar">⬇️ Baixar o caderno (arquivo para passar a outra pessoa)</button>
       ${botoesCadernoExtras(id)}
@@ -230,6 +181,7 @@ function menuCaderno(id) {
     </div>
     <p class="contagem">Redefinir não apaga nada das estatísticas: todos os acertos e erros continuam registrados.</p>`);
   $("#c-mover").onclick = () => painelMover("questoes", id, c.titulo, volta);
+  $("#c-fixar").onclick = async () => { await alternarFixarCaderno(id); fecharPainel(); volta(); };
   $("#c-renomear").onclick = async () => { if (await renomearCaderno(id)) { fecharPainel(); volta(); } };
   $("#c-baixar").onclick = () => entregarArquivo(cadernoParaArquivo(c), `${c.titulo}.caderno.json`);
   $("#c-drive").onclick = async () => {

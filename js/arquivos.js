@@ -139,9 +139,9 @@ function painelExportarResumosDrive(lista) {
 /* =====================================================================
    RESUMOS: copiar, escolher pasta, mover e apagar pastas
    ===================================================================== */
-async function duplicarResumo(r, destino = null, sufixo = " — cópia") {
-  const novo = { ...r, id: uid(), titulo: (r.titulo || "Sem título") + sufixo, favorito: false, criadoEm: null, abertoEm: null };
-  if (destino) { novo.materia = destino.materia; novo.assunto = destino.assunto; }
+async function duplicarResumo(r, destino = undefined, sufixo = " — cópia") {
+  const novo = { ...r, id: uid(), titulo: (r.titulo || "Sem título") + sufixo, favorito: false, fixado: false, criadoEm: null, abertoEm: null };
+  if (destino !== undefined) novo.pasta = destino || "";           // sem destino: a cópia fica na mesma pasta
   if (r.arquivo) { const a = await bdLer("arquivos", r.arquivo); if (a) { novo.arquivo = uid(); await bdGravar("arquivos", { ...a, id: novo.arquivo }); } }
   const cont = await bdLer("resumos_conteudo", r.id);
   let html = cont?.html || "";
@@ -157,90 +157,6 @@ async function duplicarResumo(r, destino = null, sufixo = " — cópia") {
   }
   return novo;
 }
-function painelEscolherPasta(titulo, aoEscolher, { incluirRaiz = true, excluir = null } = {}) {
-  const mats = materiasResumo();
-  abrirPainel(`<h2>${esc(titulo)} ${botaoFechar}</h2>
-    <div class="acoes arvore-pastas">
-      ${incluirRaiz ? '<button data-pasta-dest="|">Fora das pastas (início)</button>' : ""}
-      ${mats.filter(m => !(excluir && excluir.materia === m && !excluir.assunto)).map(m => `<button data-pasta-dest="${esc(m)}|">📁 ${esc(m)}</button>
-        ${assuntosDe(m).filter(a => !(excluir && excluir.materia === m && excluir.assunto === a)).map(a => `<button class="sub" data-pasta-dest="${esc(m)}|${esc(a)}">└ 📁 ${esc(a)}</button>`).join("")}`).join("")}
-      <button id="pasta-dest-nova">+ Nova pasta…</button>
-    </div>`);
-  $$("#painel-caixa [data-pasta-dest]").forEach(b => b.onclick = () => { const [m, a] = b.dataset.pastaDest.split("|"); aoEscolher({ materia: m, assunto: a }); });
-  $("#pasta-dest-nova").onclick = async () => {
-    const m = prompt("Nome da pasta (matéria):"); if (!m || !m.trim()) return;
-    const a = prompt("Subpasta (assunto) dentro dela — opcional:") || "";
-    if (!materiasResumo().includes(m.trim())) await salvarItem({ id: uid(), tipo: "materia", nome: m.trim() });
-    if (a.trim() && !assuntosDe(m.trim()).includes(a.trim())) await salvarItem({ id: uid(), tipo: "assunto", materia: m.trim(), nome: a.trim() });
-    aoEscolher({ materia: m.trim(), assunto: a.trim() });
-  };
-}
-const irPara = h => { if (location.hash === h) rotear(); else location.hash = h; };
-function menuPastaResumo(tipo, materia, nome) {
-  const dentro = () => resumosAtivos().filter(r => tipo === "materia" ? r.materia === nome : r.materia === materia && r.assunto === nome);
-  const n = dentro().length;
-  abrirPainel(`<h2>📁 ${esc(nome)} ${botaoFechar}</h2><div class="acoes">
-    <button id="pr-renomear">Renomear a pasta</button>
-    <button id="pr-mover">Mover a pasta…</button>
-    <button id="pr-apagar-pasta">Apagar só a pasta (os ${n} arquivo(s) voltam para ${tipo === "materia" ? "o início" : "a pasta " + esc(materia)})</button>
-    <button id="pr-apagar-tudo" style="color:var(--alt)">🗑 Mandar a pasta e os ${n} arquivo(s) para a lixeira</button></div>`);
-  const itensPasta = () => itens(tipo === "materia" ? "materia" : "assunto", i => i.nome === nome && (tipo === "materia" || i.materia === materia));
-  $("#pr-renomear").onclick = async () => {
-    const novo = prompt("Novo nome:", nome); if (!novo || !novo.trim() || novo.trim() === nome) return;
-    for (const r of dentro()) { if (tipo === "materia") r.materia = novo.trim(); else r.assunto = novo.trim(); await salvarMeta(r); }
-    for (const i of itensPasta()) { i.nome = novo.trim(); await salvarItem(i); }
-    if (tipo === "materia") for (const i of itens("assunto", i => i.materia === nome)) { i.materia = novo.trim(); await salvarItem(i); }
-    fecharPainel(); rotear();
-  };
-  $("#pr-apagar-pasta").onclick = async () => {
-    if (!confirm(`Apagar a pasta "${nome}"? Os arquivos dela NÃO são apagados: voltam para ${tipo === "materia" ? "o início" : "a pasta " + materia}.`)) return;
-    for (const r of dentro()) { if (tipo === "materia") { r.materia = ""; r.assunto = ""; } else r.assunto = ""; await salvarMeta(r); }
-    for (const i of itensPasta()) await apagarItem(i.id);
-    if (tipo === "materia") for (const i of itens("assunto", i => i.materia === nome)) await apagarItem(i.id);
-    fecharPainel(); irPara(tipo === "materia" ? "#/resumos" : rotaPasta(materia));
-  };
-  $("#pr-apagar-tudo").onclick = async () => {
-    await resumosParaLixeira(dentro(), { id: uid(), nome, tipo, materia });       // na lixeira, aparecem juntos como uma pasta
-    for (const i of itensPasta()) await apagarItem(i.id);
-    if (tipo === "materia") for (const i of itens("assunto", i => i.materia === nome)) await apagarItem(i.id);
-    fecharPainel(); irPara(tipo === "materia" ? "#/resumos" : rotaPasta(materia));
-    mostrarAvisoRapido(`🗑 Pasta "${nome}" foi para a lixeira (dá para restaurar por 30 dias)`);
-  };
-  $("#pr-mover").onclick = () => moverPastaResumo(tipo, materia, nome);
-}
-function moverPastaResumo(tipo, materia, nome) {
-  const outras = materiasResumo().filter(m => m !== (tipo === "materia" ? nome : materia));
-  const subs = tipo === "materia" ? assuntosDe(nome) : [];
-  abrirPainel(`<h2>Mover “${esc(nome)}” ${botaoFechar}</h2>
-    ${tipo === "materia" && subs.length ? `<p class="contagem" style="margin-top:0">Ela vira uma subpasta da pasta escolhida. As ${subs.length} subpasta(s) que ela tem (${subs.map(esc).join(", ")}) passam a ficar ao lado dela, também dentro da pasta escolhida.</p>` : ""}
-    <div class="acoes arvore-pastas">
-      ${tipo === "assunto" ? '<button data-mover-pasta="">⬆️ Transformar em pasta principal</button>' : ""}
-      ${outras.map(m => `<button data-mover-pasta="${esc(m)}">📁 Para dentro de ${esc(m)}</button>`).join("")}
-      ${!outras.length && tipo === "materia" ? '<p class="contagem">Crie outra pasta primeiro para poder mover esta para dentro dela.</p>' : ""}
-    </div>`);
-  $$("#painel-caixa [data-mover-pasta]").forEach(b => b.onclick = async () => {
-    const destino = b.dataset.moverPasta;
-    if (tipo === "assunto") {
-      const lista = resumosAtivos().filter(r => r.materia === materia && r.assunto === nome);
-      for (const i of itens("assunto", i => i.materia === materia && i.nome === nome)) await apagarItem(i.id);
-      if (destino) {
-        for (const r of lista) { r.materia = destino; await salvarMeta(r); }
-        if (!assuntosDe(destino).includes(nome)) await salvarItem({ id: uid(), tipo: "assunto", materia: destino, nome });
-      } else {
-        for (const r of lista) { r.materia = nome; r.assunto = ""; await salvarMeta(r); }
-        if (!materiasResumo().includes(nome)) await salvarItem({ id: uid(), tipo: "materia", nome });
-      }
-      fecharPainel(); location.hash = destino ? rotaPasta(destino, nome) : rotaPasta(nome);
-    } else {
-      for (const r of resumosAtivos().filter(r => r.materia === nome)) { r.assunto = r.assunto || nome; r.materia = destino; await salvarMeta(r); }
-      for (const i of itens("assunto", i => i.materia === nome)) { i.materia = destino; await salvarItem(i); }
-      for (const i of itens("materia", i => i.nome === nome)) await apagarItem(i.id);
-      if (!assuntosDe(destino).includes(nome)) await salvarItem({ id: uid(), tipo: "assunto", materia: destino, nome });
-      fecharPainel(); location.hash = rotaPasta(destino);
-    }
-  });
-}
-
 /* =====================================================================
    SELECIONAR VÁRIOS RESUMOS
    ===================================================================== */
@@ -262,6 +178,7 @@ function atualizarBarraSelecao() {
     <button data-sel="mover" ${n ? "" : "disabled"}>📁 Mover</button>
     <button data-sel="copiar" ${n ? "" : "disabled"}>📄 Copiar para</button>
     <button data-sel="duplicar" ${n ? "" : "disabled"}>⧉ Duplicar</button>
+    <button data-sel="fixar" ${n ? "" : "disabled"}>📌 Fixar</button>
     <button data-sel="favoritar" ${n ? "" : "disabled"}>★ Favoritar</button>
     <button data-sel="arquivar" ${n ? "" : "disabled"}>📦 Arquivar</button>
     <button data-sel="drive" ${n ? "" : "disabled"}>☁️ Drive</button>
@@ -279,8 +196,9 @@ async function acaoSelecaoResumos(acao) {
     todos.forEach(t => { t.classList.toggle("marcado", marcar); marcar ? selecaoRes.ids.add(t.dataset.id) : selecaoRes.ids.delete(t.dataset.id); });
     return atualizarBarraSelecao();
   }
-  if (acao === "mover") return painelEscolherPasta(`Mover ${lista.length} arquivo(s) para…`, async d => { for (const r of lista) { r.materia = d.materia; r.assunto = d.assunto; await salvarMeta(r); } terminar(); });
-  if (acao === "copiar") return painelEscolherPasta(`Copiar ${lista.length} arquivo(s) para…`, async d => { for (const r of lista) await duplicarResumo(r, d, ""); terminar(); });
+  if (acao === "mover") return escolherPasta("resumos", `Mover ${lista.length} arquivo(s) para…`, async d => { for (const r of lista) await moverParaPasta("resumos", r.id, d); terminar(); });
+  if (acao === "copiar") return escolherPasta("resumos", `Copiar ${lista.length} arquivo(s) para…`, async d => { for (const r of lista) await duplicarResumo(r, d || "", ""); terminar(); });
+  if (acao === "fixar") { const todos = lista.every(r => r.fixado); for (const r of lista) { r.fixado = !todos; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); } return terminar(); }
   if (acao === "duplicar") { for (const r of lista) await duplicarResumo(r); return terminar(); }
   if (acao === "favoritar") { const todosFav = lista.every(r => r.favorito); for (const r of lista) { r.favorito = !todosFav; await salvarMeta(r); } return terminar(); }
   if (acao === "arquivar") { const todosArq = lista.every(r => r.arquivado); for (const r of lista) { r.arquivado = !todosArq; await salvarMeta(r); } return terminar(); }
@@ -420,7 +338,7 @@ function ligarArmazenamento() {
     $("#r-todos").onclick = async () => {
       if (!confirm(`Apagar DE VEZ os ${lista.length} resumo(s), com arquivos, edições, desenhos, imagens e pastas? Isto não passa pela lixeira.`)) return;
       for (const r of lista) await excluirResumo(r.id);
-      for (const i of itens("materia").concat(itens("assunto"))) await apagarItem(i.id);
+      for (const i of itens("materia").concat(itens("assunto"), itens("pasta", p => p.area === "resumos"))) await apagarItem(i.id);
       resumos.lista = null; await carregarResumos(); fecharPainel(); mostrarAvisoRapido("Resumos apagados"); telaAjustes();
     };
   };

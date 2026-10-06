@@ -19,23 +19,32 @@ function marcarAba(rota) {
   $$("#abas button").forEach(b => { if (b.dataset.rota === rota) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
 }
 
-/* ---------- Leis (acervo com pastas em lista) ---------- */
+/* ---------- Leis (acervo com pastas e subpastas em lista) ---------- */
 function telaAcervo(pastaId = null) {
-  const favoritas = pastaId === "favoritas";
-  const pasta = pastaId && !favoritas ? estado.itens.get(pastaId) : null;
-  if (pastaId && !favoritas && (!pasta || pasta.apagado)) { location.hash = "#/acervo"; return; }
-  definirTopo({ titulo: favoritas ? "★ Leis favoritas" : pasta ? pasta.nome : "Meu Acervo", voltar: pastaId ? "#/acervo" : null });
+  const favoritas = pastaId === "favoritas", arquivadas = pastaId === "arquivadas";
+  const especial = favoritas || arquivadas;
+  const pasta = pastaId && !especial ? estado.itens.get(pastaId) : null;
+  if (pastaId && !especial && !pastaViva(pasta)) { location.hash = "#/acervo"; return; }
+  definirTopo({ titulo: favoritas ? "★ Leis favoritas" : arquivadas ? "📦 Arquivadas" : pasta ? pasta.nome : "Meu Acervo", voltar: pasta ? voltarDaPasta("leis", pastaId) : especial ? "#/acervo" : null });
   marcarAba("acervo");
   const todos = idsAcervo();
-  const pastas = pastasDe("leis");
-  const emPasta = new Set(pastas.flatMap(p => p.leis || []));
-  const ids = favoritas ? todos.filter(id => ehFavorito(idFavLei(id)))
-    : pasta ? todos.filter(id => (pasta.leis || []).includes(id)) : todos.filter(id => !emPasta.has(id));
+  let ids, pastas = [];
+  if (favoritas) ids = todos.filter(id => ehFavorito(idFavLei(id)));
+  else if (arquivadas) { ids = todos.filter(leiArquivada); pastas = pastasDe("leis").filter(p => p.arquivada); }
+  else { ids = itensDaPasta("leis", pastaId).filter(id => !leiArquivada(id)); pastas = pastasDe("leis", pastaId || null).filter(p => !p.arquivada); }
+  const nArq = todos.filter(leiArquivada).length + pastasDe("leis").filter(p => p.arquivada).length;
+  const nLixo = leisNaLixeira().length + itens("pasta", p => p.lixeira && p.lixeira.topo && (p.area || "leis") === "leis").length;
   let h = "";
+  if (!especial) {
+    h += `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta("leis", pastaId) : ""}<div class="acoes-linha">
+      ${pasta ? "" : '<a class="botao primario" href="#/catalogo" style="text-decoration:none">+ Adicionar leis</a>'}
+      <button class="botao" id="nova-pasta-leis">+ Nova ${pasta ? "subpasta" : "pasta"}</button>
+      ${botaoSelecionar("leis")}
+      ${pasta ? `<button class="botao" data-menu-pasta="${esc(pastaId)}">⋯ Opções da pasta</button>` : ""}
+      ${!pasta && nArq ? `<a class="botao" href="#/acervo/arquivadas" style="text-decoration:none">📦 Arquivadas (${nArq})</a>` : ""}
+      ${!pasta && nLixo ? `<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira (${nLixo})</a>` : ""}</div></div>`;
+  } else h += `<div class="secao" style="margin-bottom:0"><div class="acoes-linha">${botaoSelecionar("leis")}</div></div>`;
   if (!pastaId) {
-    h += `<div class="secao" style="margin-bottom:0"><div class="acoes-linha">
-      <a class="botao primario" href="#/catalogo" style="text-decoration:none">+ Adicionar leis</a>
-      <button class="botao" id="nova-pasta-leis">+ Nova pasta</button></div></div>`;
     if (!todos.length) h += `<p class="vazio">Seu acervo está vazio. Toque em “+ Adicionar leis” para escolher as leis que você quer estudar.<br>Só as leis escolhidas são baixadas para o aparelho.</p>`;
     const semBackup = temDadosSemBackup();
     if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
@@ -50,8 +59,8 @@ function telaAcervo(pastaId = null) {
     }
   }
   h += `<ul class="acervo">`;
+  for (const p of pastas) h += linhaPasta(p, rotuloQtd("leis", p.id), "", rotaPastaArea("leis", p.id));
   if (!pastaId) {
-    for (const p of pastas) h += linhaPasta(p, (p.leis || []).filter(l => todos.includes(l)).length, "lei(s)", `#/acervo/pasta/${p.id}`);
     const nFav = todos.filter(id => ehFavorito(idFavLei(id))).length;
     if (nFav) h += linhaPasta({ nome: "★ Favoritas" }, nFav, "lei(s)", "#/acervo/favoritas");
   }
@@ -59,11 +68,11 @@ function telaAcervo(pastaId = null) {
     const i = todos.indexOf(id);
     const st = estado.status[id];
     const s = situacao(id);
-    h += `<li class="lei-item" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
+    h += `<li class="lei-item" data-sel-id="${esc(id)}" style="--cor-aba:${CORES_ABA[i % CORES_ABA.length]}">
       <span class="aba"></span>
       <button class="abrir" data-abrir="${esc(id)}">
-        <span class="lei-nome">${ehFixada(id) ? '<span class="lei-pin" title="Fixada no topo">📌</span> ' : ""}${esc(nomeLei(id))}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}</span>
-        <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}</span>
+        <span class="lei-nome">${ehFixada(id) ? '<span class="lei-pin" title="Fixada no topo">📌</span> ' : ""}${esc(nomeLei(id))}${ehFavorito(idFavLei(id)) ? ' <span class="lei-fav">★</span>' : ""}${leiArquivada(id) ? " 📦" : ""}</span>
+        <span class="lei-num">${esc(st.numero || "")}${st.n_artigos ? " · " + st.n_artigos + " artigos" : ""}${(favoritas || arquivadas) && pastaDoItem("leis", id) ? " · 📁 " + esc(textoCaminho(pastaDoItem("leis", id))) : ""}</span>
         <span class="selo ${s.cls}">${esc(s.txt)}</span>
         <span class="lei-verif">${esc(s.sub)}</span>
       </button>
@@ -71,10 +80,11 @@ function telaAcervo(pastaId = null) {
     </li>`;
   }
   h += "</ul>";
-  if (pastaId && !ids.length) h += `<p class="vazio">${favoritas ? "Nenhuma lei favoritada." : "Pasta vazia. Use o botão ⋯ de uma lei e escolha “Mover para pasta”."}</p>`;
+  if (pastaId && !ids.length && !pastas.length) h += `<p class="vazio">${favoritas ? "Nenhuma lei favoritada." : arquivadas ? "Nada arquivado." : "Pasta vazia. Use o botão ⋯ de uma lei (ou ☑️ Selecionar) e escolha “Mover para pasta”."}</p>`;
   $("#conteudo").innerHTML = h;
   const bn = $("#nova-pasta-leis");
-  if (bn) bn.onclick = async () => { if (await novaPasta("leis")) telaAcervo(); };
+  if (bn) bn.onclick = async () => { if (await novaPasta("leis", pasta ? pastaId : null)) telaAcervo(pastaId); };
+  ligarBotaoSelecionar();
 }
 
 /* ---------- catálogo: buscar e adicionar leis ao acervo ---------- */

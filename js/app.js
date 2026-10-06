@@ -47,8 +47,6 @@ document.addEventListener("click", async e => {
     fr.textContent = fr.classList.contains("estrela") ? (r?.favorito ? "★" : "☆") : (r?.favorito ? "★ Favorito" : "☆ Favoritar");
     return;
   }
-  const mpr = t.closest("[data-menu-pasta-res]");
-  if (mpr) { const [tp, m, n] = mpr.dataset.menuPastaRes.split("|"); menuPastaResumo(tp, m, n); return; }
   const mr = t.closest("[data-menu-resumo]");
   if (mr) { await carregarResumos(); menuResumo(mr.dataset.menuResumo); return; }
   const apt = t.closest("[data-apagar-tinta]");
@@ -117,10 +115,13 @@ async function rotearTela() {
   if (partes[0] === "catalogo") return telaCatalogo();
   if (partes[0] === "revisao" && partes[1]) return telaRevisao(partes[1]);
   if (partes[0] === "lixeira") return telaLixeira();
-  if (partes[0] === "resumos") return partes[1] === "materia" ? telaResumos("todas", partes[2] || "", partes[3] || "") : telaResumos(partes[1] || "todas");
+  if (partes[0] === "resumos" && partes[1] === "pasta") return telaResumos("todas", partes[2]);
+  if (partes[0] === "resumos" && partes[1] === "materia") { location.replace("#/resumos/pasta/" + idPastaLegada(partes[2] || "", partes[3] || "")); return; }   // endereço antigo
+  if (partes[0] === "resumos") return telaResumos(partes[1] || "todas");
   if (partes[0] === "resumo" && partes[1]) return partes[2] === "editar" ? telaResumoEditar(partes[1]) : telaResumoLer(partes[1]);
   if (partes[0] === "acervo" && partes[1] === "pasta") return telaAcervo(partes[2]);
   if (partes[0] === "acervo" && partes[1] === "favoritas") return telaAcervo("favoritas");
+  if (partes[0] === "acervo" && partes[1] === "arquivadas") return telaAcervo("arquivadas");
   return telaAcervo();
 }
 window.addEventListener("hashchange", rotear);

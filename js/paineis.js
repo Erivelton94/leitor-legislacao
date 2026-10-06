@@ -206,12 +206,13 @@ function menuLei(id) {
       <button id="l-pdf">📄 Baixar em PDF</button>
       <button id="l-renomear">✏️ Renomear</button>
       <button id="l-mover">📁 Mover para pasta…</button>
+      <button id="l-arquivar">${leiArquivada(id) ? "📤 Desarquivar" : "📦 Arquivar (some da lista; fica em Arquivadas)"}</button>
       <button id="l-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar a lei"}</button>
       <button id="l-nota">Anotar a lei (anotação geral)</button>
       <button id="l-alt">Histórico de alterações</button>
       <button data-href="#/revisao/${esc(id)}">⚡ Revisão rápida: só o que eu marquei</button>
       <button id="l-marcacoes">Apagar minhas marcações desta lei…</button>
-      <button id="l-remover" style="color:var(--alt)">Remover do meu acervo</button>
+      <button id="l-remover" style="color:var(--alt)">🗑 Remover do meu acervo (vai para a lixeira)</button>
     </div>`);
   $("#l-marcacoes").onclick = () => painelApagarMarcacoes(id);
   $("#l-fixar").onclick = async () => { await alternarFixada(id); fecharPainel(); rotear(); };
@@ -221,15 +222,12 @@ function menuLei(id) {
   $("#l-fav").onclick = async () => { await alternarFavorito(idFavLei(id), { alvo: "lei", lei: id }); fecharPainel(); rotear(); };
   $("#l-nota").onclick = () => editorAnotacao({ lei: id, art: null });
   $("#l-alt").onclick = () => { fecharPainel(); location.hash = "#/alteracoes/" + id; };
+  $("#l-arquivar").onclick = async () => { const era = leiArquivada(id); await alternarArquivarLei(id); fecharPainel(); rotear(); mostrarAvisoRapido(era ? "📤 Lei desarquivada" : "📦 Lei arquivada"); };
   $("#l-remover").onclick = async () => {
-    if (!confirm(`Remover "${nomeLei(id)}" do seu acervo? O texto sai do aparelho, mas suas anotações, grifos e favoritos desta lei continuam guardados e voltam a aparecer se você adicioná-la de novo.`)) return;
-    await apagarItem(idAcervo(id));
-    const cache = await caches.open(CACHE_DADOS);
-    await cache.delete(urlLei(id));
-    delete estado.leis[id]; delete estado.info[id]; gravarLS("info-leis", estado.info);
-    delete estado.alteracoes[id]; gravarLS("alteracoes-nao-vistas", estado.alteracoes);
-    await moverParaPasta("leis", id, "");
+    if (!confirm(`Remover "${nomeLei(id)}" do seu acervo? Ela vai para a lixeira (30 dias para restaurar). Suas anotações, grifos e desenhos desta lei continuam guardados.`)) return;
+    await leiParaLixeira(id);
     fecharPainel(); rotear();
+    mostrarAvisoRapido("🗑 A lei foi para a lixeira");
   };
 }
 

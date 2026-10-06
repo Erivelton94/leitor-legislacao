@@ -10,7 +10,39 @@ async function carregarResumos() {
   if (resumos.lista) return;
   resumos.lista = new Map();
   for (const r of await bdTodos("resumos")) resumos.lista.set(r.id, r);
+  await migrarPastasResumos();
 }
+/* As pastas antigas dos resumos (matéria › assunto) viram pastas comuns, que aceitam qualquer nível.
+   O código de cada pasta sai do próprio nome: dois aparelhos convertendo ao mesmo tempo criam a mesma pasta. */
+const idPastaLegada = (m, a) => "pasta-r-" + hashCurto(m + (a ? "\u0001" + a : ""));
+let migrandoResumos = false;
+async function migrarPastasResumos() {
+  const antigas = itens("materia").concat(itens("assunto"));
+  const pendentes = [...resumos.lista.values()].filter(r => !r.apagado && (r.materia || r.lixeira?.materia) && r.pasta === undefined);
+  if (migrandoResumos || (!antigas.length && !pendentes.length)) return;
+  migrandoResumos = true;
+  try {
+    const garantir = async (m, a) => {
+      const idM = idPastaLegada(m);
+      const pm = estado.itens.get(idM);
+      if (!pm || pm.apagado) await salvarItem({ id: idM, tipo: "pasta", area: "resumos", nome: m, pai: null, leis: [], cadernos: [] });
+      if (!a) return idM;
+      const idA = idPastaLegada(m, a);
+      const pa = estado.itens.get(idA);
+      if (!pa || pa.apagado) await salvarItem({ id: idA, tipo: "pasta", area: "resumos", nome: a, pai: idM, leis: [], cadernos: [] });
+      return idA;
+    };
+    for (const i of antigas) { await garantir(i.tipo === "materia" ? i.nome : i.materia, i.tipo === "assunto" ? i.nome : ""); await apagarItem(i.id); }
+    for (const r of pendentes) {
+      if (r.materia) r.pasta = await garantir(r.materia, r.assunto || "");
+      else r.pasta = "";
+      if (r.lixeira && r.lixeira.materia) { r.lixeira.pasta = await garantir(r.lixeira.materia, r.lixeira.assunto || ""); delete r.lixeira.materia; delete r.lixeira.assunto; }
+      delete r.materia; delete r.assunto;
+      await salvarMeta(r, false);
+    }
+  } finally { migrandoResumos = false; }
+}
+const pastaDoResumo = r => (pastaViva(estado.itens.get(r.pasta)) ? r.pasta : null);
 const resumosAtivos = () => [...resumos.lista.values()].filter(r => !r.apagado && !r.lixeira);
 async function salvarMeta(r, tocar = true) {
   if (tocar) r.atualizadoEm = agoraISO();
@@ -43,12 +75,6 @@ async function excluirResumo(id) {
   const r = resumos.lista.get(id);
   await salvarMeta({ id, apagado: true, titulo: r?.titulo || "" });     // "apagado" evita ressuscitar no backup
 }
-function materiasResumo() {
-  const s = new Set(resumosAtivos().map(r => r.materia).filter(Boolean));
-  for (const m of itens("materia")) s.add(m.nome);
-  return [...s].sort((a, b) => a.localeCompare(b, "pt-BR"));
-}
-
 /* ---------- limpeza do HTML colado ou importado (só o que o editor entende) ---------- */
 const TAGS_RESUMO = new Set(["P", "H1", "H2", "H3", "H4", "STRONG", "EM", "U", "S", "UL", "OL", "LI", "BLOCKQUOTE", "HR", "BR",
   "SPAN", "MARK", "IMG", "TABLE", "THEAD", "TBODY", "TR", "TD", "TH", "A", "SUB", "SUP"]);
@@ -130,31 +156,56 @@ function ativarImagensResumo(raiz) {
   $$("img[data-img]", raiz).forEach(i => { if (!i.getAttribute("src")) observadorImg.observe(i); });
 }
 
-/* ---------- tela principal: pastas (matéria › assunto) e miniaturas ---------- */
-function assuntosDe(materia) {
-  const s = new Set(resumosAtivos().filter(r => (r.materia || "") === materia && r.assunto).map(r => r.assunto));
-  for (const a of itens("assunto", a => a.materia === materia)) s.add(a.nome);
-  return [...s].sort((a, b) => a.localeCompare(b, "pt-BR"));
+/* ---------- tela principal: pastas (em qualquer nível) e miniaturas ---------- */
+/* ordem: 1º fixados · 2º os que você alterou (desenhou, marcou ou editou), o mais recente em cima · depois por nome */
+function ultimaAlteracaoResumos() {
+  const m = new Map();
+  for (const t of itens("tinta", t => String(t.lei).startsWith("resumo:"))) {
+    const id = t.lei.slice(7), q = t.atualizadoEm || "";
+    if (q > (m.get(id) || "")) m.set(id, q);
+  }
+  for (const r of resumos.lista.values()) if (r.editadoEm && r.editadoEm > (m.get(r.id) || "")) m.set(r.id, r.editadoEm);
+  return m;
 }
-const rotaPasta = (m, a) => "#/resumos/materia/" + encodeURIComponent(m) + (a ? "/" + encodeURIComponent(a) : "");
-async function telaResumos(filtro = "todas", materia = "", assunto = "") {
+function ordenarResumos(lista) {
+  const modo = lerLS("ordem-resumos", "alterados");
+  const alt = modo === "alterados" ? ultimaAlteracaoResumos() : new Map();
+  const nome = (a, b) => (a.titulo || a.origem || "").localeCompare(b.titulo || b.origem || "", "pt-BR", { numeric: true });
+  return lista.slice().sort((a, b) => {
+    const fa = a.fixado ? 0 : 1, fb = b.fixado ? 0 : 1;
+    if (fa !== fb) return fa - fb;
+    const ta = alt.get(a.id) || "", tb = alt.get(b.id) || "";
+    if (ta !== tb) return ta && tb ? tb.localeCompare(ta) : ta ? -1 : 1;
+    return nome(a, b);
+  });
+}
+async function telaResumos(filtro = "todas", pastaId = null) {
   await carregarResumos();
-  const titulo = assunto || materia || "Meus Resumos";
-  definirTopo({ titulo, voltar: assunto ? rotaPasta(materia) : materia ? "#/resumos" : null });
+  const pasta = pastaId ? estado.itens.get(pastaId) : null;
+  if (pastaId && !pastaViva(pasta)) { location.hash = "#/resumos"; return; }
+  definirTopo({ titulo: pasta ? pasta.nome : "Meus Resumos", voltar: pasta ? voltarDaPasta("resumos", pastaId) : null });
   marcarAba("resumos");
   const busca = sessionStorage.getItem("busca-resumos") || "";
+  const nLixo = itensDaLixeira().total;
+  const ordem = lerLS("ordem-resumos", "alterados");
   $("#conteudo").innerHTML = `<div class="secao">
-    ${materia ? `<p class="trilha"><a href="#/resumos">Meus Resumos</a> › ${assunto ? `<a href="${esc(rotaPasta(materia))}">${esc(materia)}</a> › ${esc(assunto)}` : esc(materia)}</p>` : ""}
+    ${pasta ? trilhaPasta("resumos", pastaId) : ""}
     <div class="acoes-linha">
       <button class="botao primario" id="importar-resumos">Importar Word ou PDF</button>
+      <button class="botao" id="nova-pasta-res">+ Nova pasta</button>
       <button class="botao" id="selecionar-res">☑️ Selecionar</button>
-      ${itensDaLixeira().total ? `<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira (${itensDaLixeira().total})</a>` : ""}
-      ${!materia ? '<button class="botao" id="nova-materia">+ Nova matéria</button>' : !assunto ? '<button class="botao" id="novo-assunto">+ Novo assunto</button>' : ""}
+      ${nLixo ? `<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira (${nLixo})</a>` : ""}
+      ${pasta ? `<button class="botao" data-menu-pasta="${esc(pastaId)}">⋯ Opções da pasta</button>` : ""}
     </div>
-    <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, matéria, assunto ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
-    ${materia ? "" : `<div class="filtros" style="margin-top:10px"><div class="segmentado" id="filtro-res">
-      ${[["todas", "Todas"], ["favoritos", "⭐ Favoritos"], ["recentes", "🕐 Recentes"], ["arquivados", "📦 Arquivados"]].map(([v, r]) => `<button data-filtro-res="${v}" aria-pressed="${filtro === v}">${r}</button>`).join("")}
-    </div></div>`}
+    <input class="campo" id="busca-res" type="search" placeholder="Pesquisar por título, pasta ou conteúdo" autocomplete="off" style="margin-top:12px" value="${esc(busca)}">
+    <div class="filtros" style="margin-top:10px">
+      ${pasta ? "" : `<div class="segmentado" id="filtro-res">
+        ${[["todas", "Todas"], ["favoritos", "⭐ Favoritos"], ["recentes", "🕐 Recentes"], ["arquivados", "📦 Arquivados"]].map(([v, r]) => `<button data-filtro-res="${v}" aria-pressed="${filtro === v}">${r}</button>`).join("")}
+      </div>`}
+      <select class="campo" id="ordem-res" aria-label="Ordem dos arquivos" style="width:auto">
+        <option value="alterados" ${ordem === "alterados" ? "selected" : ""}>Ordem: alterados primeiro</option>
+        <option value="nome" ${ordem === "nome" ? "selected" : ""}>Ordem: por nome</option></select>
+    </div>
     <div id="lista-res"></div></div>`;
   const render = async () => {
     const termo = semAcento($("#busca-res").value.trim());
@@ -162,50 +213,43 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
     let lista = resumosAtivos();
     let pastas = [];
     let h = "";
+    const naPasta = id => r => pastaDoResumo(r) === (id || null);
     if (termo.length >= 2) {
       if (!resumos.textos) { resumos.textos = new Map(); for (const c of await bdTodos("resumos_conteudo")) resumos.textos.set(c.id, semAcento(c.texto || "")); }
-      lista = lista.filter(r => semAcento([r.titulo, r.materia, r.assunto, r.origem].join(" ")).includes(termo) || (resumos.textos.get(r.id) || "").includes(termo));
-      h += `<p class="contagem">${lista.length} resumo(s) encontrado(s)</p>`;
-    } else if (assunto) lista = lista.filter(r => (r.materia || "") === materia && r.assunto === assunto && !r.arquivado);
-    else if (materia) {
-      pastas = assuntosDe(materia).map(a => ({ nome: a, qtd: resumosAtivos().filter(r => r.materia === materia && r.assunto === a && !r.arquivado).length, href: rotaPasta(materia, a), tipo: "assunto" }));
-      lista = lista.filter(r => (r.materia || "") === materia && !r.assunto && !r.arquivado);
+      lista = lista.filter(r => semAcento([r.titulo, r.origem, textoCaminho(r.pasta)].join(" ")).includes(termo) || (resumos.textos.get(r.id) || "").includes(termo));
+      pastas = pastasDe("resumos").filter(p => semAcento(p.nome).includes(termo));
+      h += `<p class="contagem">${lista.length} resumo(s) e ${pastas.length} pasta(s) encontrado(s)</p>`;
+    } else if (pasta) {
+      pastas = pastasDe("resumos", pastaId).filter(p => !p.arquivada);
+      lista = lista.filter(r => naPasta(pastaId)(r) && !r.arquivado);
     }
     else if (filtro === "favoritos") lista = lista.filter(r => r.favorito && !r.arquivado);
-    else if (filtro === "arquivados") lista = lista.filter(r => r.arquivado);
+    else if (filtro === "arquivados") { lista = lista.filter(r => r.arquivado); pastas = pastasDe("resumos").filter(p => p.arquivada); }
     else if (filtro === "recentes") lista = lista.filter(r => !r.arquivado).sort((a, b) => (b.abertoEm || b.atualizadoEm).localeCompare(a.abertoEm || a.atualizadoEm)).slice(0, 24);
     else {
-      pastas = materiasResumo().map(m => ({ nome: m, qtd: resumosAtivos().filter(r => r.materia === m && !r.arquivado).length, href: rotaPasta(m), tipo: "materia" }));
-      lista = lista.filter(r => !r.materia && !r.arquivado);
+      pastas = pastasDe("resumos", null).filter(p => !p.arquivada);
+      lista = lista.filter(r => naPasta(null)(r) && !r.arquivado);
     }
-    if (filtro !== "recentes" || termo.length >= 2) lista.sort((a, b) => (a.titulo || "").localeCompare(b.titulo || "", "pt-BR", { numeric: true }));
+    if (filtro !== "recentes" || termo.length >= 2) lista = ordenarResumos(lista);
     if (pastas.length || lista.length) {
       h += `<div class="grade-resumos">${pastas.map(p => `<div class="tile-pasta">
-          <button class="tile-abrir" data-href="${esc(p.href)}" aria-label="Abrir a pasta ${esc(p.nome)}">
+          <button class="tile-abrir" data-href="${esc(rotaPastaArea("resumos", p.id))}" aria-label="Abrir a pasta ${esc(p.nome)}">
             <span class="icone-pasta-grande" aria-hidden="true">${ICONE_PASTA}</span>
-            <span class="nome-arquivo">${esc(p.nome)}</span><span class="qtd-pasta">${p.qtd} item(ns)</span></button>
-          <button class="tile-mais" data-menu-pasta-res="${esc(p.tipo)}|${esc(materia)}|${esc(p.nome)}" aria-label="Opções da pasta">⋯</button>
+            <span class="nome-arquivo">${p.fixada ? "📌 " : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}</span><span class="qtd-pasta">${esc(rotuloQtd("resumos", p.id))}</span></button>
+          <button class="tile-mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta">⋯</button>
         </div>`).join("")}${lista.map(tileResumo).join("")}</div>`;
-    } else h += `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nenhum resumo arquivado." : materia ? "Pasta vazia. Importe arquivos para cá ou mova resumos pelo botão ⋯." : "Nenhum resumo ainda. Importe seus arquivos do Word ou PDF."}</p>`;
+    } else h += `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nada arquivado." : pasta ? "Pasta vazia. Importe arquivos para cá, crie uma subpasta ou mova resumos pelo botão ⋯." : "Nenhum resumo ainda. Importe seus arquivos do Word ou PDF."}</p>`;
     $("#lista-res").innerHTML = h;
     ativarMiniaturasResumos($("#lista-res"));
   };
   $("#busca-res").oninput = aoParar(render, 200);
   window.renderListaResumos = render;
   $$("[data-filtro-res]").forEach(b => b.onclick = () => { history.replaceState(null, "", "#/resumos/" + b.dataset.filtroRes); telaResumos(b.dataset.filtroRes); });
-  $("#importar-resumos").onclick = () => painelImportarResumos(materia, assunto);
+  $("#ordem-res").onchange = e => { gravarLS("ordem-resumos", e.target.value); render(); };
+  $("#importar-resumos").onclick = () => painelImportarResumos(pastaId);
   selecaoRes.ativa = false; selecaoRes.ids.clear(); atualizarBarraSelecao();
   $("#selecionar-res").onclick = () => alternarSelecaoResumos();
-  const nm = $("#nova-materia");
-  if (nm) nm.onclick = async () => {
-    const nome = prompt("Nome da matéria (ex.: Direito Penal, Português):");
-    if (nome && nome.trim() && !materiasResumo().includes(nome.trim())) { await salvarItem({ id: uid(), tipo: "materia", nome: nome.trim() }); render(); }
-  };
-  const na = $("#novo-assunto");
-  if (na) na.onclick = async () => {
-    const nome = prompt(`Nome do assunto dentro de "${materia}" (ex.: Homicídio, Crimes contra a honra):`);
-    if (nome && nome.trim() && !assuntosDe(materia).includes(nome.trim())) { await salvarItem({ id: uid(), tipo: "assunto", materia, nome: nome.trim() }); render(); }
-  };
+  $("#nova-pasta-res").onclick = async () => { if (await novaPasta("resumos", pastaId)) render(); };
   // arrastar vários arquivos para a tela (no computador) também importa
   const zona = $("#conteudo");
   zona.ondragover = e => { if ([...(e.dataTransfer?.items || [])].some(i => i.kind === "file")) { e.preventDefault(); zona.classList.add("soltando"); } };
@@ -215,7 +259,7 @@ async function telaResumos(filtro = "todas", materia = "", assunto = "") {
     zona.classList.remove("soltando");
     if (!arqs.length) return;
     e.preventDefault();
-    painelImportarResumos(materia, assunto, arqs);
+    painelImportarResumos(pastaId, arqs);
   };
   render();
 }
@@ -226,7 +270,7 @@ function tileResumo(r) {
       <span class="miniatura" data-mini="${esc(r.id)}"><span class="mini-carregando">${r.formato === "pdf" ? "PDF" : r.formato === "docx" ? "DOC" : "TXT"}</span></span>
       <span class="nome-arquivo">${esc(nome)}</span>
     </button>
-    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}
+    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}${r.fixado ? '<span class="selo-fixo" aria-label="Fixado no topo">📌</span>' : ""}
     <button class="tile-mais" data-menu-resumo="${esc(r.id)}" aria-label="Opções de ${esc(nome)}">⋯</button>
   </div>`;
 }
@@ -235,7 +279,7 @@ function cartaoResumo(r) {
   return `<li class="cartao-nota cartao-resumo">
     <div class="cab-resumo"><button class="origem titulo-resumo" data-href="#/resumo/${esc(r.id)}">${esc(r.titulo || "Sem título")}</button>
       <button class="icone-btn" data-menu-resumo="${esc(r.id)}" aria-label="Opções do resumo">⋯</button></div>
-    <div class="meta">${[r.materia, r.assunto].filter(Boolean).map(esc).join(" › ") || "Sem matéria"} · ${esc(r.origem || "")}</div>
+    <div class="meta">${esc(textoCaminho(r.pasta) || "Fora das pastas")} · ${esc(r.origem || "")}</div>
     ${r.previa ? `<div class="previa-resumo">${esc(r.previa)}</div>` : ""}</li>`;
 }
 
@@ -353,26 +397,8 @@ async function gerarMiniatura(r) {
   return m;
 }
 
-/* ---------- mover para matéria / assunto ---------- */
-function painelMoverResumo(r, depois) {
-  const mats = materiasResumo();
-  abrirPainel(`<h2>Mover “${esc(r.titulo || "Sem título")}” ${botaoFechar}</h2>
-    <div class="acoes arvore-pastas">
-      <button data-mover-res="|">${!r.materia ? "✓ " : ""}Fora das pastas</button>
-      ${mats.map(m => `<button data-mover-res="${esc(m)}|">${r.materia === m && !r.assunto ? "✓ " : ""}📁 ${esc(m)}</button>
-        ${assuntosDe(m).map(a => `<button class="sub" data-mover-res="${esc(m)}|${esc(a)}">${r.materia === m && r.assunto === a ? "✓ " : ""}└ 📁 ${esc(a)}</button>`).join("")}`).join("")}
-      <button id="mover-nova-mat">+ Nova matéria…</button>
-    </div>`);
-  $$("#painel-caixa [data-mover-res]").forEach(b => b.onclick = async () => {
-    const [m, a] = b.dataset.moverRes.split("|");
-    r.materia = m; r.assunto = a; await salvarMeta(r); fecharPainel(); depois();
-  });
-  $("#mover-nova-mat").onclick = async () => {
-    const m = prompt("Nome da matéria:"); if (!m || !m.trim()) return;
-    const a = prompt("Assunto dentro dela (opcional):") || "";
-    r.materia = m.trim(); r.assunto = a.trim(); await salvarMeta(r); fecharPainel(); depois();
-  };
-}
+/* ---------- mover para outra pasta ---------- */
+function painelMoverResumo(r, depois) { painelMover("resumos", r.id, r.titulo || r.origem || "Sem título", depois); }
 /* (menu da pasta: ver js/arquivos.js) */
 
 function menuResumo(id) {
@@ -385,11 +411,13 @@ function menuResumo(id) {
     <button id="r-copiar">📄 Copiar para outra pasta…</button>
     <button id="r-drive">☁️ Enviar ao Google Drive</button>
     <button id="r-materia">📁 Mover para pasta…</button>
+    <button id="r-fixar">${r.fixado ? "📌 Desafixar do topo" : "📌 Fixar no topo"}</button>
     <button id="r-baixar">⬇️ Baixar…</button>
     <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
     <button id="r-excluir" style="color:var(--alt)">🗑 Mandar para a lixeira</button></div>`);
   $("#r-renomear").onclick = async () => { if (await renomearResumo(r)) { await invalidarMiniatura(r.id); fecharPainel(); rotear(); } };
-  $("#r-copiar").onclick = () => painelEscolherPasta("Copiar para…", async d => { await duplicarResumo(r, d, ""); fecharPainel(); rotear(); });
+  $("#r-copiar").onclick = () => escolherPasta("resumos", "Copiar para…", async d => { await duplicarResumo(r, d || "", ""); fecharPainel(); rotear(); mostrarAvisoRapido("📄 Copiado"); });
+  $("#r-fixar").onclick = async () => { r.fixado = !r.fixado; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); fecharPainel(); rotear(); };
   $("#r-drive").onclick = () => painelExportarResumosDrive([r]);
   $("#r-duplicar").onclick = async () => {
     const novo = await duplicarResumo(r);
@@ -412,7 +440,7 @@ async function telaResumoLer(id) {
   const r = resumos.lista.get(id);
   if (!r || r.apagado) { $("#conteudo").innerHTML = `<p class="vazio">Resumo não encontrado.</p>`; return; }
   resumoAberto = id;
-  definirTopo({ titulo: r.titulo || "Sem título", voltar: r.materia ? rotaPasta(r.materia, r.assunto) : "#/resumos" });
+  definirTopo({ titulo: r.titulo || "Sem título", voltar: rotaPastaArea("resumos", pastaDoResumo(r)) });
   $("#abas").classList.add("oculto");
   r.abertoEm = agoraISO(); salvarMeta(r, false);
   if (r.formato === "pdf" || r.formato === "docx") return telaResumoOriginal(r);
@@ -423,17 +451,19 @@ async function telaResumoLer(id) {
       <button class="botao" id="res-aa">Aa</button>
       <button class="botao" id="res-baixar-txt">⬇️ Baixar</button>
       <button class="botao" id="res-foco">🎯 Modo foco</button>
+      <button class="botao" id="res-ouvir-txt">🔊 Ouvir</button>
       <button class="botao" data-fav-resumo="${esc(id)}" aria-pressed="${!!r.favorito}">${r.favorito ? "★ Favorito" : "☆ Favoritar"}</button>
     </div>
     ${pos > 0.05 ? `<div class="aviso" id="aviso-continuar">Você parou em ${Math.round(pos * 100)}% deste resumo. <button class="link" id="continuar">Continuar de onde parou</button> · <button class="link" id="do-inicio">Começar do início</button></div>` : ""}
     <article class="leitura-resumo" id="leitura-resumo" style="--fonte-res:${ajustesResumo.fonte}px;--entre-res:${ajustesResumo.entrelinha}">
-      <p class="meta-resumo">${[r.materia, r.assunto].filter(Boolean).map(esc).join(" · ")}</p>
+      <p class="meta-resumo">${esc(textoCaminho(r.pasta))}</p>
       ${html}
     </article>`;
   ativarImagensResumo($("#leitura-resumo"));
   $("#res-aa").onclick = painelAjustesResumo;
   $("#res-baixar-txt").onclick = () => painelBaixar(r);
   $("#res-foco").onclick = () => alternarFocoResumo();
+  $("#res-ouvir-txt").onclick = () => ouvirResumo(r);
   if ($("#continuar")) {
     $("#continuar").onclick = () => { $("#aviso-continuar").remove(); rolarParaFracao(pos); };
     $("#do-inicio").onclick = () => $("#aviso-continuar").remove();
@@ -492,14 +522,9 @@ async function telaResumoEditar(id) {
   definirTopo({ titulo: "Editar resumo", voltar: `#/resumo/${id}` });
   $("#abas").classList.add("oculto");
   const html = await lerConteudo(id);
-  const mats = materiasResumo();
   $("#conteudo").innerHTML = `<div class="editor-wrap">
     <input class="campo campo-titulo" id="ed-titulo" placeholder="Título do resumo" value="${esc(r.titulo)}">
-    <div class="filtros">
-      <input class="campo" id="ed-materia" list="lista-materias" placeholder="Matéria" value="${esc(r.materia)}" style="flex:1;min-width:180px">
-      <datalist id="lista-materias">${mats.map(m => `<option value="${esc(m)}">`).join("")}</datalist>
-      <input class="campo" id="ed-assunto" placeholder="Assunto" value="${esc(r.assunto)}" style="flex:1;min-width:180px">
-    </div>
+    <div class="filtros"><button class="botao" id="ed-pasta">📁 ${esc(textoCaminho(r.pasta) || "Fora das pastas")} · mudar</button></div>
     <div class="barra-editor" id="barra-editor" role="toolbar" aria-label="Formatação">
       <button data-cmd="bold" title="Negrito (Ctrl+B)"><b>N</b></button>
       <button data-cmd="italic" title="Itálico (Ctrl+I)"><i>I</i></button>
@@ -556,14 +581,15 @@ async function telaResumoEditar(id) {
     $$("img", clone).forEach(i => i.classList.remove("selecionada"));
     const conteudo = clone.innerHTML;
     const texto = await gravarConteudo(id, conteudo);
-    Object.assign(r, { titulo: $("#ed-titulo").value.trim(), materia: $("#ed-materia").value.trim(), assunto: $("#ed-assunto").value.trim(), previa: texto.slice(0, 220) });
+    Object.assign(r, { titulo: $("#ed-titulo").value.trim(), previa: texto.slice(0, 220), editadoEm: agoraISO() });
     await salvarMeta(r);
     pendente = false; salvoEm = Date.now(); status();
   };
   const agendar = () => { pendente = true; status(); clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
   window.salvarResumoPendente = async () => { if (pendente) { clearTimeout(tempo); await salvar(); } };
   ed.addEventListener("input", agendar);
-  ["ed-titulo", "ed-materia", "ed-assunto"].forEach(i => $("#" + i).addEventListener("input", agendar));
+  $("#ed-titulo").addEventListener("input", agendar);
+  $("#ed-pasta").onclick = () => painelMover("resumos", r.id, r.titulo || "Sem título", () => { $("#ed-pasta").textContent = "📁 " + (textoCaminho(r.pasta) || "Fora das pastas") + " · mudar"; });
   if (!r.titulo) $("#ed-titulo").focus();
 
   // ---- barra de formatação ----
@@ -681,47 +707,39 @@ function carregarScript(src) {
     document.head.appendChild(s);
   }));
 }
-function painelImportarResumos(materiaAtual = "", assuntoAtual = "", arquivosSoltos = null) {
-  const mats = materiasResumo();
+/* opções de pasta para listas de escolha (todas as pastas, com recuo mostrando o nível) */
+function opcoesPastas(area, atual) {
+  const out = [];
+  const descer = (pai, nivel) => { for (const p of pastasDe(area, pai)) { out.push(`<option value="${esc(p.id)}" ${p.id === atual ? "selected" : ""}>${"\u00a0\u00a0\u00a0".repeat(nivel)}${nivel ? "└ " : ""}📁 ${esc(p.nome)}</option>`); descer(p.id, nivel + 1); } };
+  descer(null, 0);
+  return out.join("");
+}
+function painelImportarResumos(pastaAtual = null, arquivosSoltos = null) {
   abrirPainel(`<h2>Importar resumos ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">Word (.docx), PDF, texto (.txt) ou Markdown (.md). <strong>Dá para escolher vários de uma vez:</strong> no iPad, toque em <em>Selecionar</em> (no canto de cima da janela de arquivos) e marque quantos quiser. A janela também mostra o Google Drive, o iCloud Drive e outras nuvens instaladas. No computador, dá para arrastar vários arquivos para a tela.</p>
-    <div class="linha-ajuste"><span>Matéria</span>
-      <select class="campo" id="imp-materia"><option value="">Sem matéria</option>${mats.map(m => `<option ${m === materiaAtual ? "selected" : ""}>${esc(m)}</option>`).join("")}<option value="__nova">+ Nova matéria…</option></select></div>
-    <div class="linha-ajuste"><span>Assunto</span><select class="campo" id="imp-assunto"></select></div>
+    <div class="linha-ajuste"><span>Pasta</span>
+      <select class="campo" id="imp-pasta"><option value="">Fora das pastas (início)</option>${opcoesPastas("resumos", pastaAtual)}<option value="__nova">+ Nova pasta…</option></select></div>
     <div class="acoes" style="margin-top:10px"><button class="botao primario" id="imp-escolher">${arquivosSoltos ? `Importar ${arquivosSoltos.length} arquivo(s)` : "Escolher arquivos"}</button>
       ${arquivosSoltos ? "" : '<button class="botao" id="imp-drive">☁️ Escolher no Google Drive</button>'}</div>
     <input type="file" id="imp-arquivos" multiple accept=".docx,.pdf,.txt,.md,.markdown,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain" hidden>
     <div id="imp-progresso"></div>`);
-  const preencherAssuntos = () => {
-    const m = $("#imp-materia").value;
-    const lista = m && m !== "__nova" ? assuntosDe(m) : [];
-    $("#imp-assunto").innerHTML = `<option value="">${m ? "Direto na matéria" : "—"}</option>${lista.map(a => `<option ${a === assuntoAtual ? "selected" : ""}>${esc(a)}</option>`).join("")}${m ? '<option value="__novo">+ Novo assunto…</option>' : ""}`;
-    $("#imp-assunto").disabled = !m;
-  };
-  preencherAssuntos();
-  $("#imp-materia").onchange = e => {
-    if (e.target.value === "__nova") {
-      const n = prompt("Nome da matéria:");
-      if (n && n.trim()) { const o = document.createElement("option"); o.textContent = n.trim(); e.target.insertBefore(o, e.target.lastElementChild); e.target.value = n.trim(); } else e.target.value = "";
-    }
-    assuntoAtual = ""; preencherAssuntos();
-  };
-  $("#imp-assunto").onchange = e => {
-    if (e.target.value !== "__novo") return;
-    const n = prompt("Nome do assunto:");
-    if (n && n.trim()) { const o = document.createElement("option"); o.textContent = n.trim(); e.target.insertBefore(o, e.target.lastElementChild); e.target.value = n.trim(); } else e.target.value = "";
+  $("#imp-pasta").onchange = async e => {
+    if (e.target.value !== "__nova") return;
+    const anterior = pastaAtual;
+    const p = await novaPasta("resumos", null);
+    if (p) { pastaAtual = p.id; e.target.innerHTML = `<option value="">Fora das pastas (início)</option>${opcoesPastas("resumos", p.id)}<option value="__nova">+ Nova pasta…</option>`; }
+    else e.target.value = anterior || "";
   };
   const importar = async arquivos => {
     if (!arquivos.length) return;
-    const materia = $("#imp-materia").value, assunto = $("#imp-assunto").value;
+    const pasta = $("#imp-pasta").value === "__nova" ? "" : $("#imp-pasta").value;
     const prog = $("#imp-progresso");
     $("#imp-escolher").disabled = true;
     const feitos = [];
     for (const [k, arq] of arquivos.entries()) {
       prog.innerHTML = `<p class="contagem">Importando ${k + 1} de ${arquivos.length}: ${esc(arq.name)}…</p>`;
       try {
-        const f = await importarArquivo(arq, materia, (a, b) => { prog.innerHTML = `<p class="contagem">Importando ${k + 1} de ${arquivos.length}: ${esc(arq.name)} (página ${a} de ${b})…</p>`; });
-        if (assunto) { const r = resumos.lista.get(f.id); if (r) { r.assunto = assunto; await salvarMeta(r); } }
+        const f = await importarArquivo(arq, pasta, (a, b) => { prog.innerHTML = `<p class="contagem">Importando ${k + 1} de ${arquivos.length}: ${esc(arq.name)} (página ${a} de ${b})…</p>`; });
         feitos.push({ ok: true, ...f });
       } catch (err) { feitos.push({ ok: false, nome: arq.name, erro: err.message }); }
     }
@@ -743,9 +761,9 @@ function painelImportarResumos(materiaAtual = "", assuntoAtual = "", arquivosSol
 function tituloDoArquivo(nome) {
   return nome.replace(/\.[^.]+$/, "").replace(/[_]+/g, " ").replace(/\s+/g, " ").replace(/^\d+\s+/, "").trim();
 }
-async function importarArquivo(arq, materia, aoProgresso) {
+async function importarArquivo(arq, pasta, aoProgresso) {
   const ext = (arq.name.split(".").pop() || "").toLowerCase();
-  if (ext === "pdf" || ext === "docx") return importarOriginal(arq, ext, materia, aoProgresso);
+  if (ext === "pdf" || ext === "docx") return importarOriginal(arq, ext, pasta, aoProgresso);
   let html = "", detalhes = "";
   if (ext === "docx") {
     await carregarScript("libs/mammoth.browser.min.js");
@@ -787,7 +805,7 @@ async function importarArquivo(arq, materia, aoProgresso) {
   const tpl = document.createElement("template"); tpl.innerHTML = html;
   const primeiro = tpl.content.querySelector("h1,h2,h3");
   const titulo = primeiro && primeiro.textContent.trim().length < 90 ? primeiro.textContent.trim() : tituloDoArquivo(arq.name);
-  const r = { id: uid(), titulo, materia, assunto: "", favorito: false, arquivado: false, origem: arq.name };
+  const r = { id: uid(), titulo, pasta: pasta || "", favorito: false, arquivado: false, origem: arq.name };
   const texto = await gravarConteudo(r.id, html);
   r.previa = texto.slice(0, 220);
   await salvarMeta(r);
@@ -993,6 +1011,7 @@ async function telaResumoOriginal(r) {
   $("#res-caneta").onclick = () => alternarCaneta();
   $("#res-foco").onclick = () => alternarFocoResumo();
   $("#res-buscar").onclick = () => painelBuscarOriginal(r);
+  $("#res-ouvir").onclick = () => ouvirResumo(r);
   $("#res-mais").onclick = () => menuResumoOriginal(r, !!editado);
   try {
     if (r.formato === "pdf") await montarPdf(r);
@@ -1133,7 +1152,7 @@ function editarDocx(r) {
     $$("svg.tinta, .aviso-tinta", clone).forEach(e => e.remove());
     $$("section.docx", clone).forEach(s => { s.classList.remove("artigo", "pagina-resumo"); s.removeAttribute("id"); });
     const texto = await gravarConteudoOriginal(r.id, clone.innerHTML);
-    r.previa = texto.slice(0, 220); await salvarMeta(r);
+    r.previa = texto.slice(0, 220); r.editadoEm = agoraISO(); await salvarMeta(r);
     $("#status-salvo").textContent = "Salvo agora";
   };
   const agendar = () => { $("#status-salvo").textContent = "Salvando…"; clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
@@ -1236,7 +1255,7 @@ function menuResumoOriginal(r, editado) {
     const pdfjs = await abrirPdfJs();
     const blob = await lerArquivoOriginal(r);
     const res = await pdfParaHtml(pdfjs, new Uint8Array(await blob.arrayBuffer()));
-    const novo = { id: uid(), titulo: r.titulo + " — texto editável", materia: r.materia, assunto: r.assunto, formato: "html", favorito: false, arquivado: false };
+    const novo = { id: uid(), titulo: r.titulo + " — texto editável", pasta: r.pasta || "", formato: "html", favorito: false, arquivado: false };
     const texto = await gravarConteudo(novo.id, limparHtml(res.html));
     novo.previa = texto.slice(0, 220);
     await salvarMeta(novo);
@@ -1256,7 +1275,7 @@ function menuResumoOriginal(r, editado) {
 }
 
 /* ---------- importação no formato original ---------- */
-async function importarOriginal(arq, ext, materia, aoProgresso) {
+async function importarOriginal(arq, ext, pasta, aoProgresso) {
   const arquivoId = uid();
   await bdGravar("arquivos", { id: arquivoId, blob: arq, nome: arq.name, atualizadoEm: agoraISO() });
   let titulo = tituloDoArquivo(arq.name), texto = "", detalhes = "";
@@ -1281,7 +1300,7 @@ async function importarOriginal(arq, ext, materia, aoProgresso) {
     if (paragrafos[0] && paragrafos[0].length < 90) titulo = paragrafos[0];
     detalhes = "Word no visual original";
   }
-  const r = { id: uid(), titulo, materia, assunto: "", formato: ext === "pdf" ? "pdf" : "docx", arquivo: arquivoId, origem: arq.name, favorito: false, arquivado: false, previa: texto.slice(0, 220) };
+  const r = { id: uid(), titulo, pasta: pasta || "", formato: ext === "pdf" ? "pdf" : "docx", arquivo: arquivoId, origem: arq.name, favorito: false, arquivado: false, previa: texto.slice(0, 220) };
   await bdGravar("resumos_conteudo", { id: r.id, html: "", texto });
   if (resumos.textos) resumos.textos.set(r.id, semAcento(texto));
   await salvarMeta(r);
@@ -1453,6 +1472,7 @@ function montarDock(r) {
   d.innerHTML = `
     <button class="dock-btn" id="res-caneta" aria-pressed="false" title="Caneta, marca-texto e ícones" aria-label="Caneta">✏️</button>
     <button class="dock-btn" id="res-buscar" title="Buscar no resumo" aria-label="Buscar">🔍</button>
+    <button class="dock-btn" id="res-ouvir" title="Ouvir em voz alta (a partir de onde você está)" aria-label="Ouvir">🔊</button>
     ${r.formato === "docx" ? '<button class="dock-btn" id="res-editar-docx" title="Editar o texto" aria-label="Editar texto">📝</button>' : ""}
     <button class="dock-btn" id="res-foco" title="Modo foco" aria-label="Modo foco">🎯</button>
     <button class="dock-btn estrela-dock" data-fav-resumo="${esc(r.id)}" aria-pressed="${!!r.favorito}" title="Favoritar" aria-label="Favoritar">${r.favorito ? "★" : "☆"}</button>
