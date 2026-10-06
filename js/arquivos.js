@@ -72,18 +72,29 @@ async function arquivosDoDrive(tipos) {
   const token = await tokenDrive();
   await carregarScript("https://apis.google.com/js/api.js");
   await new Promise(ok => gapi.load("picker", ok));
+  // abas como no próprio Drive: Meu Drive (com as pastas de verdade, navegando para dentro delas),
+  // Recentes (só arquivos, os mais novos primeiro), Compartilhados comigo, Com estrela e Drives compartilhados
   const docs = await new Promise(ok => {
-    const vista = new google.picker.DocsView(google.picker.ViewId.DOCS).setMimeTypes(tipos.join(",")).setIncludeFolders(true).setSelectFolderEnabled(false);
-    new google.picker.PickerBuilder()
-      .addView(vista).enableFeature(google.picker.Feature.MULTISELECT_ENABLED)
-      .setOAuthToken(token).setDeveloperKey(GOOGLE_API_KEY).setAppId(GOOGLE_APP_ID).setLocale("pt-BR")
-      .setTitle("Escolha os arquivos do Google Drive")
-      .setCallback(d => { if (d.action === google.picker.Action.PICKED) ok(d.docs || []); else if (d.action === google.picker.Action.CANCEL) ok([]); })
+    const P = google.picker, mimes = tipos.join(",");
+    const vista = (rotulo, ajustar) => { const v = new P.DocsView(P.ViewId.DOCS).setMimeTypes(mimes).setMode(P.DocsViewMode.LIST); ajustar(v); if (v.setLabel) v.setLabel(rotulo); return v; };
+    const abas = [
+      vista("Meu Drive", v => v.setParent("root").setIncludeFolders(true).setSelectFolderEnabled(false)),
+      vista("Recentes", v => v.setIncludeFolders(false)),
+      vista("Compartilhados comigo", v => v.setOwnedByMe(false).setIncludeFolders(true).setSelectFolderEnabled(false)),
+      vista("Com estrela", v => v.setStarred(true).setIncludeFolders(true).setSelectFolderEnabled(false)),
+      vista("Drives compartilhados", v => v.setEnableDrives(true).setIncludeFolders(true).setSelectFolderEnabled(false)),
+    ];
+    const construtor = new P.PickerBuilder();
+    for (const a of abas) construtor.addView(a);
+    construtor.enableFeature(P.Feature.MULTISELECT_ENABLED).enableFeature(P.Feature.SUPPORT_DRIVES)
+      .setMaxItems(50).setOAuthToken(token).setDeveloperKey(GOOGLE_API_KEY).setAppId(GOOGLE_APP_ID).setLocale("pt-BR")
+      .setTitle("Escolha um ou vários arquivos (toque para marcar)")
+      .setCallback(d => { if (d.action === P.Action.PICKED) ok(d.docs || []); else if (d.action === P.Action.CANCEL) ok([]); })
       .build().setVisible(true);
   });
   const arquivos = [];
   for (const d of docs) {
-    const r = await fetch(`${baseGoogle()}/drive/v3/files/${d.id}?alt=media`, { headers: { Authorization: "Bearer " + token } });
+    const r = await fetch(`${baseGoogle()}/drive/v3/files/${d.id}?alt=media&supportsAllDrives=true`, { headers: { Authorization: "Bearer " + token } });
     if (!r.ok) throw new Error(`Não foi possível baixar "${d.name}" do Drive (${r.status}).`);
     arquivos.push(new File([await r.blob()], d.name, { type: d.mimeType || "" }));
   }
@@ -201,7 +212,7 @@ async function acaoSelecaoResumos(acao) {
   if (acao === "fixar") { const todos = lista.every(r => r.fixado); for (const r of lista) { r.fixado = !todos; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); } return terminar(); }
   if (acao === "duplicar") { for (const r of lista) await duplicarResumo(r); return terminar(); }
   if (acao === "favoritar") { const todosFav = lista.every(r => r.favorito); for (const r of lista) { r.favorito = !todosFav; await salvarMeta(r); } return terminar(); }
-  if (acao === "arquivar") { const todosArq = lista.every(r => r.arquivado); for (const r of lista) { r.arquivado = !todosArq; await salvarMeta(r); } return terminar(); }
+  if (acao === "arquivar") { const todosArq = lista.every(r => r.arquivado); if (!todosArq) await tirarDoArSeDono(lista); for (const r of lista) { r.arquivado = !todosArq; await salvarMeta(r); } return terminar(); }
   if (acao === "drive") return painelExportarResumosDrive(lista);
   if (acao === "apagar") {
     await resumosParaLixeira(lista);

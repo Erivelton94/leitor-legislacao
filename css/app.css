@@ -696,3 +696,12 @@ svg.tinta { will-change: auto; }
 .selo-fixo { position: absolute; top: 6px; right: 40px; font-size: 15px; pointer-events: none; }
 .leitura-resumo .lendo, section.docx .lendo { background: var(--oliva-claro); border-radius: 4px; }
 .pagina-resumo.lendo { outline: 3px solid var(--oliva); outline-offset: 2px; }
+
+/* traço ao vivo: camada por cima da página enquanto o Pencil escreve */
+canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z-index: 36; }
+.calibra { display: grid; gap: 6px; width: 100%; font-size: 13px; color: var(--tinta-2); }
+.calibra label { display: grid; grid-template-columns: 1fr 2fr 24px; align-items: center; gap: 8px; }
+.pad-teste { width: 100%; height: 90px; border: 1px dashed var(--fio); border-radius: 10px; background: var(--papel); touch-action: none; }
+/* com zoom: a área do texto rola sozinha nas duas direções, com embalo */
+.zoom-rolagem.propria { overflow: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.selo-vis-res { position: absolute; top: 6px; right: 62px; font-size: 15px; pointer-events: none; }

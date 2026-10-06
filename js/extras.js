@@ -7,6 +7,7 @@ let zoomConteudo = 1, larguraBaseZoom = 0, pinca = null, zoomBase = 1;
 const fz = () => ($("#zoom-caixa") ? zoomConteudo : 1);
 function zerarZoom() {
   zoomConteudo = 1; larguraBaseZoom = 0; pinca = null; zoomBase = 1;
+  $(".zoom-rolagem.propria")?.classList.remove("propria");
   $("#selo-zoom")?.remove();
 }
 function ajustarCaixaZoom() {
@@ -15,6 +16,40 @@ function ajustarCaixaZoom() {
   if (zoomConteudo === 1) { caixa.style.width = ""; caixa.style.height = ""; return; }
   caixa.style.width = cont.offsetWidth * zoomConteudo + "px";
   caixa.style.height = cont.offsetHeight * zoomConteudo + "px";
+}
+/* Com zoom, a área do texto vira uma janela que rola sozinha nas duas direções (para os lados e para baixo
+   no mesmo gesto, com o embalo natural do iPad). Sem zoom, a página rola normalmente. */
+function topoDaJanela() {
+  let fim = 0;
+  for (const el of [$(".topo"), $("#barra-docx:not(.oculto)")]) {
+    if (!el) continue;
+    const pos = getComputedStyle(el).position;
+    if (pos === "sticky" || pos === "fixed" && !document.body.classList.contains("tela-cheia")) fim = Math.max(fim, el.getBoundingClientRect().bottom);
+  }
+  return Math.max(0, fim);
+}
+function rolagemPropria(ligar) {
+  const rol = $(".zoom-rolagem"); if (!rol) return;
+  if (ligar === rol.classList.contains("propria")) { if (ligar) ajustarAlturaJanela(); return; }
+  const topo = topoDaJanela();
+  if (ligar) {
+    const dentro = Math.max(0, topo - rol.getBoundingClientRect().top);          // quanto do texto já tinha passado
+    rol.classList.add("propria");
+    ajustarAlturaJanela(topo);
+    window.scrollBy(0, rol.getBoundingClientRect().top - topo);
+    rol.scrollTop = dentro;
+  } else {
+    const st = rol.scrollTop;
+    rol.classList.remove("propria"); rol.style.height = "";
+    window.scrollBy(0, rol.getBoundingClientRect().top - topo + st);
+  }
+}
+function ajustarAlturaJanela(topo = topoDaJanela()) { const rol = $(".zoom-rolagem.propria"); if (rol) rol.style.height = Math.max(200, window.innerHeight - topo) + "px"; }
+window.addEventListener("resize", () => setTimeout(() => ajustarAlturaJanela(), 250));
+/* rola o que estiver rolando: a janela do texto (com zoom) ou a página */
+function rolarConteudo(dx, dy) {
+  const rol = $(".zoom-rolagem.propria");
+  if (rol) { rol.scrollLeft += dx; rol.scrollTop += dy; } else window.scrollBy(dx, dy);
 }
 function aplicarZoom(novo, cx = window.innerWidth / 2, cy = window.innerHeight / 2) {
   const cont = $("#texto-lei"), caixa = $("#zoom-caixa"), rolagem = $(".zoom-rolagem");
@@ -30,9 +65,9 @@ function aplicarZoom(novo, cx = window.innerWidth / 2, cy = window.innerHeight /
   rolagem?.classList.toggle("ampliado", novo !== 1);
   if (novo === 1 && !cont.classList.contains("paginas-resumo")) cont.style.width = "";
   ajustarCaixaZoom();
+  rolagemPropria(novo > zoomBase + 0.001);
   const r1 = cont.getBoundingClientRect();
-  if (rolagem) rolagem.scrollLeft += r1.left + lx * novo - cx;
-  window.scrollBy(0, r1.top + ly * novo - cy);
+  rolarConteudo(r1.left + lx * novo - cx, r1.top + ly * novo - cy);
   mostrarSeloZoom();
 }
 /* telas estreitas (celular): a página do PDF/Word é reduzida para caber inteira na largura */
@@ -65,7 +100,7 @@ let tempoNitidez = null;
 function redesenharPaginasNitidas() {        // PDF: depois do zoom, as páginas visíveis são redesenhadas mais nítidas
   clearTimeout(tempoNitidez);
   tempoNitidez = setTimeout(() => {
-    for (const n of [...visor.desenhadas.keys()]) { const div = document.getElementById("art-p" + n); if (div) { liberarPaginaPdf(n, div); desenharPaginaPdf(n, div); } }
+    for (const n of [...visor.desenhadas.keys()]) { const div = document.getElementById("art-p" + n); if (div) pedirPaginaPdf(n, div, true); }
   }, 250);
 }
 const distancia = ts => Math.hypot(ts[0].clientX - ts[1].clientX, ts[0].clientY - ts[1].clientY);
@@ -75,19 +110,21 @@ document.addEventListener("touchstart", e => {
   const ts = dedosDaTela(e);
   if (ts.length === 2) pinca = { d0: distancia(ts), z0: zoomConteudo, ativo: false };
 }, { passive: true });
+const fimDaPinca = () => { const c = $("#texto-lei"); if (c) c.style.willChange = ""; };
 document.addEventListener("touchmove", e => {
   if (!pinca) return;
   const ts = dedosDaTela(e);
   if (ts.length !== 2) return;
   const d = distancia(ts);
   if (!pinca.ativo && Math.abs(d / pinca.d0 - 1) < 0.06) return;      // movimento de rolar com dois dedos, não de pinça
+  if (!pinca.ativo) { const c = $("#texto-lei"); if (c) c.style.willChange = "transform"; }    // durante a pinça: amplia como imagem (fluido)
   pinca.ativo = true;
   e.preventDefault();
   pinca.alvo = { z: pinca.z0 * d / pinca.d0, x: (ts[0].clientX + ts[1].clientX) / 2, y: (ts[0].clientY + ts[1].clientY) / 2 };
   if (!pinca.quadro) pinca.quadro = requestAnimationFrame(() => { if (!pinca) return; pinca.quadro = 0; aplicarZoom(pinca.alvo.z, pinca.alvo.x, pinca.alvo.y); });
 }, { passive: false });
 document.addEventListener("touchend", e => {
-  if (pinca && dedosDaTela(e).length < 2) { if (pinca.ativo) redesenharPaginasNitidas(); pinca = null; }
+  if (pinca && dedosDaTela(e).length < 2) { if (pinca.ativo) { fimDaPinca(); redesenharPaginasNitidas(); } pinca = null; }
 });
 // Safari (iPad): impede o zoom da página inteira nas telas que têm zoom próprio
 for (const ev of ["gesturestart", "gesturechange", "gestureend"]) document.addEventListener(ev, e => { if ($("#zoom-caixa")) e.preventDefault(); }, { passive: false });

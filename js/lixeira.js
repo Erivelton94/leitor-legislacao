@@ -6,6 +6,7 @@
    ===================================================================== */
 const DIAS_LIXEIRA = 30;
 async function resumoParaLixeira(r, grupo = null) {
+  if (r.publicado) await tirarDoArSeDono([r]);              // o que vai para a lixeira sai do app dos outros
   r.lixeira = { em: agoraISO(), pasta: r.pasta || "", ...(grupo ? { grupo } : {}) };
   await salvarMeta(r);
 }

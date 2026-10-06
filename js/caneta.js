@@ -15,14 +15,15 @@ const TAMANHOS_BORRACHA = [[3, "P"], [8, "M"], [16, "G"]];
 const ICONES = [["⭐", "Importante"], ["🔥", "Muito cobrado"], ["🎯", "Cai em prova"], ["⚠️", "Pegadinha"], ["❗", "Atenção"],
                 ["💡", "Dica"], ["❓", "Dúvida"], ["📌", "Fixar"], ["🔁", "Revisar"], ["✅", "Revisado"]];
 const TAM_ICONE = [[28, "P"], [40, "M"], [54, "G"]];
-const SUAVIZACAO = [["nenhuma", "Sem suavização"], ["leve", "Leve"], ["forte", "Forte"]];
+const SUAVIZACAO = [["nenhuma", "Desligada"], ["leve", "Leve"], ["media", "Média"], ["forte", "Forte"], ["personalizada", "Ajustar…"]];
 const prefCaneta = lerLS("preferencias-caneta", {});
 const caneta = Object.assign(
   { ferramenta: "caneta", corCaneta: prefCaneta.cor || "#D32F2F", corMarca: "#E0B000", esp: 2.5, espMarca: 15, modoBorracha: "parcial", raio: 8, icone: "⭐", tamIcone: 40, dedo: false,
-    suavizacao: "leve", pressao: true, rabiscar: true },
+    suavizacao: "nenhuma", calib: { i: 5, r: 5 }, pressao: true, rabiscar: true },
   prefCaneta,
   { ativa: false, pilhas: new Map(), tracando: null, apagando: null, arrastando: null, lacando: null, selecao: null });
 delete caneta.cor;
+if (prefCaneta.versaoSuave !== 2) caneta.suavizacao = "nenhuma";        // a suavização antiga foi refeita: começa desligada
 /* cada ferramenta lembra a sua cor: a caneta continua vermelha mesmo depois de usar o marca-texto amarelo */
 Object.defineProperty(caneta, "cor", {
   get() { return this.ferramenta === "marca" ? this.corMarca : this.corCaneta; },
@@ -31,8 +32,8 @@ Object.defineProperty(caneta, "cor", {
 if (["borracha", "figura", "laco"].includes(caneta.ferramenta)) caneta.ferramenta = "caneta";
 if (![28, 40, 54].includes(caneta.tamIcone)) caneta.tamIcone = 40;     // tamanhos antigos passam para o novo padrão
 function gravarPrefCaneta() {
-  const { ferramenta, corCaneta, corMarca, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao, suavizacao, pressao, rabiscar } = caneta;
-  gravarLS("preferencias-caneta", { ferramenta, corCaneta, corMarca, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao, suavizacao, pressao, rabiscar });
+  const { ferramenta, corCaneta, corMarca, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao, suavizacao, calib, pressao, rabiscar } = caneta;
+  gravarLS("preferencias-caneta", { ferramenta, corCaneta, corMarca, esp, espMarca, modoBorracha, raio, icone, tamIcone, dedo, posicao, suavizacao, calib, pressao, rabiscar, versaoSuave: 2 });
 }
 const idTinta = (lei, art, fonte) => `tinta|${lei}|${art}|${fonte}`;
 const temConteudo = t => (t.tracos && t.tracos.length) || (t.carimbos && t.carimbos.length) || (t.figuras && t.figuras.length);
@@ -349,7 +350,7 @@ function artigoNoPonto(e) {
 const mediaY = () => [...dedos.values()].reduce((s, p) => s + p.y, 0) / dedos.size;
 function cancelarTraco() {
   if (caneta.lacando) { caneta.lacando = null; const svg = $("#laco-desenho"); if (svg) svg.style.display = "none"; }
-  if (caneta.tracando) { clearTimeout(caneta.tracando.pausa); caneta.tracando.el.remove(); caneta.tracando = null; }
+  if (caneta.tracando) { clearTimeout(caneta.tracando.pausa); limparAoVivo(); caneta.tracando = null; }
   if (caneta.arrastando) { const a = caneta.arrastando; Object.assign(a.item, fotografar(a.antes)); desenharTracos(a.div, a.item); caneta.arrastando = null; }
   if (caneta.apagando) {
     for (const x of caneta.apagando.alvos.values()) { Object.assign(x.item, fotografar(x.antes)); desenharTracos(x.div, x.item); }
@@ -505,15 +506,16 @@ document.addEventListener("pointerdown", e => {
   if (marca) t.marca = true;
   const comPressao = !marca && caneta.pressao && e.pointerType === "pen" && e.pressure > 0;
   if (comPressao) t.pr = [Math.round(e.pressure * 100)];
-  const el = elTraco(t);
-  svgDo(div, true).appendChild(el);
-  caneta.tracando = { div, t, el, pointerId: e.pointerId, ancora: p.slice(), reto: false,
-                      filtro: p.slice(), bruto: p.slice(), prF: comPressao ? e.pressure : null, suave: FATOR_SUAVE[caneta.suavizacao] ?? 0.3 };
+  const cfg = configSuavizacao();
+  caneta.tracando = { div, t, pointerId: e.pointerId, ancora: p.slice(), reto: false, r: div.getBoundingClientRect(), z: fz(),
+                      bruto: p.slice(), prF: comPressao ? e.pressure : null, filtro: cfg ? filtroUmEuro(cfg) : null, desenhados: 0 };
+  if (caneta.tracando.filtro) filtrar(caneta.tracando.filtro, p[0], p[1], e.timeStamp || performance.now());
+  iniciarAoVivo(caneta.tracando);
 }, { passive: false });
 document.addEventListener("pointermove", e => {
   if (e.pointerType === "touch" && dedos.has(e.pointerId)) {
     dedos.get(e.pointerId).y = e.clientY;
-    if (rolagemDedos && dedos.size >= 2) { e.preventDefault(); if (pinca && pinca.ativo) return; const m = mediaY(); window.scrollBy(0, rolagemDedos.y - m); rolagemDedos.y = m; return; }
+    if (rolagemDedos && dedos.size >= 2) { e.preventDefault(); if (pinca && pinca.ativo) return; const m = mediaY(); rolarConteudo(0, rolagemDedos.y - m); rolagemDedos.y = m; return; }
   }
   const ar = caneta.arrastando;
   if (ar && ar.pointerId === e.pointerId) {
@@ -540,61 +542,125 @@ document.addEventListener("pointermove", e => {
   const tr = caneta.tracando;
   if (!tr || tr.pointerId !== e.pointerId) return;
   e.preventDefault();
-  if (!tr.r) tr.r = tr.div.getBoundingClientRect();
-  const z = fz();
+  const z = tr.z;
   const x = +((e.clientX - tr.r.left) / z).toFixed(1), y = +((e.clientY - tr.r.top) / z).toFixed(1);
   if (tr.reto) {
     tr.t.pts = linhaReta(tr.t.pts[0], tr.t.pts[1], x, y);      // já endireitou: a ponta segue o Pencil, a linha continua reta
-  } else {
-    for (const ev of eventosDe(e)) adicionarPonto(tr, (ev.clientX - tr.r.left) / z, (ev.clientY - tr.r.top) / z, ev.pressure);
-    if (Math.hypot(x - tr.ancora[0], y - tr.ancora[1]) > 3) {   // mexeu de verdade: recomeça a contar a pausa
-      tr.ancora = [x, y];
-      clearTimeout(tr.pausa);
-      tr.pausa = setTimeout(() => endireitar(tr), 450);
-    }
+    redesenharAoVivo(tr);
+    return;
   }
-  if (!tr.quadro) tr.quadro = requestAnimationFrame(() => { tr.quadro = 0; atualizarElTraco(tr); });
+  for (const ev of eventosDe(e)) adicionarPonto(tr, (ev.clientX - tr.r.left) / z, (ev.clientY - tr.r.top) / z, ev.pressure, ev.timeStamp || e.timeStamp);
+  if (Math.hypot(x - tr.ancora[0], y - tr.ancora[1]) > 3) {   // mexeu de verdade: recomeça a contar a pausa
+    tr.ancora = [x, y];
+    clearTimeout(tr.pausa);
+    tr.pausa = setTimeout(() => endireitar(tr), 450);
+  }
+  desenharNovosAoVivo(tr, e);                                  // desenha na hora, sem esperar o próximo quadro da página
 }, { passive: false });
 const mudouFoto = (a, b) => JSON.stringify(a) !== JSON.stringify(b);
-/* Suavização (como no GoodNotes): cada ponto novo anda só uma parte do caminho até onde o Pencil está,
-   o que tira a tremedeira da mão; ao soltar, o traço termina exatamente onde o Pencil parou. */
-const FATOR_SUAVE = { nenhuma: 0, leve: 0.3, forte: 0.55 };
-function adicionarPonto(tr, x, y, pressao) {
+/* ---------- suavização sem atraso (filtro "1 euro") ----------
+   Com o Pencil parado ou devagar, tira a tremedeira da mão; quanto mais rápido o traço, menos ele
+   suaviza, para não ficar para trás. O que aparece enquanto você escreve é exatamente o que fica salvo. */
+/* valores medidos para ficar no máximo ~2–3 px atrás do Pencil na velocidade normal de escrita */
+const SUAVIZACAO_NIVEIS = { leve: { min: 3, beta: 0.05 }, media: { min: 2, beta: 0.035 }, forte: { min: 1.2, beta: 0.02 } };
+function configSuavizacao(modo = caneta.suavizacao, calib = caneta.calib) {
+  if (modo === "personalizada") { const c = calib || { i: 5, r: 5 }; return { min: 6 * Math.pow(0.75, c.i - 1), beta: 0.004 * Math.pow(1.35, c.r - 1) }; }
+  return SUAVIZACAO_NIVEIS[modo] || null;                       // desligada
+}
+const filtroUmEuro = cfg => ({ cfg, x: null, d: [0, 0], t: 0 });
+function filtrar(f, x, y, t) {
+  if (f.x === null) { f.x = [x, y]; f.t = t; return f.x; }
+  const dt = Math.max(0.001, (t - f.t) / 1000); f.t = t;
+  const alfa = corte => 1 / (1 + 1 / (2 * Math.PI * corte * dt));
+  const ad = alfa(1);
+  f.d = [f.d[0] + ad * ((x - f.x[0]) / dt - f.d[0]), f.d[1] + ad * ((y - f.x[1]) / dt - f.d[1])];
+  const a = alfa(f.cfg.min + f.cfg.beta * Math.hypot(f.d[0], f.d[1]));
+  f.x = [f.x[0] + a * (x - f.x[0]), f.x[1] + a * (y - f.x[1])];
+  return f.x;
+}
+function adicionarPonto(tr, x, y, pressao, tempo) {
   tr.bruto = [x, y];
-  const f = tr.filtro, s = tr.suave;
-  f[0] += (x - f[0]) * (1 - s); f[1] += (y - f[1]) * (1 - s);
-  if (tr.prF !== null && pressao > 0) tr.prF += (pressao - tr.prF) * 0.3;
+  const [fx, fy] = tr.filtro ? filtrar(tr.filtro, x, y, tempo || performance.now()) : [x, y];
+  if (tr.prF !== null && pressao > 0) tr.prF += (pressao - tr.prF) * 0.35;
   const p = tr.t.pts;
-  if (Math.hypot(f[0] - p[p.length - 2], f[1] - p[p.length - 1]) < 0.6) return;     // pontos colados: não guarda
-  p.push(+f[0].toFixed(1), +f[1].toFixed(1));
+  if (Math.hypot(fx - p[p.length - 2], fy - p[p.length - 1]) < 0.6) return;     // pontos colados: não guarda
+  p.push(+fx.toFixed(1), +fy.toFixed(1));
   if (tr.t.pr) tr.t.pr.push(Math.round(tr.prF * 100));
 }
-function atualizarElTraco(tr) {
-  if (tr.el.tagName === "path") { tr.el.setAttribute("d", caminhoD(tr.t.pts)); return; }
-  const novo = elTraco(tr.t);
-  if (tr.el.classList.contains("endireitado")) novo.classList.add("endireitado");
-  tr.el.replaceWith(novo); tr.el = novo;
-}
-/* ao soltar: chega até o ponto final, alisa mais um pouco (média com os vizinhos) e tira pontos desnecessários */
+/* ao soltar: com suavização, o traço termina exatamente onde o Pencil parou; tira só pontos repetidos */
 function finalizarTraco(tr) {
   const t = tr.t;
   if (tr.reto) return t;
   const p = t.pts;
-  if (tr.suave && Math.hypot(tr.bruto[0] - p[p.length - 2], tr.bruto[1] - p[p.length - 1]) >= 0.6) {
+  if (tr.filtro && Math.hypot(tr.bruto[0] - p[p.length - 2], tr.bruto[1] - p[p.length - 1]) >= 0.6) {
     p.push(+tr.bruto[0].toFixed(1), +tr.bruto[1].toFixed(1));
     if (t.pr) t.pr.push(t.pr[t.pr.length - 1]);
   }
-  const raio = { nenhuma: 0, leve: 1, forte: 2 }[caneta.suavizacao] ?? 1;
-  if (raio && p.length >= 10) {
-    const n = p.length / 2, q = p.slice();
-    for (let k = 1; k < n - 1; k++) {
-      let sx = 0, sy = 0, c = 0;
-      for (let j = Math.max(0, k - raio); j <= Math.min(n - 1, k + raio); j++) { sx += p[2 * j]; sy += p[2 * j + 1]; c++; }
-      q[2 * k] = +(sx / c).toFixed(1); q[2 * k + 1] = +(sy / c).toFixed(1);
-    }
-    t.pts = q;
-  }
   return enxugarTraco(t, 0.8);
+}
+
+/* ---------- traço ao vivo: desenhado numa camada própria por cima da página ----------
+   Enquanto o Pencil escreve, nada da página é redesenhado: cada pedacinho novo vai direto para esta
+   camada, no mesmo instante do movimento. Ao soltar, o traço passa para o desenho do artigo. */
+const aoVivo = { cv: null, ctx: null, ponta: null, pctx: null };
+function prepararCamada(cv) {
+  const dpr = Math.min(window.devicePixelRatio || 1, 3), w = window.innerWidth, h = window.innerHeight;
+  if (cv.width !== Math.round(w * dpr) || cv.height !== Math.round(h * dpr)) {
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    cv.style.width = w + "px"; cv.style.height = h + "px";
+  }
+  const ctx = cv.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  return ctx;
+}
+function iniciarAoVivo(tr) {
+  if (!aoVivo.cv) {
+    for (const k of ["cv", "ponta"]) { const c = document.createElement("canvas"); c.className = "tinta-ao-vivo"; document.body.appendChild(c); aoVivo[k] = c; }
+  }
+  aoVivo.ctx = prepararCamada(aoVivo.cv); aoVivo.pctx = prepararCamada(aoVivo.ponta);
+  const marca = ehMarca(tr.t);
+  const op = marca ? (tr.t.cor === "#1F2A36" ? 0.22 : 0.35) : 1;    // o marca-texto é transparente por inteiro (sem manchas onde o traço se cruza)
+  aoVivo.cv.style.opacity = op; aoVivo.ponta.style.opacity = op;
+  for (const ctx of [aoVivo.ctx, aoVivo.pctx]) { ctx.strokeStyle = tr.t.cor === "marca" ? "#E0B000" : tr.t.cor; ctx.lineJoin = "round"; ctx.lineCap = marca ? "butt" : "round"; }
+  tr.desenhados = 0;
+  redesenharAoVivo(tr);
+}
+const naTela = (tr, x, y) => [tr.r.left + x * tr.z, tr.r.top + y * tr.z];
+const larguraNoPonto = (tr, k) => (tr.t.pr ? tr.t.esp * fatorPressao(tr.t.pr[Math.min(k, tr.t.pr.length - 1)]) : larguraTraco(tr.t)) * tr.z;
+/* desenha de novo o traço inteiro (marca-texto, linha reta ou começo do traço) */
+function redesenharAoVivo(tr) {
+  const ctx = aoVivo.ctx; if (!ctx) return;
+  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  aoVivo.pctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  const pts = tr.t.pts.map((v, i) => (i % 2 ? tr.r.top + v * tr.z : tr.r.left + v * tr.z));
+  for (const pt of partesDoTraco({ ...tr.t, pts })) { ctx.lineWidth = pt.esp * tr.z; ctx.stroke(new Path2D(caminhoD(pt.pts))); }
+  tr.desenhados = ehMarca(tr.t) || tr.reto ? 0 : Math.max(0, tr.t.pts.length / 2 - 1);
+}
+/* só os pedaços novos (as mesmas curvas que o desenho final usa), mais a ponta até onde o Pencil está */
+function desenharNovosAoVivo(tr, e) {
+  if (ehMarca(tr.t)) { redesenharAoVivo(tr); return; }
+  const p = tr.t.pts, n = p.length / 2, ctx = aoVivo.ctx;
+  const P = k => naTela(tr, p[2 * k], p[2 * k + 1]);
+  const meio = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+  for (let k = Math.max(1, tr.desenhados); k <= n - 2; k++) {
+    const ini = k === 1 ? P(0) : meio(P(k - 1), P(k)), fim = meio(P(k), P(k + 1)), c = P(k);
+    ctx.lineWidth = larguraNoPonto(tr, k);
+    ctx.beginPath(); ctx.moveTo(ini[0], ini[1]); ctx.quadraticCurveTo(c[0], c[1], fim[0], fim[1]); ctx.stroke();
+    tr.desenhados = k + 1;
+  }
+  // ponta: do último pedaço até o último ponto (e um pouquinho à frente, onde o Pencil vai estar)
+  const pc = aoVivo.pctx;
+  pc.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  if (n < 2) return;
+  const ult = P(n - 1), de = n === 2 ? P(0) : meio(P(n - 2), P(n - 1));
+  pc.lineWidth = larguraNoPonto(tr, n - 1);
+  pc.beginPath(); pc.moveTo(de[0], de[1]); pc.lineTo(ult[0], ult[1]);
+  if (!tr.filtro && e && e.getPredictedEvents) for (const pe of e.getPredictedEvents().slice(0, 2)) pc.lineTo(pe.clientX, pe.clientY);
+  pc.stroke();
+}
+function limparAoVivo() {
+  for (const k of ["cv", "ponta"]) { const c = aoVivo[k]; if (c) c.getContext("2d").clearRect(0, 0, c.width, c.height); }
 }
 /* Segurar o Pencil parado no fim do traço por meio segundo: o traço vira uma linha reta.
    Perto da horizontal ou da vertical, ela "gruda" no alinhamento exato. */
@@ -612,8 +678,7 @@ function endireitar(tr) {
   tr.reto = true;
   tr.t.pts = linhaReta(p[0], p[1], tr.ancora[0], tr.ancora[1]);
   if (tr.t.pr) { const m = Math.round(tr.t.pr.reduce((a, b) => a + b, 0) / tr.t.pr.length); tr.t.pr = [m, m]; }
-  atualizarElTraco(tr);
-  tr.el.classList.add("endireitado");
+  redesenharAoVivo(tr);
   if (navigator.vibrate) navigator.vibrate(8);
 }
 async function fimPonteiro(e) {
@@ -643,6 +708,11 @@ async function fimPonteiro(e) {
   clearTimeout(tr.pausa);
   caneta.tracando = null;
   const t = finalizarTraco(tr);
+  // o traço pronto entra no desenho do artigo na mesma hora; guardar fica para depois
+  const el = elTraco(t);
+  svgDo(tr.div, true).appendChild(el);
+  tr.el = el;
+  limparAoVivo();
   if (!t.marca && !tr.reto && caneta.rabiscar && await rabiscoApagou(tr, t)) return;
   const item = itemTintaAtual(tr.div);
   const antes = fotografar(item);
@@ -654,11 +724,17 @@ async function fimPonteiro(e) {
 }
 document.addEventListener("pointerup", fimPonteiro);
 document.addEventListener("pointercancel", e => { if (e.pointerType === "touch") { dedos.delete(e.pointerId); if (dedos.size < 2) rolagemDedos = null; } cancelarTraco(); });
-for (const tipo of ["touchstart", "touchmove"]) {
-  document.addEventListener(tipo, e => {
-    if (!caneta.ativa || !leiAberta || !naAreaDaLei(e)) return;
-    if ([...e.touches].some(t => t.touchType === "stylus") || caneta.dedo) e.preventDefault();
-  }, { passive: false });
+/* Com a caneta ligada, o toque do Pencil não pode rolar a página. Esse "vigia" só existe enquanto a caneta está
+   ligada: com ela desligada, a rolagem fica totalmente livre (sem esperar nenhum código do app). */
+function vigiaToqueCaneta(e) {
+  if (!caneta.ativa || !leiAberta || !naAreaDaLei(e)) return;
+  if ([...e.touches].some(t => t.touchType === "stylus") || caneta.dedo) e.preventDefault();
+}
+function ligarVigiaToque(ligar) {
+  for (const tipo of ["touchstart", "touchmove"]) {
+    document.removeEventListener(tipo, vigiaToqueCaneta, { passive: false });
+    if (ligar) document.addEventListener(tipo, vigiaToqueCaneta, { passive: false });
+  }
 }
 
 /* ---------- áreas com desenho perto de um ponto da tela (usado pelo rabisco e pelo laço) ---------- */
@@ -960,7 +1036,12 @@ function montarBarraCaneta() {
   const liga = (attr, ativo, texto) => `<button ${attr} aria-pressed="${!!ativo}">${ativo ? "✓ " : ""}${texto}</button>`;
   if (f === "caneta") { resumo = `<span class="ponto-cor" style="background:${caneta.cor}"></span>${ESP_CANETA.find(x => x[0] === caneta.esp)?.[1] || ""}`;
     opcoes = cores + seg(ESP_CANETA, caneta.esp, "data-esp") +
-      `<p class="rotulo-opcao">Traço</p>` + seg(SUAVIZACAO, caneta.suavizacao, "data-suave") +
+      `<p class="rotulo-opcao">Suavização do traço</p>` + seg(SUAVIZACAO, caneta.suavizacao, "data-suave") +
+      (caneta.suavizacao === "personalizada" ? `<div class="calibra">
+        <label>Intensidade <input type="range" min="1" max="10" step="1" id="cal-i" value="${caneta.calib.i}"><span id="cal-i-v">${caneta.calib.i}</span></label>
+        <label>Resposta em traços rápidos <input type="range" min="1" max="10" step="1" id="cal-r" value="${caneta.calib.r}"><span id="cal-r-v">${caneta.calib.r}</span></label></div>` : "") +
+      (caneta.suavizacao !== "nenhuma" ? `<canvas id="pad-teste" class="pad-teste" aria-label="Área de teste da suavização"></canvas>
+        <p class="dica-icones" style="width:100%">Área de teste: escreva aqui. Em cinza, o traço sem suavização; em cor, como ele fica salvo.</p>` : "") +
       `<div class="segmentado">${liga("data-pressao", caneta.pressao, "Espessura pela pressão do Pencil")}${liga("data-rabiscar", caneta.rabiscar, "Rabiscar para apagar")}</div>` +
       '<p class="dica-icones" style="width:100%">Rabiscar para apagar: faça um zigue-zague rápido por cima de um desenho, ícone ou imagem para apagá-lo.</p>'; }
   else if (f === "marca") { resumo = `<span class="ponto-cor" style="background:${translucida(caneta.cor, 0.5)}"></span>${ESP_MARCA.find(x => x[0] === caneta.espMarca)?.[1] || ""}`; opcoes = cores + seg(ESP_MARCA, caneta.espMarca, "data-esp-marca"); }
@@ -1000,6 +1081,11 @@ function montarBarraCaneta() {
   const ligar = (sel, fn, fechar) => $$(sel, b).forEach(x => x.onclick = () => { fn(x); if (fechar) caneta.opcoesAbertas = false; gravarPrefCaneta(); montarBarraCaneta(); });
   ligar("[data-ferramenta]", x => { caneta.opcoesAbertas = caneta.ferramenta === x.dataset.ferramenta ? !caneta.opcoesAbertas : false; if (caneta.ferramenta !== x.dataset.ferramenta) limparSelecaoLaco(); caneta.ferramenta = x.dataset.ferramenta; });
   ligar("[data-suave]", x => { caneta.suavizacao = x.dataset.suave; });
+  for (const [id, k] of [["#cal-i", "i"], ["#cal-r", "r"]]) {
+    const inp = $(id, b); if (!inp) continue;
+    inp.oninput = () => { caneta.calib = { ...caneta.calib, [k]: Number(inp.value) }; $(id + "-v", b).textContent = inp.value; gravarPrefCaneta(); };
+  }
+  if ($("#pad-teste", b)) ligarPadTeste($("#pad-teste", b));
   ligar("[data-pressao]", () => { caneta.pressao = !caneta.pressao; });
   ligar("[data-rabiscar]", () => { caneta.rabiscar = !caneta.rabiscar; });
   ligar("#cn-opcoes", () => { caneta.opcoesAbertas = !caneta.opcoesAbertas; });
@@ -1019,9 +1105,39 @@ function montarBarraCaneta() {
   if ($("#fig-menor", b)) { $("#fig-menor", b).onclick = () => mudarFiguraSelecionada("menor"); $("#fig-maior", b).onclick = () => mudarFiguraSelecionada("maior"); $("#fig-excluir", b).onclick = () => mudarFiguraSelecionada("excluir"); }
   atualizarBotoesHist();
 }
+/* área de teste da suavização (dentro das opções da caneta): nada do que se escreve aqui é guardado */
+function ligarPadTeste(cv) {
+  const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  const w = cv.clientWidth || 300, h = cv.clientHeight || 90;
+  cv.width = w * dpr; cv.height = h * dpr;
+  const ctx = cv.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.lineCap = "round"; ctx.lineJoin = "round";
+  let at = null;
+  const pos = e => { const r = cv.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; };
+  cv.onpointerdown = e => {
+    e.preventDefault(); e.stopPropagation(); cv.setPointerCapture(e.pointerId);
+    ctx.clearRect(0, 0, w, h);
+    const p = pos(e), cfg = configSuavizacao();
+    at = { id: e.pointerId, cru: p, f: cfg ? filtroUmEuro(cfg) : null, ult: p };
+    if (at.f) filtrar(at.f, p[0], p[1], e.timeStamp);
+  };
+  cv.onpointermove = e => {
+    if (!at || at.id !== e.pointerId) return;
+    e.preventDefault();
+    for (const ev of eventosDe(e)) {
+      const p = pos(ev);
+      ctx.strokeStyle = "rgba(120,120,120,.45)"; ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.moveTo(at.cru[0], at.cru[1]); ctx.lineTo(p[0], p[1]); ctx.stroke(); at.cru = p;
+      const q = at.f ? filtrar(at.f, p[0], p[1], ev.timeStamp || e.timeStamp).slice() : p;
+      ctx.strokeStyle = caneta.corCaneta; ctx.lineWidth = caneta.esp;
+      ctx.beginPath(); ctx.moveTo(at.ult[0], at.ult[1]); ctx.lineTo(q[0], q[1]); ctx.stroke(); at.ult = q;
+    }
+  };
+  cv.onpointerup = cv.onpointercancel = () => { at = null; };
+}
 function alternarCaneta(ligar = !caneta.ativa) {
   caneta.ativa = ligar && !!leiAberta;
   if (!caneta.ativa) { cancelarTraco(); limparSelecaoLaco(); dedos.clear(); rolagemDedos = null; }
+  ligarVigiaToque(caneta.ativa);
   document.body.classList.toggle("modo-caneta", caneta.ativa);
   document.body.classList.toggle("caneta-dedo", caneta.ativa && caneta.dedo);
   $("#barra-caneta").classList.toggle("oculto", !caneta.ativa);

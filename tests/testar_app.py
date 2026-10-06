@@ -134,6 +134,34 @@ async def testes(b):
     await pg.click("#selecao-laco [data-laco=apagar]"); await pg.wait_for_timeout(300)
     confere("Apagar a seleção", await pg.evaluate("!tintaVisivel('lep','112').tracos.some(u=>u.pr)") and not await pg.locator("#selecao-laco").is_visible())
     await pg.click("#cn-desfazer"); await pg.wait_for_timeout(300)
+    # traço ao vivo numa camada própria: aparece na hora, sem mexer no desenho do artigo até soltar
+    await pg.click("[data-ferramenta=caneta]")
+    bx = await pg.locator("#art-112").bounding_box(); y3 = bx["y"] + 120
+    vivo = await pg.evaluate("""([x,y])=>{const el=document.elementFromPoint(x,y); const ev=(tp,xx,p)=>el.dispatchEvent(new PointerEvent(tp,{pointerId:9,pointerType:'pen',pressure:p,clientX:xx,clientY:y,bubbles:true,cancelable:true}));
+        const antes=document.querySelectorAll('#art-112 svg.tinta [data-traco]').length; ev('pointerdown',x,0.5);
+        const t0=performance.now(); for(let i=1;i<=400;i++) ev('pointermove',x+i*0.8,0.3+0.4*Math.abs(Math.sin(i/30)));
+        const ms=(performance.now()-t0)/400;
+        const cv=document.querySelector('canvas.tinta-ao-vivo'); const d=cv.getContext('2d').getImageData(0,0,cv.width,cv.height).data; let pintado=0; for(let i=3;i<d.length;i+=4) if(d[i]) {pintado++; if(pintado>50) break;}
+        const durante=document.querySelectorAll('#art-112 svg.tinta [data-traco]').length;
+        ev('pointerup',x+320,0); const d2=cv.getContext('2d').getImageData(0,0,cv.width,cv.height).data; let resto=0; for(let i=3;i<d2.length;i+=4) if(d2[i]) {resto++; break;}
+        return [ms, pintado>50, durante===antes, document.querySelectorAll('#art-112 svg.tinta [data-traco]').length===antes+1, resto===0];}""", [bx["x"] + 60, y3])
+    confere("Traço ao vivo numa camada própria (sem redesenhar o artigo)", all(vivo[1:]), vivo)
+    confere("Caneta rápida: cada movimento do Pencil leva menos de 1,5 ms", vivo[0] < 1.5, f"{vivo[0]:.3f} ms por movimento")
+    await pg.click("#cn-desfazer"); await pg.wait_for_timeout(200)
+    # suavização: desligada guarda o traço exato; ligada tira a tremedeira e termina onde o Pencil parou
+    async def traco_tremido(modo):
+        await pg.evaluate(f"caneta.suavizacao='{modo}'")
+        return await pg.evaluate("""async ([x,y])=>{const el=document.elementFromPoint(x,y); const ev=(tp,xx,yy)=>el.dispatchEvent(new PointerEvent(tp,{pointerId:11,pointerType:'pen',pressure:0.5,clientX:xx,clientY:yy,bubbles:true,cancelable:true}));
+            ev('pointerdown',x,y); const ys=[];
+            for(let i=1;i<=60;i++){ const yy=y+(i%2?1.6:-1.6); ys.push(yy); ev('pointermove',x+i*3,yy); await new Promise(r=>setTimeout(r,8)); }
+            ev('pointerup',x+180,y+1.6); await new Promise(r=>setTimeout(r,200));
+            const t=tintaVisivel('lep','112'); const u=t.tracos[t.tracos.length-1]; const r=document.getElementById('art-112').getBoundingClientRect();
+            const yl=[]; for(let i=3;i<u.pts.length-2;i+=2) yl.push(u.pts[i]); const m=yl.reduce((a,b)=>a+b,0)/yl.length; const dp=Math.sqrt(yl.reduce((a,b)=>a+(b-m)**2,0)/yl.length);
+            return [dp, Math.abs(u.pts[u.pts.length-2]-(x+180-r.left)) < 1.5];}""", [bx["x"] + 60, y3 + 30])
+    sem = await traco_tremido("nenhuma"); com = await traco_tremido("media")
+    confere("Suavização: desligada guarda o traço exato; ligada tira a tremedeira e termina no ponto certo", sem[0] > 1.2 and com[0] < sem[0] * 0.5 and com[1], f"tremor sem {sem[0]:.2f} · com {com[0]:.2f}")
+    await pg.evaluate("caneta.suavizacao='nenhuma'")
+    await pg.click("#cn-desfazer"); await pg.click("#cn-desfazer"); await pg.wait_for_timeout(200)
     tracos_lei = await pg.evaluate("tintaVisivel('lep','112').tracos.length")
     await pg.click("#cn-fechar")
 
@@ -212,6 +240,11 @@ async def testes(b):
     await pg.evaluate("""([x,y])=>{const t=document.elementFromPoint(x,y);const ev=tp=>t.dispatchEvent(new PointerEvent(tp,{pointerId:5,pointerType:'pen',clientX:x,clientY:y,bubbles:true,cancelable:true}));ev('pointerdown');ev('pointerup');}""", [bp["x"] + 200, bp["y"] + 120])
     await pg.wait_for_timeout(300)
     confere("Ícone com o Pencil no PDF", await pg.locator("#art-p1 svg.tinta text").count() == 1)
+    zoom = await pg.evaluate("""async()=>{ aplicarZoom(2.5); await new Promise(r=>setTimeout(r,600)); const rol=document.querySelector('.zoom-rolagem');
+        const propria=rol.classList.contains('propria') && getComputedStyle(rol).overflowY==='auto'; const st0=rol.scrollTop, sl0=rol.scrollLeft; rolarConteudo(120, 400); const anda=rol.scrollTop>st0 && rol.scrollLeft>sl0;
+        await new Promise(r=>setTimeout(r,800)); const maior=Math.max(...[...document.querySelectorAll('canvas.canvas-pagina')].map(c=>c.width*c.height));
+        aplicarZoom(zoomBase); const volta=!rol.classList.contains('propria'); return [propria, anda, maior <= 6.1e6, volta, maior]; }""")
+    confere("Zoom: o texto rola nas duas direções num só gesto e as páginas ficam leves", all(zoom[:4]), zoom)
     desf = await pg.evaluate("[pilhaDoc().hist.length, document.getElementById('cn-desfazer').disabled]")
     await pg.click("#cn-desfazer"); await pg.wait_for_timeout(300)
     lei_ok = await pg.evaluate("(estado.itens.get(idTinta('lep','112',19))||{tracos:[]}).tracos.length")
@@ -470,6 +503,61 @@ async def testes(b):
     confere("Questões: mover vários cadernos para uma subpasta", sorted(movidos) == sorted(cads) and await p13.locator(f"[data-sel-pasta='{qp[1]}']").count() == 1, movidos)
     confere("Nenhum erro de programa nas pastas", not p13.erros, p13.erros[:3])
     await ctx13.close()
+
+    # 14) Resumos compartilhados pelo dono: ligar, outro usuário copia, desligar
+    import shutil
+    pasta_pub = os.path.join(RAIZ, "dados", "resumos")
+    ctx14, d14 = await novo_aparelho(b)
+    try:
+        await d14.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}')); localStorage.setItem('dono-config', JSON.stringify({{repo:'Erivelton94/leitor-legislacao', token:'{github_falso.TOKEN}'}}))")
+        await d14.evaluate("""(async()=>{ await carregarResumos(); const p = await novaPasta('resumos', null, 'Penal compartilhado'); const s = await novaPasta('resumos', p.id, 'Homicídio');
+            for (const [id,t,pa] of [['c1','Resumo solto',''],['c2','Dentro da pasta',p.id],['c3','Na subpasta',s.id]]) {
+              await gravarConteudo(id, `<p>${t}: texto do resumo.</p>`); await salvarMeta({id, titulo:t, origem:t+'.html', pasta:pa, formato:'html'}); }
+            window._pp = [p.id, s.id]; })()""")
+        await d14.goto(U + "#/resumos"); await d14.evaluate("rotear()"); await d14.wait_for_timeout(800)
+        await d14.evaluate("menuResumo('c1')"); await d14.click("#r-visivel"); await d14.click("[data-comp-modo]"); await d14.wait_for_timeout(1500)
+        pid = await d14.evaluate("window._pp[0]")
+        await d14.evaluate(f"menuPasta('{pid}')"); await d14.click("#pu-visivel"); await d14.click("[data-comp-modo]"); await d14.wait_for_timeout(2000)
+        idx = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        ok_pub = sorted(r["id"] for r in idx.get("resumos", [])) == ["c1", "c2", "c3"] and len(idx.get("pastas", [])) == 2 and "dados/resumos/c3.html" in github_falso.ARQUIVOS
+        selo = await d14.evaluate("resumos.lista.get('c1').publicado && estado.itens.get(window._pp[0]).publicada === true")
+        confere("Dono: ligar “visível para outros usuários” num resumo e numa pasta (com subpasta)", ok_pub and selo, [r["id"] for r in idx.get("resumos", [])])
+        # outro usuário (sem chave de dono) vê e copia
+        os.makedirs(pasta_pub, exist_ok=True)
+        for c, v in github_falso.ARQUIVOS.items():
+            if c.startswith("dados/resumos/"): open(os.path.join(RAIZ, c), "wb").write(v)
+        ctx15, u15 = await novo_aparelho(b)
+        await u15.goto(U + "#/resumos"); await u15.evaluate("rotear()"); await u15.wait_for_timeout(1500)
+        tile = await u15.locator(".tile-compartilhados").count()
+        await u15.goto(U + "#/resumos/compartilhados"); await u15.wait_for_timeout(1200)
+        await u15.click("[data-comp='c1']"); await u15.wait_for_timeout(1500)
+        aberto = "/resumo/" in u15.url
+        await u15.goto(U + f"#/resumos/compartilhados/{pid}"); await u15.wait_for_timeout(1000)
+        await u15.click("#copiar-tudo"); await u15.wait_for_timeout(2000)
+        copias = await u15.evaluate("[...resumos.lista.values()].filter(r=>r.deCompartilhado).map(r=>[r.deCompartilhado, textoCaminho(r.pasta)]).sort()")
+        confere("Outro usuário vê “Compartilhados pelo app” e copia para os próprios resumos (com as pastas)", tile == 1 and aberto and copias == [["c1", "Compartilhados pelo app"], ["c2", "Compartilhados pelo app › Penal compartilhado"], ["c3", "Compartilhados pelo app › Penal compartilhado › Homicídio"]], copias)
+        confere("Nenhum erro de programa ao receber compartilhados", not u15.erros, u15.erros[:3])
+        await ctx15.close()
+        # desligar e arquivar tiram do ar
+        await d14.evaluate(f"menuPasta('{pid}')"); await d14.click("#pu-visivel"); await d14.wait_for_timeout(1500)
+        await d14.evaluate("(async()=>{ const r=resumos.lista.get('c1'); r.arquivado=true; await tirarDoArSeDono([r]); await salvarMeta(r); })()"); await d14.wait_for_timeout(1200)
+        idx2 = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        confere("Desligar a pasta e arquivar o resumo tiram do app dos outros", idx2.get("resumos") == [] and idx2.get("pastas") == [] and "dados/resumos/c1.html" not in github_falso.ARQUIVOS, idx2)
+        # janela do Google Drive: abas organizadas e vários arquivos de uma vez
+        drive = await d14.evaluate("""(async()=>{ const reg={views:[],features:[]};
+            window.carregarScript=async()=>{}; window.tokenDrive=async()=>'tk';
+            window.gapi={load:(n,cb)=>cb()};
+            class DocsView{constructor(id){this.o={id}} setMimeTypes(m){this.o.m=m;return this} setMode(m){return this} setParent(p){this.o.pai=p;return this} setIncludeFolders(v){this.o.pastas=v;return this}
+              setSelectFolderEnabled(){return this} setOwnedByMe(v){this.o.meus=v;return this} setStarred(v){this.o.estrela=v;return this} setEnableDrives(v){this.o.drives=v;return this} setLabel(l){this.o.rotulo=l;return this}}
+            class PickerBuilder{addView(v){reg.views.push(v.o);return this} enableFeature(f){reg.features.push(f);return this} setMaxItems(){return this} setOAuthToken(){return this} setDeveloperKey(){return this}
+              setAppId(){return this} setLocale(){return this} setTitle(){return this} setCallback(cb){this.cb=cb;return this} build(){const cb=this.cb;return {setVisible(){cb({action:'picked',docs:[]})}}}}
+            window.google={picker:{DocsView,PickerBuilder,ViewId:{DOCS:'docs'},DocsViewMode:{LIST:'list'},Feature:{MULTISELECT_ENABLED:'multi',SUPPORT_DRIVES:'drives'},Action:{PICKED:'picked',CANCEL:'cancel'}}};
+            const r = await arquivosDoDrive(['application/pdf']); return {n:r.length, rotulos:reg.views.map(v=>v.rotulo), raiz:reg.views[0].pai, recentesSemPastas:reg.views[1].pastas===false, multi:reg.features.includes('multi')}; })()""")
+        confere("Google Drive: abas Meu Drive (com pastas), Recentes, Compartilhados comigo e escolha de vários", drive["rotulos"][:3] == ["Meu Drive", "Recentes", "Compartilhados comigo"] and drive["raiz"] == "root" and drive["recentesSemPastas"] and drive["multi"], drive)
+        confere("Nenhum erro de programa no compartilhamento", not d14.erros, d14.erros[:3])
+    finally:
+        shutil.rmtree(pasta_pub, ignore_errors=True)
+        await ctx14.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])

@@ -231,11 +231,16 @@ async function telaResumos(filtro = "todas", pastaId = null) {
       lista = lista.filter(r => naPasta(null)(r) && !r.arquivado);
     }
     if (filtro !== "recentes" || termo.length >= 2) lista = ordenarResumos(lista);
-    if (pastas.length || lista.length) {
-      h += `<div class="grade-resumos">${pastas.map(p => `<div class="tile-pasta">
+    const comp = !pasta && filtro === "todas" && termo.length < 2 && temCompartilhados();
+    if (pastas.length || lista.length || comp) {
+      h += `<div class="grade-resumos">${comp ? `<div class="tile-pasta tile-compartilhados">
+          <button class="tile-abrir" data-href="#/resumos/compartilhados" aria-label="Abrir os resumos compartilhados pelo app">
+            <span class="icone-pasta-grande" aria-hidden="true">📚</span>
+            <span class="nome-arquivo">Compartilhados pelo app</span><span class="qtd-pasta">${compartilhados.indice.resumos.length} arquivo(s)</span></button>
+        </div>` : ""}${pastas.map(p => `<div class="tile-pasta">
           <button class="tile-abrir" data-href="${esc(rotaPastaArea("resumos", p.id))}" aria-label="Abrir a pasta ${esc(p.nome)}">
             <span class="icone-pasta-grande" aria-hidden="true">${ICONE_PASTA}</span>
-            <span class="nome-arquivo">${p.fixada ? "📌 " : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}</span><span class="qtd-pasta">${esc(rotuloQtd("resumos", p.id))}</span></button>
+            <span class="nome-arquivo">${p.fixada ? "📌 " : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}${p.publicada === true && cfgDono() ? " 👁" : ""}</span><span class="qtd-pasta">${esc(rotuloQtd("resumos", p.id))}</span></button>
           <button class="tile-mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta">⋯</button>
         </div>`).join("")}${lista.map(tileResumo).join("")}</div>`;
     } else h += `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nada arquivado." : pasta ? "Pasta vazia. Importe arquivos para cá, crie uma subpasta ou mova resumos pelo botão ⋯." : "Nenhum resumo ainda. Importe seus arquivos do Word ou PDF."}</p>`;
@@ -262,6 +267,7 @@ async function telaResumos(filtro = "todas", pastaId = null) {
     painelImportarResumos(pastaId, arqs);
   };
   render();
+  if (!compartilhados.indice) carregarCompartilhados().then(() => { if (temCompartilhados() && window.renderListaResumos === render) render(); });
 }
 function tileResumo(r) {
   const nome = r.origem || r.titulo || "Sem título";
@@ -270,7 +276,7 @@ function tileResumo(r) {
       <span class="miniatura" data-mini="${esc(r.id)}"><span class="mini-carregando">${r.formato === "pdf" ? "PDF" : r.formato === "docx" ? "DOC" : "TXT"}</span></span>
       <span class="nome-arquivo">${esc(nome)}</span>
     </button>
-    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}${r.fixado ? '<span class="selo-fixo" aria-label="Fixado no topo">📌</span>' : ""}
+    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}${r.fixado ? '<span class="selo-fixo" aria-label="Fixado no topo">📌</span>' : ""}${r.publicado && cfgDono() ? '<span class="selo-vis-res" title="Visível para outros usuários">👁</span>' : ""}
     <button class="tile-mais" data-menu-resumo="${esc(r.id)}" aria-label="Opções de ${esc(nome)}">⋯</button>
   </div>`;
 }
@@ -413,6 +419,7 @@ function menuResumo(id) {
     <button id="r-materia">📁 Mover para pasta…</button>
     <button id="r-fixar">${r.fixado ? "📌 Desafixar do topo" : "📌 Fixar no topo"}</button>
     <button id="r-baixar">⬇️ Baixar…</button>
+    ${botaoVisivelResumo(r)}
     <button id="r-arquivar">${r.arquivado ? "Tirar do arquivo" : "📦 Arquivar"}</button>
     <button id="r-excluir" style="color:var(--alt)">🗑 Mandar para a lixeira</button></div>`);
   $("#r-renomear").onclick = async () => { if (await renomearResumo(r)) { await invalidarMiniatura(r.id); fecharPainel(); rotear(); } };
@@ -425,7 +432,8 @@ function menuResumo(id) {
   };
   $("#r-materia").onclick = () => painelMoverResumo(r, () => rotear());
   $("#r-baixar").onclick = () => painelBaixar(r);
-  $("#r-arquivar").onclick = async () => { r.arquivado = !r.arquivado; await salvarMeta(r); fecharPainel(); rotear(); };
+  $("#r-arquivar").onclick = async () => { r.arquivado = !r.arquivado; if (r.arquivado) await tirarDoArSeDono([r]); await salvarMeta(r); fecharPainel(); rotear(); };
+  ligarVisivelResumo(r, () => rotear());
   $("#r-excluir").onclick = async () => {
     await resumoParaLixeira(r); fecharPainel(); rotear();
     mostrarAvisoRapido("🗑 Foi para a lixeira (dá para restaurar por 30 dias)");
@@ -1074,27 +1082,68 @@ async function montarPdf(r) {
   visor.observador = new IntersectionObserver(entradas => {
     for (const e of entradas) {
       const n = Number(e.target.dataset.pagina);
-      if (e.isIntersecting) desenharPaginaPdf(n, e.target);
-      else liberarPaginaPdf(n, e.target);
+      if (e.isIntersecting) pedirPaginaPdf(n, e.target);
+      else { filaPdf.pedidas.delete(n); liberarPaginaPdf(n, e.target); }
     }
-  }, { rootMargin: "1200px 0px" });
+  }, { rootMargin: "900px 600px" });
   $$(".pagina-resumo", cont).forEach(p => visor.observador.observe(p));
   $$(".pagina-resumo", cont).forEach(p => pintarTinta(leiAberta, p));
 }
-async function desenharPaginaPdf(n, div) {
-  if (visor.desenhadas.has(n) || !visor.doc) return;
+/* Fila de desenho das páginas do PDF: uma de cada vez, a mais perto do meio da tela primeiro, e só quando
+   a rolagem dá uma pausa (desenhar no meio do movimento é o que travava a rolagem com zoom). */
+const filaPdf = { pedidas: new Map(), rodando: false, ultimaRolagem: 0 };
+document.addEventListener("scroll", () => { filaPdf.ultimaRolagem = performance.now(); }, { capture: true, passive: true });
+function pedirPaginaPdf(n, div, nitida = false) {
+  if (!nitida && visor.desenhadas.has(n)) return;
+  filaPdf.pedidas.set(n, { div, nitida });
+  rodarFilaPdf();
+}
+async function rodarFilaPdf() {
+  if (filaPdf.rodando) return;
+  filaPdf.rodando = true;
+  try {
+    while (filaPdf.pedidas.size && visor.doc) {
+      const parado = performance.now() - filaPdf.ultimaRolagem;
+      if (parado < 140) { await new Promise(ok => setTimeout(ok, 140 - parado)); continue; }
+      const meio = window.innerHeight / 2;
+      let melhor = null, dist = Infinity;
+      for (const [n, p] of filaPdf.pedidas) {
+        if (!p.div.isConnected) { filaPdf.pedidas.delete(n); continue; }
+        const r = p.div.getBoundingClientRect(), d = Math.abs((r.top + r.bottom) / 2 - meio);
+        if (d < dist) { dist = d; melhor = n; }
+      }
+      if (melhor === null) break;
+      const { div, nitida } = filaPdf.pedidas.get(melhor);
+      filaPdf.pedidas.delete(melhor);
+      await desenharPaginaPdf(melhor, div, nitida);
+      await new Promise(ok => setTimeout(ok, 0));                 // deixa a tela respirar entre uma página e outra
+    }
+  } finally { filaPdf.rodando = false; }
+}
+/* nitidez com limite: no máximo ~6 milhões de pontos por página (páginas gigantes travavam o iPad) */
+const LIMITE_PONTOS_PAGINA = 6e6;
+async function desenharPaginaPdf(n, div, trocar = false) {
+  if ((!trocar && visor.desenhadas.has(n)) || !visor.doc) return;
+  const antigo = visor.desenhadas.get(n);
   const c = document.createElement("canvas");
-  visor.desenhadas.set(n, c);
+  if (!antigo) visor.desenhadas.set(n, c);
   const pg = await visor.doc.getPage(n);
   const base = pg.getViewport({ scale: 1 });
   const escala = LARGURA_PDF / base.width;
-  const dpr = Math.min((window.devicePixelRatio || 1) * Math.max(1, zoomConteudo), 4);       // mais nítido com zoom
+  let dpr = Math.min((window.devicePixelRatio || 1) * Math.max(1, zoomConteudo), 4);       // mais nítido com zoom
+  const area = (base.width * escala * dpr) * (base.height * escala * dpr);
+  if (area > LIMITE_PONTOS_PAGINA) dpr *= Math.sqrt(LIMITE_PONTOS_PAGINA / area);
+  if (antigo && Math.abs(antigo.width - base.width * escala * dpr) < 4) return;          // já está nessa nitidez
   const vp = pg.getViewport({ scale: escala * dpr });
   c.width = vp.width; c.height = vp.height;
   c.className = "canvas-pagina";
-  div.prepend(c);
   try {
     await pg.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+    if (!div.isConnected || (visor.desenhadas.get(n) !== c && visor.desenhadas.get(n) !== antigo)) { c.width = 0; c.height = 0; return; }
+    if (antigo && antigo.isConnected) { antigo.replaceWith(c); antigo.width = 0; antigo.height = 0; }      // troca sem piscar
+    else div.prepend(c);
+    visor.desenhadas.set(n, c);
+    if (div.querySelector(".textLayer")) return;
     // camada de texto invisível: permite selecionar e copiar
     const camada = document.createElement("div");
     camada.className = "textLayer";

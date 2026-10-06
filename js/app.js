@@ -116,6 +116,7 @@ async function rotearTela() {
   if (partes[0] === "revisao" && partes[1]) return telaRevisao(partes[1]);
   if (partes[0] === "lixeira") return telaLixeira();
   if (partes[0] === "resumos" && partes[1] === "pasta") return telaResumos("todas", partes[2]);
+  if (partes[0] === "resumos" && partes[1] === "compartilhados") return telaCompartilhados(partes[2] || null);
   if (partes[0] === "resumos" && partes[1] === "materia") { location.replace("#/resumos/pasta/" + idPastaLegada(partes[2] || "", partes[3] || "")); return; }   // endereço antigo
   if (partes[0] === "resumos") return telaResumos(partes[1] || "todas");
   if (partes[0] === "resumo" && partes[1]) return partes[2] === "editar" ? telaResumoEditar(partes[1]) : telaResumoLer(partes[1]);

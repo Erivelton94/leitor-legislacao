@@ -113,6 +113,7 @@ async function apagarSoPasta(id) {
 async function pastaParaLixeira(id) {
   const p = estado.itens.get(id), area = p.area || "leis";
   const gid = uid().slice(0, 12), em = agoraISO();
+  if (area === "resumos") await tirarDoArSeDono([], id);
   const todas = [id, ...descendentes(id)];
   for (const pid of todas) {
     const itensDentro = itensDaPasta(area, pid);
@@ -130,7 +131,9 @@ async function alternarFixarPasta(id) { const p = estado.itens.get(id); p.fixada
 async function alternarArquivarPasta(id) {
   const p = estado.itens.get(id);
   if ((p.area || "leis") === "questoes") return arquivarPasta(id, !p.arquivada);   // tira dos outros usuários, se for o dono
-  await salvarItem({ ...p, arquivada: !p.arquivada, arquivadaEm: p.arquivada ? null : agoraISO() });
+  if (p.area === "resumos" && !p.arquivada) await tirarDoArSeDono([], id);
+  const q = estado.itens.get(id);                                      // (pode ter mudado ao sair do app dos outros)
+  await salvarItem({ ...q, arquivada: !q.arquivada, arquivadaEm: q.arquivada ? null : agoraISO() });
 }
 
 /* ---------- escolher uma pasta (árvore com todos os níveis) ---------- */
@@ -177,6 +180,7 @@ function menuPasta(id, depois = () => rotear()) {
       <button id="pu-renomear">✏️ Renomear</button>
       <button id="pu-mover">📁 Mover a pasta…</button>
       <button id="pu-fixar">${p.fixada ? "📌 Desafixar do topo" : "📌 Fixar no topo"}</button>
+      ${botoesVisivelPasta(p)}
       <button id="pu-arquivar">${p.arquivada ? "📤 Desarquivar" : "📦 Arquivar (some da lista; fica em Arquivados)"}</button>
       <button id="pu-apagar">Apagar só a pasta (${n} item(ns)${subs ? ` e ${subs} subpasta(s)` : ""} vão para ${paiDe(p) ? "a pasta de cima" : "o início"})</button>
       <button id="pu-lixeira" style="color:var(--alt)">🗑 Mandar a pasta e tudo o que está dentro para a lixeira</button>
@@ -195,6 +199,7 @@ function menuPasta(id, depois = () => rotear()) {
     fecharPainel(); depois(); mostrarAvisoRapido(`📁 Pasta movida para ${dest ? textoCaminho(dest) : "o início"}`);
   }, { excluir: [id], atual: paiDe(p), textoRaiz: "Início (pasta principal)" });
   $("#pu-fixar").onclick = async () => { await alternarFixarPasta(id); fecharPainel(); depois(); };
+  ligarVisivelPasta(p, depois);
   $("#pu-arquivar").onclick = async () => {
     const era = p.arquivada;
     try { await alternarArquivarPasta(id); fecharPainel(); if (!era && location.hash.includes(id)) location.hash = voltarDaPasta(area, id); else depois(); mostrarAvisoRapido(era ? "📤 Pasta desarquivada" : "📦 Pasta arquivada"); }
