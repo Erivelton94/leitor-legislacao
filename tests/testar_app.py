@@ -171,7 +171,9 @@ async def testes(b):
     await pg.evaluate("ajustes.fonte=19; aplicarAjustes()"); await pg.wait_for_timeout(300)
 
     # 5) Zoom próprio: barra parada
+    sob = "document.elementFromPoint(590,400)?.closest('.artigo')?.id"
     await pg.click("#btn-caneta"); b0 = await pg.locator("#barra-caneta").bounding_box()
+    art_antes = await pg.evaluate(sob)
     cdp = await ctx.new_cdp_session(pg)
     pts = lambda d: [{"x": 590 - d / 2, "y": 400, "id": 1}, {"x": 590 + d / 2, "y": 400, "id": 2}]
     await cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": pts(150)})
@@ -181,6 +183,8 @@ async def testes(b):
     b1 = await pg.locator("#barra-caneta").bounding_box()
     z = await pg.evaluate("zoomConteudo")
     confere("Zoom com pinça amplia e a barra fica parada", z > 1.3 and round(b0["y"]) == round(b1["y"]), f"zoom {z}")
+    lei_zoom = await pg.evaluate(f"[!document.querySelector('.zoom-rolagem').classList.contains('propria'), document.getElementById('texto-lei').style.willChange === '', {sob}]")
+    confere("Zoom nas leis: página rola como antes e o artigo entre os dedos continua no lugar", lei_zoom[0] and lei_zoom[1] and lei_zoom[2] == art_antes, f"{lei_zoom} (antes {art_antes})")
     await pg.click("#cn-fechar"); await pg.evaluate("aplicarZoom(1)")
 
     # 5b) Ordem das leis: alterada sobe; fixada fica em primeiro; PDF da lei
