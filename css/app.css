@@ -705,3 +705,6 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 /* com zoom: a área do texto rola sozinha nas duas direções, com embalo */
 .zoom-rolagem.propria { overflow: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
 .selo-vis-res { position: absolute; top: 6px; right: 62px; font-size: 15px; pointer-events: none; }
+/* pinça nas leis: artigos longe da tela "dormem" durante o gesto (mesmo tamanho, sem custo) */
+.dormindo { content-visibility: hidden; overflow: hidden; }
+.dormindo-sem-cv > * { display: none !important; }

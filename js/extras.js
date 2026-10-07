@@ -127,8 +127,9 @@ function comecarPinca(cx, cy, alvoZ) {
   const rol = $(".zoom-rolagem.propria");
   const r0 = cont.getBoundingClientRect();
   const s0 = rol ? [rol.scrollLeft, rol.scrollTop] : [window.scrollX, window.scrollY];
+  const adormecidos = zoomDePaginas() ? [] : adormecerArtigosLonge(alvoZ);
   const rh = rol ? null : $(".zoom-rolagem");                 // leis: rolagem para os lados na caixa do texto, para baixo na página
-  return { cont, caixa: $("#zoom-caixa"), rolagem: $(".zoom-rolagem"), rol, rh, w: cont.offsetWidth, h: cont.offsetHeight,
+  return { cont, adormecidos, caixa: $("#zoom-caixa"), rolagem: $(".zoom-rolagem"), rol, rh, w: cont.offsetWidth, h: cont.offsetHeight,
            origem: rol ? [r0.left + s0[0], r0.top + s0[1]] : [r0.left + (rh ? rh.scrollLeft : 0), r0.top + window.scrollY],
            ponto: [(cx - r0.left) / zoomConteudo, (cy - r0.top) / zoomConteudo] };
 }
@@ -146,8 +147,29 @@ function moverPinca(m, novo, cx, cy) {
   if (m.rol) { m.rol.scrollLeft = x; m.rol.scrollTop = y; }
   else { if (m.rh) m.rh.scrollLeft = x; window.scrollTo(window.scrollX, y); }
 }
-function terminarPinca() {
+/* Leis grandes: durante a pinça, os artigos longe da tela "dormem" (o Safari deixa de recalculá-los a cada
+   quadro) mantendo o tamanho exato, e o acompanhamento de qual artigo está na tela pausa. Ao soltar, tudo volta. */
+const suportaAdormecer = typeof CSS !== "undefined" && CSS.supports && CSS.supports("content-visibility", "hidden");
+function adormecerArtigosLonge(alvoZ) {
+  if (typeof observador !== "undefined" && observador) observador.disconnect();
+  const arts = $$("#texto-lei > *:not(.rodape-fonte)");
+  if (arts.length < 40) return [];                             // texto curto: não precisa
+  const alt = window.innerHeight, folga = alt * 2.5 * Math.max(1, zoomConteudo / Math.max(zoomBase, 0.3));
+  const longe = [];
+  for (const el of arts) {                                     // mede tudo de uma vez (uma só conta da página)
+    const r = el.getBoundingClientRect();
+    if (r.bottom < -folga || r.top > alt + folga) longe.push([el, el.offsetHeight]);
+  }
+  for (const [el, h] of longe) { el.style.height = h + "px"; el.classList.add("dormindo"); if (!suportaAdormecer) el.classList.add("dormindo-sem-cv"); }
+  return longe.map(x => x[0]);
+}
+function acordarArtigos(lista) {
+  for (const el of lista || []) { el.classList.remove("dormindo", "dormindo-sem-cv"); el.style.height = ""; }
+  if (leiAberta && !String(leiAberta).startsWith("resumo:") && typeof observarPosicao === "function" && $("#texto-lei .artigo")) observarPosicao(leiAberta);
+}
+function terminarPinca(m) {
   fimDaPinca();
+  if (m && m.adormecidos && m.adormecidos.length) acordarArtigos(m.adormecidos);
   if (zoomConteudo <= zoomBase + 0.001) {
     rolagemPropria(false);
     const cont = $("#texto-lei");
@@ -168,10 +190,10 @@ document.addEventListener("touchmove", e => {
   if (!pinca.ativo) { pinca.ativo = true; pinca.m = comecarPinca(cx, cy, pinca.alvo.z); }
   if (!pinca.quadro) pinca.quadro = requestAnimationFrame(() => { if (!pinca || !pinca.m) return; pinca.quadro = 0; moverPinca(pinca.m, pinca.alvo.z, pinca.alvo.x, pinca.alvo.y); });
 }, { passive: false });
-document.addEventListener("touchend", e => {
-  if (pinca && dedosDaTela(e).length < 2) {
+for (const tipoFim of ["touchend", "touchcancel"]) document.addEventListener(tipoFim, e => {
+  if (pinca && (tipoFim === "touchcancel" || dedosDaTela(e).length < 2)) {
     const m = pinca.m, alvo = pinca.alvo;
-    if (pinca.ativo && m) { cancelAnimationFrame(pinca.quadro); moverPinca(m, alvo.z, alvo.x, alvo.y); terminarPinca(); }
+    if (pinca.ativo && m) { cancelAnimationFrame(pinca.quadro); moverPinca(m, alvo.z, alvo.x, alvo.y); terminarPinca(m); }
     pinca = null;
   }
 });

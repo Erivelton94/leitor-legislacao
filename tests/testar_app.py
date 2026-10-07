@@ -177,9 +177,13 @@ async def testes(b):
     cdp = await ctx.new_cdp_session(pg)
     pts = lambda d: [{"x": 590 - d / 2, "y": 400, "id": 1}, {"x": 590 + d / 2, "y": 400, "id": 2}]
     await cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": pts(150)})
+    dormindo = 0
     for k in range(1, 9):
         await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": pts(150 + 20 * k)}); await pg.wait_for_timeout(30)
+        if k == 4: dormindo = await pg.evaluate("document.querySelectorAll('#texto-lei .dormindo').length")
     await cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []}); await pg.wait_for_timeout(400)
+    acordados = await pg.evaluate("document.querySelectorAll('#texto-lei .dormindo').length === 0 && !!observador")
+    confere("Pinça em lei grande: artigos longe da tela dormem durante o gesto e acordam ao soltar", dormindo > 100 and acordados, f"{dormindo} artigos dormindo")
     b1 = await pg.locator("#barra-caneta").bounding_box()
     z = await pg.evaluate("zoomConteudo")
     confere("Zoom com pinça amplia e a barra fica parada", z > 1.3 and round(b0["y"]) == round(b1["y"]), f"zoom {z}")
