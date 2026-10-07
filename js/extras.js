@@ -125,9 +125,9 @@ function comecarPinca(cx, cy, alvoZ) {
   if (zoomConteudo === 1) { larguraBaseZoom = cont.offsetWidth; cont.style.width = larguraBaseZoom + "px"; }
   if (alvoZ > zoomBase + 0.001 && zoomDePaginas()) rolagemPropria(true);
   const rol = $(".zoom-rolagem.propria");
+  const adormecidos = zoomDePaginas() ? [] : manterNoLugar(cx, cy, () => adormecerArtigosLonge(alvoZ));
   const r0 = cont.getBoundingClientRect();
   const s0 = rol ? [rol.scrollLeft, rol.scrollTop] : [window.scrollX, window.scrollY];
-  const adormecidos = zoomDePaginas() ? [] : adormecerArtigosLonge(alvoZ);
   const rh = rol ? null : $(".zoom-rolagem");                 // leis: rolagem para os lados na caixa do texto, para baixo na página
   return { cont, adormecidos, caixa: $("#zoom-caixa"), rolagem: $(".zoom-rolagem"), rol, rh, w: cont.offsetWidth, h: cont.offsetHeight,
            origem: rol ? [r0.left + s0[0], r0.top + s0[1]] : [r0.left + (rh ? rh.scrollLeft : 0), r0.top + window.scrollY],
@@ -150,6 +150,14 @@ function moverPinca(m, novo, cx, cy) {
 /* Leis grandes: durante a pinça, os artigos longe da tela "dormem" (o Safari deixa de recalculá-los a cada
    quadro) mantendo o tamanho exato, e o acompanhamento de qual artigo está na tela pausa. Ao soltar, tudo volta. */
 const suportaAdormecer = typeof CSS !== "undefined" && CSS.supports && CSS.supports("content-visibility", "hidden");
+/* o trecho que está entre os dedos fica exatamente no mesmo lugar da tela, mesmo que algo acima mude de altura */
+function manterNoLugar(cx, cy, mudar) {
+  const alvo = document.elementFromPoint(cx, cy)?.closest("#texto-lei > *") || $$("#texto-lei > *").find(el => el.getBoundingClientRect().bottom > cy);
+  const t0 = alvo ? alvo.getBoundingClientRect().top : 0;
+  const r = mudar();
+  if (alvo && alvo.isConnected) { const d = alvo.getBoundingClientRect().top - t0; if (Math.abs(d) > 0.5) window.scrollBy(0, d); }
+  return r;
+}
 function adormecerArtigosLonge(alvoZ) {
   if (typeof observador !== "undefined" && observador) observador.disconnect();
   const arts = $$("#texto-lei > *:not(.rodape-fonte)");
@@ -158,18 +166,18 @@ function adormecerArtigosLonge(alvoZ) {
   const longe = [];
   for (const el of arts) {                                     // mede tudo de uma vez (uma só conta da página)
     const r = el.getBoundingClientRect();
-    if (r.bottom < -folga || r.top > alt + folga) longe.push([el, el.offsetHeight]);
+    if (r.bottom < -folga || r.top > alt + folga) longe.push([el, r.height / zoomConteudo]);    // altura real, com o espaçamento
   }
-  for (const [el, h] of longe) { el.style.height = h + "px"; el.classList.add("dormindo"); if (!suportaAdormecer) el.classList.add("dormindo-sem-cv"); }
+  for (const [el, h] of longe) { el.style.height = h.toFixed(2) + "px"; el.classList.add("dormindo"); if (!suportaAdormecer) el.classList.add("dormindo-sem-cv"); }
   return longe.map(x => x[0]);
 }
 function acordarArtigos(lista) {
   for (const el of lista || []) { el.classList.remove("dormindo", "dormindo-sem-cv"); el.style.height = ""; }
   if (leiAberta && !String(leiAberta).startsWith("resumo:") && typeof observarPosicao === "function" && $("#texto-lei .artigo")) observarPosicao(leiAberta);
 }
-function terminarPinca(m) {
+function terminarPinca(m, cx = window.innerWidth / 2, cy = window.innerHeight / 2) {
   fimDaPinca();
-  if (m && m.adormecidos && m.adormecidos.length) acordarArtigos(m.adormecidos);
+  if (m && m.adormecidos && m.adormecidos.length) manterNoLugar(cx, cy, () => acordarArtigos(m.adormecidos));
   if (zoomConteudo <= zoomBase + 0.001) {
     rolagemPropria(false);
     const cont = $("#texto-lei");
@@ -193,7 +201,7 @@ document.addEventListener("touchmove", e => {
 for (const tipoFim of ["touchend", "touchcancel"]) document.addEventListener(tipoFim, e => {
   if (pinca && (tipoFim === "touchcancel" || dedosDaTela(e).length < 2)) {
     const m = pinca.m, alvo = pinca.alvo;
-    if (pinca.ativo && m) { cancelAnimationFrame(pinca.quadro); moverPinca(m, alvo.z, alvo.x, alvo.y); terminarPinca(m); }
+    if (pinca.ativo && m) { cancelAnimationFrame(pinca.quadro); moverPinca(m, alvo.z, alvo.x, alvo.y); terminarPinca(m, alvo.x, alvo.y); }
     pinca = null;
   }
 });

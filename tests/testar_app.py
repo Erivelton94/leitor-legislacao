@@ -181,7 +181,11 @@ async def testes(b):
     for k in range(1, 9):
         await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": pts(150 + 20 * k)}); await pg.wait_for_timeout(30)
         if k == 4: dormindo = await pg.evaluate("document.querySelectorAll('#texto-lei .dormindo').length")
+    await pg.wait_for_timeout(100)
+    antes_soltar = await pg.evaluate("(()=>{const el=document.elementFromPoint(590,400).closest('#texto-lei > *'); window._alvo=el; return el.getBoundingClientRect().top})()")
     await cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []}); await pg.wait_for_timeout(400)
+    depois_soltar = await pg.evaluate("window._alvo.getBoundingClientRect().top")
+    confere("Soltar a pinça não dá pulo (o texto entre os dedos fica no lugar)", abs(depois_soltar - antes_soltar) < 3, f"{antes_soltar:.1f} → {depois_soltar:.1f}")
     acordados = await pg.evaluate("document.querySelectorAll('#texto-lei .dormindo').length === 0 && !!observador")
     confere("Pinça em lei grande: artigos longe da tela dormem durante o gesto e acordam ao soltar", dormindo > 100 and acordados, f"{dormindo} artigos dormindo")
     b1 = await pg.locator("#barra-caneta").bounding_box()
