@@ -482,7 +482,8 @@ function painelImportarCaderno() {
           gravarLS("cadernos-locais", locais);
           await carregarQuestoes();
           res.innerHTML = `<p class="txt-ok" style="margin-top:12px">✓ "${esc(titulo)}" adicionado com ${r.questoes.length} questões. <a href="#/caderno/${esc(id)}" data-fechar>Abrir o caderno</a></p>`;
-          if (location.hash.startsWith("#/questoes")) telaQuestoes();
+          const pq = location.hash.match(/^#\/questoes\/(cadernos|pasta\/([^/]+))/);
+          if (pq) telaQuestoes(pq[2] || null);                  // atualiza a lista sem fechar o painel
           ok();
         };
       });

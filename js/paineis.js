@@ -150,8 +150,10 @@ function menuArtigo(art) {
   const fav = ehFavorito(idFavArt(id, art));
   const n = itens("anotacao", i => i.lei === id && i.art === art).length;
   const nq = questoesDoArtigo(id, art).length;
+  const nls = questoesLSdoArtigo(id, art).length;
   abrirPainel(`<h2>${esc(rotuloArt(art))} ${botaoFechar}</h2><div class="acoes">
     ${nq ? `<button data-href="#/questoes-artigo/${esc(id)}/${encodeURIComponent(art)}">📝 Resolver as questões deste artigo (${nq})</button>` : ""}
+    ${nls ? `<button id="m-ls">⚖️ Questões de lei seca deste artigo (${nls})</button>` : ""}
     <button id="m-ouvir">🔊 Ouvir a partir deste artigo</button>
     <button id="m-fav">${fav ? "★ Remover dos favoritos" : "☆ Favoritar o artigo"}</button>
     <button id="m-nota">Anotar o artigo</button>
@@ -160,6 +162,7 @@ function menuArtigo(art) {
     <button id="m-copiar">Copiar o artigo</button>
     ${navigator.share ? '<button id="m-compartilhar">Compartilhar o artigo</button>' : ""}
   </div>`);
+  if ($("#m-ls")) $("#m-ls").onclick = () => { fecharPainel(); resolverLSdoArtigo(id, art); };
   $("#m-fav").onclick = async () => {
     const lei = estado.leis[id];
     await alternarFavorito(idFavArt(id, art), { alvo: "artigo", lei: id, art, versao: lei.versao, hashArt: lei.artigos[art].hash });
@@ -588,4 +591,4 @@ function voltar() {
   location.hash = destino;
 }
 function paiDaLei(id) { const p = pastasDe("leis").find(x => (x.leis || []).includes(id)); return p ? `#/acervo/pasta/${p.id}` : "#/acervo"; }
-function paiDoCaderno(id) { const p = pastasDe("questoes").find(x => (x.cadernos || []).includes(id)); return p ? `#/questoes/pasta/${p.id}` : "#/questoes"; }
+function paiDoCaderno(id) { const p = pastasDe("questoes").find(x => (x.cadernos || []).includes(id)); return p ? `#/questoes/pasta/${p.id}` : "#/questoes/cadernos"; }

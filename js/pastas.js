@@ -7,8 +7,9 @@
    - Leis e cadernos: a pasta guarda a lista (leis[] / cadernos[]).
      Resumos: cada resumo guarda a sua pasta (r.pasta).
    ===================================================================== */
-const NOMES_AREA = { leis: "Leis", questoes: "Questões", resumos: "Resumos" };
-const campoPasta = area => (area === "questoes" ? "cadernos" : "leis");
+const NOMES_AREA = { leis: "Leis", questoes: "Questões", resumos: "Resumos", leiseca: "Lei Seca" };
+const areaDeCadernos = a => a === "questoes" || a === "leiseca";
+const campoPasta = area => (areaDeCadernos(area) ? "cadernos" : "leis");
 const pastaViva = p => !!p && p.tipo === "pasta" && !p.apagado && !p.lixeira;
 function paiDe(p) { const q = p.pai && estado.itens.get(p.pai); return pastaViva(q) ? p.pai : null; }
 const ordemPastas = (a, b) => (b.fixada ? 1 : 0) - (a.fixada ? 1 : 0) || a.nome.localeCompare(b.nome, "pt-BR", { numeric: true });
@@ -32,13 +33,13 @@ function caminhoPasta(id) {
 }
 const textoCaminho = id => caminhoPasta(id).map(p => p.nome).join(" › ");
 function rotaPastaArea(area, id) {
-  const base = { leis: "#/acervo", questoes: "#/questoes", resumos: "#/resumos" }[area];
+  const base = { leis: "#/acervo", questoes: "#/questoes/cadernos", resumos: "#/resumos", leiseca: "#/leiseca/listas" }[area];
   return id ? `${base}/pasta/${id}` : base;
 }
 function trilhaPasta(area, id) {
   const cam = caminhoPasta(id);
   if (!cam.length) return "";
-  const inicio = { leis: "Meu Acervo", questoes: "Questões", resumos: "Meus Resumos" }[area];
+  const inicio = { leis: "Meu Acervo", questoes: "Cadernos", resumos: "Meus Resumos", leiseca: "Minhas listas" }[area];
   return `<p class="trilha"><a href="${rotaPastaArea(area)}">${inicio}</a>${cam.map((p, k) => ` › ${k === cam.length - 1 ? esc(p.nome) : `<a href="${rotaPastaArea(area, p.id)}">${esc(p.nome)}</a>`}`).join("")}</p>`;
 }
 const voltarDaPasta = (area, id) => { const p = estado.itens.get(id); return rotaPastaArea(area, p ? paiDe(p) : null); };
@@ -56,9 +57,10 @@ function idsEmPastas(area) {
 }
 function itensDaPasta(area, pastaId) {
   if (area === "resumos") return resumosAtivos().filter(r => (pastaViva(estado.itens.get(r.pasta)) ? r.pasta : null) === (pastaId || null)).map(r => r.id);
-  if (!pastaId) { const em = idsEmPastas(area); return (area === "leis" ? idsAcervo() : Object.keys(estado.cadernos)).filter(id => !em.has(id)); }
+  const daArea = id => (area === "leiseca" ? ehListaLS(estado.cadernos[id]) : !ehListaLS(estado.cadernos[id]));
+  if (!pastaId) { const em = idsEmPastas(area); return (area === "leis" ? idsAcervo() : Object.keys(estado.cadernos).filter(daArea)).filter(id => !em.has(id)); }
   const p = estado.itens.get(pastaId);
-  const existe = area === "leis" ? id => noAcervo(id) : id => !!estado.cadernos[id];
+  const existe = area === "leis" ? id => noAcervo(id) : id => !!estado.cadernos[id] && daArea(id);
   return (p?.[campoPasta(area)] || []).filter(existe);
 }
 /* quantos itens há dentro (contando as subpastas) */
@@ -68,7 +70,7 @@ function totalNaPasta(area, id) {
 function rotuloQtd(area, id) {
   const subs = pastasDe(area, id).filter(p => !p.arquivada).length;
   const n = totalNaPasta(area, id);
-  const nome = { leis: "lei(s)", questoes: "caderno(s)", resumos: "arquivo(s)" }[area];
+  const nome = { leis: "lei(s)", questoes: "caderno(s)", resumos: "arquivo(s)", leiseca: "lista(s)" }[area];
   return `${n} ${nome}${subs ? ` · ${subs} subpasta(s)` : ""}`;
 }
 
@@ -119,7 +121,7 @@ async function pastaParaLixeira(id) {
     const itensDentro = itensDaPasta(area, pid);
     if (area === "resumos") for (const rid of itensDentro) await resumoParaLixeira(resumos.lista.get(rid), gid);
     if (area === "leis") for (const lei of itensDentro) await leiParaLixeira(lei, gid);
-    if (area === "questoes") for (const cid of itensDentro) await excluirCaderno(cid, gid);
+    if (areaDeCadernos(area)) for (const cid of itensDentro) await excluirCaderno(cid, gid);
   }
   for (const pid of todas) { const q = estado.itens.get(pid); await salvarItem({ ...q, lixeira: { em, grupo: gid, ...(pid === id ? { topo: true } : {}) } }); }
   if (area === "resumos") resumos.textos = null;
@@ -130,7 +132,7 @@ async function pastaParaLixeira(id) {
 async function alternarFixarPasta(id) { const p = estado.itens.get(id); p.fixada = !p.fixada; await salvarItem(p); }
 async function alternarArquivarPasta(id) {
   const p = estado.itens.get(id);
-  if ((p.area || "leis") === "questoes") return arquivarPasta(id, !p.arquivada);   // tira dos outros usuários, se for o dono
+  if (areaDeCadernos(p.area || "leis")) return arquivarPasta(id, !p.arquivada);   // tira dos outros usuários, se for o dono
   if (p.area === "resumos" && !p.arquivada) await tirarDoArSeDono([], id);
   const q = estado.itens.get(id);                                      // (pode ter mudado ao sair do app dos outros)
   await salvarItem({ ...q, arquivada: !q.arquivada, arquivadaEm: q.arquivada ? null : agoraISO() });
@@ -171,7 +173,7 @@ function menuPasta(id, depois = () => rotear()) {
   if (!p) return;
   const area = p.area || "leis";
   const n = totalNaPasta(area, id), subs = descendentes(id).length;
-  const doApp = area === "questoes" && !cfgDono() && [id, ...descendentes(id)].some(pid => itensDaPasta(area, pid).some(c => !estado.cadernos[c]?.local));
+  const doApp = areaDeCadernos(area) && !cfgDono() && [id, ...descendentes(id)].some(pid => itensDaPasta(area, pid).some(c => !estado.cadernos[c]?.local));
   abrirPainel(`<h2>📁 ${esc(p.nome)} ${botaoFechar}</h2>
     ${caminhoPasta(id).length > 1 ? `<p class="contagem" style="margin-top:0">Em: ${esc(caminhoPasta(id).slice(0, -1).map(x => x.nome).join(" › "))}</p>` : ""}
     <div class="acoes">
@@ -186,7 +188,7 @@ function menuPasta(id, depois = () => rotear()) {
       <button id="pu-lixeira" style="color:var(--alt)">🗑 Mandar a pasta e tudo o que está dentro para a lixeira</button>
     </div>
     <p class="contagem">${area === "leis" ? "Na lixeira, a pasta e as leis dela ficam 30 dias e voltam juntas ao restaurar (as leis são baixadas de novo). Suas marcações nunca são apagadas."
-      : area === "questoes" ? (cfgDono() ? "Pasta arquivada ou excluída: os cadernos dela deixam de aparecer para os outros usuários." : doApp ? "Cadernos do app (publicados pelo dono) não vão para a lixeira: ficam arquivados para você." : "Na lixeira, tudo fica 30 dias e volta junto ao restaurar.")
+      : areaDeCadernos(area) ? (cfgDono() ? "Pasta arquivada ou excluída: os cadernos dela deixam de aparecer para os outros usuários." : doApp ? "Cadernos do app (publicados pelo dono) não vão para a lixeira: ficam arquivados para você." : "Na lixeira, tudo fica 30 dias e volta junto ao restaurar.")
       : "Na lixeira, a pasta e os arquivos ficam 30 dias e voltam juntos ao restaurar."}</p>`);
   $("#pu-sub").onclick = async () => { const s = await novaPasta(area, id); if (s) { fecharPainel(); location.hash = rotaPastaArea(area, id); rotear(); } };
   $("#pu-renomear").onclick = async () => {

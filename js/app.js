@@ -16,6 +16,8 @@ document.addEventListener("click", async e => {
   if (abrir) { location.hash = "#/lei/" + abrir.dataset.abrir; return; }
   const mp = t.closest("[data-menu-pasta]");
   if (mp) { menuPasta(mp.dataset.menuPasta, () => rotear()); return; }
+  const ml = t.closest("[data-menu-lista-ls], [data-lista-ls]");
+  if (ml) { menuListaLS(ml.dataset.menuListaLs || ml.dataset.listaLs); return; }
   const mc = t.closest("[data-menu-cad]");
   if (mc) { menuCaderno(mc.dataset.menuCad); return; }
   const iq = t.closest("[data-ir-q]");
@@ -103,7 +105,13 @@ async function rotearTela() {
   if (partes[0] === "alteracoes" && partes[1]) return telaAlteracoes(partes[1]);
   if (partes[0] === "pesquisar") return telaPesquisar();
   if (partes[0] === "questoes" && partes[1] === "arquivados") return telaQuestoesArquivadas();
-  if (partes[0] === "questoes") return telaQuestoes(partes[1] === "pasta" ? partes[2] : null);
+  if (partes[0] === "questoes" && partes[1] === "pasta") return telaQuestoes(partes[2]);
+  if (partes[0] === "questoes" && partes[1] === "cadernos") return telaQuestoes(null);
+  if (partes[0] === "questoes") return telaEntradaQuestoes();
+  if (partes[0] === "leiseca" && partes[1] === "listas") return telaListasLS(partes[2] === "pasta" ? partes[3] : null);
+  if (partes[0] === "leiseca" && partes[1] === "arquivadas") return telaListasArquivadasLS();
+  if (partes[0] === "leiseca" && partes[1] === "resolver") return telaResolverLS();
+  if (partes[0] === "leiseca") return telaFiltroLS();
   if (partes[0] === "estatisticas") return telaEstatisticasGerais();
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
   if (partes[0] === "questoes-artigo" && partes[2]) return telaCaderno("artigo", partes[1] + "|" + partes[2], "questoes");

@@ -22,7 +22,9 @@ async function gravarNoCache(caminho, obj) {
 }
 function cadernoParaPublicar(c) {
   const { local, publicado, tituloOriginal, ...resto } = c;
-  return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), questoes: c.questoes.map(({ caderno, ...q }) => q) };
+  const extra = ehListaLS(c) ? { caminho: caminhoDaLista(c), titulo: c.titulo } : {};          // lei seca: assunto e subassunto vão junto
+  return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), ...extra,
+    questoes: c.questoes.map(({ caderno, assuntoLS, subassuntoLS, ...q }) => q) };
 }
 /* ligar: o caderno passa a aparecer para todos */
 async function publicarCaderno(id, aviso) {
@@ -36,7 +38,7 @@ async function publicarCaderno(id, aviso) {
   await p.enviar(caminho, new TextEncoder().encode(texto), lista.get(caminho));
   const indice = await lerIndiceRemoto(p, lista);
   indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
-  indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto) });
+  indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}) });
   aviso && aviso("Atualizando a lista de cadernos…");
   await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
   await gravarNoCache(caminho, dados); await gravarNoCache("dados/questoes/indice.json", indice);
@@ -50,7 +52,7 @@ async function despublicarCaderno(id, aviso) {
   const url = `dados/questoes/local/${id}.json`;
   await gravarNoCache(url, cadernoParaPublicar(c));                 // primeiro garante a sua cópia
   const locais = lerLS("cadernos-locais", []).filter(x => x.id !== id);
-  locais.push({ id, titulo: c.tituloOriginal || c.titulo, materia: c.materia, url, qtd: c.questoes.length, atualizadoEm: agoraISO() });
+  locais.push({ id, titulo: c.tituloOriginal || c.titulo, materia: c.materia, url, qtd: c.questoes.length, atualizadoEm: agoraISO(), ...(c.plataforma ? { plataforma: c.plataforma } : {}) });
   gravarLS("cadernos-locais", locais);
   const p = provedorDono(); await p.preparar();
   const lista = await p.listar();
@@ -171,10 +173,10 @@ function ligarSecaoDono() {
 
 /* ---------- tela de cadernos e pastas arquivados ---------- */
 function telaQuestoesArquivadas() {
-  definirTopo({ titulo: "📦 Arquivados", voltar: "#/questoes" });
+  definirTopo({ titulo: "📦 Arquivados", voltar: "#/questoes/cadernos" });
   marcarAba("questoes");
   const pastas = pastasDe("questoes").filter(p => p.arquivada);
-  const cads = Object.values(estado.cadernos).filter(c => cadernoArquivado(c.id));
+  const cads = cadernosTradicionais().filter(c => cadernoArquivado(c.id));
   let h = `<div class="secao"><p class="contagem" style="margin-top:0">Cadernos e pastas arquivados não aparecem na tela de Questões${cfgDono() ? " nem para os outros usuários" : ""}. Use o ⋯ para desarquivar.</p></div><ul class="acervo">`;
   for (const p of pastas) h += linhaPasta(p, rotuloQtd("questoes", p.id), "", `#/questoes/pasta/${p.id}`);
   for (const c of cads) h += `<li class="lei-item"><span class="aba"></span><button class="abrir" data-href="#/caderno/${esc(c.id)}"><span class="lei-nome">${esc(c.titulo)}</span>

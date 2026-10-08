@@ -1,8 +1,8 @@
 /* Service worker: guarda a "casca" do app para abrir sem internet.
    Os dados das leis são controlados pela própria página (só baixa o que mudou). */
-const VERSAO = "casca-v52";
+const VERSAO = "casca-v54";
 const CASCA = ["./", "index.html", "manifest.webmanifest", "icone-180.png", "icone-512.png", "css/app.css",
-  "js/base.js", "js/pastas.js", "js/telas.js", "js/questoes.js", "js/paineis.js", "js/caneta.js", "js/resumos.js", "js/extras.js", "js/sync.js", "js/arquivos.js", "js/lixeira.js", "js/pdflei.js", "js/dono.js", "js/compartilhar.js", "js/app.js"];
+  "js/base.js", "js/pastas.js", "js/telas.js", "js/questoes.js", "js/paineis.js", "js/caneta.js", "js/resumos.js", "js/extras.js", "js/leiseca.js", "js/sync.js", "js/arquivos.js", "js/lixeira.js", "js/pdflei.js", "js/dono.js", "js/compartilhar.js", "js/app.js"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSAO).then(c => c.addAll(CASCA)).then(() => self.skipWaiting()));

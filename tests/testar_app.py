@@ -218,7 +218,7 @@ async def testes(b):
     confere("Texto para ouvir a lei é preparado", fala.startswith("Artigo 112"), fala[:40])
 
     # 7) Questões: resolver e importar caderno de PDF
-    await pg.goto(U + "#/questoes"); await pg.wait_for_timeout(1500)
+    await pg.goto(U + "#/questoes/cadernos"); await pg.wait_for_timeout(1500)
     await pg.click("#importar-caderno"); await pg.set_input_files("#impq-arq", os.path.join(FIX, "caderno-teste.pdf"))
     await pg.wait_for_selector("#impq-salvar", timeout=60000)
     previa = await pg.inner_text("#impq-res")
@@ -300,7 +300,9 @@ async def testes(b):
     await pg6.evaluate("alternarCaneta(false)")
     await pg6.goto(U + "#/questoes"); await pg6.wait_for_timeout(1200)
     ok_q = await pg6.evaluate("document.documentElement.scrollWidth") <= 390
-    confere("Celular: leitura, caneta e questões cabem na tela", ok_lei and ok_q)
+    await pg6.goto(U + "#/leiseca"); await pg6.wait_for_timeout(800)
+    ok_ls = await pg6.evaluate("document.documentElement.scrollWidth") <= 390
+    confere("Celular: leitura, caneta e questões cabem na tela", ok_lei and ok_q and ok_ls, [ok_lei, ok_q, ok_ls])
     await ctx6.close()
 
     # 11) Boas-vindas na primeira abertura (e no modo claro, mesmo com o aparelho no escuro)
@@ -429,7 +431,7 @@ async def testes(b):
     github_falso.ARQUIVOS["dados/questoes/indice.json"] = json.dumps({"cadernos": []}).encode()
     ctx12, pg12 = await novo_aparelho(b)
     await pg12.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}')); localStorage.setItem('dono-config', JSON.stringify({{repo:'Erivelton94/leitor-legislacao', token:'{github_falso.TOKEN}'}}))")
-    await pg12.goto(U + "#/questoes"); await pg12.wait_for_timeout(1500)
+    await pg12.goto(U + "#/questoes/cadernos"); await pg12.wait_for_timeout(1500)
     await pg12.click("#importar-caderno"); await pg12.set_input_files("#impq-arq", os.path.join(FIX, "caderno-teste.pdf"))
     await pg12.wait_for_selector("#impq-salvar", timeout=60000); await pg12.click("#impq-salvar"); await pg12.wait_for_timeout(1200); await pg12.evaluate("fecharPainel()")
     cid = await pg12.evaluate("Object.values(estado.cadernos).find(c=>c.local).id")
@@ -443,7 +445,7 @@ async def testes(b):
     await pg12.goto(U + "#/questoes/arquivados"); await pg12.wait_for_timeout(800)
     confere("Arquivar caderno: some da lista e aparece em Arquivados", some and await pg12.locator(f"[data-menu-cad='{cid}']").count() == 1)
     await pg12.evaluate(f"(async()=>{{ await arquivarCaderno('{cid}', false); const p = await salvarItem({{id:'pq1', tipo:'pasta', area:'questoes', nome:'Teste', leis:[], cadernos:['{cid}']}}); }})()")
-    await pg12.goto(U + "#/questoes"); await pg12.wait_for_timeout(800)
+    await pg12.goto(U + "#/questoes/cadernos"); await pg12.wait_for_timeout(800)
     await pg12.click("[data-menu-pasta='pq1']"); await pg12.click("#pu-lixeira"); await pg12.wait_for_timeout(1500)
     confere("Excluir pasta de questões leva os cadernos para a lixeira", await pg12.evaluate(f"!estado.cadernos['{cid}'] && itensDaLixeira().cads.length === 1"))
     await ctx12.close()
@@ -503,10 +505,10 @@ async def testes(b):
     blocos = await p13.evaluate("blocosDoResumo(resumos.lista.get('r1')).map(b=>b.partes.join(' | '))")
     confere("Ouvir resumo: texto dividido em frases para ler", len(blocos) == 2 and "Matar alguém. | Pena de seis a vinte anos." in blocos[0], blocos)
     # questões: subpasta e mover vários de uma vez
-    await p13.goto(U + "#/questoes"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(1500)
+    await p13.goto(U + "#/questoes/cadernos"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(1500)
     cads = await p13.evaluate("Object.keys(estado.cadernos).slice(0,2)")
     qp = await p13.evaluate("(async()=>{ const a = await novaPasta('questoes', null, 'PCPE'); const s = await novaPasta('questoes', a.id, 'Penal'); return [a.id, s.id]; })()")
-    await p13.goto(U + "#/questoes"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(800)
+    await p13.goto(U + "#/questoes/cadernos"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(800)
     await p13.click("#selecionar-lista")
     for c in cads: await p13.click(f"[data-sel-id='{c}']")
     await p13.click("[data-sel-l=mover]"); await p13.click(f"#painel-caixa [data-dest='{qp[1]}']"); await p13.wait_for_timeout(800)
@@ -517,8 +519,10 @@ async def testes(b):
     await ctx13.close()
 
     # 14) Resumos compartilhados pelo dono: ligar, outro usuário copia, desligar
-    import shutil
     pasta_pub = os.path.join(RAIZ, "dados", "resumos")
+    ja_existiam = set(os.listdir(pasta_pub)) if os.path.isdir(pasta_pub) else set()     # resumos já compartilhados de verdade: não mexer
+    indice_real = open(os.path.join(pasta_pub, "indice.json"), "rb").read() if "indice.json" in ja_existiam else None
+    criados = []
     ctx14, d14 = await novo_aparelho(b)
     try:
         await d14.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}')); localStorage.setItem('dono-config', JSON.stringify({{repo:'Erivelton94/leitor-legislacao', token:'{github_falso.TOKEN}'}}))")
@@ -537,7 +541,9 @@ async def testes(b):
         # outro usuário (sem chave de dono) vê e copia
         os.makedirs(pasta_pub, exist_ok=True)
         for c, v in github_falso.ARQUIVOS.items():
-            if c.startswith("dados/resumos/"): open(os.path.join(RAIZ, c), "wb").write(v)
+            if c.startswith("dados/resumos/"):
+                open(os.path.join(RAIZ, c), "wb").write(v)
+                if os.path.basename(c) not in ja_existiam or c.endswith("indice.json"): criados.append(os.path.join(RAIZ, c))
         ctx15, u15 = await novo_aparelho(b)
         await u15.goto(U + "#/resumos"); await u15.evaluate("rotear()"); await u15.wait_for_timeout(1500)
         tile = await u15.locator(".tile-compartilhados").count()
@@ -573,8 +579,74 @@ async def testes(b):
         confere("iPad: “Escolher no Google Drive” abre a janela de arquivos do iPad (vários de uma vez)", not ipad["token"] and ipad["aberto"] and ipad["aberto"]["multi"], ipad)
         confere("Nenhum erro de programa no compartilhamento", not d14.erros, d14.erros[:3])
     finally:
-        shutil.rmtree(pasta_pub, ignore_errors=True)
+        for c in criados:
+            if os.path.basename(c) in ja_existiam: continue
+            try: os.remove(c)
+            except OSError: pass
+        if indice_real is not None: open(os.path.join(pasta_pub, "indice.json"), "wb").write(indice_real)
+        elif os.path.isdir(pasta_pub) and not os.listdir(pasta_pub): os.rmdir(pasta_pub)
         await ctx14.close()
+
+    # 15) Questões de Lei Seca (Verdadeiro ou Falso): entrada, listas em pastas, filtro, resolver ligado à lei
+    ctx16, p16 = await novo_aparelho(b)
+    await p16.goto(U + "#/questoes"); await p16.evaluate("rotear()"); await p16.wait_for_timeout(1500)
+    confere("Questões: entrada com Lei Seca e Cadernos", await p16.locator(".cartao-plataforma").count() == 2)
+    pastas_ls = await p16.evaluate("(async()=>{ const a = await novaPasta('leiseca', null, 'Crimes contra a Pessoa'); const s = await novaPasta('leiseca', a.id, 'Homicídio'); return [a.id, s.id]; })()")
+    await p16.goto(U + f"#/leiseca/listas/pasta/{pastas_ls[1]}"); await p16.wait_for_timeout(800)
+    await p16.click("#importar-lista-ls"); await p16.set_input_files("#ls-arq", os.path.join(FIX, "leiseca-teste.pdf"))
+    await p16.wait_for_selector("#ls-salvar", timeout=60000); await p16.click("#ls-salvar"); await p16.wait_for_timeout(1500); await p16.evaluate("fecharPainel()")
+    lista = await p16.evaluate("""(()=>{ const c = Object.values(estado.cadernos).find(x => x.plataforma === 'leiseca'); const Q = Object.fromEntries(c.questoes.map(q => [q.numero, q]));
+        return { n: c.questoes.length, pasta: pastaDoItem('leiseca', c.id), json: JSON.stringify(c),
+          q1: [Q[1].gabarito, Q[1].banca, Q[1].ano, Q[1].cargo, Q[1].instituicao, Q[1].refs.map(r => r.lei + ' ' + r.art + ' ' + r.disp)],
+          q2: [Q[2].gabarito, Q[2].banca, Q[2].cargo, Q[2].instituicao, Q[2].refs.map(r => r.lei + ' ' + r.art)],
+          q3: [Q[3].banca], q4: [Q[4].refs.map(r => r.art), Q[4].enunciado.join(' '), Q[4].resolucao[0]] }; })()""")
+    confere("Lei Seca: lê a lista em PDF (4 questões, gabarito, banca, cargo, instituição e artigos)", lista["n"] == 4 and lista["pasta"] == pastas_ls[1]
+        and lista["q1"] == ["E", "FGV", "2026", "Delegado de Polícia", "PC-PI", ["codigo-penal 121 § 1º"]]
+        and lista["q2"] == ["C", "CESPE/CEBRASPE", "Técnico Judiciário - Agente da Polícia Judicial", "STM", ["codigo-penal 121", "ctb 305"]]
+        and lista["q4"][0] == ["124", "126", "127"], {k: lista[k] for k in ("n", "q1", "q2", "q4")})
+    confere("Lei Seca: sem rodapé nem nome da fonte; palavras partidas consertadas", "http" not in lista["json"] and "ecorando" not in lista["json"] and "Página" not in lista["json"]
+        and lista["q3"] == ["Questão inédita"] and "artigo 124" in lista["q4"][1] and "aborto provocado" in lista["q4"][1] and lista["q4"][2].startswith("Aborto provocado"), [lista["q3"], lista["q4"][1:]])
+    await p16.goto(U + "#/leiseca"); await p16.wait_for_timeout(800)
+    total_btn = await p16.inner_text("#ls-filtrar")
+    await p16.click("[data-campo=bancas]"); await p16.click(".opcao-ls input[value='FGV']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
+    uma = await p16.inner_text("#ls-filtrar")
+    await p16.click("#ls-limpar"); await p16.click("[data-campo=assuntos]")
+    assuntos = await p16.evaluate("[...document.querySelectorAll('.opcao-ls input')].map(i=>i.value)")
+    await p16.evaluate("fecharPainel()"); await p16.click("[data-campo=artigos]")
+    artigos = await p16.evaluate("[...document.querySelectorAll('.opcao-ls span:nth-child(2)')].map(s=>s.textContent)")
+    await p16.click(".opcao-ls input[value='codigo-penal|121']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
+    so121 = await p16.inner_text("#ls-filtrar")
+    confere("Filtro: quantidade ao vivo, assunto vindo da pasta, artigo e banca", "(4)" in total_btn and "(1)" in uma and "(2)" in so121 and assuntos == ["Crimes contra a Pessoa"]
+        and "Art. 121 — CP" in artigos and "Art. 305 — CTB" in artigos, [total_btn, uma, so121, assuntos, artigos[:4]])
+    await p16.click("#ls-salvar-filtro"); await p16.wait_for_timeout(400)
+    confere("Salvar filtro", await p16.evaluate("itens('filtro-ls').length === 1"))
+    await p16.click("#ls-filtrar"); await p16.wait_for_timeout(800)
+    no_resolver = "/leiseca/resolver" in p16.url and await p16.locator(".vf-btn").count() == 2
+    await p16.click("[data-vf=E]"); await p16.wait_for_timeout(500)
+    res = await p16.evaluate("[document.querySelector('.res-q')?.textContent || '', !!document.querySelector('.resolucao-ls'), itens('resposta').length]")
+    confere("Resolver: Verdadeiro/Falso, resultado, resolução e resposta guardada", no_resolver and "acertou" in res[0] and res[1] and res[2] == 1, res)
+    await p16.click(".resolucao-ls [data-ref='0']"); await p16.wait_for_timeout(1200)
+    destaque = await p16.evaluate("[...document.querySelectorAll('#painel-caixa .destaque-ls')].map(p=>p.textContent.slice(0,12))")
+    confere("Resolução liga ao artigo da lei com o parágrafo destacado", destaque and destaque[0].startswith("§ 1") and not any(d.startswith("Homic") for d in destaque), destaque)
+    await p16.evaluate("fecharPainel()")
+    await p16.goto(U + "#/lei/codigo-penal/121"); await p16.wait_for_timeout(2500)
+    await p16.evaluate("menuArtigo('121')"); await p16.wait_for_timeout(300)
+    btn_ls = await p16.inner_text("#m-ls") if await p16.locator("#m-ls").count() else ""
+    await p16.click("#m-ls"); await p16.wait_for_timeout(800)
+    sessao_art = await p16.evaluate("lerLS('sessao-ls',{}).ids.length")
+    confere("Na lei: “Questões de lei seca deste artigo” abre só as do artigo", "(2)" in btn_ls and sessao_art == 2, [btn_ls, sessao_art])
+    await p16.goto(U + "#/questoes/cadernos"); await p16.wait_for_timeout(800)
+    confere("Cadernos tradicionais não mostram as listas de lei seca", await p16.evaluate("![...document.querySelectorAll('[data-href^=\"#/caderno/\"]')].some(b => b.dataset.href.includes('ls-'))"))
+    await p16.evaluate(f"localStorage.setItem('sync-api-base', JSON.stringify('http://localhost:{PORTA + 1}')); localStorage.setItem('dono-config', JSON.stringify({{repo:'Erivelton94/leitor-legislacao', token:'{github_falso.TOKEN}'}}))")
+    lid = await p16.evaluate("Object.values(estado.cadernos).find(x => x.plataforma === 'leiseca').id")
+    await p16.evaluate(f"publicarCaderno('{lid}')"); await p16.wait_for_timeout(1500)
+    idx_q = json.loads(github_falso.ARQUIVOS.get("dados/questoes/indice.json", b"{}"))
+    pub = json.loads(github_falso.ARQUIVOS.get(f"dados/questoes/{lid}.json", b"{}"))
+    entrada = next((x for x in idx_q.get("cadernos", []) if x["id"] == lid), {})
+    confere("Lista de lei seca visível para outros usuários (com assunto e subassunto)", entrada.get("plataforma") == "leiseca" and pub.get("caminho") == ["Crimes contra a Pessoa", "Homicídio"], [entrada.get("plataforma"), pub.get("caminho")])
+    await p16.evaluate(f"despublicarCaderno('{lid}')"); await p16.wait_for_timeout(1200)
+    confere("Nenhum erro de programa na Lei Seca", not p16.erros, p16.erros[:3])
+    await ctx16.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])

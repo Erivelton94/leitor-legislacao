@@ -81,7 +81,7 @@ const idNotaQ = qid => `nq|${qid}`;
 function provaQ(q) { return [q.banca, q.ano, [q.cargo, q.orgao, q.area].filter(Boolean).join(" · ")].join(" — "); }
 function rotuloVinculo(v) { return v.de === v.ate ? `art. ${v.de}` : `arts. ${v.de} a ${v.ate}`; }
 function questoesDoArtigo(leiId, art) {
-  return [...estado.q.values()].filter(q => q.vinculo && q.vinculo.lei === leiId &&
+  return [...estado.q.values()].filter(q => !q.plataforma && q.vinculo && q.vinculo.lei === leiId &&
     compararArtigos(q.vinculo.de, art) <= 0 && compararArtigos(art, q.vinculo.ate) <= 0);
 }
 
@@ -110,10 +110,10 @@ function listaFiltrada(s, mapa) {
 /* ---------- tela inicial de Questões (pastas em lista) ---------- */
 function telaQuestoes(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
-  if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes"; return; }
-  definirTopo({ titulo: pasta ? pasta.nome : "Questões", voltar: pasta ? voltarDaPasta("questoes", pastaId) : null });
+  if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes/cadernos"; return; }
+  definirTopo({ titulo: pasta ? pasta.nome : "Cadernos de questões", voltar: pasta ? voltarDaPasta("questoes", pastaId) : "#/questoes" });
   marcarAba("questoes");
-  const cads = Object.values(estado.cadernos);
+  const cads = cadernosTradicionais();
   if (!cads.length) {
     $("#conteudo").innerHTML = `<div class="vazio">
       <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
