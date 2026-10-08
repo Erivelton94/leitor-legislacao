@@ -253,7 +253,7 @@ function telaListasLS(pastaId = null) {
   const listas = listasLS().filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id)).sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
   const nArq = listasLS().filter(c => cadernoArquivado(c.id)).length + pastasDe(PLATAFORMA_LS).filter(p => p.arquivada).length;
   const mapa = mapaRespostas();
-  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta(PLATAFORMA_LS, pastaId) : `<p class="contagem" style="margin-top:0">As pastas viram o <strong>Assunto</strong> e as subpastas o <strong>SubAssunto</strong> no filtro de questões. Importe as listas em PDF dentro da pasta certa.</p>`}
+  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta(PLATAFORMA_LS, pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira o <strong>Código/Lei</strong>, a subpasta vira o <strong>Assunto</strong> e cada arquivo enviado vira o <strong>SubAssunto</strong>. Importe as listas em PDF dentro da subpasta certa.</p>`}
     <div class="acoes-linha">
       <button class="botao primario" id="importar-lista-ls">📥 Importar lista (PDF)</button>
       <button class="botao" id="nova-pasta-ls">+ Nova ${pasta ? "subpasta" : "pasta"}</button>
@@ -264,7 +264,7 @@ function telaListasLS(pastaId = null) {
   for (const p of pastas) h += linhaPasta(p, rotuloQtd(PLATAFORMA_LS, p.id), "", rotaPastaArea(PLATAFORMA_LS, p.id));
   for (const c of listas) h += linhaListaLS(c, mapa);
   h += "</ul>";
-  if (!listas.length && !pastas.length) h += `<p class="vazio">${pasta ? "Pasta vazia. Importe uma lista para cá ou crie uma subpasta." : "Nenhuma lista ainda. Crie as pastas (assuntos) e importe as listas em PDF."}</p>`;
+  if (!listas.length && !pastas.length) h += `<p class="vazio">${pasta ? "Pasta vazia. Importe uma lista para cá ou crie uma subpasta." : "Nenhuma lista ainda. Crie a pasta principal (Código/Lei), a subpasta (Assunto) e importe as listas em PDF."}</p>`;
   $("#conteudo").innerHTML = h;
   $("#importar-lista-ls").onclick = () => painelImportarListaLS(pastaId || null);
   $("#nova-pasta-ls").onclick = async () => { if (await novaPasta(PLATAFORMA_LS, pastaId || null)) telaListasLS(pastaId); };
@@ -380,17 +380,18 @@ function baseLS() {
   const out = [];
   for (const c of listasLS()) {
     if (cadernoArquivado(c.id)) continue;
+    // Código/Lei = pasta principal · Assunto = subpasta · SubAssunto = o arquivo (a lista) enviado
     const cam = caminhoDaLista(c);
-    const assunto = cam[0] || c.titulo, sub = cam.slice(1).join(" › ");
-    for (const q of c.questoes) { q.caderno = c.id; q.assuntoLS = assunto; q.subassuntoLS = sub; out.push(q); }
+    const pasta = cam[0] || "Fora das pastas", assunto = cam.slice(1).join(" › ");
+    for (const q of c.questoes) { q.caderno = c.id; q.pastaLS = pasta; q.assuntoLS = assunto; q.subassuntoLS = c.titulo; out.push(q); }
   }
   return out;
 }
 const leisDaQuestao = q => [...new Set((q.refs || []).map(r => r.lei).filter(Boolean))];
 const artigosDaQuestao = q => (q.refs || []).filter(r => r.lei).map(r => r.lei + "|" + r.art);
 const CAMPOS_LS = [
-  ["leis", "Código/Lei", q => leisDaQuestao(q), v => nomeLei(v)],
-  ["assuntos", "Assunto", q => [q.assuntoLS], v => v],
+  ["leis", "Código/Lei", q => [q.pastaLS], v => v],
+  ["assuntos", "Assunto", q => (q.assuntoLS ? [q.assuntoLS] : []), v => v],
   ["subassuntos", "SubAssunto", q => (q.subassuntoLS ? [q.subassuntoLS] : []), v => v],
   ["artigos", "Artigo", q => artigosDaQuestao(q), v => { const [l, a] = v.split("|"); return `${rotuloArt(a)} — ${siglaOuNome(l)}`; }],
   ["anos", "Ano", q => (q.ano ? [q.ano] : []), v => v],
@@ -444,11 +445,11 @@ function telaFiltroLS() {
     <div class="cab-ls">
       <h2 class="titulo-ls">Filtro de questões</h2>
       <div class="acoes-linha"><a class="botao" href="#/leiseca/listas" style="text-decoration:none">📁 Minhas listas</a>
+        <button class="botao" id="ls-salvos">⭐ Filtros salvos${salvos.length ? ` (${salvos.length})` : ""}</button>
         ${lerLS("sessao-ls", null) ? '<a class="botao" href="#/leiseca/resolver" style="text-decoration:none">▶️ Continuar de onde parei</a>' : ""}</div>
     </div>
-    ${!base.length ? `<div class="aviso">Ainda não há questões. Em <a href="#/leiseca/listas">📁 Minhas listas</a>, crie as pastas (assuntos) e importe as listas em PDF.</div>` : `<p class="contagem">${base.length} questões · ${e.respostas} respostas · ${e.respostas ? `<span class="txt-ok">${e.acertosTotal} acertos</span> e <span class="txt-erro">${e.errosTotal} erros</span> (${e.pctTotal}%)` : "nenhuma respondida ainda"}</p>`}
+    ${!base.length ? `<div class="aviso">Ainda não há questões. Em <a href="#/leiseca/listas">📁 Minhas listas</a>, crie as pastas (ex.: Código Penal), as subpastas (ex.: Crimes contra a Pessoa) e importe as listas em PDF.</div>` : `<p class="contagem">${base.length} questões · ${e.respostas} respostas · ${e.respostas ? `<span class="txt-ok">${e.acertosTotal} acertos</span> e <span class="txt-erro">${e.errosTotal} erros</span> (${e.pctTotal}%)` : "nenhuma respondida ainda"}</p>`}
     <div class="grade-filtro">
-      <select class="campo sel-ls" id="ls-salvo"><option value="">Selecione um filtro salvo</option>${salvos.map(s => `<option value="${esc(s.id)}">${esc(s.nome)}</option>`).join("")}</select>
       ${CAMPOS_LS.map(c => `<button class="campo sel-ls ${f[c[0]].length ? "ativo" : ""}" data-campo="${c[0]}"><span>${esc(rotSel(c))}</span><span class="seta">▾</span></button>`).join("")}
     </div>
     <div class="linha-chips"><span>Comentários:</span>${chip("comentarios", "todos", "Todos")}${chip("comentarios", "meus", "Meus comentários")}${chip("comentarios", "anotacoes", "Minhas anotações na lei")}</div>
@@ -456,22 +457,17 @@ function telaFiltroLS() {
     <div class="linha-chips"><span>Modo:</span>${chip("modo", "aleatorio", "Aleatório")}${chip("modo", "ordenado", "Ordenado")}</div>
     <div class="rodape-filtro">
       <button class="link-acao" id="ls-salvar-filtro">💾 Salvar filtro</button>
-      ${salvos.length ? '<button class="link-acao" id="ls-apagar-salvo">🗑 Apagar um filtro salvo</button>' : ""}
       <button class="link-acao perigo" id="ls-limpar">✕ Limpar filtro</button>
       <button class="botao primario btn-filtrar" id="ls-filtrar" ${qtd ? "" : "disabled"}>Filtrar questões (${qtd})</button>
     </div></div>`;
   $$("[data-campo]").forEach(b => b.onclick = () => painelCampoLS(b.dataset.campo));
   $$("[data-chip]").forEach(b => b.onclick = () => { const g = filtroLS(); g[b.dataset.chip] = b.dataset.v; gravarFiltroLS(g); telaFiltroLS(); });
   $("#ls-limpar").onclick = () => { gravarFiltroLS({ ...FILTRO_LS_VAZIO, modo: f.modo }); telaFiltroLS(); };
-  $("#ls-salvo").onchange = e => { const s = estado.itens.get(e.target.value); if (s) { gravarFiltroLS({ ...FILTRO_LS_VAZIO, ...s.filtro }); telaFiltroLS(); mostrarAvisoRapido(`Filtro "${s.nome}" aplicado`); } };
+  $("#ls-salvos").onclick = () => painelFiltrosSalvosLS();
   $("#ls-salvar-filtro").onclick = async () => {
     const nome = prompt("Nome do filtro (ex.: Homicídio — FGV e CESPE):"); if (!nome || !nome.trim()) return;
     await salvarItem({ id: "filtro-ls|" + uid().slice(0, 8), tipo: "filtro-ls", nome: nome.trim(), filtro: filtroLS() });
     telaFiltroLS(); mostrarAvisoRapido("💾 Filtro salvo");
-  };
-  if ($("#ls-apagar-salvo")) $("#ls-apagar-salvo").onclick = () => {
-    abrirPainel(`<h2>Apagar filtro salvo ${botaoFechar}</h2><div class="acoes">${salvos.map(s => `<button data-apagar-filtro="${esc(s.id)}">🗑 ${esc(s.nome)}</button>`).join("")}</div>`);
-    $$("[data-apagar-filtro]").forEach(b => b.onclick = async () => { await apagarItem(b.dataset.apagarFiltro); fecharPainel(); telaFiltroLS(); });
   };
   $("#ls-filtrar").onclick = () => {
     const g = filtroLS(), m = mapaRespostas();
@@ -479,6 +475,24 @@ function telaFiltroLS() {
     if (g.modo === "aleatorio") for (let i = lista.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [lista[i], lista[j]] = [lista[j], lista[i]]; }
     iniciarSessaoLS(lista, "Questões filtradas");
   };
+}
+/* filtros salvos: aplicar com um toque, ou apagar */
+function painelFiltrosSalvosLS() {
+  const salvos = itens("filtro-ls").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const base = baseLS(), mapa = mapaRespostas();
+  abrirPainel(`<h2>⭐ Filtros salvos ${botaoFechar}</h2>
+    ${salvos.length ? `<ul class="lista-salvos-ls">${salvos.map(sv => `<li><button class="aplicar-salvo" data-aplicar-filtro="${esc(sv.id)}"><strong>${esc(sv.nome)}</strong>
+        <span class="contagem">${base.filter(q => passaFiltroLS(q, { ...FILTRO_LS_VAZIO, ...sv.filtro }, mapa)).length} questões</span></button>
+        <button class="icone-btn" data-apagar-filtro="${esc(sv.id)}" aria-label="Apagar o filtro ${esc(sv.nome)}">🗑</button></li>`).join("")}</ul>`
+      : '<p class="contagem">Nenhum filtro salvo ainda. Monte o filtro e toque em “💾 Salvar filtro”.</p>'}`);
+  $$("[data-aplicar-filtro]").forEach(b => b.onclick = () => {
+    const sv = estado.itens.get(b.dataset.aplicarFiltro);
+    gravarFiltroLS({ ...FILTRO_LS_VAZIO, ...sv.filtro }); fecharPainel(); telaFiltroLS(); mostrarAvisoRapido(`Filtro "${sv.nome}" aplicado`);
+  });
+  $$("[data-apagar-filtro]").forEach(b => b.onclick = async () => {
+    if (!confirm("Apagar este filtro salvo?")) return;
+    await apagarItem(b.dataset.apagarFiltro); painelFiltrosSalvosLS(); telaFiltroLS();
+  });
 }
 /* escolha de vários itens de um campo, com busca e a quantidade de questões de cada um */
 function painelCampoLS(nomeCampo) {
@@ -558,7 +572,7 @@ function mostrarQuestaoLS(lista, i) {
     <article class="questao-ls" data-q="${esc(q.id)}">
       <p class="ref-ls">${refsLink.length ? refsLink.map((r, k) => `<button class="link ref-lei" data-ref="${k}">📖 ${esc(rotuloRef(r))}</button>`).join(" ") : `<span>[${esc(q.referencia)}]</span>`}</p>
       <p class="prova-ls">${esc([q.banca, q.ano].filter(Boolean).join(" "))}${q.cargo ? " · " + esc(q.cargo) : ""}${q.instituicao && q.instituicao !== q.banca ? ` (${esc(q.instituicao)})` : ""}${q.obs ? ` · <em>${esc(q.obs)}</em>` : ""}</p>
-      <p class="assunto-ls">${esc([q.assuntoLS, q.subassuntoLS].filter(Boolean).join(" › "))}</p>
+      <p class="assunto-ls">${esc([q.pastaLS, q.assuntoLS, q.subassuntoLS].filter(Boolean).join(" › "))}</p>
       <div class="enunciado-ls">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
       <div class="vf-ls">
         <button class="vf-btn" data-vf="C">Verdadeiro</button>
@@ -570,6 +584,7 @@ function mostrarQuestaoLS(lista, i) {
     <div class="barra-q">
       <button class="icone-btn" data-nav-ls="-1" ${i === 0 ? "disabled" : ""}>← Anterior</button>
       <button class="icone-btn" data-nav-ls="1" ${i === lista.length - 1 ? "disabled" : ""}>Próxima →</button>
+      <button class="icone-btn" id="ls-aleatoria" aria-label="Questão aleatória">🔀 Aleatória</button>
       <button class="icone-btn" id="ls-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="ls-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
     </div>
@@ -599,6 +614,12 @@ function mostrarQuestaoLS(lista, i) {
     $("#hist-ls").textContent = `Você já respondeu esta questão ${t.length} vez(es): ${t.filter(x => x.correta).length} acerto(s).`;
   });
   $$("[data-nav-ls]").forEach(b => b.onclick = () => { mostrarQuestaoLS(lista, i + Number(b.dataset.navLs)); window.scrollTo(0, 0); });
+  $("#ls-aleatoria").onclick = () => {                         // sorteia entre as que ainda não foram respondidas (se todas foram, entre todas)
+    const m = mapaRespostas();
+    const pendentes = lista.map((x, k) => k).filter(k => k !== i && situacaoQ(m, lista[k].id) === "nao");
+    const pool = pendentes.length ? pendentes : lista.map((x, k) => k).filter(k => k !== i);
+    if (pool.length) { mostrarQuestaoLS(lista, pool[Math.floor(Math.random() * pool.length)]); window.scrollTo(0, 0); }
+  };
   $("#ls-fav").onclick = async () => {
     await alternarFavorito(idFavQ(q.id), { alvo: "questao", q: q.id, caderno: q.caderno });
     const fv = ehFavorito(idFavQ(q.id)); $("#ls-fav").textContent = fv ? "★ Favorita" : "☆ Favoritar"; $("#ls-fav").setAttribute("aria-pressed", fv);
@@ -664,6 +685,6 @@ function questoesLSdoArtigo(leiId, art) {
 }
 function resolverLSdoArtigo(leiId, art) {
   const lista = ordenarLS(questoesLSdoArtigo(leiId, art));
-  gravarFiltroLS({ ...FILTRO_LS_VAZIO, leis: [leiId], artigos: [leiId + "|" + art] });
+  gravarFiltroLS({ ...FILTRO_LS_VAZIO, artigos: [leiId + "|" + art] });
   iniciarSessaoLS(lista, `Lei seca — ${rotuloArt(art)} (${siglaOuNome(leiId)})`);
 }

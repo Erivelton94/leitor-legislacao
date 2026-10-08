@@ -610,21 +610,28 @@ async def testes(b):
     total_btn = await p16.inner_text("#ls-filtrar")
     await p16.click("[data-campo=bancas]"); await p16.click(".opcao-ls input[value='FGV']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
     uma = await p16.inner_text("#ls-filtrar")
-    await p16.click("#ls-limpar"); await p16.click("[data-campo=assuntos]")
-    assuntos = await p16.evaluate("[...document.querySelectorAll('.opcao-ls input')].map(i=>i.value)")
-    await p16.evaluate("fecharPainel()"); await p16.click("[data-campo=artigos]")
+    await p16.click("#ls-limpar")
+    campos = {}
+    for c in ("leis", "assuntos", "subassuntos"):
+        await p16.click(f"[data-campo={c}]"); campos[c] = await p16.evaluate("[...document.querySelectorAll('.opcao-ls input')].map(i=>i.value)"); await p16.evaluate("fecharPainel()")
+    assuntos = [campos["leis"], campos["assuntos"], campos["subassuntos"]]
+    await p16.click("[data-campo=artigos]")
     artigos = await p16.evaluate("[...document.querySelectorAll('.opcao-ls span:nth-child(2)')].map(s=>s.textContent)")
     await p16.click(".opcao-ls input[value='codigo-penal|121']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
     so121 = await p16.inner_text("#ls-filtrar")
-    confere("Filtro: quantidade ao vivo, assunto vindo da pasta, artigo e banca", "(4)" in total_btn and "(1)" in uma and "(2)" in so121 and assuntos == ["Crimes contra a Pessoa"]
+    confere("Filtro: Código/Lei = pasta, Assunto = subpasta, SubAssunto = arquivo; artigo e banca; quantidade ao vivo", "(4)" in total_btn and "(1)" in uma and "(2)" in so121 and assuntos == [["Crimes contra a Pessoa"], ["Homicídio"], ["leiseca-teste"]]
         and "Art. 121 — CP" in artigos and "Art. 305 — CTB" in artigos, [total_btn, uma, so121, assuntos, artigos[:4]])
     await p16.click("#ls-salvar-filtro"); await p16.wait_for_timeout(400)
-    confere("Salvar filtro", await p16.evaluate("itens('filtro-ls').length === 1"))
+    await p16.click("#ls-limpar"); await p16.click("#ls-salvos"); await p16.click("[data-aplicar-filtro]"); await p16.wait_for_timeout(400)
+    confere("Filtros salvos: salvar e aplicar pelo botão do topo", await p16.evaluate("itens('filtro-ls').length === 1") and "(2)" in await p16.inner_text("#ls-filtrar") and await p16.locator("#ls-salvo").count() == 0)
     await p16.click("#ls-filtrar"); await p16.wait_for_timeout(800)
     no_resolver = "/leiseca/resolver" in p16.url and await p16.locator(".vf-btn").count() == 2
     await p16.click("[data-vf=E]"); await p16.wait_for_timeout(500)
     res = await p16.evaluate("[document.querySelector('.res-q')?.textContent || '', !!document.querySelector('.resolucao-ls'), itens('resposta').length]")
     confere("Resolver: Verdadeiro/Falso, resultado, resolução e resposta guardada", no_resolver and "acertou" in res[0] and res[1] and res[2] == 1, res)
+    await p16.click("#ls-aleatoria"); await p16.wait_for_timeout(300)
+    confere("Resolver: botão Aleatória vai para uma questão ainda não respondida", await p16.evaluate("lerLS('sessao-ls',{}).pos") == 1 and await p16.locator(".vf-btn:not([disabled])").count() == 2)
+    await p16.click("[data-nav-ls='-1']"); await p16.wait_for_timeout(300)
     await p16.click(".resolucao-ls [data-ref='0']"); await p16.wait_for_timeout(1200)
     destaque = await p16.evaluate("[...document.querySelectorAll('#painel-caixa .destaque-ls')].map(p=>p.textContent.slice(0,12))")
     confere("Resolução liga ao artigo da lei com o parágrafo destacado", destaque and destaque[0].startswith("§ 1") and not any(d.startswith("Homic") for d in destaque), destaque)

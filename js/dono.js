@@ -24,7 +24,7 @@ function cadernoParaPublicar(c) {
   const { local, publicado, tituloOriginal, ...resto } = c;
   const extra = ehListaLS(c) ? { caminho: caminhoDaLista(c), titulo: c.titulo } : {};          // lei seca: assunto e subassunto vão junto
   return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), ...extra,
-    questoes: c.questoes.map(({ caderno, assuntoLS, subassuntoLS, ...q }) => q) };
+    questoes: c.questoes.map(({ caderno, pastaLS, assuntoLS, subassuntoLS, ...q }) => q) };
 }
 /* ligar: o caderno passa a aparecer para todos */
 async function publicarCaderno(id, aviso) {
