@@ -3,10 +3,10 @@
  "nome": "Constituição Federal",
  "numero": "Constituição de 1988",
  "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
- "versao": "2026-09-29",
- "hash": "4a7edf542b5d8375f2d93b2f92074538f0f6f747655d271012d727f3fdd9cf23",
- "etag": "\"16e3e3-6584ba79e12a5\"",
- "last_modified": "Wed, 05 Aug 2026 12:10:18 GMT",
+ "versao": "2026-10-08",
+ "hash": "a5ff297e2115115da9bc1d4a4cdc3ca4ba2ed1e099675fc15b53258a5e56b69a",
+ "etag": "\"16e7fb-65d43a42bcb78\"",
+ "last_modified": "Wed, 07 Oct 2026 17:42:38 GMT",
  "versao_leitor": 5,
  "preambulo": [
   "CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL DE 1988",
@@ -26,7 +26,7 @@
   "TÍTULO I",
   "Dos Princípios Fundamentais"
  ],
- "ultimo_download_completo": "2026-10-07T12:56:18-03:00",
+ "ultimo_download_completo": "2026-10-08T12:58:51-03:00",
  "artigos": {
   "1": {
    "texto": "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:\nI - a soberania;\nII - a cidadania;\nIII - a dignidade da pessoa humana;\nIV - os valores sociais do trabalho e da livre iniciativa; (Vide Lei nº 13.874, de 2019)\nV - o pluralismo político.\nParágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.",
@@ -1823,8 +1823,8 @@
    "secao": "ADCT"
   },
   "67#2": {
-   "texto": "Art. 67. A União concluirá a demarcação das terras indígenas no prazo de cinco anos a partir da promulgação da Constituição.",
-   "hash": "a44f91e7ce9186c02a6151180606dccd582a67560edf84d5f3cc85848bede1c8",
+   "texto": "Art. 67. A União concluirá a demarcação das terras indígenas no prazo de cinco anos a partir da promulgação da Constituição. (Vide ADC 87) (Vide ADI 7582) (Vide ADI 7583) (Vide ADI 7586)",
+   "hash": "ffdf986d111db94110fa08ec529420f8534e3969fdd86dba12ed7c8920d9d18c",
    "ordem": 345,
    "secao": "ADCT"
   },
