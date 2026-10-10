@@ -4,10 +4,10 @@
   "numero": "Lei nº 7.210/1984",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:58-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:43-03:00",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:58-03:00",
+  "ultima_verificacao_ok": "2026-10-09T23:18:43-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 300.3,
    "fonte_envia_etag": true,
@@ -26,10 +26,10 @@
   "numero": "Decreto-Lei nº 2.848/1940",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:21-03:00",
-  "status": "ALTERACAO_DETECTADA",
-  "mensagem": "1 alterado(s), 0 incluído(s), 0 removido(s): Art. 129",
-  "ultima_verificacao_ok": "2026-10-09T12:41:21-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:04-03:00",
+  "status": "ATUALIZADA",
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
+  "ultima_verificacao_ok": "2026-10-09T23:18:04-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 667.6,
    "fonte_envia_etag": true,
@@ -49,7 +49,7 @@
   "numero": "Lei nº 11.340/2006",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:02-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:47-03:00",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
   "diagnostico": {
@@ -62,7 +62,7 @@
   "versao": "2026-09-29",
   "n_artigos": 57,
   "hash": "075d6cf82e794e3a7c578678ca8117d7320aacde9a90d1a7c01226b22dad3d11",
-  "ultima_verificacao_ok": "2026-10-09T12:42:02-03:00",
+  "ultima_verificacao_ok": "2026-10-09T23:18:47-03:00",
   "area": "Legislação penal especial",
   "apelidos": "violência doméstica mulher"
  },
@@ -72,7 +72,7 @@
   "area": "Constituição",
   "apelidos": "constituição cf 88 carta magna adct",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:12-03:00",
+  "ultima_tentativa": "2026-10-09T23:17:56-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 1467.5,
@@ -86,7 +86,7 @@
   "hash": "a5ff297e2115115da9bc1d4a4cdc3ca4ba2ed1e099675fc15b53258a5e56b69a",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:12-03:00",
+  "ultima_verificacao_ok": "2026-10-09T23:17:56-03:00",
   "ultima_alteracao": "2026-10-08T12:58:51-03:00"
  },
  "cpp": {
@@ -95,7 +95,7 @@
   "area": "Códigos",
   "apelidos": "cpp processo penal",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:27-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:08-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 887.3,
@@ -117,7 +117,7 @@
   "hash": "76fb51fcbde62b3bed4882231dfa3ef654df782d27c05e9ebdd21fe2688129eb",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:27-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:08-03:00"
  },
  "lindb": {
   "nome": "Lei de Introdução às Normas do Direito Brasileiro",
@@ -125,7 +125,7 @@
   "area": "Códigos",
   "apelidos": "lindb licc",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:31-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:12-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 46.3,
@@ -139,7 +139,7 @@
   "hash": "219a28f6143dd51204f2b238d96ca83dca627f5662e1e4b21c2f95e3a579c101",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:31-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:12-03:00"
  },
  "codigo-civil": {
   "nome": "Código Civil",
@@ -147,7 +147,7 @@
   "area": "Códigos",
   "apelidos": "cc",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:35-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:16-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 902.2,
@@ -192,7 +192,7 @@
   "hash": "3aca2ebbc8a65d820fb9780a897fbfef5766c6726c4cc789531ac62f772474e9",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:35-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:16-03:00"
  },
  "cpc": {
   "nome": "Código de Processo Civil",
@@ -200,7 +200,7 @@
   "area": "Códigos",
   "apelidos": "cpc processo civil",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:39-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:20-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 1616.8,
@@ -214,7 +214,7 @@
   "hash": "8354cd15297200b2ec1dfb7c4dad1d548caa59dcf3434cea2b49ed6cf33834e4",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:39-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:20-03:00"
  },
  "ctn": {
   "nome": "Código Tributário Nacional",
@@ -222,7 +222,7 @@
   "area": "Códigos",
   "apelidos": "ctn tributário",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:43-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:24-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 283.1,
@@ -251,7 +251,7 @@
   "hash": "bbb1ad3392a7cec6c4ca730dc6c716d1a0331bf825e485c048cbbbee123e51e8",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:43-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:24-03:00"
  },
  "ctb": {
   "nome": "Código de Trânsito Brasileiro",
@@ -259,7 +259,7 @@
   "area": "Trânsito e PRF",
   "apelidos": "ctb trânsito",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:15-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:05-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 771.4,
@@ -273,7 +273,7 @@
   "hash": "06eab7b13c67bf36b04225576f20c42b8ddc9e5fd31aa32e12972c65967c985b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:15-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:05-03:00"
  },
  "cdc": {
   "nome": "Código de Defesa do Consumidor",
@@ -281,7 +281,7 @@
   "area": "Códigos",
   "apelidos": "cdc consumidor",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:46-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:28-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 166.4,
@@ -295,7 +295,7 @@
   "hash": "c6ba288163fddd853c683834a7938db8a154af51907534998775e99b1d4aba01",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:46-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:28-03:00"
  },
  "clt": {
   "nome": "Consolidação das Leis do Trabalho",
@@ -303,10 +303,10 @@
   "area": "Códigos",
   "apelidos": "clt trabalho",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:50-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:32-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
   "diagnostico": {
-   "tamanho_pagina_kb": 1495.5,
+   "tamanho_pagina_kb": 1496.4,
    "fonte_envia_etag": true,
    "fonte_envia_last_modified": true,
    "artigos_com_numero_repetido": 3,
@@ -328,10 +328,10 @@
   },
   "versao": "2026-09-29",
   "n_artigos": 1015,
-  "hash": "88de6548a963c2b42fb251f8697c7050cc97247ebd46b89c90fb411694422895",
+  "hash": "d981ce376da28cb05e911c95798af640232ad5cbc008cfcf09ac9b8c03efbb24",
   "status": "ATUALIZADA",
-  "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:50-03:00"
+  "mensagem": "Sem alterações no texto da lei (1015 artigos conferidos; o Planalto só atualizou notas de referência).",
+  "ultima_verificacao_ok": "2026-10-09T23:18:32-03:00"
  },
  "cpm": {
   "nome": "Código Penal Militar",
@@ -339,7 +339,7 @@
   "area": "Penal e processo penal militar",
   "apelidos": "cpm militar",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:03-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:53-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del1001compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 613.3,
@@ -353,7 +353,7 @@
   "hash": "e30107ab4ae1c69925d04dc8960ddcd348ebdb89e270ce7cf0a5dd600dee7f07",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:03-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:53-03:00"
  },
  "cppm": {
   "nome": "Código de Processo Penal Militar",
@@ -361,7 +361,7 @@
   "area": "Penal e processo penal militar",
   "apelidos": "cppm militar",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:07-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:58-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del1002compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 702.0,
@@ -379,7 +379,7 @@
   "hash": "47667f6f2b1d71faeceb7d934de9069e470e154d14e9c61d4712cb48153f69e6",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:07-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:58-03:00"
  },
  "codigo-eleitoral": {
   "nome": "Código Eleitoral",
@@ -387,7 +387,7 @@
   "area": "Códigos",
   "apelidos": "eleitoral",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:54-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:39-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 436.7,
@@ -406,7 +406,7 @@
   "hash": "729095bcc72ae5dbfe14521cfe109078b80db7412b98ae2175d52e993551928d",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:54-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:39-03:00"
  },
  "drogas": {
   "nome": "Lei de Drogas",
@@ -414,7 +414,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tóxicos entorpecentes tráfico",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:05-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:51-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 253.0,
@@ -428,7 +428,7 @@
   "hash": "ee05453788813325cef9ae2d53bf323a075297dac99102b6098f545410bc9d04",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:05-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:51-03:00"
  },
  "hediondos": {
   "nome": "Lei dos Crimes Hediondos",
@@ -436,7 +436,7 @@
   "area": "Legislação penal especial",
   "apelidos": "hediondo",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:09-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:55-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8072compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 34.0,
@@ -481,7 +481,7 @@
   "hash": "4022a5fae5c12efa851c878829b13593b9be1eaa85123b54809cfb30d208eded",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:09-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:55-03:00"
  },
  "abuso-autoridade": {
   "nome": "Lei de Abuso de Autoridade",
@@ -489,7 +489,7 @@
   "area": "Legislação penal especial",
   "apelidos": "abuso",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:13-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:59-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 74.3,
@@ -503,7 +503,7 @@
   "hash": "c578d98adce7f3cd45f379b358e117217ed14ac8f775cdcf313abefad01245a5",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:13-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:59-03:00"
  },
  "desarmamento": {
   "nome": "Estatuto do Desarmamento",
@@ -511,7 +511,7 @@
   "area": "Legislação penal especial",
   "apelidos": "armas arma de fogo porte posse",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:17-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:03-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 105.4,
@@ -525,7 +525,7 @@
   "hash": "89959a0c1d54d6584052a1ad3c1ce2fd42b796c718bbefe61199366c33297f75",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:17-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:03-03:00"
  },
  "tortura": {
   "nome": "Lei de Tortura",
@@ -533,7 +533,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tortura",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:21-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:07-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 7.6,
@@ -547,7 +547,7 @@
   "hash": "342e2639a29206776b871f53e532c2f1468e7d9fa9d944365c98cd3a23f3d7e6",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:21-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:07-03:00"
  },
  "organizacoes-criminosas": {
   "nome": "Lei das Organizações Criminosas",
@@ -555,7 +555,7 @@
   "area": "Legislação penal especial",
   "apelidos": "orcrim colaboração premiada infiltração",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:25-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:11-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 89.7,
@@ -600,7 +600,7 @@
   "hash": "3f291866f5fe74498be59a9acfca7891e76a8eb7456f68edd0a61987769484eb",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:25-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:11-03:00"
  },
  "lavagem": {
   "nome": "Lei de Lavagem de Dinheiro",
@@ -608,7 +608,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "lavagem capitais",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:58-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:44-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9613compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 81.2,
@@ -622,7 +622,7 @@
   "hash": "5d69e447b5f2cce4da51a8e38e1b30163b9ac04f2bac987eebbefbb4bbe7bfa1",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:58-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:44-03:00"
  },
  "crimes-ambientais": {
   "nome": "Lei de Crimes Ambientais",
@@ -630,7 +630,7 @@
   "area": "Legislação penal especial",
   "apelidos": "meio ambiente",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:56-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:43-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 117.2,
@@ -644,7 +644,7 @@
   "hash": "05ea24e37c21e68b6db8f3424d29be2a36d075cfd739df2997e8ec2794371ce2",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:56-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:43-03:00"
  },
  "racismo": {
   "nome": "Lei dos Crimes de Racismo",
@@ -652,7 +652,7 @@
   "area": "Legislação penal especial",
   "apelidos": "preconceito raça cor injúria racial",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:29-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:15-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 20.4,
@@ -666,7 +666,7 @@
   "hash": "afaf1c1f29ff2b02de3554157c6a1621efa48abde9f98b1521727d3bea82b274",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:29-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:15-03:00"
  },
  "juizados": {
   "nome": "Lei dos Juizados Especiais Cíveis e Criminais",
@@ -674,7 +674,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "jecrim transação penal sursis processual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:04-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:51-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 87.1,
@@ -688,7 +688,7 @@
   "hash": "c6489c2238d6c7c49c1b16c3f4e11a2a33705afb297df92d9d49116565d49f5c",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:04-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:51-03:00"
  },
  "interceptacao": {
   "nome": "Lei de Interceptação Telefônica",
@@ -696,7 +696,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "escuta grampo",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:11-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:58-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 20.9,
@@ -710,7 +710,7 @@
   "hash": "8d03fec043c4c452839f0d8bd1c9e522ca91543ae730e41b7d51f989135be76c",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:11-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:58-03:00"
  },
  "contravencoes": {
   "nome": "Lei das Contravenções Penais",
@@ -718,7 +718,7 @@
   "area": "Legislação penal especial",
   "apelidos": "lcp contravenção",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:32-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:19-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 108.7,
@@ -732,7 +732,7 @@
   "hash": "94d39bf876d0d99ed7d8a5a9cc6dd1bee574a213b27b8d0498bdd5669c617108",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:32-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:19-03:00"
  },
  "prisao-temporaria": {
   "nome": "Lei da Prisão Temporária",
@@ -740,7 +740,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "temporária",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:08-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:55-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 14.0,
@@ -754,7 +754,7 @@
   "hash": "f12c5414107553854866ab656f975619223546235345d59645635d3f53eb9303",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:08-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:55-03:00"
  },
  "identificacao-criminal": {
   "nome": "Lei de Identificação Criminal",
@@ -762,7 +762,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "identificação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:16-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:02-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 29.6,
@@ -776,7 +776,7 @@
   "hash": "08d51d649ee564862462d2ffc607973966479f8bb6eb67316cea4b44c98401be",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:16-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:02-03:00"
  },
  "protecao-testemunhas": {
   "nome": "Lei de Proteção a Vítimas e Testemunhas",
@@ -784,7 +784,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "testemunha colaborador",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:23-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:09-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9807.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 26.7,
@@ -798,7 +798,7 @@
   "hash": "23d0979859b3dafb99eae4819b99b1e9b63d41558d61c1312068084a82ba831e",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:23-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:09-03:00"
  },
  "antiterrorismo": {
   "nome": "Lei Antiterrorismo",
@@ -806,7 +806,7 @@
   "area": "Legislação penal especial",
   "apelidos": "terrorismo",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:36-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:23-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 30.2,
@@ -820,7 +820,7 @@
   "hash": "e92a6014b62dac0ad9633ab406d1b994662bfde886636bf7e4c25fd093433d14",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:36-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:23-03:00"
  },
  "ordem-tributaria": {
   "nome": "Crimes contra a Ordem Tributária",
@@ -828,7 +828,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "sonegação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:50-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:36-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 41.8,
@@ -842,7 +842,7 @@
   "hash": "f8ae225649479afb6e7f48fa70805f50643b8646c7d3e6c7c68cab9e48036d63",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:50-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:36-03:00"
  },
  "sistema-financeiro": {
   "nome": "Crimes contra o Sistema Financeiro Nacional",
@@ -850,7 +850,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "colarinho branco",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:46-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:33-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7492.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 28.3,
@@ -864,7 +864,7 @@
   "hash": "c791f0d6a385264d32caceea501debaeb737cb172c70d6143441249addc0fd50",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:46-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:33-03:00"
  },
  "genocidio": {
   "nome": "Lei do Genocídio",
@@ -872,7 +872,7 @@
   "area": "Legislação penal especial",
   "apelidos": "genocídio",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:40-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:26-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l2889.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 7.0,
@@ -886,7 +886,7 @@
   "hash": "b8b19a5a9f0e8a14c0bbd6234884ba68f1ba4a18c119b581a0811e650dcfb7a1",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:40-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:26-03:00"
  },
  "henry-borel": {
   "nome": "Lei Henry Borel",
@@ -894,7 +894,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "violência doméstica criança adolescente",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:31-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:21-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 92.8,
@@ -908,7 +908,7 @@
   "hash": "d95fff5b06f3458b12c1b53b0d638e0ef5e766cdd02a0ce271adabd185b0db2c",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:31-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:21-03:00"
  },
  "escuta-protegida": {
   "nome": "Escuta Protegida de Crianças e Adolescentes",
@@ -916,7 +916,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "depoimento especial",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:42-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:29-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13431.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 51.9,
@@ -930,7 +930,7 @@
   "hash": "e334744960826e966fa01f68a29c133b4f79e67b98d7056f992891fc5f67f8de",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:42-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:29-03:00"
  },
  "crimes-responsabilidade": {
   "nome": "Lei dos Crimes de Responsabilidade",
@@ -938,7 +938,7 @@
   "area": "Legislação penal especial",
   "apelidos": "impeachment",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:44-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:30-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 81.8,
@@ -952,7 +952,7 @@
   "hash": "8b607789aabcf81ba16ff7f62b26785c1fca9f033ad835b52a2915479adde08d",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:44-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:30-03:00"
  },
  "investigacao-delegado": {
   "nome": "Investigação Criminal conduzida pelo Delegado",
@@ -960,7 +960,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "delegado",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:20-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:06-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12830.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 7.4,
@@ -974,7 +974,7 @@
   "hash": "9c437efbc9ea4ef0de7757477855c103f416241fc2399e7b731d09d318039cb1",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:20-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:06-03:00"
  },
  "trafico-pessoas": {
   "nome": "Lei do Tráfico de Pessoas",
@@ -982,7 +982,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tráfico de pessoas",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:48-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:34-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13344.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 41.3,
@@ -1027,7 +1027,7 @@
   "hash": "f4f1c5b9f67a74b244d5f9cb7690845ccd1c8f5f4ee0d2dac58d0c767a2c54b4",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:48-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:34-03:00"
  },
  "antifaccao": {
   "nome": "Lei Antifacção (Lei Raul Jungmann)",
@@ -1035,7 +1035,7 @@
   "area": "Legislação penal especial",
   "apelidos": "facção facções crime organizado milícia domínio social",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:42:53-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:38-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 212.7,
@@ -1049,7 +1049,7 @@
   "hash": "5f98033b2a3828d1f98dc3eca0e818fb0ac6b4f604fae7b285f0bdc6e992b115",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:42:53-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:38-03:00"
  },
  "pacote-anticrime": {
   "nome": "Pacote Anticrime",
@@ -1057,7 +1057,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "anticrime juiz das garantias",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:31-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:16-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 214.4,
@@ -1071,7 +1071,7 @@
   "hash": "066d2a99ab0993af12d0849a3b371b0e3e017e22ce38b3744e21bb93ffb997ea",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:31-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:16-03:00"
  },
  "marco-civil-internet": {
   "nome": "Marco Civil da Internet",
@@ -1079,7 +1079,7 @@
   "area": "Crimes cibernéticos",
   "apelidos": "internet",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:05-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:55-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 117.2,
@@ -1093,7 +1093,7 @@
   "hash": "5029d368dfb65b36a519b1a49e9dadede4b183217431b072935da1a4f047881d",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:05-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:55-03:00"
  },
  "julgamento-colegiado": {
   "nome": "Julgamento Colegiado em Crimes de Organizações Criminosas",
@@ -1101,7 +1101,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "colegiado",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:27-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:13-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 35.1,
@@ -1115,7 +1115,7 @@
   "hash": "cc7cd2d475582c9af00cacdacf21a47ed6067029e8d89f66b2ab92cf167eb9c9",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:27-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:13-03:00"
  },
  "presidios-federais": {
   "nome": "Presídios Federais de Segurança Máxima",
@@ -1123,7 +1123,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "presídio federal",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:49-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:38-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11671.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 26.9,
@@ -1137,7 +1137,7 @@
   "hash": "548c0176db384025b9e429aa1e8c3271d6c7751077d9bab291ffc4aee1150e05",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:49-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:38-03:00"
  },
  "forca-nacional": {
   "nome": "Força Nacional de Segurança Pública",
@@ -1145,7 +1145,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "força nacional",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:52-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:42-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11473compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 61.5,
@@ -1159,7 +1159,7 @@
   "hash": "37f72e53276d1e3dcc98b0bb46839d2e28ed3cb305d266e65555c83b8d10c8a9",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:52-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:42-03:00"
  },
  "atribuicoes-pf": {
   "nome": "Atribuições da Polícia Federal (crimes interestaduais e internacionais)",
@@ -1167,7 +1167,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "polícia federal repercussão interestadual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:35-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:20-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10446.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 10.0,
@@ -1181,7 +1181,7 @@
   "hash": "d69e487d146f8c76c4c9794abdc6bb30910c27a428675933f8c838c5c97bb037",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:35-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:20-03:00"
  },
  "policiais-civis-uniao": {
   "nome": "Regime Jurídico dos Policiais Civis da União e do DF",
@@ -1189,7 +1189,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "regime disciplinar policial",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:41-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:31-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l4878compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 35.3,
@@ -1205,7 +1205,7 @@
   "hash": "448c1f8f4251771607845d1ab7a68ad936d64bf06f9621df843ca2169ebbba53",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:41-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:31-03:00"
  },
  "carreira-pf": {
   "nome": "Carreira Policial Federal",
@@ -1213,7 +1213,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "polícia federal carreira",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:38-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:27-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9266.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 31.7,
@@ -1229,7 +1229,7 @@
   "hash": "7b2561a6b7d645691d0e2778f28bc8149c0b05d735efd964ee4593942c6d62c6",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:38-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:27-03:00"
  },
  "disque-denuncia": {
   "nome": "Disque-Denúncia e Recompensa por Informações",
@@ -1237,7 +1237,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "denúncia anônima whistleblower",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:39-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:24-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13608.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 17.6,
@@ -1251,7 +1251,7 @@
   "hash": "39880d1134b2ce7cbf69c24dc15026250587563b2ff9a2692a19c76b786e6a55",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:39-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:24-03:00"
  },
  "transplantes": {
   "nome": "Lei de Transplantes",
@@ -1259,7 +1259,7 @@
   "area": "Legislação penal especial",
   "apelidos": "órgãos transplante",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:00-03:00",
+  "ultima_tentativa": "2026-10-09T23:19:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9434compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 34.6,
@@ -1273,7 +1273,7 @@
   "hash": "fa190196d295fb57fc973c289d5f6b67c50e1f24510ec51137f06865a67455e2",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:00-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:19:47-03:00"
  },
  "ordem-economica": {
   "nome": "Crimes contra a Ordem Econômica",
@@ -1281,7 +1281,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "combustíveis",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:43:53-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:40-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8176.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 15.7,
@@ -1295,7 +1295,7 @@
   "hash": "def2eee4cf429807ba581a885d58bdc07c86404e337150a7344395c5dd993e22",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:43:53-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:40-03:00"
  },
  "vitimas-violencia-sexual": {
   "nome": "Atendimento a Vítimas de Violência Sexual",
@@ -1303,7 +1303,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "violência sexual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:42-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:32-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12845.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 15.5,
@@ -1317,7 +1317,7 @@
   "hash": "16a89ed3171c8dbb467b15340dd9e0ce0288037e8b35694aacfbeea1cbe1ce13",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:42-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:32-03:00"
  },
  "sinal-vermelho": {
   "nome": "Programa Sinal Vermelho e Violência Psicológica",
@@ -1325,7 +1325,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "violência psicológica",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:38-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:28-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14188.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 17.8,
@@ -1370,7 +1370,7 @@
   "hash": "7002789da07958090bd8fb58ceb18a71a9ba58e12b8ce7972792b8e50837c8b7",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:38-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:28-03:00"
  },
  "antifeminicidio": {
   "nome": "Pacote Antifeminicídio",
@@ -1378,7 +1378,7 @@
   "area": "Leis alteradoras",
   "apelidos": "feminicídio",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:10-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:02-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14994.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 43.9,
@@ -1423,7 +1423,7 @@
   "hash": "b1eb99b8c61530a21bfd371dd44d05fb96f97dc986fca85088fdbc9cfb6c3020",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:10-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:02-03:00"
  },
  "saidas-temporarias": {
   "nome": "Lei das Saídas Temporárias",
@@ -1431,7 +1431,7 @@
   "area": "Leis alteradoras",
   "apelidos": "saidinha",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:14-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:06-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14843.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 32.0,
@@ -1445,7 +1445,7 @@
   "hash": "656ca414c6666656a49a718b113488ebf449a8b7569412499bae2ce90b44f80b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:14-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:06-03:00"
  },
  "importunacao-sexual": {
   "nome": "Lei da Importunação Sexual",
@@ -1453,7 +1453,7 @@
   "area": "Leis alteradoras",
   "apelidos": "importunação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:18-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:10-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13718.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 20.6,
@@ -1498,7 +1498,7 @@
   "hash": "449a5b748e6f3fb167ea301f6d59430ac5d3918f076d2b8fc36bc1ef5bfbe71a",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:18-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:10-03:00"
  },
  "perseguicao": {
   "nome": "Crime de Perseguição (Stalking)",
@@ -1506,7 +1506,7 @@
   "area": "Leis alteradoras",
   "apelidos": "stalking perseguição",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:21-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:14-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14132.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 14.0,
@@ -1551,7 +1551,7 @@
   "hash": "d1057bb0e5ef271592b5390c51e9beaf04ddbe9e6e7c40368620b85ec3a09200",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:21-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:14-03:00"
  },
  "fraudes-eletronicas": {
   "nome": "Lei das Fraudes Eletrônicas",
@@ -1559,7 +1559,7 @@
   "area": "Crimes cibernéticos",
   "apelidos": "fraude eletrônica estelionato",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:12-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:02-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 20.4,
@@ -1573,7 +1573,7 @@
   "hash": "edd673bac12e543bccce0b0f3a897c8afc16ad8c91be76d8cf81af65519333b8",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:12-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:02-03:00"
  },
  "mariana-ferrer": {
   "nome": "Lei Mariana Ferrer",
@@ -1581,7 +1581,7 @@
   "area": "Leis alteradoras",
   "apelidos": "vítima audiência",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:26-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:17-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14245.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 17.8,
@@ -1595,7 +1595,7 @@
   "hash": "cb0bd8077afbbfda100e9d78b4722fc262847a5f315f3f3b76273f773ba9aac0",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:26-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:17-03:00"
  },
  "violencia-institucional": {
   "nome": "Lei da Violência Institucional",
@@ -1603,7 +1603,7 @@
   "area": "Leis alteradoras",
   "apelidos": "revitimização",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:30-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:21-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14321.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 11.5,
@@ -1629,7 +1629,7 @@
   "hash": "839758f72d748e49bf6057d17124dae8166ecaec8166d12a792e71d0ac919b5e",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:30-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:21-03:00"
  },
  "estado-democratico": {
   "nome": "Crimes contra o Estado Democrático de Direito",
@@ -1637,7 +1637,7 @@
   "area": "Leis alteradoras",
   "apelidos": "lsn segurança nacional golpe",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:33-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:25-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14197.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 31.6,
@@ -1682,7 +1682,7 @@
   "hash": "ad7c172c4a094ad2dd38cc7fcb8c96eca930377d8f5418660980e1026d2e9068",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:33-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:25-03:00"
  },
  "susp": {
   "nome": "Sistema Único de Segurança Pública (SUSP)",
@@ -1690,7 +1690,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "susp",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:26-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:16-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13675.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 169.7,
@@ -1704,7 +1704,7 @@
   "hash": "d6e7ef51a5c5ac25f4c37dce03b6a752a9e841cd72b6520a3d5456a34005dc96",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:26-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:16-03:00"
  },
  "lo-policias-civis": {
   "nome": "Lei Orgânica Nacional das Polícias Civis",
@@ -1712,7 +1712,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "polícia civil",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:30-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:20-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14735.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 111.1,
@@ -1726,7 +1726,7 @@
   "hash": "1a0105b968c6ee168aa59dff01e86c9dac6d52debe9b671cdfc1ecd4033a03e0",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:30-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:20-03:00"
  },
  "lo-pm-bombeiros": {
   "nome": "Lei Orgânica Nacional das Polícias Militares e Corpos de Bombeiros",
@@ -1734,7 +1734,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "polícia militar bombeiro",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:34-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:23-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14751.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 162.2,
@@ -1748,7 +1748,7 @@
   "hash": "664899784742557cee4eb955f580fc92f1d64714284d8cbe852db14e64a4753b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:34-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:23-03:00"
  },
  "guardas-municipais": {
   "nome": "Estatuto Geral das Guardas Municipais",
@@ -1756,7 +1756,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "guarda municipal",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:56-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:45-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13022.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 37.7,
@@ -1770,7 +1770,7 @@
   "hash": "dc665f35919da9181eedfccf14dffda233f4f4ad31af2cc738a8f429104ee261",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:56-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:45-03:00"
  },
  "seguranca-privada": {
   "nome": "Estatuto da Segurança Privada",
@@ -1778,7 +1778,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "vigilante",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:59-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:49-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14967.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 161.6,
@@ -1792,7 +1792,7 @@
   "hash": "821b3dfbecb6cdba565ea042bd24902e5e46c67024f3d7375b74240b7b2bd6eb",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:59-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:49-03:00"
  },
  "eca": {
   "nome": "Estatuto da Criança e do Adolescente",
@@ -1800,7 +1800,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "eca criança adolescente ato infracional",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:16-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:06-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 520.8,
@@ -1814,7 +1814,7 @@
   "hash": "1639fd85aeec17df9ec99c4659c61b98fa00683cd0aba6062c5721d5b7a34459",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:16-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:06-03:00"
  },
  "pessoa-idosa": {
   "nome": "Estatuto da Pessoa Idosa",
@@ -1822,7 +1822,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "idoso",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:20-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:10-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 153.2,
@@ -1836,7 +1836,7 @@
   "hash": "d77e0ab60d8df26b13d95d8adda514e9cc6c5d7d0e00f5e7ea8117e1a81e7410",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:20-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:10-03:00"
  },
  "pessoa-deficiencia": {
   "nome": "Estatuto da Pessoa com Deficiência",
@@ -1844,7 +1844,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "deficiência lbi",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:23-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:14-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 238.0,
@@ -1858,7 +1858,7 @@
   "hash": "bdd1ed5312ba151dc91865af9733a90dbd38cd6aa31dfe66aaff57173590a066",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:23-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:14-03:00"
  },
  "igualdade-racial": {
   "nome": "Estatuto da Igualdade Racial",
@@ -1866,7 +1866,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "igualdade racial",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:27-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:17-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 76.9,
@@ -1880,7 +1880,7 @@
   "hash": "4fc82de700cfcaaf33be2a052c89465aee9146fd4ffed55ffeac53c6d936e8dc",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:27-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:17-03:00"
  },
  "migracao": {
   "nome": "Lei de Migração",
@@ -1888,7 +1888,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "estrangeiro migrante",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:04-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:54-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 473.3,
@@ -1933,7 +1933,7 @@
   "hash": "9067da67fce8a37e0513cc0e208e5f815286b4a33f868bce7756099a932f74a6",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:04-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:54-03:00"
  },
  "lei-8112": {
   "nome": "Regime Jurídico dos Servidores Públicos Federais",
@@ -1941,7 +1941,7 @@
   "area": "Administrativo",
   "apelidos": "8112 servidor",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:41-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:33-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 335.7,
@@ -1955,7 +1955,7 @@
   "hash": "bdb7531d0430ff6e3c8a12265f61a96ead42b011bfa472b68a1f9ff7565f3984",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:41-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:33-03:00"
  },
  "licitacoes": {
   "nome": "Lei de Licitações e Contratos Administrativos",
@@ -1963,7 +1963,7 @@
   "area": "Administrativo",
   "apelidos": "licitação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:45-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:37-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 634.5,
@@ -2008,7 +2008,7 @@
   "hash": "b8c85939e0e21a4ec55d165e577fc3cbee27239870d10709e04f1f43ab836dad",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:45-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:37-03:00"
  },
  "processo-administrativo": {
   "nome": "Lei do Processo Administrativo Federal",
@@ -2016,7 +2016,7 @@
   "area": "Administrativo",
   "apelidos": "processo administrativo",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:50-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:40-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 73.2,
@@ -2030,7 +2030,7 @@
   "hash": "8a2095e1fc44d57042d287787ab41bf6bb82b12e281348fb4095a94f860df139",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:50-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:40-03:00"
  },
  "improbidade": {
   "nome": "Lei de Improbidade Administrativa",
@@ -2038,7 +2038,7 @@
   "area": "Administrativo",
   "apelidos": "improbidade",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:53-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:44-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 169.9,
@@ -2052,7 +2052,7 @@
   "hash": "c547e6d48d40d922da100083bc0402d796e5a5809e86fc3efaec787a7b33ced0",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:53-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:44-03:00"
  },
  "acesso-informacao": {
   "nome": "Lei de Acesso à Informação",
@@ -2060,7 +2060,7 @@
   "area": "Administrativo",
   "apelidos": "lai",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:57-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:48-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 106.9,
@@ -2074,7 +2074,7 @@
   "hash": "40cab070a449249fb13eb208a4ae551567ca3f3b009dd4c640dc8dff24e80951",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:57-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:48-03:00"
  },
  "anticorrupcao": {
   "nome": "Lei Anticorrupção",
@@ -2082,7 +2082,7 @@
   "area": "Administrativo",
   "apelidos": "empresa limpa",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:01-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:52-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 84.0,
@@ -2096,7 +2096,7 @@
   "hash": "d412458cca08f4cf689a9b14ce41eaf747860a6d93576b7a7dabdfd26099696b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:01-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:52-03:00"
  },
  "lgpd": {
   "nome": "Lei Geral de Proteção de Dados",
@@ -2104,7 +2104,7 @@
   "area": "Administrativo",
   "apelidos": "lgpd dados pessoais",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:05-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:56-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 225.5,
@@ -2120,7 +2120,7 @@
   "hash": "fc7519720cac8969a261efd982fd72bd0100da11a614408e23aea24cd5ceda13",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:05-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:56-03:00"
  },
  "lrf": {
   "nome": "Lei de Responsabilidade Fiscal",
@@ -2128,7 +2128,7 @@
   "area": "Administrativo",
   "apelidos": "lrf",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:09-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:59-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 248.9,
@@ -2142,7 +2142,7 @@
   "hash": "942ca5bc9abd366cafea8ee95187490a15550dcbf7d926d7ace1af12c178f78c",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:09-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:59-03:00"
  },
  "concessoes": {
   "nome": "Lei de Concessões e Permissões",
@@ -2150,7 +2150,7 @@
   "area": "Administrativo",
   "apelidos": "concessão",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:13-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:03-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8987compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 84.2,
@@ -2164,7 +2164,7 @@
   "hash": "24011bf4f1c2c19bf14dec813a7510720b86c62c6c2e4df9c799fec234bbf021",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:13-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:03-03:00"
  },
  "ppp": {
   "nome": "Lei das Parcerias Público-Privadas",
@@ -2172,7 +2172,7 @@
   "area": "Administrativo",
   "apelidos": "ppp",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:16-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:06-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11079compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 72.7,
@@ -2186,7 +2186,7 @@
   "hash": "7c01264901326d693b6eb5c7049c7ba5fa1c76698ca0c5392578237472681c17",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:16-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:06-03:00"
  },
  "consorcios": {
   "nome": "Lei dos Consórcios Públicos",
@@ -2194,7 +2194,7 @@
   "area": "Administrativo",
   "apelidos": "consórcio",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:20-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:10-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 37.9,
@@ -2208,7 +2208,7 @@
   "hash": "ffc901b6e50685734b4fb46de850b812dfe006ba7c8e56489c2a87cce9d00824",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:20-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:10-03:00"
  },
  "usuario-servico-publico": {
   "nome": "Código de Defesa do Usuário do Serviço Público",
@@ -2216,7 +2216,7 @@
   "area": "Administrativo",
   "apelidos": "usuário ouvidoria",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:24-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:14-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 68.3,
@@ -2230,7 +2230,7 @@
   "hash": "9acd72cdeff3abc4907b0c47365f4bd108c034ccfb016fd7b66d802439f4f427",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:24-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:14-03:00"
  },
  "mandado-seguranca": {
   "nome": "Lei do Mandado de Segurança",
@@ -2238,7 +2238,7 @@
   "area": "Administrativo",
   "apelidos": "mandado de segurança",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:28-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:18-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 35.5,
@@ -2252,7 +2252,7 @@
   "hash": "ba1b4ea4a38cd1d849c65d187bb5db49bf5b20520134e8c2c0ec28d2b0a3f4be",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:28-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:18-03:00"
  },
  "acao-popular": {
   "nome": "Lei da Ação Popular",
@@ -2260,7 +2260,7 @@
   "area": "Administrativo",
   "apelidos": "ação popular",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:32-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:21-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l4717.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 35.1,
@@ -2274,7 +2274,7 @@
   "hash": "623c08ab1e764ebb6e6688185da18766f9daad8980f958aeed3883cb04c1d3c9",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:32-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:21-03:00"
  },
  "acao-civil-publica": {
   "nome": "Lei da Ação Civil Pública",
@@ -2282,7 +2282,7 @@
   "area": "Administrativo",
   "apelidos": "acp",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:35-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:25-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7347compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 24.1,
@@ -2296,7 +2296,7 @@
   "hash": "ee3ece3f9ce284416917d2b87a1671d2f8d5f720bbe6eedb97ea9b98f0d44328",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:35-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:25-03:00"
  },
  "habeas-data": {
   "nome": "Lei do Habeas Data",
@@ -2304,7 +2304,7 @@
   "area": "Administrativo",
   "apelidos": "habeas data",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:39-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:29-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9507.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 16.9,
@@ -2318,7 +2318,7 @@
   "hash": "04cc7536468a9ba974197447d55bc94076816e2664f341dd5a62bc0de280c165",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:39-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:29-03:00"
  },
  "adi-adc": {
   "nome": "Lei da ADI e da ADC",
@@ -2326,7 +2326,7 @@
   "area": "Controle de constitucionalidade",
   "apelidos": "adi adc",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:43-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:33-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 41.1,
@@ -2340,7 +2340,7 @@
   "hash": "67b792f460c39cd4109bb7e9b225c3ee20b4be3b49866056bc96b3c8e5dfbcae",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:43-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:33-03:00"
  },
  "adpf": {
   "nome": "Lei da ADPF",
@@ -2348,7 +2348,7 @@
   "area": "Controle de constitucionalidade",
   "apelidos": "adpf",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:47-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:36-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 14.4,
@@ -2362,7 +2362,7 @@
   "hash": "22202a43a65356e72feb6ab1b7b9ec8f368f6d19d1bed9912405b536478016b4",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:47-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:36-03:00"
  },
  "mandado-injuncao": {
   "nome": "Lei do Mandado de Injunção",
@@ -2370,7 +2370,7 @@
   "area": "Controle de constitucionalidade",
   "apelidos": "mandado de injunção",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:50-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:40-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 19.5,
@@ -2384,7 +2384,7 @@
   "hash": "210c694b07073f491a56a919edaee5b9cfc214b232779016e20255629acf8c8d",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:50-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:40-03:00"
  },
  "lei-8080": {
   "nome": "Lei Orgânica da Saúde",
@@ -2392,7 +2392,7 @@
   "area": "Saúde pública",
   "apelidos": "sus 8080",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:54-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:44-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 161.1,
@@ -2406,7 +2406,7 @@
   "hash": "11f437502b263ff3d5092c63e89259783cba8b2bb1acad97820f3633bf94485a",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:54-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:44-03:00"
  },
  "lei-8142": {
   "nome": "Participação da Comunidade na Gestão do SUS",
@@ -2414,7 +2414,7 @@
   "area": "Saúde pública",
   "apelidos": "conselho de saúde conferência",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:47:58-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:48-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 11.1,
@@ -2428,7 +2428,7 @@
   "hash": "c0b5e8dc644468d1931032d42c670ba62a3154abeabc446e77c8fe17c3a88689",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:47:58-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:48-03:00"
  },
  "decreto-7508": {
   "nome": "Decreto 7.508/2011 (regulamenta a Lei 8.080)",
@@ -2436,7 +2436,7 @@
   "area": "Saúde pública",
   "apelidos": "regiões de saúde coap",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:02-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:51-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7508.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 53.4,
@@ -2450,7 +2450,7 @@
   "hash": "4c0f4d2e6ea2a06f2054c8eac6f82027257e2feb1d87085795b1a39287093383",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:02-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:51-03:00"
  },
  "reforma-psiquiatrica": {
   "nome": "Lei da Reforma Psiquiátrica",
@@ -2458,7 +2458,7 @@
   "area": "Saúde pública",
   "apelidos": "saúde mental",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:05-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:55-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10216.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 13.6,
@@ -2472,7 +2472,7 @@
   "hash": "df2274403ae2642221ad5a9282ad97230bd6d73355361648a7b71ae0f3a95b6b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:05-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:55-03:00"
  },
  "lc-141": {
   "nome": "Financiamento da Saúde (LC 141/2012)",
@@ -2480,7 +2480,7 @@
   "area": "Saúde pública",
   "apelidos": "financiamento",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:09-03:00",
+  "ultima_tentativa": "2026-10-09T23:24:59-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp141.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 83.9,
@@ -2494,7 +2494,7 @@
   "hash": "db99e6562f3820720adc0b73af211a68987e5ff1fb76ca1bfad0f9381f6ebbcd",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:09-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:24:59-03:00"
  },
  "anvisa": {
   "nome": "Sistema Nacional de Vigilância Sanitária (Anvisa)",
@@ -2502,7 +2502,7 @@
   "area": "Saúde pública",
   "apelidos": "vigilância sanitária",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:13-03:00",
+  "ultima_tentativa": "2026-10-09T23:25:03-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9782compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 217.1,
@@ -2516,7 +2516,7 @@
   "hash": "f158091e13fea25899cf6e8673b89fc452858f1c66dd83f847caf8a30e324b50",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:13-03:00",
+  "ultima_verificacao_ok": "2026-10-09T23:25:03-03:00",
   "ultima_alteracao": "2026-09-29T12:21:55-03:00"
  },
  "lei-6259": {
@@ -2525,7 +2525,7 @@
   "area": "Saúde pública",
   "apelidos": "vigilância epidemiológica vacinação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:17-03:00",
+  "ultima_tentativa": "2026-10-09T23:25:07-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l6259.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 16.7,
@@ -2539,7 +2539,7 @@
   "hash": "08adaf83ad21dc78642fcb5230799e153ef051c0c11cbfa2fd109ffe3dca8018",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:17-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:25:07-03:00"
  },
  "lei-13979": {
   "nome": "Medidas de Emergência em Saúde Pública",
@@ -2547,7 +2547,7 @@
   "area": "Saúde pública",
   "apelidos": "emergência covid",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:48:21-03:00",
+  "ultima_tentativa": "2026-10-09T23:25:10-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 119.7,
@@ -2561,7 +2561,7 @@
   "hash": "340e2adaa3ee52c66d6b7a79ba027c77f31cb9b3231cca158fb8b3d618679c36",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:48:21-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:25:10-03:00"
  },
  "ec-104": {
   "nome": "Emenda Constitucional 104 — Polícias Penais",
@@ -2569,7 +2569,7 @@
   "area": "Constituição",
   "apelidos": "ec 104 polícia penal policiais penais",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:41:17-03:00",
+  "ultima_tentativa": "2026-10-09T23:18:00-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc104.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 13.1,
@@ -2583,7 +2583,7 @@
   "hash": "a6293daa977d5c86ee8a652f58dc1181c789813161c8946e9941920b7bd44a50",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:41:17-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:18:00-03:00"
  },
  "defesa-concorrencia": {
   "nome": "Lei de Defesa da Concorrência",
@@ -2591,7 +2591,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "cade concorrência cartel infrações à ordem econômica",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:01-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 171.0,
@@ -2605,7 +2605,7 @@
   "hash": "5957b5166c0300d18c0389e292ef4d5afed77e7847bf6b3504a836c592820829",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:01-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:47-03:00"
  },
  "carolina-dieckmann": {
   "nome": "Lei Carolina Dieckmann",
@@ -2613,7 +2613,7 @@
   "area": "Crimes cibernéticos",
   "apelidos": "invasão de dispositivo informático crimes informáticos",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:09-03:00",
+  "ultima_tentativa": "2026-10-09T23:20:58-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 11.6,
@@ -2658,7 +2658,7 @@
   "hash": "a119a9738d49cf80b2a34ebd728c1cfa7008115681c293ae828d15a957f3996b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:09-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:20:58-03:00"
  },
  "protecao-criancas-adolescentes": {
   "nome": "Proteção de Crianças e Adolescentes contra a Violência",
@@ -2666,7 +2666,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "bullying cyberbullying intimidação sistemática escolas hediondos",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:35-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:24-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14811.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 33.1,
@@ -2711,7 +2711,7 @@
   "hash": "a6561c81619963c3c42ad0253d25620dff1bfb9af3bf9d6558611db58954a723",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:35-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:24-03:00"
  },
  "pacto-san-jose": {
   "nome": "Pacto de San José da Costa Rica (Convenção Americana sobre Direitos Humanos)",
@@ -2719,7 +2719,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "cadh convenção americana pacto de são josé",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:46-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:35-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 138.0,
@@ -2733,7 +2733,7 @@
   "hash": "2bdca6849d54a1ffee04c1281bde8fe5d0c464cb0d1d662a5afdfd6865036dce",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:46-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:35-03:00"
  },
  "pidcp": {
   "nome": "Pacto Internacional sobre Direitos Civis e Políticos",
@@ -2741,7 +2741,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "pidcp pacto civis políticos onu",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:49-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:39-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d0592.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 93.5,
@@ -2755,7 +2755,7 @@
   "hash": "ddac3d00a02e7f2d2b8e9da7963258df6c92ad4aa88333551b3baf06e7144436",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:49-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:39-03:00"
  },
  "convencao-tortura-onu": {
   "nome": "Convenção contra a Tortura (ONU)",
@@ -2763,7 +2763,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "tortura tratamentos cruéis desumanos degradantes onu",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:53-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:43-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d0040.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 49.8,
@@ -2777,7 +2777,7 @@
   "hash": "9ebbe712a1884ae70d7b2a50cf29cc1daec14d2329ffc4c5c72c2925433bc2d0",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:53-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:43-03:00"
  },
  "convencao-tortura-oea": {
   "nome": "Convenção Interamericana para Prevenir e Punir a Tortura",
@@ -2785,7 +2785,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "tortura oea interamericana",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:44:57-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:46-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/1980-1989/d98386.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 33.9,
@@ -2799,7 +2799,7 @@
   "hash": "9d5768472cb95b2dc2f029a3502a33a30f946f2102ab51ccc8e6135f88e8cad5",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:44:57-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:46-03:00"
  },
  "convencao-discriminacao-racial": {
   "nome": "Convenção Internacional sobre a Eliminação da Discriminação Racial",
@@ -2807,7 +2807,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "discriminação racial onu convenção racismo",
   "status": "ERRO_VERIFICACAO",
-  "ultima_tentativa": "2026-10-09T12:45:01-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:51-03:00",
   "mensagem": "Erro inesperado ao processar a página: AttributeError: 'NoneType' object has no attribute 'group'"
  },
  "dudh": {
@@ -2816,10 +2816,10 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "dudh declaração universal direitos humanos onu 1948",
   "fonte": "UNICEF Brasil — texto oficial em português",
-  "ultima_tentativa": "2026-10-09T12:45:08-03:00",
+  "ultima_tentativa": "2026-10-09T23:21:58-03:00",
   "url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
   "diagnostico": {
-   "tamanho_pagina_kb": 173.7,
+   "tamanho_pagina_kb": 173.8,
    "fonte_envia_etag": false,
    "fonte_envia_last_modified": true,
    "artigos_com_numero_repetido": 0,
@@ -2830,7 +2830,7 @@
   "hash": "e72478b026976a8a47e68cfafc9834811f33855225e4c46de565ecd3b95ffed4",
   "status": "ATUALIZADA",
   "mensagem": "Sem alterações (30 artigos conferidos no texto completo).",
-  "ultima_verificacao_ok": "2026-10-09T12:45:08-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:21:58-03:00"
  },
  "regras-mandela": {
   "nome": "Regras de Mandela (Regras Mínimas da ONU para o Tratamento de Presos)",
@@ -2838,7 +2838,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "regras de mandela regras mínimas tratamento de presos onu cnj",
   "fonte": "Conselho Nacional de Justiça — tradução oficial (2016)",
-  "ultima_tentativa": "2026-10-09T12:45:11-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:02-03:00",
   "url": "https://cdn.penalreform.org/wp-content/uploads/2017/04/Mandela-Rules_Portuguese.pdf",
   "diagnostico": {
    "tamanho_pagina_kb": 909.4,
@@ -2852,7 +2852,7 @@
   "hash": "43780efcaf32b669a294ca28d09605ba2bc9e05b72f0987fc2158e6b2d86dbcf",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:11-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:02-03:00"
  },
  "carreira-prf": {
   "nome": "Carreira de Policial Rodoviário Federal",
@@ -2860,7 +2860,7 @@
   "area": "Trânsito e PRF",
   "apelidos": "prf policial rodoviário federal carreira",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:18-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:09-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9654compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 140.5,
@@ -2873,8 +2873,8 @@
   "n_artigos": 14,
   "hash": "4860f597c996c89f6c97503c37de53b9cdf44e61cf1ce008062c8a290841d806",
   "status": "ATUALIZADA",
-  "mensagem": "Sem alterações (14 artigos conferidos no texto completo).",
-  "ultima_verificacao_ok": "2026-10-09T12:45:18-03:00"
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
+  "ultima_verificacao_ok": "2026-10-09T23:22:09-03:00"
  },
  "competencias-prf": {
   "nome": "Competências da Polícia Rodoviária Federal",
@@ -2882,7 +2882,7 @@
   "area": "Trânsito e PRF",
   "apelidos": "prf competências rodovias federais",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:23-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:12-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/1995/d1655.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 10.1,
@@ -2895,8 +2895,8 @@
   "n_artigos": 1,
   "hash": "ebf9ed434a1c4fcc3e5d3406f91bde51d91c4d16b43393caef250c4ca749d802",
   "status": "ATUALIZADA",
-  "mensagem": "Sem alterações (1 artigos conferidos no texto completo).",
-  "ultima_verificacao_ok": "2026-10-09T12:45:23-03:00"
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
+  "ultima_verificacao_ok": "2026-10-09T23:22:12-03:00"
  },
  "policia-penal-federal": {
   "nome": "Polícia Penal Federal (Lei 14.875)",
@@ -2904,7 +2904,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "policial penal federal senappen carreira reajuste pf prf",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:45:45-03:00",
+  "ultima_tentativa": "2026-10-09T23:22:34-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14875.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 2679.7,
@@ -2918,7 +2918,7 @@
   "hash": "6837bc66922a86076a15d21c6ed899671bcdae1795f445e281667a7ac6cdddeb",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:45:45-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:22:34-03:00"
  },
  "dignidade-sexual": {
   "nome": "Crimes contra a Dignidade Sexual",
@@ -2926,7 +2926,7 @@
   "area": "Leis alteradoras",
   "apelidos": "estupro estupro de vulnerável dignidade sexual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-09T12:46:37-03:00",
+  "ultima_tentativa": "2026-10-09T23:23:29-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12015.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 38.0,
@@ -2971,6 +2971,6 @@
   "hash": "8a333f6a174003203e2f5106a6eb1ddf6d957a70af0b91bbf6f3f64e4672cd2b",
   "status": "ATUALIZADA",
   "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
-  "ultima_verificacao_ok": "2026-10-09T12:46:37-03:00"
+  "ultima_verificacao_ok": "2026-10-09T23:23:29-03:00"
  }
 }
