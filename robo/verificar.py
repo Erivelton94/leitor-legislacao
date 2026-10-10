@@ -93,6 +93,37 @@ def sha256(texto):
     return hashlib.sha256(texto.encode("utf-8")).hexdigest()
 
 
+# Notas que o Planalto acrescenta ao lado do texto ("Vide Lei…", "Redação dada pela…", "Incluído pela…") e
+# títulos de capítulo/seção que mudam de lugar não são mudança da lei: ficam de fora da comparação.
+# "Revogado", "Vetado", "Declarado inconstitucional" e afins continuam contando.
+NOTA_EDITORIAL = re.compile(
+    r"\(\s*(?:Vide|Redação dada|Redação do|Redação da|Incluíd[oa]s?|Acrescid[oa]s?|Acrescentad[oa]s?|Renumerad[oa]s?|"
+    r"Vigência|Regulamento|Regulamentação|Produção de efeitos?|Promulgação|Em vigor|Texto compilado)[^()]*(?:\([^()]*\)[^()]*)*\)",
+    re.I)
+
+
+def texto_essencial(texto):
+    """O que importa para dizer se a lei mudou: do "Art." em diante, sem as notas editoriais."""
+    linhas = texto.split("\n")
+    k = next((i for i, l in enumerate(linhas) if re.match(r"\s*(Art\.|Artigo|Regra|Art\s)", l)), 0)
+    t = NOTA_EDITORIAL.sub(" ", "\n".join(linhas[k:]))
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def limpar_historico(arq_hist):
+    """Tira do histórico os registros que eram só notas do Planalto ou títulos mudando de lugar."""
+    hist = ler_json(arq_hist, None)
+    if not hist:
+        return
+    limpo = []
+    for r in hist:
+        alt = [a for a in r.get("alterados", []) if texto_essencial(a.get("antes", "")) != texto_essencial(a.get("depois", ""))]
+        if alt or r.get("incluidos") or r.get("removidos"):
+            limpo.append({**r, "alterados": alt})
+    if limpo != hist:
+        salvar_json(arq_hist, limpo)
+
+
 def normalizar(linha):
     linha = unicodedata.normalize("NFC", linha).replace("\xa0", " ")
     return re.sub(r"\s+", " ", linha).strip()
@@ -520,12 +551,20 @@ def verificar_lei(lei, status_anterior):
         reg.update({"versao": anterior["versao"], "n_artigos": n, "hash": hash_novo})
         return confirmar("ATUALIZADA", f"Sem alterações ({n} artigos conferidos no texto completo).")
 
-    # --- houve mudança: registra exatamente o que mudou
+    # --- houve mudança: registra exatamente o que mudou (no texto da lei, não nas notas do Planalto)
     velhos, novos = anterior["artigos"], artigos
     alterados = [{"artigo": k, "antes": velhos[k]["texto"], "depois": novos[k]["texto"]}
-                 for k in novos if k in velhos and velhos[k]["hash"] != novos[k]["hash"]]
+                 for k in novos if k in velhos and velhos[k]["hash"] != novos[k]["hash"]
+                 and texto_essencial(velhos[k]["texto"]) != texto_essencial(novos[k]["texto"])]
     incluidos = [{"artigo": k, "texto": novos[k]["texto"]} for k in novos if k not in velhos]
     removidos = [{"artigo": k, "texto": velhos[k]["texto"]} for k in velhos if k not in novos]
+    if not (alterados or incluidos or removidos):
+        # só notas, títulos ou ordem mudaram: guarda o texto novo sem dizer que a lei mudou
+        novo["versao"] = anterior["versao"]
+        salvar_json(arq_texto, novo)
+        reg.update({"versao": anterior["versao"], "n_artigos": n, "hash": hash_novo})
+        return confirmar("ATUALIZADA", f"Sem alterações no texto da lei ({n} artigos conferidos; "
+                                       "o Planalto só atualizou notas de referência).")
 
     registro = {
         "detectado_em": momento.isoformat(timespec="seconds"),
@@ -594,6 +633,8 @@ def main():
     leis = ler_json(ARQ_LEIS, [])
     status = ler_json(ARQ_STATUS, {})
     ja_funcionavam = {k for k, v in status.items() if v.get("ultima_verificacao_ok")}
+    for arq in sorted(PASTA_HIST.glob("*.json")):          # avisos antigos que eram só notas do Planalto saem
+        limpar_historico(arq)
     for lei in leis:
         print(f"Verificando {lei['nome']}…", flush=True)
         try:

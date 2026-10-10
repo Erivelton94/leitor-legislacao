@@ -111,6 +111,7 @@ async function rotearTela() {
   if (partes[0] === "leiseca" && partes[1] === "listas") return telaListasLS(partes[2] === "pasta" ? partes[3] : null);
   if (partes[0] === "leiseca" && partes[1] === "arquivadas") return telaListasArquivadasLS();
   if (partes[0] === "leiseca" && partes[1] === "resolver") return telaResolverLS();
+  if (partes[0] === "leiseca" && partes[1] === "estatisticas") return telaEstatisticasLS();
   if (partes[0] === "leiseca") return telaFiltroLS();
   if (partes[0] === "estatisticas") return telaEstatisticasGerais();
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
@@ -143,6 +144,7 @@ async function atualizarTudo() {
   const pendentes = ids.filter(id => estado.status[id].hash && (!estado.info[id] || estado.info[id].hash !== estado.status[id].hash));
   if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();
   for (const id of pendentes) await sincronizarLei(id);
+  await revalidarAlteracoes();
   await carregarQuestoes();
   // as leis do acervo são carregadas na memória aos poucos, depois que a tela já apareceu
   setTimeout(async () => { for (const id of ids) { await leiDoCache(id); await new Promise(r => setTimeout(r, 30)); } }, 600);

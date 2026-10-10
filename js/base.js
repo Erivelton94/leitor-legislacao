@@ -232,8 +232,16 @@ async function registrarAlteracoes(id, desde, ate) {
   }
   const vistos = new Set();
   artigos = artigos.filter(a => !vistos.has(a.artigo) && vistos.add(a.artigo));
-  estado.alteracoes[id] = { desde, ate, artigos };
+  if (artigos.length) estado.alteracoes[id] = { desde, ate, artigos };
+  else delete estado.alteracoes[id];                       // nada mudou no texto da lei (só notas do Planalto): sem aviso
   gravarLS("alteracoes-nao-vistas", estado.alteracoes);
+}
+/* avisos guardados são conferidos de novo com o histórico atual (o robô tira do histórico o que era só nota) */
+async function revalidarAlteracoes() {
+  if (estado.offline) return;
+  for (const [id, a] of Object.entries(estado.alteracoes || {})) {
+    try { await registrarAlteracoes(id, a.desde, a.ate); } catch {}
+  }
 }
 
 function situacao(id) {

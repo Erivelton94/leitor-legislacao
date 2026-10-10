@@ -464,7 +464,8 @@ svg.tinta .adaptado { opacity: 0.85; }
 .aviso-tinta.discreto { opacity: 0.7; font-weight: 500 !important; }
 /* revisão rápida */
 .revisao-cab { margin: 0 0 14px; }
-.revisao .artigo { border-left: 3px solid var(--oliva-claro); padding-left: 12px !important; margin-bottom: 18px; }
+.revisao-bloco { position: relative; margin-bottom: 22px; }
+.revisao-bloco::before { content: ""; position: absolute; left: -11px; top: 2px; bottom: 2px; width: 3px; border-radius: 2px; background: var(--oliva-claro); pointer-events: none; }
 .revisao-notas { margin: 6px 0 0; }
 .revisao-nota { font-family: var(--sans); font-size: 14px; background: var(--folha); border: 1px solid var(--fio); border-radius: 8px; padding: 8px 10px; margin-top: 6px; white-space: pre-wrap; }
 .revisao-ir { display: inline-block; margin-top: 6px; font-family: var(--sans); font-size: 13px; color: var(--oliva); }
@@ -775,3 +776,8 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 .aplicar-salvo { display: grid; gap: 2px; text-align: left; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--fio); background: var(--folha); color: var(--tinta); cursor: pointer; }
 .aplicar-salvo:hover { border-color: var(--oliva); }
 .cab-ls a.botao, .topo-ls a.botao, .fim-ls a.botao { color: var(--tinta); }
+
+/* estatísticas da lei seca */
+.cobertura-ls { display: flex; height: 12px; border-radius: 999px; overflow: hidden; background: var(--fio); margin: 6px 0; }
+.cobertura-ls .b-ok { background: var(--ok); } .cobertura-ls .b-erro { background: var(--alt); }
+.estat-ls .num-desemp .link { margin-left: 6px; font-size: 13px; }

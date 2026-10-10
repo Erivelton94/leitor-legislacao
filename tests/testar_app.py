@@ -210,7 +210,13 @@ async def testes(b):
     confere("PDF da lei leva caneta, ícones e grifos", com > sem + 500, f"com marcações {com} bytes, sem {sem} bytes")
 
     # 6) Revisão rápida e ouvir
+    POS = """(()=>{const d=document.getElementById('art-112'); const r=d.getBoundingClientRect(); const rel=e=>{const q=e.getBoundingClientRect(); return [Math.round(q.left-r.left), Math.round(q.top-r.top), Math.round(q.width)]};
+        return {w: Math.round(r.width), grifos: [...d.querySelectorAll('mark.grifo')].map(rel), tinta: [...d.querySelectorAll('svg.tinta [data-traco], svg.tinta [data-carimbo]')].map(rel), adapt: d.querySelectorAll('svg.tinta .adaptado').length}})()"""
+    await pg.goto(U + "#/lei/lep/112"); await pg.wait_for_timeout(1500)
+    pos_leitura = await pg.evaluate(POS)
     await pg.goto(U + "#/revisao/lep"); await pg.wait_for_timeout(1500)
+    pos_rev = await pg.evaluate(POS)
+    confere("Revisão rápida: grifos e desenhos no mesmo lugar da leitura", pos_rev == pos_leitura and pos_leitura["grifos"] and pos_leitura["tinta"], f"{pos_leitura} | {pos_rev}")
     confere("Revisão rápida mostra só o que foi marcado", await pg.evaluate("[...document.querySelectorAll('#texto-lei .artigo')].map(d=>d.dataset.art).join()") == "112")
     confere("Revisão rápida na largura normal da leitura", await pg.evaluate("document.getElementById('texto-lei').getBoundingClientRect().width") > 500)
     await pg.goto(U + "#/lei/lep/112"); await pg.wait_for_timeout(1500)
@@ -589,6 +595,13 @@ async def testes(b):
 
     # 15) Questões de Lei Seca (Verdadeiro ou Falso): entrada, listas em pastas, filtro, resolver ligado à lei
     ctx16, p16 = await novo_aparelho(b)
+    # as listas de lei seca já publicadas no app de verdade ficam de fora (o teste começa do zero)
+    async def _indice_sem_ls(route):
+        r = await route.fetch(); j = await r.json()
+        j["cadernos"] = [c for c in j.get("cadernos", []) if c.get("plataforma") != "leiseca"]
+        await route.fulfill(response=r, json=j)
+    await ctx16.route("**/dados/questoes/indice.json", _indice_sem_ls)
+    await p16.reload(); await p16.wait_for_timeout(2500)
     await p16.goto(U + "#/questoes"); await p16.evaluate("rotear()"); await p16.wait_for_timeout(1500)
     confere("Questões: entrada com Lei Seca e Cadernos", await p16.locator(".cartao-plataforma").count() == 2)
     pastas_ls = await p16.evaluate("(async()=>{ const a = await novaPasta('leiseca', null, 'Crimes contra a Pessoa'); const s = await novaPasta('leiseca', a.id, 'Homicídio'); return [a.id, s.id]; })()")
@@ -652,6 +665,66 @@ async def testes(b):
     entrada = next((x for x in idx_q.get("cadernos", []) if x["id"] == lid), {})
     confere("Lista de lei seca visível para outros usuários (com assunto e subassunto)", entrada.get("plataforma") == "leiseca" and pub.get("caminho") == ["Crimes contra a Pessoa", "Homicídio"], [entrada.get("plataforma"), pub.get("caminho")])
     await p16.evaluate(f"despublicarCaderno('{lid}')"); await p16.wait_for_timeout(1200)
+    # estatísticas da lei seca
+    await p16.goto(U + "#/leiseca"); await p16.wait_for_timeout(600)
+    await p16.click("a[href='#/leiseca/estatisticas']"); await p16.wait_for_timeout(800)
+    est = await p16.evaluate("[document.querySelector('.numeros-desemp strong')?.textContent, document.querySelectorAll('.tabela-desemp .linha-desemp').length, document.querySelector('.estat-ls').textContent.includes('Quando o gabarito é Verdadeiro')]")
+    await p16.click("[data-estat=dim][data-v=bancas]"); await p16.wait_for_timeout(300)
+    bancas = await p16.evaluate("[...document.querySelectorAll('.tabela-desemp .nome-desemp')].map(e=>e.firstChild.textContent.trim())")
+    await p16.click("[data-estat=dim][data-v=gabarito]"); await p16.wait_for_timeout(300)
+    gab = await p16.evaluate("[...document.querySelectorAll('.tabela-desemp .nome-desemp')].map(e=>e.firstChild.textContent.trim()).sort()")
+    await p16.click("[data-treinar=nao]"); await p16.wait_for_timeout(600)
+    treino = await p16.evaluate("[location.hash, lerLS('sessao-ls',{}).ids.length]")
+    confere("Estatísticas da Lei Seca: números, desempenho por lei/banca/gabarito, viés V/F e treinar as não resolvidas", est[0] == "1" and est[1] == 1 and est[2]
+        and "FGV" in bancas and gab == ["Falso", "Verdadeiro"] and treino == ["#/leiseca/resolver", 3], [est, bancas, gab, treino])
+    # importar uma pasta inteira (.zip) e importar de novo para atualizar
+    import zipfile, io as _io
+    zb = _io.BytesIO(); pdf_ls = open(os.path.join(FIX, "leiseca-teste.pdf"), "rb").read()
+    with zipfile.ZipFile(zb, "w") as z:
+        z.writestr("Código Penal/Homicídio/Lista A.pdf", pdf_ls); z.writestr("Código Penal/Aborto/Lista B.pdf", pdf_ls); z.writestr("Código Penal/leia-me.txt", "x")
+    zpath = os.path.join(FIX, "..", "pasta-teste.zip"); open(zpath, "wb").write(zb.getvalue())
+    await p16.goto(U + "#/leiseca/listas"); await p16.wait_for_timeout(600)
+    await p16.click("#importar-pasta-ls"); await p16.set_input_files("#zip-arq", zpath)
+    await p16.wait_for_selector("#pasta-res .txt-ok", timeout=60000)
+    rel1 = await p16.inner_text("#pasta-res")
+    arv = await p16.evaluate("""(()=>{ const r = pastasDe('leiseca', null).find(p => p.nome === 'Código Penal'); if (!r) return null;
+        return [pastasDe('leiseca', r.id).map(p => p.nome).sort(), pastasDe('leiseca', r.id).map(p => itensDaPasta('leiseca', p.id).map(id => estado.cadernos[id].titulo)).flat().sort()]; })()""")
+    nlistas = await p16.evaluate("listasLS().length")
+    await p16.evaluate("fecharPainel()"); await p16.click("#importar-pasta-ls"); await p16.set_input_files("#zip-arq", zpath)
+    await p16.wait_for_selector("#pasta-res .txt-ok", timeout=60000)
+    rel2 = await p16.inner_text("#pasta-res")
+    # lista alterada na origem: troca as questões, mantém o id e as respostas
+    idA = await p16.evaluate("""(async()=>{ const c = listasLS().find(x => x.titulo === 'Lista A'); const q = c.questoes[0];
+        await salvarItem({id: uid(), tipo:'resposta', q: q.id, caderno: c.id, marcada:'C', correta: q.gabarito==='C', em: agoraISO(), tempo: 5});
+        await salvarListaLS('Lista A', c.questoes.slice(1), pastaDoItem('leiseca', c.id).id, {id: c.id, recarregar: true});
+        const l = lerLS('cadernos-locais', []); l.find(x => x.id === c.id).origem.md5 = 'velho'; gravarLS('cadernos-locais', l); return [c.id, (mapaRespostas().get(q.id) || []).length]; })()""")
+    idA, nresp = idA
+    await p16.evaluate("fecharPainel()"); await p16.click("#importar-pasta-ls"); await p16.set_input_files("#zip-arq", zpath)
+    await p16.wait_for_selector("#pasta-res .txt-ok", timeout=60000)
+    rel3 = await p16.inner_text("#pasta-res")
+    depois = await p16.evaluate(f"[estado.cadernos['{idA}']?.questoes.length, listasLS().length, (mapaRespostas().get(estado.cadernos['{idA}'].questoes[0].id) || []).length]")
+    confere("Importar pasta (.zip): pasta principal + subpastas + listas; importar de novo pula as iguais e atualiza a alterada mantendo as respostas",
+        arv == [["Aborto", "Homicídio"], ["Lista A", "Lista B"]] and "2 lista(s) nova(s)" in rel1 and "2 sem mudança" in rel2 and "1 atualizada" in rel3 and depois == [4, nlistas, nresp],
+        [arv, rel1[:90], rel2[:90], rel3[:90], depois])
+    os.remove(zpath)
+    # pasta do Google Drive (navegador próprio, funciona no iPad) e "Atualizar do Drive"
+    gbase = f"http://localhost:{PORTA + 2}"
+    google_falso.ARQUIVOS.update({"pd1": {"name": "Leis Penais", "mimeType": "application/vnd.google-apps.folder", "parents": ["root"], "dados": b""},
+        "pd2": {"name": "Drogas", "mimeType": "application/vnd.google-apps.folder", "parents": ["pd1"], "dados": b""},
+        "pd3": {"name": "Tráfico.pdf", "mimeType": "application/pdf", "parents": ["pd2"], "dados": pdf_ls}})
+    await p16.evaluate(f"localStorage.setItem('sync-google-base', JSON.stringify('{gbase}')); localStorage.setItem('google-token-leitura', JSON.stringify({{token:'{google_falso.TOKEN}', expira: Date.now()+3600000}}))")
+    await p16.evaluate("fecharPainel()"); await p16.click("#importar-pasta-ls"); await p16.click("#pasta-drive"); await p16.wait_for_timeout(800)
+    raiz_drive = await p16.evaluate("[...document.querySelectorAll('#drive-lista [data-entrar]')].map(b=>b.textContent.trim())")
+    await p16.click("#drive-lista [data-entrar]"); await p16.wait_for_timeout(600)
+    await p16.click("#drive-importar"); await p16.wait_for_selector("#drive-res .txt-ok", timeout=60000)
+    pd = await p16.evaluate("""(()=>{ const r = pastasDe('leiseca', null).find(p => p.nome === 'Leis Penais'); const s = r && pastasDe('leiseca', r.id)[0];
+        return [r?.origemDrive?.id, s?.nome, s && itensDaPasta('leiseca', s.id).map(id => estado.cadernos[id].titulo)]; })()""")
+    await p16.evaluate("fecharPainel()")
+    rid = await p16.evaluate("pastasDe('leiseca', null).find(p => p.nome === 'Leis Penais').id")
+    await p16.goto(U + f"#/leiseca/listas/pasta/{rid}"); await p16.wait_for_timeout(600)
+    await p16.click("#atualizar-drive-ls"); await p16.wait_for_selector("#atu-res .txt-ok", timeout=60000)
+    atu = await p16.inner_text("#atu-res")
+    confere("Importar pasta do Google Drive (com subpastas) e “🔄 Atualizar do Drive” com um toque", raiz_drive == ["Leis Penais"] and pd == ["pd1", "Drogas", ["Tráfico"]] and "1 sem mudança" in atu, [raiz_drive, pd, atu[:80]])
     confere("Nenhum erro de programa na Lei Seca", not p16.erros, p16.erros[:3])
     await ctx16.close()
 

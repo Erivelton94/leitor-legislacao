@@ -514,7 +514,9 @@ async function telaRevisao(leiId) {
     <p class="contagem revisao-cab">${escolhidos.length} artigo(s) marcado(s) · na ordem da lei · toque em “ver no texto completo” para abrir o artigo no lugar dele</p>`;
   for (const a of escolhidos) {
     const notas = marcas.get(a.id)?.notas || [];
-    h += artigoHTML({ ...a, antes: [] }, null, leiId).replace(/<\/div>\s*$/, "") +
+    // o artigo é montado exatamente como na leitura (mesma largura, mesmo recuo): grifos e desenhos caem no mesmo lugar;
+    // moldura, anotações e o link ficam FORA da caixa do artigo
+    h += `<div class="revisao-bloco">` + artigoHTML({ ...a, antes: [] }, null, leiId) +
       (notas.length ? `<div class="revisao-notas">${notas.map(n => `<div class="revisao-nota">📝 ${esc(n.nota || "")}</div>`).join("")}</div>` : "") +
       `<a class="revisao-ir" href="#/lei/${esc(leiId)}/${encodeURIComponent(a.id)}">ver no texto completo ›</a></div>`;
   }
