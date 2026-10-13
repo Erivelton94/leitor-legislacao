@@ -759,6 +759,8 @@ async def testes(b):
     await p19.click("#conteudo .alt[data-letra='A']"); await p19.click("#btn-responder"); await p19.wait_for_timeout(600)
     resol = await p19.inner_text("#resultado-q")
     confere("Múltipla escolha: depois de responder, a resolução aparece embaixo", "resolução" in resol.lower() and "diminuição" in resol, resol[:120].replace("\n", " "))
+    rica = await p19.evaluate("""htmlResolucao({resolucaoFormato:'rica', resolucao:['Gabarito: **Letra B**','**A)** até o ~~quarto grau~~. [ERRADA] É até o **3º grau**.','> Art. 121, § 2º, VII (...) parente consanguíneo até o terceiro grau','💡 Dica','<script>x</script>']})""")
+    confere("Resolução comentada: negrito, riscado, CORRETA/ERRADA, artigo citado e dica (sem HTML solto)", all(k in rica for k in ['<strong>Letra B</strong>', '<del class="res-riscado">quarto grau</del>', 'selo-res erro', '<blockquote class="res-lei">', 'res-dica']) and "<script>" not in rica, rica[:200])
     await p19.click("#q-colecoes"); await p19.fill("#col-nome", "Revisar homicídio"); await p19.click("#col-criar"); await p19.wait_for_timeout(400)
     col = await p19.evaluate("itens('colecao').map(c=>[c.nome, c.plat, c.ids.length])")
     await p19.evaluate("fecharPainel()")

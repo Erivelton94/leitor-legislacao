@@ -357,10 +357,10 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     $("#resultado-q").innerHTML = (r.correta
       ? `<p class="res-q ok">✓ Você acertou!`
       : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraExibida(q, q.gabarito))}</strong>.`) +
-      ` <button class="link" id="ver-resolucao">${q.resolucao && q.resolucao.length ? "Meu comentário" : "Ver resolução"}</button></p>
+      `</p>
+      <div class="acoes-linha"><button class="botao primario" id="ver-resolucao">📖 Ver resolução</button></div>
       <p class="contagem">Respondida em ${dataHora(r.em)}. Para resolver de novo, use “Redefinir esta lista”.</p>
-      ${q.resolucao && q.resolucao.length ? `<div class="resolucao-ls"><h3>Resolução</h3>${textoResolucaoLS(q.resolucao)}
-        ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes-linha"><a class="botao" href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}" style="text-decoration:none">📖 Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a></div>` : ""}</div>` : ""}`;
+      ${temResolucao(q) ? `<div class="resolucao-ls">${htmlResolucao(q)}</div>` : ""}`;
     $("#ver-resolucao").onclick = () => mostrarResolucao(q);
   };
   if (atual) exibirResultado(atual);
@@ -414,12 +414,42 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
   $("#q-colecoes").onclick = () => painelColecoesDaQuestao(q, () => { const b = $("#q-colecoes"); if (b) b.textContent = rotuloBotaoListas(q); });
 }
 
+/* resolução comentada: a lista pode trazer marcações simples, que viram negrito, riscado, grifo,
+   selos de CORRETA/ERRADA, citação da lei (linha que começa com ">") e dicas (💡/⚠️) */
+const temResolucao = q => Array.isArray(q.resolucao) && q.resolucao.length > 0;
+function marcacaoRica(t) {
+  return esc(t)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/~~(.+?)~~/g, '<del class="res-riscado">$1</del>')
+    .replace(/==(.+?)==/g, '<mark class="res-grifo">$1</mark>')
+    .replace(/\[(CORRETAS?|CERTO|INCORRETA[^\]]*|ERRADAS?|ERRADO|ATENÇÃO|É a resposta|CORRETA[^\]]*)\]/g, (m, s) => {
+      const cls = /^(INCORRETA|ERRAD)/.test(s) ? "erro" : /^(CORRET|CERTO)/.test(s) ? "ok" : /ATEN/.test(s) ? "aviso" : "resp";
+      return `<span class="selo-res ${cls}">${s}</span>`;
+    });
+}
+function htmlResolucao(q) {
+  if (q.resolucaoFormato !== "rica") return `<h3>Resolução</h3>${textoResolucaoLS(q.resolucao)}`;
+  let h = "", cit = [];
+  const fechaCit = () => { if (cit.length) { h += `<blockquote class="res-lei">${cit.map(c => `<p>${marcacaoRica(c)}</p>`).join("")}</blockquote>`; cit = []; } };
+  for (const l of q.resolucao) {
+    if (/^>\s?/.test(l)) { cit.push(l.replace(/^>\s?/, "")); continue; }
+    fechaCit();
+    if (/^Gabarito:/i.test(l)) h += `<p class="res-gabarito">${marcacaoRica(l)}</p>`;
+    else if (/^(💡|⚠️)/.test(l)) h += `<p class="res-dica ${l.startsWith("⚠️") ? "atencao" : ""}">${marcacaoRica(l)}</p>`;
+    else if (/^\*\*([A-E]|I{1,3}|IV|V)\)\*\*|^\*\*\d+º/.test(l)) h += `<p class="res-alt">${marcacaoRica(l)}</p>`;
+    else h += `<p>${marcacaoRica(l)}</p>`;
+  }
+  fechaCit();
+  return h;
+}
 function mostrarResolucao(q, focarNota = false) {
   const nota = estado.itens.get(idNotaQ(q.id));
   const respondida = respostaAtual(mapaRespostas(), q.id);
-  abrirPainel(`<h2>${respondida ? "Resolução" : "Meu comentário"} ${botaoFechar}</h2>
-    ${respondida ? `<p><strong>Gabarito: ${esc(letraExibida(q, q.gabarito))}</strong></p>` : '<p class="contagem">O gabarito aparece aqui depois que você responder a questão.</p>'}
-    ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes" style="margin-bottom:12px"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
+  abrirPainel(`<h2>${respondida ? "📖 Resolução" : "Meu comentário"} ${botaoFechar}</h2>
+    ${respondida ? (temResolucao(q) && q.resolucaoFormato === "rica" ? "" : `<p><strong>Gabarito: ${esc(letraExibida(q, q.gabarito))}</strong></p>`) : '<p class="contagem">O gabarito e a resolução aparecem aqui depois que você responder a questão.</p>'}
+    ${respondida && temResolucao(q) ? `<div class="resolucao-ls painel-res">${htmlResolucao(q)}</div>` : ""}
+    ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes" style="margin:12px 0"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">📖 Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
+    <h3 class="grupo-assunto">Meu comentário</h3>
     <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Fica guardado e entra no backup.</p>
     <textarea class="campo" id="nota-q" placeholder="Ex.: a qualificadora alcança parente consanguíneo só até o 3º grau (art. 121, § 2º, VII).">${esc(nota && !nota.apagado ? nota.nota : "")}</textarea>
     <div class="acoes" style="margin-top:10px"><button class="botao primario" id="salvar-nota-q">Salvar comentário</button></div>`);

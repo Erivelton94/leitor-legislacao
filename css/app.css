@@ -781,3 +781,20 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 .cobertura-ls { display: flex; height: 12px; border-radius: 999px; overflow: hidden; background: var(--fio); margin: 6px 0; }
 .cobertura-ls .b-ok { background: var(--ok); } .cobertura-ls .b-erro { background: var(--alt); }
 .estat-ls .num-desemp .link { margin-left: 6px; font-size: 13px; }
+
+/* resolução comentada (listas com marcações) */
+.resolucao-ls .res-gabarito { font-family: var(--sans); font-size: 16px; margin: 0 0 10px; }
+.resolucao-ls .res-gabarito strong { color: #1d6fd1; }
+.resolucao-ls .res-alt { margin-top: 12px; }
+.resolucao-ls .res-riscado { color: var(--alt); text-decoration-thickness: 2px; }
+.resolucao-ls .res-grifo { background: #fff3a8; color: inherit; padding: 0 2px; border-radius: 3px; }
+.resolucao-ls .selo-res { font-family: var(--sans); font-weight: 700; font-size: .85em; letter-spacing: .02em; }
+.resolucao-ls .selo-res.ok { color: #1d6fd1; } .resolucao-ls .selo-res.erro { color: var(--alt); }
+.resolucao-ls .selo-res.aviso { color: #b7791f; } .resolucao-ls .selo-res.resp { color: var(--oliva); }
+.resolucao-ls .res-lei { margin: 10px 0 12px; padding: 8px 14px; border-left: 3px solid var(--fio); color: var(--tinta-2); font-style: italic; }
+.resolucao-ls .res-lei p { margin: 0 0 4px; } .resolucao-ls .res-lei strong { color: var(--tinta); }
+.resolucao-ls .res-dica { margin-top: 12px; padding: 8px 12px; border-radius: 8px; background: var(--oliva-claro); font-family: var(--sans); font-size: 14px; }
+.resolucao-ls .res-dica.atencao { background: #fdf0d5; }
+.painel-res { margin: 4px 0 8px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .resolucao-ls .res-grifo { background: #6b5d10; } :root:not([data-theme="light"]) .resolucao-ls .res-dica.atencao { background: #4a3a14; } :root:not([data-theme="light"]) .resolucao-ls .selo-res.ok { color: #6aa8f0; } }
+:root[data-theme="dark"] .resolucao-ls .res-grifo { background: #6b5d10; } :root[data-theme="dark"] .resolucao-ls .res-dica.atencao { background: #4a3a14; } :root[data-theme="dark"] .resolucao-ls .selo-res.ok { color: #6aa8f0; }
