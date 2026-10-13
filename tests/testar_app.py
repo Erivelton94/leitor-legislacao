@@ -738,6 +738,8 @@ async def testes(b):
     async def _indice_vazio(route):
         await route.fulfill(json={"cadernos": []})
     await ctx19.route(U + "dados/questoes/indice.json*", _indice_vazio)
+    # os cadernos reais já publicados no site não entram neste teste
+    await p19.evaluate("caches.keys().then(ks=>Promise.all(ks.map(async k=>{ const c=await caches.open(k); for (const r of await c.keys()) if (r.url.includes('dados/questoes/')) await c.delete(r); })))")
     await p19.reload(); await p19.wait_for_timeout(2500)
     await p19.goto(U + "#/questoes/cadernos"); await p19.wait_for_timeout(800)
     for arq in ("caderno-teste.pdf", "caderno-resolucao.pdf"):
@@ -765,6 +767,12 @@ async def testes(b):
     await p19.click("#conteudo .alt[data-letra='A']"); await p19.click("#btn-responder"); await p19.wait_for_timeout(600)
     resol = await p19.inner_text("#resultado-q")
     confere("Múltipla escolha: depois de responder, a resolução aparece embaixo", "resolução" in resol.lower() and "diminuição" in resol, resol[:120].replace("\n", " "))
+    nbt = await p19.locator("#resultado-q [data-art-lei]").count()
+    if nbt: await p19.locator("#resultado-q [data-art-lei]").first.click(); await p19.wait_for_timeout(1500)
+    painel_art = await p19.evaluate("(document.querySelector('#painel h2')||{}).textContent || ''") if nbt else ""
+    multi = await p19.evaluate("botoesArtigosQ({refs:[{lei:'lep',art:'83'},{lei:'lep',art:'84'}], vinculo:{lei:'lep',de:'82',ate:'104'}})")
+    await p19.evaluate("fecharPainel()")
+    confere("Questão respondida: botões que abrem o artigo citado na lei (um por artigo da resolução)", nbt >= 1 and "Art." in painel_art and multi.count("data-art-lei") == 2 and 'data-art="84"' in multi, [nbt, painel_art[:60], multi[:160]])
     rica = await p19.evaluate("""htmlResolucao({resolucaoFormato:'rica', resolucao:['Gabarito: **Letra B**','**A)** até o ~~quarto grau~~. [ERRADA] É até o **3º grau**.','> Art. 121, § 2º, VII (...) parente consanguíneo até o terceiro grau','💡 Dica','<script>x</script>']})""")
     confere("Resolução comentada: negrito, riscado, CORRETA/ERRADA, artigo citado e dica (sem HTML solto)", all(k in rica for k in ['<strong>Letra B</strong>', '<del class="res-riscado">quarto grau</del>', 'selo-res erro', '<blockquote class="res-lei">', 'res-dica']) and "<script>" not in rica, rica[:200])
     await p19.click("#q-colecoes"); await p19.fill("#col-nome", "Revisar homicídio"); await p19.click("#col-criar"); await p19.wait_for_timeout(400)
@@ -842,6 +850,7 @@ async def testes(b):
     async def _cad_pub(route):
         nome = route.request.url.rsplit("/", 1)[1].replace(".json", ""); await route.fulfill(json=pub[nome])
     await ctx20.route(U + "dados/questoes/indice.json*", _indice_pub); await ctx20.route(U + "dados/questoes/pub-*.json*", _cad_pub)
+    await p20.evaluate("caches.keys().then(ks=>Promise.all(ks.map(async k=>{ const c=await caches.open(k); for (const r of await c.keys()) if (r.url.includes('dados/questoes/')) await c.delete(r); })))")
     await p20.reload(); await p20.wait_for_timeout(3000)
     rec = await p20.evaluate("(()=>{ const pid = pastaDoItem('questoes','pub-me'); return [pid ? textoCaminho(pid) : null, pastaDoItem('questoes','pub-so'), baseME().map(q=>q.id).sort()]; })()")
     await p20.goto(U + "#/questoes/cadernos"); await p20.wait_for_timeout(800)

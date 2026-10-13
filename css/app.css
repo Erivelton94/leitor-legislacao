@@ -798,3 +798,7 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 .painel-res { margin: 4px 0 8px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .resolucao-ls .res-grifo { background: #6b5d10; } :root:not([data-theme="light"]) .resolucao-ls .res-dica.atencao { background: #4a3a14; } :root:not([data-theme="light"]) .resolucao-ls .selo-res.ok { color: #6aa8f0; } }
 :root[data-theme="dark"] .resolucao-ls .res-grifo { background: #6b5d10; } :root[data-theme="dark"] .resolucao-ls .res-dica.atencao { background: #4a3a14; } :root[data-theme="dark"] .resolucao-ls .selo-res.ok { color: #6aa8f0; }
+/* botões "📖 Art. N — LEP" depois de responder */
+.artigos-q { margin: 10px 0 4px; }
+.artigos-q .contagem { margin: 0 0 6px; }
+.btn-artigo { font-size: .92em; }

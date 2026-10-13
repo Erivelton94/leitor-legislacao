@@ -82,6 +82,26 @@ async function redefinirQuestoes(ids) {
   for (const id of ids) delete riscadas[id];
   if (ids.length) await salvarItem({ id: uid(), tipo: "reset", ids, em: agoraISO() });
 }
+/* artigos ligados à questão: "refs" (todos os citados na resolução) ou o "vinculo" do assunto.
+   Viram botões que abrem a lei exatamente naquele artigo. */
+function refsDaQuestaoQ(q) {
+  if (q.refs && q.refs.length) return q.refs.filter(r => r.lei && r.art);
+  return q.vinculo ? [{ lei: q.vinculo.lei, art: q.vinculo.de, ate: q.vinculo.ate }] : [];
+}
+function botoesArtigosQ(q) {
+  const refs = refsDaQuestaoQ(q);
+  if (!refs.length) return "";
+  const bts = refs.map(r => {
+    const rot = r.ate && r.ate !== r.art ? `Arts. ${r.art} a ${r.ate}` : rotuloArt(r.art, r.lei);
+    return `<button class="botao btn-artigo" data-art-lei="${esc(r.lei)}" data-art="${esc(r.art)}">📖 ${esc(rot)} — ${esc(siglaOuNome(r.lei))}</button>`;
+  }).join("");
+  return `<div class="artigos-q"><p class="contagem">Ler o artigo na lei:</p><div class="acoes-linha">${bts}</div></div>`;
+}
+// o botão abre o texto do artigo num painel (com o trecho em destaque e o atalho para a lei inteira)
+document.addEventListener("click", e => {
+  const b = e.target.closest && e.target.closest("[data-art-lei]");
+  if (b) painelArtigoLS({ lei: b.dataset.artLei, art: b.dataset.art });
+});
 const idFavQ = qid => `fav|q|${qid}`;
 const idNotaQ = qid => `nq|${qid}`;
 function provaQ(q) { return [q.banca, q.ano, [q.cargo, q.orgao, q.area].filter(Boolean).join(" · ")].join(" — "); }
@@ -361,6 +381,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
       : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraExibida(q, q.gabarito))}</strong>.`) +
       `</p>
       <div class="acoes-linha"><button class="botao primario" id="ver-resolucao">📖 Ver resolução</button></div>
+      ${botoesArtigosQ(q)}
       <p class="contagem">Respondida em ${dataHora(r.em)}. Para resolver de novo, use “Redefinir esta lista”.</p>
       ${temResolucao(q) ? `<div class="resolucao-ls">${htmlResolucao(q)}</div>` : ""}`;
     $("#ver-resolucao").onclick = () => mostrarResolucao(q);
@@ -450,7 +471,7 @@ function mostrarResolucao(q, focarNota = false) {
   abrirPainel(`<h2>${respondida ? "📖 Resolução" : "Meu comentário"} ${botaoFechar}</h2>
     ${respondida ? (temResolucao(q) && q.resolucaoFormato === "rica" ? "" : `<p><strong>Gabarito: ${esc(letraExibida(q, q.gabarito))}</strong></p>`) : '<p class="contagem">O gabarito e a resolução aparecem aqui depois que você responder a questão.</p>'}
     ${respondida && temResolucao(q) ? `<div class="resolucao-ls painel-res">${htmlResolucao(q)}</div>` : ""}
-    ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes" style="margin:12px 0"><button data-href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">📖 Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</button></div>` : ""}
+    ${respondida ? botoesArtigosQ(q) : ""}
     <h3 class="grupo-assunto">Meu comentário</h3>
     <p class="contagem">Seu comentário sobre esta questão (fundamento, pegadinha, artigo cobrado). Fica guardado e entra no backup.</p>
     <textarea class="campo" id="nota-q" placeholder="Ex.: a qualificadora alcança parente consanguíneo só até o 3º grau (art. 121, § 2º, VII).">${esc(nota && !nota.apagado ? nota.nota : "")}</textarea>
