@@ -22,7 +22,7 @@ async function gravarNoCache(caminho, obj) {
 }
 function cadernoParaPublicar(c, caminhoComp = null) {
   const { local, publicado, tituloOriginal, ...resto } = c;
-  // caminho: a pasta compartilhada escolhida (ou, sem escolha, a mesma organização do app do dono) — vira Código/Lei e Assunto no filtro
+  // caminho: a pasta compartilhada escolhida (ou, sem escolha, a mesma organização do app do dono) — vira Lei/Disciplina e Assunto no filtro
   const caminho = caminhoComp || (ehListaLS(c) ? caminhoDaLista(c) : caminhoDoCaderno(c));
   const extra = ehListaLS(c) ? { caminho, titulo: c.titulo } : { caminho };
   return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), ...extra,

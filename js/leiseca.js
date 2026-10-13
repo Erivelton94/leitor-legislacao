@@ -228,8 +228,8 @@ function telaEntradaQuestoes() {
     </button>
     <button class="cartao-plataforma" data-href="#/multipla">
       <span class="plat-icone">📝</span>
-      <span class="plat-titulo">Múltipla escolha tradicional</span>
-      <span class="plat-texto">Os cadernos de múltipla escolha e Certo/Errado importados em PDF, com o mesmo filtro profissional, minhas listas e estatísticas, e a tesoura para cortar alternativas.</span>
+      <span class="plat-titulo">Múltipla Escolha Tradicional</span>
+      <span class="plat-texto">As questões de múltipla escolha e de Certo/Errado importadas em PDF, com o mesmo filtro profissional, minhas listas e estatísticas, e a tesoura para cortar alternativas.</span>
       <span class="plat-num">${cads.length} caderno(s)${eC.respostas ? ` · ${eC.pctTotal}% de acerto` : ""}</span>
     </button>
   </div>`;
@@ -253,7 +253,7 @@ function telaListasLS(pastaId = null) {
   const listas = listasLS().filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id) && cadernoVisivelNaLista(c)).sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
   const nArq = listasLS().filter(c => cadernoArquivado(c.id)).length + pastasDe(PLATAFORMA_LS).filter(p => p.arquivada).length;
   const mapa = mapaRespostas();
-  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta(PLATAFORMA_LS, pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira o <strong>Código/Lei</strong>, a subpasta vira o <strong>Assunto</strong> e cada arquivo enviado vira o <strong>SubAssunto</strong>. Importe as listas em PDF dentro da subpasta certa.</p>`}
+  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta(PLATAFORMA_LS, pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira a <strong>Lei/Disciplina</strong>, a subpasta vira o <strong>Assunto</strong> e cada arquivo enviado vira o <strong>SubAssunto</strong>. Importe as listas em PDF dentro da subpasta certa.</p>`}
     <div class="acoes-linha">
       <button class="botao primario" id="importar-lista-ls">📥 Importar lista (PDF)</button>
       <button class="botao" id="importar-pasta-ls">📂 Importar pasta inteira</button>
@@ -266,7 +266,7 @@ function telaListasLS(pastaId = null) {
   for (const p of pastas) h += linhaPasta(p, rotuloQtd(PLATAFORMA_LS, p.id), "", rotaPastaArea(PLATAFORMA_LS, p.id));
   for (const c of listas) h += linhaListaLS(c, mapa);
   h += "</ul>";
-  if (!listas.length && !pastas.length) h += `<p class="vazio">${pasta ? "Pasta vazia. Importe uma lista para cá ou crie uma subpasta." : "Nenhuma lista ainda. Crie a pasta principal (Código/Lei), a subpasta (Assunto) e importe as listas em PDF."}</p>`;
+  if (!listas.length && !pastas.length) h += `<p class="vazio">${pasta ? "Pasta vazia. Importe uma lista para cá ou crie uma subpasta." : "Nenhuma lista ainda. Crie a pasta principal (Lei/Disciplina), a subpasta (Assunto) e importe as listas em PDF."}</p>`;
   $("#conteudo").innerHTML = h;
   $("#importar-lista-ls").onclick = () => painelImportarListaLS(pastaId || null);
   $("#importar-pasta-ls").onclick = () => painelImportarPastaLS(pastaId || null);
@@ -382,7 +382,7 @@ async function salvarListaLS(titulo, questoes, pastaId, { id: idFixo = null, ori
 
 /* =====================================================================
    IMPORTAR UMA PASTA INTEIRA (Google Drive, pasta do computador ou .zip)
-   A pasta escolhida vira a pasta principal (Código/Lei), as subpastas viram os assuntos
+   A pasta escolhida vira a pasta principal (Lei/Disciplina), as subpastas viram os assuntos
    e cada PDF vira uma lista. Importar de novo ATUALIZA: listas iguais são puladas,
    listas alteradas são trocadas (mantendo as suas respostas) e as novas entram.
    ===================================================================== */
@@ -564,7 +564,7 @@ async function importarPastaDrive(token, pasta, destinoId, res, botao, area = PL
 function painelImportarPastaLS(destinoId, area = PLATAFORMA_LS) {
   const suportaPasta = "webkitdirectory" in document.createElement("input") && !ehAparelhoApple();
   abrirPainel(`<h2>📂 Importar pasta inteira ${botaoFechar}</h2>
-    <p class="contagem" style="margin-top:0">A pasta escolhida vira a pasta principal (Código/Lei), as subpastas viram os assuntos e cada PDF vira uma lista.
+    <p class="contagem" style="margin-top:0">A pasta escolhida vira a pasta principal (Lei/Disciplina), as subpastas viram os assuntos e cada PDF vira uma lista.
       Para atualizar o banco, é só importar a mesma pasta de novo: listas sem mudança são puladas, as alteradas são trocadas (as suas respostas continuam) e as novas entram.
       ${destinoId ? `A pasta vai para dentro de <strong>${esc(textoCaminho(destinoId))}</strong>.` : ""}</p>
     <div class="acoes">
@@ -646,7 +646,7 @@ function baseLS() {
   const out = [];
   for (const c of listasLS()) {
     if (cadernoArquivado(c.id)) continue;
-    // Código/Lei = pasta principal · Assunto = subpasta · SubAssunto = o arquivo (a lista) enviado
+    // Lei/Disciplina = pasta principal · Assunto = subpasta · SubAssunto = o arquivo (a lista) enviado
     const cam = caminhoDaLista(c);
     const pasta = cam[0] || "Fora das pastas", assunto = cam.slice(1).join(" › ");
     for (const q of c.questoes) { q.caderno = c.id; q.pastaLS = pasta; q.assuntoLS = assunto; q.subassuntoLS = c.titulo; out.push(q); }
@@ -658,7 +658,7 @@ const refsDe = q => q.refs ? q.refs.filter(r => r.lei) : q.vinculo ? [{ lei: q.v
 const leisDaQuestao = q => [...new Set(refsDe(q).map(r => r.lei))];
 const artigosDaQuestao = q => refsDe(q).map(r => r.lei + "|" + r.art);
 const CAMPOS_LS = [
-  ["leis", "Código/Lei", q => [q.pastaLS], v => v],
+  ["leis", "Lei/Disciplina", q => [q.pastaLS], v => v],
   ["assuntos", "Assunto", q => (q.assuntoLS ? [q.assuntoLS] : []), v => v],
   ["subassuntos", "SubAssunto", q => (q.subassuntoLS ? [q.subassuntoLS] : []), v => v],
   ["artigos", "Artigo", q => artigosDaQuestao(q), v => { const [l, a] = v.split("|"); return `${rotuloArt(a)} — ${siglaOuNome(l)}`; }],

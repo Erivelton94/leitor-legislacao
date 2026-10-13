@@ -118,7 +118,7 @@ function listaFiltrada(s, mapa) {
       : f.situacao === "ja-errei" ? jaErrou(mapa, q.id) : situacaoQ(mapa, q.id) === f.situacao)));
 }
 
-/* ---------- Múltipla escolha: pastas e arquivos (igual à Lei Seca) ---------- */
+/* ---------- Múltipla Escolha: pastas e arquivos (igual à Lei Seca) ---------- */
 function telaQuestoes(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
   if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes/cadernos"; return; }
@@ -130,7 +130,7 @@ function telaQuestoes(pastaId = null) {
   const noLugar = new Set(itensDaPasta("questoes", pastaId || null));
   const visiveis = ordenarCadernos(cads.filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id)));
   const nArquivados = pastasDe("questoes").filter(p => p.arquivada).length + cads.filter(c => cadernoArquivado(c.id)).length;
-  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta("questoes", pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira a <strong>Pasta</strong>, a subpasta vira a <strong>Subpasta</strong> e cada arquivo enviado vira o <strong>Arquivo</strong>. Importe os PDFs dentro da subpasta certa.</p>`}
+  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta("questoes", pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira a <strong>Lei/Disciplina</strong>, a subpasta vira o <strong>Assunto</strong> e cada arquivo enviado vira o <strong>SubAssunto</strong>. Importe os PDFs dentro da subpasta certa.</p>`}
     <div class="acoes-linha">
       <button class="botao primario" id="importar-caderno">📥 Importar arquivo (PDF)</button>
       <button class="botao" id="importar-pasta-me">📂 Importar pasta inteira</button>

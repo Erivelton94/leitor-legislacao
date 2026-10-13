@@ -393,7 +393,7 @@ async def testes(b):
     ctx10, pg10 = await novo_aparelho(b, leis=()); await conectar(pg10, "")
     await pg9.goto(U + "#/acervo"); await pg9.goto(U + "#/ajustes"); await pg9.wait_for_timeout(1800)
     ordem_arm = [t.strip() for t in await pg9.locator("#secao-armazenamento .linha-arm strong").all_inner_texts()]
-    confere("Armazenamento com Leis, Lei Seca, Múltipla escolha e Resumos (questões apagadas por plataforma)", ordem_arm[:4] == ["Leis", "Lei Seca", "Múltipla escolha", "Resumos"], ordem_arm)
+    confere("Armazenamento com Leis, Lei Seca, Múltipla escolha e Resumos (questões apagadas por plataforma)", ordem_arm[:4] == ["Leis", "Lei Seca", "Múltipla Escolha", "Resumos"], ordem_arm)
     await pg9.evaluate("() => { window.prompt = () => 'APAGAR'; }")
     await pg9.click("#arm-tudo"); await pg9.wait_for_timeout(5000)
     a_ok = await pg9.evaluate("[...estado.itens.values()].filter(i => !i.auto && !i.apagado).length") == 0 and await pg9.evaluate("!!cfgSync()")
@@ -632,7 +632,7 @@ async def testes(b):
     artigos = await p16.evaluate("[...document.querySelectorAll('.opcao-ls span:nth-child(2)')].map(s=>s.textContent)")
     await p16.click(".opcao-ls input[value='codigo-penal|121']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
     so121 = await p16.inner_text("#ls-filtrar")
-    confere("Filtro: Código/Lei = pasta, Assunto = subpasta, SubAssunto = arquivo; artigo e banca; quantidade ao vivo", "(4)" in total_btn and "(1)" in uma and "(2)" in so121 and assuntos == [["Crimes contra a Pessoa"], ["Homicídio"], ["leiseca-teste"]]
+    confere("Filtro: Lei/Disciplina = pasta, Assunto = subpasta, SubAssunto = arquivo; artigo e banca; quantidade ao vivo", "(4)" in total_btn and "(1)" in uma and "(2)" in so121 and assuntos == [["Crimes contra a Pessoa"], ["Homicídio"], ["leiseca-teste"]]
         and "Art. 121 — CP" in artigos and "Art. 305 — CTB" in artigos, [total_btn, uma, so121, assuntos, artigos[:4]])
     await p16.click("#ls-salvar-filtro"); await p16.wait_for_timeout(400)
     await p16.click("#ls-limpar"); await p16.click("#ls-salvos"); await p16.click("[data-aplicar-filtro]"); await p16.wait_for_timeout(400)
@@ -746,7 +746,7 @@ async def testes(b):
     res = await p19.evaluate("(()=>{ const q=[...estado.q.values()].find(q=>q.banca==='FGV' && (q.resolucao||[]).length); return q ? [q.id, q.resolucao.join(' '), q.gabarito] : null })()")
     confere("Múltipla escolha: a resolução do PDF é lida com a questão", res and "causa de diminuição" in res[1] and res[2] == "A", res)
     await p19.goto(U + "#/questoes"); await p19.wait_for_timeout(600)
-    confere("Questões: a plataforma se chama “Múltipla escolha tradicional”", "Múltipla escolha tradicional" in await p19.inner_text(".entrada-questoes"))
+    confere("Questões: a plataforma se chama “Múltipla escolha tradicional”", "Múltipla Escolha Tradicional" in await p19.inner_text(".entrada-questoes"))
     await p19.goto(U + "#/multipla"); await p19.wait_for_timeout(800)
     total = await p19.inner_text("#ls-filtrar")
     campos = await p19.evaluate("[...document.querySelectorAll('[data-campo]')].map(b=>b.dataset.campo)")
@@ -791,6 +791,14 @@ async def testes(b):
     await p19.click("#importar-pasta-me"); await p19.set_input_files("#zip-arq", zme); await p19.wait_for_selector("#pasta-res .txt-ok", timeout=60000)
     arv = await p19.evaluate("(()=>{ const r = pastasDe('questoes', null).find(p=>p.nome==='Penal'); const s = r && pastasDe('questoes', r.id)[0]; return [s?.nome, s && itensDaPasta('questoes', s.id).map(id=>estado.cadernos[id].titulo)]; })()")
     os.remove(zme); await p19.evaluate("fecharPainel()")
+    await p19.locator(".acervo .lei-item", has_text="Penal").locator("button.abrir").click(); await p19.wait_for_timeout(600)
+    dentro1 = [p19.url.split("#")[1], await p19.inner_text("#titulo")]
+    await p19.locator(".acervo .lei-item", has_text="Furto").locator("button.abrir").click(); await p19.wait_for_timeout(600)
+    dentro2 = [await p19.inner_text("#titulo"), await p19.evaluate("[...document.querySelectorAll('.acervo .lei-nome')].map(e=>e.textContent.trim())")]
+    campos_rot = await p19.evaluate("CAMPOS_ME.slice(0,3).map(c=>c[1]).concat(CAMPOS_LS.slice(0,3).map(c=>c[1]))")
+    confere("Múltipla Escolha: entra na pasta e na subpasta; filtros Lei/Disciplina, Assunto e SubAssunto nas duas plataformas",
+        dentro1[0].startswith("/questoes/pasta/") and dentro1[1] == "Penal" and dentro2[0] == "Furto" and any("Comentadas" in n for n in dentro2[1])
+        and campos_rot == ["Lei/Disciplina", "Assunto", "SubAssunto"] * 2, [dentro1, dentro2, campos_rot])
     confere("Múltipla escolha em Pastas e arquivos, com “Importar pasta inteira” igual à Lei Seca", "Pastas e arquivos" in titulo_tela and arv == ["Furto", ["Comentadas"]], [titulo_tela, arv])
     # apagar só a múltipla escolha
     await p19.evaluate("salvarItem({id:'r-ls-1', tipo:'resposta', q:'ls-xyz', caderno:'ls-algo', marcada:'C', correta:true, em:agoraISO(), tempo:3})")

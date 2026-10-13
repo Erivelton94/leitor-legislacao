@@ -313,7 +313,7 @@ function painelCompartilharCaderno(id, volta) {
   const pastas = (estado.indiceQ?.pastas || []).filter(p => (p.area || "questoes") === area);
   const meuCaminho = ls ? caminhoDaLista(c) : caminhoDoCaderno(c);
   abrirPainel(`<h2>${ligado ? "👁 Compartilhado" : "Compartilhar"}: ${esc(c.titulo)} ${botaoFechar}</h2>
-    <p class="contagem" style="margin-top:0">Escolha em que pasta ${ls ? "a lista" : "o caderno"} aparece no app dos outros usuários${ls ? " (no filtro, a pasta principal vira o Código/Lei e a subpasta, o Assunto)" : ""}.</p>
+    <p class="contagem" style="margin-top:0">Escolha em que pasta ${ls ? "a lista" : "o caderno"} aparece no app dos outros usuários${ls ? " (no filtro, a pasta principal vira a Lei/Disciplina e a subpasta, o Assunto)" : ""}.</p>
     <div id="sel-comp"></div>
     <h3 class="grupo-assunto">Como aparece para eles</h3>
     <div class="lista-opcoes-ls">

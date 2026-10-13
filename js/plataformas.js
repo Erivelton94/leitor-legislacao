@@ -1,6 +1,6 @@
 /* =====================================================================
    PLATAFORMAS DE QUESTÕES
-   As duas plataformas (Lei Seca — Verdadeiro ou Falso, e Múltipla escolha
+   As duas plataformas (Lei Seca — Verdadeiro ou Falso, e Múltipla Escolha
    tradicional) usam o mesmo filtro profissional, os mesmos filtros salvos,
    as mesmas "Minhas listas de questões" e as mesmas estatísticas.
    O jeito de responder continua o de cada uma (V/F; alternativas com tesoura).
@@ -26,9 +26,9 @@ function baseME() {
   return out;
 }
 const CAMPOS_ME = [                                    // os mesmos campos da Lei Seca: Pasta › Subpasta › Arquivo, artigo e a prova
-  ["pastas", "Pasta", q => [q.pastaME], v => v],
-  ["subpastas", "Subpasta", q => (q.subpastaME ? [q.subpastaME] : []), v => v],
-  ["cadernos", "Arquivo", q => [q.cadernoME], v => v],
+  ["pastas", "Lei/Disciplina", q => [q.pastaME], v => v],
+  ["subpastas", "Assunto", q => (q.subpastaME ? [q.subpastaME] : []), v => v],
+  ["cadernos", "SubAssunto", q => [q.cadernoME], v => v],
   ["artigos", "Artigo", q => artigosDaQuestao(q), v => { const [l, a] = v.split("|"); return `${rotuloArt(a)} — ${siglaOuNome(l)}`; }],
   ["anos", "Ano", q => (q.ano ? [String(q.ano)] : []), v => v],
   ["cargos", "Cargo", q => (q.cargo ? [q.cargo] : []), v => v],
@@ -47,7 +47,7 @@ const PLAT = {
         arquivos: "#/leiseca/listas", rotuloArquivos: "📁 Pastas e arquivos", resolver: "#/leiseca/resolver", tipoSalvo: "filtro-ls",
         iniciar: (l, t, p, col) => iniciarSessaoLS(l, t, p, col),
         vazio: `Ainda não há questões. Em <a href="#/leiseca/listas">📁 Pastas e arquivos</a>, crie as pastas (ex.: Código Penal), as subpastas (ex.: Crimes contra a Pessoa) e importe as listas em PDF.` },
-  me: { chave: "me", rota: "#/multipla", titulo: "Múltipla escolha tradicional", tituloCurto: "Múltipla escolha", vf: false, area: "questoes",
+  me: { chave: "me", rota: "#/multipla", titulo: "Múltipla Escolha Tradicional", tituloCurto: "Múltipla Escolha", vf: false, area: "questoes",
         base: () => baseME(), campos: CAMPOS_ME, cadernos: () => cadernosTradicionais(), ordenar: l => ordenarME(l),
         arquivos: "#/questoes/cadernos", rotuloArquivos: "📁 Pastas e arquivos", resolver: "#/multipla/resolver", tipoSalvo: "filtro-me",
         iniciar: (l, t, p, col) => iniciarSessaoME(l, t, p, col),

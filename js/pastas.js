@@ -34,6 +34,7 @@ function caminhoPasta(id) {
 const textoCaminho = id => caminhoPasta(id).map(p => p.nome).join(" › ");
 function rotaPastaArea(area, id) {
   const base = { leis: "#/acervo", questoes: "#/questoes/cadernos", resumos: "#/resumos", leiseca: "#/leiseca/listas" }[area];
+  if (id && area === "questoes") return `#/questoes/pasta/${id}`;     // a rota das pastas da Múltipla Escolha não fica dentro de "cadernos"
   return id ? `${base}/pasta/${id}` : base;
 }
 function trilhaPasta(area, id) {
