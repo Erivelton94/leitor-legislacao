@@ -20,25 +20,34 @@ async function gravarNoCache(caminho, obj) {
   if (obj === null) await cache.delete(new Request(caminho));
   else await cache.put(new Request(caminho), new Response(JSON.stringify(obj), { headers: { "content-type": "application/json" } }));
 }
-function cadernoParaPublicar(c) {
+function cadernoParaPublicar(c, caminhoComp = null) {
   const { local, publicado, tituloOriginal, ...resto } = c;
-  const extra = ehListaLS(c) ? { caminho: caminhoDaLista(c), titulo: c.titulo } : {};          // lei seca: assunto e subassunto vão junto
+  // caminho: a pasta compartilhada escolhida (ou, sem escolha, a mesma organização do app do dono) — vira Código/Lei e Assunto no filtro
+  const caminho = caminhoComp || (ehListaLS(c) ? caminhoDaLista(c) : caminhoDoCaderno(c));
+  const extra = ehListaLS(c) ? { caminho, titulo: c.titulo } : { caminho };
   return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), ...extra,
-    questoes: c.questoes.map(({ caderno, pastaLS, assuntoLS, subassuntoLS, ...q }) => q) };
+    questoes: c.questoes.map(({ caderno, pastaLS, assuntoLS, subassuntoLS, pastaME, subpastaME, cadernoME, ...q }) => q) };
 }
 /* ligar: o caderno passa a aparecer para todos */
-async function publicarCaderno(id, aviso) {
+async function publicarCaderno(id, aviso, opcoes = {}) {
   const c = estado.cadernos[id];
   const p = provedorDono(); await p.preparar();
   const lista = await p.listar();
   const arquivo = `${id}.json`, caminho = `dados/questoes/${arquivo}`;
-  const dados = cadernoParaPublicar(c);
+  const indice = await lerIndiceRemoto(p, lista);
+  indice.pastas = indice.pastas || [];
+  for (const np of opcoes.novasPastas || []) if (!indice.pastas.some(x => x.id === np.id)) indice.pastas.push(np);
+  const pastaComp = "pastaComp" in opcoes ? opcoes.pastaComp : (c.pastaComp || null);
+  const soQuestoes = "soQuestoes" in opcoes ? !!opcoes.soQuestoes : !!c.soQuestoes;
+  const dados = cadernoParaPublicar(c, pastaComp ? caminhoComp(indice.pastas, pastaComp) : null);
+  if (pastaComp) dados.pastaComp = pastaComp; else delete dados.pastaComp;
+  if (soQuestoes) dados.soQuestoes = true; else delete dados.soQuestoes;
   const texto = JSON.stringify(dados, null, 1);
   aviso && aviso("Enviando o caderno…");
   await p.enviar(caminho, new TextEncoder().encode(texto), lista.get(caminho));
-  const indice = await lerIndiceRemoto(p, lista);
   indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
-  indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}) });
+  indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}),
+    ...(pastaComp ? { pastaComp } : {}), ...(soQuestoes ? { soQuestoes: true } : {}) });
   aviso && aviso("Atualizando a lista de cadernos…");
   await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
   await gravarNoCache(caminho, dados); await gravarNoCache("dados/questoes/indice.json", indice);
@@ -101,21 +110,17 @@ function botoesCadernoExtras(id) {
   const arq = cadernoArquivado(id);
   const dono = cfgDono();
   const doApp = !c.local;
-  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? "👁 Visível para outros usuários: <strong>ligado</strong> (tocar para desligar)" : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>` : ""}
+  const ondeComp = ehVisivelParaTodos(id) ? [c.pastaComp ? caminhoComp(estado.indiceQ?.pastas || [], c.pastaComp).join(" › ") : "", c.soQuestoes ? "só as questões" : ""].filter(Boolean).join(" · ") : "";
+  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? `👁 Visível para outros usuários: <strong>ligado</strong>${ondeComp ? ` (${esc(ondeComp)})` : ""} — tocar para mudar a pasta, o modo ou desligar` : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>` : ""}
     <button id="c-arquivar">${arq ? "📤 Desarquivar" : "📦 Arquivar"}</button>
     ${doApp && !dono ? "" : `<button id="c-excluir2" style="color:var(--alt)">🗑 Excluir o caderno</button>`}`;
 }
 function ligarCadernoExtras(id, volta) {
   const c = estado.cadernos[id];
   const msg = t => { const b = $("#c-visivel"); if (b) b.textContent = t; };
-  if ($("#c-visivel")) $("#c-visivel").onclick = async () => {
-    const ligado = ehVisivelParaTodos(id);
-    if (!ligado && cadernoArquivado(id)) { alert("Este caderno está arquivado. Desarquive primeiro para poder deixá-lo visível para os outros."); return; }
-    if (!confirm(ligado ? `Desligar? "${c.titulo}" deixa de aparecer no app dos outros usuários (as respostas deles ficam guardadas na conta de cada um). A sua cópia continua aqui.`
-      : `Ligar? "${c.titulo}" passa a aparecer no app de todos os usuários em cerca de 1 minuto.`)) return;
-    $("#c-visivel").disabled = true;
-    try { if (ligado) await despublicarCaderno(id, msg); else await publicarCaderno(id, msg); fecharPainel(); volta(); mostrarAvisoRapido(ligado ? "🙈 Caderno oculto para os outros usuários" : "👁 Caderno visível para todos"); }
-    catch (e) { msg("⚠️ " + e.message); $("#c-visivel").disabled = false; }
+  if ($("#c-visivel")) $("#c-visivel").onclick = () => {
+    if (!ehVisivelParaTodos(id) && cadernoArquivado(id)) { alert("Este caderno está arquivado. Desarquive primeiro para poder deixá-lo visível para os outros."); return; }
+    painelCompartilharCaderno(id, volta);                   // escolhe a pasta compartilhada e o modo (com arquivo ou só as questões)
   };
   $("#c-arquivar").onclick = async () => {
     const arq = cadernoArquivado(id);

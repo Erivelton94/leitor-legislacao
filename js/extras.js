@@ -386,7 +386,7 @@ async function questoesDePdf(pdfjsLib, dados, catalogo, aoProgresso) {
   let anterior = null;
   for (let i = 0; i < uteis.length; i++) {
     const l = uteis[i], t = l.t;
-    if (RE_ID.test(t)) { fechar(); q = { enunciado: [], alternativas: [], gabarito: "" }; parte = "meta"; anterior = null; continue; }
+    if (RE_ID.test(t)) { fechar(); q = { enunciado: [], alternativas: [], gabarito: "", resolucao: [] }; parte = "meta"; anterior = null; continue; }
     if (!q) continue;
     let m;
     if (parte === "meta" && (m = t.match(RE_META))) {
@@ -401,9 +401,13 @@ async function questoesDePdf(pdfjsLib, dados, catalogo, aoProgresso) {
     if ((m = t.match(/^Gabarito:\s*(.+)$/i))) {
       const g = m[1].trim();
       q.gabarito = /^certo$/i.test(g) ? "C" : /^errado$/i.test(g) ? "E" : g.toUpperCase().slice(0, 1);
-      parte = "fim"; continue;
+      parte = "res"; anterior = null; continue;          // o que vem depois do gabarito é a resolução (comentário do professor)
     }
-    if (parte === "fim") continue;
+    // resolução marcada antes do gabarito ("Resolução:", "Comentário:", "Gabarito comentado")
+    if (parte !== "meta" && parte !== "assunto" && (m = t.match(/^(?:Resolu[çc][ãa]o|Coment[áa]rios?(?:\s+do\s+professor)?|Gabarito\s+comentado|Solu[çc][ãa]o)\s*:?\s*(.*)$/i))) {
+      parte = "res"; anterior = null; if (m[1]) { q.resolucao.push(m[1]); anterior = l; } continue;
+    }
+    if (parte === "res") { juntar(q.resolucao, l, anterior); anterior = l; continue; }
     if (parte === "enunciado" && (m = t.match(/^\d+\)\s*(.*)$/)) && !q.enunciado.length) { q.enunciado.push(m[1]); anterior = l; continue; }
     if ((parte === "enunciado" || parte === "alt") && (m = t.match(/^([a-e])\)\s*(.*)$/))) {
       q.alternativas.push({ letra: m[1].toUpperCase(), texto: m[2] }); parte = "alt"; anterior = l; continue;

@@ -226,10 +226,10 @@ function telaEntradaQuestoes() {
       <span class="plat-texto">Questões de concursos baseadas no texto da lei, com filtro por lei, artigo, assunto, banca, ano, cargo e instituição. Cada resolução leva direto ao artigo.</span>
       <span class="plat-num">${qsLS.length} questões${eLS.respostas ? ` · ${eLS.pctTotal}% de acerto` : ""}</span>
     </button>
-    <button class="cartao-plataforma" data-href="#/questoes/cadernos">
+    <button class="cartao-plataforma" data-href="#/multipla">
       <span class="plat-icone">📝</span>
-      <span class="plat-titulo">Cadernos de questões</span>
-      <span class="plat-texto">As listas de múltipla escolha e Certo/Errado importadas em PDF, organizadas em pastas, com índice, gabarito e estatísticas.</span>
+      <span class="plat-titulo">Múltipla escolha tradicional</span>
+      <span class="plat-texto">Os cadernos de múltipla escolha e Certo/Errado importados em PDF, com o mesmo filtro profissional, minhas listas e estatísticas, e a tesoura para cortar alternativas.</span>
       <span class="plat-num">${cads.length} caderno(s)${eC.respostas ? ` · ${eC.pctTotal}% de acerto` : ""}</span>
     </button>
   </div>`;
@@ -246,11 +246,11 @@ function caminhoDaLista(c) {
 function telaListasLS(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
   if (pastaId && !pastaViva(pasta)) { location.hash = "#/leiseca/listas"; return; }
-  definirTopo({ titulo: pasta ? pasta.nome : "Minhas listas", voltar: pasta ? voltarDaPasta(PLATAFORMA_LS, pastaId) : "#/leiseca" });
+  definirTopo({ titulo: pasta ? pasta.nome : "Pastas e arquivos", voltar: pasta ? voltarDaPasta(PLATAFORMA_LS, pastaId) : "#/leiseca" });
   marcarAba("questoes");
   const pastas = pastasDe(PLATAFORMA_LS, pastaId || null).filter(p => !p.arquivada);
   const noLugar = new Set(itensDaPasta(PLATAFORMA_LS, pastaId || null));
-  const listas = listasLS().filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id)).sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
+  const listas = listasLS().filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id) && cadernoVisivelNaLista(c)).sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
   const nArq = listasLS().filter(c => cadernoArquivado(c.id)).length + pastasDe(PLATAFORMA_LS).filter(p => p.arquivada).length;
   const mapa = mapaRespostas();
   let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta(PLATAFORMA_LS, pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira o <strong>Código/Lei</strong>, a subpasta vira o <strong>Assunto</strong> e cada arquivo enviado vira o <strong>SubAssunto</strong>. Importe as listas em PDF dentro da subpasta certa.</p>`}
@@ -321,7 +321,7 @@ function menuListaLS(id) {
 function painelImportarListaLS(pastaId) {
   abrirPainel(`<h2>Importar lista de Lei Seca ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">PDF com as questões de Verdadeiro ou Falso: referência do artigo entre colchetes, banca, ano, cargo, enunciado, gabarito e resolução. Dá para escolher vários arquivos de uma vez.
-      ${pastaId ? `Vai para a pasta <strong>${esc(textoCaminho(pastaId))}</strong>.` : "Vai para o início de Minhas listas (dá para mover depois)."}</p>
+      ${pastaId ? `Vai para a pasta <strong>${esc(textoCaminho(pastaId))}</strong>.` : "Vai para o início de Pastas e arquivos (dá para mover depois)."}</p>
     <div class="acoes"><button class="botao primario" id="ls-escolher">Escolher PDF</button>
       <button class="botao" id="ls-drive">☁️ Escolher no Google Drive</button></div>
     <input type="file" id="ls-arq" accept="application/pdf,.pdf" multiple hidden>
@@ -481,7 +481,7 @@ async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDriv
       const orig = existente ? origemDaLista(existente.id) : null;
       if (existente && orig && en.md5 && orig.md5 === en.md5) {
         rel.iguais++;
-        if (pastaDoItem(PLATAFORMA_LS, existente.id)?.id !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
+        if (pastaDoItem(PLATAFORMA_LS, existente.id) !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
         continue;
       }
       aviso && aviso(`Lendo ${k + 1} de ${entradas.length}: ${en.caminho.concat(en.nome).join(" › ")}…`);
@@ -493,7 +493,7 @@ async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDriv
       if (igual) {                                              // mesmo conteúdo: só guarda a origem para pular da próxima vez
         const locais = lerLS("cadernos-locais", []); const l = locais.find(c => c.id === existente.id);
         if (l) { l.origem = origem; gravarLS("cadernos-locais", locais); }
-        if (pastaDoItem(PLATAFORMA_LS, existente.id)?.id !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
+        if (pastaDoItem(PLATAFORMA_LS, existente.id) !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
         rel.iguais++; continue;
       }
       const c = await salvarListaLS(existente ? (existente.tituloOriginal || existente.titulo) : titulo, r.questoes, pasta, { id: existente?.id || null, origem, recarregar: false });
@@ -610,9 +610,6 @@ async function atualizarPastaDoDriveLS(pastaId, res) {
 /* =====================================================================
    FILTRO DE QUESTÕES
    ===================================================================== */
-const FILTRO_LS_VAZIO = { leis: [], assuntos: [], subassuntos: [], artigos: [], anos: [], cargos: [], bancas: [], instituicoes: [], comentarios: "todos", situacao: "todas", modo: "ordenado" };
-const filtroLS = () => Object.assign({}, FILTRO_LS_VAZIO, lerLS("filtro-ls", {}));
-const gravarFiltroLS = f => gravarLS("filtro-ls", f);
 /* todas as questões de lei seca disponíveis (listas fora do arquivo e da lixeira), com assunto e subassunto da pasta */
 function baseLS() {
   const out = [];
@@ -625,8 +622,10 @@ function baseLS() {
   }
   return out;
 }
-const leisDaQuestao = q => [...new Set((q.refs || []).map(r => r.lei).filter(Boolean))];
-const artigosDaQuestao = q => (q.refs || []).filter(r => r.lei).map(r => r.lei + "|" + r.art);
+/* artigos citados: lei seca traz em "refs"; múltipla escolha, no "vinculo" do assunto */
+const refsDe = q => q.refs ? q.refs.filter(r => r.lei) : q.vinculo ? [{ lei: q.vinculo.lei, art: q.vinculo.de }] : [];
+const leisDaQuestao = q => [...new Set(refsDe(q).map(r => r.lei))];
+const artigosDaQuestao = q => refsDe(q).map(r => r.lei + "|" + r.art);
 const CAMPOS_LS = [
   ["leis", "Código/Lei", q => [q.pastaLS], v => v],
   ["assuntos", "Assunto", q => (q.assuntoLS ? [q.assuntoLS] : []), v => v],
@@ -639,23 +638,6 @@ const CAMPOS_LS = [
 ];
 const SIGLA_DE = Object.fromEntries(Object.entries(SIGLAS_LEI).filter(([, v]) => v).map(([k, v]) => [v, k]));
 const siglaOuNome = l => SIGLA_DE[l] && SIGLA_DE[l].length <= 5 ? SIGLA_DE[l] : nomeLei(l);
-function passaCampo(q, campo, f) {
-  const sel = f[campo[0]];
-  return !sel.length || campo[2](q).some(v => sel.includes(v));
-}
-function passaFiltroLS(q, f, mapa, ignorar = null) {
-  for (const c of CAMPOS_LS) if (c[0] !== ignorar && !passaCampo(q, c, f)) return false;
-  if (f.situacao !== "todas") {
-    const s = situacaoQ(mapa, q.id);
-    if (f.situacao === "acertei" && s !== "certa") return false;
-    if (f.situacao === "errei" && s !== "errada") return false;
-    if (f.situacao === "resolvidas" && s === "nao") return false;
-    if (f.situacao === "nao" && s !== "nao") return false;
-  }
-  if (f.comentarios === "meus") { const n = estado.itens.get(idNotaQ(q.id)); if (!n || n.apagado) return false; }
-  if (f.comentarios === "anotacoes" && !(q.refs || []).some(r => r.lei && temMarcasNoArtigo(r.lei, r.art))) return false;
-  return true;
-}
 function temMarcasNoArtigo(lei, art) {
   const m = marcasDaLei(lei).get(art);
   return !!m && (m.grifos.length + m.notas.length + m.trechos.length + m.tintas.filter(temConteudo).length) > 0;
@@ -668,100 +650,6 @@ function ordenarLS(lista) {
     return c || (a.numero || 0) - (b.numero || 0);
   });
 }
-function telaFiltroLS() {
-  definirTopo({ titulo: "Lei Seca — Verdadeiro ou Falso", voltar: "#/questoes" });
-  marcarAba("questoes");
-  const base = baseLS();
-  const mapa = mapaRespostas();
-  const f = filtroLS();
-  const salvos = itens("filtro-ls").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  const qtd = base.filter(q => passaFiltroLS(q, f, mapa)).length;
-  const e = estatisticas(base, mapa);
-  const chip = (grupo, v, r) => `<button class="chip-ls" data-chip="${grupo}" data-v="${v}" aria-pressed="${f[grupo] === v}">${r}</button>`;
-  const rotSel = (campo) => { const sel = f[campo[0]]; return !sel.length ? campo[1] : sel.length === 1 ? campo[3](sel[0]) : `${campo[1]}: ${sel.length} selecionados`; };
-  $("#conteudo").innerHTML = `<div class="secao filtro-ls">
-    <div class="cab-ls">
-      <h2 class="titulo-ls">Filtro de questões</h2>
-      <div class="acoes-linha"><a class="botao" href="#/leiseca/listas" style="text-decoration:none">📁 Minhas listas</a>
-        <button class="botao" id="ls-salvos">⭐ Filtros salvos${salvos.length ? ` (${salvos.length})` : ""}</button>
-        <a class="botao" href="#/leiseca/estatisticas" style="text-decoration:none">📊 Estatísticas</a>
-        ${lerLS("sessao-ls", null) ? '<a class="botao" href="#/leiseca/resolver" style="text-decoration:none">▶️ Continuar de onde parei</a>' : ""}</div>
-    </div>
-    ${!base.length ? `<div class="aviso">Ainda não há questões. Em <a href="#/leiseca/listas">📁 Minhas listas</a>, crie as pastas (ex.: Código Penal), as subpastas (ex.: Crimes contra a Pessoa) e importe as listas em PDF.</div>` : `<p class="contagem">${base.length} questões · ${e.respostas} respostas · ${e.respostas ? `<span class="txt-ok">${e.acertosTotal} acertos</span> e <span class="txt-erro">${e.errosTotal} erros</span> (${e.pctTotal}%)` : "nenhuma respondida ainda"}</p>`}
-    <div class="grade-filtro">
-      ${CAMPOS_LS.map(c => `<button class="campo sel-ls ${f[c[0]].length ? "ativo" : ""}" data-campo="${c[0]}"><span>${esc(rotSel(c))}</span><span class="seta">▾</span></button>`).join("")}
-    </div>
-    <div class="linha-chips"><span>Comentários:</span>${chip("comentarios", "todos", "Todos")}${chip("comentarios", "meus", "Meus comentários")}${chip("comentarios", "anotacoes", "Minhas anotações na lei")}</div>
-    <div class="linha-chips"><span>Questões:</span>${chip("situacao", "todas", "Todas")}${chip("situacao", "acertei", "Acertei")}${chip("situacao", "errei", "Errei")}${chip("situacao", "resolvidas", "Resolvidas")}${chip("situacao", "nao", "Não resolvidas")}</div>
-    <div class="linha-chips"><span>Modo:</span>${chip("modo", "aleatorio", "Aleatório")}${chip("modo", "ordenado", "Ordenado")}</div>
-    <div class="rodape-filtro">
-      <button class="link-acao" id="ls-salvar-filtro">💾 Salvar filtro</button>
-      <button class="link-acao perigo" id="ls-limpar">✕ Limpar filtro</button>
-      <button class="botao primario btn-filtrar" id="ls-filtrar" ${qtd ? "" : "disabled"}>Filtrar questões (${qtd})</button>
-    </div></div>`;
-  $$("[data-campo]").forEach(b => b.onclick = () => painelCampoLS(b.dataset.campo));
-  $$("[data-chip]").forEach(b => b.onclick = () => { const g = filtroLS(); g[b.dataset.chip] = b.dataset.v; gravarFiltroLS(g); telaFiltroLS(); });
-  $("#ls-limpar").onclick = () => { gravarFiltroLS({ ...FILTRO_LS_VAZIO, modo: f.modo }); telaFiltroLS(); };
-  $("#ls-salvos").onclick = () => painelFiltrosSalvosLS();
-  $("#ls-salvar-filtro").onclick = async () => {
-    const nome = prompt("Nome do filtro (ex.: Homicídio — FGV e CESPE):"); if (!nome || !nome.trim()) return;
-    await salvarItem({ id: "filtro-ls|" + uid().slice(0, 8), tipo: "filtro-ls", nome: nome.trim(), filtro: filtroLS() });
-    telaFiltroLS(); mostrarAvisoRapido("💾 Filtro salvo");
-  };
-  $("#ls-filtrar").onclick = () => {
-    const g = filtroLS(), m = mapaRespostas();
-    let lista = ordenarLS(baseLS().filter(q => passaFiltroLS(q, g, m)));
-    if (g.modo === "aleatorio") for (let i = lista.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [lista[i], lista[j]] = [lista[j], lista[i]]; }
-    iniciarSessaoLS(lista, "Questões filtradas");
-  };
-}
-/* filtros salvos: aplicar com um toque, ou apagar */
-function painelFiltrosSalvosLS() {
-  const salvos = itens("filtro-ls").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  const base = baseLS(), mapa = mapaRespostas();
-  abrirPainel(`<h2>⭐ Filtros salvos ${botaoFechar}</h2>
-    ${salvos.length ? `<ul class="lista-salvos-ls">${salvos.map(sv => `<li><button class="aplicar-salvo" data-aplicar-filtro="${esc(sv.id)}"><strong>${esc(sv.nome)}</strong>
-        <span class="contagem">${base.filter(q => passaFiltroLS(q, { ...FILTRO_LS_VAZIO, ...sv.filtro }, mapa)).length} questões</span></button>
-        <button class="icone-btn" data-apagar-filtro="${esc(sv.id)}" aria-label="Apagar o filtro ${esc(sv.nome)}">🗑</button></li>`).join("")}</ul>`
-      : '<p class="contagem">Nenhum filtro salvo ainda. Monte o filtro e toque em “💾 Salvar filtro”.</p>'}`);
-  $$("[data-aplicar-filtro]").forEach(b => b.onclick = () => {
-    const sv = estado.itens.get(b.dataset.aplicarFiltro);
-    gravarFiltroLS({ ...FILTRO_LS_VAZIO, ...sv.filtro }); fecharPainel(); telaFiltroLS(); mostrarAvisoRapido(`Filtro "${sv.nome}" aplicado`);
-  });
-  $$("[data-apagar-filtro]").forEach(b => b.onclick = async () => {
-    if (!confirm("Apagar este filtro salvo?")) return;
-    await apagarItem(b.dataset.apagarFiltro); painelFiltrosSalvosLS(); telaFiltroLS();
-  });
-}
-/* escolha de vários itens de um campo, com busca e a quantidade de questões de cada um */
-function painelCampoLS(nomeCampo) {
-  const campo = CAMPOS_LS.find(c => c[0] === nomeCampo);
-  const f = filtroLS(), mapa = mapaRespostas();
-  const base = baseLS().filter(q => passaFiltroLS(q, f, mapa, nomeCampo));
-  const cont = new Map();
-  for (const q of base) for (const v of new Set(campo[2](q))) cont.set(v, (cont.get(v) || 0) + 1);
-  for (const v of f[nomeCampo]) if (!cont.has(v)) cont.set(v, 0);
-  let valores = [...cont.keys()];
-  if (nomeCampo === "artigos") valores.sort((a, b) => { const [la, aa] = a.split("|"), [lb, ab] = b.split("|"); return la.localeCompare(lb) || compararArtigos(aa, ab); });
-  else if (nomeCampo === "anos") valores.sort((a, b) => b.localeCompare(a));
-  else valores.sort((a, b) => String(campo[3](a)).localeCompare(String(campo[3](b)), "pt-BR", { numeric: true }));
-  const marcados = new Set(f[nomeCampo]);
-  abrirPainel(`<h2>${esc(campo[1])} ${botaoFechar}</h2>
-    <input class="campo" id="busca-campo-ls" type="search" placeholder="Buscar…" autocomplete="off">
-    <div class="acoes-linha" style="margin:8px 0"><button class="botao" id="campo-todos">Marcar os visíveis</button><button class="botao" id="campo-nenhum">Desmarcar todos</button></div>
-    <div class="lista-opcoes-ls">${valores.length ? valores.map(v => `<label class="opcao-ls" data-busca="${esc(semAcento(String(campo[3](v))).toLowerCase())}"><input type="checkbox" value="${esc(v)}" ${marcados.has(v) ? "checked" : ""}>
-      <span>${esc(campo[3](v))}</span><span class="contagem">${cont.get(v)}</span></label>`).join("") : '<p class="contagem">Nenhuma opção com os outros filtros escolhidos.</p>'}</div>
-    <div class="acoes" style="margin-top:12px"><button class="botao primario" id="campo-aplicar">Aplicar</button></div>`);
-  $("#busca-campo-ls").oninput = e => { const t = semAcento(e.target.value).toLowerCase(); $$(".opcao-ls").forEach(l => { l.hidden = t && !l.dataset.busca.includes(t); }); };
-  $("#campo-todos").onclick = () => $$(".opcao-ls:not([hidden]) input").forEach(i => { i.checked = true; });
-  $("#campo-nenhum").onclick = () => $$(".opcao-ls input").forEach(i => { i.checked = false; });
-  $("#campo-aplicar").onclick = () => {
-    const g = filtroLS();
-    g[nomeCampo] = $$(".opcao-ls input").filter(i => i.checked).map(i => i.value);
-    gravarFiltroLS(g); fecharPainel(); telaFiltroLS();
-  };
-}
-
 /* =====================================================================
    RESOLVER: Verdadeiro ou Falso, com a resolução ligada ao texto da lei
    ===================================================================== */
@@ -826,6 +714,7 @@ function mostrarQuestaoLS(lista, i) {
       <button class="icone-btn" id="ls-aleatoria" aria-label="Questão aleatória">🔀 Aleatória</button>
       <button class="icone-btn" id="ls-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="ls-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
+      <button class="icone-btn" id="ls-colecoes">${rotuloBotaoListas(q)}</button>
     </div>
     ${i === lista.length - 1 ? `<div class="cartao fim-ls"><p><strong>Última questão da seleção.</strong> ${est.resolvidas} de ${lista.length} resolvidas · ${est.certas} acertos e ${est.erradas} erros.</p>
       <div class="acoes-linha">${est.erradas ? '<button class="botao primario" id="ls-refazer-erros">Refazer só as que errei</button>' : ""}<a class="botao" href="#/leiseca" style="text-decoration:none">Novo filtro</a></div></div>` : ""}
@@ -864,6 +753,7 @@ function mostrarQuestaoLS(lista, i) {
     const fv = ehFavorito(idFavQ(q.id)); $("#ls-fav").textContent = fv ? "★ Favorita" : "☆ Favoritar"; $("#ls-fav").setAttribute("aria-pressed", fv);
   };
   $("#ls-nota").onclick = () => mostrarResolucao(q, true);
+  $("#ls-colecoes").onclick = () => painelColecoesDaQuestao(q, () => { const b = $("#ls-colecoes"); if (b) b.textContent = rotuloBotaoListas(q); });
   if ($("#ls-refazer-erros")) $("#ls-refazer-erros").onclick = async () => {
     const m = mapaRespostas();
     const erradas = lista.filter(x => situacaoQ(m, x.id) === "errada");
@@ -924,156 +814,6 @@ function questoesLSdoArtigo(leiId, art) {
 }
 function resolverLSdoArtigo(leiId, art) {
   const lista = ordenarLS(questoesLSdoArtigo(leiId, art));
-  gravarFiltroLS({ ...FILTRO_LS_VAZIO, artigos: [leiId + "|" + art] });
+  gravarFiltroQ(PLAT.ls, { ...filtroVazio(PLAT.ls), artigos: [leiId + "|" + art] });
   iniciarSessaoLS(lista, `Lei seca — ${rotuloArt(art)} (${siglaOuNome(leiId)})`);
-}
-
-/* =====================================================================
-   ESTATÍSTICAS DA LEI SECA
-   Rodada atual (desde o último "redefinir") + histórico de TODAS as respostas,
-   com período, desempenho por lei/assunto/artigo/banca…, pontos fracos e viés V/F.
-   ===================================================================== */
-const PERIODOS_LS = [["7", "7 dias"], ["30", "30 dias"], ["90", "90 dias"], ["tudo", "Tudo"]];
-const DIMENSOES_LS = [
-  ["leis", "Código/Lei"], ["assuntos", "Assunto"], ["subassuntos", "SubAssunto"], ["artigos", "Artigo"],
-  ["bancas", "Banca"], ["anos", "Ano"], ["cargos", "Cargo"], ["instituicoes", "Instituição"], ["gabarito", "Gabarito"],
-];
-const valoresDimLS = (q, dim) => dim === "gabarito" ? [q.gabarito === "C" ? "Verdadeiro" : "Falso"] : CAMPOS_LS.find(c => c[0] === dim)[2](q);
-const rotuloDimLS = (dim, v) => dim === "gabarito" ? v : CAMPOS_LS.find(c => c[0] === dim)[3](v);
-const diaLocal = iso => new Date(iso).toLocaleDateString("sv-SE");
-
-function calcularEstatLS(qs, mapa, periodo) {
-  const desde = periodo === "tudo" ? "" : new Date(Date.now() - (Number(periodo) - 1) * 864e5).toLocaleDateString("sv-SE");
-  const e = { total: qs.length, resolvidas: 0, certas: 0, erradas: 0, respostas: 0, acertos: 0, erros: 0, tempo: 0, porDia: {}, dias: new Set(),
-    marcouV: 0, gabV: { r: 0, a: 0 }, gabF: { r: 0, a: 0 }, porQ: [] };
-  for (const q of qs) {
-    const atual = respostaAtual(mapa, q.id);
-    if (atual) { e.resolvidas++; atual.correta ? e.certas++ : e.erradas++; }
-    const rs = (mapa.get(q.id) || []).filter(r => !desde || diaLocal(r.em) >= desde);
-    let a = 0, x = 0;
-    for (const r of rs) {
-      const d = diaLocal(r.em); e.dias.add(d);
-      const pd = e.porDia[d] = e.porDia[d] || { certas: 0, erradas: 0 };
-      e.respostas++; e.tempo += r.tempo || 0;
-      if (r.correta) { e.acertos++; a++; pd.certas++; } else { e.erros++; x++; pd.erradas++; }
-      if (r.marcada === "C") e.marcouV++;
-      const g = q.gabarito === "C" ? e.gabV : e.gabF; g.r++; if (r.correta) g.a++;
-    }
-    e.porQ.push({ q, a, x, atual });
-  }
-  e.pct = e.respostas ? Math.round(100 * e.acertos / e.respostas) : null;
-  // dias seguidos estudando (até hoje ou ontem), sempre sobre o histórico inteiro
-  const todosDias = new Set();
-  for (const q of qs) for (const r of mapa.get(q.id) || []) todosDias.add(diaLocal(r.em));
-  let seq = 0, d = new Date();
-  if (!todosDias.has(d.toLocaleDateString("sv-SE"))) d = new Date(Date.now() - 864e5);
-  while (todosDias.has(d.toLocaleDateString("sv-SE"))) { seq++; d = new Date(d.getTime() - 864e5); }
-  e.sequencia = seq;
-  return e;
-}
-function agruparLS(porQ, dim) {
-  const g = new Map();
-  for (const x of porQ) for (const v of new Set(valoresDimLS(x.q, dim))) {
-    const o = g.get(v) || { v, total: 0, resolvidas: 0, respostas: 0, acertos: 0, erros: 0, ids: [] };
-    o.total++; o.ids.push(x.q.id); o.respostas += x.a + x.x; o.acertos += x.a; o.erros += x.x; if (x.atual) o.resolvidas++;
-    g.set(v, o);
-  }
-  return [...g.values()];
-}
-const pctDe = o => o.respostas ? Math.round(100 * o.acertos / o.respostas) : null;
-function graficoEvolucaoLS(porDia, nDias) {
-  const dias = [];
-  for (let k = nDias - 1; k >= 0; k--) dias.push(new Date(Date.now() - k * 864e5).toLocaleDateString("sv-SE"));
-  const max = Math.max(1, ...dias.map(d => (porDia[d]?.certas || 0) + (porDia[d]?.erradas || 0)));
-  const L = 600, A = 140, w = L / nDias;
-  let barras = "", linha = [];
-  dias.forEach((d, k) => {
-    const c = porDia[d]?.certas || 0, x = porDia[d]?.erradas || 0;
-    const hc = A * c / max, he = A * x / max;
-    barras += `<rect x="${(k * w + w * 0.1).toFixed(1)}" y="${(A - hc).toFixed(1)}" width="${(w * 0.8).toFixed(1)}" height="${hc.toFixed(1)}" fill="var(--ok)"><title>${dataCurta(d)}: ${c} acertos</title></rect>`;
-    barras += `<rect x="${(k * w + w * 0.1).toFixed(1)}" y="${(A - hc - he).toFixed(1)}" width="${(w * 0.8).toFixed(1)}" height="${he.toFixed(1)}" fill="var(--alt)"><title>${dataCurta(d)}: ${x} erros</title></rect>`;
-    if (c + x) linha.push(`${(k * w + w / 2).toFixed(1)},${(A - A * c / (c + x)).toFixed(1)}`);
-  });
-  return `<svg class="grafico-dias" viewBox="0 0 ${L} ${A + 18}" role="img" aria-label="Respostas por dia">
-    <line x1="0" y1="${A}" x2="${L}" y2="${A}" stroke="var(--fio)"/>${barras}
-    ${linha.length > 1 ? `<polyline points="${linha.join(" ")}" fill="none" stroke="var(--oliva)" stroke-width="2" stroke-dasharray="4 3"><title>% de acerto no dia</title></polyline>` : ""}
-    <text x="0" y="${A + 14}" font-size="11" fill="var(--tinta-2)">${dataCurta(dias[0])}</text>
-    <text x="${L}" y="${A + 14}" font-size="11" fill="var(--tinta-2)" text-anchor="end">hoje</text></svg>`;
-}
-function telaEstatisticasLS() {
-  definirTopo({ titulo: "📊 Estatísticas — Lei Seca", voltar: "#/leiseca" });
-  marcarAba("questoes");
-  const cfg = Object.assign({ periodo: "30", escopo: "tudo", dim: "leis", ordem: "pior" }, lerLS("estat-ls", {}));
-  const mapa = mapaRespostas();
-  const todas = baseLS(), f = filtroLS();
-  const qs = cfg.escopo === "filtro" ? todas.filter(q => passaFiltroLS(q, { ...f, situacao: "todas", comentarios: "todos" }, mapa)) : todas;
-  const e = calcularEstatLS(qs, mapa, cfg.periodo);
-  const nDias = cfg.periodo === "tudo" ? Math.min(90, Math.max(7, e.dias.size ? Math.ceil((Date.now() - new Date([...e.dias].sort()[0]).getTime()) / 864e5) + 1 : 30)) : Number(cfg.periodo);
-  const chip = (k, v, r) => `<button class="chip-ls" data-estat="${k}" data-v="${v}" aria-pressed="${cfg[k] === v}">${r}</button>`;
-  const pctRes = e.total ? Math.round(100 * e.resolvidas / e.total) : 0;
-  let grupos = agruparLS(e.porQ, cfg.dim);
-  const ord = { pior: (a, b) => (pctDe(a) ?? 101) - (pctDe(b) ?? 101) || b.respostas - a.respostas, mais: (a, b) => b.respostas - a.respostas, nome: (a, b) => String(rotuloDimLS(cfg.dim, a.v)).localeCompare(String(rotuloDimLS(cfg.dim, b.v)), "pt-BR", { numeric: true }) };
-  if (cfg.dim === "artigos" && cfg.ordem === "nome") grupos.sort((a, b) => { const [la, aa] = a.v.split("|"), [lb, ab] = b.v.split("|"); return la.localeCompare(lb) || compararArtigos(aa, ab); });
-  else grupos.sort(ord[cfg.ordem] || ord.pior);
-  const fracos = agruparLS(e.porQ, "artigos").filter(o => o.respostas >= 2 && pctDe(o) < 70).sort(ord.pior).slice(0, 8);
-  const maisErra = e.porQ.filter(x => x.x).sort((a, b) => b.x - a.x || (a.a - b.a)).slice(0, 10);
-  const pV = e.gabV.r ? Math.round(100 * e.gabV.a / e.gabV.r) : null, pF = e.gabF.r ? Math.round(100 * e.gabF.a / e.gabF.r) : null;
-  const vies = e.respostas ? Math.round(100 * e.marcouV / e.respostas) : null;
-  const linhaGrupo = (o, k) => {
-    const p = pctDe(o);
-    return `<div class="linha-desemp"><span class="nome-desemp">${esc(rotuloDimLS(cfg.dim, o.v))} <span class="contagem">(${o.total} questões · ${o.resolvidas} resolvidas)</span></span>
-      <span class="barra-desemp" aria-hidden="true"><span class="b-ok" style="width:${o.respostas ? 100 * o.acertos / o.respostas : 0}%"></span><span class="b-erro" style="width:${o.respostas ? 100 * o.erros / o.respostas : 0}%"></span></span>
-      <span class="num-desemp">${o.respostas ? `${o.acertos} ✓ · ${o.erros} ✗ · <strong>${p}%</strong>` : "sem respostas"} <button class="link" data-treinar-grupo="${k}">treinar ›</button></span></div>`;
-  };
-  $("#conteudo").innerHTML = `<div class="secao estat-ls">
-    <div class="linha-chips"><span>Período:</span>${PERIODOS_LS.map(([v, r]) => chip("periodo", v, r)).join("")}</div>
-    <div class="linha-chips"><span>Questões:</span>${chip("escopo", "tudo", "Todas")}${chip("escopo", "filtro", "Só as do filtro atual")}</div>
-    ${!e.total ? '<p class="vazio">Nenhuma questão para analisar ainda.</p>' : `
-    <div class="numeros-desemp">
-      <div><strong>${e.respostas}</strong><span>respostas no período</span></div>
-      <div><strong class="txt-ok">${e.acertos}</strong><span>acertos</span></div>
-      <div><strong class="txt-erro">${e.erros}</strong><span>erros</span></div>
-      <div><strong>${e.pct === null ? "—" : e.pct + "%"}</strong><span>de acerto</span></div>
-      <div><strong>${formatarTempo(e.tempo)}</strong><span>resolvendo${e.respostas ? ` · ${Math.round(e.tempo / e.respostas)} s por questão` : ""}</span></div>
-      <div><strong>${e.dias.size}</strong><span>dia(s) de estudo${e.dias.size ? ` · ${Math.round(e.respostas / e.dias.size)} por dia` : ""}</span></div>
-      <div><strong>${e.sequencia}🔥</strong><span>dia(s) seguidos</span></div>
-    </div>
-    <h3 class="grupo-assunto">Banco de questões (rodada atual)</h3>
-    <div class="cobertura-ls"><span class="b-ok" style="width:${e.total ? 100 * e.certas / e.total : 0}%"></span><span class="b-erro" style="width:${e.total ? 100 * e.erradas / e.total : 0}%"></span></div>
-    <p class="contagem">${e.resolvidas} de ${e.total} questões resolvidas (${pctRes}%) · <span class="txt-ok">${e.certas} certas</span> · <span class="txt-erro">${e.erradas} erradas</span> · ${e.total - e.resolvidas} sem resposta.
-      Redefinir questões começa uma nova rodada, mas o histórico continua contando aqui.</p>
-    <div class="acoes-linha">
-      ${e.total - e.resolvidas ? `<button class="botao primario" data-treinar="nao">▶️ Resolver as ${e.total - e.resolvidas} não resolvidas</button>` : ""}
-      ${e.erradas ? `<button class="botao" data-treinar="erradas">🔁 Refazer as ${e.erradas} que errei</button>` : ""}
-    </div>
-    <h3 class="grupo-assunto">Evolução ${cfg.periodo === "tudo" ? `(últimos ${nDias} dias)` : `(${nDias} dias)`}</h3>${graficoEvolucaoLS(e.porDia, nDias)}
-    <p class="legenda-diff"><span style="color:var(--ok)">■ acertos</span><span style="color:var(--alt)">■ erros</span><span style="color:var(--oliva)">- - % de acerto do dia</span></p>
-    <h3 class="grupo-assunto">Verdadeiro ou Falso</h3>
-    <p>${e.respostas ? `Quando o gabarito é <strong>Verdadeiro</strong>, você acerta <strong>${pV ?? "—"}${pV === null ? "" : "%"}</strong>; quando é <strong>Falso</strong>, <strong>${pF ?? "—"}${pF === null ? "" : "%"}</strong>.
-      Você marca Verdadeiro em ${vies}% das respostas${pV !== null && pF !== null && Math.abs(pV - pF) >= 15 ? ` — <span class="txt-erro">atenção: você tende a errar mais as ${pV < pF ? "verdadeiras (desconfia demais)" : "falsas (deixa passar a pegadinha)"}</span>` : ""}.` : "Sem respostas no período."}</p>
-    <h3 class="grupo-assunto">Desempenho por</h3>
-    <div class="linha-chips">${DIMENSOES_LS.map(([v, r]) => chip("dim", v, r)).join("")}</div>
-    <div class="linha-chips"><span>Ordem:</span>${chip("ordem", "pior", "Menor acerto")}${chip("ordem", "mais", "Mais respondidas")}${chip("ordem", "nome", "Nome")}</div>
-    ${grupos.length ? `<div class="tabela-desemp">${grupos.slice(0, 60).map(linhaGrupo).join("")}</div>${grupos.length > 60 ? `<p class="contagem">Mostrando 60 de ${grupos.length}.</p>` : ""}` : '<p class="contagem">Nada para mostrar.</p>'}
-    <h3 class="grupo-assunto">Pontos fracos: artigos com menos de 70% de acerto</h3>
-    ${fracos.length ? `<ul class="resultados">${fracos.map((o, k) => `<li><button data-treinar-fraco="${k}"><span class="res-titulo">${esc(rotuloDimLS("artigos", o.v))} — ${pctDe(o)}% (${o.acertos} ✓ · ${o.erros} ✗)</span>
-        <span class="res-trecho">${o.total} questão(ões) · toque para treinar</span></button></li>`).join("")}</ul>
-      <div class="acoes-linha"><button class="botao primario" id="treinar-fracos">🎯 Treinar todos os pontos fracos</button></div>`
-      : '<p class="contagem">Nenhum artigo abaixo de 70% (com pelo menos 2 respostas). 👏</p>'}
-    <h3 class="grupo-assunto">Questões que você mais erra</h3>
-    ${maisErra.length ? `<ul class="resultados">${maisErra.map((x, k) => `<li><button data-mais-erra="${k}"><span class="res-titulo">${x.x} erro(s) em ${x.a + x.x} resposta(s) · ${esc((x.q.refs || []).filter(r => r.lei).map(rotuloRef).join("; ") || x.q.referencia || "")}</span>
-        <span class="res-trecho">${esc(x.q.enunciado.join(" ").slice(0, 150))}…</span></button></li>`).join("")}</ul>` : '<p class="contagem">Nenhum erro no período.</p>'}`}
-  </div>`;
-  $$("[data-estat]").forEach(b => b.onclick = () => { const c = Object.assign({}, cfg, { [b.dataset.estat]: b.dataset.v }); gravarLS("estat-ls", c); telaEstatisticasLS(); });
-  const porId = new Map(qs.map(q => [q.id, q]));
-  const treinar = (ids, titulo, pos = 0) => iniciarSessaoLS(ordenarLS(ids.map(id => porId.get(id)).filter(Boolean)), titulo, pos);
-  $$("[data-treinar-grupo]").forEach(b => b.onclick = () => { const o = grupos[Number(b.dataset.treinarGrupo)]; treinar(o.ids, `${DIMENSOES_LS.find(d => d[0] === cfg.dim)[1]}: ${rotuloDimLS(cfg.dim, o.v)}`); });
-  $$("[data-treinar-fraco]").forEach(b => b.onclick = () => { const o = fracos[Number(b.dataset.treinarFraco)]; treinar(o.ids, `Ponto fraco: ${rotuloDimLS("artigos", o.v)}`); });
-  if ($("#treinar-fracos")) $("#treinar-fracos").onclick = () => treinar([...new Set(fracos.flatMap(o => o.ids))], "Pontos fracos");
-  $$("[data-treinar]").forEach(b => b.onclick = async () => {
-    if (b.dataset.treinar === "nao") return treinar(e.porQ.filter(x => !x.atual).map(x => x.q.id), "Não resolvidas");
-    const ids = e.porQ.filter(x => x.atual && !x.atual.correta).map(x => x.q.id);
-    await redefinirQuestoes(ids); treinar(ids, "Refazendo as que errei");
-  });
-  $$("[data-mais-erra]").forEach(b => b.onclick = () => iniciarSessaoLS(maisErra.map(x => x.q), "Questões que mais erro", Number(b.dataset.maisErra)));
 }

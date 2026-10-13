@@ -263,7 +263,7 @@ async function medirArmazenamento() {
   const resumosBytes = arquivos.reduce((s, a) => s + (a.blob?.size || 0), 0) + conteudos.reduce((s, c) => s + (c.html || "").length + (c.texto || "").length, 0);
   const imagensBytes = imgs.reduce((s, i) => s + (i.blob?.size || 0), 0);
   const marcacoes = JSON.stringify([...estado.itens.values()]).length;
-  return { leis, nLeis, cadernos, nCadernos: lerLS("cadernos-locais", []).filter(c => !c.apagado).length, resumos: resumosBytes, nResumos: (await bdTodos("resumos")).filter(r => !r.apagado).length, imagens: imagensBytes, marcacoes };
+  return { leis, nLeis, cadernos, nCadernos: lerLS("cadernos-locais", []).filter(c => !c.apagado).length, nLS: lerLS("cadernos-locais", []).filter(c => !c.apagado && c.plataforma === PLATAFORMA_LS).length, resumos: resumosBytes, nResumos: (await bdTodos("resumos")).filter(r => !r.apagado).length, imagens: imagensBytes, marcacoes };
 }
 function htmlArmazenamento(m) {
   const mb = b => (b / 1048576).toFixed(1).replace(".", ",") + " MB";
@@ -271,7 +271,8 @@ function htmlArmazenamento(m) {
   return `<div class="secao"><h2>Armazenamento</h2><div class="cartao">
     <p class="contagem" style="margin-top:0">Total ocupado neste aparelho: <strong>${mb(total)}</strong></p>
     <div class="linha-arm"><div><strong>Leis</strong><br><span class="contagem">${m.nLeis} lei(s) baixada(s) · ${mb(m.leis)} · textos, grifos, anotações, caneta, ícones e favoritos</span></div><button id="arm-leis">Apagar…</button></div>
-    <div class="linha-arm"><div><strong>Questões</strong><br><span class="contagem">${m.nCadernos} caderno(s) importado(s) · ${mb(m.cadernos)} · respostas, estatísticas, comentários e favoritos</span></div><button id="arm-questoes">Apagar…</button></div>
+    <div class="linha-arm"><div><strong>Lei Seca</strong><br><span class="contagem">${m.nLS} lista(s) importada(s) · respostas, estatísticas, minhas listas, comentários e favoritas</span></div><button id="arm-ls">Apagar…</button></div>
+    <div class="linha-arm"><div><strong>Múltipla escolha</strong><br><span class="contagem">${m.nCadernos - m.nLS} caderno(s) importado(s) · respostas, estatísticas, minhas listas, comentários e favoritas · ${mb(m.cadernos)} no total das questões</span></div><button id="arm-me">Apagar…</button></div>
     <div class="linha-arm"><div><strong>Resumos</strong><br><span class="contagem">${m.nResumos} resumo(s) · ${mb(m.resumos + m.imagens)} · arquivos, edições, caneta, marca-texto, ícones e imagens</span></div><button id="arm-resumos">Apagar…</button></div>
     <div class="linha-arm"><div><strong>🗑 Lixeira</strong><br><span class="contagem">${itensDaLixeira().total} item(ns) · somem sozinhos depois de 30 dias</span></div><a class="botao" href="#/lixeira" style="text-decoration:none">Abrir</a></div>
     <div class="acoes" style="margin:14px 0 6px"><button id="arm-tudo" style="color:var(--alt)">Apagar todos os meus dados…</button></div>
@@ -318,33 +319,8 @@ function ligarArmazenamento() {
       await apagarMarcas(); await apagarTextos(); fecharPainel(); mostrarAvisoRapido("Textos e marcações das leis apagados"); telaAjustes();
     };
   };
-  $("#arm-questoes").onclick = () => {
-    const respostas = [...itens("resposta"), ...itens("reset")];
-    const extras = [...itens("notaq"), ...itens("favorito", i => i.alvo === "questao")];
-    const locais = lerLS("cadernos-locais", []).filter(c => !c.apagado);
-    abrirPainel(`<h2>Questões ${botaoFechar}</h2>
-      <p class="contagem" style="margin-top:0">Escolha o que apagar${cfgSync() ? " (também na sua nuvem e nos seus outros aparelhos)" : ""}:</p>
-      <div class="acoes">
-        <button id="q-zerar" ${respostas.length ? "" : "disabled"}>Zerar respostas e estatísticas (${itens("resposta").length})<br><span class="contagem">Todas as questões voltam a ficar sem resposta e o histórico de acertos e erros recomeça do zero. Os cadernos continuam.</span></button>
-        <button id="q-extras" ${extras.length ? "" : "disabled"}>Apagar comentários e questões favoritas (${extras.length})</button>
-        <button id="q-cadernos" ${locais.length ? "" : "disabled"} style="color:var(--alt)">Apagar os cadernos que eu importei (${locais.length})<br><span class="contagem">Apaga de vez, sem passar pela lixeira. Os cadernos publicados no app continuam.</span></button>
-        <button id="q-tudo" style="color:var(--alt)">Apagar tudo das questões</button>
-      </div><p class="contagem" id="q-msg"></p>`);
-    const apagarLista = async lista => { for (const i of lista) await apagarItem(i.id); versaoItens++; };
-    const apagarCadernos = async () => {
-      const cache = await caches.open(CACHE_DADOS);
-      for (const c of locais) await cache.delete(c.url);
-      gravarLS("cadernos-locais", lerLS("cadernos-locais", []).map(c => ({ ...c, apagado: true, lixeira: undefined, atualizadoEm: agoraISO() })));
-    };
-    const fim = async t => { await carregarQuestoes(); fecharPainel(); mostrarAvisoRapido(t); telaAjustes(); };
-    $("#q-zerar").onclick = async () => { if (!confirm(`Zerar ${itens("resposta").length} resposta(s) e todas as estatísticas? Não dá para desfazer sem um backup.`)) return; await apagarLista(respostas); await fim("Respostas e estatísticas zeradas"); };
-    $("#q-extras").onclick = async () => { if (!confirm(`Apagar ${extras.length} comentário(s) e favorito(s) das questões?`)) return; await apagarLista(extras); await fim("Comentários e favoritos apagados"); };
-    $("#q-cadernos").onclick = async () => { if (!confirm(`Apagar DE VEZ os ${locais.length} caderno(s) que você importou? As suas respostas ficam no histórico.`)) return; await apagarCadernos(); await fim("Cadernos importados apagados"); };
-    $("#q-tudo").onclick = async () => {
-      if (!confirm("Apagar tudo das questões: respostas, estatísticas, comentários, favoritos e os cadernos que você importou? Não dá para desfazer sem um backup.")) return;
-      await apagarLista([...respostas, ...extras]); await apagarCadernos(); await fim("Tudo das questões foi apagado");
-    };
-  };
+  $("#arm-ls").onclick = () => painelApagarPlataforma(PLAT.ls);
+  $("#arm-me").onclick = () => painelApagarPlataforma(PLAT.me);
   $("#arm-resumos").onclick = async () => {
     await carregarResumos();
     const lista = [...resumos.lista.values()].filter(r => !r.apagado);

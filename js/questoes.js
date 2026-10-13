@@ -48,6 +48,7 @@ async function carregarQuestoes() {
   }
   estado.q = new Map();
   for (const c of Object.values(estado.cadernos)) for (const q of c.questoes) { q.caderno = c.id; estado.q.set(q.id, q); }
+  try { await organizarCompartilhadosQ(); } catch {}         // quem recebe: listas e cadernos do app nas pastas compartilhadas
 }
 
 /* ---------- respostas, rodadas e situação ----------
@@ -93,6 +94,13 @@ function montarSessao(tipo, chave) {
     return { chave: "c:" + chave, titulo: c.titulo, materia: c.materia, base: [...c.questoes].sort((a, b) => a.ordem - b.ordem),
              assuntos: c.assuntos, voltar: paiDoCaderno(chave) };
   }
+  if (tipo === "filtro") {                                       // questões do filtro / das minhas listas (múltipla escolha)
+    const s = lerLS("sessao-me", null);
+    const base = s ? s.ids.map(id => estado.q.get(id)).filter(Boolean) : [];
+    if (!base.length) return null;
+    baseME();
+    return { chave: "f:me", titulo: s.titulo || "Questões filtradas", materia: "", base, assuntos: [...new Set(base.map(q => q.assunto || "Sem assunto"))], voltar: "#/multipla" };
+  }
   const [lei, art] = chave.split("|");
   const base = questoesDoArtigo(lei, art);
   return { chave: "a:" + chave, titulo: `Questões — ${rotuloArt(art)} (${nomeLei(lei)})`, materia: "", base,
@@ -111,9 +119,9 @@ function listaFiltrada(s, mapa) {
 function telaQuestoes(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
   if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes/cadernos"; return; }
-  definirTopo({ titulo: pasta ? pasta.nome : "Cadernos de questões", voltar: pasta ? voltarDaPasta("questoes", pastaId) : "#/questoes" });
+  definirTopo({ titulo: pasta ? pasta.nome : "Múltipla escolha — cadernos", voltar: pasta ? voltarDaPasta("questoes", pastaId) : "#/multipla" });
   marcarAba("questoes");
-  const cads = cadernosTradicionais();
+  const cads = cadernosTradicionais().filter(cadernoVisivelNaLista);
   if (!cads.length) {
     $("#conteudo").innerHTML = `<div class="vazio">
       <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
@@ -133,7 +141,8 @@ function telaQuestoes(pastaId = null) {
     const g = estatisticas([...estado.q.values()], mapa);
     h += `<div class="secao"><div class="cartao">
       <p><strong>Seu desempenho:</strong> ${g.respostas} respostas registradas · <span class="txt-ok">${g.acertosTotal} acertos</span> · <span class="txt-erro">${g.errosTotal} erros</span>${g.respostas ? ` · <strong>${g.pctTotal}% de acerto</strong>` : ""}</p>
-      <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/estatisticas" style="color:inherit;text-decoration:none">Ver estatísticas completas</a>
+      <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/multipla/estatisticas" style="color:inherit;text-decoration:none">📊 Estatísticas</a>
+        <a class="botao" href="#/multipla" style="color:inherit;text-decoration:none">🔎 Filtro de questões</a>
         <button id="nova-pasta-q">+ Nova pasta</button>
         ${botaoSelecionar("questoes")}
         <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button>
@@ -340,6 +349,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
       <button class="icone-btn" id="q-aleatoria" aria-label="Questão aleatória">Aleatória</button>
       <button class="icone-btn" id="q-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
+      <button class="icone-btn" id="q-colecoes">${rotuloBotaoListas(q)}</button>
     </div>
   </article>`;
   iniciarCronometro();
@@ -357,8 +367,10 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     $("#resultado-q").innerHTML = (r.correta
       ? `<p class="res-q ok">✓ Você acertou!`
       : `<p class="res-q erro">✗ Você errou. Resposta: <strong>${esc(letraExibida(q, q.gabarito))}</strong>.`) +
-      ` <button class="link" id="ver-resolucao">Ver resolução</button></p>
-      <p class="contagem">Respondida em ${dataHora(r.em)}. Para resolver de novo, use “Redefinir esta lista”.</p>`;
+      ` <button class="link" id="ver-resolucao">${q.resolucao && q.resolucao.length ? "Meu comentário" : "Ver resolução"}</button></p>
+      <p class="contagem">Respondida em ${dataHora(r.em)}. Para resolver de novo, use “Redefinir esta lista”.</p>
+      ${q.resolucao && q.resolucao.length ? `<div class="resolucao-ls"><h3>Resolução</h3>${textoResolucaoLS(q.resolucao)}
+        ${q.vinculo && noAcervo(q.vinculo.lei) ? `<div class="acoes-linha"><a class="botao" href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}" style="text-decoration:none">📖 Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a></div>` : ""}</div>` : ""}`;
     $("#ver-resolucao").onclick = () => mostrarResolucao(q);
   };
   if (atual) exibirResultado(atual);
@@ -401,6 +413,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     $("#q-fav").setAttribute("aria-pressed", f);
   };
   $("#q-nota").onclick = () => mostrarResolucao(q, true);
+  $("#q-colecoes").onclick = () => painelColecoesDaQuestao(q, () => { const b = $("#q-colecoes"); if (b) b.textContent = rotuloBotaoListas(q); });
 }
 
 function mostrarResolucao(q, focarNota = false) {

@@ -111,9 +111,14 @@ async function rotearTela() {
   if (partes[0] === "leiseca" && partes[1] === "listas") return telaListasLS(partes[2] === "pasta" ? partes[3] : null);
   if (partes[0] === "leiseca" && partes[1] === "arquivadas") return telaListasArquivadasLS();
   if (partes[0] === "leiseca" && partes[1] === "resolver") return telaResolverLS();
-  if (partes[0] === "leiseca" && partes[1] === "estatisticas") return telaEstatisticasLS();
-  if (partes[0] === "leiseca") return telaFiltroLS();
-  if (partes[0] === "estatisticas") return telaEstatisticasGerais();
+  if (partes[0] === "leiseca" && partes[1] === "estatisticas") return telaEstatisticasQ(PLAT.ls);
+  if (partes[0] === "leiseca" && partes[1] === "minhas-listas") return telaColecoes(PLAT.ls);
+  if (partes[0] === "leiseca") return telaFiltroQ(PLAT.ls);
+  if (partes[0] === "multipla" && partes[1] === "estatisticas") return telaEstatisticasQ(PLAT.me);
+  if (partes[0] === "multipla" && partes[1] === "minhas-listas") return telaColecoes(PLAT.me);
+  if (partes[0] === "multipla" && partes[1] === "resolver") return telaCaderno("filtro", "me", partes[2] || "questoes");
+  if (partes[0] === "multipla") return telaFiltroQ(PLAT.me);
+  if (partes[0] === "estatisticas") { location.replace("#/multipla/estatisticas"); return; }
   if (partes[0] === "caderno" && partes[1]) return telaCaderno("caderno", partes[1], partes[2] === "questao" ? "questoes" : (partes[2] || "questoes"), partes[2] === "questao" ? partes[3] : null);
   if (partes[0] === "questoes-artigo" && partes[2]) return telaCaderno("artigo", partes[1] + "|" + partes[2], "questoes");
   if (partes[0] === "estudos") {
@@ -185,7 +190,7 @@ async function iniciar() {
       <div class="acoes"><a class="botao primario" href="#/catalogo" style="text-decoration:none" data-fechar>+ Adicionar leis</a></div>`), 300);
   }
   const restaurado = sessionStorage.getItem("aviso-restaurado");
-  const primeiraVez = !lerLS("boas-vindas-vista", false) && ![...estado.itens.values()].length && !Object.keys(lerLS("info-leis", {})).length;
+  const primeiraVez = !lerLS("boas-vindas-vista", false) && ![...estado.itens.values()].filter(i => !i.auto).length && !Object.keys(lerLS("info-leis", {})).length;
   if (primeiraVez) mostrarBoasVindas(0);
   else if (!restaurado) lembrarBackup();
   // sincronização: ao abrir, a cada 5 min com o app aberto, ao voltar a internet e ao sair do app
