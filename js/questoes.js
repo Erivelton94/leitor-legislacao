@@ -78,6 +78,8 @@ function situacaoQ(mapa, qid) {
 }
 function jaErrou(mapa, qid) { return (mapa.get(qid) || []).some(r => !r.correta); }
 async function redefinirQuestoes(ids) {
+  // nova rodada: as alternativas cortadas com a tesoura também voltam ao normal
+  for (const id of ids) delete riscadas[id];
   if (ids.length) await salvarItem({ id: uid(), tipo: "reset", ids, em: agoraISO() });
 }
 const idFavQ = qid => `fav|q|${qid}`;
@@ -286,7 +288,7 @@ function abaGabarito(mapa) {
 }
 
 /* ---------- resolução de uma questão ---------- */
-let riscadas = {};
+var riscadas = {};
 let inicioQuestao = 0;
 function abaQuestao(mapa, qAlvo) {
   const l = sessao.lista;
