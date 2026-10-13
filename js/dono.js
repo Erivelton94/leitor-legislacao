@@ -32,7 +32,7 @@ function cadernoParaPublicar(c, caminhoComp = null) {
 async function publicarCaderno(id, aviso, opcoes = {}) {
   const c = estado.cadernos[id];
   const p = provedorDono(); await p.preparar();
-  const lista = await p.listar();
+  const lista = await p.listarPasta("dados/questoes");
   const arquivo = `${id}.json`, caminho = `dados/questoes/${arquivo}`;
   const indice = await lerIndiceRemoto(p, lista);
   indice.pastas = indice.pastas || [];
@@ -49,8 +49,10 @@ async function publicarCaderno(id, aviso, opcoes = {}) {
   indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}),
     ...(pastaComp ? { pastaComp } : {}), ...(soQuestoes ? { soQuestoes: true } : {}) });
   aviso && aviso("Atualizando a lista de cadernos…");
+  indice.atualizadoEm = agoraISO();
   await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
   await gravarNoCache(caminho, dados); await gravarNoCache("dados/questoes/indice.json", indice);
+  const info = lerLS("info-cadernos", {}); info[id] = hashCurto(texto); gravarLS("info-cadernos", info);   // não baixa de novo do site (que ainda não atualizou)
   // a cópia local fica marcada como publicada (o site do app leva ~1 min para atualizar)
   gravarLS("cadernos-locais", lerLS("cadernos-locais", []).map(x => x.id === id ? { ...x, publicado: true, atualizadoEm: agoraISO() } : x));
   await carregarQuestoes();
@@ -64,12 +66,13 @@ async function despublicarCaderno(id, aviso) {
   locais.push({ id, titulo: c.tituloOriginal || c.titulo, materia: c.materia, url, qtd: c.questoes.length, atualizadoEm: agoraISO(), ...(c.plataforma ? { plataforma: c.plataforma } : {}) });
   gravarLS("cadernos-locais", locais);
   const p = provedorDono(); await p.preparar();
-  const lista = await p.listar();
+  const lista = await p.listarPasta("dados/questoes");
   const caminho = `dados/questoes/${id}.json`;
   aviso && aviso("Tirando do app dos outros usuários…");
   const indice = await lerIndiceRemoto(p, lista);
   const entrada = (indice.cadernos || []).find(x => x.id === id);
   indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
+  indice.atualizadoEm = agoraISO();
   await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
   const arq = entrada ? `dados/questoes/${entrada.arquivo}` : caminho;
   if (lista.has(arq)) await p.apagar(arq, lista.get(arq));

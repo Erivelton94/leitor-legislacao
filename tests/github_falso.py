@@ -47,7 +47,11 @@ class Falso(http.server.BaseHTTPRequestHandler):
             return self._resp(200, {"tree": [{"path": p, "type": "blob", "sha": sha(b)} for p, b in ARQUIVOS.items()]})
         if partes[3] == "contents":
             p = unquote("/".join(partes[4:]))
-            if p not in ARQUIVOS: return self._resp(404, {"message": "Not Found"})
+            if p not in ARQUIVOS:
+                filhos = [c for c in ARQUIVOS if c.startswith(p + "/") and "/" not in c[len(p) + 1:]]
+                if filhos and "raw" not in (self.headers.get("Accept") or ""):            # listagem de uma pasta
+                    return self._resp(200, [{"path": c, "type": "file", "sha": sha(ARQUIVOS[c])} for c in filhos])
+                return self._resp(404, {"message": "Not Found"})
             return self._resp(200, ARQUIVOS[p], "application/octet-stream")
         self._resp(404, {})
 

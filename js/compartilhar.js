@@ -10,16 +10,18 @@
    (com caneta, marcações e tudo), dentro da pasta "Compartilhados pelo app".
    ===================================================================== */
 const IDX_RES = "dados/resumos/indice.json";
+const maisNovo = (a, b) => (!a ? b : !b ? a : String(b.atualizadoEm || "") > String(a.atualizadoEm || "") ? b : a);   // o site do app leva ~1 min para publicar: vale a cópia mais nova
 const LIMITE_COMPARTILHAR_MB = 45;
 const compartilhados = { indice: null };
 async function carregarCompartilhados(forcar = false) {
   if (compartilhados.indice && !forcar) return compartilhados.indice;
   const cache = await caches.open(CACHE_DADOS);
   let idx = null;
+  const guardado = await cache.match(IDX_RES).then(c => c ? c.json() : null).catch(() => null);
   if (!estado.offline) {
-    try { const r = await buscarComTempo(IDX_RES + "?v=" + Date.now()); if (r.ok) { idx = await r.clone().json(); await cache.put(IDX_RES, r); } } catch {}
+    try { const r = await buscarComTempo(IDX_RES + "?v=" + Date.now()); if (r.ok) { const rede = await r.clone().json(); idx = maisNovo(guardado, rede); if (idx === rede) await cache.put(IDX_RES, r); } } catch {}
   }
-  if (!idx) { const c = await cache.match(IDX_RES); idx = c ? await c.json() : null; }
+  if (!idx) idx = guardado;
   compartilhados.indice = idx && Array.isArray(idx.resumos) ? { resumos: idx.resumos, pastas: idx.pastas || [] } : { resumos: [], pastas: [] };
   return compartilhados.indice;
 }
@@ -33,6 +35,7 @@ async function arquivoParaPublicar(r, comMarcacoes) {
   return new Blob([await lerConteudo(r.id)], { type: "text/html" });
 }
 async function gravarIndiceRes(p, lista, idx) {
+  idx.atualizadoEm = agoraISO();
   await p.enviar(IDX_RES, paraBytes(idx), lista.get(IDX_RES));
   await gravarNoCache(IDX_RES, idx);
   compartilhados.indice = idx;
@@ -40,7 +43,7 @@ async function gravarIndiceRes(p, lista, idx) {
 /* publica uma lista de resumos; "pastaDe" diz em que pasta compartilhada cada um aparece */
 async function publicarResumos(lista, { comMarcacoes = false, pastas = [], pastaDe = () => null } = {}, aviso) {
   const p = provedorDono(); await p.preparar();
-  const arqs = await p.listar();
+  const arqs = await p.listarPasta("dados/resumos");
   const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
   idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
   for (const pa of pastas) { idx.pastas = idx.pastas.filter(x => x.id !== pa.id); idx.pastas.push(pa); }
@@ -63,7 +66,7 @@ async function publicarResumos(lista, { comMarcacoes = false, pastas = [], pasta
 }
 async function despublicarResumos(ids, pastaIds = [], aviso) {
   const p = provedorDono(); await p.preparar();
-  const arqs = await p.listar();
+  const arqs = await p.listarPasta("dados/resumos");
   if (!arqs.has(IDX_RES)) return;
   const idx = deBytes(await p.baixar(IDX_RES));
   const sair = new Set(ids);
@@ -225,7 +228,7 @@ async function telaCompartilhados(pastaId = null) {
     </ul>
     ${!lista.length && !pastas.length ? '<p class="vazio">Nada compartilhado por aqui ainda.</p>' : ""}</div>`;
   const msg = t => { const m = $("#msg-comp"); if (m) m.textContent = t; };
-  const volta = () => { carregarCompartilhados(true).then(() => telaCompartilhados(pastaId)); };
+  const volta = () => telaCompartilhados(pastaId);          // o índice novo já está na memória: não espera o site do app
   if ($("#nova-pasta-comp")) $("#nova-pasta-comp").onclick = async () => {
     const nome = prompt("Nome da pasta compartilhada:"); if (!nome || !nome.trim()) return;
     try { await editarIndiceRes(i => { i.pastas.push({ id: idPastaComp(), nome: nome.trim(), pai: pastaId || null }); }); volta(); }
@@ -399,7 +402,7 @@ function painelCompartilharResumos({ titulo, texto, temPdf, pastaPropria = null,
 /* dono: mudar um resumo (ou uma pasta compartilhada) de lugar, renomear e apagar pasta vazia, sem reenviar arquivos */
 async function editarIndiceRes(mudar) {
   const p = provedorDono(); await p.preparar();
-  const arqs = await p.listar();
+  const arqs = await p.listarPasta("dados/resumos");
   const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
   idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
   mudar(idx);

@@ -43,6 +43,15 @@ function provedorGitHub(cfg) {
       for (const t of (await r.json()).tree || []) if (t.type === "blob") m.set(t.path, { ref: t.sha, hash: t.sha });
       return m;
     },
+    async listarPasta(dir) {                                          // só uma pasta (bem mais rápido que a árvore inteira do repositório)
+      const r = await chamar(`/repos/${cfg.repo}/contents/${caminho(dir)}?ref=${ramo}`);
+      const m = new Map();
+      if (r.status === 404) return m;
+      if (!r.ok) throw new Error("GitHub respondeu " + r.status);
+      const j = await r.json();
+      for (const t of Array.isArray(j) ? j : []) if (t.type === "file") m.set(t.path, { ref: t.sha, hash: t.sha });
+      return m;
+    },
     async baixar(p) {
       const r = await chamar(`/repos/${cfg.repo}/contents/${caminho(p)}?ref=${ramo}`, { headers: { Accept: "application/vnd.github.raw" } });
       if (!r.ok) throw new Error(`Não foi possível baixar ${p} (${r.status})`);
@@ -86,6 +95,15 @@ function provedorGoogle() {
         for (const f of j.files || []) { m.set(f.name, { ref: f.id, hash: f.md5Checksum }); ids.set(f.name, f.id); }
         pag = j.nextPageToken || "";
       } while (pag);
+      return m;
+    },
+    async listarPasta(dir) {                                          // só uma pasta (bem mais rápido que a árvore inteira do repositório)
+      const r = await chamar(`/repos/${cfg.repo}/contents/${caminho(dir)}?ref=${ramo}`);
+      const m = new Map();
+      if (r.status === 404) return m;
+      if (!r.ok) throw new Error("GitHub respondeu " + r.status);
+      const j = await r.json();
+      for (const t of Array.isArray(j) ? j : []) if (t.type === "file") m.set(t.path, { ref: t.sha, hash: t.sha });
       return m;
     },
     async baixar(p) {

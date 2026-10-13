@@ -435,8 +435,8 @@ async function questoesDePdf(pdfjsLib, dados, catalogo, aoProgresso) {
 function catalogoParaVinculo() {
   return Object.entries(estado.status || {}).map(([id, s]) => ({ id, n: ((s.numero || s.nome || "").match(/(\d{1,2}\.?\d{3})\s*\//) || [])[1] || "" }));
 }
-function painelImportarCaderno() {
-  abrirPainel(`<h2>Importar caderno de questões ${botaoFechar}</h2>
+function painelImportarCaderno(pastaId = null) {
+  abrirPainel(`<h2>Importar arquivo de questões ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">Escolha o PDF da lista impressa (como os cadernos do TEC). O app lê banca, ano, cargo, assunto, enunciado, alternativas e gabarito, e liga cada questão ao artigo da lei quando o assunto indica (ex.: "art. 121 do CP"). Os endereços e números do site são descartados. Dá para escolher vários PDFs.</p>
     <p class="contagem">Também aceita o arquivo de caderno exportado pelo app (.json), que é como se passa um caderno pronto para outra pessoa.</p>
     <div class="acoes"><button class="botao primario" id="impq-escolher">Escolher arquivo</button><button class="botao" id="impq-drive">☁️ Escolher no Google Drive</button></div>
@@ -468,24 +468,16 @@ function painelImportarCaderno() {
       const me = r.questoes.filter(q => q.tipo === "ME").length, ce = r.questoes.length - me;
       const ligadas = r.questoes.filter(q => q.vinculo).length;
       res.innerHTML = `<div class="cartao" style="margin-top:12px">
-        <label class="contagem">Nome do caderno</label>
+        <label class="contagem">Nome do arquivo</label>
         <input class="campo" id="impq-titulo" value="${esc(r.titulo || tituloDoArquivo(arq.name))}">
         <p><strong>${r.questoes.length} questões</strong> (${me} de múltipla escolha, ${ce} de Certo/Errado) · ${r.assuntos.length} assunto(s) · ${esc(r.materia || "")}</p>
         <p class="contagem">${ligadas} ligada(s) a um artigo de lei.${r.semGabarito ? ` ${r.semGabarito} questão(ões) sem gabarito foram deixadas de fora.` : ""}</p>
-        <div class="acoes"><button class="botao primario" id="impq-salvar">Adicionar caderno</button></div></div>`;
+        <div class="acoes"><button class="botao primario" id="impq-salvar">Adicionar</button></div></div>`;
       await new Promise(ok => {
         $("#impq-salvar").onclick = async () => {
-          const titulo = $("#impq-titulo").value.trim() || "Caderno importado";
-          const id = "local-" + semAcento(titulo).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) + "-" + hashCurto(r.questoes.map(q => q.id).join(""));
-          const cad = { id, titulo, materia: r.materia, versao: new Date().toISOString().slice(0, 10), assuntos: r.assuntos, observacao: "Importado de PDF no app.", questoes: r.questoes };
-          const url = `dados/questoes/local/${id}.json`;
-          const cache = await caches.open(CACHE_DADOS);
-          await cache.put(new Request(url), new Response(JSON.stringify(cad), { headers: { "content-type": "application/json" } }));
-          const locais = lerLS("cadernos-locais", []).filter(c => c.id !== id);
-          locais.push({ id, titulo, materia: r.materia, url, qtd: r.questoes.length, atualizadoEm: agoraISO() });
-          gravarLS("cadernos-locais", locais);
-          await carregarQuestoes();
-          res.innerHTML = `<p class="txt-ok" style="margin-top:12px">✓ "${esc(titulo)}" adicionado com ${r.questoes.length} questões. <a href="#/caderno/${esc(id)}" data-fechar>Abrir o caderno</a></p>`;
+          const titulo = $("#impq-titulo").value.trim() || "Arquivo importado";
+          const { id } = await salvarCadernoME(titulo, r, pastaId);
+          res.innerHTML = `<p class="txt-ok" style="margin-top:12px">✓ "${esc(titulo)}" adicionado com ${r.questoes.length} questões. <a href="#/caderno/${esc(id)}" data-fechar>Abrir</a></p>`;
           const pq = location.hash.match(/^#\/questoes\/(cadernos|pasta\/([^/]+))/);
           if (pq) telaQuestoes(pq[2] || null);                  // atualiza a lista sem fechar o painel
           ok();

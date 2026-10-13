@@ -25,18 +25,15 @@ function baseME() {
   }
   return out;
 }
-const CAMPOS_ME = [
+const CAMPOS_ME = [                                    // os mesmos campos da Lei Seca: Pasta › Subpasta › Arquivo, artigo e a prova
   ["pastas", "Pasta", q => [q.pastaME], v => v],
   ["subpastas", "Subpasta", q => (q.subpastaME ? [q.subpastaME] : []), v => v],
-  ["cadernos", "Caderno", q => [q.cadernoME], v => v],
-  ["materias", "Matéria", q => (q.materia ? [q.materia] : []), v => v],
-  ["assuntos", "Assunto", q => (q.assunto ? [q.assunto] : []), v => v],
+  ["cadernos", "Arquivo", q => [q.cadernoME], v => v],
   ["artigos", "Artigo", q => artigosDaQuestao(q), v => { const [l, a] = v.split("|"); return `${rotuloArt(a)} — ${siglaOuNome(l)}`; }],
   ["anos", "Ano", q => (q.ano ? [String(q.ano)] : []), v => v],
   ["cargos", "Cargo", q => (q.cargo ? [q.cargo] : []), v => v],
   ["bancas", "Banca", q => (q.banca ? [q.banca] : []), v => v],
   ["instituicoes", "Instituição", q => (q.orgao || q.instituicao ? [q.orgao || q.instituicao] : []), v => v],
-  ["tipos", "Tipo", q => [q.tipo === "CE" ? "Certo/Errado" : "Múltipla escolha"], v => v],
 ];
 function ordenarME(lista) {
   const ordemCad = new Map(cadernosTradicionais().map((c, k) => [c.id, k]));
@@ -48,13 +45,13 @@ const PLAT = {
   ls: { chave: "ls", rota: "#/leiseca", titulo: "Lei Seca — Verdadeiro ou Falso", tituloCurto: "Lei Seca", vf: true, area: "leiseca",
         base: () => baseLS(), get campos() { return CAMPOS_LS; }, cadernos: () => listasLS(), ordenar: l => ordenarLS(l),
         arquivos: "#/leiseca/listas", rotuloArquivos: "📁 Pastas e arquivos", resolver: "#/leiseca/resolver", tipoSalvo: "filtro-ls",
-        iniciar: (l, t, p) => iniciarSessaoLS(l, t, p),
+        iniciar: (l, t, p, col) => iniciarSessaoLS(l, t, p, col),
         vazio: `Ainda não há questões. Em <a href="#/leiseca/listas">📁 Pastas e arquivos</a>, crie as pastas (ex.: Código Penal), as subpastas (ex.: Crimes contra a Pessoa) e importe as listas em PDF.` },
   me: { chave: "me", rota: "#/multipla", titulo: "Múltipla escolha tradicional", tituloCurto: "Múltipla escolha", vf: false, area: "questoes",
         base: () => baseME(), campos: CAMPOS_ME, cadernos: () => cadernosTradicionais(), ordenar: l => ordenarME(l),
-        arquivos: "#/questoes/cadernos", rotuloArquivos: "📁 Cadernos e pastas", resolver: "#/multipla/resolver", tipoSalvo: "filtro-me",
-        iniciar: (l, t, p) => iniciarSessaoME(l, t, p),
-        vazio: `Ainda não há questões. Em <a href="#/questoes/cadernos">📁 Cadernos e pastas</a>, importe os cadernos em PDF.` },
+        arquivos: "#/questoes/cadernos", rotuloArquivos: "📁 Pastas e arquivos", resolver: "#/multipla/resolver", tipoSalvo: "filtro-me",
+        iniciar: (l, t, p, col) => iniciarSessaoME(l, t, p, col),
+        vazio: `Ainda não há questões. Em <a href="#/questoes/cadernos">📁 Pastas e arquivos</a>, crie as pastas e importe os PDFs de questões.` },
 };
 const platDaQuestao = q => (String(q.id).startsWith("ls-") || ehListaLS(estado.cadernos[q.caderno]) ? PLAT.ls : PLAT.me);
 
@@ -113,6 +110,7 @@ function telaFiltroQ(P) {
     <div class="linha-chips"><span>Modo:</span>${chip("modo", "aleatorio", "Aleatório")}${chip("modo", "ordenado", "Ordenado")}</div>
     <div class="rodape-filtro">
       <button class="link-acao" id="ls-salvar-filtro">💾 Salvar filtro</button>
+      <button class="link-acao" id="ls-criar-lista" ${qtd ? "" : "disabled"}>📋 Criar lista com estas ${qtd} questões</button>
       <button class="link-acao perigo" id="ls-limpar">✕ Limpar filtro</button>
       <button class="botao primario btn-filtrar" id="ls-filtrar" ${qtd ? "" : "disabled"}>Filtrar questões (${qtd})</button>
     </div></div>`;
@@ -125,6 +123,7 @@ function telaFiltroQ(P) {
     await salvarItem({ id: P.tipoSalvo + "|" + uid().slice(0, 8), tipo: P.tipoSalvo, nome: nome.trim(), filtro: filtroQ(P) });
     telaFiltroQ(P); mostrarAvisoRapido("💾 Filtro salvo");
   };
+  $("#ls-criar-lista").onclick = () => painelCriarListaDoFiltro(P);
   $("#ls-filtrar").onclick = () => {
     const g = filtroQ(P), m = mapaRespostas();
     let lista = P.ordenar(P.base().filter(q => passaFiltroQ(P, q, g, m)));
@@ -178,9 +177,9 @@ function painelCampoQ(P, nomeCampo) {
 }
 
 /* ---------- múltipla escolha: resolver as questões filtradas com a tela de sempre (tesoura, cronômetro…) ---------- */
-function iniciarSessaoME(lista, titulo, pos = 0) {
+function iniciarSessaoME(lista, titulo, pos = 0, colecao = null) {
   if (!lista.length) { alert("Nenhuma questão com esse filtro."); return; }
-  gravarLS("sessao-me", { ids: lista.map(q => q.id), titulo, criada: agoraISO() });
+  gravarLS("sessao-me", { ids: lista.map(q => q.id), titulo, criada: agoraISO(), ...(colecao ? { colecao } : {}) });
   const p = lerLS("pos-q", {}); p["f:me"] = lista[Math.min(pos, lista.length - 1)].id; gravarLS("pos-q", p);
   const fs = lerLS("filtros-q", {}); delete fs["f:me"]; gravarLS("filtros-q", fs);
   if (location.hash === "#/multipla/resolver") rotear(); else location.hash = "#/multipla/resolver";
@@ -221,7 +220,7 @@ function telaColecoes(P) {
   $$("[data-col-resolver]").forEach(b => b.onclick = () => {
     const c = estado.itens.get(b.dataset.colResolver), qs = questoesDaColecao(c);
     if (!qs.length) { alert("Esta lista ainda está vazia. Enquanto resolve, toque em 📋 Listas para adicionar questões."); return; }
-    P.iniciar(qs, "📋 " + c.nome);
+    P.iniciar(qs, "📋 " + c.nome, 0, c.id);
   });
   $$("[data-col-menu]").forEach(b => b.onclick = () => menuColecao(P, b.dataset.colMenu));
 }
@@ -238,9 +237,9 @@ function menuColecao(P, id) {
       <button id="col-renomear">✏️ Renomear</button>
       <button id="col-apagar" style="color:var(--alt)">🗑 Apagar a lista (as questões continuam no banco)</button>
     </div>`);
-  $("#col-resolver").onclick = () => { fecharPainel(); P.iniciar(qs, "📋 " + c.nome); };
-  $("#col-aleatorio").onclick = () => { const l = qs.slice(); for (let i = l.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [l[i], l[j]] = [l[j], l[i]]; } fecharPainel(); P.iniciar(l, "📋 " + c.nome); };
-  if ($("#col-erradas")) $("#col-erradas").onclick = async () => { await redefinirQuestoes(erradas.map(q => q.id)); fecharPainel(); P.iniciar(erradas, "📋 " + c.nome + " — refazendo as erradas"); };
+  $("#col-resolver").onclick = () => { fecharPainel(); P.iniciar(qs, "📋 " + c.nome, 0, c.id); };
+  $("#col-aleatorio").onclick = () => { const l = qs.slice(); for (let i = l.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [l[i], l[j]] = [l[j], l[i]]; } fecharPainel(); P.iniciar(l, "📋 " + c.nome, 0, c.id); };
+  if ($("#col-erradas")) $("#col-erradas").onclick = async () => { await redefinirQuestoes(erradas.map(q => q.id)); fecharPainel(); P.iniciar(erradas, "📋 " + c.nome + " — refazendo as erradas", 0, c.id); };
   $("#col-redefinir").onclick = async () => { if (!confirm("As questões desta lista voltam a ficar sem resposta. As estatísticas continuam. Redefinir?")) return; await redefinirQuestoes(qs.map(q => q.id)); fecharPainel(); telaColecoes(P); };
   $("#col-renomear").onclick = async () => { const n = prompt("Novo nome da lista:", c.nome); if (n && n.trim()) { await salvarItem({ ...c, nome: n.trim() }); fecharPainel(); telaColecoes(P); } };
   $("#col-apagar").onclick = async () => { if (!confirm(`Apagar a lista "${c.nome}"? As questões continuam no banco, com as suas respostas.`)) return; await apagarItem(id); fecharPainel(); telaColecoes(P); };
@@ -458,4 +457,42 @@ function painelApagarPlataforma(P) {
   };
   $("#plat-zerar").onclick = () => rodar(false, `Zerar as respostas e estatísticas de ${P.tituloCurto}`);
   $("#plat-tudo").onclick = () => rodar(true, `Apagar tudo de ${P.tituloCurto}`);
+}
+
+/* do filtro: guardar as questões filtradas numa lista (nova ou que já existe) */
+function painelCriarListaDoFiltro(P) {
+  const f = filtroQ(P), m = mapaRespostas();
+  const qs = P.ordenar(P.base().filter(q => passaFiltroQ(P, q, f, m)));
+  const cols = colecoesDe(P);
+  abrirPainel(`<h2>📋 Lista com as ${qs.length} questões do filtro ${botaoFechar}</h2>
+    <label class="contagem">Nome da lista nova</label>
+    <div class="acoes-linha"><input class="campo" id="lf-nome" placeholder="Ex.: Homicídio — FGV" style="flex:1;min-width:180px"><button class="botao primario" id="lf-criar">Criar lista</button></div>
+    ${cols.length ? `<p class="contagem" style="margin-top:14px">Ou junte a uma lista que já existe:</p><ul class="lista-salvos-ls">${cols.map(c => `<li><button class="aplicar-salvo" data-lf-juntar="${esc(c.id)}"><strong>${esc(c.nome)}</strong><span class="contagem">${(c.ids || []).length} questões</span></button></li>`).join("")}</ul>` : ""}
+    <p class="contagem" id="lf-msg"></p>`);
+  const pronto = (c, n) => {
+    $("#painel-caixa").innerHTML = `<h2>📋 ${esc(c.nome)} ${botaoFechar}</h2><p class="txt-ok">✓ ${n} questão(ões) na lista (agora com ${(c.ids || []).length}).</p>
+      <div class="acoes"><button class="botao primario" id="lf-resolver">▶️ Resolver a lista agora</button><a class="botao" href="${P.rota}/minhas-listas" data-fechar style="text-decoration:none">📋 Ver minhas listas</a></div>`;
+    $("#lf-resolver").onclick = () => { fecharPainel(); P.iniciar(questoesDaColecao(c), "📋 " + c.nome, 0, c.id); };
+    const b = $("#ir-colecoes"); if (b) b.textContent = `📋 Minhas listas (${colecoesDe(P).length})`;
+  };
+  $("#lf-criar").onclick = async () => {
+    const n = $("#lf-nome").value.trim(); if (!n) { $("#lf-nome").focus(); return; }
+    pronto(await novaColecao(P, n, qs.map(q => q.id)), qs.length);
+  };
+  $$("[data-lf-juntar]").forEach(b => b.onclick = async () => {
+    const c = { ...estado.itens.get(b.dataset.lfJuntar) };
+    const antes = new Set(c.ids || []);
+    c.ids = [...(c.ids || []), ...qs.map(q => q.id).filter(id => !antes.has(id))];
+    await salvarItem(c); pronto(c, c.ids.length - antes.size);
+  });
+}
+/* resolvendo uma lista minha: tirar a questão dela */
+function sessaoDaColecao(P) { const s = lerLS("sessao-" + P.chave, null); const c = s?.colecao && estado.itens.get(s.colecao); return c && !c.apagado ? c : null; }
+async function tirarDaColecaoAtual(P, qid) {
+  const c = sessaoDaColecao(P); if (!c) return null;
+  await salvarItem({ ...c, ids: (c.ids || []).filter(x => x !== qid) });
+  const s = lerLS("sessao-" + P.chave, {});
+  s.ids = (s.ids || []).filter(x => x !== qid); gravarLS("sessao-" + P.chave, s);
+  mostrarAvisoRapido(`➖ Tirada da lista "${c.nome}"`);
+  return s;
 }

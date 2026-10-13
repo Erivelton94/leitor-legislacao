@@ -39,7 +39,7 @@ function rotaPastaArea(area, id) {
 function trilhaPasta(area, id) {
   const cam = caminhoPasta(id);
   if (!cam.length) return "";
-  const inicio = { leis: "Meu Acervo", questoes: "Cadernos", resumos: "Meus Resumos", leiseca: "Pastas e arquivos" }[area];
+  const inicio = { leis: "Meu Acervo", questoes: "Pastas e arquivos", resumos: "Meus Resumos", leiseca: "Pastas e arquivos" }[area];
   return `<p class="trilha"><a href="${rotaPastaArea(area)}">${inicio}</a>${cam.map((p, k) => ` › ${k === cam.length - 1 ? esc(p.nome) : `<a href="${rotaPastaArea(area, p.id)}">${esc(p.nome)}</a>`}`).join("")}</p>`;
 }
 const voltarDaPasta = (area, id) => { const p = estado.itens.get(id); return rotaPastaArea(area, p ? paiDe(p) : null); };

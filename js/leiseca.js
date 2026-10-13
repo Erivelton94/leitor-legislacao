@@ -446,15 +446,16 @@ async function entradasDoZip(arq) {
   return { raiz, entradas: arqs.map((f, k) => ({ caminho: caminhos[k].slice(tira, -1), nome: caminhos[k][caminhos[k].length - 1], chave: null,
     md5: hashCurto(String(f._data?.crc32 ?? "") + f.name + (f._data?.uncompressedSize ?? "")), ler: () => f.async("uint8array") })) };
 }
-async function garantirPastaLS(nome, pai) {
-  const achada = pastasDe(PLATAFORMA_LS, pai || null).find(p => normNome(p.nome) === normNome(nome));
-  return achada || await novaPasta(PLATAFORMA_LS, pai || null, nome);
+async function garantirPastaLS(nome, pai, area = PLATAFORMA_LS) {
+  const achada = pastasDe(area, pai || null).find(p => normNome(p.nome) === normNome(nome));
+  return achada || await novaPasta(area, pai || null, nome);
 }
-async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDrive = null) {
+async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDrive = null, area = PLATAFORMA_LS) {
+  const arquivosDaArea = () => (area === PLATAFORMA_LS ? listasLS() : cadernosTradicionais().filter(c => c.local));
   const rel = { novas: [], atualizadas: [], iguais: 0, erros: [], publicadas: 0, questoes: 0 };
   let raiz = destinoId || null;
   if (nomeRaiz) {
-    const p = await garantirPastaLS(nomeRaiz, destinoId);
+    const p = await garantirPastaLS(nomeRaiz, destinoId, area);
     if (origemDrive && p.origemDrive?.id !== origemDrive.id) { p.origemDrive = origemDrive; await salvarItem(p); }
     raiz = p.id;
   }
@@ -463,7 +464,7 @@ async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDriv
     let atual = raiz;
     for (let k = 0; k < cam.length; k++) {
       const chave = cam.slice(0, k + 1).join("/");
-      if (!pastaDo.has(chave)) pastaDo.set(chave, (await garantirPastaLS(cam[k], atual)).id);
+      if (!pastaDo.has(chave)) pastaDo.set(chave, (await garantirPastaLS(cam[k], atual, area)).id);
       atual = pastaDo.get(chave);
     }
     return atual;
@@ -474,29 +475,28 @@ async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDriv
     const titulo = en.nome.replace(/\.pdf$/i, "").replace(/[_]+/g, " ").trim();
     try {
       const pasta = await pastaPara(en.caminho);
-      const naPasta = new Set(itensDaPasta(PLATAFORMA_LS, pasta));
-      const existente = (en.chave && listasLS().find(c => origemDaLista(c.id)?.chave === en.chave))
-        || listasLS().find(c => naPasta.has(c.id) && (normNome(c.titulo) === normNome(titulo) || normNome(c.tituloOriginal) === normNome(titulo)));
+      const naPasta = new Set(itensDaPasta(area, pasta));
+      const existente = (en.chave && arquivosDaArea().find(c => origemDaLista(c.id)?.chave === en.chave))
+        || arquivosDaArea().find(c => naPasta.has(c.id) && (normNome(c.titulo) === normNome(titulo) || normNome(c.tituloOriginal) === normNome(titulo)));
       if (existente) vistas.add(existente.id);
       const orig = existente ? origemDaLista(existente.id) : null;
       if (existente && orig && en.md5 && orig.md5 === en.md5) {
         rel.iguais++;
-        if (pastaDoItem(PLATAFORMA_LS, existente.id) !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
+        if (pastaDoItem(area, existente.id) !== pasta) await moverParaPasta(area, existente.id, pasta);
         continue;
       }
       aviso && aviso(`Lendo ${k + 1} de ${entradas.length}: ${en.caminho.concat(en.nome).join(" › ")}…`);
-      const linhas = await linhasDoPdfLS(pdfjs, await en.ler(), () => {});
-      const r = lerListaLeiSeca(linhas, catalogoParaVinculo());
+      const r = await lerPdfDaArea(area, pdfjs, await en.ler());
       if (!r.questoes.length) { rel.erros.push(`${en.nome}: nenhuma questão encontrada`); continue; }
       const igual = existente && existente.questoes.length === r.questoes.length && existente.questoes.every((q, i) => q.id === r.questoes[i].id);
       const origem = { chave: en.chave, md5: en.md5, nome: en.nome, em: agoraISO() };
       if (igual) {                                              // mesmo conteúdo: só guarda a origem para pular da próxima vez
         const locais = lerLS("cadernos-locais", []); const l = locais.find(c => c.id === existente.id);
         if (l) { l.origem = origem; gravarLS("cadernos-locais", locais); }
-        if (pastaDoItem(PLATAFORMA_LS, existente.id) !== pasta) await moverParaPasta(PLATAFORMA_LS, existente.id, pasta);
+        if (pastaDoItem(area, existente.id) !== pasta) await moverParaPasta(area, existente.id, pasta);
         rel.iguais++; continue;
       }
-      const c = await salvarListaLS(existente ? (existente.tituloOriginal || existente.titulo) : titulo, r.questoes, pasta, { id: existente?.id || null, origem, recarregar: false });
+      const c = await salvarArquivoDaArea(area, existente ? (existente.tituloOriginal || existente.titulo) : titulo, r, pasta, { id: existente?.id || null, origem, recarregar: false });
       vistas.add(c.id);
       (existente ? rel.atualizadas : rel.novas).push(c.id);
       rel.questoes += r.questoes.length;
@@ -508,9 +508,9 @@ async function importarArvoreLS(entradas, destinoId, nomeRaiz, aviso, origemDriv
     try { aviso && aviso(`Atualizando para os outros usuários: ${estado.cadernos[id]?.titulo || id}…`); await publicarCaderno(id); rel.publicadas++; }
     catch (e) { rel.erros.push(`${estado.cadernos[id]?.titulo || id}: não foi possível atualizar para os outros (${e.message})`); }
   }
-  const naArvore = raiz ? [raiz, ...descendentes(raiz)].flatMap(pid => itensDaPasta(PLATAFORMA_LS, pid)) : [];
+  const naArvore = raiz ? [raiz, ...descendentes(raiz)].flatMap(pid => itensDaPasta(area, pid)) : [];
   rel.sobrando = nomeRaiz ? naArvore.filter(id => estado.cadernos[id] && !vistas.has(id)).map(id => estado.cadernos[id].titulo) : [];
-  rel.raiz = raiz;
+  rel.raiz = raiz; rel.area = area;
   return rel;
 }
 function textoRelatorioLS(rel) {
@@ -520,10 +520,10 @@ function textoRelatorioLS(rel) {
     ${rel.atualizadas.length ? '<p class="contagem">Nas listas atualizadas, as respostas das questões que continuam iguais foram mantidas.</p>' : ""}
     ${rel.sobrando.length ? `<p class="contagem">${rel.sobrando.length} lista(s) desta pasta no app não estão mais na pasta de origem e ficaram como estavam: ${esc(rel.sobrando.slice(0, 8).join(", "))}${rel.sobrando.length > 8 ? "…" : ""}.</p>` : ""}
     ${rel.erros.length ? `<p class="alerta">✗ ${rel.erros.length} problema(s):<br>${rel.erros.slice(0, 10).map(esc).join("<br>")}</p>` : ""}
-    ${rel.raiz ? `<div class="acoes-linha"><a class="botao primario" href="${rotaPastaArea(PLATAFORMA_LS, rel.raiz)}" style="text-decoration:none" data-fechar>📂 Abrir a pasta</a></div>` : ""}</div>`;
+    ${rel.raiz ? `<div class="acoes-linha"><a class="botao primario" href="${rotaPastaArea(rel.area || PLATAFORMA_LS, rel.raiz)}" style="text-decoration:none" data-fechar>📂 Abrir a pasta</a></div>` : ""}</div>`;
 }
 /* navegador de pastas do Google Drive (funciona também no iPad, sem a janela do Google) */
-function painelPastaDriveLS(destinoId) {
+function painelPastaDriveLS(destinoId, area = PLATAFORMA_LS) {
   const pilha = [{ id: "root", nome: "Meu Drive" }];
   let aba = "meu", token = null;
   const desenhar = async () => {
@@ -545,23 +545,23 @@ function painelPastaDriveLS(destinoId) {
         ${pdfs.map(f => `<li class="lei-item"><span class="abrir"><span class="lei-nome">📄 ${esc(f.name)}</span></span></li>`).join("")}</ul>
         ${!pastas.length && !pdfs.length ? '<p class="contagem">Pasta vazia.</p>' : ""}`;
       $$("[data-entrar]").forEach(b => b.onclick = () => { const f = pastas[Number(b.dataset.entrar)]; pilha.push({ id: f.id, nome: f.name }); desenhar(); });
-      if ($("#drive-importar")) $("#drive-importar").onclick = () => importarPastaDrive(token, atual, destinoId, $("#drive-res"), $("#drive-importar"));
+      if ($("#drive-importar")) $("#drive-importar").onclick = () => importarPastaDrive(token, atual, destinoId, $("#drive-res"), $("#drive-importar"), area);
     } catch (e) { $("#drive-lista").innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p><div class="acoes"><button class="botao" id="drive-tentar">Tentar de novo</button></div>`; $("#drive-tentar").onclick = () => { token = null; desenhar(); }; }
   };
   desenhar();
 }
-async function importarPastaDrive(token, pasta, destinoId, res, botao) {
+async function importarPastaDrive(token, pasta, destinoId, res, botao, area = PLATAFORMA_LS) {
   if (botao) botao.disabled = true;
   const aviso = t => { res.innerHTML = `<p class="contagem">${esc(t)}</p>`; };
   try {
     const entradas = await arvoreDoDrive(token, pasta.id, [], [], aviso);
     if (!entradas.length) { res.innerHTML = '<p class="alerta">Nenhum PDF nesta pasta nem nas subpastas.</p>'; if (botao) botao.disabled = false; return; }
-    const rel = await importarArvoreLS(entradas, destinoId, pasta.nome, aviso, { id: pasta.id, nome: pasta.nome });
+    const rel = await importarArvoreLS(entradas, destinoId, pasta.nome, aviso, { id: pasta.id, nome: pasta.nome }, area);
     res.innerHTML = textoRelatorioLS(rel);
     redesenharListasLS();
   } catch (e) { res.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; if (botao) botao.disabled = false; }
 }
-function painelImportarPastaLS(destinoId) {
+function painelImportarPastaLS(destinoId, area = PLATAFORMA_LS) {
   const suportaPasta = "webkitdirectory" in document.createElement("input") && !ehAparelhoApple();
   abrirPainel(`<h2>📂 Importar pasta inteira ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">A pasta escolhida vira a pasta principal (Código/Lei), as subpastas viram os assuntos e cada PDF vira uma lista.
@@ -580,10 +580,10 @@ function painelImportarPastaLS(destinoId) {
   const aviso = t => { res.innerHTML = `<p class="contagem">${esc(t)}</p>`; };
   const rodar = async ({ raiz, entradas }) => {
     if (!entradas.length) { res.innerHTML = '<p class="alerta">Nenhum PDF encontrado.</p>'; return; }
-    try { res.innerHTML = textoRelatorioLS(await importarArvoreLS(entradas, destinoId, raiz, aviso)); redesenharListasLS(); }
+    try { res.innerHTML = textoRelatorioLS(await importarArvoreLS(entradas, destinoId, raiz, aviso, null, area)); redesenharListasLS(); }
     catch (e) { res.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; }
   };
-  $("#pasta-drive").onclick = () => painelPastaDriveLS(destinoId);
+  $("#pasta-drive").onclick = () => painelPastaDriveLS(destinoId, area);
   if ($("#pasta-pc")) $("#pasta-pc").onclick = () => $("#pasta-arq").click();
   $("#pasta-arq").onchange = e => { const a = [...e.target.files]; e.target.value = ""; if (a.length) rodar(entradasDeArquivos(a)); };
   $("#pasta-zip").onclick = () => $("#zip-arq").click();
@@ -592,7 +592,9 @@ function painelImportarPastaLS(destinoId) {
 /* redesenha a tela de listas por trás do painel (sem fechá-lo) */
 function redesenharListasLS() {
   const m = location.hash.match(/^#\/leiseca\/listas(?:\/pasta\/([^/]+))?$/);
-  if (m) telaListasLS(m[1] ? decodeURIComponent(m[1]) : null);
+  if (m) return telaListasLS(m[1] ? decodeURIComponent(m[1]) : null);
+  const q = location.hash.match(/^#\/questoes\/(?:cadernos|pasta\/([^/]+))$/);
+  if (q) telaQuestoes(q[1] ? decodeURIComponent(q[1]) : null);
 }
 /* pasta que veio do Drive: atualizar com um toque */
 async function atualizarPastaDoDriveLS(pastaId, res) {
@@ -602,9 +604,38 @@ async function atualizarPastaDoDriveLS(pastaId, res) {
   try {
     const token = await tokenDriveLeitura();
     const entradas = await arvoreDoDrive(token, p.origemDrive.id, [], [], aviso);
-    const rel = await importarArvoreLS(entradas, paiDe(p), p.nome, aviso, p.origemDrive);
+    const rel = await importarArvoreLS(entradas, paiDe(p), p.nome, aviso, p.origemDrive, p.area || PLATAFORMA_LS);
     res.innerHTML = textoRelatorioLS(rel);
   } catch (e) { res.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; }
+}
+
+/* ler e guardar um arquivo de questões, conforme a plataforma */
+async function lerPdfDaArea(area, pdfjs, bytes, aoProgresso = () => {}) {
+  if (area === PLATAFORMA_LS) return lerListaLeiSeca(await linhasDoPdfLS(pdfjs, bytes, aoProgresso), catalogoParaVinculo());
+  const r = await questoesDePdf(pdfjs, bytes, catalogoParaVinculo(), aoProgresso);
+  return { ...r, problemas: [] };
+}
+async function salvarArquivoDaArea(area, titulo, r, pastaId, opcoes = {}) {
+  if (area === PLATAFORMA_LS) return salvarListaLS(titulo, r.questoes, pastaId, opcoes);
+  return salvarCadernoME(titulo, r, pastaId, opcoes);
+}
+async function salvarCadernoME(titulo, r, pastaId, { id: idFixo = null, origem = null, recarregar = true } = {}) {
+  const id = idFixo || "local-" + semAcento(titulo).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) + "-" + hashCurto(r.questoes.map(q => q.id).join(""));
+  const cad = { id, titulo, materia: r.materia || "", versao: new Date().toISOString().slice(0, 10), assuntos: r.assuntos || [...new Set(r.questoes.map(q => q.assunto).filter(Boolean))],
+    observacao: "Importado de PDF no app.", questoes: r.questoes };
+  const url = `dados/questoes/local/${id}.json`;
+  const cache = await caches.open(CACHE_DADOS);
+  await cache.put(new Request(url), new Response(JSON.stringify(cad), { headers: { "content-type": "application/json" } }));
+  const todos = lerLS("cadernos-locais", []);
+  const antigo = todos.find(c => c.id === id);
+  const locais = todos.filter(c => c.id !== id);
+  locais.push({ id, titulo, materia: cad.materia, url, qtd: r.questoes.length, atualizadoEm: agoraISO(),
+    ...(antigo?.publicado ? { publicado: antigo.publicado } : {}), ...(origem || antigo?.origem ? { origem: origem || antigo.origem } : {}) });
+  gravarLS("cadernos-locais", locais);
+  if (recarregar) await carregarQuestoes();
+  else { estado.cadernos[id] = { ...cad, local: true, publicado: !!antigo?.publicado }; for (const q of estado.cadernos[id].questoes) { q.caderno = id; estado.q.set(q.id, q); } }
+  if (pastaId) await moverParaPasta("questoes", id, pastaId);
+  return estado.cadernos[id] || cad;
 }
 
 /* =====================================================================
@@ -653,9 +684,9 @@ function ordenarLS(lista) {
 /* =====================================================================
    RESOLVER: Verdadeiro ou Falso, com a resolução ligada ao texto da lei
    ===================================================================== */
-function iniciarSessaoLS(lista, titulo, pos = 0) {
+function iniciarSessaoLS(lista, titulo, pos = 0, colecao = null) {
   if (!lista.length) { alert("Nenhuma questão com esse filtro."); return; }
-  gravarLS("sessao-ls", { ids: lista.map(q => q.id), pos: Math.min(pos, lista.length - 1), titulo, criada: agoraISO() });
+  gravarLS("sessao-ls", { ids: lista.map(q => q.id), pos: Math.min(pos, lista.length - 1), titulo, criada: agoraISO(), ...(colecao ? { colecao } : {}) });
   if (location.hash === "#/leiseca/resolver") rotear(); else location.hash = "#/leiseca/resolver";
 }
 function telaResolverLS() {
@@ -715,6 +746,7 @@ function mostrarQuestaoLS(lista, i) {
       <button class="icone-btn" id="ls-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="ls-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
       <button class="icone-btn" id="ls-colecoes">${rotuloBotaoListas(q)}</button>
+      ${sessaoDaColecao(PLAT.ls) ? '<button class="icone-btn" id="ls-tirar">➖ Tirar desta lista</button>' : ""}
     </div>
     ${i === lista.length - 1 ? `<div class="cartao fim-ls"><p><strong>Última questão da seleção.</strong> ${est.resolvidas} de ${lista.length} resolvidas · ${est.certas} acertos e ${est.erradas} erros.</p>
       <div class="acoes-linha">${est.erradas ? '<button class="botao primario" id="ls-refazer-erros">Refazer só as que errei</button>' : ""}<a class="botao" href="#/leiseca" style="text-decoration:none">Novo filtro</a></div></div>` : ""}
@@ -753,6 +785,13 @@ function mostrarQuestaoLS(lista, i) {
     const fv = ehFavorito(idFavQ(q.id)); $("#ls-fav").textContent = fv ? "★ Favorita" : "☆ Favoritar"; $("#ls-fav").setAttribute("aria-pressed", fv);
   };
   $("#ls-nota").onclick = () => mostrarResolucao(q, true);
+  if ($("#ls-tirar")) $("#ls-tirar").onclick = async () => {
+    if (!confirm("Tirar esta questão da lista? Ela continua no banco de questões, com as suas respostas.")) return;
+    await tirarDaColecaoAtual(PLAT.ls, q.id);
+    lista.splice(i, 1);
+    if (!lista.length) { location.hash = "#/leiseca/minhas-listas"; return; }
+    mostrarQuestaoLS(lista, Math.min(i, lista.length - 1)); window.scrollTo(0, 0);
+  };
   $("#ls-colecoes").onclick = () => painelColecoesDaQuestao(q, () => { const b = $("#ls-colecoes"); if (b) b.textContent = rotuloBotaoListas(q); });
   if ($("#ls-refazer-erros")) $("#ls-refazer-erros").onclick = async () => {
     const m = mapaRespostas();

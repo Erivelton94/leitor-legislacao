@@ -9,14 +9,17 @@ estado.q = new Map();
 async function carregarQuestoes() {
   const cache = await caches.open(CACHE_DADOS);
   let indice = null;
+  const guardado = await cache.match("dados/questoes/indice.json").then(c => c ? c.json() : null).catch(() => null);
   if (!estado.offline) {
     try {
       const r = await buscarComTempo("dados/questoes/indice.json");
-      await cache.put("dados/questoes/indice.json", r.clone());
-      indice = await r.json();
+      const rede = await r.clone().json();
+      // o site do app leva ~1 min para publicar o que o dono mudou: vale a cópia mais nova
+      indice = guardado && String(guardado.atualizadoEm || "") > String(rede.atualizadoEm || "") ? guardado : rede;
+      if (indice === rede) await cache.put("dados/questoes/indice.json", r);
     } catch { /* ainda não há cadernos publicados */ }
   }
-  if (!indice) { const c = await cache.match("dados/questoes/indice.json"); indice = c ? await c.json() : { cadernos: [] }; }
+  if (!indice) indice = guardado || { cadernos: [] };
   estado.indiceQ = indice;
   const info = lerLS("info-cadernos", {});
   for (const cad of indice.cadernos) {
@@ -115,64 +118,50 @@ function listaFiltrada(s, mapa) {
       : f.situacao === "ja-errei" ? jaErrou(mapa, q.id) : situacaoQ(mapa, q.id) === f.situacao)));
 }
 
-/* ---------- tela inicial de Questões (pastas em lista) ---------- */
+/* ---------- Múltipla escolha: pastas e arquivos (igual à Lei Seca) ---------- */
 function telaQuestoes(pastaId = null) {
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
   if (pastaId && !pastaViva(pasta)) { location.hash = "#/questoes/cadernos"; return; }
-  definirTopo({ titulo: pasta ? pasta.nome : "Múltipla escolha — cadernos", voltar: pasta ? voltarDaPasta("questoes", pastaId) : "#/multipla" });
+  definirTopo({ titulo: pasta ? pasta.nome : "Pastas e arquivos", voltar: pasta ? voltarDaPasta("questoes", pastaId) : "#/multipla" });
   marcarAba("questoes");
   const cads = cadernosTradicionais().filter(cadernoVisivelNaLista);
-  if (!cads.length) {
-    $("#conteudo").innerHTML = `<div class="vazio">
-      <p style="font-family:var(--serif);font-size:22px;color:var(--tinta);margin-bottom:8px">Nenhum caderno de questões ainda</p>
-      <p>Importe o PDF de uma lista de questões e o caderno é montado na hora.</p>
-      <div class="acoes" style="justify-content:center"><button class="botao primario" id="importar-caderno">📥 Importar caderno (PDF)</button></div></div>`;
-    $("#importar-caderno").onclick = painelImportarCaderno;
-    return;
-  }
   const mapa = mapaRespostas();
-  const todasPastas = pastasDe("questoes");
   const pastas = pastasDe("questoes", pastaId || null).filter(p => !p.arquivada);
   const noLugar = new Set(itensDaPasta("questoes", pastaId || null));
   const visiveis = ordenarCadernos(cads.filter(c => noLugar.has(c.id) && !cadernoArquivado(c.id)));
-  const nArquivados = todasPastas.filter(p => p.arquivada).length + cads.filter(c => cadernoArquivado(c.id)).length;
-  let h = "";
-  if (!pasta) {
-    const g = estatisticas([...estado.q.values()], mapa);
-    h += `<div class="secao"><div class="cartao">
-      <p><strong>Seu desempenho:</strong> ${g.respostas} respostas registradas · <span class="txt-ok">${g.acertosTotal} acertos</span> · <span class="txt-erro">${g.errosTotal} erros</span>${g.respostas ? ` · <strong>${g.pctTotal}% de acerto</strong>` : ""}</p>
-      <div class="acoes" style="margin-bottom:12px"><a class="botao" href="#/multipla/estatisticas" style="color:inherit;text-decoration:none">📊 Estatísticas</a>
-        <a class="botao" href="#/multipla" style="color:inherit;text-decoration:none">🔎 Filtro de questões</a>
-        <button id="nova-pasta-q">+ Nova pasta</button>
-        ${botaoSelecionar("questoes")}
-        <button id="importar-caderno" class="botao primario">📥 Importar caderno (PDF)</button>
-        ${nArquivados ? `<a class="botao" href="#/questoes/arquivados" style="text-decoration:none">📦 Arquivados (${nArquivados})</a>` : ""}
-        ${lerLS("cadernos-locais", []).some(c => c.lixeira && !c.apagado) ? '<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira</a>' : ""}</div>
-    </div></div>`;
-  }
-  if (pasta) h += `<div class="secao" style="margin-bottom:0">${trilhaPasta("questoes", pastaId)}<div class="acoes-linha">
-      <button class="botao" id="nova-pasta-q">+ Nova subpasta</button>${botaoSelecionar("questoes")}
-      <button class="botao" data-menu-pasta="${esc(pastaId)}">⋯ Opções da pasta</button></div></div>`;
-  h += `<ul class="acervo">`;
+  const nArquivados = pastasDe("questoes").filter(p => p.arquivada).length + cads.filter(c => cadernoArquivado(c.id)).length;
+  let h = `<div class="secao" style="margin-bottom:0">${pasta ? trilhaPasta("questoes", pastaId) : `<p class="contagem" style="margin-top:0">No filtro de questões, a pasta principal vira a <strong>Pasta</strong>, a subpasta vira a <strong>Subpasta</strong> e cada arquivo enviado vira o <strong>Arquivo</strong>. Importe os PDFs dentro da subpasta certa.</p>`}
+    <div class="acoes-linha">
+      <button class="botao primario" id="importar-caderno">📥 Importar arquivo (PDF)</button>
+      <button class="botao" id="importar-pasta-me">📂 Importar pasta inteira</button>
+      ${pasta?.origemDrive ? '<button class="botao" id="atualizar-drive-me">🔄 Atualizar do Drive</button>' : ""}
+      <button class="botao" id="nova-pasta-q">+ Nova ${pasta ? "subpasta" : "pasta"}</button>
+      ${botaoSelecionar("questoes")}
+      ${pasta ? `<button class="botao" data-menu-pasta="${esc(pastaId)}">⋯ Opções da pasta</button>` : ""}
+      ${!pasta && nArquivados ? `<a class="botao" href="#/questoes/arquivados" style="text-decoration:none">📦 Arquivados (${nArquivados})</a>` : ""}
+      ${!pasta && lerLS("cadernos-locais", []).some(c => c.lixeira && !c.apagado) ? '<a class="botao" href="#/lixeira" style="text-decoration:none">🗑 Lixeira</a>' : ""}
+    </div></div><ul class="acervo">`;
   for (const p of pastas) h += linhaPasta(p, rotuloQtd("questoes", p.id), "", rotaPastaArea("questoes", p.id));
-  visiveis.forEach((c, i) => {
+  for (const c of visiveis) {
     const e = estatisticas(c.questoes, mapa);
-    h += `<li class="lei-item" data-sel-id="${esc(c.id)}" style="--cor-aba:${CORES_ABA[(i + 1) % CORES_ABA.length]}"><span class="aba"></span>
+    h += `<li class="lei-item" data-sel-id="${esc(c.id)}" style="--cor-aba:var(--oliva)"><span class="aba"></span>
       <button class="abrir" data-href="#/caderno/${esc(c.id)}">
-        <span class="lei-nome">${cadernoFixado(c.id) ? '<span class="lei-pin" title="Fixado no topo">📌</span> ' : ""}${esc(c.titulo)}${cfgDono() ? (ehVisivelParaTodos(c.id) ? ' <span class="selo-vis" title="Visível para todos">👁</span>' : ' <span class="selo-vis" title="Só na sua conta">🙈</span>') : ""}${cadernoArquivado(c.id) ? ' <span class="selo-vis">📦</span>' : ""}</span>
-        <span class="lei-num">${esc(c.materia)} · ${c.questoes.length} questões · ${c.assuntos.length} assuntos</span>
-        <span class="barra-prog" aria-hidden="true"><span style="width:${e.total ? Math.round(100 * e.resolvidas / e.total) : 0}%"></span></span>
-        <span class="lei-verif">Rodada atual: ${e.resolvidas} de ${e.total} resolvidas · Histórico: ${e.acertosTotal} acertos e ${e.errosTotal} erros${e.respostas ? ` (${e.pctTotal}%)` : ""}</span>
+        <span class="lei-nome">${cadernoFixado(c.id) ? '<span class="lei-pin" title="Fixado no topo">📌</span> ' : ""}${esc(c.titulo)}${cfgDono() ? (ehVisivelParaTodos(c.id) ? ' <span class="selo-vis" title="Visível para todos">👁</span>' : ' <span class="selo-vis" title="Só na sua conta">🙈</span>') : ""}</span>
+        <span class="lei-num">${c.questoes.length} questões · ${e.resolvidas} resolvidas${e.respostas ? ` · ${e.pctTotal}% de acerto` : ""}</span>
       </button>
-      <button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do caderno">⋯</button></li>`;
-  });
+      <button class="mais" data-menu-cad="${esc(c.id)}" aria-label="Opções do arquivo">⋯</button></li>`;
+  }
   h += "</ul>";
-  if (pasta && !visiveis.length && !pastas.length) h += `<p class="vazio">Pasta vazia. Use o botão ⋯ de um caderno (ou ☑️ Selecionar) e escolha “Mover para pasta”.</p>`;
+  if (!visiveis.length && !pastas.length) h += `<p class="vazio">${pasta ? "Pasta vazia. Importe um arquivo para cá ou crie uma subpasta." : "Nenhum arquivo ainda. Crie a pasta principal, a subpasta e importe os PDFs de questões."}</p>`;
   $("#conteudo").innerHTML = h;
-  const bn = $("#nova-pasta-q");
-  if (bn) bn.onclick = async () => { if (await novaPasta("questoes", pastaId || null)) telaQuestoes(pastaId); };
+  $("#nova-pasta-q").onclick = async () => { if (await novaPasta("questoes", pastaId || null)) telaQuestoes(pastaId); };
   ligarBotaoSelecionar();
-  if ($("#importar-caderno")) $("#importar-caderno").onclick = painelImportarCaderno;
+  $("#importar-caderno").onclick = () => painelImportarCaderno(pastaId || null);
+  $("#importar-pasta-me").onclick = () => painelImportarPastaLS(pastaId || null, "questoes");
+  if ($("#atualizar-drive-me")) $("#atualizar-drive-me").onclick = () => {
+    abrirPainel(`<h2>🔄 Atualizar do Google Drive ${botaoFechar}</h2><p class="contagem" style="margin-top:0">Pasta de origem: <strong>${esc(pasta.origemDrive.nome)}</strong></p><div id="atu-res"><p class="contagem">Conectando…</p></div>`);
+    atualizarPastaDoDriveLS(pastaId, $("#atu-res")).then(redesenharListasLS);
+  };
 }
 
 function menuCaderno(id) {
@@ -350,6 +339,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
       <button class="icone-btn" id="q-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
       <button class="icone-btn" id="q-colecoes">${rotuloBotaoListas(q)}</button>
+      ${sessao.chave === "f:me" && sessaoDaColecao(PLAT.me) ? '<button class="icone-btn" id="q-tirar">➖ Tirar desta lista</button>' : ""}
     </div>
   </article>`;
   iniciarCronometro();
@@ -413,6 +403,14 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     $("#q-fav").setAttribute("aria-pressed", f);
   };
   $("#q-nota").onclick = () => mostrarResolucao(q, true);
+  if ($("#q-tirar")) $("#q-tirar").onclick = async () => {
+    if (!confirm("Tirar esta questão da lista? Ela continua no banco de questões, com as suas respostas.")) return;
+    const s = await tirarDaColecaoAtual(PLAT.me, q.id);
+    if (!s.ids.length) { location.hash = "#/multipla/minhas-listas"; return; }
+    const prox = l[i + 1] || l[i - 1];
+    const pos = lerLS("pos-q", {}); pos["f:me"] = prox.id; gravarLS("pos-q", pos);
+    telaCaderno("filtro", "me", "questoes", prox.id); window.scrollTo(0, 0);
+  };
   $("#q-colecoes").onclick = () => painelColecoesDaQuestao(q, () => { const b = $("#q-colecoes"); if (b) b.textContent = rotuloBotaoListas(q); });
 }
 
