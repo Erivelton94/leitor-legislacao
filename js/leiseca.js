@@ -89,6 +89,7 @@ function lerReferencia(txt, catalogo) {
   let ultimaLei = null;
   const partes = txt.split(/\s+c\/c\s+|\s*;\s*/i).map(x => x.trim()).filter(Boolean);
   for (const p of partes.reverse()) {                         // a lei costuma vir no fim: "Art. 121, CP c/c Art. 305, CTB"
+    const plural = /^arts\b/i.test(p);
     let corpo = p.replace(/^arts?\s*[.,]?\s*/i, "");
     const segs = corpo.split(/\s*,\s*/);
     let lei = segs.length > 1 ? leiDaSigla(segs[segs.length - 1], catalogo) : null;
@@ -105,7 +106,8 @@ function lerReferencia(txt, catalogo) {
       let m;
       while ((m = resto.match(/^(\d{1,4}(?:-[A-Z])?)\s*[ºo°]?\s*(?:,\s*(?=\d{1,4}(?:-[A-Z])?\s*[ºo°]?\s*(?:,|$))|$)/i))) {
         // "129, 8º" (faltou o §): número menor que o artigo anterior é parágrafo, não outro artigo
-        if (arts.length && parseInt(m[1]) < parseInt(arts[arts.length - 1])) { resto = "§ " + resto; break; }
+        // (com "Arts.", no plural, são vários artigos mesmo: "Arts. 327, 29 e 30, CP")
+        if (arts.length && !plural && parseInt(m[1]) < parseInt(arts[arts.length - 1])) { resto = "§ " + resto; break; }
         arts.push(m[1].toUpperCase()); resto = resto.slice(m[0].length).replace(/^,\s*/, "");
       }
       if (!arts.length) { const m2 = resto.match(/^(\d{1,4}(?:-[A-Z])?)\s*[ºo°]?\s*,?\s*/i); if (!m2) continue; arts.push(m2[1].toUpperCase()); resto = resto.slice(m2[0].length); }
@@ -756,7 +758,7 @@ function mostrarQuestaoLS(lista, i) {
     $("#resultado-ls").innerHTML = `<p class="res-q ${r.correta ? "ok" : "erro"}">${r.correta ? "✓ Você acertou!" : `✗ Você errou. Gabarito: <strong>${q.gabarito === "C" ? "Verdadeiro" : "Falso"}</strong>.`}
         <button class="link" id="ls-de-novo">Responder de novo</button></p>
       <div class="resolucao-ls"><h3>Resolução</h3>${textoResolucaoLS(q.resolucao || [])}
-        ${refsLink.length ? `<div class="acoes-linha">${refsLink.map((r, k) => `<button class="botao" data-ref="${k}">📖 Ver ${esc(rotuloArt(r.art))}${r.disp ? ", " + esc(r.disp) : ""} na lei</button>`).join("")}</div>` : ""}</div>`;
+        ${refsLink.length ? `<div class="artigos-q"><p class="contagem">Ler o artigo na lei:</p><div class="acoes-linha">${refsLink.map((r, k) => `<button class="botao btn-artigo" data-ref="${k}">📖 ${esc(rotuloRef(r))}</button>`).join("")}</div></div>` : ""}</div>`;
     $("#ls-de-novo").onclick = async () => { await redefinirQuestoes([q.id]); mostrarQuestaoLS(lista, i); };
     ligarRefs();
   };

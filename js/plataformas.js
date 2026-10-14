@@ -66,7 +66,9 @@ function passaFiltroQ(P, q, f, mapa, ignorar = null) {
     if (sel.length && !c[2](q).some(v => sel.includes(v))) return false;
   }
   if (f.situacao !== "todas") {
-    const s = situacaoQ(mapa, q.id);
+    // pelo histórico (a última resposta já dada), e não pela rodada: cada "Filtrar questões" começa uma rodada nova
+    const hist = mapa.get(q.id) || [], ult = hist[hist.length - 1];
+    const s = !ult ? "nao" : ult.correta ? "certa" : "errada";
     if (f.situacao === "acertei" && s !== "certa") return false;
     if (f.situacao === "errei" && s !== "errada") return false;
     if (f.situacao === "resolvidas" && s === "nao") return false;
@@ -124,10 +126,12 @@ function telaFiltroQ(P) {
     telaFiltroQ(P); mostrarAvisoRapido("💾 Filtro salvo");
   };
   $("#ls-criar-lista").onclick = () => painelCriarListaDoFiltro(P);
-  $("#ls-filtrar").onclick = () => {
+  $("#ls-filtrar").onclick = async () => {
     const g = filtroQ(P), m = mapaRespostas();
     let lista = P.ordenar(P.base().filter(q => passaFiltroQ(P, q, g, m)));
     if (g.modo === "aleatorio") for (let i = lista.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [lista[i], lista[j]] = [lista[j], lista[i]]; }
+    // as questões filtradas aparecem sem resposta (nova rodada); o histórico e as estatísticas continuam
+    await redefinirQuestoes(lista.filter(q => respostaAtual(m, q.id)).map(q => q.id));
     P.iniciar(lista, "Questões filtradas");
   };
 }
@@ -279,7 +283,7 @@ function calcularEstatQ(qs, mapa, periodo) {
   const e = { total: qs.length, resolvidas: 0, certas: 0, erradas: 0, respostas: 0, acertos: 0, erros: 0, tempo: 0, porDia: {}, dias: new Set(),
     marcouV: 0, gabV: { r: 0, a: 0 }, gabF: { r: 0, a: 0 }, porQ: [] };
   for (const q of qs) {
-    const atual = respostaAtual(mapa, q.id);
+    const hq = mapa.get(q.id) || [], atual = hq[hq.length - 1] || null;   // a última resposta já dada (não depende da rodada)
     if (atual) { e.resolvidas++; atual.correta ? e.certas++ : e.erradas++; }
     const rs = (mapa.get(q.id) || []).filter(r => !desde || diaLocal(r.em) >= desde);
     let a = 0, x = 0;
@@ -372,10 +376,10 @@ function telaEstatisticasQ(P) {
       <div><strong>${e.dias.size}</strong><span>dia(s) de estudo${e.dias.size ? ` · ${Math.round(e.respostas / e.dias.size)} por dia` : ""}</span></div>
       <div><strong>${e.sequencia}🔥</strong><span>dia(s) seguidos</span></div>
     </div>
-    <h3 class="grupo-assunto">Banco de questões (rodada atual)</h3>
+    <h3 class="grupo-assunto">Banco de questões (última resposta de cada uma)</h3>
     <div class="cobertura-ls"><span class="b-ok" style="width:${e.total ? 100 * e.certas / e.total : 0}%"></span><span class="b-erro" style="width:${e.total ? 100 * e.erradas / e.total : 0}%"></span></div>
     <p class="contagem">${e.resolvidas} de ${e.total} questões resolvidas (${pctRes}%) · <span class="txt-ok">${e.certas} certas</span> · <span class="txt-erro">${e.erradas} erradas</span> · ${e.total - e.resolvidas} sem resposta.
-      Redefinir questões começa uma nova rodada, mas o histórico continua contando aqui.</p>
+      Ao filtrar, as questões voltam sem resposta para você resolver de novo, mas o histórico continua contando aqui.</p>
     <div class="acoes-linha">
       ${e.total - e.resolvidas ? `<button class="botao primario" data-treinar="nao">▶️ Resolver as ${e.total - e.resolvidas} não resolvidas</button>` : ""}
       ${e.erradas ? `<button class="botao" data-treinar="erradas">🔁 Refazer as ${e.erradas} que errei</button>` : ""}
