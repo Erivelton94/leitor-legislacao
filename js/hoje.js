@@ -40,7 +40,7 @@ function cartaoHoje() {
       ${sME && sME.ids && sME.ids.length ? `<a class="botao" href="#/multipla/resolver" style="text-decoration:none">▶️ Continuar a Múltipla Escolha (${sME.ids.length})</a>` : ""}
       ${errLS.length ? `<button class="botao" data-hoje-erradas="ls">🔁 Refazer ${errLS.length} que errei (Lei Seca)</button>` : ""}
       ${errME.length ? `<button class="botao" data-hoje-erradas="me">🔁 Refazer ${errME.length} que errei (Múltipla Escolha)</button>` : ""}
-      ${typeof telaSimulado === "function" ? '<a class="botao" href="#/simulado" style="text-decoration:none">⏱ Simulados</a>' : ""}
+      ${typeof telaSimulado === "function" ? '<a class="botao" href="#/simulado/historico" style="text-decoration:none">⏱ Simulados</a>' : ""}
     </div></div>`;
   const ligar = () => {
     $("#hoje-meta").onclick = () => {

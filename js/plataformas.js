@@ -338,6 +338,22 @@ function graficoEvolucaoQ(porDia, nDias) {
     <text x="0" y="${A + 14}" font-size="11" fill="var(--tinta-2)">${dataCurta(dias[0])}</text>
     <text x="${L}" y="${A + 14}" font-size="11" fill="var(--tinta-2)" text-anchor="end">hoje</text></svg>`;
 }
+/* gráfico de pizza (rosca) de acertos e erros, em SVG simples */
+function graficoPizzaQ(acertos, erros, titulo) {
+  const t = acertos + erros;
+  if (!t) return "";
+  const pa = acertos / t, R = 15.915, C = 2 * Math.PI * R;           // circunferência 100: os traços viram porcentagens
+  const pct = Math.round(100 * pa);
+  return `<div class="pizza-q" role="img" aria-label="${pct}% de acerto: ${acertos} acertos e ${erros} erros">
+    <svg viewBox="0 0 42 42" class="pizza-svg">
+      <circle cx="21" cy="21" r="${R}" fill="none" stroke="var(--alt)" stroke-width="7"></circle>
+      <circle cx="21" cy="21" r="${R}" fill="none" stroke="var(--ok)" stroke-width="7" stroke-dasharray="${(pa * C).toFixed(2)} ${(C - pa * C).toFixed(2)}" stroke-dashoffset="${(C / 4).toFixed(2)}"></circle>
+      <text x="21" y="22.5" text-anchor="middle" class="pizza-num">${pct}%</text>
+    </svg>
+    <div class="pizza-legenda"><strong>${esc(titulo)}</strong>
+      <span><i class="pz-ok"></i>Acertos: ${acertos.toLocaleString("pt-BR")} (${pct}%)</span>
+      <span><i class="pz-erro"></i>Erros: ${erros.toLocaleString("pt-BR")} (${100 - pct}%)</span></div></div>`;
+}
 function telaEstatisticasQ(P) {
   definirTopo({ titulo: "📊 Estatísticas — " + P.tituloCurto, voltar: P.rota });
   marcarAba("questoes");
@@ -378,6 +394,7 @@ function telaEstatisticasQ(P) {
       <div><strong>${e.dias.size}</strong><span>dia(s) de estudo${e.dias.size ? ` · ${Math.round(e.respostas / e.dias.size)} por dia` : ""}</span></div>
       <div><strong>${e.sequencia}🔥</strong><span>dia(s) seguidos</span></div>
     </div>
+    ${graficoPizzaQ(e.acertos, e.erros, "Seu desempenho no período")}
     <h3 class="grupo-assunto">Banco de questões (última resposta de cada uma)</h3>
     <div class="cobertura-ls"><span class="b-ok" style="width:${e.total ? 100 * e.certas / e.total : 0}%"></span><span class="b-erro" style="width:${e.total ? 100 * e.erradas / e.total : 0}%"></span></div>
     <p class="contagem">${e.resolvidas} de ${e.total} questões resolvidas (${pctRes}%) · <span class="txt-ok">${e.certas} certas</span> · <span class="txt-erro">${e.erradas} erradas</span> · ${e.total - e.resolvidas} sem resposta.

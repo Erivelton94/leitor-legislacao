@@ -244,22 +244,24 @@ function telaEntradaQuestoes() {
   marcarAba("questoes");
   const mapa = mapaRespostas();
   const qsLS = baseLS();
-  const eLS = estatisticas(qsLS, mapa);
-  const cads = cadernosTradicionais();
-  const eC = estatisticas(cads.flatMap(c => c.questoes), mapa);
+  const qsME = baseME();
+  // por questão, pela última resposta já dada: quantas acertei e quantas errei
+  const placar = qs => { let c = 0, x = 0; for (const q of qs) { const h = mapa.get(q.id); if (h && h.length) h[h.length - 1].correta ? c++ : x++; }
+    const n = v => v.toLocaleString("pt-BR");
+    return `${n(qs.length)} questões · ${c + x ? `<span class="txt-ok">${n(c)} ${c === 1 ? "certa" : "certas"}</span> · <span class="txt-erro">${n(x)} ${x === 1 ? "errada" : "erradas"}</span> · ${Math.round(100 * c / (c + x))}% de acerto` : "nenhuma resolvida ainda"}`; };
   const hoje = typeof cartaoHoje === "function" ? cartaoHoje() : null;
   $("#conteudo").innerHTML = `<div class="secao entrada-questoes">${hoje ? hoje.html : ""}
     <button class="cartao-plataforma" data-href="#/leiseca">
       <span class="plat-icone">⚖️</span>
       <span class="plat-titulo">Lei Seca — Verdadeiro ou Falso</span>
       <span class="plat-texto">Questões de concursos baseadas no texto da lei, com filtro por lei, artigo, assunto, banca, ano, cargo e instituição. Cada resolução leva direto ao artigo.</span>
-      <span class="plat-num">${qsLS.length} questões${eLS.respostas ? ` · ${eLS.pctTotal}% de acerto` : ""}</span>
+      <span class="plat-num">${placar(qsLS)}</span>
     </button>
     <button class="cartao-plataforma" data-href="#/multipla">
       <span class="plat-icone">📝</span>
       <span class="plat-titulo">Múltipla Escolha Tradicional</span>
       <span class="plat-texto">As questões de múltipla escolha e de Certo/Errado importadas em PDF, com o mesmo filtro profissional, minhas listas e estatísticas, e a tesoura para cortar alternativas.</span>
-      <span class="plat-num">${cads.length} caderno(s)${eC.respostas ? ` · ${eC.pctTotal}% de acerto` : ""}</span>
+      <span class="plat-num">${placar(qsME)}</span>
     </button>
   </div>`;
   if (hoje) hoje.ligar();

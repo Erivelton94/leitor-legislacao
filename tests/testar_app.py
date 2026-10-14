@@ -886,6 +886,20 @@ async def testes(b):
     faixa = await p19.evaluate("(document.querySelector('.faixa-hoje')||{}).textContent || ''")
     confere("Hoje: meta do dia, últimos 7 dias, continuar e refazer as erradas na entrada de Questões; faixa curta no Acervo",
         f"{hoje_txt[1]} de 30 questões hoje" in " ".join(hoje_txt[0].split()) and hoje_txt[2] == 7 and "Simulados" in hoje_txt[0] and f"{hoje_txt[1]} de 5 questões" in faixa, [hoje_txt[0][:160], hoje_txt[1:], faixa[:80]])
+    dist = await p19.evaluate("""(()=>{ const g = (nome, k) => ({ nome, qs: Array.from({ length: k }, (_, i) => ({ id: nome + i })) });
+      const a = distribuirSimulado([g('Penal', 60), g('LEP', 30), g('CPP', 10)], 10).map(d => d.n);
+      const b = distribuirSimulado([g('Penal', 60), g('LEP', 30), g('CPP', 10)], 3).map(d => d.n);
+      const c = distribuirSimulado([g('Penal', 2), g('LEP', 30)], 20).map(d => d.n);
+      return [a, b, c]; })()""")
+    await p19.goto(U + "#/questoes"); await p19.wait_for_timeout(600)
+    placar = await p19.evaluate("[...document.querySelectorAll('.plat-num')].map(e => e.textContent)")
+    await p19.goto(U + "#/multipla/estatisticas"); await p19.wait_for_timeout(600)
+    await p19.click("[data-estat=periodo][data-v=tudo]"); await p19.wait_for_timeout(400)
+    pizza = await p19.evaluate("(document.querySelector('.pizza-q') || {}).getAttribute ? document.querySelector('.pizza-q').getAttribute('aria-label') : ''")
+    await p19.goto(U + "#/simulado/historico"); await p19.wait_for_timeout(600)
+    hist = await p19.evaluate("[document.querySelectorAll('.sim-cartao').length, !!document.querySelector('.sim-numeros'), !!document.querySelector('.sim-novo')]")
+    confere("Simulado dividido pelas disciplinas na proporção de cada uma; placar certas/erradas/% nas plataformas; pizza nas estatísticas; página de simulados organizada",
+        dist == [[6, 3, 1], [1, 1, 1], [1, 19]] and all("questões" in t for t in placar) and "cert" in placar[1] and "% de acerto" in pizza and hist[0] >= 1 and hist[1] and hist[2], [dist, placar, pizza, hist])
     confere("Nenhum erro de programa na Múltipla escolha", not p19.erros, p19.erros[:3])
     await ctx19.close()
     # quem recebe: o caderno aparece na pasta compartilhada certinha; o de "só as questões" fica só no banco
