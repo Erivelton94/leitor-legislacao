@@ -48,6 +48,7 @@ function telaAcervo(pastaId = null) {
     if (!todos.length) h += `<p class="vazio">Seu acervo está vazio. Toque em “+ Adicionar leis” para escolher as leis que você quer estudar.<br>Só as leis escolhidas são baixadas para o aparelho.</p>`;
     const semBackup = temDadosSemBackup();
     if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
+    if (typeof faixaHojeAcervo === "function") h += faixaHojeAcervo();
     for (const id of todos.filter(i => estado.alteracoes[i])) {
       const alt = estado.alteracoes[id];
       const lista = alt.artigos.slice(0, 8).map(a => `${rotuloArt(a.artigo)} (${a.tipo})`).join(", ");

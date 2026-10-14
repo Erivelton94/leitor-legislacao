@@ -125,6 +125,7 @@ async function rotearTela() {
     if (partes[1] === "alterados" && partes[2]) { sessionStorage.setItem("filtro-mudou-" + partes[2], "1"); return telaEstudos("lei", partes[2], "anotacoes"); }
     return telaEstudos(partes[1] || "", partes[2] || "", partes[3] || "anotacoes");
   }
+  if (partes[0] === "simulado" && typeof telaSimulado === "function") return telaSimulado(partes[1] || null);
   if (partes[0] === "ajustes") return telaAjustes();
   if (partes[0] === "catalogo") return telaCatalogo();
   if (partes[0] === "revisao" && partes[1]) return telaRevisao(partes[1]);

@@ -114,6 +114,7 @@ function telaFiltroQ(P) {
       <button class="link-acao" id="ls-salvar-filtro">💾 Salvar filtro</button>
       <button class="link-acao" id="ls-criar-lista" ${qtd ? "" : "disabled"}>📋 Criar lista com estas ${qtd} questões</button>
       <button class="link-acao perigo" id="ls-limpar">✕ Limpar filtro</button>
+      ${typeof painelSimulado === "function" ? `<button class="botao" id="ls-simulado" ${qtd ? "" : "disabled"}>⏱ Simulado</button>` : ""}
       <button class="botao primario btn-filtrar" id="ls-filtrar" ${qtd ? "" : "disabled"}>Filtrar questões (${qtd})</button>
     </div></div>`;
   $$("[data-campo]").forEach(b => b.onclick = () => painelCampoQ(P, b.dataset.campo));
@@ -126,6 +127,7 @@ function telaFiltroQ(P) {
     telaFiltroQ(P); mostrarAvisoRapido("💾 Filtro salvo");
   };
   $("#ls-criar-lista").onclick = () => painelCriarListaDoFiltro(P);
+  if ($("#ls-simulado")) $("#ls-simulado").onclick = () => { const g = filtroQ(P), m = mapaRespostas(); painelSimulado(P, P.ordenar(P.base().filter(q => passaFiltroQ(P, q, g, m)))); };
   $("#ls-filtrar").onclick = async () => {
     const g = filtroQ(P), m = mapaRespostas();
     let lista = P.ordenar(P.base().filter(q => passaFiltroQ(P, q, g, m)));

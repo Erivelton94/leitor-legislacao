@@ -802,3 +802,33 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 .artigos-q { margin: 10px 0 4px; }
 .artigos-q .contagem { margin: 0 0 6px; }
 .btn-artigo { font-size: .92em; }
+/* aviso: a lei mudou depois da prova */
+.aviso-lei-alterada { margin: 8px 0; }
+.aviso-lei-alterada .link { margin-left: 4px; }
+/* simulado */
+.sim-topo { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.sim-relogio { font-variant-numeric: tabular-nums; font-weight: 700; border: 1px solid var(--fio); border-radius: 999px; padding: 2px 10px; }
+.sim-relogio.acabando { color: var(--alt); border-color: var(--alt); }
+.sim-grade { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+.sim-num { min-width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--fio); background: var(--folha); color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.sim-num.feita { background: var(--oliva); color: var(--papel); border-color: var(--oliva); }
+.sim-num.atual { box-shadow: 0 0 0 2px var(--tinta); }
+.sim-placar .sim-nota { font-size: 26px; margin: 0 0 6px; }
+.sim-lista { padding-left: 22px; } .sim-lista li { margin: 6px 0; line-height: 1.45; }
+/* hoje */
+.cartao-hoje { grid-column: 1 / -1; text-align: left; }
+.hoje-cab { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.hoje-cab .link { margin-left: auto; }
+.hoje-barra { height: 10px; border-radius: 999px; background: var(--folha); border: 1px solid var(--fio); overflow: hidden; margin-top: 8px; }
+.hoje-barra span { display: block; height: 100%; background: var(--oliva); }
+.hoje-semana { display: flex; gap: 6px; align-items: flex-end; height: 56px; }
+.hoje-semana span { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+.hoje-semana i { display: block; width: 70%; min-height: 2px; background: var(--oliva); border-radius: 4px 4px 0 0; opacity: .8; }
+.hoje-semana b { font-size: 11px; font-weight: 500; color: var(--tinta-2); margin-top: 2px; }
+.faixa-hoje a { margin-left: 2px; }
+.hoje-semana em { font-style: normal; font-size: 11px; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.sim-assuntos { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.sim-assuntos li { display: grid; grid-template-columns: 1fr 120px auto; gap: 10px; align-items: center; }
+.sim-assunto-barra { height: 8px; border-radius: 999px; background: var(--folha); border: 1px solid var(--fio); overflow: hidden; }
+.sim-assunto-barra i { display: block; height: 100%; background: var(--oliva); }
+@media (max-width: 520px) { .sim-assuntos li { grid-template-columns: 1fr auto; } .sim-assunto-barra { display: none; } }

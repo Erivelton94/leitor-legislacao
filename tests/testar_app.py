@@ -619,6 +619,13 @@ async def testes(b):
         and lista["q4"][0] == ["124", "126", "127"], {k: lista[k] for k in ("n", "q1", "q2", "q4")})
     confere("Lei Seca: sem rodapé nem nome da fonte; palavras partidas consertadas", "http" not in lista["json"] and "ecorando" not in lista["json"] and "Página" not in lista["json"]
         and lista["q3"] == ["Questão inédita"] and "artigo 124" in lista["q4"][1] and "aborto provocado" in lista["q4"][1] and lista["q4"][2].startswith("Aborto provocado"), [lista["q3"], lista["q4"][1:]])
+    lsj = await p16.evaluate("""(()=>{ const r = listaLeiSecaDeJson({ titulo: 'LEP comentada', questoes: [
+        { referencia: 'Art. 83, § 2º, LEP', banca: 'FGV', ano: 2024, enunciado: ['O berçário vai até 6 meses.'], gabarito: 'Verdadeiro', resolucaoFormato: 'rica', resolucao: ['Gabarito: **Verdadeiro**', '[VERDADEIRO] Art. 83, § 2º.'] },
+        { referencia: 'Art. 121, CP', enunciado: 'Sem gabarito' } ] }, catalogoParaVinculo());
+      const q = r.questoes[0]; return [r.titulo, r.questoes.length, r.problemas, q.gabarito, q.tipo, q.plataforma, q.refs.map(x => x.lei + ' ' + x.art + ' ' + x.disp), /^ls-/.test(q.id), htmlResolucao(q).includes('selo-res ok')]; })()""")
+    await p16.click("#importar-lista-ls"); aceita_json = await p16.get_attribute("#ls-arq", "accept"); await p16.evaluate("fecharPainel()")
+    confere("Lei Seca: importa lista em .json (comentada, ligada ao artigo) além do PDF", lsj[0] == "LEP comentada" and lsj[1] == 1 and lsj[2] == [2] and lsj[3:6] == ["C", "CE", "leiseca"]
+        and lsj[6] and lsj[6][0].startswith("lep 83") and lsj[7] and lsj[8] and ".json" in (aceita_json or ""), [lsj, aceita_json])
     await p16.goto(U + "#/leiseca"); await p16.wait_for_timeout(800)
     total_btn = await p16.inner_text("#ls-filtrar")
     await p16.click("[data-campo=bancas]"); await p16.click(".opcao-ls input[value='FGV']"); await p16.click("#campo-aplicar"); await p16.wait_for_timeout(300)
@@ -853,6 +860,32 @@ async def testes(b):
     aceita = await p19.evaluate("""(()=>{ const a = window.ehAparelhoApple; window.ehAparelhoApple = () => true; arquivosDoDrive(['application/pdf', 'application/json']);
       const inp = [...document.querySelectorAll('body > input[type=file]')].pop(); window.ehAparelhoApple = a; const ac = inp ? inp.accept : ''; if (inp) inp.remove(); return ac; })()""")
     confere("Google Drive no iPad/celular: acesso pedido na hora do toque e janela do aparelho aceitando .pdf e .json", na_hora and ".pdf" in aceita and ".json" in aceita, [na_hora, aceita])
+    alt = await p19.evaluate("""(async()=>{ const a = await alteracoesDepoisDaProva({ ano: 2021, refs: [{ lei: 'lep', art: '112' }] });
+      const b = await alteracoesDepoisDaProva({ ano: 2027, refs: [{ lei: 'lep', art: '112' }] });
+      const q = { ...estado.q.values().next().value, id: 'q-aviso-teste', ano: 2021, refs: [{ lei: 'lep', art: '112' }] };
+      estado.q.set(q.id, q); iniciarSessaoME([q], 'Aviso'); await new Promise(r => setTimeout(r, 2500));
+      return [a.length ? a[0].normas : [], b.length, (document.querySelector('.aviso-lei-alterada') || {}).textContent || '']; })()""")
+    confere("Aviso “a lei mudou depois desta prova” pelas notas do artigo (e nada quando a prova é mais nova)", any("2024" in n or "2026" in n for n in alt[0]) and alt[1] == 0 and "mudou depois desta prova" in alt[2], [alt[0][:3], alt[1], alt[2][:90]])
+    # modo simulado
+    await p19.goto(U + "#/multipla"); await p19.wait_for_timeout(600)
+    n_antes = await p19.evaluate("itens('resposta').length")
+    await p19.click("#ls-simulado"); await p19.fill("#sim-n", "2"); await p19.fill("#sim-min", "5"); await p19.click("#sim-comecar"); await p19.wait_for_timeout(700)
+    tela_sim = await p19.evaluate("[location.hash, !!document.querySelector('#sim-relogio'), document.querySelectorAll('.sim-num').length, !!document.querySelector('.res-q, .resolucao-ls')]")
+    await p19.click("[data-sim-alt]"); await p19.wait_for_timeout(500)
+    await p19.click("#sim-entregar"); await p19.wait_for_timeout(1200)
+    res_sim = await p19.evaluate("[location.hash.startsWith('#/simulado/'), document.querySelector('.sim-nota')?.textContent || '', itens('resposta').length, itens('simulado').length, document.querySelectorAll('.sim-lista li').length]")
+    await p19.evaluate("gravarLS('simulado-ativo', { id: 'tempo1', plat: 'me', titulo: 'T', ids: [...estado.q.keys()].slice(0, 1), marcadas: {}, pos: 0, inicio: Date.now() - 120000, duracao: 60 })")
+    await p19.goto(U + "#/simulado"); await p19.wait_for_timeout(1200)
+    esgotado = await p19.evaluate("[location.hash, lerLS('simulado-ativo', null), !!estado.itens.get('simulado|tempo1')]")
+    confere("Modo simulado: sem gabarito durante a prova, relógio, entregar guarda as respostas e mostra o resultado; tempo esgotado entrega sozinho",
+        tela_sim == ["#/simulado", True, 2, False] and res_sim[0] and "de 2" in res_sim[1] and res_sim[2] == n_antes + 1 and res_sim[3] == 1 and res_sim[4] == 2
+        and esgotado[0] == "#/simulado/tempo1" and esgotado[1] is None and esgotado[2], [tela_sim, res_sim, esgotado])
+    await p19.goto(U + "#/questoes"); await p19.wait_for_timeout(700)
+    hoje_txt = await p19.evaluate("[(document.querySelector('.cartao-hoje')||{}).textContent || '', itens('resposta').filter(r => new Date(r.em).toLocaleDateString('sv-SE') === new Date().toLocaleDateString('sv-SE')).length, document.querySelectorAll('.hoje-semana span').length]")
+    await p19.evaluate("gravarLS('meta-diaria', 5)"); await p19.goto(U + "#/acervo"); await p19.wait_for_timeout(700)
+    faixa = await p19.evaluate("(document.querySelector('.faixa-hoje')||{}).textContent || ''")
+    confere("Hoje: meta do dia, últimos 7 dias, continuar e refazer as erradas na entrada de Questões; faixa curta no Acervo",
+        f"{hoje_txt[1]} de 30 questões hoje" in " ".join(hoje_txt[0].split()) and hoje_txt[2] == 7 and "Simulados" in hoje_txt[0] and f"{hoje_txt[1]} de 5 questões" in faixa, [hoje_txt[0][:160], hoje_txt[1:], faixa[:80]])
     confere("Nenhum erro de programa na Múltipla escolha", not p19.erros, p19.erros[:3])
     await ctx19.close()
     # quem recebe: o caderno aparece na pasta compartilhada certinha; o de "só as questões" fica só no banco

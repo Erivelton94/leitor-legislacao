@@ -345,6 +345,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
       ? ` · <a href="#/lei/${esc(q.vinculo.lei)}/${encodeURIComponent(q.vinculo.de)}">Ler ${esc(rotuloVinculo(q.vinculo))} no ${esc(nomeLei(q.vinculo.lei))}</a>`
       : ` · <a href="#/catalogo">${esc(rotuloVinculo(q.vinculo))} — adicionar ${esc(nomeLei(q.vinculo.lei))} ao acervo</a>`) : ""}</p>
     <p class="q-prova">${esc(provaQ(q))}</p>
+    <div class="aviso-alt-lei" id="aviso-alt-lei" data-q="${esc(q.id)}"></div>
     <div class="q-enunciado">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <ul class="alternativas ${q.tipo === "CE" ? "ce" : ""}" role="radiogroup" aria-label="Alternativas">
       ${q.alternativas.map(a => `<li><button class="alt ${riscadas[q.id].includes(a.letra) ? "riscada" : ""}" role="radio" aria-checked="false" data-letra="${esc(a.letra)}">
@@ -365,6 +366,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     </div>
   </article>`;
   iniciarCronometro();
+  if (typeof mostrarAvisoLeiAlterada === "function") mostrarAvisoLeiAlterada(q, $("#aviso-alt-lei"));
 
   // Questão já respondida nesta rodada: fica travada com a sua resposta até você redefinir a lista.
   const exibirResultado = r => {
@@ -445,8 +447,8 @@ function marcacaoRica(t) {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/~~(.+?)~~/g, '<del class="res-riscado">$1</del>')
     .replace(/==(.+?)==/g, '<mark class="res-grifo">$1</mark>')
-    .replace(/\[(CORRETAS?|CERTO|INCORRETA[^\]]*|ERRADAS?|ERRADO|ATENÇÃO|É a resposta|CORRETA[^\]]*)\]/g, (m, s) => {
-      const cls = /^(INCORRETA|ERRAD)/.test(s) ? "erro" : /^(CORRET|CERTO)/.test(s) ? "ok" : /ATEN/.test(s) ? "aviso" : "resp";
+    .replace(/\[(CORRETAS?|CERTO|VERDADEIRO|FALSO|INCORRETA[^\]]*|ERRADAS?|ERRADO|ATENÇÃO|É a resposta|CORRETA[^\]]*)\]/g, (m, s) => {
+      const cls = /^(INCORRETA|ERRAD|FALSO)/.test(s) ? "erro" : /^(CORRET|CERTO|VERDADEIRO)/.test(s) ? "ok" : /ATEN/.test(s) ? "aviso" : "resp";
       return `<span class="selo-res ${cls}">${s}</span>`;
     });
 }

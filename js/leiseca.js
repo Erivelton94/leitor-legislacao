@@ -208,6 +208,32 @@ function lerListaLeiSeca(linhas, catalogo) {
   return { questoes: unicas, repetidas: questoes.length - unicas.length, problemas, total: blocos.length };
 }
 
+/* lista de lei seca em .json (o mesmo formato de caderno do app): cada questão de Verdadeiro ou Falso,
+   com a referência do artigo, o gabarito e a resolução (que pode vir com a marcação rica). */
+function listaLeiSecaDeJson(j, catalogo) {
+  const lista = Array.isArray(j) ? j : j && Array.isArray(j.questoes) ? j.questoes : null;
+  if (!lista) throw new Error("este arquivo não é uma lista de questões do app");
+  const questoes = [], problemas = [];
+  lista.forEach((x, k) => {
+    const enunciado = (Array.isArray(x.enunciado) ? x.enunciado : [x.enunciado]).map(t => String(t || "").trim()).filter(Boolean);
+    const g = String(x.gabarito || "").trim().toUpperCase();
+    const gabarito = /^(C|V|CERTO|VERDADEIRO)$/.test(g) ? "C" : /^(E|F|ERRADO|FALSO)$/.test(g) ? "E" : null;
+    if (!enunciado.length || !gabarito) { problemas.push(x.numero || x.ordem || k + 1); return; }
+    const referencia = String(x.referencia || (x.refs && x.refs[0] && x.refs[0].texto) || "").trim();
+    const refs = Array.isArray(x.refs) && x.refs.length ? x.refs : referencia ? lerReferencia(referencia, catalogo) : [];
+    const id = /^ls-/.test(x.id || "") ? x.id : "ls-" + hashCurto(referencia + "|" + enunciado.join(" ") + "|" + (x.banca || "") + (x.ano || ""));
+    questoes.push({ id, tipo: "CE", plataforma: PLATAFORMA_LS, numero: x.numero || k + 1, referencia, refs,
+      banca: x.banca || "", ano: x.ano || "", cargo: x.cargo || "", instituicao: x.instituicao || x.orgao || "", obs: x.obs || "",
+      enunciado, gabarito, alternativas: [{ letra: "C", texto: "Verdadeiro" }, { letra: "E", texto: "Falso" }],
+      resolucao: Array.isArray(x.resolucao) ? x.resolucao : x.resolucao ? [String(x.resolucao)] : [],
+      ...(x.resolucaoFormato === "rica" ? { resolucaoFormato: "rica" } : {}),
+      vinculo: refs[0] && refs[0].lei ? { lei: refs[0].lei, de: refs[0].art, ate: refs[0].art } : null });
+  });
+  const vistas = new Set();
+  const unicas = questoes.filter(q => (vistas.has(q.id) ? false : (vistas.add(q.id), true)));
+  return { questoes: unicas, repetidas: questoes.length - unicas.length, problemas, total: lista.length, titulo: j.titulo || "" };
+}
+
 /* =====================================================================
    ENTRADA DE QUESTÕES: escolher entre Lei Seca (V/F) e os cadernos
    ===================================================================== */
@@ -221,7 +247,8 @@ function telaEntradaQuestoes() {
   const eLS = estatisticas(qsLS, mapa);
   const cads = cadernosTradicionais();
   const eC = estatisticas(cads.flatMap(c => c.questoes), mapa);
-  $("#conteudo").innerHTML = `<div class="secao entrada-questoes">
+  const hoje = typeof cartaoHoje === "function" ? cartaoHoje() : null;
+  $("#conteudo").innerHTML = `<div class="secao entrada-questoes">${hoje ? hoje.html : ""}
     <button class="cartao-plataforma" data-href="#/leiseca">
       <span class="plat-icone">⚖️</span>
       <span class="plat-titulo">Lei Seca — Verdadeiro ou Falso</span>
@@ -235,6 +262,7 @@ function telaEntradaQuestoes() {
       <span class="plat-num">${cads.length} caderno(s)${eC.respostas ? ` · ${eC.pctTotal}% de acerto` : ""}</span>
     </button>
   </div>`;
+  if (hoje) hoje.ligar();
 }
 
 /* =====================================================================
@@ -323,18 +351,24 @@ function menuListaLS(id) {
 function painelImportarListaLS(pastaId) {
   precarregarGoogle();
   abrirPainel(`<h2>Importar lista de Lei Seca ${botaoFechar}</h2>
-    <p class="contagem" style="margin-top:0">PDF com as questões de Verdadeiro ou Falso: referência do artigo entre colchetes, banca, ano, cargo, enunciado, gabarito e resolução. Dá para escolher vários arquivos de uma vez.
+    <p class="contagem" style="margin-top:0">PDF com as questões de Verdadeiro ou Falso: referência do artigo entre colchetes, banca, ano, cargo, enunciado, gabarito e resolução. Também aceita a lista em .json (já comentada e ligada aos artigos). Dá para escolher vários arquivos de uma vez.
       ${pastaId ? `Vai para a pasta <strong>${esc(textoCaminho(pastaId))}</strong>.` : "Vai para o início de Pastas e arquivos (dá para mover depois)."}</p>
-    <div class="acoes"><button class="botao primario" id="ls-escolher">Escolher PDF</button>
+    <div class="acoes"><button class="botao primario" id="ls-escolher">Escolher PDF ou .json</button>
       <button class="botao" id="ls-drive">☁️ Escolher no Google Drive</button></div>
-    <input type="file" id="ls-arq" accept="application/pdf,.pdf" multiple hidden>
+    <input type="file" id="ls-arq" accept="application/pdf,.pdf,application/json,.json" multiple hidden>
     <div id="ls-res"></div>`);
   const res = $("#ls-res");
   const processar = async arquivos => {
-    const pdfjs = await abrirPdfJs();
+    let pdfjs = null;
     const lidas = [];
     for (const arq of arquivos) {
       try {
+        if (/\.json$/i.test(arq.name) || arq.type === "application/json") {
+          const r = listaLeiSecaDeJson(JSON.parse(await arq.text()), catalogoParaVinculo());
+          lidas.push({ arq, r, titulo: r.titulo || arq.name.replace(/(\.caderno)?\.json$/i, "").replace(/[_]+/g, " ").trim() });
+          continue;
+        }
+        pdfjs = pdfjs || await abrirPdfJs();
         const linhas = await linhasDoPdfLS(pdfjs, new Uint8Array(await arq.arrayBuffer()), (a, b) => { res.innerHTML = `<p class="contagem">Lendo ${esc(arq.name)}: página ${a} de ${b}…</p>`; });
         const r = lerListaLeiSeca(linhas, catalogoParaVinculo());
         lidas.push({ arq, r, titulo: arq.name.replace(/\.pdf$/i, "").replace(/[_]+/g, " ").trim() });
@@ -360,7 +394,7 @@ function painelImportarListaLS(pastaId) {
   $("#ls-escolher").onclick = () => $("#ls-arq").click();
   $("#ls-arq").onchange = e => { const a = [...e.target.files]; e.target.value = ""; if (a.length) processar(a); };
   $("#ls-drive").onclick = async () => {
-    try { res.innerHTML = '<p class="contagem">Abrindo o Google Drive…</p>'; const a = await arquivosDoDrive(["application/pdf"]); res.innerHTML = ""; if (a.length) processar(a); }
+    try { res.innerHTML = '<p class="contagem">Abrindo o Google Drive…</p>'; const a = await arquivosDoDrive(["application/pdf", "application/json"]); res.innerHTML = ""; if (a.length) processar(a); }
     catch (e) { res.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; }
   };
 }
@@ -721,6 +755,7 @@ function mostrarQuestaoLS(lista, i) {
     <article class="questao-ls" data-q="${esc(q.id)}">
       <p class="ref-ls">${refsLink.length ? refsLink.map((r, k) => `<button class="link ref-lei" data-ref="${k}">📖 ${esc(rotuloRef(r))}</button>`).join(" ") : `<span>[${esc(q.referencia)}]</span>`}</p>
       <p class="prova-ls">${esc([q.banca, q.ano].filter(Boolean).join(" "))}${q.cargo ? " · " + esc(q.cargo) : ""}${q.instituicao && q.instituicao !== q.banca ? ` (${esc(q.instituicao)})` : ""}${q.obs ? ` · <em>${esc(q.obs)}</em>` : ""}</p>
+      <div class="aviso-alt-lei" id="aviso-alt-lei" data-q="${esc(q.id)}"></div>
       <p class="assunto-ls">${esc([q.pastaLS, q.assuntoLS, q.subassuntoLS].filter(Boolean).join(" › "))}</p>
       <div class="enunciado-ls">${q.enunciado.map(p => `<p>${esc(p)}</p>`).join("")}</div>
       <div class="vf-ls">
@@ -746,11 +781,12 @@ function mostrarQuestaoLS(lista, i) {
     $$(".vf-btn").forEach(b => { b.disabled = true; b.classList.toggle("certa", b.dataset.vf === q.gabarito); b.classList.toggle("errada", b.dataset.vf === r.marcada && !r.correta); b.classList.toggle("marcada", b.dataset.vf === r.marcada); });
     $("#resultado-ls").innerHTML = `<p class="res-q ${r.correta ? "ok" : "erro"}">${r.correta ? "✓ Você acertou!" : `✗ Você errou. Gabarito: <strong>${q.gabarito === "C" ? "Verdadeiro" : "Falso"}</strong>.`}
         <button class="link" id="ls-de-novo">Responder de novo</button></p>
-      <div class="resolucao-ls"><h3>Resolução</h3>${textoResolucaoLS(q.resolucao || [])}
+      <div class="resolucao-ls"><h3>Resolução</h3>${q.resolucaoFormato === "rica" ? htmlResolucao(q) : textoResolucaoLS(q.resolucao || [])}
         ${refsLink.length ? `<div class="artigos-q"><p class="contagem">Ler o artigo na lei:</p><div class="acoes-linha">${refsLink.map((r, k) => `<button class="botao btn-artigo" data-ref="${k}">📖 ${esc(rotuloRef(r))}</button>`).join("")}</div></div>` : ""}</div>`;
     $("#ls-de-novo").onclick = async () => { await redefinirQuestoes([q.id]); mostrarQuestaoLS(lista, i); };
     ligarRefs();
   };
+  if (typeof mostrarAvisoLeiAlterada === "function") mostrarAvisoLeiAlterada(q, $("#aviso-alt-lei"));
   const ligarRefs = () => $$("[data-ref]").forEach(b => b.onclick = () => painelArtigoLS(refsLink[Number(b.dataset.ref)]));
   ligarRefs();
   if (atual) mostrarResultado(atual);
