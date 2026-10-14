@@ -846,6 +846,13 @@ async def testes(b):
     idxq = json.loads(github_falso.ARQUIVOS["dados/questoes/indice.json"]); pubq = json.loads(github_falso.ARQUIVOS.get(f"dados/questoes/{cid}.json", b"{}"))
     ent = next((x for x in idxq["cadernos"] if x["id"] == cid), {})
     confere("Dono: compartilhar escolhendo a pasta compartilhada e “só as questões”", [p["nome"] for p in idxq.get("pastas", [])] == ["Teste"] and ent.get("soQuestoes") and ent.get("pastaComp") == idxq["pastas"][0]["id"] and pubq.get("caminho") == ["Teste"], [idxq.get("pastas"), ent, pubq.get("caminho")])
+    # Google Drive no iPad/celular: pedido de acesso sai na hora do toque, e a janela do aparelho aceita .pdf e .json
+    na_hora = await p19.evaluate("""(()=>{ localStorage.removeItem('google-token-leitura'); let chamou = false; const g = window.google, idc = window.idClienteGoogle;
+      window.google = { accounts: { oauth2: { initTokenClient: () => ({ requestAccessToken: () => { chamou = true; } }) } } }; window.idClienteGoogle = () => 'teste';
+      tokenDriveLeitura().catch(() => {}); const r = chamou; window.google = g; window.idClienteGoogle = idc; return r; })()""")
+    aceita = await p19.evaluate("""(()=>{ const a = window.ehAparelhoApple; window.ehAparelhoApple = () => true; arquivosDoDrive(['application/pdf', 'application/json']);
+      const inp = [...document.querySelectorAll('body > input[type=file]')].pop(); window.ehAparelhoApple = a; const ac = inp ? inp.accept : ''; if (inp) inp.remove(); return ac; })()""")
+    confere("Google Drive no iPad/celular: acesso pedido na hora do toque e janela do aparelho aceitando .pdf e .json", na_hora and ".pdf" in aceita and ".json" in aceita, [na_hora, aceita])
     confere("Nenhum erro de programa na Múltipla escolha", not p19.erros, p19.erros[:3])
     await ctx19.close()
     # quem recebe: o caderno aparece na pasta compartilhada certinha; o de "só as questões" fica só no banco

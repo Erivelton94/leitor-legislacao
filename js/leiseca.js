@@ -321,6 +321,7 @@ function menuListaLS(id) {
   };
 }
 function painelImportarListaLS(pastaId) {
+  precarregarGoogle();
   abrirPainel(`<h2>Importar lista de Lei Seca ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">PDF com as questões de Verdadeiro ou Falso: referência do artigo entre colchetes, banca, ano, cargo, enunciado, gabarito e resolução. Dá para escolher vários arquivos de uma vez.
       ${pastaId ? `Vai para a pasta <strong>${esc(textoCaminho(pastaId))}</strong>.` : "Vai para o início de Pastas e arquivos (dá para mover depois)."}</p>
@@ -391,22 +392,8 @@ async function salvarListaLS(titulo, questoes, pastaId, { id: idFixo = null, ori
 const MIME_PASTA_DRIVE = "application/vnd.google-apps.folder";
 const normNome = t => semAcento(String(t || "")).toLowerCase().replace(/\s+/g, " ").trim();
 const origemDaLista = id => lerLS("cadernos-locais", []).find(c => c.id === id)?.origem || null;
-async function tokenDriveLeitura() {             // só leitura do Drive, para enxergar as pastas e os PDFs dentro delas
-  const tk = lerLS("google-token-leitura", null);
-  if (tk && Date.now() < tk.expira - 60000) return tk.token;
-  if (!idClienteGoogle()) throw new Error("O acesso ao Google ainda não foi configurado no app.");
-  await carregarScript("https://accounts.google.com/gsi/client");
-  return new Promise((ok, falha) => {
-    google.accounts.oauth2.initTokenClient({
-      client_id: idClienteGoogle(), scope: "https://www.googleapis.com/auth/drive.readonly",
-      callback: r => {
-        if (r.error) return falha(new Error("O Google não autorizou: " + r.error));
-        gravarLS("google-token-leitura", { token: r.access_token, expira: Date.now() + (Number(r.expires_in) || 3600) * 1000 });
-        ok(r.access_token);
-      },
-      error_callback: e => falha(new Error("A janela do Google foi fechada ou bloqueada (" + (e.type || "erro") + ")."))
-    }).requestAccessToken({ prompt: tk ? "" : "consent" });
-  });
+function tokenDriveLeitura() {                   // só leitura do Drive, para enxergar as pastas e os PDFs dentro delas
+  return pedirTokenGoogle("google-token-leitura", "https://www.googleapis.com/auth/drive.readonly");
 }
 async function listarDrive(token, q) {
   const out = [];
@@ -527,6 +514,7 @@ function textoRelatorioLS(rel) {
 /* navegador de pastas do Google Drive (funciona também no iPad, sem a janela do Google) */
 function painelPastaDriveLS(destinoId, area = PLATAFORMA_LS) {
   const pilha = [{ id: "root", nome: "Meu Drive" }];
+  precarregarGoogle();
   let aba = "meu", token = null;
   const desenhar = async () => {
     const atual = pilha[pilha.length - 1];
@@ -564,6 +552,7 @@ async function importarPastaDrive(token, pasta, destinoId, res, botao, area = PL
   } catch (e) { res.innerHTML = `<p class="alerta">⚠️ ${esc(e.message)}</p>`; if (botao) botao.disabled = false; }
 }
 function painelImportarPastaLS(destinoId, area = PLATAFORMA_LS) {
+  precarregarGoogle();
   const suportaPasta = "webkitdirectory" in document.createElement("input") && !ehAparelhoApple();
   abrirPainel(`<h2>📂 Importar pasta inteira ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">A pasta escolhida vira a pasta principal (Lei/Disciplina), as subpastas viram os assuntos e cada PDF vira uma lista.

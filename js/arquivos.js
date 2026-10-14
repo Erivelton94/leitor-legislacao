@@ -8,23 +8,32 @@ const GOOGLE_APP_ID = "556131873310";
 const baseGoogle = () => lerLS("sync-google-base", "https://www.googleapis.com");     // (os testes usam um Drive de mentira)
 const MIME_RESUMO = ["application/pdf", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"];
 
-async function tokenDrive() {                       // precisa vir de um toque (o Google pode abrir uma janelinha)
-  const tk = lerLS("google-token-arquivos", null);
-  if (tk && Date.now() < tk.expira - 60000) return tk.token;
-  if (!idClienteGoogle()) throw new Error("O acesso ao Google ainda não foi configurado no app.");
-  await carregarScript("https://accounts.google.com/gsi/client");
-  return new Promise((ok, falha) => {
+/* Pedir acesso ao Google sem perder o toque: o iPad/iPhone e os celulares só deixam abrir a janelinha do Google
+   se ela for pedida no mesmo instante do toque. Por isso o script do Google é carregado antes (precarregarGoogle)
+   e, quando já está pronto, o pedido sai na hora, sem esperar nada. */
+const GSI_SRC = "https://accounts.google.com/gsi/client";
+function precarregarGoogle() { if (navigator.onLine !== false && idClienteGoogle()) carregarScript(GSI_SRC).catch(() => {}); }
+function pedirTokenGoogle(chave, escopo) {
+  const tk = lerLS(chave, null);
+  if (tk && Date.now() < tk.expira - 60000) return Promise.resolve(tk.token);
+  if (!idClienteGoogle()) return Promise.reject(new Error("O acesso ao Google ainda não foi configurado no app."));
+  const pedir = () => new Promise((ok, falha) => {
     google.accounts.oauth2.initTokenClient({
-      client_id: idClienteGoogle(), scope: "https://www.googleapis.com/auth/drive.file",
+      client_id: idClienteGoogle(), scope: escopo,
       callback: r => {
         if (r.error) return falha(new Error("O Google não autorizou: " + r.error));
-        gravarLS("google-token-arquivos", { token: r.access_token, expira: Date.now() + (Number(r.expires_in) || 3600) * 1000 });
+        gravarLS(chave, { token: r.access_token, expira: Date.now() + (Number(r.expires_in) || 3600) * 1000 });
         ok(r.access_token);
       },
-      error_callback: e => falha(new Error("A janela do Google foi fechada ou bloqueada (" + (e.type || "erro") + ")."))
+      error_callback: e => falha(new Error(e && e.type === "popup_failed_to_open"
+        ? "O aparelho bloqueou a janela do Google. Toque de novo no botão: agora ela abre."
+        : "A janela do Google foi fechada antes de terminar. Toque de novo para tentar."))
     }).requestAccessToken({ prompt: tk ? "" : "consent" });
   });
+  if (window.google && google.accounts && google.accounts.oauth2) return pedir();   // na hora, ainda dentro do toque
+  return carregarScript(GSI_SRC).then(pedir);
 }
+function tokenDrive() { return pedirTokenGoogle("google-token-arquivos", "https://www.googleapis.com/auth/drive.file"); }
 /* envio ao Drive: pequeno vai de uma vez; grande (acima de 4 MB) vai pelo envio em partes do Google */
 async function enviarAoDrive(token, bytes, meta, idExistente) {
   const base = baseGoogle();
@@ -74,17 +83,21 @@ async function pastaNoDrive(token, nome, pai) {
 function arquivosPelaJanelaDoAparelho(tipos) {
   return new Promise(ok => {
     const inp = document.createElement("input");
-    inp.type = "file"; inp.multiple = true; inp.accept = tipos.join(",");
+    const ext = { "application/pdf": ".pdf", "application/json": ".json" };
+    inp.type = "file"; inp.multiple = true;
+    inp.accept = [...tipos, ...tipos.map(t => ext[t]).filter(Boolean)].join(",");   // com a extensão: o iPad não apaga os .json do Drive
     inp.style.display = "none"; document.body.appendChild(inp);
     const fim = lista => { inp.remove(); ok(lista); };
     inp.onchange = () => fim([...inp.files]);
     inp.addEventListener("cancel", () => fim([]));
-    mostrarAvisoRapido("Na janela, toque em “Procurar” e escolha Google Drive. Para marcar vários, toque em “Selecionar”.");
+    mostrarAvisoRapido(ehAparelhoApple() ? "Na janela, toque em “Procurar” e escolha Google Drive. Para marcar vários, toque em “Selecionar”."
+      : "Na janela, abra o menu (☰) e escolha Google Drive.");
     inp.click();                                               // precisa acontecer ainda dentro do toque
   });
 }
 async function arquivosDoDrive(tipos) {
-  if (ehAparelhoApple() && !lerLS("forcar-picker-google", false)) return arquivosPelaJanelaDoAparelho(tipos);
+  // iPad, iPhone e celulares Android: a janela de arquivos do próprio aparelho (com o Google Drive nela) funciona melhor que a do Google
+  if ((ehAparelhoApple() || /Android/i.test(navigator.userAgent)) && !lerLS("forcar-picker-google", false)) return arquivosPelaJanelaDoAparelho(tipos);
   const token = await tokenDrive();
   await carregarScript("https://apis.google.com/js/api.js");
   await new Promise(ok => gapi.load("picker", ok));

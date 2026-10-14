@@ -436,6 +436,7 @@ function catalogoParaVinculo() {
   return Object.entries(estado.status || {}).map(([id, s]) => ({ id, n: ((s.numero || s.nome || "").match(/(\d{1,2}\.?\d{3})\s*\//) || [])[1] || "" }));
 }
 function painelImportarCaderno(pastaId = null) {
+  precarregarGoogle();
   abrirPainel(`<h2>Importar arquivo de questões ${botaoFechar}</h2>
     <p class="contagem" style="margin-top:0">Escolha o PDF da lista impressa (como os cadernos do TEC). O app lê banca, ano, cargo, assunto, enunciado, alternativas e gabarito, e liga cada questão ao artigo da lei quando o assunto indica (ex.: "art. 121 do CP"). Os endereços e números do site são descartados. Dá para escolher vários PDFs.</p>
     <p class="contagem">Também aceita o arquivo de caderno exportado pelo app (.json), que é como se passa um caderno pronto para outra pessoa.</p>
