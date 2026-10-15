@@ -1,0 +1,4886 @@
+{
+ "id": "local-lep-6-trabalho-direitos-faltas-e-sancoes-e59d06706844",
+ "titulo": "LEP 6 - Trabalho, Direitos, Faltas e Sanções III (comentado)",
+ "materia": "Legislação Penal e Processual Penal Especial",
+ "versao": "2026-10-15",
+ "assuntos": [
+  "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)"
+ ],
+ "observacao": "Importado de PDF no app.",
+ "questoes": [
+  {
+   "enunciado": [
+    "O trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior, em relação ao salário mínimo, à seguinte fração:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "3/5"
+    },
+    {
+     "letra": "B",
+     "texto": "1/2"
+    },
+    {
+     "letra": "C",
+     "texto": "1/5"
+    },
+    {
+     "letra": "D",
+     "texto": "2/4"
+    },
+    {
+     "letra": "E",
+     "texto": "3/4"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] 3/4.",
+    "> LEP, art. 29. O trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior a **três quartos do salário mínimo**."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-45c39fcbb378",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 211,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "29"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O trabalho externo será admissível, para presos em regime fechado, somente em serviço ou obras públicas realizadas por órgãos da Administração Direta ou Indireta, ou entidades privadas, desde que tomadas as cautelas contra fuga e em favor da disciplina, e nos termos da Lei de Execução Penal, poderá, em relação ao total de empregados da obra, corresponder ao limite máximo de:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "10%"
+    },
+    {
+     "letra": "B",
+     "texto": "20%"
+    },
+    {
+     "letra": "C",
+     "texto": "30%"
+    },
+    {
+     "letra": "D",
+     "texto": "40%"
+    },
+    {
+     "letra": "E",
+     "texto": "50%"
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] 10% (art. 36, § 1º)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-5deb80fdbcd8",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 212,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "36"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O condenado possui inúmeros deveres a cumprir previstos na Lei de Execução Penal, dentre os quais não se inclui:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "comportamento disciplinado e cumprimento fiel da sentença"
+    },
+    {
+     "letra": "B",
+     "texto": "obediência ao servidor e respeito a todos com quem deva relacionar-se"
+    },
+    {
+     "letra": "C",
+     "texto": "urbanidade e respeito no trato com os demais condenados"
+    },
+    {
+     "letra": "D",
+     "texto": "participação dos movimentos coletivos de fuga ou de subversão à ordem"
+    },
+    {
+     "letra": "E",
+     "texto": "execução do trabalho, das tarefas e das ordens recebidas"
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "A questão pede o que **não** é dever.",
+    "**D)** [É a resposta] O dever é a conduta **oposta** aos movimentos de fuga e subversão (art. 39, IV), e não a \"~~participação~~\" neles. Participar é falta grave (art. 50, I)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-c7e9c7077dee",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 213,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "39"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No âmbito das faltas disciplinares que podem ser cometidas pelo condenado preso, segundo a Lei de Execução Penal, é considerado de natureza grave:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "trabalhar voluntariamente"
+    },
+    {
+     "letra": "B",
+     "texto": "conservar objetos de uso pessoal"
+    },
+    {
+     "letra": "C",
+     "texto": "usar de bebida alcoólica"
+    },
+    {
+     "letra": "D",
+     "texto": "não indenizar o Estado das despesas realizadas"
+    },
+    {
+     "letra": "E",
+     "texto": "possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 50, III.",
+    "**A)**, **B)**, **C)** e **D)** [ERRADAS] Não estão no art. 50."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-aaa80a500f4a",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 214,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Nos termos da Lei de Execução Penal, são considerados recompensas:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "banho de sol e visita íntima"
+    },
+    {
+     "letra": "B",
+     "texto": "elogio e concessão de regalias"
+    },
+    {
+     "letra": "C",
+     "texto": "trabalho interno e visita dos filhos"
+    },
+    {
+     "letra": "D",
+     "texto": "abatimento da pena e estudo externo"
+    },
+    {
+     "letra": "E",
+     "texto": "regime aberto e tratamento médico"
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Elogio e concessão de regalias (art. 56)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-9ab048515bfa",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "56",
+    "ate": "56"
+   },
+   "ordem": 215,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "56"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Constituem direitos dos presos, previstos na Lei de Execuções Penais, EXCETO:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "previdência social;"
+    },
+    {
+     "letra": "B",
+     "texto": "audiência especial com o diretor do estabelecimento prisional;"
+    },
+    {
+     "letra": "C",
+     "texto": "asseio da cela ou alojamento;"
+    },
+    {
+     "letra": "D",
+     "texto": "proteção contra qualquer forma de sensacionalismo;"
+    },
+    {
+     "letra": "E",
+     "texto": "chamamento nominal."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede o que **não** é direito.",
+    "**C)** [É a resposta] \"~~Asseio da cela~~\" é **dever** (art. 39, IX).",
+    "💡 Dica: **deveres** (art. 39) são o que o preso **faz** (obedecer, trabalhar, indenizar, manter higiene). **Direitos** (art. 41) são o que o preso **recebe** (alimentação, trabalho remunerado, pecúlio, visita, chamamento nominal, audiência com o diretor)."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-6d9b6a0a08cd",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 216,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "39"
+    },
+    {
+     "lei": "lep",
+     "art": "41"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que se refere ao trabalho do preso, é INCORRETO afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "o trabalho do preso será remunerado, não podendo ser inferior a um salário mínimo;"
+    },
+    {
+     "letra": "B",
+     "texto": "terá finalidade educativa e produtiva;"
+    },
+    {
+     "letra": "C",
+     "texto": "as tarefas executadas como prestação de serviços à comunidade não serão remuneradas;"
+    },
+    {
+     "letra": "D",
+     "texto": "a jornada de trabalho não será inferior a 6(seis), nem superior a 8(oito) horas, com descanso nos domingos e feriados;"
+    },
+    {
+     "letra": "E",
+     "texto": "o trabalho externo será admissível para os presos em regime fechado somente em serviços ou obras públicas, desde que tomadas as cautelas contra a fuga e em favor da disciplina."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **INCORRETA**.",
+    "**A)** [INCORRETA, é a resposta] O piso é **3/4** do salário mínimo, e não \"~~um salário mínimo~~\".",
+    "**B)** a **E)** [CORRETAS] Arts. 28, 30, 33 e 36."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-2d5b8dcb72bd",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 217,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "28"
+    },
+    {
+     "lei": "lep",
+     "art": "30"
+    },
+    {
+     "lei": "lep",
+     "art": "33"
+    },
+    {
+     "lei": "lep",
+     "art": "36"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que concerne à disciplina do preso e às sanções aplicáveis, é INCORRETO afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "é vedado o emprego de cela escura;"
+    },
+    {
+     "letra": "B",
+     "texto": "não haverá falta nem sanção disciplinar sem expressa e anterior previsão legal;"
+    },
+    {
+     "letra": "C",
+     "texto": "as sanções coletivas são permitidas, excepcionalmente;"
+    },
+    {
+     "letra": "D",
+     "texto": "comete falta grave o condenado que fugir;"
+    },
+    {
+     "letra": "E",
+     "texto": "no regime disciplinar diferenciado, o preso terá direito à saída da cela por 2 horas diárias para banho de sol."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede a **INCORRETA**.",
+    "**C)** [INCORRETA, é a resposta] Sanções coletivas são **sempre vedadas** (art. 45, § 3º): não são \"~~permitidas, excepcionalmente~~\".",
+    "**A)**, **B)**, **D)** e **E)** [CORRETAS] Arts. 45, 50, II, e 52, IV."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-369a5029a73c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 218,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Segundo os princípios gerais que norteiam o trabalho exercido pelos presos e apenados, como previsto no cap. III, seção I, art. 28 da LEP (Lei de Execução Penal), é CORRETO afirmar que"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "é um dever social e condição de dignidade humana, tendo finalidade educativa e produtiva."
+    },
+    {
+     "letra": "B",
+     "texto": "é um dever social, tendo por fim exclusivamente a produção que possa remunerar o preso."
+    },
+    {
+     "letra": "C",
+     "texto": "é uma opção para que o preso possa se ocupar e assim não pensar em coisas que impeçam sua ressocialização."
+    },
+    {
+     "letra": "D",
+     "texto": "é uma opção dos diretores das unidades prisionais, tendo finalidade educativa e produtiva."
+    },
+    {
+     "letra": "E",
+     "texto": "é um dever do sistema prisional, uma vez que, através dela, o preso e o apenado podem obter remição de sua pena."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA]",
+    "> LEP, art. 28. O trabalho do condenado, como **dever social** e **condição de dignidade humana**, terá finalidade **educativa e produtiva**. (...) § 2º O trabalho do preso **não está sujeito** ao regime da Consolidação das Leis do Trabalho.",
+    "**B)** a **E)** [ERRADAS] O trabalho não é \"~~exclusivamente produção~~\" nem \"~~uma opção~~\": é dever, com finalidade educativa e produtiva."
+   ],
+   "banca": "FMZ",
+   "cargo": "Edu SP (IAPEN AP)",
+   "orgao": "IAPEN AP/Assistente Social",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-3dc71ccb2723",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 219,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "28"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação às faltas graves cometidas pelo condenado à pena privativa de liberdade, analise as proposições que seguem.",
+    "I - Descumprir, injustificadamente, a restrição imposta.",
+    "II - Fugir.",
+    "III - Provocar acidente de trabalho.",
+    "IV - Incitar ou participar de movimento para subverter a ordem ou a disciplina.",
+    "V - Possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem.",
+    "Estão CORRETAS"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "apenas I e II."
+    },
+    {
+     "letra": "B",
+     "texto": "apenas I, II e III."
+    },
+    {
+     "letra": "C",
+     "texto": "apenas II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "apenas I, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "apenas II, III, IV e V."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**I** [ERRADA] \"~~Descumprir, injustificadamente, a restrição imposta~~\" é falta grave de quem cumpre pena **restritiva de direitos** (art. 51, I).",
+    "**II** a **V** [CORRETAS] Art. 50, II, IV, I e III.",
+    "Resposta: **E)** II, III, IV e V."
+   ],
+   "banca": "FMZ",
+   "cargo": "Edu SP (IAPEN AP)",
+   "orgao": "IAPEN AP/Assistente Social",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-9cc91d0a75b6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "51",
+    "ate": "51"
+   },
+   "ordem": 220,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "51"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "As sanções constantes na Lei de Execuções Penais, em seu título II, cap. IV, seção III, são as abaixo enumeradas:",
+    "I - Advertência escrita.",
+    "II - Advertência verbal.",
+    "III - Suspensão ou restrição de direitos.",
+    "IV - Repreensão.",
+    "V - Isolamento na própria cela ou em outro local adequado.",
+    "Está(ão) CORRETA(S)"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "apenas I."
+    },
+    {
+     "letra": "B",
+     "texto": "apenas I e II."
+    },
+    {
+     "letra": "C",
+     "texto": "apenas I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "apenas II, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "apenas II, III, IV e V."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**I** [ERRADA] A advertência é **verbal**: não existe \"~~advertência escrita~~\".",
+    "**II** a **V** [CORRETAS] Art. 53, I a IV.",
+    "Resposta: **E)** II, III, IV e V.",
+    "> LEP, art. 53. Constituem sanções disciplinares: I – advertência verbal; II – repreensão; III – suspensão ou restrição de direitos; IV – isolamento na própria cela, ou em local adequado (...); V – inclusão no regime disciplinar diferenciado."
+   ],
+   "banca": "FMZ",
+   "cargo": "Edu SP (IAPEN AP)",
+   "orgao": "IAPEN AP/Assistente Social",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-3a2f8960a5a7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "53",
+    "ate": "53"
+   },
+   "ordem": 221,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "53"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A Lei de Execuções Penais, Lei nº 7.210/84, em seu art.26 define ser o egresso como sendo o condenado liberado definitivamente, pelo prazo de um ano após a sua saída do estabelecimento, incluindo aqui o desinternado de Medida de Segurança, em igual prazo, como também o liberado condicionalmente, durante o seu período de prova. Portanto, considere as seguintes afirmativas.",
+    "I - O liberado, a priori, deveria receber do Estado a assistência prevista nos art 25/27 da citada lei com a missão de orientá-lo, apoiá-lo e reintegrá-lo à vida em liberdade, consistindo esta assistência em alojamento e alimentação durante dois meses, com possibilidade por uma única vez e, na orientação em seu retorno ao trabalho.",
+    "II - É obrigação legal assistir o egresso no que estabelece a LEP, no art 78 ao criar a figura do Patronato, público ou privado, supervisionado pelo Conselho Penitenciário do Estado, mas inexistente na maioria dos Estados brasileiros.",
+    "III - A ausência de políticas públicas somadas ao estigma de ex-detento forma um quadro pouco promissor, agravado ainda, pelo desinteresse de grupos econômicos e agentes do governo na implementação de recursos e promoção de esforços no sentido de garantir ao egresso do sistema penitenciário meios de se profissionalizar e se capitalizar em termos de conhecimentos para inserir-se no mercado de trabalho quando egresso do sistema. IV - Existe a necessidade de se implantar programas sociais no âmbito dos serviços sociais, psicológicos, jurídicos ou na implantação de oficinas de trabalho, vagas em obras públicas, convênios ou a adoção de penas alternativas por inúmeros juízes de execuções penais deste imenso rincão brasileiro. V - Os grupos econômicos e geradores de emprego não devem se envolver no que diz respeito à situação do cárcere assim como na proposta de garantia de direitos ao egresso. Esta é uma problemática que diz respeito apenas ao Estado, no intuito de propor políticas para o enfrentamento desta questão. Estão CORRETAS apenas"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "II, IV e V."
+    },
+    {
+     "letra": "D",
+     "texto": "II, III, IV e V."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**I** [CORRETA] Arts. 25 a 27.",
+    "**II** [CORRETA] O Patronato (art. 78) presta assistência ao egresso.",
+    "**III** e **IV** [CORRETAS] Análises da realidade do egresso, coerentes com a lei.",
+    "**V** [ERRADA] O Estado **deve recorrer à cooperação da comunidade** na execução (art. 4º): não é \"~~problemática que diz respeito apenas ao Estado~~\".",
+    "Resposta: **E)** I, II, III e IV."
+   ],
+   "banca": "FMZ",
+   "cargo": "Edu SP (IAPEN AP)",
+   "orgao": "IAPEN AP/Assistente Social",
+   "ano": 2010,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-c62e100e431f",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "25",
+    "ate": "27"
+   },
+   "ordem": 222,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "25",
+     "ate": "27"
+    },
+    {
+     "lei": "lep",
+     "art": "78"
+    },
+    {
+     "lei": "lep",
+     "art": "4"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A lei de execução penal, a LEP – lei n° 7210/84 prevê em seu art. 10 que a assistência ao preso e ao internado é dever do Estado, objetivando prevenir o crime e orientar o retorno à convivência em sociedade. A assistência estende-se ainda ao egresso. Dessa forma, a assistência será: material; à saúde; jurídica; educacional; social; e religiosa. Com relação a esses tipos de assistência citados é correto afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A assistência à saúde do preso e do internado de caráter preventivo e curativo, compreenderá atendimento somente médico."
+    },
+    {
+     "letra": "B",
+     "texto": "A assistência jurídica é destinada aos presos e aos internados com recursos financeiros para constituir advogado custeado pelo estado."
+    },
+    {
+     "letra": "C",
+     "texto": "A assistência material ao preso e ao internado consistirá no fornecimento de alimentação, vestuário e instalações higiênicas."
+    },
+    {
+     "letra": "D",
+     "texto": "A assistência educacional compreenderá a instrução escolar, não sendo necessária, entretanto, a formação profissional do preso e do internado."
+    },
+    {
+     "letra": "E",
+     "texto": "A assistência social tem por finalidade amparar o preso e o internado e prepará-los para o retorno à carceragem."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Art. 12.",
+    "**A)** [ERRADA] Não é \"~~somente médico~~\": também farmacêutico e odontológico.",
+    "**B)** [ERRADA] É para quem **não tem** recursos, e não para quem tem recursos \"~~custeado pelo Estado~~\".",
+    "**D)** [ERRADA] A formação profissional **faz parte** da assistência educacional (art. 17): é errado dizer \"~~não sendo necessária~~\".",
+    "**E)** [ERRADA] É para o retorno à **liberdade**, e não à \"~~carceragem~~\" (art. 22)."
+   ],
+   "banca": "FUNRIO",
+   "cargo": "EspFAEP (DEPEN)",
+   "orgao": "SENAPPEN/S1 - Clínica Médica",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-de6b0e4d4e96",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "12",
+    "ate": "12"
+   },
+   "ordem": 223,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "12"
+    },
+    {
+     "lei": "lep",
+     "art": "17"
+    },
+    {
+     "lei": "lep",
+     "art": "22"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execução Penal, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O trabalho externo é inadmissível para os presos em regime fechado, tendo em vista o alto grau de periculosidade dos condenados."
+    },
+    {
+     "letra": "B",
+     "texto": "A prestação de trabalho externo, a ser autorizada pela direção do estabelecimento penal, dependerá de aptidão, disciplina e responsabilidade, além do cumprimento mínimo de dois terços da pena."
+    },
+    {
+     "letra": "C",
+     "texto": "Se o preso for punido por falta média, será revogada a autorização de trabalho externo."
+    },
+    {
+     "letra": "D",
+     "texto": "Se o preso praticar fato definido como crime, revogar-seá a autorização de trabalho externo."
+    },
+    {
+     "letra": "E",
+     "texto": "Para o preso provisório, o trabalho é obrigatório e só poderá ser executado no interior do estabelecimento."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "**D)** [CORRETA] Art. 37, parágrafo único.",
+    "**A)** [ERRADA] O trabalho externo **é admissível** no fechado (art. 36): é errado dizer \"~~inadmissível~~\".",
+    "**B)** [ERRADA] O mínimo é **1/6**, e não \"~~dois terços~~\".",
+    "**C)** [ERRADA] A revogação é por falta **grave**, e não por \"~~falta média~~\".",
+    "**E)** [ERRADA] Para o provisório o trabalho **não** é obrigatório."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC RN)",
+   "orgao": "PC RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-74bbd7ad308f",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "37",
+    "ate": "37"
+   },
+   "ordem": 224,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "37"
+    },
+    {
+     "lei": "lep",
+     "art": "36"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considere as seguintes assertivas:",
+    "I. A assistência ao preso e ao internado é dever do Estado, objetivando prevenir o crime e orientar o retorno à convivência em sociedade. II. A assistência estende-se ao egresso.",
+    "III. A assistência ao preso e ao internado será material, médica, jurídica, educacional, social e religiosa.",
+    "Está(ão) correta(s) apenas a(s) assertiva(s):"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I"
+    },
+    {
+     "letra": "B",
+     "texto": "II"
+    },
+    {
+     "letra": "C",
+     "texto": "III"
+    },
+    {
+     "letra": "D",
+     "texto": "I, III"
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**I** e **II** [CORRETAS] Art. 10.",
+    "**III** [CORRETA, para a banca] A lei diz \"à saúde\", e a banca aceitou \"médica\" como equivalente (art. 11).",
+    "Resposta: **E)** I, II e III."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-666ffe5fbcb1",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "10",
+    "ate": "10"
+   },
+   "ordem": 225,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "10"
+    },
+    {
+     "lei": "lep",
+     "art": "11"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execuções Penais (Lei n.º 7.210/84) constituem sanções disciplinares, EXCETO:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Suspensão do direito ao banho de sol."
+    },
+    {
+     "letra": "B",
+     "texto": "Advertência verbal."
+    },
+    {
+     "letra": "C",
+     "texto": "Repreensão."
+    },
+    {
+     "letra": "D",
+     "texto": "Suspensão ou restrição de direitos, na forma da própria Lei de Execuções Penais."
+    },
+    {
+     "letra": "E",
+     "texto": "Inclusão no regime disciplinar diferenciado."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede o que **não** é sanção.",
+    "**A)** [É a resposta] \"~~Suspensão do direito ao banho de sol~~\" não está no art. 53.",
+    "> LEP, art. 53. Constituem sanções disciplinares: I – advertência verbal; II – repreensão; III – suspensão ou restrição de direitos; IV – isolamento na própria cela, ou em local adequado (...); V – inclusão no regime disciplinar diferenciado."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-73b8c306c16e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "53",
+    "ate": "53"
+   },
+   "ordem": 226,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "53"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Marque a afirmativa INCORRETA:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "São recompensas que podem ser concedidas aos presos: elogio e concessão de regalias."
+    },
+    {
+     "letra": "B",
+     "texto": "Não é garantida a liberdade de contratar médico de confiança pessoal do internado ou do submetido a tratamento ambulatorial, por seus familiares ou dependente, a fim de orientar e acompanhar o tratamento."
+    },
+    {
+     "letra": "C",
+     "texto": "Constitui direito do preso a alimentação suficiente e vestuário."
+    },
+    {
+     "letra": "D",
+     "texto": "Constitui direito do preso o contato com o mundo exterior por meio de correspondência escrita, da leitura e de outros meios de informação que não comprometam a moral e os bons costumes."
+    },
+    {
+     "letra": "E",
+     "texto": "Constitui direito do preso a previdência social."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "A questão pede a **INCORRETA**.",
+    "**B)** [INCORRETA, é a resposta] A liberdade de contratar médico de confiança **é garantida** (art. 43): é errado dizer \"~~Não é garantida~~\".",
+    "> LEP, art. 43. É garantida a liberdade de contratar médico de confiança pessoal do internado ou do submetido a tratamento ambulatorial, por seus familiares ou dependentes, a fim de orientar e acompanhar o tratamento. Parágrafo único. As divergências entre o médico oficial e o particular serão resolvidas pelo **juiz da execução**."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-ff7498b68767",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 227,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "43"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "NÃO comete falta grave o condenado à pena privativa de liberdade que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Retardar, injustificadamente, o cumprimento da obrigação imposta."
+    },
+    {
+     "letra": "B",
+     "texto": "Fugir."
+    },
+    {
+     "letra": "C",
+     "texto": "Provocar acidente de trabalho."
+    },
+    {
+     "letra": "D",
+     "texto": "Descumprir, no regime aberto, as restrições impostas."
+    },
+    {
+     "letra": "E",
+     "texto": "Incitar ou participar de movimento para subverter a ordem ou a disciplina."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede o que **não** é falta grave de quem cumpre pena **privativa de liberdade**.",
+    "**A)** [É a resposta] \"~~Retardar, injustificadamente, o cumprimento da obrigação imposta~~\" é falta grave da pena **restritiva de direitos** (art. 51, II)."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-c31d54f825f9",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "51",
+    "ate": "51"
+   },
+   "ordem": 228,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "51"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Assinale a alternativa incorreta:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a pena será cumprida em estabelecimentos distintos, de acordo com a natureza do delito, a idade e o sexo do apenado."
+    },
+    {
+     "letra": "B",
+     "texto": "é assegurado aos presos o respeito à integridade física e moral."
+    },
+    {
+     "letra": "C",
+     "texto": "nos presídios de segurança máxima não se admite a prestação de assistência religiosa;"
+    },
+    {
+     "letra": "D",
+     "texto": "às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede a **incorreta**.",
+    "**C)** [INCORRETA, é a resposta] A assistência religiosa é garantida a todos os presos (CF, art. 5º, VII; LEP, art. 24): é errado dizer que \"~~não se admite~~\" em presídio de segurança máxima.",
+    "**A)**, **B)** e **D)** [CORRETAS] CF, art. 5º, XLVIII, XLIX e L."
+   ],
+   "banca": "COPEC CETAM",
+   "cargo": "Inv Pol (PC AM)",
+   "orgao": "PC AM",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-7d5d7ab7da44",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "24",
+    "ate": "24"
+   },
+   "ordem": 229,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "24"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Os condenados serão classificados, segundo os seus antecedentes e personalidade, para orientar a individualização da execução penal. Essa classificação será feita por Comissão Técnica de Classificação que elaborará o programa individualizador da pena privativa de liberdade adequada ao condenado ou preso provisório. Sobre a composição da referida comissão, é CORRETO afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Será presidida por um Juiz Criminal e composta, no mínimo, pelo diretor da unidade prisional, por 2 (dois) agentes de segurança prisional, 1 (um) psiquiatra, 1 (um) psicólogo e 1 (um) assistente social."
+    },
+    {
+     "letra": "B",
+     "texto": "Será presidida pelo juiz titular da vara de execução penal e composta, no mínimo, por 2 (dois) chefes de serviço, 1 (um) psiquiatra, 1 (um) psicólogo e 1 (um) assistente social."
+    },
+    {
+     "letra": "C",
+     "texto": "Será presidida pelo diretor da unidade prisional e composta, no mínimo, por 2 (dois) chefes de serviço, 1 (um) psiquiatra, 1 (um) psicólogo e 1 (um) assistente social."
+    },
+    {
+     "letra": "D",
+     "texto": "Será presidida pelo agente de segurança prisional que esteja no exercício da chefia do plantão e composta pelos demais agentes, visto que são os que melhor conhecem a realidade prisional."
+    },
+    {
+     "letra": "E",
+     "texto": "Será presidida pelo diretor da unidade prisional e composta, no mínimo, pelo agente que esteja no exercício da chefia do plantão, por 1 (um) psiquiatra, 1 (um) psicólogo, 1 (um) assistente social e dois agentes que tenham relação de confiança com o diretor da unidade prisional."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA]",
+    "> LEP, art. 7º A Comissão Técnica de Classificação, existente em cada estabelecimento, será presidida pelo **Diretor** e composta, no mínimo, por **dois chefes de serviço**, **um psiquiatra**, **um psicólogo** e **um assistente social**, quando se tratar de condenado à pena privativa de liberdade."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-44e65293cfce",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "7",
+    "ate": "7"
+   },
+   "ordem": 230,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "7"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A assistência à saúde do preso e do internado, de caráter preventivo e curativo, compreenderá atendimento médico, farmacêutico e odontológico. Para dar efetividade a esta imposição legal nos estabelecimentos prisionais e de internação, o Estado proverá de condições materiais unidades prisionais e de internação. Por outro lado, quando o estabelecimento prisional ou de internação não estiver aparelhado para garantir a assistência médica necessária, como devem se comportar os agentes de segurança prisional que estejam de plantão ao detectar uma situação concreta em que o preso precise de atendimento médico de urgência?"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os agentes de segurança prisional devem informar ao Ministério Público, ao Juiz e ao diretor da unidade prisional, por escrito, a falta de condições materiais para a promoção de atendimento médico nas dependências da Unidade, para que nunca seja necessária uma remoção de preso para atendimento externo."
+    },
+    {
+     "letra": "B",
+     "texto": "Os agentes de segurança prisional devem promover a remoção do preso para outro local em que a assistência possa ser prestada, somente mediante autorização do Juiz titular da Vara de Execução Penal."
+    },
+    {
+     "letra": "C",
+     "texto": "Os agentes de segurança prisional devem promover a remoção do preso para outro local em que a assistência possa ser prestada, somente nos casos em que o preso esteja em situação de risco para sua vida."
+    },
+    {
+     "letra": "D",
+     "texto": "Os agentes de segurança prisional devem promover a remoção do preso para outro local em que a assistência possa ser prestada, somente nos casos em que laudo médico recomende a transferência."
+    },
+    {
+     "letra": "E",
+     "texto": "Os agentes de segurança prisional devem promover a remoção do preso para outro local em que a assistência possa ser prestada, mediante autorização da direção do estabelecimento."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA]",
+    "> LEP, art. 14. A assistência à saúde do preso e do internado, de caráter **preventivo e curativo**, compreenderá atendimento médico, farmacêutico e odontológico. (...) § 2º Quando o estabelecimento penal não estiver aparelhado para prover a assistência médica necessária, esta será prestada **em outro local**, mediante autorização da **direção do estabelecimento**.",
+    "**A)** a **D)** [ERRADAS] A lei não exige \"~~autorização do Juiz~~\" nem limita a remoção a \"~~risco de vida~~\" ou \"~~laudo médico~~\"."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-6967330e9412",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "14",
+    "ate": "14"
+   },
+   "ordem": 231,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "14"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considera-se egresso para os efeitos da Lei de Execução Penal"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "o liberado definitivo, pelo prazo de 5 (cinco) anos a contar da saída do estabelecimento e o liberado condicional, durante o período de prova."
+    },
+    {
+     "letra": "B",
+     "texto": "o liberado definitivo, pelo prazo de 2 (dois) anos a contar da saída do estabelecimento e o liberado condicional, durante o período de prova."
+    },
+    {
+     "letra": "C",
+     "texto": "o liberado definitivo, pelo prazo de 1 (um) ano a contar da saída do estabelecimento e o liberado condicional, durante o período de prova."
+    },
+    {
+     "letra": "D",
+     "texto": "O sentenciado que cumpriu integralmente a sua pena, desde que não seja reincidente."
+    },
+    {
+     "letra": "E",
+     "texto": "O liberado definitivo, pelo prazo de 1 (um) ano a contar da saída do estabelecimento e o liberado condicional, desde que tenha expirado o período de prova."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA]",
+    "> LEP, art. 26. Considera-se egresso para os efeitos desta Lei: I – o **liberado definitivo**, pelo prazo de **um ano** a contar da saída do estabelecimento; II – o **liberado condicional**, durante o **período de prova**."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-426009e23e23",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 232,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "26"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto ao trabalho do preso, é INCORRETO afirmar que"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "o trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior a 3/4 (três quartos) do salário mínimo."
+    },
+    {
+     "letra": "B",
+     "texto": "o trabalho do condenado, como dever social e condição de dignidade humana, terá finalidade educativa e produtiva."
+    },
+    {
+     "letra": "C",
+     "texto": "aplicam-se à organização e aos métodos de trabalho do preso as precauções relativas à segurança e à higiene."
+    },
+    {
+     "letra": "D",
+     "texto": "a remuneração do preso deverá ser repassada integralmente para sua família e assim evitar transações comerciais no interior das unidades prisionais."
+    },
+    {
+     "letra": "E",
+     "texto": "o produto da remuneração pelo trabalho do preso deverá atender à indenização dos danos causados pelo crime, desde que determinados judicialmente e não reparados por outros meios, à assistência à família e a pequenas despesas pessoais."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "A questão pede a **INCORRETA**.",
+    "**D)** [INCORRETA, é a resposta] A remuneração atende a várias destinações (art. 29, § 1º), e o restante forma o **pecúlio**: não é \"~~repassada integralmente para sua família~~\"."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-a13b0f80de6b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 233,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "29"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto às obrigações do preso, é INCORRETO afirmar que"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a higiene pessoal está na esfera da liberdade individual e, portanto, não caracteriza infração disciplinar o comportamento em desacordo com os padrões de higiene da sociedade."
+    },
+    {
+     "letra": "B",
+     "texto": "pode-se exigir que sua conduta seja oposta aos movimentos individuais ou coletivos de fuga ou de subversão à ordem ou à disciplina."
+    },
+    {
+     "letra": "C",
+     "texto": "pode-se exigir seu comportamento disciplinado e cumprimento fiel da sentença."
+    },
+    {
+     "letra": "D",
+     "texto": "o seu comportamento seja sempre pautado na urbanidade e respeito no trato com os demais condenados."
+    },
+    {
+     "letra": "E",
+     "texto": "cumpre ao condenado, além das obrigações legais inerentes ao seu estado, submeter-se às normas de execução da pena."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **INCORRETA**.",
+    "**A)** [INCORRETA, é a resposta] A higiene pessoal e o asseio da cela são **deveres** do condenado (art. 39, IX): é errado dizer que \"~~está na esfera da liberdade individual~~\".",
+    "**B)** a **E)** [CORRETAS] Arts. 38 e 39."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-fae277bcb393",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 234,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "39"
+    },
+    {
+     "lei": "lep",
+     "art": "38"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O preso está obrigado a cumprir as regras de disciplina que consistem na colaboração com a ordem, na obediência às determinações das autoridades e seus agentes e no desempenho do trabalho. Não constitui falta grave"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "incitar ou participar de movimento para subverter a ordem ou a disciplina."
+    },
+    {
+     "letra": "B",
+     "texto": "provocar perturbações com ruídos e vozeiros ou vaias."
+    },
+    {
+     "letra": "C",
+     "texto": "possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem."
+    },
+    {
+     "letra": "D",
+     "texto": "fugir, mesmo que a cela esteja aberta."
+    },
+    {
+     "letra": "E",
+     "texto": "ter em sua posse, utilizar ou fornecer aparelho telefônico, de rádio ou similar, que permita a comunicação com outros presos ou com o ambiente externo."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "A questão pede o que **não** é falta grave.",
+    "**B)** [É a resposta] \"~~Provocar perturbações com ruídos e vozerios~~\" não está no art. 50.",
+    "**D)** Fugir é falta grave, com a cela aberta ou não."
+   ],
+   "banca": "FSADU (UFMA)",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-7e951fa74204",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 235,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação à Lei de Execução Penal (LEP), julgue o item a seguir.",
+    "O condenado ao cumprimento de pena privativa de liberdade e restritiva de direitos deve ser submetido a exame criminológico a fim de que sejam obtidos os elementos necessários à adequada classificação e individualização da execução."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O exame criminológico do art. 8º é para a pena **privativa de liberdade em regime fechado** (facultativo no semiaberto), e não para a \"~~restritiva de direitos~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2d8f39c264a8",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "8",
+    "ate": "8"
+   },
+   "ordem": 236,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "8"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação à Lei de Execução Penal (LEP), julgue o item a seguir.",
+    "A assistência ao preso e ao egresso é dever do Estado, e visa prevenir o crime e orientar o retorno do indivíduo à convivência em sociedade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 10 e parágrafo único."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-43d150bd2c05",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "10",
+    "ate": "10"
+   },
+   "ordem": 237,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "10"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação à Lei de Execução Penal (LEP), julgue o item a seguir.",
+    "O condenado impossibilitado de prosseguir no trabalho por motivo de acidente não continua a se beneficiar com a remição, mas faz jus ao benefício previdenciário de auxílio-acidente."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O preso acidentado **continua** a se beneficiar com a remição (art. 126, § 4º): é errado dizer que \"~~não continua~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-6a41210bdd8b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "126",
+    "ate": "126"
+   },
+   "ordem": 238,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "126"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "O poder disciplinar só pode ser exercido pelo juiz da execução penal."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Na pena privativa de liberdade, o poder disciplinar é da **autoridade administrativa** (art. 47), e não \"~~só do juiz da execução~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-66ebacc74c2b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "47",
+    "ate": "47"
+   },
+   "ordem": 239,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "47"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "A tentativa de fuga do estabelecimento prisional é classificada como falta disciplinar grave, punida com a sanção correspondente à falta consumada."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Fugir é falta grave (art. 50, II), e a tentativa é punida como a falta consumada (art. 49, parágrafo único)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-cb9a1e97a40e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 240,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    },
+    {
+     "lei": "lep",
+     "art": "49"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "A prática de ato previsto como crime doloso constitui falta grave e, quando ocasiona subversão da ordem, sujeita o condenado ao regime disciplinar diferenciado, com direito à saída da cela por duas horas diárias para banho de sol."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 52, caput e IV."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-137c79cf1cd0",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "52",
+    "ate": "52"
+   },
+   "ordem": 241,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "O preso provisório ou o condenado, nacional ou estrangeiro, sobre o qual recaia fundada suspeita de envolvimento em quadrilha ou bando organizado para a prática de crime hediondo sujeita-se ao regime disciplinar diferenciado por prazo indeterminado, a critério do juiz da execução."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O RDD tem **prazo máximo** (hoje, até 2 anos, com prorrogações de 1 ano nas hipóteses do § 4º): não é \"~~por prazo indeterminado~~\". E a suspeita é de envolvimento com organização criminosa, associação criminosa ou milícia, não só para \"~~crime hediondo~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-979c222d03ca",
+   "area": "",
+   "vinculo": null,
+   "ordem": 242,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "A concessão de regalias é modalidade de recompensa e visa reconhecer o bom comportamento do condenado, sua colaboração com a disciplina e sua dedicação ao trabalho."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Arts. 55 e 56."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-3c869e8470b1",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "55",
+    "ate": "55"
+   },
+   "ordem": 243,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "55"
+    },
+    {
+     "lei": "lep",
+     "art": "56"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca da disciplina na execução penal, julgue o item que se segue.",
+    "A autoridade administrativa pode decretar o isolamento preventivo do faltoso pelo prazo de até 10 dias, sendo esse tempo computado no período de cumprimento da sanção disciplinar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 60 e parágrafo único."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-31a15225cb5a",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 244,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com o que estabelece a LEP quanto ao trabalho do preso, julgue o item seguinte.",
+    "Ao condenado à pena privativa de liberdade é facultativa a atividade laboral, respeitadas suas aptidões, sua capacidade e sua necessidade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Para o condenado à pena privativa de liberdade, o trabalho é **obrigatório** (art. 31), e não \"~~facultativo~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2b4d053dd9aa",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 245,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "31"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Duas crianças, ambas com 11 anos de idade, foram presas tentando burlar a vigilância e fazer que telefones celulares fossem entregues a seus pais, detentos do presídio de segurança máxima de determinado município, que pretendiam comunicar-se com suas famílias e seus advogados. Inconformado, o diretor do presídio abriu investigação administrativa para apurar a participação de agentes penitenciários no esquema e determinou a imediata vistoria em todas as celas e revista nos detentos para identificar a presença de aparelhos celulares. Dezessete aparelhos, escondidos em três celas, foram encontrados.",
+    "Considerando a situação hipotética acima e a Lei Federal n.º 11.466/2007, que prevê como falta disciplinar grave do preso e crime do agente público a utilização de celular, assinale a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A utilização de aparelhos celulares por detentos é permitida apenas para comunicação com seus familiares."
+    },
+    {
+     "letra": "B",
+     "texto": "A comunicação entre os detentos por meio de aparelho celular dentro das alas do estabelecimento prisional poderá ser autorizada pelo diretor da penitenciária."
+    },
+    {
+     "letra": "C",
+     "texto": "Cabe ao diretor do presídio o dever de vedar aos detentos qualquer acesso a aparelho telefônico para comunicação com presos de outros estabelecimentos prisionais."
+    },
+    {
+     "letra": "D",
+     "texto": "Não comete falta disciplinar o preso que utiliza rádio ou similar para se comunicar com seu advogado."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] O diretor tem o dever de **vedar** aos presos o acesso a aparelho telefônico. Deixar de cumprir esse dever é crime (CP, art. 319-A, incluído pela Lei 11.466/2007).",
+    "**A)**, **B)** e **D)** [ERRADAS] Ter, usar ou fornecer celular, rádio ou similar é **falta grave** (art. 50, VII), qualquer que seja a finalidade, mesmo para falar com familiares ou com o advogado."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Ag Sg Sc (SEJUSP MG)",
+   "orgao": "SEJUSP MG",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-9f15f3f6ff5c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 246,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "O trabalho do condenado constitui dever social e condição de dignidade humana, tendo finalidade precipuamente lucrativa, e sujeita-se ao regime da Consolidação das Leis do Trabalho (CLT)."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O trabalho tem finalidade **educativa e produtiva**, e não \"~~precipuamente lucrativa~~\", e não se sujeita à \"~~CLT~~\" (art. 28)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-ddca0b4aa174",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 247,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "28"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "O preso tem direito à previdência social e constituição de pecúlio."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 41, III e IV."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-93f60bfc3c8e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "41",
+    "ate": "41"
+   },
+   "ordem": 248,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "41"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "Considere a seguinte situação hipotética.",
+    "Reginaldo, condenado pela prática de crime de tráfico de entorpecentes a pena de 5 anos de reclusão, em regime fechado, por ser reincidente, tentou fornecer para seu comparsa Geraldo, preso na mesma unidade, aparelho de rádio que permitiria a comunicação entre ambos, e com o ambiente externo, mas não logrou êxito em sua empreitada, em face da pronta ação dos agentes penitenciários.",
+    "Nessa situação, Reginaldo praticou falta grave, mas, considerando que houve apenas tentativa, será a mesma desclassificada para falta média."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Tentar fornecer o rádio é falta grave (art. 50, VII), e a tentativa é punida **como a falta consumada** (art. 49, parágrafo único). Ela não é \"~~desclassificada para falta média~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-1cba52aaa077",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 249,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    },
+    {
+     "lei": "lep",
+     "art": "49"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "Considera-se egresso o preso provisório que foi absolvido por sentença criminal transitada em julgado, tendo sido expedido, em consequência, alvará de soltura."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Egresso é o **liberado definitivo** (1 ano) e o **liberado condicional** (período de prova). O \"~~preso provisório absolvido~~\" não é egresso (art. 26)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-b535ffac5840",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 250,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "26"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "Ao internado é assegurada a liberdade de contratação de médico de sua confiança pessoal, a fim de orientar e acompanhar o tratamento. No caso de divergência entre o médico oficial e o particular, prevalecerá a posição do médico oficial."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A liberdade de contratar médico de confiança existe, mas as divergências são resolvidas pelo **juiz da execução** (art. 43, parágrafo único). Não \"~~prevalecerá a posição do médico oficial~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-73c0397ba085",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 251,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "43"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "Tendo o condenado praticado falta disciplinar grave, será instaurado o respectivo procedimento para a sua apuração, não havendo necessidade, por se tratar de procedimento administrativo, de se assegurar o direito de defesa do condenado."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O procedimento disciplinar **assegura o direito de defesa** (art. 59): é errado dizer \"~~não havendo necessidade~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-dc3524a48702",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "59",
+    "ate": "59"
+   },
+   "ordem": 252,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "59"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "A autoridade administrativa poderá decretar o isolamento preventivo do faltoso pelo prazo de até dez dias, mas a inclusão do preso no regime disciplinar diferenciado, no interesse da disciplina e da averiguação do fato, dependerá de despacho do juiz competente."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 60."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-4b7d36a9b6f9",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 253,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação a execução penal, à luz da legislação correlata, julgue o item.",
+    "O tempo de isolamento ou de inclusão preventiva no regime disciplinar diferenciado não será computado no período de cumprimento da sanção disciplinar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O tempo **será computado** no cumprimento da sanção (art. 60, parágrafo único): é errado dizer \"~~não será computado~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-f988a1973abe",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 254,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que tange às regras mínimas para o tratamento do preso no Brasil, julgue o item que se segue.",
+    "Os castigos corporais, clausura em cela escura e sanções coletivas são expressamente proibidos como formas de sanções disciplinares."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. A LEP veda a cela escura e as sanções coletivas (art. 45, §§ 2º e 3º), e as sanções não podem pôr em perigo a integridade física e moral do condenado (art. 45, § 1º)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-e0bfc53fe41b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 255,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que tange às regras mínimas para o tratamento do preso no Brasil, julgue o item que se segue.",
+    "Em nenhuma situação poderá ser restringido o direito do preso a se corresponder com o mundo externo."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O contato com o mundo exterior por correspondência **pode ser suspenso ou restringido** por ato motivado (art. 41, XV e § 1º): é errado dizer \"~~em nenhuma situação~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Adv (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-e82fb0ca0861",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "41",
+    "ate": "41"
+   },
+   "ordem": 256,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "41"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito da execução penal, julgue o próximo item com base na lei de execução penal e suas alterações e nas regras mínimas para o tratamento do preso no Brasil.",
+    "As algemas poderão ser utilizadas como medida de precaução contra fuga, durante o deslocamento do preso, devendo ser retiradas quando do comparecimento em audiência perante autoridade judiciária ou administrativa."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Pelas Regras Mínimas para o Tratamento do Preso no Brasil, as algemas são precaução contra fuga no deslocamento e devem ser retiradas no comparecimento perante a autoridade.",
+    "💡 Hoje o tema também segue a **Súmula Vinculante 11** do STF e o Decreto 8.858/2016 (uso de algemas só em caso de resistência, fundado receio de fuga ou perigo, justificado por escrito)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-11bfb0e974ec",
+   "area": "",
+   "vinculo": null,
+   "ordem": 257,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "A respeito da execução penal, julgue o próximo item com base na lei de execução penal e suas alterações e nas regras mínimas para o tratamento do preso no Brasil.",
+    "O trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior a três quartos do salário mínimo nem se destinar ao ressarcimento ao Estado das despesas realizadas com a sua manutenção."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A primeira parte está certa (3/4 do salário mínimo), mas a remuneração **também se destina** ao ressarcimento ao Estado (art. 29, § 1º, \"d\"): é errado dizer \"~~nem se destinar~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-fe5453ea57d0",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 258,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "29"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito da execução penal, julgue o próximo item com base na lei de execução penal e suas alterações e nas regras mínimas para o tratamento do preso no Brasil.",
+    "Se todos os presos de determinada ala do presídio praticarem em conjunto falta grave, poderá haver sanção coletiva."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. São **vedadas** as sanções coletivas (art. 45, § 3º): é errado dizer que \"~~poderá haver sanção coletiva~~\". Cada preso responde pela sua conduta."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-81ef7da4995b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 259,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito da execução penal, julgue o próximo item com base na lei de execução penal e suas alterações e nas regras mínimas para o tratamento do preso no Brasil.",
+    "No regime especial assegurado ao preso provisório, deve ser observada a possibilidade de sua opção por alimentar-se às suas expensas."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. As Regras Mínimas para o Tratamento do Preso no Brasil asseguram ao preso provisório a opção de se alimentar às suas expensas."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-71a9d982c773",
+   "area": "",
+   "vinculo": null,
+   "ordem": 260,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "À luz das regras mínimas para o tratamento do preso no Brasil, julgue o item seguinte.",
+    "Excepcionalmente, uma pessoa pode ser admitida em estabelecimento prisional sem a respectiva ordem legal de prisão, que, nesse caso, deverá ser encaminhada ao diretor do presídio em, no máximo, 48 horas."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Pelas Regras Mínimas, **ninguém** será admitido no estabelecimento sem ordem legal de prisão: não há admissão \"~~excepcionalmente (...) sem a respectiva ordem legal~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-71e197237749",
+   "area": "",
+   "vinculo": null,
+   "ordem": 261,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "O poder disciplinar, na execução da pena privativa de liberdade, somente poderá ser exercido pela autoridade judiciária, desde que haja manifestação do Ministério Público."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O poder disciplinar é da **autoridade administrativa** (art. 47), e não \"~~somente da autoridade judiciária~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-8a2222e9d06e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "47",
+    "ate": "47"
+   },
+   "ordem": 262,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "47"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "As faltas disciplinares classificam-se em leves, médias e graves, todas elas previstas na LEP, sendo vedada à legislação local a especificação ou criação de sanções."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Só as faltas **graves** estão na LEP. As leves e médias, e as respectivas sanções, são especificadas pela **legislação local** (art. 49): não é \"~~vedada à legislação local~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-644c6679fad3",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "49",
+    "ate": "49"
+   },
+   "ordem": 263,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "49"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "Comete falta grave o condenado a pena privativa de liberdade que não cumpre o dever de obediência ao servidor e respeito a qualquer pessoa com quem deva relacionar-se."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 50, VI, combinado com o art. 39, II."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-af53b7a5733d",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 264,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    },
+    {
+     "lei": "lep",
+     "art": "39"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "A advertência verbal não constitui espécie de sanção disciplinar, mas mero procedimento interno de manutenção da disciplina."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A advertência verbal **é** sanção disciplinar (art. 53, I): é errado dizer que \"~~não constitui~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-28863e675cd7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "53",
+    "ate": "53"
+   },
+   "ordem": 265,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "53"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "É vedado o isolamento do preso provisório ou condenado, na própria cela, como forma de sanção disciplinar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O isolamento na própria cela **é** sanção prevista (art. 53, IV): é errado dizer \"~~É vedado~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-80857ef93335",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "53",
+    "ate": "53"
+   },
+   "ordem": 266,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "53"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, acerca da Lei de Execução Penal (LEP) e suas alterações.",
+    "Os condenados podem ser agraciados com recompensas, entre elas a concessão de regalias, tendo em vista o bom comportamento, a colaboração com a disciplina e a dedicação ao trabalho."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Arts. 55 e 56."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-dbbd0e6893b7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "55",
+    "ate": "55"
+   },
+   "ordem": 267,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "55"
+    },
+    {
+     "lei": "lep",
+     "art": "56"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca do regime disciplinar diferenciado, e com base na LEP, julgue o item a seguir.",
+    "A prática de fato previsto como crime doloso constitui falta grave e, quando ocasione subversão da ordem ou disciplina internas, sujeita o preso provisório, ou condenado, sem prejuízo da sanção penal, ao regime disciplinar diferenciado."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 52, caput."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-097d37f54eee",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "52",
+    "ate": "52"
+   },
+   "ordem": 268,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca do regime disciplinar diferenciado, e com base na LEP, julgue o item a seguir.",
+    "O preso em regime disciplinar diferenciado terá direito a visitas semanais de duas pessoas, incluídas nesse número as visitas de crianças, com duração máxima de três horas."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. As visitas no RDD são **quinzenais**, de **2 pessoas**, com **2 horas**, e não \"~~semanais~~\" com \"~~três horas~~\".",
+    "💡 RDD em números: **2 anos** de duração máxima · cela **individual** · visitas **quinzenais**, **2 pessoas**, **2 horas** · banho de sol **2 h/dia** em grupos de até **4** · telefone após **6 meses** sem visita: **2 vezes por mês**, **10 minutos**."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-fecd576dd226",
+   "area": "",
+   "vinculo": null,
+   "ordem": 269,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Acerca do regime disciplinar diferenciado, e com base na LEP, julgue o item a seguir.",
+    "Sujeitar-se-á ao regime disciplinar diferenciado o preso provisório sob o qual recaiam fundadas suspeitas de envolvimento ou participação, a qualquer título, em organizações criminosas, quadrilha ou bando."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 52, § 1º, II. Hoje a lei fala em organização criminosa, **associação criminosa** (antiga \"quadrilha ou bando\") ou milícia privada."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-165d1b9b8a74",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "52",
+    "ate": "52"
+   },
+   "ordem": 270,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito do procedimento disciplinar previsto na LEP, julgue o item subsequente.",
+    "A autoridade administrativa poderá decretar o isolamento preventivo do faltoso pelo prazo de até dez dias, independentemente de prévia decisão judicial."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 60: a autoridade administrativa decreta o isolamento preventivo de até 10 dias."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-ecd7b27771fd",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 271,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito do procedimento disciplinar previsto na LEP, julgue o item subsequente.",
+    "A inclusão do preso no regime disciplinar diferenciado, no interesse da disciplina e da averiguação do fato, dependerá de despacho do juiz competente."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 60."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-e4da17fbc836",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 272,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito do procedimento disciplinar previsto na LEP, julgue o item subsequente.",
+    "Como o procedimento para a apuração de falta disciplinar não é um feito judicial, não há necessidade de se assegurar ao faltoso o direito de defesa."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O procedimento disciplinar **assegura o direito de defesa** (art. 59): é errado dizer \"~~não há necessidade~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-b3c025d4039e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "59",
+    "ate": "59"
+   },
+   "ordem": 273,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "59"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito da assistência ao preso e ao internado, é correto afirmar que"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a assistência religiosa compreende a permissão a todos os detentos de frequentarem o culto religioso de sua preferência fora do presídio."
+    },
+    {
+     "letra": "B",
+     "texto": "a assistência ao egresso consiste na concessão, se necessário, de alojamento e alimentação, em estabelecimento adequado, pelo prazo de 2 anos."
+    },
+    {
+     "letra": "C",
+     "texto": "a assistência jurídica é destinada a todos os presos e internados."
+    },
+    {
+     "letra": "D",
+     "texto": "o estabelecimento penal quando não estiver aparelhado para prover a assistência médica necessária, esta poderá ser prestada em outro local, mediante prévia e expressa autorização judicial."
+    },
+    {
+     "letra": "E",
+     "texto": "incumbe ao serviço de assistência social, dentre outras atribuições, promover, no estabelecimento, pelos meios disponíveis, a recreação."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 23, IV.",
+    "**A)** [ERRADA] A assistência religiosa é prestada **no estabelecimento**, e não com cultos \"~~fora do presídio~~\".",
+    "**B)** [ERRADA] O prazo é de **2 meses**, e não \"~~2 anos~~\".",
+    "**C)** [ERRADA] A assistência jurídica é para quem **não tem recursos**, e não para \"~~todos~~\".",
+    "**D)** [ERRADA] A autorização é da **direção**, e não \"~~prévia e expressa autorização judicial~~\"."
+   ],
+   "banca": "FCC",
+   "cargo": "Pol Pen (SEAP PB)",
+   "orgao": "SEAP PB",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-80158c04d2c2",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "23",
+    "ate": "23"
+   },
+   "ordem": 274,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "23"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "NÃO se inclui entre os deveres do condenado a"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "submissão ao detento que exercer a chefia da cela."
+    },
+    {
+     "letra": "B",
+     "texto": "execução do trabalho, das tarefas e das ordens recebidas."
+    },
+    {
+     "letra": "C",
+     "texto": "submissão à sanção disciplinar imposta."
+    },
+    {
+     "letra": "D",
+     "texto": "indenização à vitima ou aos seus sucessores."
+    },
+    {
+     "letra": "E",
+     "texto": "higiene pessoal e asseio da cela ou alojamento."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede o que **não** é dever.",
+    "**A)** [É a resposta] \"~~Submissão ao detento que exercer a chefia da cela~~\" não existe na lei.",
+    "> LEP, art. 39. Constituem deveres do condenado: I – comportamento disciplinado e cumprimento fiel da sentença; II – obediência ao servidor e respeito a qualquer pessoa com quem deva relacionar-se; III – urbanidade e respeito no trato com os demais condenados; IV – conduta oposta aos movimentos individuais ou coletivos de fuga ou de subversão à ordem ou à disciplina; V – execução do trabalho, das tarefas e das ordens recebidas; VI – submissão à sanção disciplinar imposta; VII – indenização à vítima ou aos seus sucessores; VIII – indenização ao Estado, quando possível, das despesas realizadas com a sua manutenção, mediante desconto proporcional da remuneração do trabalho; IX – higiene pessoal e asseio da cela ou alojamento; X – conservação dos objetos de uso pessoal."
+   ],
+   "banca": "FCC",
+   "cargo": "Pol Pen (SEAP PB)",
+   "orgao": "SEAP PB",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-e154eec7f2a6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 275,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "39"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação à assistência conferida pelo Estado ao preso, a mesma inclui no que se refere ao egresso, as seguintes áreas de atuação."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No que concerne à assistência educacional, o ensino médio é obrigatório para todos os presos."
+    },
+    {
+     "letra": "B",
+     "texto": "A assistência social tem por finalidade amparar o egresso, quando posto em liberdade."
+    },
+    {
+     "letra": "C",
+     "texto": "A assistência à saúde do preso e do internado de caráter preventivo e curativo, compreenderá atendimento médico e farmacêutico, excluída a odontológica."
+    },
+    {
+     "letra": "D",
+     "texto": "A assistência jurídica é destinada aos presos e aos internados, independentemente de recursos financeiros, para constituir advogado."
+    },
+    {
+     "letra": "E",
+     "texto": "A assistência educacional compreenderá a instrução escolar e a formação profissional do preso e do internado."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 17.",
+    "**A)** [ERRADA] Obrigatório é o ensino de **1º grau** (art. 18), e não o \"~~ensino médio~~\".",
+    "**B)** [ERRADA] A assistência social ampara o **preso e o internado** e os prepara para a liberdade (art. 22). Não é \"~~amparar o egresso, quando posto em liberdade~~\".",
+    "**C)** [ERRADA] O atendimento **inclui** o odontológico: é errado dizer \"~~excluída a odontológica~~\".",
+    "**D)** [ERRADA] É para quem **não tem recursos**: não é \"~~independentemente de recursos~~\"."
+   ],
+   "banca": "FUNRIO",
+   "cargo": "AgePen (SEJUS RO)",
+   "orgao": "SEJUS RO",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-72dc57dd705e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 276,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "17"
+    },
+    {
+     "lei": "lep",
+     "art": "18"
+    },
+    {
+     "lei": "lep",
+     "art": "22"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação ao trabalho do preso é correto afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O mesmo não é remunerado, de forma a indenizar a sociedade dos custos com a custódia."
+    },
+    {
+     "letra": "B",
+     "texto": "Para o preso provisório, o trabalho não é obrigatório e só poderá ser executado no interior do estabelecimento."
+    },
+    {
+     "letra": "C",
+     "texto": "O condenado à pena privativa de liberdade não está obrigado ao trabalho."
+    },
+    {
+     "letra": "D",
+     "texto": "As tarefas executadas como prestação de serviço à comunidade serão remuneradas."
+    },
+    {
+     "letra": "E",
+     "texto": "Os presos maiores de 55 (cinquenta e cinco) anos poderão solicitar ocupação adequada à sua idade."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Art. 31, parágrafo único.",
+    "**A)** [ERRADA] O trabalho **é remunerado** (art. 29): é errado dizer \"~~não é remunerado~~\".",
+    "**C)** [ERRADA] O condenado **está obrigado** ao trabalho.",
+    "**D)** [ERRADA] Essas tarefas **não** são remuneradas.",
+    "**E)** [ERRADA] São os maiores de **60 anos**, e não \"~~55 (cinquenta e cinco)~~\" (art. 32, § 2º)."
+   ],
+   "banca": "FUNRIO",
+   "cargo": "AgePen (SEJUS RO)",
+   "orgao": "SEJUS RO",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-cc0b86e262f7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 277,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "31"
+    },
+    {
+     "lei": "lep",
+     "art": "29"
+    },
+    {
+     "lei": "lep",
+     "art": "32"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com relação ao regime disciplinar do preso:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A aplicação de penalidade independe de norma regulamentadora prévia."
+    },
+    {
+     "letra": "B",
+     "texto": "A penalidade constitui ato discricionário, por se constituir de conveniência e oportunidade no cumprimento da pena."
+    },
+    {
+     "letra": "C",
+     "texto": "Não é vedada a sanção coletiva."
+    },
+    {
+     "letra": "D",
+     "texto": "É vedado o emprego de cela escura, se outra forma de punição puder ser aplicada."
+    },
+    {
+     "letra": "E",
+     "texto": "O preso provisório sujeita-se ao regime disciplinar."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 44, parágrafo único.",
+    "**A)** [ERRADA] A sanção **depende** de prévia previsão legal ou regulamentar (art. 45): é errado dizer \"~~independe~~\".",
+    "**B)** [ERRADA] A sanção não é \"~~ato discricionário~~\" de conveniência: segue a lei e o procedimento com defesa (arts. 45 e 59).",
+    "**C)** [ERRADA] A sanção coletiva **é vedada**: é errado dizer \"~~Não é vedada~~\".",
+    "**D)** [ERRADA] A cela escura é **sempre** vedada, e não só \"~~se outra forma de punição puder ser aplicada~~\"."
+   ],
+   "banca": "FUNRIO",
+   "cargo": "AgePen (SEJUS RO)",
+   "orgao": "SEJUS RO",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-a0332f3b35e0",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 278,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "44"
+    },
+    {
+     "lei": "lep",
+     "art": "45"
+    },
+    {
+     "lei": "lep",
+     "art": "59"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Comete falta grave o preso que guarda na cela estilete por ele fabricado e capaz de ofender a integridade física de outrem, mesmo sob a alegação de que o objeto era guardado com o mero intuito de defesa."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Possuir **indevidamente** instrumento capaz de ofender a integridade física de outrem é falta grave (art. 50, III), seja qual for a justificativa."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-11a397fab3f1",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 279,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O regime disciplinar diferenciado aplicado aos presos que apresentam alto risco para a ordem e a segurança do estabelecimento prisional ou da sociedade alcança aqueles já condenados por sentença penal irrecorrível, não se estendendo aos presos provisórios."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O RDD por alto risco alcança também o **preso provisório** (art. 52, § 1º, I): é errado dizer \"~~não se estendendo aos presos provisórios~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-4e6a42a34f75",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "52",
+    "ate": "52"
+   },
+   "ordem": 280,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Suponha que, em determinado pavilhão de um presídio, tenha início uma rebelião, não se determinando ao certo quem começou o movimento. Nessa situação, pode o diretor da unidade prisional, após a autorização judiciária competente, impor sanção coletiva, de modo a punir todo o grupo de presos do pavilhão."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. São **vedadas as sanções coletivas** (art. 45, § 3º), mesmo com autorização judicial: o diretor não pode \"~~impor sanção coletiva~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-5bf315e6b463",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 281,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Para os presos em regime fechado, o trabalho externo é admissível somente em serviços ou obras públicas realizados por órgãos da administração pública, não podendo haver, todavia, vínculo empregatício entre o condenado e a administração ou a empresa privada que realiza tais obras."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 36, e o trabalho do preso não está sujeito à CLT (art. 28, § 2º): não há vínculo empregatício."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-b8785d1b3319",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 282,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "36"
+    },
+    {
+     "lei": "lep",
+     "art": "28"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Constitui dever do condenado, entre outros, a indenização ao Estado, quando possível, das despesas realizadas com a sua manutenção, mediante desconto proporcional da remuneração do trabalho."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 39, VIII."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-686ac4c7b709",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 283,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "39"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considere que Joaquim, em cumprimento a pena privativa de liberdade, estimulou os demais presos de seu pavilhão à prática de greve de fome e de recusa ao trabalho, reivindicando melhores condições de alojamento e oportunidades de recreação. O movimento durou cinco dias, gerando desordem e indisciplina entre os presos. Nessa situação, independentemente da sanção aplicada aos demais presos, a conduta de Joaquim o sujeitará a sanção disciplinar em razão do cometimento de falta grave."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Incitar movimento para subverter a ordem ou a disciplina é falta grave (art. 50, I), e a sanção é individual (art. 45, § 3º)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-0b5beed8e684",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 284,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    },
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No âmbito da execução penal, no que se refere a faltas disciplinares e respectivas sanções, deve ser observado o princípio da reserva legal, segundo o qual somente pode ser considerada infração aquela que estiver anteriormente prevista em lei ou regulamento, bem como somente pode ser aplicada a sanção anteriormente cominada para o fato."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 45: não haverá falta nem sanção disciplinar sem expressa e anterior previsão legal ou regulamentar."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-df53f6fdcd66",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 285,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O regime disciplinar diferenciado, regime de cumprimento de pena em acréscimo aos regimes fechado, semi-aberto e aberto, caracteriza-se por maior grau de isolamento do preso e por restrições ao contato com o mundo exterior."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O RDD não é \"~~regime de cumprimento de pena~~\" ao lado do fechado, semiaberto e aberto: é **sanção disciplinar** (art. 53, V) e também medida cautelar (art. 52, § 1º)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-ce62fa610128",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "53",
+    "ate": "53"
+   },
+   "ordem": 286,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "53"
+    },
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considera-se falta disciplinar grave a fuga praticada com violência ou danos patrimoniais. Classificam-se como falta média a fuga e a tentativa de evasão em que, para deixar a prisão, o preso não pratica violência nem causa danos ao patrimônio."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. **Fugir** é sempre falta grave (art. 50, II), com ou sem violência ou dano. A lei não classifica a fuga sem violência como \"~~falta média~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-6a711252e5b6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 287,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Um dos principais deveres do preso é a obrigação de trabalhar, não se cuidando, porém, de trabalho forçado, o que é constitucionalmente vedado, mas de trabalho obrigatório, cuja recusa constitui falta grave."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. O trabalho é obrigatório (arts. 31 e 39, V), não forçado (CF, art. 5º, XLVII, \"c\"). Recusar o trabalho descumpre o dever do art. 39, V, e é falta grave (art. 50, VI)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-ba1e50795daa",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 288,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "31"
+    },
+    {
+     "lei": "lep",
+     "art": "39"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca das regras mínimas para o tratamento de pessoas presas, julgue o item a seguir.",
+    "Permite-se, conforme a gravidade da falta disciplinar praticada pelo preso, o seu isolamento em cela escura, desde que o alojamento disponha de instalação sanitária, água, aeração e cama."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O emprego de cela escura é **sempre vedado** (art. 45, § 2º): \"~~Permite-se (...) seu isolamento em cela escura~~\" está errado."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-9d1cbdefd317",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 289,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "As restrições que, nos termos da Lei de Execução Penal, caracterizam o regime disciplinar diferenciado são a incomunicabilidade do preso, o recolhimento em cela individual, o direito a banho de Sol diário de duas horas e a restrição de acesso aos meios de comunicação e informação."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Cela individual e banho de sol de 2 horas estão certos, mas a lei não prevê \"~~incomunicabilidade~~\" nem \"~~restrição de acesso aos meios de comunicação e informação~~\". Há visitas, entrevistas monitoradas e fiscalização da correspondência.",
+    "> LEP, art. 52. A prática de fato previsto como **crime doloso** constitui falta grave e, quando ocasionar **subversão da ordem ou disciplina internas**, sujeitará o preso provisório, ou condenado, nacional ou estrangeiro, (...) ao regime disciplinar diferenciado, com as seguintes características: I – duração máxima de até **2 anos**, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie; II – recolhimento em **cela individual**; III – visitas **quinzenais**, de **2 pessoas** por vez, (...) com duração de **2 horas**; IV – saída da cela por **2 horas diárias** para banho de sol, em grupos de **até 4 presos**, desde que não haja contato com presos do mesmo grupo criminoso; V – entrevistas sempre monitoradas, **exceto aquelas com seu defensor** (...), salvo expressa autorização judicial em contrário; VI – fiscalização do conteúdo da correspondência; VII – participação em audiências judiciais **preferencialmente por videoconferência** (...)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-23267749b69b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "52",
+    "ate": "52"
+   },
+   "ordem": 290,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Constatando que determinado preso, mesmo custodiado, apresenta fundadas suspeitas de envolvimento em organização criminosa, o diretor do estabelecimento penal, mediante decisão fundamentada, poderá incluí-lo no regime disciplinar diferenciado como medida de natureza cautelar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O diretor **não** inclui no RDD: a inclusão, mesmo cautelar, depende de **decisão do juiz** (arts. 54 e 60). É errado dizer que \"~~o diretor (...) poderá incluí-lo~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2f3f3f7d93e7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "54",
+    "ate": "54"
+   },
+   "ordem": 291,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "54"
+    },
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Constituem direitos do preso:",
+    "I. Alimentação suficiente e vestuário.",
+    "II. Atribuição de trabalho e sua remuneração",
+    "III. Previdência Social.",
+    "IV. Constituição do pecúlio.",
+    "V. Entrevista pessoal e reservada com o advogado.",
+    "Marque a alternativa CORRETA:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "As alternativas I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "As alternativas I a IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "As alternativas I, II, III e V estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas as alternativas estão corretas."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "**I** a **V** [CORRETAS] Art. 41, I, II, III, IV e IX.",
+    "Resposta: **D)** todas."
+   ],
+   "banca": "FGR",
+   "cargo": "Pol Pen (DEPEN MG)",
+   "orgao": "DEPEN MG",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-d7b259ae2a48",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "41",
+    "ate": "41"
+   },
+   "ordem": 292,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "41"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "À luz dos princípios constitucionais relevantes às noções de direito penal, julgue o item que se segue.",
+    "É direito do preso a identificação dos responsáveis por sua prisão."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO].",
+    "> CF, art. 5º, LXIV – o preso tem direito à **identificação dos responsáveis por sua prisão** ou por seu interrogatório policial."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "GM (Pref Aracaju)",
+   "orgao": "Pref Aracaju",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-d50bc61ef194",
+   "area": "",
+   "vinculo": null,
+   "ordem": 293,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "De acordo com as normas constitucionais, a legislação ordinária (Lei de Execução Penal) e as Regras Mínimas da ONU, julgue o item a seguir, acerca do tratamento de pessoas presas.",
+    "Mesmo para o preso provisório o trabalho é obrigatório e poderá ser exercido tanto no interior como no exterior do estabelecimento prisional."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Para o preso provisório, o trabalho **não é obrigatório** e só pode ser feito **no interior** do estabelecimento (art. 31, parágrafo único). Não é \"~~obrigatório~~\" nem \"~~no exterior~~\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "ACSeg (Pref Vitória)",
+   "orgao": "Pref Vitória",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-3990c6d19f25",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 294,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "31"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com as normas constitucionais, a legislação ordinária (Lei de Execução Penal) e as Regras Mínimas da ONU, julgue o item a seguir, acerca do tratamento de pessoas presas.",
+    "O trabalho do preso será remunerado mediante prévia tabela e o produto da remuneração atenderá, entre outros, a pequenas despesas pessoais e à indenização dos danos causados pelo crime, desde que determinados judicialmente e não reparados por outros meios."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 29, caput e § 1º, \"a\" e \"c\"."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "ACSeg (Pref Vitória)",
+   "orgao": "Pref Vitória",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-d80d30ae39d6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 295,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "29"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação à legislação especial, julgue o item que se segue.",
+    "No decorrer da execução penal, são faltas graves cometidas pelo preso no cumprimento da pena privativa de liberdade: incitar ou participar de movimento para subverter a ordem ou a disciplina; provocar acidente de trabalho; e possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 50, I, IV e III."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Esc Pol (PC ES)",
+   "orgao": "PC ES",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2bd42d71e238",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "50",
+    "ate": "50"
+   },
+   "ordem": 296,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considere as seguintes afirmativas referente à Lei 7.210/84 (Lei de Execução Fiscal).",
+    "I. O condenado ao cumprimento de pena privativa de liberdade, em regime fechado, será submetido a exame criminológico para a obtenção dos elementos necessários a uma adequada classificação e com vistas à individualização da execução.",
+    "II. A assistência material ao preso e ao internado consistirá no fornecimento de alimentação, vestuário e instalações higiênicas.",
+    "III. O trabalho externo não será admissível para os presos em regime fechado, sendo permitido ao condenado em regime semi-aberto somente em serviço ou obras públicas realizadas por órgãos da Administração Direta ou Indireta, ou entidades privadas, desde que tomadas as cautelas contra a fuga e em favor da disciplina.",
+    "IV. A penitenciária destina-se ao condenado à pena de reclusão, em regime fechado, bem como a de detenção em regime semi-aberto. É(são) correta(s) apenas"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III, e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "I e II."
+    },
+    {
+     "letra": "D",
+     "texto": "III e IV."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**I** [CORRETA] Art. 8º.",
+    "**II** [CORRETA] Art. 12.",
+    "**III** [ERRADA] O trabalho externo **é admissível** no fechado (art. 36): é errado dizer \"~~não será admissível para os presos em regime fechado~~\".",
+    "**IV** [ERRADA] A penitenciária é para **reclusão em regime fechado**, e não para \"~~detenção em regime semi-aberto~~\" (art. 87).",
+    "Resposta: **C)** I e II."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-210156b749a7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "8",
+    "ate": "8"
+   },
+   "ordem": 297,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "8"
+    },
+    {
+     "lei": "lep",
+     "art": "12"
+    },
+    {
+     "lei": "lep",
+     "art": "36"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto à Lei 7.210/84, assinale a alternativa FALSA."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Somente os condenados que cumprem pena em regime semi-aberto e os presos provisórios poderão obter permissão para sair do estabelecimento, mediante escolta, quando ocorrer um dos seguintes fatos: falecimento ou doença grave do cônjuge, companheira, ascendente, descendente ou irmão; necessidade de tratamento médico."
+    },
+    {
+     "letra": "B",
+     "texto": "O condenado que cumpre a pena em regime fechado ou semi-aberto poderá remir, pelo trabalho, parte do tempo de execução da pena. A contagem do tempo será feita à razão de 1 (um) dia de pena por 3 (três) de trabalho."
+    },
+    {
+     "letra": "C",
+     "texto": "Comete falta grave o condenado à pena privativa de liberdade que: incitar ou participar de movimento para subverter a ordem ou a disciplina; fugir; possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem; provocar acidente de trabalho; descumprir, no regime aberto, as condições impostas."
+    },
+    {
+     "letra": "D",
+     "texto": "O trabalho externo será admissível para os presos em regime fechado somente em serviço ou obras públicas realizadas por órgãos da Administração Direta ou Indireta, ou entidades privadas, desde que tomadas as cautelas contra a fuga e em favor da disciplina."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **FALSA**.",
+    "**A)** [INCORRETA, é a resposta] A permissão de saída vale também para o regime **fechado** (art. 120): não é \"~~Somente (...) semi-aberto e os presos provisórios~~\".",
+    "**B)**, **C)** e **D)** [CORRETAS] Arts. 126, 50 e 36."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-17eb4b62b355",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "120",
+    "ate": "120"
+   },
+   "ordem": 298,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "120"
+    },
+    {
+     "lei": "lep",
+     "art": "126"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    },
+    {
+     "lei": "lep",
+     "art": "36"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A assistência ao preso será:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "formal; à saúde; jurídica; educacional; social; religiosa."
+    },
+    {
+     "letra": "B",
+     "texto": "material; à saúde; jurídica; educacional; social; religiosa."
+    },
+    {
+     "letra": "C",
+     "texto": "material; à saúde; jurídica; educacional; vocacional; religiosa."
+    },
+    {
+     "letra": "D",
+     "texto": "à saúde; jurídica; educacional; social; religiosa."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Art. 11.",
+    "**A)** [ERRADA] É assistência **material**, e não \"~~formal~~\".",
+    "**C)** [ERRADA] É **social**, e não \"~~vocacional~~\".",
+    "**D)** [ERRADA] Faltou a assistência **material**."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-28e6f565c4ab",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "11",
+    "ate": "11"
+   },
+   "ordem": 299,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "11"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto ao trabalho do preso, assinale a opção FALSA."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior a 3/4 (três quartos) do salário mínimo."
+    },
+    {
+     "letra": "B",
+     "texto": "O produto da remuneração pelo trabalho deverá atender: à indenização dos danos causados pelo crime, desde que determinados judicialmente e não reparados por outros meios; à assistência à família; a pequenas despesas pessoais; ao ressarcimento ao Estado das despesas realizadas com a manutenção do condenado, em proporção a ser fixada e sem prejuízo da destinação prevista nas letras anteriores."
+    },
+    {
+     "letra": "C",
+     "texto": "As tarefas executadas como prestação de serviço à comunidade não serão remuneradas."
+    },
+    {
+     "letra": "D",
+     "texto": "O trabalho do preso está sujeito ao regime da Consolidação das Leis do Trabalho."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "A questão pede a **FALSA**.",
+    "**D)** [INCORRETA, é a resposta] O trabalho do preso **não** está sujeito à \"~~CLT~~\" (art. 28, § 2º).",
+    "**A)**, **B)** e **C)** [CORRETAS] Arts. 29 e 30."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-7f1d6cb4c888",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 300,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "28"
+    },
+    {
+     "lei": "lep",
+     "art": "29"
+    },
+    {
+     "lei": "lep",
+     "art": "30"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei 7.210/84 é INCORRETO afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "é dever do Estado prestar, ao preso e ao interno, assistência médica, material, jurídica, educacional, social e religiosa;"
+    },
+    {
+     "letra": "B",
+     "texto": "o trabalho do preso não está sujeito ao regime da Consolidação das Leis do Trabalho;"
+    },
+    {
+     "letra": "C",
+     "texto": "os Departamentos Penitenciários são órgãos da Execução Penal;"
+    },
+    {
+     "letra": "D",
+     "texto": "a casa de albergado destina-se ao cumprimento da pena privativa de liberdade em regime semi-aberto;"
+    },
+    {
+     "letra": "E",
+     "texto": "a cadeia pública destina-se ao recolhimento dos presos provisórios."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "A questão pede a **INCORRETA**.",
+    "**D)** [INCORRETA, é a resposta] A Casa do Albergado é para o regime **aberto** e a limitação de fim de semana, e não para o \"~~semi-aberto~~\" (art. 93).",
+    "**A)**, **B)**, **C)** e **E)** [CORRETAS] Arts. 10 e 11, 28, 61 e 102."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-5787cb6df04d",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 301,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "10"
+    },
+    {
+     "lei": "lep",
+     "art": "11"
+    },
+    {
+     "lei": "lep",
+     "art": "28"
+    },
+    {
+     "lei": "lep",
+     "art": "61"
+    },
+    {
+     "lei": "lep",
+     "art": "102"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item abaixo, relativo ao direito penal.",
+    "Na execução penal, a sanção disciplinar de isolamento do condenado na própria cela independe de decisão judicial."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. O isolamento é aplicado por ato motivado do **diretor** (art. 54), sem decisão judicial. Mas deve ser sempre **comunicado** ao juiz (art. 58, parágrafo único)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2005,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-4e40b48c2518",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "54",
+    "ate": "54"
+   },
+   "ordem": 302,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "54"
+    },
+    {
+     "lei": "lep",
+     "art": "58"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item abaixo, relativo ao direito penal.",
+    "O agente penitenciário pode atribuir recompensa ao preso, nos termos da Lei de Execução Penal; porém, para fazê-lo, deverá, necessariamente, contar com a aquiescência de seu superior hierárquico."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A LEP não prevê que o \"~~agente penitenciário~~\" conceda recompensa com a aquiescência do superior. A natureza e a forma de concessão das regalias são fixadas pela **legislação local e pelos regulamentos** (art. 56, parágrafo único)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2005,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-5d75985e1598",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "56",
+    "ate": "56"
+   },
+   "ordem": 303,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "56"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execução Penal vigente, é INCORRETO afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "o isolamento, a suspensão e a restrição de direitos não poderão exceder a dez dias, ressalvada a hipótese do regime disciplinar diferenciado;"
+    },
+    {
+     "letra": "B",
+     "texto": "se a revogação for motivada por infração penal anterior à vigência do livramento, computar-se-á como tempo de cumprimento da pena o período de prova, sendo permitida, para a concessão de novo livramento, a soma do tempo das duas penas;"
+    },
+    {
+     "letra": "C",
+     "texto": "na aplicação das sanções disciplinares, levar-se-ão em conta a natureza, os motivos, as circunstâncias e as conseqüências do fato, bem como a pessoa do faltoso e seu tempo de prisão;"
+    },
+    {
+     "letra": "D",
+     "texto": "transitada em julgado a sentença que aplicou a pena restritiva de direitos, o juiz de execução, de ofício ou a requerimento do Ministério Público, promoverá a execução, podendo, para tanto, requisitar, quando necessário, a colaboração de entidades públicas ou solicitá-las a particulares;"
+    },
+    {
+     "letra": "E",
+     "texto": "a autoridade administrativa poderá decretar o isolamento preventivo do faltoso pelo prazo de até dez dias; a inclusão do preso no regime disciplinar diferenciado, no interesse da disciplina e da averiguação do fato, dependerá de despacho do juiz competente."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **INCORRETA**.",
+    "**A)** [INCORRETA, é a resposta] O limite é de **30 dias**, e não \"~~dez dias~~\" (art. 58).",
+    "**B)** a **E)** [CORRETAS] Arts. 141, 57, 147 e 60."
+   ],
+   "banca": "NCE e FUJB (UFRJ)",
+   "cargo": "Del Pol (PC DF)",
+   "orgao": "PC DF",
+   "ano": 2004,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-89afa6ce3ca2",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "58",
+    "ate": "58"
+   },
+   "ordem": 304,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "58"
+    },
+    {
+     "lei": "lep",
+     "art": "141"
+    },
+    {
+     "lei": "lep",
+     "art": "57"
+    },
+    {
+     "lei": "lep",
+     "art": "147"
+    },
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Nos termos da Lei n. 7.210/84, é INCORRETO afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a classificação será feita por comissão Técnica de Classificação, que elaborará o programa individualizador e acompanhará a execução das penas privativas de liberdade e restritivas de direitos, devendo propor, à autoridade competente, as progressões e regressões dos regimes, bem como as conversões;"
+    },
+    {
+     "letra": "B",
+     "texto": "a assistência material ao preso e ao internado consistirá no fornecimento de alimentação, vestuário e instalações higiênicas;"
+    },
+    {
+     "letra": "C",
+     "texto": "é garantida a liberdade de contratar médico de confiança pessoal do internado ou do submetido a tratamento ambulatorial, por seus familiares ou dependentes, a fim de orientar e acompanhar o tratamento;"
+    },
+    {
+     "letra": "D",
+     "texto": "comete falta grave o condenado à pena privativa de liberdade que provocar, de forma negligente, acidente de trabalho;"
+    },
+    {
+     "letra": "E",
+     "texto": "a repreensão constitui sanção disciplinar."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **INCORRETA**.",
+    "**A)** [INCORRETA, é a resposta] Desde a Lei 10.792/2003, a Comissão elabora o programa individualizador da pena **privativa de liberdade** adequada ao condenado ou preso provisório (art. 6º). Ela não acompanha mais as \"~~restritivas de direitos~~\" nem \"~~propõe progressões, regressões e conversões~~\".",
+    "**B)**, **C)** e **E)** [CORRETAS] Arts. 12, 43 e 53, II.",
+    "**D)** [CORRETA, para a banca] O art. 50, IV, fala em \"provocar acidente de trabalho\"."
+   ],
+   "banca": "NCE e FUJB (UFRJ)",
+   "cargo": "Ag Pol Cus (PC DF)",
+   "orgao": "PC DF",
+   "ano": 2004,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-04f694eb2cb8",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "6",
+    "ate": "6"
+   },
+   "ordem": 305,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "6"
+    },
+    {
+     "lei": "lep",
+     "art": "12"
+    },
+    {
+     "lei": "lep",
+     "art": "43"
+    },
+    {
+     "lei": "lep",
+     "art": "53"
+    },
+    {
+     "lei": "lep",
+     "art": "50"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Das sanções disciplinares, previstas na Lei de Execução Penal, identifique aquela aplicada somente com a ordem do juiz em despacho prévio e fundamentado, mediante requerimento circunstanciado do diretor do estabelecimento ou de outra autoridade administrativa:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Advertência verbal."
+    },
+    {
+     "letra": "B",
+     "texto": "Repreensão."
+    },
+    {
+     "letra": "C",
+     "texto": "Suspensão ou restrição de direitos."
+    },
+    {
+     "letra": "D",
+     "texto": "Isolamento na própria cela ou em local adequado."
+    },
+    {
+     "letra": "E",
+     "texto": "Inclusão no regime disciplinar diferenciado."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Inclusão no RDD.",
+    "> LEP, art. 54. As sanções dos incisos I a IV do art. 53 serão aplicadas por ato motivado do diretor do estabelecimento e a do inciso V, por **prévio e fundamentado despacho do juiz** competente. § 1º A autorização para a inclusão do preso em regime disciplinar dependerá de **requerimento circunstanciado** elaborado pelo diretor do estabelecimento ou outra autoridade administrativa."
+   ],
+   "banca": "DEPSEC UNIFAP",
+   "cargo": "Ag Pen (IAPEN AP)",
+   "orgao": "IAPEN AP",
+   "ano": 2004,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-1b6f230eb06e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "54",
+    "ate": "54"
+   },
+   "ordem": 306,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "54"
+    },
+    {
+     "lei": "lep",
+     "art": "53"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto ao regime disciplinar previsto na Lei de Execução Penal (Lei N.º 7.210, de 11 de julho de 1984), assinale a única alternativa que contém afirmação correta:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "são vedadas as sanções coletivas;"
+    },
+    {
+     "letra": "B",
+     "texto": "a prática de fato previsto como crime doloso constitui falta grave e sujeita o preso, ou condenado, à sanção disciplinar, com prejuízo da sanção penal;"
+    },
+    {
+     "letra": "C",
+     "texto": "o isolamento, a suspensão e a restrição de direitos não poderão exceder a cento e oitenta dias;"
+    },
+    {
+     "letra": "D",
+     "texto": "o tempo de isolamento preventivo não será computado no período de cumprimento da sanção disciplinar."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Art. 45, § 3º.",
+    "**B)** [ERRADA] É **sem prejuízo** da sanção penal, e não \"~~com prejuízo~~\" (art. 52).",
+    "**C)** [ERRADA] O limite é de **30 dias**, e não \"~~cento e oitenta dias~~\" (art. 58).",
+    "**D)** [ERRADA] O tempo de isolamento preventivo **será computado** (art. 60, parágrafo único): é errado dizer \"~~não será computado~~\"."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2003,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Condenado e do Internado (arts. 5º a 60 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-c7edc0982416",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 307,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "45"
+    },
+    {
+     "lei": "lep",
+     "art": "52"
+    },
+    {
+     "lei": "lep",
+     "art": "58"
+    },
+    {
+     "lei": "lep",
+     "art": "60"
+    }
+   ]
+  }
+ ],
+ "caminho": [
+  "Leis Especiais",
+  "Lei de Execução Penal"
+ ]
+}
