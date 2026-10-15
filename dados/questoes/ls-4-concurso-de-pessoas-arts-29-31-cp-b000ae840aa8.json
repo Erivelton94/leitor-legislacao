@@ -1,0 +1,2345 @@
+{
+ "id": "ls-4-concurso-de-pessoas-arts-29-31-cp-b000ae840aa8",
+ "titulo": "4 Concurso de Pessoas (Arts. 29 - 31, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-e9603268cbc0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MA",
+   "obs": "",
+   "enunciado": [
+    "Durante a execução de um roubo armado a um posto de combustível, dois agentes atuaram em conjunto: André, que rendeu o frentista com uso de revólver, e Bruno, que permaneceu do lado de fora com o carro ligado, pronto para a fuga. Ao perceber que uma viatura policial se aproximava, Bruno fugiu do local sem esperar André, que acabou preso em flagrante. Na instrução, a defesa de Bruno alegou ausência de dolo, afirmando que ele apenas pretendia emprestar o carro, sem saber da intenção de seu comparsa. Com base na situação narrada, julgue o item a seguir.",
+    "A responsabilização penal do coautor exige que ele exerça a vontade de participar da prática criminosa, conforme as regras legais relativas ao concurso de agentes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-768161bee6b1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Ateneu e Moisés combinaram a prática conjunta de um crime de furto. Moisés, exímio motorista, aguardou na rua com o carro já ligado e Ateneu, especialista em abertura de cofres, ingressou na residência de um famoso jogador de futebol que atuava no exterior. Ambos pensavam que a casa estava vazia, mas ao ingressar no imóvel, Ateneu se deparou com Izabel, empregada doméstica que trabalhava no local, tendo, então, sacado a arma de fogo que portava, sem a ciência de Moisés, e matado Izabel com um tiro na testa. Ateneu levou consigo joias e dinheiro. Ao tomar ciência da morte de Izabel, Moisés não quis ficar com nada. Diante de tal situação hipotética, Moisés deve ser responsabilizado mediante aplicação da pena relativa ao crime de furto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58d25feba20f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Guarda",
+   "instituicao": "PREFEITURA DE CACHOEIRO DE ITAPEMIRIM-ES",
+   "obs": "",
+   "enunciado": [
+    "A contribuição de um coautor para o resultado de um crime é meramente acessória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e552e286199c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RR",
+   "obs": "",
+   "enunciado": [
+    "Joana e Carla planejaram matar Ana por vingança. Para tanto, Joana forneceu a Carla uma arma de fogo, pois sabia de sua intenção homicida, e combinou com Carla que esta executaria o disparo. No dia combinado, Carla surpreendeu Ana na saída da casa desta e efetuou o disparo, em decorrência do qual Ana faleceu. Joana, no entanto, não compareceu ao local, tampouco praticou qualquer ato no momento da execução.",
+    "Nessa situação hipotética, de acordo com o instituto do concurso de pessoas e os elementos do crime, Joana responderá pelo homicídio praticado contra Ana, pois participou de seu planejamento e forneceu o meio para a execução do crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2dbcd3cf8f6f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "Durante disputa societária acirrada, Alberto, Bruno e Caio nutrem, de forma independente, animosidade contra Daniel, administrador da empresa. Com intenção de matar Daniel, Alberto contrata Bruno para executar o homicídio, prometendo-lhe pagar elevada quantia em dinheiro. Bruno aceita a missão, planeja a execução e escolhe o dia do crime. Paralelamente, sem qualquer ciência da contratação ou do plano de Bruno, Caio decide, por conta própria, matar Daniel, munindo-se de arma de fogo. Em determinado dia, sem que um saiba da presença do outro no mesmo local, Bruno e Caio efetuam disparos simultâneos contra Daniel. A perícia conclui que apenas um dos projéteis causou a morte, sendo impossível determinar qual dos disparos foi o letal. Diante de tal situação hipotética, Alberto responde por homicídio tentado enquanto Bruno responde por homicídio consumado e Caio responde por homicídio tentado, configurando-se o concurso eventual de agentes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d56b3eb9757",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito ao concurso de pessoas e às expressas regras do CP (arts. 29 a 31), quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua punibilidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b4e5a8c22956",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "I Exame Nacional da Magistratura - Reaplicação Manaus",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "O Código Penal vigente adota a teoria monista estrita quanto ao concurso de agentes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "[...] Corrupção passiva",
+    "Art. 317 - Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem:",
+    "Pena – reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+    "§ 1º - A pena é aumentada de um terço, se, em conseqüência da vantagem ou promessa, o funcionário retarda ou deixa de praticar qualquer ato de ofício ou o pratica infringindo dever funcional.",
+    "§ 2º - Se o funcionário pratica, deixa de praticar ou retarda ato de ofício, com infração de dever funcional, cedendo a pedido ou influência de outrem:",
+    "Pena - detenção, de três meses a um ano, ou multa.",
+    "[...] Corrupção ativa",
+    "Art. 333 - Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício:",
+    "Pena – reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+    "Parágrafo único - A pena é aumentada de um terço, se, em razão da vantagem ou promessa, o funcionário retarda ou omite ato de ofício, ou o pratica infringindo dever funcional."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d69b928f0fc8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2015",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao concurso de pessoas, é correto afirmar que aquele que colabora para a conduta típica do autor, praticando uma ação que, em si mesma, é irrelevante para o âmbito penal, não pode ser considerado partícipe."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d0c79d1af2ca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-afb08d721e34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 29, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 29, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Policial Penal",
+   "instituicao": "SAP-SP",
+   "obs": "",
+   "enunciado": [
+    "Sobre a temática do concurso de pessoas e do concurso de crimes, é correto afirmar que a configuração do concurso de pessoas, na forma disciplinada pelo Código Penal, exige a presença de pluralidade de agentes e de condutas, a relevância causal das condutas, o liame subjetivo entre os agentes e a identidade de infração penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b75e09c54359",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 29, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Sobre o concurso de pessoas, julgue o item a seguir. A participação de menor importância tem a natureza jurídica de causa de diminuição da pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-851cebd4eeda",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 29, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2020",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PREFEITURA DE BETIM-MG",
+   "obs": "",
+   "enunciado": [
+    "No concurso de pessoas, se a participação for de menor importância, a pena pode ser diminuída de um a dois terços."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29, § 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-720c419d19d9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 29, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29, § 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8c653ca72a15",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 29, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições relativas ao concurso de pessoas e de crimes, constantes do Código Penal, julgue o seguinte item. No caso de participação de menor importância, a critério do Juiz, a pena pode deixar de ser aplicada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 […]",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b709862880fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 29, § 1º, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º, § 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público da União - Administração",
+   "instituicao": "MPU",
+   "obs": "",
+   "enunciado": [
+    "Maurício, Lucas e João foram presos em flagrante pela prática de determinado crime contra a Administração Pública federal. No curso da ação penal, Maurício confessou a perpetração dos fatos que lhe foram imputados. Por sua vez, a defesa de Lucas comprovou que a sua participação na empreitada delituosa foi de menor importância. Os advogados de João, a seu turno, demonstraram que ele quis participar de crime menos grave, embora tenha sido previsível o resultado mais gravoso.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Lucas poderá ter a pena diminuída de um sexto a um terço. João, por sua vez, estará sujeito à pena do crime menos grave, a qual será aumentada até a metade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29, § 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8390c7231b7e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2013",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-AM",
+   "obs": "",
+   "enunciado": [
+    "Se alguém instiga outrem a surrar inimigo comum, mas o instigado se excede e mata a vítima, é correto afirmar que o partícipe poderá responder por lesão corporal, com a pena aumentada até um terço, se previsível o resultado letal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave.",
+    "17 (Art. 29, § 2º, CP) FCC 2013 - Defensor Público (DPE-AM)",
+    "Se alguém instiga outrem a surrar inimigo comum, mas o instigado se excede e mata a vítima, é correto afirmar que o partícipe poderá responder por lesão corporal, sem qualquer aumento de pena, se não podia prever o resultado morte.",
+    "Art. 29 [...]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a0f6f9108591",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2012",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A e B, em decisão comum, resolvem praticar lesões corporais contra a vítima C, mas A se excede dolosamente, produzindo a morte da vítima: se o resultado de morte da vítima era previsível, B também responde pelo homicídio."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c1605e1ff0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Conselheiro Substituto",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "A respeito do concurso de pessoas, julgue o item a seguir.",
+    "Na cooperação dolosamente distinta, se um dos concorrentes houver praticado crime mais grave não querido pelos demais, estes sujeitar-se-ão à pena do crime menos grave, aumentada até a metade se previsível o resultado mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29, § 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e62013e35714",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLIII Exame Nacional Unificado",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Ateneu e Moisés combinaram a prática conjunta de um crime de furto. Moisés, exímio motorista, aguardou na rua com o carro já ligado e Ateneu, especialista em abertura de cofres, ingressou na residência de um famoso jogador de futebol que atuava no exterior. Ambos pensavam que a casa estava vazia, mas ao ingressar no imóvel, Ateneu se deparou com Izabel, empregada doméstica que trabalhava no local, tendo, então, sacado a arma de fogo que portava, sem a ciência de Moisés, e matado Izabel com um tiro na testa. Ateneu levou consigo joias e dinheiro. Ao tomar ciência da morte de Izabel, Moisés não quis ficar com nada. Diante de tal situação hipotética, julgue o item a seguir.",
+    "Moisés deve ser responsabilizado mediante aplicação da pena relativa ao crime de furto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29, § 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a896e6c2fafd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Dois indivíduos (A e B), agindo em concurso, ajustam a prática do delito de furto em uma loja de aparelhos celulares. Após um tempo de vigilância da loja, notam quando o segurança vai ao banheiro. Um dos indivíduos ingressa na loja e distrai o único vendedor presente enquanto o outro indivíduo começa a furtar celulares. O segurança sai do banheiro, nota a ação e tenta impedir a subtração dos aparelhos. O indivíduo A saca uma faca que não era de conhecimento de B e, sem a ajuda deste, investe contra o segurança e produz lesões que lhe causam a morte. Além de não saber da existência da faca, B não desejava lesionar o segurança. Considerando os crimes contra o patrimônio e a teoria monista ou unitária do concurso de pessoas, o indivíduo A que empregou violência responde por roubo com resultado morte, enquanto B responde por furto qualificado pelo concurso de pessoas ante sua ausência de intenção de participar de crime mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "[...]",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser- lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-63ac94356c0a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2016",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJM-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito do concurso de agentes, afirma-se corretamente que segundo o Código Penal, o coautor ou partícipe, independentemente do crime para o qual quis concorrer, será punido segundo a pena do crime efetivamente praticado, pois assumiu o risco do resultado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-70b999fdce58",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Pedro e Paulo combinam de praticar um crime de furto em determinada creche, com a intenção de subtrair computadores. Pedro, então, sugere que o ato seja praticado em um domingo, quando o local estaria totalmente vazio e nenhuma criança seria diretamente prejudicada. No momento da empreitada delitiva, Pedro auxilia Paulo a entrar por uma janela lateral e depois entra pela porta dos fundos da unidade. Já no interior do local, eles verificam que a creche estava cheia em razão de comemoração do “Dia das Mães”; então, Pedro pega um laptop e sai, de imediato, pela porta dos fundos, mas Paulo, que estava armado sem que Pedro soubesse, anuncia o assalto e subtrai bens e joias de crianças, pais e funcionários. Captadas as imagens pelas câmeras de segurança, Pedro e Paulo são identificados e denunciados pelo crime de roubo duplamente majorado. Com base apenas nas informações narradas, a defesa de Pedro deverá pleitear o reconhecimento da cooperação dolosamente distinta, gerando aplicação da pena do crime menos grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4ff1be4e6849",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "AOCP",
+   "ano": "2021",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Esdras e Efraim, em coautoria, ajustaram a prática do crime de furto contra o Restaurante Bom Prato, em horário em que não houvesse ninguém, ou seja, que estivesse fechado. A exigência de Efraim, para a prática delituosa, seria para que fossem desarmados, pois ele não aceitava o emprego de qualquer violência. Na ocasião em que o crime foi praticado, Esdras disse a Efraim para ficar do lado de fora dando cobertura, enquanto ele entraria no restaurante para furtar. Ao entrar no restaurante sozinho, Esdras se depara com o vigia e, de posse de uma faca (que trazia em sua cintura, sem o conhecimento de Efraim), desfere vários golpes no vigia que não resiste aos ferimentos e morre no local. Em seguida, Esdras foge e deixa seu colega sem saber do ocorrido. Com base nesse contexto hipotético, pode-se afirmar que Efraim agiu em cooperação dolosamente distinta, razão pela qual responderá por crime de roubo com causa especial de diminuição de pena."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "[...]",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-71d40fe58722",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "XXXVI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Túlio e Alfredo combinaram de praticar um roubo contra uma joalheria. Os dois ingressam na loja, e Alfredo, com o emprego de arma de fogo, exige que Fernanda, a vendedora, abra a vitrine e entregue os objetos expostos. Enquanto Alfredo vasculha as gavetas da frente da loja, Túlio ingressa nos fundos do estabelecimento com Fernanda, em busca de joias mais valiosas, momento em que decide levá-la ao banheiro e, então, mantém com Fernanda conjunção carnal. Após, Túlio e Alfredo fogem com as mercadorias. Em relação às condutas praticadas por Túlio e Alfredo, é correto afirmar que responderão por roubo circunstanciado pelo concurso de pessoas e emprego de arma de fogo; Túlio também responderá por estupro, em concurso material."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-64d3a45e5c16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. Entretanto, se algum dos concorrentes quis participar de crime menos grave, ser-lhe-a aplicada a pena deste, não cabendo qualquer espécie de aumento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "[...]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-15fd39fcd317",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 29, § 2°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2°",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2°, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Na denominada cooperação dolosamente distinta, se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até a metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "§ 2° - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de9ae174e4db",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 29, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 2º, CP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Durante a madrugada, A e B, mediante prévio acordo, resolvem praticar o crime de furto em loja comercial fechada ao público, quando são surpreendidos no interior do imóvel pela chegada do proprietário C: o resultado de morte de C, decorrente do excesso doloso exclusivo de A por utilização de violência contra C, se previsível por B, pode gerar a este último responsabilidade penal pelo crime de latrocínio praticado por A."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 […]",
+    "§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36ba792939ad",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 29 caput e § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "caput e § 2º",
+     "sigla": "CP",
+     "texto": "Art. 29 caput e § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições relativas ao concurso de pessoas e de crimes, constantes do Código Penal, julgue o seguinte item. Praticado o crime em coautoria, todos que concorreram à prática delitiva serão punidos de forma idêntica. Apenas ao que, comprovadamente, quis participar de crime menos grave, ser-lhe-á aplicada a pena deste."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "[...]",
+    "§ 2º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-80140bd4f535",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "Não se comunicam as circunstâncias e as condições de caráter pessoal, ainda que elementares do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2191978fef17",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2013",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "No concurso de pessoas, prevê o Código Penal: As circunstâncias e condições de caráter pessoal se comunicam entre coautores e partícipes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1b1923a38d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJM-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito do concurso de agentes, afirma-se corretamente que segundo o Código Penal, as condições de caráter pessoal do autor estendem-se a todos os concorrentes da prática delitiva."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-337951601179",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A, B e C, previamente ajustados e com divisão funcional de tarefas, decidiram subtrair valores de um posto de combustíveis situado às margens de rodovia federal. A portava arma de fogo municiada; B permaneceu no interior do veículo, com o motor ligado, incumbido da fuga; C ingressou no estabelecimento para recolher o dinheiro do caixa. Durante a execução do crime, o frentista D, ao tentar acionar o alarme silencioso, foi alvejado por disparo efetuado por A, vindo a óbito no local. O laudo pericial indicou que o tiro foi disparado à curta distância, pelas costas da vítima. No momento da prisão em flagrante, constatou-se que: A era reincidente específico em crime de roubo; B possuía condenação definitiva por crime culposo; C era tecnicamente primário e confessou espontaneamente sua participação. O juiz, ao proferir sentença condenatória, fixou a pena-base acima do mínimo legal para todos os réus, fundamentando-se: na gravidade concreta do resultado morte; na execução do crime em rodovia federal durante a madrugada; na divisão de tarefas e organização do grupo. Na segunda fase, reconheceu: a reincidência de A; a atenuante da confissão espontânea de C, reduzindo-lhe a pena em 1/6; deixou de aplicar qualquer atenuante ou agravante em relação a B. À luz da teoria da pena, da jurisprudência consolidada dos tribunais superiores e da dogmática penal, a reincidência específica de A impede a aplicação da atenuante da confissão espontânea em favor de C, pois, em crimes de concurso de agentes, as circunstâncias pessoais comunicam-se entre os corréus."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Circunstâncias incomunicáveis",
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e0b2a1af201",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "Sobre a disciplina jurídica da reincidência no direito penal brasileiro, julgue a afirmação a seguir: A reincidência não se comunica aos corréus nos casos de concurso de pessoas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9de8627a1102",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Residência Judicial",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "De acordo com as disposições do Código Penal sobre concurso de pessoas, é correto afirmar que comunicam-se as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5cbc1f63d9d1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre autoria e participação, julgue a assertiva a seguir: Motivado de forma exclusiva pela torpeza, A pratica o crime de constrangimento ilegal contra seu irmão B, mediante contribuição do partícipe C, antigo amigo da família: o autor A responde pelo crime de constrangimento ilegal (CP, art. 146, caput), com as agravantes do motivo torpe e de ter cometido o crime contra irmão (CP, art. 61, inciso II, alíneas “a” e “e”) e o partícipe C responde pelo crime de constrangimento ilegal (CP, art. 146, caput), sem a incidência de quaisquer agravantes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4eff3ad65012",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2014",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Não se comunicam as circunstâncias e as condições de caráter pessoal, ainda que elementares do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 Não se comunicam as circunstâncias e as condições de caráter pessoal, SALVO quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e45ff6b87f55",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Em matéria de concurso de pessoas, como regra geral, a participação de menor importância autoriza que se comuniquem as circunstâncias de caráter pessoal, salvo as elementares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eec744d7a53e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Não se comunicam as circunstâncias e as condições de caráter pessoal, ainda que elementares do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f923737eebe5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Judiciário - Área Judiciária",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "João, funcionário público, solicitou ao empresário Thiago pedido de propina para não executar determinado ato de ofício que por lei estava obrigado a fazer. O pedido foi feito ao empresário discretamente pelo intermediário Pedro, amigo de João que não é funcionário público. Pedro e João combinaram que dividiriam o valor da propina. Thiago não aceitou o pedido e comunicou o fato à polícia. Nos termos do Código Penal, João e Pedro praticaram o crime de corrupção passiva consumado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d70fab153f43",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 30 c/c 312, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 30"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "312",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "312, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2026",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Américo, 48 anos de idade, professor efetivo no Curso de Direito da Universidade Federal de Santa Catarina (UFSC), está na fase de escrever a sua tese de doutorado na Universidade Estadual do Rio de Janeiro (UERJ). Com o objetivo de facilitar o desenvolvimento da tese, Américo e seu irmão, Marcelo, 46 anos de idade, valendo-se do acesso irrestrito de Américo na UFSC, se apropriam do computador institucional de que Américo tem a posse em razão do cargo e o levam para a residência de Américo. Quando da posse no cargo de professor efetivo na UFSC, Marcelo presenteou Américo com uma linda coleção de Direito Penal do jurista Nelson Hungria. Nesse contexto, a elementar típica, funcionário público, do crime de peculato se comunica a Marcelo, com base no artigo 30 do Código Penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime.",
+    "Art. 312 - Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio: […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b6ff2e1d38e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 30 c/c Art. 312, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 30"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "312",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 312, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Poseidon, diretor de uma penitenciária, desviava parte dos alimentos recebidos daquela unidade, destinados às pessoas ali custodiadas, para o restaurante de seu irmão, Morfeu, empresário local, com a completa ciência deste da origem ilícita dos produtos recebidos, bem como da condição de funcionário público de Poseidon. Diante dos fatos acima descritos, ambos praticaram o crime de peculato em concurso de agentes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Peculato",
+    "Art. 312 - Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio:",
+    "Pena - reclusão, de dois a doze anos, e multa.",
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3b35e19b2860",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Policial Legislativo Federal",
+   "instituicao": "CÂMARA DOS DEPUTADOS",
+   "obs": "",
+   "enunciado": [
+    "As condições de caráter pessoal não se comunicam entre os agentes, ainda que constituam elementares do tipo penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6aa64e0d059f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2023",
+   "cargo": "2º Tenente QPOM da Polícia Militar",
+   "instituicao": "PM-CE",
+   "obs": "",
+   "enunciado": [
+    "No concurso de pessoas, não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5e1a4f2fe20",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Agente de Polícia",
+   "instituicao": "PC-RO",
+   "obs": "",
+   "enunciado": [
+    "Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cf497a6535d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 30, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 30, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2024",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA DE ARROIO DO SAL-RS",
+   "obs": "",
+   "enunciado": [
+    "Não se comunicam as circunstâncias e as condições de caráter pessoal, ainda que elementares do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-70dbdf9e52f3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 31, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "31",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 31, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 - O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6dc715f12804",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 31, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "31",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 31, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2014",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Em tema de concurso de pessoas, é possível afirmar que o ajuste, a determinação ou instigação e o auxílio nunca são puníveis, se o crime não chega, pelo menos, a ser tentado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4b574e8e6558",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 31, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "31",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 31, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições relativas ao concurso de pessoas e de crimes, constantes do Código Penal, julgue o seguinte item. A participação, na modalidade de instigação, é punida, ainda que o crime não chegue a ser, ao menos, tentado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 - O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f310adae8457",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 30 c/c Art. 61, II, f, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "30",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 30"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "61",
+     "disp": "II, f",
+     "sigla": "CP",
+     "texto": "Art. 61, II, f, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Com base no Código Penal e na legislação especial penal pertinente, julgue o item a seguir.",
+    "A circunstância que agrava a pena em razão de o agente cometer o crime prevalecendo-se de relações domésticas ou com violência contra a mulher, conforme disposto na Lei n.º 11.340/2006, ostenta natureza estritamente objetiva, atinente ao modo de execução do delito e, por consequência legal, havendo concurso de pessoas, essa agravante se comunicará de forma incondicional a todos os coautores e partícipes, com fulcro na regra geral de comunicabilidade das circunstâncias."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Circunstâncias incomunicáveis",
+    "Art. 30 - Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime.",
+    "Art. 61 - São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime:",
+    "[...]",
+    "II - ter o agente cometido o crime:",
+    "[...]",
+    "f) com abuso de autoridade ou prevalecendo-se de relações domésticas, de coabitação ou de hospitalidade, ou com violência contra a mulher na forma da lei específica;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Geral (Arts. 1º - 120, CP)"
+ ]
+}
