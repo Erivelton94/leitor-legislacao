@@ -368,8 +368,8 @@ function painelCompartilharCaderno(id, volta) {
 const idPastaEspelhoQ = (area, caminho) => "pasta-cq-p" + hashCurto(area + "/" + caminho.join("/"));
 async function garantirPastaLocalComp(id, nome, pai, area) {
   const q = estado.itens.get(id);
-  if (q && (q.apagado || q.lixeira)) return null;                     // a pessoa apagou a pasta: respeita
-  if (!q) await salvarItem({ id, tipo: "pasta", area, nome, pai: pai || null, leis: [], cadernos: [], compartilhada: true, auto: true });
+  if (q && ((q.apagado && !q.autoRemovida) || q.lixeira)) return null;   // a pessoa apagou a pasta: respeita
+  if (!q || q.apagado) await salvarItem({ id, tipo: "pasta", area, nome, pai: pai || null, leis: [], cadernos: [], compartilhada: true, auto: true });   // nova, ou o app tinha tirado por estar vazia
   else if (q.nome !== nome && q.compartilhada) await salvarItem({ ...q, nome });
   return id;
 }
@@ -392,6 +392,11 @@ async function pastaLocalDaComp(c, area) {
 }
 async function organizarCompartilhadosQ() {
   if (cfgDono()) { agendarEspelhoDono(); return; }        // o dono organiza o próprio app; os outros acompanham o dele
+  if (!lerLS("espelho-q-v2", false)) {                     // conserto: pastas que o próprio app tirou (quando o dono desligou e ligou de novo) voltam
+    for (const q of [...estado.itens.values()]) if (q.tipo === "pasta" && q.apagado && !q.autoRemovida && String(q.id).startsWith("pasta-cq-")) await salvarItem({ ...q, autoRemovida: true });
+    for (const m of [...estado.itens.values()]) if (m.tipo === "colocado" && !m.apagado && m.alvo && estado.itens.get(m.alvo)?.apagado) await apagarItem(m.id);
+    gravarLS("espelho-q-v2", true);
+  }
   const esperadas = new Set();
   for (const e of estado.indiceQ?.estruturas || []) {      // pastas compartilhadas inteiras (até as subpastas vazias)
     if (!Array.isArray(e.caminho) || !e.caminho.length) continue;
@@ -422,7 +427,8 @@ async function organizarCompartilhadosQ() {
     for (const p of [...estado.itens.values()].filter(x => x.tipo === "pasta" && !x.apagado && !x.lixeira && x.auto && x.compartilhada && areaDeCadernos(x.area))) {
       if (esperadas.has(p.id)) continue;
       if (pastasDe(p.area, p.id).length || (p.cadernos || []).some(id => estado.cadernos[id])) continue;
-      await apagarItem(p.id); mudou = true;
+      await salvarItem({ id: p.id, tipo: "pasta", area: p.area, apagado: true, autoRemovida: true }); mudou = true;   // se o dono compartilhar de novo, a pasta volta
+      for (const m of [...estado.itens.values()]) if (m.tipo === "colocado" && !m.apagado && m.alvo === p.id) await apagarItem(m.id);
     }
   }
 }

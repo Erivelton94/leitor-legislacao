@@ -942,6 +942,18 @@ async def testes(b):
     raiz = await p20.evaluate("[...document.querySelectorAll('.acervo .lei-nome')].map(e=>e.textContent.trim())")
     confere("Quem recebe: o caderno fica na pasta compartilhada (Penal › Furto); “só as questões” entra só no banco e no filtro",
         rec == ["Penal › Furto", None, ["q-pub1", "q-pub2", "q-pub3"]] and any("Penal" in r for r in raiz) and not any("Banco extra" in r for r in raiz), [rec, raiz])
+    # o dono desliga a pasta e liga de novo: os arquivos voltam para dentro das pastas (não ficam soltos)
+    guarda = pub.pop("pub-cam"); estr_guarda = True
+    async def _indice_sem(route):
+        await route.fulfill(json={"cadernos": [{"id": k, "titulo": v["titulo"], "arquivo": k + ".json", "hash": "h-" + k, "qtd": 1} for k, v in pub.items()], "estruturas": []})
+    await ctx20.unroute(U + "dados/questoes/indice.json*"); await ctx20.route(U + "dados/questoes/indice.json*", _indice_sem)
+    await p20.reload(); await p20.wait_for_timeout(2500)
+    sumiu = await p20.evaluate("pastasDe('questoes').map(p=>textoCaminho(p.id)).filter(t=>t.startsWith('Processo')).length")
+    pub["pub-cam"] = guarda
+    await ctx20.unroute(U + "dados/questoes/indice.json*"); await ctx20.route(U + "dados/questoes/indice.json*", _indice_pub)
+    await p20.reload(); await p20.wait_for_timeout(2500)
+    volta = await p20.evaluate("(()=>{ const pid = pastaDoItem('questoes','pub-cam'); return pid ? textoCaminho(pid) : '(solto)'; })()")
+    confere("Dono desligou e ligou a pasta de novo: quem recebe vê os arquivos dentro das pastas outra vez (não soltos)", sumiu == 0 and volta == "Processo Penal › Inquérito", [sumiu, volta])
     confere("Nenhum erro de programa ao receber questões compartilhadas", not p20.erros, p20.erros[:3])
     await ctx20.close()
 
