@@ -89,6 +89,7 @@ async function moverParaPasta(area, itemId, pastaId) {
     const r = resumos.lista.get(itemId); if (!r) return;
     r.pasta = pastaId || ""; delete r.materia; delete r.assunto;
     await salvarMeta(r);
+    if (r.publicado && typeof agendarEspelhoDono === "function") agendarEspelhoDono();
     return;
   }
   const campo = campoPasta(area);

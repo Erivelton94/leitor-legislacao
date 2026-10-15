@@ -6,8 +6,8 @@
      aparece para todos em "📚 Compartilhados pelo app";
    - desligar, arquivar ou mandar para a lixeira → sai do app dos outros
      (a sua cópia continua na sua conta).
-   Quem recebe toca no resumo e ele é copiado para os próprios resumos
-   (com caneta, marcações e tudo), dentro da pasta "Compartilhados pelo app".
+   Quem recebe toca no resumo (ou copia a pasta inteira) e ele vai para os
+   próprios resumos, no mesmo caminho de pastas do app do dono.
    ===================================================================== */
 const IDX_RES = "dados/resumos/indice.json";
 const maisNovo = (a, b) => (!a ? b : !b ? a : String(b.atualizadoEm || "") > String(a.atualizadoEm || "") ? b : a);   // o site do app leva ~1 min para publicar: vale a cópia mais nova
@@ -40,59 +40,81 @@ async function gravarIndiceRes(p, lista, idx) {
   await gravarNoCache(IDX_RES, idx);
   compartilhados.indice = idx;
 }
-/* publica uma lista de resumos; "pastaDe" diz em que pasta compartilhada cada um aparece */
-async function publicarResumos(lista, { comMarcacoes = false, pastas = [], pastaDe = () => null } = {}, aviso) {
-  const p = provedorDono(); await p.preparar();
-  const arqs = await p.listarPasta("dados/resumos");
-  const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
-  idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
-  for (const pa of pastas) { idx.pastas = idx.pastas.filter(x => x.id !== pa.id); idx.pastas.push(pa); }
-  let n = 0;
-  for (const r of lista) {
-    aviso && aviso(`Enviando ${++n} de ${lista.length}: ${r.origem || r.titulo}…`);
-    const blob = await arquivoParaPublicar(r, comMarcacoes);
-    if (!blob) throw new Error(`O arquivo de "${r.origem || r.titulo}" não está neste aparelho.`);
-    if (blob.size > LIMITE_COMPARTILHAR_MB * 1048576) throw new Error(`"${r.origem || r.titulo}" tem ${mb(blob.size)}: o limite para compartilhar é ${LIMITE_COMPARTILHAR_MB} MB.`);
-    const bytes = new Uint8Array(await blob.arrayBuffer());
-    const arquivo = `${r.id}.${extensaoDe(r)}`, caminho = "dados/resumos/" + arquivo;
-    await p.enviar(caminho, bytes, arqs.get(caminho));
-    idx.resumos = idx.resumos.filter(x => x.id !== r.id);
-    idx.resumos.push({ id: r.id, titulo: r.titulo || "", origem: r.origem || "", formato: r.formato || "html", arquivo, tamanho: bytes.length,
-      pasta: pastaDe(r) || null, hash: hashCurto(String(bytes.length) + (r.atualizadoEm || "") + (comMarcacoes ? "m" : "")), em: agoraISO() });
+/* espelho: as pastas compartilhadas são as mesmas pastas do app do dono (mesmo id, nome e lugar) */
+function pastasEspelhoRes(pastasDosArquivos, pastasCompartilhadas) {
+  const ids = new Set();
+  const comCaminho = pid => { for (const q of caminhoPasta(pid)) ids.add(q.id); };
+  for (const pid of pastasDosArquivos) if (pid) comCaminho(pid);
+  for (const pid of pastasCompartilhadas) { comCaminho(pid); for (const d of descendentes(pid)) if (!estado.itens.get(d)?.arquivada) comCaminho(d); }
+  return [...ids].map(id => { const q = estado.itens.get(id); return { id, nome: q.nome, pai: paiDe(q) }; });
+}
+function espelharIndiceRes(idx) {
+  for (const e of idx.resumos) {
+    const r = resumos.lista?.get(e.id);
+    if (r) e.pasta = pastaDoItem("resumos", r.id);
+    else if (e.pasta && !pastaViva(estado.itens.get(e.pasta))) e.pasta = null;
   }
-  aviso && aviso("Atualizando a lista de compartilhados…");
-  await gravarIndiceRes(p, arqs, idx);
-  for (const r of lista) { r.publicado = true; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); }
+  const pubs = pastasDe("resumos").filter(p => p.publicada === true && !p.arquivada).map(p => p.id);
+  idx.pastas = pastasEspelhoRes(idx.resumos.map(e => e.pasta), pubs);
+}
+/* publica uma lista de resumos (cada um aparece no mesmo caminho de pastas do app do dono) */
+async function publicarResumos(lista, { comMarcacoes = false } = {}, aviso) {
+  donoOcupado++;
+  try {
+    const p = provedorDono(); await p.preparar();
+    const arqs = await p.listarPasta("dados/resumos");
+    const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
+    idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
+    let n = 0;
+    for (const r of lista) {
+      aviso && aviso(`Enviando ${++n} de ${lista.length}: ${r.origem || r.titulo}…`);
+      const blob = await arquivoParaPublicar(r, comMarcacoes);
+      if (!blob) throw new Error(`O arquivo de "${r.origem || r.titulo}" não está neste aparelho.`);
+      if (blob.size > LIMITE_COMPARTILHAR_MB * 1048576) throw new Error(`"${r.origem || r.titulo}" tem ${mb(blob.size)}: o limite para compartilhar é ${LIMITE_COMPARTILHAR_MB} MB.`);
+      const bytes = new Uint8Array(await blob.arrayBuffer());
+      const arquivo = `${r.id}.${extensaoDe(r)}`, caminho = "dados/resumos/" + arquivo;
+      await p.enviar(caminho, bytes, arqs.get(caminho));
+      idx.resumos = idx.resumos.filter(x => x.id !== r.id);
+      idx.resumos.push({ id: r.id, titulo: r.titulo || "", origem: r.origem || "", formato: r.formato || "html", arquivo, tamanho: bytes.length,
+        pasta: null, hash: hashCurto(String(bytes.length) + (r.atualizadoEm || "") + (comMarcacoes ? "m" : "")), em: agoraISO() });
+    }
+    for (const r of lista) { r.publicado = true; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); }
+    espelharIndiceRes(idx);
+    aviso && aviso("Atualizando a lista de compartilhados…");
+    await gravarIndiceRes(p, arqs, idx);
+  } finally { donoOcupado--; }
 }
 async function despublicarResumos(ids, pastaIds = [], aviso) {
-  const p = provedorDono(); await p.preparar();
-  const arqs = await p.listarPasta("dados/resumos");
-  if (!arqs.has(IDX_RES)) return;
-  const idx = deBytes(await p.baixar(IDX_RES));
-  const sair = new Set(ids);
-  aviso && aviso("Tirando do app dos outros usuários…");
-  for (const e of (idx.resumos || []).filter(x => sair.has(x.id))) { const c = "dados/resumos/" + e.arquivo; if (arqs.has(c)) await p.apagar(c, arqs.get(c)); }
-  idx.resumos = (idx.resumos || []).filter(x => !sair.has(x.id));
-  const pastasSair = new Set(pastaIds);
-  idx.pastas = (idx.pastas || []).filter(x => !pastasSair.has(x.id));
-  await gravarIndiceRes(p, arqs, idx);
-  for (const id of ids) { const r = resumos.lista.get(id); if (r && r.publicado) { r.publicado = false; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); } }
+  donoOcupado++;
+  try {
+    const p = provedorDono(); await p.preparar();
+    const arqs = await p.listarPasta("dados/resumos");
+    if (!arqs.has(IDX_RES)) return;
+    const idx = deBytes(await p.baixar(IDX_RES));
+    idx.resumos = idx.resumos || [];
+    const sair = new Set(ids);
+    aviso && aviso("Tirando do app dos outros usuários…");
+    for (const e of idx.resumos.filter(x => sair.has(x.id))) { const c = "dados/resumos/" + e.arquivo; if (arqs.has(c)) await p.apagar(c, arqs.get(c)); }
+    idx.resumos = idx.resumos.filter(x => !sair.has(x.id));
+    for (const id of ids) { const r = resumos.lista.get(id); if (r && r.publicado) { r.publicado = false; await salvarMeta(r, false); await bdGravar("resumos", { ...r, atualizadoEm: agoraISO() }); r.atualizadoEm = agoraISO(); } }
+    espelharIndiceRes(idx);
+    await gravarIndiceRes(p, arqs, idx);
+  } finally { donoOcupado--; }
 }
-/* pasta: tudo o que está dentro (com as subpastas) aparece para os outros, na mesma organização */
-async function publicarPastaResumos(id, comMarcacoes, aviso, paiComp = undefined, novas = []) {
+/* pasta: ela, as subpastas (mesmo vazias) e todos os arquivos aparecem para os outros, no mesmo caminho */
+async function publicarPastaResumos(id, comMarcacoes, aviso) {
   const todas = [id, ...descendentes(id)];
-  const ativas = new Set(todas);
-  const raizPai = paiComp === undefined ? (estado.itens.get(id).pastaCompPai || null) : paiComp;
-  const pastas = [...novas, ...todas.map(pid => { const q = estado.itens.get(pid); return { id: pid, nome: q.nome, pai: pid === id ? raizPai : (ativas.has(paiDe(q)) ? paiDe(q) : id) }; })];
-  const lista = todas.flatMap(pid => itensDaPasta("resumos", pid)).map(rid => resumos.lista.get(rid)).filter(r => r && !r.arquivado);
-  await publicarResumos(lista, { comMarcacoes, pastas, pastaDe: r => pastaDoResumo(r) }, aviso);
-  for (const pid of todas) { const q = estado.itens.get(pid); if (!q.publicada || (pid === id && (q.pastaCompPai || null) !== raizPai)) await salvarItem({ ...q, publicada: pid === id ? true : "dentro", ...(pid === id ? { pastaCompPai: raizPai } : {}) }); }
+  for (const pid of todas) { const q = estado.itens.get(pid); const quer = pid === id ? true : "dentro";
+    if (q.publicada !== true && q.publicada !== quer) await salvarItem({ ...q, publicada: quer, ...(pid === id ? { compMarcado: !!comMarcacoes } : {}) });
+    else if (pid === id) await salvarItem({ ...q, compMarcado: !!comMarcacoes }); }
+  const lista = todas.filter(pid => !estado.itens.get(pid)?.arquivada).flatMap(pid => itensDaPasta("resumos", pid)).map(rid => resumos.lista.get(rid)).filter(r => r && !r.arquivado);
+  await publicarResumos(lista, { comMarcacoes }, aviso);
 }
 async function despublicarPastaResumos(id, aviso) {
   const todas = [id, ...descendentes(id)];
+  for (const pid of todas) { const q = estado.itens.get(pid); if (q && q.publicada) { const c = { ...q }; delete c.publicada; await salvarItem(c); } }
   const ids = todas.flatMap(pid => itensDaPasta("resumos", pid)).concat([...resumos.lista.values()].filter(r => r.publicado && todas.includes(r.pasta)).map(r => r.id));
   await despublicarResumos([...new Set(ids)], todas, aviso);
-  for (const pid of todas) { const q = estado.itens.get(pid); if (q && q.publicada) { const c = { ...q }; delete c.publicada; await salvarItem(c); } }
 }
 /* arquivar ou mandar para a lixeira: sai do app dos outros (sem travar se estiver sem internet) */
 async function tirarDoArSeDono(resumosLista = [], pastaId = null) {
@@ -122,15 +144,16 @@ function painelLigarCompartilhar(titulo, texto, temPdf, aoLigar, volta, aviso) {
     catch (e) { msg("⚠️ " + e.message); $$("#painel-caixa [data-comp-modo]").forEach(x => x.disabled = false); }
   });
 }
+const textoOnde = (area, pastaId) => { const inicio = { questoes: "Pastas e arquivos", leiseca: "Pastas e arquivos", resumos: "📚 Compartilhados pelo app" }[area];
+  return [inicio, ...(pastaId ? caminhoPasta(pastaId).map(x => x.nome) : [])].join(" › "); };
 function ligarVisivelResumo(r, volta) {
   const b = $("#r-visivel"); if (!b) return;
   b.onclick = async () => {
     if (!r.publicado) {
       if (r.arquivado) { alert("Este resumo está arquivado. Desarquive primeiro para poder compartilhá-lo."); return; }
-      return painelCompartilharResumos({ titulo: "Compartilhar com os outros usuários",
-        texto: `“${esc(r.origem || r.titulo)}” passa a aparecer para todos em <strong>📚 Compartilhados pelo app</strong>, na pasta que você escolher, em cerca de 1 minuto. Você pode desligar quando quiser.`,
-        temPdf: r.formato === "pdf", caminhoSugerido: r.pasta ? caminhoPasta(r.pasta).map(x => x.nome) : [],
-        aoLigar: (marcado, destino, novas, msg) => publicarResumos([r], { comMarcacoes: marcado, pastas: novas, pastaDe: () => destino }, msg), volta, aviso: "👁 Resumo visível para todos" });
+      return painelLigarCompartilhar("Compartilhar com os outros usuários",
+        `“${esc(r.origem || r.titulo)}” passa a aparecer para todos em cerca de 1 minuto, no mesmo caminho de pastas do seu app:<br><strong>${esc(textoOnde("resumos", pastaDoItem("resumos", r.id)))}</strong>.<br>Se você mudar o arquivo ou as pastas de lugar, o app dos outros acompanha. Dá para desligar quando quiser.`,
+        r.formato === "pdf", (marcado, msg) => publicarResumos([r], { comMarcacoes: marcado }, msg), volta, "👁 Resumo visível para todos");
     }
     if (!confirm(`Desligar? "${r.origem || r.titulo}" deixa de aparecer no app dos outros usuários. Quem já copiou continua com a cópia. A sua continua aqui.`)) return;
     b.disabled = true;
@@ -139,46 +162,100 @@ function ligarVisivelResumo(r, volta) {
   };
 }
 function botoesVisivelPasta(p) {
-  if (!cfgDono() || (p.area || "leis") !== "resumos") return "";
-  return `<button id="pu-visivel">${p.publicada === true ? "👁 Visível para outros usuários: <strong>ligado</strong> (tocar para desligar)" : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>
-    ${p.publicada === true ? '<button id="pu-atualizar">🔄 Atualizar o que os outros veem (envia os arquivos novos desta pasta)</button>' : ""}`;
+  const area = p.area || "leis";
+  if (!cfgDono() || area === "leis") return "";
+  const dentro = p.publicada === "dentro" ? " (já está dentro de uma pasta compartilhada)" : "";
+  return `<button id="pu-visivel">${p.publicada === true ? "👁 Visível para outros usuários: <strong>ligado</strong> (tocar para desligar)" : `🙈 Visível para outros usuários: <strong>desligado</strong>${dentro} (tocar para ligar a pasta inteira)`}</button>
+    ${p.publicada === true ? `<button id="pu-atualizar">🔄 Atualizar o que os outros veem (envia ${area === "resumos" ? "os arquivos novos" : "as listas e cadernos novos"} desta pasta)</button>` : ""}`;
 }
 function ligarVisivelPasta(p, volta) {
   const b = $("#pu-visivel"); if (!b) return;
-  const temPdf = () => [p.id, ...descendentes(p.id)].some(pid => itensDaPasta("resumos", pid).some(rid => resumos.lista.get(rid)?.formato === "pdf"));
-  const abrir = (titulo, aviso) => painelCompartilharResumos({ titulo,
-    texto: `A pasta “${esc(p.nome)}”, as subpastas e os ${totalNaPasta("resumos", p.id)} arquivo(s) aparecem para todos em <strong>📚 Compartilhados pelo app</strong>, na mesma organização, dentro da pasta compartilhada que você escolher (ou no início). Você pode desligar quando quiser.`,
-    temPdf: temPdf(), pastaPropria: p.pastaCompPai || null,
-    aoLigar: (marcado, destino, novas, msg) => publicarPastaResumos(p.id, marcado, msg, destino, novas), volta, aviso });
+  const area = p.area || "leis";
+  const nome = { resumos: "arquivo(s)", questoes: "caderno(s)", leiseca: "lista(s)" }[area];
+  const texto = `A pasta “${esc(p.nome)}”, as ${descendentes(p.id).length} subpasta(s) e os ${totalNaPasta(area, p.id)} ${nome} de dentro passam a aparecer para todos, no mesmo caminho do seu app:<br><strong>${esc(textoOnde(area, p.id))}</strong>.<br>O que você colocar depois nesta pasta${area === "resumos" ? " vai para os outros quando você tocar em “Atualizar”" : " também passa a aparecer para eles"}, e se você renomear ou mudar as pastas de lugar, o app dos outros acompanha.`;
+  const abrir = (titulo, aviso) => {
+    if (area === "resumos") {
+      const temPdf = [p.id, ...descendentes(p.id)].some(pid => itensDaPasta("resumos", pid).some(rid => resumos.lista.get(rid)?.formato === "pdf"));
+      return painelLigarCompartilhar(titulo, texto, temPdf, (marcado, msg) => publicarPastaResumos(p.id, marcado, msg), volta, aviso);
+    }
+    painelPastaQ(p, titulo, texto, volta, aviso);
+  };
   b.onclick = async () => {
     if (p.publicada !== true) {
       if (p.arquivada) { alert("Esta pasta está arquivada. Desarquive primeiro."); return; }
       return abrir("Compartilhar a pasta com os outros usuários", "👁 Pasta visível para todos");
     }
-    if (!confirm(`Desligar? A pasta "${p.nome}" e os arquivos dela deixam de aparecer para os outros usuários.`)) return;
+    if (!confirm(`Desligar? A pasta "${p.nome}" e tudo o que está dentro deixam de aparecer para os outros usuários. A sua continua aqui.`)) return;
     b.disabled = true;
-    try { await despublicarPastaResumos(p.id, t => { b.textContent = t; }); fecharPainel(); volta(); mostrarAvisoRapido("🙈 Pasta oculta para os outros usuários"); }
+    try { await (area === "resumos" ? despublicarPastaResumos(p.id, t => { b.textContent = t; }) : despublicarPastaQ(p.id, t => { b.textContent = t; }));
+      fecharPainel(); volta(); mostrarAvisoRapido("🙈 Pasta oculta para os outros usuários"); }
     catch (e) { b.textContent = "⚠️ " + e.message; b.disabled = false; }
   };
   const at = $("#pu-atualizar");
   if (at) at.onclick = () => abrir("Atualizar o que os outros veem", "🔄 Compartilhados atualizados");
 }
+/* questões: pasta inteira (Lei Seca ou Múltipla Escolha) */
+function painelPastaQ(p, titulo, texto, volta, aviso) {
+  abrirPainel(`<h2>${esc(titulo)} ${botaoFechar}</h2><p class="contagem" style="margin-top:0">${texto}</p>
+    <h3 class="grupo-assunto">Como aparece para eles</h3>
+    <div class="lista-opcoes-ls">
+      <label class="opcao-ls"><input type="radio" name="modo-pq" value="arquivo" ${!p.soQuestoes ? "checked" : ""}><span><strong>Questões + os arquivos nas pastas</strong><br><span class="contagem">As pastas, as subpastas e os arquivos aparecem iguais aos seus, e as questões entram no banco e no filtro.</span></span></label>
+      <label class="opcao-ls"><input type="radio" name="modo-pq" value="questoes" ${p.soQuestoes ? "checked" : ""}><span><strong>Só as questões</strong><br><span class="contagem">As questões entram no banco e no filtro deles, sem os arquivos aparecerem nas pastas.</span></span></label>
+    </div>
+    <div class="acoes" style="margin-top:12px"><button class="botao primario" id="pq-ligar">👁 Ligar (visível para todos)</button></div>
+    <p class="contagem" id="pq-msg"></p>`);
+  $("#pq-ligar").onclick = async () => {
+    $$("#painel-caixa button").forEach(x => { x.disabled = true; });
+    const msg = t => { const m = $("#pq-msg"); if (m) m.textContent = t; };
+    try { await publicarPastaQ(p.id, $("input[name=modo-pq]:checked").value === "questoes", msg); fecharPainel(); volta(); mostrarAvisoRapido(aviso); }
+    catch (e) { msg("⚠️ " + e.message); $$("#painel-caixa button").forEach(x => { x.disabled = false; }); }
+  };
+}
+const cadernosDaPastaQ = pid => { const area = estado.itens.get(pid).area;
+  return [pid, ...descendentes(pid)].filter(x => !estado.itens.get(x)?.arquivada).flatMap(x => itensDaPasta(area, x)).filter(id => estado.cadernos[id] && !cadernoArquivado(id)); };
+function estruturasDaPastaQ(pid) {
+  const area = estado.itens.get(pid).area;
+  return [pid, ...descendentes(pid)].filter(x => !caminhoPasta(x).some(q => q.arquivada)).map(x => ({ area, caminho: caminhoPasta(x).map(q => q.nome) }));
+}
+function estruturasPublicadasQ() {
+  const out = [], vistos = new Set();
+  for (const area of ["questoes", PLATAFORMA_LS]) for (const p of pastasDe(area)) if (p.publicada === true && !caminhoPasta(p.id).some(q => q.arquivada))
+    for (const e of estruturasDaPastaQ(p.id)) { const k = e.area + "/" + e.caminho.join("/"); if (!vistos.has(k)) { vistos.add(k); out.push(e); } }
+  return out.sort((a, b) => (a.area + a.caminho.join("/")).localeCompare(b.area + b.caminho.join("/")));
+}
+async function publicarPastaQ(pid, soQuestoes, aviso) {
+  const todas = [pid, ...descendentes(pid)];
+  for (const x of todas) { const q = estado.itens.get(x); const quer = x === pid ? true : "dentro";
+    if (x === pid) await salvarItem({ ...q, publicada: true, soQuestoes: !!soQuestoes });
+    else if (q.publicada !== true && q.publicada !== quer) await salvarItem({ ...q, publicada: quer }); }
+  await publicarCadernos(cadernosDaPastaQ(pid), aviso, { soQuestoes, estruturas: estruturasPublicadasQ() });
+}
+async function despublicarPastaQ(pid, aviso) {
+  const area = estado.itens.get(pid).area, todas = [pid, ...descendentes(pid)];
+  for (const x of todas) { const q = estado.itens.get(x); if (q?.publicada) { const c = { ...q }; delete c.publicada; delete c.soQuestoes; await salvarItem(c); } }
+  const ids = todas.flatMap(x => itensDaPasta(area, x)).filter(id => ehVisivelParaTodos(id));
+  await despublicarCadernos(ids, aviso, { estruturas: estruturasPublicadasQ() });
+}
 
 /* ---------- lado de quem recebe: ver e copiar para os próprios resumos ---------- */
-const ID_PASTA_RECEBIDOS = "pasta-c-raiz";
+const ID_PASTA_RECEBIDOS = "pasta-c-raiz";                // versões antigas punham tudo nesta pasta
+/* cria (ou acerta) no app de quem recebe o mesmo caminho de pastas do app do dono, a partir do início de Meus Resumos */
 async function pastaLocalDosCompartilhados(pastaCompId) {
-  const garantir = async (id, nome, pai) => {
-    const q = estado.itens.get(id);
-    if (!q || q.apagado) await salvarItem({ id, tipo: "pasta", area: "resumos", nome, pai, leis: [], cadernos: [] });
-    else if (q.lixeira) { const c = { ...q }; delete c.lixeira; await salvarItem(c); }
-    return id;
-  };
-  await garantir(ID_PASTA_RECEBIDOS, "Compartilhados pelo app", null);
-  if (!pastaCompId) return ID_PASTA_RECEBIDOS;
+  if (!pastaCompId) return "";
   const idx = compartilhados.indice, cam = [];
   for (let id = pastaCompId, voltas = 0; id && voltas < 30; voltas++) { const pa = idx.pastas.find(x => x.id === id); if (!pa) break; cam.unshift(pa); id = pa.pai; }
-  let pai = ID_PASTA_RECEBIDOS;
-  for (const pa of cam) pai = await garantir("pasta-c-" + pa.id, pa.nome, pai);
+  let pai = null;
+  for (const pa of cam) {
+    const id = "pasta-c-" + pa.id, q = estado.itens.get(id);
+    if (!q || q.apagado) await salvarItem({ id, tipo: "pasta", area: "resumos", nome: pa.nome, pai, autoPai: pai, leis: [], cadernos: [], compartilhada: true });
+    else {
+      const naoMexeu = q.pai === ID_PASTA_RECEBIDOS || (q.pai || null) === (q.autoPai === undefined ? q.pai || null : q.autoPai);   // a pessoa não mudou a pasta de lugar
+      const c = { ...q }; delete c.lixeira;
+      if (naoMexeu) { c.pai = pai; c.autoPai = pai; c.nome = pa.nome; }
+      if (q.lixeira || naoMexeu && (q.pai !== pai || q.nome !== pa.nome || q.autoPai !== pai)) await salvarItem(c);
+    }
+    pai = id;
+  }
   return pai;
 }
 const copiaLocal = idComp => [...resumos.lista.values()].find(r => !r.apagado && !r.lixeira && r.deCompartilhado === idComp);
@@ -215,37 +292,19 @@ async function telaCompartilhados(pastaId = null) {
   const lista = idx.resumos.filter(x => (x.pasta || null) === (pastaId || null)).sort((a, b) => (a.origem || a.titulo).localeCompare(b.origem || b.titulo, "pt-BR", { numeric: true }));
   const contar = id => { const ids = new Set([id]); let mudou = true; while (mudou) { mudou = false; for (const q of idx.pastas) if (q.pai && ids.has(q.pai) && !ids.has(q.id)) { ids.add(q.id); mudou = true; } } return idx.resumos.filter(x => ids.has(x.pasta)).length; };
   $("#conteudo").innerHTML = `<div class="secao">
-    <p class="contagem" style="margin-top:0">Materiais que o dono do app compartilhou. Toque num arquivo para copiá-lo para os seus resumos: a cópia é sua (dá para marcar, escrever com a caneta e organizar) e fica em <strong>Meus Resumos › Compartilhados pelo app</strong>.</p>
-    ${dono ? `<div class="acoes-linha"><button class="botao" id="nova-pasta-comp">+ Nova pasta compartilhada${pasta ? " aqui" : ""}</button></div>
-      <p class="contagem">👑 Você vê também as pastas vazias. Use o ⋯ para mudar um arquivo ou uma pasta de lugar, renomear ou apagar pasta vazia.</p>` : ""}
+    <p class="contagem" style="margin-top:0">Materiais que o dono do app compartilhou, na mesma organização de pastas dele. Toque num arquivo (ou copie a pasta inteira) para trazê-lo para os seus resumos: a cópia é sua (dá para marcar, escrever com a caneta e organizar) e fica em <strong>Meus Resumos</strong>, no mesmo caminho de pastas.</p>
+    ${dono ? `<p class="contagem">👑 Esta é exatamente a organização que os outros veem: as mesmas pastas e subpastas de Meus Resumos. Para mudar algo aqui, organize as suas pastas (renomear, mover) e o app dos outros acompanha.</p>` : ""}
     ${lista.length || pastas.length ? `<div class="acoes-linha"><button class="botao primario" id="copiar-tudo">⬇️ Copiar ${pasta ? "esta pasta inteira" : "tudo"} para os meus resumos</button></div>` : ""}
     <p class="contagem" id="msg-comp"></p>
     <ul class="acervo">
-      ${pastas.map(q => `<li class="lei-item pasta-item"><span class="aba"></span><button class="abrir" data-href="#/resumos/compartilhados/${esc(q.id)}"><span class="lei-nome">${ICONE_PASTA}${esc(q.nome)}</span><span class="lei-num">${contar(q.id)} arquivo(s)</span></button>${dono ? `<button class="mais" data-menu-pcomp="${esc(q.id)}" aria-label="Opções da pasta compartilhada">⋯</button>` : "<span></span>"}</li>`).join("")}
+      ${pastas.map(q => `<li class="lei-item pasta-item"><span class="aba"></span><button class="abrir" data-href="#/resumos/compartilhados/${esc(q.id)}"><span class="lei-nome">${ICONE_PASTA}${esc(q.nome)}</span><span class="lei-num">${contar(q.id)} arquivo(s)</span></button><span></span></li>`).join("")}
       ${lista.map(x => { const c = copiaLocal(x.id); return `<li class="lei-item"><span class="aba"></span><button class="abrir" data-comp="${esc(x.id)}">
           <span class="lei-nome">📄 ${esc(x.origem || x.titulo)}</span>
-          <span class="lei-num">${x.formato.toUpperCase()} · ${mb(x.tamanho || 0)}${c ? (c.versaoCompartilhada === x.hash ? " · ✓ já está nos seus resumos (tocar para abrir)" : " · 🆕 versão nova disponível (tocar para copiar de novo)") : " · tocar para copiar e abrir"}</span></button>${dono ? `<button class="mais" data-menu-rcomp="${esc(x.id)}" aria-label="Mudar de pasta">⋯</button>` : "<span></span>"}</li>`; }).join("")}
+          <span class="lei-num">${x.formato.toUpperCase()} · ${mb(x.tamanho || 0)}${c ? (c.versaoCompartilhada === x.hash ? " · ✓ já está nos seus resumos (tocar para abrir)" : " · 🆕 versão nova disponível (tocar para copiar de novo)") : " · tocar para copiar e abrir"}</span></button><span></span></li>`; }).join("")}
     </ul>
     ${!lista.length && !pastas.length ? '<p class="vazio">Nada compartilhado por aqui ainda.</p>' : ""}</div>`;
   const msg = t => { const m = $("#msg-comp"); if (m) m.textContent = t; };
   const volta = () => telaCompartilhados(pastaId);          // o índice novo já está na memória: não espera o site do app
-  if ($("#nova-pasta-comp")) $("#nova-pasta-comp").onclick = async () => {
-    const nome = prompt("Nome da pasta compartilhada:"); if (!nome || !nome.trim()) return;
-    try { await editarIndiceRes(i => { i.pastas.push({ id: idPastaComp(), nome: nome.trim(), pai: pastaId || null }); }); volta(); }
-    catch (e) { msg("⚠️ " + e.message); }
-  };
-  $$("[data-menu-rcomp]").forEach(b => b.onclick = () => painelMoverCompartilhado("resumo", b.dataset.menuRcomp, volta));
-  $$("[data-menu-pcomp]").forEach(b => b.onclick = () => {
-    const pc = idx.pastas.find(x => x.id === b.dataset.menuPcomp);
-    const vazia = contarTudo(pc.id) === 0;
-    abrirPainel(`<h2>📁 ${esc(pc.nome)} ${botaoFechar}</h2><div class="acoes">
-      <button id="pc-renomear">✏️ Renomear</button><button id="pc-mover">📁 Mover para outra pasta compartilhada</button>
-      <button id="pc-apagar" ${vazia ? "" : "disabled"} style="color:var(--alt)">🗑 Apagar a pasta${vazia ? "" : " (só dá quando estiver vazia)"}</button></div><p class="contagem" id="pc-msg"></p>`);
-    const feito = async mudar => { try { await editarIndiceRes(mudar); fecharPainel(); volta(); } catch (e) { $("#pc-msg").textContent = "⚠️ " + e.message; } };
-    $("#pc-renomear").onclick = () => { const n = prompt("Novo nome:", pc.nome); if (n && n.trim()) feito(i => { const e = i.pastas.find(x => x.id === pc.id); if (e) e.nome = n.trim(); }); };
-    $("#pc-mover").onclick = () => painelMoverCompartilhado("pasta", pc.id, volta);
-    $("#pc-apagar").onclick = () => { if (confirm(`Apagar a pasta compartilhada "${pc.nome}"?`)) feito(i => { const ids = new Set([pc.id]); let m = true; while (m) { m = false; for (const q of i.pastas) if (q.pai && ids.has(q.pai) && !ids.has(q.id)) { ids.add(q.id); m = true; } } i.pastas = i.pastas.filter(x => !ids.has(x.id)); }); };
-  });
   $$("[data-comp]").forEach(b => b.onclick = async () => {
     const e = idx.resumos.find(x => x.id === b.dataset.comp);
     b.disabled = true;
@@ -264,73 +323,36 @@ async function telaCompartilhados(pastaId = null) {
 }
 
 /* =====================================================================
-   PASTAS COMPARTILHADAS (modo dono)
-   O dono escolhe em que pasta cada resumo, lista ou caderno aparece no app dos
-   outros usuários, sem depender de como ele organiza o próprio app.
-   As pastas compartilhadas ficam no índice publicado ({id, nome, pai}).
+   ESPELHO DAS PASTAS (modo dono)
+   O que o dono compartilha aparece no app dos outros usuários no MESMO
+   caminho de pastas e subpastas do app dele. Se o dono renomear, mover ou
+   arquivar pastas, ou mudar um arquivo compartilhado de lugar, o app dos
+   outros acompanha sozinho (alguns segundos depois, com internet).
    ===================================================================== */
-const idPastaComp = () => "pc-" + uid().slice(0, 10);
-/* seletor de pasta compartilhada: árvore com "nenhuma" (início), criar pasta e subpasta, e atalho "mesmo caminho do meu app" */
-function seletorPastaComp(alvo, pastasExistentes, selecionada = null, caminhoSugerido = []) {
-  const novas = [];
-  let sel = selecionada || null;
-  const todas = () => [...pastasExistentes, ...novas];
-  const filhos = pai => todas().filter(p => (p.pai || null) === (pai || null)).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR", { numeric: true }));
-  const criar = (nome, pai) => {
-    const ja = filhos(pai).find(p => normNome(p.nome) === normNome(nome));
-    if (ja) return ja.id;
-    const p = { id: idPastaComp(), nome: nome.trim(), pai: pai || null };
-    novas.push(p); return p.id;
-  };
-  const ramo = (pai, nivel) => filhos(pai).map(p => `<div class="no-comp" style="padding-left:${nivel * 18}px">
-      <label class="opcao-ls"><input type="radio" name="dest-comp" value="${esc(p.id)}" ${sel === p.id ? "checked" : ""}><span>${ICONE_PASTA} ${esc(p.nome)}${novas.includes(p) ? ' <span class="contagem">(nova)</span>' : ""}</span>
-      <button class="link" data-sub-comp="${esc(p.id)}" type="button">+ subpasta</button></label></div>${ramo(p.id, nivel + 1)}`).join("");
-  const desenhar = () => {
-    alvo.innerHTML = `<div class="arvore-comp lista-opcoes-ls">
-        <label class="opcao-ls"><input type="radio" name="dest-comp" value="" ${!sel ? "checked" : ""}><span>Início (fora das pastas)</span>
-          <button class="link" data-sub-comp="" type="button">+ nova pasta</button></label>
-        ${ramo(null, 1)}</div>
-      ${caminhoSugerido.length ? `<button class="link" id="comp-sugestao" type="button">↳ Usar o mesmo caminho do meu app: ${esc(caminhoSugerido.join(" › "))}</button>` : ""}`;
-    $$("input[name=dest-comp]", alvo).forEach(i => i.onchange = () => { sel = i.value || null; });
-    $$("[data-sub-comp]", alvo).forEach(b => b.onclick = () => {
-      const nome = prompt(b.dataset.subComp ? "Nome da subpasta compartilhada:" : "Nome da pasta compartilhada (ex.: Código Penal):");
-      if (!nome || !nome.trim()) return;
-      sel = criar(nome, b.dataset.subComp || null); desenhar();
-    });
-    const sg = $("#comp-sugestao", alvo);
-    if (sg) sg.onclick = () => { let pai = null; for (const n of caminhoSugerido) pai = criar(n, pai); sel = pai; desenhar(); };
-  };
-  desenhar();
-  return { valor: () => sel, novas: () => novas.slice(), todas };
-}
 const caminhoComp = (pastas, id) => { const out = []; for (let k = 0, p = pastas.find(x => x.id === id); p && k < 30; k++, p = pastas.find(x => x.id === p.pai)) out.unshift(p.nome); return out; };
+const caminhoDoItemQ = c => (ehListaLS(c) ? caminhoDaLista(c) : caminhoDoCaderno(c));
 
-/* ---------- questões: o dono escolhe a pasta compartilhada e o modo ---------- */
+/* ---------- questões: ligar um caderno ou uma lista ---------- */
 function painelCompartilharCaderno(id, volta) {
   const c = estado.cadernos[id];
-  const ls = ehListaLS(c), area = ls ? "leiseca" : "questoes";
+  const ls = ehListaLS(c), area = ls ? PLATAFORMA_LS : "questoes";
   const ligado = ehVisivelParaTodos(id);
-  const pastas = (estado.indiceQ?.pastas || []).filter(p => (p.area || "questoes") === area);
-  const meuCaminho = ls ? caminhoDaLista(c) : caminhoDoCaderno(c);
   abrirPainel(`<h2>${ligado ? "👁 Compartilhado" : "Compartilhar"}: ${esc(c.titulo)} ${botaoFechar}</h2>
-    <p class="contagem" style="margin-top:0">Escolha em que pasta ${ls ? "a lista" : "o caderno"} aparece no app dos outros usuários${ls ? " (no filtro, a pasta principal vira a Lei/Disciplina e a subpasta, o Assunto)" : ""}.</p>
-    <div id="sel-comp"></div>
+    <p class="contagem" style="margin-top:0">${ls ? "A lista" : "O caderno"} aparece no app dos outros usuários no mesmo caminho de pastas do seu app:<br><strong>${esc(textoOnde(area, pastaDoItem(area, id)))}</strong>.<br>Se você mudar ${ls ? "a lista" : "o caderno"} ou as pastas de lugar, o app dos outros acompanha.${ls ? " (No filtro, a pasta principal vira a Lei/Disciplina e a subpasta, o Assunto.)" : ""}</p>
     <h3 class="grupo-assunto">Como aparece para eles</h3>
     <div class="lista-opcoes-ls">
-      <label class="opcao-ls"><input type="radio" name="modo-comp" value="arquivo" ${!c.soQuestoes ? "checked" : ""}><span><strong>Questões + ${ls ? "a lista" : "o caderno"} na pasta</strong><br><span class="contagem">Como hoje: aparece na pasta escolhida e as questões entram no banco e no filtro.</span></span></label>
+      <label class="opcao-ls"><input type="radio" name="modo-comp" value="arquivo" ${!c.soQuestoes ? "checked" : ""}><span><strong>Questões + ${ls ? "a lista" : "o caderno"} na pasta</strong><br><span class="contagem">Aparece na mesma pasta que no seu app e as questões entram no banco e no filtro.</span></span></label>
       <label class="opcao-ls"><input type="radio" name="modo-comp" value="questoes" ${c.soQuestoes ? "checked" : ""}><span><strong>Só as questões</strong><br><span class="contagem">As questões entram no banco e no filtro deles, sem o arquivo aparecer nas pastas.</span></span></label>
     </div>
     <div class="acoes" style="margin-top:12px"><button class="botao primario" id="comp-ligar">${ligado ? "🔄 Salvar e atualizar para os outros" : "👁 Ligar (visível para todos)"}</button>
       ${ligado ? '<button id="comp-desligar" style="color:var(--alt)">🙈 Desligar (deixa de aparecer para os outros)</button>' : ""}</div>
     <p class="contagem" id="comp-msg"></p>`);
-  const seletor = seletorPastaComp($("#sel-comp"), pastas, c.pastaComp || null, meuCaminho);
   const msg = t => { const m = $("#comp-msg"); if (m) m.textContent = t; };
   $("#comp-ligar").onclick = async () => {
     if (cadernoArquivado(id)) { alert("Este item está arquivado. Desarquive primeiro."); return; }
     $$("#painel-caixa button").forEach(b => { b.disabled = true; });
     try {
-      await publicarCaderno(id, msg, { pastaComp: seletor.valor(), soQuestoes: $("input[name=modo-comp]:checked").value === "questoes",
-        novasPastas: seletor.novas().map(p => ({ ...p, area })) });
+      await publicarCaderno(id, msg, { soQuestoes: $("input[name=modo-comp]:checked").value === "questoes" });
       fecharPainel(); volta(); mostrarAvisoRapido(ligado ? "🔄 Atualizado para os outros usuários" : "👁 Visível para todos");
     } catch (e) { msg("⚠️ " + e.message); $$("#painel-caixa button").forEach(b => { b.disabled = false; }); }
   };
@@ -342,7 +364,8 @@ function painelCompartilharCaderno(id, volta) {
   };
 }
 
-/* ---------- quem recebe: listas e cadernos do app ficam nas pastas compartilhadas certinhas ---------- */
+/* ---------- quem recebe: as mesmas pastas do dono, com as listas e cadernos dentro ---------- */
+const idPastaEspelhoQ = (area, caminho) => "pasta-cq-p" + hashCurto(area + "/" + caminho.join("/"));
 async function garantirPastaLocalComp(id, nome, pai, area) {
   const q = estado.itens.get(id);
   if (q && (q.apagado || q.lixeira)) return null;                     // a pessoa apagou a pasta: respeita
@@ -350,83 +373,96 @@ async function garantirPastaLocalComp(id, nome, pai, area) {
   else if (q.nome !== nome && q.compartilhada) await salvarItem({ ...q, nome });
   return id;
 }
-async function pastaLocalDaComp(c, area) {
-  const pastasIdx = (estado.indiceQ?.pastas || []);
-  let cadeia;
-  if (c.pastaComp) {
-    cadeia = [];
-    for (let k = 0, p = pastasIdx.find(x => x.id === c.pastaComp); p && k < 30; k++, p = pastasIdx.find(x => x.id === p.pai)) cadeia.unshift({ id: "pasta-cq-" + p.id, nome: p.nome });
-  } else if (Array.isArray(c.caminho) && c.caminho.length) {
-    cadeia = c.caminho.map((n, k) => ({ id: "pasta-cq-p" + hashCurto(area + "/" + c.caminho.slice(0, k + 1).join("/")), nome: n }));
-  } else return undefined;
+async function garantirCaminhoQ(area, caminho) {
   let pai = null;
-  for (const p of cadeia) { pai = await garantirPastaLocalComp(p.id, p.nome, pai, area); if (!pai) return null; }
+  for (let k = 0; k < caminho.length; k++) { pai = await garantirPastaLocalComp(idPastaEspelhoQ(area, caminho.slice(0, k + 1)), caminho[k], pai, area); if (!pai) return null; }
   return pai;
 }
+async function pastaLocalDaComp(c, area) {
+  if (c.pastaComp) {                                                  // compartilhado no jeito antigo (pasta escolhida à parte)
+    const pastasIdx = estado.indiceQ?.pastas || [];
+    const cadeia = [];
+    for (let k = 0, p = pastasIdx.find(x => x.id === c.pastaComp); p && k < 30; k++, p = pastasIdx.find(x => x.id === p.pai)) cadeia.unshift({ id: "pasta-cq-" + p.id, nome: p.nome });
+    let pai = null;
+    for (const p of cadeia) { pai = await garantirPastaLocalComp(p.id, p.nome, pai, area); if (!pai) return null; }
+    return pai;
+  }
+  if (Array.isArray(c.caminho)) return c.caminho.length ? garantirCaminhoQ(area, c.caminho) : "";
+  return undefined;
+}
 async function organizarCompartilhadosQ() {
-  if (cfgDono()) return;                                   // o dono organiza o próprio app do jeito dele
+  if (cfgDono()) { agendarEspelhoDono(); return; }        // o dono organiza o próprio app; os outros acompanham o dele
+  const esperadas = new Set();
+  for (const e of estado.indiceQ?.estruturas || []) {      // pastas compartilhadas inteiras (até as subpastas vazias)
+    if (!Array.isArray(e.caminho) || !e.caminho.length) continue;
+    const area = e.area === PLATAFORMA_LS ? PLATAFORMA_LS : "questoes";
+    for (let k = 1; k <= e.caminho.length; k++) esperadas.add(idPastaEspelhoQ(area, e.caminho.slice(0, k)));
+    await garantirCaminhoQ(area, e.caminho);
+  }
   for (const cad of estado.indiceQ?.cadernos || []) {
     const c = estado.cadernos[cad.id];
     if (!c || c.local || c.soQuestoes) continue;
-    const area = ehListaLS(c) ? "leiseca" : "questoes";
+    const area = ehListaLS(c) ? PLATAFORMA_LS : "questoes";
+    if (Array.isArray(c.caminho)) for (let k = 1; k <= c.caminho.length; k++) esperadas.add(idPastaEspelhoQ(area, c.caminho.slice(0, k)));
+    if (c.pastaComp) for (const p of caminhoPastaIdx(c.pastaComp)) esperadas.add("pasta-cq-" + p.id);
     const alvo = await pastaLocalDaComp(c, area);
     if (alvo === undefined || alvo === null) continue;
     const marca = estado.itens.get("colocado|" + c.id);
     const atual = pastaDoItem(area, c.id);
     if (marca && !marca.apagado) {
-      if (marca.alvo === alvo) continue;
-      if (atual !== marca.alvo) { await salvarItem({ ...marca, alvo }); continue; }   // a pessoa mudou de lugar: fica onde ela pôs
+      if ((marca.alvo || "") === (alvo || "")) continue;
+      if ((atual || "") !== (marca.alvo || "")) { await salvarItem({ ...marca, alvo }); continue; }   // a pessoa mudou de lugar: fica onde ela pôs
     }
-    await moverParaPasta(area, c.id, alvo);
+    await moverParaPasta(area, c.id, alvo || null);
     await salvarItem({ id: "colocado|" + c.id, tipo: "colocado", alvo, auto: true });
   }
+  // pastas criadas pelo app que o dono não compartilha mais (ou renomeou/moveu): saem se ficaram vazias
+  for (let volta = 0, mudou = true; mudou && volta < 10; volta++) {
+    mudou = false;
+    for (const p of [...estado.itens.values()].filter(x => x.tipo === "pasta" && !x.apagado && !x.lixeira && x.auto && x.compartilhada && areaDeCadernos(x.area))) {
+      if (esperadas.has(p.id)) continue;
+      if (pastasDe(p.area, p.id).length || (p.cadernos || []).some(id => estado.cadernos[id])) continue;
+      await apagarItem(p.id); mudou = true;
+    }
+  }
 }
+const caminhoPastaIdx = id => { const pastas = estado.indiceQ?.pastas || [], out = []; for (let k = 0, p = pastas.find(x => x.id === id); p && k < 30; k++, p = pastas.find(x => x.id === p.pai)) out.unshift(p); return out; };
 
-/* ---------- resumos: o dono escolhe a pasta compartilhada ---------- */
-function painelCompartilharResumos({ titulo, texto, temPdf, pastaPropria = null, caminhoSugerido = [], aoLigar, volta, aviso }) {
-  carregarCompartilhados().then(idx => {
-    abrirPainel(`<h2>${esc(titulo)} ${botaoFechar}</h2><p class="contagem" style="margin-top:0">${texto}</p>
-      <h3 class="grupo-assunto">Pasta compartilhada onde aparece</h3><div id="sel-comp"></div>
-      <div class="acoes" style="margin-top:12px">${temPdf ? `<button data-comp-modo="marcado">✏️ Compartilhar com as minhas marcações (caneta e ícones)</button>
-        <button data-comp-modo="original">📄 Compartilhar o arquivo original (sem marcações)</button>` : '<button data-comp-modo="original" class="botao primario">👁 Ligar</button>'}</div>
-      <p class="contagem" id="msg-ligar"></p>`);
-    const seletor = seletorPastaComp($("#sel-comp"), idx.pastas || [], pastaPropria, caminhoSugerido);
-    $$("#painel-caixa [data-comp-modo]").forEach(b => b.onclick = async () => {
-      $$("#painel-caixa button").forEach(x => x.disabled = true);
-      const msg = t => { const m = $("#msg-ligar"); if (m) m.textContent = t; };
-      try { await aoLigar(b.dataset.compModo === "marcado", seletor.valor(), seletor.novas(), msg); fecharPainel(); volta(); mostrarAvisoRapido(aviso); }
-      catch (e) { msg("⚠️ " + e.message); $$("#painel-caixa button").forEach(x => x.disabled = false); }
-    });
-  });
+/* ---------- dono: o app dos outros acompanha a organização do seu ---------- */
+let timerEspelho = null;
+function agendarEspelhoDono() {
+  if (typeof cfgDono !== "function" || !cfgDono()) return;
+  clearTimeout(timerEspelho);
+  timerEspelho = setTimeout(() => {
+    if (donoOcupado) return agendarEspelhoDono();
+    sincronizarEspelhoDono().catch(e => mostrarAvisoRapido("⚠️ Não deu para atualizar a organização no app dos outros agora: " + e.message));
+  }, 4000);
 }
-/* dono: mudar um resumo (ou uma pasta compartilhada) de lugar, renomear e apagar pasta vazia, sem reenviar arquivos */
+async function sincronizarEspelhoDono() {
+  if (!cfgDono() || estado.offline) return;
+  // questões: o que mudou de pasta, o que entrou numa pasta compartilhada e as pastas compartilhadas inteiras
+  const dentroDePublicada = id => { const area = ehListaLS(estado.cadernos[id]) ? PLATAFORMA_LS : "questoes"; const p = pastaDoItem(area, id); return !!p && caminhoPasta(p).some(q => q.publicada === true) && !caminhoPasta(p).some(q => q.arquivada); };
+  const enviar = Object.values(estado.cadernos).filter(c => !cadernoArquivado(c.id) && (ehVisivelParaTodos(c.id)
+    ? (c.pastaComp || JSON.stringify(caminhoDoItemQ(c)) !== JSON.stringify(Array.isArray(c.caminho) ? c.caminho : []))
+    : dentroDePublicada(c.id))).map(c => c.id);
+  const estr = estruturasPublicadasQ();
+  if (enviar.length || JSON.stringify(estr) !== JSON.stringify(estado.indiceQ?.estruturas || [])) await publicarCadernos(enviar, null, { estruturas: estr });
+  // resumos: as pastas compartilhadas acompanham as suas (nome e lugar)
+  if (typeof carregarResumos === "function") await carregarResumos();
+  const idx = await carregarCompartilhados();
+  if (!idx.resumos.length && !idx.pastas.length && !pastasDe("resumos").some(p => p.publicada === true)) return;
+  const teste = JSON.parse(JSON.stringify(idx)); espelharIndiceRes(teste);
+  const chave = i => JSON.stringify([i.resumos.map(e => [e.id, e.pasta || null]), [...i.pastas].sort((a, b) => a.id.localeCompare(b.id))]);
+  if (chave(teste) !== chave(idx)) await editarIndiceRes(espelharIndiceRes);
+}
 async function editarIndiceRes(mudar) {
-  const p = provedorDono(); await p.preparar();
-  const arqs = await p.listarPasta("dados/resumos");
-  const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
-  idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
-  mudar(idx);
-  await gravarIndiceRes(p, arqs, idx);
-}
-function painelMoverCompartilhado(tipo, id, volta) {
-  const idx = compartilhados.indice;
-  const item = tipo === "resumo" ? idx.resumos.find(x => x.id === id) : idx.pastas.find(x => x.id === id);
-  if (!item) return;
-  const proibidas = new Set();
-  if (tipo === "pasta") { proibidas.add(id); let mudou = true; while (mudou) { mudou = false; for (const q of idx.pastas) if (q.pai && proibidas.has(q.pai) && !proibidas.has(q.id)) { proibidas.add(q.id); mudou = true; } } }
-  abrirPainel(`<h2>📁 Mover “${esc(item.origem || item.titulo || item.nome)}” ${botaoFechar}</h2>
-    <p class="contagem" style="margin-top:0">Muda o lugar onde aparece para os outros usuários (sem reenviar o arquivo).</p>
-    <div id="sel-comp"></div><div class="acoes" style="margin-top:12px"><button class="botao primario" id="mover-comp">Mover</button></div><p class="contagem" id="msg-mover"></p>`);
-  const seletor = seletorPastaComp($("#sel-comp"), idx.pastas.filter(p => !proibidas.has(p.id)), tipo === "resumo" ? item.pasta || null : item.pai || null);
-  $("#mover-comp").onclick = async () => {
-    $("#mover-comp").disabled = true; $("#msg-mover").textContent = "Salvando…";
-    try {
-      await editarIndiceRes(i => {
-        i.pastas.push(...seletor.novas());
-        if (tipo === "resumo") { const e = i.resumos.find(x => x.id === id); if (e) e.pasta = seletor.valor(); }
-        else { const e = i.pastas.find(x => x.id === id); if (e) e.pai = seletor.valor(); }
-      });
-      fecharPainel(); volta(); mostrarAvisoRapido("📁 Movido nos compartilhados");
-    } catch (e) { $("#msg-mover").textContent = "⚠️ " + e.message; $("#mover-comp").disabled = false; }
-  };
+  donoOcupado++;
+  try {
+    const p = provedorDono(); await p.preparar();
+    const arqs = await p.listarPasta("dados/resumos");
+    const idx = arqs.has(IDX_RES) ? deBytes(await p.baixar(IDX_RES)) : { resumos: [], pastas: [] };
+    idx.resumos = idx.resumos || []; idx.pastas = idx.pastas || [];
+    mudar(idx);
+    await gravarIndiceRes(p, arqs, idx);
+  } finally { donoOcupado--; }
 }

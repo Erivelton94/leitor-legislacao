@@ -38,6 +38,7 @@ async function carregarQuestoes() {
     if (guardado) estado.cadernos[cad.id] = await guardado.json();
   }
   gravarLS("info-cadernos", info);
+  if (typeof guardarRetiradosDoDono === "function") await guardarRetiradosDoDono(cache, indice);
   for (const loc of lerLS("cadernos-locais", [])) {             // cadernos importados de PDF no próprio app
     if (loc.apagado || loc.lixeira) { delete estado.cadernos[loc.id]; continue; }
     if (loc.publicado && estado.cadernos[loc.id] && !estado.cadernos[loc.id].local) continue;   // já está publicado: vale o do app

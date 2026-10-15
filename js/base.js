@@ -114,6 +114,7 @@ async function salvarItem(item) {
   versaoItens++;
   if (/^tinta\|resumo:[^|]+\|p1\|/.test(item.id)) bdApagar("miniaturas", item.id.split("|")[1].slice(7));
   gravarLS("ultima-mudanca", item.atualizadoEm);
+  if (item.tipo === "pasta" && typeof agendarEspelhoDono === "function") agendarEspelhoDono();   // dono: o app dos outros acompanha as pastas
   return item;
 }
 async function apagarItem(id) {

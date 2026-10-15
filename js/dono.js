@@ -28,56 +28,101 @@ function cadernoParaPublicar(c, caminhoComp = null) {
   return { ...resto, titulo: c.tituloOriginal || c.titulo, versao: new Date().toISOString().slice(0, 10), ...extra,
     questoes: c.questoes.map(({ caderno, pastaLS, assuntoLS, subassuntoLS, pastaME, subpastaME, cadernoME, ...q }) => q) };
 }
-/* ligar: o caderno passa a aparecer para todos */
-async function publicarCaderno(id, aviso, opcoes = {}) {
-  const c = estado.cadernos[id];
-  const p = provedorDono(); await p.preparar();
-  const lista = await p.listarPasta("dados/questoes");
-  const arquivo = `${id}.json`, caminho = `dados/questoes/${arquivo}`;
-  const indice = await lerIndiceRemoto(p, lista);
-  indice.pastas = indice.pastas || [];
-  for (const np of opcoes.novasPastas || []) if (!indice.pastas.some(x => x.id === np.id)) indice.pastas.push(np);
-  const pastaComp = "pastaComp" in opcoes ? opcoes.pastaComp : (c.pastaComp || null);
-  const soQuestoes = "soQuestoes" in opcoes ? !!opcoes.soQuestoes : !!c.soQuestoes;
-  const dados = cadernoParaPublicar(c, pastaComp ? caminhoComp(indice.pastas, pastaComp) : null);
-  if (pastaComp) dados.pastaComp = pastaComp; else delete dados.pastaComp;
-  if (soQuestoes) dados.soQuestoes = true; else delete dados.soQuestoes;
-  const texto = JSON.stringify(dados, null, 1);
-  aviso && aviso("Enviando o caderno…");
-  await p.enviar(caminho, new TextEncoder().encode(texto), lista.get(caminho));
-  indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
-  indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}),
-    ...(pastaComp ? { pastaComp } : {}), ...(soQuestoes ? { soQuestoes: true } : {}) });
-  aviso && aviso("Atualizando a lista de cadernos…");
-  indice.atualizadoEm = agoraISO();
-  await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
-  await gravarNoCache(caminho, dados); await gravarNoCache("dados/questoes/indice.json", indice);
-  const info = lerLS("info-cadernos", {}); info[id] = hashCurto(texto); gravarLS("info-cadernos", info);   // não baixa de novo do site (que ainda não atualizou)
-  // a cópia local fica marcada como publicada (o site do app leva ~1 min para atualizar)
-  gravarLS("cadernos-locais", lerLS("cadernos-locais", []).map(x => x.id === id ? { ...x, publicado: true, atualizadoEm: agoraISO() } : x));
-  await carregarQuestoes();
+/* ligar: os cadernos passam a aparecer para todos, no mesmo caminho de pastas do app do dono.
+   "estruturas" = as pastas compartilhadas inteiras (com as subpastas, mesmo vazias), para o app dos outros criar igual. */
+let donoOcupado = 0;
+async function publicarCadernos(ids, aviso, { soQuestoes = null, estruturas } = {}) {
+  donoOcupado++;
+  try {
+    const p = provedorDono(); await p.preparar();
+    const lista = await p.listarPasta("dados/questoes");
+    const indice = await lerIndiceRemoto(p, lista);
+    const info = lerLS("info-cadernos", {});
+    let n = 0;
+    for (const id of ids) {
+      const c = estado.cadernos[id]; if (!c) continue;
+      const so = soQuestoes === null ? !!c.soQuestoes : !!soQuestoes;
+      const dados = cadernoParaPublicar(c);
+      delete dados.pastaComp;                                    // a pasta é sempre a mesma do app do dono
+      if (so) dados.soQuestoes = true; else delete dados.soQuestoes;
+      const texto = JSON.stringify(dados, null, 1), arquivo = `${id}.json`, caminho = `dados/questoes/${arquivo}`;
+      aviso && aviso(ids.length > 1 ? `Enviando ${++n} de ${ids.length}: ${dados.titulo}…` : "Enviando o caderno…");
+      await p.enviar(caminho, new TextEncoder().encode(texto), lista.get(caminho));
+      indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
+      indice.cadernos.push({ id, titulo: dados.titulo, materia: dados.materia, arquivo, qtd: dados.questoes.length, hash: hashCurto(texto),
+        ...(dados.plataforma ? { plataforma: dados.plataforma } : {}), ...(so ? { soQuestoes: true } : {}) });
+      await gravarNoCache(caminho, dados);
+      info[id] = hashCurto(texto);                                // não baixa de novo do site (que ainda não atualizou)
+    }
+    indice.estruturas = estruturas !== undefined ? estruturas : estruturasPublicadasQ();
+    aviso && aviso("Atualizando a lista de cadernos…");
+    indice.atualizadoEm = agoraISO();
+    await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
+    await gravarNoCache("dados/questoes/indice.json", indice);
+    gravarLS("info-cadernos", info);
+    const set = new Set(ids);                                     // a cópia local fica marcada como publicada (o site leva ~1 min)
+    gravarLS("cadernos-locais", lerLS("cadernos-locais", []).map(x => set.has(x.id) ? { ...x, publicado: true, atualizadoEm: agoraISO() } : x));
+    await carregarQuestoes();
+  } finally { donoOcupado--; }
 }
-/* desligar: some do app dos outros; a sua cópia fica na sua conta */
-async function despublicarCaderno(id, aviso) {
-  const c = estado.cadernos[id];
-  const url = `dados/questoes/local/${id}.json`;
-  await gravarNoCache(url, cadernoParaPublicar(c));                 // primeiro garante a sua cópia
-  const locais = lerLS("cadernos-locais", []).filter(x => x.id !== id);
-  locais.push({ id, titulo: c.tituloOriginal || c.titulo, materia: c.materia, url, qtd: c.questoes.length, atualizadoEm: agoraISO(), ...(c.plataforma ? { plataforma: c.plataforma } : {}) });
-  gravarLS("cadernos-locais", locais);
-  const p = provedorDono(); await p.preparar();
-  const lista = await p.listarPasta("dados/questoes");
-  const caminho = `dados/questoes/${id}.json`;
-  aviso && aviso("Tirando do app dos outros usuários…");
-  const indice = await lerIndiceRemoto(p, lista);
-  const entrada = (indice.cadernos || []).find(x => x.id === id);
-  indice.cadernos = (indice.cadernos || []).filter(x => x.id !== id);
-  indice.atualizadoEm = agoraISO();
-  await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
-  const arq = entrada ? `dados/questoes/${entrada.arquivo}` : caminho;
-  if (lista.has(arq)) await p.apagar(arq, lista.get(arq));
-  await gravarNoCache("dados/questoes/indice.json", indice); await gravarNoCache(arq, null);
-  await carregarQuestoes();
+const publicarCaderno = (id, aviso, opcoes = {}) => publicarCadernos([id], aviso, { soQuestoes: "soQuestoes" in opcoes ? !!opcoes.soQuestoes : null });
+/* desligar: somem do app dos outros; a sua cópia fica na sua conta */
+async function despublicarCadernos(ids, aviso, { estruturas } = {}) {
+  donoOcupado++;
+  try {
+    const locais = lerLS("cadernos-locais", []);
+    for (const id of ids) {                                       // primeiro garante a sua cópia
+      const c = estado.cadernos[id]; if (!c) continue;
+      const url = `dados/questoes/local/${id}.json`;
+      await gravarNoCache(url, cadernoParaPublicar(c));
+      const k = locais.findIndex(x => x.id === id);
+      const ent = { ...(k >= 0 ? locais[k] : {}), id, titulo: c.tituloOriginal || c.titulo, materia: c.materia, url, qtd: c.questoes.length, atualizadoEm: agoraISO(), ...(c.plataforma ? { plataforma: c.plataforma } : {}) };
+      delete ent.publicado;
+      if (k >= 0) locais[k] = ent; else locais.push(ent);
+    }
+    gravarLS("cadernos-locais", locais);
+    const p = provedorDono(); await p.preparar();
+    const lista = await p.listarPasta("dados/questoes");
+    aviso && aviso("Tirando do app dos outros usuários…");
+    const indice = await lerIndiceRemoto(p, lista);
+    const sair = new Set(ids);
+    const saindo = (indice.cadernos || []).filter(x => sair.has(x.id));
+    indice.cadernos = (indice.cadernos || []).filter(x => !sair.has(x.id));
+    indice.estruturas = estruturas !== undefined ? estruturas : estruturasPublicadasQ();
+    indice.atualizadoEm = agoraISO();
+    await p.enviar("dados/questoes/indice.json", paraBytes(indice), lista.get("dados/questoes/indice.json"));
+    for (const id of ids) {
+      const ent = saindo.find(x => x.id === id);
+      const arq = `dados/questoes/${ent ? ent.arquivo : id + ".json"}`;
+      if (lista.has(arq)) await p.apagar(arq, lista.get(arq));
+      await gravarNoCache(arq, null);
+    }
+    await gravarNoCache("dados/questoes/indice.json", indice);
+    await carregarQuestoes();
+  } finally { donoOcupado--; }
+}
+const despublicarCaderno = (id, aviso) => despublicarCadernos([id], aviso);
+
+/* cadernos que o dono tirou do app de todos (fora do índice, então ninguém mais vê), mas que continuam na conta dele como cópia própria */
+const CADERNOS_RETIRADOS = ["dp-crimes-contra-a-pessoa"];
+async function guardarRetiradosDoDono(cache, indice) {
+  if (!cfgDono()) return;
+  const feitos = lerLS("retirados-guardados", []);
+  let mudou = false;
+  for (const id of CADERNOS_RETIRADOS) {
+    if (feitos.includes(id) || (indice.cadernos || []).some(x => x.id === id)) continue;
+    const locais = lerLS("cadernos-locais", []);
+    if (locais.some(x => x.id === id)) { feitos.push(id); mudou = true; continue; }
+    let dados = await cache.match("dados/questoes/" + id + ".json").then(r => (r ? r.json() : null)).catch(() => null);
+    if (!dados && !estado.offline) { try { const r = await buscarComTempo("dados/questoes/" + id + ".json?v=" + Date.now(), 30000); if (r.ok) dados = await r.json(); } catch {} }
+    if (!dados || !Array.isArray(dados.questoes)) continue;
+    const url = `dados/questoes/local/${id}.json`;
+    await gravarNoCache(url, dados);
+    locais.push({ id, titulo: dados.titulo, materia: dados.materia, url, qtd: dados.questoes.length, atualizadoEm: agoraISO(), ...(dados.plataforma ? { plataforma: dados.plataforma } : {}) });
+    gravarLS("cadernos-locais", locais);
+    feitos.push(id); mudou = true;
+  }
+  if (mudou) gravarLS("retirados-guardados", feitos);
 }
 
 /* ---------- arquivar cadernos e pastas de questões ---------- */
@@ -91,8 +136,11 @@ async function arquivarCaderno(id, arquivar = true) {
 }
 async function arquivarPasta(pastaId, arquivar = true) {
   const p = estado.itens.get(pastaId);
-  if (arquivar && cfgDono()) for (const pid of [pastaId, ...descendentes(pastaId)]) for (const id of estado.itens.get(pid)?.cadernos || []) if (ehVisivelParaTodos(id)) await despublicarCaderno(id);
   await salvarItem({ ...p, arquivada: arquivar, arquivadaEm: arquivar ? agoraISO() : null });
+  if (arquivar && cfgDono()) {
+    const ids = [pastaId, ...descendentes(pastaId)].flatMap(pid => estado.itens.get(pid)?.cadernos || []).filter(id => ehVisivelParaTodos(id));
+    if (ids.length || estado.itens.get(pastaId)?.publicada) await despublicarCadernos(ids);
+  }
 }
 
 /* ---------- excluir ---------- */
@@ -113,8 +161,8 @@ function botoesCadernoExtras(id) {
   const arq = cadernoArquivado(id);
   const dono = cfgDono();
   const doApp = !c.local;
-  const ondeComp = ehVisivelParaTodos(id) ? [c.pastaComp ? caminhoComp(estado.indiceQ?.pastas || [], c.pastaComp).join(" › ") : "", c.soQuestoes ? "só as questões" : ""].filter(Boolean).join(" · ") : "";
-  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? `👁 Visível para outros usuários: <strong>ligado</strong>${ondeComp ? ` (${esc(ondeComp)})` : ""} — tocar para mudar a pasta, o modo ou desligar` : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>` : ""}
+  const ondeComp = ehVisivelParaTodos(id) ? [caminhoDoItemQ(c).join(" › ") || "fora das pastas", c.soQuestoes ? "só as questões" : ""].filter(Boolean).join(" · ") : "";
+  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? `👁 Visível para outros usuários: <strong>ligado</strong>${ondeComp ? ` (${esc(ondeComp)})` : ""} — tocar para mudar o modo ou desligar` : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>` : ""}
     <button id="c-arquivar">${arq ? "📤 Desarquivar" : "📦 Arquivar"}</button>
     ${doApp && !dono ? "" : `<button id="c-excluir2" style="color:var(--alt)">🗑 Excluir o caderno</button>`}`;
 }

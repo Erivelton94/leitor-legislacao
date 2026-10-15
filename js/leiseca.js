@@ -250,7 +250,7 @@ function telaEntradaQuestoes() {
     const n = v => v.toLocaleString("pt-BR");
     return `${n(qs.length)} questões · ${c + x ? `<span class="txt-ok">${n(c)} ${c === 1 ? "certa" : "certas"}</span> · <span class="txt-erro">${n(x)} ${x === 1 ? "errada" : "erradas"}</span> · ${Math.round(100 * c / (c + x))}% de acerto` : "nenhuma resolvida ainda"}`; };
   const hoje = typeof cartaoHoje === "function" ? cartaoHoje() : null;
-  $("#conteudo").innerHTML = `<div class="secao entrada-questoes">${hoje ? hoje.html : ""}
+  $("#conteudo").innerHTML = `<div class="secao entrada-questoes">
     <button class="cartao-plataforma" data-href="#/leiseca">
       <span class="plat-icone">⚖️</span>
       <span class="plat-titulo">Lei Seca — Verdadeiro ou Falso</span>
@@ -263,6 +263,7 @@ function telaEntradaQuestoes() {
       <span class="plat-texto">As questões de múltipla escolha e de Certo/Errado importadas em PDF, com o mesmo filtro profissional, minhas listas e estatísticas, e a tesoura para cortar alternativas.</span>
       <span class="plat-num">${placar(qsME)}</span>
     </button>
+    ${hoje ? hoje.html : ""}
   </div>`;
   if (hoje) hoje.ligar();
 }

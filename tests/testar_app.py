@@ -512,7 +512,8 @@ async def testes(b):
     confere("Ouvir resumo: texto dividido em frases para ler", len(blocos) == 2 and "Matar alguém. | Pena de seis a vinte anos." in blocos[0], blocos)
     # questões: subpasta e mover vários de uma vez
     await p13.goto(U + "#/questoes/cadernos"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(1500)
-    cads = await p13.evaluate("Object.keys(estado.cadernos).filter(k => estado.cadernos[k].plataforma !== 'leiseca').slice(0,2)")
+    await p13.evaluate("for (const k of ['t-me1','t-me2']) estado.cadernos[k] = { id: k, titulo: 'Caderno ' + k, materia: 'Direito Penal', questoes: [], local: true }")   # não depende dos cadernos publicados de verdade
+    cads = ["t-me1", "t-me2"]
     qp = await p13.evaluate("(async()=>{ const a = await novaPasta('questoes', null, 'PCPE'); const s = await novaPasta('questoes', a.id, 'Penal'); return [a.id, s.id]; })()")
     await p13.goto(U + "#/questoes/cadernos"); await p13.evaluate("rotear()"); await p13.wait_for_timeout(800)
     await p13.click("#selecionar-lista")
@@ -559,7 +560,7 @@ async def testes(b):
         await u15.goto(U + f"#/resumos/compartilhados/{pid}"); await u15.wait_for_timeout(1000)
         await u15.click("#copiar-tudo"); await u15.wait_for_timeout(2000)
         copias = await u15.evaluate("[...resumos.lista.values()].filter(r=>r.deCompartilhado).map(r=>[r.deCompartilhado, textoCaminho(r.pasta)]).sort()")
-        confere("Outro usuário vê “Compartilhados pelo app” e copia para os próprios resumos (com as pastas)", tile == 1 and aberto and copias == [["c1", "Compartilhados pelo app"], ["c2", "Compartilhados pelo app › Penal compartilhado"], ["c3", "Compartilhados pelo app › Penal compartilhado › Homicídio"]], copias)
+        confere("Outro usuário vê “Compartilhados pelo app” e copia para os próprios resumos no mesmo caminho de pastas do dono", tile == 1 and aberto and copias == [["c1", ""], ["c2", "Penal compartilhado"], ["c3", "Penal compartilhado › Homicídio"]], copias)
         confere("Nenhum erro de programa ao receber compartilhados", not u15.erros, u15.erros[:3])
         await ctx15.close()
         # desligar e arquivar tiram do ar
@@ -848,11 +849,26 @@ async def testes(b):
     await p19.click("#importar-caderno"); await p19.set_input_files("#impq-arq", os.path.join(FIX, "caderno-resolucao.pdf"))
     await p19.wait_for_selector("#impq-salvar", timeout=60000); await p19.click("#impq-salvar"); await p19.wait_for_timeout(1200); await p19.evaluate("fecharPainel()")
     cid = await p19.evaluate("Object.values(estado.cadernos).find(c=>c.local).id")
-    await p19.evaluate(f"menuCaderno('{cid}')"); await p19.click("#c-visivel"); await p19.click("#sel-comp [data-sub-comp='']")
+    await p19.evaluate(f"(async()=>{{ const t = await novaPasta('questoes', null, 'Teste'); window._pt = t.id; await moverParaPasta('questoes', '{cid}', t.id); }})()"); await p19.wait_for_timeout(300)
+    await p19.evaluate(f"menuCaderno('{cid}')"); await p19.click("#c-visivel")
+    sem_seletor = await p19.locator("#sel-comp").count() == 0 and "Pastas e arquivos › Teste" in await p19.inner_text("#painel-caixa")
     await p19.click("input[name=modo-comp][value=questoes]"); await p19.click("#comp-ligar"); await p19.wait_for_timeout(2500)
     idxq = json.loads(github_falso.ARQUIVOS["dados/questoes/indice.json"]); pubq = json.loads(github_falso.ARQUIVOS.get(f"dados/questoes/{cid}.json", b"{}"))
     ent = next((x for x in idxq["cadernos"] if x["id"] == cid), {})
-    confere("Dono: compartilhar escolhendo a pasta compartilhada e “só as questões”", [p["nome"] for p in idxq.get("pastas", [])] == ["Teste"] and ent.get("soQuestoes") and ent.get("pastaComp") == idxq["pastas"][0]["id"] and pubq.get("caminho") == ["Teste"], [idxq.get("pastas"), ent, pubq.get("caminho")])
+    confere("Dono: compartilhar um caderno vai no mesmo caminho de pastas do app dele (com “só as questões”)", sem_seletor and ent.get("soQuestoes") and "pastaComp" not in ent and pubq.get("caminho") == ["Teste"], [sem_seletor, ent, pubq.get("caminho")])
+    # dono: compartilhar a pasta inteira (com subpasta vazia) e o app dos outros acompanha quando ele renomeia
+    await p19.evaluate("(async()=>{ await novaPasta('questoes', window._pt, 'Sub vazia'); })()"); await p19.wait_for_timeout(300)
+    await p19.evaluate("menuPasta(window._pt)"); await p19.click("#pu-visivel"); await p19.click("#pq-ligar"); await p19.wait_for_timeout(2500)
+    idxq = json.loads(github_falso.ARQUIVOS["dados/questoes/indice.json"])
+    estr = sorted("/".join(e["caminho"]) for e in idxq.get("estruturas", []))
+    ok_pasta = estr == ["Teste", "Teste/Sub vazia"] and any(x["id"] == cid for x in idxq["cadernos"]) and await p19.evaluate("estado.itens.get(window._pt).publicada === true")
+    await p19.evaluate("(async()=>{ const p = estado.itens.get(window._pt); await salvarItem({ ...p, nome: 'Teste novo' }); })()"); await p19.wait_for_timeout(7000)
+    idxq = json.loads(github_falso.ARQUIVOS["dados/questoes/indice.json"]); pubq = json.loads(github_falso.ARQUIVOS.get(f"dados/questoes/{cid}.json", b"{}"))
+    estr2 = sorted("/".join(e["caminho"]) for e in idxq.get("estruturas", []))
+    confere("Dono: compartilhar a pasta inteira (subpastas vazias também) e, ao renomear, o app dos outros acompanha", ok_pasta and estr2 == ["Teste novo", "Teste novo/Sub vazia"] and pubq.get("caminho") == ["Teste novo"], [estr, estr2, pubq.get("caminho")])
+    retirado = await p19.evaluate("""(async()=>{ localStorage.removeItem('retirados-guardados'); await carregarQuestoes(); const c = estado.cadernos['dp-crimes-contra-a-pessoa'];
+        const idx = await (await fetch('dados/questoes/indice.json')).json(); return [!!c && !!c.local, c ? c.questoes.length : 0, idx.cadernos.some(x => x.id === 'dp-crimes-contra-a-pessoa')]; })()""")
+    confere("Crimes contra a Pessoa saiu do app dos outros, mas o dono continua com a cópia dele", retirado == [True, 124, False], retirado)
     # Google Drive no iPad/celular: pedido de acesso sai na hora do toque, e a janela do aparelho aceita .pdf e .json
     na_hora = await p19.evaluate("""(()=>{ localStorage.removeItem('google-token-leitura'); let chamou = false; const g = window.google, idc = window.idClienteGoogle;
       window.google = { accounts: { oauth2: { initTokenClient: () => ({ requestAccessToken: () => { chamou = true; } }) } } }; window.idClienteGoogle = () => 'teste';
@@ -881,6 +897,8 @@ async def testes(b):
         tela_sim == ["#/simulado", True, 2, False] and res_sim[0] and "de 2" in res_sim[1] and res_sim[2] == n_antes + 1 and res_sim[3] == 1 and res_sim[4] == 2
         and esgotado[0] == "#/simulado/tempo1" and esgotado[1] is None and esgotado[2], [tela_sim, res_sim, esgotado])
     await p19.goto(U + "#/questoes"); await p19.wait_for_timeout(700)
+    ordem_ent = await p19.evaluate("(()=>{ location.hash = '#/questoes'; telaEntradaQuestoes(); return [...document.querySelector('.entrada-questoes').children].map(e => e.classList.contains('cartao-hoje') ? 'hoje' : 'plat'); })()")
+    confere("Questões: as plataformas ficam em cima e o quadro “Hoje” embaixo", ordem_ent[:2] == ["plat", "plat"] and ordem_ent[-1] == "hoje", ordem_ent)
     hoje_txt = await p19.evaluate("[(document.querySelector('.cartao-hoje')||{}).textContent || '', itens('resposta').filter(r => new Date(r.em).toLocaleDateString('sv-SE') === new Date().toLocaleDateString('sv-SE')).length, document.querySelectorAll('.hoje-semana span').length]")
     await p19.evaluate("gravarLS('meta-diaria', 5)"); await p19.goto(U + "#/acervo"); await p19.wait_for_timeout(700)
     faixa = await p19.evaluate("(document.querySelector('.faixa-hoje')||{}).textContent || ''")
@@ -906,20 +924,24 @@ async def testes(b):
     ctx20, p20 = await novo_aparelho(b, leis=())
     qbase = {"tipo": "ME", "banca": "FGV", "ano": 2024, "materia": "Direito Penal", "assunto": "Furto", "enunciado": ["Enunciado."], "alternativas": [{"letra": "A", "texto": "x"}, {"letra": "B", "texto": "y"}], "gabarito": "A", "ordem": 1}
     pub = {"pub-me": {"id": "pub-me", "titulo": "Furto comentado", "materia": "Direito Penal", "assuntos": ["Furto"], "pastaComp": "pc-2", "caminho": ["Penal", "Furto"], "questoes": [{**qbase, "id": "q-pub1"}]},
-           "pub-so": {"id": "pub-so", "titulo": "Banco extra", "materia": "Direito Penal", "assuntos": ["Furto"], "soQuestoes": True, "questoes": [{**qbase, "id": "q-pub2"}]}}
+           "pub-so": {"id": "pub-so", "titulo": "Banco extra", "materia": "Direito Penal", "assuntos": ["Furto"], "soQuestoes": True, "questoes": [{**qbase, "id": "q-pub2"}]},
+           "pub-cam": {"id": "pub-cam", "titulo": "Inquérito", "materia": "Processo Penal", "assuntos": ["Inquérito"], "caminho": ["Processo Penal", "Inquérito"], "questoes": [{**qbase, "id": "q-pub3"}]}}
     async def _indice_pub(route):
         await route.fulfill(json={"cadernos": [{"id": k, "titulo": v["titulo"], "arquivo": k + ".json", "hash": "h-" + k, "qtd": 1} for k, v in pub.items()],
-            "pastas": [{"id": "pc-1", "nome": "Penal", "pai": None, "area": "questoes"}, {"id": "pc-2", "nome": "Furto", "pai": "pc-1", "area": "questoes"}]})
+            "pastas": [{"id": "pc-1", "nome": "Penal", "pai": None, "area": "questoes"}, {"id": "pc-2", "nome": "Furto", "pai": "pc-1", "area": "questoes"}],
+            "estruturas": [{"area": "questoes", "caminho": ["Processo Penal"]}, {"area": "questoes", "caminho": ["Processo Penal", "Inquérito"]}, {"area": "questoes", "caminho": ["Processo Penal", "Prova (vazia)"]}]})
     async def _cad_pub(route):
         nome = route.request.url.rsplit("/", 1)[1].replace(".json", ""); await route.fulfill(json=pub[nome])
     await ctx20.route(U + "dados/questoes/indice.json*", _indice_pub); await ctx20.route(U + "dados/questoes/pub-*.json*", _cad_pub)
     await p20.evaluate("caches.keys().then(ks=>Promise.all(ks.map(async k=>{ const c=await caches.open(k); for (const r of await c.keys()) if (r.url.includes('dados/questoes/')) await c.delete(r); })))")
     await p20.reload(); await p20.wait_for_timeout(3000)
     rec = await p20.evaluate("(()=>{ const pid = pastaDoItem('questoes','pub-me'); return [pid ? textoCaminho(pid) : null, pastaDoItem('questoes','pub-so'), baseME().map(q=>q.id).sort()]; })()")
+    espelho = await p20.evaluate("(()=>{ const pid = pastaDoItem('questoes','pub-cam'); return [pid ? textoCaminho(pid) : null, pastasDe('questoes').map(p=>textoCaminho(p.id)).sort()]; })()")
+    confere("Quem recebe: pasta compartilhada inteira aparece com o mesmo caminho do dono, até a subpasta vazia", espelho[0] == "Processo Penal › Inquérito" and "Processo Penal › Prova (vazia)" in espelho[1], espelho)
     await p20.goto(U + "#/questoes/cadernos"); await p20.wait_for_timeout(800)
     raiz = await p20.evaluate("[...document.querySelectorAll('.acervo .lei-nome')].map(e=>e.textContent.trim())")
     confere("Quem recebe: o caderno fica na pasta compartilhada (Penal › Furto); “só as questões” entra só no banco e no filtro",
-        rec == ["Penal › Furto", None, ["q-pub1", "q-pub2"]] and any("Penal" in r for r in raiz) and not any("Banco extra" in r for r in raiz), [rec, raiz])
+        rec == ["Penal › Furto", None, ["q-pub1", "q-pub2", "q-pub3"]] and any("Penal" in r for r in raiz) and not any("Banco extra" in r for r in raiz), [rec, raiz])
     confere("Nenhum erro de programa ao receber questões compartilhadas", not p20.erros, p20.erros[:3])
     await ctx20.close()
 
