@@ -1,0 +1,668 @@
+{
+ "id": "ls-5-distrito-federal-e-territorios-arts-32-2b2a74d54c88",
+ "titulo": "5  Distrito Federal e Territórios (Arts. 32 e 33, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-c9a5c4779499",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 32, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 32, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Polícia Penal",
+   "instituicao": "PP-DF",
+   "obs": "",
+   "enunciado": [
+    "O Distrito Federal, vedada sua divisão em Municípios, reger-se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos na CF."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32. O Distrito Federal, vedada sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f89cab7067be",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 32, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 32, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Ttular de Serviços de Notas e de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "O Distrito Federal, autorizada sua divisão em Municípios, reger-se- á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32. O Distrito Federal, VEDADA sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0b8c64e8bf68",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 32, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 32, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2016",
+   "cargo": "XIX Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Governador do Distrito Federal, ao tomar conhecimento de que existe jurisprudência pacífica do Supremo Tribunal Federal a respeito da competência do Município para legislar sobre os requisitos de segurança das agências bancárias, solicita à Procuradoria Geral do Distrito Federal que se manifeste acerca da possibilidade de lei distrital tratar da matéria. Sobre a hipótese apresentada, de acordo com a Constituição Federal de 1988, julgue o item a seguir. Haveria tal possibilidade, pois o Distrito Federal possui competências legislativas reservadas aos Estados e aos Municípios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32, § 1º Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a39dfba093c5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 33, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 33, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à organização político-administrativa do Estado, à administração pública e à organização dos Poderes, julgue o próximo item, com base na CF e no entendimento jurisprudencial do STF.",
+    "A organização administrativa e judiciária dos territórios será definida por meio de lei complementar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 2º - Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar.",
+    "Art. 33 - A lei disporá sobre a organização administrativa e judiciária dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f74894f0a84b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 32, § 1º, Lei 12.813/2013",
+   "refs": [
+    {
+     "lei": null,
+     "art": "32",
+     "disp": "§ 1º, Lei 12.813/2013",
+     "sigla": "",
+     "texto": "Art. 32, § 1º, Lei 12.813/2013"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Agente Administrativo",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal de 1988 (CF) e a jurisprudência do Supremo Tribunal Federal (STF), julgue o item seguinte, relativo a noções de direito constitucional.",
+    "O Distrito Federal possui as mesmas competências legislativas dos estados, porém, por não ser dividido em municípios, não pode legislar a respeito de matérias afetas aos municípios."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32, § 1º - Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios."
+   ],
+   "vinculo": null,
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-576e1391ce8e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 32, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 32, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Ambiental",
+   "instituicao": "IBAMA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir, relativo à previsão constitucional acerca da organização político-administrativa dos entes federativos e da administração pública.",
+    "Ao Distrito Federal são atribuídas as competências legislativas reservadas aos estados e municípios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32, § 1º - Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ef0fa0755add",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 32, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 32, § 1º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Ao Distrito Federal são atribuídas as competências legislativas reservadas apenas aos Municípios."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32. [...]",
+    "§ 1º Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6fd72fe58e19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 32, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 32, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2009",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRE-PI",
+   "obs": "",
+   "enunciado": [
+    "Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, do corpo de bombeiros militar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32. [...]",
+    "§ 4º Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, da polícia civil, da polícia penal, da polícia militar e do corpo de bombeiros militar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-621497e8ebc9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 33, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 33, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à organização político-administrativa do Estado, à administração pública e à organização dos Poderes, julgue o item seguinte, com base na CF e no entendimento jurisprudencial do STF.",
+    "A organização administrativa e judiciária dos territórios será definida por meio de lei complementar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A lei disporá sobre a organização administrativa e judiciária dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-59eee7e46c67",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 33, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 33, § 1º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a CRFB/88, no que se refere a organização do Estado, é correto afirmar que os Territórios poderão ser divididos em Municípios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 [...]",
+    "§ 1º Os Territórios poderão ser divididos em Municípios, aos quais se aplicará, no que couber, o disposto no Capítulo IV deste Título."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c3ebfef0517d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 33, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 33, § 2º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "As contas do Governo do Território serão submetidas ao Congresso Nacional, dispensada manifestação do Tribunal de Contas da União vez que não integrantes da Federação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33. [...]",
+    "§ 2º As contas do Governo do Território serão submetidas ao Congresso Nacional, com parecer prévio do Tribunal de Contas da União"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c379f28f49a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 33, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 33, § 2º, CF"
+    }
+   ],
+   "banca": "OBJETIVA CONCURSOS",
+   "ano": "2026",
+   "cargo": "Biólogo",
+   "instituicao": "PREFEITURA DE ROCA SALES-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal, as contas do Governo do Território serão submetidas ao Congresso Nacional, com parecer prévio do Tribunal de Contas da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33. A lei disporá sobre a organização administrativa e judiciária dos Territórios.",
+    "[...]",
+    "§ 2º As contas do Governo do Território serão submetidas ao Congresso Nacional, com parecer prévio do Tribunal de Contas da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e3c10b7ea8e5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 33, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "33",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 33, § 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2015",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MA",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da organização político-administrativa da federação brasileira, os Territórios possuirão órgãos judiciários de primeira e segunda instância, membros do Ministério Público e defensores públicos federais, caso tenham mais de cem mil habitantes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33. [...]",
+    "§ 3º Nos Territórios Federais com mais de cem mil habitantes, além do Governador nomeado na forma desta Constituição, haverá órgãos judiciários de primeira e segunda instância, membros do Ministério Público e defensores públicos federais; a lei disporá sobre as eleições para a Câmara Territorial e sua competência deliberativa."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-345034db3b1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 32, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "32",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 32, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item subsequente, em relação à organização do Estado. São atribuídas ao Distrito Federal as competências legislativas reservadas aos estados e municípios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32. O Distrito Federal, vedada sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição.",
+    "§ 1º Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "3 Organização do Estado (Arts. 18 - 43, CF)"
+ ]
+}
