@@ -1,0 +1,4166 @@
+{
+ "id": "ls-lei-de-prisao-temporaria-lei-7-960-89-e9e9177169e6",
+ "titulo": "Lei de Prisão Temporária - Lei 7.960 89",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-21da43034af3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2017",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A decretação de prisão temporária é cabível quando houver fundadas razões de autoria e participação em qualquer crime doloso punível com pena privativa de liberdade superior a quatro anos de reclusão e quando for imprescindível às investigações do inquérito policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único);",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro;",
+    "p) crimes previstos na Lei de Terrorismo."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b36347949cec",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2016",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "No curso de um IP, segundo a Lei n.º 7.960/1989, será possível decretar a prisão temporária do indiciado quando, de acordo com qualquer prova admitida na legislação penal, houver fundadas razões de autoria ou participação dele no delito, se o crime investigado for o de roubo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[…]",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff171a246daf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2018",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária pode ser decretada em qualquer infração penal cuja pena mínima cominada seja superior a 02 (dois) anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "A Lei de Prisão Temporária não prevê a pena mínima mencionada na assertiva. As hipóteses de cabimento encontram-se no art. 1º, que segue abaixo:",
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com",
+    "o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).",
+    "p) crimes previstos na Lei de Terrorismo. (Incluído pela Lei nº 13.260, de 2016)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-67c22115c7d0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Juiz Leigo",
+   "instituicao": "TJ-BA",
+   "obs": "",
+   "enunciado": [
+    "Somente poderá ser decretada prisão temporária se o crime que originou a investigação estiver elencado entre as infrações penais taxativamente previstas em lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).",
+    "p) crimes previstos na Lei de Terrorismo. (Incluído pela Lei nº",
+    "p) crimes previstos na Lei de Terrorismo. (Incluído pela Lei nº 13.260, de 2016)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ca68e1e5ac2f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-SE",
+   "obs": "",
+   "enunciado": [
+    "No que tange à implantação das audiências de custódia no estado de Sergipe e às modalidades de prisão previstas no ordenamento jurídico brasileiro, julgue o item a seguir. A prisão temporária poderá ser decretada somente em determinados crimes, não abrangendo toda e qualquer infração penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único); (Vide Decreto-Lei nº 2.848, de 1940)",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único);",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro;",
+    "p) crimes previstos na Lei de Terrorismo."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-306b0f241b26",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 1º, I, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, I, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando a lei que regulamenta a prisão temporária, é correto afirmar que pode ser decretada a prisão temporária em qualquer fase do IP ou da ação penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aeddbc3a6833",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 1º, I, II, III, i, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "I, II, III, i",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, I, II, III, i, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir. É cabível a prisão temporária quando imprescindível para as investigações do inquérito policial e quando houver fundadas razões, de acordo com as provas dos autos, de autoria ou participação do indiciado na prática do crime tipificado no Art. 267, § 1º, do Código Penal (causar epidemia, mediante a propagação de germes patogênicos, com o resultado morte)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[…]",
+    "i) epidemia com resultado de morte."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d567d87d2f9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 1º, III, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Após encerrar o curso de formação na Academia de Polícia, Jonas foi designado para atuar como Delegado de Polícia na unidade policial de Viçosa/MG. Ao chegar ao local, o referido agente público constatou a existência de inquéritos policiais em curso que versavam sobre os mais variados delitos, a saber: associação criminosa simples, incêndio simples, tráfico de drogas, extorsão simples e roubo simples. Analisando, separadamente, os autos, Jonas concluiu que a decretação da prisão temporária dos investigados, em cada um dos inquéritos policiais, mostra-se imprescindível para as investigações, além de existirem fundadas razões de autoria nos crimes elencados. Nesse cenário, considerando as disposições da Lei nº 7.960/1989, julgue o item a seguir. A decretação da prisão temporária não caberá para o crime de incêndio simples."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso;",
+    "b) seqüestro ou cárcere privado;",
+    "c) roubo;",
+    "d) extorsão;",
+    "e) extorsão mediante seqüestro;",
+    "f) estupro;",
+    "g) atentado violento ao pudor;",
+    "h) rapto violento;",
+    "i) epidemia com resultado de morte;",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte;",
+    "l) quadrilha ou bando;",
+    "m) genocídio;",
+    "n) tráfico de drogas;",
+    "o) crimes contra o sistema financeiro;",
+    "p) crimes previstos na Lei de Terrorismo.",
+    "No rol taxativo não consta o crime de incêndio simples."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0bbd1463e890",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 1º, III, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "O delegado de polícia representou no sentido da decretação da prisão temporária de Wagner, em razão do cometimento, por ele, dos crimes de estelionato e de furto qualificado pela fraude. O Ministério Público, contudo, opinou pelo não acolhimento da representação do delegado de polícia e pela continuidade das investigações, sem quaisquer outros requerimentos. Os autos vieram conclusos ao juiz. Nessa hipótese, é correto afirmar que o juiz não poderá decretar a prisão temporária de Wagner, pois incabível na hipótese aventada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° - Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°,",
+    "2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único);",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).",
+    "p) crimes previstos na Lei de Terrorismo.",
+    "Obs: Os crimes de estelionato e de furto qualificado pela fraude não são mencionados nos termos do artigo 1º, inciso III."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-431c238d331b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 1º, II, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, II, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Segundo a Lei nº 7.960/89, admite-se como hipótese de cabimento da prisão temporária a inexistência de elementos necessários ao esclarecimento da identidade do investigado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° - Caberá prisão temporária:",
+    "[...]",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b04cfc60cdf4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 1º, II e III, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "II e III",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, II e III, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-AM",
+   "obs": "",
+   "enunciado": [
+    "Acerca das prisões preventiva e temporária, é correto afirmar que o fato de o representado não ter residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade é motivo suficiente para a decretação da prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "II - quando o indicado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;",
+    "[…]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);",
+    "e) extorsão mediante seqüestro (art. 159, caput, e seus §§ 1°, 2° e 3°);",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único);",
+    "i) epidemia com resultado de morte (art. 267, § 1°);",
+    "j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285);",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas;",
+    "n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976);",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).",
+    "p) crimes previstos na Lei de Terrorismo.",
+    "Complementando: Enunciado 9 da I Jornada de Direito Penal e Processual Penal CJF/STJ: \"Para a decretação da Prisão Temporária (Lei n. 7.960/1989) é necessária a aplicação cumulativa do inc. III com o inc. I do art. 1º da Lei n. 7.960/1989\"."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-39160fd6439f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 1º, III, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2016",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-PE",
+   "obs": "",
+   "enunciado": [
+    "Cabe prisão temporária de acusado pela prática de crimes de quadrilha ou bando e contra o sistema financeiro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "l) quadrilha ou bando (art. 288), todos do Código Penal;",
+    "[...]",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986)."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2591378c62b2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 1º, III, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a legislação pertinente, caberá prisão temporária para o agente dos crimes de homicídio doloso, estupro e sequestro ou cárcere privado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[…]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°);",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dfe5e5c8a40b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 1º, III, “b”, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, “b”",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, “b”, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "Matheus, delegado de polícia, representou pela decretação da prisão temporária de Caio, afirmando que a medida é imprescindível para as investigações do inquérito policial, sendo certo que há fundadas razões de autoria do indiciado na prática de determinada infração penal. Após o parecer favorável do Ministério Público, o juízo competente, em observância às formalidades constitucionais e legais, decretou a prisão temporária do investigado. Nesse cenário, considerando as disposições da Lei nº 7.960/1989, é correto afirmar que Caio praticou o crime de sequestro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[...]",
+    "b) seqüestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a238c8e7109c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 1°, III, \"c\" e Art. 2°, § 4°-A, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, \"c\"",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1°, III, \"c\" e Art. 2°, § 4°-A, Lei 7.960/89"
+    },
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 4°-A",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1°, III, \"c\" e Art. 2°, § 4°-A, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária é cabível em caso de roubo e o seu mandado deve conter o dia em que o preso deverá ser libertado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° - Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[...]",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "[...]",
+    "Art. 2°, § 4º-A - O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d1174298e26",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 1º, III, “c”, “f”, ï”, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, “c”, “f”, ï”",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, “c”, “f”, ï”, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Observados os demais requisitos previstos na Lei n° 7.960/89 (Prisão Temporária), caberá prisão temporária quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado, entre outros, nos crimes de roubo, estupro e epidemia com resultado de morte."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[…]",
+    "III - […]",
+    "c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°);",
+    "[…]",
+    "f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único);",
+    "[…]",
+    "i) epidemia com resultado de morte (art. 267, § 1°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b4a4cb988a4a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 1º, III, “d”, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, “d”",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, “d”, Lei 7.960/89"
+    }
+   ],
+   "banca": "IBADE",
+   "ano": "2022",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei 7.960/89, é cabível a prisão temporária no crime de extorsão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária: (Vide ADI 3360) (Vide ADI 4109)",
+    "[…]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[…]",
+    "d) extorsão (art. 158, caput, e seus §§ 1° e 2°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-41febe4f2ede",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 1º, III, i, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, i",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, i, Lei 7.960/89"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2021",
+   "cargo": "Inspetor de Polícia Civil",
+   "instituicao": "PC-CE",
+   "obs": "",
+   "enunciado": [
+    "Julgue a assertiva. Permite-se a decretação da prisão temporária para o crime de epidemia com o resultado morte."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[…]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[…]",
+    "i) epidemia com resultado de morte (art. 267, § 1°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-172769eb1460",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 1º, III, \"o\", Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, \"o\"",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, \"o\", Lei 7.960/89"
+    }
+   ],
+   "banca": "AROEIRA",
+   "ano": "2014",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-TO",
+   "obs": "",
+   "enunciado": [
+    "Caberá prisão temporária quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado, entre outros crimes, em crimes contra o sistema financeiro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[...]",
+    "o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986).",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b262fa3328f4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 1º, I e III, \"i\", Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "I e III, \"i\"",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, I e III, \"i\", Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "É cabível a prisão temporária quando imprescindível para as investigações do inquérito policial e quando houver fundadas razões, de acordo com as provas dos autos, de autoria ou participação do indiciado na prática do crime tipificado no Art. 267, § 1º, do Código Penal (causar epidemia, mediante a propagação de germes patogênicos, com o resultado morte)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária: (Vide ADI 3360) (Vide ADI 4109)",
+    "I - quando imprescindível para as investigações do inquérito policial;",
+    "[...]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[...]",
+    "i) epidemia com resultado de morte (art. 267, § 1°);"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5f0bb92c2415",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 1º, p, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "p",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, p, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), é correto afirmar que: Os crimes previstos na Lei de Terrorismo não comportam a decretação de prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[...]",
+    "p) crimes previstos na Lei de Terrorismo"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ca1be6e678f1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 1º, III, a, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, a",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, a, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Tito foi indiciado em inquérito policial pela prática de homicídio culposo, tendo a autoridade policial relatado o inquérito e representado no sentido da decretação de sua prisão temporária, a fim de assegurar a aplicação da lei penal, pois não havia elementos na investigação que o vinculassem ao distrito da culpa. O Ministério Público não encampou a representação da autoridade policial, ofereceu denúncia e requereu em desfavor de Tito a decretação da medida cautelar de comparecimento periódico em juízo para informar e justificar suas atividades.",
+    "Diante desse cenário, o juiz não poderá decretar seja a prisão temporária, seja a prisão preventiva de Tito, pois ambas não são cabíveis no caso concreto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária: […]",
+    "III – quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "a) homicídio doloso (art. 121, caput, e seu § 2°). […]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a0c877328fc5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 1º, III, p, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "1",
+     "disp": "III, p",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 1º, III, p, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), julgue a assertiva. Os crimes previstos na Lei de Terrorismo não comportam a decretação de prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° Caberá prisão temporária:",
+    "[…]",
+    "III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:",
+    "[…]",
+    "p) crimes previstos na Lei de Terrorismo."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7be01daf518a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando a lei que regulamenta a prisão temporária, é correto afirmar que a prisão temporária pode ser decretada por intermédio de representação da autoridade policial ou do membro do MP, assim como ser decretada de ofício pelo juiz competente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-504120db6c05",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), julgue a assertiva. A prisão temporária poderá ser representada pela autoridade policial, requerida pelo Ministério Público ou decretada de ofício pelo juiz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f78602af77b4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-BA",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária será decretada pelo juiz, em face da representação da autoridade policial ou de requerimento do MP, e terá o prazo de dez dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9ae25ba5a8c9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Durante as investigações de um crime de associação criminosa (Art. 288 do CP), a autoridade policial representa pela decretação da prisão temporária do indiciado Jorge, tendo em vista que a medida seria imprescindível para a continuidade das investigações. Os autos são encaminhados ao Ministério Público, que se manifesta favoravelmente à representação da autoridade policial, mas deixa de requerer expressamente, por conta própria, a decretação da prisão temporária. Por sua vez, o magistrado, ao receber o procedimento, decretou a prisão temporária pelo prazo de 10 dias, ressaltando que a lei admite a prorrogação do prazo de 05 dias por igual período. Fez o magistrado constar, ainda, que Jorge não poderia permanecer acautelado junto com outros detentos que estavam presos em razão de preventivas decretadas. Considerando apenas as informações narradas, o advogado de Jorge, ao ser constituído, deverá alegar que o prazo fixado para a prisão temporária de Jorge é ilegal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f1760817044",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária poderá ser decretada pelo juiz de ofício ou mediante representação da autoridade policial ou requerimento do Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f5839476d9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Quanto à atividade propulsora do juiz no processo penal, segundo a doutrina e a jurisprudência dominantes, poderá o juiz decretar a prisão temporária de ofício, sem requerimento do Ministério Público ou representação da autoridade policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ee06b738cf93",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2018",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O juiz pode, na sentença condenatória que reconhece a responsabilidade por crime hediondo, decretar a prisão temporária do condenado, como condição de prelibação para o juízo de admissibilidade do recurso de agravo, ainda que o réu tenha respondido ao processo em liberdade provisória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "O juiz não pode decretar a prisão temporária de ofício.",
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-32d0df144e0c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária, cuja finalidade é a de acautelamento das investigações do inquérito policial, será provisória e tem sua duração expressamente fixada em lei. Esta duração a que se refere à lei é de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4270b2b5ad0c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2017",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Recebendo o juiz os autos do inquérito policial com pedido de prazo para conclusão, sem provocação da autoridade policial ou do Ministério Público, não poderá decretar a prisão temporária do investigado, pois não há previsão legal de prisão temporária decretada de ofício pelo Juiz."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2287c1c4e81",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária será decretada pelo Juiz, de ofício, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "Obs: não é de ofício."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-30053aa51597",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2017",
+   "cargo": "Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação a prisão temporária, normas dos juizados especiais criminais e questões e processos incidentes no processo penal, julgue o item subsecutivo. A prisão temporária pode ser decretada pelo juiz, de ofício, pelo prazo de cinco dias, prorrogável, excepcionalmente, por igual período em caso de extrema e comprovada necessidade para as investigações policiais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-48f7e3c65059",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "Considere que, no curso de determinada investigação, a autoridade policial tenha representado ao competente juízo pela prisão temporária do indiciado. Nessa situação, mesmo que a autoridade policial não tivesse requerido a prisão temporária, o juiz poderia tê-la decretado de ofício."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08d968bdd154",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à prisão temporária, é correto afirmar que somente será decretada em face de representação da autoridade policial e apenas nas hipóteses previstas na legislação que disciplina o assunto, sempre com prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2764ed19379e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, a prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 10 dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade. […]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-87e4409d7cb3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à prisão temporária, é correto afirmar que é possível sua decretação nos crimes dolosos, como regra, com prazo de 30 (trinta) dias, prorrogável por igual período e nos crimes culposos, como exceção, com prazo de 5 (cinco) dias, prorrogável por igual período; em ambos os casos, é necessário comprovar a extrema necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1773d4cce6e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Juiz Leigo",
+   "instituicao": "TJ-BA",
+   "obs": "",
+   "enunciado": [
+    "A custódia temporária poderá persistir após a conclusão da investigação, até o recebimento da denúncia pelo competente juízo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40b396ac3d59",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "IDIB",
+   "ano": "2019",
+   "cargo": "Guarda Civil",
+   "instituicao": "PREFEITURA DE PETROLINA-PE",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por até 30 (trinta) dias em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2908dd0ffd36",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária terá prazo de 5 dias improrrogáveis."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b46ab14ab320",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), é correto afirmar que: A prisão temporária poderá ser representada pela autoridade policial, requerida pelo Ministério Público ou decretada de ofício pelo juiz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c682955c08ff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 2°, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2°, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária pode ser prorrogada tantas vezes quantas forem necessárias, desde que seja imprescindível para a investigação do delito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8e2ba171cdfc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária pode ser decretada pelo juiz de ofício, independentemente de representação da autoridade policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-01cdb47c3391",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Juiz Direito",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária pode ser decretada de ofício pelo Judiciário, mas, no caso de representação pela Autoridade Policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-55d12367c0a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária será decretada pelo juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 dias, em regra, podendo ser este prorrogado por iguais períodos enquanto houver extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-acc2e38d685f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, que dispõe sobre a Prisão Temporária, julgue o item. A prisão temporária será decretada pelo Ministério Público, em face da representação da autoridade policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff5b543d8d1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2026",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Gabriel Leite, 42 anos de idade, primário, está sendo investigado em inquérito policial pela suposta prática do crime de estupro de vulnerável. O magistrado, Dr. Guilherme, ao ter contato com a investigação criminal, por entender tratar-se de crime extremamente grave, decreta de ofício a prisão temporária de Gabriel. Com base nos fatos narrados e na Lei nº 7960/89, é correto afirmar que não é cabível a decretação da prisão temporária de ofício."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a0807aee2b21",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, a prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-14336fdf75f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito ao ofendido e às suas prerrogativas no processo penal brasileiro, é correto afirmar que poderá requerer ao juiz a prisão temporária do investigado caso este ameace a sua integridade física durante a investigação criminal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0e5e870c6c56",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "O delegado de polícia indiciou e representou pela prisão temporária de Dorival Silva pela prática do crime constante no art. 155, § 4º-A do Código Penal (furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum), e por considerar sua custódia imprescindível para as investigações. O Juiz aceitou os argumentos da autoridade policial e expediu mandado de prisão pelo prazo de 30 (trinta) dias. Decorrido o prazo contido no mandado de prisão, o delegado responsável pela custódia, independentemente de nova ordem da autoridade judicial, manteve Dorival preso na carceragem, em decorrência da gravidade do crime, e a fim de assegurar possível fuga do indiciado. Com base estritamente nos fatos narrados e nos termos das Leis nº 7.960/89 e nº 8.072/90, avalie a afirmativa a seguir: A prorrogação da custódia temporária pelo delegado, independentemente da expedição de novo mandado, está em conformidade com a legislação processual, em decorrência do perigo abstrato gerado pelo estado de liberdade do imputado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-71d8e92a5ac3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "UFMT",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PJC-MT",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na redação atualizada da Lei nº 7.960/1989 acerca da prisão temporária, julgue a assertiva. Na hipótese de representação da autoridade policial, o Juiz, antes de decidir quanto à prisão temporária, ouvirá o Ministério Público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° [...]",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-61bed3809756",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "Quanto à atuação do órgão jurisdicional no curso das investigações realizadas no inquérito policial, é correto afirmar que o juiz poderá decretar a prisão temporária do indiciado mediante representação da autoridade policial, ouvido o Ministério Público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f28aed08b70f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária demanda ordem judicial e prévio parecer favorável do Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8116097d9032",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 2º, § 1°, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1°",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1°, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando a lei que regulamenta a prisão temporária, é correto afirmar que, quando a prisão temporária for requerida pela autoridade policial, por intermédio de representação, não haverá necessidade de prévia oitiva do MP, devendo o juiz decidir o pedido formulado no prazo máximo de 24 horas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-973cc3041b14",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Acerca da prisão, julgue o item subsequente.",
+    "Suponha que, no curso de uma investigação acerca de suposta organização criminosa, a autoridade policial tenha submetido ao juízo competente representação que visa decretar a prisão temporária do grupo investigado. Nesse caso, o juiz pode decretar a prisão cautelar sem a prévia manifestação ministerial, sob o fundamento da necessidade da custódia cautelar e da garantia da eficácia investigativa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 1° - Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-30d81aad7727",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2017",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Recebendo o juiz os autos do inquérito policial com pedido de prazo para conclusão, sem provocação da autoridade policial ou do Ministério Público, poderá o juiz decretar a prisão temporária do investigado por cinco dias, ainda que não haja representação da autoridade policial ou requerimento do Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f16cdad36675",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 2º, §1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, §1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2016",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PE",
+   "obs": "",
+   "enunciado": [
+    "Considerando-se que João tenha sido indiciado, em inquérito policial, por, supostamente, ter cometido dolosamente homicídio simples, e que Pedro tenha sido indiciado, em inquérito policial, por, supostamente, ter cometido homicídio qualificado, é correto afirmar que, no curso dos inquéritos, o juiz poderá decidir sobre a prisão temporária de qualquer um dos acusados ou de ambos, independentemente de ouvir o MP, sendo suficiente, para tanto, a representação da autoridade policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7eae2bc5d345",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tema Prisão Temporária, julgue o item a seguir. Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a16b201275aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 2º, § 1º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 1º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Por se tratar de medida cautelar, dada a urgência, na hipótese de representação da autoridade policial, o Juiz poderá decidir independentemente de manifestação do Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "§ 1° Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8b7294052c77",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 2º, § 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 2º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tema Prisão Temporária, julgue o item a seguir. O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de vinte e quatro horas, contadas a partir do recebimento da representação ou do requerimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 2° O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 24 (vinte e quatro) horas, contadas a partir do recebimento da representação ou do requerimento."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a51c8b733d17",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 2º, § 2º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 2º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 2º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 48 horas, contadas a partir do recebimento da representação ou do requerimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 2° O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 24 (vinte e quatro) horas, contadas a partir do recebimento da representação ou do requerimento."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ab1ee246bc33",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 2º, § 3º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 3º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 3º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2015",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-AM",
+   "obs": "",
+   "enunciado": [
+    "Ao Juiz é vedado determinar, de ofício, que o preso temporário lhe seja apresentado, solicitar informações e esclarecimentos da autoridade policial e submetê-lo a exame de corpo de delito, tendo em vista que tal determinação somente poderá ser feita mediante requerimento do Ministério Público e do defensor."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 3° O Juiz poderá, de ofício, ou a requerimento do Ministério Público e do Advogado, determinar que o preso lhe seja apresentado, solicitar informações e esclarecimentos da autoridade policial e submetê-lo a exame de corpo de delito."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8ca09e740262",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 2º, § 4º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 4º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tema Prisão Temporária, julgue o item a seguir. Decretada a prisão temporária, expedir-se-á mandado de prisão, em duas vias, uma das quais será entregue ao indiciado, mas que não servirá como nota de culpa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 4° Decretada a prisão temporária, expedir-se-á mandado de prisão, em duas vias, uma das quais será entregue ao indiciado e servirá como nota de culpa."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ecd9b1281ba3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 2º, § 4º-A, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 4º-A",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 4º-A, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), julgue a assertiva. O mandado de prisão temporária indicará o dia em que o preso deverá ser libertado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e45f3d9e890",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 2º, § 4º-A, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 4º-A",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 4º-A, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), é correto afirmar que: O mandado de prisão temporária indicará o dia em que o preso deverá ser libertado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6a1461193cab",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 2º, § 4º-A, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 4º-A",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 4º-A, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Caio, delegado de polícia, representou pela decretação da prisão temporária de Lucas. Para tanto, argumentou-se que a segregação cautelar seria imprescindível para as investigações do inquérito policial e demonstrou-se a existência de fundadas razões de autoria do indiciado em um determinado crime.",
+    "Nesse cenário, considerando as disposições da Lei nº 7.960/1989, é correto afirmar que Lucas praticou o crime de cárcere privado, sendo certo que o mandado de prisão conterá necessariamente o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7aa09e6aa7eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 2º, § 5º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 5º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2018",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária somente poderá ser executada depois da expedição do respectivo mandado judicial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 5° A prisão somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f95f879aac75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 2º, § 5º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 5º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, que dispõe sobre a Prisão Temporária, julgue o item. A prisão somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2°. [...]",
+    "§ 5° A prisão somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff6bd9b37d22",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 2º, § 5º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 5º, Lei 7.960/89"
+    }
+   ],
+   "banca": "UFMT",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PJC-MT",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na redação atualizada da Lei nº 7.960/1989 acerca da prisão temporária, julgue a assertiva. A prisão temporária somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 5° A prisão somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bf2427cf41e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 2º, § 5º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 5º, Lei 7.960/89"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 5° A prisão somente poderá ser executada depois da expedição de mandado judicial."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-12c4ca466314",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 2º, § 7º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 7º, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), é correto afirmar que: Uma vez decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá consultar ao Juízo responsável pelo decreto sobre a manutenção da prisão ou colocação do preso em liberdade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "[...]",
+    "§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6c92c874096c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 2º, § 7º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 7º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando a lei que regulamenta a prisão temporária, é correto afirmar que o prazo da prisão temporária, que em regra é de 5 dias, prorrogáveis por igual período, é fatal e peremptório, de modo que, esgotado, o preso deve ser imediatamente posto em liberdade, não podendo ser a prisão convertida em preventiva."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "[...]",
+    "§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva. (Redação dada pela Lei 13.869/2019)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0187eb249396",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 2°, § 7°, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7°",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2°, § 7°, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária não possibilita a liberação do agente pela autoridade policial sem alvará de soltura expedido pelo juiz que a decretou, ainda que tenha terminado o prazo de sua duração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° [...]",
+    "§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva. (Redação dada pela Lei 13.869/2019)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10d3ba7684ff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 2º, § 7º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 7º, Lei 7.960/89"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Juiz Leigo",
+   "instituicao": "TJ-BA",
+   "obs": "",
+   "enunciado": [
+    "O investigado deverá ser mantido preso durante todo o prazo judicialmente estipulado para a custódia temporária, ao final do qual deverá ser posto imediatamente em liberdade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6fac141db785",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 2º, § 7º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 7º, Lei 7.960/89"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a prisão temporária (Lei nº 7.960/1989 com alterações posteriores), julgue a assertiva. Uma vez decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá consultar ao Juízo responsável pelo decreto sobre a manutenção da prisão ou colocação do preso em liberdade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3ad2507ff56c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 2º, § 7º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 7º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 7º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "O delegado de polícia indiciou e representou pela prisão temporária de Dorival Silva pela prática do crime constante no art. 155, § 4º-A do Código Penal (furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum), e por considerar sua custódia imprescindível para as investigações. O Juiz aceitou os argumentos da autoridade policial e expediu mandado de prisão pelo prazo de 30 (trinta) dias. Decorrido o prazo contido no mandado de prisão, o delegado responsável pela custódia, independentemente de nova ordem da autoridade judicial, manteve Dorival preso na carceragem, em decorrência da gravidade do crime, e a fim de assegurar possível fuga do indiciado. Com base estritamente nos fatos narrados e nos termos das Leis nº 7.960/89 e nº 8.072/90, avalie a afirmativa a seguir: Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deveria ter posto imediatamente o preso em liberdade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva. (Redação dada pela Lei nº 13.869. de 2019)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-253a0ae6d5a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 2º, § 8º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 8º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 8º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PE",
+   "obs": "",
+   "enunciado": [
+    "O dia do cumprimento do mandado não é computado no prazo da prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária. (Incluído pela Lei nº 13.869. de 2019)"
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e174561d1781",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 2º, § 8º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 8º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 8º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PE",
+   "obs": "",
+   "enunciado": [
+    "Em relação à prisão, antes do trânsito em julgado da sentença penal condenatória, é correto afirmar que o dia do cumprimento do mandado não é computado no prazo da prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "[…]",
+    "§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f73bcd60ee86",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 2º, § 8º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 8º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 8º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, que dispõe sobre a Prisão Temporária, julgue o item. Exclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2°. [...]",
+    "§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f6f70f1969e9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 2º, § 8º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "2",
+     "disp": "§ 8º",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 2º, § 8º, Lei 7.960/89"
+    }
+   ],
+   "banca": "UFMT",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PJC-MT",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na redação atualizada da Lei nº 7.960/1989 acerca da prisão temporária, julgue a assertiva. Exclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cb746af13c5d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 3º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 3º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário Administrativo",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Os presos temporários poderão juntar-se aos demais detentos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-45e1ee38bd75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 3º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 3º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2019",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Alan, funcionário público de determinado Tribunal de Justiça, estava sendo investigado, em inquérito policial, pela suposta prática dos crimes de associação criminosa e corrupção passiva. Decorrido o prazo das investigações, a autoridade policial encaminhou os autos ao Poder Judiciário solicitando novo prazo para prosseguimento dos atos investigatórios. O Ministério Público apenas concordou com o requerimento de prorrogação do prazo, não apresentando qualquer outro requerimento. O magistrado, por sua vez, ao receber os autos, concedeu mais 15 (quinze) dias para investigações e, na mesma decisão, decretou a prisão temporária de Alan pelo prazo de 05 (cinco) dias, argumentando que a cautelar seria imprescindível para as investigações do inquérito policial. Alan foi preso temporariamente e mantido separado dos demais detentos da unidade penitenciária. Ao final do 4º dia de prisão, a autoridade judicial prorrogou por mais 05 (cinco) dias a prisão temporária, esclarecendo que os motivos que justificaram a decisão permaneciam inalterados, ainda sendo necessária a medida drástica para as investigações. Procurado pela família do preso, o advogado de Alan deverá esclarecer que a prisão temporária foi decretada e prorrogada de maneira válida, mas houve ilegalidade na sua execução, tendo em vista que os presos temporários não podem ser mantidos separados dos demais detentos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-919c344371fe",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 3º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 3º, Lei 7.960/89"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 7.960/1989, que dispõe sobre a Prisão Temporária, julgue o item. Os presos temporários poderão juntar-se aos demais detentos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bfbc14c8cc75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 3º, Lei 7.960/89",
+   "refs": [
+    {
+     "lei": "prisao-temporaria",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 7.960/89",
+     "texto": "Art. 3º, Lei 7.960/89"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Sempre que possível, os presos temporários ficarão separados dos demais detentos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos."
+   ],
+   "vinculo": {
+    "lei": "prisao-temporaria",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Processual Penal",
+  "Lei de Prisão Temporária"
+ ]
+}
