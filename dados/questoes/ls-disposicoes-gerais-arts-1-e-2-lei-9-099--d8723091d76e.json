@@ -1,0 +1,251 @@
+{
+ "id": "ls-disposicoes-gerais-arts-1-e-2-lei-9-099--d8723091d76e",
+ "titulo": "Disposições Gerais (Arts. 1º e 2º, Lei 9.099/95)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-1e41ad3fd74d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 2º, Lei 9.099/95",
+   "refs": [
+    {
+     "lei": "juizados",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 9.099/95",
+     "texto": "Art. 2º, Lei 9.099/95"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SC",
+   "obs": "Prova anulada",
+   "enunciado": [
+    "São princípios informadores específicos do processo nos Juizados Especiais Cíveis, segundo o disposto na Lei n. 9.099/95, a Oralidade, simplicidade, informalidade, economia processual e celeridade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º O processo orientar-se-á pelos critérios da oralidade, simplicidade, informalidade, economia processual e celeridade, buscando, sempre que possível, a conciliação ou a transação."
+   ],
+   "vinculo": {
+    "lei": "juizados",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3584a56fce67",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 2º, Lei 9.099/95",
+   "refs": [
+    {
+     "lei": "juizados",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 9.099/95",
+     "texto": "Art. 2º, Lei 9.099/95"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos Juizados Especiais Criminais (Lei nº 9.099/95) e sua interpretação pelos Tribunais Superiores, julgue o item a seguir.",
+    "Economia processual, oralidade, formalidade e celeridade são princípios que regem o procedimento nos Juizados Especiais Criminais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - O processo orientar-se-á pelos critérios da oralidade, simplicidade, informalidade, economia processual e celeridade, buscando, sempre que possível, a conciliação ou a transação."
+   ],
+   "vinculo": {
+    "lei": "juizados",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5e1c56e0b5bd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 3º, § 1º, II, Lei 9.099/95",
+   "refs": [
+    {
+     "lei": "juizados",
+     "art": "3",
+     "disp": "§ 1º, II",
+     "sigla": "Lei 9.099/95",
+     "texto": "Art. 3º, § 1º, II, Lei 9.099/95"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei no 9.099/1995, nos Juizados Especiais Cíveis, podem ser cumpridos os julgados do Juízo Comum que não excedam 40 salários mínimos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º. […]",
+    "§ 1º Compete ao Juizado Especial promover a execução:",
+    "[...]",
+    "II - dos títulos executivos extrajudiciais, no valor de até quarenta vezes o salário mínimo, observado o disposto no § 1º do art. 8º desta Lei."
+   ],
+   "vinculo": {
+    "lei": "juizados",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4afb6f3b2c43",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 3º, § 2º, Lei 9.099/95",
+   "refs": [
+    {
+     "lei": "juizados",
+     "art": "3",
+     "disp": "§ 2º",
+     "sigla": "Lei 9.099/95",
+     "texto": "Art. 3º, § 2º, Lei 9.099/95"
+    }
+   ],
+   "banca": "INSTITUTO ACCESS",
+   "ano": "2022",
+   "cargo": "Juiz Leigo",
+   "instituicao": "TJ-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca da competência dos Juizados Especiais Cíveis, nos termos da lei, é correto afirmar que causa de natureza alimentar está excluída da competência do Juizado Especial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º. […]",
+    "§ 2º Ficam excluídas da competência do Juizado Especial as causas de natureza alimentar, falimentar, fiscal e de interesse da Fazenda Pública, e também as relativas a acidentes de trabalho, a resíduos e ao estado e capacidade das pessoas, ainda que de cunho patrimonial."
+   ],
+   "vinculo": {
+    "lei": "juizados",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7ff08afd8a09",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 4º, III, Lei 9.099/95",
+   "refs": [
+    {
+     "lei": "juizados",
+     "art": "4",
+     "disp": "III",
+     "sigla": "Lei 9.099/95",
+     "texto": "Art. 4º, III, Lei 9.099/95"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2024",
+   "cargo": "Estagiário",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Considere, hipoteticamente, que João Batista reside no município de Belo Horizonte e tem interesse em ajuizar uma ação de indenização por dano moral e material contra uma determinada instituição financeira, cujo valor total da ação é de quarenta salários mínimos, referente a um fato que ocorreu na cidade de Juiz de Fora, onde autor da ação exerce as suas atividades profissionais. Diante de tal cenário, é correto afirmar que a referida ação judicial poderá ser distribuída no Juizado Especial Cível da comarca Juiz de Fora ou de Belo Horizonte, de acordo com a escolha do autor da ação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º É competente, para as causas previstas nesta Lei, o Juizado do foro: […]",
+    "III - do domicílio do autor ou do local do ato ou fato, nas ações para reparação de dano de qualquer natureza."
+   ],
+   "vinculo": {
+    "lei": "juizados",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Processual Penal",
+  "Lei 9.099/95 - Lei dos Juizados Especiais"
+ ]
+}
