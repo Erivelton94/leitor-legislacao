@@ -1,0 +1,4529 @@
+{
+ "id": "ls-4-municipios-arts-29-31-cf-64b35eff7d59",
+ "titulo": "4 Municípios (Arts. 29 - 31, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-fbb8a3b0f2c3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2010",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRE-AL",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0f2a68a7be8b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "UNIFIL",
+   "ano": "2026",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA AMÉLIA-BA",
+   "obs": "",
+   "enunciado": [
+    "Conforme disposto na Constituição da República Federativa do Brasil de 1988, julgue o item quanto à elaboração da Lei Orgânica Municipal. Deve ser votada em dois turnos, com intervalo mínimo de dez dias, e aprovada por dois terços da Câmara Municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-17218fa842c1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2012",
+   "cargo": "VIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O município será regido por Lei Orgânica própria, votada pela Assembleia Estadual."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dff13485c462",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-16ª REGIÃO-MA",
+   "obs": "",
+   "enunciado": [
+    "O Município Beta foi criado a partir da fusão do Município Alfa com o Município Delta. Nesse caso, será preciso editar a lei básica de regência desse ente federativo, que é a Lei orgânica, que deve ser aprovada por maioria absoluta dos membros da Câmara Municipal e sancionada pelo Prefeito Municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40abdfe50db4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Assessor Jurídico",
+   "instituicao": "CÂMARA MUNICIPAL NOVA ODESSA-SP",
+   "obs": "",
+   "enunciado": [
+    "Segundo prescreve a Constituição Federal, o município reger- se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f04b25945c19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o que estabelece a Constituição Federal, o Município rege-se por lei orgânica, que deverá ser votada em dois turnos, com o interstício mínimo de 10 dias, e aprovada por dois terços dos membros da Câmara Municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a1804e30fab",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, sendo após promulgada e publicada pelo Prefeito Municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1a228887ee7f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, aprovada por dois terços dos membros da Câmara Municipal e promulgada pelo Chefe do Poder Executivo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7c23e7a62129",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 29, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 29, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização do Estado, consoante disposto na Constituição Federal de 1988, julgue o item a seguir.",
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de vinte dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios e os preceitos estabelecidos na Constituição Federal de 1988 e na Constituição do respectivo Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3fa349cee85e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 29, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 29, III, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos na Constituição Federal, na Constituição do respectivo Estado e o seguinte preceito: posse do Prefeito e do Vice-Prefeito no dia 1º de janeiro do ano subsequente ao da eleição."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "III - posse do Prefeito e do Vice-Prefeito no dia 1º de janeiro do ano subseqüente ao da eleição;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd21bac9e730",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 29, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRE-TO",
+   "obs": "",
+   "enunciado": [
+    "Para a composição das Câmaras Municipais, nos Municípios de até 15.000 habitantes, será observado o limite máximo de 11 Vereadores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. [...]",
+    "IV - para a composição das Câmaras Municipais, será observado o limite máximo de:",
+    "a) 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes",
+    "b) 11 (onze) Vereadores, nos Municípios de mais de 15.000 (quinze mil) habitantes e de até 30.000 (trinta mil) habitantes;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7769813b0ba1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 29, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, CF"
+    }
+   ],
+   "banca": "IDIB",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAGUAÍNA-TO",
+   "obs": "",
+   "enunciado": [
+    "Nos Municípios de até 15.000 (quinze mil) habitantes, a composição da Câmara Municipal observará o limite máximo de 9 (nove) Vereadores."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[…]",
+    "IV - Para composição das Câmaras Municipais, será observado o limite máximo de:",
+    "[…]",
+    "a) 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-51f6b2491be3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 29, IV, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV, a",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, a, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "Na Constituição da República Federativa do Brasil existe no art. 29 inciso IV consta que será observado o limite máximo de vereadores por habitante. Assim podemos afirmar: 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. IV - para a composição das Câmaras Municipais, será observado o limite máximo de:",
+    "a) 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-527b64e90f14",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 29, IV, “a” e “x”, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV, “a” e “x”",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, “a” e “x”, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos na Constituição Federal, na Constituição do respectivo Estado e o seguinte preceito: composição das Câmaras Municipais com limites máximos que variam entre 9 e 55 vereadores, em proporção escalonada conforme o número de eleitores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "IV - para a composição das Câmaras Municipais, será observado o limite máximo de:",
+    "a) 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes;",
+    "[...]",
+    "x) 55 (cinquenta e cinco) Vereadores, nos Municípios de mais de 8.000.000 (oito milhões) de habitantes;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bf0e492570e9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 29, IV, “i”, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV, “i”",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, “i”, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "Na composição das câmaras municipais, deve ser observado o limite máximo de vereadores, número que varia de acordo com a faixa populacional. Em municípios de mais de 450 mil habitantes até 600 mil habitantes, a exemplo de Mogi das Cruzes, o número máximo de vereadores é de 25."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "IV - para a composição das Câmaras Municipais, será observado o limite máximo de:",
+    "[...]",
+    "i) 25 (vinte e cinco) Vereadores, nos Municípios de mais de 450.000 (quatrocentos e cinquenta mil) habitantes e de até 600.000 (seiscentos mil) habitantes;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c2754cc6fda1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 29, IV, e, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IV, e",
+     "sigla": "CF",
+     "texto": "Art. 29, IV, e, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município Alfa atualmente possui uma população de 110 mil habitantes; destes, 65 mil são eleitores. À luz da Constituição Federal de 1988, a composição da Câmara Municipal de Vereadores do Município Alfa pode ter o máximo de 17 (dezessete) vereadores."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "IV - para a composição das Câmaras Municipais, será observado o limite máximo de:",
+    "[...]",
+    "e) 17 (dezessete) Vereadores, nos Municípios de mais de 80.000 (oitenta mil) habitantes e de até 120.000 (cento e vinte mil) habitantes;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8ba6352fe490",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 29, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 29, V, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "É final de legislatura, e a Câmara do município X pretende fixar o subsídio dos vereadores e do prefeito, a ser usufruído pelos eleitos para o período legislativo subsequente. Há dúvidas, contudo, sobre as espécies normativas que podem ser utilizadas para tratar da matéria e sobre os limites constitucionais aplicáveis, motivo pelo qual o presidente da Casa, João, convida Antônio, analista legislativo, para esclarecer as questões.",
+    "Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que o aumento do subsídio do prefeito não fica sujeito a deliberação legislativa, pois compete ao chefe do Poder Executivo dispor sobre o assunto, por Decreto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "V - subsídios do Prefeito, do Vice-Prefeito e dos Secretários Municipais fixados por lei de iniciativa da Câmara Municipal, observado o que dispõem os arts. 37, XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4ccdc83dffb7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 29, V e VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "V e VI",
+     "sigla": "CF",
+     "texto": "Art. 29, V e VI, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O subsídio dos Prefeitos e Secretários Municipais será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subsequente, observado o que dispõe a Constituição Federal, respeitados os critérios estabelecidos na respectiva Lei Orgânica."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "V - subsídios do Prefeito, do Vice-Prefeito e dos Secretários Municipais fixados por lei de iniciativa da Câmara Municipal, observado o que dispõem os arts. 37, XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I;",
+    "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:",
+    "[...]",
+    "Atenção: o erro da questão está no fato de afirmar que o subsídio do Prefeito e dos Secretários Municipais será fixado \"em cada legislatura para a subsequente\". O que não ocorre para estes cargos, mas sim para o caso dos Vereadores."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-70628139c16e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 29, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 29, VI, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Diante dos preceitos constitucionais aplicáveis à organização dos Municípios, o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada sessão legislativa para a seguinte, observados os critérios estabelecidos na respectiva Lei Orgânica e os limites máximos estabelecidos na Constituição estadual."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f93f876d7e23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 29, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 29, VI, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Os subsídios dos Vereadores serão fixados por lei de iniciativa do Prefeito Municipal em cada legislatura para a subsequente, observado o que dispõe a Constituição da República e, ainda, os critérios estabelecidos na respectiva Lei Orgânica e os limites máximos previstos na Constituição da República."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. [...]",
+    "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-abd5c5fc483e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 29, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 29, VI, CF"
+    }
+   ],
+   "banca": "IDIB",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAGUAÍNA-TO",
+   "obs": "",
+   "enunciado": [
+    "Em Municípios de mais de quinhentos mil habitantes, o subsídio máximo dos Vereadores corresponderá a 75% (setenta e cinco por cento) do subsídio dos Deputados Estaduais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[…]",
+    "VI - o subsídios dos vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subsequente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:",
+    "[…]",
+    "f) em Municípios de mais de quinhentos mil habitantes, o subsídio máximo dos Vereadores corresponderá a setenta e cinco por cento do subsídio dos Deputados Estaduais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0c37072a0555",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 29, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 29, VI, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos na Constituição Federal, na Constituição do respectivo Estado e o seguinte preceito: subsídio dos Vereadores fixado pelas respectivas Câmaras Municipais no primeiro ano da respectiva legislatura, observado o que dispõe a Constituição Federal, observados os critérios estabelecidos na respectiva Lei Orgânica e os limites máximos conforme o número de habitantes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-21926806dc35",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 29, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 29, VI, CF"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal impede a fixação, pelos vereadores, de sua remuneração, para viger na própria legislatura, mas permite que possam ser reajustáveis na mesma data e no mesmo percentual fixado aos Deputados Estaduais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-22c39b994276",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 29, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 29, VII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Procurador Jurídico Legislativo - Câmara de Sertãozinho",
+   "instituicao": "SP",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal prevê que o total da despesa com a remuneração dos vereadores não poderá ultrapassar o montante de 10% (dez por cento) da receita do Município."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VII - o total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de cinco por cento da receita do Município;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e80ada0d4ae5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 29, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 29, VII, CF"
+    }
+   ],
+   "banca": "IDIB",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAGUAÍNA-TO",
+   "obs": "",
+   "enunciado": [
+    "O total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de 5% (cinco por cento) da receita do Município."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[…]",
+    "VII - o total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de cinco por cento da receita do Município."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f21a126be492",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 29, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 29, VII, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos na Constituição Federal, na Constituição do respectivo Estado e o seguinte preceito: total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de dez por cento da receita do Município."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VII - o total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de cinco por cento da receita do Município;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b430325ce94",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 29, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 29, VII, CF"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de dez por cento da receita do Município."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 [...]",
+    "VII - o total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de cinco por cento da receita do Município;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-976a5d0dd829",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 29, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 29, VIII, CF"
+    }
+   ],
+   "banca": "FUMARC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "É imunidade extensível aos vereadores inviolabilidade por suas opiniões, palavras e votos, no exercício do mandato e na circunscrição do Município."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VIII - inviolabilidade dos Vereadores por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do Município;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5397646f124f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 29, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 29, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2011",
+   "cargo": "VI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "A imunidade formal e a imunidade material consistem em prerrogativas conferidas aos ocupantes de determinados cargos públicos. Em relação às referidas imunidades, é correto afirmar que os Vereadores gozam de imunidade material relativa às suas opiniões, palavras e votos, nos limites territoriais do Município a que estejam vinculados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "VIII - inviolabilidade dos Vereadores por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do Município;",
+    "Complementando:",
+    "\"[...] Assim como no caso dos demais parlamentares, a imunidade material do vereador existirá dentro ou fora do recinto parlamentar, desde que no exercício da função (e, no caso do vereador, dentro da circunscrição do município): “O vereador, atuando no âmbito da circunscrição territorial do Município a que está vinculado, não pode ser indiciado em inquérito policial e nem submetido a processo penal por atos que, qualificando-se como delitos contra a honra (calúnia, difamação e injúria), tenham sido por ele praticados no exercício de qualquer das funções inerentes ao mandato parlamentar: função de representação, função de fiscalização, e função de legislação. A eventual instauração de persecutio criminis contra o Vereador, nas situações infracionais estritamente protegidas pela cláusula constitucional de inviolabilidade, qualifica-se como ato de injusta constrição ao status libertatis do legislador local, legitimando, em consequência do que dispõe a Carta Política (CF, art. 29, VIII), a extinção, por ordem judicial, do próprio procedimento penal persecutório” (HC 74.201, rel. Min. Celso de Mello)\". (grifos nossos)",
+    "Nunes Jr, Flavio Mar tins Alves. Curso de direito constitucional . Editora Saraiva. Edição do Kindle."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7bf1e6c8ee92",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 29, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 29, VIII, CF"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal assegura aos Vereadores, com o objetivo de garantir ampla independência e liberdade de ação para o exercício do mandato representativo, a imunidade material, mitigada porque relativa a opiniões, palavras e votos, no exercício do mandato e na circunscrição do Município, desde que haja relação de pertinência entre a declaração e as atividades do parlamentar"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 […]",
+    "VIII - inviolabilidade dos Vereadores por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do Município;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5bc6241b5894",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 29, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 29, IX, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "As proibições e incompatibilidades, no exercício da vereança, são similares, no que couber, ao disposto na Constituição Federal para os membros do Congresso Nacional e na Constituição do respectivo Estado para os membros da Assembleia Legislativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. [...]",
+    "IX - proibições e incompatibilidades, no exercício da vereança, similares, no que couber, ao disposto nesta Constituição para os membros do Congresso Nacional e na Constituição do respectivo Estado para os membros da Assembléia Legislativa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5bfc0c5a2172",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 29, XIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "XIII",
+     "sigla": "CF",
+     "texto": "Art. 29, XIII, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Diante dos preceitos constitucionais aplicáveis à organização dos Municípios, a iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros, é exercida através de manifestação de, pelo menos, um por cento do eleitorado registrado na circunscrição municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:",
+    "[...]",
+    "XIII - iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros, através de manifestação de, pelo menos, cinco por cento do eleitorado;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-06d0555e636a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 29, XIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "XIII",
+     "sigla": "CF",
+     "texto": "Art. 29, XIII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2016",
+   "cargo": "Procurador Municipal - Prefeitura de Sertãozinho",
+   "instituicao": "SP",
+   "obs": "",
+   "enunciado": [
+    "A iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros, poderá ocorrer por meio de manifestação de, pelo menos, três por cento do eleitorado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29. [...]",
+    "XIII - iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros, através de manifestação de, pelo menos, cinco por cento do eleitorado;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d4cfaaf5775",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 29-A, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29-A",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 29-A, § 1º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Procurador Jurídico Legislativo - Câmara Municipal de Sertãozinho",
+   "instituicao": "SP",
+   "obs": "",
+   "enunciado": [
+    "A Câmara Municipal não gastará mais de 80% (oitenta por cento) de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus vereadores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29-A. [...]",
+    "§ 1º A Câmara Municipal não gastará mais de setenta por cento de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus Vereadores."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29-A",
+    "ate": "29-A"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e7ee681cb078",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 29-A, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29-A",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 29-A, § 1º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "As câmaras municipais possuem um limite máximo com folha de pagamento, incluído o gasto com o subsídio de seus vereadores, que, caso desrespeitado, constitui crime de responsabilidade do Presidente da Câmara Municipal. Esse limite corresponde a 70% de suas receitas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29-A. O total da despesa do Poder Legislativo Municipal, incluídos os subsídios dos Vereadores e os demais gastos com pessoal inativo e pensionistas, não poderá ultrapassar os seguintes percentuais, relativos ao somatório da receita tributária e das transferências previstas no § 5º do art. 153 e nos arts. 158 e 159 desta Constituição, efetivamente realizado no exercício anterior:",
+    "[...]",
+    "§ 1 o A Câmara Municipal não gastará mais de setenta por cento de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus Vereadores."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29-A",
+    "ate": "29-A"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cc4ac4912fcb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 29-A, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29-A",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 29-A, § 1º, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A Câmara Municipal não gastará mais de cinquenta por cento de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus Vereadores, nos municípios que tenham mais de 300.000 (trezentos mil) habitantes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29-A, § 1º A Câmara Municipal não gastará mais de setenta por cento de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus Vereadores. (Incluído pela Emenda Constitucional nº 25, de 2000)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29-A",
+    "ate": "29-A"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-291a24059454",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 29-A, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29-A",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 29-A, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Jurídico",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Constitui crime de responsabilidade do Prefeito Municipal não enviar o repasse até o dia vinte de cada mês ou enviá-lo a menor em relação à proporção fixada na Lei Orçamentária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29-A. [...]",
+    "§ 2º Constitui crime de responsabilidade do Prefeito Municipal:",
+    "[...]",
+    "II - não enviar o repasse até o dia vinte de cada mês; ou",
+    "III - enviá-lo a menor em relação à proporção fixada na Lei Orçamentária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29-A",
+    "ate": "29-A"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-117a4f112b15",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 29, § 1º CE-GO c/c 74, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "29",
+     "disp": "§ 1º CE-GO",
+     "sigla": "",
+     "texto": "Art. 29, § 1º CE-GO"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "74",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "74, § 1º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "instituicao": "SEFAZ-GO",
+   "obs": "",
+   "enunciado": [
+    "Ao dispor sobre a fiscalização contábil, financeira e orçamentária do Estado de Goiás, a Constituição estadual estabelece que os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas do Estado, sob pena de responsabilidade solidária, nos mesmos moldes estabelecidos pela Constituição Federal no âmbito federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 74, CF. […]",
+    "§ 1º Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária.",
+    "Art. 29, CE-GO. […]",
+    "§ 1º Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas do Estado, sob pena de responsabilidade solidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-90852c636988",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 30, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 30, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2012",
+   "cargo": "IX Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "As competências municipais são fixadas na Constituição Federal. À luz das normas constitucionais, é incorreto afirmar que o município é competente para legislar sobre assuntos de interesse local."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1b69f0e45e04",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 30, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 30, I, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Assessor Jurídico",
+   "instituicao": "CÂMARA MUNICIPAL NOVA ODESSA-SP",
+   "obs": "",
+   "enunciado": [
+    "Suponha que, por iniciativa de vereador, seja aprovada, por maioria simples, lei municipal que assegure o direito de nomeação, dentro do prazo de 180 dias, para todo candidato que lograr aprovação em concurso público de provas, ou de provas de títulos, dentro do número de vagas ofertadas pela administração pública municipal. É correto afirmar, com base na Constituição Federal e na jurisprudência dos tribunais superiores, que essa lei fere a Constituição, pois cabe à União estabelecer normas gerais aplicáveis aos concursos públicos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aaad90284f58",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 30, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 30, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "Oficial de Justiça e Avaliador",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "O Município Alfa editou a Lei nº 22/2018, dispondo sobre o horário de funcionamento do comércio local, o qual foi considerado inadequado pelos representantes dos lojistas. Considerando os prejuízos financeiros que poderiam advir dessa situação, o Sindicato dos Lojistas solicitou ao seu departamento jurídico que esclarecesse se o Município poderia legislar sobre a matéria. À luz da sistemática constitucional, o departamento jurídico informou corretamente que a Lei nº 22/2018 é constitucional, pois compete aos Municípios legislar sobre matérias de interesse local."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7496fa76467e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 30, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 30, I, CF"
+    }
+   ],
+   "banca": "IBGP",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "O exame da constitucionalidade da legislação municipal, à luz da Constituição da República e dos posicionamentos estabelecidos pelo Supremo Tribunal Federal, permite concluir como correto:",
+    "O Município tem competência legiferante em matéria de segurança pública, com fundamento no artigo 30 da Constituição."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b8166999bcd1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 30, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 30, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Auditoria de Contas Públicas de Saúde",
+   "instituicao": "TCE-PE",
+   "obs": "",
+   "enunciado": [
+    "Com base no artigo 30 da Constituição Federal de 1988, julgue ao item a seguir quanto às competências dos Municípios. Legislar sobre assuntos de interesse local."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8aa18f0120e1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 30, I, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I, II",
+     "sigla": "CF",
+     "texto": "Art. 30, I, II, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Agente",
+   "instituicao": "CÂMARA MUNICIAPL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "Suponha que no Município ABC foi sancionada a Lei nº 1.234/2025 que alterou o horário de funcionamento dos estabelecimentos comerciais, estabelecendo que o comércio funcionará das 10:00 às 19:00 horas, e a Lei nº 5.678/2025 que instituiu o feriado municipal do Dia da Consciência Negra.",
+    "Com base na situação hipotética, é correto afirmar que ambas as leis estão em consonância com o disposto na Constituição Federal, pois compete aos municípios legislar sobre assuntos de interesse local."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;",
+    "II - suplementar a legislação federal e a estadual no que couber;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e68e8b100374",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 30, I e II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "I e II",
+     "sigla": "CF",
+     "texto": "Art. 30, I e II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "A respeito da organização político-administrativa do Estado brasileiro, julgue o item a seguir. A competência municipal para suplementar a legislação federal e estadual autoriza os municípios a editarem normas mais rigorosas que a legislação federal em matérias ambientais e de consumo, independentemente da demonstração de interesse local predominante, bastando a justificativa de melhor proteção aos direitos fundamentais dos munícipes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "I - legislar sobre assuntos de interesse local;",
+    "II - suplementar a legislação federal e a estadual no que couber;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-940136f76793",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 30, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 30, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Auditoria de Contas Públicas de Saúde",
+   "instituicao": "TCE-PE",
+   "obs": "",
+   "enunciado": [
+    "Com base no artigo 30 da Constituição Federal de 1988, julgue ao item a seguir quanto às competências dos Municípios. Suplementar a legislação federal e a estadual no que couber."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "II - suplementar a legislação federal e a estadual no que couber;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f15f40da149",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 30, II,CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 30, II,CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do que está previsto na Constituição Federal de 1988, compete aos Municípios suplementar a legislação federal e a estadual no que couber."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "II - suplementar a legislação federal e a estadual no que couber;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3a4fec1038a6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 30, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 30, III, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "À luz do disposto na Constituição Federal, são competências dos Municípios: Instituir e arrecadar os tributos de sua competência, bem como aplicar suas rendas, sem prejuízo da obrigatoriedade de prestar contas e publicar balancetes nos prazos fixados em lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "III - instituir e arrecadar os tributos de sua competência, bem como aplicar suas rendas, sem prejuízo da obrigatoriedade de prestar contas e publicar balancetes nos prazos fixados em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-17906e08ed1b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 30, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 30, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2015",
+   "cargo": "Procurador do Município - Prefeitura de Salvador",
+   "instituicao": "BA",
+   "obs": "",
+   "enunciado": [
+    "Compete aos municípios criar, organizar e suprimir distritos, desde que observada a legislação estadual sobre a matéria."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "IV - criar, organizar e suprimir distritos, observada a legislação estadual;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-222b63aa3818",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 30, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 30, IV, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "À luz do disposto na Constituição Federal, são competências dos Municípios: Criar, organizar e suprimir distritos, observada a legislação estadual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "IV - criar, organizar e suprimir distritos, observada a legislação estadual;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2404296adfe1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 30, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 30, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Auditoria de Contas Públicas de Saúde",
+   "instituicao": "TCE-PE",
+   "obs": "",
+   "enunciado": [
+    "Com base no artigo 30 da Constituição Federal de 1988, julgue ao item a seguir quanto às competências dos Municípios. Criar, organizar e suprimir distritos, observada a legislação municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "IV - criar, organizar e suprimir distritos, observada a legislação estadual;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-12471584bca6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 30, V, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "V, VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, V, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "No Brasil, o pacto federativo está fundamentado na distribuição das competências político-administrativas previstas na Constituição Federal de 1988.",
+    "De acordo com a Constituição Federal, os Municípios têm competências privativas associadas a serviços públicos de caráter local, tais como o transporte coletivo e as leis de parcelamento do solo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "V - organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial;",
+    "[...]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40322aecc2e6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 30, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 30, V, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do que está previsto na Constituição Federal de 1988, compete aos Municípios organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "V - organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-34466994b017",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 30, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 30, V, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Controle Externo - Oficial Instrutivo",
+   "instituicao": "TCE-RS",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à organização político-administrativa do Estado e à administração pública, julgue o seguinte item, de acordo com a CF.",
+    "Compete aos municípios organizar e prestar, diretamente ou sob o regime de concessão ou permissão, os serviços públicos de interesse local, excetuado o serviço de transporte coletivo, cuja prestação é de competência dos estados."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "V - organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-371c2f5cfec6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 30, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 30, V, CF"
+    }
+   ],
+   "banca": "COPS UEL",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE LONDRINA-PR",
+   "obs": "",
+   "enunciado": [
+    "A Constituição estabelece a organização do Estado brasileiro. Sobre a organização do Estado brasileiro, julgue o item. É de Competência dos Municípios organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "V - organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-31bbe2e8be0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 30, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 30, VI, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Assistente de Suporte Acadêmico III",
+   "instituicao": "UNESP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Organização do Estado, julgue o item de acordo com o disposto na Constituição Federal. Compete aos Municípios manter, com a cooperação técnica e financeira da União e do Estado, programas de educação infantil e de ensino fundamental."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "VI - manter, com a cooperação técnica e financeira da União e do Estado, programas de educação infantil e de ensino fundamental;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3b0ebaf21bd5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 30, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 30, VII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista Técnico",
+   "instituicao": "PREFEITURA DE NOVA IGUAÇU-RJ",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, entre as competências dos Municípios está a de prestar, com a cooperação técnica e financeira da União e do Estado, serviços de atendimento à saúde da população."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "VII - prestar, com a cooperação técnica e financeira da União e do Estado, serviços de atendimento à saúde da população;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-caa0f15bb2c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "À luz do disposto na Constituição Federal, são competências dos Municípios: Promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1929a311e7b4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Compete à União promover o adequado ordenamento territorial do solo urbano, mediante controle do seu uso e da sua ocupação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c17ac26e3eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2024",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "O federalismo brasileiro é cooperativo, visto que a divisão de competências não é rígida, havendo competências comuns e concorrentes entre União, Estados, Distrito Federal e Municípios. (PALUDO, A. Administração pública. 3 ed. Rio de Janeiro: Elsevier, 2013.)",
+    "Considerando as competências de cada um dos entes da federação presentes na Constituição Federal de 1988, julgue o item a seguir.",
+    "É competência dos Municípios promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios: […]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-54a5167e6965",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A intervenção do Estado sobre o espaço urbano deve priorizar as medidas tendentes a melhorar a qualidade de vida das pessoas que ali vivem ou que venham a viver, garantindo-lhes o acesso à moradia digna, à segurança em sentido amplo, à saúde e à participação na sua gestão e no seu planejamento. Segundo a normativa vigente, compete à União promover o adequado ordenamento territorial do solo urbano, mediante controle do seu uso e da sua ocupação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[…]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4b32d2fa9973",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "IBGP",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "A pessoa com deficiência é aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+    "Na defesa dos interesses das pessoas com deficiência, é correto afirmar que é de competência concorrente do Poder Legislativo Municipal, nos termos do art. 24, XIV, da Constituição Federal, determinar a construção de rampas da via pública até a calçada e desta ao interior dos estabelecimentos bancários, para facilitar o acesso de idosos e de deficientes físicos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios: […]",
+    "VIII – promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dca7972753a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 30, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 30, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2019",
+   "cargo": "Agente de Fiscalização Municipal",
+   "instituicao": "PREFEITURA DE SALVADOR-BA",
+   "obs": "",
+   "enunciado": [
+    "O parcelamento do solo urbano é de competência privativa dos Estados."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "VIII - promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5311b674e579",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 30, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 30, IX, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Auditoria de Contas Públicas de Saúde",
+   "instituicao": "TCE-PE",
+   "obs": "",
+   "enunciado": [
+    "Com base no artigo 30 da Constituição Federal de 1988, julgue ao item a seguir quanto às competências dos Municípios. Promover a proteção do patrimônio histórico-cultural local, observada a legislação e a ação fiscalizadora federal e estadual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "IX - promover a proteção do patrimônio histórico-cultural local, observada a legislação e a ação fiscalizadora federal e estadual.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73b9ebe09a6b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 30, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 30, IX, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do que está previsto na Constituição Federal de 1988, compete aos Municípios promover a proteção do patrimônio histórico-cultural local, observada a legislação e a ação fiscalizadora federal e estadual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 30. Compete aos Municípios:",
+    "[...]",
+    "IX - promover a proteção do patrimônio histórico-cultural local, observada a legislação e a ação fiscalizadora federal e estadual."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "30",
+    "ate": "30"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f6b3497ecbaf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 31, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 31, CF"
+    }
+   ],
+   "banca": "CETAP",
+   "ano": "2026",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA DE VISEU-PA",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito à fiscalização do Município disciplinada na Constituição da República Federativa do Brasil, julgue o item. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7caf216fb96d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 31, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 31, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Legislativo Municipal, na forma da lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6861a69417f5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 31, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 1º, CF"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, é correto afirmar que o controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver, vedada sua extinção, criação ou instalação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. [...]",
+    "§ 1º O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver, vedada sua extinção, criação ou instalação. (Redação dada pela Emenda Constitucional nº 139, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac26989af3df",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 31, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Auditor de Controle Externo",
+   "instituicao": "TCE-RN",
+   "obs": "",
+   "enunciado": [
+    "Acerca de improbidade administrativa e dos sistemas de controle jurisdicional da administração pública, julgue o item subsequente. No âmbito de tomada de contas especial, não compete ao tribunal de contas a aferição de dolo para fins de caracterização de ato de improbidade administrativa, devendo a corte de contas realizar o julgamento técnico das contas e a apuração de dano ao erário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "§ 1º O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver, vedada sua extinção, criação ou instalação. (Redação dada pela Emenda Constitucional nº 139, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ece34351cdb8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça - Prova Anulada",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão da maioria absoluta dos membros da Câmara Municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 [...]",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-062ea540501b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "Os municípios brasileiros são fiscalizados por órgão competente, cabendo a esse órgão julgar as contas anuais dos prefeitos, julgamento que pode deixar prevalecer por decisão de 3/5 dos vereadores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e44ecfdf26e1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 31, § 2°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2°",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2°, CF"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Compete à Câmara Municipal o julgamento das contas do chefe do Poder Executivo municipal, tanto as de governo quanto as de gestão, com o auxílio dos tribunais de contas, que emitirão parecer prévio, cuja eficácia impositiva subsiste e somente deixará de prevalecer por decisão de 2/3 dos membros da Casa Legislativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 [...]",
+    "§ 2° O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2aaf9c6ab303",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo",
+   "instituicao": "TCE-SP",
+   "obs": "",
+   "enunciado": [
+    "Uma das peculiaridades dos municípios brasileiros em comparação às regras constitucionais aplicáveis à União e aos estados consiste no fato de que o parecer prévio, emitido pelo órgão competente sobre as contas que o prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 2º - O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f2a09c289d89",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Procurador",
+   "instituicao": "PREFEITURA DE CARAGUATATUBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Ao tomar posse como prefeito, Odorico questionou sua assessoria jurídica acerca de como é efetuado o julgamento anual das contas do Chefe do Poder Executivo local, no que foi corretamente informado de que tal julgamento deverá ser realizado pela Câmara de Vereadores, mediante parecer prévio da Corte de Contas, que só deixará de prevalecer pelo voto de dois terços da Casa Legislativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "§ 1º O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver.",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal.",
+    "§ 3º As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei.",
+    "§ 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0d95ea155767",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião/Oficial de Registros - Provimento",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "O Tribunal de Contas do Estado Alfa (TCEA), ao apreciar as contas anuais de governo do prefeito do Município Beta, posicionou-se pela sua rejeição, considerando não ter sido aplicada a receita mínima anual em saúde e educação. A manifestação do TCEA foi devidamente encaminhada à Câmara Municipal de Beta (CMB). Considerando a sistemática constitucional, é correto afirmar que a manifestação do TCEA prevalece quando mais de um terço dos membros da CMB vota nesse sentido."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 2º - O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7fc920151fb1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Gestão Pública",
+   "instituicao": "CÂMARA MUNICIAPL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos municípios, por decisão de dois terços dos membros da câmara, o parecer prévio emitido pelo órgão competente sobre as contas prestadas anualmente pelo prefeito deixa de prevalecer."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 2º - O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-20b6a3be52e6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, o parecer prévio, elaborado pelo órgão responsável, sobre as contas que o Prefeito é obrigado a apresentar anualmente, poderá ser afastado mediante decisão da maioria absoluta dos vereadores da Câmara Municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10cb29882d2b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista de Procuradoria - Direito",
+   "instituicao": "PGM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Sobre a atuação do Tribunal de Contas do Município do Rio de Janeiro (TCM-RJ), julgue o item. O TCM-RJ exerce controle externo, auxiliando a Câmara Municipal, e deve emitir parecer prévio sobre as contas anuais prestadas pelo Prefeito, com competência exclusiva para o seu julgamento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fb6ef7d8197d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a respeito do controle externo do município, julgue o item a seguir.",
+    "O parecer prévio, emitido pelo órgão competente sobre as contas que o prefeito deve anualmente prestar, só deixará de prevalecer por decisão de três quintos dos membros da Câmara Municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 2º - O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3ec783cb765d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 31, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Com o objetivo de conferir maior tecnicismo ao julgamento das contas de gestão apresentadas anualmente pelo prefeito municipal, a Câmara Municipal de Alfa alterou o seu regimento interno para dispor que, uma vez recebido o parecer prévio emitido pelo Tribunal de Contas, as respectivas contas somente seriam submetidas a julgamento pelo Plenário da Câmara Municipal se, nos trinta dias subsequentes, algum vereador o requeresse. O regimento interno ainda passou a dispor que, em sendo apreciado pelo Plenário, o parecer do Tribunal de Contas somente deixaria de prevalecer pelo voto de dois terços dos membros da Casa Legislativa. À luz da Constituição da República de 1988, é correto afirmar que a sistemática prevista no regimento interno da Câmara Municipal de Alfa é inconstitucional, considerando que o parecer prévio do Tribunal de Contas não pode ser considerado aprovado sem expressa deliberação da Câmara Municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31 […]",
+    "§ 2º O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ddf956af97bf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. [...]",
+    "§ 3º As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08c3c876b8d4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2017",
+   "cargo": "XXIV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Em observância aos princípios da transparência, publicidade e responsabilidade fiscal, o prefeito do Município Alfa elabora detalhado relatório contendo a prestação de contas anual, ficando tal documento disponível, para consulta e apreciação, no respectivo Poder Legislativo e no órgão técnico responsável pela sua elaboração. Carlos, morador do Município Alfa, contribuinte em dia com suas obrigações civis e políticas, constata diversas irregularidades nos demonstrativos apresentados, apontando indícios de superfaturamento e desvios de verbas em obras públicas. Em função do exposto e com base na Constituição da República, você, como advogado de Carlos, deve esclarecer que Carlos tem legitimidade para questionar as contas do Município Alfa, já que, todos os anos, as contas permanecem à disposição dos contribuintes durante sessenta dias para exame e apreciação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 3º As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b3dbeef36f0a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "De forma a contribuir à transparência da Administração Pública, inclusive fortalecendo o controle social, a Constituição Federal brasileira de 1998 determina que, anualmente, as contas municipais devem ficar à disposição de qualquer contribuinte para exame e apreciação – e, se for o caso, questionamento quanto à legitimidade – durante 60 dias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 3º As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-78941f6d8999",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Gestão Pública",
+   "instituicao": "CÂMARA MUNICIAPL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos municípios, as contas ficam disponíveis para exame e apreciação, inclusive para serem questionadas quanto à legitimidade, aos cidadãos cadastrados no portal municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 3º - As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cabf3db95f1c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 86,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "Os municípios brasileiros devem disponibilizar suas contas anualmente a quaisquer contribuintes, para exame e apreciação, ficando a cargo exclusivo dos vereadores o questionamento quanto à legitimidade dessas contas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 3º As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40d151870392",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 87,
+   "referencia": "Art. 31, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização do Estado, consoante disposto na Constituição Federal de 1988, julgue o item a seguir.",
+    "As contas dos Municípios ficarão, durante trinta dias, semestralmente, à disposição de qualquer contribuinte para exame e apreciação, o qual poderá, nos termos da lei, questionar-lhes a legitimidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 3º - As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 86,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c71bbb4c0660",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 88,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 87,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0aad094c7156",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 89,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Executivo Público",
+   "instituicao": "SAP-SP",
+   "obs": "",
+   "enunciado": [
+    "Sobre a disciplina dada aos municípios pela Constituição da República, é correto afirmar que é vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. [...]",
+    "§ 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 88,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0f5660703066",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 90,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Gestão Pública",
+   "instituicao": "CÂMARA MUNICIAPL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos municípios, é vedada a criação de tribunais de contas, mas é permitida a criação de conselhos ou órgãos de contas, que contribuirão no sistema de controle externo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 4º - É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 89,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9716b885e2b1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 91,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a respeito do controle externo do município, julgue o item a seguir.",
+    "As capitais e os municípios com mais de 500 mil habitantes podem constituir os seus próprios Tribunais de Contas, respeitados os parâmetros previstos na Constituição Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 4º - É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 90,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-403f832b0bb3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 92,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador",
+   "instituicao": "TRF-4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A respeito do controle da Administração Pública, a Constituição Federal de 1988 preceitua que é vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31, § 4º - É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 91,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f9f486649f11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 93,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "INSTITUTO ACCESS",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA DE PLANALTINA-GO",
+   "obs": "",
+   "enunciado": [
+    "Um município decidiu criar um \"Tribunal Municipal de Contas\" com competências equivalentes às de um Tribunal de Contas estadual, alegando necessidade de controle mais rigoroso dos gastos locais. A Procuradoria alertou que a medida poderia confrontar a estrutura do Estado definida pela Constituição Federal (CF), que distribui funções de controle entre diferentes instituições. Após debate jurídico, buscou-se esclarecer os limites municipais. Julgue o item. A CF não permite que Municípios criem órgãos com competências típicas de Tribunais de Contas, pois a estrutura do Estado define tais funções como estaduais ou federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 92,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f48b7aad36aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 94,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL MOGI DAS CRUZES-SP",
+   "obs": "",
+   "enunciado": [
+    "Os municípios brasileiros estão vedados de criar tribunais e conselhos de contas municipais, sendo permitido a eles a criação de órgãos de contas municipais, desde que aprovada pelas câmaras municipais por maioria absoluta dos vereadores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 93,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ed2c1784e8b4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 95,
+   "referencia": "Art. 31, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "31",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 31, § 4º, CF"
+    }
+   ],
+   "banca": "CETAP",
+   "ano": "2026",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA DE VISEU-PA",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito à fiscalização do Município disciplinada na Constituição da República Federativa do Brasil, julgue o item. É permitida a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 31. A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+    "[...]",
+    "§ 4º É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "31",
+    "ate": "31"
+   },
+   "ordem": 94,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "3 Organização do Estado (Arts. 18 - 43, CF)"
+ ]
+}
