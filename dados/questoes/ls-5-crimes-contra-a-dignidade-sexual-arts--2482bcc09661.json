@@ -1,0 +1,3324 @@
+{
+ "id": "ls-5-crimes-contra-a-dignidade-sexual-arts--2482bcc09661",
+ "titulo": "5 Crimes contra a Dignidade Sexual (Arts. 213 - 234-C, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-984f213f67ef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2015",
+   "cargo": "Escrivão de Polícia Civil",
+   "instituicao": "PC-CE",
+   "obs": "",
+   "enunciado": [
+    "Constranger alguém, mediante fraude, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso, tipifica crime de estupro."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, MEDIANTE VIOLÊNCIA OU GRAVE AMEAÇA, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2726ef1dbea9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Julgue o próximo item, que versam sobre sexologia forense.",
+    "De acordo com a legislação penal brasileira vigente, o crime de estupro é configurado exclusivamente pela conjunção carnal, portanto qualquer outro ato libidinoso, ainda que praticado mediante violência ou grave ameaça, deve ser tipificado como crime de atentado violento ao pudor, exigindo-se laudos periciais distintos para cada conduta."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5109bd69e34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "O consentimento da vítima, maior e capaz, obtido por meio de constrangimento praticado em face de grave ameaça perpetrado pelo autor, não afasta a tipicidade formal do crime de estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0aee556e2b61",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-CE",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item seguinte, relativo aos crimes contra a dignidade sexual.",
+    "Para configuração do crime de estupro, bastam olhares voluptuosos que notadamente reflitam desejo sexual do agente, independentemente da existência de contato físico ou de relação de autoridade entre agente e vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213 - Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-56814ed14beb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "TRF 2ª REGIÃO",
+   "ano": "2018",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "O crime de estupro próprio, punido com a pena de reclusão de oito a doze anos e multa, consiste no constrangimento de mulher, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ela se pratique qualquer outro ato libidinoso diverso da conjunção carnal, assim como também quando da conduta resulta lesão corporal de natureza grave, ou se a vítima é menor de dezoito ou maior de catorze anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos.",
+    "§ 1º Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:",
+    "Pena - reclusão, de 8 (oito) a 12 (doze) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58b10df402c0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2022",
+   "cargo": "Oficial de Justiça e Avaliador",
+   "instituicao": "TJ-PI",
+   "obs": "",
+   "enunciado": [
+    "Alexandre nutre um desejo sexual arrebatador por Janaina. Após anos de convívio respeitoso e sem que qualquer pessoa soubesse de seus desejos, descobriu que Janaína trai seu marido Carlos constantemente. Após muito pensar, resolveu obrigar Janaina a com ele se relacionar, sob pena de contar tudo sobre as traições ao marido Carlos. Por essa razão, Janaína cedeu e se relacionou com Alexandre. Nessa hipótese, trata-se de crime de estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c5a4f5263da2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 213, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 213, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Lucas invadiu a residência de sua ex-namorada, Sandra, durante a madrugada. No local, ameaçou-a com uma faca e a constrangeu a manter relações sexuais. Um vizinho acionou a polícia após ouvir gritos. Lucas foi preso em flagrante e, durante o interrogatório policial, confessou o crime. Julgue o seguinte item, referentes à situação hipotética precedente. Lucas praticou o delito de estupro, o qual é classificado como comum quanto ao sujeito ativo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: Pena - reclusão, de 6 (seis) a 10 (dez) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-22be58365e9f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 213 c/c 226, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 213"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "226, II, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "Dario, casado com Elisa, começa a beijá-la na cama, sendo correspondido. Na sequência, ele faz menção de terem relações sexuais, porém, ela recusa, alegando que está com sono e quer dormir. Não satisfeito com a negativa de Elisa, Dario a imobiliza e mantém com ela cópula vagínica, a força. Durante a relação sexual, diante da resistência de Elisa e da agressividade com que é possuída pelo marido, ela sofre lesões corporais leves. Diante do caso narrado, a correta adequação típica dos fatos, à luz do ordenamento jurídico penal, é estupro, com a pena aumentada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos.",
+    "§ 1º Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:",
+    "Pena - reclusão, de 8 (oito) a 12 (doze) anos.",
+    "Art. 226. A pena é aumentada: […]",
+    "II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e931ac2bb177",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 213, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 213, § 1º, CP"
+    }
+   ],
+   "banca": "FUNDEP",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Quanto ao delito de estupro, a circunstância de a vítima ser maior de 14 e menor de 18 anos configura uma qualificadora do tipo-base."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 213, § 1 Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:",
+    "Pena - reclusão, de 8 (oito) a 12 (doze) anos. (Incluído pela Lei nº 12.015, de 2009)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-125eb206971b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 213, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 213, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SEAP-BA",
+   "obs": "",
+   "enunciado": [
+    "Jonas ingressou no domicílio de Maria, sua vizinha, e a constrangeu, mediante grave ameaça consubstanciada no emprego de uma faca, a com ele praticar conjunção carnal. Registre-se que, no momento do crime, Maria era uma adolescente saudável física e psicologicamente, contando com 15 (quinze) anos de idade.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Jonas responderá pelo crime de estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213 Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena: reclusão, de 6 a 10 anos.",
+    "§ 1º Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:",
+    "Pena - reclusão, de 8 (oito) a 12 (doze) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1784528549a8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 213 c/c art. 226, II e IV, b, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "213",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 213"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "II e IV, b",
+     "sigla": "CP",
+     "texto": "art. 226, II e IV, b, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Denis, com intenção de verificar a castidade de sua filha Mariana, de 15 anos de idade, inseriu os dedos em sua vagina. Ao perceber que, supostamente, Mariana não seria mais virgem, passou a apalpar-lhe os seios, mediante violência, além de com ela praticar conjunção carnal como forma de punição pelo comportamento sexual da vítima.",
+    "Em relação à conduta de Denis, é correto afirmar que se trata de estupro qualificado pela idade da vítima, com causas de aumento pela motivação e pela relação de parentesco."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso:",
+    "Pena - reclusão, de 6 (seis) a 10 (dez) anos.",
+    "§ 1o Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos:",
+    "Pena - reclusão, de 8 (oito) a 12 (doze) anos.",
+    "Aumento de pena",
+    "Art. 226. A pena é aumentada: […]",
+    "II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela; […]",
+    "IV - de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado: […] Estupro corretivo",
+    "b) para controlar o comportamento social ou sexual da vítima."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "213",
+    "ate": "213"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-494f3716c725",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 215, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "IV Exame Nacional de Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "Claus, médico ginecologista, durante consulta médica da paciente Letícia, de 15 anos, a pretexto de realização de exames ginecológicos de rotina, praticou atos libidinosos. De acordo com o Código Penal em vigor, a conduta narrada é tipificada como violação sexual mediante fraude (Art. 215 do CP)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Violação sexual mediante fraude",
+    "Art. 215 - Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima:",
+    "Pena - reclusão, de 2 (dois) a 6 (seis) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215",
+    "ate": "215"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a96479fb91a2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 215, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Sobre os crimes contra a dignidade sexual: A violação sexual mediante fraude consiste em seduzir mulher virgem, menor de dezoito anos e maior de quatorze, e ter com ela conjunção carnal, aproveitando-se de sua inexperiência ou justificável confiança."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Violação sexual mediante fraude",
+    "Art. 215 - Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima:",
+    "Pena - reclusão, de 2 (dois) a 6 (seis) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215",
+    "ate": "215"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7815b07254d6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Julgue a afirmativa sobre crimes contra a dignidade sexual. O crime de importunação sexual, artigo 215-A, do Código Penal, é de natureza subsidiária, restando caracterizado somente se o ato libidinoso praticado não constituir crime mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave. Importunação sexual",
+    "Art. 213. Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: […] Estupro"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-170bffc5f811",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-BA",
+   "obs": "",
+   "enunciado": [
+    "Paulo foi denunciado como incurso no delito de importunação sexual (artigo 215-A, do Código Penal) porque, no dia 05 de março de 2026, teria sido flagrado se masturbando, dentro da cabine do banheiro masculino da loja onde trabalha, por uma funcionária que era sua subordinada. A funcionária contou que estava na área de acesso restrito quando ouviu um barulho vindo de dentro do banheiro masculino. Decidiu entrar ali para ver o que estava acontecendo e quando abriu a porta de uma das cabines do banheiro flagrou seu gerente Paulo se masturbando. Como não havia mais ninguém na loja, a funcionária temerosa ligou para a polícia. Comprovados os fatos relatados, a juíza condenou Paulo nos termos da denúncia. A decisão está ERRADA, porque a conduta de Paulo é atípica porque a conduta não foi direcionada à funcionária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ec3f8dc0d631",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLIV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Matheus foi a uma festa de réveillon onde reencontrou sua ex- namorada, Laís, sendo ambos maiores e capazes. Assim que a viu, ele se aproximou dela e, a partir daí, iniciaram uma animada conversa sobre os “velhos tempos”. Em determinado momento, Matheus, sem a anuência de Laís, acariciou suas nádegas e tentou beijá-la, para satisfazer sua própria lascívia. Acerca da tipificação da conduta de Matheus, julgue o item a seguir.",
+    "É crime de importunação sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A - Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa90408300ac",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de importunação sexual, tipificado pela Lei n° 13.718/2018, exige que a conduta seja praticada em lugar público, ou aberto ou exposto ao público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave.",
+    "* O artigo 215-A NÃO MENCIONA a condição trazida no enunciado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e06555a80300",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "IV-UFG",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Leia o caso a seguir. Um homem provoca em si mesmo uma ereção num ônibus coletivo ao se sentir atraído por uma mulher que estava sentada ao seu lado, vindo a ejacular em sua roupa.",
+    "O homem praticou o crime de importunação sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro: […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35097604004d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Fulano é chefe de Beltrano em uma empresa produtora de tecelagem, e ambos são maiores de 18 anos. Em um dado momento, quando a sós no almoxarifado, Fulano se aproxima pacificamente de Beltrano e o acaricia nas partes íntimas, com a finalidade de progredir o ato para uma relação erótica posterior ao expediente. Insatisfeito, Beltrano lavra boletim de ocorrência na Delegacia de Polícia. Diante dessa situação hipotética, de acordo com o Código Penal, Fulano praticou crime de importunação sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A - Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c09b9155d5e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "INSTITUTO AVALIA",
+   "ano": "2025",
+   "cargo": "Escrivão e Investigador",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Sobre os crimes contra a dignidade sexual, conforme o Código Penal, a importunação sexual apresenta o crime de “praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro”."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual (Incluído pela Lei nº 13.718, de 2018)",
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro: (Incluído pela Lei nº 13.718, de 2018)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8e81d3e68cab",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Após o encerramento da jornada de trabalho diária, Maria, maior e capaz, residente e domiciliada em Vespasiano/MG, ingressou em um coletivo com destino à sua casa, sentando-se ao lado de Luís, que ela desconhecia.",
+    "Durante o trajeto do ônibus, Maria percebeu que o agente estava tocando suas próprias partes íntimas, enquanto olhava, incessantemente, para ela. Diante do intenso incômodo, a vítima pediu para que Luís interrompesse o comportamento em curso, mas ele deu continuidade à conduta, praticando ato libidinoso com o objetivo de satisfazer a própria lascívia. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Luís responderá pelo crime de importunação sexual, sem causas de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A, CP - Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro.",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c8ebc438e2c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Rivaldo utilizava o metrô na cidade de São Paulo, especificamente a linha verde, para chegar até o seu local de trabalho na Av. Paulista. No trajeto, ao se deparar com a desconhecida engenheira Telma, no mesmo vagão, Rivaldo inicia uma conversa com ela com conteúdo sexual, sem ser correspondido, chamando-a para ir ao apartamento dele após o trabalho para jantar e tomar um vinho. Chegando na estação de destino, Telma se prepara para desembarcar, quando Rivaldo acaba passando a mão em suas nádegas. Telma passa a gritar e os demais usuários do metrô conseguem deter Rivaldo e acionar a polícia militar, sendo ele preso em flagrante e conduzido ao Distrito Policial. Rivaldo, com fulcro no Código Penal, responderá, em tese, pelo crime de importunação sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ecd0fef7716c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Arts. 225 e 215-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 225 e 215-A, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 225 e 215-A, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "Rita, maior de idade, sofreu um crime de importunação sexual enquanto utilizava transporte público. O agressor foi detido em flagrante por policiais que presenciaram os gritos da vítima e o relato de testemunhas. No entanto, Rita optou por não comparecer à delegacia, dizendo que não desejava “seguir com o caso”. Durante as investigações, foram ouvidas diversas testemunhas que presenciaram os fatos e confirmaram a autoria. Findo o inquérito policial, o mesmo foi encaminhado ao Ministério Público, que ofereceu denúncia contra o agressor. Diante da situação fática narrada, o Ministério Público agiu corretamente, pois o crime de importunação sexual é de ação penal pública incondicionada, não sendo exigida a representação da vítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada.",
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro: Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2d080b799c61",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 215-A e 233, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A e 233, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "233",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 215-A e 233, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A importunação sexual é crime contra a liberdade sexual, tal qual o crime de ato obsceno."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "CAPÍTULO I - DOS CRIMES CONTRA A LIBERDADE SEXUAL",
+    "[...] Importunação sexual",
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave.",
+    "[...] CAPÍTULO VI - DO ULTRAJE PÚBLICO AO PUDOR Ato obsceno",
+    "Art. 233 - Praticar ato obsceno em lugar público, ou aberto ou exposto ao público:",
+    "Pena - detenção, de três meses a um ano, ou multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8fd1264f150c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 215-A c/c Arts. 225 e 226, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "215-A",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 215-A"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 225 e 226, II, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Arts. 225 e 226, II, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Área Fim",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Maria, maior e capaz, contou para Lucas, seu namorado, que o seu tio João a importunou sexualmente, praticando ato libidinoso com o objetivo de satisfazer a própria lascívia, sem a sua anuência. Irresignado com a situação apresentada, Lucas afirmou que Maria deveria levar os fatos ao conhecimento das autoridades públicas. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João responderá pelo crime de importunação sexual na modalidade simples, com a incidência de uma causa de aumento de pena, independentemente de qualquer representação de Maria, por se tratar de delito sujeito à ação penal pública incondicionada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Importunação sexual",
+    "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:",
+    "Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave.",
+    "Art. 225 - Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada.",
+    "Aumento de pena",
+    "Art. 226 - A pena é aumentada:",
+    "[...]",
+    "II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "215-A",
+    "ate": "215-A"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7758f461a472",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 216-A. CP",
+   "refs": [
+    {
+     "lei": null,
+     "art": "216-A",
+     "disp": ". CP",
+     "sigla": "",
+     "texto": "Art. 216-A. CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2017",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-AL",
+   "obs": "",
+   "enunciado": [
+    "Deverá responder por crime de assédio sexual o empregador que, fora do ambiente laboral, constranger funcionário a conceder favorecimento sexual, valendo-se de sua condição hierárquica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual",
+    "Art. 216-A Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função."
+   ],
+   "vinculo": null,
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-79a10c785e1e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2013",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função, caracteriza o crime de assédio sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "Pena – detenção, de 1 (um) a 2 (dois) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-89bf3cd69d89",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "XXXVI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Robson, diretor-presidente da Sociedade Empresária RX Empreendimentos, telefona para sua secretária Camila e solicita que ela compareça à sua sala. Ao ingressar no recinto, Camila é convidada para sentar ao lado de Robson no sofá, pois ele estaria precisando conversar com ela. Apesar de achar estranho o procedimento, Camila se senta ao lado de seu chefe. Durante a conversa, Robson afirma que estaria interessado nela e a convida para ir a um motel. Camila recusa o convite e, ato contínuo, Robson afirma que se ela não aceitar, nem precisa retornar ao trabalho no dia seguinte, pois estaria demitida. Camila, desesperada, sai da sala de seu chefe, pega sua bolsa e vai até a Delegacia Policial do bairro para registrar o fato. Diante das informações apresentadas, é correto afirmar que a conduta praticada por Robson se amolda ao crime de tentativa de assédio sexual (Art. 216-A), não chegando o crime a ser consumado na medida em que se trata de crime material, exigindo a produção do resultado, o que não ocorreu na hipótese."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3c64bb649529",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Sargento",
+   "instituicao": "PM-SP",
+   "obs": "",
+   "enunciado": [
+    "A conduta de constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função, é tipificada no Código Penal como crime de assédio sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual",
+    "Art. 216-A - Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "Pena – detenção, de 1 (um) a 2 (dois) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a73d27a991e2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2025",
+   "cargo": "Oficial",
+   "instituicao": "PM-BA",
+   "obs": "",
+   "enunciado": [
+    "A conduta de “constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função”, legalmente prevista no Código Penal brasileiro configura corretamente o crime de assédio sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. (Incluído pela Lei nº 10.224, de 15 de 2001)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8c62d966ead",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Alberto, professor do ensino médio, ao término de sua aula, após dispensar a turma, pede que sua aluna Bianca, de 16 anos de idade, permaneça no local, pois precisa conversar reservadamente com ela. Ele, então, se aproxima da aluna, dizendo-lhe estar muito preocupado com suas últimas avaliações. Acrescenta que ela é muito bonita para ter esse tipo de problema e, na sequência, sussurra em seu ouvido: “Te quero”. Surpresa e constrangida, Bianca deixa a sala, correndo. Diante do caso narrado, Alberto deverá responder por assédio sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3f950820a8d9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "Sobre os crimes contra a dignidade sexual, é correto afirmar que o delito de assédio sexual previsto pelo Código Penal não se configura na hipótese de constrangimento, com o intuito de obter vantagem ou favorecimento sexual, praticado por um estagiário contra a coordenadora da seção em que trabalha."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-33db5a6ba49b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal do Trabalho - Curso de Formação",
+   "instituicao": "MTE",
+   "obs": "",
+   "enunciado": [
+    "Penélope, mãe do adolescente Hermes, de 16 anos de idade, procurou a polícia para relatar que seu filho deixou destravados aplicativos de mensagens de suas redes sociais em seu celular, ocasião em que encontrou conversas entre seu filho Hermes e o professor dele, Dionísio. Nessas conversas, o professor insinua que irá pagar motéis para se encontrar com o adolescente, propondo, ainda, melhorar suas notas escolares. No caso narrado, Dionísio praticou, em tese, o crime de assédio sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual",
+    "Art. 216-A - Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "Pena - detenção, de 1 (um) a 2 (dois) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-236c696fcc62",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "O crime de assédio sexual (art. 216-A do CP) exige, para sua configuração, a presença de hierarquia ou ascendência funcional do agente sobre a vítima, não se aplicando a relações entre pessoas em situação de igualdade hierárquica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. (Incluído pela Lei nº 10.224, de 15 de 2001)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cebd9632b957",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Considerando a disciplina dos crimes contra a dignidade sexual e a jurisprudência atual do Superior Tribunal de Justiça, julgue o item a seguir.",
+    "O crime de assédio sexual, previsto no caput do art. 216-A do Código Penal, se enquadra na definição de infração de menor potencial ofensivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual",
+    "Art. 216-A - Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "Pena – detenção, de 1 (um) a 2 (dois) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a85566c90ad6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 216-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-A, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal do Trabalho - Curso de Formação",
+   "instituicao": "MTE",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos crimes contra a organização do trabalho, contra a liberdade sexual, contra a fé pública e contra a administração pública, julgue o item a seguir.",
+    "A configuração do delito de assédio sexual pressupõe que haja relação de mando do autor em relação à vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual",
+    "Art. 216-A - Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+    "Pena - detenção, de 1 (um) a 2 (dois) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3cb3fa293d6d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 216-B, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-B",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 216-B, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Julgue a afirmativa sobre crimes contra a dignidade sexual. A conduta de registrar ato sexual sem autorização dos participantes, artigo 216-B, do Código Penal, só é punível se houver divulgação a terceiros, por qualquer meio."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 216-B. Produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes:",
+    "Pena - detenção, de 6 (seis) meses a 1 (um) ano, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-B",
+    "ate": "216-B"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f94449e50a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 216-A, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-A",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 216-A, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Matheus, agindo com dolo, constrangeu Joana, sua estagiária que contava com 17 anos de idade, com o intuito de dela obter vantagem sexual, prevalecendo-se o agente da sua condição de superior hierárquico inerente ao exercício do seu cargo. Registrese que Joana, irresignada com a situação posta, entrou em contato com as autoridades públicas, ensejando a prisão em flagrante de Matheus. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Matheus responderá pelo crime de assédio sexual, na modalidade simples, com a incidência de uma causa de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Assédio sexual (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "Art. 216-A. Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "Pena – detenção, de 1 (um) a 2 (dois) anos. (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "Parágrafo único. (VETADO) (Incluído pela Lei nº 10.224, de 15 de 2001)",
+    "§ 2º A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos. (Incluído pela Lei nº 12.015, de 2009)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-A",
+    "ate": "216-A"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6c2e13a867a5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 216-B, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-B",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 216-B, § único, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-CE",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item seguinte, relativo aos crimes contra a dignidade sexual.",
+    "O agente que simule participação de celebridade em fotografias ou vídeos de ato sexual, ainda que se valendo tão somente do rosto da vítima na montagem das imagens, pratica crime de registro não autorizado da intimidade sexual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Registro não autorizado da intimidade sexual",
+    "Art. 216-B - Produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes:",
+    "Pena - detenção, de 6 (seis) meses a 1 (um) ano, e multa.",
+    "Parágrafo único - Na mesma pena incorre quem realiza montagem em fotografia, vídeo, áudio ou qualquer outro registro com o fim de incluir pessoa em cena de nudez ou ato sexual ou libidinoso de caráter íntimo."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-B",
+    "ate": "216-B"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5d0b778478f3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 216-B, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "216-B",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 216-B, § único, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Sobre os crimes contra a dignidade sexual: A conduta de montar uma fotografia com o fim de incluir pessoa em cena de nudez não configura crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Registro não autorizado da intimidade sexual",
+    "Art. 216-B. Produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes:",
+    "Pena - detenção, de 6 (seis) meses a 1 (um) ano, e multa.",
+    "Parágrafo único - Na mesma pena incorre quem realiza montagem em fotografia, vídeo, áudio ou qualquer outro registro com o fim de incluir pessoa em cena de nudez ou ato sexual ou libidinoso de caráter íntimo."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "216-B",
+    "ate": "216-B"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5e627f84111e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Arts. 217, CP, e 5º, Lei 11.106/2005",
+   "refs": [
+    {
+     "lei": null,
+     "art": "217",
+     "disp": "CP",
+     "sigla": "",
+     "texto": "Arts. 217, CP, e 5º, Lei 11.106/2005"
+    },
+    {
+     "lei": null,
+     "art": "5",
+     "disp": "Lei 11.106/2005",
+     "sigla": "",
+     "texto": "Arts. 217, CP, e 5º, Lei 11.106/2005"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "Adaptado",
+   "enunciado": [
+    "O crime de sedução foi revogado do Código Penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 217, Código Penal. (Revogado pela Lei nº 11.106, de 2005)",
+    "Art. 5º, Lei 11.106/2005. Ficam revogados os incisos VII e VIII do art. 107, os arts. 217, 219, 220, 221 222, o inciso III do caput do art. 226, o § 3º do art. 231 e o art. 240 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal."
+   ],
+   "vinculo": null,
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a1c189c23e1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 217-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 217-A, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que faz parte dos crimes sexuais contra vulnerável ter conjunção carnal ou praticar outro ato libidinoso com menor de 16 (dezesseis) anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos:",
+    "Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a1954aba7a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 217-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 217-A, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que ao crime sexual contra vulnerável de ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos, aplica-se a pena de reclusão, de 10 (dez) a 18 (dezoito) anos, e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos:",
+    "Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cd27a06d5723",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 217-A c/c Art. 226, II, IV, b, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 217-A"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "II, IV, b",
+     "sigla": "CP",
+     "texto": "Art. 226, II, IV, b, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MT",
+   "obs": "",
+   "enunciado": [
+    "Encerrada a instrução processual, após a observância do contraditório e da ampla defesa, o Ministério Público do Estado de Mato Grosso requereu, em alegações finais, a condenação de João nas penas de crime contra a dignidade sexual, praticado em detrimento de sua enteada, então com treze anos de idade, com o objetivo de controlar o seu comportamento social. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João praticou o crime de estupro de vulnerável, na modalidade simples, com duas causas de aumento de pena, a serem valoradas na terceira fase da dosimetria da pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro de vulnerável",
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos:",
+    "Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa.",
+    "Art. 226. A pena é aumentada:",
+    "[...]",
+    "II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela;",
+    "[...]",
+    "IV - de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado:",
+    "[...] Estupro corretivo",
+    "b) para controlar o comportamento social ou sexual da vítima"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6fdb5fa65cc1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 217-A, § 1° c/c Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "§ 1°",
+     "sigla": "",
+     "texto": "Art. 217-A, § 1°"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Juíz Substituto",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "Dario, em um bloco que desfila pelas ruas de Olinda, no carnaval de 2024, percebendo que uma foliã está totalmente embriagada, passa a beijá-la lascivamente, sem seu prévio consentimento, embora ela não resista à abordagem, devido a seu estado. Diante do caso narrado, Dario cometeu o crime de estupro de vulnerável, crime de ação penal pública incondicionada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "217-A, § 1° Incorre na mesma pena quem pratica as ações descritas no caput com alguém que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, ou que, por qualquer outra causa, não pode oferecer resistência.",
+    "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac594824cc68",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 217-A, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 217-A, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-BA",
+   "obs": "",
+   "enunciado": [
+    "Bernardo, pai de uma adolescente, entra no quarto da filha de madrugada, onde também está dormindo uma amiga dela, de 16 anos de idade. Ato contínuo, para satisfazer sua lascívia, ele passa a mão na região glútea da jovem, sobre sua camisola. A filha, então, acorda, surpreende o pai ainda alisando as nádegas de sua amiga e grita para que ela acorde, o que faz Bernardo interromper sua conduta e deixar o local às pressas. No caso narrado, Bernardo cometeu crime de estupro de vulnerável;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro de vulnerável",
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos: o",
+    "§ 1 Incorre na mesma pena quem pratica as ações descritas no caput com alguém que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, ou que, por qualquer outra causa, não pode oferecer resistência."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d4d48d722f7c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 217-A, § 3º c/c Art. 226, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "§ 3º",
+     "sigla": "",
+     "texto": "Art. 217-A, § 3º"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 226, II, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, como consectários do devido processo legal, Caio foi condenado, pelo Juízo competente, pela prática do crime de estupro de vulnerável, sendo certo que, em razão da conduta perpetrada, a vítima sofreu debilidade permanente de função. Registre-se, por fim, que Caio é padrasto da ofendida.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que, na dosimetria da pena, o Juiz considerará a presença de uma qualificadora e uma causa de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Estupro de vulnerável",
+    "Art. 217-A - Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos:",
+    "Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa.",
+    "§ 3º - Se da conduta resulta lesão corporal de natureza grave:",
+    "Pena – reclusão, de 12 (doze) a 24 (vinte e quatro) anos, e multa.",
+    "Art. 226 - A pena é aumentada:",
+    "[...]",
+    "II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f5ae5ed29536",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 217-A, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 217-A, § 4º, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que, sobre o crime sexual contra vulnerável de ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos, se da conduta resulta morte, a pena é de reclusão, de 20 (vinte) a 40 (quarenta) anos, e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos: […]",
+    "§ 4o Se da conduta resulta morte:",
+    "Pena – reclusão, de 20 (vinte) a 40 (quarenta) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-50dded187cd4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 217-A, § 4º-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "217-A",
+     "disp": "§ 4º-A",
+     "sigla": "CP",
+     "texto": "Art. 217-A, § 4º-A, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o disposto no Código Penal, é correto afirmar que sobre os crimes sexuais contra vulnerável, é relativa a presunção de vulnerabilidade da vítima e inadmissível sua relativização."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 217-A. Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos: […]",
+    "§ 4º-A. É absoluta a presunção de vulnerabilidade da vítima e inadmissível sua relativização. (Incluído pela Lei nº 15.353, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "217-A",
+    "ate": "217-A"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5956835ae4c4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 218, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 218, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que, sobre o crime sexual contra vulnerável de induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem, a pena é de reclusão, de 6 (seis) a 14 (quatorze) anos, e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218. Induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem:",
+    "Pena – reclusão, de 6 (seis) a 14 (quatorze) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218",
+    "ate": "218"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c2f84f536d73",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 218-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 218-A, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que, sobre o crime sexual contra vulnerável de praticar, na presença de alguém menor de 14 (catorze) anos, ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso, a fim de satisfazer lascívia própria ou de outrem, a pena é de reclusão, de 6 (seis) a 13 (treze) anos, e multa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218-A. Praticar, na presença de alguém menor de 14 (catorze) anos, ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso, a fim de satisfazer lascívia própria ou de outrem:",
+    "Pena – reclusão, de 5 (cinco) a 12 (doze) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-A",
+    "ate": "218-A"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0515e76c3b8a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 218-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 218-A, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em 10/1/2022, Fernando, com 38 anos de idade, adicionou à sua rede social Caio, com 13 anos de idade, dizendo-lhe ter a mesma faixa etária e manifestando interesse por jogos eletrônicos. A partir de então, passaram a manter conversas diárias, que, com a conquista da confiança de Caio, ganharam conotação pessoal acerca da vida íntima do adolescente, como sua relação familiar, ambiente escolar e círculo de amizade. Em dado momento, Fernando pediu a Caio que ligasse a webcam, e assim o menino o fez. Então, Fernando, também com sua câmera ligada, se despiu e começou a se masturbar, exibindo-se para Caio, como forma de satisfazer a própria lascívia. Em seguida, Fernando convidou Caio para ir até sua casa. Contudo, Caio ficou assustado e contou para os pais, que bloquearam o perfil de Fernando e se dirigiram à delegacia de polícia, para comunicarem a ocorrência. Nessa situação hipotética, Fernando praticou o crime de satisfação de lascívia mediante presença de criança ou adolescente, previsto no art. 218-A do Código Penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218-A. Praticar, na presença de alguém menor de 14 (catorze) anos, ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso, a fim de satisfazer lascívia própria ou de outrem:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-A",
+    "ate": "218-A"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-782ef283f720",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 218-B, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-B",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 218-B, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que, sobre o crime sexual contra vulnerável de submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 16 (dezesseis) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone, a pena é de reclusão, de 7 (sete) a 16 (dezesseis) anos, e multa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218-B. Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 18 (dezoito) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone:",
+    "Pena – reclusão, de 7 (sete) a 16 (dezesseis) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-B",
+    "ate": "218-B"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6662d1ed6dc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 218-B, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-B",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 218-B, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Alberto, aproveitando-se do fato de que a vizinha foi trabalhar, e deixou a filha, Bianca, de 15 anos de idade, sozinha em casa, bate em sua porta, sob o pretexto de pedir açúcar emprestado. Quando Bianca voltou com o pacote de açúcar, Alberto começou a dizer que ela era muito bonita e atraente, e que gostaria de “ficar” com ela, a quem ofereceu a importância de R$ 100,00 (cem reais), caso eles tivessem relações sexuais. Bianca aceitou a proposta e eles tiveram conjunção carnal na residência da menor, a qual não era virgem, pois perdera a virgindade, aos 13 anos, com o então namorado, também adolescente. Diante do caso narrado, Alberto cometeu crime de favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável",
+    "Art. 218-B. Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 18 (dezoito) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone:",
+    "§ 2o Incorre nas mesmas penas:",
+    "I - quem pratica conjunção carnal ou outro ato libidinoso com alguém menor de 18 (dezoito) e maior de 14 (catorze) anos na situação descrita no caput deste artigo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-B",
+    "ate": "218-B"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58883ad4089a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 218-C, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-C",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 218-C, CP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, é correto afirmar que, sobre o crime sexual contra vulnerável de oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia, a pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o fato não constitui crime mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218-C. Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia:",
+    "Pena – reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o fato não constitui crime mais grave. (Redação dada pela Lei nº 15.280, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-C",
+    "ate": "218-C"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-379741d5d6b2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 218-C, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-C",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 218-C, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa - Agente da Policia Judicial",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos crimes previstos no Código Penal, julgue o item a seguir.",
+    "Suponha que um indivíduo, durante um seminário acadêmico sobre violência sexual na faculdade em que estuda, tenha divulgado vídeo com cenas de um estupro cuja vítima era uma amiga sua, maior de idade, que havia consentido com a divulgação do material. Nessa situação, não se configura o crime de divulgação de cena de estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia",
+    "Art. 218-C - Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia:",
+    "Pena – reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o fato não constitui crime mais grave.",
+    "§ 2º - Não há crime quando o agente pratica as condutas descritas no caput deste artigo em publicação de natureza jornalística, científica, cultural ou acadêmica com a adoção de recurso que impossibilite a identificação da vítima, ressalvada sua prévia autorização, caso seja maior de 18 (dezoito) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-C",
+    "ate": "218-C"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-29ebd6eb8d80",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 218-C, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "218-C",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 218-C, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Oficial Investigador",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "João realizou publicação de natureza jornalística, em revista de grande circulação, contendo cenas de nudez de Maria, com a adoção de recurso que impossibilitou, por completo, a identificação da mulher. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que a conduta de João não caracteriza crime em razão da existência de causa de excludente de ilicitude."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 218-C […] Exclusão de ilicitude",
+    "§ 2º Não há crime quando o agente pratica as condutas descritas no caput deste artigo em publicação de natureza jornalística, científica, cultural ou acadêmica com a adoção de recurso que impossibilite a identificação da vítima, ressalvada sua prévia autorização, caso seja maior de 18 (dezoito) anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "218-C",
+    "ate": "218-C"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08b5691d9a44",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de importunação sexual, assim como o crime de estupro, é crime de ação penal pública condicionada à representação da pessoa contra a qual o ato foi praticado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "CAPÍTULO I - DOS CRIMES CONTRA A LIBERDADE SEXUAL",
+    "[...]",
+    "Importunação sexual",
+    "[...]",
+    "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede- se mediante ação penal pública incondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10c96f72d577",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Em relação à titularidade da ação penal, nos crimes de estupro, por violência real ou grave ameaça, importunação sexual, assédio sexual e divulgação de cena de estupro, procede-se mediante ação penal pública condicionada à representação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Ação penal",
+    "Art. 225 Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública INcondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7d72a884fc75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Lucas invadiu a residência de sua ex-namorada, Sandra, durante a madrugada. No local, ameaçou-a com uma faca e a constrangeu a manter relações sexuais. Um vizinho acionou a polícia após ouvir gritos. Lucas foi preso em flagrante e, durante o interrogatório policial, confessou o crime.",
+    "Julgue o seguinte item, referente à situação hipotética precedente.",
+    "O crime de estupro praticado por Lucas contra Sandra configura delito de ação penal pública condicionada à representação, sendo necessário que a vítima manifeste sua vontade de que o agente seja processado para que o Ministério Público possa oferecer a denúncia."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Ação penal",
+    "Art. 225 - Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4851136f7e29",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "A ação penal nos crimes contra a dignidade sexual do Código Penal, após as alterações legislativas recentes trazidas pela Lei nº 13.718/2018, passa a ser pública incondicionada, independentemente da idade da vítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bbf0dcab41a7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Arts. 29 e 226, I , CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 29 e 226, I , CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Arts. 29 e 226, I , CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia Civil Substituto",
+   "instituicao": "PC-RN",
+   "obs": "",
+   "enunciado": [
+    "Maicon, 25 anos, e Maria, 13 anos, que não era mais virgem, iniciaram relacionamento amoroso, com a concordância dos pais da menor. Após dois meses de namoro, ainda antes do aniversário de 14 anos de Maria, o casal praticou relação sexual, o que ocorreu com o consentimento de Joana, mãe da adolescente, que, após conversar com Maicon, incentivou o ato sexual entre os dois como prova de amor. Tomando conhecimento do ocorrido dias depois, André, pai de Maria, ficou indignado com o ato sexual e registrou o fato na delegacia. Diante desse quadro, é correto afirmar que Maicon e Joana responderão por estupro de vulnerável, na forma majorada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "Art. 226. A pena é aumentada:",
+    "I – de quarta parte, se o crime é cometido com o concurso de 2 (duas) ou mais pessoas;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-540bf0091702",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 225, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "225",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 225, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Lucas invadiu a residência de sua ex-namorada, Sandra, durante a madrugada. No local, ameaçou-a com uma faca e a constrangeu a manter relações sexuais. Um vizinho acionou a polícia após ouvir gritos. Lucas foi preso em flagrante e, durante o interrogatório policial, confessou o crime. Julgue o seguinte item, referentes à situação hipotética precedente. O crime de estupro praticado por Lucas contra Sandra configura delito de ação penal pública condicionada à representação, sendo necessário que a vítima manifeste sua vontade de que o agente seja processado para que o Ministério Público possa oferecer a denúncia."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "225",
+    "ate": "225"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a20240f7c6d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 226, IV, a, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "IV, a",
+     "sigla": "CP",
+     "texto": "Art. 226, IV, a, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2026",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "José Augusto, 34 anos de idade, e Flávio Henrique, 28 anos de idade, na festa de réveillon de 2024, em Blumenau-SC, mediante violência, constrangem Solange, 21 anos de idade, a ter conjunção carnal com ambos. Os atos sexuais são realizados. Com base nos fatos narrados, José Augusto e Flávio Henrique cometeram o crime de estupro com a causa de aumento de pena de um terço a dois terços em virtude do concurso de pessoas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 226. A pena é aumentada: […]",
+    "IV - de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado:",
+    "a) mediante concurso de 2 (dois) ou mais agentes; […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "226",
+    "ate": "226"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0873f53a6821",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 226, IV, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "226",
+     "disp": "IV",
+     "sigla": "CP",
+     "texto": "Art. 226, IV, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MT",
+   "obs": "",
+   "enunciado": [
+    "Segundo a legislação brasileira, o estupro coletivo é aquele praticado mediante concurso de três ou mais pessoas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 226 A pena é aumentada:",
+    "[...]",
+    "IV - de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado: Estupro coletivo",
+    "a) mediante concurso de 2 (dois) ou mais agentes;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "226",
+    "ate": "226"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-83c153936869",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 229, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "229",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 229, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Julgue a afirmativa sobre crimes contra a dignidade sexual. A conduta de manter estabelecimento destinado à prática de exploração sexual, artigo 229, do Código Penal, é atípica, caso não haja participação de criança e adolescente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 229. Manter, por conta própria ou de terceiro, estabelecimento em que ocorra exploração sexual, haja, ou não, intuito de lucro ou mediação direta do proprietário ou gerente:",
+    "Pena - reclusão, de dois a cinco anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "229",
+    "ate": "229"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0438829bd932",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 229, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "229",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 229, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MT",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o ordenamento jurídico e o posicionamento dos tribunais superiores sobre os crimes contra a dignidade sexual, a conduta consistente em manter casa para fins libidinosos é suficiente para a caracterização do crime tipificado no art. 229 do Código Penal, sendo desnecessário, para a configuração do delito, que haja exploração sexual, assim entendida como a violação à liberdade das pessoas que ali exercem a mercancia carnal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Casa de prostituição",
+    "Art. 229 Manter, por conta própria ou de terceiro, estabelecimento em que ocorra exploração sexual, haja, ou não, intuito de lucro ou mediação direta do proprietário ou gerente:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "229",
+    "ate": "229"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Especial (Arts. 121 - 359-H)"
+ ]
+}
