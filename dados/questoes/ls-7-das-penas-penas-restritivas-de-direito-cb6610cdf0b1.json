@@ -1,0 +1,2426 @@
+{
+ "id": "ls-7-das-penas-penas-restritivas-de-direito-cb6610cdf0b1",
+ "titulo": "7 Das Penas - Penas Restritivas de Direitos (Arts. 43 - 48, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-3a8defaf2a80",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 43, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "43",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 43, CP"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "As penas restritivas de direitos são: advertência, prestação pecuniária, perda de bens e valores, prestação de serviço à comunidade, interdição temporária de direitos, limitação de final de semana."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 43. As penas restritivas de direitos são:",
+    "I - prestação pecuniária;",
+    "II - perda de bens e valores;",
+    "III - limitação de fim de semana.",
+    "IV - prestação de serviço à comunidade ou a entidades públicas;",
+    "V - interdição temporária de direitos;",
+    "VI - limitação de fim de semana.",
+    "*Advertência não encontra-se no rol do art. 43, do CP.*"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5da3ca4fc416",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 43, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "43",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 43, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Cuidador Social",
+   "instituicao": "PREFEITURA DE ITAPEVI-SP",
+   "obs": "",
+   "enunciado": [
+    "O Estado brasileiro, na legislação do direito penal, prevê medidas de penas alternativas que têm como objetivo substituir a pena privativa de liberdade por outras medidas, menos severas à pessoa em julgamento, que podem ser: interdição temporária de direitos; prestação pecuniária; prestação de serviços à entidades públicas ou à comunidade; perda de bens e valores e limitação do fim de semana."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 43 - As penas restritivas de direitos são:",
+    "I - prestação pecuniária;",
+    "II - perda de bens e valores;",
+    "III - limitação de fim de semana.",
+    "IV - prestação de serviço à comunidade ou a entidades públicas;",
+    "V - interdição temporária de direitos;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6852fb1b4ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 43, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "43",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 43, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Inclui-se nas penas restritivas de direitos do Código Penal a pena de medida educativa de comparecimento a programa ou curso educativo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 43. As penas restritivas de direitos são:",
+    "I - prestação pecuniária;",
+    "II - perda de bens e valores;",
+    "III - limitação de fim de semana.",
+    "IV - prestação de serviço à comunidade ou a entidades públicas;",
+    "V - interdição temporária de direitos;",
+    "VI - limitação de fim de semana.",
+    "*A pena de Medida Educativa de comparecimento a Programa ou Curso Educativo NÃO CONSTA no rol disposto no Art. 43, CP."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2bd7e951856f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 43, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "43",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 43, CP"
+    }
+   ],
+   "banca": "TJ-SC",
+   "ano": "2012",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "As penas restritivas de direito são espécie de medidas alternativas, aplicadas nos casos previstos no art. 44 do Código Penal. Não constitui, entretanto, pena restritiva de direito prevista no Código Penal recolhimento domiciliar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I - aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;",
+    "II - o réu não for reincidente em crime doloso;",
+    "III - a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicarem que essa substituição seja suficiente.",
+    "[...]",
+    "Art. 43. As penas restritivas de direitos são:",
+    "I - prestação pecuniária;",
+    "II - perda de bens e valores;",
+    "III - limitação de fim de semana.",
+    "IV - prestação de serviço à comunidade ou a entidades públicas;",
+    "V - interdição temporária de direitos;",
+    "VI - limitação de fim de semana.",
+    "* O Recolhimento Domiciliar NÃO CONSTA no rol disposto pelo Art. 43, CP."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-770a3db8bfa9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 43, VI c/c Art. 48, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "43",
+     "disp": "VI",
+     "sigla": "",
+     "texto": "Art. 43, VI"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "48",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 48, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições do Código Penal Brasileiro, julgue o seguinte item. A limitação de fim de semana é uma das espécies de penas restritivas de direitos previstas em lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 43. As penas restritivas de direitos são: […]",
+    "VI - limitação de fim de semana.",
+    "Art. 48 - A limitação de fim de semana consiste na obrigação de permanecer, aos sábados e domingos, por 5 (cinco) horas diárias, em casa de albergado ou outro estabelecimento adequado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "43",
+    "ate": "43"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cf37106e47e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 44, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 44, CP"
+    }
+   ],
+   "banca": "MPE-GO",
+   "ano": "2012",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-GO",
+   "obs": "",
+   "enunciado": [
+    "As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1a5d0f3aca9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 44, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 44, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre as penas restritivas de direitos, julgue o item a seguir. São autônomas e normalmente principais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: […]",
+    "8 (Art. 44, CP) NC-UFPR 2012 - Juiz de Direito (TJ-PR)",
+    "As penas restritivas de direito são autônomas e substituem as privativas de liberdade em situações específicas.",
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando;",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido [...]",
+    "II – o réu não for reincidente em crime doloso;",
+    "III – a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicarem que essa substituição seja suficiente."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a13ebe1e52fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "No concurso de crimes culposos, a substituição por pena restritiva de direitos é possível, qualquer que seja a pena aplicada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b67b00116629",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-PE",
+   "obs": "",
+   "enunciado": [
+    "Considerando as penas restritivas de direitos, avalie as situações fáticas a seguir.",
+    "I. O desabamento de um prédio em construção resultou na morte de 8 operários e Cristiane, engenheira responsável pela obra, foi condenada à pena de 4 anos e 6 meses de reclusão, pelos crimes de homicídio culposo em concurso formal. II. Priscila, na direção de veículo automotor e com a capacidade psicomotora alterada em razão da influência de álcool, causou acidente e lesionou Juarez. Foi condenada à pena de 3 anos de reclusão. III. Mário foi condenado à pena de 1 ano e 6 meses de reclusão pela prática do crime de estelionato sendo reincidente, em virtude da prática anterior do crime de posse irregular de arma de fogo de uso permitido. IV. José Afonso, conhecido doleiro, foi condenado pela prática do crime de lavagem de dinheiro à pena de 6 anos de reclusão. No curso da investigação e do processo, José Afonso colaborou espontaneamente com as autoridades, o que resultou na identificação dos coautores e na recuperação dos valores objeto do crime.",
+    "Em relação às situações fáticas, julgue o item a seguir.",
+    "A substituição da pena privativa de liberdade por restritiva de direitos é incabível em todas as situações."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44 - As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I - aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6dfd903fa139",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "A pena privativa de liberdade aplicada a crime hediondo praticado com violência ou grave ameaça é suscetível de substituição por restritiva de direito, se fixada em menos de 04 anos de reclusão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I - aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-567c3f0800d7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "As penas restritivas de direito são consideradas penas autônomas de caráter substitutivo, podendo ser aplicadas para crimes culposos independente da quantidade de pena privativa de liberdade fixada, se presentes os demais requisitos legais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-47fac34d3f35",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Mariana, médica, ré absolutamente primária que não responde a outra ação penal, regularmente processada e condenada a cumprir pena de 2 anos de detenção pelo crime de homicídio culposo, cometido após um erro durante procedimento cirúrgico sob sua responsabilidade, pode, em tese, ter a pena privativa de liberdade substituída por penas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-361153a265c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Juliana, ré absolutamente primária que não responde a outra ação penal, regularmente processada e condenada a cumprir pena de 1 ano de reclusão, em regime aberto, pelo crime de lesão corporal de natureza grave, cometido após agredir uma companheira de trabalho, pode, em tese, ter a pena privativa de liberdade substituída por penas restritivas de direitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4544f0b24d78",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 44, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 44, I, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Caio, réu absolutamente primário que não responde a outra ação penal, regularmente processado e condenado a cumprir pena de 4 anos de reclusão pelo crime de fraude eletrônica, cometido após se passar pela vítima e conseguir transferências bancárias para uma conta bancária através do aplicativo WhatsApp, pode, em tese, ter a pena privativa de liberdade substituída por penas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a3f56e60c3d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 44, I c/c 157, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I",
+     "sigla": "",
+     "texto": "Art. 44, I"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "157",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "157, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Roberto, com arma de fogo em punho, abordou Mário, vigilante de um museu, tendo solicitado que ele abrisse a porta da sala principal da instituição. Para convencer Mário a fazer o que pedia, Roberto ameaçou matar a esposa de Mário, tendo afirmado ainda que ela estaria mantida como refém por um comparsa seu naquele exato momento. Aterrorizado e por acreditar plenamente na ameaça, Mário abriu a sala. Roberto então subtraiu uma valiosa obra de arte e empreendeu fuga. Ao sair do museu e caminhar apressadamente pela rua, Roberto avistou seu desafeto Lúcio na calçada oposta, contra quem desferiu disparo de arma de fogo com a intenção de matá-lo. Contudo, por um erro de pontaria, o tiro não atingiu Lúcio, mas Helena, uma pedestre alheia à situação, que faleceu imediatamente em decorrência do disparo. Três dias após os fatos, antes que a polícia ou o Ministério Público concluíssem as investigações, Roberto, com sentimento de profundo remorso por suas ações, dirigiu-se anonimamente à delegacia e devolveu, de forma voluntária, a obra de arte intacta. Posteriormente, ele foi identificado, capturado e levado a julgamento.",
+    "Com base nessa situação hipotética e no disposto no Código Penal, julgue o item que se seguem.",
+    "Ainda que, em hipótese processual bastante favorável, Roberto viesse a ser condenado a pena privativa de liberdade não superior a 4 anos, o juiz estaria legalmente impedido de substituí-la por penas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;",
+    "Roubo",
+    "Art. 157 - Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência:",
+    "Pena – reclusão, de 6 (seis) a 10 (dez) anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a4434b10bbe8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 44, I a III, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "I a III",
+     "sigla": "CP",
+     "texto": "Art. 44, I a III, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Execução de Mandados",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Lucas, reincidente em crime culposo, foi condenado à pena definitiva de quatro anos de reclusão pela prática de crime sem violência ou grave ameaça à pessoa. Registre-se que a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias, indicam que a substituição da pena privativa de liberdade por pena restritiva de direitos é suficiente. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que a pena privativa de liberdade de Lucas poderá ser substituída por pena restritiva de direitos, sendo certo que a substituição poderá ser feita por uma pena restritiva de direitos e multa ou por duas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "I – aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;",
+    "II – o réu não for reincidente em crime doloso;",
+    "III – a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicarem que essa substituição seja suficiente."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-974cbe7a362b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 44, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Sem Especialidade",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Lucas, reincidente em crime culposo, foi condenado à pena definitiva de quatro anos de reclusão pela prática de crime sem violência ou grave ameaça à pessoa. Registre-se que a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias, indicam que a substituição da pena privativa de liberdade por pena restritiva de direitos é suficiente. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que a pena privativa de liberdade de Lucas poderá ser substituída por pena restritiva de direitos, sendo certo que a substituição poderá ser feita por uma pena restritiva de direitos e multa ou por duas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44, § 2º Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos. (Incluído pela Lei nº 9.714, de 1998)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2eb27e5a4d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 44, § 2°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2°",
+     "sigla": "CP",
+     "texto": "Art. 44, § 2°, CP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito ao sistema de aplicação da pena, é correto afirmar que, na sentença condenatória por crime de estelionato (CP, artigo 171, caput), a pena aplicada em um ano de prisão pode ser substituída por duas penas restritivas de direitos, desde que presentes os requisitos previstos no artigo 44 do Código Penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. [...]",
+    "§ 2° Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a8a2460461f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 44, § 2°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2°",
+     "sigla": "CP",
+     "texto": "Art. 44, § 2°, CP"
+    }
+   ],
+   "banca": "TRF - 3ª REGIÃO",
+   "ano": "2018",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF - 3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "José da Silva, réu primário e com condenações criminais anteriores, porém sem trânsito em julgado, confesso, cometeu crime de estelionato contra a Previdência Social, causando prejuízos significativos à autarquia, sendo condenado à pena de 1 (um) ano e 4 (quatro) meses de reclusão e 13 (treze) dias-multa, em regime inicial aberto. Com base nessas informações, é CORRETO afirmar se o juiz entender possível, a substituição da pena privativa de liberdade aplicada (CP, art. 44) poderá ser feita por uma pena de multa ou uma pena restritiva de direitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44 […]",
+    "§ 2° Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-397e4897580c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 44, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 2º, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Residência Judicial",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal, as penas são privativas de liberdade, restritivas de direitos e multa. Sobre as penas restritivas de direitos, é correto afirmar que na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. […]",
+    "§ 2º Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos. […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4984c2f4ab24",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 44, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 2º, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Em sendo a pena privativa de liberdade igual ou inferior a um ano, o juiz poderá substituí-la por uma pena restritiva de direitos ou pela multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: (Redação dada pela Lei nº 9.714, de 1998)",
+    "[...]",
+    "§ 2º Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos. (Incluído pela Lei nº 9.714, de 1998)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c42b271c473f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 44, § 2º c/c Art. 92, I, a, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 2º",
+     "sigla": "",
+     "texto": "Art. 44, § 2º"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "92",
+     "disp": "I, a",
+     "sigla": "CP",
+     "texto": "Art. 92, I, a, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SE",
+   "obs": "",
+   "enunciado": [
+    "Juiz de direito, ao proferir sentença condenatória em desfavor de acusado, técnico judiciário do Tribunal de Justiça do Estado de Sergipe, pelo delito de corrupção passiva, crime praticado no exercício do mencionado cargo público, considerando que as circunstâncias judiciais lhe são favoráveis, fixa as penas- base nos mínimos legais (2 anos de reclusão e 10 dias-multa), tornando-as definitivas, à falta de circunstâncias legais e de causas de aumento ou diminuição de pena. Na sequência, estabelece o valor unitário do dia-multa em 1/6 do salário mínimo vigente ao tempo do fato criminoso, em atenção à condição econômica do réu. Diante do exposto, caberá ao magistrado, ainda na sentença substituir a pena privativa de liberdade por duas penas restritivas de direitos ou por uma pena restritiva de direitos e multa e determinar a perda do cargo público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44, § 2º - Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos.",
+    "Art. 92 - São também efeitos da condenação:",
+    "I - a perda de cargo, função pública ou mandato eletivo:",
+    "a) quando aplicada pena privativa de liberdade por tempo igual ou superior a um ano, nos crimes praticados com abuso de poder ou violação de dever para com a Administração Pública;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-feb18d40d91b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 44, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2007",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PI",
+   "obs": "",
+   "enunciado": [
+    "Acerca da substituição da pena privativa de liberdade por penas restritivas de direito: Se o condenado for reincidente, o juiz poderá aplicar a substituição citada, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. [...]",
+    "§ 3º Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5d7995691eb3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 44, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3º, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Residência Judicial",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal, as penas são privativas de liberdade, restritivas de direitos e multa. Sobre as penas restritivas de direitos, é correto afirmar que se o condenado for reincidente, o juiz não poderá aplicar a substituição na pena privativa de liberdade por restritiva de direitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. […]",
+    "§ 3º Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime. […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10f09a301575",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 44, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Distrito Federal",
+   "instituicao": "PG-DF",
+   "obs": "",
+   "enunciado": [
+    "José foi condenado por receptação simples (Código Penal, art. 180, caput) e, posteriormente, praticou novo fato e foi condenado por receptação qualificada (Código Penal, art. 180, § 1.o). Nesse caso, ao juiz é vedado realizar a substituição da pena privativa de liberdade do réu por restritiva de direitos, uma vez que os crimes praticados são da mesma espécie."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 44, § 3 Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime. (Incluído pela Lei nº 9.714, de 1998)",
+    "Complementando:",
+    "Justificativa da banca: a reincidência específica tratada no art. 44, § 3.o, do Código Penal, que veda substituição de pena privativa de liberdade por restritiva de direitos, somente se aplica quando forem idênticos, e não apenas de mesma espécie, os crimes praticados."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-02b40451bb4c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 44, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições do Código Penal referentes às penas restritivas de direitos, julgue o item a seguir.",
+    "A substituição da pena privativa de liberdade por pena restritiva de direitos pode ser aplicada mesmo ao reincidente, desde que a reincidência não decorra do mesmo crime e a medida seja socialmente recomendável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44, § 3º - Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa0c407a3d9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 44, § 3°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3°",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3°, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Com relação ao tema “reincidência”, é correto afirmar que, consoante disposto no Código Penal, o agente reincidente em crime doloso pode ter sua pena privativa de liberdade substituída por pena restritiva de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. [...]",
+    "§ 3° Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-751a22d2c5fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 44, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 3º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MA",
+   "obs": "",
+   "enunciado": [
+    "A reincidência não específica, quando socialmente recomendável, possibilita a substituição da pena privativa de liberdade por restritivas de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44 - As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: [...]",
+    "§ 3º - Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4b4cbac840a7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 44, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 4º, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código Penal, julgue o item a seguir. A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar, será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44, § 4º - A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5113306ad11f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 44, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 4º, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Residência Judicial",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal, as penas são privativas de liberdade, restritivas de direitos e multa. Sobre as penas restritivas de direitos, é correto afirmar que a pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. […]",
+    "§ 4º A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3657142d42de",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 44, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 44, § 4º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2019",
+   "cargo": "XXX Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Gabriel foi condenado pela prática de um crime de falso testemunho, sendo-lhe aplicada a pena de 03 anos de reclusão, em regime inicial aberto, substituída a pena privativa de liberdade por duas restritivas de direitos (prestação de serviços à comunidade e limitação de final de semana). Após cumprir o equivalente a 01 ano da pena aplicada, Gabriel deixa de cumprir a prestação de serviços à comunidade. Ao ser informado sobre tal situação pela entidade beneficiada, o juiz da execução, de imediato, converte a pena restritiva de direitos em privativa de liberdade, determinando o cumprimento dos 03 anos da pena imposta em regime semiaberto, já que Gabriel teria demonstrado não preencher as condições para cumprimento de pena em regime aberto. Para impugnar a decisão, o(a) advogado(a) de Gabriel deverá alegar que a conversão da pena restritiva de direitos em privativa de liberdade não foi válida, pois, apesar de possível a conversão em privativa de liberdade pelo descumprimento da prestação de serviços à comunidade, deveria o apenado ser previamente intimado para justificar o descumprimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: […]",
+    "§ 4º A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão.",
+    "33 (Art. 44 § 4º, CP) FCC 2010 - Analista Judiciário (TRF - 4ª REGIÃO)",
+    "A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta e, no cálculo da pena privativa de liberdade a executar, será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão.",
+    "Art. 44. [...]",
+    "§ 4º A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de5ab2359885",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Arts. 44, § 4°, e 51, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "§ 4°",
+     "sigla": "CP",
+     "texto": "Arts. 44, § 4°, e 51, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "51",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 44, § 4°, e 51, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às penas restritivas de direitos, a prestação pecuniária, se não paga, não poderá ser convertida em pena privativa de liberdade e será considerada dívida de valor, aplicando-se as normas da legislação relativa à dívida ativa da Fazenda Pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. […]",
+    "§ 4° A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão.",
+    "[...]",
+    "Art. 51. Transitada em julgado a sentença condenatória, a MULTA será executada perante o juiz da execução penal e será considerada dívida de valor, aplicáveis as normas relativas à dívida ativa da Fazenda Pública, inclusive no que concerne às causas interruptivas e suspensivas da prescrição.",
+    "STJ: “Tendo em vista que a lei estabelece expressamente a consequência para o descumprimento da restritiva de direitos, não é possível, no caso de inadimplemento da prestação pecuniária, determinar o arresto de bens para garantir o pagamento do valor imposto no ato de substituição da pena privativa de liberdade. Se o condenado não efetua o pagamento, cabe ao juiz promover a conversão e determinar a prisão”. (REsp 1.699.665/PR). A prestação pecuniária não se confunde com a pena de multa, considerada dívida de valor, que não admite a conversão em privação de liberdade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-621ecd3ed298",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Arts. 44 e 49, § 1°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "44",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 44 e 49, § 1°, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "49",
+     "disp": "§ 1°",
+     "sigla": "CP",
+     "texto": "Arts. 44 e 49, § 1°, CP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Leia o conceito a seguir.",
+    "A pena é a consequência natural imposta pelo Estado, quando alguém pratica uma infração penal. GRECO, Rogério. Curso de direito penal: parte geral (arts. a 120 do Código Penal). 14. ed. Niterói: impetus, 2012, p. 469. O artigo 32 do Código Penal (CP) estabelece três espécies de penas, a saber: penas privativas de liberdade, restritivas de direito e multa. Conforme o artigo 59 do CP, as penas devem respeitara necessidade e a suficiência à reprovação e à prevenção do crime. Esse mesmo artigo 59 também estabelece os critérios de fixação dessas penas. A partir dessa concepção, julgue o seguinte item. A pena de multa, aplicada e dosada ao livre arbítrio do julgador, não pode ser substitutiva da pena privativa de liberdade ou substituída por esta no caso de não cumprimento, por ser considerada dívida de valor, constituindo título da dívida pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:",
+    "[...]",
+    "Art. 49 - A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de 10 (dez) e, no máximo, de 360 (trezentos e sessenta) dias-multa.",
+    "§ 1º - O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a 5 (cinco) vezes esse salário."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "44",
+    "ate": "44"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-49f8fadac13f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 45, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "45",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 45, CP"
+    }
+   ],
+   "banca": "AROEIRA",
+   "ano": "2014",
+   "cargo": "Agente de Polícia",
+   "instituicao": "PC-TO",
+   "obs": "",
+   "enunciado": [
+    "Dentre as penas restritivas de direitos previstas na Parte Geral do Código Penal está a prestação pecuniária, que consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a meio salário mínimo nem superior a cento e oitenta salários mínimos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 45. [...]",
+    "§ 1º A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a 1 (um) salário mínimo nem superior a 360 (trezentos e sessenta) salários mínimos. O valor pago será deduzido do montante de eventual condenação em ação de reparação civil, se coincidentes os beneficiários."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d4fc2c0ac3c7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 45, § 1º, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "45",
+     "disp": "§ 1º, § 2º",
+     "sigla": "CP",
+     "texto": "Art. 45, § 1º, § 2º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MA",
+   "obs": "",
+   "enunciado": [
+    "Acerca das penas restritivas de direitos, é correto afirmar que a prestação pecuniária paga à vítima será deduzida de eventual condenação em ação de reparação civil, desde que os beneficiários sejam coincidentes, podendo, desde que haja aceitação do beneficiário, consistir em prestação de natureza diversa do pagamento em dinheiro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 45, § 1º - A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a 1 (um) salário mínimo nem superior a 360 (trezentos e sessenta) salários mínimos. O valor pago será deduzido do montante de eventual condenação em ação de reparação civil, se coincidentes os beneficiários.",
+    "§ 2º - No caso do parágrafo anterior, se houver aceitação do beneficiário, a prestação pecuniária pode consistir em prestação de outra natureza."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c4d58fdb6bed",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 45, § 1º e § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "45",
+     "disp": "§ 1º e § 2º",
+     "sigla": "CP",
+     "texto": "Art. 45, § 1º e § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições do Código Penal referentes às penas restritivas de direitos, julgue o item a seguir.",
+    "A pena de prestação pecuniária pode ser revertida a entidade privada com finalidade social e, havendo aceitação do beneficiário, pode consistir em prestação de outra natureza."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 45, § 1º - A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a 1 (um) salário mínimo nem superior a 360 (trezentos e sessenta) salários mínimos. O valor pago será deduzido do montante de eventual condenação em ação de reparação civil, se coincidentes os beneficiários.",
+    "Art. 45, § 2º - No caso do parágrafo anterior, se houver aceitação do beneficiário, a prestação pecuniária pode consistir em prestação de outra natureza.",
+    "39 (Art. 45, § 3º, CP) CS-UFG 2012 - Escrevente Judiciário (TJ-GO)",
+    "A perda de bens e valores pertencentes aos condenados dar-se-á, ressalvada a legislação especial, em favor do Fundo Penitenciário Estadual, e seu valor terá como teto o montante do prejuízo causado.",
+    "Art. 45. [...]",
+    "§ 3º A perda de bens e valores pertencentes aos condenados dar-se-á, ressalvada a legislação especial, em favor do Fundo Penitenciário Nacional, e seu valor terá como teto - o que for maior - o montante do prejuízo causado ou do provento obtido pelo agente ou por terceiro, em conseqüência da prática do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f0ec21389f2f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 45, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "45",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 45, § 3º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MA",
+   "obs": "",
+   "enunciado": [
+    "Acerca das penas restritivas de direitos, é correto afirmar que a perda de bens e valores em favor do Fundo Penitenciário Nacional terá como teto o montante do prejuízo causado à vítima, sendo irrelevante o provento obtido pelo agente ou por terceiro em consequência do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 45, § 3º - A perda de bens e valores pertencentes aos condenados dar-se-á, ressalvada a legislação especial, em favor do Fundo Penitenciário Nacional, e seu valor terá como teto – o que for maior – o montante do prejuízo causado ou do provento obtido pelo agente ou por terceiro, em conseqüência da prática do crime."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "45",
+    "ate": "45"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-57c5af323c88",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "FUNDAÇÃO LA SALLE",
+   "ano": "2017",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a19d37588213",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "CS-UFG",
+   "ano": "2012",
+   "cargo": "Escrevente Judiciário",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "A prestação de serviços à comunidade ou a entidades públicas será aplicável às condenações superiores a 6 (seis) meses de privação da liberdade, e consistirá na atribuição de tarefas gratuitas ao condenado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade.",
+    "§ 1º A prestação de serviços à comunidade ou a entidades públicas consiste na atribuição de tarefas gratuitas ao condenado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e13c3084d842",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2015",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRE-AP",
+   "obs": "",
+   "enunciado": [
+    "Sobre as penas restritivas de direito é certo que a prestação de serviços à comunidade ou a entidades públicas é aplicável apenas às condenações superiores a um ano de privação da liberdade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a SEIS MESES de privação da liberdade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4f618fe32445",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2015",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRE-AP",
+   "obs": "",
+   "enunciado": [
+    "No caso de prestação de serviços à comunidade ou entidades públicas se a pena substituída for superior a um ano, é facultado ao condenado cumprir a pena substitutiva em menor tempo, nunca inferior a 2/3 da pena privativa de liberdade fixada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade.",
+    "[...]",
+    "§ 4º Se a pena substituída for superior a um ano, é facultado ao condenado cumprir a pena substitutiva em menor tempo (art. 55), nunca inferior à METADE da pena privativa de liberdade fixada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b79efd2661ad",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre as penas restritivas de direitos, julgue o item a seguir. É aplicável a prestação de serviços à comunidade como sanção substitutiva de pena privativa de liberdade, desde que esta seja superior a três meses."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73afb423d2e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 46, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 46, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições do Código Penal referentes às penas restritivas de direitos, julgue o item a seguir.",
+    "A prestação de serviços à comunidade é aplicável a qualquer condenação a pena privativa de liberdade, independentemente do tempo de execução determinado pelo juízo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46 - A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1470f2421c32",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 46, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 46, § 2º, CP"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Psicólogo Judiciário",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "A prestação de serviço à comunidade dar-se-á exclusivamente em entidades assistenciais estatais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. [...]",
+    "§ 2º A prestação de serviço à comunidade dar-se-á em entidades assistenciais, hospitais, escolas, orfanatos e outros estabelecimentos congêneres, em programas comunitários ou estatais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3927619fdc8c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 46, § 4°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "46",
+     "disp": "§ 4°",
+     "sigla": "CP",
+     "texto": "Art. 46, § 4°, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às penas restritivas de direitos, a prestação de serviços à comunidade é aplicável a qualquer condenação não superior a quatro anos, facultado ao condenado cumpri-la em menor tempo, nunca inferior à metade da pena privativa de liberdade, se a pena substituída foi superior a um ano."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 46. A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade.",
+    "[...]",
+    "§ 4° Se a pena substituída for superior a um ano, é facultado ao condenado cumprir a pena substitutiva em menor tempo (art. 55), nunca inferior à metade da pena privativa de liberdade fixada.",
+    "49 (Art. 47, CP) FCC 2014 - Juiz Substituto (TJ-CE)",
+    "No tocante às penas restritivas de direitos, é possível a imposição de interdição temporária de direitos consistente em proibição de inscrever-se em concurso, avaliação ou exame públicos.",
+    "Art. 47 - As penas de interdição temporária de direitos são:",
+    "V - proibição de inscrever-se em concurso, avaliação ou exame públicos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "46",
+    "ate": "46"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bb9b02c72412",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 47, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "47",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 47, CP"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2012",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Não constitui pena de interdição temporária de direito a proibição de autorização ou habilitação para dirigir veículo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "*A proibição de autorização ou habilitação para dirigir veículo não se encontra no rol de penas de interdição temporárias de direito do Art. 47, CP.",
+    "Art. 47 - As penas de interdição temporária de direitos são:",
+    "I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo;",
+    "II - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de licença ou autorização do poder público;",
+    "III - suspensão de autorização ou de habilitação para dirigir veículo.",
+    "IV - proibição de freqüentar determinados lugares.",
+    "V - proibição de inscrever-se em concurso, avaliação ou exame públicos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "47",
+    "ate": "47"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-07e4efb3ae11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 47, I, III e V, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "47",
+     "disp": "I, III e V",
+     "sigla": "CP",
+     "texto": "Art. 47, I, III e V, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PE",
+   "obs": "",
+   "enunciado": [
+    "Maria, em decorrência da prática de crime doloso, foi condenada ao cumprimento de pena privativa de liberdade, substituída por restritiva de direitos em processo em que se deu o trânsito em julgado. É correto afirmar que proibição do exercício de cargo, função ou atividade pública, proibição de inscrever-se em concurso, avaliação ou exame públicos e suspensão de autorização ou de habilitação para dirigir veículo, são penas de interdição temporária de direitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 47 - As penas de interdição temporária de direitos são:",
+    "I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo; […]",
+    "III - suspensão de autorização ou de habilitação para dirigir veículo. […]",
+    "V - proibição de inscrever-se em concurso, avaliação ou exame públicos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "47",
+    "ate": "47"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-27cae10f8a11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 48, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "48",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 48, CP"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2015",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRE-MA",
+   "obs": "",
+   "enunciado": [
+    "A limitação de fim de semana consiste na obrigação de permanecer, aos sábados e domingos, por 5 (cinco) horas diárias, em casa do albergado ou outro estabelecimento adequado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 48 - A limitação de fim de semana consiste na obrigação de permanecer, aos sábados e domingos, por 5 (cinco) horas diárias, em casa de albergado ou outro estabelecimento adequado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "48",
+    "ate": "48"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e4f9ffa17229",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 48, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "48",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 48, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Área Fim",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, João foi condenado, definitivamente, pela prática de determinada infração penal. Registre-se que a pena privativa de liberdade foi substituída por pena restritiva de direito, mais especificamente pela limitação de final de semana. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que a limitação de fim de semana consiste na obrigação de permanecer, aos sábados e domingos, por cinco horas diárias, em casa de albergado ou outro estabelecimento adequado, sendo certo de que, durante a permanência, poderão ser ministrados cursos e palestras ou atribuídas atividades educativas ao condenado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Limitação de fim de semana",
+    "Art. 48 - A limitação de fim de semana consiste na obrigação de permanecer, aos sábados e domingos, por 5 (cinco) horas diárias, em casa de albergado ou outro estabelecimento adequado.",
+    "Parágrafo único - Durante a permanência poderão ser ministrados ao condenado cursos e palestras ou atribuídas atividades educativas."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "48",
+    "ate": "48"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Geral (Arts. 1º - 120, CP)"
+ ]
+}
