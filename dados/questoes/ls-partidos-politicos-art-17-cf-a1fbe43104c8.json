@@ -1,0 +1,2874 @@
+{
+ "id": "ls-partidos-politicos-art-17-cf-a1fbe43104c8",
+ "titulo": "Partidos Políticos (Art. 17, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-f8b03a4a4f16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 17, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 17, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Perito Criminal Federal - Área 1",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Com base no disposto na Constituição Federal de 1988 (CF) e em seus princípios e normas, julgue o item a seguir.",
+    "Os partidos políticos são dotados de autonomia, entretanto sua criação, fusão, incorporação e extinção dependem de autorização do Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 - É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c0c1b20e0a61",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 17, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 17, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Em 2026, serão disputadas eleições. Considerando que a Polícia Civil tem atuação supletiva quando no local da infração não existirem órgãos da Polícia Federal, sobre os partidos políticos, é correto afirmar que devem ter caráter nacional e funcionamento parlamentar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "I - caráter nacional;",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;",
+    "III - prestação de contas à Justiça Eleitoral;",
+    "IV - funcionamento parlamentar de acordo com a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7a0b891ff087",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 17, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 17, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos direitos humanos e aos direitos fundamentais, julgue o item a seguir. A CF faz a tutela geral dos partidos políticos em capítulo do título Dos direitos e garantias fundamentais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "TÍTULO II DOS DIREITOS E GARANTIAS FUNDAMENTAIS […] CAPÍTULO V DOS PARTIDOS POLÍTICOS",
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-881aa008e146",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 17, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 17, I, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Na democracia representativa, os partidos políticos reúnem pessoas em torno de um mesmo programa político e se situam entre o indivíduo e o Estado. De acordo com a Constituição Brasileira de 1988, para a formação de um novo partido político, deve-se respeitar o caráter nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "I - caráter nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bec55127d563",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 17, I e IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "I e IV",
+     "sigla": "CF",
+     "texto": "Art. 17, I e IV, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia Civil",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Em 2026, serão disputadas eleições. Considerando que a Polícia Civil tem atuação supletiva quando no local da infração não existirem órgãos da Polícia Federal, julgue o item sobre os partidos políticos. Devem ter caráter nacional e funcionamento parlamentar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "I - caráter nacional;",
+    "[...]",
+    "IV - funcionamento parlamentar de acordo com a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8ee5aeab0ce",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 17, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 17, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRE-GO",
+   "obs": "",
+   "enunciado": [
+    "Assinale no que concerne ao tratamento dado pela CF aos partidos políticos. É vedado aos partidos políticos o recebimento de recursos financeiros de entidade ou governo estrangeiros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: […]",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8400279d833",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 17, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 17, II, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia Civil",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Em 2026, serão disputadas eleições. Considerando que a Polícia Civil tem atuação supletiva quando no local da infração não existirem órgãos da Polícia Federal, julgue o item sobre os partidos políticos. Podem receber recursos financeiros de governos estrangeiros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f435cf2b6dfb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 17, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 17, II, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador de Universidade Assistente",
+   "instituicao": "UNICAMP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, os partidos políticos podem receber recursos financeiros de entidade ou governo estrangeiros, desde que preservado o caráter nacional desses partidos, sendo livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático e os direitos fundamentais da pessoa humana."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 - É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-65ad7ce9d92f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 17, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 17, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Advogado da União",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos direitos políticos e aos partidos políticos, é correto afirmar que as atividades dos partidos políticos poderão ser financiadas por doação de entidades estrangeiras, desde que haja regular prestação de contas dos valores recebidos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "I - caráter nacional;",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e724dd9bc419",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 17, II, § 1º, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II, § 1º, § 4º",
+     "sigla": "CF",
+     "texto": "Art. 17, II, § 1º, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Ao disciplinar os partidos políticos, a Constituição Federal estabelece que são vedados o recebimento de recursos financeiros de entidade ou governo estrangeiros, a utilização de organização paramilitar e a celebração de coligações nas eleições proporcionais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 - É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;",
+    "§ 1º - É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária.",
+    "§ 4º - É vedada a utilização pelos partidos políticos de organização paramilitar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa660d95786f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 17, II e III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "II e III",
+     "sigla": "CF",
+     "texto": "Art. 17, II e III, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRT-12ª REGIÃO-SC",
+   "obs": "",
+   "enunciado": [
+    "O Partido Político “Partido de Proteção dos Animais” foi criado resguardados a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa humana. Em conformidade com a Constituição Federal, o “Partido de Proteção dos Animais”, observados os demais preceitos nela previstos, não pode receber recursos financeiros de entidade ou governo estrangeiros; e deve prestar contas à Justiça Eleitoral."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "I - caráter nacional;",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;",
+    "III - prestação de contas à Justiça Eleitoral;",
+    "IV - funcionamento parlamentar de acordo com a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dec13148c39d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 17, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 17, III, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia Civil",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Em 2026, serão disputadas eleições. Considerando que a Polícia Civil tem atuação supletiva quando no local da infração não existirem órgãos da Polícia Federal, julgue o item sobre os partidos políticos. Estão desobrigados de prestar contas à Justiça Eleitoral."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "III - prestação de contas à Justiça Eleitoral;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-549e4f43ba06",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 17, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 17, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STJ",
+   "obs": "",
+   "enunciado": [
+    "Conforme disposto na Constituição Federal de 1988 (CF), os partidos políticos submetem-se ao dever de prestar contas à justiça eleitoral e aos tribunais de contas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: Regulamento",
+    "[...]",
+    "III - prestação de contas à Justiça Eleitoral;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a531c2b4aab1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 17, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 17, IV, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2015",
+   "cargo": "Delegado de Polícia Civil 1ª Classe",
+   "instituicao": "PC-CE",
+   "obs": "",
+   "enunciado": [
+    "É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana, observado o seguinte preceito: O funcionamento parlamentar de acordo com a lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "IV - funcionamento parlamentar de acordo com a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9bedbcc9993f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "PREFEITURA DE PONTAL-SP",
+   "obs": "",
+   "enunciado": [
+    "É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios, sobre sua organização e funcionamento, para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, permitida a sua celebração nas eleições proporcionais, com obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-831c2f9d0c93",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos partidos políticos, julgue o item a seguir.",
+    "É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º - É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3d1f41bb988f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "CÂMARA DE ORLÂNDIA-SP",
+   "obs": "",
+   "enunciado": [
+    "É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, facultada a sua celebração nas eleições proporcionais, com obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, §1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c6e26171716",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador de Universidade Assistente",
+   "instituicao": "UNICAMP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, os partidos políticos têm autonomia para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias e também nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º - É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dc276e592182",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "João, presidente do Partido Político Alfa, teve longa conversa com Pedro, presidente do Partido Político Beta, sendo deliberado, ao fim, que seriam adotadas as providências necessárias para que esses partidos políticos disputassem em conjunto, como se fossem um único partido político, as próximas eleições majoritárias e proporcionais realizadas a nível federal. Após a eleição, a união seria desfeita. A ordem constitucional assegura a autonomia dos partidos políticos para a formação de uniões como a descrita, mas é vedado que isso ocorra nas eleições proporcionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária. (Redação dada pela Emenda Constitucional nº 97, de 2017)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-632e362be6d1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art, 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art, 17, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Foi instituída uma comissão no âmbito do Partido Político Alfa com o objetivo de promover uma reforma estatutária. Entre as propostas apresentadas, estava a de disciplinar a escolha e a duração dos órgãos partidários de caráter provisório. Ao analisar o teor dessa proposta, a comissão concluiu corretamente, em relação à sua compatibilidade com a Constituição da República, que a proposta é constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º - É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1adbb89ce8c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-BA",
+   "obs": "",
+   "enunciado": [
+    "A respeito de coligações e federações de partidos, considerando as disposições constitucionais e a Lei n.º 9.096/1995, julgue a assertiva. A vedação à celebração de coligações aplica-se às eleições majoritárias e proporcionais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 […]",
+    "§ 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bc7188928a15",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 17, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRE-GO",
+   "obs": "",
+   "enunciado": [
+    "Assinale no que concerne ao tratamento dado pela CF aos partidos políticos. É assegurada aos partidos políticos autonomia para definir sua estrutura interna, organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações eleitorais, sendo, contudo, obrigatória a vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aede3c734328",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Os partidos políticos adquirem personalidade jurídica com o registro no Tribunal Superior Eleitoral como pessoa jurídica de direito público interno."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-22f2edcf8e10",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRE-GO",
+   "obs": "",
+   "enunciado": [
+    "Assinale no que concerne ao tratamento dado pela CF aos partidos políticos. Os partidos políticos adquirem personalidade jurídica com o registro no Tribunal Superior Eleitoral (TSE)."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-253b17b1b12c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador de Universidade Assistente",
+   "instituicao": "UNICAMP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, os partidos políticos possuem autonomia para definir sua estrutura interna, adquirindo personalidade jurídica com o registro de seus estatutos junto ao Tribunal Superior Eleitoral."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 2º - Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-95c59780783d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2010",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRE-MT",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos direitos políticos e à disciplina constitucional sobre os partidos políticos, assinale: Os partidos políticos adquirem personalidade jurídica na forma da lei civil, devendo, após isso, registrar seus estatutos no Tribunal Superior Eleitoral (TSE)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-beb48e319db1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos perante o Tribunal Regional Eleitoral da respectiva entidade da federação de sua sede."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 [...]",
+    "§ 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no TRIBUNAL SUPERIOR ELEITORAL."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-031d97d22215",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às disposições constitucionais sobre partidos políticos, analise a afirmativa abaixo. Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 […]",
+    "§ 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bc06c12dc87f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 17, § 2º, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º, § 1º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2003",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRE-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando os direitos políticos insertos na Constituição Federal (CF) vigente, julgue o item a seguir. Os partidos políticos, após adquirirem personalidade jurídica, de acordo com os requisitos legais, devem registrar seus estatutos no TSE, podendo ter direito a recursos do fundo partidário, devendo, entretanto, pagar parte do acesso ao rádio e à televisão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral.",
+    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6b9ade78c1d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 17, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos partidos políticos, em conformidade com a Constituição Federal de 1988, os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "§ 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9afb71313cf8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 17, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "O acesso aos recursos do fundo partidário e ao rádio e à televisão será destinado a todos os partidos políticos, indiscriminadamente, para garantia da isonomia na representação política."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fbfd9088bcf6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 17, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-SP",
+   "obs": "",
+   "enunciado": [
+    "Somente terão acesso gratuito ao rádio e à televisão os partidos políticos que conseguirem eleger, no mínimo, 15 (quinze) Deputados Federais, distribuídos em pelo menos 1/3 (um terço) das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente: (Redação dada pela Emenda Constitucional nº 97, de 2017)",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou (Incluído pela Emenda Constitucional nº 97, de 2017)",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação. (Incluído pela Emenda Constitucional nº 97, de 2017)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36e722c09a61",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 17, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Procurador Jurídico - Câmara de Orlândia",
+   "instituicao": "SP",
+   "obs": "",
+   "enunciado": [
+    "Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 10% (dez por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 7% (sete por cento) dos votos válidos em cada uma delas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 [...]",
+    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08ef09491d75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 17, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRE-GO",
+   "obs": "",
+   "enunciado": [
+    "Assinale no que concerne ao tratamento dado pela CF aos partidos políticos. Os partidos políticos têm direito a recursos do fundo partidário, e devem pagar pelo acesso ao rádio e à televisão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I – obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II – tiverem elegido pelo menos quinze deputados federais distribuídos em pelo menos um terço das unidades da Federação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ed5e41a335a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 17, §§ 3º, 5º e 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§§ 3º, 5º",
+     "sigla": "CF",
+     "texto": "Art. 17, §§ 3º, 5º e 6º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "6",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 17, §§ 3º, 5º e 6º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "João, Maria e Joana, filiados ao partido político Alfa e candidatos na última eleição para o provimento de cargos eletivos de deputado federal, lograram ser eleitos. No entanto, ficaram muito preocupados ao constatarem que Alfa não tinha preenchido a “cláusula de desempenho” prevista na ordem constitucional. Ao analisarem as consequências do não preenchimento dessa cláusula, divergiram entre si. João sustentava que Alfa não teria direito aos recursos do fundo partidário e acesso gratuito ao rádio e à televisão. Maria, por sua vez, defendia que o não preenchimento da cláusula de desempenho por Alfa permitia que os três se filiassem, sem perda do mandato, a outro partido político que a tenha atingido. Por fim, Joana defendia que essa nova filiação seria considerada para fins de distribuição dos recursos do fundo partidário e do acesso gratuito ao tempo de rádio e televisão. Considerando a sistemática constitucional, é correto concluir, em relação às afirmações de João, Maria e Joana, que apenas as de Joana está certa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 […]",
+    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente: (João)",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação. […] 5º Ao eleito por partido que não preencher os requisitos previstos no § 3º deste artigo é assegurado o mandato e facultada a filiação, sem perda do mandato, a outro partido que os tenha atingido, não sendo essa filiação considerada para fins de distribuição dos recursos do fundo partidário e de acesso gratuito ao tempo de rádio e de televisão. (Maria)",
+    "§ 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de",
+    "partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão. (Joana)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-425f4c5f986b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 17, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-AL",
+   "obs": "",
+   "enunciado": [
+    "Suponha-se que venham a ser regularmente criados dois novos partidos políticos: “Para Frente Brasil” e “Agora Brasil” e que o partido político “Para Frente Brasil” obtenha, nas eleições para a Câmara dos Deputados, em 2030, 5% dos votos válidos, distribuídos em um terço das unidades da Federação, com 3% dos votos válidos em cada uma delas e eleja dez Deputados Federais distribuídos em um terço das unidades da Federação. Suponha também que o partido político “Agora Brasil” obtenha, nas eleições para a Câmara dos Deputados, em 2030, 2% dos votos válidos, distribuídos em um terço das unidades da Federação, com 2% dos votos válidos em cada uma delas e eleja quinze Deputados Federais distribuídos em um terço das unidades da Federação. Considerando apenas as informações fornecidas e em conformidade com a Constituição Federal de 1988, tanto o partido político “Para Frente Brasil” quanto o partido político “Agora Brasil” terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: Regulamento",
+    "[...]",
+    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-582171ea8847",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 17, § 3º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º, II",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, II, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-RS",
+   "obs": "",
+   "enunciado": [
+    "Os partidos políticos que tiverem elegido oito deputados federais em pelo menos duas unidades da federação terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da legislação eleitoral."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "[...]",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação. (Incluído pela Emenda Constitucional nº 97, de 2017)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-309d6aecb9f0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 17, § 3º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 3º, II",
+     "sigla": "CF",
+     "texto": "Art. 17, § 3º, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Investigador",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "O Partido Político Alfa, pela primeira vez em sua história, teve filiados eleitos para cargos eletivos do Congresso Nacional. Para que esse partido faça jus aos recursos do fundo partidário, preenchidos os demais requisitos exigidos, é necessário que, nas eleições para a Câmara dos Deputados e para o Senado Federal, tenha elegido pelos menos três parlamentares em cada Casa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b86bd356bf91",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 17, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2010",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-AP",
+   "obs": "",
+   "enunciado": [
+    "É vedada a utilização pelos partidos políticos de organização paramilitar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 [...]",
+    "§ 4º É vedada a utilização pelos partidos políticos de organização paramilitar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3b51388f7180",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 17, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 4º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às disposições constitucionais sobre partidos políticos, analise a afirmativa abaixo. É vedada a utilização pelos partidos políticos de organização paramilitar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 […]",
+    "§ 4º É vedada a utilização pelos partidos políticos de organização paramilitar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7387359da5ca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 17, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 5º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-SP",
+   "obs": "",
+   "enunciado": [
+    "Ao eleito por partido que não preencher os requisitos previstos pela Constituição Federal para ter acesso gratuito ao rádio e à televisão é assegurado o mandato e facultada a filiação, sem perda do mandato, a outro partido que os tenha preenchido, não sendo essa filiação considerada para fins de distribuição dos recursos para o fundo partidário e para o acesso gratuito ao tempo de rádio e de televisão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 5º Ao eleito por partido que não preencher os requisitos previstos no § 3º deste artigo é assegurado o mandato e facultada a filiação, sem perda do mandato, a outro partido que os tenha atingido, não sendo essa filiação considerada para fins de distribuição dos recursos do fundo partidário e de acesso gratuito ao tempo de rádio e de televisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-65160cffdf0d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 17, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 6º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Cândida é Vereadora eleita pelo partido político •x· e, supondo-se que, um ano após sua eleição como Vereadora, deseje dele se desligar para filiar-se ao partido político \"Y\", tendo, para isso, obtido a anuência expressa do partido \"X\". Nesse caso. de acordo com a Constituição Federal, considerando apenas as informações fornecidas. Cândida não perderá o mandato, não computada a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 6º - Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7d8c1c11ae9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 17, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 6º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos partidos políticos, julgue o item a seguir.",
+    "Os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 6º - Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-67dd5f922607",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 17, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 6º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-SP",
+   "obs": "",
+   "enunciado": [
+    "Os Deputados Estaduais que se desligarem do partido pelo qual tenham sido eleitos poderão perder o mandato, de modo que a migração de partido será computada para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão, sendo sempre irrelevante a anuência dos partidos envolvidos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão. (Incluído pela Emenda Constitucional nº 111, de 2021)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f1e1a135f23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 17, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 6º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir. Joana, Deputada Estadual eleita nas últimas eleições gerais pelo partido \"Para Frente Mulheres - PFM\", pretende se desligar desse partido. Se Joana se desligar do partido \"PFM\", perderá o mandato, salvo no caso de anuência do referido partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 6º - Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-634f8d49bfff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 17, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 6º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Vaneide, Vereadora, pretende se desligar do partido pelo qual foi eleita. Se o fizer, perderá o seu mandato, salvo no caso de anuência do partido pelo qual foi eleita ou de outras hipóteses de justa causa estabelecidas em lei, computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: Regulamento",
+    "[...]",
+    "§ 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73b1578ae558",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-SP",
+   "obs": "",
+   "enunciado": [
+    "Os partidos políticos devem aplicar no mínimo 30% (trinta por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários. (Incluído pela Emenda Constitucional nº 117, de 2022)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-34bbbf7c2e98",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AVALIA",
+   "ano": "2025",
+   "cargo": "Escrivão e Investigador",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal estabelece garantias fundamentais à liberdade de criação, organização e funcionamento dos partidos, desde que observados os princípios constitucionais, incluindo o respeito ao regime democrático, aos direitos fundamentais e ao caráter nacional das agremiações. Sobre os partidos políticos, conforme a Constituição Federal de 1988, julgue o item. Os partidos políticos devem aplicar, no mínimo, 3% dos recursos do Fundo Partidário na criação e manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos:",
+    "[...]",
+    "§ 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-87518b983f05",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador de Universidade Assistente",
+   "instituicao": "UNICAMP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, os partidos políticos devem aplicar, no mínimo, dez por cento dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 7º - Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-25869d400ae1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às disposições constitucionais sobre partidos políticos, analise a afirmativa abaixo. Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17 […]",
+    "§ 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f988d2b8cddb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Ao disciplinar os partidos políticos, a Constituição Federal estabelece que trinta por cento dos recursos do fundo partidário, no mínimo, devem ser aplicados na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 7º - Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bde9691b7311",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos partidos políticos, julgue o item a seguir.",
+    "Os partidos políticos devem aplicar no mínimo 15°/o dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política dos homens e das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 7º - Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ddc4e9e58228",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Democracia tem sido um termo corrente. Na chamada democracia eleitoral, os partidos políticos desempenham papel fundamental na construção de um Estado Democrático de Direito. Sobre os partidos políticos, nos termos da Constituição Brasileira de 1988, é correto afirmar que opartidos políticos devem aplicar no mínimo 10% (dez por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. […]",
+    "§ 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2b6e26ce577b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 17, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 7º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa humana. De acordo com a Constituição Federal de 1988, os partidos políticos devem aplicar no mínimo 30% dos recursos do fundo partidário na criação de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários, sendo que o tempo de propaganda gratuita no rádio a ser distribuído pelos partidos às respectivas candidatas deverá ser de no mínimo 5%, proporcional ao número de candidatas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: Regulamento",
+    "I - caráter nacional;",
+    "II - proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;",
+    "III - prestação de contas à Justiça Eleitoral;",
+    "IV - funcionamento parlamentar de acordo com a lei.",
+    "§ 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna e estabelecer regras sobre escolha, formação e duração de seus órgãos permanentes e provisórios e sobre sua organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações nas eleições majoritárias, vedada a sua celebração nas eleições proporcionais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária.",
+    "§ 2º Os partidos políticos, após adquirirem personalidade jurídica, na forma da lei civil, registrarão seus estatutos no Tribunal Superior Eleitoral.",
+    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+    "I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da",
+    "Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou",
+    "II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação.",
+    "§ 4º É vedada a utilização pelos partidos políticos de organização paramilitar.",
+    "§ 5º Ao eleito por partido que não preencher os requisitos previstos no § 3º deste artigo é assegurado o mandato e facultada a filiação, sem perda do mandato, a outro partido que os tenha atingido, não sendo essa filiação considerada para fins de distribuição dos recursos do fundo partidário e de acesso gratuito ao tempo de rádio e de televisão.",
+    "§ 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão.",
+    "§ 7º Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres, de acordo com os interesses intrapartidários.",
+    "§ 8º O montante do Fundo Especial de Financiamento de Campanha e da parcela do fundo partidário destinada a campanhas eleitorais, bem como o tempo de propaganda gratuita no rádio e na televisão a ser distribuído pelos partidos às respectivas candidatas, deverão ser de no mínimo 30% (trinta por cento), proporcional ao número de candidatas, e a distribuição deverá ser realizada conforme critérios definidos pelos respectivos órgãos de direção e pelas normas estatutárias, considerados a autonomia e o interesse partidário.",
+    "§ 9º Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e9ebf0197de9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 17, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 8º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "No tocante aos Partidos Políticos, no montante do Fundo Especial de Financiamento de Campanha e da parcela do fundo partidário destinada a campanhas eleitorais deverá ser de, no mínimo, 30% (trinta por cento), proporcional ao número de candidatas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo, os direitos fundamentais da pessoa humana e observados os seguintes preceitos: […]",
+    "§ 8º O montante do Fundo Especial de Financiamento de Campanha e da parcela do fundo partidário destinada a campanhas eleitorais, bem como o tempo de propaganda gratuita no rádio e na televisão a ser distribuído pelos partidos às respectivas candidatas, deverão ser de no mínimo 30% (trinta por cento), proporcional ao número de candidatas, e a distribuição deverá ser realizada conforme critérios definidos pelos respectivos órgãos de direção e pelas normas estatutárias, considerados a autonomia e o interesse partidário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3c677ccafb34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 17, § 9º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 9º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 9º, CF"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da legislação eleitoral, julgue o item a seguir.",
+    "Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do Fundo Partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 20% (vinte por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 9º - Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ae45208c48e5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 17, § 9º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 9º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 9º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Ao disciplinar os partidos políticos, a Constituição Federal estabelece que trinta por cento dos recursos oriundos do Fundo Especial de Financiamento de Campanha devem, obrigatoriamente, ser aplicados em candidaturas de pessoas pretas e pardas, pessoas com deficiência e mulheres."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 9º - Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias.",
+    "Obs: o art. 17, § 9º não menciona pessoas com deficiência e mulheres."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f6b9e3de054",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 17, § 9º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 9º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 9º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador de Universidade Assistente",
+   "instituicao": "UNICAMP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, os partidos políticos devem, obrigatoriamente, aplicar 30% dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 9º - Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-781f5f923d65",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 17, § 9º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 9º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 9º, CF"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "Sobre Partidos Políticos, julgue o item a seguir.",
+    "Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do Fundo Partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 9º - Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4fc0eeb893b4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 17, § 9º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "17",
+     "disp": "§ 9º",
+     "sigla": "CF",
+     "texto": "Art. 17, § 9º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa humana. De acordo com a Constituição Federal de 1988, os partidos políticos devem, obrigatoriamente, dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, aplicar 30% em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, § 9º - Dos recursos oriundos do Fundo Especial de Financiamento de Campanha e do fundo partidário destinados às campanhas eleitorais, os partidos políticos devem, obrigatoriamente, aplicar 30% (trinta por cento) em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "17",
+    "ate": "17"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "2 Direitos e Garantias Fundamentais (Arts. 5º - 17, CF)"
+ ]
+}
