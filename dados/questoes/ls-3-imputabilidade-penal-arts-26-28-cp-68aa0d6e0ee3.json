@@ -1,0 +1,2457 @@
+{
+ "id": "ls-3-imputabilidade-penal-arts-26-28-cp-68aa0d6e0ee3",
+ "titulo": "3 Imputabilidade Penal (Arts. 26 - 28, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-37cffb1dbc86",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 26, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 26, CP"
+    }
+   ],
+   "banca": "TRF - 2ª REGIÃO",
+   "ano": "2018",
+   "cargo": "Juiz Federal Substituto",
+   "instituicao": "TRF - 2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A doença mental ou o desenvolvimento mental incompleto ou retardado isentam de pena, se ao tempo da ação ou da omissão, ou entre a denúncia e a sentença, o agente era ou se torna inteiramente incapaz de entender o caráter ilícito do fato."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d1d62d0746a0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 26, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 26, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "PREFEITURA DE ANDRADINA-MS",
+   "obs": "",
+   "enunciado": [
+    "Durante expediente interno de órgão municipal, Fábio, servidor público municipal, entrou em surto psicótico, armou-se com uma faca e começou a ameaçar colegas de trabalho. Diante dessa situação, Ricardo, também servidor público municipal, tentou conter Fábio, empurrando-o com força contra a parede, o que causou lesões leves em Fábio. Posteriormente, atestou-se, mediante perícia, que, naquela ocasião, Fábio estava em surto com perda temporária da noção de realidade. Em razão de sua conduta naquele momento, Ricardo está sendo investigado por lesão corporal dolosa.",
+    "A partir dessa situação hipotética, julgue o item que se seguem, relativos à teoria do crime no que se refere à antijuridicidade e às causas de justificação e de exclusão da culpabilidade.",
+    "A inimputabilidade de Fábio motivada pelo surto psicótico não exclui a tipicidade da sua conduta no caso, mas exclui sua culpabilidade, desde que demonstrada sua incapacidade de compreender o caráter ilícito do ato ou de se autodeterminar segundo esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Inimputáveis",
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-190ed1f893bc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Reaplicação",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "É isento de pena o agente que, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5283932ea411",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Tales, 32 anos, pessoa diagnosticada com Transtorno Afetivo Bipolar (TAB), está em acompanhamento psiquiátrico irregular, mas deixou voluntariamente de tomar a medicação prescrita. Após ingerir elevada quantidade de bebida alcoólica, envolveu-se em uma discussão com Ulisses, seu sócio, em razão de desavenças comerciais. Durante o conflito, dominado por intensa emoção, Tales desferiu golpes que resultaram na morte de Ulisses. O laudo pericial concluiu que, ao tempo da ação, Tales não era inteiramente incapaz de entender o caráter ilícito do fato e tinha a sua capacidade de autodeterminação reduzida em razão da associação entre o transtorno mental e a embriaguez voluntária.",
+    "Sobre a situação hipotética apresentada, julgue o item a seguir.",
+    "Tales é semi-imputável, pois a sua capacidade de autodeterminação estava reduzida, devendo ser condenado, ainda que seja cabível a redução da pena de um a dois terços."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Inimputáveis",
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3f4ca507318b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "Sem maiores explicações, João arremessa uma pedra em direção a uma loja de eletrônicos, danificando a vitrine e sendo preso em flagrante. Seus advogados de defesa apresentam diversas circunstâncias relacionadas à sua condição mental no momento e possível embriaguez. Diante das hipóteses indicadas, é correto afirmar que a comprovação de perturbação de saúde mental e de que João não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento ensejará a isenção de pena."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26. [...]",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-739cc5e441c5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 26, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 26, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Inspetor Fiscal de Rendas",
+   "instituicao": "PREFEITURA DE GUARULHOS-SP",
+   "obs": "",
+   "enunciado": [
+    "No que tange ao tratamento que o CP dá à imputabilidade penal (arts. 26 a 28): É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-517968449c85",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 26, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 26, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2018",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "ITEP-RN",
+   "obs": "",
+   "enunciado": [
+    "Quanto à responsabilidade penal, é correto afirmar que não responde o agente, portador de doença mental, que era, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Inimputáveis",
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5fc05777f1cf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "MS CONCURSOS",
+   "ano": "2012",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-PA",
+   "obs": "",
+   "enunciado": [
+    "O fundamento da imputabilidade é a capacidade de entender e de querer. Somente o somatório da maturidade e da sanidade mental confere ao homem a imputabilidade penal e o seu reconhecimento depende da capacidade para conhecer a ilicitude do fato. Diante disso, julgue o item a seguir. A pena pode ser reduzida de 1 (um) a 2/3 (dois terços), se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Inimputáveis",
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a2f38b5c7ac",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2020",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PREFEITURA DE BETIM-MG",
+   "obs": "",
+   "enunciado": [
+    "A pena pode ser reduzida em um sexto, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5bd6d357177",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2010",
+   "cargo": "I Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "A pena poderá ser reduzida se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não for inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e8ad0ab05fbc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Procurador Federal",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "Julgue os itens seguintes, acerca da prescrição, da reabilitação e da imputabilidade.",
+    "O CP prevê uma redução de pena para aquele que, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não seja inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, circunstância que enseja uma menor reprovabilidade da conduta do agente comprovadamente naquelas condições. Tem-se, nesse caso, a denominada semi- imputabilidade, também nominada pelos doutrinadores como responsabilidade penal diminuída."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Inimputáveis",
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f79c381b6845",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "João, de 19 anos de idade, e Pedro, de 17 anos de idade, assaltaram uma loja de eletrônicos: João empunhou um simulacro de arma de fogo, com aparência fidedigna à de uma arma real, e anunciou o assalto, enquanto Pedro permaneceu do lado de fora da loja, dando cobertura. Durante a ação, o proprietário da loja reagiu, e João, acreditando estar sendo atacado com uma arma, quando na verdade o comerciante apenas segurava uma calculadora, desferiu um soco no rosto da vítima, causando-lhe lesões corporais leves. Posteriormente, descobriu- se que João tem transtorno mental, o que, à época dos fatos, reduziu parcialmentesua capacidade de entendimento do caráter ilícito da sua conduta.",
+    "A partir da situação hipotética apresentada, julgue o item a seguir.",
+    "O transtorno mental de João caracteriza causa de semi-imputabilidade e, se ele for processado criminalmente pela conduta em questão, poderá ensejar a redução da pena, mas não o afastamento total da responsabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Redução de pena",
+    "Art. 26, Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c7f71d63c67f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 26, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 26, § único, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "João, de 19 anos de idade, e Pedro, de 17 anos de idade, assaltaram uma loja de eletrônicos: João empunhou um simulacro de arma de fogo, com aparência fidedigna à de uma arma real, e anunciou o assalto, enquanto Pedro permaneceu do lado de fora da loja, dando cobertura. Durante a ação, o proprietário da loja reagiu, e João, acreditando estar sendo atacado com uma arma, quando na verdade o comerciante apenas segurava uma calculadora, desferiu um soco no rosto da vítima, causando-lhe lesões corporais leves. Posteriormente, descobriu- se que João tem transtorno mental, o que, à época dos fatos, reduziu parcialmente sua capacidade de entendimento do caráter ilícito da sua conduta. A partir da situação hipotética apresentada, julgue o item a seguir. O transtorno mental de João caracteriza causa de semi-imputabilidade e, se ele for processado criminalmente pela conduta em questão, poderá ensejar a redução da pena, mas não o afastamento total da responsabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. Redução de pena",
+    "Parágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. Menores de dezoito anos"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6a65aaf8d6b1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 27, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 27, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Laura, nascida em 21 de fevereiro de 2000, é inimiga declarada de Lívia, nascida em 14 de dezembro de 1999, sendo que o principal motivo da rivalidade está no fato de que Lívia tem interesse no namorado de Laura. Durante uma festa, em 19 de fevereiro de 2018, Laura vem a saber que Lívia anunciou para todos que tentaria manter relações sexuais com o referido namorado. Soube, ainda, que Lívia disse que, na semana seguinte, iria desferir um tapa no rosto de Laura, na frente de seus colegas, como forma de humilhá-la. Diante disso, para evitar que as ameaças de Lívia se concretizassem, Laura, durante a festa, desfere facadas no peito de Lívia, mas terceiros intervêm e encaminham Lívia diretamente para o hospital. Dois dias depois, Lívia vem a falecer em virtude dos golpes sofridos. Descobertos os fatos, o Ministério Público ofereceu denúncia em face de Laura pela prática do crime de homicídio qualificado. Confirmados integralmente os fatos, a defesa técnica de Laura deverá pleitear o reconhecimento da inimputabilidade da agente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-31ce4a9bffb1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 27, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 27, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A pessoa “A”, mentalmente sã, na data anterior ao dia de seu aniversário de 18 anos de idade, com intenção de matar, atira em seu vizinho “B” e o fere gravemente. “B” é socorrido, mas falece no hospital dois dias depois, em razão do disparo sofrido. De acordo com o Código Penal brasileiro, é correto afirmar que “A” será isento de pena, porque inimputável. Teoria da atividade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-78c3090c7d32",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 27, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 27, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A inimputabilidade em razão da idade é definida pelo Código Penal através do critério psicológico."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-65e1d6291b62",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 27, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 27, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao tema da imputabilidade penal, julgue o seguinte item. Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1aa0e10f7a8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 27, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 27, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Reaplicação",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e0d71bb6c67d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Arts. 23, 27 e 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "23",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 23, 27 e 28, § 1º, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 23, 27 e 28, § 1º, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Arts. 23, 27 e 28, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2012",
+   "cargo": "VIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "São causas excludentes de culpabilidade: inimputabilidade por menoridade; estrito cumprimento do dever legal; embriaguez incompleta."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Exclusão de ilicitude",
+    "Art. 23 - Não há crime quando o agente pratica o fato:",
+    "[...]",
+    "III - em estrito cumprimento de dever legal ou no exercício regular de direito.",
+    "[...]",
+    "Menores de dezoito anos",
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial.",
+    "[...]",
+    "Art. 28, § 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "23",
+    "ate": "23"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-07e4dc657bff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Arts. 26, 27 e 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "26",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 26, 27 e 28, § 1º, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "27",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 26, 27 e 28, § 1º, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Arts. 26, 27 e 28, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2012",
+   "cargo": "Técnico Legislativo - Policial Legislativo",
+   "instituicao": "SENADO FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "São causas de exclusão da imputabilidade a doença mental, a menoridade e a embriaguez completa acidental."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "Art. 27 - Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "Art. 28, § 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff0ee93ff669",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 28, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 28, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2007",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A emoção e a paixão excluem a imputabilidade penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "I - a emoção ou a paixão;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bb8917c7e374",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2020",
+   "cargo": "XXXI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Inconformado por estar desempregado, Lúcio resolve se embriagar. Quando se encontrava no interior do coletivo retornando para casa, ele verifica que o passageiro sentado à sua frente estava dormindo, e o telefone celular deste estava solto em seu bolso. Aproveitando- se da situação, Lúcio subtrai o aparelho sem ser notado pelo lesado, que continuava dormindo profundamente. Ao tentar sair do coletivo, Lúcio foi interpelado por outro passageiro, que assistiu ao ocorrido, iniciando-se uma grande confusão, que fez com que o lesado acordasse e verificasse que seu aparelho fora subtraído. Após denúncia pelo crime de furto qualificado pela destreza e regular processamento do feito, Lúcio foi condenado nos termos da denúncia, sendo, ainda, aplicada a agravante da embriaguez preordenada, já que Lúcio teria se embriagado dolosamente. Considerando apenas as informações expostas e que os fatos foram confirmados, o(a) advogado(a) de Lúcio, no momento da apresentação de recurso de apelação, poderá requerer a absolvição, diante da ausência de culpabilidade, em razão da embriaguez completa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 […]",
+    "§ 1 º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c0ff9b3c98d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 28, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 28, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2018",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "ITEP-RN",
+   "obs": "",
+   "enunciado": [
+    "Emoção e paixão excluem a imputabilidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Emoção e paixão",
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "I - a emoção ou a paixão;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aa66b7b7ee65",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 28, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 28, I, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2012",
+   "cargo": "Técnico Legislativo - Policial Legislativo",
+   "instituicao": "SENADO FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "A emoção e a paixão não excluem a imputabilidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "I - a emoção ou a paixão;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a03878d32ce3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 28, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 28, I, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Reaplicação",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A paixão e a emoção não excluem a imputabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "I - a emoção ou a paixão;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-68f262fd1fa0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 28, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 28, I, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A depender do caso concreto, nos termos dos arts. 26 a 28 do CP, admite redução de pena: paixão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "I - a emoção ou a paixão;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e6e1408b3b11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 28, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 28, I, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Distrito Federal",
+   "instituicao": "PG-DF",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal, a conduta movida pela emoção pode excluir a imputabilidade penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "I - a emoção ou a paixão;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7fa52f08f515",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 28, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 28, I, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao tema da imputabilidade penal, julgue o seguinte item. Não excluem a imputabilidade penal a paixão e a emoção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "I - a emoção ou a paixão;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-084411d238f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2012",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "A embriaguez, voluntária ou culposa, pelo álcool ou substância de efeito análogo não exclui a imputabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 Não excluem a imputabilidade penal:",
+    "Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e6d5c370e942",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Reaplicação",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos, não exclui a imputabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "[...]",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a98ad794033a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 28, II, CPC",
+   "refs": [
+    {
+     "lei": "cpc",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CPC",
+     "texto": "Art. 28, II, CPC"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2007",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF 3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos, não exclui a imputabilidade penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "cpc",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1b30fd0c6759",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "TRF - 2ª REGIÃO",
+   "ano": "2018",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF - 2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "O sujeito que no momento da prática do crime não era capaz de se determinar, completamente, de acordo com o entendimento do caráter ilícito do fato em razão de embriaguez culposa, poderá ter a pena reduzida de um a dois terços."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "[...]",
+    "Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-688177a6a5eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao tema da imputabilidade penal, julgue o seguinte item. Não exclui a imputabilidade penal a embriaguez voluntária pelo álcool."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: […]",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ef8a75a9e43a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Caio e João se encaminhavam ao interior do Estado do Rio de Janeiro quando foram parados em uma blitz da Polícia Rodoviária Federal. Registre-se que João, que não conduzia o veículo automotor, estava, de forma culposa, completamente embriagado. Nesse contexto, quando o agente da lei exigiu a apresentação dos seus documentos, João desferiu um soco no rosto dele, sendo rapidamente imobilizado. Observadas as formalidades constitucionais e legais, João foi encaminhado à audiência de custódia, tendo narrado ao seu advogado que os fatos se deram em razão do cenário de embriaguez completa de natureza culposa, proveniente de álcool. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João poderá responder criminalmente pela conduta praticada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "[...] Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-09168364e1e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Caio, em um bar, ingere grande quantidade de bebida alcoólica. Após consumo excessivo e voluntário de álcool, ele se torna completamente embriagado, a ponto de não ter mais controle sobre suas ações. Nesse estado de completa embriaguez, Caio se envolve em uma discussão acalorada com outro frequentador do bar e, sem qualquer motivo razoável, desfere um soco que resulta em lesões corporais graves na vítima. Considerando que Caio estava completamente incapaz de compreender a ilicitude de seu ato, no momento que desferiu o soco, devido à embriaguez, é correto afirmar que ele será considerado imputável e responderá pelo crime cometido, sem qualquer redução de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: […] Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3704b6417ce5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "Sem maiores explicações, João arremessa uma pedra em direção a uma loja de eletrônicos, danificando a vitrine e sendo preso em flagrante. Seus advogados de defesa apresentam diversas circunstâncias relacionadas à sua condição mental no momento e possível embriaguez. Diante das hipóteses indicadas, é correto afirmar que a comprovação de estado de embriaguez completa tem o condão de excluir a imputabilidade penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "[...]",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d92db4be33e4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 28, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 28, II, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "O agente que se embriagou voluntariamente, tornando-se, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato, é isento de pena."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "[...] Embriaguez",
+    "II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fe6ccf1ad5ef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 28, §§ 1º e 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, §§ 1º e 2º, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "2",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 28, §§ 1º e 2º, CP"
+    }
+   ],
+   "banca": "MPE-PB",
+   "ano": "2011",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Em qualquer caso, a embriaguez acidental afasta a imputabilidade penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 [...]",
+    "§ 1º É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+    "§ 2º - A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1bc80f85b402",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2013",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Pode excluir a imputabilidade penal a embriaguez acidental completa proveniente de caso fortuito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 [...]",
+    "§ 1º É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8be7aa8fcce",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Mévio foi vítima de crime de roubo com restrição de liberdade, tendo sido amarrado. Antes de liberá-lo, Caio, o roubador, fez com que Mévio ingerisse bebida alcoólica à força, a fim de reduzir a sua capacidade de resistência. Contudo, ainda que completamente embriagado e sem capacidade de discernimento sobre o caráter ilícito do fato, após ser liberado e estar a caminho de casa, Mévio resolveu voltar ao local em que Caio se encontrava e o espancou até ocasionar sua morte. Diante dessa situação, é correto afirmar que Mévio não deverá responder por nenhum crime, ante a exclusão da ilicitude."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 […]",
+    "§ 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (exclusão da culpabilidade)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-66f9dcf1c150",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Sabemos que a imputabilidade penal não é excluída pela embriaguez voluntária ou culposa pelo álcool ou substâncias de efeitos análogos. Contudo, a embriaguez pode funcionar como redução ou aumento da pena em certos casos. Nesse cenário, é correto afirmar que é isento de pena o agente que por embriaguez completa proveniente de caso fortuito ou força maior, era, na época da ação ou omissão, incapaz de entender o ato ilícito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28, § 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "Observação: embora a expressão \"inteiramente\" não tenha sido mencionada na assertiva, a mesma foi considerada correta pela banca."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3eb5a4bcf763",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Sargento da Polícia Militar",
+   "instituicao": "PM-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código Penal, julgue o item a seguir.",
+    "É isento de pena o agente que, por embriaguez voluntária ou culposa, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28, § 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35964579e58e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "IADES",
+   "ano": "2021",
+   "cargo": "Soldado - Feminino",
+   "instituicao": "PM-PA",
+   "obs": "",
+   "enunciado": [
+    "Com base no tratamento jurídico-penal, com relação à imputabilidade penal, é correto afirmar que o Código Penal brasileiro prevê, expressamente, em sua parte geral a isenção de pena para o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de se determinar de acordo com esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28, § 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3cff197ab800",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 28, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 1º, CP"
+    }
+   ],
+   "banca": "FADESP",
+   "ano": "2026",
+   "cargo": "Fiscal de Receitas Estaduais",
+   "instituicao": "SEFAZ-PA",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal, é correto afirmar que o agente que, por embriaguez completa decorrente de caso fortuito, era inteiramente incapaz de entender o caráter ilícito do fato é isento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 - Não excluem a imputabilidade penal:",
+    "[...]",
+    "§ 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2cb5c73a331d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 28, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 2º, CP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Reaplicação",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 [...]",
+    "§ 2º - A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e412b5feb37a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 28, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 2º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2012",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "A embriaguez culposa constitui causa de diminuição da pena, se o agente não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 [...]",
+    "§ 2º A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-288141a4e166",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 28, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Sabemos que a imputabilidade penal não é excluída pela embriaguez voluntária ou culposa pelo álcool ou substâncias de efeitos análogos. Contudo, a embriaguez pode funcionar como redução ou aumento da pena em certos casos. Nesse cenário, é correto afirmar que é isento de pena o agente que por embriaguez completa proveniente de caso fortuito ou força maior, era, na época da ação ou omissão, incapaz de entender o ato ilícito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28. [...]",
+    "§ 1º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3599167e9839",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 28, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 28, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa - Agente da Policia Judicial",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando a Parte Geral do Código Penal e a doutrina correlata, julgue o item a seguir.",
+    "É isento de pena o agente que, por embriaguez proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28, § 2º - A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7185cc827e2f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 28, § 2º c/c Art. 61, II, \"l\" c/c Art. 155, § 4º, IV, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "",
+     "texto": "Art. 28, § 2º"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "61",
+     "disp": "II, \"l\"",
+     "sigla": "",
+     "texto": "Art. 61, II, \"l\""
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "155",
+     "disp": "§ 4º, IV",
+     "sigla": "CP",
+     "texto": "Art. 155, § 4º, IV, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "V Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "A Polícia Civil do Estado Alfa descobriu que Lucas e Caio praticaram o crime de furto qualificado em detrimento de João, que suportou prejuízo financeiro de R$ 10.000,00. Durante as investigações, apurou-se que Lucas, ao tempo da ação, por embriaguez proveniente de caso fortuito, não possuía a plena capacidade de entender o caráter ilícito do fato. Por sua vez, concluiu-se que Caio perpetrou o delito em estado de embriaguez preordenada.",
+    "Nesse cenário, considerando as disposições do Código Penal, Caio responderá pelo crime de furto qualificado, com a incidência de uma agravante, em razão da embriaguez preordenada. Por sua vez, Lucas será responsabilizado pela infração penal perpetrada, mas sua pena poderá ser reduzida de um a dois terços."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Furto qualificado",
+    "Art. 155, § 4º - A pena é de reclusão, de 2 (dois) a 8 (oito) anos, e multa, se o crime é cometido:",
+    "[...]",
+    "IV - mediante concurso de duas ou mais pessoas.",
+    "[...]",
+    "Art. 61 - São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime:",
+    "[...]",
+    "II - ter o agente cometido o crime:",
+    "[...]",
+    "l) em estado de embriaguez preordenada.",
+    "[...]",
+    "Art. 28, § 2º - A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da",
+    "ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-05123354a2a6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 29, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "29",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 29, § 1º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Procurador",
+   "instituicao": "ALERR",
+   "obs": "",
+   "enunciado": [
+    "Quanto ao concurso de pessoas, configurada a participação de menor importância na infração, deve o juiz diminuir de dois terços a pena."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.",
+    "§ 1º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "29",
+    "ate": "29"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Geral (Arts. 1º - 120, CP)"
+ ]
+}
