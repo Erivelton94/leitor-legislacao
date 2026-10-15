@@ -1,0 +1,3488 @@
+{
+ "id": "ls-lei-8-072-90-lei-de-crimes-hediondos-631f6b587494",
+ "titulo": "Lei 8.072/90 - Lei de Crimes Hediondos",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-fb171501a886",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 1º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Lei dos Crimes Hediondos, julgue o seguinte item. São considerados hediondos apenas os crimes consumados, excluídos os tentados."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no CP, consumados ou tentados: […]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bca9e11edc89",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 1°, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1°, Lei 8.072/90"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "São considerados crimes hediondos, dentre outros: o estupro, o latrocínio, o homicídio qualificado e o estupro de vulnerável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei n° 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º, incisos I, II, III, IV, V, VII, VIII e IX); (Redação dada pela Lei nº 14.994, de 2024)",
+    "[...]",
+    "II - roubo:",
+    "[...]",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3°);",
+    "[...]",
+    "V - estupro (art. 213, caput e §§ 1° e 2°);",
+    "VI - estupro de vulnerável (art. 217-A, caput e §§ 1°, 2°, 3° e 4°);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-25585859d63e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2003",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-AL",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos dispositivos legais pertinentes à Lei dos Crimes Hediondos, julgue o item abaixo. O homicídio simples, na forma tentada, inclui-se entre os crimes hediondos, se praticado em atividade típica de grupo de extermínio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal , consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73c83bf3a280",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2010",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei dos Crimes Hediondos, julgue os itens a seguir. O crime de homicídio é considerado hediondo quando praticado em atividade típica de grupo de extermínio, ainda que cometido por um só agente, e quando for qualificado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f02c491fe5df",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2012",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "O homicídio simples, tentado ou consumado, é considerado crime hediondo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b340f1b515d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2015",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PI",
+   "obs": "",
+   "enunciado": [
+    "Constitui crime hediondo homicídio em atividade típica de grupo de extermínio praticada por um agente só."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c3caf5b1fd06",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Para que se considere o crime de homicídio hediondo, ele deve ser qualificado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ef28db757615",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "É considerado crime hediondo o homicídio, quando praticado em atividade típica de grupo de extermínio, exceto se cometido por um só agente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-48d7dd7e99e9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado hediondo o crime de homicídio qualificado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-734758a1d1bd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 1º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Lei dos Crimes Hediondos, julgue o seguinte item. O homicídio, previsto no “caput” do art. 121 do Código Penal, se praticado em atividade típica de grupo de extermínio, ainda que cometido por um único agente, é considerado crime hediondo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c6d6eff6f8d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 1º, I, V e VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I, V e VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I, V e VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Conforme o disposto na Lei nº 8.072/1990, são considerados crimes hediondos. Epidemia com resultado morte, homicídio qualificado por motivo torpe e estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I - homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º); (Redação dada pela Lei nº 15.159, de 2025) […]",
+    "V - estupro (art. 213, caput e §§ 1º e 2º); […]",
+    "VII - epidemia com resultado morte (art. 267, § 1º)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ab9302c25b29",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 1º, I e II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I e II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I e II, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições penais e processuais penais estabelecidas na Lei n.º 8.072/1990 (Lei de Crimes Hediondos) e a jurisprudência dos tribunais superiores acerca da matéria, julgue o item a seguir. O rol de crimes hediondos inclui o roubo qualificado por lesão corporal grave, porém não abrange o homicídio simples, salvo se praticado em atividade típica de grupo de extermínio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "I – homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por 1 (um) só agente, e homicídio qualificado (art. 121, § 2º, incisos I, II, III, IV, V, VII, VIII e IX); (Redação dada pela Lei nº 14.994, de 2024)",
+    "[...]",
+    "II - roubo:",
+    "[...]",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2225250f4384",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 1º, I-A, c, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I-A, c",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I-A, c, Lei 8.072/90"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei 8.072/90 (Crimes hediondos), é correto afirmar que é considerado hediondo o seguinte crimes, tipificado no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumado ou tentado: lesão corporal dolosa de natureza gravíssima (art. 129, § 2º) e lesão corporal seguida de morte (art. 129, § 3º), quando praticadas nas dependências de instituição de ensino."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "I-A - lesão corporal dolosa de natureza gravíssima (art. 129,",
+    "§ 2º) e lesão corporal seguida de morte (art. 129, § 3º), quando praticadas: (Redação dada pela Lei nº 15.159, de 2025)",
+    "c) nas dependências de instituição de ensino; (Incluído pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aaf7a00725a3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 1º, I-A, “b”, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I-A, “b”",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I-A, “b”, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Em março de 2026, Lucas, oficial de justiça no âmbito do Tribunal de Justiça do Estado de Santa Catarina, sofreu lesão corporal dolosa, de natureza gravíssima, enquanto exercia regularmente as suas funções. Após trabalho investigativo, a Polícia Civil, com autorização judicial, logrou êxito em prender preventivamente João, responsável pela conduta ilícita. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, é correto afirmar que João não praticou crime hediondo, pois a lesão corporal dolosa gravíssima não tem previsão dentre os delitos de natureza hedionda."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:´",
+    "[...]",
+    "I-A - lesão corporal dolosa de natureza gravíssima (art. 129,",
+    "§ 2º) e lesão corporal seguida de morte (art. 129, § 3º), quando praticadas:",
+    "[...]",
+    "b) contra membro do Poder Judiciário, do Ministério Público, da Defensoria Pública ou da Advocacia Pública, de que tratam os arts. 131 e 132 da Constituição Federal, ou oficial de justiça, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente, inclusive por afinidade, até o terceiro grau, em razão dessa condição; ou (Redação dada pela Lei nº 15.159, de 2025)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-848ab35e2b65",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 1º, I-A, § único, III, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "I-A, § único, III",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, I-A, § único, III, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "José, empresário, em negociação para adquirir uma linda casa localizada no litoral do Estado do Espírito Santo, buscou informações sobre os antecedentes criminais do vendedor Caio, descobrindo que este tem condenações definitivas pela prática dos seguintes delitos: i) comércio ilegal de armas de fogo; ii) lesão corporal gravíssima contra policial militar no exercício da função; e iii) corrupção ativa. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, é correto afirmar que Caio foi condenado, definitivamente, pela prática dos seguintes crimes hediondos: comércio ilegal de armas de fogo e lesão corporal gravíssima contra policial militar no exercício da função, apenas;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "I-A - lesão corporal dolosa de natureza gravíssima (art. 129, § 2º) e lesão corporal seguida de morte (art. 129, § 3º), quando praticadas: (Redação dada pela Lei nº 15.159, de 2025)",
+    "[...]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados:",
+    "[...]",
+    "III - o crime de comércio ilegal de armas de fogo, previsto no art. 17 da Lei nº 10.826, de 22 de dezembro de 2003;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-98e13fb5644a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 1°, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1°, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No que se refere ao crime de roubo, passou a ser considerado hediondo, em qualquer modalidade, pela Lei n° 13.964, de 24 de dezembro de 2019."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei n° 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[...]",
+    "II - roubo:",
+    "a) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2°, inciso V);",
+    "b) circunstanciado pelo emprego de arma de fogo (art. 157, § 2°-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2°-B);",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157,",
+    "§ 3°)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4075670d26a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 1º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2021",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado crime hediondo pela Lei nº 8.072/90 o roubo circunstanciado pela restrição de liberdade da vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "II - roubo:",
+    "a) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2º, inciso V); […]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-233e0ca72b9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art 1º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art 1º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "NÃO é considerado como crime hediondo o crime de roubo circunstanciado pelo emprego de arma de fogo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[...]",
+    "II - roubo: (Redação dada pela Lei nº 13.964, de 2019)",
+    "[...]",
+    "b) circunstanciado pelo emprego de arma de fogo (art. 157, § 2º-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2º-B); (Incluído pela Lei nº 13.964, de 2019)",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58ef2252af21",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 1º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2021",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado crime hediondo pela Lei nº 8.072/90 o roubo circunstanciado pelo emprego de arma de fogo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, todos o tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "II - roubo: […]",
+    "b) circunstanciado pelo emprego de arma de fogo (art. 157, § 2º-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2º-B); […]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-48e95c3db4d8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 1º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2021",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado crime hediondo pela Lei nº 8.072/90 o roubo qualificado pelo resultado morte."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, todos o tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "II - roubo: (Redação dada pela Lei nº 13.964, de 2019) […]",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º); (Incluído pela Lei nº 13.964, de 2019)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-401b9f3d65d9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art 1º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art 1º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2021",
+   "cargo": "Perito Médico Legista",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado crime hediondo pela Lei nº 8.072/90 o roubo qualificado pelo resultado lesão corporal grave."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "II - roubo: (Redação dada pela Lei nº 13.964, de 2019) […]",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de9088996815",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 1º, II, a, IV, § único, V, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II, a, IV, § único, V",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, a, IV, § único, V, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Ao analisar o acervo processual de sua serventia, Felipe, titular da 1ª Vara Criminal da Comarca de Fortaleza/CE, constatou que Celso responde, em Juízo, pela prática do crime de extorsão mediante sequestro. Por sua vez, Lucas é réu em ação penal pelo cometimento do crime de roubo circunstanciado pela restrição da liberdade da vítima. Por derradeiro, Matheus ocupa o polo passivo em persecução penal que apura a infração penal de organização criminosa direcionada à prática de centenas de estelionatos. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, julgue o item a seguir.",
+    "Celso e Lucas respondem, em Juízo, pela prática de crimes hediondos. Contudo, Matheus não incorreu no cometimento de delito hediondo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art.1º - São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "II - roubo:",
+    "a) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2º, inciso V);",
+    "[...]",
+    "IV - extorsão mediante seqüestro e na forma qualificada (art. 159, caput, e §§ lo, 2o e 3o);",
+    "[...]",
+    "Parágrafo único - Consideram-se também hediondos, tentados ou consumados:",
+    "V - o crime de organização criminosa, quando direcionado à prática de crime hediondo ou equiparado."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d4409373a4e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 1º, II, \"a\", Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II, \"a\"",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, \"a\", Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Quanto ao crime de roubo, é correto afirmar que o roubo circunstanciado pela restrição de liberdade da vítima é considerado crime hediondo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º - São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "II - roubo:",
+    "a) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2º, inciso V);",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-99237fe2b9a8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 1º, II, “b”, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II, “b”",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, “b”, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Analista da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "É considerado como crime hediondo, regulado pela Lei nº 8.072/1990: O roubo circunstanciado pelo emprego de arma de fogo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1o São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "II - roubo:",
+    "[...]",
+    "b) circunstanciado pelo emprego de arma de fogo (art. 157, § 2º-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2º-B);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa103a8429e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 1º, II, c, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II, c",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II, c, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "É considerado hediondo o roubo, qualificado pelo resultado lesão corporal grave, qualquer que seja a idade da vítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: [..]",
+    "II - roubo: […]",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-15ee5a71898e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 1º, III e IV, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "III e IV",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, III e IV, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Considera-se hediondo o crime de extorsão na forma simples ou qualificada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[…]",
+    "III - extorsão qualificada pela restrição da liberdade da vítima, ocorrência de lesão corporal ou morte (art. 158, § 3º);",
+    "IV - extorsão mediante sequestro e na forma qualificada (art. 159, caput, e §§ lº, 2º e 3º);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-563fc8e8673c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 1º, II e V, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "II e V",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, II e V, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Caio, delegado de polícia, indiciou Matheus pela prática, em novembro de 2025, dos seguintes crimes: i) lesão corporal qualificada, perpetrada contra o policial civil José durante o exercício das funções, resultando em debilidade permanente de membro; ii) organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas; iii) comércio ilegal de arma de fogo. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, é correto afirmar que Matheus incorreu na prática dos seguintes crimes hediondos: organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas e comércio ilegal de arma de fogo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: (Redação dada pela Lei nº 8.930, de 1994) (Vide Lei nº 7.210, de 1984)",
+    "[...]",
+    "II - roubo: (Redação dada pela Lei nº 13.964, de 2019)",
+    "a) circunstanciado pela restrição de liberdade da vítima (art. 157, § 2º, inciso V); (Incluído pela Lei nº 13.964, de 2019)",
+    "b) circunstanciado pelo emprego de arma de fogo (art. 157, § 2º-A, inciso I) ou pelo emprego de arma de fogo de uso proibido ou restrito (art. 157, § 2º-B); (Incluído pela Lei nº 13.964, de 2019)",
+    "c) qualificado pelo resultado lesão corporal grave ou morte (art. 157, § 3º); (Incluído pela Lei nº 13.964, de 2019)",
+    "[...]",
+    "V - o crime de organização criminosa, quando direcionado à prática de crime hediondo ou equiparado. (Incluído pela Lei nº 13.964, de 2019)",
+    "[...]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados: (Redação dada pela Lei nº 13.964, de 2019)",
+    "[...]",
+    "III - o crime de comércio ilegal de armas de fogo, previsto no art. 17 da Lei nº 10.826, de 22 de dezembro de 2003; (Incluído pela Lei nº 13.964, de 2019)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ffb7e7eff309",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 1º, IV, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IV",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IV, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A Lei dos crimes hediondos (Lei n° 8.072/90), embora não forneça o conceito de crime hediondo, apresenta um rol dos crimes que se enquadram em seus dispositivos, entre os quais se pode destacar extorsão mediante sequestro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "IV - extorsão mediante seqüestro e na forma qualificada (art. o o o 159, caput, e §§ l , 2 e 3 );"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7f6dff4f4dc8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 1º, V, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "V",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, V, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Analista da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "É considerado como crime hediondo, regulado pela Lei nº 8.072/1990: O estupro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "V - estupro (art. 213, caput e §§ 1o e 2o);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-99661b15f5d8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 1º, V e VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "V e VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, V e VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "IAPEN-AP",
+   "obs": "",
+   "enunciado": [
+    "São considerados crimes hediondos estupro e epidemia com resultado morte."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no , consumados ou tentados:",
+    "V - estupro (art. 213, caput e §§ 1 e 2); […]",
+    "VII - epidemia com resultado morte (art. 267, § 1)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-689a029db846",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 1º, VI, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VI",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VI, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Analista da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "É considerado como crime hediondo, regulado pela Lei nº 8.072/1990: O estupro de vulnerável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "VI - estupro de vulnerável (art. 217-A, caput e §§ 1o, 2o, 3o e 4o);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-75af7f256dad",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 1º, VI, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VI",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VI, Lei 8.072/90"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2016",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei nº 8.072/1990, é considerado crime hediondo estupro de vulnerável tentado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[…]",
+    "VI - estupro de vulnerável (art. 217-A, caput e §§ 1o, 2o, 3o e 4o);"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a8bbb752808f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 1º, VI, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VI",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VI, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "Conforme a legislação pertinente, considera-se crime hediondo o estupro de vulnerável tentado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […] o o o",
+    "VI - estupro de vulnerável (art. 217-A, caput e §§ 1 , 2 , 3 e o 4 );"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-54db993ddd54",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 1º, VI e VII-B, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VI e VII-B",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VI e VII-B, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2013",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Segundo a Lei n.º 8.072/1990, são considerados crimes hediondos a falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais e o estupro de vulnerável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […] o o o",
+    "VI - estupro de vulnerável (art. 217-A, caput e §§ 1 , 2 , 3 e o 4 ); […]",
+    "VII-B - falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais (art. o o o 273, caput e § 1 , § 1 -A e § 1 -B, com a redação dada o pela Lei n 9.677, de 2 de julho de 1998)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f2e15deaca2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 1º, VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 8.072/1990, são considerados hediondos, todos tipificados no Código Penal, os seguintes crimes: Epidemia com resultado morte (Art. 267, § 1º)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "VII - epidemia com resultado morte (art. 267, § 1o)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-efc2cf07a5fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 1º, VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Não é considerado hediondo o crime de epidemia com resultado morte."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no , consumados ou tentados: […]",
+    "VII - epidemia com resultado morte;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c0e83d623979",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 1º, VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNIVERSA",
+   "ano": "2015",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "O crime de epidemia com resultado morte não é considerado hediondo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "VII - epidemia com resultado morte (art. 267, § 1º).",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-417bc0859add",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 1º, VII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VII, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-PI",
+   "obs": "Redação Adaptada",
+   "enunciado": [
+    "Nos termos da Lei de Crimes Hediondos, o crime de epidemia com resultado morte não é considerado hediondo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, todos o tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[...] o",
+    "VII - epidemia com resultado morte (art. 267, § 1 ).",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5eab205bdff6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 1º, VIII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VIII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VIII, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "Segundo o que dispõe a legislação nacional acerca dos crimes hediondos (Lei n° 8.072/1990),o crime de favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável é hediondo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "VIII - favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d774eecc22c4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 1º, VIII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VIII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VIII, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "É considerado hediondo o crime de favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no , consumados ou tentados:",
+    "[...]",
+    "VIII - favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa3116daab77",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 1º, VIII, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "VIII",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, VIII, Lei 8.072/90"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2021",
+   "cargo": "Perito Papiloscopista",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "São considerados hediondos, de acordo com a Lei 8.072/90 e suas alterações: favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "VIII - favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7044891d5951",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos crimes contra o patrimônio, com base nas disposições legais, na Lei de Crimes Hediondos (Lei nº 8.072/1990) e na jurisprudência atualizada do Superior Tribunal de Justiça, julgue o item a seguir. O furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum é crime hediondo, na forma da Lei nº 8.072/1990."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[…]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0abb895135d8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "NÃO é considerado como crime hediondo o crime de furto qualificado pelo emprego de explosivo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[...]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A). (Incluído pela Lei nº 13.964, de 2019)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dd6a1ee28c28",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Considera-se hediondo o crime de furto qualificado pelo emprego de explosivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[…]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-11ee85415193",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público - Área Processual",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Catarina, Promotora de Justiça com atuação na Vara de Execuções Penais do Estado do Rio de Janeiro, foi instada a se manifestar sobre a progressão de regime de João, condenado de altíssima periculosidade, atualmente em cumprimento de pena pela prática de determinado crime hediondo. Em razão da inobservância dos requisitos previstos em lei, a representante do Parquet foi contrária ao pedido formulado pela defesa técnica. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, é correto afirmar que João está cumprindo pena pela prática do crime de furto qualificado pelo emprego de explosivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 - São considerados hediondos os seguintes crimes, o todos tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: […]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A). […]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aee35671577a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Analista da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "É considerado como crime hediondo, regulado pela Lei nº 8.072/1990: Furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 1 São considerados hediondos os seguintes crimes, todos o tipificados no Decreto-Lei n 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A)."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b52638340809",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 1º, IX, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "IX",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, IX, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-PB",
+   "obs": "",
+   "enunciado": [
+    "É considerado um crime hediondo: furto qualificado pelo emprego de explosivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: (Redação dada pela Lei nº 8.930, de 1994) (Vide Lei nº 7.210, de 1984)",
+    "[...]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º- A). (Incluído pela Lei nº 13.964, de 2019)",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0abe9ed78db1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 1º, § único, Lei 8.072/90 c/c Súm. 668, STJ",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, § único, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "NÃO é considerado como crime hediondo o crime de porte ilegal de arma de fogo de uso proibido."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º [...]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados:",
+    "[...]",
+    "II - o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei nº 10.826, de 22 de dezembro de 2003;",
+    "[...]",
+    "Súmula 668, STJ - Não é hediondo o delito de porte ou posse de arma de fogo de uso permitido, ainda que com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-932675687133",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 1º, § único, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "§ único, II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, § único, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Técnico Administrativo da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei nº 8.072/1990, é considerado crime hediondo, tipificado no Código Penal, consumado ou tentado: Posse ou porte ilegal de arma de fogo de uso proibido."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados:",
+    "[...]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados:",
+    "[...]",
+    "II - o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei nº 10.826, de 22 de dezembro de 2003;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-23ec3ecf0203",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 1º, § único, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "§ único, II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, § único, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Auditor de Tributos Municipais",
+   "instituicao": "PREFEITURA DE ARACAJU-SE",
+   "obs": "",
+   "enunciado": [
+    "A lei n.º 8.072/1990 considera crime hediondo a posse ou o porte ilegal de arma de fogo de uso proibido."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados:",
+    "[…]",
+    "II - o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei nº 10.826, de 22 de dezembro de 2003;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c6495175a9b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 1º, § único, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "§ único, II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 1º, § único, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Lei dos Crimes Hediondos, julgue o seguinte item. O crime de posse ou porte ilegal de arma de fogo de uso permitido e de uso proibido é equiparado a hediondo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1° […]",
+    "Parágrafo único. Consideram-se também hediondos, tentados ou consumados: […]",
+    "II - o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei n°10.826."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4dafbefa17fc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Arts. 1º e 2º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Arts. 1º e 2º, Lei 8.072/90"
+    },
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Arts. 1º e 2º, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PF",
+   "obs": "",
+   "enunciado": [
+    "Em cada item que se segue, é apresentada uma situação hipotética seguida de uma assertiva a ser julgada com relação a crime de tortura, crime hediondo, crime previdenciário e crime contra o idoso. Paula, proprietária de uma casa de prostituição, induziu e passou a explorar sexualmente duas garotas de quinze anos de idade. Nessa situação, o crime praticado por Paula é hediondo e, por isso, insuscetível de anistia, graça e indulto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código",
+    "Penal, consumados ou tentados:",
+    "[…]",
+    "VIII - favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável (art. 218-B, caput, e §§ 1º e 2º).",
+    "[…]",
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "II - fiança"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df3f81470217",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 2º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Relativamente à Lei nº 8.072/1990, que dispõe sobre os crimes hediondos, e a Lei nº 7.210/1984, que institui a Lei de Execução Penal, julque o item a seguir. Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de fiança e liberdade provisória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "II - fiança."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7cae3d35d3de",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 2º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições penais e processuais penais estabelecidas na Lei n.º 8.072/1990 (Lei de Crimes Hediondos) e a jurisprudência dos tribunais superiores acerca da matéria, julgue o item a seguir. Os crimes hediondos são insuscetíveis de anistia, graça, indulto, liberdade provisória e fiança."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "II - fiança."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a8ce3c63744d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 2º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, Lei 8.072/90"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Lei dos Crimes Hediondos, julgue o seguinte item. Os crimes considerados hediondos são insuscetíveis de graça, anistia, fiança e liberdade provisória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "II - fiança."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8a35aab4e56",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "No que se refere a ação penal e extinção da punibilidade, julgue os itens seguintes. Não é possível a concessão de anistia, graça ou indulto àqueles que tenham praticado crimes hediondos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9ba138cf1ab2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-AM",
+   "obs": "",
+   "enunciado": [
+    "À luz do que dispõe o direito brasileiro sobre os crimes hediondos, existe vedação legal expressa à concessão dos institutos da graça e do indulto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7177ce858678",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei dos Crimes Hediondos (Lei nº 8.072/1990), julgue o item a seguir.",
+    "Os crimes hediondos são insuscetíveis de anistia, graça e indulto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-03f2abad0945",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Os crimes hediondos são insuscetíveis de anistia, graça e fiança, porém são suscetíveis de indulto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "II - fiança."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-275da8c49d5f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de anistia, graça e indulto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "I - anistia, graça e indulto;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2854f0905ec3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 2º, I, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "I",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, I, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PE",
+   "obs": "",
+   "enunciado": [
+    "O delito de furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum é insuscetível de indulto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: (Redação dada pela Lei nº 8.930, de 1994) (Vide Lei nº 7.210, de 1984)",
+    "[...]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A).",
+    "[...]",
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de: (Vide Súmula Vinculante)",
+    "I - anistia, graça e indulto;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f07d689693b9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 2º, II, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "II",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, II, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Agente de Polícia da Carreira de Polícia Civil do Distrito Federal",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "No que se refere aos crimes previstos na legislação penal, julgue o item a seguir. Os crimes hediondos são inafiançáveis e imprescritíveis."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:",
+    "[...]",
+    "II - fiança.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a4bc3f4267e5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 2º, § 4º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, § 4º, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei dos Crimes Hediondos (Lei nº 8.072/1990), julgue o item a seguir.",
+    "A prisão temporária nos crimes hediondos terá o prazo de cinco dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 4º - A prisão temporária, sobre a qual dispõe a Lei no 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-03b83e725684",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 2º, § 4º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, § 4º, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições penais e processuais penais estabelecidas na Lei n.º 8.072/1990 (Lei de Crimes Hediondos) e a jurisprudência dos tribunais superiores acerca da matéria, julgue o item a seguir. O prazo de prisão temporária para os crimes hediondos e equiparados é de 30 dias, não sendo admitida prorrogação, porque ele já é ampliado em relação ao regramento da Lei n.º 7.960/1989."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 4º A prisão temporária, sobre a qual dispõe a Lei nº 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-05d3451fb7e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 2º, § 4º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, § 4º, Lei 8.072/90"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A prisão temporária nos crimes hediondos, possui o prazo de 30 (trinta dias), prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 4º A prisão temporária, sobre a qual dispõe a Lei no 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d461189a8f40",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 2º, § 4º Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "",
+     "sigla": "§ 4º Lei 8.072/90",
+     "texto": "Art. 2º, § 4º Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Relativamente à Lei nº 8.072/1990, que dispõe sobre os crimes hediondos, e a Lei nº 7.210/1984, que institui a Lei de Execução Penal, julque o item a seguir. A prisão temporária, nos crimes previstos como Hediondos, terá o prazo de 30 dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º A prisão temporária, sobre a qual dispõe a Lei nº 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5db2b7ef6ddc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 2º, § 4º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, § 4º, Lei 8.072/90"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "O delegado de polícia indiciou e representou pela prisão temporária de Dorival Silva pela prática do crime constante no art. 155, § 4º-A do Código Penal (furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum), e por considerar sua custódia imprescindível para as investigações. O Juiz aceitou os argumentos da autoridade policial e expediu mandado de prisão pelo prazo de 30 (trinta) dias. Decorrido o prazo contido no mandado de prisão, o delegado responsável pela custódia, independentemente de nova ordem da autoridade judicial, manteve Dorival preso na carceragem, em decorrência da gravidade do crime, e a fim de assegurar possível fuga do indiciado. Com base estritamente nos fatos narrados e nos termos das Leis nº 7.960/89 e nº 8.072/90, avalie a afirmativa a seguir: A prisão é ilegal, pois o prazo máximo da prisão temporária para o crime narrado é de 5 (cinco) dias, prorrogável por mais 5 (cinco) dias, em caso de extrema e comprovada necessidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º São considerados hediondos os seguintes crimes, todos tipificados no Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, consumados ou tentados: (Redação dada pela Lei nº 8.930, de 1994) (Vide Lei nº 7.210, de 1984)",
+    "[...]",
+    "IX - furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (art. 155, § 4º-A).",
+    "[...]",
+    "Art. 2º, § 4º A prisão temporária, sobre a qual dispõe a Lei no 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade. (Incluído pela Lei nº 11.464, de 2007)"
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a39f6c349634",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 2º, § 4º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 2º, § 4º, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Em se tratando de crimes hediondos ou equiparados a hediondos, com base no disposto na Lei dos Crimes Hediondos, o prazo máximo da prisão temporária, desconsiderada a possibilidade de prorrogação, será de 30 dias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º A prisão temporária, sobre a qual dispõe a Lei no 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dbe72228f8ee",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 3º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 3º, Lei 8.072/90"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Relativamente à Lei nº 8.072/1990, que dispõe sobre os crimes hediondos, e a Lei nº 7.210/1984, que institui a Lei de Execução Penal, julque o item a seguir. A União manterá estabelecimentos penais, de segurança máxima, destinados ao cumprimento de penas impostas a condenados de alta periculosidade, cuja permanência em presídios estaduais ponha em risco a ordem ou incolumidade pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A União manterá estabelecimentos penais, de segurança máxima, destinados ao cumprimento de penas impostas a condenados de alta periculosidade, cuja permanência em presídios estaduais ponha em risco a ordem ou incolumidade pública."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5ea608727add",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 3º, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 3º, Lei 8.072/90"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei dos Crimes Hediondos (Lei nº 8.072/1990), julgue o item a seguir.",
+    "A União manterá estabelecimentos penais, de segurança máxima, destinados ao cumprimento de penas impostas a condenados de alta periculosidade, cuja permanência em presídios estaduais ponha em risco a ordem ou incolumidade pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - A União manterá estabelecimentos penais, de segurança máxima, destinados ao cumprimento de penas impostas a condenados de alta periculosidade, cuja permanência em presídios estaduais ponha em risco a ordem ou incolumidade pública."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0500607dcd48",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 8º, § único, Lei 8.072/90",
+   "refs": [
+    {
+     "lei": "hediondos",
+     "art": "8",
+     "disp": "§ único",
+     "sigla": "Lei 8.072/90",
+     "texto": "Art. 8º, § único, Lei 8.072/90"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições penais e processuais penais estabelecidas na Lei n.º 8.072/1990 (Lei de Crimes Hediondos) e a jurisprudência dos tribunais superiores acerca da matéria, julgue o item a seguir. Se associação criminosa destinada à prática de crimes hediondos for desmantelada em razão de informações fornecidas por participante ou associado do grupo criminoso, este receberá perdão judicial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 8º […]",
+    "Parágrafo único. O participante e o associado que denunciar à autoridade o bando ou quadrilha, possibilitando seu desmantelamento, terá a pena reduzida de um a dois terços."
+   ],
+   "vinculo": {
+    "lei": "hediondos",
+    "de": "8",
+    "ate": "8"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "leis Especiais",
+  "Lei Dos Crimes Hediondos"
+ ]
+}
