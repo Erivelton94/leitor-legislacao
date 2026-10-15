@@ -3,7 +3,7 @@
  "titulo": "2 Inquérito Policial (Arts. 4º - 23, CPP)",
  "plataforma": "leiseca",
  "materia": "Lei Seca",
- "versao": "2026-10-12",
+ "versao": "2026-10-15",
  "assuntos": [],
  "observacao": "Lista de lei seca importada no app.",
  "questoes": [
@@ -10737,6 +10737,7 @@
   }
  ],
  "caminho": [
-  "Direito Processual Penal"
+  "Direito Processual Penal",
+  "2 Inquérito Policial (Arts. 4º - 23, CPP)"
  ]
 }
