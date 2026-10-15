@@ -1,0 +1,2650 @@
+{
+ "id": "ls-1-organizacao-politico-administrativa-ar-d90014d25c41",
+ "titulo": "1 Organização Político-Administrativa (Arts. 18 e 19, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-826967f3817d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 18, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 18, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal, os Territórios e os Municípios, todos autônomos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.",
+    "[...]",
+    "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-763049aff386",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 18, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 18, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "No Brasil, o pacto federativo está fundamentado na distribuição das competências político-administrativas previstas na Constituição Federal de 1988.",
+    "De acordo com a Constituição Federal, são considerados entes da Federação apenas a União e os Estados-Membros, sendo os Municípios e o Distrito Federal subordinados à União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 - A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3d9bebf0c6e1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 18, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 18, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Diplomata - Instituto Rio Branco",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "A organização político-administrativa da República Federativa do Brasil compreende a União, os estados, o Distrito Federal, os municípios e os territórios, todos entes federativos autônomos dotados de capacidade de autogoverno e autoadministração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Comnetario:",
+    "Art. 18 A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.",
+    "* Territórios\" NÃO CONSTA no caput do artigo 18, CF!"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-90e4187c405d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 18, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 18, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PGE-RN",
+   "obs": "Texto adaptado",
+   "enunciado": [
+    "Com base na Constituição do Estado do Rio Grande do Norte e na Constituição Federal, é correto afirmar que na organização político-administrativa do Rio Grande do Norte, seus municípios subordinam-se ao estado, que, por sua vez, se subordina à União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b9a5388ec2ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 18, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2008",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE NATAL-RN",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a CF, o DF é a capital federal do Brasil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 1º Brasília é a Capital Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-877a1164e41e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 18, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "A capital federal do Brasil é o Distrito Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 1º Brasília é a Capital Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a74ea117c643",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Levando em consideração as normas estabelecidas no Título III, sobre a organização político-administrativa do Estado, é correto afirmar que a criação de Territórios Federais, sua transformação em Estado ou sua reintegração ao Estado de origem serão reguladas por lei ordinária de iniciativa privativa do Presidente da República."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei COMPLEMENTAR."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b9683788988e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "COPS UEL",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE LONDRINA-PR",
+   "obs": "",
+   "enunciado": [
+    "A Constituição estabelece a organização do Estado brasileiro. Sobre a organização do Estado brasileiro, julgue o item. Os territórios federais integram a União e sua criação será regulamentada por lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.",
+    "[...]",
+    "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eec7d270c106",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "TRT - 2ª REGIÃO",
+   "ano": "2013",
+   "cargo": "Juiz do Trabalho",
+   "instituicao": "TRT - 2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Os Territórios Federais integram a União e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas por lei ordinária"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. [...]",
+    "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f4b4f9593bda",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Os Territórios Federais integram a União e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei ordinária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4b20cfb028ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "XXXV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Um agente público federal, em entrevista a jornal de grande circulação, expressou sua insatisfação com o baixo índice de desenvolvimento econômico e social de aproximadamente 25 por cento do amplo território ocupado pelo Estado Alfa, mais precisamente da parte sul do Estado. Por entender que a autoridade estadual não possui os recursos necessários para implementar políticas que desenvolvam essa região, afirma que faz parte da agenda do governo federal transformar a referida área em território federal. O Governador de Alfa, preocupado com o teor do pronunciamento, solicita que os procuradores do Estado informem se tal medida é possível, segundos os parâmetros estabelecidos na Constituição Federal de 1988. O corpo jurídico, então, responde que embora não exista território federal na atual configuração da República Federativa do Brasil, a Constituição Federal de 1988 prevê, expressamente, a possibilidade de sua criação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e631ce630694",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "É possível a criação de territórios, mediante autorização do Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bc8c69939fc0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 18, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 2º, CF"
+    }
+   ],
+   "banca": "ADM&TEC",
+   "ano": "2024",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE PALMEIRA DOS ÍNDIOS-AL",
+   "obs": "",
+   "enunciado": [
+    "Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 2º Os Territórios Federais integram a União, e sua criação, transformação em Estado ou reintegração ao Estado de origem serão reguladas em lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-397dd6dcc81c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2015",
+   "cargo": "XVIII Exame da OAB - Redação Adaptada",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "A parte da população do Estado V situada ao sul do seu território, insatisfeita com a pouca atenção que vem recebendo dos últimos governos, organiza-se e dá início a uma campanha para promover a criação de um novo Estadomembro da República Federativa do Brasil - o Estado N, que passaria a ocupar o território situado na parte sul do Estado V. O tema desperta muita discussão em todo o Estado, sendo que alguns argumentos favoráveis e outros contrários ao desmembramento começam a ganhar publicidade na mídia. Frente ao exposto, julgue o item a seguir. Além de aprovação pela população interessada, o desmembramento também pressupõe a edição de lei complementar pelo Congresso Nacional com esse objeto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-11e42f86e9c7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Levando em consideração as normas estabelecidas no Título III, sobre a organização político-administrativa do Estado, é correto afirmar que a subdivisão de Estados para se anexarem a outros ou para formarem novos Estados depende de aprovação da população diretamente interessada, mediante referendo, e do Congresso Nacional, por meio de lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c6629ad7310a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar- se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a30bb8cce80",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2011",
+   "cargo": "V Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Os Estados são autônomos e compõem a Federação com a União, os Municípios e o Distrito Federal. À luz das normas constitucionais, quanto aos Estados, é correto afirmar que podem incorporar-se entre si mediante aprovação em referendo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-887e3cfc35ac",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2013",
+   "cargo": "Assistente Técnico Judiciário",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar- se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7c9b0eacb49b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Cargo de Nível Superior",
+   "instituicao": "DEPEN",
+   "obs": "",
+   "enunciado": [
+    "Os estados podem incorporar-se entre si, subdividir-se ou desmembrar- se para se anexarem a outros, ou formarem novos estados ou territórios federais, mediante aprovação da população diretamente interessada, por meio de plebiscito, ficando dispensada a atuação do Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f60e5740d83",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar- se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação das Assembleias Legislativas dos Estados diretamente interessados e do Congresso Nacional, por lei ordinária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7aaa03b22636",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor do Estado",
+   "instituicao": "CAGE-RS",
+   "obs": "",
+   "enunciado": [
+    "Determinadas forças políticas do Estado Alfa almejavam que a região sudeste do seu território fosse desmembrada para formar um território federal, o que contava com considerável adesão de parte da população de Alfa e era duramente criticada por outra parte.",
+    "Ao consultarem um especialista em relação à conformidade constitucional desse objetivo, foi-lhes corretamente esclarecido que apesar de os territórios não integrarem a Federação, não há óbice constitucional à realização do objetivo almejado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 3º - Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1a6ac419073",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista de Gestão - Advogado",
+   "instituicao": "AGSUS",
+   "obs": "",
+   "enunciado": [
+    "Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou territórios federais, mediante aprovação da população diretamente interessada, através de referendo, e do Congresso Nacional, por lei ordinária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 3º - Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-87999a87e428",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 18, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 3º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Acerca do procedimento para incorporação, subdivisão ou desmembramento dos Estados, julgue o seguinte item Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 […]",
+    "§ 3º Os Estados podem incorporar-se entre si, subdividir-se ou desmembrar-se para se anexarem a outros, ou formarem novos Estados ou Territórios Federais, mediante aprovação da população diretamente interessada, através de plebiscito, e do Congresso Nacional, por lei complementar."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3286a6927db8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por Lei Estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-334fe2d53bfb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2014",
+   "cargo": "XIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "José é cidadão do município W, onde está localizado o distrito de B. Após consultas informais, José verifica o desejo da população distrital de obter a emancipação do distrito em relação ao município de origem. De acordo com as normas constitucionais federais, dentre outros requisitos para legitimar a criação de um novo Município, são indispensáveis: lei municipal e referendo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-108c14484e19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "A criação, a incorporação, a fusão e o desmembramento de Municípios far-se-ão por lei federal, dentro do período determinado por Lei Ordinária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18 [...]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c649c7e39c9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Estadual de Controle Externo",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização político-administrativa da República Federativa do Brasil, julgue o item a seguir.",
+    "O desmembramento de municípios, por meio de lei estadual, dependerá de consulta prévia, mediante plebiscito, às populações dos municípios envolvidos, após divulgação dos estudos de viabilidade municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d656ef490106",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Analista Legislativo - Advogado - Câmara Municipal de São José dos Campos",
+   "instituicao": "SP",
+   "obs": "",
+   "enunciado": [
+    "A criação, a incorporação, a fusão e o desmembramento de Municípios far-se-ão por lei estadual, dentro do período determinado por lei complementar federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. [...]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-61c2f10099ac",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Especialista em Recursos Minerais",
+   "instituicao": "ANM",
+   "obs": "",
+   "enunciado": [
+    "A respeito da organização do Estado brasileiro e da ordem econômica e financeira conforme a Constituição Federal de 1988, julgue o item a seguir.",
+    "A criação, a incorporação, a fusão e o desmembramento de municípios serão estabelecidos por lei estadual, dentro do período determinado por lei complementar federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos municípios envolvidos, após divulgação dos estudos de viabilidade municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ce3339a6bcb0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Auditor Fiscal",
+   "instituicao": "SEFAZ-PE",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Organização político-administrativa da República Federativa do Brasil, na esteira da Constituição Federal, a criação, a incorporação, a fusão e o desmembramento de Municípios far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e6fb9b58aa25",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Médico Legista",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Lideranças políticas dos Municípios Alfa e Beta, situados no Estado Sigma, iniciaram um debate público no qual sustentavam que o primeiro desses municípios deveria ser incorporado ao segundo. Em razão da plena aceitação da proposta no ambiente sociopolítico, analisaram a Constituição da República de 1988 e constataram que, sem prejuízo de outras exigências previstas na ordem jurídica, a referida incorporação pressupõe a realização de consulta prévia às populações dos municípios envolvidos, no período fixado em lei complementar federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ef1fb6f923a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal, é correto afirmar que a criação de municípios, entre outros requisitos, depende de estudo de viabilidade municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-688a78b18028",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2008",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE NATAL-RN",
+   "obs": "",
+   "enunciado": [
+    "A criação, a incorporação, a fusão e o desmembramento de município devem ser feitos por lei estadual, observados os requisitos previstos na CF."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5297d637a2f4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PE",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a disciplina da Organização do Estado na Constituição Federal, é correto afirmar que a criação, a incorporação, a fusão e o desmembramento de Municípios far- se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição. […]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b15d816da907",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista de Gestão - Advogado",
+   "instituicao": "AGSUS",
+   "obs": "",
+   "enunciado": [
+    "A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por lei ordinária federal, e dependerão de consulta prévia, mediante referendo, às populações dos Municípios envolvidos, após divulgação dos estudos de viabilidade municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f55f8190b713",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a disciplina constitucional atinente à organização político-administrativa da República brasileira, a incorporação e o desmembramento de Municípios serão feitos por lei estadual, dentro do período determinado por lei complementar federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18, § 4º - A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff789295198a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "COPS UEL",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE LONDRINA-PR",
+   "obs": "",
+   "enunciado": [
+    "A Constituição estabelece a organização do Estado brasileiro. Sobre a organização do Estado brasileiro, julgue o item. A criação de novos municípios será feita por lei estadual, dentro do período determinado por lei complementar federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.",
+    "[...]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dd27b781f8b5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-AL",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o que estabelece a Constituição do Estado de Alagoas sobre a organização político-administrativa a criação, a incorporação e a fusão de Municípios far-se-ão por lei federal, obedecidos os requisitos estabelecidos em lei complementar municipal e dependerão de consulta prévia, mediante referendo, às populações interessadas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. […]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei. (Redação dada pela Emenda Constitucional nº 15, de 1996) Vide art. 96 - ADCT (Vide Lei Complementar nº 230, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7dea6a7b0de",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PGE-RN",
+   "obs": "Texto adaptado",
+   "enunciado": [
+    "Com base na Constituição do Estado do Rio Grande do Norte e na Constituição Federal, é correto afirmar que a fusão de municípios ocorrerá por decreto do governador e dependerá de consulta prévia, mediante referendo, às populações dos municípios envolvidos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. […]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e7aa9a1fb5d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 18, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "18",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 18, § 4º, CF"
+    }
+   ],
+   "banca": "CEPERJ",
+   "ano": "2022",
+   "cargo": "Consultor Legislativo",
+   "instituicao": "ALEMA",
+   "obs": "",
+   "enunciado": [
+    "Em análise na Comissão de Constituição, Justiça e Cidadania da Assembleia Legislativa do Estado do Maranhão está a propositura que pretende desmembrar 3 (três) bairros do município A e anexa-los ao território do município X. Com base na Constituição da República e na Constituição Estadual do Maranhão, é obrigatório, para o desmembramento, a realização do plebiscito destinado a consultar as populações dos municípios X e A, medindo os interessados no desmembramento dos bairros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.",
+    "[...]",
+    "§ 4º A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei. (Redação dada pela Emenda Constitucional nº 15, de 1996) Vide art. 96 - ADCT"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "18",
+    "ate": "18"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f6becd638155",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 19, CF e ADI 7.458/PB - STF",
+   "refs": [
+    {
+     "lei": null,
+     "art": "19",
+     "disp": "CF e ADI 7.458/PB - STF",
+     "sigla": "",
+     "texto": "Art. 19, CF e ADI 7.458/PB - STF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-GO",
+   "obs": "",
+   "enunciado": [
+    "Lei Y do Estado Beta, em razão da alta evasão populacional daquela territorialidade para outros estados do país, estabeleceu que é assegurada aos candidatos que nasceram e residem no referido Estado a bonificação de 10% (dez por cento) na nota obtida nos concursos públicos, na área de segurança pública. Diante do exposto, é correto afirmar que a referida norma é inconstitucional, pois o fator discriminatório é irrazoável e não se qualifica como critério idôneo apto a embasar tratamento mais favorável aos candidatos especificados na legislação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19 É vedado à União, aos Estados, ao Distrito Federal e aos Municípios: […]",
+    "III - criar distinções entre brasileiros ou preferências entre si. É INCONSTITUCIONAL lei estadual que concede, em favor de candidatos naturais residentes em seu âmbito territorial, bônus de 10% na nota obtida nos concursos públicos da área de segurança pública. Essa previsão configura tratamento diferenciado desproporcional, sem amparo em justificativa razoável.",
+    "STF. Plenário. ADI 7.458/PB, Rel. Min. Gilmar Mendes, julgado em 11/12/2023 (Info 1120)."
+   ],
+   "vinculo": null,
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8ff3cc6e6bb0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 19, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 19, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "III Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "O Art. 19 da CRFB/88 qualifica o Estado Brasileiro como Estado Laico e não há na Constituição Federal qualquer artigo que faça menção à fé e às religiões."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 5º, VI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias;",
+    "[...]",
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;",
+    "II - recusar fé aos documentos públicos;",
+    "III - criar distinções entre brasileiros ou preferências entre si. Complementando:",
+    "Art. 210, § 1º O ensino religioso, de matrícula facultativa, constituirá disciplina dos horários normais das escolas públicas de ensino fundamental."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1d03358b3180",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "MPE-MS",
+   "ano": "2018",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "É vedado ao Poder Público estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou qualquer colaboração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19 É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-89e4367b6015",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "CETAP",
+   "ano": "2026",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA DE VISEU-PA",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição da República Federativa do Brasil, é vedado aos Municípios estabelecer cultos religiosos ou igrejas;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-16be6874f313",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RN",
+   "obs": "",
+   "enunciado": [
+    "É vedado à União, aos estados, ao DF e aos municípios estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-76f826e50506",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-AL",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização do Estado brasileiro e das relações entre os entes federativos, julgue o item a seguir: Em regra, é vedado aos entes federativos subvencionar cultos religiosos ou manter relações de dependência ou de aliança com representantes de igrejas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b3f8fe3e646f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista em Geociências - Direito",
+   "instituicao": "CPRM",
+   "obs": "",
+   "enunciado": [
+    "A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos da Constituição da República.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "É vedado à União, aos Estados, ao Distrito Federal e aos Municípios estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19 - É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fe2f5f3a84b5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 19, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 19, I, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2025",
+   "cargo": "Auditor Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE MARIANA-MG",
+   "obs": "",
+   "enunciado": [
+    "Tramitam perante a Câmara Municipal de Mariana quatro projetos de lei versando sobre temas diversos. O setor de Auditoria foi instado a emitir parecer sobre tais projetos, identificando possíveis empecilhos jurídicos no prosseguimento das propostas. Diante disso, NÃO está de acordo com o previsto na Constituição da República de 1988: A previsão, em lei, de vedação a quaisquer dos Poderes do município de estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "I - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6df0147d0893",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 19, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 19, II, CF"
+    }
+   ],
+   "banca": "COPS UEL",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo",
+   "instituicao": "CÂMARA MUNICIPAL DE LONDRINA-PR",
+   "obs": "",
+   "enunciado": [
+    "A Constituição estabelece a organização do Estado brasileiro. Sobre a organização do Estado brasileiro, julgue o item. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios recusar fé aos documentos públicos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "[...]",
+    "II - recusar fé aos documentos públicos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-240fdcba24f9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 19, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 19, II, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "É vedado à União, aos Estados, ao Distrito Federal e aos Municípios recusar fé aos documentos públicos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "[...]",
+    "II - recusar fé aos documentos públicos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0542b490c5c3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 19, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 19, II, CF"
+    }
+   ],
+   "banca": "CETAP",
+   "ano": "2026",
+   "cargo": "Advogado",
+   "instituicao": "PREFEITURA DE VISEU-PA",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição da República Federativa do Brasil, é vedado aos Municípios recusar fé aos documentos públicos;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "[...]",
+    "II - recusar fé aos documentos públicos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-831e69ad9f88",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 19, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 19, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Técnico Judiciário - Área Judiciária",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "A Lei nº XX, do Estado Beta, com o objetivo de uniformizar procedimentos, dispôs que os documentos públicos produzidos por outros entes federativos deveriam ser objeto de ratificação perante as repartições públicas competentes de Beta. Com isso, ainda de acordo com a lei, esses documentos passariam a ter uma presunção de veracidade. A Lei nº XX é constitucional, pois os documentos públicos somente têm fé perante os órgãos do ente federativo que os produziu."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios: […]",
+    "II - recusar fé aos documentos públicos; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b6c44b3fe440",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 19, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 19, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PGE-RN",
+   "obs": "Texto adaptado",
+   "enunciado": [
+    "Com base na Constituição do Estado do Rio Grande do Norte e na Constituição Federal, é correto afirmar que a administração estadual pode recusar fé a documentos públicos, nas hipóteses constitucionalmente previstas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios: […]",
+    "II - recusar fé aos documentos públicos’ […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e4ab6bb4a33a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 19, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 19, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista em Gestão Municipal",
+   "instituicao": "PREFEITURA DE SÃO JOSÉ DOS CAMPOS-SP",
+   "obs": "",
+   "enunciado": [
+    "O Município Beta se notabilizou como importante polo turístico de uma região brasileira, fazendo que o ensino profissionalizante fosse direcionado ao atendimento dessa importante atividade econômica. Com o objetivo de realizar o aproveitamento dessa mão de obra especializada, de modo a alcançar o pleno emprego, foi editada a Lei nº Y, dispondo que as sociedades empresárias, que admitissem pessoas residentes no Município Beta há mais de 5 (cinco) anos, receberiam benefícios fiscais. Irresignado com o teor da Lei nº Y, Antônio consultou o seu advogado a respeito da compatibilidade desse diploma normativo com a Constituição da República, sendo-lhe corretamente informado que esse diploma normativo estabelece preferência indevida entre brasileiros, o que é vedado pela ordem constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios: […]",
+    "III - criar distinções entre brasileiros ou preferências entre si."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2906c13f5cae",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 19, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 19, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista de Gestão - Advogado",
+   "instituicao": "AGSUS",
+   "obs": "",
+   "enunciado": [
+    "Após ser eleito Deputado Federal pelos eleitores do Estado Alfa, Matheus resolveu aprofundar os estudos sobre a organização político-administrativa existente no país, de forma a prestar um serviço público de excelência.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que é vedado à União, aos Estados, ao Distrito Federal e aos Municípios criar distinções entre brasileiros ou preferências entre si."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19 - É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "[...]",
+    "III - criar distinções entre brasileiros ou preferências entre si."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-af2c894005eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 19, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "19",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 19, III, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "Em relação à organização do Estado, prevista na Constituição Federal de 1988, analise a assertiva a seguir. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios criar distinções entre brasileiros ou preferências entre si."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 19. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:",
+    "[...]",
+    "III - criar distinções entre brasileiros ou preferências entre si."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "19",
+    "ate": "19"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "3 Organização do Estado (Arts. 18 - 43, CF)"
+ ]
+}
