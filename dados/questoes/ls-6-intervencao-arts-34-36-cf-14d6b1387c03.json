@@ -1,0 +1,3206 @@
+{
+ "id": "ls-6-intervencao-arts-34-36-cf-14d6b1387c03",
+ "titulo": "6 Intervenção (Arts. 34 - 36, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-19541f3792d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Arts. 34 e 35, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 35, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 35, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O Estado, consoante dispõe o artigo 35 da Carta Federal, só intervirá em seus Municípios, e a União nos Municípios localizados em Território Federal, quando necessário para pôr termo a grave comprometimento da ordem pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "III - pôr termo a grave comprometimento da ordem pública;",
+    "[...]",
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "II - não forem prestadas contas devidas, na forma da lei;",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde; (Redação dada pela Emenda Constitucional nº 29, de 2000)",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-605a9eb8a060",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Arts. 34 e 36, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 36, I, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 36, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "A União poderá intervir nos Estados ou no Distrito Federal para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação. Nesta hipótese de intervenção, se a coação for exercida contra o Poder Judiciário, a decretação da intervenção dependerá de requisição do Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dda0b761b72e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 34, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 34, I, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2011",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SP",
+   "obs": "Adaptada",
+   "enunciado": [
+    "A União não intervirá nos Estados nem no Distrito Federal, exceto, dentre outras hipóteses, para manter a integridade nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "I - manter a integridade nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-398e9d284b71",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 34, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 34, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "A União não pode intervir nos Estados ou no Distrito Federal para repelir invasão estrangeira ou de uma unidade da Federação em outra. Neste caso, a União deve agir diretamente por meio das Forças Armadas, sem necessidade de instauração da intervenção federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "II - repelir invasão estrangeira ou de uma unidade da Federação em outra;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b997ffa2ad6f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 34, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 34, III, CF"
+    }
+   ],
+   "banca": "MP-DFT",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça Adjunto",
+   "instituicao": "MP-DFT",
+   "obs": "",
+   "enunciado": [
+    "A União poderá intervir nos Estados, Municípios e Distrito Federal, para pôr termo a grave comprometimento da ordem pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "III - pôr termo a grave comprometimento da ordem pública;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ffa6435f09f9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 34, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 34, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "No âmbito do Estado Alfa, foi detectado o exponencial aumento da criminalidade e um elevado nível de ineficiência do aparato estatal, o que levou diversas lideranças da sociedade civil organizada a cogitarem a decretação de intervenção federal nesse ente federativo. Ao analisarem, na perspectiva constitucional, os aspectos afetos a essa espécie de intervenção, as lideranças concluíram corretamente que configura modalidade de intervenção espontânea."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "III - por termo a grave comprometimento da ordem pública; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-61beaff56f43",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Arts. 34, VII e 36, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII e 36, III, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII e 36, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item subsequente, no que diz respeito à organização do Estado e ao poder constituinte. Os princípios sensíveis da CF configuram elementos estruturantes do Estado, e sua violação enseja automaticamente a decretação de intervenção federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0b61a5a5e8b9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 34, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 34, IV, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da intervenção, julgue o item a seguir.",
+    "No caso de o Poder Judiciário estadual encontrar-se inviabilizado do exercício de suas funções, será cabível a intervenção federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-33fc7c26d54d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 34, IV c/c 36, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "IV",
+     "sigla": "",
+     "texto": "Art. 34, IV"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "36, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito ao Poder Judiciário, à defesa do Estado e das instituições democráticas e à ordem financeira, é correto afirmar que o Poder Judiciário não tem competência para decretar intervenção com a finalidade de garantir o exercício de suas funções, pois, nessa situação, a intervenção deve ser requisitada ao chefe do Poder Executivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação; […]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário; […]",
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "X - decretar e executar a intervenção federal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6353ebfad787",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 34, IV c/c 36, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "IV",
+     "sigla": "",
+     "texto": "Art. 34, IV"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "36, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "III Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "A intervenção federal, o estado de defesa e o estado de sítio são institutos previstos na Constituição Federal. Pode-se dizer que esses três institutos têm em comum a característica da excepcionalidade, ou seja, são exercidos apenas em hipóteses excepcionais, taxativamente previstas no texto constitucional. Considerando essa temática, é correto afirmar que a União poderá intervir nos Estados ou no Distrito Federal para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação. Nessa hipótese de intervenção, se a coação for exercida contra o Poder Judiciário, a decretação da intervenção dependerá de solicitação do Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação; […]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-30f251a59400",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 34, IV, 36, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "IV, 36, I",
+     "sigla": "CF",
+     "texto": "Art. 34, IV, 36, I, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Agente de Tributos da Fazenda Estadual - Geral",
+   "instituicao": "SEFAZ-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, a União não intervirá nos Estados nem no Distrito Federal, EXCETO, dentre outras hipóteses, para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação dependendo a decretação da intervenção, nesse caso, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "[...]",
+    "Art. 36 - A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a05bfa998c49",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 34, IV, 36, I, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "IV, 36, I, § 3º",
+     "sigla": "CF",
+     "texto": "Art. 34, IV, 36, I, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público - Área Processual",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em razão de divergências verificadas entre os Poderes Executivo e Legislativo do Estado Beta, certas medidas adotadas por órgãos da administração pública direta daquela estrutura de poder vinham dificultando a realização de reuniões e, de modo correlato, o livre exercício das funções próprias desta última. Por tal razão, os líderes dos partidos políticos com representatividade na Assembleia Legislativa do Estado Beta se reuniram com a Presidência da Casa Legislativa, e discutiram o cabimento da decretação da intervenção federal em Beta.",
+    "Ao fim da reunião, concluiu-se corretamente que é cabível a decretação da intervenção, na modalidade provocada, sendo necessária a apreciação do Congresso Nacional, ainda que a suspensão da execução das medidas baste ao restabelecimento da normalidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "[...]",
+    "Art. 36 - A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário;",
+    "[...]",
+    "§ 3º - Nos casos do art. 34, VI e VII, ou do art. 35, IV, dispensada a apreciação pelo Congresso Nacional ou pela Assembléia Legislativa, o decreto limitar-se-á a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7d9eee0c4273",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 34, V, \"a\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "V, \"a\"",
+     "sigla": "CF",
+     "texto": "Art. 34, V, \"a\", CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "O próximo item apresenta uma situação hipotética seguida de assertiva, a ser julgada conforme as disposições da Constituição Federal de 1988 referentes à intervenção federal. No ano de 2021, o estado C sofreu queda brusca na sua arrecadação, razão pela qual, pela primeira vez em sua história, suspendeu o pagamento de dívida fundada cujo credor era a União. Nessa situação hipotética, a União poderá intervir no estado C, para garantir o pagamento da dívida fundada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "a) suspender o pagamento da dívida fundada por mais de dois anos consecutivos, salvo motivo de força maior;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b04f0b20e84c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 34, V, \"b\" c/c Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "V, \"b\"",
+     "sigla": "",
+     "texto": "Art. 34, V, \"b\""
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "II Exame Nacional dos Cartórios",
+   "instituicao": "CNJ",
+   "obs": "",
+   "enunciado": [
+    "Foi constatado que o Estado Alfa vinha deixando de repassar aos municípios, no prazo previsto em lei, 25% do imposto sobre a circulação de mercadorias e serviços de qualquer natureza (ICMS), quando o crédito relativo ao imposto tiver sido extinto por compensação ou transação, isto apesar de a receita pública ter sido devidamente contabilizada como crédito a mais no orçamento estadual. À luz desse estado de coisas, uma associação nacional de municípios iniciou estudos com o objetivo de verificar o cabimento, ou não, da decretação da intervenção federal nessa situação.",
+    "Ao fim dos estudos, concluiu-se corretamente que é cabível a decretação da intervenção espontânea, devendo o respectivo decreto especificar a amplitude, o prazo e as condições de execução e, se couber, nomear o interventor."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "[...]",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;",
+    "[...]",
+    "Art. 36, § 1º - O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7690dff29f77",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 34, V, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "V, b",
+     "sigla": "CF",
+     "texto": "Art. 34, V, b, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Juiz Leigo",
+   "instituicao": "TJ-MG",
+   "obs": "Adaptada",
+   "enunciado": [
+    "A União não intervirá nos Estados nem no Distrito Federal, exceto, dentre outras hipóteses, para reorganizar as finanças da unidade da Federação que deixar de entregar aos Municípios receitas tributárias fixadas na Constituição Federal, dentro dos prazos fixados por lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "[...]",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-85fa17c57112",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Arts. 34, V, “b” e 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "V, “b”",
+     "sigla": "CF",
+     "texto": "Arts. 34, V, “b” e 36, § 1º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Arts. 34, V, “b” e 36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "II Exame Nacional dos Cartórios",
+   "instituicao": "CNJ",
+   "obs": "",
+   "enunciado": [
+    "Foi constatado que o Estado Alfa vinha deixando de repassar aos municípios, no prazo previsto em lei, 25% do imposto sobre a circulação de mercadorias e serviços de qualquer natureza (ICMS), quando o crédito relativo ao imposto tiver sido extinto por compensação ou transação, isto apesar de a receita pública ter sido devidamente contabilizada como crédito a mais no orçamento estadual. À luz desse estado de coisas, uma associação nacional de municípios iniciou estudos com o objetivo de verificar o cabimento, ou não, da decretação da intervenção federal nessa situação.",
+    "Ao fim dos estudos, concluiu-se corretamente que é cabível a decretação da intervenção espontânea, devendo o respectivo decreto especificar a amplitude, o prazo e as condições de execução e, se couber, nomear o interventor."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "[...]",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;",
+    "[...]",
+    "Art. 36, § 1º - O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35c947791058",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 34, V, \"b\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "V, \"b\"",
+     "sigla": "CF",
+     "texto": "Art. 34, V, \"b\", CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "O próximo item apresenta uma situação hipotética seguida de assertiva, a ser julgada conforme as disposições da Constituição Federal de 1988 referentes à intervenção federal. Visando à conclusão do maior número de obras públicas em seu primeiro mandato e, consequentemente, a sua futura reeleição, o governador do estado S deixou de entregar, dentro dos prazos estabelecidos em lei, aos municípios localizados em seu território as receitas tributárias fixadas constitucionalmente. Nessa situação hipotética, a União poderá intervir no estado S, para garantir os devidos repasses."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "V - reorganizar as finanças da unidade da Federação que: […]",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-885ffdf1ebd1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 34, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 34, VI, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "O próximo item apresenta uma situação hipotética seguida de assertiva, a ser julgada conforme as disposições da Constituição Federal de 1988 referentes à intervenção federal. O estado Z, sob a justificativa de que é imperativo constitucional uma administração pública eficiente e, assim, célere na construção de obras de interesse público, tem, reiteradamente, realizado contratações diretas, afastando a aplicação da legislação federal que rege as licitações e os contratos na administração pública. Nessa situação hipotética, a União poderá intervir no estado Z, para prover a execução da legislação federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "VI - prover a execução de lei federal, ordem ou decisão judicial;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c9181df72f68",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 34, VI e 35, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 34, VI e 35, IV, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 34, VI e 35, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Legislativo - Registro e Redação Parlamentar",
+   "instituicao": "SENADO FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "O Prefeito do Município Beta editou o Decreto nº XX dispondo que a Lei Federal nº XX, que estabelecia normas de proteção ao meio ambiente, não deveria ser executada pela Administração Pública municipal. Em sua justificativa, argumentava que as normas eram muito rigorosas, dificultando sobremaneira a ocupação do solo do Município Beta, pois boa parte do seu território era formado por florestas. Ao tomar conhecimento dos fatos, o Partido Político Alfa consultou o seu advogado a respeito da possibilidade de ser decretada intervenção no Município Beta, sendo-lhe corretamente respondido que é possível que o Estado decrete a intervenção em Beta, o que pressupõe o provimento de representação pelo Tribunal de Justiça para prover a execução de lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[…]",
+    "VI - prover a execução de lei federal, ordem ou decisão judicial;",
+    "[…]",
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[…]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3d24f2a4aa93",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Arts. 34, VI e 36, II e § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Arts. 34, VI e 36, II e § 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "II e § 3º",
+     "sigla": "CF",
+     "texto": "Arts. 34, VI e 36, II e § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2015",
+   "cargo": "XVI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Determinado Governador de Estado, inconformado com decisões proferidas pelo Poder Judiciário local, que determinaram o fechamento de diversos estabelecimentos comprovadamente envolvidos com ilícitos, decidiu que os órgãos estaduais a ele subordinados não cumpririam as decisões judiciais. Alegou que os negócios desenvolvidos nesses estabelecimentos, mesmo sendo ilícitos, geravam empregos e aumentavam a arrecadação do Estado, e que o não cumprimento das ordens emanadas do Poder Judiciário se justificava em razão da repercussão econômica que o seu cumprimento teria. Das opções a seguir, julgue o item a seguir. O Presidente da República, após a requisição do Supremo Tribunal Federal, decretará a intervenção federal, dispensado, nesse caso, o controle pelo Congresso Nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VI - prover a execução de lei federal, ordem ou decisão judicial;",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "II - no caso de desobediência a ordem ou decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral;",
+    "[...]",
+    "§ 3º Nos casos do art. 34, VI e VII, ou do art. 35, IV, dispensada a apreciação pelo Congresso Nacional ou pela Assembléia Legislativa, o decreto limitar-se-á a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac6e2dff3a53",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Arts. 34, VII e 36, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII e 36, III, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII e 36, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Escrivão de Polícia Civil",
+   "instituicao": "PC-RN",
+   "obs": "",
+   "enunciado": [
+    "Quanto à intervenção federal, é correto afirmar que, para assegurar a observância do princípio constitucional dos direitos da pessoa humana, a decretação da intervenção federal dependerá de provimento, pelo STF, de representação do procurador-geral da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "[...]",
+    "b) direitos da pessoa humana;",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1490e2ebd874",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 34, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 34, VII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Os Estados-membros se auto-organizam por meio do exercício de seu poder constituinte, consubstanciando-se na edição das respectivas Constituições Estaduais e também por meio de sua própria legislação. Devem, porém, respeitar os princípios constitucionais sensíveis, princípios federais extensíveis e princípios constitucionais estabelecidos, conforme já decidiu o Supremo Tribunal Federal (STF – Pleno – Adin n° 216/PB – Rel. Min. Celso de Mello; RTJ 146/388). A respeito desse tema, é correto afirmar que os princípios constitucionais sensíveis são aqueles cuja inobservância pelos Estados-membros no exercício de suas competências legislativas ou administrativas pode acarretar a intervenção federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "a) forma republicana, sistema representativo e regime democrático;",
+    "b) direitos da pessoa humana;",
+    "c) autonomia municipal;",
+    "d) prestação de contas da administração pública, direta e indireta.",
+    "e) aplicação do mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-84320abc96a4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 34, VII, b, c, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII, b, c",
+     "sigla": "CF",
+     "texto": "Art. 34, VII, b, c, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MT",
+   "obs": "",
+   "enunciado": [
+    "São considerados princípios constitucionais sensíveis, entre outros, os direitos da pessoa humana e a autonomia municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "I - manter a integridade nacional;",
+    "II - repelir invasão estrangeira ou de uma unidade da Federação em outra;",
+    "III - pôr termo a grave comprometimento da ordem pública;",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "a) suspender o pagamento da dívida fundada por mais de dois anos consecutivos, salvo motivo de força maior;",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;",
+    "VI - prover a execução de lei federal, ordem ou decisão judicial;",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "a) forma republicana, sistema representativo e regime democrático;",
+    "b) direitos da pessoa humana;",
+    "c) autonomia municipal;",
+    "d) prestação de contas da administração pública, direta e indireta.",
+    "e) aplicação do mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df3a33cf8c4c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 34, VII, c, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII, c",
+     "sigla": "CF",
+     "texto": "Art. 34, VII, c, CF"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2006",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "NA FEDERAÇÃO BRASILEIRA, OS ESTADOS- MEMBROS: poderão sofrer intervenção federal na hipótese, dentre outras, de inobservância do princípio constitucional da autonomia municipal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "[...]",
+    "c) autonomia municipal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0d399e2875f9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 34, VII, d, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII, d",
+     "sigla": "CF",
+     "texto": "Art. 34, VII, d, CF"
+    }
+   ],
+   "banca": "IBGP",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Julgue a seguinte assertiva relacionada ao modelo constitucional de administração pública:",
+    "A União poderá intervir nos Estados e no Distrito Federal para assegurar a observância da prestação de contas da administração pública, direta e indireta."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais: […]",
+    "d) prestação de contas da administração pública, direta e indireta."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-726e5f1f253c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 34, VII, e, 36, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII, e, 36, III",
+     "sigla": "CF",
+     "texto": "Art. 34, VII, e, 36, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SE",
+   "obs": "",
+   "enunciado": [
+    "O Estado Beta deixou de aplicar o mínimo exigido da receita resultante de impostos estaduais na manutenção e no desenvolvimento do ensino. Diante de tal situação, é correto afirmar que o procurador-geral da República poderá requerer, perante o Supremo Tribunal Federal, a intervenção da União no Estado Beta."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para: […]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais: […]",
+    "e) aplicação do mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde. […]",
+    "Art. 36. A decretação da intervenção dependerá: […]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal. […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2427f542d31d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Arts. 34 e 36, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 36, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 36, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2003",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Na hipótese de violação de princípio constitucional sensível por Estado, a decretação de intervenção federal pelo Presidente da República dependerá de autorização do Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36946d3e7e33",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 34, VII e 36, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 34, VII e 36, III, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 34, VII e 36, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Estado Alfa deixou de aplicar, na manutenção e no desenvolvimento do ensino, o mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências. À luz desse quadro, algumas associações de estudantes procuram um advogado e o questionam se, nessa hipótese, seria possível decretar a intervenção federal no Estado Alfa. Com base na hipótese narrada, julgue o item a seguir. A intervenção da União no Estado Alfa dependerá de requerimento do Procurador-Geral da República perante o Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "[...]",
+    "e) aplicação do mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde.",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c4b69a5e1cd4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Arts. 34, VII, 36, III e 84, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "VII, 36, III",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII, 36, III e 84, X, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Arts. 34, VII, 36, III e 84, X, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "A intervenção federal será decretada pelo Presidente da República, tendo como pressuposto, no caso de violação do sistema representativo, decisão do Supremo Tribunal Federal que declare a inconstitucionalidade do ato a esse ofensivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "a) forma republicana, sistema representativo e regime democrático;",
+    "[...]",
+    "Art. 36 A decretação da intervenção dependerá:",
+    "[...]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal.",
+    "[...]",
+    "Art. 84 Compete privativamente ao Presidente da República:",
+    "[...]",
+    "X - decretar e executar a intervenção federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ad2b1671dd34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 34 c/c 36, I e III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 34"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "I e III",
+     "sigla": "CF",
+     "texto": "36, I e III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "V Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "A intervenção é um mecanismo constitucional que permite à União ou aos Estados intervir temporariamente nos Estados, no Distrito Federal ou nos Municípios, restringindo de forma excepcional a sua autonomia. Trata-se de medida destinada a preservar a integridade da Federação e assegurar a observância de princípios constitucionais. Considerando essa temática, à luz da jurisprudência do Supremo Tribunal Federal (STF) e dos dispositivos constitucionais aplicáveis, é correto afirmar que na hipótese em que é necessário garantir o livre exercício de qualquer dos Poderes nas unidades da Federação, a decretação da intervenção depende da solicitação do Poder Legislativo ou do Poder Executivo, coacto ou impedido, ou da requisição do STF, se a coação for exercida contra o Poder Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "I - manter a integridade nacional;",
+    "II - repelir invasão estrangeira ou de uma unidade da Federação em outra;",
+    "III - pôr termo a grave comprometimento da ordem pública;",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "V - reorganizar as finanças da unidade da Federação que:",
+    "a) suspender o pagamento da dívida fundada por mais de dois anos consecutivos, salvo motivo de força maior;",
+    "b) deixar de entregar aos Municípios receitas tributárias fixadas nesta Constituição, dentro dos prazos estabelecidos em lei;",
+    "VI - prover a execução de lei federal, ordem ou decisão judicial;",
+    "VII - assegurar a observância dos seguintes princípios constitucionais:",
+    "[...]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário; […]",
+    "III - de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República, na hipótese do art. 34, VII, e no caso de recusa à execução de lei federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8c78fdfb41f2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Arts. 34 e 35, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "34",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 35, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 34 e 35, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-AL",
+   "obs": "",
+   "enunciado": [
+    "Conforme a Constituição Federal de 1988, o Estado poderá intervir em seus municípios quando for necessário garantir o livre exercício de qualquer dos Poderes nas unidades da Federação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+    "[...]",
+    "IV - garantir o livre exercício de qualquer dos Poderes nas unidades da Federação;",
+    "[...]",
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "II - não forem prestadas contas devidas, na forma da lei;",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde;",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-601d7016e41d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 35, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 35, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "O próximo item apresenta uma situação hipotética seguida de assertiva, a ser julgada conforme as disposições da Constituição Federal de 1988 referentes à intervenção federal. O município W, que não está localizado em nenhum dos territórios federais, tem deixado de aplicar o mínimo exigido da receita municipal na manutenção e no desenvolvimento das ações e dos serviços públicos de saúde. Nessa situação hipotética, a União, por iniciativa concorrente, poderá intervir no município W."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e30050de4d11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 35, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 35, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-AL",
+   "obs": "",
+   "enunciado": [
+    "Conforme a Constituição Federal de 1988, o Estado poderá intervir em seus municípios quando deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c49d61bcefa2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 35, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 35, I, CF"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da intervenção federal nos estados e da intervenção estadual nos municípios, julgue o item a seguir.",
+    "A intervenção do Estado em Município é constitucionalmente autorizada quando este deixa de pagar a dívida fundada, por mais de um ano consecutivo, independentemente da comprovação de motivo de força maior, ou, ainda, quando o chefe do Poder Executivo tiver suas contas anuais rejeitadas pelo Tribunal de Contas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35 - O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4637b0975b43",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 35, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 35, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Administração",
+   "instituicao": "MPE-CE",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição do Estado do Ceará e na Lei n.º 9.826/1974 (Estatuto dos Funcionários Públicos Civis do Estado do Ceará), julgue o item seguinte.",
+    "O Estado do Ceará pode intervir nos municípios quando a dívida fundada deixar de ser paga, em dois anos consecutivos, por motivo de força maior."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35 - O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d3d550470dfa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Arts. 35, I e 36, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Arts. 35, I e 36, § 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Arts. 35, I e 36, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Assistente Social - Assistência e Permanência Estudantil",
+   "instituicao": "UNESP",
+   "obs": "",
+   "enunciado": [
+    "Suponha que o Estado X deixou de entregar, aos Municípios, receitas tributárias fixadas na Constituição, dentro dos prazos estabelecidos em lei, bem como suspendeu o pagamento da dívida fundada por três anos consecutivos, sem se verificar qualquer motivo de força maior. Com relação ao disposto na Constituição Federal, é correto afirmar que a União poderá decretar a intervenção federal e, cessados os motivos da intervenção, as autoridades afastadas de seus cargos a estes voltarão, salvo impedimento legal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35 - O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "I - deixar de ser paga, sem motivo de força maior, por dois anos consecutivos, a dívida fundada;",
+    "[...]",
+    "Art. 36, § 4º - Cessados os motivos da intervenção, as autoridades afastadas de seus cargos a estes voltarão, salvo impedimento legal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac5cc3df3ab6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 35, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 35, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-AL",
+   "obs": "",
+   "enunciado": [
+    "Conforme a Constituição Federal de 1988, o Estado poderá intervir em seus municípios quando não forem prestadas contas devidas, na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "II - não forem prestadas contas devidas, na forma da lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9d5d8847b758",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 35, II e IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "II e IV",
+     "sigla": "CF",
+     "texto": "Art. 35, II e IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "AGE-MG",
+   "obs": "",
+   "enunciado": [
+    "Alguns vereadores de oposição constataram que o Chefe do Poder Executivo do Município Alfa, situado no território do Estado Beta, deixou de prestar contas correspondentes aos dois últimos exercícios financeiros, o que dificultou sobremaneira a identificação da forma como foram implementadas certas políticas públicas e realizadas determinadas despesas. Irresignados com esse estado de coisas, consultaram um advogado a respeito da possibilidade de ser decretada a intervenção estadual no Município Alfa. O advogado respondeu corretamente que a intervenção cogitada pelos vereadores é cabível, cabendo ao Governador do Estado decretar a intervenção, independentemente de requisição do Tribunal de Justiça ou do Tribunal de Contas, devendo a Assembleia Legislativa apreciar o referido decreto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando: […]",
+    "II - não forem prestadas contas devidas, na forma da lei; […]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-62b601e92fe1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 35, II c/c 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "II",
+     "sigla": "",
+     "texto": "Art. 35, II"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "XXXIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Município Alfa, situado no Estado Beta, negou-se a apresentar contas anuais de numerosos exercícios ao Tribunal de Contas do referido Estado. Convencido de não se tratar de meros equívocos, mas sim de tentativa de dissimular uma série de irregularidades administrativas, o Governador do Estado Beta encaminhou a questão à Procuradoria do Estado, a fim de saber se a situação ensejaria uma intervenção. A Procuradoria de Beta, após análise da Constituição Federal, informou corretamente que o caso enseja a intervenção estadual por decreto do próprio Governador de Beta, sendo o referido ato necessariamente dirigido, posteriormente, à Assembleia Legislativa de Beta, para que realize o devido controle político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[…]",
+    "II - não forem prestadas contas devidas, na forma da lei;",
+    "[…]",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[…]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas.",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f1d9fbb7356a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 35, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 35, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2013",
+   "cargo": "XII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "É vedado à União decretar intervenção federal em Município localizado em território federal quando este não tiver aplicado o mínimo exigido de sua receita na manutenção e desenvolvimento do ensino."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0d5f536df4ae",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 35, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 35, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PB",
+   "obs": "",
+   "enunciado": [
+    "O estado poderá intervir em seus municípios quando não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando: […]",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4769ee66493d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 35, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 35, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-AC",
+   "obs": "",
+   "enunciado": [
+    "Tipificada como medida excepcional, a intervenção de um estado federado em um de seus municípios poderá ocorrer quando não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e no desenvolvimento do ensino e nas ações e serviços públicos de saúde."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando: […]",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-97fec2b13d14",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Arts. 35, III, e 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Arts. 35, III, e 36, § 1º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Arts. 35, III, e 36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "O Tribunal de Contas do Estado Alfa, ao apreciar as contas de governo apresentadas pelo prefeito do Município Beta nos três últimos exercícios financeiros, detectou a não aplicação do mínimo exigido da receita municipal em ações e serviços públicos de saúde. Em razão desse estado de coisas, o prefeito foi informado sobre a existência de um forte movimento popular para que seja decretada a intervenção do Estado Alfa no Município Beta. Essa intervenção, considerando a narrativa apresentada, é da modalidade espontânea, devendo ser objeto de decreto do governador do Estado, com posterior apreciação da Assembleia Legislativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[…]",
+    "III - não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde;",
+    "[…]",
+    "Art. 36. [....]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c44b890cb83",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 35, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 35, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "O Poder Executivo do Município Alfa, importante capital do país, vinha sistematicamente descumprindo os termos da Lei federal nº X. Com isso, era detectado um desequilíbrio na federação, pois a observância desse diploma normativo em outros Municípios acarretava uma situação de desvantagem para os administrados, em grave comprometimento da isonomia. Ao tomar conhecimento dessa situação, o Partido Político Sigma solicitou que sua assessoria analisasse a possibilidade de o Presidente da República decretar a intervenção no Poder Executivo de Alfa, sendo-lhe corretamente esclarecido que apesar da gravidade do ato praticado, considerando o equilíbrio federativo, não é possível a decretação da medida alvitrada por Sigma."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35 - O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a63d7c7da358",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Arts. 35, IV, e 36, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Arts. 35, IV, e 36, § 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Arts. 35, IV, e 36, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Procurador-Geral de Justiça resolve representar perante o Tribunal de Justiça, solicitando intervenção estadual no Município Alfa, sob a alegação de que esse ente federado tem violado frontalmente diversos princípios, de reprodução obrigatória, indicados na Constituição Estadual. Com base na hipótese narrada, julgue o item a seguir. A intervenção estadual no Município Alfa dependerá de provimento do Tribunal de Justiça requisitando ao Governador de Estado que decrete a referida medida."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial.",
+    "[...]",
+    "Art. 36. [...]",
+    "§ 3º Nos casos do art. 34, VI e VII, ou do art. 35, IV, dispensada a apreciação pelo Congresso Nacional ou pela Assembléia Legislativa, o DECRETO limitar-se-á a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0e47c0278d26",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Arts. 35, IV, e 36, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Arts. 35, IV, e 36, § 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Arts. 35, IV, e 36, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2016",
+   "cargo": "XX Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Determinado Município localizado no âmbito de um Estado-membro da Federação brasileira deixa de cumprir ordem judicial emanada do Tribunal de Justiça local. Diante de tal fato, segundo a ordem jurídico-constitucional brasileira, julgue o item a seguir. O Procurador-Geral de Justiça poderá ajuizar Ação Direta Interventiva estadual junto ao Tribunal de Justiça Local, que julgando-a procedente autoriza a intervenção estadual no referido Município, a ser decretada pelo Governador do Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial.",
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "§ 3º Nos casos do art. 34, VI e VII, ou do art. 35, IV, dispensada a apreciação pelo Congresso Nacional ou pela Assembléia Legislativa, o decreto limitar-se-á a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1f3f6147cb4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 35, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 35, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, EXCETO quando o Superior Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando:",
+    "[...]",
+    "IV - o TRIBUNAL DE JUSTIÇA der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c57cc9e5822",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 35, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "35",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 35, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-MT",
+   "obs": "",
+   "enunciado": [
+    "Um município do Estado de Mato Grosso foi intimado a cumprir ordem judicial do respectivo Tribunal de Justiça, proferida em ação proposta pela associação dos professores da rede pública municipal, determinando o pagamento imediato de gratificação para professores que ocupavam posições de direção nas escolas municipais. Decorridos 3 meses sem que o Município tenha tomado qualquer providência para cumprir a ordem judicial, a associação propôs, perante o Tribunal de Justiça, representação interventiva requerendo que o Governador decretasse a intervenção no Município.",
+    "Considerando apenas esses elementos à luz da Constituição Federal, da Constituição Mato-grossense e da jurisprudência do Supremo Tribunal Federal, o provimento à referida representação é uma das hipóteses de intervenção do Estado no Município, podendo o Governador, se necessário, afastar o Prefeito e nomear interventor, devendo então o decreto ser submetido à Assembleia Legislativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 35. O Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto quando: […]",
+    "IV - o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual, ou para prover a execução de lei, de ordem ou de decisão judicial."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "35",
+    "ate": "35"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-72f406610704",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 36, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 36, I, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "A decretação da intervenção para garantir o livre exercício de qualquer dos Poderes nos entes federativos dependerá de solicitação do Legislativo ou do Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for contra o Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36 A decretação da intervenção dependerá:",
+    "I - no caso do art. 34, IV, de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3d4481876fda",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 36, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 36, II, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "A decretação da intervenção dependerá, no caso de desobediência à ordem ou à decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36 A decretação da intervenção dependerá:",
+    "[...]",
+    "II - no caso de desobediência a ordem ou decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a663c7b6cfd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 36, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 36, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "O próximo item apresenta uma situação hipotética seguida de assertiva, a ser julgada conforme as disposições da Constituição Federal de 1988 referentes à intervenção federal. O estado V é recalcitrante no descumprimento de ordens judiciais provenientes de sentenças com trânsito em julgado. Nessa situação hipotética, a União poderá intervir no estado V, para garantir o cumprimento das ordens e decisões do Poder Judiciário, independentemente de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. A decretação da intervenção dependerá: […]",
+    "II - no caso de desobediência a ordem ou decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-afdf98b0f093",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 36, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 36, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2014",
+   "cargo": "XIV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Nos casos de desobediência à ordem ou decisão judiciária, a decretação de intervenção independe de requisição judicial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "II - no caso de desobediência a ordem ou decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-af0717cb477b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 36, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 36, II, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da intervenção, julgue o item a seguir.",
+    "A decretação de intervenção relacionada a desobediência de decisão judiciária pode ocorrer por requisição de algum dos seguintes Tribunais Superiores: Supremo Tribunal Federal (STF), Superior Tribunal de Justiça (STJ) e Tribunal Superior Eleitoral (TSE)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36 - A decretação da intervenção dependerá:",
+    "[...]",
+    "II - no caso de desobediência a ordem ou decisão judiciária, de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-683dc3e4ff48",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O decreto de intervenção será submetido, em regra, à apreciação do Senado Federal ou da Assembleia Legislativa do Estado no prazo de vinte e quatro horas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36 [...]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do CONGRESSO NACIONAL ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas\"."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7890aff9f85",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista Administrativo - Tecnologia da Informação - Banco de Dados",
+   "instituicao": "TCE-RR",
+   "obs": "",
+   "enunciado": [
+    "Foi divulgado em diversos meios de comunicação social que o estado Alfa não tinha repassado aos municípios situados em seu território, no prazo devido, 50% do produto da arrecadação do imposto sobre a propriedade de veículos automotores licenciados em seus territórios, receita que, por imperativo constitucional, pertence aos municípios.",
+    "Essa situação gerou grande insatisfação junto às lideranças partidárias e foi iniciado um movimento de âmbito nacional para que fosse decretada a intervenção da União em Alfa.",
+    "Nesse caso é correto afirmar que a situação descrita configura hipótese de intervenção espontânea, cabendo ao Congresso Nacional apreciar o respetivo decreto após a sua edição."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36, § 1º - O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6fa282ddd6c0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "IV Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "A inobservância da legislação trabalhista por diversos entes da administração pública indireta do Estado Alfa, nas relações jurídicas mantidas com os respectivos empregados, levou os órgãos competentes de primeira e de segunda instâncias da Justiça do Trabalho, com competência na respectiva esfera territorial, a proferirem decisões, em sede de tutela individual e coletiva, determinando que fosse observada a referida legislação, especificamente em relação à rotina e ao ambiente de trabalho. Em razão da reiterada inobservância das decisões proferidas, cogitou-se, entre as varas do trabalho e as turmas do respectivo Tribunal Regional do Trabalho, a possibilidade de ser decretada a intervenção federal em Alfa. Em relação à decretação da intervenção, à luz da sistemática constitucional, é correto afirmar que deve ser requisitada pelo Supremo Tribunal Federal, cabendo ao Congresso Nacional a apreciação do decreto interventivo a posteriori."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eda5762ed609",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da intervenção federal nos estados e da intervenção estadual nos municípios, julgue o item a seguir.",
+    "O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, obrigatoriamente, nomeará o interventor, será submetido à apreciação da Câmara dos Deputados ou da Assembleia Legislativa do Estado, no prazo de 48 (quarenta e oito) horas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36, § 1º - O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0c343ea8b7e3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito à intervenção de um ente federado em outro, julgue o item. A intervenção somente será efetivada por meio de decreto — do presidente da República, em caso de intervenção federal, ou de governador, em caso de intervenção de estado em município —, conforme disposto no § 1.º do art. 36 da Constituição Federal de 1988, observando-se que a intervenção é ato de natureza política, não sendo admissível, em regra, o controle jurisdicional de sua decretação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. A decretação da intervenção dependerá:",
+    "[...]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional ou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f6f78cb3f9b3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 36, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 1º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Em relação à Intervenção Federal, com fundamento no texto constitucional, é correto afirmar queo decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacional no prazo de vinte e quatro horas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. [...]",
+    "§ 1º O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução e que, se couber, nomeará o interventor, será submetido à apreciação do Congresso Nacionalou da Assembléia Legislativa do Estado, no prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f9689945b3e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 36, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 2º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Se não estiver funcionando o Congresso Nacional ou a Assembleia Legislativa, far-se-á convocação extraordinária, no mesmo prazo de vinte e quatro horas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36. [...]",
+    "§ 2º Se não estiver funcionando o Congresso Nacional ou a Assembléia Legislativa, far-se-á convocação extraordinária, no mesmo prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3b867cab7828",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 36, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "36",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 36, § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PA",
+   "obs": "",
+   "enunciado": [
+    "Se, decretada a intervenção, a assembleia legislativa não estiver funcionando, será realizada a sua convocação extraordinária, no prazo de quarenta e oito horas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 36, § 2º Se não estiver funcionando o Congresso Nacional ou a Assembléia Legislativa, far-se-á convocação extraordinária, no mesmo prazo de vinte e quatro horas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "36",
+    "ate": "36"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "3 Organização do Estado (Arts. 18 - 43, CF)"
+ ]
+}
