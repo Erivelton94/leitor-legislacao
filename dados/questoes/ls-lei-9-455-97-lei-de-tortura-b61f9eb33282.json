@@ -1,0 +1,2343 @@
+{
+ "id": "ls-lei-9-455-97-lei-de-tortura-b61f9eb33282",
+ "titulo": "Lei 9.455 97 - Lei de Tortura",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-025e339a0ac7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Lei 9.455/97",
+   "refs": [],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A Lei Federal nº 9.455, de 7 de abril de 1997, define os crimes de tortura e dá outras providências."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "LEI Nº 9.455, DE 7 DE ABRIL DE 1997.",
+    "Define os crimes de tortura e dá outras providências."
+   ],
+   "vinculo": null,
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1e75058e0d50",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Constitui-se crime de tortura submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[…]",
+    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08fac24a7f41",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Não se constitui crime de tortura o constrangimento de alguém com o emprego de violência ou grave ameaça, causando-lhe sofrimento físico, em razão de discriminação racial ou religiosa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - Constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "[...]",
+    "c) em razão de discriminação racial ou religiosa;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-26f75423f7ff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Constitui-se crime de tortura, somente quando causar dano psíquico a outrem."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "[...]",
+    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2f2cacebc496",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Constitui crime de tortura: constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental com o objetivo de obter alguma informação, declaração ou confissão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - Constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "a) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ba7e53c2711a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "O ato de constranger previsto no crime de tortura pode se dar com finalidade de obter informação, declaração ou confissão da vítima ou de terceira pessoa; com a intenção de provocar ação ou omissão de natureza criminosa; ou ainda, em discriminação racial ou religiosa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "a) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;",
+    "b) para provocar ação ou omissão de natureza criminosa;",
+    "c) em razão de discriminação racial ou religiosa;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0370f970b075",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 1º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A pena prevista para o crime de tortura é de reclusão, de dois a oito anos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[…]",
+    "Pena - reclusão, de dois a oito anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-409a789e23b5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 1º, Lei 9.455/1997",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "",
+     "sigla": "Lei 9.455/1997",
+     "texto": "Art. 1º, Lei 9.455/1997"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Uma das hipóteses do crime de tortura consiste em constranger alguém, com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental em razão de discriminação racial ou religiosa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "[...]",
+    "c) em razão de discriminação racial ou religiosa;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c9f92e7a723a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 1º, I, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "I",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, I, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Quanto à legislação a respeito do crime de tortura, é correto afirmar que pratica crime de tortura a autoridade policial que constrange alguém, mediante emprego de grave ameaça e causando-lhe sofrimento mental, com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "a) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e26b0689d58",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 1º, I, a, § 2º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "I, a, § 2º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, I, a, § 2º, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "Durante operação noturna em bairro periférico, uma equipe policial composta por um superior e seu subordinado abordou um suspeito de integrar quadrilha de roubos. Conduzido à base comunitária, o subordinado, com o objetivo de obter a confissão e o endereço do cofre do grupo, passou a aplicar choques com dispositivo elétrico improvisado (taser artesanal) e cobriu parcialmente a cabeça do custodiado com uma capa, causando-lhe intenso sofrimento físico e mental. O superior permaneceu presente, assistindo aos atos por cerca de dez minutos, sem tocar no suspeito e nem ordenar tais condutas. Considerando a situação narrada, é correto afirmar que tanto o subordinado quanto seu superior praticaram o crime de tortura."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º - Constitui crime de tortura:",
+    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:",
+    "a) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;",
+    "[...]",
+    "§ 2º - Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36ee59605e0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 1º, II, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, II, Lei 9.455/97"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Tendo em conta as situações hipotéticas e considerando a jurisprudência dos Tribunais Superiores, julgue o item a seguir. Tícia, por submeter a filha a intenso sofrimento físico como forma de castigo, incide no crime de tortura-castigo, previsto no artigo 1, do inciso II, da Lei n° 9.455/97, agravado pela circunstância de ter sido praticado em detrimento de descendente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura: […]",
+    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo.",
+    "Pena - reclusão, de dois a oito anos.",
+    "Art. 61, CP - São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime: […]",
+    "II - ter o agente cometido o crime: […]",
+    "e) contra ascendente, descendente, irmão ou cônjuge;",
+    "Na dúvida se é possível cumular, temos o aval da jurisprudência: \"A incidência da circunstância agravante do art. 61, inciso II, e, do Código Penal no crime de tortura, previsto no art. 1°, inciso II, da Lei n. 9.455/1997 [tortura-castigo], não configura bis in idem\" (STJ. Informativo 799)."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d5285a71b342",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 1º, II, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, II, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Policial Rodoviária Federal",
+   "instituicao": "PRF",
+   "obs": "",
+   "enunciado": [
+    "A respeito da identificação criminal, do crime de tortura, do abuso de direito, da prevenção do uso indevido de drogas, da comercialização de armas de fogo e dos crimes hediondos, julgue o item que se seguem.",
+    "Praticam o crime de tortura policiais rodoviários federais que, dentro de um posto policial, submetem o autor de crime a sofrimento físico, independentemente de sua intensidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura: […]",
+    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6fa174f42788",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 1º, II, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, II, Lei 9.455/97"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2019",
+   "cargo": "XXX Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Zélia, professora de determinada escola particular, no dia 12 de setembro de 2019, presencia, em via pública, o momento em que Luiz, nascido em 20 de dezembro de 2012, adota comportamento extremamente mal-educado e pega brinquedos de outras crianças que estavam no local. Insatisfeita com a omissão da mãe da criança, sentindo-se na obrigação de intervir por ser professora, mesmo sem conhecer Luiz anteriormente, Zélia passa a, mediante grave ameaça, desferir golpes com um pedaço de madeira na mão de Luiz, como forma de lhe aplicar castigo pessoal, causando-lhe intenso sofrimento físico e mental. Descobertos os fatos, foi instaurado inquérito policial. Nele, Zélia foi indiciada pelo crime de tortura com a causa de aumento em razão da idade da vítima. Após a instrução, confirmada a integralidade dos fatos, a ré foi condenada nos termos da denúncia, reconhecendo o magistrado, ainda, a presença da agravante em razão da idade de Luiz. Considerando apenas as informações expostas, a defesa técnica de Zélia, no momento da apresentação da apelação, poderá, sob o ponto de vista técnico, requerer a absolvição de Zélia do crime imputado, pelo fato de sua conduta não se adequar à figura típica do crime de tortura."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[…]",
+    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b6cfcbed30ec",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 1º, II, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "II",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, II, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "A pena prevista para o crime de tortura consistente em submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo, é de reclusão de dois a cinco anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo.",
+    "Pena - reclusão, de dois a oito anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bde6fd5a4a89",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 1º, III, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "III",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, III, Lei 9.455/97"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei de Tortura, de nº 9.455 de 1997, constitui crime de tortura submeter mulher, reiteradamente, a intenso sofrimento físico ou mental, no contexto de violência doméstica e familiar, sem prejuízo da aplicação das penas correspondentes a outras infrações penais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura: […]",
+    "III – submeter mulher, reiteradamente, a intenso sofrimento físico ou mental, no contexto de violência doméstica e familiar, sem prejuízo da aplicação das penas correspondentes a outras infrações penais. (Incluído pela Lei nº 15.410, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fc28672bc837",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 1º, § 2º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 2º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 2º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei nº 9.455/1997, que define os crimes de tortura, julgue o item. Aquele que se omite em face das condutas descritas na lei de tortura, quando tinha o dever de evitá-las ou apurá-las incorre em crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[...]",
+    "§ 2º Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-447ae9f7ec2f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 1º, § 2º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 2º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 2º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Quanto à legislação a respeito do crime de tortura, é correto afirmar que aquele que se omite em face de conduta tipificada como crime de tortura, tendo o dever de evitá-la ou apurá-la, é punido com as mesmas penas do autor do crime de tortura."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[...]",
+    "Pena - reclusão, de dois a oito anos.",
+    "[...]",
+    "§ 2º Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-498ebfd72e19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 1º, §§ 2º e 7º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§§ 2º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, §§ 2º e 7º, Lei 9.455/97"
+    },
+    {
+     "lei": "tortura",
+     "art": "7",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, §§ 2º e 7º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir, com base nas Leis n.º 14.967/2024, n.º 13.445/2017, n.º 11.343/2006, n.º 9.455/1997 e n.º 8.069/1990. O condenado por crime de tortura, bem como aquele que se houver omitido em face das condutas que o caracterizam quando tinha o dever de evitá-las ou apurá- las, iniciará o cumprimento da pena em regime fechado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura: […]",
+    "§ 2º Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos. […]",
+    "§ 7º O condenado por crime previsto nesta Lei, salvo a hipótese do § 2º, iniciará o cumprimento da pena em regime fechado."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6ca9687db0bc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 1º, § 3º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 3º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 3º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Se no crime de tortura o resultado é a lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de seis a doze anos; se resulta morte, a reclusão é de oito a dezesseis anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7d2fb1dbafe4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 1º, § 3º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 3º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 3º, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Se do crime de tortura resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de seis a doze anos; se resulta morte, a reclusão é de doze a trinta anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de QUATRO a DEZ anos; se resulta morte, a reclusão é de OITO a DEZESSEIS anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e4b61604d20d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 1º, § 3º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 3º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 3º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Quanto à legislação a respeito do crime de tortura, é correto afirmar que não se aplica a lei de tortura se do fato definido como crime de tortura resultar a morte da vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2aea38aa1471",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 1º, § 3º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 3º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 3º, Lei 9.455/97"
+    }
+   ],
+   "banca": "AOCP",
+   "ano": "2018",
+   "cargo": "Agente Prisional",
+   "instituicao": "SUSIPE-PA",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Lei nº 9.455/1997, se do crime de tortura resultar lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9ace81245ded",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 1º, § 3º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 3º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 3º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FEPESE",
+   "ano": "2019",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SJC-SC",
+   "obs": "",
+   "enunciado": [
+    "A pena para o crime de tortura, quando resulta morte, é de reclusão de oito a doze anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º [...]",
+    "§ 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-882ab45d2064",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Se o crime de tortura é cometido por agente público, a pena é aumentada de 1/3 (um terço) até à metade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 4º Aumenta-se a pena de 1/6 até 1/3:",
+    "I - se o crime é cometido por agente público;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-815676e429f8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Se o crime de tortura é cometido contra maior de 60 (sessenta) anos aumenta-se a pena em de 1/3 (um terço) até à metade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 4º Aumenta-se a pena de 1/6 até 1/3:",
+    "[…]",
+    "II – se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-766fa516b9c4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Caso o crime de tortura seja cometido por agente público, aumenta-se a pena de um terço à metade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 4º Aumenta-se a pena de um sexto até um terço:",
+    "I - se o crime é cometido por agente público;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4156fa4bac06",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2018",
+   "cargo": "Agente de Segurança Penitenciário",
+   "instituicao": "SEAP-MG",
+   "obs": "",
+   "enunciado": [
+    "No crime de tortura, a pena aumenta de um sexto até um terço se o crime é cometido por agente público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 4º Aumenta-se a pena de um sexto até um terço:",
+    "I - se o crime é cometido por agente público;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a5633766439",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FEPESE",
+   "ano": "2019",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SJC-SC",
+   "obs": "",
+   "enunciado": [
+    "Analise a afirmativa abaixo com fundamento na Lei n° 9.455, de 7 de abril de 1997, que define os crimes de tortura e dá outras providências. Aumenta-se a pena do crime de tortura de um sexto até um terço se o crime é cometido mediante sequestro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 4º Aumenta-se a pena de um sexto até um terço:",
+    "III - se o crime é cometido mediante seqüestro."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-898b1e1c075b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A pena para o crime de tortura é aumentada de um sexto a um terço, se o crime é cometido por agente público ou se é cometido contra criança, gestante, portador de deficiência, adolescente ou mais de sessenta anos, ou ainda, se o crime é cometido mediante sequestro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 4º Aumenta-se a pena de um sexto até um terço:",
+    "I - se o crime é cometido por agente público;",
+    "II – se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos; '(Redação dada pela Lei nº 10.741, de 2003)",
+    "III - se o crime é cometido mediante seqüestro."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e03a4ffc713",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 1º, § 4º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 4º, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O agente público que pratica uma das condutas que caracterizam crimes de tortura terá a pena aumentada em dois terços."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 4º Aumenta-se a pena de um sexto até um terço:",
+    "I - se o crime é cometido por agente público;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2236d8cf57fa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 1º, § 4º, II, Lei 9.455/1997",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 4º, II",
+     "sigla": "Lei 9.455/1997",
+     "texto": "Art. 1º, § 4º, II, Lei 9.455/1997"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Uma das hipóteses de aumento da pena no crime de tortura ocorre se o delito é cometido contra gestante ou maior de 65 anos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º. [...]",
+    "§ 4º Aumenta-se a pena de um sexto até um terço:",
+    "[...]",
+    "II - se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos;"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3c3416011aee",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 1º, § 5º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 5º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 5º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2009",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PB",
+   "obs": "",
+   "enunciado": [
+    "Quanto à legislação a respeito do crime de tortura, é correto afirmar que a condenação por crime de tortura acarreta a perda do cargo, função ou emprego público, mas não a interdição para seu exercício."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-241c8e7cc1ca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 1º, § 5º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 5º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 5º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir. A condenação por delito previsto na Lei de Tortura acarreta, como efeito extrapenal automático da sentença condenatória, a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art.1º, § 5º - A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0cb52dcdf66d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 1º, § 5º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 5º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 5º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Analista Judiciário",
+   "instituicao": "STJ",
+   "obs": "",
+   "enunciado": [
+    "Tendo como referência a legislação penal extravagante e a jurisprudência das súmulas dos tribunais superiores, julgue o item que se segue. A condenação pela prática de crime de tortura acarretará a perda do cargo, função ou emprego público e a interdição para o seu exercício por prazo igual ao da pena aplicada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f34792618497",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 1º, § 5º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 5º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 5º, Lei 9.455/97"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Na hipótese de um servidor público ser condenado pelo crime de tortura qualificada pelo resultado morte a uma pena de doze anos de reclusão, referida condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício por trinta e seis anos"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-38cbaa8fa19d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 1º, § 5º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 5º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 5º, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O agente público condenado por crime de tortura perderá o cargo, função ou emprego público e sofrerá interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º [...]",
+    "§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fbeed9cca9d7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FEPESE",
+   "ano": "2019",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SJC-SC",
+   "obs": "",
+   "enunciado": [
+    "O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58b02799c75f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia - Prova Anulada",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Por força do § 6º do art. 1º da Lei de Tortura, o crime de tortura é inafiançável e insuscetível de graça e anistia."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2c4240d60d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "O crime de tortura é inafiançável, embora suscetível de graça ou anistia."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 6º O crime de tortura é inafiançável e INsuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5ab9dfb67566",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Nas situações previstas em lei, no crime de tortura, o juiz poderá arbitrar fiança."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7be0e198c0da",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2018",
+   "cargo": "Agente de Segurança Prisional",
+   "instituicao": "SEAP-MG",
+   "obs": "",
+   "enunciado": [
+    "A condenação deve acarretar a perda do cargo público e a interdição para seu exercício pelo triplo do prazo da pena aplicada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d5f884a112b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2018",
+   "cargo": "Agente de Segurança Prisional",
+   "instituicao": "SEAP-MG",
+   "obs": "",
+   "enunciado": [
+    "O crime de tortura é suscetível de anistia"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c5ae954d43c6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2018",
+   "cargo": "Agente de Segurança Prisional",
+   "instituicao": "SEAP-MG",
+   "obs": "",
+   "enunciado": [
+    "O crime de tortura é afiançável."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, § 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e8fadee33181",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei nº 9.455/1997 – Crimes de Tortura, é correto afirmar que o crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4349d1131cf6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei nº 9.455/1997, que define os crimes de tortura, julgue o item. O crime de tortura é inafiançável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º Constitui crime de tortura:",
+    "[...]",
+    "§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3b49275c0346",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 1º, § 6º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 6º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 6º, Lei 9.455/97"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O crime de tortura é insuscetível de fiança ou graça, mas é suscetível de anistia."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º [...]",
+    "§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2eb067197039",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 1º, § 7º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "1",
+     "disp": "§ 7º",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 1º, § 7º, Lei 9.455/97"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei nº 9.455/1997, que define os crimes de tortura, é correto afirmar que o condenado por crime previsto na lei de tortura iniciará o cumprimento da pena em regime fechado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º […]",
+    "§ 7º O condenado por crime previsto nesta Lei, salvo a hipótese do § 2º, iniciará o cumprimento da pena em regime fechado.",
+    "Complementando: RECURSO ORDINÁRIO EM HABEAS CORPUS. CRIME DE TORTURA. REGIME INICIAL FECHADO FIXADO EXCLUSIVAMENTE COM BASE NO ART. 1º, § 7º, DA LEI 9.455/97. INCONSTITUCIONALIDADE DECLARADA. RECONHECIMENTO DA ILEGALIDADE PELO TRIBUNAL DE ORIGEM. ALTERAÇÃO DO REGIME PARA O SEMIABERTO, COM FULCRO NO ART. 33 E PARÁGRAFOS DO CÓDIGO PENAL. REFORMATIO IN PEJUS. AUSÊNCIA. REPRIMENDA FINAL INFERIOR A 4 ANOS DE RECLUSÃO. REGIME INICIAL SEMIABERTO. CIRCUNSTÂNCIA JUDICIAL. AUSÊNCIA DE CONSTRANGIMENTO ILEGAL. RECURSO A QUE SE NEGA PROVIMENTO. 1. A obrigatoriedade do regime inicial fechado prevista na Lei do Crime de Tortura foi superada pela Suprema Corte, de modo que a mera natureza do crime não configura fundamentação idônea a justificar a fixação do regime mais gravoso para os condenados pela prática de crimes hediondos e equiparados. Para estabelecer o regime prisional, deve o magistrado avaliar o caso concreto, seguindo os parâmetros estabelecidos pelo artigo 33 e parágrafos do Código",
+    "Penal. 2. O regime inicial fechado foi fixado pelo Magistrado de primeiro grau com base, exclusivamente, no disposto pelo art. 1°, § 7°, da Lei n° 9.455/97, em manifesta contrariedade ao hodierno entendimento dos Tribunais Superiores. A Corte de origem, por sua vez, ao reconhecer a existência de flagrante ilegalidade na imposição do regime inicial fechado - diante da mera alusão ao § 7° do art. 1° da Lei n° 9.455/97 -, alterou o regime inicial para o semiaberto à luz do art. 33, §§ 2º e 3º, do Código Penal, o que não evidencia reformatio in pejus. 3. Nos termos do artigo 33 e 59 do Código Penal, fixada a pena em patamar inferior a 4 anos de reclusão, a estipulação do regime inicial semiaberto é apropriada, eis que existe circunstância judicial desfavorável, tanto que a pena-base foi fixada acima do mínimo legal. 4. Recurso ordinário em habeas corpus a que se nega provimento. (RHC 76.642/RN, Rel. Ministra MARIA THEREZA DE ASSIS MOURA, SEXTA TURMA, julgado em 11/10/2016, DJe 28/10/2016)"
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-31aea0c2bcbe",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 2º, Lei 9.455/97",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 9.455/97",
+     "texto": "Art. 2º, Lei 9.455/97"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2020",
+   "cargo": "Analista Ministerial",
+   "instituicao": "MPE-CE",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Lei de Crimes de Tortura (Lei n.º 9.455/1997), julgue o próximo item. A Lei de Crimes de Tortura, ao prever sua incidência mesmo sobre crimes que tenham sido cometidos fora do território nacional, estabelece hipótese de extraterritorialidade incondicionada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º O disposto nesta Lei aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36bfb26805d1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 2º, Lei 9.455/1997",
+   "refs": [
+    {
+     "lei": "tortura",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 9.455/1997",
+     "texto": "Art. 2º, Lei 9.455/1997"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "A Lei de Tortura aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º O disposto nesta Lei aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira."
+   ],
+   "vinculo": {
+    "lei": "tortura",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "leis Especiais",
+  "Lei de Tortura"
+ ]
+}
