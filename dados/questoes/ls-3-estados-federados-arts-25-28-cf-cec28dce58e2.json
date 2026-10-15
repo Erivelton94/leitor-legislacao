@@ -1,0 +1,2529 @@
+{
+ "id": "ls-3-estados-federados-arts-25-28-cf-cec28dce58e2",
+ "titulo": "3  Estados Federados (Arts. 25 - 28, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-915a733dfb11",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 25, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 25, CF"
+    }
+   ],
+   "banca": "ACAFE",
+   "ano": "2014",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios da Constituição Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b0653be0e135",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 25, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 25, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "O poder constituinte decorrente, previsto pela Constituição Federal, refere-se à competência dos Estados de criarem suas próprias Constituições, desde que observados os princípios da Constituição Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b3a4872ac1e3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 25, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 25, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Após cumprimento de todas as formalidades constitucionais e legais exigíveis, o Estado Alfa se desmembra (desmembramento por formação), ocasionando o surgimento de um novo Estado-membro: o Estado Beta. Preocupados com a possibilidade de isso influenciar nas grandes decisões políticas regionais, um grupo de cidadãos inicia um movimento exigindo a imediata elaboração de uma Constituição para o novo Estado Beta.",
+    "Os líderes políticos locais, sem maiores conhecimentos sobre a temática, buscam assessoramento jurídico junto a advogados constitucionalistas, sendo-lhes corretamente informado que, segundo a inteligência do sistema jurídico- constitucional brasileiro, pelo fato de o Estado Beta ter sido reconhecido como um ente federado autônomo, passa a ter poderes para se estruturar por meio de uma Constituição, que deverá observar o princípio da simetria, conforme os padrões fixados na Constituição Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b716212c0244",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 25, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLV Exame Nacional Unificado",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Carlos Frederico, Deputado Estadual no Estado Alfa, apresentou projeto de lei que versa sobre tema que, embora considerado de grande relevância, não se enquadra no rol de matérias de competência legislativa expressa de qualquer dos entes federativos (União, Estados, Distrito Federal e Municípios).",
+    "Por essa razão, alguns dos seus colegas deputados suscitaram a possível incompetência da Assembleia Legislativa de Alfa para legislar sobre o tema. Para esclarecer a dúvida, o Procurador-Geral da Assembleia Legislativa foi chamado a se manifestar.",
+    "O item a seguir apresenta, segundo o sistema jurídico- constitucional brasileiro, o esclarecimento prestado.",
+    "A Assembleia Legislativa do Estado Alfa pode legislar sobre a matéria."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 1º - São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-94020785209b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 25, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 1º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Analista Legislativo - Processo Legislativo",
+   "instituicao": "ALESE",
+   "obs": "",
+   "enunciado": [
+    "São reservadas aos Estados as competências que não lhes sejam vedadas pela Constituição da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. [...]",
+    "§ 1º São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-743bb56db252",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 25, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com base nas disposições constitucionais acerca da organização político-administrativa do Estado, da administração pública, e dos Poderes Executivo e Legislativo, julgue o item a seguir.",
+    "No sistema constitucional de repartição de competências, são reservadas à União as competências que não lhe sejam vedadas pela CF e que não tenham sido atribuídas a estados e municípios."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 1º - São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-28b333e415fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 25, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLV Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Carlos Frederico, Deputado Estadual no Estado Alfa, apresentou projeto de lei que versa sobre tema que, embora considerado de grande relevância, não se enquadra no rol de matérias de competência legislativa expressa de qualquer dos entes federativos (União, Estados, Distrito Federal e Municípios). Por essa razão, alguns dos seus colegas deputados suscitaram possível incompetência da Assembleia Legislativa de Alfa para legislar sobre o tema. Para esclarecer a dúvida, o Procurador-Geral da Assembleia Legislativa foi chamado a se manifestar. O item a seguir apresenta, segundo o sistema jurídico- constitucional brasileiro, o esclarecimento prestado. Assembleia Legislativa do Estado Alfa pode legislar sobre a matéria."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição.",
+    "§ 1º São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c889d7a8585",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 25, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PE",
+   "obs": "",
+   "enunciado": [
+    "Na repartição de competências não tributárias, as competências que a CF não tenha atribuído à União ou aos municípios cabem, em princípio, aos estados-membros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 1º São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-39c76eb6a9f5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista da Defensoria Pública - Administração",
+   "instituicao": "DPE-RO",
+   "obs": "",
+   "enunciado": [
+    "A Defensoria Pública do Estado Alfa foi procurada por um assistido, o qual relatou a má qualidade do serviço local de gás canalizado, o que vinha causando sérios embaraços na rotina de sua família.",
+    "Com o objetivo de verificar as medidas a serem adotadas, o Defensor Público com atribuição decidiu identificar o ente federativo responsável pela prestação do referido serviço, tendo concluído corretamente que é o Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º - Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e4a1e7753e85",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2010",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRE-AL",
+   "obs": "",
+   "enunciado": [
+    "Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. [...]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5761d7e5c89b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "O secretário de Infraestrutura do Estado Beta, logo após ser empossado, solicitou que sua assessoria elaborasse edital de licitação com o objetivo de realizar a concessão do serviço local de gás canalizado, de modo a viabilizar a sua exploração por uma sociedade empresária. Essa forma de exploração, ao ver do secretário, tenderia a alcançar maiores níveis de eficiência, considerando a maior mobilidade do setor privado. Considerando os balizamentos oferecidos pela narrativa e a sistemática constitucional, é correto afirmar que o referido serviço local pode ser explorado indiretamente por Beta, sob o regime de concessão, como cogitado;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição.",
+    "[...]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f279f10561e5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Assistente de Suporte Acadêmico III",
+   "instituicao": "UNESP",
+   "obs": "",
+   "enunciado": [
+    "A respeito da Organização do Estado, julgue o item de acordo com o disposto na Constituição Federal. Cabe aos Estados explorar diretamente, ou mediante permissão, os serviços locais de gás canalizado, sendo obrigatória a edição de lei complementar para a sua regulamentação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º - Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-487ee3f5b10b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "AOCP",
+   "ano": "2021",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Os serviços locais de gás canalizado serão explorados, na forma da lei, pelos Estados, diretamente ou mediante concessão, podendo ser regulada a sua exploração por meio de medida provisória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição.",
+    "[...]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-189f9c6b65c9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público da União - Polícia Institucional",
+   "instituicao": "MPU",
+   "obs": "",
+   "enunciado": [
+    "A organização não governamental Alfa, cujo objeto social é o apoio às iniciativas governamentais de interesse público, almeja submeter à autoridade competente, a título de colaboração, sugestões de aperfeiçoamento do serviço local de gás canalizado, observadas as diretrizes estabelecidas pela Agência Nacional do Petróleo.",
+    "Após analisar a sistemática constitucional, os dirigentes de Alfa concluíram, corretamente, que a referida autoridade está vinculada ao estado que explora o serviço."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º - Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-749a17c5ac19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2024",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "O federalismo brasileiro é cooperativo, visto que a divisão de competências não é rígida, havendo competências comuns e concorrentes entre União, Estados, Distrito Federal e Municípios. (PALUDO, A. Administração pública. 3 ed. Rio de Janeiro: Elsevier, 2013.)",
+    "Considerando as competências de cada um dos entes da federação presentes na Constituição Federal de 1988, julgue o item a seguir.",
+    "Compete aos Municípios explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. […]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ea22da3db0fc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FUMARC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "A competência para a explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado é do estados-membros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. […]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-26100c24f52c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "Como é cediço, os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios insculpidos no texto constitucional.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º - Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-100890046478",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição da República Federativa do Brasil, compete aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação. (Redação dada pela Emenda Constitucional nº 5, de 1995)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40663f2732b3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz do Trabalho",
+   "instituicao": "TST",
+   "obs": "",
+   "enunciado": [
+    "Quanto aos serviços públicos, considerando o disposto na Constituição da República de 1988 e o entendimento do Supremo Tribunal Federal, é correto afirmar que o serviço de distribuição de gás canalizado é privativo dos Estados, que podem explorá-lo diretamente ou mediante concessão, sendo vedada a sua regulamentação por medida provisória."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25 […]",
+    "§ 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e753004a4b16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 25, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 2º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização do Estado, consoante disposto na Constituição Federal de 1988, julgue o item a seguir.",
+    "Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, facultada a edição de medida provisória para sua regulamentação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 2º - Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-850fca522ad3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STJ",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir, referente à organização político- administrativa dos estados-membros e a disposições gerais da CF acerca da administração pública.",
+    "Os estados-membros podem instituir aglomerações urbanas e microrregiões mediante lei complementar, mas não regiões metropolitanas, já que a criação destas últimas depende de decisão de cada município."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. [...]",
+    "§ 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0fb1d44c8e6f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Procurador Federal",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "A fim de integrar a organização, o planejamento e a execução de funções públicas de interesse comum, o Poder Executivo estadual pode, mediante ato administrativo, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. [...]",
+    "§ 3º Os Estados poderão, mediante LEI COMPLEMENTAR, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-444f993effc8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "AOCP",
+   "ano": "2021",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que a Constituição de 1988 atribuiu aos Estados a competência para instituir as regiões metropolitanas, aglomerações urbanas e as microrregiões."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição.",
+    "[...]",
+    "§ 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e6cd495bc8a3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PB",
+   "obs": "",
+   "enunciado": [
+    "A respeito de competência legislativa em matéria ambiental, julgue o item seguinte. Os estados têm competência privativa para legislar sobre a criação de regiões metropolitanas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25 […]",
+    "§ 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3cfc40fb615c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista - Ouvidoria",
+   "instituicao": "ARES-PCJ",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o disposto na Constituição Federal de 1988, a instituição de (1) regiões metropolitanas e de (2) microrregiões urbanas, ambas situadas dentro de um único estado da federação é atribuição dos Estados, mediante lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º - Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-85e0ef600030",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "Como é cediço, os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios insculpidos no texto constitucional.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "Os Estados poderão, mediante lei ordinária específica, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º - Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c9e32d652999",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2006",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "NA FEDERAÇÃO BRASILEIRA, OS ESTADOS-MEMBROS: poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e micro-regiões. constituídas por agrupamentos de Municípios limítrofes, para integrar a organização. o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bd63b45bbd7f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2017",
+   "cargo": "XXIII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Estado Alfa, com o objetivo de articular a prestação dos serviços de saneamento básico entre municípios limítrofes, instituiu uma região metropolitana, de modo a promover a organização, o planejamento e a execução de tais atividades de interesse comum. Acerca da criação de regiões metropolitanas para a realização de serviços públicos, julgue o item a seguir. A instituição de região metropolitana para a organização, o planejamento e a execução dos serviços públicos é de competência do Estado Alfa, por meio de lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-88382f341606",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "A respeito da organização do Estado brasileiro, é correto afirmar que Lei complementar estadual pode criar região metropolitana, constituída por aglomeração de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25 […]",
+    "§ 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c54f69d1056c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "AGE-MG",
+   "obs": "",
+   "enunciado": [
+    "O Estado Alfa editou a Lei Complementar nº XX, criando região metropolitana constituída pelos Municípios A, B, C, D e E, que passaria a atuar como poder concedente do serviço público de interesse comum desses Municípios. O poder decisório, por sua vez, foi situado em um colegiado integrado por Alfa e pelos referidos Municípios. Esse diploma normativo gerou grande insatisfação entre os Municípios, que não foram consultados em nenhum momento e se viram obrigados à gestão coletiva de um serviço público à margem de qualquer manifestação de vontade. À luz desse quadro, a Lei Complementar nº XX é constitucional, pois trata-se de serviço de interesse metropolitano, o Estado tem competência para legislar sobre a matéria, e não há óbice à sua participação no colegiado competente para as deliberações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25. Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição. […]",
+    "§ 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-16f5906b6482",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 25, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 25, § 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal de Receita Estadual",
+   "instituicao": "SEFAZ-SP",
+   "obs": "",
+   "enunciado": [
+    "Suponha que lei estadual institua região metropolitana, constituída por agrupamento de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum, prevendo: (1) a criação de conselho de caráter deliberativo e normativo, assegurada neste a participação paritária do conjunto dos Municípios, com relação ao Estado; e (2) que o planejamento do transporte coletivo de caráter regional será realizado pelo Estado, em conjunto com os Municípios integrantes da região.",
+    "Considerados esses elementos à luz da Constituição Federal e da Constituição do Estado de São Paulo, referida lei será constitucional, desde que se trate de lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º - Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-831eb169996f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 25, § 3º c/c Art. 30, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "25",
+     "disp": "§ 3º",
+     "sigla": "",
+     "texto": "Art. 25, § 3º"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "30",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 30, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a disciplina constitucional atinente à organização político-administrativa da República brasileira, os Municípios poderão, mediante lei complementar, instituir aglomerações urbanas e microrregiões, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum, bem como criar, organizar e suprimir distritos, observada a legislação estadual."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 25, § 3º - Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum.",
+    "Art. 30 - Compete aos Municípios:",
+    "[...]",
+    "IV - criar, organizar e suprimir distritos, observada a legislação estadual;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "25",
+    "ate": "25"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-92982e2f163f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 26, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 26, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Agente de Apoio - Administrativa",
+   "instituicao": "MPE-ES",
+   "obs": "",
+   "enunciado": [
+    "Foi constatada a existência de uma grande quantidade de águas subterrâneas em depósito, na localidade X, o que decorreu de causas naturais. Em razão dessas circunstâncias, surgiram dúvidas em relação ao ente federativo que iria titularizar esse bem, com reflexos na forma como poderia ser explorado. É correto afirmar que o referido bem, na perspectiva constitucional, pertence à União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26. Incluem-se entre os bens dos Estados:",
+    "I - as águas superficiais ou subterrâneas, fluentes, emergentes e em depósito, ressalvadas, neste caso, na forma da lei, as decorrentes de obras da União;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a9bbfc6a8d59",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 26, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 26, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à organização político-administrativa do Estado, à administração pública e à organização dos Poderes, julgue o próximo item, com base na CF e no entendimento jurisprudencial do STF.",
+    "Pertencem aos estados as áreas, nas ilhas oceânicas e costeiras, que estiverem em seu domínio, excluídas aquelas sob domínio da União, dos municípios ou de terceiros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - Incluem-se entre os bens dos Estados:",
+    "[...]",
+    "II - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ad6cae0a4735",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 26, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 26, II, CF"
+    }
+   ],
+   "banca": "PGE-GO",
+   "ano": "2013",
+   "cargo": "Procurador do Estado",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, são bens dos Estados as áreas, nas ilhas oceânicas e costeiras, sob o seu domínio, excluídas aquelas sob domínio da União, municípios ou terceiros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26. Incluem-se entre os bens dos Estados:",
+    "[...]",
+    "II - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b09db4f920e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 26, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 26, II, CF"
+    }
+   ],
+   "banca": "TRF - 3ª REGIÃO",
+   "ano": "2013",
+   "cargo": "Juiz Federal Substituto",
+   "instituicao": "TRF - 3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Incluem-se entre os bens dos Estados as áreas nas ilhas oceânicas e costeiras que estiverem sob seu domínio, excluídas as que forem da União, dos Municípios ou que pertençam a particulares"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26. Incluem-se entre os bens dos Estados:",
+    "[...]",
+    "II - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df92162a0e49",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 26, II e III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "II e III",
+     "sigla": "CF",
+     "texto": "Art. 26, II e III, CF"
+    }
+   ],
+   "banca": "2013 CESPE/CEBRASPE - PROCURADOR FEDERAL (AGU)",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos terrenos de marinha e das águas públicas, julgue os itens que se seguem. À União pertence o domínio das águas públicas e das ilhas fluviais, lacustres e oceânicas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26. Incluem-se entre os bens dos Estados:",
+    "I - as águas superficiais ou subterrâneas, fluentes, emergentes e em depósito, ressalvadas, neste caso, na forma da lei, as decorrentes de obras da União;",
+    "II - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;",
+    "III - as ilhas fluviais e lacustres não per tencentes à União;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9126d46adc1f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 26, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "26",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 26, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "Como é cediço, os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios insculpidos no texto constitucional.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "Incluem-se entre os bens dos Estados as terras devolutas não compreendidas entre as da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 26 - Incluem-se entre os bens dos Estados:",
+    "[...]",
+    "IV - as terras devolutas não compreendidas entre as da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "26",
+    "ate": "26"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8c09fd2b0317",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 27, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 27, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Quanto aos Estados Federados, estabelece a Constituição Federal, nos seus artigos 25 a 28, que o número de Deputados à Assembleia Legislativa corresponderá ao dobro da representação do Estado na Câmara dos Deputados e, atingido o número de vinte e cinco, será acrescido de tantos quantos forem os Deputados Federais acima de quinze."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-63c7c4b8ff5a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 27, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 27, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRE-AP",
+   "obs": "",
+   "enunciado": [
+    "O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1bc1d81cf368",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 27, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 27, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Procurador",
+   "instituicao": "ALERR",
+   "obs": "",
+   "enunciado": [
+    "Nas eleições em geral, o número de cadeiras em disputa em uma determinada circunscrição (magnitude do distrito) constitui um dos elementos mais importantes da definição de um determinado sistema eleitoral. No Brasil, os distritos eleitorais para as eleições de Deputados correspondem aos territórios dos Estados, do Distrito Federal e de eventuais territórios. Acerca do número de Deputados Federais, é correto afirmar, à luz da Constituição, que o número de Deputados Federais por Estado e para o Distrito Federal influencia no número de Deputados Estaduais e Distritais, o qual será correspondente ao triplo da representação do Estado na Câmara Federal e, atingido o número de trinta e três, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f2ea304d09e6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 27, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 27, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da organização do Estado, consoante disposto na Constituição Federal de 1988, julgue o item a seguir.",
+    "O número de Deputados à Assembleia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27 - O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0c1a94a179da",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 27, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRE-MS",
+   "obs": "",
+   "enunciado": [
+    "Ao mandato dos deputados estaduais aplicam-se as regras da CF quanto ao sistema eleitoral, inviolabilidade, imunidades, remuneração, perda de mandato, licença, impedimentos e incorporação às Forças Armadas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. [...]",
+    "§ 1º Será de quatro anos o mandato dos Deputados Estaduais, aplicando- sê-lhes as regras desta Constituição sobre sistema eleitoral, inviolabilidade, imunidades, remuneração, perda de mandato, licença, impedimentos e incorporação às Forças Armadas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d1c67f5cfca6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 27, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "O mandato dos Deputados Estaduais será de quatro anos, sendo-lhes aplicáveis as regras previstas na Constituição Federal relativas ao sistema eleitoral, à inviolabilidade, às imunidades, à remuneração, à perda de mandato, à licença, aos impedimentos e à incorporação às Forças Armadas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27, § 1º - Será de quatro anos o mandato dos Deputados Estaduais, aplicando- sê-lhes as regras desta Constituição sobre sistema eleitoral, inviolabilidade, imunidades, remuneração, perda de mandato, licença, impedimentos e incorporação às Forças Armadas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-72b0b74bef71",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 27, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 2º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O subsídio dos Deputados Estaduais será fixado por lei de iniciativa do Governador de Estado, na razão de, no máximo 65% (sessenta e cinco por cento) daquele estabelecido, em espécie, para os Deputados Federais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. [...]",
+    "§ 2º O subsídio dos Deputados Estaduais será fixado por lei de iniciativa da Assembléia Legislativa, na razão de, no máximo, setenta e cinco por cento daquele estabelecido, em espécie, para os Deputados Federais, observado o que dispõem os arts. 39, § 4º, 57, § 7º, 150, II, 153, III, e 153, § 2º, I."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dab9364e00fd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 27, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 3º, CF"
+    }
+   ],
+   "banca": "TJ-SC",
+   "ano": "2010",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Compete às Assembleias Legislativas dispor sobre seu regimento interno, polícia e serviços administrativos de sua secretaria, e prover os respectivos cargos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. [...]",
+    "§ 3º Compete às Assembléias Legislativas dispor sobre seu regimento interno, polícia e serviços administrativos de sua secretaria, e prover os respectivos cargos."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f1d93390f4b2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 27, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, os Estados organizam-se e regem-se pelas constituições e leis que adotarem, observados os princípios do texto constitucional. Ademais, estabeleceu-se que o número de Deputados da Assembleia Legislativa corresponderá, como regra, ao triplo da representação do Estado na Câmara dos Deputados. A esse respeito, considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "Caberá às Assembleias Legislativas organizar o seu regimento interno, a polícia e os serviços administrativos de sua secretaria, bem como prover os cargos respectivos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze.",
+    "[...]",
+    "§ 3º Compete às Assembléias Legislativas dispor sobre seu regimento interno, polícia e serviços administrativos de sua secretaria, e prover os respectivos cargos."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c97d9bb9a277",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 27, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Um grupo de Deputados Estaduais, da Assembleia Legislativa do Estado Alfa, levou ao presidente dessa Casa Legislativa a preocupação com a necessidade de serem aperfeiçoadas a estrutura e a governança interna, de modo a aumentar a eficiência da atuação finalística. Para a realização desse objetivo, o grupo almejava criar cargos de provimento efetivo. Ao ouvir as ponderações do grupo, o presidente, com base na simetria constitucional, observou corretamente que a criação de cargos de provimento efetivo na Assembleia Legislativa do Estado Alfa exige a edição de lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. [...]",
+    "§ 3º Compete às Assembléias Legislativas dispor sobre seu regimento interno, polícia e serviços administrativos de sua secretaria, e prover os respectivos cargos."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-503d99db638b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 27, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2013",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Segundo a Constituição Federal brasileira, a iniciativa popular é exercida no âmbito estadual, nos termos que a lei dispuser sobre a iniciativa popular no processo legislativo estadual."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. [...]",
+    "§ 4º A lei disporá sobre a iniciativa popular no processo legislativo estadual."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dcf0184f9642",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 27, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 27, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal, julgue o item a seguir.",
+    "Lei complementar estadual disporá sobre a iniciativa popular no processo legislativo estadual."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27, § 4º - A lei disporá sobre a iniciativa popular no processo legislativo estadual."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a094294a3fb6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 28, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "28",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 28, CF"
+    }
+   ],
+   "banca": "CETRO",
+   "ano": "2010",
+   "cargo": "Técnico Administrativo",
+   "instituicao": "ANVISA",
+   "obs": "",
+   "enunciado": [
+    "A eleição do Governador e do Vice-Governador de Estado, para mandato de quatro anos, realizar-se-á no segundo domingo de outubro, em primeiro turno, e no primeiro domingo de novembro, em segundo turno, se houver, do ano anterior ao do término do mandato de seus antecessores, e a posse ocorrerá em primeiro de janeiro do ano subsequente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28 A eleição do Governador e do Vice-Governador de Estado, para mandato de 4 (quatro) anos, realizar-se-á no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato de seus antecessores, e a posse ocorrerá em 6 de janeiro do ano subsequente, observado, quanto ao mais, o disposto no art. 77 desta Constituição. (Redação dada pela Emenda Constitucional 111/2021)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c7ada71f4b04",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 28, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "28",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 28, § 2º, CF"
+    }
+   ],
+   "banca": "FUNDEP",
+   "ano": "2011",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Os subsídios do Governador, do Vice-Governador e dos Secretários de Estado serão fixados por lei de iniciativa do Presidente da República, observado o que dispõem os arts. 37, XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 28. [...]",
+    "§ 2º Os subsídios do Governador, do Vice-Governador e dos Secretários de Estado serão fixados por lei de iniciativa da Assembléia Legislativa, observado o que dispõem os arts. 37, XI, 39,",
+    "§ 4º, 150, II, 153, III, e 153, § 2º, I."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "28",
+    "ate": "28"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7e02589eb70f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 27, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "27",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 27, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-ES",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item em relação à organização político-administrativa da União, dos estados, do Distrito Federal e dos municípios. A previsão do número de deputados estaduais é considerada um princípio estabelecido, pois a própria Constituição Federal de 1988 estabelece o número de deputados estaduais com base no número de deputados federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 27. O número de Deputados à Assembléia Legislativa corresponderá ao triplo da representação do Estado na Câmara dos Deputados e, atingido o número de trinta e seis, será acrescido de tantos quantos forem os Deputados Federais acima de doze."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "27",
+    "ate": "27"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "3 Organização do Estado (Arts. 18 - 43, CF)"
+ ]
+}
