@@ -1,0 +1,1246 @@
+{
+ "id": "ls-2-forcas-armadas-arts-142-e-143-cf-434842251328",
+ "titulo": "2 Forças Armadas (Arts. 142 e 143, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-1adb4af24c19",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 142, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 142, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Oficial do Corpo de Bombeiros",
+   "instituicao": "CBM-PA",
+   "obs": "",
+   "enunciado": [
+    "As Forças Armadas são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à segurança pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b1734ea8b364",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 142, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 142, CF"
+    }
+   ],
+   "banca": "EXÉRCITO",
+   "ano": "2015",
+   "cargo": "Oficial",
+   "instituicao": "ESFCEX",
+   "obs": "",
+   "enunciado": [
+    "As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Ministro da Defesa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do PRESIDENTE DA REPÚBLICA, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9560c194067b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 142, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 142, II, CF"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros Provimento",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "O militar em atividade que tomar posse em cargo público permanente será imediatamente exonerado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "II - o militar em atividade que tomar posse em cargo ou emprego público civil permanente, ressalvada a hipótese prevista no art. 37, inciso XVI, alínea \"c\", será transferido para a reserva, nos termos da lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b23936fdde51",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 142, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 142, IV, CF"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Ao militar é permitida a sindicalização, sendo vedada, contudo, a greve."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2c6206bc5361",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 142, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 142, V, CF"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "É vedada ao militar, em serviço ativo, a filiação partidária, salvo se esta tiver ocorrido em momento anterior ao ingresso dele nas Forças Armadas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "V - o militar, enquanto em serviço ativo, não pode estar filiado a partidos políticos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1d28d419752e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 142, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 1º, CF"
+    }
+   ],
+   "banca": "FUNDAÇÃO SOUSÂNDRADE",
+   "ano": "2010",
+   "cargo": "Aspirante do Corpo de Bombeiro",
+   "instituicao": "CBM-GO",
+   "obs": "",
+   "enunciado": [
+    "Lei complementar estabelecerá as normas gerais a serem adotadas na organização, no preparo e no emprego das Forças Armadas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 1º Lei complementar estabelecerá as normas gerais a serem adotadas na organização, no preparo e no emprego das Forças Armadas."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fdfbdd245ec1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2022",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-TO",
+   "obs": "",
+   "enunciado": [
+    "Conceder-se-á habeas-corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder, inclusive em relação a punições disciplinares administrativas e militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142, § 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-00ce837f1e65",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "TRT - 8ª REGIÃO",
+   "ano": "2012",
+   "cargo": "Juiz do Trabalho Substituto",
+   "instituicao": "TRT - 8ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, não caberá habeas corpus em relação a punições disciplinares militares"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a45bdc856011",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem. Considerando o previsto na Constituição Federal de 1988, julgue o item. Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7e23f9ab7854",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos direitos e às garantias fundamentais, julgue o item seguinte, de acordo com a Constituição Federal de 1988 (CF) e, no que couber, com a jurisprudência do STF.",
+    "Não cabe impetração de habeas corpus em face de punições disciplinares militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142, § 2º - Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d3fc1d13913a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Não cabe Habeas Corpus em relação a punições disciplinares militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd643a13a9b2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SUSEPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao habeas corpus, é correto afirmar que não cabe em relação a punições disciplinares militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. […]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares. […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1ddbec02aa47",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 142, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições constitucionais sobre as forças armadas, julgue o item. Caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-869655bc23d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 142, § 2º, CF e S.V. 6",
+   "refs": [
+    {
+     "lei": null,
+     "art": "142",
+     "disp": "§ 2º, CF e S.V. 6",
+     "sigla": "",
+     "texto": "Art. 142, § 2º, CF e S.V. 6"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2020",
+   "cargo": "XXXI Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "João dos Santos foi selecionado para atuar como praça prestadora de serviço militar inicial, fato que lhe permitirá ser o principal responsável pelos meios de subsistência de sua família. No entanto, ficou indignado ao saber que sua remuneração será inferior ao salário mínimo, contrariando o texto constitucional, insculpido no Art. 7º, inciso IV, da CRFB/88. Desesperado com tal situação, João entrou no gabinete do seu comandante e o questionou, de forma ríspida e descortês, acerca dessa remuneração supostamente inconstitucional, sofrendo, em consequência dessa conduta, punição administrativo-disciplinar de prisão por 5 dias, nos termos da legislação pertinente. Desolada, a família de João procurou um advogado para saber sobre a constitucionalidade da remuneração inferior ao salário mínimo, bem como da possibilidade de a prisão ser relaxada por ordem judicial. Nessas circunstâncias, nos termos do direito constitucional brasileiro e da jurisprudência do STF, julgue o item a seguir. A remuneração inferior ao salário mínimo para as praças prestadoras de serviço militar inicial não viola a Constituição de 1988, bem como não cabe habeas corpus em relação às punições disciplinares militares, exceto para análise de pressupostos de legalidade, excluída a apreciação de questões referentes ao mérito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Súmula Vinculante nº 6 - Não viola a Constituição o estabelecimento de remuneração inferior ao salário mínimo para as praças prestadoras de serviço militar inicial.",
+    "Art. 142 […]",
+    "§ 2º Não caberá habeas corpus em relação a punições disciplinares militares."
+   ],
+   "vinculo": null,
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7aaf89b9af74",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 142, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, CF"
+    }
+   ],
+   "banca": "ACAFE",
+   "ano": "2014",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Os membros das Forças Armadas são denominados militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-00c74ec39b9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 142, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, CF"
+    }
+   ],
+   "banca": "MARINHA",
+   "ano": "2017",
+   "cargo": "Oficial Temporário - Oficiais de 2° Classe",
+   "instituicao": "COMANDO DO 3º DISTRITO NAVAL-RN",
+   "obs": "",
+   "enunciado": [
+    "As patentes, com prerrogativas, direitos e deveres a elas inerentes são asseguradas em plenitude apenas aos oficiais da ativa, sendo-lhes privativos os títulos e postos militares e o uso dos uniformes das Forças Armadas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes [...] as seguintes disposições:",
+    "I - as patentes, com prerrogativas, direitos e deveres a elas inerentes, são conferidas pelo Presidente da República e asseguradas em plenitude aos OFICIAIS DA ATIVA, DA RESERVA OU REFORMADOS, sendo-lhes privativos os títulos e postos militares e, juntamente com os demais membros, o uso dos uniformes das Forças Armadas;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2c4ca65b48d4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 142, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registro - Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Ao militar, é permitido o direito à sindicalização, mas vedado o direito à greve."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:",
+    "[...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4413ef827f9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 142, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Oficial Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos Sindicatos, observada a legislação nacional a respeito da matéria, é correto afirmar que não há vedação à sindicalização dos militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142 [...]",
+    "§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:",
+    "[...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3091205977cd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 142, § 3°, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3°, IV",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3°, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "Ao dispor em matéria de servidores públicos titulares de cargos efetivos e de policiais militares, a Constituição Federal assegura a ambas as categorias os direitos de sindicalização e de greve, na forma da lei, devendo, no último caso, ser garantida a continuidade da prestação de serviços públicos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 3° Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:",
+    "[...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-98973161958c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 142, § 3º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º, IV",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, IV, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições constitucionais sobre as forças armadas, julgue o item. Ao militar é permitida a sindicalização."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. [...]",
+    "§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:",
+    "[...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-221452166648",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 142, § 3º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "§ 3º, IV",
+     "sigla": "CF",
+     "texto": "Art. 142, § 3º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Oficial do Corpo de Bombeiros",
+   "instituicao": "CBM-PA",
+   "obs": "",
+   "enunciado": [
+    "Aos militares das Forças Armadas é proibida a greve, mas não a sindicalização."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142, § 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições: (Incluído pela Emenda Constitucional nº 18, de 1998)",
+    "[...]",
+    "IV - ao militar são proibidas a sindicalização e a greve;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d57f20b5882f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 143, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "143",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 143, § 1º, CF"
+    }
+   ],
+   "banca": "MARINHA",
+   "ano": "2016",
+   "cargo": "Oficial de 2ª Classe",
+   "instituicao": "COMANDO DO 5º DISTRITO NAVAL",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição da República Federativa do Brasil, o serviço militar é obrigatório nos termos da lei. Sendo assim, é correto afirmar que às Forças armadas compete, na forma da lei, atribuir serviço alternativo aos que, em tempo de paz, após alistados, alegarem imperativo de consciência, entendendo-se como tal o decorrente de crença religiosa e de convicção filosófica ou política, para se eximirem de atividades de caráter essencialmente administrativo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 143. O serviço militar é obrigatório nos termos da lei.",
+    "§ 1º Às Forças Armadas compete, na forma da lei, atribuir serviço alternativo aos que, em tempo de paz, após alistados, alegarem imperativo de consciência, entendendo-se como tal o decorrente de crença religiosa e de convicção filosófica ou política, para se eximirem de atividades de caráter essencialmente MILITAR."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "143",
+    "ate": "143"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-32178180c46e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 143, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "143",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 143, § 2º, CF"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "As mulheres, a partir da CF/88, não são mais isentas do serviço militar obrigatório em tempo de paz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 143 [...]",
+    "§ 2º As mulheres e os eclesiásticos ficam isentos do serviço militar obrigatório em tempo de paz, sujeitos, porém, a outros encargos que a lei lhes atribuir."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "143",
+    "ate": "143"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b9404f2012ca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 143, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "143",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 143, § 2º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Em tempo de paz, o serviço militar é obrigatório nos termos da lei, inclusive aos eclesiásticos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 143. [...]",
+    "§ 2º As mulheres e os eclesiásticos FICAM ISENTOS do serviço militar obrigatório em tempo de paz, sujeitos, porém, a outros encargos que a lei lhes atribuir."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "143",
+    "ate": "143"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35aae5a7c8fc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 143, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "143",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 143, § 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições constitucionais sobre as forças armadas, julgue o item. Os eclesiásticos não estão isentos do serviço militar obrigatório em tempo de paz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 143. O serviço militar é obrigatório nos termos da lei.",
+    "[...]",
+    "§ 2º - As mulheres e os eclesiásticos ficam isentos do serviço militar obrigatório em tempo de paz, sujeitos, porém, a outros encargos que a lei lhes atribuir."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "143",
+    "ate": "143"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8ab22a29ff9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 142, VI e VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "142",
+     "disp": "VI e VII",
+     "sigla": "CF",
+     "texto": "Art. 142, VI e VII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "João, oficial da Força Armada brasileira, após regular processo judicial, no qual lhe foram asseguradas as garantias do contraditório e da ampla defesa, foi condenado à pena privativa de liberdade de 2 (dois) anos e 2 (dois) meses, tendo a respectiva sentença transitado em julgado. À luz da sistemática estabelecida na Constituição da República, é correto afirmar que a pena privativa de liberdade aplicada a João não acarreta a perda do posto e da patente e não permite que um tribunal militar venha a avaliar a conveniência de adotar essas medidas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 142. As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem.",
+    "[...]",
+    "VI - o oficial só perderá o posto e a patente se for julgado indigno do oficialato ou com ele incompatível, por decisão de tribunal militar de caráter permanente, em tempo de paz, ou de tribunal especial, em tempo de guerra; (Incluído pela Emenda Constitucional nº 18, de 1998)",
+    "VII - o oficial condenado na justiça comum ou militar a pena privativa de liberdade superior a dois anos, por sentença transitada em julgado, será submetido ao julgamento previsto no inciso anterior;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "142",
+    "ate": "142"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "5 Defesa do Estado e das Instituições Democráticas (Arts. 136 - 144, CF)"
+ ]
+}
