@@ -1,0 +1,2369 @@
+{
+ "id": "ls-1-assunto-disposicoes-preliminares-arts--cf19bf77c999",
+ "titulo": "1 Assunto - Disposições Preliminares (Arts. 1º - 3º-F, CPP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-5f3ef8ce1aeb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 1º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "1",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 1º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "Sobre a aplicação da Lei Processual Penal, é correto afirmar que o processo penal reger-se-á, em todo o território brasileiro, pelo Código de Processo Penal, não havendo qualquer ressalva prevista neste diploma."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º O processo penal reger-se-á, em todo o território brasileiro, por este Código, RESSALVADOS:",
+    "I - os tratados, as convenções e regras de direito internacional;",
+    "II - as prerrogativas constitucionais do Presidente da República, dos ministros de Estado, nos crimes conexos com os do Presidente da República, e dos ministros do Supremo Tribunal Federal, nos crimes de responsabilidade;",
+    "III - os processos da competência da Justiça Militar;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f87c7d36429",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 1º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "1",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 1º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Jurídico",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Tício, cidadão estrangeiro denunciado pela prática de crime de estelionato cometido em janeiro de 2024 a bordo de embarcação mercante privada estrangeira atracada em porto brasileiro, submete-se à aplicação da lei processual penal brasileira, ainda que o crime tenha sido cometido por estrangeiro em embarcação estrangeira."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º O processo penal reger-se-á, em todo o território brasileiro, por este Código, ressalvados:"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b8b6e9c604f6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 1º, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "1",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 1º, I, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2008",
+   "cargo": "Oficial de Cartório",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "O processo penal rege-se pelo Código de Processo Penal, em todo o território brasileiro ressalvados, entre outros, os tratados, as convenções e regras de direito internacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º O processo penal reger-se-á, em todo o território brasileiro, por este Código, ressalvados:",
+    "I - os tratados, as convenções e regras de direito internacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-baf24d9593f2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2012",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1290276cd8d1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Considerando a situação hipotética de que no curso de ação penal de rito comum ordinário, após recebida a denúncia, mas antes do início da instrução, sobrevenha alteração de legislação processual penal. Nesse caso, é correto afirmar que a alteração aplicar-se-á ao processo em curso."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73a049e870df",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal tem aplicação imediata, atingindo os processos em tramitação, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1dda7c6f37cd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "No processo penal brasileiro, aplica-se o princípio do tempus regit actum, ou seja, a lei processual penal se aplica imediatamente após sua entrada em vigor, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d88c2a97a545",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "PC-SP",
+   "ano": "2011",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código de Processo Penal, é correto afirmar que a nova norma processual valerá após sua entrada em vigor, ainda que o processo não tenha sido concluído."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f8dd0264e57",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 2°, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2°, CPP"
+    }
+   ],
+   "banca": "IV - UFG",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Oficial de Justiça",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "Como norma geral, o Código de Processo Penal (CPP) dispõe sobre a aplicação de normas processuais no tempo e no espaço. Tal circunstância implica na necessidade de o aplicador lidar com duas regras normativas: uma já vigente e anterior e outra revogadora e posterior. De acordo com o regime adotado, a lei instrumental que altera o CPP editada posteriormente incide desde logo sem prejuízo da validade de atos praticados sob a norma anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-43920dfbf4bc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Agente de Polícia da Carreira de Polícia Civil do Distrito Federal",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Acerca da aplicação das normas processuais penais, julgue o item subsequente. Uma norma processual penal só terá aplicabilidade aos crimes que forem praticados após sua entrada em vigor."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b291ec08ddb7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Distrito Federal",
+   "instituicao": "PG-DF",
+   "obs": "",
+   "enunciado": [
+    "A nova lei processual penal, ainda que seja prejudicial à situação do agente, aplica-se aos fatos praticados anteriormente à sua vigência, salvo se já recebida a denúncia ou a queixa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-014e38a4a4d4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "FAURGS",
+   "ano": "2016",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Sobre os princípios do processo penal, é correto afirmar que a lei processual penal mais nova aplica-se retroativamente, determinando a necessidade de repetição de todos os atos instrutórios já realizados sob a vigência da legislação revogada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, SEM PREJUÍZO da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c42e2a5d805c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal aplicar-se-á prontamente, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1baf9e2120f0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Residente Jurídico",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Em 2024, foi publicada uma lei que alterou determinados prazos procedimentais no Código de Processo Penal (CPP), sem conter disposição expressa acerca de sua aplicação a processos em curso. À época da entrada em vigor da nova lei, tramitava ação penal perante a Justiça Federal, na qual já haviam sido regularmente praticados atos processuais sob a égide da legislação anterior. Nesse contexto, determinado réu, cidadão brasileiro, foi denunciado por crime federal ocorrido em território nacional, sem envolvimento de autoridades detentoras de prerrogativa de foro ou hipóteses de jurisdição especial. Considerando as normas gerais do processo penal, quanto à aplicação da lei processual penal ao caso hipotético descrito, a nova lei processual penal aplica-se imediatamente ao processo em curso, preservando-se a validade dos atos processuais já praticados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d39dba26d7bc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 2°, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2°, CPP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Com relação às regras da lei processual no espaço e no tempo, é correto afirmar que a lei processual penal atende a regra do tempus reígit actum, porém a repetição de atos processuais anteriores é exigida por lei em observância da interpretação constitucional, além disso, não é possível alcançar os processos que apuram condutas delitivas consumadas antes da sua vigência."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2482197cc56b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Direito",
+   "instituicao": "MPE-CE",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao inquérito policial, à aplicação da lei processual no tempo, aos sujeitos do processo, aos princípios constitucionais do processo penal e à relação entre ação penal e ação civil, julgue o item a seguir.",
+    "A norma de natureza processual penal aplica-se desde logo, atingindo até mesmo os fatos praticados antes de sua vigência, ainda que em prejuízo ao réu."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0dae2f58e712",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-AL",
+   "obs": "Prova Anulada",
+   "enunciado": [
+    "Em relação ao processo penal, julgue o item subsequente. Lei nova mais benéfica, quando modifica procedimentos no processo penal, retroage e impõe a renovação dos atos já praticados."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 2 A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2cd51339ce70",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2014",
+   "cargo": "Analista Judiciário - Área Judiciária e Administrativa",
+   "instituicao": "TJ-AP",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Em relação à aplicação da lei processual penal no tempo, julgue o item a seguir. A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-010de7eb5ce1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Aos processos em curso, a lei processual penal será aplicada imediatamente, mantendo-se, todavia, os atos praticados sob a égide da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-70943ed3e289",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "2",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 2º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2008",
+   "cargo": "Oficial de Cartório",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal aplica-se imediatamente, sem prejuízo da validade dos atos já realizados sob a vigência da lei anterior."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fb6a92382971",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2008",
+   "cargo": "Oficial de Cartório",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-928ca2bc8599",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal não admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal ADMITIRÁ interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2308f42d4b2d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à interpretação e aplicação da Lei Processual Penal, é correto afirmar que o Código de Processo Penal admite a aplicação analógica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a9ff12ec333",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal admite interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bdd2995db3c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "Após o advento do neoconstitucionalismo e como seu consequente reflexo, os princípios adquiriram força normativa no ordenamento jurídico brasileiro, e a eficácia objetiva dos direitos fundamentais deu novos contornos ao direito processual penal. A respeito desse assunto, julgue o item à luz do Código de Processo Penal. No que diz respeito à interpretação extensiva, admitida no Código de Processo Penal, existe uma norma que regula o caso concreto, porém sua eficácia é limitada a outra hipótese, razão por que é necessário ampliar seu alcance, e sua aplicação não viola o princípio constitucional do devido processo legal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3o A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f5cf0a30bffc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código de Processo Penal, a lei processual penal admitirá interpretação extensiva e aplicação analógica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-492282d2a556",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2012",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal não admite interpretação extensiva ou aplicação analógica, mas pode ser suplementada pelos princípios gerais de direito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3794459336c6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Consoante o Código de Processo Penal, julgue o item a seguir.",
+    "A lei processual penal não admite o suplemento dos princípios gerais de direito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08e5a1776885",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Polícia Penal",
+   "instituicao": "PP-DF",
+   "obs": "",
+   "enunciado": [
+    "Sobre o direito processual penal, julgue o item a seguir. A lei processual penal admite interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-406a5839b0d0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "FUNDAÇÃO CEFETBAHIA",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-BA",
+   "obs": "",
+   "enunciado": [
+    "Sobre a interpretação da Lei Processual Penal e os princípios do Direito Processual Penal, é correto afirmar que a Lei Processual Penal não admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais do Direito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º. A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-793375dfb5ad",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Consoante o Código de Processo Penal, julgue o item a seguir.",
+    "A lei processual penal veda a interpretação analógica, independentemente se favorável ou não ao réu."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-62bf0aaba2d5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 3°, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3°, CPP"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Sobre as fontes do Direito Processual Penal, afirma-se, com exatidão, que, apesar de a lei processual penal não autorizar explicitamente a utilização dos princípios gerais do direito, são constantemente utilizados diversos princípios processuais constitucionais na interpretação dos casos concretos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3° A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ee13601d9585",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 3º, CPP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "A lei processual penal brasileira admite a aplicação analógica e o suplemento dos princípios gerais do Direito, mas não a interpretação extensiva."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-00510b82d8a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 3º-A, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-A",
+     "sigla": "CPP",
+     "texto": "Art. 3º-A, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PA",
+   "obs": "",
+   "enunciado": [
+    "O inquérito policial terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-A. O processo penal terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação. (Incluído pela Lei nº 13.964, de 2019)",
+    "A assertiva traz a ideia de que o inquérito policial terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação. Ocorre que a mais marcante característica do inquérito policial é a sua natureza inquisitorial, que se contrapõe ao sistema acusatório, norteador da fase processual. Por essa razão, não se aplica-se o princípio do contraditório e da ampla defesa, uma vez que o inquérito policial é mero procedimento administrativo com a finalidade informativa de produção de provas e demais diligências para a propositura da ação penal. A assertiva tem redação bastante parecida com a do art. 3º-A do CPP, mas, neste dispositivo legal, trata-se sobre a estrutura do processo penal, e não do inquérito policial. Eis, portanto, a diferença."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4ad5ae711800",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 3º-A, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-A",
+     "sigla": "CPP",
+     "texto": "Art. 3º-A, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "O sistema processual penal acusatório antagoniza o sistema inquisitivo, entre outras razões, por vedar a substituição probatória do órgão de acusação pelo juiz."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-A. O processo penal terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-77ae9bc9500a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 3º-A, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-A",
+     "sigla": "CPP",
+     "texto": "Art. 3º-A, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PA",
+   "obs": "",
+   "enunciado": [
+    "O processo penal terá estrutura inquisitória, vedadas a iniciativa do juiz na fase instrutória judicial e a substituição da atuação probatória do órgão de acusação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-A. O processo penal terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação. (Incluído pela Lei nº 13.964, de 2019)"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10bf1b4192a2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 3º-A, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-A",
+     "sigla": "CPP",
+     "texto": "Art. 3º-A, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito à norma processual penal, aos sistemas processuais penais e à investigação criminal, julgue o item subsequente. Consoante a jurisprudência do STF, a CF optou pelo sistema penal acusatório, razão pela qual, ordinariamente, as tarefas de investigar e acusar são separadas da função propriamente jurisdicional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-A. O processo penal terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-12bbb14c818d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 3º-A, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-A",
+     "sigla": "CPP",
+     "texto": "Art. 3º-A, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "Durante a audiência de instrução e julgamento em ação penal por crime de peculato, o juiz indeferiu a oitiva de uma testemunha arrolada pela defesa sob o fundamento de que o prazo para indicação havia expirado. Posteriormente, o mesmo magistrado determinou, de ofício, a expedição à Receita Federal para que informasse movimentações atípicas do réu. Nos memoriais, a defesa alegou nulidade absoluta do processo por cerceamento de defesa e por violação do sistema acusatório, já que a iniciativa probatória teria sido do juiz. A partir dessa situação hipotética, julgue o item a seguir. A defesa deveria ter arguido a nulidade pela iniciativa probatória do juiz por meio de exceção, que é o meio processual cabível para discutir vícios processuais durante a ação penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-A. O processo penal terá estrutura acusatória, vedadas a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-65315af4e232",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 3º-B, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, CPP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário. No entanto, não lhe compete ser informado sobre a instauração de qualquer investigação criminal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B, CPP - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "I - receber a comunicação imediata da prisão, nos termos do inciso LXII do caput do art. 5º da Constituição Federal;",
+    "II - receber o auto da prisão em flagrante para o controle da legalidade da prisão, observado o disposto no art. 310 deste Código;",
+    "III - zelar pela observância dos direitos do preso, podendo determinar que este seja conduzido à sua presença, a qualquer tempo;",
+    "IV - ser informado sobre a instauração de qualquer investigação criminal;",
+    "Decisão: O Tribunal, nos termos do voto do Relator, julgou parcialmente procedentes as ações diretas de inconstitucionalidade, para:",
+    "[...]",
+    "[...] 2. Por maioria, declarar a constitucionalidade do caput do art. 3º-B do CPP, incluído pela Lei nº 13.964/2019, e por unanimidade fixar o prazo de 12 (doze) meses, a contar da publicação da ata do julgamento, para que sejam adotadas as medidas legislativas e administrativas necessárias à adequação das diferentes leis de organização judiciária, à efetiva implantação e ao efetivo funcionamento do juiz das garantias em todo o país, tudo conforme as diretrizes do Conselho Nacional de Justiça e sob a supervisão dele. Esse prazo poderá ser prorrogado uma única vez, por no máximo 12 (doze) meses, devendo a devida justificativa ser apresentada em procedimento realizado junto ao Conselho Nacional de Justiça, vencido, apenas quanto à inconstitucionalidade formal, o Relator, que entendia competir às leis de organização judiciária sua instituição;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9ead7befae6c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 3º-B, IX, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B, IX",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, IX, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciário - Sem Especialidade",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei n.º 9.296/1996, que dispõe acerca da interceptação telefônica, e nas alterações introduzidas pela Lei Anticrime (Lei n.º 13.964/2019) no Código de Processo Penal, julgue o item subsequente.",
+    "O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe, inclusive, determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou seu prosseguimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B. O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente: […]",
+    "IX - determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou prosseguimento;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-84c38b19ccef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 3º-B, IV, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B, IV",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, IV, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-ES",
+   "obs": "",
+   "enunciado": [
+    "Ana procura o Promotor de Justiça da pequena comarca em que vive e relata que, na Delegacia de Polícia local, o policial civil Sérgio exigiu a quantia de R$ 3.000,00 para registrar o furto de seu veículo. Intimidada, Ana atendeu à exigência e apresentou o comprovante bancário da transferência do valor. Diante dos fatos, o Promotor de Justiça decide instaurar procedimento investigatório criminal (PIC) para apurar o suposto crime de concussão e decreta o sigilo da investigação.",
+    "Considerando a situação apresentada, julgue o item a seguir quanto à observância das normas aplicáveis ao procedimento investigatório criminal (PIC).",
+    "É desnecessário informar o juízo competente sobre a instauração do PIC, porque a obrigatoriedade da informação restringe-se a inquéritos policiais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "IV - ser informado sobre a instauração de qualquer investigação criminal;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a07a8234150d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 3ºB, IX, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "B, IX",
+     "sigla": "CPP",
+     "texto": "Art. 3ºB, IX, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com base na Lei n.º 9.296/1996, que dispõe acerca da interceptação telefônica, e nas alterações introduzidas pela Lei Anticrime (Lei n.º 13.964/2019) no Código de Processo Penal, julgue o item a seguir.",
+    "O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe, inclusive, determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou seu prosseguimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "IX - determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou prosseguimento;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2376b9db6ff8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 3º-B, IX, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B, IX",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, IX, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, com as alterações promovidas pela Lei nº 13.964/2019, compete ao juiz das garantias, dentre outras atribuições: determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou prosseguimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "IX - determinar o trancamento do inquérito policial quando não houver fundamento razoável para sua instauração ou prosseguimento;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3942f8a1d37d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 3ºB, XV, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "B, XV",
+     "sigla": "CPP",
+     "texto": "Art. 3ºB, XV, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Compete ao juiz das garantias assegurar ao investigado e ao seu defensor o acesso a todos os elementos informativos e provas produzidas na investigação criminal, salvo quanto às diligências em andamento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "XV - assegurar prontamente, quando se fizer necessário, o direito outorgado ao investigado e ao seu defensor de acesso a todos os elementos informativos e provas produzidos no âmbito da investigação criminal, salvo no que concerne, estritamente, às diligências em andamento;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-191689263008",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 3º-B, XVI, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B, XVI",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, XVI, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre o inquérito policial, julgue o item a seguir.",
+    "Durante o trâmite do inquérito policial é possível decisão judicial deferindo pedido formulado pelo Ministério Público ou pelo defensor do indiciado para admissão de assistente técnico para acompanhar a produção da perícia."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B - O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "XVI - deferir pedido de admissão de assistente técnico para acompanhar a produção da perícia;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-344b68fec7be",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 3º-B, X, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-B, X",
+     "sigla": "CPP",
+     "texto": "Art. 3º-B, X, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-GO",
+   "obs": "",
+   "enunciado": [
+    "Em cumprimento à decisão do Supremo Tribunal Federal, o Tribunal de Justiça do Estado Alfa implementou a Vara das Garantias, em estrita colaboração com o Ministério Público do referido ente federativo. Para aperfeiçoar a atuação dos atores do sistema de justiça vinculados à serventia, foi oferecido um curso específico sobre o juízo das garantias. Considerando as disposições do Código de Processo Penal e o entendimento vinculante do Supremo Tribunal Federal, é uma competência do juiz das garantias requisitar documentos, laudos e informações ao delegado de polícia sobre o andamento da investigação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-B. O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário, competindo-lhe especialmente:",
+    "[...]",
+    "X - requisitar documentos, laudos e informações ao delegado de polícia sobre o andamento da investigação;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-faa914515838",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 3º-C, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-C",
+     "sigla": "CPP",
+     "texto": "Art. 3º-C, CPP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições do Código de Processo Penal acerca da figura do juiz das garantias, julgue o item. A competência do juiz das garantias abrange todas as infrações penais, sem qualquer exceção, e a sua atuação cessa com o oferecimento de denúncia ou queixa, momento em que os autos serão integralmente remetidos e apensados ao processo enviado ao juiz da instrução e julgamento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-C. A competência do juiz das garantias abrange todas as infrações penais, exceto as de menor potencial ofensivo, e cessa com o recebimento da denúncia ou queixa na forma do art. 399 deste Código."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c064164065e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 3º-C, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-C",
+     "sigla": "CPP",
+     "texto": "Art. 3º-C, CPP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "A competência do juiz das garantias abrange todas as infrações penais, inclusive as de menor potencial ofensivo, e cessa com o recebimento da denúncia ou queixa na forma do art. 399 deste Código."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-C - A competência do juiz das garantias abrange todas as infrações penais, exceto as de menor potencial ofensivo, e cessa com o recebimento da denúncia ou queixa na forma do art. 399 deste Código. Observação: STF declarou que a competência se encerra com o oferecimento da denúncia, e não com o recebimento. (Vide ADIs 6298, 6299, 6300 e 6305, STF)"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d9874fa9cc41",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 3º-C, § 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "-C, § 2º",
+     "sigla": "CPP",
+     "texto": "Art. 3º-C, § 2º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Em até 90 dias após o oferecimento da denúncia ou queixa, o juiz da instrução e julgamento deverá reexaminar a necessidade das medidas cautelares em curso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º-C, § 2º - As decisões proferidas pelo juiz das garantias não vinculam o juiz da instrução e julgamento, que, após o recebimento da denúncia ou queixa, deverá reexaminar a necessidade das medidas cautelares em curso, no prazo máximo de 10 (dez) dias."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2141d0c88da4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Arts. 3º, CPP c/c art. 497, CPC",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "3",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Arts. 3º, CPP"
+    },
+    {
+     "lei": "cpc",
+     "art": "497",
+     "disp": "",
+     "sigla": "CPC",
+     "texto": "art. 497, CPC"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Paloma foi denunciada pela prática de lavagem de dinheiro. Nos autos, consta laudo de perícia contábil, elaborado por perito oficial, concluindo pela ocorrência de complexas fraudes envolvendo a transferência de recursos entre empresas sob a gestão da acusada. A defesa, por sua vez, contratou um especialista para analisar as operações financeiras. Em seu parecer, ele apresentou conclusão divergente: apontou o que considerou inconsistências técnicas no laudo oficial e afirmou inexistirem elementos que evidenciassem irregularidades na movimentação de recursos. O perito oficial apresentou manifestação complementar, reafirmando a correção de sua análise pericial, e destacou sua imparcialidade e credenciais acadêmicas e profissionais. Diante do cenário descrito, e considerando as regras processuais sobre a valoração da prova pericial pelo juiz, não existe preponderância a priori entre o laudo oficial e a análise elaborada pelo especialista contratado pela parte. O juiz deve apreciar os dois, levando em consideração o método empregado, conforme o artigo 479 do Código de Processo Civil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3o A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito.",
+    "Art. 479. O juiz apreciará a prova pericial de acordo com o disposto no art. 371, indicando na sentença os motivos que o levaram a considerar ou a deixar de considerar as conclusões do laudo, levando em conta o método utilizado pelo perito."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Processual Penal",
+  "1 Assunto - Disposições Preliminares (Arts. 1º - 3º-F, CPP)"
+ ]
+}
