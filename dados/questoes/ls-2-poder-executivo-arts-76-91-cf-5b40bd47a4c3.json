@@ -1,0 +1,4589 @@
+{
+ "id": "ls-2-poder-executivo-arts-76-91-cf-5b40bd47a4c3",
+ "titulo": "2 Poder Executivo (Arts. 76 - 91, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-c462b9c98a88",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 77, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "77",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 77, § 2º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Será considerado eleito Presidente o candidato que, registrado por partido político, obtiver a maioria absoluta de votos, computados os em branco e os nulos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77 [...]",
+    "§ 2º Será considerado eleito Presidente o candidato que, registrado por partido político, obtiver a maioria absoluta de votos, não computados os em branco e os nulos."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-882bf86cb2c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 77, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "77",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 77, § 4º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Se, antes de realizado o segundo turno, ocorrer morte, desistência ou impedimento legal de candidato, convocar-se-á, dentre os remanescentes, o mais idoso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77 [...]",
+    "§ 4º Se, antes de realizado o segundo turno, ocorrer morte, desistência ou impedimento legal de candidato, convocar-se- á, dentre os remanescentes, o de maior votação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fbc8cc588dcc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 84, XXV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XXV",
+     "sigla": "CF",
+     "texto": "Art. 84, XXV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRT-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A propósito dos cargos públicos, compete à Chefia do Poder Executivo prover todos os cargos da Administração Pública do respectivo ente da federação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XXV - prover e extinguir os cargos públicos federais, na forma da lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-978a1058de05",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 76, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "76",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 76, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Assistente - Assistente Administrativo",
+   "instituicao": "PREFEITURA DE BOA VISTA-RR",
+   "obs": "",
+   "enunciado": [
+    "Com relação à organização dos poderes da República, julgue o item a seguir, de acordo com a CF.",
+    "No Brasil, o Poder Executivo é exercido exclusivamente pelo presidente da República."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-38fb428edbda",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 76, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "76",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 76, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Fiscal",
+   "instituicao": "CRA-RS",
+   "obs": "",
+   "enunciado": [
+    "O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e0748ce48e6c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 76, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "76",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 76, CF"
+    }
+   ],
+   "banca": "MPE-MG",
+   "ano": "2010",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Quanto ao Poder Executivo da União, é correto afirmar que é exercido pelo Presidente da República e pelos Ministros de Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 O Poder Executivo é exercido pelo Presidente da República, AUXILIADO pelos Ministros de Estado."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2b4a5c7a0c78",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 77, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "77",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 77, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2015",
+   "cargo": "Técnico Judiciário - Administrativo",
+   "instituicao": "TRE-MA",
+   "obs": "",
+   "enunciado": [
+    "A eleição do Presidente e do Vice-Presidente da República realizar-se- á, simultaneamente, no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato presidencial vigente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A eleição do Presidente e do Vice-Presidente da República realizar-se-á, simultaneamente, no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato presidencial vigente."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e537e0aa1007",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 78, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "78",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 78, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Com relação ao Presidente e ao Vice-Presidente da República, julgue o item a seguir.",
+    "O Presidente e o Vice-Presidente da República tomarão posse em sessão do Senado Federal e, se decorridas 48 horas da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 - O Presidente e o Vice-Presidente da República tomarão posse em sessão do Congresso Nacional, prestando o compromisso de manter, defender e cumprir a Constituição, observar as leis, promover o bem geral do povo brasileiro, sustentar a união, a integridade e a independência do Brasil.",
+    "Parágrafo único - Se, decorridos dez dias da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f0d5d1a5917f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 78, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "78",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 78, § único, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Se, decorridos dez dias da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 […]",
+    "Parágrafo único. Se, decorridos dez dias da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e3c576ac14ae",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 78, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "78",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 78, § único, CF"
+    }
+   ],
+   "banca": "TJ-SC",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "O Presidente e o Vice-Presidente da República tomarão posse em sessão do Congresso Nacional. Se, decorridos quinze dias da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 O Presidente e o Vice-Presidente da República tomarão posse em sessão do Congresso Nacional, prestando o compromisso de manter, defender e cumprir a Constituição, observar as leis, promover o bem geral do povo brasileiro, sustentar a união, a integridade e a independência do Brasil.",
+    "Parágrafo único Se, decorridos DEZ DIAS da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bee235db8619",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 79, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "79",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 79, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Fiscal",
+   "instituicao": "CRA-RS",
+   "obs": "",
+   "enunciado": [
+    "Substituirá o Presidente, no caso de impedimento, e suceder-lhe-á, no de vaga, o Vice-Presidente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. Substituirá o Presidente, no caso de impedimento, e suceder-lhe-á, no de vaga, o Vice-Presidente."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2515de580b82",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 79, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "79",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 79, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Com relação ao Presidente e ao Vice-Presidente da República, é correto afirma que o Vice-Presidente da República, além de outras atribuições que lhe forem conferidas por lei complementar, auxiliará o Presidente da República, sempre que por ele convocado para missões especiais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79, Parágrafo único - O Vice-Presidente da República, além de outras atribuições que lhe forem conferidas por lei complementar, auxiliará o Presidente, sempre que por ele convocado para missões especiais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c1096de2a07",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 79, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "79",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 79, § único, CF"
+    }
+   ],
+   "banca": "MPE-MG",
+   "ano": "2012",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Substituirá o Presidente da República, no caso de impedimento, e suceder-lhe-á, no de vaga, o Vice- Presidente, que, além de outras atribuições que lhe forem conferidas por lei complementar, auxiliará o Presidente, sempre que por ele convocado para missões especiais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. Substituirá o Presidente, no caso de impedimento, e suceder- lhe-á, no de vaga, o Vice-Presidente.",
+    "Parágrafo único. O Vice-Presidente da República, além de outras atribuições que lhe forem conferidas por lei complementar, auxiliará o Presidente, sempre que por ele convocado para missões especiais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5ab66fd53ef0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 80, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 80, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Com relação ao Presidente e ao Vice-Presidente da República, julgue o item a seguir.",
+    "Em caso de impedimento do Presidente e do Vice-Presidente da República, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80 - Em caso de impedimento do Presidente e do Vice- Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-63adb5e820a0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 80, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 80, CF"
+    }
+   ],
+   "banca": "MPT",
+   "ano": "2015",
+   "cargo": "Procurador do Trabalho",
+   "instituicao": "MPT",
+   "obs": "",
+   "enunciado": [
+    "Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ae6ca50ed3cc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 80, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 80, CF"
+    }
+   ],
+   "banca": "FEPESE",
+   "ano": "2018",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-SC",
+   "obs": "",
+   "enunciado": [
+    "Quanto ao Presidente da República, é correto afirmar que em caso de vacância dos cargos de Presidente e de Vice-Presidente, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-833c1b881b55",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 80, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 80, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Fiscal",
+   "instituicao": "CRA-RS",
+   "obs": "",
+   "enunciado": [
+    "Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente do Senado Federal, o da Câmara de Deputados e o do Superior Tribunal de Justiça."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-992e6f8b38ef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 80, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 80, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Em caso de impedimento do Presidente e do Vice-Presidente da República, serão sucessivamente chamados ao exercício da Presidência da República o Presidente do Senado Federal, o da Câmara dos Deputados e o do Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7c490f89328",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 80 c/c 12, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "80",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 80"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "12",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "12, § 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRT-2ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Suponha que o Presidente da República tenha viajado para o Canadá, assumindo a Presidência do país o Vice-Presidente da República. Porém, o Vice-Presidente da República também precisou ausentar-se do país, o que ocorreu antes do retorno do Presidente da República ao Brasil. Nessa situação de ausência temporária do Presidente e do Vice-Presidente da República, com base apenas nas informações fornecidas, serão sucessivamente chamados ao exercício da Presidência da República o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal, sendo que os cargos de Presidente da Câmara dos Deputados, de Presidente do Senado Federal e de Ministro do Supremo Tribunal Federal são privativos de brasileiro nato."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Em caso de impedimento do Presidente e do Vice- Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal.",
+    "Art. 12. São brasileiros: […]",
+    "§ 3º São privativos de brasileiro nato os cargos: […]",
+    "II - de Presidente da Câmara dos Deputados;",
+    "III - de Presidente do Senado Federal;",
+    "IV - de Ministro do Supremo Tribunal Federal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-52579cc2784d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 81, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "81",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 81, § 1º, CF"
+    }
+   ],
+   "banca": "MPT",
+   "ano": "2015",
+   "cargo": "Procurador do Trabalho",
+   "instituicao": "MPT",
+   "obs": "",
+   "enunciado": [
+    "Vagando os cargos de Presidente e Vice-Presidente da República, nos dois últimos anos de mandato, far-se-á eleição indireta trinta dias depois de aberta a última vaga."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 81. [...]",
+    "§ 1º Ocorrendo a vacância nos últimos dois anos do período presidencial, a eleição para ambos os cargos será feita trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "81",
+    "ate": "81"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7663738c5c21",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 82, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "82",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 82, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Fiscal",
+   "instituicao": "CRA-RS",
+   "obs": "",
+   "enunciado": [
+    "O mandato do Presidente da República é de quatro anos e terá início em primeiro de janeiro do ano seguinte ao da sua eleição."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 82. O mandato do Presidente da República é de 4 (quatro) anos e terá início em 5 de janeiro do ano seguinte ao de sua eleição. (Redação dada pela EC 111/2021)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6eb0004d0aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 83, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "83",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 83, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o Poder Executivo, a Constituição Federal estabelece que o Presidente e o Vice-Presidente da República não poderão, sem licença do Congresso Nacional, ausentar-se do País por prazo superior a 10 dias, sob pena de perda do cargo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 83 O Presidente e o Vice-Presidente da República não poderão, sem licença do Congresso Nacional, ausentar-se do País por período superior a QUINZE DIAS, sob pena de perda do cargo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1266523dadfd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 83, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "83",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 83, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "A eleição do Presidente da República importará a do Vice-Presidente com ele registrado, e ambos, sem licença da Câmara dos Deputados, não poderão se ausentar do País por período superior a dez dias, sob pena de perda do cargo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 83 O Presidente e o Vice-Presidente da República não poderão, sem licença do Congresso Nacional, ausentar-se do País por período superior a quinze dias, sob pena de perda do cargo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5d03d01cc382",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 83, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "83",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 83, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2021",
+   "cargo": "Fiscal",
+   "instituicao": "CRA-RS",
+   "obs": "",
+   "enunciado": [
+    "O Presidente e o Vice-Presidente da República não poderão, sem licença do Congresso Nacional, ausentar-se do País por período superior a quinze dias, sob pena de perda do cargo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 83. O Presidente e o Vice-Presidente da República não poderão, sem licença do Congresso Nacional, ausentar-se do País por período superior a quinze dias, sob pena de perda do cargo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e20388e6d0ff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 84, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 84, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "Adaptada",
+   "enunciado": [
+    "De acordo com a Constituição Federal, é correto afirmar que NÃO corresponde a uma atribuição privativa do Presidente da República vetar projetos de lei, total ou parcialmente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 Compete privativamente ao Presidente da República:",
+    "[...]",
+    "V - vetar projetos de lei, total ou parcialmente;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4c7175a1abeb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 84, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 84, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "Adaptada",
+   "enunciado": [
+    "De acordo com a Constituição Federal, é correto afirma que NÃO corresponde a uma atribuição privativa do Presidente da República dispor, mediante decreto, sobre extinção de funções ou cargos públicos, quando vagos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "[...]",
+    "b) extinção de funções ou cargos públicos, quando vagos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5d5f7a8b3e9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 84, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 84, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "Adaptada",
+   "enunciado": [
+    "De acordo com a Constituição Federal, é correto afirmar que NÃO corresponde a uma atribuição privativa do Presidente da República exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XIII - exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d49b12ef2770",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 84, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 84, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-TO",
+   "obs": "",
+   "enunciado": [
+    "O desempenho das funções executivas, pela Administração Pública, contempla o exercício de poderes e prerrogativas próprios, a exemplo do poder regulamentar, na edição de decreto estabelecendo o procedimento e os requisitos técnicos para obtenção de licenças disciplinadas em lei específica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "IV - sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d2a13c0bd1f2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 84, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 84, V, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal de Tributos",
+   "instituicao": "PREFEITURA TRÊS PASSOS-RS",
+   "obs": "",
+   "enunciado": [
+    "Compete privativamente ao Presidente da República: Vetar projetos de lei, total ou parcialmente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "V - vetar projetos de lei, total ou parcialmente;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-59f781d8539c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 84, V e IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "V e IX",
+     "sigla": "CF",
+     "texto": "Art. 84, V e IX, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal de Tributos",
+   "instituicao": "PREFEITURA DE TRÊS PASSOS-RS",
+   "obs": "",
+   "enunciado": [
+    "Decretar o estado de defesa e o estado de sítio e vetar projetos de lei, total ou parcialmente são atribuições que competem privativamente ao Presidente da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "V - vetar projetos de lei, total ou parcialmente; […]",
+    "IX - decretar o estado de defesa e o estado de sítio; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-160dfde09c16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 84, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, CF"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Quanto aos poderes da Administração Pública, é correto afirmar que o Poder de Polícia pode ser exercido por meio da expedição de decretos autônomos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73049ba90650",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 84, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Assessor Jurídico",
+   "instituicao": "CÂMARA MUNICIPAL NOVA ODESSA-SP",
+   "obs": "",
+   "enunciado": [
+    "Suponha que o Chefe do Poder Executivo de Estado da Federação, visando modernizar e conferir eficiência à administração estadual, publique decreto reestruturando órgãos públicos, criando e extinguindo departamentos, criando e extinguindo cargos públicos. É correto afirmar, com base na Constituição Federal que, nesse caso, a Constituição não oferece guarida à possibilidade de o governador criar cargos e reestruturar órgãos públicos, criando-os e extinguindo-os, por meio de simples decreto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-18a975e73b5e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 84, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Considerando os princípios e normas constitucionais atinentes à Administração Pública, na hipótese de o Presidente da República pretender dispor sobre a organização e o funcionamento da administração federal, é correto afirmar que poderá fazê-lo por meio de decreto, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos e também poderá, por decreto, extinguir funções ou cargos públicos, quando vagos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 […]",
+    "VI - Compete privativamente ao Presidente da República dispor, mediante decreto (autônomo), sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-859b53da429f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 84, VI, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, a",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, a, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Administração",
+   "instituicao": "TCE-SP",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal, está compreendido no âmbito das atribuições do Presidente da República: organizar o funcionamento da administração federal, por decreto, desde que isso não implique aumento ou redução de despesas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-82bf719edf3b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 84, VI, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, a",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, a, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista",
+   "instituicao": "CÂMARA MUNICIPAL DE PRAIA GRANDE-SP",
+   "obs": "",
+   "enunciado": [
+    "O presidente da República deseja reordenar parcialmente o Poder Executivo e, para isso, decide reorganizar parte do funcionamento dessa estrutura, bem como extinguir cargos e órgãos públicos atualmente considerados obsoletos para a Administração. A intenção é fazer as mudanças sem precisar da concordância do Poder Legislativo.",
+    "Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que a reorganização pode ser realizada por decreto, desde que não resulte no aumento de despesa ou na extinção de órgãos públicos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3898c1a0f785",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 84, VI, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, a",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, a, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal de 1988, compete privativamente ao Presidente da República dispor, mediante decreto, sobre a organização e o funcionamento da administração federal, quando implicar aumento de despesa ou criação ou extinção de órgãos públicos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ed8899cd2f29",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 84, VI, a, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, a, b",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, a, b, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A competência para versar sobre a organização e funcionamento da administração pública, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos, assim como a extinção de funções ou cargos públicos, quando vagos, é exclusiva do Chefe do Poder Executivo, podendo ser delegada por lei de iniciativa parlamentar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos; […]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8754a82733f2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 84, VI, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, b, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Administração",
+   "instituicao": "TCE-SP",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal, está compreendido no âmbito das atribuições do Presidente da República: extinguir, por decreto, cargos vagos ou preenchidos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "[...]",
+    "b) extinção de funções ou cargos públicos, quando vagos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1f1ad2f07df",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 84, VI, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, b, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista de Promotoria - Agente de Promotoria",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O Presidente da República propôs projeto de lei com o objetivo de criar cargos para professor universitário no âmbito da administração direta, extinguir cargos vagos de serviços técnico-administrativo e aumentar a remuneração de determinadas categorias do serviço público, vinculadas ao Poder Executivo.",
+    "A partir da situação hipotética apresentada e do disposto na Constituição Federal, é correto afirmar que a extinção dos cargos vagos pode ser feita por decreto e os parlamentares não podem propor lei tratando dos temas previstos na referida proposta."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "[...]",
+    "b) extinção de funções ou cargos públicos, quando vagos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dacceedeab6b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 84, VI, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, b, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-AP",
+   "obs": "",
+   "enunciado": [
+    "A criação de cargo público, por implicar potencialmente uma despesa pública, é determinada por lei, porque compete ao Poder Legislativo a criação de despesa pública, ao passo que a extinção de cargo público vago se dá por decreto do chefe do Poder Executivo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "[...]",
+    "b) extinção de funções ou cargos públicos, quando vagos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-904e8c49a613",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 84, VI, b, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, b, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Pesquisador Adjunto I",
+   "instituicao": "INSA",
+   "obs": "",
+   "enunciado": [
+    "A respeito de investidura na função pública, das atribuições do presidente da República, das normas gerais sobre parcerias público -privadas, conforme a Lei n.º 11.079/2004, e de licitações e contratos administrativos consoante a Lei n.º 14.133/2021, julgue o item que se segue.",
+    "O presidente da República, mediante decreto, pode dispor sobre a extinção de cargos públicos somente se estes estiverem vagos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VI - dispor, mediante decreto, sobre:",
+    "[...]",
+    "b) extinção de funções ou cargos públicos, quando vagos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0b54c345c07c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 84, VI, b c/c parágrafo único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "",
+     "texto": "Art. 84, VI, b"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Em determinado órgão integrante da administração pública federal, vinculado ao Ministério da Fazenda, foi apurado que aproximadamente 100 (cem) cargos estavam vagos. O Presidente da República, mediante decreto, delegou ao Ministro da Fazenda amplos poderes para promover a reestruturação do aludido órgão público, inclusive com a possibilidade de extinção dos cargos vagos. Sobre a hipótese, com fundamento na ordem jurídico-constitucional vigente, é correto afirmar que o referido decreto presidencial se harmoniza com o texto constitucional, uma vez que o Presidente da República pode dispor, mediante decreto, sobre a extinção de funções ou cargos públicos, quando vagos, sendo permitida a delegação dessa competência aos Ministros de Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[…]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos;",
+    "[…]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-32b38a7e754d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 84, VI, b c/c parágrafo único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, b",
+     "sigla": "",
+     "texto": "Art. 84, VI, b"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-16ª REGIÃO-MA",
+   "obs": "",
+   "enunciado": [
+    "Determinado Ministro de Estado editou ato de extinção de cargos públicos, vinculados ao respectivo Ministério, que se encontravam vagos. Essa extinção desagradou sobremaneira diversos grupos de servidores, pois a decisão diminuiu o número de servidores públicos em atuação no setor. Ao consultarem um advogado a respeito da juridicidade dessa extinção, considerando a competência para a prática do ato, foi corretamente informado aos servidores que embora a competência seja privativa do Presidente da República, o ato do Ministro de Estado será lícito caso esse agente tenha recebido delegação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "VI - dispor, mediante decreto, sobre: […]",
+    "b) extinção de funções ou cargos públicos, quando vagos; […]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10f6e761e2ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 84, VI e XII, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI e XII, § único",
+     "sigla": "CF",
+     "texto": "Art. 84, VI e XII, § único, CF"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao Poder Executivo, segundo a Constituição (CRFB) e o Supremo Tribunal Federal (STF), o Presidente da República pode expedir “decretos autônomos” e delegar aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União a atribuição de conceder indulto e comutar penas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[…]",
+    "VI - dispor, mediante decreto, sobre:",
+    "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+    "b) extinção de funções ou cargos públicos, quando vagos;",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;",
+    "[...]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7799818081da",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 84, VI, XX, XXIV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VI, XX, XXIV",
+     "sigla": "CF",
+     "texto": "Art. 84, VI, XX, XXIV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista em Geociências - Direito",
+   "instituicao": "CPRM",
+   "obs": "",
+   "enunciado": [
+    "João, convidado para assessorar o Chefe do Poder Executivo federal, resolveu analisar as atribuições do Presidente da República, de forma a prestar um serviço com mais eficiência e qualidade. Em sua análise, João considerou as seguintes atribuições:",
+    "I. Prestar, semestralmente, ao Congresso Nacional, dentro de sessenta dias após a abertura da sessão legislativa, as contas referentes ao exercício anterior. II. Manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos. III. Celebrar a paz, autorizado ou com o referendo do Congresso Nacional.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, compete privativamente ao Presidente da República atribuição elencada em II e III, apenas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VII - manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos;",
+    "[...]",
+    "XX - celebrar a paz, autorizado ou com o referendo do Congresso Nacional;",
+    "[...]",
+    "XXIV - prestar, anualmente, ao Congresso Nacional, dentro de sessenta dias após a abertura da sessão legislativa, as contas referentes ao exercício anterior;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-43d194e34db7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 84, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 84, VII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Legislativo - Registro e Redação Parlamentar",
+   "instituicao": "SENADO FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Como fora noticiado pela imprensa internacional, João, pessoa muito controversa e ex-Primeiro-Ministro do País XX, seria designado para atuar como embaixador junto à República Federativa do Brasil, o que gerou grande desconforto junto às autoridades brasileiras. À luz da ordem constitucional brasileira, é correto afirmar que a atuação de João, como embaixador do País XX, junto à República Federativa do Brasil pressupõe a edição do ato formal de acreditação, de competência privativa do Presidente da República e insuscetível de delegação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[…]",
+    "VII - manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4e2851441f70",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 84, VII, VIII, XIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VII, VIII, XIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VII, VIII, XIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Administrador",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Com base nas disposições da CF e no entendimento do STF, julgue o item que se seguem.",
+    "Compete privativamente ao presidente da República manter relações com Estados estrangeiros, celebrar tratados internacionais sujeitos a referendo do Congresso Nacional, bem como exercer o comando supremo das Forças Armadas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VII - manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos;",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+    "[...]",
+    "XIII - exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-541994e5b221",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a incorporação dos tratados de direitos humanos ao ordenamento jurídico brasileiro, é correto afirmar: Os tratados de Direitos Humanos são celebrados pelo Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2c4cf72ba9c1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a incorporação dos tratados de direitos humanos ao ordenamento jurídico brasileiro, é correto afirmar: Nenhum tratado de Direitos Humanos entrará em vigor no Brasil automaticamente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fae05c7ccc0b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Procurador do Tribunal de Contas",
+   "instituicao": "TC-DF",
+   "obs": "",
+   "enunciado": [
+    "Em relação às disposições constitucionais acerca do Distrito Federal (DF) e ao cabimento de ação direta de inconstitucionalidade (ADI) contra suas leis, julgue o item a seguir.",
+    "O DF pode celebrar tratados com Estados estrangeiros para regular a instalação e o funcionamento de missões diplomáticas, ad referendum do Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cc91678d2311",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRT-13ª REGIÃO-PB",
+   "obs": "",
+   "enunciado": [
+    "O Presidente da República, de modo direto e com o auxílio do Ministro das Relações Exteriores, bem como de diversos outros agentes, logrou êxito em celebrar um tratado internacional entre o País Alfa e a República federativa do Brasil, no qual eram impostas obrigações recíprocas, mas que representava inegável conquista para o comércio exterior brasileiro. À luz da sistemática estabelecida na Constituição da República, o referido tratado internacional somente pode produzir efeitos após o exequatur do Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-50efe095fb5b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal de 1988, compete privativamente ao Presidente da República celebrar tratados, convenções e atos internacionais, dispensado o referendo do Congresso Nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6b7042ded7f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Cargo de Nível Superior",
+   "instituicao": "DEPEN",
+   "obs": "",
+   "enunciado": [
+    "Compete privativamente ao presidente da República celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9c7a761170f0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 84, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 84, VIII, CF"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a incorporação dos tratados de direitos humanos ao ordenamento jurídico brasileiro, é correto afirmar: A iniciativa da celebração de tratados é competência do Procurador-Geral da República."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b5354ab5a79d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 84, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 84, IX, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal de Tributos",
+   "instituicao": "PREFEITURA TRÊS PASSOS-RS",
+   "obs": "",
+   "enunciado": [
+    "Compete privativamente ao Presidente da República: Decretar o estado de defesa e o estado de sítio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "IX - decretar o estado de defesa e o estado de sítio;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5aa9fc4a2fb9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 84, IX, XVIII e § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "IX, XVIII e § único",
+     "sigla": "CF",
+     "texto": "Art. 84, IX, XVIII e § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Analista Jurídico Previdenciário",
+   "instituicao": "FUNAPE",
+   "obs": "",
+   "enunciado": [
+    "Com relação às atribuições do Presidente da República, é correto afirmar que dentre suas competências privativas está a de convocar e presidir o Conselho da República e o Conselho de Defesa Nacional, bem como a de decretar o estado de defesa e o estado de sítio, sendo que nenhuma delas poderá ser delegada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "IX - decretar o estado de defesa e o estado de sítio;",
+    "[...]",
+    "XVIII - convocar e presidir o Conselho da República e o Conselho de Defesa Nacional;",
+    "[...]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d5ce7afcbf7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 84, XI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XI",
+     "sigla": "CF",
+     "texto": "Art. 84, XI, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal de 1988, compete privativamente ao Presidente da República remeter mensagem e plano de governo ao Congresso Nacional por ocasião da abertura da sessão legislativa, expondo a situação do País e solicitando as providências que julgar necessárias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XI - remeter mensagem e plano de governo ao Congresso Nacional por ocasião da abertura da sessão legislativa, expondo a situação do País e solicitando as providências que julgar necessárias;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aea7e4b576f8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 84, XII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XII",
+     "sigla": "CF",
+     "texto": "Art. 84, XII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal Tributário - Geral",
+   "instituicao": "SEFAZ-SE",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal de 1988, é competência exclusiva do Congresso Nacional conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8d66bf2f7deb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 84, XII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XII",
+     "sigla": "CF",
+     "texto": "Art. 84, XII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Policial Rodoviário Federal",
+   "instituicao": "PRF",
+   "obs": "",
+   "enunciado": [
+    "Compete privativamente ao presidente da República conceder indulto e comutar penas, ouvidos, se necessário, os órgãos instituídos em lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e899bae89d9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 84, XII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XII",
+     "sigla": "CF",
+     "texto": "Art. 84, XII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Administrativo",
+   "instituicao": "TCE-RR",
+   "obs": "",
+   "enunciado": [
+    "Em uma situação hipotética, durante um processo seletivo para o cargo de assessor presidencial, João foi questionado sobre as atribuições constitucionalmente estabelecidas para o Presidente.",
+    "Em resposta, informou corretamente que uma atribuição do Presidente da República é conceder indultos e comutar penas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-39c2d76cdcb5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 84, XII, XXV, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XII, XXV, § único",
+     "sigla": "CF",
+     "texto": "Art. 84, XII, XXV, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE 2025",
+   "ano": "2025",
+   "cargo": "Analista - Direito e Auditoria",
+   "instituicao": "EMBRAPA",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à administração pública e ao Poder Executivo, julgue o item a seguir.",
+    "Desde que por delegação do presidente da República, pode o advogado-geral da União conceder indulto e comutar penas e o procurador-geral da República prover e extinguir cargos públicos federais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;",
+    "[...]",
+    "XXV - prover e extinguir os cargos públicos federais, na forma da lei;",
+    "[...]",
+    "Parágrafo único - O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-04e2f05786bf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 84, XIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XIII",
+     "sigla": "CF",
+     "texto": "Art. 84, XIII, CF"
+    }
+   ],
+   "banca": "OBJETIVA CONCURSOS",
+   "ano": "2026",
+   "cargo": "Agente de Combate às Endemias",
+   "instituicao": "PREFEITURA TUPANCI DO SUL-RS",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a Constituição Federal, o Presidente da República exerce, de forma privativa, o comando supremo das Forças Armadas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XIII - exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9c7de41f1e96",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 84, XIV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XIV",
+     "sigla": "CF",
+     "texto": "Art. 84, XIV, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal de 1988, compete privativamente ao Presidente da República nomear, após aprovação pela Câmara dos Deputados, os Ministros do Supremo Tribunal Federal e dos Tribunais Superiores, os Governadores de Territórios, o Procurador-Geral da República, o presidente e os diretores do banco central e outros servidores, quando determinado em lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XIV - nomear, após aprovação pelo Senado Federal, os Ministros do Supremo Tribunal Federal e dos Tribunais Superiores, os Governadores de Territórios, o Procurador- Geral da República, o presidente e os diretores do banco central e outros servidores, quando determinado em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b75e9a2300a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 84, XV e XVI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XV e XVI",
+     "sigla": "CF",
+     "texto": "Art. 84, XV e XVI, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PA",
+   "obs": "Adaptada",
+   "enunciado": [
+    "João, hipoteticamente, foi eleito presidente do Brasil e tomou posse em 01/01/2021. Ao assumir seu mandato, João estava muito ansioso por dar início ao seu governo, então perguntou aos seus assessores quais eram os cargos que lhe incumbiam nomear, por determinação constitucional. Em resposta, João recebeu uma lista da sua assessoria. Segundo o artigo 84 da Constituição Federal, compete privativamente ao Presidente da República nomear o Advogado-Geral da União; os magistrados, nos casos previstos na Constituição Federal; e, observado o disposto no artigo 73 da Constituição Federal, os Ministros do Tribunal de Contas da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XV - nomear, observado o disposto no art. 73, os Ministros do Tribunal de Contas da União;",
+    "XVI - nomear os magistrados, nos casos previstos nesta Constituição, e o Advogado-Geral da União;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36b2b5216eb7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 84, XVI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XVI",
+     "sigla": "CF",
+     "texto": "Art. 84, XVI, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "Compete privativamente ao presidente da República nomear o advogado-geral da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "XVI - nomear os magistrados, nos casos previstos nesta Constituição, e o Advogado-Geral da União; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cb76f302b06f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 84, XXI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XXI",
+     "sigla": "CF",
+     "texto": "Art. 84, XXI, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-11ª REGIÃO-AM E RR",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, compete privativamente ao Presidente da República conferir condecorações e distinções honorificas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República: […]",
+    "XXI - conferir condecorações e distinções honoríficas; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c170eb284640",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 84, XXII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XXII",
+     "sigla": "CF",
+     "texto": "Art. 84, XXII, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal de 1988, compete privativamente ao Presidente da República permitir, nos casos previstos em lei complementar, que forças estrangeiras transitem pelo território nacional ou nele permaneçam indefinidamente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XXII - permitir, nos casos previstos em lei complementar, que forças estrangeiras transitem pelo território nacional ou nele permaneçam temporariamente;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d5e84a9f0a2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 84, XXIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XXIII",
+     "sigla": "CF",
+     "texto": "Art. 84, XXIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista - Gestão Estratégica - Articulação Político-Institucional Nacional",
+   "instituicao": "EMBRAPA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir, com relação ao processo legislativo orçamentário e ao lobby.",
+    "Compete privativamente ao presidente da República enviar ao Senado Federal o plano plurianual, o projeto de lei de diretrizes orçamentárias e as propostas de orçamento previstos na Constituição Federal de 1988."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XXIII - enviar ao Congresso Nacional o plano plurianual, o projeto de lei de diretrizes orçamentárias e as propostas de orçamento previstos nesta Constituição;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3278dd72f4b6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 84, XXV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "XXV",
+     "sigla": "CF",
+     "texto": "Art. 84, XXV, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Auditor de Controle Externo - Administração",
+   "instituicao": "TCE-SP",
+   "obs": "",
+   "enunciado": [
+    "Com base na Constituição Federal, está compreendido no âmbito das atribuições do Presidente da República: prover e extinguir cargos públicos federais, na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84 - Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XXV - prover e extinguir os cargos públicos federais, na forma da lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8c1e50f8ea14",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 84, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 84, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Estadual de Controle Externo",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a sgeuir a respeito das atribuições e responsabilidades do presidente da República.",
+    "As atribuições do presidente da República são indelegáveis, haja vista o exercício das funções de chefe de Estado e chefe de governo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84, Parágrafo único - O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador- Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a8afc6a2263",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 84, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "84",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 84, § único, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "O Presidente da República tem a intenção de conceder indulto às pessoas condenadas no Brasil pela prática de receptação culposa. Devido a compromissos internacionais que o afastarão do país pelo período de dez dias, resolveu delegar ao Procurador- Geral da República a atribuição de dispor mediante decreto, durante sua ausência, sobre o referido indulto. Considerando o fato narrado, trata-se de competência constitucionalmente delegável."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 84. Compete privativamente ao Presidente da República:",
+    "[...]",
+    "XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei;",
+    "[...]",
+    "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2bd0286ec122",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 85, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 85, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra: a existência da União; o livre exercício do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos Poderes constitucionais das unidades da Federação; o exercício dos direitos políticos, individuais e sociais; a segurança interna do País; a probidade na administração; a lei orçamentária; e o cumprimento das leis e das decisões judiciais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "I - a existência da União;",
+    "II - o livre exercício do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos Poderes constitucionais das unidades da Federação;",
+    "III - o exercício dos direitos políticos, individuais e sociais;",
+    "IV - a segurança interna do País;",
+    "V - a probidade na administração;",
+    "VI - a lei orçamentária;",
+    "VII - o cumprimento das leis e das decisões judiciais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-68252344de7f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 85, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 85, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Na forma republicana de governo, os governantes são responsáveis pelos atos que praticam. A Constituição Brasileira prevê os casos de crime de responsabilidade atribuídos ao Presidente da República. Neste caso, nos termos da Constituição Brasileira, o Presidente poderá estar sujeito a um processo de impeachment pela prática de crime de responsabilidade quando atentar contra a vida de alguém."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "I - a existência da União;",
+    "II - o livre exercício do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos Poderes constitucionais das unidades da Federação;",
+    "III - o exercício dos direitos políticos, individuais e sociais;",
+    "IV - a segurança interna do País;",
+    "V - a probidade na administração;",
+    "VI - a lei orçamentária;",
+    "VII - o cumprimento das leis e das decisões judiciais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c10654765e36",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 85, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 85, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2016",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "São crimes de responsabilidade do Presidente da República os atos que atentem contra a Constituição Federal, e especialmente, contra o exercício dos direitos individuais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "[...]",
+    "III - o exercício dos direitos políticos, individuais e sociais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-50b40f5563e5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Arts. 85, IV e 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Arts. 85, IV e 86, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 85, IV e 86, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Agente de Tributos da Fazenda Estadual - Geral",
+   "instituicao": "SEFAZ-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, o ato do Presidente da República que atente contra a segurança interna do Pais é crime de responsabilidade e, admitida a acusação contra ele, por dois terços da Câmara dos Deputados, pela prática desse crime, será o Presidente da República submetido a julgamento perante o Senado Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85 - São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "[...]",
+    "IV - a segurança interna do País;",
+    "[...]",
+    "Art. 86 - Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f4bdbb4a8ee8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 85, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 85, VII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Analista de Planejamento e Orçamento",
+   "instituicao": "SEPLAN-RR",
+   "obs": "",
+   "enunciado": [
+    "É crime de responsabilidade ato do presidente da República que atente contra o cumprimento de decisão judicial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "[…]",
+    "VII - o cumprimento das leis e das decisões judiciais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2f6be70ed98c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Arts. 85, § 1º, II, c/c § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "85",
+     "disp": "§ 1º, II,",
+     "sigla": "",
+     "texto": "Arts. 85, § 1º, II,"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TRT-9ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Supondo-se que o Presidente da República seja acusado da prática de ato que atente contra a probidade na Administração e que a acusação seja admitida por dois terços da Câmara dos Deputados, o Presidente será submetido a julgamento perante o Senado Federal e ficará suspenso de suas funções, após a instauração do processo pelo Senado Federal, cessando seu afastamento se decorrido o prazo de 180 dias sem que tenha havido a conclusão do julgamento, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 85. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra:",
+    "[…]",
+    "V - a probidade na administração;",
+    "[…]",
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "§ 1º O Presidente ficará suspenso de suas funções:",
+    "[…]",
+    "II - nos crimes de responsabilidade, após a instauração do processo pelo Senado Federal.",
+    "§ 2º Se, decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo.",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "85",
+    "ate": "85"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4ceece1f5c1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Cargo de Nível Superior",
+   "instituicao": "DEPEN",
+   "obs": "",
+   "enunciado": [
+    "Admitida a acusação contra o presidente da República pela prática de crime de responsabilidade por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o SENADO FEDERAL, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3bb0ce643feb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SC",
+   "obs": "Prova Anulada",
+   "enunciado": [
+    "Admitida a acusação contra o Presidente da República, por um terço da Câmara dos Deputados, será ele submetido a julgamento perante o Senado Federal, nas infrações penais comuns, ou perante o Supremo Tribunal Federal, nos crimes de responsabilidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por DOIS TERÇOS da Câmara dos Deputados, será ele submetido a julgamento perante o SUPREMO TRIBUNAL FEDERAL, nas infrações penais comuns, ou perante o SENADO FEDERAL, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-506192979455",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "instituicao": "SEFAZ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em relação à administração pública, aos servidores públicos e ao Poder Executivo, julgue o item a seguir.",
+    "O presidente da República, na vigência de seu mandato, não pode ser responsabilizado por crime comum, somente por crime de responsabilidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86 - Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bc522448edff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "A denúncia contra o presidente da República por crime de responsabilidade, uma vez admitida, será julgada pelo Senado Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f1e9418a59eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 86,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Agente",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Considerando as atribuições e a responsabilidade do presidente da República, julgue o próximo item. O presidente da República só pode ser submetido a julgamento pelo Supremo Tribunal Federal (STF), nas infrações penais comuns, ou pelo Senado Federal, nos crimes de responsabilidade, depois de admitida a acusação por dois terços dos membros da Câmara dos Deputados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e97d9c6d2e8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 88,
+   "referencia": "Art. 86, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 86, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "Admitida a acusação contra o Presidente da República, por maioria absoluta dos membros da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8a7f26b77165",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 89,
+   "referencia": "Art. 86, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 1º, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2016",
+   "cargo": "Promotor de Justiça - Prova Anulada",
+   "instituicao": "ADAPTADA",
+   "obs": "",
+   "enunciado": [
+    "Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade. Nesta perspectiva, nos termos do artigo 86 da Constituição Federal, é correto afirmar que o Presidente ficará suspenso de suas funções nas infrações penais comuns, se recebida a denúncia ou queixa-crime pelo Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. [...]",
+    "§ 1º - O Presidente ficará suspenso de suas funções:",
+    "I - nas infrações penais comuns, se recebida a denúncia ou queixa- crime pelo Supremo Tribunal Federal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-158fe6dc31df",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 90,
+   "referencia": "Art. 86, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 86, § 1º, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-AL",
+   "obs": "",
+   "enunciado": [
+    "Relativamente aos servidores civis, à responsabilidade do presidente da República e do Poder Judiciário, julgue o item seguinte. Caso o presidente da República cometa crime comum, caberá ao procurador-geral da República acusá-lo, e, uma vez oferecida por este a denúncia ao Supremo Tribunal Federal, o presidente será afastado de suas funções por 180 dias."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "§ 1º O Presidente ficará suspenso de suas funções:",
+    "I - nas infrações penais comuns, se recebida a denúncia ou queixa-crime pelo Supremo Tribunal Federal; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c81848698b0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 91,
+   "referencia": "Art. 86, § 1º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 1º, II",
+     "sigla": "CF",
+     "texto": "Art. 86, § 1º, II, CF"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o texto constitucional, o Presidente ficará suspenso de suas funções quando nos crimes de responsabilidade, após a instauração do processo pelo Senado Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86 […]",
+    "§ 1º O Presidente ficará suspenso de suas funções: […]",
+    "II - nos crimes de responsabilidade, após a instauração do processo pelo Senado Federal."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 86,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-afb2f1f0bf16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 92,
+   "referencia": "Art. 86, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 2º, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "O Presidente da República ficará suspenso de suas funções até o final do processo, nas infrações penais comuns, se recebida a denúncia ou queixa-crime pelo Supremo Tribunal Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "§ 1º O Presidente ficará suspenso de suas funções:",
+    "I - nas infrações penais comuns, se recebida a denúncia ou queixa-crime pelo Supremo Tribunal Federal;",
+    "[…]",
+    "§ 2º Se, decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 87,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9512a603e931",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 93,
+   "referencia": "Art. 86, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-23ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando apenas as informações fornecidas, em situação hipotética, admitida acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, pela prática de crime de responsabilidade, será ele submetido a julgamento perante o Senado Federal, ficando suspenso de suas funções após a instauração do processo, sendo que, decorrido o prazo de cento e oitenta dias, se o julgamento não estiver concluído, cessará o seu afastamento, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "[…]",
+    "§ 2º Se, decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 88,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-51c06a6995f2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 94,
+   "referencia": "Art. 86, caput e § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "caput e § 2º",
+     "sigla": "CF",
+     "texto": "Art. 86, caput e § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Auditor Fiscal da Receita Estadual - Gestão Fazendária",
+   "instituicao": "SEFAZ-CE",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, admitida a acusação, contra o Presidente da República, por prática de crime de responsabilidade, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Senado Federal, ficando suspenso de suas funções após a instauração do processo pelo Senado Federal e, se decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente da República, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade. […]",
+    "§ 2º Se, decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 89,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a49148b91e79",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 95,
+   "referencia": "Art. 86, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "Suponha que um Presidente da República pratique crime de responsabilidade. Nessa situação hipotética, com base apenas na informação fornecida, de acordo com a Constituição Federal de 1988, admitida a acusação contra ele, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Senado Federal, ficando suspenso de suas funções após a instauração do processo pelo Senado Federal e, se decorrido o prazo de cento de oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86 - Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "§ 2º - Se, decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 90,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6a892e368815",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 96,
+   "referencia": "Art. 86. § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": ". § 3º",
+     "sigla": "CF",
+     "texto": "Art. 86. § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Estadual de Controle Externo",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a sgeuir a respeito das atribuições e responsabilidades do presidente da República.",
+    "O presidente da República, na vigência de seu mandato, somente poderá ser preso em flagrante de crime inafiançável."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86, § 3º - Enquanto não sobrevier sentença condenatória, nas infrações comuns, o Presidente da República não estará sujeito a prisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 91,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6249e8a7e52",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 97,
+   "referencia": "Art. 86, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PR",
+   "obs": "",
+   "enunciado": [
+    "No que se refere ao regime constitucional do Poder Executivo nas diferentes esferas da Federação, julgue o item a seguir.",
+    "É admitida a prisão cautelar de governador."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. [...]",
+    "§ 3º Enquanto não sobrevier sentença condenatória, nas infrações comuns, o Presidente da República não estará sujeito a prisão.",
+    "Segundo o STF essa norma é aplicável somente ao Presidente da República, de modo que o Governador pode ser preso cautelarmente."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 92,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-66d8c88043a1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 98,
+   "referencia": "Art. 86, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 3º, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "O Presidente da República não poderá ser preso, salvo em flagrante de crime inafiançável."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86, § 3º Enquanto não sobrevier sentença condenatória, nas infrações comuns, o Presidente da República não estará sujeito a prisão."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 93,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-80db66632a2b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 99,
+   "referencia": "Art. 86, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "86",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 86, § 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Advogado do CREAS",
+   "instituicao": "PREFEITURA DE ITAPEVI-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regime constitucional das inviolabilidades civil e penal de Deputados e Senadores, julgue o item a seguir.",
+    "Os Deputados e os Senadores, durante a vigência de seu mandato, não podem ser responsabilizados por atos estranhos ao exercício de suas funções."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86, § 4º - O Presidente da República, na vigência de seu mandato, não pode ser responsabilizado por atos estranhos ao exercício de suas funções."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 94,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "4 Organização dos Poderes (Arts. 44 - 135, CF)"
+ ]
+}
