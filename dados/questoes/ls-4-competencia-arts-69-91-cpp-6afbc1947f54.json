@@ -1,0 +1,5300 @@
+{
+ "id": "ls-4-competencia-arts-69-91-cpp-6afbc1947f54",
+ "titulo": "4 Competência (Arts. 69 - 91, CPP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-1d48afabac61",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 69, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "69",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 69, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-AC",
+   "obs": "",
+   "enunciado": [
+    "Considerando o princípio da congruência no processo penal, julgue o seguinte item. O juízo competente deve ser definido de acordo com o pedido feito pelo dominus litis."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 69. Determinará a competência jurisdicional:",
+    "I - o lugar da infração:",
+    "II - o domicílio ou residência do réu;",
+    "III - a natureza da infração;",
+    "IV - a distribuição;",
+    "V - a conexão ou continência;",
+    "VI - a prevenção;",
+    "VII - a prerrogativa de função."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "69",
+    "ate": "69"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9d097478593c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, é correto afirmar que a competência será, em regra, determinada pelo lugar da infração ou do domicílio ou residência do réu, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-525a9b7ec69d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no processo penal, o Código de Processo Penal estabelece que será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o primeiro ato de execução."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8739a103cd98",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tratamento dado à competência pelo Código de Processo Penal, tem-se o seguinte: A legislação processual adota a teoria da ubiquidade para determinação do juízo competente pelo lugar da infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8393fccc8298",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2010",
+   "cargo": "Analista",
+   "instituicao": "TRE-MT",
+   "obs": "",
+   "enunciado": [
+    "A competência é, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que seconsumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-069d709a7cde",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RN",
+   "obs": "",
+   "enunciado": [
+    "Em se tratando de crime tentado, a competência será determinada pelo lugar em que deveria ocorrer o resultado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d1d0a200b9bf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Procurador",
+   "instituicao": "ALERR",
+   "obs": "",
+   "enunciado": [
+    "Sobre competência, nos termos do Código de Processo Penal, julgue o item. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a9851d9c2d0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 70, § 3°, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 3°",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 3°, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no processo penal, o Código de Processo Penal estabelece que, quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pelo domicílio ou residência do réu."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 […]",
+    "§ 3° Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2e97ee0a33cf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 70, § 4°, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4°",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4°, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no processo penal, o Código de Processo Penal estabelece que, em caso de estelionato praticado mediante depósito, a competência será definida pelo local de domicílio da vítima e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 […]",
+    "§ 4° Nos crimes previstos no art. 171 do Decreto-Lei n° 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-033bdb3d2da3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 70, § 4º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-RN",
+   "obs": "",
+   "enunciado": [
+    "Joana, residente e domiciliada em Niterói/RJ, interessada na aquisição de uma raquete de tênis, encontra, nas redes sociais, a propaganda da sociedade empresária XYZ, localizada em Natal/RN. Joana fica muito interessada, considerando o desconto oferecido pela entidade para a compra de uma raquete de tênis da última geração. Dessa forma, Joana, em março de 2023, acaba por realizar uma transferência bancária para uma conta com registro em agência situada em Porto Alegre/RS. Posteriormente, a particular percebe que foi vítima de um crime de estelionato. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que a competência para o processo e julgamento do crime de estelionato é de uma das Varas Criminais de Niterói/RJ, local do domicílio da vítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 […]",
+    "§ 4º Nos crimes previstos no art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-70c17aefc27b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 70, § 4º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4º, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, é correto afirmar que a competência será, na hipótese, entre outros, do crime de estelionato, quando praticados mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado, definida pelo local do domicílio da vítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 4º Nos crimes previstos no art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção. (Incluído pela Lei nº 14.155, de 2021)"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-41333cce027b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2013",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0d7da9823845",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, é correto afirmar que a competência será, na hipótese de infração permanente, praticada em território de duas ou mais jurisdições, firmada pelo lugar do último ato de execução."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-78b125c86478",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "No tocante à determinação da competência para processar e julgar os feitos no processo penal, é correto afirmar que infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência será determinada pelo domicílio da vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d07cfdb80f96",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 70, § 4º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Polícia Penal",
+   "instituicao": "PP-DF",
+   "obs": "",
+   "enunciado": [
+    "Sobre o direito processual penal, julgue o item a seguir. Prometeu, domiciliado em Curitiba, durante uma viagem a passeio para Londrina, efetuou a compra de um notebook de propriedade de Hera, emitindo um cheque sem fundo, de sua conta corrente, para pagar o objeto. Considerando que Hera é domiciliada em Londrina e que a agência bancária de Prometeu está localizada em Campinas, é correto afirmar que a competência territorial para julgar o delito será do local onde se situa a agência que recusou o pagamento, no caso, o município de Campinas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. […]",
+    "§ 4º Nos crimes previstos no art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-16595bf64a1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 70, § 3º, CPP e S. 147, STJ",
+   "refs": [
+    {
+     "lei": null,
+     "art": "70",
+     "disp": "§ 3º, CPP e S. 147, STJ",
+     "sigla": "",
+     "texto": "Art. 70, § 3º, CPP e S. 147, STJ"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Xisto e Benício, residentes na área territorial da Subseção Judiciária X, cometeram um crime de roubo na divisa entre as Subseções Judiciárias Y e Z, quando abordaram funcionário público federal em serviço, que reside na Subseção Judiciária A, e subtraíram, mediante grave ameaça, o veículo de propriedade da União, por ele conduzido. Xisto e Benício foram presos em flagrante na posse da res furtiva durante a fuga, quando já estavam na área territorial da Subseção Judiciária B. No caso hipotético apresentado, a competência para processar e julgar Xisto e Benício será determinada pela prevenção e poderá ser tanto do juízo federal da Subseção Judiciária Y quanto da Z."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução.",
+    "[...]",
+    "§ 3º Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pela prevenção.",
+    "Súmula n. 147, STJ - Compete à Justiça Federal processar e julgar os crimes praticados contra funcionário público federal, quando relacionados com o exercício da função."
+   ],
+   "vinculo": null,
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-76365ee7aa60",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Em 10/5/2025, Júlia, ao retornar para a sua casa em Belém, notou que seu apartamento havia sido arrombado, e diversos objetos de valor, subtraídos. Imediatamente, Júlia registrou um boletim de ocorrência. A Polícia Civil do Pará instaurou inquérito policial, e, durante as investigações, descobriu que o arrombamento e o furto haviam sido praticados por Lucas, que reside no Rio de Janeiro – RJ. A apuração indicou que Lucas planejou o crime em seu estado natal, mas o executou em Belém. O Ministério Público do Pará ofereceu denúncia contra Lucas, cuja defesa suscitou incompetência territorial. Durante a fase de instrução, a defesa requereu a interceptação telefônica de uma testemunha-chave, alegando que esta estaria mentindo para prejudicar o acusado. O juiz indeferiu o pedido, considerando que a simples alegação da defesa não era suficiente para justificar a medida extrema.",
+    "A partir da situação hipotética precedente, julgue o item que segue.",
+    "A instauração do inquérito policial a partir do boletim de ocorrência registrado por Júlia em Belém, mesmo com a posterior descoberta de que Lucas mora no Rio de Janeiro, não compromete a legalidade do procedimento investigatório nem a validade dos elementos informativos nele colhidos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 - A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-23f9776b12cd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à competência para processo e julgamento dos crimes de ação penal privada, julgue o item a seguir de acordo com o CPP.",
+    "Determina-se, exclusivamente, pelo domicílio do ofendido."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 - A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e42e6f9ca764",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 70 c/c Art. 290, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 70"
+    },
+    {
+     "lei": "cpp",
+     "art": "290",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 290, CPP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Um indivíduo é preso, em flagrante, por volta das 14h, após perseguição ininterrupta, em Caçapava do Sul (RS), na hipótese denominada de flagrante impróprio. O crime, no entanto, foi praticado 20 minutos antes, em São Sepé (RS), município vizinho. A pena para o delito cometido é de 4 a 10 anos de reclusão. As Delegacias de Polícia dos municípios referidos possuem autoridades policiais. Nessa hipótese, é correto afirmar que o auto de prisão em flagrante deve ser lavrado na Delegacia de Polícia de Caçapava do Sul, mas o inquérito policial deverá ser elaborado e concluído pela Delegacia de Polícia de São Sepé."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 290. - Se o réu, sendo perseguido, passar ao território de outro município ou comarca, o executor poderá efetuar-lhe a prisão no lugar onde o alcançar, apresentando-o imediatamente à autoridade local, que, depois de lavrado, se for o caso, o auto de flagrante, providenciará para a remoção do preso.",
+    "Art. 70 - A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d2b574416386",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 70, § 1º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 1º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 1º, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Considerando-se a fronteira que o Estado de Mato Grosso do Sul possui com o Paraguai e com a Bolívia, Lucas, agente público do referido ente federativo, participou de palestra, na qualidade de ouvinte, sobre a competência pelo lugar da infração na esfera processual penal. De acordo com a narrativa e considerando as disposições do Código de Processo Penal, julgue o item. Se, iniciada a execução no território nacional, a infração se consumar fora dele, a competência será determinada pelo lugar em que tiver sido praticado, no Brasil, o último ato de execução."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução. o",
+    "§ 1 Se, iniciada a execução no território nacional, a infração se consumar fora dele, a competência será determinada pelo lugar em que tiver sido praticado, no Brasil, o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3ee5b067ee94",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 69, V, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "69",
+     "disp": "V",
+     "sigla": "CPP",
+     "texto": "Art. 69, V, CPP"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPAM",
+   "ano": "2026",
+   "cargo": "Analista",
+   "instituicao": "PREFEITURA EUSÉBIO-CE",
+   "obs": "",
+   "enunciado": [
+    "Conforme Código de Processo Penal, será determinante para a competência jurisdicional, a conexão ou continência."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 69. Determinará a competência jurisdicional:",
+    "[...]",
+    "V - a conexão ou continência;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "69",
+    "ate": "69"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-05e662aa9b78",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 69, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "69",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 69, II, CPP"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPAM",
+   "ano": "2026",
+   "cargo": "Analista",
+   "instituicao": "PREFEITURA EUSÉBIO-CE",
+   "obs": "",
+   "enunciado": [
+    "Conforme Código de Processo Penal, será determinante para a competência jurisdicional, o domicílio ou residência do réu."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 69. Determinará a competência jurisdicional:",
+    "[...]",
+    "II - o domicílio ou residência do réu;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "69",
+    "ate": "69"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bfda0ce82299",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 69, VI, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "69",
+     "disp": "VI",
+     "sigla": "CPP",
+     "texto": "Art. 69, VI, CPP"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPAM",
+   "ano": "2026",
+   "cargo": "Analista",
+   "instituicao": "PREFEITURA EUSÉBIO-CE",
+   "obs": "",
+   "enunciado": [
+    "Conforme Código de Processo Penal, será determinante para a competência jurisdicional, a prevenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 69. Determinará a competência jurisdicional:",
+    "[...]",
+    "VI - a prevenção;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "69",
+    "ate": "69"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6f7b669c7633",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 70, § 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 3º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 3º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-AP",
+   "obs": "",
+   "enunciado": [
+    "Ricardo e Marcelo residem na cidade de Rosana-SP e saíram de barco, para pescar na região de entroncamento dos rios Paraná e Paranapanema, onde também é a divisa entre três Estados (Paraná – cidade de Marilena; Mato Grosso do Sul – cidade de Batayporã; e São Paulo – cidade de Rosana). Quando estavam no meio do rio, Ricardo e Marcelo foram abordados por três homens armados que utilizavam outro barco, os quais subtraíram, mediante grave ameaça, todo o equipamento de pesca, bem como demais pertences pessoais (carteiras, celulares e dinheiros). Ricardo e Marcelo foram resgatados e levados para a cidade de Batayporã-PR, onde registraram Boletim de Ocorrência. Os três roubadores, que residem na cidade de Mirante do Paranapanema-SP, foram presos dois dias depois na cidade de Marilena-PR. Nesse caso, havendo incerteza quanto à jurisdição, uma vez que o crime foi praticado nas divisas de três jurisdições, a competência para processar e julgar os roubadores firmar-se-á pela prevenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução.",
+    "[...]",
+    "§ 3o Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1cc3109c4f5c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 70, § 1º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 1º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 1º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "PREFEITURA SATUBA-AL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item sobre a competência no processo penal. Quando o último ato de execução ocorrer no exterior, a competência será sempre definida pelo local de residência da vítima, independentemente do tipo penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução. o",
+    "§ 1 Se, iniciada a execução no território nacional, a infração se consumar fora dele, a competência será determinada pelo lugar em que tiver sido praticado, no Brasil, o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a4a34cb55d40",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 70, § 4º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "PREFEITURA SATUBA-AL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item sobre a competência no processo penal. Em crimes praticados mediante depósitos, transferências eletrônicas ou cheques sem provisão de fundos, a competência será determinada pelo local onde o agente realizou a operação financeira."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução.",
+    "[...]",
+    "§ 4º Nos crimes previstos no art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-57fed62952a5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "PREFEITURA SATUBA-AL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item sobre a competência no processo penal. A competência territorial, nos casos de crime consumado, será sempre definida pelo local do domicílio do autor da infração, salvo se houver pluralidade de vítimas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70. A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aea85649fc3f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 70, § 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 3º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 3º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca das regras de competência, o Código de Processo Penal estabelece: Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á por sorteio."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 3º - Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7000c71a6327",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 70, § 4º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 4º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 4º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-PE",
+   "obs": "",
+   "enunciado": [
+    "Márcia, domiciliada na cidade de Caruaru, foi vítima de estelionato mediante transferência de valores em agência de banco privado do município de Maceió, estado de Alagoas. Concluído o inquérito policial e havendo justa causa para a ação penal, a denúncia deverá ser oferecida pelo Órgão do Ministério Público estadual de Caruaru."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 4º - Nos crimes previstos no art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), quando praticados mediante depósito, mediante emissão de cheques sem suficiente provisão de fundos em poder do sacado ou com o pagamento frustrado ou mediante transferência de valores, a competência será definida pelo local do domicílio da vítima, e, em caso de pluralidade de vítimas, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0e97564e6695",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Sobre as disposições legais referentes à competência no Processo Penal, tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, será do lugar onde se iniciou a execução do delito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71 - Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-859420304a18",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 70, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 70, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Sobre as disposições legais referentes à competência no Processo Penal, será determinada, em regra, pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que foi praticado o primeiro ato de execução."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70 - A competência será, de regra, determinada pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-14961513e89f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 70, § 3º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 3º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 3º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Sobre as disposições legais referentes à competência no Processo Penal, quando incerto o limite territorial entre duas ou mais jurisdições, será do território mais populoso ou que apresente o maior número de Fóruns criminais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 3º - Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-52f418ae0870",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 70, § 1º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 1º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 1º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRF-4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência, nos termos preconizados pelo Código de Processo Penal, julgue o item a seguir.",
+    "Se, iniciada a execução no território nacional, a infração se consumar fora dele, a competência será determinada pelo lugar em que tiver sido praticado, no Brasil, o último ato de execução."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 1º - Se, iniciada a execução no território nacional, a infração se consumar fora dele, a competência será determinada pelo lugar em que tiver sido praticado, no Brasil, o último ato de execução."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c81a0d17beb1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 70, § 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "70",
+     "disp": "§ 2º",
+     "sigla": "CPP",
+     "texto": "Art. 70, § 2º, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRF-4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência, nos termos preconizados pelo Código de Processo Penal, julgue o item a seguir.",
+    "Quando o último ato de execução for praticado fora do território nacional, será competente o juiz do lugar em que o crime, embora parcialmente, tenha produzido ou devia produzir seu resultado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 70, § 2º - Quando o último ato de execução for praticado fora do território nacional, será competente o juiz do lugar em que o crime, embora parcialmente, tenha produzido ou devia produzir seu resultado."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "70",
+    "ate": "70"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4fbdf8a038bf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Procurador",
+   "instituicao": "ALERR",
+   "obs": "",
+   "enunciado": [
+    "Sobre competência, nos termos do Código de Processo Penal, julgue o item. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-32b46d8cf13c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 72, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 72, CPP"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Não sendo conhecido o lugar da infração, a competência será regulada pelo domicílio da vítima, nos termos do art. 72 do Código de Processo Penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72. Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c998ed548aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Arts. 72 e 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Arts. 72 e 73, CPP"
+    },
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Arts. 72 e 73, CPP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A competência jurisdicional só será determinada pelo domicílio do réu quando desconhecido o lugar da infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72. Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu.",
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-521e550a4e08",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tratamento dado à competência pelo Código de Processo Penal, tem-se o seguinte: No caso de ação penal pública condicionada à representação, o ofendido pode preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a023ad20c35",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Sobre as disposições legais referentes à competência no Processo Penal, nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-203dffed81a0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no processo penal, o Código de Processo Penal estabelece que, nos casos de exclusiva ação de iniciativa privada, o querelante poderá preferir o foro de seu domicílio ou residência, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1f7c8de6e4d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à competência para processo e julgamento dos crimes de ação penal privada, julgue o item a seguir de acordo com o CPP. O querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7483bbe1d416",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "No tocante à determinação da competência para processar e julgar os feitos no processo penal, é correto afirmar que nos casos de exclusiva ação privada, poderá o querelante preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b0fb38024544",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 72, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 72, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "João, com domicílio no Município Gama, partiu do Município Alfa conduzindo um veículo automotor com destino ao Município Beta. No meio do trajeto, foi parado no Município Sigma em uma operação policial de rotina, momento no qual os policiais localizaram uma elevada importância em dinheiro, além de farto material de campanha eleitoral de um candidato na eleição para vereador do Município Beta. Ao questionarem João em relação à origem e ao destino desses recursos, foi- lhes informado que seriam entregues a eleitores em troca do voto no candidato indicado, conforme negociação previamente realizada.",
+    "Na situação descrita, é correto afirmar que a competência para acompanhar o inquérito policial instaurado para apurar os fatos, considerando o Juízo competente para processar e julgar uma eventual ação penal, é do Juízo da Zona Eleitoral com competência sobre Gama."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72 - Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5f3abf4b036",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 72, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 72, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca das regras de competência, o Código de Processo Penal estabelece: Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência da vítima."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72 - Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7072366ab1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 72, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 72, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRF-4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência, nos termos preconizados pelo Código de Processo Penal, julgue o item a seguir.",
+    "Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72 - Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f15836ae0b3a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 72, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "72",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 72, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência no processo penal é correto afirmar: Será determinada, de regra, pelo domicílio ou residência do réu."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 72 - Não sendo conhecido o lugar da infração, a competência regular-se-á pelo domicílio ou residência do réu."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "72",
+    "ate": "72"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aaaa2f68da8e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 73, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "73",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 73, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Carlos foi vítima de calúnia perpetrada por João, quando ambos estavam comemorando o aniversário de Patrícia em uma casa de festas em Nova Iguaçu. Quatro meses após os fatos, Carlos, que mora em Niterói, registrou a ocorrência e apresentou queixa-crime na Comarca de Volta Redonda, local onde reside João. De acordo com as informações acima apresentadas, o juízo de Volta Redonda deverá receber a queixa-crime, eis que, em se tratando de ação penal exclusivamente privada, o querelante pode preferir distribuir a ação penal no foro de domicílio ou residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 73. Nos casos de exclusiva ação privada, o querelante poderá preferir o foro de domicílio ou da residência do réu, ainda quando conhecido o lugar da infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "73",
+    "ate": "73"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eb0062fb2d23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 74, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "74",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 74, CPP"
+    }
+   ],
+   "banca": "FUNRIO",
+   "ano": "2009",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "DEPEN",
+   "obs": "",
+   "enunciado": [
+    "A competência pela natureza da infração será regulada pelas leis de organização judiciária, salvo a competência privativa do Tribunal do Júri."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 74. A competência pela natureza da infração será regulada pelas leis de organização judiciária, salvo a competência privativa do Tribunal do Júri."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "74",
+    "ate": "74"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de4f7ff878db",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 74, § 2º, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "74",
+     "disp": "§ 2º",
+     "sigla": "CPP",
+     "texto": "Art. 74, § 2º, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Sobre sistemas processuais e competência, julgue o item a seguir.",
+    "Se, iniciado o processo perante um juiz, houver desclassificação para infração da competência de outro, a este será remetido o processo, salvo se mais graduada for a jurisdição do primeiro, que, em tal caso, terá sua competência prorrogada."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 74, § 2º - Se, iniciado o processo perante um juiz, houver desclassificação para infração da competência de outro, a este será remetido o processo, salvo se mais graduada for a jurisdição do primeiro, que, em tal caso, terá sua competência prorrogada."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "74",
+    "ate": "74"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b9af706a077e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 75, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "75",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 75, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2015",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PB",
+   "obs": "",
+   "enunciado": [
+    "Não há mais hipótese no CPP de competência por distribuição."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 75. A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "75",
+    "ate": "75"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9a51ec7ada6f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Arts. 75 e 83, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "75",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Arts. 75 e 83, CPP"
+    },
+    {
+     "lei": "cpp",
+     "art": "83",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Arts. 75 e 83, CPP"
+    }
+   ],
+   "banca": "MPE-BA",
+   "ano": "2015",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-BA",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código de Processo Penal, a distribuição e a prevenção são hipóteses de determinação da competência jurisdicional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 75. A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente.",
+    "Parágrafo único. A distribuição realizada para o efeito da concessão de fiança ou da decretação de prisão preventiva ou de qualquer diligência anterior à denúncia ou queixa prevenirá a da ação penal.",
+    "[...]",
+    "Art. 83. Verificar-se-á a competência por prevenção toda vez que, concorrendo dois ou mais juízes igualmente competentes ou com jurisdição cumulativa, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, ainda que anterior ao oferecimento da denúncia ou da queixa (arts. 70,",
+    "§ 3o, 71, 72, § 2o, e 78, II, c)."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "75",
+    "ate": "75"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2b1a39d11f15",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 75, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "75",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 75, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-BA",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do CPP, a precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 75. A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "75",
+    "ate": "75"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-58b7e5fc4c37",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 75, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "75",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 75, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca das regras de competência, o Código de Processo Penal estabelece: A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 75 - A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "75",
+    "ate": "75"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d8d8c0750881",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 75, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "75",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 75, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência no processo penal é correto afirmar: É determinada pela continência quando houver mais de um juiz igualmente competente para o caso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 75 - A precedência da distribuição fixará a competência quando, na mesma circunscrição judiciária, houver mais de um juiz igualmente competente."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "75",
+    "ate": "75"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9a0c6408dae1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 76, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 76, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2012",
+   "cargo": "Analista Judiciário - Execução de Mandados",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A competência será determinada pela continência se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela CONEXÃO:",
+    "I - se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6be9c1d702b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 76, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 76, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, a competência será firmada pela continência, entre outras hipóteses, se, no mesmo caso, duas ou mais infrações tiverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "[...]",
+    "II - se, no mesmo caso, houverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08657f304b7e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 76, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 76, I, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "Durante um jogo de futebol acirrado entre dois times que disputavam a liderança do campeonato paraense, repentinamente torcedores reunidos no estádio iniciaram uma confusão e praticaram diversas infrações penais no local. Nos termos do Código de Processo Penal, a competência para o julgamento das infrações penais praticadas na situação hipotética narrada anteriormente será determinada pela conexão intersubjetiva por simultaneidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "I – se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2dd827c44d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 76, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 76, I, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Sobre sistemas processuais e competência, julgue o item a seguir.",
+    "A competência será determinada pela conexão se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "I - se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7249ccd524bd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 76, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 76, II, CPP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Sobre sistemas processuais e competência, julgue o item a seguir.",
+    "A competência será determinada pela prevenção se, no mesmo caso, houverem sido praticadas infrações para facilitar ou ocultar outras infrações, ou para conseguir impunidade ou vantagem em relação a qualquer delas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "[...]",
+    "II - se, no mesmo caso, houverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f69dd5e8474b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 76, III, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "III",
+     "sigla": "CPP",
+     "texto": "Art. 76, III, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, a competência será firmada pela conexão, entre outras hipóteses, quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "[...]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-961e7188c824",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 76, III, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "III",
+     "sigla": "CPP",
+     "texto": "Art. 76, III, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, a competência será firmada pela continência, entre outras hipóteses, quando a prova de uma infração, cometida por dolo eventual ou por qualquer de suas circunstâncias elementares, influir na prova de outra infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "[...]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d18e44bd43d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 77, I, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, a competência será firmada pela conexão, entre outras hipóteses, quando três ou mais pessoas forem acusadas pela mesma infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b7e6d3cb893c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 77, I, CPP"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o tratamento dado à competência pelo Código de Processo Penal, tem-se o seguinte: A competência será determinada pela conexão quando duas ou mais pessoas forem acusadas pela mesma infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8a9ff215f9d6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 77, I, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, a competência será firmada pela conexão, entre outras hipóteses, quando duas ou mais pessoas forem acusadas pela mesma infração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d4a8f5587c23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 78, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 78, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Analista",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Na determinação da competência por conexão ou continência, quando houver concurso entre a jurisdição comum e a especial, prevalecerá aquela."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[...]",
+    "IV - no concurso entre a jurisdição comum e a especial, prevalecerá ESTA."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3ebdcf2a1817",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 78, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 78, II, CPP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Na hipótese de crimes conexos, o juiz que decretar a prisão preventiva de um dos acusados fica, em face da prevenção, competente para a apreciação de todos os crimes, independentemente do número de infrações cometidas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[...]",
+    "II - no concurso de jurisdições da mesma categoria:",
+    "a) preponderará a do lugar da infração, à qual for cominada a pena mais grave;",
+    "b) prevalecerá a do lugar em que houver ocorrido o maior número de infrações, se as respectivas penas forem de igual gravidade;",
+    "c) firmar-se-á a competência pela prevenção, nos outros casos;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-189b1e93cd02",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 78, II, a, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II, a",
+     "sigla": "CPP",
+     "texto": "Art. 78, II, a, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no processo penal, o Código de Processo Penal estabelece que, na determinação da competência por conexão ou continência, no concurso de jurisdições de mesma categoria, preponderará sempre a competência por prevenção."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[…]",
+    "Il - no concurso de jurisdições da mesma categoria:",
+    "a) preponderará a do lugar da infração, à qual for cominada a pena mais grave;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-49b236db1d24",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 78, II, “b”, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II, “b”",
+     "sigla": "CPP",
+     "texto": "Art. 78, II, “b”, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Procurador",
+   "instituicao": "ALERR",
+   "obs": "",
+   "enunciado": [
+    "Sobre competência, nos termos do Código de Processo Penal, julgue o item. Havendo conexão ou continência, no concurso de jurisdições da mesma categoria, prevalecerá a do lugar em que houver ocorrido o maior número de infrações, se as respectivas penas forem de igual gravidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[...] Il - no concurso de jurisdições da mesma categoria:",
+    "[...]",
+    "b) prevalecerá a do lugar em que houver ocorrido o maior número de infrações, se as respectivas penas forem de igual gravidade;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8b2cc650d6ae",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 79, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 79, I, CPP"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O concurso entre crime comum e militar constitui causa de separação obrigatória de processos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I - no concurso entre a jurisdição comum e a militar; […]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8a459656eed1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 79, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 79, I, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2014",
+   "cargo": "Tabelião / Oficial de Registros",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "Se um civil comete um crime comum, e um militar pratica um delito militar, sendo as ações conexas, haverá, obrigatoriamente, a junção dos processos perante a jurisdição especializada."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I - no concurso entre a jurisdição comum e a militar;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2ef2054e0005",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 79, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 79, I, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito Substituto",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "No tocante à competência no direito processual penal, de acordo com a doutrina e a jurisprudência dominantes, é correto afirmar que haverá unidade de processo e julgamento quando houver conexão entre crimes de competência da jurisdição comum e da Justiça militar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I – no concurso entre a jurisdição comum e a militar;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ed5737f537c9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 79, I e II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I e II",
+     "sigla": "CPP",
+     "texto": "Art. 79, I e II, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao juiz de garantias, à ação penal, à jurisdição e à competência, julgue o item a seguir. De acordo com o disposto no Código de Processo Penal, a conexão e a continência sempre importarão a unidade de processo e julgamento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I - no concurso entre a jurisdição comum e a militar;",
+    "II - no concurso entre a jurisdição comum e a do juízo de menores. […]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-95e1b5c4d6ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 79, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 79, II, CPP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "No julgamento de um processo por tráfico de drogas, o juiz verifica que um dos corréus, Felipe, tinha 17 anos na data fatos, sendo que durante o curso do processo atingiu a maioridade penal (18 anos), enquanto os demais não possuíam essa condição pessoal. Todos foram denunciados pela prática do mesmo fato, em concurso de pessoas, e o Ministério Público requereu o julgamento conjunto, com base no vínculo entre os autores. Considerando a situação narrada, ainda que haja continência, o processo deverá ser cindido obrigatoriamente em relação ao réu Felipe, que tinha menos de 18 anos à época dos fatos, para garantir o tratamento processual adequado"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "[...]",
+    "II - no concurso entre a jurisdição comum e a do juízo de menores."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-22e64687b52f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 80, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "80",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 80, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2015",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o artigo 80, do Código de Processo Penal, nos processos conexos, será facultativa a separação quando as infrações tiverem sido praticadas em circunstâncias de tempo ou lugar diferentes, ou, quando pelo excessivo número de acusados e para não lhes prolongar a prisão provisória, ou por outro motivo relevante, o juiz reputar conveniente a separação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Será facultativa a separação dos processos quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, ou, quando pelo excessivo número de acusados e para não Ihes prolongar a prisão provisória, ou por outro motivo relevante, o juiz reputar conveniente a separação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1dbc7a4adf34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 81, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "81",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 81, CPP"
+    }
+   ],
+   "banca": "FUNDEP",
+   "ano": "2014",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Verificada a reunião dos processos por conexão ou continência, ainda que no processo da sua competência própria venha o juiz ou tribunal a proferir sentença absolutória ou que desclassifique a infração para outra que não se inclua na sua competência, continuará competente em relação aos demais processos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 81. Verificada a reunião dos processos por conexão ou continência, ainda que no processo da sua competência própria venha o juiz ou tribunal a proferir sentença absolutória ou que desclassifique a infração para outra que não se inclua na sua competência, continuará competente em relação aos demais processos."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "81",
+    "ate": "81"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e37bea35ea34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 82, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "82",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 82, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2015",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-SE",
+   "obs": "",
+   "enunciado": [
+    "Se, não obstante a conexão ou continência, forem instaurados processos diferentes, a autoridade de jurisdição prevalente deverá avocar os processos que corram perante os outros juízes, salvo se já estiverem com sentença definitiva."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 82. Se, não obstante a conexão ou continência, forem instaurados processos diferentes, a autoridade de jurisdição prevalente deverá avocar os processos que corram perante os outros juízes, salvo se já estiverem com sentença definitiva. Neste caso, a unidade dos processos só se dará, ulteriormente, para o efeito de soma ou de unificação das penas."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-46f1e6dfd589",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 82, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "82",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 82, CPP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "No caso de crime continuado, com diversos processos em andamento, o juiz prevento deverá avocar os demais, sendo nula qualquer sentença proferida por outro juízo, ainda que definitiva."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 82. Se, não obstante a conexão ou continência, forem instaurados processos diferentes, a autoridade de jurisdição prevalente deverá avocar os processos que corram perante os outros juízes, salvo se já estiverem com sentença definitiva. Neste caso, a unidade dos processos só se dará, ulteriormente, para o efeito de soma ou de unificação das penas."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d98f527004e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 79, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 79, II, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "No tocante à determinação da competência para processar e julgar os feitos no processo penal, é correto afirmar que conexão, no concurso entre a jurisdição comum e a do juízo de menores, haverá unidade de processo e julgamento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo: […]",
+    "II - no concurso entre a jurisdição comum e a do juízo de menores."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d37e7000779b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 78, II, “a”, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II, “a”",
+     "sigla": "CPP",
+     "texto": "Art. 78, II, “a”, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "No tocante à determinação da competência para processar e julgar os feitos no processo penal, é correto afirmar que conexão, no concurso de jurisdições da mesma categoria, preponderará a do lugar da infração, à qual for cominada a pena menos grave."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras: […] Il - no concurso de jurisdições da mesma categoria:",
+    "a) preponderará a do lugar da infração, à qual for cominada a pena mais grave;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4072ab3c9292",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 79, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 79, I, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "No tocante à determinação da competência para processar e julgar os feitos no processo penal, é correto afirmar que conexão ou continência, no concurso entre a jurisdição comum e a militar, haverá unidade de processo e julgamento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I - no concurso entre a jurisdição comum e a militar;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6815a696826a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 77, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 77, II, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-GO",
+   "obs": "",
+   "enunciado": [
+    "O Ministério Público ofereceu denúncia em face de Fábio, imputando-lhe a prática de dois crimes de roubo, em concurso formal próprio. Em síntese, o denunciado ingressou em um coletivo e, simulando portar uma arma de fogo, determinou que duas pessoas entregassem os seus pertences, o que fora prontamente atendido. Na sequência, Fábio se evadiu na posse dos telefones celulares dos ofendidos. Sobre a hipótese, considerando as disposições do Código de Processo Penal e o entendimento doutrinário dominante, é correto afirmar que o processo e julgamento dos crimes de roubo perpetrados dar-se-á em conjunto em razão da continência por cumulação objetiva."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando: […]",
+    "II - no caso de infração cometida nas condições previstas nos arts. 51, § 1º, 53, segunda parte, e 54 do Código Penal."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-027cf2df0d1b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 80, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "80",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 80, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Quanto à competência, a conexão e a continência entre infrações penais têm como efeito o simultaneus processus e a prorrogatio fori. São exceções legais e obrigatórias à regra da unidade de processo, e tal efeito cessará quando houver número excessivo de acusados, para não lhes prolongar a prisão provisória."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80. Será facultativa a separação dos processos quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, ou, quando pelo excessivo número de acusados e para não lhes prolongar a prisão provisória, ou por outro motivo relevante, o juiz reputar conveniente a separação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-88b81741eb5d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 79, § 1º c/c 152, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "§ 1º",
+     "sigla": "",
+     "texto": "Art. 79, § 1º"
+    },
+    {
+     "lei": "cpp",
+     "art": "152",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "152, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Quanto à competência, a conexão e a continência entre infrações penais têm como efeito o simultaneus processus e a prorrogatio fori. São exceções legais e obrigatórias à regra da unidade de processo, e tal efeito cessará se dois forem os réus e em relação a algum deles se verificar que era doente mental à época da infração objeto da ação penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79. [...]",
+    "§ 1º Cessará, em qualquer caso, a unidade do processo, se, em relação a algum corréu, sobrevier o caso previsto no art. 152.",
+    "Art. 152. Se se verificar que a doença mental sobreveio à infração o processo continuará suspenso até que o acusado se restabeleça, observado o § 2º do art. 149."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-50b4a0a8433e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 86,
+   "referencia": "Art. 80, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "80",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 80, CPP"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2024",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Em matéria de competência no processo penal, julgue o item a seguir. Será facultativa a separação dos processos quando as infrações conexas tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80 - Será facultativa a separação dos processos quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, ou, quando pelo excessivo número de acusados e para não Ihes prolongar a prisão provisória, ou por outro motivo relevante, o juiz reputar conveniente a separação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8884ea182942",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 87,
+   "referencia": "Arts. 76. III e 78, II, “a”, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": ". III",
+     "sigla": "CPP",
+     "texto": "Arts. 76. III e 78, II, “a”, CPP"
+    },
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II, “a”",
+     "sigla": "CPP",
+     "texto": "Arts. 76. III e 78, II, “a”, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia Civil Substituto",
+   "instituicao": "PC-RN",
+   "obs": "",
+   "enunciado": [
+    "Lucas foi preso em flagrante na cidade de Parnamirim após intensa perseguição policial. De acordo com o que consta do procedimento, Lucas praticou um crime de extorsão qualificada (pena: reclusão, de 6 a 12 anos, e multa) em Natal e, depois, utilizando-se dos mesmos instrumentos do crime, enquanto fugia dos agentes da lei em perseguição, realizou mais dois crimes de furto simples (pena: reclusão, de 1 a 4 anos, e multa) e um de dano qualificado (pena: detenção, de 6 meses a 3 anos, e multa) em Parnamirim, onde veio a ser preso. Considerando apenas a situação narrada, será competente para julgamento o juízo criminal de Natal em relação a todos os crimes, em razão da conexão e pelo fato de a pena da extorsão ser mais alta."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "[...]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração.",
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[...] Il - no concurso de jurisdições da mesma categoria:",
+    "a) preponderará a do lugar da infração, à qual for cominada a pena mais grave;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b4dbe81acecb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 88,
+   "referencia": "Art. 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 77, I, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A competência será determinada pela continência quando duas ou mais pessoas forem acusadas pelo cometimento de uma mesma infração penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77 - A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 86,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ece861b53d79",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 89,
+   "referencia": "Art. 76, III, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "III",
+     "sigla": "CPP",
+     "texto": "Art. 76, III, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A competência será determinada pela continência quando a prova de uma infração penal influir na prova de outro delito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "[...]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 87,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ee8d0e4f8010",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 90,
+   "referencia": "Art. 76, II, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "II",
+     "sigla": "CPP",
+     "texto": "Art. 76, II, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A competência será determinada pela continência quando ocorrendo duas ou mais infrações penais, houverem sido umas praticadas para ocultar as outras."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "[...]",
+    "II - se, no mesmo caso, houverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 88,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9bed53ea181a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 91,
+   "referencia": "Art. 76, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 76, I, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "A competência será determinada pela continência quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, devem os subsequentes ser havidos como continuação do primeiro."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "I - se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 89,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ad86746da5cf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 92,
+   "referencia": "Art. 78, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 78, I, CPP"
+    }
+   ],
+   "banca": "Questão inédita",
+   "ano": "",
+   "cargo": "",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o Código de Processo Penal, é correto afirmar que no concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalecerá a competência do júri, salvo os casos de homicídios cometidos por membros de organizações criminosas ultraviolentas, grupo paramilitar ou milícia privada, ou sua tentativa, na forma do art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78. Na determinação da competência por conexão ou continência, serão observadas as seguintes regras: […]",
+    "I - no concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalecerá a competência do júri, salvo os casos de homicídios cometidos por membros de organizações criminosas ultraviolentas, grupo paramilitar ou milícia privada, ou sua tentativa, na forma do art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil; (Redação dada pela Lei nº 15.358, de 2026)"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 90,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-788930274c7e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 93,
+   "referencia": "Art. 77, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 77, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do Código de Processo Penal, determinará a competência jurisdicional o lugar da infração, o domicílio ou residência do réu, a natureza da infração, a distribuição, a conexão ou continência, a prevenção e a prerrogativa de função. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que a competência será determinada pela continência quando duas ou mais pessoas forem acusadas pela mesma infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "II - no caso de infração cometida nas condições previstas nos arts. 51, § 1o, 53, segunda parte, e 54 do Código Penal."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 91,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-26cdf941789f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 94,
+   "referencia": "Arts. 76, III e 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "III",
+     "sigla": "CPP",
+     "texto": "Arts. 76, III e 77, I, CPP"
+    },
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Arts. 76, III e 77, I, CPP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Área Fim",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Matheus, analista do Tribunal de Justiça do Estado de Mato Grosso do Sul, está trabalhando em duas diferentes persecuções penais. Na primeira, ele constatou que a prova de uma infração influi na prova de outra. No segundo processo, ele verificou que duas pessoas foram acusadas pelo mesmo delito. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que a competência será determinada pela conexão, quando a prova de uma infração influi na prova de outra infração. Por sua vez, a competência será determinada pela continência quando duas ou mais pessoas são acusadas pela mesma infração."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "[...]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração.",
+    "Art. 77 - A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 92,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cf9495a6e1ef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 95,
+   "referencia": "Art. 78, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 78, I, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca das regras de competência, o Código de Processo Penal estabelece: No concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalecerá a competência da jurisdição comum."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 - Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "I - no concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalecerá a competência do júri, salvo os casos de homicídios cometidos por membros de organizações criminosas ultraviolentas, grupo paramilitar ou milícia privada, ou sua tentativa, na forma do art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 93,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-07d1272aad70",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 96,
+   "referencia": "Art. 80, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "80",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 80, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Acerca das regras de competência, o Código de Processo Penal estabelece: Será obrigatória a separação dos processos quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, independentemente do critério do juiz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 80 - Será facultativa a separação dos processos quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, ou, quando pelo excessivo número de acusados e para não Ihes prolongar a prisão provisória, ou por outro motivo relevante, o juiz reputar conveniente a separação."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "80",
+    "ate": "80"
+   },
+   "ordem": 94,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5d615c89fa82",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 97,
+   "referencia": "Art. 78, II, a, b, c, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "II, a, b, c",
+     "sigla": "CPP",
+     "texto": "Art. 78, II, a, b, c, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Sobre as disposições legais referentes à competência no Processo Penal, no caso em que houver conexão e continência e as jurisdições forem de mesma categoria, firmar- se-á primeiro pela prevenção."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 - Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "[...] Il - no concurso de jurisdições da mesma categoria:",
+    "a) preponderará a do lugar da infração, à qual for cominada a pena mais grave;",
+    "b) prevalecerá a do lugar em que houver ocorrido o maior número de infrações, se as respectivas penas forem de igual gravidade;",
+    "c) firmar-se-á a competência pela prevenção, nos outros casos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 95,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-17c8643b2ec8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 98,
+   "referencia": "Art. 76, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 76, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RR",
+   "obs": "",
+   "enunciado": [
+    "A competência no Processo Penal será definida pela conexão objetiva ou teleológica se, no mesmo caso, duas ou mais infrações houverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76 - A competência será determinada pela conexão:",
+    "[...]",
+    "II - se, no mesmo caso, houverem sido umas praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 96,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fa86f9082e53",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 99,
+   "referencia": "Art. 77, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 77, I, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RR",
+   "obs": "",
+   "enunciado": [
+    "A competência no Processo Penal será definida pela conexão objetiva ou teleológica quando duas ou mais pessoas forem acusadas da mesma infração penal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77 - A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 97,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3c58be5ab2af",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 100,
+   "referencia": "Art. 78, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "78",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 78, I, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência no processo penal é correto afirmar: É vedado ao Tribunal do Júri o julgamento de crimes patrimoniais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 78 - Na determinação da competência por conexão ou continência, serão observadas as seguintes regras:",
+    "I - no concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalecerá a competência do júri, salvo os casos de homicídios cometidos por membros de organizações criminosas ultraviolentas, grupo paramilitar ou milícia privada, ou sua tentativa, na forma do art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "78",
+    "ate": "78"
+   },
+   "ordem": 98,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-899e43f80976",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 101,
+   "referencia": "Art. 79, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "79",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 79, I, CPP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MA",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência no processo penal é correto afirmar: No concurso entre a jurisdição comum e a militar, prevalece a última para o processamento conjunto e unitário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 79 - A conexão e a continência importarão unidade de processo e julgamento, salvo:",
+    "I - no concurso entre a jurisdição comum e a militar;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "79",
+    "ate": "79"
+   },
+   "ordem": 99,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c5a5bde61976",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 102,
+   "referencia": "Art. 76, I, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "I",
+     "sigla": "CPP",
+     "texto": "Art. 76, I, CPP"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que a competência será determinada pela conexão: Se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas (conexão intersubjetiva por simultaneidade)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão:",
+    "I - se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar, ou por várias pessoas, umas contra as outras;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 100,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5a377a4f9f40",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 103,
+   "referencia": "Art. 77, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "77",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 77, CPP"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que a competência será determinada pela conexão: Quando duas ou mais pessoas forem acusadas pela mesma infração (conexão por intersubjetividade formal)."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 77. A competência será determinada pela continência quando:",
+    "I - duas ou mais pessoas forem acusadas pela mesma infração;",
+    "II - no caso de infração cometida nas condições previstas nos arts. 51, § 1o, 53, segunda parte, e 54 do Código Penal."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "77",
+    "ate": "77"
+   },
+   "ordem": 101,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fb0348b9d02e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 104,
+   "referencia": "Art. 76, III, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "76",
+     "disp": "III",
+     "sigla": "CPP",
+     "texto": "Art. 76, III, CPP"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que a competência será determinada pela conexão: Quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração (conexão instrumental ou probatória)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 76. A competência será determinada pela conexão: […]",
+    "III - quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "76",
+    "ate": "76"
+   },
+   "ordem": 102,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5f84863d7149",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 105,
+   "referencia": "Art. 71, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "71",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 71, CPP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "Xisto foi denunciado pela prática de três furtos qualificados cometidos em cidades diferentes do mesmo estado, com o mesmo modus operandi, no intervalo de poucos dias, tendo a denúncia sido oferecida com base no art. 71 do Código Penal, que imputou a ele crime praticado em continuidade delitiva; nessa situação, a competência será firmada pela prevenção, pois os delitos têm igual gravidade e foram praticados em comarcas de mesma categoria."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 71. Tratando-se de infração continuada ou permanente, praticada em território de duas ou mais jurisdições, a competência firmar-se-á pela prevenção."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "71",
+    "ate": "71"
+   },
+   "ordem": 103,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cb04facdc59c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 106,
+   "referencia": "Art. 83, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "83",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 83, CPP"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2009",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Durante o inquérito policial, o Juiz da 2ª Vara Criminal de Caxias do Sul determinou o sequestro de valores relativos à venda de um bem do investigado. Mais tarde, finalizado, o inquérito policial foi distribuído ao Juiz da Vara Criminal que, entretanto, não concordando com a sua competência, remeteu-o de volta à origem. O Magistrado da 2ª Vara, então, suscitou o conflito de competência. Neste caso, o suscitante não tem razão, porque houve a prevenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 83. Verificar-se-á a competência por PREVENÇÃO toda vez que, concorrendo dois ou mais juízes igualmente competentes ou com jurisdição cumulativa, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, ainda que anterior ao oferecimento da denúncia ou da queixa (arts. 70, o o",
+    "§ 3 , 71, 72, § 2 , e 78, II, c)."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 104,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-51d1cabe05a8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 107,
+   "referencia": "Art. 83, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "83",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 83, CPP"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Para o Código de Processo Penal, verificar-se-á a competência por prevenção toda vez que, concorrendo dois ou mais juízes igualmente competentes ou com jurisdição cumulativa, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, exceto quando anterior ao oferecimento da denúncia ou da queixa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 83. Verificar-se-á a competência por prevenção toda vez que, concorrendo dois ou mais juízes igualmente competentes ou com jurisdição cumulativa, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, AINDA QUE anterior ao oferecimento da denúncia ou da queixa."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 105,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1538aeee160b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 108,
+   "referencia": "Art. 86, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "86",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 86, CPP"
+    }
+   ],
+   "banca": "CAIP-IMES",
+   "ano": "2016",
+   "cargo": "Advogado",
+   "instituicao": "CRAISA DE SANTO ANDRÉ-SP",
+   "obs": "",
+   "enunciado": [
+    "Ao Supremo Tribunal Federal competirá, privativamente, processar e julgar os seus ministros, nos crimes comuns."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 86. Ao Supremo Tribunal Federal competirá, privativamente, processar e julgar:",
+    "I - os seus ministros, nos crimes comuns;"
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "86",
+    "ate": "86"
+   },
+   "ordem": 106,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd2079e79e25",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 109,
+   "referencia": "Art. 88, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "88",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 88, CPP"
+    }
+   ],
+   "banca": "MPE-PR",
+   "ano": "2017",
+   "cargo": "Promotor Substituto",
+   "instituicao": "MPE-PR",
+   "obs": "",
+   "enunciado": [
+    "No processo por crimes praticados fora do território brasileiro, será competente o juízo da Capital do Estado onde houver por último residido o acusado. Se este nunca tiver residido no Brasil, será competente o juízo da Capital da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 88. No processo por crimes praticados fora do território brasileiro, será competente o juízo da Capital do Estado onde houver por último residido o acusado. Se este nunca tiver residido no Brasil, será competente o juízo da Capital da República."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "88",
+    "ate": "88"
+   },
+   "ordem": 107,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-010cc64da480",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 110,
+   "referencia": "Art. 89, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "89",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 89, CPP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Procurador Jurídico",
+   "instituicao": "SAAE-SP",
+   "obs": "",
+   "enunciado": [
+    "No que concerne à competência, determina o art. 89 do CPP que os crimes cometidos em qualquer embarcação nas águas territoriais da República, ou nos rios e lagos fronteiriços, serão processados e julgados pela justiça do primeiro porto brasileiro em que tocar a embarcação, após o crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 89. Os crimes cometidos em qualquer embarcação nas águas territoriais da República, ou nos rios e lagos fronteiriços, bem como a bordo de embarcações nacionais, em alto-mar, serão processados e julgados pela justiça do primeiro porto brasileiro em que tocar a embarcação, após o crime, ou, quando se afastar do País, pela do último em que houver tocado."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "89",
+    "ate": "89"
+   },
+   "ordem": 108,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4e549f3c7ed9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 111,
+   "referencia": "Art. 90, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "90",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 90, CPP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2016",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "Indivíduo que pratique crime a bordo de aeronave estrangeira em espaço aéreo brasileiro, será processado e julgado pela justiça da comarca em cujo território ocorrer o pouso ou pela comarca de onde houver partido a aeronave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 90. Os crimes praticados a bordo de aeronave nacional, dentro do espaço aéreo correspondente ao território brasileiro, ou ao alto-mar, ou a bordo de aeronave estrangeira, dentro do espaço aéreo correspondente ao território nacional, serão processados e julgados pela justiça da comarca em cujo território se verificar o pouso após o crime, ou pela da comarca de onde houver partido a aeronave."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "90",
+    "ate": "90"
+   },
+   "ordem": 109,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2b3815de11a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 112,
+   "referencia": "Art. 109, IX, CF, c/c Art. 89, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "109",
+     "disp": "IX, CF,",
+     "sigla": "",
+     "texto": "Art. 109, IX, CF,"
+    },
+    {
+     "lei": "cpp",
+     "art": "89",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 89, CPP"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Uma embarcação nacional de grande calado, destinada ao comércio internacional, viajava de Itajaí (SC) para o porto de Rio Grande para receber alguns contêineres e depois rumar para a África do Sul. Contudo, nas proximidades de Rio Grande, o marinheiro Temístocles, natural de Porto Alegre, se envolveu numa luta corporal contra o colega Guido, acabando por assassiná-lo. A ação penal deverá ser processada no Tribunal do Júri da Justiça Federal de Rio Grande."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "CF - Art. 109. Aos juízes federais compete processar e julgar:",
+    "[...]",
+    "IX - os crimes cometidos a bordo de navios ou aeronaves, ressalvada a competência da Justiça Militar;",
+    "CPP - Art. 89. Os crimes cometidos em qualquer embarcação nas águas territoriais da República, ou nos rios e lagos fronteiriços, bem como a bordo de embarcações nacionais, em alto-mar, serão processados e julgados pela justiça do primeiro porto brasileiro em que tocar a embarcação, após o crime, ou, quando se afastar do País, pela do último em que houver tocado."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "109",
+    "ate": "109"
+   },
+   "ordem": 110,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-38b1700c6d35",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 113,
+   "referencia": "Art. 89, CPP",
+   "refs": [
+    {
+     "lei": "cpp",
+     "art": "89",
+     "disp": "",
+     "sigla": "CPP",
+     "texto": "Art. 89, CPP"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre a competência em matéria penal, é correto afirmar que os crimes cometidos em qualquer embarcação nas águas territoriais da República serão processados pela Justiça da Capital Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 89. Os crimes cometidos em qualquer embarcação nas águas territoriais da República, ou nos rios e lagos fronteiriços, bem como a bordo de embarcações nacionais, em alto-mar, serão processados e julgados pela justiça do primeiro porto brasileiro em que tocar a embarcação, após o crime, ou, quando se afastar do País, pela do último em que houver tocado."
+   ],
+   "vinculo": {
+    "lei": "cpp",
+    "de": "89",
+    "ate": "89"
+   },
+   "ordem": 111,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Processual Penal",
+  "4 Competência (Arts. 69 - 91, CPP)"
+ ]
+}
