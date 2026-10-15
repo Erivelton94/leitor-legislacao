@@ -1,0 +1,3607 @@
+{
+ "id": "ls-3-seguranca-publica-art-144-cf-74e5403ca4ab",
+ "titulo": "3 Segurança Pública (Art. 144, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-3cddb74f5fad",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 144, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 144, CF"
+    }
+   ],
+   "banca": "COSEAC",
+   "ano": "2025",
+   "cargo": "Inspetor de Polícia Penal",
+   "instituicao": "SEAP-RJ",
+   "obs": "",
+   "enunciado": [
+    "A segurança pública é um dever do Estado e um direito e responsabilidade de todos, sendo exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Considerando o disposto no artigo 144, da Constituição Federal de 1988, são exemplos de órgãos que atuam no exercício da segurança pública: Polícia federal, polícia penal distrital e corpos de bombeiros militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "I - polícia federal;",
+    "II - polícia rodoviária federal;",
+    "III - polícia ferroviária federal;",
+    "IV - polícias civis;",
+    "V - polícias militares e corpos de bombeiros militares.",
+    "VI - polícias penais federal, estaduais e distrital."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f20c6e9a54a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 144, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 144, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Sobre a segurança pública, de acordo com os preceitos constitucionais vigentes, analise a seguinte assertiva. A segurança pública é dever do Estado, direito e responsabilidade de todos, exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eed973cebf02",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 144, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 144, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Anestesiologia - EPAO Reaplicada",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em observância às disposições da Constituição Federal sobre a segurança pública, julgue o item a seguir.",
+    "A segurança pública, o dever do Estado, o direito e a responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 - A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ca57f632f126",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 144, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 144, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "A segurança pública tem por objeto a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, sendo exercida, dentre outros órgãos, através do Ministério Público militar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "I - polícia federal;",
+    "II - polícia rodoviária federal;",
+    "III - polícia ferroviária federal;",
+    "IV - polícias civis;",
+    "V - polícias militares e corpos de bombeiros militares.",
+    "VI - polícias penais federal, estaduais e distrital. (Emenda Constitucional 104/2019)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d9268bd30c3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 144, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 144, V, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O Corpo de Bombeiros Militar não integra diretamente os órgãos de segurança pública, porém é considerado um órgão auxiliar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "V - polícias militares e corpos de bombeiros militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36d681a0a01a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 144, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 144, V, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Soldado",
+   "instituicao": "PM-BA",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, são órgãos responsáveis pela segurança pública, dentre outros, polícias militares e corpos de bombeiros militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[…]",
+    "V - polícias militares e corpos de bombeiros militares.",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-203f21576d2e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 144, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Incumbe à polícia federal, à polícia rodoviária federal e à polícia ferroviária federal exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 [...]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4a73e651c250",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 144, § 1°, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1°, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1°, I, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, dentre outras atribuições, a apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 1° A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina- se a:",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d176301690ce",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 144, § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2010",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-AP",
+   "obs": "",
+   "enunciado": [
+    "A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins, o contrabando e o descaminho, sem prejuízo da ação fazendária e de outros órgãos públicos nas respectivas áreas de competência."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. [...]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina- se a:",
+    "[...]",
+    "II - prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins, o contrabando e o descaminho, sem prejuízo da ação fazendária e de outros órgãos públicos nas respectivas áreas de competência;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7ec726641a2a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 144, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, I, CF"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Esse é o teor do artigo 144 da Constituição que, dentre outras coisas, dispõe que às polícias civis incumbem a apuração de infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas nas localidades onde não exista delegacia de Polícia Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a: […]",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-86359429a572",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 144, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia",
+   "instituicao": "PF",
+   "obs": "",
+   "enunciado": [
+    "Com relação à segurança pública e à atuação da Polícia Federal, julgue o item seguinte. A Polícia Federal tem a atribuição de apurar infrações que exijam repressão uniforme e tenham repercussão internacional; infrações que exijam repressão uniforme, mas que tenham repercussão interestadual, devem ser apuradas pelas polícias civis e militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a06b0eafece6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 144, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Servidor Público Federal - Bloco Temático 7 - Justiça e Defesa",
+   "instituicao": "CNU",
+   "obs": "",
+   "enunciado": [
+    "A Constituição e a legislação brasileira preveem diversas forças de segurança pública em diferentes níveis e esferas de atuação.",
+    "Em relação à atuação dessas forças, é correto afirmar que a Polícia Federal pode investigar crimes de competência da Justiça Estadual caso haja repercussão interestadual ou internacional que exija repressão uniforme."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d95874e3af5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 144, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Agente",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "A polícia foi acionada para atender a um chamado de suspeita de ocorrência de tráfico ilícito de entorpecentes no interior de determinada sociedade de economia mista federal. Ao chegar ao local, os policiais verificaram que um dos traficantes era um brasileiro naturalizado. Considerando essa situação hipotética, julgue o item subsecutivo. A competência para a apuração do referido delito é da Polícia Federal, uma vez que lhe cabe apurar infrações penais que envolvam bens e interesses da União, suas autarquias, fundações, empresas públicas e sociedades de economia mistas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. [...]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e EMPRESAS PÚBLICAS, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;",
+    "*A sociedade de economia mista não está prevista no rol do art. 144,",
+    "§ 1º, da CF.*"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f9e7323b20ae",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 144, § 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Investigador",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "João, estudioso do Direito Constitucional e da área de segurança pública, deparou-se com a existência de zonas de possível conflito na atuação da polícia federal e das polícias civis.",
+    "Ao fim de suas reflexões, concluiu, corretamente, que, de acordo com a sistemática constitucional à policia federal compete apurar as infrações penais praticadas em detrimento da ordem social."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "I - apurar infrações penais contra a ordem política e social ou em detrimento de bens, serviços e interesses da União ou de suas entidades autárquicas e empresas públicas, assim como outras infrações cuja prática tenha repercussão interestadual ou internacional e exija repressão uniforme, segundo se dispuser em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-764cfcbf2369",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 144, § 1º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, II",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, II, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal sobre segurança pública, julgue o item. Incumbe à polícia federal prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "II - prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins, o contrabando e o descaminho, sem prejuízo da ação fazendária e de outros órgãos públicos nas respectivas áreas de competência;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d0a25cfc18e2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 144, § 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, III",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Compete à Polícia Federal exercer as funções de polícia marítima."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "III - exercer as funções de polícia marítima, aeroportuária e de fronteiras;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9dd4031fcb7e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 144, §1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§1º, III",
+     "sigla": "CF",
+     "texto": "Art. 144, §1º, III, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Em relação à organização do Estado, às normas constitucionais, sua eficácia e aplicabilidade, julgue o item a seguir.",
+    "Compete aos Estados o exercício das funções de polícia de fronteiras onde não houver presença da União, isto é, exercer o conjunto de atividades voltadas para o controle do tráfego de pessoas e bens pelas fronteiras de um país, incluindo fiscalização migratória, combate ao contrabando, descaminho, tráfico de drogas, armas e outros ilícitos transnacionais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "III - exercer as funções de polícia marítima, aeroportuária e de fronteiras;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-624919942475",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 144, § 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, III",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, III, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do artigo 144 da Constituição da República Federativa do Brasil, é correto afirmar que são atribuições das polícias civis dos estados e do Distrito Federal as funções de polícia marítima, aeroportuária e de fronteiras."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "III - exercer as funções de polícia marítima, aeroportuária e de fronteiras;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a8f7ec6627e1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 144, § 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal sobre segurança pública, julgue o item. A polícia federal destina-se a exercer concorrentemente as funções de polícia judiciária da União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8e896c0a07c8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 144, § 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do artigo 144 da Constituição da República Federativa do Brasil, é correto afirmar que é atribuição da polícia federal exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bbb9841c2015",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 144, § 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Administrador",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Com base nas disposições da CF e no entendimento do STF, julgue o item que se seguem.",
+    "A Polícia Federal, órgão permanente, organizado e mantido pela União e vinculado ao Ministério da Justiça e Segurança Pública, tem como atribuição o exercício, com exclusividade, das funções de polícia judiciária da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-20684ceeb611",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 144, § 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o próximo item, relativos à organização da segurança pública e à proteção aos indígenas e ao meio ambiente, de acordo com o disposto na Constituição Federal de 1988. Cabe à Polícia Federal exercer, com exclusividade, as funções de polícia judiciária da União, dos estados e do Distrito Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. […]",
+    "§ 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a: […]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ba3cfe9f9d1a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 144, § 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Agente de Polícia",
+   "instituicao": "PF",
+   "obs": "",
+   "enunciado": [
+    "Com relação à segurança pública e à atuação da Polícia Federal, julgue o item seguinte. Compete à Polícia Federal exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[…]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-49c14474a40d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 144, § 1º, IV, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 1º, IV, § 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 1º, IV, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Escrivão de Polícia Federal",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o próximo item, relativo à organização da segurança pública e à proteção aos indígenas e ao meio ambiente, de acordo com o disposto na Constituição Federal de 1988.",
+    "Cabe à Polícia Federal exercer, com exclusividade, as funções de polícia judiciária da União, dos estados e do Distrito Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 1º - A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a:",
+    "[...]",
+    "IV - exercer, com exclusividade, as funções de polícia judiciária da União.",
+    "§ 4º - Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e585f1508552",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 144, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 2º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do artigo 144 da Constituição da República Federativa do Brasil, é correto afirmar que a polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais e à apuração de infrações penais ocorridas nas rodovias federais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 2º - A polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais.",
+    "Obs: o art. 144, § 2º, menciona apenas “ao patrulhamento ostensivo das rodovias federais”."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4cbf5b846d80",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 144, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Policial Rodoviário Federal",
+   "instituicao": "PRF",
+   "obs": "",
+   "enunciado": [
+    "À luz da Constituição Federal de 1988, julgue o item que se segue, a respeito de direitos e garantias fundamentais e da defesa do Estado e das instituições democráticas.",
+    "A competência da PRF, instituição permanente, organizada e mantida pela União, inclui o patrulhamento ostensivo das rodovias e das ferrovias federais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 2º - A polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-645fca00b070",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 144, § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 2º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 2º, CF"
+    }
+   ],
+   "banca": "FAFIPA",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAPONGAS-PR",
+   "obs": "",
+   "enunciado": [
+    "À polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 2º A polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina- se, na forma da lei, ao patrulhamento ostensivo das rodovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-979f2b17eb8b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 144, § 2°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 2°",
+     "sigla": "CF",
+     "texto": "Art. 144, § 2°, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "A polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 2° A polícia rodoviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ce116dc1af76",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 144, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 3º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Escrivão de Polícia Federal",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Julgue o próximo item, relativo à organização da segurança pública e à proteção aos indígenas e ao meio ambiente, de acordo com o disposto na Constituição Federal de 1988.",
+    "O patrulhamento ostensivo das ferrovias federais compete à Polícia Rodoviária Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 3º - A polícia ferroviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac31a720aaea",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 144, § 3°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 3°",
+     "sigla": "CF",
+     "texto": "Art. 144, § 3°, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "A polícia ferroviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 3° A polícia ferroviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cde166adad5b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 144, § 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 3º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 3º, CF"
+    }
+   ],
+   "banca": "FAFIPA",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAPONGAS-PR",
+   "obs": "",
+   "enunciado": [
+    "À polícia ferroviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 3º A polícia ferroviária federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina- se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3575cb94d606",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FAFIPA",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAPONGAS-PR",
+   "obs": "",
+   "enunciado": [
+    "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, inclusive as militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d894dacebad1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FUMARC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre o regime constitucional atribuído à polícia civil e aos policiais civis, é correto afirmar que às polícias civis, dirigidas por delegados de carreira, incumbem, sem exceção, as funções de polícia judiciária e a apuração de infrações penais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d04fa9c6f67d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RO",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal de 1988 (CF), incumbe(m) à Polícia Civil as funções de polícia judiciária e apuração de infrações penais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-44cdc93d5b80",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPAM -",
+   "ano": "2026",
+   "cargo": "Guarda Civil Municipal",
+   "instituicao": "PREFEITURA FRANCO DA ROCHA-SP",
+   "obs": "",
+   "enunciado": [
+    "A organização da segurança pública no Brasil é definida pela Constituição Federal (CF), que estabelece um dever estatal e uma corresponsabilidade social na manutenção da ordem. Para tanto, o texto constitucional distribui competências específicas entre diferentes órgãos, criando um sistema integrado para a proteção das pessoas e do patrimônio, com cada instituição possuindo um campo de atuação bem delimitado. Com base na estrutura e nas atribuições dos órgãos de segurança pública, julgue o item. Ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as de natureza militar, são atribuições das polícias civis, que são dirigidas por delegados de polícia de carreira."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-90fc1ab61dc2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "O Delegado de Polícia, segundo a Constituição (CRFB) e o Supremo Tribunal Federal (STF), exerce as funções de polícia judiciária e a apuração de infrações penais, inclusive as militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-27ff16ad2e3d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Sobre a segurança pública, de acordo com os preceitos constitucionais vigentes, analise a seguinte assertiva. A Polícia Civil, no âmbito estadual, exerce, entre outras, as funções de apuração de infrações penais, ressalvadas as militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1dc1c04c2311",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Cirurgia Geral - EPAO",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Às polícias militares incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 4º - Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5703f7e39b0c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal sobre segurança pública, julgue o item. Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais militares."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5a10d86b2706",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em janeiro de 2017, policiais militares em serviço apreenderam fuzis e revenderam para traficantes de drogas, de modo que foi instaurado inquérito para apurar crime de comércio ilegal de arma de fogo (art. 17, caput, da Lei n.º 10.826/2003). Considerando essa situação hipotética, com base no advento da Lei n.º 13.491/2017 e na jurisprudência majoritária do Superior Tribunal de Justiça, julgue o item. A autoridade policial deve prosseguir com as investigações, e os atos investigatórios praticados anteriormente permanecem válidos, não se aplicando o princípio constitucional da irretroatividade da lei mais gravosa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2c2ec2ba0f8e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 144, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Cabo Policial Militar Especialista - Técnico em Enfermagem",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições da Constituição da República, julgue o item a seguir.",
+    "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 4º - Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ccda31346ddc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 144, § 4°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4°",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4°, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 4° Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac6e5fda0795",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 144, § 4º, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 4º, § 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 4º, § 6º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Médico Legista",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Em razão de uma onda de crimes contra a pessoa praticados na região norte do Estado Kappa, o Governador do Estado, em coletiva de imprensa, informou que determinou, ao Ministério Público (MP) e à Polícia Civil (PC) do Estado, a adoção das providências imediatas visando à identificação dos autores dos referidos crimes, com a designação do quantitativo de agentes que definiu, para viabilizar a realização desse objetivo. À luz da sistemática constitucional, a “determinação” exarada pelo Chefe do Poder Executivo Estadual é vinculante apenas para a PC."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 4º - Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+    "§ 6º - As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-305ccbb31ef8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 144, §§ 4º, 5º e 5º-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§§ 4º, 5º e 5º-A",
+     "sigla": "CF",
+     "texto": "Art. 144, §§ 4º, 5º e 5º-A, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Com base no disposto na Constituição Federal de 1988, analise a sentença abaixo: Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, inclusive as militares (1ª parte). Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública (2ª parte). Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais (3ª parte).",
+    "É correto afirmar que todas as partes estão corretas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 4º Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+    "§ 5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil.",
+    "§ 5º-A. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8ab15c5ed50d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem. Considerando o previsto na Constituição Federal de 1988, julgue o item. Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f86759a91948",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Cirurgia Geral - EPAO",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Às polícias civis cabem a polícia ostensiva e a preservação da ordem pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º - Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3a94c79d9732",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 144, V, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "V, § 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, V, § 5º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Perito Criminal Federal - Área 1",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Com base no disposto na Constituição Federal de 1988 (CF) e em seus princípios e normas, julgue o item a seguir.",
+    "Os corpos de bombeiros militares integram o sistema de segurança pública, a eles incumbindo a execução das atividades de defesa civil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 - A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "V - polícias militares e corpos de bombeiros militares;",
+    "[...]",
+    "§ 5º - Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e2e77b07920d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Cabo Policial Militar Especialista - Técnico em Enfermagem",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições da Constituição da República, julgue o item a seguir.",
+    "Aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º - Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1e0174e0c335",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal sobre segurança pública, julgue o item. Às polícias militares cabem a polícia ostensiva, a preservação da ordem pública e a execução de atividades de defesa civil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9a5d192a9c69",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2022",
+   "cargo": "Investigador de Polícia Civil",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à preservação do local de crime, julgue o seguinte item. A polícia militar exerce sua missão constitucional de polícia judiciária, e, nesse sentido, destaca-se dentre suas atribuições, a promoção do devido isolamento do local de crime, assim como de sua preservação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d44b4e775998",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 144, § 5°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5°",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5°, CF"
+    }
+   ],
+   "banca": "FAPEC",
+   "ano": "2006",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 5° Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c0e7d0da77d9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Em caso de incêndio florestal, catástrofe ou epidemia que coloque em risco a população local, incumbe à Força Nacional planejar e coordenar as atividades de defesa civil a serem executadas pelas polícias florestais e guardas municipais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 [...]",
+    "§ 5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7084942c6fd9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 144, § 5º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Cabo Policial Militar Especialista - Técnico em Enfermagem",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "À luz das disposições da Constituição da República, julgue o item a seguir.",
+    "Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º - Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f82b05eb4065",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 144, § 5º-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º-A",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º-A, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "A segurança pública tem sido cada vez mais objeto de interesse social, por guardar íntima relação com direitos fundamentais como a vida e a liberdade das pessoas. Todavia, a Constituição, de uma forma geral, trata a matéria de forma sucinta, embora em capítulo próprio. Os tribunais, a seu turno, têm sido cada vez mais demandados a julgar matérias que envolvem não apenas as ações operacionais dos órgãos de segurança pública, mas também as suas próprias definições e atribuições. Assim, analise a assertiva abaixo em relação às normas constitucionais e à jurisprudência do Supremo Tribunal Federal a respeito da segurança pública.",
+    "Segundo previsto na Constituição Federal, às polícias penais, subordinadas aos governadores dos Estados, do Distrito Federal e dos territórios da unidade federativa a que pertencem, cabe a segurança e a administração dos estabelecimentos penais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º-A - Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-910891a0a7d1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 144, § 5º-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º-A",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º-A, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Polícia Penal",
+   "instituicao": "PP-DF",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir relativos à segurança pública. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabem a segurança dos estabelecimentos penais e a preservação da ordem pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 5º-A. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ae622039a084",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 144, § 5º-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º-A",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º-A, CF"
+    }
+   ],
+   "banca": "FAFIPA",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAPONGAS-PR",
+   "obs": "",
+   "enunciado": [
+    "Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º-A. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ca104b4d169d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 144, § 5º-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 5º-A",
+     "sigla": "CF",
+     "texto": "Art. 144, § 5º-A, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "O Secretário de Administração Penitenciária do Estado Alfa, autoridade máxima do sistema penitenciário e do seu órgão administrador, foi comunicado do início de uma rebelião na unidade prisional Kappa, no qual se encontravam os presos provisórios da região norte do Estado. Em razão desses acontecimentos, a assessoria do Secretário constatou a necessidade de ser reforçada a segurança no local, o que lhe foi devidamente comunicado. À luz da sistemática constitucional, é correto afirmar que o Secretário pode determinar que a polícia penal, vinculada que é à Secretaria, realize a segurança do local."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 5º-A - Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d5fc4cd463e4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "As polícias militares e corpos de bombeiros militares de Minas Gerais, forças auxiliares e reserva do Exército, subordinam-se, juntamente com as polícias civis, aos Governador do Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 [...]",
+    "§ 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dc26fdc035b7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal sobre segurança pública, julgue o item. As polícias militares não se subordinam aos Governadores do Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c027c614357e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do artigo 144 da Constituição da República Federativa do Brasil, é correto afirmar que as polícias militares, os corpos de bombeiros e as polícias penais são forças auxiliares e reserva do Exército."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 6º - As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam- se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+    "Obs: o art. 144, § 6º, não menciona as polícias penais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2558683af4b2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem. Considerando o previsto na Constituição Federal de 1988, julgue o item. As polícias militares e os corpos de bombeiros militares, as forças auxiliares e a reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-59e19fdfe441",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Anestesiologia - EPAO Reaplicada",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em observância às disposições da Constituição Federal sobre a segurança pública, julgue o item a seguir.",
+    "As polícias militares e os corpos de bombeiros militares, forças auxiliares e a reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 6º - As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam- se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-216fa87f4f18",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 144, § 6º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 6º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 6º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Oficial Investigador de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal, em seu artigo 144, expressamente incluiu as polícias civis entre os órgãos de segurança pública. Além disso, no parágrafo 4º do mesmo artigo, estabeleceu que “às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares”. Diante disso, considerando as atribuições constitucionais e legais da polícia civil e de seus delegados de polícia, julgue o item. A polícia civil integra a estrutura do Poder Executivo e está subordinada ao Governador do Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-23e6017162c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 144, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 7º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Sobre a segurança pública, de acordo com os preceitos constitucionais vigentes, analise a seguinte assertiva. Os Conselhos de defesa e segurança da comunidade são a via de participação da sociedade, atuando no encaminhamento e solução de problemas atinentes à segurança pública, na forma da lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 7º A lei disciplinará a organização e o funcionamento dos órgãos responsáveis pela segurança pública, de maneira a garantir a eficiência de suas atividades."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f3503dfd54d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 144, § 7º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 7º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 7º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Anestesiologia - EPAO Reaplicada",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em observância às disposições da Constituição Federal sobre a segurança pública, julgue o item a seguir.",
+    "A lei disciplinará a organização e o funcionamento dos órgãos responsáveis pela segurança pública, de maneira a garantir a eficiência de suas atividades."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 7º - A lei disciplinará a organização e o funcionamento dos órgãos responsáveis pela segurança pública, de maneira a garantir a eficiência de suas atividades."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d76c742ead9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 144, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8º, CF"
+    }
+   ],
+   "banca": "CONSULPLAN",
+   "ano": "2012",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-MG",
+   "obs": "",
+   "enunciado": [
+    "Apenas os Municípios com população superior a vinte mil habitantes poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 8º Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c03f264bf3f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 144, § 8°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8°",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8°, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144 […]",
+    "§ 8º Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3c667c0debed",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 144, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8º, CF"
+    }
+   ],
+   "banca": "FAFIPA",
+   "ano": "2020",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ARAPONGAS-PR",
+   "obs": "",
+   "enunciado": [
+    "Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 8º Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6d3315fb5cb2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 144, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Anestesiologia - EPAO Reaplicada",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em observância às disposições da Constituição Federal sobre a segurança pública, julgue o item a seguir.",
+    "Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 8º - Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73345e30beb0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 144, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos do artigo 144 da Constituição da República Federativa do Brasil, é correto afirmar que os municípios com mais de 01 (um) milhão de habitantes têm o dever de constituir e manter suas guardas municipais, destinadas à proteção de seus bens, serviços e instalações."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 8º - Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei.",
+    "Obs: o art. 144, § 8º, não menciona a necessidade dos municípios terem mais de 01 (um) milhão de habitantes."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8185ab95dcff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 144, § 8º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 8º",
+     "sigla": "CF",
+     "texto": "Art. 144, § 8º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "Com base nas normas constitucionais pertinentes à defesa do Estado e das instituições democráticas e à ordem social, julgue o item seguinte. As guardas municipais podem realizar ações na área de segurança pública, como o policiamento ostensivo, e se submetem à supervisão do Ministério Público, mas não podem executar atividades próprias das polícias de investigação criminal, como as polícias civis."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:",
+    "[...]",
+    "§ 8º Os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bbb50ca90548",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 144, § 9º c/c 39, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 9º",
+     "sigla": "",
+     "texto": "Art. 144, § 9º"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "39",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "39, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Delegado",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Com vistas a melhor compreender as normas constitucionais que versam sobre a remuneração dos agentes públicos ocupantes de cargo efetivo em âmbito estadual, Dirce passou a explorar o tema como maior profundidade, vindo a concluir corretamente que a remuneração dos servidores policiais integrantes dos órgãos da segurança pública previstos na Constituição deverá ser fixada na forma de subsídio."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144. […]",
+    "§ 9º A remuneração dos servidores policiais integrantes dos órgãos relacionados neste artigo será fixada na forma do § 4º do art. 39. […]",
+    "Art. 39. […]",
+    "§ 4º O membro de Poder, o detentor de mandato eletivo, os Ministros de Estado e os Secretários Estaduais e Municipais serão remunerados exclusivamente por subsídio fixado em parcela única, vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação ou outra espécie remuneratória, obedecido, em qualquer caso, o disposto no art. 37, X e XI. […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fb0afd495e2c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 144, § 10, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 10, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 10, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Oficial Policial Militar - Médico - Anestesiologia - EPAO Reaplicada",
+   "instituicao": "PM-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em observância às disposições da Constituição Federal sobre a segurança pública, julgue o item a seguir.",
+    "A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas, compreende a educação, engenharia e fiscalização de trânsito, além de outras atividades previstas em lei complementar, que assegurem ao cidadão o direito à mobilidade urbana eficiente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 10 - A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas:",
+    "I - compreende a educação, engenharia e fiscalização de trânsito, além de outras atividades previstas em lei, que assegurem ao cidadão o direito à mobilidade urbana eficiente; e",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-da8ed03e2209",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 144, § 10, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 10, I",
+     "sigla": "CF",
+     "texto": "Art. 144, § 10, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Policial Rodoviário Federal",
+   "instituicao": "PRF",
+   "obs": "",
+   "enunciado": [
+    "À luz da Constituição Federal de 1988, julgue o item que se segue, a respeito de direitos e garantias fundamentais e da defesa do Estado e das instituições democráticas.",
+    "A segurança viária compreende a educação, a engenharia e a fiscalização de trânsito, vetores que asseguram ao cidadão o direito à mobilidade urbana eficiente."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 10 - A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas:",
+    "I - compreende a educação, engenharia e fiscalização de trânsito, além de outras atividades previstas em lei, que assegurem ao cidadão o direito à mobilidade urbana eficiente; e",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1091bf115c9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 144, § 10, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "144",
+     "disp": "§ 10, II",
+     "sigla": "CF",
+     "texto": "Art. 144, § 10, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Soldado - QPE",
+   "instituicao": "PM-TO",
+   "obs": "",
+   "enunciado": [
+    "Instaurou-se um grande debate entre organizações da sociedade civil organizada em relação aos agentes responsáveis pela educação de trânsito no âmbito dos estados, incluindo o ente federativo ao qual deveriam estar vinculados.",
+    "Ao fim dos debates, concluíram corretamente que, consoante a Constituição da República, a referida atividade deve ser exercida por agentes de trânsito, estruturados em carreira."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 144, § 10 - A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas:",
+    "[...]",
+    "II - compete, no âmbito dos Estados, do Distrito Federal e dos Municípios, aos respectivos órgãos ou entidades executivos e seus agentes de trânsito, estruturados em Carreira, na forma da lei."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "144",
+    "ate": "144"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "5 Defesa do Estado e das Instituições Democráticas (Arts. 136 - 144, CF)"
+ ]
+}
