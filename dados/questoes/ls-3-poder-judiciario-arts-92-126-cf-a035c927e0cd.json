@@ -1,0 +1,4715 @@
+{
+ "id": "ls-3-poder-judiciario-arts-92-126-cf-a035c927e0cd",
+ "titulo": "3 Poder Judiciário (Arts. 92 - 126, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-82235e8d2453",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Arts. 5º, XXXV e 97, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "5",
+     "disp": "XXXV",
+     "sigla": "CF",
+     "texto": "Arts. 5º, XXXV e 97, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "97",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 5º, XXXV e 97, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O Congresso Nacional aprovou uma Lei Federal que já está em vigor e regulamenta direito fundamental previsto na Constituição da República Federativa do Brasil de 1988. Sua validade é questionada em ação direta de inconstitucionalidade ajuizada no Supremo Tribunal Federal (STF), que ainda não se pronunciou. O juízo de primeira instância recebe uma demanda em que precisa decidir sobre a incidência da norma no caso concreto. Considerando-se a situação narrada e os mecanismos de controle de constitucionalidade, o juízo pode aplicar a lei enquanto estiver em vigor, afastando sua inconstitucionalidade no caso, por respeito à hierarquia normativa e à segurança jurídica, e sua eventual inconstitucionalidade será definida pelo Supremo Tribunal Federal (STF)."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:",
+    "[...]",
+    "XXXV - a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito;",
+    "Art. 97. Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderão os tribunais declarar a inconstitucionalidade de lei ou ato normativo do Poder Público."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "5",
+    "ate": "5"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8502fdf41b44",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 60, § 4º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "60",
+     "disp": "§ 4º, IV",
+     "sigla": "CF",
+     "texto": "Art. 60, § 4º, IV, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O Congresso Nacional aprovou uma Lei Federal que já está em vigor e regulamenta direito fundamental previsto na Constituição da República Federativa do Brasil de 1988. Sua validade é questionada em ação direta de inconstitucionalidade ajuizada no Supremo Tribunal Federal (STF), que ainda não se pronunciou. O juízo de primeira instância recebe uma demanda em que precisa decidir sobre a incidência da norma no caso concreto. Considerando-se a situação narrada e os mecanismos de controle de constitucionalidade, o juízo pode aplicar a Lei, se entender que ela é constitucional, podendo, por outro lado, declará-la inconstitucional, se entender que ela viola cláusulas pétreas, em sendo a questão indispensável à solução da causa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 60. [...]",
+    "§ 4º Não será objeto de deliberação a proposta de emenda tendente a abolir:",
+    "[...]",
+    "IV - os direitos e garantias individuais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e0dbbb959f3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 92, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 92, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do Poder Judiciário e das funções essenciais à justiça, de acordo com a CF e a jurisprudência dos tribunais superiores, julgue o item a seguir. As turmas recursais não compõem o rol constitucional de órgãos do Poder Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "I - o Supremo Tribunal Federal;",
+    "I-A o Conselho Nacional de Justiça;",
+    "II - o Superior Tribunal de Justiça;",
+    "II-A - o Tribunal Superior do Trabalho;",
+    "III - os Tribunais Regionais Federais e Juízes Federais;",
+    "IV - os Tribunais e Juízes do Trabalho;",
+    "V - os Tribunais e Juízes Eleitorais;",
+    "VI - os Tribunais e Juízes Militares;",
+    "VII - os Tribunais e Juízes dos Estados e do Distrito Federal e Territórios."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73b5c5105604",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 92, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 92, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Procurador Geral do Estado",
+   "instituicao": "PGE-PE",
+   "obs": "",
+   "enunciado": [
+    "São órgãos do Poder Judiciário, entre outros, os tribunais militares, o Tribunal Superior do Trabalho e os juízes eleitorais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "[...]",
+    "II-A - o Tribunal Superior do Trabalho;",
+    "[...]",
+    "V - os Tribunais e Juízes Eleitorais;",
+    "VI - os Tribunais e Juízes Militares;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-96f448011a16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 92, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 92, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "A Justiça Militar não está vinculada ao Poder Judiciário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "[...]",
+    "VI - os Tribunais e Juízes Militares;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-28ea69c288fe",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 92, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 92, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Oficial Criminal",
+   "instituicao": "PC-ES",
+   "obs": "Adapatada",
+   "enunciado": [
+    "O Tribunal Superior do Trabalho - TST NÃO está vinculado ao poder Judiciário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "[...]",
+    "II-A - o Tribunal Superior do Trabalho;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0cf7dfa3793c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 92, I, Art. 103-B, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "I, Art. 103-B, § 4º",
+     "sigla": "CF",
+     "texto": "Art. 92, I, Art. 103-B, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "XLII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "O Conselho Nacional de Justiça (CNJ) recebeu expediente relacionado à atuação de João, Juiz de Direito do Estado Delta. De acordo com a narrativa, em sede cautelar, no âmbito de processo penal, João proferiu decisão judicial que violou a ordem constitucional, pois teria condenado uma pessoa sem que ela e seu advogado tivessem participado da colheita da prova. A referida manifestação solicitava, então, que o ato judicial praticado pelo magistrado fosse devidamente revisto pelo CNJ. À luz dessa narrativa, segundo a Constituição da República, o entendimento a ser adotado pelo CNJ em relação à almejada revisão do ato judicial praticado deve ser que o CNJ é parte da estrutura do Poder Judiciário, mas não está constitucionalmente autorizado a rever ou desconstituir a decisão judicial em tela."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92 São órgãos do Poder Judiciário: […]",
+    "I - A o Conselho Nacional de Justiça; […]",
+    "Art. 103-B. [...]",
+    "§ 4º Compete ao Conselho o controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes, cabendo-lhe, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f9b46241da2c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 92, I e II c/c § 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "I e II",
+     "sigla": "",
+     "texto": "Art. 92, I e II"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Sobre a estrutura do Poder Judiciário e respectiva jurisdição, à luz da previsão expressa do artigo 92 da Constituição Federal de 1988, é correto afirmar que o Conselho Nacional de Justiça e os Tribunais Superiores são considerados órgãos do Judiciário e têm sede na capital federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "I - o Supremo Tribunal Federal;",
+    "I-A o Conselho Nacional de Justiça;",
+    "II - o Superior Tribunal de Justiça;",
+    "II-A - o Tribunal Superior do Trabalho; […]",
+    "§ 1º O Supremo Tribunal Federal, o Conselho Nacional de Justiça e os Tribunais Superiores têm sede na Capital Federal. […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-873dec15843b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 92, I-A, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "92",
+     "disp": "I-A",
+     "sigla": "CF",
+     "texto": "Art. 92, I-A, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Cargo de Nível Superior",
+   "instituicao": "DEPEN",
+   "obs": "",
+   "enunciado": [
+    "Apesar de competir ao Conselho Nacional de Justiça o controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes, o texto constitucional não reconhece esse órgão como integrante do Poder Judiciário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 92. São órgãos do Poder Judiciário:",
+    "[...]",
+    "I-A - o Conselho Nacional de Justiça;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "92",
+    "ate": "92"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a680aa6bd655",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 93, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 93, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Lei complementar, de iniciativa do Congresso Nacional, disporá sobre o Estatuto da Magistratura."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-51d64a611bfd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da disciplina constitucional atinente ao Poder Judiciário, julgue o item a seguir.",
+    "O magistrado poderá ser removido, por interesse público, desde que, assegurada a ampla defesa, a decisão seja tomada por voto da maioria absoluta do tribunal ao qual pertence ou do Conselho Nacional de Justiça."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a506a2c060b6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "A respeito da disciplina constitucional atinente ao Poder Judiciário, julgue o item a seguir.",
+    "As decisões administrativas dos tribunais relativas a questões disciplinares devem observar o sigilo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2cfb01ff87d8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 93, caput e § 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "caput e § 2º",
+     "sigla": "CF",
+     "texto": "Art. 93, caput e § 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "STJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do Poder Judiciário e das funções essenciais à justiça, de acordo com a CF e a jurisprudência dos tribunais superiores, julgue o item a seguir. O Conselho Nacional de Justiça (CNJ), na qualidade de órgão do Poder Judiciário com jurisdição em todo o território nacional, tem a atribuição de elaborar o Estatuto da Magistratura."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "§ 2º O Supremo Tribunal Federal e os Tribunais Superiores têm jurisdição em todo o território nacional."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2d53da0a2088",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 93, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 93, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Lei do Estado Alfa, de iniciativa parlamentar, determina que nos concursos públicos para o provimento do cargo de juiz substituto do Tribunal de Justiça daquele estado-membro todos os candidatos que obtiverem a pontuação mínima, equivalente a 50% de acerto, nas provas objetivas da primeira fase do certame estarão automaticamente classificados para a segunda fase. A lei é inconstitucional, pois a lei, no caso, é de iniciativa privativa do Supremo Tribunal Federal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "I - ingresso na carreira, cujo cargo inicial será o de juiz substituto, mediante concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as fases, exigindo-se do bacharel em direito, no mínimo, três anos de atividade jurídica e obedecendo-se, nas nomeações, à ordem de classificação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a84c18c21a1f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 93, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 93, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Lei de Organização Judiciária do Estado Gama estabeleceu como requisito para o ingresso na carreira da Magistratura daquele ente federativo a idade mínima de 25 anos e máxima de 50 anos. Diante do exposto e do entendimento predominante do Supremo Tribunal Federal, a referida norma é inconstitucional, pois a Constituição da República prevê limites mínimo e máximo de idade para ingresso na magistratura diversos daqueles fixados pelo Estado Gama."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "I - ingresso na carreira, cujo cargo inicial será o de juiz substituto, mediante concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as fases, exigindo-se do bacharel em direito, no mínimo, três anos de atividade jurídica e obedecendo-se, nas nomeações, à ordem de classificação; Não exige idade mínima."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6cbaffdbe8f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Arts. 93, I e 95, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Arts. 93, I e 95, I, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Arts. 93, I e 95, I, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRT-12ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Carlos, bacharel em direito, possui 4 anos de atividade jurídica e gostaria de ingressar na carreira da magistratura como juiz de primeiro grau. Em conformidade com a Constituição Federal, nessa situação, Carlos poderá ingressar na carreira, cujo cargo inicial será o de juiz substituto, mediante concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as fases e, sendo aprovado e nomeado, gozará, dentre outras, da garantia da vitaliciedade, que, no primeiro grau, só será adquirida após 2 anos de exercício."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "I - ingresso na carreira, cujo cargo inicial será o de juiz substituto, mediante concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as fases, exigindo-se do bacharel em direito, no mínimo, três anos de atividade jurídica e obedecendo-se, nas nomeações, à ordem de classificação;",
+    "Art. 95 […]",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-10470eb58498",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "Analista Jurídico",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "João, Juiz de Direito de entrância intermediária, concorreu à promoção por antiguidade. Embora fosse o mais antigo entre os concorrentes, o seu nome foi recusado pelo tribunal. Considerando a sistemática constitucional de promoção por antiguidade, o tribunal: pode recusar o mais antigo pelo voto fundamentado de dois terços dos seus membros, observados os demais requisitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. [...]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas:",
+    "[...]",
+    "d) na apuração de antiguidade, o tribunal somente poderá recusar o juiz mais antigo pelo voto fundamentado de dois terços de seus membros, conforme procedimento próprio, e assegurada ampla defesa, repetindo-se a votação até fixar-se a indicação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2bdef0b7dbfa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Na promoção de entrância para entrância, será obrigatória a promoção do juiz que figure por 3 (três) vezes consecutivas ou 5 (cinco) alternadas em lista de merecimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 [...]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a6d7e1e2c062",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "É obrigatória a promoção do juiz que figure por três vezes alternadas em lista de merecimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas:",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1b9d15f6a2dc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Administrador Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A promoção por merecimento pressupõe três anos de exercício na respectiva entrância e integrar o juiz a primeira metade da lista de antiguidade desta, salvo se não houver com tais requisitos quem aceite o lugar vago."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. [...]",
+    "[...]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas:",
+    "[...]",
+    "b) a promoção por merecimento pressupõe dois anos de exercício na respectiva entrância e integrar o juiz a primeira quinta parte da lista de antigüidade desta, salvo se não houver com tais requisitos quem aceite o lugar vago;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-034b7850def1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-10ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item subsequente, referente ao Poder Judiciário.",
+    "A promoção de magistrados, de entrância para entrância, obedece, alternadamente, à antiguidade e ao mérito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73d05d76818d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 93, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 93, II, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Administrador Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal determina que o Estatuto da Magistratura deverá observar, dentre outros, o seguinte princípio: Aferição do merecimento conforme o desempenho e pelos critérios objetivos de produtividade e presteza no exercício da jurisdição e pela frequência e aproveitamento em cursos oficiais ou reconhecidos de aperfeiçoamento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, [...]",
+    "[...]",
+    "c) aferição do merecimento conforme o desempenho e pelos critérios objetivos de produtividade e presteza no exercício da jurisdição e pela freqüência e aproveitamento em cursos oficiais ou reconhecidos de aperfeiçoamento;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de4d41cfe2f6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 93, II, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, a",
+     "sigla": "CF",
+     "texto": "Art. 93, II, a, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regramento constitucional estabelecido pela Constituição de 1988 ao Poder Judiciário, julgue o item a seguir. A promoção de juízes de entrância para entrância será realizada de forma alternada por antiguidade e por merecimento, sendo obrigatório promover o juiz que tenha figurado por duas vezes de forma consecutiva ou três vezes de forma alternada em lista de merecimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas:",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0b8b37b41236",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 93, II, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, a",
+     "sigla": "CF",
+     "texto": "Art. 93, II, a, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "É obrigatória a promoção do juiz que figure por três vezes alternadas em lista de merecimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas:",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c31edd6fbc31",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 93, II, \"a\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"a\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"a\", CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal no tocante às normas que regulam a promoção dos magistrados, é correto afirmar que é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas:",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-81d0a4caff54",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 93, II, \"a\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"a\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"a\", CF"
+    }
+   ],
+   "banca": "TRF - 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF - 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o Poder Judiciário: é obrigatória a promoção do juiz que figure por três vezes alternadas em lista de merecimento."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93, II […]",
+    "a) é obrigatória a promoção do juiz que figure por três vezes consecutivas ou cinco alternadas em lista de merecimento;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bad015eb8f9a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 93, II, “b”, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, “b”",
+     "sigla": "CF",
+     "texto": "Art. 93, II, “b”, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "V Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "A promoção e a remoção de juízes constituem formas de movimentação na carreira da Magistratura, disciplinadas principalmente pelo Art. 93 da Constituição da República e pela Lei Orgânica da Magistratura Nacional (Loman). Esses institutos integram o regime jurídico da Magistratura e têm como finalidade estruturar a progressão na carreira e organizar a distribuição de magistrados entre as diversas unidades jurisdicionais. Considerando essa temática, à luz da jurisprudência do Supremo Tribunal Federal (STF) e dos dispositivos constitucionais aplicáveis, avalie a afirmativa a seguir. A promoção por merecimento pressupõe dois anos de exercício na respectiva entrância e integra o Juiz à primeira quinta parte da lista de antiguidade desta, salvo se não houver com tais requisitos quem aceite o lugar vago."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas:",
+    "[...]",
+    "b) a promoção por merecimento pressupõe dois anos de exercício na respectiva entrância e integrar o juiz a primeira quinta parte da lista de antigüidade desta, salvo se não houver com tais requisitos quem aceite o lugar vago;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-32486ac17ebe",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 93, II, \"b\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"b\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"b\", CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal no tocante às normas que regulam a promoção dos magistrados, é correto afirmar que a promoção por merecimento pressupõe três anos de exercício na respectiva entrância e integrar o juiz a primeira quinta parte da respectiva lista de antiguidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas: […]",
+    "b) a promoção por merecimento pressupõe dois anos de exercício na respectiva entrância e integrar o juiz a primeira quinta parte da lista de antigüidade desta, salvo se não houver com tais requisitos quem aceite o lugar vago;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-db3e44510836",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 93, II, \"c\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"c\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"c\", CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal no tocante às normas que regulam a promoção dos magistrados, é correto afirmar que a aferição do merecimento se dará pelo desempenho e pelos critérios subjetivos de produtividade e excelência no exercício da jurisdição."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas: […]",
+    "c) aferição do merecimento conforme o desempenho e pelos critérios objetivos de produtividade e presteza no exercício da jurisdição e pela frequência e aproveitamento em cursos oficiais ou reconhecidos de aperfeiçoamento;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ca0b3c35fd1c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 93, II, \"d\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"d\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"d\", CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal no tocante às normas que regulam a promoção dos magistrados, é correto afirmar que na apuração de antiguidade, o tribunal somente poderá recusar o juiz mais antigo pelo voto fundamentado da maioria absoluta de seus membros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas: […]",
+    "d) na apuração de antiguidade, o tribunal somente poderá recusar o juiz mais antigo pelo voto fundamentado de dois terços de seus membros, conforme procedimento próprio, e assegurada ampla defesa, repetindo-se a votação até fixar-se a indicação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6c2d5423dc43",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 93, II, d, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, d",
+     "sigla": "CF",
+     "texto": "Art. 93, II, d, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o Poder Judiciário: para fins de promoção, o tribunal não poderá recusar o juiz mais antigo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "II - promoção de entrância para entrância, alternadamente, por antigüidade e merecimento, atendidas as seguintes normas:",
+    "[…]",
+    "d) na apuração de antigüidade, o tribunal somente poderá recusar o juiz mais antigo pelo voto fundamentado de dois terços de seus membros, conforme procedimento próprio, e assegurada ampla defesa, repetindo-se a votação até fixar-se a indicação; (Redação dada pela Emenda Constitucional nº 45, de 2004)",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e748a497bf89",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 93, II, \"e\", CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "II, \"e\"",
+     "sigla": "CF",
+     "texto": "Art. 93, II, \"e\", CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal no tocante às normas que regulam a promoção dos magistrados, é correto afirmar que não será promovido o juiz que, injustificadamente, retiver autos em seu poder além do prazo legal, devendo devolvê-los ao cartório em 24 horas, ainda que sem despacho ou decisão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "II - promoção de entrância para entrância, alternadamente, por antiguidade e merecimento, atendidas as seguintes normas: […]",
+    "e) não será promovido o juiz que, injustificadamente, retiver autos em seu poder além do prazo legal, não podendo devolvê-los ao cartório sem o devido despacho ou decisão;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7ed4fc4db233",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 93, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 93, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PR",
+   "obs": "",
+   "enunciado": [
+    "O vitaliciamento é o período de estágio probatório dos magistrados, a fim de verificar a aptidão objetiva e subjetiva para o exercício da magistratura. Segundo Resolução própria do CNJ, constitui uma etapa obrigatória do processo de vitaliciamento, em todo e qualquer Tribunal de Justiça a participação em curso oficial ou reconhecido por escola nacional de formação e aperfeiçoamento de magistrados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "IV - previsão de cursos oficiais de preparação, aperfeiçoamento e promoção de magistrados, constituindo etapa obrigatória do processo de vitaliciamento a participação em curso oficial ou reconhecido por escola nacional de formação e aperfeiçoamento de magistrados."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ce17c0caeddc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 93, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 93, V, CF"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "O subsídio dos Ministros dos Tribunais Superiores corresponderá a noventa e cinco por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal e os subsídios dos demais magistrados serão fixados em lei e escalonados, em nível federal e estadual, conforme as respectivas categorias da estrutura judiciária nacional, não podendo a diferença entre uma e outra ser superior a dez por cento ou inferior a cinco por cento, nem exceder a noventa e cinco por cento do subsídio mensal dos Ministros dos Tribunais Superiores."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. [...]",
+    "V - o subsídio dos Ministros dos Tribunais Superiores corresponderá a noventa e cinco por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal e os subsídios dos demais magistrados serão fixados em lei e escalonados, em nível federal e estadual, conforme as respectivas categorias da estrutura judiciária nacional, não podendo a diferença entre uma e outra ser superior a dez por cento ou inferior a cinco por cento, nem exceder a noventa e cinco por cento do subsídio mensal dos Ministros dos Tribunais Superiores, obedecido, em qualquer caso, o disposto nos arts. 37, XI, e 39, § 4º;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-88fe397c38bf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 93, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 93, V, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regramento constitucional estabelecido pela Constituição de 1988 ao Poder Judiciário, julgue o item a seguir. O subsídio dos ministros dos Tribunais Superiores corresponderá a 75% do subsídio mensal fixado para os ministros do Supremo Tribunal Federal, e os subsídios dos demais magistrados serão fixados em lei e escalonados, em nível federal e estadual, conforme as respectivas categorias da estrutura judiciária nacional, não podendo a diferença entre uma e outra ser superior a 10% ou inferior a 5%, nem exceder a 95% do subsídio mensal dos ministros dos Tribunais Superiores."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "V - o subsídio dos Ministros dos Tribunais Superiores corresponderá a noventa e cinco por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal e os subsídios dos demais magistrados serão fixados em lei e escalonados, em nível federal e estadual, conforme as respectivas categorias da estrutura judiciária nacional, não podendo a diferença entre uma e outra ser superior a dez por cento ou inferior a cinco por cento, nem exceder a noventa e cinco por cento do subsídio mensal dos Ministros dos Tribunais Superiores, obedecido, em qualquer caso, o disposto nos arts. 37, XI, e 39, § 4º;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d0e1335a8e75",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 93, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 93, VII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "Técnico Judiciário - Área Judiciária",
+   "instituicao": "TJ-AL",
+   "obs": "",
+   "enunciado": [
+    "João, Juiz de Direito, após participar de concurso de remoção, tornou- se titular na Comarca X. Lá chegando, constatou que a Comarca Y, vizinha à X, tinha melhor estrutura, contando com diversos hospitais e escolas de ótima qualidade, do que carecia a Comarca X. Em razão desse quadro, solicitou ao órgão competente do respectivo Tribunal de Justiça autorização para residir na Comarca Y. À luz da sistemática constitucional, o requerimento de João pode vir a ser deferido pelo Tribunal de Justiça, que não está obrigado a tanto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. […]",
+    "VII - o juiz titular residirá na respectiva comarca, salvo autorização do tribunal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-881a70d7db23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 93, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 93, VII, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Investigador",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Ao juiz titular, não é obrigatório residir na respectiva comarca, salvo por determinação do tribunal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VII - o juiz titular residirá na respectiva comarca, salvo autorização do tribunal;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-601ed719d21a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 93, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 93, VII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista de Promotoria - Agente de Promotoria",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A respeito do Poder Judiciário, com base na Constituição Federal, julgue o item a seguir.",
+    "Os juízes titular e substituto residirão na respectiva comarca, salvo autorização de dois terços dos membros do respectivo tribunal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VII - o juiz titular residirá na respectiva comarca, salvo autorização do tribunal;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3e76843fb507",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2019",
+   "cargo": "Técnico Judiciário - Área Técnico- Administrativa",
+   "instituicao": "TJ-CE",
+   "obs": "",
+   "enunciado": [
+    "Maria, Juíza de Direito titular há muitos anos da Vara Única da Comarca Alfa, proferiu decisão que desagradou os interesses de diversas pessoas poderosas, as quais propagaram que iriam providenciar a sua retirada forçada da Comarca. À luz da sistemática constitucional, em relação à remoção de Maria da Comarca Alfa, contra a sua vontade, é correto afirmar que pode ser efetivada apenas por decisão do Presidente do Tribunal de Justiça."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. […]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-83f6ee43ae48",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Técnico de Atividade Judiciária - Sem Especialidade",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "João, juiz de direito titular do juízo único da Comarca Alfa, ao apreciar ação civil pública ajuizada pelo Ministério Público Estadual em defesa do meio ambiente, visando a obstar o despejo de resíduos sólidos no principal rio da região, proferiu sentença que desagradou às oligarquias locais, gerando muitas críticas. No bojo dessas críticas, foi alardeado que seria formulado um pedido de remoção compulsória desse magistrado. À luz da sistemática constitucional, é correto afirmar que João pode ser removido por interesse público, o que pressupõe decisão tomada pelo voto da maioria absoluta de um dos órgãos competentes, assegurada a ampla defesa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. […]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-75e19629ee81",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "QUADRIX",
+   "ano": "2017",
+   "cargo": "Advogado",
+   "instituicao": "CRF-RS",
+   "obs": "",
+   "enunciado": [
+    "O Juiz goza de inamovibilidade; contudo, em casos de interesse público, pode ser removido por decisão da maioria absoluta do respectivo Tribunal ou do Conselho Nacional de Justiça."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-494afeeb2359",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "III Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "Sobre a responsabilização administrativa, civil e funcional de Magistrados, é correto afirmar que o ato de remoção ou de disponibilidade do Magistrado, por interesse público, fundar- se-á em decisão por voto da maioria absoluta do respectivo Tribunal ou do Conselho Nacional de Justiça, assegurada a ampla defesa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-acd0126d18f4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal Tributário - Geral",
+   "instituicao": "SEFAZ-SE",
+   "obs": "",
+   "enunciado": [
+    "Acerca das garantias, vedações e organização do Poder Judiciário conforme a Constituição Federal de 1988, julgue o item a sgeuir.",
+    "A remoção ou a disponibilidade de magistrado por interesse público exige decisão por maioria simples do respectivo tribunal ou do Conselho Nacional de Justiça (CNJ), assegurada a ampla defesa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-54138bc11c0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regramento constitucional estabelecido pela Constituição de 1988 ao Poder Judiciário, julgue o item a seguir. Aos membros da magistratura se garante, de outras, a inamovibilidade, com exceção da possibilidade de remoção ou disponibilidade do magistrado, por interesse público, desde que a decisão tenha se dado pelo voto de 2/3 dos membros do respectivo tribunal ou do Conselho Nacional de Justiça, garantindo-se, sempre, a ampla defesa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-62249c734731",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Técnico de Atividade Judiciária",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "João, juiz de direito titular do juízo único da Comarca Alfa, ao apreciar ação civil pública ajuizada pelo Ministério Público Estadual em defesa do meio ambiente, visando a obstar o despejo de resíduos sólidos no principal rio da região, proferiu sentença que desagradou às oligarquias locais, gerando muitas críticas. No bojo dessas críticas, foi alardeado que seria formulado um pedido de remoção compulsória desse magistrado. À luz da sistemática constitucional, é correto afirmar que João pode ser removido compulsoriamente mediante decisão fundamentada do presidente do Tribunal de Justiça;"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-99566d589421",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 93, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Administrador Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O ato de remoção, disponibilidade e aposentadoria do magistrado, por interesse público, fundar-se-á em decisão por voto de um terço do respectivo Tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93, VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa; (EC 103/2019)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aff61d27259d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 93, VIII-B, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "VIII-B",
+     "sigla": "CF",
+     "texto": "Art. 93, VIII-B, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-10ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Tendo por base o texto da Constituição Federal, julgue o item a seguir a respeito do Poder Judiciário.",
+    "Não é permitida a permuta entre juízes de primeira instância vinculados a distintos Tribunais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "VIII-B - a permuta de magistrados de comarca de igual entrância, quando for o caso, e dentro do mesmo segmento de justiça, inclusive entre os juízes de segundo grau, vinculados a diferentes tribunais, na esfera da justiça estadual, federal ou do trabalho, atenderá, no que couber, ao disposto nas alíneas \"a\", \"b\", \"c\" e \"e\" do inciso II do caput deste artigo e no art. 94 desta Constituição;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-838dda791c98",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 93, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 93, IX, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Quanto à garantia fundamental de motivação das decisões judiciais, julgue o item a seguir:",
+    "Pode ser omitida nas decisões concisas dos juizados especiais cíveis."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93, IX, da CF: Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.",
+    "Art. 38, 9099/95: A sentença mencionará os elementos de convicção do Juiz, com breve resumo dos fatos relevantes ocorridos em audiência, dispensado o relatório."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d3de247fe5c5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 93, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 93, IX, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal Tributário - Geral",
+   "instituicao": "SEFAZ-SE",
+   "obs": "",
+   "enunciado": [
+    "Acerca das garantias, vedações e organização do Poder Judiciário conforme a Constituição Federal de 1988, julgue o item a sgeuir.",
+    "Os tribunais podem decretar sigilo de julgamentos e dispensar fundamentação de decisões quando houver risco à intimidade das partes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "IX - todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, ou somente a estes, em casos nos quais a preservação do direito à intimidade do interessado no sigilo não prejudique o interesse público à informação;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c40a6711b283",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 93, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 93, IX, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "O Poder Judiciário é um dos poderes constituídos da República Federativa do Brasil, cujo regime jurídico vem tratado nos artigos 92 e seguintes da Constituição Federal e assevera que todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e as decisões judiciais fundamentadas, quando necessário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "IX - todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, ou somente a estes, em casos nos quais a preservação do direito à intimidade do interessado no sigilo não prejudique o interesse público à informação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2113af85c149",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 93, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 93, IX, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Quanto à garantia fundamental de motivação das decisões judiciais, é correto afirmar que pode ser omitida nas decisões concisas dos juizados especiais cíveis."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "IX - todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, ou somente a estes, em casos nos quais a preservação do direito à intimidade do interessado no sigilo não prejudique o interesse público à informação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6446c5483802",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 93, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 93, IX, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2021",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No tocante às garantias constitucionais aplicáveis ao processo penal, todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, mas não somente a estes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "IX - todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, ou somente a estes, em casos nos quais a preservação do direito à intimidade do interessado no sigilo não prejudique o interesse público à informação;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0dd3cb261ad2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Advogado da União",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "As decisões administrativas dos tribunais devem ser motivadas em sessão restrita aos seus membros, sendo as disciplinares tomadas pelo voto da maioria absoluta do órgão colegiado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-63a690954bc9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "As decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto de 2/3 (dois terços) de seus membros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 [...]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bb8b702b38fb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "TRF 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "As decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "X as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6c2616aef65f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Estadual de Controle Externo",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "No que se refere ao Poder Judiciário e às funções essenciais à justiça, julgue o item a seguir.",
+    "As decisões administrativas dos tribunais serão motivadas pela maioria absoluta de seus membros em sessão pública ou reservada, a depender do interesse envolvido."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6cabc92a63a6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2019",
+   "cargo": "Administrador Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "As decisões administrativas dos tribunais serão motivadas e em sessão fechada, sendo as disciplinares tomadas pelo voto de um terço de seus membros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. [...]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ac944b1f99c8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 93, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 93, X, CF"
+    }
+   ],
+   "banca": "TRF - 4ª REGIÃO",
+   "ano": "2022",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF - 4ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Sobre o Poder Judiciário: as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 […]",
+    "X - as decisões administrativas dos tribunais serão motivadas e em sessão pública, sendo as disciplinares tomadas pelo voto da maioria absoluta de seus membros;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c7dededd5ab1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 93, XI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XI",
+     "sigla": "CF",
+     "texto": "Art. 93, XI, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRT-23ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, considerando-se os princípios que regem o Estatuto da Magistratura nela inseridos, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno, nos tribunais com número superior a vinte e cinco julgadores, poderá ser constituído órgão especial, com o mínimo de onze e o máximo de vinte e cinco membros, provendo-se metade das vagas por antiguidade e a outra metade por eleição pelo tribunal pleno."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "XI - nos tribunais com número superior a vinte e cinco julgadores, poderá ser constituído órgão especial, com o mínimo de onze e o máximo de vinte e cinco membros, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno, provendo-se metade das vagas por antiguidade e a outra metade por eleição pelo tribunal pleno;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4d3b4e998328",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 93, XI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XI",
+     "sigla": "CF",
+     "texto": "Art. 93, XI, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regramento constitucional estabelecido pela Constituição de 1988 ao Poder Judiciário, julgue o item a seguir. Nos tribunais com número superior a 25 julgadores, poderá ser constituído órgão especial, com o mínimo de 11 e o máximo de 25 membros, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno, provendo-se metade das vagas por antiguidade e a outra metade por eleição pelo tribunal pleno."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios: […]",
+    "XI - nos tribunais com número superior a vinte e cinco julgadores, poderá ser constituído órgão especial, com o mínimo de onze e o máximo de vinte e cinco membros, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno, provendo-se metade das vagas por antigüidade e a outra metade por eleição pelo tribunal pleno;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d93161ae8abc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 93, XII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XII",
+     "sigla": "CF",
+     "texto": "Art. 93, XII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal Tributário - Geral",
+   "instituicao": "SEFAZ-SE",
+   "obs": "",
+   "enunciado": [
+    "Acerca das garantias, vedações e organização do Poder Judiciário conforme a Constituição Federal de 1988, julgue o item a seguir.",
+    "Admite-se a decretação de férias coletivas nos juízos e tribunais de segundo grau, desde que mantido plantão permanente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 - Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "XII - a atividade jurisdicional será ininterrupta, sendo vedado férias coletivas nos juízos e tribunais de segundo grau, funcionando, nos dias em que não houver expediente forense normal, juízes em plantão permanente;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f1ce83a28a48",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 93, XII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XII",
+     "sigla": "CF",
+     "texto": "Art. 93, XII, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "O Poder Judiciário é um dos poderes constituídos da República Federativa do Brasil, cujo regime jurídico vem tratado nos artigos 92 e seguintes da Constituição Federal e assevera que a atividade jurisdicional será ininterrupta, sendo vedadas férias coletivas nos juízos de duplo grau de jurisdição e tribunais superiores, funcionando, nos dias em que não houver expediente forense normal, juízes em plantão permanente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "XII - a atividade jurisdicional será ininterrupta, sendo vedado férias coletivas nos juízos e tribunais de segundo grau, funcionando, nos dias em que não houver expediente forense normal, juízes em plantão permanente;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7c9005d10b27",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 93, XIV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XIV",
+     "sigla": "CF",
+     "texto": "Art. 93, XIV, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "O Poder Judiciário é um dos poderes constituídos da República Federativa do Brasil, cujo regime jurídico vem tratado nos artigos 92 e seguintes da Constituição Federal e assevera que os servidores receberão delegação para a prática de atos de mero expediente sem caráter decisório."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "XIV - os servidores receberão delegação para a prática de atos de administração e atos de mero expediente sem caráter decisório;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9cd5060edf9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 93, XV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "XV",
+     "sigla": "CF",
+     "texto": "Art. 93, XV, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "O Poder Judiciário é um dos poderes constituídos da República Federativa do Brasil, cujo regime jurídico vem tratado nos artigos 92 e seguintes da Constituição Federal e assevera que a distribuição de processos será imediata, em todos os graus de jurisdição, salvo se o jurisdicionado assim não o requerer."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93 Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[…]",
+    "XV - a distribuição de processos será imediata, em todos os graus de jurisdição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eaf89fff3a6a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 93 e 94, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 93 e 94, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "94",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 93 e 94, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o texto constitucional, lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados, entre outros, os seguintes princípios: um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de dez anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "[...]",
+    "Art. 94. Um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de dez anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d88f773f8039",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Arts. 93 e 129, VIII, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "93",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 93 e 129, VIII, § 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "129",
+     "disp": "VIII, § 4º",
+     "sigla": "CF",
+     "texto": "Arts. 93 e 129, VIII, § 4º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Agente de Apoio - Administrativa",
+   "instituicao": "MPE-ES",
+   "obs": "",
+   "enunciado": [
+    "O Ministério Público do Estado Beta, por seu órgão de execução com atribuição, recebeu a informação de que determinado serviço de relevância pública vinha sendo prestado com inobservância dos direitos assegurados pela ordem constitucional. Por essa razão, instaurou inquérito civil e, no curso desse expediente, requisitou informações da autoridade situada no nível hierárquico mais elevado, além de notificar alguns agentes públicos para que comparecessem em seu gabinete com o objetivo de prestar esclarecimentos. Sobre a situação descrita, consoante a Constituição da República, as requisições e notificações devem ser expedidas na forma da lei complementar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 93. Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
+    "Art. 129. São funções institucionais do Ministério Público:",
+    "[...]",
+    "VIII - requisitar diligências investigatórias e a instauração de inquérito policial, indicados os fundamentos jurídicos de suas manifestações processuais;",
+    "[...]",
+    "§ 4º Aplica-se ao Ministério Público, no que couber, o disposto no art. 93."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a035fddfae1c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 94, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "94",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 94, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "A respeito do regramento constitucional estabelecido pela Constituição de 1988 ao Poder Judiciário, julgue o item a seguir. Um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de cinco anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de cinco anos de efetiva atividade profissional, indicados em lista tripla pelos órgãos de representação das respectivas classes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 94. Um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de dez anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "94",
+    "ate": "94"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-29008ed8f544",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 94, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "94",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 94, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2024",
+   "cargo": "Técnico Judiciário - Área Administrativa",
+   "instituicao": "TRF-3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Atenção: Para responder à questão, considere a Constituição Federal de 1988.",
+    "Antônio é membro do Ministério Público Federal há 12 anos. Sandra é advogada de notório saber jurídico e de reputação ilibada, com 14 anos de efetiva atividade profissional. Com base apenas nas informações fornecidas, Antônio e Sandra poderão vir a compor um Tribunal Regional Federal, já que um quinto dos lugares desses tribunais será composto de membros do Ministério Público e de advogados, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes e, recebidas as indicações, o Tribunal formará lista tríplice, enviando-a ao Poder Executivo, que, nos vinte dias subsequentes, escolherá um de seus integrantes para nomeação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 94. Um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de dez anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "94",
+    "ate": "94"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-53c67985bf4d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 94, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "94",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 94, § único, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme disposto na Constituição Federal de 1988, o Tribunal de Justiça do Estado do Rio Grande do Sul (TJRS) deverá observar, em sua composição, a regra do quinto constitucional, a qual prevê que um quinto dos seus membros será oriundo do Ministério Público e da Advocacia. Após a realização de processo eleitoral próprio e formação da lista tríplice, a escolha do indicado a ser nomeado como novo membro do TJRS compete ao Governador do Rio Grande do Sul."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 94. Um quinto dos lugares dos Tribunais Regionais Federais, dos Tribunais dos Estados, e do Distrito Federal e Territórios será composto de membros, do Ministério Público, com mais de dez anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pelos órgãos de representação das respectivas classes.",
+    "Parágrafo único. Recebidas as indicações, o tribunal formará lista tríplice, enviando-a ao Poder Executivo, que, nos vinte dias subsequentes, escolherá um de seus integrantes para nomeação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "94",
+    "ate": "94"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-84c8bb6d4d0f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 95, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 95, I, CF"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às garantias do Poder Judiciário, com destaque à vitaliciedade conectada à noção de independência, julgue o seguinte item. Diz-se garantia de independência dos órgãos judiciários porque, com a vitaliciedade, os magistrados só perdem o cargo havendo sentença judicial transitada em julgado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ee3491a1fbf4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 95, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 95, I, CF"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2022",
+   "cargo": "Oficial de Justiça e Avaliador",
+   "instituicao": "TJ-PI",
+   "obs": "",
+   "enunciado": [
+    "O constituinte reservou aos magistrados garantias destinadas a protegê-lo de eventuais retaliações que a atividade por ele desenvolvida pudesse ocasionar. Entre elas está a vitaliciedade, que tem como característica ser adquirida após 2 anos de efetivo exercício para quem ingressou na magistratura por meio de concurso."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-994099606438",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 95, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 95, I, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2012",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "No que se refere às garantias e às vedações aplicáveis à magistratura brasileira, é correto afirmar que os juízes têm vitaliciedade, que, no primeiro grau, só será adquirida após três anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após DOIS ANOS de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-81b11bf3819c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 95, I, II, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I, II, III",
+     "sigla": "CF",
+     "texto": "Art. 95, I, II, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao Poder Judiciário, julgue o item que se segue, com base no disposto na CF.",
+    "As garantias constitucionais da magistratura incluem a vitaliciedade, que, no primeiro grau, só é adquirida após dois anos de exercício; a inamovibilidade, que pode ser excepcionada por motivo de interesse público; e a irredutibilidade de subsídios, observadas as ressalvas previstas no texto constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95 - Os juízes gozam das seguintes garantias:",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado;",
+    "II - inamovibilidade, salvo por motivo de interesse público, na forma do art. 93, VIII;",
+    "III - irredutibilidade de subsídio, ressalvado o disposto nos arts. 37, X e XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-321eaa569c1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 95, I, II e III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "I, II e III",
+     "sigla": "CF",
+     "texto": "Art. 95, I, II e III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "No que concerne ao Poder Judiciário, julgue o item a seguir, com base no disposto na CF. As garantias constitucionais da magistratura incluem a vitaliciedade, que, no primeiro grau, só é adquirida após dois anos de exercício; a inamovibilidade, que pode ser excepcionada por motivo de interesse público; e a irredutibilidade de subsídios, observadas as ressalvas previstas no texto constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado;",
+    "II - inamovibilidade, salvo por motivo de interesse público, na forma do art. 93, VIII;",
+    "III - irredutibilidade de subsídio, ressalvado o disposto nos arts. 37, X e XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c22da0e6087",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 95, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 95, III, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2013",
+   "cargo": "Agente de Promotoria",
+   "instituicao": "MPE-ES",
+   "obs": "",
+   "enunciado": [
+    "A despeito das vedações constitucionais ao exercício do cargo de juiz de direito, a ele é facultado dedicar-se à atividade político-partidária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95, Parágrafo único. Aos juízes é vedado:",
+    "[...]",
+    "III - dedicar-se à atividade político-partidária.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ebc4032b89db",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 95, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 95, V, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "É vedado aos magistrados exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos 4 (quatro) anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95 [...]",
+    "Parágrafo único. Aos juízes é vedado.",
+    "[...]",
+    "V - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ff3b8ebc577d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 95, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "Técnico Judiciário Auxiliar",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Antônio, Juiz de Direito, com o objetivo de colaborar para o crescimento do País, estava refletindo sobre a possibilidade de se filiar a um partido político e de se dedicar ao magistério superior, ministrando a disciplina “Ciência Política.” Considerando as vedações que recaem sobre os magistrados, Antônio apenas não pode filiar-se a partido político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. […]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;",
+    "[…]",
+    "III - dedicar-se à atividade político-partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6bd88a93d588",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 95, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Cargos de Nível Médio",
+   "instituicao": "EMAP",
+   "obs": "",
+   "enunciado": [
+    "No que se refere à organização dos poderes, julgue o item que segue. Aos juízes, ainda que em disponibilidade, é vedado o exercício de qualquer outro cargo ou função pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "[...]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-73721b9b7745",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 95, § único, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, I",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal Tributário - Geral",
+   "instituicao": "SEFAZ-SE",
+   "obs": "",
+   "enunciado": [
+    "Acerca das garantias, vedações e organização do Poder Judiciário conforme a Constituição Federal de 1988, julgue o item a sgeuir.",
+    "Aos juízes é vedado exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95, Parágrafo único - Aos juízes é vedado:",
+    "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c6575399da3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 95, § único, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, I",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, I, CF"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2019",
+   "cargo": "Guarda Civil",
+   "instituicao": "PREFEITURA DE CAMPOS-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, é vedado aos juízes exercer, ainda que em disponibilidade, outro cargo ou função, ainda que de magistério."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95, Parágrafo único. Aos juízes é vedado:",
+    "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9f7688877caf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 95, § único, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, I",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, I, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre as vedações impostas aos juízes pelo art. 95 da Constituição Federal, é correto afirmar que aos juízes é vedado exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "[...]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ad6dbfec33a3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 95, § único, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, II",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, II, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre as vedações impostas aos juízes pelo art. 95 da Constituição Federal, é correto afirmar que aos juízes é vedado receber, a qualquer título ou pretexto, custas ou participação em processo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "[...]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "[...]",
+    "II - receber, a qualquer título ou pretexto, custas ou participação em processo;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2f070a0d1663",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 95, § único, II c/c Art. 128, § 5º, II, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, II",
+     "sigla": "",
+     "texto": "Art. 95, § único, II"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "128",
+     "disp": "§ 5º, II, a",
+     "sigla": "CF",
+     "texto": "Art. 128, § 5º, II, a, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "No que se refere ao Poder Judiciário e às funções essenciais à justiça, julgue o item a seguir, de acordo com a CF.",
+    "É permitido a juízes e membros do Ministério Público receber, a título de bonificação remuneratória, percentual de custas ou participação em processo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95, Parágrafo único - Aos juízes é vedado:",
+    "[...]",
+    "II - receber, a qualquer título ou pretexto, custas ou participação em processo;",
+    "[...]",
+    "Art. 128, § 5º - Leis complementares da União e dos Estados, cuja iniciativa é facultada aos respectivos Procuradores-Gerais, estabelecerão a organização, as atribuições e o estatuto de cada Ministério Público, observadas, relativamente a seus membros:",
+    "[...]",
+    "II - as seguintes vedações:",
+    "a) receber, a qualquer título e sob qualquer pretexto, honorários, percentagens ou custas processuais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8d5b9bfd9a1d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 95, § único, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, III",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-16ª REGIÃO-MA",
+   "obs": "",
+   "enunciado": [
+    "A população da Comarca Alfa tinha grande apreço e admiração por João, Juiz de Direito titular da Vara Única da localidade. Por tal razão, foi iniciado um grande movimento popular para que João concorresse ao cargo eletivo de Prefeito Municipal. À luz da sistemática constitucional, é correto afirmar que João, considerando o movimento popular, somente pode concorrer ao cargo eletivo se for autorizado pelo Presidente do Tribunal de Justiça a que está vinculado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. […]",
+    "Parágrafo único. Aos juízes é vedado: […]",
+    "III - dedicar-se à atividade político-partidária; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e4ca4f04714",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 86,
+   "referencia": "Art. 95, § único, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, III",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, III, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "É vedado aos juízes, conforme dispõe o parágrafo único do artigo 95 da Constituição Federal, dedicar-se à atividade político-partidária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95 […]",
+    "Parágrafo único. Aos juízes é vedado: […]",
+    "III - dedicar-se à atividade político-partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bca23703125b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 87,
+   "referencia": "Art. 95, parágrafo único, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "parágrafo único, V",
+     "sigla": "CF",
+     "texto": "Art. 95, parágrafo único, V, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRT-13ª REGIÃO-PB",
+   "obs": "",
+   "enunciado": [
+    "Inês foi destacada desembargadora de determinado Tribunal Regional do Trabalho, tendo se aposentado compulsoriamente ao atingir a idade para a aposentadoria limite. Ato contínuo, tomou a decisão de advogar. À luz da ordem constitucional, é correto afirmar que Inês somente poderá exercer a advocacia no Tribunal em que atuava ao se aposentar, após o decurso de três anos de sua aposentadoria."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias: […]",
+    "Parágrafo único. Aos juízes é vedado: […]",
+    "V - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 86,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5074669e6567",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 88,
+   "referencia": "Art. 95, § único, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, III",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, III, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre as vedações impostas aos juízes pelo art. 95 da Constituição Federal, é correto afirmar que aos juízes é vedado dedicar-se à atividade político-partidária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "[...]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "[...]",
+    "III - dedicar-se à atividade político-partidária."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 87,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ae93ca2dda2e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 89,
+   "referencia": "Art. 95, § único, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, V",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, V, CF"
+    }
+   ],
+   "banca": "QUADRIX",
+   "ano": "2017",
+   "cargo": "Advogado",
+   "instituicao": "CRF-RS",
+   "obs": "",
+   "enunciado": [
+    "Aos juízes é vedado exercer advocacia no Juízo ou Tribunal do qual se afastou, antes de decorridos cinco anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95, Parágrafo único. Aos juízes é vedado:",
+    "[...]",
+    "V - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 88,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aad3f55de97e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 90,
+   "referencia": "Art. 95, § único, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "95",
+     "disp": "§ único, V",
+     "sigla": "CF",
+     "texto": "Art. 95, § único, V, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre as vedações impostas aos juízes pelo art. 95 da Constituição Federal, é correto afirmar que aos juízes é vedado exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos dois anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 95. Os juízes gozam das seguintes garantias:",
+    "[...]",
+    "Parágrafo único. Aos juízes é vedado:",
+    "[...]",
+    "V - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "95",
+    "ate": "95"
+   },
+   "ordem": 89,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1032de0acd66",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 91,
+   "referencia": "Art. 96, I, a, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "96",
+     "disp": "I, a",
+     "sigla": "CF",
+     "texto": "Art. 96, I, a, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "III Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "Uma Constituição Estadual foi modificada, por iniciativa parlamentar, e passou a dispor que compete, privativamente, ao Tribunal de Justiça eleger seu órgão diretivo por voto de todos os magistrados em atividade, de primeiro e segundo graus, da respectiva jurisdição, para um mandato de dois anos, permitida uma recondução. Por sua vez, uma lei que trata da Magistratura, datada de 1979, expressa que os Tribunais elegerão aqueles que ocuparão os cargos de direção. O mandato seria de dois anos, proibida a reeleição. De acordo com a Constituição da República Federativa do Brasil de 1988 e o pensamento do Supremo Tribunal Federal, é correto afirmar que compete privativamente aos Tribunais, assim entendidos como órgãos colegiados, a eleição de seus órgãos diretivos, o que exclui a possibilidade de inclusão, por norma constitucional estadual, de Juízes no colégio eleitoral."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 96. Compete privativamente:",
+    "I - aos tribunais:",
+    "a) eleger seus órgãos diretivos e elaborar seus regimentos internos, com observância das normas de processo e das garantias processuais das partes, dispondo sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos; […]",
+    "92 [Art. 96, I, a, CF c/c ADI 4235-RJ - Direito Constitucional e Processual Civil] FGV 2026 - V Exame Nacional da Magistratura (ENFAM)",
+    "No Estado Alfa foi aprovada recentemente uma nova lei de organização judiciária. A nova lei dispõe que o Órgão Especial do Tribunal de Justiça do Estado Alfa pode, mediante resolução administrativa, transformar juízos cíveis e criminais em juizados especiais, bem como instalar juizados especiais. Contra a referida lei foi proposta uma Ação Direta de Inconstitucionalidade, requerendo a declaração de sua inconstitucionalidade com base em diversos fundamentos. Considerando a hipótese narrada, é correto afirmar que a lei é constitucional, pois não há violação ao princípio da legalidade e a Constituição atribui aos tribunais o poder de dispor sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos.",
+    "Art. 96. Compete privativamente:",
+    "I - aos tribunais:",
+    "a) eleger seus órgãos diretivos e elaborar seus regimentos internos, com observância das normas de processo e das garantias processuais das partes, dispondo sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos; […]",
+    "EMENTA: CONSTITUCIONAL E PROCESSUAL CIVIL. AÇÃO DIRETA DE INCONSTITUCIONALIDADE. LEI N. 2.556/96 E LEI 3.603/2001 DO ESTADO DO RIO DE JANEIRO. LEIS QUE ATRIBUEM COMPETÊNCIA AO ÓRGÃO ESPECIAL DO TRIBUNAL DE JUSTIÇA PARA DISPOR SOBRE TRANSFORMAÇÃO DE JUÍZOS, INSTALAÇÃO DE NOVOS JUIZADOS E PARA FIXAR SUA COMPETÊNCIA. MATÉRIAS NÃO SUBMETIDAS À RESERVA DE LEI FORMAL. VIOLAÇÃO À CONSTITUIÇÃO FEDERAL. AUSÊNCIA. IMPROCEDÊNCIA DA AÇÃO DIRETA. 1. A Constituição Federal atribui aos tribunais o poder de dispor sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos. 2. Não viola o princípio da legalidade diploma que reconhece a competência a Órgão Especial do Tribunal de Justiça para dispor sobre transformação de juizados ou para instalar juizados em substituição aos adjuntos. Precedentes. 3. Ação direta de inconstitucionalidade que se julga improcedente. (ADI 4235, Relator(a): EDSON FACHIN, Tribunal Pleno, julgado em 13-12-2022, PROCESSO ELETRÔNICO DJe-s/n DIVULG 16- 01-2023 PUBLIC 17-01-2023)"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 90,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c8350042e51c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 93,
+   "referencia": "Art. 96, I, d, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "96",
+     "disp": "I, d",
+     "sigla": "CF",
+     "texto": "Art. 96, I, d, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-10ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item subsequente, referente ao Poder Judiciário.",
+    "É competência privativa do STF propor a criação de novas varas judiciárias nos âmbitos federal e estadual."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 96 - Compete privativamente:",
+    "I - aos tribunais:",
+    "[...]",
+    "d) propor a criação de novas varas judiciárias;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 91,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c6954deec4e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 94,
+   "referencia": "Art. 96, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "96",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 96, III, CF"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2013",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Ressalvada a competência da Justiça Eleitoral, compete privativamente aos Tribunais de Justiça dos Estados julgar juízes estaduais e promotores de Justiça estaduais por crimes comuns, como homicídio e outros contra a vida, e de responsabilidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 96. Compete privativamente:",
+    "[...]",
+    "III - aos Tribunais de Justiça julgar os juízes estaduais e do Distrito Federal e Territórios, bem como os membros do Ministério Público, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 92,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e9acf751b0e2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 95,
+   "referencia": "Art. 96, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "96",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 96, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "IV Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "O item a seguir indica corretamente a competência para o julgamento do fato. Lucas, Juiz de Direito do Estado Alfa, é acusado de crime financeiro. Em razão do foro por prerrogativa de função, Lucas deve ser julgado perante o Tribunal Regional Federal que abrange o Estado Alfa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 96. Compete privativamente:",
+    "[...]",
+    "III - aos Tribunais de Justiça julgar os juízes estaduais e do Distrito Federal e Territórios, bem como os membros do Ministério Público, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 93,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e98a148c7690",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 96,
+   "referencia": "Art. 96, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "96",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 96, III, CF"
+    }
+   ],
+   "banca": "MP-DFT",
+   "ano": "2015",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MP-DFT",
+   "obs": "",
+   "enunciado": [
+    "A competência para julgamento de juiz de direito que pratique crime doloso contra a vida é do tribunal do júri do local da consumação do delito."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 96, CF. Compete privativamente:",
+    "[...]",
+    "III - aos Tribunais de Justiça julgar os juízes estaduais e do Distrito Federal e Territórios, bem como os membros do Ministério Público, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral.",
+    "Observação:",
+    "Súmula Vinculante 45 - A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente pela Constituição Estadual."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 94,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-43b1bde3c859",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 97,
+   "referencia": "Art. 97, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "97",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 97, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico do Ministério Público - Área Administrativa",
+   "instituicao": "MPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em um recurso de apelação distribuído à 1ª Câmara Cível do Tribunal de Justiça do Estado Alfa, o Ministério Público, atuando como órgão interveniente, suscitou a inconstitucionalidade da Lei federal nº X, na qual se baseava a pretensão formulada pelo demandante.",
+    "Nessa situação, à luz da sistemática vigente, é correto afirmar que a Câmara Cível deve solicitar que o Pleno ou órgão especial do Tribunal de Justiça do Estado Alfa analise a compatibilidade da Lei federal nº X com a Constituição da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 97 - Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderão os tribunais declarar a inconstitucionalidade de lei ou ato normativo do Poder Público."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "97",
+    "ate": "97"
+   },
+   "ordem": 95,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4166c6980aa2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 98,
+   "referencia": "Art. 97, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "97",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 97, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-PA",
+   "obs": "",
+   "enunciado": [
+    "No que diz respeito ao sistema de controle de constitucionalidade brasileiro, julgue o seguinte item com base na Constituição Federal de 1988 e no entendimento do Supremo Tribunal Federal. Os tribunais poderão declarar a inconstitucionalidade de lei ou ato normativo do poder público somente pelo voto de 2/3 de seus membros ou dos membros do respectivo órgão especial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 97. Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderão os tribunais declarar a inconstitucionalidade de lei ou ato normativo do Poder Público."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "97",
+    "ate": "97"
+   },
+   "ordem": 96,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "4 Organização dos Poderes (Arts. 44 - 135, CF)"
+ ]
+}
