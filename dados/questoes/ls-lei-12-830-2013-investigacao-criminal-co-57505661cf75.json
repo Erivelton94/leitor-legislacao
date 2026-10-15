@@ -1,0 +1,1463 @@
+{
+ "id": "ls-lei-12-830-2013-investigacao-criminal-co-57505661cf75",
+ "titulo": "Lei 12.830/2013 - Investigação Criminal conduzida pelo Delegado de Polícia",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-46b72146b194",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei nº 12.830/2013 – investigação criminal conduzida pelo delegado de polícia, julgue o seguinte item. As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia não são de natureza jurídica, pois são de natureza administrativa, mas são essenciais e exclusivas de Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a755fdc50c40",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4e19355108d6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2016",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PA",
+   "obs": "",
+   "enunciado": [
+    "A Constituição de 1988 institui o sistema acusatório, impondo a separação das funções de investigar, acusar, defender e julgar. Porém, isso não faz da polícia judiciária uma função essencial à justiça por não ser da essência e estrutura do sistema acusatório."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c6f0fc0fd7cf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando a Lei nº 12.830/2013 e sua interpretação jurisprudencial, é correto afirmar que as funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza técnica, essenciais e exclusivas de Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2e0cc7a0a3ee",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei no 12.830/2013 (Investigação Criminal Conduzida pelo Delegado), é correto afirmar que as funções de polícia judiciária e a apuração de infrações penais exercidas pelo Delegado de Polícia são consideradas de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8797621d5552",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 2º, § 1º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 1º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "MP-DFT",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MP-DFT",
+   "obs": "",
+   "enunciado": [
+    "Ao delegado de polícia, na qualidade de autoridade policial, cabe a condução da investigação criminal por meio de inquérito policial ou outro procedimento previsto em lei, que tem como objetivo a apuração das circunstâncias, da materialidade e da autoria das infrações penais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º As funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado.",
+    "§ 1º Ao delegado de polícia, na qualidade de autoridade policial, cabe a condução da investigação criminal por meio de inquérito policial ou outro procedimento previsto em lei, que tem como objetivo a apuração das circunstâncias, da materialidade e da autoria das infrações penais.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a72c7b078ed4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 2º, § 1º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 1º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 1º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é correto afirmar que, cabe ao delegado de polícia e aos investigadores de polícia a condução da investigação criminal, por meio do inquérito policial."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 1º Ao delegado de polícia, na qualidade de autoridade policial, cabe a condução da investigação criminal por meio de inquérito policial ou outro procedimento previsto em lei, que tem como objetivo a apuração das circunstâncias, da materialidade e da autoria das infrações penais."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a4e18656b24d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 2º, § 2º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 2º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 2º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei no 12.830/2013 (Investigação Criminal Conduzida pelo Delegado), é correto afirmar que, durante a investigação criminal, cabe ao Escrivão de Polícia a requisição de documentos e dados que interessem à apuração dos fatos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 2º Durante a investigação criminal, cabe ao delegado de polícia a requisição de perícia, informações, documentos e dados que interessem à apuração dos fatos."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1e9248707678",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 2°, § 2°, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 2°",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2°, § 2°, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que, durante a investigação criminal, cabe ao delegado de polícia a requisição de perícia, informações, documentos e dados que interessem à apuração dos fatos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° […]",
+    "§ 2° Durante a investigação criminal, cabe ao delegado de polícia a requisição de perícia, informações, documentos e dados que interessem à apuração dos fatos."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c1431902dbfc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 2º, § 4º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 4º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8f0ef8fa9e10",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 2º, § 4º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 4º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após tomar posse no cargo de Delegado de Polícia, Lucas participou, na qualidade de ouvinte, de palestra versando sobre as investigações criminais conduzidas pela Polícia Civil. Nesse cenário, considerando as disposições da Lei nº 12.830/2013, avalie a afirmativa a seguir. O inquérito policial ou outro procedimento previsto em lei em curso poderá ser avocado por superior hierárquico, com base na hierarquia e disciplina que rege a Polícia Civil, dispensando- se fundamentação exaustiva."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0009d1e3a90e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 2º, § 4º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 4º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Agente Administrativo",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Lei n.º 10.357/2001 e o disposto na Lei n.º 12.830/2013, julgue o item subsecutivo.",
+    "Um inquérito policial em curso somente poderá ser avocado ou redistribuído por superior hierárquico do delegado de polícia, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 4º - O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6428d7c63798",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 2º, § 4º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 4º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 4º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é correto afirmar que, na qualidade de autoridade policial, o delegado não poderá permitir que o inquérito policial seja avocado por superior hierárquico, nos termos da legislação e da Constituição Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 4º O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5025a35d1903",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 2°, § 4°, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 4°",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2°, § 4°, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da investigação criminal, é correto afirmar que o inquérito policial em curso poderá ser avocado ou redistribuído por superior hierárquico, independentemente de despacho fundamentado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° […]",
+    "§ 4° O inquérito policial ou outro procedimento previsto em lei em curso somente poderá ser avocado ou redistribuído por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7981799f082f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 2º, § 5º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 5º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Lei no 12.830/2013 (Investigação Criminal Conduzida pelo Delegado), é correto afirmar que a remoção do Delegado de Polícia dar-se-á somente por ato fundamentado do Governador do Estado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 5º A remoção do delegado de polícia dar-se-á somente por ato fundamentado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b4a5113a4164",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 2º, § 5º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 5º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é correto afirmar que a remoção do delegado de polícia dar-se-á somente por ato fundamentado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 5º A remoção do delegado de polícia dar-se-á somente por ato fundamentado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8c043ae5f5e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 2º, § 5º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 5º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei nº 12.830/2013 – investigação criminal conduzida pelo delegado de polícia, julgue o seguinte item. A remoção do delegado de polícia dar-se-á somente por ato fundamentado de autoridade judiciária competente."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 5º A remoção do delegado de polícia dar-se-á somente por ato fundamentado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a5404ad84e3a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 2º, § 5º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 5º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 5º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A remoção do delegado de polícia dar-se-á somente por ato fundamentado do Secretário da Segurança Pública."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 5º A remoção do delegado de polícia dar-se-á somente por ato fundamentado."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2a635eefcf34",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei nº 12.830/2013 – investigação criminal conduzida pelo delegado de polícia, julgue o seguinte item. O indiciamento, ato privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se- á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0755ae885fc6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após tomar posse no cargo de Delegado de Polícia, Lucas participou, na qualidade de ouvinte, de palestra versando sobre as investigações criminais conduzidas pela Polícia Civil. Nesse cenário, considerando as disposições da Lei nº 12.830/2013, avalie a afirmativa a seguir. O indiciamento, exclusivo dos policiais civis, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se- á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a57857fa91cc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 2°, § 6°, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6°",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2°, § 6°, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FAPEMS",
+   "ano": "2017",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Acerca da investigação criminal, é correto afirmar que o indiciamento, privativo do delegado de polícia, dar-se-á por ato discricionário, mediante análise fática da ocorrência do fato, e deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2° […]",
+    "§ 6° O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-568a1544d635",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUMARC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Sobre o ato de indiciamento realizado no âmbito de investigação criminal conduzida por delegado de polícia, é correto afirmar que não é ato exclusivo do delegado de polícia que conduz a investigação."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c8f6676fd20b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é correto afirmar que o indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, devendo indicar a autoria e a materialidade apenas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º […]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-06a96e926ea8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2016",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PA",
+   "obs": "",
+   "enunciado": [
+    "O indiciamento é ato privativo da autoridade policial, ou seja, delegado de polícia, não cabendo ao Ministério Público, mesmo nos casos de requisição de sua instauração por parte do Parquet, definir o indiciamento."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º, § 6º O indiciamento, privativo do delegado de polícia, dar-se- á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f2a6d7233ed1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando a Lei nº 12.830/2013 e sua interpretação jurisprudencial, é correto afirmar que o indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º [...]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a527bd290960",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 2º, § 6º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "2",
+     "disp": "§ 6º",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 2º, § 6º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Agente de Polícia da Carreira de Polícia Civil do Distrito Federal",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "Acerca da aplicação das normas processuais penais, julgue o item subsequente. O indiciamento constitui mero juízo de possibilidade de autoria, não havendo a necessidade da existência de eventuais elementos informativos acerca da materialidade do crime."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º",
+    "[...]",
+    "§ 6º O indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a7b1fefe36ee",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 3º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 3º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A Lei 12.830/13, que dispõe sobre a investigação criminal conduzida pelo Delegado de Polícia prescreve expressamente que ao Delegado deve ser dispensado o mesmo tratamento protocolar que recebem, entre outros, os Magistrados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5293e2f39363",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 3º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 3º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "NUCEPE",
+   "ano": "2018",
+   "cargo": "Delegado de Polícia Civil",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é correto afirmar que o cargo de delegado é privativo de Bacharel em Direito, mas não deve lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b2a667ddf15f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 3º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 3º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "A Lei no 12.830/13, que dispõe sobre a investigação criminal conduzida pelo Delegado de Polícia prescreve expressamente que ao Delegado deve ser dispensado o mesmo tratamento protocolar que recebem, entre outros, os Magistrados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-60f0fe538c42",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 3º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 3º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Sobre a Lei nº 12.830/2013 – investigação criminal conduzida pelo delegado de polícia, julgue o seguinte item. O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público, os ministros religiosos e os diplomatas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3ea3889b6a8e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 3º, Lei 12.830/2013",
+   "refs": [
+    {
+     "lei": "investigacao-delegado",
+     "art": "3",
+     "disp": "",
+     "sigla": "Lei 12.830/2013",
+     "texto": "Art. 3º, Lei 12.830/2013"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após tomar posse no cargo de Delegado de Polícia, Lucas participou, na qualidade de ouvinte, de palestra versando sobre as investigações criminais conduzidas pela Polícia Civil. Nesse cenário, considerando as disposições da Lei nº 12.830/2013, avalie a afirmativa a seguir.",
+    "O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados."
+   ],
+   "vinculo": {
+    "lei": "investigacao-delegado",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Processual Penal",
+  "Lei 12.830/2013 - Investigação Criminal conduzida pelo Delegado de Polícia"
+ ]
+}
