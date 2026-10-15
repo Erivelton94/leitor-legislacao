@@ -1,0 +1,161 @@
+{
+ "id": "ls-5-das-penas-especies-de-penas-art-32-cp-7038047c9d05",
+ "titulo": "5 Das Penas - Espécies de Penas (Art. 32, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-9fc5db5c63a4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 32, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "32",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 32, CP"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "Segundo o Código Penal Brasileiro as penas são classificadas em pena de multa, pena privativas de liberdade, pena de caráter perpétuo e pena restritivas de direitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32 - As penas são:",
+    "I - privativas de liberdade;",
+    "II - restritivas de direitos;",
+    "III - de multa.",
+    "*A Pena de Caráter Perpétuo NÃO CONSTA no rol disposto no Art. 32!"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2190d75e386c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 32, I, II, III, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "32",
+     "disp": "I, II, III",
+     "sigla": "CP",
+     "texto": "Art. 32, I, II, III, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "Segundo o art. 32 do Código Penal, as penas são: Privativas de liberdade, restritivas de direitos e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32 - As penas são:",
+    "I - privativas de liberdade;",
+    "II - restritivas de direitos;",
+    "III - de multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-858146f7a137",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 32, III, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "32",
+     "disp": "III",
+     "sigla": "CP",
+     "texto": "Art. 32, III, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições do Código Penal Brasileiro, julgue o seguinte item. A multa é uma das espécies de pena previstas pelo Código Penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 32 - As penas são: […]",
+    "III - de multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "32",
+    "ate": "32"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Geral (Arts. 1º - 120, CP)"
+ ]
+}
