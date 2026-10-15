@@ -1,0 +1,4080 @@
+{
+ "id": "local-lep-2-estabelecimentos-incidentes-e-proc-cdde6ebc61e7",
+ "titulo": "LEP 2 - Estabelecimentos, Incidentes e Procedimento (comentado)",
+ "materia": "Legislação Penal e Processual Penal Especial",
+ "versao": "2026-10-15",
+ "assuntos": [
+  "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+  "Da Execução das Medidas de Segurança (arts. 171 a 179 da Lei nº 7.210/1984 - LEP)",
+  "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+  "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+  "Das Disposições Finais e Transitórias (arts. 198 a 204 da Lei nº 7.210/1984 - LEP)"
+ ],
+ "observacao": "Importado de PDF no app.",
+ "questoes": [
+  {
+   "enunciado": [
+    "Considerando o disposto nos artigos 82 e seguintes da Lei nº 7.210/1984, analise as assertivas a seguir:",
+    "I Os estabelecimentos penais destinam-se apenas aos condenados.",
+    "II A mulher e o maior de sessenta anos, separadamente, serão recolhidos a estabelecimento próprio e adequado à sua condição pessoal. III O mesmo conjunto arquitetônico não poderá, em hipótese alguma, abrigar estabelecimentos de destinação diversa.",
+    "IV O estabelecimento penal, conforme a sua natureza, deverá contar em suas dependências com áreas e serviços destinados a dar assistência, educação, trabalho, recreação e prática esportiva.",
+    "V O preso que tiver sua integridade física, moral ou psicológica ameaçada pela convivência com os demais presos ficará segregado em local próprio. Estão corretas apenas"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, IV e V."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III."
+    },
+    {
+     "letra": "C",
+     "texto": "II, IV e V."
+    },
+    {
+     "letra": "D",
+     "texto": "II e III."
+    },
+    {
+     "letra": "E",
+     "texto": "IV e V."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "> LEP, art. 82. Os estabelecimentos penais destinam-se ao **condenado**, ao **submetido à medida de segurança**, ao **preso provisório** e ao **egresso**. § 1º A mulher e o maior de **sessenta anos**, separadamente, serão recolhidos a estabelecimento próprio e adequado à sua condição pessoal. § 2º O mesmo conjunto arquitetônico **poderá** abrigar estabelecimentos de destinação diversa **desde que devidamente isolados**.",
+    "**I** [ERRADA] Não é \"~~apenas aos condenados~~\": também ao submetido à medida de segurança, ao preso provisório e ao egresso.",
+    "**II** [CORRETA] Art. 82, § 1º.",
+    "**III** [ERRADA] \"~~não poderá, em hipótese alguma~~\": poderá, desde que devidamente isolados (art. 82, § 2º).",
+    "**IV** [CORRETA] Art. 83, caput.",
+    "**V** [CORRETA] Art. 84, § 4º.",
+    "Resposta: **C)** II, IV e V."
+   ],
+   "banca": "COSEAC UFF",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2025,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-005ba31ddcd6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 376,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "82"
+    },
+    {
+     "lei": "lep",
+     "art": "83"
+    },
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação aos estabelecimentos penais abordados na Lei nº 7.210/1984, indique a opção correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A Colônia Agrícola, Industrial ou Similar destina-se ao cumprimento da pena em regime aberto."
+    },
+    {
+     "letra": "B",
+     "texto": "A cadeia pública destina-se ao recolhimento de presos provisórios."
+    },
+    {
+     "letra": "C",
+     "texto": "A cadeia pública destina-se ao condenado à pena de reclusão, em regime fechado."
+    },
+    {
+     "letra": "D",
+     "texto": "A penitenciária destina-se ao condenado à pena de reclusão, nos regimes fechado e semiaberto, bem como aos presos provisórios."
+    },
+    {
+     "letra": "E",
+     "texto": "O Centro de Observação destina-se aos inimputáveis e semi-imputáveis."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Art. 102.",
+    "**A)** [ERRADA] A colônia é para o **semiaberto**, e não para o ~~aberto~~.",
+    "**C)** [ERRADA] Reclusão em regime fechado é a ~~penitenciária~~.",
+    "**D)** [ERRADA] A penitenciária é só para o regime **fechado**: não abrange ~~semiaberto~~ nem ~~presos provisórios~~ (exceto a do RDD, art. 87, parágrafo único).",
+    "**E)** [ERRADA] Inimputáveis e semi-imputáveis vão para o ~~HCTP~~ (art. 99).",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "COSEAC UFF",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2025,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-b34a957504d9",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "102",
+    "ate": "102"
+   },
+   "ordem": 377,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Ernesto foi condenado à pena de 12 (doze) anos de reclusão em regime inicial fechado por crime hediondo cometido com violência à pessoa. Assim, segundo a Lei Federal nº 7.210/1984 (Lei de Execução Penal) e o Estatuto Penitenciário do Estado do Paraná, depois que a sentença penal condenatória transitar em julgado e que for expedida a guia de recolhimento para a execução penal, Ernesto deverá iniciar o cumprimento da pena"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "na Penitenciária, por ser o estabelecimento penal destinado a condenados à pena de reclusão em regime fechado."
+    },
+    {
+     "letra": "B",
+     "texto": "na Casa do Albergado, que serve para condenados à pena privativa de liberdade por crimes cometidos com violência à pessoa."
+    },
+    {
+     "letra": "C",
+     "texto": "na Cadeia Pública, estabelecimento penal especialmente destinado ao recolhimento de condenados às penas de reclusão e detenção nos primeiros meses de cumprimento de pena."
+    },
+    {
+     "letra": "D",
+     "texto": "na Colônia Agrícola, Industrial ou Similar, que serve como espaço ou unidade de progressão do estado de liberdade para o regime inicial fechado."
+    },
+    {
+     "letra": "E",
+     "texto": "no Hospital de Custódia, até que seja submetido a exame criminológico para a obtenção dos elementos necessários à adequada classificação e com vistas à individualização da execução."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "Reclusão em regime **inicial fechado** → **Penitenciária** (art. 87).",
+    "**A)** [CORRETA] Penitenciária.",
+    "**B)**, **C)**, **D)** e **E)** [ERRADAS] Casa do Albergado (aberto), cadeia pública (provisórios), colônia (semiaberto) e HCTP (medida de segurança) não servem para o regime fechado.",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (DEPPEN PR)",
+   "orgao": "DEPPEN PR",
+   "ano": 2024,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-0f44e50e2592",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 378,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A Lei de Execução Penal (Lei n° 7.210/1984) dispõe que os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso. Sobre os estabelecimentos penais, assinale a alternativa incorreta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os estabelecimentos penais destinados a mulheres poderão, a critério da administração penitenciária, possuir agentes do sexo feminino na segurança de suas dependências internas"
+    },
+    {
+     "letra": "B",
+     "texto": "O preso provisório ficará separado do condenado por sentença transitada em julgado"
+    },
+    {
+     "letra": "C",
+     "texto": "O preso que, ao tempo do fato, era funcionário da Administração da Justiça Criminal ficará em dependência separada"
+    },
+    {
+     "letra": "D",
+     "texto": "O preso que tiver sua integridade física, moral ou psicológica ameaçada pela convivência com os demais presos ficará segregado em local próprio"
+    },
+    {
+     "letra": "E",
+     "texto": "Serão instaladas salas de aulas destinadas a cursos do ensino básico e profissionalizante"
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "A questão pede a **incorreta**.",
+    "**A)** [INCORRETA, é a resposta] A presença exclusiva de agentes mulheres na segurança interna é **obrigatória**, e não \"~~a critério da administração~~\".",
+    "> LEP, art. 83, § 2º Os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, **no mínimo, até 6 (seis) meses** de idade. § 3º (...) deverão possuir, **exclusivamente, agentes do sexo feminino** na segurança de suas **dependências internas**.",
+    "**B)**, **C)**, **D)** e **E)** [CORRETAS] Art. 84, caput, § 2º, § 4º e art. 83, § 4º."
+   ],
+   "banca": "IBFC",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2024,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-46cd60b0e85d",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 379,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    },
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O TÍTULO IV, da Lei de Execução Penal trata “Dos Estabelecimentos Penais”. É correto afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório apenas"
+    },
+    {
+     "letra": "B",
+     "texto": "o preso provisório não ficará separado do condenado por sentença transitada em julgado"
+    },
+    {
+     "letra": "C",
+     "texto": "a Casa do Albergado destina-se ao cumprimento de pena privativa de liberdade, em regime aberto, e da pena de limitação de fim de semana"
+    },
+    {
+     "letra": "D",
+     "texto": "a penitenciária destina-se ao condenado à pena de reclusão, em regime fechado e semiaberto"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Art. 93.",
+    "**A)** [ERRADA] Faltou o **egresso**: não é \"~~apenas~~\" (art. 82).",
+    "**B)** [ERRADA] O preso provisório **fica** separado do condenado (art. 84).",
+    "**D)** [ERRADA] A penitenciária é só para o **fechado**, e não para o ~~semiaberto~~ (art. 87)."
+   ],
+   "banca": "IBFC",
+   "cargo": "EEP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2023,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-5aa37a339c16",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 380,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "82"
+    },
+    {
+     "lei": "lep",
+     "art": "84"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Sobre o direito processual penal, julgue o item a seguir.",
+    "As pessoas presas provisoriamente ficarão separadas das que já estiverem definitivamente condenadas, nos termos da lei de execução penal."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 84: o preso provisório ficará separado do condenado por sentença transitada em julgado."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (PP DF)",
+   "orgao": "PP DF",
+   "ano": 2022,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-8e920e4c6726",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 381,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Segundo a Lei de Execução Penal, julgue o item seguinte acerca do livramento condicional e dos estabelecimentos penais.",
+    "Nos estabelecimentos penais, os presos com curso superior que já tenham sido definitivamente condenados devem ficar separados dos demais, assim como os condenados pela prática de crimes hediondos ou equiparados."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A LEP separa os condenados por **tipo de crime** e por **primariedade ou reincidência** (art. 84, § 3º). Ter ~~curso superior~~ não é critério de separação na LEP.",
+    "> LEP, art. 84. O preso provisório ficará separado do condenado por sentença transitada em julgado. § 1º Os presos provisórios ficarão separados: I – acusados de crimes hediondos ou equiparados; II – acusados de crimes com violência ou grave ameaça à pessoa; III – acusados de outros crimes ou contravenções. (...) § 3º Os presos condenados ficarão separados: I – condenados por crimes hediondos ou equiparados; II – **reincidentes** condenados por crimes com violência ou grave ameaça; III – **primários** condenados por crimes com violência ou grave ameaça; IV – demais condenados."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (PP DF)",
+   "orgao": "PP DF",
+   "ano": 2022,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-a613fcd4569c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 382,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Segundo a Lei de Execução Penal, julgue o item seguinte acerca do livramento condicional e dos estabelecimentos penais.",
+    "A penitenciária destina-se ao condenado à pena de reclusão, em regime fechado, sendo que a penitenciária de mulheres será dotada de seção para gestante e parturiente e de creche para abrigar crianças maiores de 6 (seis) meses e menores de 7 (sete) anos, com a finalidade de assistir a criança desamparada cuja responsável estiver presa."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Juntou o art. 87 (penitenciária: reclusão em regime fechado) com o art. 89 (seção para gestante e parturiente e creche para crianças **maiores de 6 meses e menores de 7 anos**)."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (PP DF)",
+   "orgao": "PP DF",
+   "ano": 2022,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-b3b9973055cc",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 383,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "89"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Segundo a Lei de Execução Penal, julgue o item seguinte acerca do livramento condicional e dos estabelecimentos penais.",
+    "A cadeia pública destina-se ao recolhimento de presos provisórios, sendo que cada comarca terá, pelo menos, 1 (uma) cadeia pública, que será instalada próxima de centro urbano, a fim de resguardar o interesse da Administração da Justiça Criminal e a permanência do preso em local próximo ao seu meio social e familiar."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Juntou os arts. 102, 103 e 104: cadeia pública para presos provisórios, pelo menos uma por comarca, instalada **próxima** de centro urbano."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "Pol Pen (PP DF)",
+   "orgao": "PP DF",
+   "ano": 2022,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-37bc7c00ca16",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "102",
+    "ate": "102"
+   },
+   "ordem": 384,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "103"
+    },
+    {
+     "lei": "lep",
+     "art": "104"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com base no disposto na Lei de Execução Penal quanto aos estabelecimentos prisionais, julgue o item que se segue.",
+    "A denominada casa do albergado destina-se exclusivamente ao cumprimento de pena em regime aberto."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Não é \"~~exclusivamente~~\" para o regime aberto: a Casa do Albergado também serve à pena de **limitação de fim de semana**.",
+    "> LEP, art. 93. A Casa do Albergado destina-se ao cumprimento de pena privativa de liberdade, em regime aberto, **e da pena de limitação de fim de semana**."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "EspFAEP (DEPEN)",
+   "orgao": "SENAPPEN/Enfermagem",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-900babdc1b26",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 385,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com base no disposto na Lei de Execução Penal quanto aos estabelecimentos prisionais, julgue o item que se segue.",
+    "O hospital de custódia e tratamento psiquiátrico destina-se aos inimputáveis e aos semi-imputáveis sujeitos a medida de segurança de internação."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO].",
+    "> LEP, art. 99. O Hospital de Custódia e Tratamento Psiquiátrico destina-se aos **inimputáveis e semi-imputáveis** referidos no artigo 26 e seu parágrafo único do Código Penal."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "EspFAEP (DEPEN)",
+   "orgao": "SENAPPEN/Enfermagem",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-a7f6f66c82f2",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "99",
+    "ate": "99"
+   },
+   "ordem": 386,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A segurança é direito social, fundamental e inviolável de todo cidadão brasileiro. O Estado, por meio dos órgãos elencados na Constituição Federal de 1988, é o principal responsável por buscar medidas para que seja concretizado o direito à segurança. Contudo, é importante ressaltar que o papel de promover o equilíbrio, de modo a evitar atitudes ameaçadoras e violentas, não compete somente ao Estado, visto que cada um deve ter consciência de suas escolhas e consequências. Daí se depreende a relevância da aplicabilidade de políticas públicas de segurança duradouras e eficazes.",
+    "Ana Luiza Fontoura Reis e Igor de Andrade Barbosa. A crise da segurança pública e sua relação direta com o sistema carcerário brasileiro. In: Revista Jus Navigandi, ano 24, n.º 5776, abr./2019 (com adaptações). Considerando o assunto do texto anterior, julgue o item que se segue, relativo ao sistema prisional brasileiro, ao sistema penitenciário federal, às políticas públicas de segurança pública e cidadania e ao papel do sistema penitenciário nas políticas nacionais de segurança pública.",
+    "Por ser de implantação mais recente, o sistema penitenciário federal brasileiro segue o que é previsto pela Lei de Execução Penal para os presídios estaduais, por meio de uma doutrina judicial e da chamada lei de regência."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. O sistema penitenciário federal, criado mais recentemente, aplica a **LEP** em conjunto com a sua **lei de regência** (Lei 11.671/2008, sobre a transferência e inclusão de presos em estabelecimentos federais) e com os entendimentos firmados pela jurisprudência."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-d424fb241f67",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "104"
+   },
+   "ordem": 387,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "À luz das disposições da Lei de Execução Penal e da Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional, julgue o item seguinte.",
+    "As condenadas que sejam mães de filhos recém-nascidos poderão amamentá-los, no mínimo, até seis meses de idade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. É o art. 83, § 2º: berçário para amamentação **no mínimo até 6 meses** de idade."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-c936ac927d79",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 388,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "À luz das disposições da Lei de Execução Penal e da Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional, julgue o item seguinte.",
+    "Em situações específicas, o diretor de presídio feminino poderá delegar a terceiros, mediante contratação prévia e pela devida retribuição financeira, o serviço de transporte de presas gestantes ou puérperas para hospitais e clínicas de pré-natal ou pediatria."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O transporte de presos para hospitais e outros locais externos é atividade **indelegável**, por envolver poder de polícia.",
+    "> LEP, art. 83-B. São **indelegáveis** as funções de direção, chefia e coordenação no âmbito do sistema penal, bem como todas as atividades que exijam o exercício do poder de polícia, e notadamente: (...) IV – **transporte de presos** para órgãos do Poder Judiciário, hospitais e outros locais externos aos estabelecimentos penais."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-0ed7ca06ea2e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83-B",
+    "ate": "83-B"
+   },
+   "ordem": 389,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83-B"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "À luz das disposições da Lei de Execução Penal e da Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional, julgue o item seguinte.",
+    "Os estabelecimentos prisionais destinados a mulheres terão exclusivamente agentes do sexo feminino na segurança de suas dependências internas e externas."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A exigência de agentes exclusivamente mulheres vale para as dependências **internas**, e não para as ~~externas~~ (art. 83, § 3º)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Agepen (SERIS AL)",
+   "orgao": "SERIS AL",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-5dd2a2ac6f4c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 390,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execução Penal (LEP), estabelecimento penal destinado ao recolhimento de presos provisórios é:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a casa de albergado."
+    },
+    {
+     "letra": "B",
+     "texto": "a colônia agrícola, industrial ou similar."
+    },
+    {
+     "letra": "C",
+     "texto": "a penitenciária."
+    },
+    {
+     "letra": "D",
+     "texto": "a cadeia pública."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "**D)** [CORRETA] Cadeia pública (art. 102).",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "CETAP",
+   "cargo": "Pol Pen (SEAP PA)",
+   "orgao": "SEAP PA",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-c33a921c58a9",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "102",
+    "ate": "102"
+   },
+   "ordem": 391,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que tange à Lei de Execução Penal (Lei nº 7.210/1984), assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O isolamento, a suspensão e a restrição de direitos não poderão exceder a sessenta dias, ressalvada a hipótese do regime disciplinar diferenciado."
+    },
+    {
+     "letra": "B",
+     "texto": "Os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, no mínimo, até seis meses de idade."
+    },
+    {
+     "letra": "C",
+     "texto": "Quando o estabelecimento penal não estiver aparelhado para prover a assistência médica necessária, esta será prestada em outro local, mediante autorização do juízo da execução."
+    },
+    {
+     "letra": "D",
+     "texto": "Considera-se egresso o liberado definitivo, pelo prazo de dois anos a contar da saída do estabelecimento prisional."
+    },
+    {
+     "letra": "E",
+     "texto": "Das decisões proferidas pelo Juiz da execução caberá recurso de agravo, com efeito suspensivo."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Art. 83, § 2º.",
+    "**A)** [ERRADA] O isolamento, a suspensão e a restrição de direitos não podem exceder **30 dias**, e não ~~sessenta~~ (art. 58).",
+    "**C)** [ERRADA] A assistência em outro local depende de autorização da **direção do estabelecimento**, e não do ~~juízo~~ (art. 14, § 2º).",
+    "**D)** [ERRADA] O liberado definitivo é egresso pelo prazo de **1 ano**, e não ~~dois anos~~ (art. 26, I).",
+    "**E)** [ERRADA] O agravo em execução **não tem** ~~efeito suspensivo~~ (art. 197)."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "AgePen (SEJUC RR)",
+   "orgao": "SEJUC RR",
+   "ano": 2020,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-bf07095a60b4",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 392,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    },
+    {
+     "lei": "lep",
+     "art": "58"
+    },
+    {
+     "lei": "lep",
+     "art": "14"
+    },
+    {
+     "lei": "lep",
+     "art": "26"
+    },
+    {
+     "lei": "lep",
+     "art": "197"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Durante a administração de um estabelecimento prisional, é necessário que sejam cumpridas certas normas referentes à distribuição dos presos no estabelecimento. Considerando o que define a Lei nº 7.210/1984 acerca da alocação dos presos, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os presos condenados com curso superior devem ficar separados dos demais."
+    },
+    {
+     "letra": "B",
+     "texto": "O preso provisório e o condenado por sentença transitada em julgado poderão ficar segregados juntos, desde que respeitados critérios, como o tipo de crime cometido e a reincidência."
+    },
+    {
+     "letra": "C",
+     "texto": "A mulher e o maior de 60 anos de idade, separadamente, serão recolhidos para estabelecimento próprio e adequado à respectiva condição pessoal."
+    },
+    {
+     "letra": "D",
+     "texto": "Não há critérios para a separação dos presos provisórios."
+    },
+    {
+     "letra": "E",
+     "texto": "Os presos condenados são separados apenas pelo critério da primariedade e reincidência."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Art. 82, § 1º.",
+    "**A)** [ERRADA] ~~Curso superior~~ não é critério de separação na LEP.",
+    "**B)** [ERRADA] O provisório fica **separado** do condenado (art. 84).",
+    "**D)** [ERRADA] Há critérios, sim, para os provisórios (art. 84, § 1º).",
+    "**E)** [ERRADA] Não é ~~apenas~~ primariedade e reincidência: o tipo de crime também conta (art. 84, § 3º).",
+    "> LEP, art. 84. O preso provisório ficará separado do condenado por sentença transitada em julgado. § 1º Os presos provisórios ficarão separados: I – acusados de crimes hediondos ou equiparados; II – acusados de crimes com violência ou grave ameaça à pessoa; III – acusados de outros crimes ou contravenções. (...) § 3º Os presos condenados ficarão separados: I – condenados por crimes hediondos ou equiparados; II – **reincidentes** condenados por crimes com violência ou grave ameaça; III – **primários** condenados por crimes com violência ou grave ameaça; IV – demais condenados."
+   ],
+   "banca": "IADES",
+   "cargo": "Pol Pen (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2019,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-e7b5ce3cb7d7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 393,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "82"
+    },
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Tendo como base o que disciplina a Lei nº 7.210/1984 (Lei de Execução Penal) acerca dos estabelecimentos penais, relacione as colunas e assinale a alternativa com a sequência correta.",
+    "1. Colônia Agrícola, Industrial ou Similar.",
+    "2. Casa do Albergado.",
+    "3. Centro de Observação.",
+    "4. Cadeia Pública.",
+    "( ) Destina-se ao recolhimento de presos provisórios.",
+    "( ) Destina-se ao cumprimento de pena privativa de liberdade, em regime aberto, e da pena de limitação de fim de semana.",
+    "( ) Destina-se à realização dos exames gerais e o criminológico, cujos resultados serão encaminhados à Comissão Técnica de Classificação. ( ) Destina-se ao cumprimento da pena em regime semiaberto."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "4 – 1 – 3 – 2."
+    },
+    {
+     "letra": "B",
+     "texto": "4 – 2 – 3 – 1."
+    },
+    {
+     "letra": "C",
+     "texto": "2 – 1 – 3 – 4."
+    },
+    {
+     "letra": "D",
+     "texto": "1 – 4 – 2 – 3."
+    },
+    {
+     "letra": "E",
+     "texto": "3 – 2 – 4 – 2."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "Cadeia pública → presos provisórios (**4**). Casa do Albergado → aberto e limitação de fim de semana (**2**). Centro de Observação → exames gerais e criminológico (**3**). Colônia → semiaberto (**1**).",
+    "Resposta: **B)** 4 – 2 – 3 – 1.",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "AOCP",
+   "cargo": "Pol Pen (SEAP PA)",
+   "orgao": "SEAP PA",
+   "ano": 2018,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-10fc4e05065c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 394,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso. No que tange aos estabelecimentos prisionais e às disposições da Lei n° 7.210/84, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A mulher e o maior de setenta anos, separadamente, serão recolhidos a estabelecimento próprio e adequado à sua condição pessoal."
+    },
+    {
+     "letra": "B",
+     "texto": "Os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, no mínimo, até 8 (oito) meses de idade."
+    },
+    {
+     "letra": "C",
+     "texto": "As penas privativas de liberdade aplicadas pela Justiça de uma Unidade Federativa não podem ser executadas em outra unidade."
+    },
+    {
+     "letra": "D",
+     "texto": "O mesmo conjunto arquitetônico não poderá abrigar estabelecimentos de destinação diversa."
+    },
+    {
+     "letra": "E",
+     "texto": "São indelegáveis as funções de direção, chefia e coordenação no âmbito do sistema penal, bem como todas as atividades que exijam o exercício do poder de polícia."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 83-B.",
+    "**A)** [ERRADA] É maior de **sessenta**, e não de ~~setenta~~ anos (art. 82, § 1º).",
+    "**B)** [ERRADA] São **6 meses**, e não ~~8 meses~~ (art. 83, § 2º).",
+    "**C)** [ERRADA] \"~~não podem ser executadas em outra unidade~~\": podem, sim (art. 86).",
+    "**D)** [ERRADA] \"~~não poderá~~\": poderá, desde que devidamente isolados (art. 82, § 2º)."
+   ],
+   "banca": "AOCP",
+   "cargo": "TAF (SEAP PA)",
+   "orgao": "SEAP PA/Administração",
+   "ano": 2018,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-3b768849635f",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83-B",
+    "ate": "83-B"
+   },
+   "ordem": 395,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83-B"
+    },
+    {
+     "lei": "lep",
+     "art": "82"
+    },
+    {
+     "lei": "lep",
+     "art": "83"
+    },
+    {
+     "lei": "lep",
+     "art": "86"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Como forma de garantir a individualização da pena e, ainda, efetivar o princípio da igualdade, é necessário se observar as disposições legais em relação aos estabelecimentos penais, bem como aos regimes de pena. Pautando-se no contido na Lei Federal no 7.210/84, assinale a alternativa INCORRETA."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tratando-se de estabelecimentos penais destinados a mulheres, estes serão dotados de berçário onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, no mínimo, até 6 (seis) meses de idade."
+    },
+    {
+     "letra": "B",
+     "texto": "Os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso."
+    },
+    {
+     "letra": "C",
+     "texto": "Os presos condenados ficarão separados de acordo com os seguintes critérios: (1) condenados pela prática de crimes hediondos (ou equiparados); (2) condenados pela prática de crimes cometidos com violência ou grave ameaça (reincidentes ou não); (3) demais condenados em crimes ou contravenção em situação diversa das anteriores."
+    },
+    {
+     "letra": "D",
+     "texto": "Durante o curso da execução penal, ocorrendo nova condenação do preso, será somada a pena ao restante da que está sendo cumprida, para determinação do regime."
+    },
+    {
+     "letra": "E",
+     "texto": "Quando o condenado praticar fato definido como crime doloso ou falta grave, ou sofrer condenação, por crime anterior, cuja pena, somada ao restante da pena em execução, torne incabível o regime que está cumprindo, este ficará sujeito à regressão de sua pena restritiva de liberdade."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede a **INCORRETA**.",
+    "**C)** [INCORRETA, é a resposta] A lei separa os condenados por violência ou grave ameaça em **reincidentes** e **primários** (art. 84, § 3º, II e III). Não ficam juntos \"~~reincidentes ou não~~\".",
+    "> LEP, art. 84. O preso provisório ficará separado do condenado por sentença transitada em julgado. § 1º Os presos provisórios ficarão separados: I – acusados de crimes hediondos ou equiparados; II – acusados de crimes com violência ou grave ameaça à pessoa; III – acusados de outros crimes ou contravenções. (...) § 3º Os presos condenados ficarão separados: I – condenados por crimes hediondos ou equiparados; II – **reincidentes** condenados por crimes com violência ou grave ameaça; III – **primários** condenados por crimes com violência ou grave ameaça; IV – demais condenados.",
+    "**A)**, **B)**, **D)** e **E)** [CORRETAS] Arts. 83, § 2º; 82; 111, parágrafo único; e 118."
+   ],
+   "banca": "AOCP",
+   "cargo": "Tec Enf (SEAP PA)",
+   "orgao": "SEAP PA",
+   "ano": 2018,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-e6626cf6b04c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 396,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    },
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Um agente penitenciário recebe um preso condenado por crime hediondo, cuja conduta delitiva enseja a reprovabilidade dos outros apenados, colocando, assim, em risco, sua integridade física. Nesse sentido, segundo os ditames da Lei nº 7.210/1984, ao classificá-lo, o agente penitenciário deverá"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "colocar o preso em local onde haja somente apenados que cometeram crimes hediondos."
+    },
+    {
+     "letra": "B",
+     "texto": "colocar o preso em dependência destinada a apenados ex-funcionários da Administração da Justiça Criminal."
+    },
+    {
+     "letra": "C",
+     "texto": "colocar o preso em local próprio, segregado dos demais."
+    },
+    {
+     "letra": "D",
+     "texto": "colocar o preso em local destinado aos apenados que cometeram crimes de menor potencial ofensivo."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Quem corre risco pela convivência com os demais fica **segregado em local próprio**.",
+    "> LEP, art. 84, § 4º O preso que tiver sua integridade física, moral ou psicológica ameaçada pela convivência com os demais presos ficará segregado em local próprio.",
+    "**B)** [ERRADA] A dependência separada para ex-funcionários da Justiça Criminal (art. 84, § 2º) não se aplica a ele."
+   ],
+   "banca": "Instituto AOCP",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2017,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-cd90ab2d260d",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 397,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Sobre os estabelecimentos penais é correto afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os presos provisórios ficarão separados considerando os seguintes critérios, acusados por crimes hediondos e equiparados, acusados por crimes com violência ou grave ameaça a pessoa e os demais acusados por outros crimes e contravenções penais."
+    },
+    {
+     "letra": "B",
+     "texto": "Os presos condenados, primários e reincidentes, condenados por crimes com violência contra a pessoa ficarão juntos em uma mesma galeria, não podendo ser colocados juntamente com os condenados por crime hediondo."
+    },
+    {
+     "letra": "C",
+     "texto": "Não é necessário que os presos provisórios fiquem separados dos condenados nos casos de regime semiaberto."
+    },
+    {
+     "letra": "D",
+     "texto": "Os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, no máximo, até 6 (seis) meses de idade."
+    },
+    {
+     "letra": "E",
+     "texto": "O mesmo conjunto arquitetônico não poderá abrigar estabelecimentos de destinação diversa mesmo que devidamente isolados."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Art. 84, § 1º.",
+    "**B)** [ERRADA] Primários e reincidentes por crimes violentos ficam **separados** entre si (art. 84, § 3º, II e III), e não ~~juntos na mesma galeria~~.",
+    "**C)** [ERRADA] A separação entre provisórios e condenados ~~não depende do regime~~.",
+    "**D)** [ERRADA] É **no mínimo** até 6 meses, e não ~~no máximo~~.",
+    "**E)** [ERRADA] Desde que devidamente isolados, ~~pode~~ (art. 82, § 2º)."
+   ],
+   "banca": "IBADE",
+   "cargo": "Ag Pen (SEJUDH MT)",
+   "orgao": "SEJUDH MT",
+   "ano": 2017,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-1d9b4bf51ac3",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 398,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    },
+    {
+     "lei": "lep",
+     "art": "82"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Considerando a Lei de Execução Penal, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A penitenciária destina-se aos condenados de alta periculosidade e aos que forem incluídos no regime disciplinar diferenciado (RDD)."
+    },
+    {
+     "letra": "B",
+     "texto": "A casa do albergado destina-se ao cumprimento de pena privativa de liberdade, em regime semiaberto e aberto, bem como da pena de limitação de fim de semana."
+    },
+    {
+     "letra": "C",
+     "texto": "A cadeia pública destina-se ao recolhimento de presos provisórios."
+    },
+    {
+     "letra": "D",
+     "texto": "A colônia agrícola, industrial ou similar destina-se ao cumprimento da pena em regime fechado."
+    },
+    {
+     "letra": "E",
+     "texto": "A penitenciária destina-se ao condenado à pena de reclusão, em regime fechado e semiaberto."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Art. 102.",
+    "**A)** [ERRADA] A penitenciária é para condenados à reclusão em regime **fechado** (art. 87), e não para ~~os de alta periculosidade~~. Existe penitenciária própria para o RDD, mas como possibilidade (art. 87, parágrafo único).",
+    "**B)** [ERRADA] A Casa do Albergado é para o **aberto**, e não para o ~~semiaberto~~.",
+    "**D)** [ERRADA] A colônia é para o **semiaberto**, e não para o ~~fechado~~.",
+    "**E)** [ERRADA] A penitenciária é só para o fechado, e não para o ~~semiaberto~~.",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "IBADE",
+   "cargo": "Ag Pen (SEJUDH MT)",
+   "orgao": "SEJUDH MT",
+   "ano": 2017,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-9e908ce68e3b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "102",
+    "ate": "102"
+   },
+   "ordem": 399,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Por ter praticado um roubo, Ariclenes é condenado ao cumprimento de pena de seis anos de reclusão, em regime semiaberto. Assim, é correto afirmar que o condenado deverá iniciar a execução de sua pena em:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "uma colônia agrícola, industrial ou similar, podendo o condenado ser alojado em dependências coletivas, com seleção adequada dos presos."
+    },
+    {
+     "letra": "B",
+     "texto": "uma penitência, em cela individual dotada de dormitório, aparelho sanitário e lavatório."
+    },
+    {
+     "letra": "C",
+     "texto": "regime disciplinar diferenciado, dada a gravidade em abstrato do delito, que pressupõe constrangimento à vítima."
+    },
+    {
+     "letra": "D",
+     "texto": "casa de albergado, caracterizada pela ausência de obstáculos físicos contra a fuga."
+    },
+    {
+     "letra": "E",
+     "texto": "prisão domiciliar, caso não existia casa de albergado na região, ou caso esta apresente lotação esgotada."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "Regime **semiaberto** → **Colônia agrícola, industrial ou similar** (art. 91), onde o preso pode ficar em **compartimento coletivo**, com seleção adequada (art. 92).",
+    "**A)** [CORRETA] Colônia, com dependências coletivas.",
+    "**B)** [ERRADA] ~~Penitenciária~~ é para o regime fechado.",
+    "**C)** [ERRADA] O RDD não decorre da ~~gravidade em abstrato~~ do crime (art. 52).",
+    "**D)** e **E)** [ERRADAS] ~~Casa do Albergado~~ e ~~prisão domiciliar~~ são do regime aberto."
+   ],
+   "banca": "INCAB (ex-FUNCAB)",
+   "cargo": "Pol Pen (SEAP MA)",
+   "orgao": "SEAP MA",
+   "ano": 2016,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-190e97418bf7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 400,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "92"
+    },
+    {
+     "lei": "lep",
+     "art": "52"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Após julgamento que transitou em julgado foram condenados 3(três) autores de um crime. Em razão de participação delituosa, ANTÔNIO foi condenado a 3 (três) anos de reclusão, BENTO foi condenado a 5 (cinco) anos de reclusão e CARLOS foi condenado a 9 (nove.) anos de reclusão, este, porém foi considerado semi-imputável. Marque a alternativa CORRETA."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A penitenciária destina-se ao condenado à pena de reclusão, em regime fechado."
+    },
+    {
+     "letra": "B",
+     "texto": "A penitenciária de homens deve ser construída em local próximo ao centro urbano."
+    },
+    {
+     "letra": "C",
+     "texto": "A colônia Agrícola, Industrial ou similar destina-se ao cumprimento da pena em regime aberto."
+    },
+    {
+     "letra": "D",
+     "texto": "O estabelecimento penal poderá ter lotação acima do compatível com a sua estrutura e finalidade desde que determinado pelo diretor do estabelecimento penal e que exista também a ordem judicial."
+    },
+    {
+     "letra": "E",
+     "texto": "O Hospital de Custódia e Tratamento Psiquiátrico destina-se aos inimputáveis e semi-imputáveis."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Art. 99. É o caso de Carlos, semi-imputável.",
+    "**A)** [ATENÇÃO] Também reproduz a lei (art. 87). A banca deu a E por ser a que se relaciona com o caso de Carlos.",
+    "**B)** [ERRADA] A penitenciária de homens fica em local **afastado** do centro urbano, e não ~~próximo~~ (art. 90).",
+    "**C)** [ERRADA] A colônia é para o **semiaberto**, e não para o ~~aberto~~.",
+    "**D)** [ERRADA] A lotação deve ser **compatível** com a estrutura, e quem fixa o limite máximo é o **CNPCP** (art. 85)."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2016,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-a6704308e30b",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "99",
+    "ate": "99"
+   },
+   "ordem": 401,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "99"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "90"
+    },
+    {
+     "lei": "lep",
+     "art": "85"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item subsequente, com relação às disposições da Lei de Execução Penal (LEP).",
+    "Conforme disposição expressa da LEP, o preso condenado a cumprir pena privativa de liberdade em regime semiaberto não poderá cumprir a reprimenda em casa de albergado."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. A LEP destina a Casa do Albergado ao regime **aberto** e à limitação de fim de semana (art. 93). O regime **semiaberto** é cumprido em **colônia agrícola, industrial ou similar** (art. 91)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/Área 1",
+   "ano": 2015,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-c6161521dbc9",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 402,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca das políticas de assistência à saúde de pessoas privadas de liberdade no Brasil, julgue o item a seguir.",
+    "Os hospitais de custódia e tratamento psiquiátrico, além de presos que necessitem eventualmente de tratamento clínico, abrigam internos que, por apresentarem graves transtornos mentais, são considerados inimputáveis."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. O HCTP é destinado aos **inimputáveis e semi-imputáveis** em medida de segurança (art. 99). Ele ~~não serve para presos que precisam eventualmente de tratamento clínico~~: esses são atendidos pela assistência à saúde do estabelecimento ou em outro local (art. 14)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/Área 5",
+   "ano": 2015,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-75844e1b9072",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "99",
+    "ate": "99"
+   },
+   "ordem": 403,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "99"
+    },
+    {
+     "lei": "lep",
+     "art": "14"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que se refere às políticas de educação nos estabelecimentos penais, julgue o item.",
+    "Entre outros dispositivos legais pertinentes, o direito da pessoa privada de liberdade à educação é assegurado pela LEP, que contém previsão específica para aulas do ensino profissionalizante e para a realização de estágios de nível superior."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. A LEP prevê **salas de aula** para cursos do ensino básico e profissionalizante (art. 83, § 4º) e **instalação para estágio** de estudantes universitários (art. 83, § 1º)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/Área 5",
+   "ano": 2015,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-f3e9fe2d8e86",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 404,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso. A penitenciária é um tipo de estabelecimento penal e destina-se ao condenado à pena de reclusão, em regime"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "aberto"
+    },
+    {
+     "letra": "B",
+     "texto": "fechado"
+    },
+    {
+     "letra": "C",
+     "texto": "provisório"
+    },
+    {
+     "letra": "D",
+     "texto": "semi-aberto"
+    },
+    {
+     "letra": "E",
+     "texto": "pensão alimentícia"
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Penitenciária = reclusão em regime **fechado** (art. 87)."
+   ],
+   "banca": "ESCOLA DE GOVERNO",
+   "cargo": "VPT (DGPP GO)",
+   "orgao": "DGPP GO",
+   "ano": 2015,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-6e45bfe7306d",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 405,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execução Penal, é CORRETO afirmar em relação aos estabelecimentos penais:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A mulher e o maior de sessenta anos, separadamente, serão recolhidos a estabelecimento próprio e adequados à sua condição pessoal"
+    },
+    {
+     "letra": "B",
+     "texto": "A Cadeia Pública será construída, em local afastado do centro urbano, à distância que não restrinja a visitação."
+    },
+    {
+     "letra": "C",
+     "texto": "As penas privativas de liberdade aplicadas pela Justiça de uma Unidade Federativa não podem ser executadas em outra unidade, em estabelecimento local ou da União."
+    },
+    {
+     "letra": "D",
+     "texto": "Caberá à autoridade administrativa definir o estabelecimento prisional adequado para abrigar o preso provisório ou condenado, em atenção ao regime e aos requisitos estabelecidos."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Art. 82, § 1º.",
+    "**B)** [ERRADA] Quem fica afastada do centro urbano é a ~~penitenciária de homens~~ (art. 90). A cadeia pública fica **próxima** de centro urbano (art. 104).",
+    "**C)** [ERRADA] \"~~não podem~~\": podem ser executadas em outra unidade (art. 86).",
+    "**D)** [ERRADA] Quem define o estabelecimento adequado é o **juiz**, em 24 horas, a requerimento da administração (art. 86, § 3º), e não a ~~autoridade administrativa~~."
+   ],
+   "banca": "IBFC",
+   "cargo": "Pol Pen (DEPEN MG)",
+   "orgao": "DEPEN MG",
+   "ano": 2014,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-017ca9829a7f",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 406,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "82"
+    },
+    {
+     "lei": "lep",
+     "art": "90"
+    },
+    {
+     "lei": "lep",
+     "art": "104"
+    },
+    {
+     "lei": "lep",
+     "art": "86"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A respeito de controle e responsabilização da administração, julgue o item seguinte.",
+    "Presos condenados e presos provisórios devem ser alojados em alas separadas e não podem manter contato."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. Art. 84: provisórios ficam separados dos condenados com sentença transitada em julgado."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2013,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2d5e8b7bb753",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "84",
+    "ate": "84"
+   },
+   "ordem": 407,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "84"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A Colônia Agrícola, Industrial ou Mista destina-se ao condenado ao cumprimento de pena"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "privativa de liberdade, em regime aberto."
+    },
+    {
+     "letra": "B",
+     "texto": "privativa de liberdade, em regime fechado."
+    },
+    {
+     "letra": "C",
+     "texto": "de reclusão, em regime semiaberto."
+    },
+    {
+     "letra": "D",
+     "texto": "de reclusão, em regime fechado."
+    },
+    {
+     "letra": "E",
+     "texto": "privativa de liberdade, em regime semiaberto."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Pena privativa de liberdade em regime **semiaberto** (art. 91).",
+    "**C)** [ERRADA] O semiaberto pode decorrer de **reclusão ou detenção**: não é só ~~de reclusão~~.",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "COPS UEL",
+   "cargo": "Pol Pen (DEPPEN PR)",
+   "orgao": "DEPPEN PR",
+   "ano": 2013,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-f06ace366f0e",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 408,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Conforme a Lei de Execução Penal, os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "egresso."
+    },
+    {
+     "letra": "B",
+     "texto": "doente mental."
+    },
+    {
+     "letra": "C",
+     "texto": "maior de setenta anos."
+    },
+    {
+     "letra": "D",
+     "texto": "preso primário."
+    },
+    {
+     "letra": "E",
+     "texto": "maior de sessenta anos."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Egresso (art. 82).",
+    "> LEP, art. 82. Os estabelecimentos penais destinam-se ao **condenado**, ao **submetido à medida de segurança**, ao **preso provisório** e ao **egresso**. § 1º A mulher e o maior de **sessenta anos**, separadamente, serão recolhidos a estabelecimento próprio e adequado à sua condição pessoal. § 2º O mesmo conjunto arquitetônico **poderá** abrigar estabelecimentos de destinação diversa **desde que devidamente isolados**."
+   ],
+   "banca": "VUNESP",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-d45919bee553",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 409,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "82"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No Centro de Observação realizar-se-ão os exames gerais e o criminológico, cujos resultados serão encaminhados"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "ao defensor público do preso primário."
+    },
+    {
+     "letra": "B",
+     "texto": "ao defensor particular do preso provisório."
+    },
+    {
+     "letra": "C",
+     "texto": "ao Juiz da condenação."
+    },
+    {
+     "letra": "D",
+     "texto": "à Comissão Técnica de Classificação."
+    },
+    {
+     "letra": "E",
+     "texto": "ao Diretor do Hospital de Custódia e Tratamento Psiquiátrico."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "**D)** [CORRETA] Os resultados vão para a **Comissão Técnica de Classificação** (art. 96)."
+   ],
+   "banca": "VUNESP",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-366d0f0c5cc8",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "96",
+    "ate": "96"
+   },
+   "ordem": 410,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "96"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A penitenciária destina-se ao condenado à pena de reclusão em"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "regime fechado."
+    },
+    {
+     "letra": "B",
+     "texto": "medida de segurança."
+    },
+    {
+     "letra": "C",
+     "texto": "penas alternativas."
+    },
+    {
+     "letra": "D",
+     "texto": "detenção forçada."
+    },
+    {
+     "letra": "E",
+     "texto": "regime semiaberto."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Regime fechado (art. 87)."
+   ],
+   "banca": "VUNESP",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-fad06827c4d4",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 411,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A Casa do Albergado destina-se ao cumprimento de pena privativa de liberdade em regime aberto, e da pena de"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "detenção."
+    },
+    {
+     "letra": "B",
+     "texto": "reclusão."
+    },
+    {
+     "letra": "C",
+     "texto": "limitação de fim de semana."
+    },
+    {
+     "letra": "D",
+     "texto": "interdição temporária de direitos."
+    },
+    {
+     "letra": "E",
+     "texto": "multa."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Limitação de fim de semana (art. 93)."
+   ],
+   "banca": "VUNESP",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-afd7d49ae1de",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 412,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O Hospital de Custódia e Tratamento Psiquiátrico destina-se aos inimputáveis e"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "semi-imputáveis."
+    },
+    {
+     "letra": "B",
+     "texto": "gestantes e parturientes."
+    },
+    {
+     "letra": "C",
+     "texto": "condenados acometidos de doença grave."
+    },
+    {
+     "letra": "D",
+     "texto": "imputáveis."
+    },
+    {
+     "letra": "E",
+     "texto": "presos provisórios doentes."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] Semi-imputáveis (art. 99)."
+   ],
+   "banca": "VUNESP",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-3ac58fbd05e7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "99",
+    "ate": "99"
+   },
+   "ordem": 413,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "\"A destina-se ao cumprimento de pena privativa de liberdade, em regime aberto, e da pena de limitação de fim de semana.\" NOS TERMOS DA LEI FEDERAL Nº 7.210/84_(LEI DE EXECUÇÃO PENAL), PARA QUE ESTA AFIRMAÇÃO SEJA CORRETA, A LACUNA DEVE SER PREENCHIDA PELA SEGUINTE EXPRESSÃO:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Penitenciária."
+    },
+    {
+     "letra": "B",
+     "texto": "Cadeia Pública."
+    },
+    {
+     "letra": "C",
+     "texto": "Casa do Albergado."
+    },
+    {
+     "letra": "D",
+     "texto": "Colônia Agrícola ou Industrial."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Casa do Albergado (art. 93).",
+    "💡 Onde cada um cumpre: **Penitenciária** = reclusão, regime **fechado** (art. 87) · **Colônia agrícola, industrial ou similar** = **semiaberto** (art. 91) · **Casa do Albergado** = **aberto** + **limitação de fim de semana** (art. 93) · **Cadeia pública** = **presos provisórios** (art. 102) · **Centro de Observação** = exames gerais e criminológico (art. 96) · **HCTP** = inimputáveis e semi-imputáveis (art. 99)."
+   ],
+   "banca": "IBFC",
+   "cargo": "Pol Pen (DEPEN MG)",
+   "orgao": "DEPEN MG",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-2a5fafad022c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 414,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    },
+    {
+     "lei": "lep",
+     "art": "87"
+    },
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "96"
+    },
+    {
+     "lei": "lep",
+     "art": "99"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Nos termos da Lei de Execução Penal, os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus fi lhos, inclusive amamentá-los, até, no mínimo, a seguinte idade:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "doze meses"
+    },
+    {
+     "letra": "B",
+     "texto": "dez meses"
+    },
+    {
+     "letra": "C",
+     "texto": "três meses"
+    },
+    {
+     "letra": "D",
+     "texto": "seis meses"
+    },
+    {
+     "letra": "E",
+     "texto": "nove meses"
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "**D)** [CORRETA] Seis meses (art. 83, § 2º)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-e6a1ffddff21",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 415,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Nos termos da Lei de Execução Penal, a penitenciária destinase ao condenado à pena de:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "detenção, em regime fechado"
+    },
+    {
+     "letra": "B",
+     "texto": "reclusão, em regime fechado"
+    },
+    {
+     "letra": "C",
+     "texto": "detenção, em regime aberto"
+    },
+    {
+     "letra": "D",
+     "texto": "reclusão, em regime aberto"
+    },
+    {
+     "letra": "E",
+     "texto": "restritiva de direitos, em regime fechado"
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Reclusão, em regime fechado (art. 87)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-e3f5ab74d503",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 416,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Nos termos da Lei de Execução Penal, a Colônia Agrícola, Industrial ou similar destina-se ao cumprimento da pena em regime:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "fechado"
+    },
+    {
+     "letra": "B",
+     "texto": "aberto"
+    },
+    {
+     "letra": "C",
+     "texto": "semiaberto"
+    },
+    {
+     "letra": "D",
+     "texto": "restritivo"
+    },
+    {
+     "letra": "E",
+     "texto": "condicional"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Semiaberto (art. 91)."
+   ],
+   "banca": "CEPERJ",
+   "cargo": "Insp PP (SEAP RJ)",
+   "orgao": "SEAP RJ",
+   "ano": 2012,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-8313f49e29ca",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 417,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Conforme determina o art. 83, § 2º da Lei 7.210/84 (LEP), os estabelecimentos penais destinados a mulheres serão dotados de berçário, onde as condenadas possam cuidar de seus filhos, inclusive amamentá-los, no mínimo, até atingirem a idade de"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "quatro meses."
+    },
+    {
+     "letra": "B",
+     "texto": "seis meses."
+    },
+    {
+     "letra": "C",
+     "texto": "oito meses."
+    },
+    {
+     "letra": "D",
+     "texto": "um ano."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Seis meses (art. 83, § 2º)."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2011,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-77fb67c63ac4",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "83",
+    "ate": "83"
+   },
+   "ordem": 418,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "83"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Colônias Agrícolas, Industriais ou similares destinam-se ao cumprimento da pena em regime"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "aberto e em regime semiaberto."
+    },
+    {
+     "letra": "B",
+     "texto": "semiaberto."
+    },
+    {
+     "letra": "C",
+     "texto": "fechado e em regime semiaberto."
+    },
+    {
+     "letra": "D",
+     "texto": "fechado."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Só o **semiaberto** (art. 91)."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2011,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-31a3f5e5611a",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 419,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com base na LEP, julgue o item que se segue.",
+    "A penitenciária destina-se ao condenado a pena de reclusão, em regime fechado ou semi-aberto."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A penitenciária é para o regime **fechado**. O ~~semiaberto~~ é cumprido em colônia (art. 91)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-908e6cc27a2a",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 420,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Com base na LEP, julgue o item que se segue.",
+    "A colônia agrícola, industrial ou similar destina-se ao cumprimento da pena em regime aberto."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A colônia é para o **semiaberto**. O ~~aberto~~ é cumprido na Casa do Albergado (art. 93)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "AgPP (IAPEN AC)",
+   "orgao": "IAPEN AC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-a43c9ebcc2e8",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "93",
+    "ate": "93"
+   },
+   "ordem": 421,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "93"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Denomina-se colônia penal agrícola, industrial ou similar, o estabelecimento destinado ao cumprimento, pelos presos, de pena em regime fechado, devendo a lotação do presídio ser compatível com a sua estrutura e finalidade."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A colônia é para o **semiaberto**, e não para o ~~fechado~~ (art. 91). A parte final (lotação compatível) está certa (art. 85)."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-9f5ea90460b2",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "91",
+    "ate": "91"
+   },
+   "ordem": 422,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "91"
+    },
+    {
+     "lei": "lep",
+     "art": "85"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Referente à Cadeia Pública, é correto afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Será instalada longe de centro urbano, observando-se na construção as exigências mínimas referidas no art. 88 e seu parágrafo único da Lei de Execuções Penais."
+    },
+    {
+     "letra": "B",
+     "texto": "Cada comarca terá, no máximo, uma Cadeia Pública a fim de resguardar o interesse da administração da justiça criminal e a permanência do preso em local próximo ao se meio social e familiar."
+    },
+    {
+     "letra": "C",
+     "texto": "Destina-se ao recolhimento de presos provisórios."
+    },
+    {
+     "letra": "D",
+     "texto": "Só os membros do Ministério Público podem administrar uma Cadeia Pública."
+    },
+    {
+     "letra": "E",
+     "texto": "O Delegado de Polícia jamais participa da administração de uma Cadeia Pública."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Art. 102.",
+    "**A)** [ERRADA] A cadeia pública fica **próxima** de centro urbano, e não ~~longe~~ (art. 104).",
+    "**B)** [ERRADA] É **pelo menos** uma por comarca, e não ~~no máximo~~ (art. 103).",
+    "**D)** e **E)** [ERRADAS] A LEP ~~não traz essas regras~~ sobre quem administra a cadeia."
+   ],
+   "banca": "FAPEC",
+   "cargo": "Del Pol (PC MS)",
+   "orgao": "PC MS",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-fb3b37de2b68",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "102",
+    "ate": "102"
+   },
+   "ordem": 423,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "102"
+    },
+    {
+     "lei": "lep",
+     "art": "104"
+    },
+    {
+     "lei": "lep",
+     "art": "103"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Julgue o item a seguir, acerca dos direitos penal e processual penal, bem como da execução penal.",
+    "As penitenciárias destinam-se a condenados a penas de reclusão ou de detenção, em regime fechado ou semi-aberto."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A penitenciária é para a **reclusão** em regime **fechado** (art. 87). Não inclui ~~detenção~~ nem ~~semiaberto~~."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "EPF",
+   "orgao": "PF",
+   "ano": 2004,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-b6bc2a8425ea",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "87",
+    "ate": "87"
+   },
+   "ordem": 424,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "87"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto aos estabelecimentos penais, examine as seguintes afirmações:",
+    "I - Os estabelecimentos penais destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso. II - A mulher e o maior de setenta e cinco anos, separadamente, serão recolhidos a estabelecimento próprio e adequado à sua condição pessoal. III - O mesmo conjunto arquitetônico poderá abrigar estabelecimentos de destinação diversa desde que devidamente isolados.",
+    "Assinale a alternativa inteiramente correta:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e II estão corretas"
+    },
+    {
+     "letra": "B",
+     "texto": "I e III estão corretas"
+    },
+    {
+     "letra": "C",
+     "texto": "II e III estão corretas"
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III estão corretas"
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**I** [CORRETA] Art. 82.",
+    "**II** [ERRADA] É maior de **sessenta**, e não de ~~setenta e cinco~~ anos (art. 82, § 1º).",
+    "**III** [CORRETA] Art. 82, § 2º.",
+    "Resposta: **B)** I e III."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2003,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Estabelecimentos Penais (art. 82 a 104 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-1ef338ad2eca",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "82",
+    "ate": "82"
+   },
+   "ordem": 425,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "82"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Reconhecida a inimputabilidade em razão de dependência de substância psicotrópica, será o réu:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "absolvido e submetido a tratamento médico adequado (internação hospitalar ou ambulatorial);"
+    },
+    {
+     "letra": "B",
+     "texto": "submetido a medida de segurança detentiva;"
+    },
+    {
+     "letra": "C",
+     "texto": "condenado a pena privativa de liberdade, que será substituída por pena restritiva de direito, a critério do juiz;"
+    },
+    {
+     "letra": "D",
+     "texto": "condenado a pena privativa de liberdade, com redução de um sexto a um terço, a critério do juiz."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "Quem é **inimputável** por dependência de drogas é **isento de pena** e deve receber **tratamento médico adequado**:",
+    "> Lei 11.343/2006, art. 45. É isento de pena o agente que, em razão da dependência (...), era, ao tempo da ação ou da omissão, qualquer que tenha sido a infração penal praticada, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. Parágrafo único. Quando absolver o agente, reconhecendo, por força pericial, que este apresentava, à época do fato previsto neste artigo, as condições referidas no caput deste artigo, poderá determinar o juiz, na sentença, o seu **encaminhamento para tratamento médico adequado**.",
+    "**A)** [CORRETA] Absolvido e encaminhado a tratamento médico adequado.",
+    "**B)**, **C)** e **D)** [ERRADAS] Inimputável não é ~~condenado~~, e a lei não fala em ~~medida de segurança detentiva~~ obrigatória."
+   ],
+   "banca": "CEV UECE",
+   "cargo": "PP (SAP CE)",
+   "orgao": "SAP CE",
+   "ano": 2003,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Da Execução das Medidas de Segurança (arts. 171 a 179 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-f3415b9e9150",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "171",
+    "ate": "179"
+   },
+   "ordem": 554,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Na execução penal, o ato praticado além dos limites fixados na sentença, em normas legais ou regulamentares, caracteriza"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "exacerbação do ius puniendi em confronto com o princípio da proporcionalidade."
+    },
+    {
+     "letra": "B",
+     "texto": "aplicação da imputação objetiva."
+    },
+    {
+     "letra": "C",
+     "texto": "cerceamento de defesa."
+    },
+    {
+     "letra": "D",
+     "texto": "violação do contraditório."
+    },
+    {
+     "letra": "E",
+     "texto": "excesso ou desvio de execução."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Excesso ou desvio de execução.",
+    "> LEP, art. 185. Haverá excesso ou desvio de execução sempre que algum ato for praticado **além dos limites fixados na sentença, em normas legais ou regulamentares**."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2024,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-823dc87c0bf6",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "185",
+    "ate": "185"
+   },
+   "ordem": 555,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "185"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que se relaciona ao indulto individual, julgue os itens a seguir.",
+    "I O indulto individual poderá ser provocado por petição do condenado, por iniciativa do Ministério Público, do Conselho Penitenciário, ou da autoridade administrativa.",
+    "II A petição do indulto, acompanhada dos documentos que a instruírem, será entregue ao Conselho Penitenciário, para a elaboração de parecer e posterior encaminhamento ao Ministério da Justiça.",
+    "III O indulto individual não poderá ser concedido pelo Conselho Penitenciário sem iniciativa prévia do Ministério Público e da autoridade administrativa. IV Se o sentenciado for beneficiado por indulto coletivo, o juiz, de ofício, a requerimento do interessado, do Ministério Público, ou por iniciativa do Conselho Penitenciário ou da autoridade administrativa, providenciará escolta policial para a condução do apenado ao instituto de criminalística. Estão certos apenas os itens"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e II."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III."
+    },
+    {
+     "letra": "C",
+     "texto": "II e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "I, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "II, III e IV."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**I** [CORRETA] Art. 188.",
+    "**II** [CORRETA] Art. 189.",
+    "**III** [ERRADA] Quem concede o indulto é o **Presidente da República** (art. 191; CF, art. 84, XII), e não o ~~Conselho Penitenciário~~, que só dá parecer.",
+    "**IV** [ERRADA] No indulto coletivo, o juiz declara extinta a pena ou ajusta a execução (arts. 192 e 193). Não há ~~escolta ao instituto de criminalística~~.",
+    "Resposta: **A)** I e II."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Del Pol (PC PE)",
+   "orgao": "PC PE",
+   "ano": 2024,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-334736ef4234",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "188",
+    "ate": "188"
+   },
+   "ordem": 556,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "188"
+    },
+    {
+     "lei": "lep",
+     "art": "189"
+    },
+    {
+     "lei": "lep",
+     "art": "191"
+    },
+    {
+     "lei": "lep",
+     "art": "192"
+    },
+    {
+     "lei": "lep",
+     "art": "193"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser convertida em restritiva de direitos, desde que:",
+    "I - o condenado a esteja cumprindo em regime aberto, em razão de reincidência.",
+    "II - tenha sido cumprido pelo menos 1/2 (metade) da pena.",
+    "III -os antecedentes e a personalidade do condenado indiquem ser a conversão recomendável.",
+    "IV - não seja cabível o livramento condicional.",
+    "Das afirmações acima, qual(is) está(ão) correta(s)?"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e II."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a III."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas a IV."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "> LEP, art. 180. A pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser convertida em restritiva de direitos, desde que: I – o condenado a esteja cumprindo em **regime aberto**; II – tenha sido cumprido **pelo menos 1/4** da pena; III – os antecedentes e a personalidade do condenado indiquem ser a conversão recomendável.",
+    "**I** [ERRADA] O regime aberto é exigido, mas \"~~em razão de reincidência~~\" não está na lei.",
+    "**II** [ERRADA] É **1/4**, e não ~~1/2~~.",
+    "**III** [CORRETA] Art. 180, III.",
+    "**IV** [ERRADA] A lei ~~não exige~~ que o livramento condicional seja incabível.",
+    "Resposta: **C)** apenas a III."
+   ],
+   "banca": "Fundação La Salle",
+   "cargo": "Pol Pen (PP RS)",
+   "orgao": "PP RS",
+   "ano": 2017,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-da958595cc15",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "180",
+    "ate": "180"
+   },
+   "ordem": 557,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "180"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "NÃO pode suscitar o incidente de excesso ou desvio de execução o:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sentenciado."
+    },
+    {
+     "letra": "B",
+     "texto": "Escrivão do Juízo."
+    },
+    {
+     "letra": "C",
+     "texto": "Ministério Público."
+    },
+    {
+     "letra": "D",
+     "texto": "Conselho Penitenciário."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "> LEP, art. 186. Podem suscitar o incidente de excesso ou desvio de execução: I – o Ministério Público; II – o Conselho Penitenciário; III – o sentenciado; IV – qualquer dos demais órgãos da execução penal.",
+    "**B)** [É a resposta] O ~~escrivão do juízo~~ não está no art. 186.",
+    "**A)**, **C)** e **D)** Podem suscitar o incidente."
+   ],
+   "banca": "IDECAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2017,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-b864c334ec1c",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "186",
+    "ate": "186"
+   },
+   "ordem": 558,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "186"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A lei de execução penal prevê que haverá excesso ou desvio de execução sempre que algum ato for praticado além dos limites fixados na sentença, em normas legais ou regulamentares. Segundo essa lei, não pode suscitar o incidente de excesso ou desvio de execução o(a)"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ministério Público."
+    },
+    {
+     "letra": "B",
+     "texto": "Superintendência de Organização Penitenciária."
+    },
+    {
+     "letra": "C",
+     "texto": "Conselho Penitenciário."
+    },
+    {
+     "letra": "D",
+     "texto": "sentenciado."
+    },
+    {
+     "letra": "E",
+     "texto": "Patronato."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "> LEP, art. 186. Podem suscitar o incidente de excesso ou desvio de execução: I – o Ministério Público; II – o Conselho Penitenciário; III – o sentenciado; IV – qualquer dos demais órgãos da execução penal.",
+    "**B)** [É a resposta] A ~~Superintendência de Organização Penitenciária~~ não é órgão da execução penal.",
+    "**E)** O **Patronato** é órgão da execução (art. 61, VI), então pode suscitar (art. 186, IV)."
+   ],
+   "banca": "FUNIVERSA",
+   "cargo": "Del Pol (PC DF)",
+   "orgao": "PC DF",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-902d5c1902f0",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "186",
+    "ate": "186"
+   },
+   "ordem": 559,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "186"
+    },
+    {
+     "lei": "lep",
+     "art": "61"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Podem suscitar o incidente de excesso ou desvio de execução, EXCETO:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O Ministério Público."
+    },
+    {
+     "letra": "B",
+     "texto": "O Conselho Penitenciário."
+    },
+    {
+     "letra": "C",
+     "texto": "O sentenciado."
+    },
+    {
+     "letra": "D",
+     "texto": "Quaisquer dos órgãos da execução penal."
+    },
+    {
+     "letra": "E",
+     "texto": "O Agente responsável pela guarda dos presos."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "> LEP, art. 186. Podem suscitar o incidente de excesso ou desvio de execução: I – o Ministério Público; II – o Conselho Penitenciário; III – o sentenciado; IV – qualquer dos demais órgãos da execução penal.",
+    "**E)** [É a resposta] O ~~agente responsável pela guarda~~ não está na lista."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-224a124d60c0",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "186",
+    "ate": "186"
+   },
+   "ordem": 560,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "186"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei de Execuções Penais (Lei n.º 7.210/84), marque a alternativa INCORRETA:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quando, no curso da execução da pena privativa de liberdade, sobrevier doença mental ou perturbação da saúde mental, o juiz de ofício, a requerimento do Ministério Público ou da autoridade administrativa, poderá determinar a substituição da pena por medida de segurança."
+    },
+    {
+     "letra": "B",
+     "texto": "Em qualquer tempo, ainda no decorrer do prazo mínimo de duração da medida de segurança, poderá o juiz da execução, diante de requerimento fundamentado do Ministério Público ou do interessado, seu procurador ou defensor, ordenar o exame para que se verifique a cessação da periculosidade."
+    },
+    {
+     "letra": "C",
+     "texto": "O tratamento ambulatorial não poderá ser convertido em internação se o Agente revelar incompatibilidade com a medida."
+    },
+    {
+     "letra": "D",
+     "texto": "Ninguém será internado em Hospital de Custódia e Tratamento Psiquiátrico ou submetido a tratamento ambulatorial, para cumprimento de medida de segurança, sem a guia expedida pela autoridade judiciária."
+    },
+    {
+     "letra": "E",
+     "texto": "Haverá excesso ou desvio de execução sempre que algum ato for praticado além dos limites fixados na sentença, em normas legais ou regulamentares."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede a **INCORRETA**.",
+    "**C)** [INCORRETA, é a resposta] \"~~não poderá ser convertido~~\": o tratamento ambulatorial **poderá** ser convertido em internação se o agente revelar incompatibilidade com a medida.",
+    "> LEP, art. 184. O tratamento ambulatorial **poderá** ser convertido em internação se o agente revelar incompatibilidade com a medida. Parágrafo único. Nesta hipótese, o prazo mínimo de internação será de 1 (um) ano.",
+    "**A)**, **B)**, **D)** e **E)** [CORRETAS] Arts. 183, 176, 172 e 185. (Hoje, o art. 183 inclui também a Defensoria Pública entre quem pode requerer.)"
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-a200fee04c13",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "184",
+    "ate": "184"
+   },
+   "ordem": 561,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "184"
+    },
+    {
+     "lei": "lep",
+     "art": "183"
+    },
+    {
+     "lei": "lep",
+     "art": "176"
+    },
+    {
+     "lei": "lep",
+     "art": "172"
+    },
+    {
+     "lei": "lep",
+     "art": "185"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "A pena de prestação de serviços à comunidade NÃO será convertida em privativa de liberdade, quando o condenado:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não for encontrado por estar em lugar incerto e não sabido ou desatender a intimação por edital."
+    },
+    {
+     "letra": "B",
+     "texto": "Não comparecer, injustificadamente, à entidade ou programa em que deva prestar serviço."
+    },
+    {
+     "letra": "C",
+     "texto": "Sofrer condenação por outro crime à pena privativa de liberdade, cuja execução não tenha sido suspensa."
+    },
+    {
+     "letra": "D",
+     "texto": "Praticar qualquer falta."
+    },
+    {
+     "letra": "E",
+     "texto": "Recusar-se, injustificadamente, a prestar o serviço que lhe foi imposto."
+    }
+   ],
+   "gabarito": "D",
+   "resolucao": [
+    "Gabarito: **Letra D**",
+    "A questão pede o que **não** gera a conversão.",
+    "**D)** [É a resposta] Só a falta **grave** gera a conversão, e não \"~~qualquer falta~~\" (art. 181, § 1º, \"d\").",
+    "**A)**, **B)**, **C)** e **E)** Estão no art. 181, § 1º."
+   ],
+   "banca": "CONSULPLAN",
+   "cargo": "Pol Pen (SEAP RN)",
+   "orgao": "SEAP RN",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-3b8e95b60aab",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "181",
+    "ate": "181"
+   },
+   "ordem": 562,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "181"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Acerca das execuções penais, assinale a alternativa correta."
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Excesso ou desvio de execução ocorre quando, durante a execução da pena, algum ato for praticado além dos limites fixados na sentença, em normas legais ou regulamentes."
+    },
+    {
+     "letra": "B",
+     "texto": "Compete à Justiça Federal a execução das penas impostas a sentenciados pela própria Justiça Federal, quando recolhidos a estabelecimentos sujeitos à administração estadual."
+    },
+    {
+     "letra": "C",
+     "texto": "A pena unificada para atender ao limite de trinta anos de cumprimento, determinado pelo art. 75 do Código Penal, é considerada para a concessão de outros benefícios ao preso, como livramento condicional ou regime mais favorável de execução."
+    },
+    {
+     "letra": "D",
+     "texto": "Não se admite a progressão de regime de cumprimento de pena ou a aplicação imediata de regime menos severo nela determinada antes do trânsito em julgado da sentença condenatória."
+    }
+   ],
+   "gabarito": "A",
+   "resolucao": [
+    "Gabarito: **Letra A**",
+    "**A)** [CORRETA] É o art. 185.",
+    "**B)** [ERRADA] Preso condenado pela Justiça Federal e recolhido em estabelecimento estadual tem a pena executada pelo **juízo estadual** (Súmula 192 do STJ).",
+    "**C)** [ERRADA] A pena unificada no limite máximo **não é** considerada para os benefícios, que são calculados sobre a pena total aplicada (Súmula 715 do STF).",
+    "**D)** [ERRADA] É admitida a progressão **antes do trânsito em julgado** (Súmula 716 do STF)."
+   ],
+   "banca": "ACAFE",
+   "cargo": "Del Pol (PC SC)",
+   "orgao": "PC SC",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-bd750a7b9167",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "185",
+    "ate": "185"
+   },
+   "ordem": 563,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "185"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Para ter direito à conversão da pena privativa de liberdade não superior a dois anos em pena restritiva de direitos, o preso, dentre outros requisitos, precisa ter cumprido, pelo menos"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "dois quintos da pena."
+    },
+    {
+     "letra": "B",
+     "texto": "dois terços da pena."
+    },
+    {
+     "letra": "C",
+     "texto": "metade da pena."
+    },
+    {
+     "letra": "D",
+     "texto": "um sexto da pena."
+    },
+    {
+     "letra": "E",
+     "texto": "um quarto da pena."
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Letra E**",
+    "**E)** [CORRETA] Pelo menos **1/4** da pena (art. 180, II)."
+   ],
+   "banca": "FCC",
+   "cargo": "Pol Pen (SEAP PB)",
+   "orgao": "SEAP PB",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-6bd229dac217",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "180",
+    "ate": "180"
+   },
+   "ordem": 564,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "180"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com a Lei 7.210/84 é INCORRETO afirmar que:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "o Juiz poderá suspender, pelo período de 2 a 4 anos, a execução da pena privativa de liberdade não superior a 2 anos;"
+    },
+    {
+     "letra": "B",
+     "texto": "o condenado por crime político não está obrigado ao trabalho;"
+    },
+    {
+     "letra": "C",
+     "texto": "a pena restritiva de direito não poderá ser convertida em pena privativa de liberdade;"
+    },
+    {
+     "letra": "D",
+     "texto": "concedida a Anistia, o Juiz, de ofício, a requerimento do interessado ou do Ministério Público, por proposta da autoridade administrativa ou do Conselho Penitenciário, declarará extinta a punibilidade;"
+    },
+    {
+     "letra": "E",
+     "texto": "haverá excesso ou desvio de execução sempre que algum ato for praticado além dos limites fixados na sentença, em normas legais ou regulamentares."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "A questão pede a **INCORRETA**.",
+    "**C)** [INCORRETA, é a resposta] \"~~não poderá ser convertida~~\": a pena restritiva de direitos **pode** ser convertida em privativa de liberdade (art. 181).",
+    "**A)** [CORRETA] Art. 156 (sursis de 2 a 4 anos para pena não superior a 2 anos).",
+    "**B)**, **D)** e **E)** [CORRETAS] Arts. 200, 187 e 185."
+   ],
+   "banca": "NUCEPE UESPI",
+   "cargo": "Pol Pen (SEJUS PI)",
+   "orgao": "SEJUS PI",
+   "ano": 2006,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-45ebf07d3440",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "181",
+    "ate": "181"
+   },
+   "ordem": 565,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "181"
+    },
+    {
+     "lei": "lep",
+     "art": "156"
+    },
+    {
+     "lei": "lep",
+     "art": "200"
+    },
+    {
+     "lei": "lep",
+     "art": "187"
+    },
+    {
+     "lei": "lep",
+     "art": "185"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Assinale a alternativa em que aparece instituto que NÃO constitui incidente da execução:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "conversão, excesso e anistia;"
+    },
+    {
+     "letra": "B",
+     "texto": "conversão, desvio e indulto;"
+    },
+    {
+     "letra": "C",
+     "texto": "anistia, livramento condicional e conversão;"
+    },
+    {
+     "letra": "D",
+     "texto": "anistia,excesso e indulto;"
+    },
+    {
+     "letra": "E",
+     "texto": "anistia, desvio e indulto."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "Os **incidentes de execução** (Título VII da LEP) são: **conversões**, **excesso ou desvio** e **anistia e indulto**.",
+    "**C)** [É a resposta] O ~~livramento condicional~~ não é incidente: está no Título V (execução das penas em espécie)."
+   ],
+   "banca": "NCE e FUJB (UFRJ)",
+   "cargo": "Ag Pol (PC DF)",
+   "orgao": "PC DF",
+   "ano": 2005,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Dos Incidentes de Execução (arts. 180 a 193 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-5689f8585b54",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "180",
+    "ate": "193"
+   },
+   "ordem": 566,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "João foi condenado, definitivamente, pela prática de um determinado crime patrimonial. No curso da execução da pena, o seu advogado requereu, ao juízo responsável pela execução penal, a saída temporária de João para frequentar curso supletivo profissionalizante, sendo certo que o pedido foi indeferido. Irresignada, a defesa do apenado pretende recorrer da decisão prolatada.",
+    "Nesse cenário, considerando as disposições do Código de Processo Penal e da Lei no 7.210/1984, é cabível a interposição"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "do recurso em sentido estrito."
+    },
+    {
+     "letra": "B",
+     "texto": "da carta testemunhável."
+    },
+    {
+     "letra": "C",
+     "texto": "do agravo em execução."
+    },
+    {
+     "letra": "D",
+     "texto": "do recurso inominado."
+    },
+    {
+     "letra": "E",
+     "texto": "da apelação."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] Das decisões do juiz da execução cabe **agravo em execução**.",
+    "> LEP, art. 197. Das decisões proferidas pelo Juiz caberá recurso de **agravo**, sem efeito suspensivo.",
+    "**A)** e **E)** [ERRADAS] ~~Recurso em sentido estrito~~ e ~~apelação~~ não são os recursos da execução."
+   ],
+   "banca": "FGV",
+   "cargo": "Ag Pen (SEAP BA)",
+   "orgao": "SEAP BA",
+   "ano": 2024,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-fb224b61a3c7",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "197",
+    "ate": "197"
+   },
+   "ordem": 567,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "197"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto à jurisdicionalização da execução penal, julgue o item a seguir.",
+    "Em seu aspecto jurisdicional, a intervenção do juiz da execução se esgota com o trânsito em julgado da sentença proferida no processo de conhecimento, sendo os demais atos meramente administrativos."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A execução penal é **jurisdicional**: o juiz da execução decide progressão, livramento, remição, incidentes etc. (arts. 66 e 194). A atuação judicial ~~não se esgota com o trânsito em julgado~~ e os atos não são ~~meramente administrativos~~."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-1eee3adc94bb",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "66",
+    "ate": "66"
+   },
+   "ordem": 568,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "66"
+    },
+    {
+     "lei": "lep",
+     "art": "194"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Quanto à jurisdicionalização da execução penal, julgue o item a seguir.",
+    "A execução penal tem caráter de processo judicial contraditório."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO]. O procedimento é **judicial** (art. 194), com manifestação do MP e da defesa e possibilidade de prova e recurso (arts. 196 e 197): é um processo **contraditório**."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-4b26cfed81eb",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "194",
+    "ate": "194"
+   },
+   "ordem": 569,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "194"
+    },
+    {
+     "lei": "lep",
+     "art": "196"
+    },
+    {
+     "lei": "lep",
+     "art": "197"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Em relação à execução provisória da pena, julgue o item que se segue.",
+    "É possível a execução provisória por encarceramento resultante de prisão temporária."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. A **prisão temporária** é medida cautelar da fase de investigação: não há sentença condenatória, então ~~não existe execução provisória~~ a partir dela."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-72b54b267ca4",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "194",
+    "ate": "197"
+   },
+   "ordem": 570,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Em relação à execução provisória da pena, julgue o item que se segue.",
+    "Admite-se a progressão de regime prisional de preso provisório antes do trânsito em julgado da sentença penal condenatória."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO].",
+    "> Súmula 716 do STF: Admite-se a progressão de regime de cumprimento da pena ou a aplicação imediata de regime menos severo nela determinada, **antes do trânsito em julgado** da sentença condenatória."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "PPF (SENAPPEN)",
+   "orgao": "SENAPPEN/\"Sem Área\"",
+   "ano": 2021,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-2d45b57ec312",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "194",
+    "ate": "197"
+   },
+   "ordem": 571,
+   "resolucaoFormato": "rica"
+  },
+  {
+   "enunciado": [
+    "Acerca de execução penal, de crimes de abuso de autoridade, de crimes contra a criança e o adolescente e de crimes contra o Sistema Financeiro Nacional, julgue o item que se segue.",
+    "Caberá recurso de apelação contra decisão do juízo da execução penal que indeferir pedido de livramento condicional ao apenado."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO]. Contra a decisão do juiz da execução, inclusive a que indefere o livramento condicional, cabe **agravo em execução** (art. 197), e não ~~apelação~~."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "DPF",
+   "orgao": "PF",
+   "ano": 2018,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-43a521c0aacc",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "197",
+    "ate": "197"
+   },
+   "ordem": 572,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "197"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "O procedimento correspondente às situações previstas na Lei de Execução Penal será judicial, desenvolvendo-se perante o Juízo da Execução. Das decisões proferidas pelo Juiz"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "não caberá recurso."
+    },
+    {
+     "letra": "B",
+     "texto": "caberá recurso de agravo, sem efeito suspensivo."
+    },
+    {
+     "letra": "C",
+     "texto": "caberá recurso de agravo, com efeito suspensivo."
+    },
+    {
+     "letra": "D",
+     "texto": "caberá recurso de apelação, sem efeito suspensivo."
+    },
+    {
+     "letra": "E",
+     "texto": "caberá recurso de apelação, com efeito suspensivo."
+    }
+   ],
+   "gabarito": "B",
+   "resolucao": [
+    "Gabarito: **Letra B**",
+    "**B)** [CORRETA] Agravo, **sem** efeito suspensivo (art. 197)."
+   ],
+   "banca": "FCC",
+   "cargo": "Pol Pen (SEAP PB)",
+   "orgao": "SEAP PB",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-6d4d523d45e1",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "197",
+    "ate": "197"
+   },
+   "ordem": 573,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "197"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "No que concerne à jurisdição da Justiça Ordinária em matéria de execução penal, é correto afirmar:"
+   ],
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É aplicável em relação a todas as instâncias, com exceção da Justiça Federal."
+    },
+    {
+     "letra": "B",
+     "texto": "É aplicável em relação a todas as instâncias, com exceção da Justiça Eleitoral"
+    },
+    {
+     "letra": "C",
+     "texto": "É aplicável em relação à condenação proferida por todas as instâncias."
+    },
+    {
+     "letra": "D",
+     "texto": "Somente é aplicável, no caso de condenações proferidas pela Justiça Federal, quando se tratar de condenação proferida pelo Júri Federal."
+    },
+    {
+     "letra": "E",
+     "texto": "Somente é aplicável, no caso das condenações proferidas pela Justiça Eleitoral, quando decorrentes de abuso de poder econômico em pleitos municipal e estadual."
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Letra C**",
+    "**C)** [CORRETA] A jurisdição da Justiça ordinária na execução (art. 2º) alcança as condenações proferidas por **todas as instâncias e Justiças**, quando o preso está em estabelecimento sujeito à jurisdição ordinária.",
+    "> LEP, art. 2º, parágrafo único. Esta lei aplicar-se-á igualmente ao preso provisório e ao condenado pela Justiça Eleitoral ou Militar, quando recolhido a estabelecimento sujeito à jurisdição ordinária.",
+    "💡 Súmula 192 do STJ: compete ao Juízo das Execuções do Estado a execução das penas impostas a sentenciados pela Justiça Federal, Militar ou Eleitoral, quando recolhidos a estabelecimentos sujeitos à administração estadual."
+   ],
+   "banca": "FUNRIO",
+   "cargo": "AgePen (SEJUS RO)",
+   "orgao": "SEJUS RO",
+   "ano": 2008,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Do Procedimento Judicial (arts. 194 a 197 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "ME",
+   "id": "q-d901f4a6b388",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 574,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "2"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "De acordo com o que estabelece a LEP quanto ao trabalho do preso, julgue o item seguinte.",
+    "O condenado por crime político está desobrigado ao trabalho."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "C",
+   "resolucao": [
+    "Gabarito: **Certo**",
+    "Item [CERTO].",
+    "> LEP, art. 200. O condenado por crime político não está obrigado ao trabalho."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2009,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Das Disposições Finais e Transitórias (arts. 198 a 204 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-dad2d34a86db",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "200",
+    "ate": "200"
+   },
+   "ordem": 575,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "200"
+    }
+   ]
+  },
+  {
+   "enunciado": [
+    "Conforme dispõe a Lei de Execução Penal, o emprego de algemas deve ser disciplinado por lei federal. Considerando-se que, apesar dessa determinação legal, não se editou, até o momento, a devida regulamentação, o uso de algemas constitui tratamento degradante e abusivo em relação à pessoa do preso."
+   ],
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Certo"
+    },
+    {
+     "letra": "E",
+     "texto": "Errado"
+    }
+   ],
+   "gabarito": "E",
+   "resolucao": [
+    "Gabarito: **Errado**",
+    "Item [ERRADO], com dois erros.",
+    "**1º:** a LEP manda disciplinar as algemas por **decreto** federal, e não por ~~lei~~:",
+    "> LEP, art. 199. O emprego de algemas será disciplinado por decreto federal.",
+    "**2º:** a falta de regulamentação ~~não torna o uso de algemas sempre degradante~~. O STF disciplinou o tema na **Súmula Vinculante 11** (uso permitido em caso de resistência, fundado receio de fuga ou perigo, justificado por escrito), e depois veio o Decreto 8.858/2016."
+   ],
+   "banca": "CEBRASPE (CESPE)",
+   "cargo": "Pol Pen (PP ES)",
+   "orgao": "PP ES",
+   "ano": 2007,
+   "materia": "Legislação Penal e Processual Penal Especial",
+   "assunto": "Das Disposições Finais e Transitórias (arts. 198 a 204 da Lei nº 7.210/1984 - LEP)",
+   "tipo": "CE",
+   "id": "q-ac0acfd29d81",
+   "area": "",
+   "vinculo": {
+    "lei": "lep",
+    "de": "199",
+    "ate": "199"
+   },
+   "ordem": 576,
+   "resolucaoFormato": "rica",
+   "refs": [
+    {
+     "lei": "lep",
+     "art": "199"
+    }
+   ]
+  }
+ ],
+ "caminho": [
+  "Leis Especiais",
+  "Lei de Execução Penal"
+ ]
+}
