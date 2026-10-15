@@ -1,0 +1,1729 @@
+{
+ "id": "ls-6-das-penas-penas-privativas-de-liberdad-0dbcc3b679ef",
+ "titulo": "6  Das Penas - Penas Privativas de Liberdade (Arts. 33 - 42, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-c3f64c4aac65",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "A respeito das penas privativas de liberdade, conforme previsto no Código Penal, julgue o item a seguir.",
+    "A pena de reclusão deve ser cumprida em regime fechado ou semiaberto, vedado o regime aberto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b30cf277f625",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Aos crimes previstos no Código Penal, podem ser cominadas penas de reclusão, detenção e multa. Acerca das citadas penas, é correto afirmar que o condenado a pena de detenção não pode cumprir a pena em regime prisional fechado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Reclusão e detenção",
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0e1a8ebbc8ed",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A respeito da pena criminal e da extinção da punibilidade: O Código Penal prevê os regimes aberto e semiaberto para os delitos apenados com detenção, mas consigna para esse tipo de pena, expressamente, a possibilidade de fixação do regime fechado no caso de necessidade de transferência para tal regime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aff921a8a081",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "A pena de reclusão não pode ser cumprida em regime aberto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c6b43de28d6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "A respeito das penas privativas de liberdade, conforme previsto no Código Penal, julgue o item a seguir.",
+    "A pena de detenção deve ser cumprida em regime fechado, vedado o regime semiaberto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a0326906805e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 33, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 33, CP"
+    }
+   ],
+   "banca": "TJ-RO",
+   "ano": "2011",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "A pena de reclusão deve ser cumprida em regime fechado, semiaberto ou aberto, enquanto a pena de detenção deve ser cumprida em regime semiaberto ou aberto, sendo vedado seu cumprimento em regime fechado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, SALVO necessidade de transferência a regime fechado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-867ca52b5f2f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 33, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 1º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2011",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRE-TO",
+   "obs": "",
+   "enunciado": [
+    "Sobre as penas privativas de liberdade previstas no Código Penal brasileiro, é correto afirmar que considera-se regime semi-aberto a execução da pena em casa de albergado ou estabelecimento adequado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 [...]",
+    "§ 1º - Considera-se:",
+    "a) regime fechado a execução da pena em estabelecimento de segurança máxima ou média;",
+    "b) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar;",
+    "c) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d1b52fe8b9b7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 33, § 1º, c, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 1º, c",
+     "sigla": "CP",
+     "texto": "Art. 33, § 1º, c, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "A respeito das penas privativas de liberdade, conforme previsto no Código Penal, julgue o item a seguir.",
+    "No regime aberto, a execução da pena ocorre em colônia agrícola, industrial ou estabelecimento similar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 1º - Considera-se:",
+    "[...]",
+    "c) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-041452959bf6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 33, § 1º, “b”, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 1º, “b”",
+     "sigla": "CP",
+     "texto": "Art. 33, § 1º, “b”, CP"
+    }
+   ],
+   "banca": "INSTITUTO AVALIA",
+   "ano": "2025",
+   "cargo": "Escrivão e Investigador",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "Em relação às espécies de penas previstas no Código Penal, julgue o item. Considera-se regime fechado a execução da pena em colônia agrícola, industrial ou estabelecimento similar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado.",
+    "§ 1º - Considera-se:",
+    "[...]",
+    "b) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-290d5161af8c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 33, § 1º, c, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 1º, c",
+     "sigla": "CP",
+     "texto": "Art. 33, § 1º, c, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "Considera-se regime aberto a execução da pena em colônia agrícola ou similar."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 1º - Considera-se:",
+    "[...]",
+    "c) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7815dd2b2be3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 33, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Analista Legislativo",
+   "instituicao": "ALESE",
+   "obs": "",
+   "enunciado": [
+    "Acerca das penas, suas espécies e sua cominação, o Código Penal dispõe que as penas privativas de liberdade deverão ser executadas em forma regressiva, segundo o mérito do condenado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 [...]",
+    "§ 2º - As penas privativas de liberdade deverão ser executadas em forma PROGRESSIVA, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35fd14a8e51d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 33, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-SP",
+   "obs": "",
+   "enunciado": [
+    "O condenado à pena privativa de liberdade igual ou inferior a quatro anos, por disposição expressa do CP deverá iniciar o cumprimento de pena em regime aberto."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso: (Redação dada pela Lei nº 7.209, de 11.7.1984)",
+    "a) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado;",
+    "b) o condenado não reincidente, cuja pena seja superior a 4 (quatro) anos e não exceda a 8 (oito), poderá, desde o princípio, cumpri-la em regime semi-aberto;",
+    "c) o condenado não reincidente, cuja pena seja igual ou inferior a 4 (quatro) anos, poderá, desde o início, cumpri-la em regime aberto.",
+    "§ 3º - A determinação do regime inicial de cumprimento da pena far-se-á com observância dos critérios previstos no art. 59 deste Código.(Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2134917150aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 33, § 2º, CP e S. 269, STJ",
+   "refs": [
+    {
+     "lei": null,
+     "art": "33",
+     "disp": "§ 2º, CP e S. 269, STJ",
+     "sigla": "",
+     "texto": "Art. 33, § 2º, CP e S. 269, STJ"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SEAP-BA",
+   "obs": "",
+   "enunciado": [
+    "João, reincidente em crime doloso, foi condenado definitivamente, pela prática do crime de roubo simples, a uma pena final de 04 anos e 08 meses de reclusão e 11 dias-multa, sendo certo que todas as circunstâncias judiciais são neutras. Registre-se, ainda, que o acusado respondeu ao processo penal em liberdade.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João iniciará o cumprimento de pena no regime fechado, admitida a progressão de regime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 […]",
+    "§ 2º. As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "a) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado;",
+    "b) o condenado não reincidente, cuja pena seja superior a 4 (quatro) anos e não exceda a 8 (oito), poderá, desde o princípio, cumpri-la em regime semi-aberto;",
+    "c) o condenado não reincidente, cuja pena seja igual ou inferior a 4 (quatro) anos, poderá, desde o início, cumpri-la em regime aberto.",
+    "Súmula 269, STJ - É admissível a adoção do regime prisional semi-aberto aos reincidentes condenados a pena igual ou inferior a 4 (quatro) anos se favoráveis as circunstâncias judiciais."
+   ],
+   "vinculo": null,
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e0b45c76c7e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 33, caput e § 2º, a, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "caput e § 2º, a",
+     "sigla": "CP",
+     "texto": "Art. 33, caput e § 2º, a, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Aos crimes previstos no Código Penal, podem ser cominadas penas de reclusão, detenção e multa. Acerca das citadas penas, é correto afirmar que o condenado a pena de detenção superior a oito anos deverá começar a cumpri-la, em regra, no regime semiaberto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado",
+    "[...]",
+    "§ 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "a) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado; (reclusão)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-40a7800b4ff6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 33, § 2º, a, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º, a",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, a, CP"
+    }
+   ],
+   "banca": "COSEAC",
+   "ano": "2025",
+   "cargo": "Inspetor de Polícia Penal",
+   "instituicao": "SEAP-RJ",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao cumprimento das penas privativas de liberdade previsto no Código Penal, julgue o seguinte item. O condenado a pena superior a 8 (oito) anos deverá cumprir a pena integralmente em regime fechado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 […]",
+    "§ 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "a) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-427e8c2b64ff",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 33, § 2º, a, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º, a",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, a, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "O condenado a pena superior a 8 anos poderá cumpri-la em regime aberto, se primário."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "a) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-74a22d9d230c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 33, § 2º, “b”, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º, “b”",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, “b”, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "Caio, primário, foi preso e condenado à pena privativa de liberdade de 5 anos e 4 meses, em regime semiaberto, por infração ao Art. 157, §2º, II, do CP (roubo circunstanciado pelo concurso de pessoas). Cumpriu 3 anos da pena quando sobreveio nova condenação, por fato praticado anteriormente, por infração ao Art. 157, §2º, II, do CP (roubo circunstanciado pelo concurso de pessoas), à pena de 5 anos e 4 meses de reclusão, em regime semiaberto. Em atenção às regras previstas na Lei de Execução Penal, bem como no Código Penal, que dispõem sobre a unificação das penas e fixação do regime de cumprimento de pena (Art. 111 e parágrafo único, da LEP e Art. 33, §2º, do CP, respectivamente), o(a) Defensor(a) Público(a) deverá requerer a unificação das penas e a fixação do regime semiaberto de cumprimento de pena;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado.",
+    "[...]",
+    "§ 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "[...]",
+    "b) o condenado não reincidente, cuja pena seja superior a 4 (quatro) anos e não exceda a 8 (oito), poderá, desde o princípio, cumpri-la em regime semi-aberto;"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd85783693c0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 33, § 2º, b, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º, b",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, b, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2026",
+   "cargo": "Policial Penal",
+   "instituicao": "SEJUSP-MG",
+   "obs": "",
+   "enunciado": [
+    "A respeito das penas privativas de liberdade, conforme previsto no Código Penal, julgue o item a seguir.",
+    "Ressalvadas as hipóteses de transferência a regime mais rigoroso, o condenado não reincidente, cuja pena seja superior a quatro anos e não exceda a oito, poderá, desde o princípio, cumpri-la em regime semiaberto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "[...]",
+    "b) o condenado não reincidente, cuja pena seja superior a 4 (quatro) anos e não exceda a 8 (oito), poderá, desde o princípio, cumpri-la em regime semi-aberto;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-697c3634910a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 33, § 2º, c, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 2º, c",
+     "sigla": "CP",
+     "texto": "Art. 33, § 2º, c, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "O condenado não reincidente condenado a pena igual ou inferior a 4 anos pode iniciar o cumprimento em regime aberto."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33, § 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:",
+    "[...]",
+    "c) o condenado não reincidente, cuja pena seja igual ou inferior a 4 (quatro) anos, poderá, desde o início, cumpri-la em regime aberto."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4aa30d5586d0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Em relação à progressão de regime de pena, é correto afirmar que o condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 [...]",
+    "§ 4° O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7ef602280657",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "III Exame Nacional da Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "Dionísio é presidente da Comissão de Licitações do município de Carunchos e, mensalmente, dirige seu carro até um shopping center onde recebe uma mochila contendo dinheiro pago por um empresário interessado em obter privilégios em certames públicos locais. Dionísio usa tais recursos para adquirir imóveis e os transfere, mediante doação, para sua esposa e filhos menores. Dionísio foi filmado, preso e condenado por decisão transitada em julgado pela prática do crime de corrupção. Sobre a situação hipotética narrada, é correto afirmar que a eventual progressão do regime de cumprimento da pena aplicada a Dionísio está condicionada à reparação do dano causado ou à devolução do produto do ilícito praticado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33. […]",
+    "§ 4o O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-52433a5a8b07",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2025",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos crimes que envolvem a Administração Pública, é correto afirmar que o Código Penal prevê que o condenado por crime contra a Administração Pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado com os acréscimos legais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado. […]",
+    "§ 4o O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6b293b8c5eaf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-MT",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos crimes em licitações e contratos administrativos, julgue o item a seguir. O condenado terá a progressão do regime da execução penal condicionada à reparação do dano que causou ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 33, § 4 - O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7b8136490162",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "MPE-RS",
+   "ano": "2021",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos crimes licitatórios, considerando a edição da Lei nº 14.133/2021, julgue o item a seguir: A progressão de regime de cumprimento da pena privativa de liberdade, em tais casos, deve observar o disposto no artigo 33, § 4º, do Código Penal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33. [...] o",
+    "§ 4 O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-14f6a43cf06e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 33, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 33, § 4º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2015",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TJ-RR",
+   "obs": "",
+   "enunciado": [
+    "Em matéria de penas privativas de liberdade, correto afirmar que o condenado por crime contra a Administração pública terá a progressão de regime do cumprimento de pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 [...] o",
+    "§ 4 O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fef3c2628bd0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 33, §4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "33",
+     "disp": "§4º",
+     "sigla": "CP",
+     "texto": "Art. 33, §4º, CP"
+    }
+   ],
+   "banca": "CEBRASPE -",
+   "ano": "2023",
+   "cargo": "Auditor de Controle Externo",
+   "instituicao": "TC-DF",
+   "obs": "",
+   "enunciado": [
+    "A respeito dos crimes contra a administração pública, julgue o item a seguir. Nos casos de condenação por crime contra a administração pública, a progressão do regime de cumprimento de pena fica condicionada à reparação do dano ou à devolução do produto do crime."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 33 - A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado",
+    "§ 4º O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "33",
+    "ate": "33"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd5d20cd6f5b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 34, § 1°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "34",
+     "disp": "§ 1°",
+     "sigla": "CP",
+     "texto": "Art. 34, § 1°, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "O início do cumprimento de uma pena privativa de liberdade em regime fechado pressupõe a realização de exame criminológico de classificação, a sujeição ao trabalho e o isolamento no período noturno."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 - O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução.",
+    "§ 1° - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-96cb6f4e6ce9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 34, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "34",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 34, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, Lucas foi condenado, definitivamente, pela prática dos crimes de peculato e de associação criminosa, em concurso material, iniciando o cumprimento das penas em regime fechado. De acordo com a narrativa e considerando as disposições do Código Penal, analise a afirmativa a seguir: Lucas ficará sujeito a trabalho no período diurno e a isolamento durante o repouso noturno."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34, § 1º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9c25a995e125",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 34, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "34",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 34, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, Lucas foi condenado, definitivamente, pela prática dos crimes de peculato e de associação criminosa, em concurso material, iniciando o cumprimento das penas em regime fechado. De acordo com a narrativa e considerando as disposições do Código Penal, analise a afirmativa a seguir: O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34, § 2º - O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da pena. (Redação dada pela Lei nº 7.209, de 11.7.1984)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d7d3d38c16e4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 34, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "34",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 34, § 3º, CP"
+    }
+   ],
+   "banca": "AOCP",
+   "ano": "2021",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Referente às penas e às medidas de segurança, o Código Penal brasileiro dispõe sobre o trabalho externo do preso, em regime fechado, e fixa regras para o trabalho em obras públicas ou privadas, incluindo as empresas privadas. Nesses casos, a cada três dias trabalhados, o condenado poderá remir um dia de sua pena."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34 [...]",
+    "§ 3º - O trabalho externo é admissível, no regime fechado, em serviços ou obras públicas."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4f28c40b13b1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 34, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "34",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 34, § 3º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PI",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, Lucas foi condenado, definitivamente, pela prática dos crimes de peculato e de associação criminosa, em concurso material, iniciando o cumprimento das penas em regime fechado. De acordo com a narrativa e considerando as disposições do Código Penal, analise a afirmativa a seguir: O trabalho externo de Lucas será admissível, mediante ato fundamentado do diretor do estabelecimento prisional, salvo em serviços ou obras públicas."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 34, § 3º - O trabalho externo é admissível, no regime fechado, em serviços ou obras públicas."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "34",
+    "ate": "34"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-de7c5efd7408",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 39, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "39",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 39, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RS",
+   "obs": "",
+   "enunciado": [
+    "A respeito da pena criminal e da extinção da punibilidade: O trabalho do apenado que cumpre pena no regime fechado deverá ser remunerado, no mínimo, por um salário mínimo nacional, mas esse preso, diferentemente daquele que cumpre pena no regime semiaberto, não terá garantidos os benefícios da previdência social, mesmo que tenha ele contribuído com o INSS até o ingresso no sistema prisional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 39 - O trabalho do preso será sempre remunerado, sendo-lhe garantidos os benefícios da Previdência Social."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7bf21fc691c4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 39, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "39",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 39, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "Estritamente nos termos do quanto prescreve o art. 39 do CP, o trabalho do preso será sempre remunerado, sendo-lhe garantidos os benefícios da Previdência Social."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 39. O trabalho do preso será sempre remunerado, sendo-lhe garantidos os benefícios da Previdência Social."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "39",
+    "ate": "39"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-131625a0c176",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 41, CP c/c Art. 183, LEP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "41",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 41, CP"
+    },
+    {
+     "lei": "lep",
+     "art": "183",
+     "disp": "",
+     "sigla": "LEP",
+     "texto": "Art. 183, LEP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2023",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-RR",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir a respeito da imputabilidade penal. É possível a conversão da pena em medida de segurança na hipótese de superveniência de doença mental."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Superveniência de doença mental",
+    "Art. 41, CP - O condenado a quem sobrevém doença mental deve ser recolhido a hospital de custódia e tratamento psiquiátrico ou, à falta, a outro estabelecimento adequado.",
+    "Art. 183, LEP - Quando, no curso da execução da pena privativa de liberdade, sobrevier doença mental ou perturbação da saúde mental, o Juiz, de ofício, a requerimento do Ministério Público, da Defensoria Pública ou da autoridade administrativa, poderá determinar a substituição da pena por medida de segurança."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "41",
+    "ate": "41"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-023b54e53d16",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 42, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "42",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 42, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Defensor Público Substituto",
+   "instituicao": "DPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Em relação ao tema “detração” (Art. 42 do CP), é correto afirmar que não é possível a detração da medida de segurança do tempo de prisão provisória no Brasil ou no estrangeiro;"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 42 - Computam-se, na pena privativa de liberdade e na medida de segurança, o tempo de prisão provisória, no Brasil ou no estrangeiro, o de prisão administrativa e o de internação em qualquer dos estabelecimentos referidos no artigo anterior."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "42",
+    "ate": "42"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8356c313d12f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Art. 42, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "42",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 42, CP"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-MG",
+   "obs": "",
+   "enunciado": [
+    "O tempo de cumprimento de prisão preventiva pelo agente não pode ser deduzido do prazo mínimo fixado pelo juiz para a duração da medida de segurança, dada a inegável natureza clínico-terapêutica, e não punitiva, desta última."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 42 - Computam-se, na pena privativa de liberdade e na medida de segurança, o tempo de prisão provisória, no Brasil ou no estrangeiro, o de prisão administrativa e o de internação em qualquer dos estabelecimentos referidos no artigo anterior."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "42",
+    "ate": "42"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Geral (Arts. 1º - 120, CP)"
+ ]
+}
