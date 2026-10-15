@@ -1,0 +1,5531 @@
+{
+ "id": "ls-principios-fundamentais-arts-1-4-cf-28d85f20f285",
+ "titulo": "Princípios Fundamentais (Arts. 1º - 4º, CF)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-304897b0b08c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA DE CAIÇARA-PB",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal estabelece os fundamentos, objetivos e princípios que orientam a República Federativa do Brasil. Considerando o disposto no texto constitucional, julgue o item. A dignidade da pessoa humana é fundamento da República Federativa do Brasil, ao lado da soberania, da cidadania, dos valores sociais do trabalho e da livre iniciativa e do pluralismo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-261e4c359191",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2017",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-RO",
+   "obs": "",
+   "enunciado": [
+    "Conforme prevê a Constituição Federal, é correto afirmar que a República Federativa do Brasil constitui-se em Estado Democrático de Direito e tem como fundamentos: a soberania; a cidadania; a dignidade da pessoa humana; os valores sociais do trabalho e da livre iniciativa; o pluralismo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa; (Vide Lei nº 13.874, de 2019)",
+    "V - o pluralismo político.",
+    "Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-219c662a296e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 3,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "IF-PA",
+   "ano": "2019",
+   "cargo": "Administrador - Adaptada",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "Acerca da República Federativa do Brasil e dos princípios fundamentais, com base na constituição federal de 1988, analise a assertiva que segue: A República Federativa do Brasil é formada pela união indissolúvel dos estados, dos municípios, e do distrito federal e dos territórios."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui- se em Estado Democrático de Direito e tem como fundamentos: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d44d409f8957",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2008",
+   "cargo": "Analista Judiciário - Arquivologia",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "A construção de uma sociedade livre, justa e solidária é um objetivo, ao passo que a dignidade da pessoa humana é um fundamento da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - Construir uma sociedade livre, justa e solidária;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e8555a77c62",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "IGEDUC",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA DE RIACHO DAS ALMAS-PE",
+   "obs": "",
+   "enunciado": [
+    "As relações internacionais da República Federativa do Brasil são regidas por princípios constitucionais expressos no Artigo 4º da Constituição da República Federativa do Brasil de 1988, que orientam a atuação diplomática do país. Diferente dos fundamentos da República (Art. 1º), estes princípios focam na convivência externa. O item a seguir indica um princípio que rege as relações internacionais do Brasil, distinguindo-o de um fundamento. A soberania, a cidadania e a dignidade da pessoa humana são princípios que regem as relações internacionais, devendo o Brasil intervir militarmente em países que desrespeitem tais fundamentos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3edf025ba60d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "UEG",
+   "ano": "2008",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-GO",
+   "obs": "",
+   "enunciado": [
+    "Na literalidade do texto constitucional, constitui fundamento da República Federativa do Brasil o pluralismo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2371352dd33a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "MPE-MS",
+   "ano": "2018",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil constitui Estado Democrático de Direito e tem como fundamento, entre outros, o pluralismo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-65a2f6dce474",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 1º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 1º, CF"
+    }
+   ],
+   "banca": "CRS",
+   "ano": "2026",
+   "cargo": "Oficial",
+   "instituicao": "PM-MG",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o que está expressamente previsto na Constituição da República Federativa do Brasil de 1988, o item a seguir se inclui entre os objetivos fundamentais da República Federativa do Brasil. Promover a dignidade da pessoa humana."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d3e78a1d494f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 1º, I, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O preâmbulo da Constituição Federal estabelece que: “nós, representantes do povo brasileiro, reunidos em Assembleia Nacional Constituinte para instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte Constituição da República Federativa do Brasil”. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento a soberania."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a579c26d840f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Arts. 1º, III e 5º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Arts. 1º, III e 5º, III, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "5",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Arts. 1º, III e 5º, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça Avaliador",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos princípios fundamentais da Constituição Federal de 1988 (CF), julgue o item a seguir. O princípio da dignidade da pessoa humana, além de assumir a condição de valor-fonte que conforma o ordenamento constitucional, pode operar simultaneamente como regra constitucional, conforme exemplifica a vedação à tortura e aos tratamentos desumanos e degradantes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:",
+    "[...]",
+    "III - ninguém será submetido a tortura nem a tratamento desumano ou degradante;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c743611b266c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 4º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 4º, IV, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento a não intervenção."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "IV - não-intervenção;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8661c485f0dc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 4º, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 4º, VI, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento a defesa da paz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VI - defesa da paz;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1562ff5d4ea",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 4º, IX, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IX",
+     "sigla": "CF",
+     "texto": "Art. 4º, IX, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O preâmbulo da Constituição Federal estabelece que: “nós, representantes do povo brasileiro, reunidos em Assembleia Nacional Constituinte para instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte Constituição da República Federativa do Brasil”. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento a cooperação entre os povos para o progresso da humanidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "IX - cooperação entre os povos para o progresso da humanidade;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5efe1043a6f9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 1º c/c Art. 60, § 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "",
+     "texto": "Art. 1º"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "60",
+     "disp": "§ 4º",
+     "sigla": "CF",
+     "texto": "Art. 60, § 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Direito",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item subsequente, no que diz respeito à organização do Estado e ao poder constituinte.",
+    "O caráter indissolúvel da Federação brasileira, consagrado no artigo 1.º da CF e reforçado pela condição de cláusula pétrea do princípio federativo, impede não apenas a secessão unilateral de qualquer ente federado, mas também a própria transformação consensual do Estado federal em confederação, ainda que tal modificação conte com a aprovação unânime de todos os entes federativos e seja implementada por meio do procedimento de revisão constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º - A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: [...]",
+    "Art. 60, § 4º - Não será objeto de deliberação a proposta de emenda tendente a abolir:",
+    "I - a forma federativa de Estado;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-01912052864c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 1º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 1º, I, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2016",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-BA",
+   "obs": "",
+   "enunciado": [
+    "De acordo com disposição expressa da Constituição Federal, a República Federativa do Brasil tem como fundamento a soberania."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-95b043c0f9e3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 1º, I e IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "I e IV",
+     "sigla": "CF",
+     "texto": "Art. 1º, I e IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRT-12ª REGIÃO-SC",
+   "obs": "",
+   "enunciado": [
+    "Com base nos Princípios Fundamentais contidos na Constituição Federal, é correto afirmar que a República Federativa do Brasil constitui-se em Estado Democrático de Direito e tem como fundamentos, dentre outros, a soberania e os valores sociais do trabalho e da livre iniciativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3aa42293e184",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Arts. 1º, I, e 3º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Arts. 1º, I, e 3º, IV, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Arts. 1º, I, e 3º, IV, CF"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "Quanto aos Princípios Fundamentais da República Federativa do Brasil, elencados na Constituição Federal, é correto afirmar como fundamento e objetivo, respectivamente: pluralismo político e promoção do bem de todos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político.",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-97b9789e2591",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 1º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 1º, II, CF"
+    }
+   ],
+   "banca": "INSTITUTO AVALIA",
+   "ano": "2025",
+   "cargo": "Escrivão e Investigador",
+   "instituicao": "PC-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o disposto na Constituição Federal de 1988, a República Federativa do Brasil tem como um de seus fundamentos a cidadania."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "II - a cidadania;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-508ae3dad2e3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-AL",
+   "obs": "",
+   "enunciado": [
+    "Segundo o art. 3º da Constituição Federal, constitui um dos objetivos fundamentais da República Federativa do Brasil: a dignidade da pessoa humana."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-41b020a600e6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Médico - Medicina do Trabalho",
+   "instituicao": "PREFEITURA DE CAMPINAS-SP",
+   "obs": "",
+   "enunciado": [
+    "As normas de proteção à saúde do trabalhador são de ordem pública e constituem um direito básico, fundamental, a ser atendido em quaisquer circunstâncias, em nome de um princípio jurídico, inserido na Constituição Federal do Brasil, que é o da dignidade da pessoa humana."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º - A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-919c1822bd3f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "A dignidade da pessoa humana constitui princípio das relações internacionais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: […]",
+    "III - a dignidade da pessoa humana;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6dd00b831f68",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "IGEDUC",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA DE SÃO JOSÉ CAMPESTRE-RN",
+   "obs": "",
+   "enunciado": [
+    "A dignidade da pessoa humana constitui fundamento da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ab284eca135b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "É fundamento da República Federativa do Brasil expressamente previstos pela Constituição Federal, a dignidade da pessoa humana."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d6a33cddb5cb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 1º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 1º, III, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2022",
+   "cargo": "Polícia Penal",
+   "instituicao": "PP-DF",
+   "obs": "",
+   "enunciado": [
+    "Sobre os direitos humanos, julgue o item a seguir. A dignidade da pessoa humana pode ser apontada como um objetivo fundamental da República Federativa do Brasil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como FUNDAMENTOS: […]",
+    "III - a dignidade da pessoa humana;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0cb2ffe6c15f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 1º, III e IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III e IV",
+     "sigla": "CF",
+     "texto": "Art. 1º, III e IV, CF"
+    }
+   ],
+   "banca": "IGEDUC",
+   "ano": "2026",
+   "cargo": "Guarda Civil Municipal",
+   "instituicao": "PREFEITURA DE PAULISTA-PE",
+   "obs": "",
+   "enunciado": [
+    "Durante um curso de formação da Guarda Civil Municipal, o instrutor propõe um debate sobre os fundamentos da República Federativa do Brasil. Um candidato afirma que \"a dignidade da pessoa humana e os valores sociais do trabalho e da livre iniciativa são princípios meramente programáticos e não vinculam a Administração Pública\". Outro aluno discorda, sustentando que tais valores possuem força normativa e orientam toda a atuação estatal. À luz da Constituição Federal, o item expressa corretamente a natureza jurídica desses princípios. Constituem fundamentos da República Federativa do Brasil e possuem força normativa vinculante sobre todos os Poderes, orientando de forma imediata e obrigatória a atuação estatal."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-89346c76d4b4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 1º, III e V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "III e V",
+     "sigla": "CF",
+     "texto": "Art. 1º, III e V, CF"
+    }
+   ],
+   "banca": "TRF 3ª REGIÃO",
+   "ano": "2008",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 3ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Entre 05 fundamentos da República a Constituição arrola o pluralismo político e a dignidade da pessoa humana."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0d1609f1baca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 1º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Procurador Federal",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "Considerando os fundamentos do Estado federal brasileiro e o princípio da separação dos poderes, julgue o próximo item. São fundamentos constitucionais da República Federativa do Brasil, entre outros, os valores sociais do trabalho e da livre iniciativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0ec8d4f193ef",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Arts. 1º, IV e 170, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Arts. 1º, IV e 170, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "170",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º, IV e 170, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2008",
+   "cargo": "Procurador do Estado",
+   "instituicao": "PGE-ES",
+   "obs": "",
+   "enunciado": [
+    "Em relação à ordem econômica e financeira disciplinada na Constituição Federal de 1988, julgue o item a seguir. A Constituição Federal optou por um sistema capitalista, no qual desempenha papel primordial a livre iniciativa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: […]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "Art. 170. A ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social, observados os seguintes princípios: […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1f6993545fd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 1º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 1º, IV, CF"
+    }
+   ],
+   "banca": "IV - UFG",
+   "ano": "2024",
+   "cargo": "Analista Judiciário - Oficial de Justiça",
+   "instituicao": "TJ-GO",
+   "obs": "",
+   "enunciado": [
+    "É princípio fundamental, dentre os listados no Título Primeiro da Constituição Federal de 1988, os valores sociais do trabalho."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3f5a14d91356",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 1º, IV, 4º, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "IV, 4º, VIII",
+     "sigla": "CF",
+     "texto": "Art. 1º, IV, 4º, VIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário – Área: Administrativa – Sem Especialidade",
+   "instituicao": "TRF-6ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos princípios fundamentais e aos direitos e garantias fundamentais previstos na Constituição Federal de 1988 (CF), bem como à aplicabilidade das normas constitucionais, julgue o item a seguir. São fundamentos da República Federativa do Brasil, entre outros, a soberania, os valores econômicos do trabalho e da livre iniciativa e o repúdio ao terrorismo e ao racismo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: […]",
+    "IV - os valores sociais do trabalho e da livre iniciativa; […]",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: […]",
+    "VIII - repúdio ao terrorismo e ao racismo;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-8a3ca27a9ec2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 1º, IV e V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "IV e V",
+     "sigla": "CF",
+     "texto": "Art. 1º, IV e V, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2020",
+   "cargo": "Analista Jurídico",
+   "instituicao": "PREFEITURA DE BETIM-MG",
+   "obs": "",
+   "enunciado": [
+    "Os valores sociais do trabalho e da livre iniciativa e o pluralismo político constituem fundamentos da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a1152f067e44",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 1º, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 1º, V, CF"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Agente Comunitário de Saúde",
+   "instituicao": "PREFEITURA NAZARÉ DA MATA-PE",
+   "obs": "",
+   "enunciado": [
+    "O item a seguir apresenta um dos fundamentos da República Federativa do Brasil. Pluralismo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-36ff1628f9aa",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 1º, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 1º, V, CF"
+    }
+   ],
+   "banca": "IBADE",
+   "ano": "2026",
+   "cargo": "Oficial Investigador de Polícia",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "O pluralismo político está entre os fundamentos da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "V - o pluralismo político.",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b2f00072724",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 1º, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 1º, V, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista em Desenvolvimento de Tecnologia Nuclear e Defesa",
+   "instituicao": "AMAZUL",
+   "obs": "",
+   "enunciado": [
+    "Melissa, discente do curso de Direito, interessada em aprofundar sua compreensão acerca das normas e princípios consagrados no texto constitucional, passou a examiná-los minuciosamente, deparando-se com o tema relativo aos objetivos fundamentais da República Federativa do Brasil. Nessa conjuntura, à luz das disposições da Constituição Federal, constitui objetivo fundamental da República Federativa do Brasil o pluralismo político."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "V - o pluralismo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-75faf3197581",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 1º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 1º, § único, CF"
+    }
+   ],
+   "banca": "IGEDUC",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA DE SÃO JOSÉ CAMPESTRE-RN",
+   "obs": "",
+   "enunciado": [
+    "O poder emana do povo e é exercido exclusivamente por meio de representantes eleitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b709ecd5c7ba",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Arts. 1º e 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Dentre os objetivos fundamentais da República Federativa do Brasil estão promover os valores sociais do trabalho e da livre iniciativa, construir uma sociedade livre, justa e solidária, e garantir o desenvolvimento nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "[...]",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-faf0aa1394d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Arts. 1º e 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    }
+   ],
+   "banca": "MPE-MS",
+   "ano": "2018",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MS",
+   "obs": "",
+   "enunciado": [
+    "Constitui objetivo fundamental da República Federativa do Brasil, entre outros, promover os valores sociais do trabalho e os da livre-iniciativa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político.",
+    "[...]",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ba8e30cbcea4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Arts. 1º e 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 3º, CF"
+    }
+   ],
+   "banca": "IF-PA",
+   "ano": "2019",
+   "cargo": "Administrador - Adaptada",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "Acerca da República Federativa do Brasil e dos princípios fundamentais, com base na constituição federal de 1988, analise a assertiva que segue: O pluralismo político e os valores sociais do trabalho e da livre iniciativa são alguns dos objetivos fundamentais da República Federativa do Brasil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político.",
+    "[...]",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil: [...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1717dc84d2cc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Arts. 1º, 3º e 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º, 3º e 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º, 3º e 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º, 3º e 4º, CF"
+    }
+   ],
+   "banca": "FEPESE",
+   "ano": "2022",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE FLORIANÓPOLIS",
+   "obs": "",
+   "enunciado": [
+    "Conforme disposto na Constituição Federal de 1988, pode se dizer que (i) fundamento, (ii) objetivo fundamental, e (iii) princípio norteador das relações internacionais da República Federativa do Brasil, constituem, respectivamente:(i) dignidade da pessoa humana; (ii) construir uma sociedade livre, justa e solidária; (iii) solução pacífica dos conflitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado democrático de direito e tem como fundamentos:",
+    "[...]",
+    "III – a dignidade da pessoa humana;",
+    "[...]",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I – construir uma sociedade livre, justa e solidária;",
+    "[...]",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VII – solução pacífica dos conflitos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e69b375adcf",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Arts. 1º e 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2026",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "A Constituição tem, entre outras funções, a de organizar racionalmente a sociedade, estabelecer a divisão dos poderes estatais, fixar balizas de contenção desses poderes em favor das liberdades, sedimentar o valor da dignidade humana. Diante disso, o art. 1º da CF estabelece que a República Federativa do Brasil se constitui em um Estado Democrático de Direito que tem como fundamentos: a soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa, o pluralismo político e a independência nacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político.",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-670b49928b07",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Arts. 1º e 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    }
+   ],
+   "banca": "IF-PA",
+   "ano": "2019",
+   "cargo": "Administrador - Adaptada",
+   "instituicao": "",
+   "obs": "",
+   "enunciado": [
+    "Acerca da República Federativa do Brasil e dos princípios fundamentais, com base na constituição federal de 1988, analise a assertiva que segue: A República Federativa do Brasil rege-se nas suas relações internacionais pelos princípios da soberania e da dignidade da pessoa humana dentre outros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "[...]",
+    "III - a dignidade da pessoa humana;",
+    "[...]",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;",
+    "II - prevalência dos direitos humanos;",
+    "III - autodeterminação dos povos;",
+    "IV - não-intervenção;",
+    "V - igualdade entre os Estados;",
+    "VI - defesa da paz;",
+    "VII - solução pacífica dos conflitos;",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "IX - cooperação entre os povos para o progresso da humanidade;",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c4f9b927d4db",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Arts. 1º e 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 4º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2014",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Na Constituição Federal está previsto que “A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.” Para tanto, ela traz como princípios pelos quais se rege nas relações internacionais, expressamente a soberania, a cidadania e a dignidade da pessoa humana."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "[...]",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;",
+    "II - prevalência dos direitos humanos;",
+    "III - autodeterminação dos povos;",
+    "IV - não-intervenção;",
+    "V - igualdade entre os Estados;",
+    "VI - defesa da paz;",
+    "VII - solução pacífica dos conflitos;",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "IX - cooperação entre os povos para o progresso da humanidade;",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9a8a242e083e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 1º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 1º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2015",
+   "cargo": "Técnico de Nível Superior",
+   "instituicao": "MPOG",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos princípios fundamentais previstos na Constituição Federal de 1988 (CF), julgue o item a seguir. Nos termos da nossa CF, todo o poder emana do povo que, por sua vez, o exerce diretamente ou por meio de representantes eleitos"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º [...]",
+    "Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c65decdce4f4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 1º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 1º, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito, sendo que todo poder emana do povo, que o exerce exclusivamente por meio de representantes eleitos, nos termos da Constituição Federal."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "I - a soberania;",
+    "II - a cidadania;",
+    "III - a dignidade da pessoa humana;",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "V - o pluralismo político.",
+    "Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c0be86d9e422",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 1º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 1º, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito, sendo que todo poder emana do povo, que o exerce por meio de representantes eleitos, não sendo possível o exercício do poder diretamente pelo povo."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, Parágrafo único - Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fadad36324e2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 1º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 1º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "O poder que emana do povo será exercido somente por meio de seus representantes eleitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º, Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2df5a19c5a05",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Arts. 1º e 60, § 4º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "1",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 60, § 4º, I, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "60",
+     "disp": "§ 4º, I",
+     "sigla": "CF",
+     "texto": "Arts. 1º e 60, § 4º, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item no que diz respeito à organização do Estado e ao poder constituinte. O caráter indissolúvel da Federação brasileira, consagrado no artigo 1.º da CF e reforçado pela condição de cláusula pétrea do princípio federativo, impede não apenas a secessão unilateral de qualquer ente federado, mas também a própria transformação consensual do Estado federal em confederação, ainda que tal modificação conte com a aprovação unânime de todos os entes federativos e seja implementada por meio do procedimento de revisão constitucional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "Art. 60. A Constituição poderá ser emendada mediante proposta:",
+    "[...]",
+    "§ 4º Não será objeto de deliberação a proposta de emenda tendente a abolir:",
+    "I - a forma federativa de Estado;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "1",
+    "ate": "1"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e8ddc96e056",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 4º, I, IV e § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "I, IV e § único",
+     "sigla": "CF",
+     "texto": "Art. 4º, I, IV e § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-AL",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a Constituição Federal de 1988, o Brasil rege-se nas suas relações internacionais, dentre outros, pelos seguintes princípios: Independência nacional e intervenção, buscando a integração exclusivamente social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "IV - não-intervenção;",
+    "[...]",
+    "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df262c4a131a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 4º, II, III e § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "II, III e § único",
+     "sigla": "CF",
+     "texto": "Art. 4º, II, III e § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico do Ministério Público",
+   "instituicao": "MPE-AL",
+   "obs": "",
+   "enunciado": [
+    "Em conformidade com a Constituição Federal de 1988, o Brasil rege-se nas suas relações internacionais, dentre outros, pelos seguintes princípios: Prevalência dos direitos humanos e autodeterminação dos povos, buscando a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino- americana de nações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "II - prevalência dos direitos humanos;",
+    "III - autodeterminação dos povos;",
+    "[...]",
+    "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ccb092856d12",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 60, § 4º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "60",
+     "disp": "§ 4º, IV",
+     "sigla": "CF",
+     "texto": "Art. 60, § 4º, IV, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item seguinte, acerca dos princípios fundamentais e das previsões da Constituição Federal de 1988 (CF). A dignidade da pessoa humana, embora seja um fundamento do Estado democrático de direito brasileiro, não integra o rol das cláusulas pétreas, razão por que pode ser objeto de supressão textual mediante emenda constitucional, desde que respeitado o procedimento qualificado."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 60. A Constituição poderá ser emendada mediante proposta:",
+    "[...]",
+    "§ 4º Não será objeto de deliberação a proposta de emenda tendente a abolir:",
+    "[...]",
+    "IV - os direitos e garantias individuais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "60",
+    "ate": "60"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd7f0cd8844d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal de 1988, analise a sentença abaixo: São poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6e74460906de",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Administrativa",
+   "instituicao": "TRT-10ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal de 1988 (CF) e a doutrina e jurisprudência correlatas, julgue o item a seguir.",
+    "O princípio da separação dos Poderes, previsto na CF, deve ser interpretado de maneira rígida, obstando-se, sempre que possível, a colaboração entre os Poderes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-43a0486fb48c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA DE GRAVATAÍ-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme dispõe a Constituição Federal, a União possui três Poderes: Executivo, Legislativo, Judiciário. Esses Poderes devem ser exercidos de maneira independente e harmônica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-636c708dd4e0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito, sendo Poderes da União, independentes e harmônicos entre si, o legislativo, o Executivo, o Judiciário e o Ministério Público da União."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º - São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5de56555a40e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2013",
+   "cargo": "Técnico Judiciário",
+   "instituicao": "TRT-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A organização dos Poderes do Estado já foi estabelecida de diferentes formas nas diversas Constituições Federais que vigoraram no Brasil. O artigo 2º da Constituição Federal de 1988 prevê que são Poderes da União, independentes e harmônicos entre si, o Legislativo, Executivo, Judiciário e Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4275469c8b9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 56,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2021",
+   "cargo": "Guarda Patrimonial",
+   "instituicao": "PREFEITURA DE PAULÍNIA-SP",
+   "obs": "",
+   "enunciado": [
+    "São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2f070d030614",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 2º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 2º, CF"
+    }
+   ],
+   "banca": "ADM&TEC",
+   "ano": "2019",
+   "cargo": "Sociólogo",
+   "instituicao": "PREFEITURA DE LEOPOLDINA-AL",
+   "obs": "",
+   "enunciado": [
+    "O Judiciário é um dos poderes da União."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e8c39f76defc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 58,
+   "referencia": "Arts. 2º e 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "2",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 2º e 3º, CF"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Arts. 2º e 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, tem, como um de seus objetivos fundamentais, garantir o desenvolvimento nacional, sendo Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo, o Judiciário e o Ministério Público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.",
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "2",
+    "ate": "2"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b8b67488fb21",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 3º, CF"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2019",
+   "cargo": "Perito Oficial Criminal",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Constituem objetivos fundamentais da República Federativa do Brasil previstos no artigo 3º da Constituição Federal promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2d21310f71f9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 3º, CF"
+    }
+   ],
+   "banca": "FUNATEC",
+   "ano": "2026",
+   "cargo": "Fiscal de Obras",
+   "instituicao": "PREFEITURA DE VITORIADO MEARIM – MA",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal de 1988 estabelece, logo em seus dispositivos iniciais, os objetivos fundamentais da República Federativa do Brasil, que orientam a atuação do Estado e a formulação de políticas públicas em todas as esferas da Administração. Considerando o texto constitucional, julgue o item. Entre os objetivos fundamentais da República Federativa do Brasil incluem-se a garantia do desenvolvimento nacional, a erradicação da pobreza e da marginalização, bem como a redução das desigualdades sociais e regionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-823f61e1d70f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 3º, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2023",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-RJ",
+   "obs": "",
+   "enunciado": [
+    "A Constituição da República de 1988 é fruto de movimentos político-jurídicos após o período autoritário de regime militar, que estabeleceram novos parâmetros interpretativos, novas dinâmicas jurisdicionais e novos desafios para o Brasil. Sobre essa pauta político-ideológica da Constituição da República de 1988 e a doutrina neoconstitucionalista, é correto afirmar que a Constituição da República de 1988 elege como objetivos secundários da República a redução da desigualdade e a garantia dos direitos fundamentais;"
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fc88031600cd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 3º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 3º, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2009",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos objetivos fundamentais da República Federativa do Brasil previstos no artigo 3º da Constituição Federal, considere a seguinte afirmação: Vem enunciados em forma de ação verbal (construir, erradicar, reduzir, promover), que implicam a necessidade de um comportamento ativo pelos que se acham obrigados à sua realização."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4db1e772a45d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 3º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 3º, I, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Soldado",
+   "instituicao": "PM-BA",
+   "obs": "",
+   "enunciado": [
+    "Nos termos da Constituição Federal, constitui um dos objetivos fundamentais da República Federativa do Brasil: construir uma sociedade livre, justa e solidária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cf950a033fa5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 3º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 3º, I, CF"
+    }
+   ],
+   "banca": "OBJETIVA",
+   "ano": "2025",
+   "cargo": "Professor",
+   "instituicao": "PREFEITURA DE GALVÃO-SC",
+   "obs": "",
+   "enunciado": [
+    "Segundo a Constituição Federal, o nosso país é uma república democrática composta por Estados, Municípios e o Distrito Federal, tendo como fundamento a construção de uma sociedade livre, justa e igualitária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-eaad8106424a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 3º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 3º, I, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Analista Judiciário",
+   "instituicao": "CNJ",
+   "obs": "",
+   "enunciado": [
+    "É fundamento da República Federativa do Brasil a construção de uma sociedade livre, justa e solidária."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9e4319667f1a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 3º, I, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "I, II",
+     "sigla": "CF",
+     "texto": "Art. 3º, I, II, CF"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Sargento da Polícia Militar",
+   "instituicao": "PM-SP",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Nos termos da Constituição Federal de 1988, julgue o item a seguir.",
+    "São objetivos fundamentais da República Federativa do Brasil: Garantir o desenvolvimento nacional e construir uma sociedade livre, justa e solidária."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ea02b631e3ca",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 3º, I, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "I, III",
+     "sigla": "CF",
+     "texto": "Art. 3º, I, III, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito, tendo como objetivos fundamentais, dentre outros: construir uma sociedade livre, justa e solidária; erradicar a pobreza e a marginalização; e reduzir as desigualdades sociais e regionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c7c2f15eacf4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 3º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 3º, II, CF"
+    }
+   ],
+   "banca": "CRS",
+   "ano": "2026",
+   "cargo": "Oficial",
+   "instituicao": "PM-MG",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o que está expressamente previsto na Constituição da República Federativa do Brasil de 1988, o item a seguir se inclui entre os objetivos fundamentais da República Federativa do Brasil. Garantir o desenvolvimento nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "II - garantir o desenvolvimento nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3e974899f934",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 3º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 3º, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-ES",
+   "obs": "",
+   "enunciado": [
+    "Constitui objetivo fundamental da República Federativa do Brasil a garantia do desenvolvimento nacional."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[…]",
+    "II - garantir o desenvolvimento nacional;",
+    "[…]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6715f99e9607",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 3º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 3º, II, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil rege-se nas suas relações internacionais pelo seguinte princípio: Garantir o desenvolvimento internacional."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "I - construir uma sociedade livre, justa e solidária;",
+    "II - garantir o desenvolvimento nacional; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df301dd918d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 3º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 3º, III, CF"
+    }
+   ],
+   "banca": "INSTITUTO CONSULPLAN",
+   "ano": "2026",
+   "cargo": "Técnico Municipal de Controle Interno",
+   "instituicao": "CGM MANAUS",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal de 1988 estabelece, logo em seu início, os fundamentos que estruturam o Estado brasileiro e orientam toda a sua organização político-jurídica. À luz da Constituição Federal, erradicação da pobreza e da marginalização é um dos fundamentos da República Federativa do Brasil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5cf5a4447b09",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 3º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 3º, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "XLIII Exame Nacional Unificado",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Em razão de fenômenos climáticos que vêm ocorrendo de forma reiterada nos últimos anos, os Estados de determinada região do país vêm sofrendo grandes perdas econômicas, o que acentua o desequilíbrio socioeconômico em relação às demais regiões do país. Por haver no plano federal o entendimento de serem necessárias medidas que incentivem as atividades econômicas da região prejudicada, surgiu a proposta para que bancos estatais concedessem juros favorecidos para financiar atividades consideradas prioritárias para a região. A essa proposta se opôs o Governador do Estado Beta, que, entendendo haver inconstitucionalidade nela, solicitou aconselhamento jurídico ao seu corpo de advogados.",
+    "Sobre a hipótese, segundo a perspectiva jurídico-constitucional brasileira, julgue, corretamente, a orientação recebida.",
+    "A medida encontra respaldo constitucional por ser o combate às desigualdades regionais um objetivo fundamental da República."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5a8b888dc6af",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 3º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 3º, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Especialista em Políticas Públicas e Gestão Governamental",
+   "instituicao": "SEAD-SE",
+   "obs": "",
+   "enunciado": [
+    "Marcos, aluno do curso de Direito da Universidade Federal de Sergipe (UFS), buscando melhor compreender as regras e princípios insculpidos no texto constitucional, passou a analisá-los detalhadamente, deparando-se com a temática afeta aos objetivos fundamentais da República Federativa do Brasil.",
+    "Nesse cenário, considerando as disposições da Constituição Federal, um objetivo fundamental da República Federativa do Brasil é a erradicação da pobreza e da marginalização e a redução das desigualdades sociais e regionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-91657d4dec9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 3º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 3º, III, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Após amplos estudos realizados pelo Ministério competente, foi sugerido ao Presidente da República a apresentação de projeto de lei estabelecendo uma política pública especificamente direcionada a duas regiões do país, fundada em níveis de desenvolvimento humano, o que redundaria em direcionamento diferenciado de recursos e tratamento mais favorecido, quando cotejado com aquele dispensado às demais regiões.",
+    "O presidente do partido político Alfa, que tem grande penetração nas regiões preteridas, solicitou que sua assessoria analisasse a sua compatibilidade com os objetivos fundamentais da República Federativa do Brasil.",
+    "A assessoria esclareceu corretamente que a proposta se ajusta ao objetivo fundamental de reduzir as desigualdades sociais e regionais, ainda que redunde em tratamento inicial distinto entre as regiões do país."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º - Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-29e165ec39ce",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 3º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 3º, III, CF"
+    }
+   ],
+   "banca": "CRS",
+   "ano": "2026",
+   "cargo": "Oficial",
+   "instituicao": "PM-MG",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o que está expressamente previsto na Constituição da República Federativa do Brasil de 1988, o item a seguir se inclui entre os objetivos fundamentais da República Federativa do Brasil. Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a07998d9101e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Arts. 3º, III, c/c 170, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "III,",
+     "sigla": "",
+     "texto": "Arts. 3º, III,"
+    },
+    {
+     "lei": "cf-1988",
+     "art": "170",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "170, VII, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2013",
+   "cargo": "Defensor Público",
+   "instituicao": "DPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal brasileira prevê como um dos objetivos fundamentais da República Federativa do Brasil e também como um dos princípios da ordem econômica: a redução das desigualdades sociais e regionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais.",
+    "[…]",
+    "Art. 170. A ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social, observados os seguintes princípios:",
+    "[…]",
+    "VII - redução das desigualdades regionais e sociais."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4dc90d8316b8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 3º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 3º, IV, CF"
+    }
+   ],
+   "banca": "PS CONCURSOS",
+   "ano": "2026",
+   "cargo": "Assistente Social",
+   "instituicao": "PREFEITURA TIMBÉ DO SUL-SC",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição do Brasil, em seu Art. 3º. Constituem objetivos fundamentais da República Federativa do Brasil, promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação;"
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ed7e3262d6a2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 3º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "3",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 3º, IV, CF"
+    }
+   ],
+   "banca": "CEFET-BA",
+   "ano": "2008",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-BA",
+   "obs": "",
+   "enunciado": [
+    "Constitui objetivo fundamental da República Federativa do Brasil promover o bem de todos sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:",
+    "[...]",
+    "IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "3",
+    "ate": "3"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-700d0a67d72c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 4°, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 4°, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2020",
+   "cargo": "Auxiliar Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Os valores sociais do trabalho e da livre iniciativa representam um princípio que rege as relações internacionais do Brasil."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:",
+    "[...]",
+    "IV - os valores sociais do trabalho e da livre iniciativa;",
+    "[...]",
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;",
+    "II - prevalência dos direitos humanos;",
+    "III - autodeterminação dos povos;",
+    "IV - não-intervenção;",
+    "V - igualdade entre os Estados;",
+    "VI - defesa da paz;",
+    "VII - solução pacífica dos conflitos;",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "IX - cooperação entre os povos para o progresso da humanidade;",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e6040f6f30a8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 4º, CF"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "Dentre os princípios que regem a República Federativa do Brasil em suas relações internacionais podem ser citados: a concessão de asilo político; o repúdio ao terrorismo e ao racismo; a defesa da paz; a não- intervenção e a autodeterminação dos povos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "III - autodeterminação dos povos;",
+    "IV - não-intervenção;",
+    "[...]",
+    "VI - defesa da paz;",
+    "[...]",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "[...]",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-542dfb23ac18",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 4º, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Guarda Municipal",
+   "instituicao": "PREFEITURA ARAQUARI-SC",
+   "obs": "",
+   "enunciado": [
+    "É fundamento da República Federativa do Brasil expressamente previstos pela Constituição Federal, a Defesa da paz."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VI - defesa da paz;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 81,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-90b8bf0c65c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 4º, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "",
+     "sigla": "CF",
+     "texto": "Art. 4º, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item seguinte, acerca dos princípios fundamentais e das previsões da Constituição Federal de 1988 (CF). Os princípios fundamentais que regem o Brasil nas relações internacionais previstos na CF constituem meras diretrizes programáticas sem eficácia normativa, não vinculando juridicamente os poderes estatais internos em suas respectivas competências funcionais."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 82,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7a4ceee9dd86",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 4º, VI, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VI",
+     "sigla": "CF",
+     "texto": "Art. 4º, VI, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "O relacionamento do Estado Brasileiro com países estrangeiros ou organismos internacionais constitui-se de atos identificadores da soberania do País no plano internacional. Nesse sentido, nos termos do artigo 4º da Constituição, a República Federativa do Brasil rege-se nas suas relações internacionais pelo princípio da defesa da guerra."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VI - defesa da paz;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 83,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-301ea2a3aff5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 84,
+   "referencia": "Art. 4º, I, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "I",
+     "sigla": "CF",
+     "texto": "Art. 4º, I, CF"
+    }
+   ],
+   "banca": "OBJETIVA CONCURSOS",
+   "ano": "2026",
+   "cargo": "Agente de Combate às Endemias",
+   "instituicao": "PREFEITURA DE VESPASIANO CORRÊA-RS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, julgue o item. A independência nacional é um dos princípios regentes das relações internacionais da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 84,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-325a6620cace",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 85,
+   "referencia": "Art. 4º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 4º, II, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2019",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-DFT",
+   "obs": "",
+   "enunciado": [
+    "O Estado brasileiro deve obediência irrestrita à própria Constituição, mas, ainda assim, assumiu, nos termos desse estatuto político, o compromisso de reger-se, nas suas relações internacionais, pelo princípio da prevalência dos direitos humanos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "II - prevalência dos direitos humanos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 85,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5503637d9d74",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 86,
+   "referencia": "Art. 4º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 4º, II, CF"
+    }
+   ],
+   "banca": "INSTITUTO IACP",
+   "ano": "2026",
+   "cargo": "Agente Comunitário de Saúde",
+   "instituicao": "PREFEITURA NAZARÉ DA MATA-PE",
+   "obs": "",
+   "enunciado": [
+    "O item a seguir apresenta um dos fundamentos da República Federativa do Brasil. Prevalência dos direitos humanos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "II - prevalência dos direitos humanos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 86,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bfce5f37fbc0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 87,
+   "referencia": "Art. 4º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 4º, II, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Analista Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "Considere o seguinte trecho de acórdão do Supremo Tribunal Federal (STF), proferido em sede de processo envolvendo pedido de extradição formulado por Estado estrangeiro:",
+    "A essencialidade da cooperação internacional na repressão penal aos delitos comuns não exonera o Estado brasileiro - e, em particular, o STF - de velar pelo respeito aos direitos fundamentais do súdito estrangeiro que venha a sofrer, em nosso pais, processo extra-dicional instaurado por iniciativa de qualquer Estado estrangeiro. ( .. . ) [O] STF não pode nem deve revelar indiferença diante de transgressões ao regime das garantias processuais fundamentais. É que o Estado brasileiro - que deve obediência irrestrita à própria Constituição que lhe rege a vida institucional - assumiu, nos termos desse mesmo estatuto político, o gravíssimo dever de sempre conferir prevalência aos direitos humanos[...].",
+    "O dever assumido pelo Estado brasileiro a que se refere o acórdão é consagrado na Constituição Federal vigente como um principio de regência das relações internacionais da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º - A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "II - prevalência dos direitos humanos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 87,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ecbf107fece4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 88,
+   "referencia": "Art. 4º, II, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "II",
+     "sigla": "CF",
+     "texto": "Art. 4º, II, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Técnico de Segurança Pública",
+   "instituicao": "BM-RS",
+   "obs": "",
+   "enunciado": [
+    "Considerando o disposto na Constituição Federal de 1988, analise a sentença abaixo: Um dos princípios que rege as relações internacionais da República é o da prevalência dos direitos humanos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "II - prevalência dos direitos humanos;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 88,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4bc88e6ed7d4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 89,
+   "referencia": "Art. 4º, III, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "III",
+     "sigla": "CF",
+     "texto": "Art. 4º, III, CF"
+    }
+   ],
+   "banca": "IBFC",
+   "ano": "2025",
+   "cargo": "Oficial de Justiça",
+   "instituicao": "TJ-PE",
+   "obs": "",
+   "enunciado": [
+    "O relacionamento do Estado Brasileiro com países estrangeiros ou organismos internacionais constitui-se de atos identificadores da soberania do País no plano internacional. Nesse sentido, nos termos do artigo 4º da Constituição, a República Federativa do Brasil rege-se nas suas relações internacionais pelo princípio da autodeterminação dos povos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "III - autodeterminação dos povos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 89,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-afb05696aae5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 90,
+   "referencia": "Art. 4º, IV e X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IV e X",
+     "sigla": "CF",
+     "texto": "Art. 4º, IV e X, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "O Brasil rege-se, nas relações internacionais, pelos princípios da intervenção e da negativa de asilo político."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "IV - não-intervenção;",
+    "[...]",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 90,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c8279cdd6ee0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 91,
+   "referencia": "Art. 4º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 4º, IV, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil rege-se nas suas relações internacionais pelo seguinte princípio: Não-intervenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: […]",
+    "IV - não-intervenção; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 91,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7f928329d785",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 92,
+   "referencia": "Art. 4º, IV, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IV",
+     "sigla": "CF",
+     "texto": "Art. 4º, IV, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Técnico Legislativo - Área Administrativa",
+   "instituicao": "AL-MS",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal de 1988, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, rege-se nas suas relações internacionais pelos seguintes princípios: independência nacional; prevalência dos direitos humanos; intervenção; defesa da paz; concessão de asilo político; dentre outros."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "I - independência nacional;",
+    "II - prevalência dos direitos humanos;",
+    "III - autodeterminação dos povos;",
+    "IV - não-intervenção;",
+    "V - igualdade entre os Estados;",
+    "VI - defesa da paz;",
+    "VII - solução pacífica dos conflitos;",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "IX - cooperação entre os povos para o progresso da humanidade;",
+    "X - concessão de asilo político.",
+    "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino- americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 92,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a111690c8b59",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 93,
+   "referencia": "Art. 4º, IV, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "IV, X",
+     "sigla": "CF",
+     "texto": "Art. 4º, IV, X, CF"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2026",
+   "cargo": "Eletricista",
+   "instituicao": "PREFEITURA TRÊS PASSOS-RS",
+   "obs": "",
+   "enunciado": [
+    "A defesa da paz é um dos princípios que regem as relações internacionais do Brasil. Com base na Constituição Federal, são princípios que regem as relações internacionais do Brasil: Concessão de asilo político e não-intervenção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "IV - não-intervenção;",
+    "[...]",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 93,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d1163e765bc1",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 94,
+   "referencia": "Art. 4º, V, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "V",
+     "sigla": "CF",
+     "texto": "Art. 4º, V, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil rege-se nas suas relações internacionais pelo seguinte princípio: Igualdade entre os Estados."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: […]",
+    "V - igualdade entre os Estados; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 94,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5a8fd64da463",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 95,
+   "referencia": "Art. 4º, VII e VIII CF",
+   "refs": [
+    {
+     "lei": null,
+     "art": "4",
+     "disp": "VII e VIII CF",
+     "sigla": "",
+     "texto": "Art. 4º, VII e VIII CF"
+    }
+   ],
+   "banca": "NC-UFPR",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-PR",
+   "obs": "",
+   "enunciado": [
+    "São dois princípios que regem as relações internacionais do Brasil, de acordo com a Constituição Federal brasileira (1988): Solução pacífica dos conflitos e repúdio ao terrorismo e ao racismo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "VII - solução pacífica dos conflitos;",
+    "VIII - repúdio ao terrorismo e ao racismo;"
+   ],
+   "vinculo": null,
+   "ordem": 95,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-2e58716ee532",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 96,
+   "referencia": "Art. 4º, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 4º, VII, CF"
+    }
+   ],
+   "banca": "IESES",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AM",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil rege-se nas suas relações internacionais pelo seguinte princípio: Solução pacífica dos conflitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: […]",
+    "VII - solução pacífica dos conflitos; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 96,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0800df242958",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 97,
+   "referencia": "Art. 4º, VI e VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VI e VII",
+     "sigla": "CF",
+     "texto": "Art. 4º, VI e VII, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2023",
+   "cargo": "Técnico Ministerial",
+   "instituicao": "MPE-PB",
+   "obs": "",
+   "enunciado": [
+    "Em fevereiro de 2023, a Assembleia-Geral da ONU adotou uma resolução que pede o fim da guerra na Ucrânia, ressaltando as consequências humanitárias do conflito, bem como propugnando a retirada das tropas russas do território ucraniano e que a comunidade internacional busque formas de mediar a paz. O voto brasileiro foi favorável à resolução da ONU, o que está de acordo com a Constituição Federal, segundo a qual a República Federativa do Brasil rege- se nas suas relações internacionais, dentre outros, pelos princípios de defesa da paz e solução pacífica dos conflitos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: […]",
+    "VI - defesa da paz;",
+    "VII - solução pacífica dos conflitos; […]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 97,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b21ecccbeeb3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 98,
+   "referencia": "Art. 4º, VII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VII",
+     "sigla": "CF",
+     "texto": "Art. 4º, VII, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Área Administrativo-Judiciária",
+   "instituicao": "TJ-RS",
+   "obs": "Adaptada",
+   "enunciado": [
+    "Considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento a solução pacífica dos conflitos."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VII - solução pacífica dos conflitos;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 98,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-08b73c845789",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 99,
+   "referencia": "Art. 4º, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 4º, VIII, CF"
+    }
+   ],
+   "banca": "ESAF",
+   "ano": "2012",
+   "cargo": "Procurador da Fazenda Nacional",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "Sobre os princípios fundamentais da Constituição de 1988, é correto afirmar que a República Federativa do Brasil rege-se nas suas relações internacionais, dentre outros, pelo princípio de repúdio ao terrorismo e ao racismo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VIII - repúdio ao terrorismo e ao racismo;"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 99,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e60b3c8a1ca3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 100,
+   "referencia": "Art. 4º, VIII, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "VIII",
+     "sigla": "CF",
+     "texto": "Art. 4º, VIII, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Diplomata",
+   "instituicao": "INSTITUTO RIO BRANCO",
+   "obs": "",
+   "enunciado": [
+    "A Constituição Federal de 1988 prevê como princípio que rege República Federativa do Brasil em suas relações internacionais o repúdio ao terrorismo e ao racismo."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º - A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "VIII - repúdio ao terrorismo e ao racismo;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 100,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-908af3709f9c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 101,
+   "referencia": "Art. 4º, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 4º, X, CF"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Juiz Substituto",
+   "instituicao": "TRF-5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil tem as suas relações internacionais regidas por princípios listados na Constituição Federal.",
+    "Entre esses princípios se encontra a concessão de asilo político."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º - A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 101,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-35a8a3196422",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 102,
+   "referencia": "Art. 4º, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 4º, X, CF"
+    }
+   ],
+   "banca": "MPE-SC",
+   "ano": "2014",
+   "cargo": "Promotor de Justiça",
+   "instituicao": "MPE-SC",
+   "obs": "",
+   "enunciado": [
+    "A concessão de asilo político é um dos princípios que regem a República Federativa do Brasil nas suas relações internacionais."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "X - concessão de asilo político.",
+    "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 102,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1535ada650ed",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 103,
+   "referencia": "Art. 4º, X, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "X",
+     "sigla": "CF",
+     "texto": "Art. 4º, X, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Acerca de asilo político, extradição e expulsão, julgue o item a seguir.",
+    "A concessão de asilo político constitui princípio que rege as relações internacionais da República Federativa do Brasil."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º - A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:",
+    "[...]",
+    "X - concessão de asilo político."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 103,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-71200fd12a23",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 104,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2007",
+   "cargo": "Juiz Federal",
+   "instituicao": "TRF 5ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos entes do direito internacional, à responsabilidade internacional e à imunidade de jurisdição, julgue o item a seguir. Segundo a Constituição de 1988, a República Federativa do Brasil deve buscar a integração dos povos da América Latina, com vistas à formação de uma comunidade latino-americana de nações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º [...]",
+    "Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino- americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 104,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9f2c9b6da209",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 105,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2022",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE TERESINA-PI",
+   "obs": "",
+   "enunciado": [
+    "Segundo a Constituição Federal, no plano das relações internacionais, a República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 105,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-785f86b1a99f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 106,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2018",
+   "cargo": "Investigador de Polícia",
+   "instituicao": "PC-MA",
+   "obs": "",
+   "enunciado": [
+    "A República Federativa do Brasil visa à formação de uma comunidade latino-americana de nações por meio da integração econômica, política, social e cultural dos povos da América Latina."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino- americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 106,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-125358cbd372",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 107,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Em prol da formação de uma comunidade latino-americana de nações, a República Federativa do Brasil deve buscar a integração econômica, política, social e cultural dos povos da América Latina."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 107,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cecaa0c08f88",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 108,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista Ambiental",
+   "instituicao": "IBAMA",
+   "obs": "",
+   "enunciado": [
+    "Em relação aos princípios, direitos e garantias fundamentais previstos na Constituição Federal de 1988 (CF), julgue o item seguir.",
+    "A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos de toda a América (do Sul, Central e do Norte), visando à formação de uma comunidade pan-americana de nações."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único - A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 108,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6866b0d39950",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 109,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Analista em Finanças Públicas",
+   "instituicao": "SEFAZ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Acerca dos princípios fundamentais e dos direitos e das garantias fundamentais, julgue o item a seguir.",
+    "É princípio fundamental da República Federativa do Brasil, em suas relações internacionais, a busca de integração econômica, política, social e cultural dos povos da América Latina, com vistas à formação de uma comunidade latino- americana de nações."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único - A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 109,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7d0ca43b9ab8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 110,
+   "referencia": "Art. 4º, § único, CF",
+   "refs": [
+    {
+     "lei": "cf-1988",
+     "art": "4",
+     "disp": "§ único",
+     "sigla": "CF",
+     "texto": "Art. 4º, § único, CF"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Técnico Ministerial - Área Administrativa",
+   "instituicao": "MPE-PI",
+   "obs": "",
+   "enunciado": [
+    "De acordo com a Constituição Federal, a República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito, devendo buscar exclusivamente a integração social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 4º, Parágrafo único - A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+   ],
+   "vinculo": {
+    "lei": "cf-1988",
+    "de": "4",
+    "ate": "4"
+   },
+   "ordem": 110,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Constitucional",
+  "1 Princípios Fundamentais (Arts. 1º - 4º, CF)"
+ ]
+}
