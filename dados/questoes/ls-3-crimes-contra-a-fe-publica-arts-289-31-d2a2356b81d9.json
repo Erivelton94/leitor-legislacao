@@ -1,0 +1,3923 @@
+{
+ "id": "ls-3-crimes-contra-a-fe-publica-arts-289-31-d2a2356b81d9",
+ "titulo": "3 Crimes contra a Fé Pública (Arts. 289 - 311-A, CP)",
+ "plataforma": "leiseca",
+ "materia": "Lei Seca",
+ "versao": "2026-10-15",
+ "assuntos": [],
+ "observacao": "Lista de lei seca importada no app.",
+ "questoes": [
+  {
+   "id": "ls-b748f373a8dc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 1,
+   "referencia": "Art. 289, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 289, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "Falsificar, fabricando, papel-moeda de curso legal no estrangeiro, é crime contra a fé pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "TÍTULO X DOS CRIMES CONTRA A FÉ PÚBLICA Moeda Falsa",
+    "Art. 289 - Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro:",
+    "Pena - reclusão, de três a doze anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 1,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d021aaaa3b5b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 2,
+   "referencia": "Art. 289, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 289, CP"
+    }
+   ],
+   "banca": "TJ-RS",
+   "ano": "2013",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O agente que falsifica, fabricando ou alterando, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro, comete o crime de moeda falsa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Moeda Falsa",
+    "Art. 289 - Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro:",
+    "Pena - reclusão, de três a doze anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 2,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-17e54689ce87",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 4,
+   "referencia": "Art. 289, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 289, § 1º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-MS",
+   "obs": "",
+   "enunciado": [
+    "Após meses de tratativas, Carlos, nacional do Paraguai, ofereceu cinquenta mil dólares em espécie para a aquisição da propriedade rural de Luiz, que contém dois hectares e está localizada no interior do Estado de Mato Grosso do Sul. Na data designada para o pagamento, Carlos entregou a Luiz o montante acordado, tendo o último posteriormente constatado tratar-se de moeda falsa. Registre-se que Carlos não falsificou os papéis-moedas, embora soubesse da sua origem ilícita. Nesse cenário, considerando as disposições do Código Penal e o entendimento dominante do Superior Tribunal de Justiça, é correto afirmar que Carlos responderá pelo crime de moeda falsa, na modalidade simples."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Moeda Falsa",
+    "Art. 289 - Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro:",
+    "Pena - reclusão, de três a doze anos, e multa.",
+    "§ 1º - Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 3,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-84ec07c235fc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 5,
+   "referencia": "Art. 289, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 289, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Técnico Tributário",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "A conduta de restituir à circulação moeda sabidamente falsa, recebida de boa-fé como verdadeira, configura crime e é punida com detenção e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 289, § 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis meses a dois anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 4,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5af90d8d9c7f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 6,
+   "referencia": "Art. 289, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 289, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Tendo em conta os crimes contra a fé pública, previstos no Código Penal, é correto: O crime de moeda falsa, na figura de quem restitui à circulação moeda que sabe ser falsa, admite a modalidade culposa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 289. […]",
+    "§ 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis meses a dois anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 5,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f0b61de23b3a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 7,
+   "referencia": "Art. 289, § 3º, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 3º, I",
+     "sigla": "CP",
+     "texto": "Art. 289, § 3º, I, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "O funcionário público que autoriza fabricação de moeda com peso inferior ao previsto em lei não pratica conduta típica."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Moeda Falsa",
+    "Art. 289, § 3º - É punido com reclusão, de três a quinze anos, e multa, o funcionário público ou diretor, gerente, ou fiscal de banco de emissão que fabrica, emite ou autoriza a fabricação ou emissão:",
+    "I - de moeda com título ou peso inferior ao determinado em lei;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 6,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0358d314068f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 8,
+   "referencia": "Art. 289, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 289, § 4º, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "Quem desvia e faz circular moeda cuja circulação não estava autorizada é punido com pena reduzida."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Moeda Falsa",
+    "Art. 289, § 4º - Nas mesmas penas incorre quem desvia e faz circular moeda, cuja circulação não estava ainda autorizada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 7,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b797265f0fb6",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 9,
+   "referencia": "Art. 289, § 4º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "289",
+     "disp": "§ 4º",
+     "sigla": "CP",
+     "texto": "Art. 289, § 4º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Procurador Federal",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "É atípica a conduta do agente que desvia e faz circular moeda cuja circulação ainda não estava autorizada, pois constitui elementar do crime de moeda falsa a colocação em circulação de moeda com curso legal no país ou no exterior."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Moeda Falsa",
+    "Art. 289 - Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro:",
+    "Pena - reclusão, de três a doze anos, e multa.",
+    "[...]",
+    "§ 4º - Nas mesmas penas incorre quem desvia e faz circular moeda, cuja circulação não estava ainda autorizada."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "289",
+    "ate": "289"
+   },
+   "ordem": 8,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-164a6d6c6a8d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 10,
+   "referencia": "Art. 291, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "291",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 291, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2018",
+   "cargo": "XXVII Exame da OAB",
+   "instituicao": "OAB",
+   "obs": "",
+   "enunciado": [
+    "Talles, desempregado, decide utilizar seu conhecimento de engenharia para fabricar máquina destinada à falsificação de moedas. Ao mesmo tempo, pega uma moeda falsa de R$ 3,00 (três reais) e, com um colega também envolvido com falsificações, tenta colocá-la em livre circulação, para provar o sucesso da empreitada. Ocorre que aquele que recebe a moeda percebe a falsidade rapidamente, em razão do valor suspeito, e decide chamar a Polícia, que apreende a moeda e o maquinário já fabricado. Talles é indiciado pela prática de crimes e, já na Delegacia, liga para você, na condição de advogado(a), para esclarecimentos sobre a tipicidade de sua conduta. Considerando as informações narradas, em conversa sigilosa com seu cliente, você deverá esclarecer que a conduta de Talles configura crime de petrechos para falsificação de moeda, apenas."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 17, CP - Fundamento para a falsificação de moeda falsa de R$ 3,00",
+    "Art. 291, CP - Fundamento para a conduta: \"Talles, desempregado, decide utilizar seu conhecimento de engenharia para fabricar máquina destinada à falsificação de moedas.\"",
+    "Art. 17 - Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.",
+    "Art. 291 - Fabricar, adquirir, fornecer, a título oneroso ou gratuito, possuir ou guardar maquinismo, aparelho, instrumento ou qualquer objeto especialmente destinado à falsificação de moeda:",
+    "Pena - reclusão, de dois a seis anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "291",
+    "ate": "291"
+   },
+   "ordem": 9,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-96bd0fbbc154",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 11,
+   "referencia": "Art. 292, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "292",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 292, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme o Código Penal, é crime contra a fé pública, emitir, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte indicação do nome da pessoa a quem deva ser pago."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Emissão de título ao portador sem permissão legal",
+    "Art. 292 - Emitir, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte indicação do nome da pessoa a quem deva ser pago:",
+    "Pena - detenção, de um a seis meses, ou multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "292",
+    "ate": "292"
+   },
+   "ordem": 10,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-51a606067eee",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 12,
+   "referencia": "Art. 292, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "292",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 292, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2013",
+   "cargo": "Procurador Federal",
+   "instituicao": "AGU",
+   "obs": "",
+   "enunciado": [
+    "Acerca da legislação penal especial e dos crimes contra a administração pública e contra a fé pública, julgue os itens subsequentes.",
+    "Aquele que emitir, sem permissão legal, título que contenha promessa de pagamento em dinheiro ao portador praticará crime contra a ordem econômica, as relações de consumo e a economia popular."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Emissão de título ao portador sem permissão legal",
+    "Art. 292 - Emitir, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte indicação do nome da pessoa a quem deva ser pago:",
+    "Pena - detenção, de um a seis meses, ou multa.",
+    "Parágrafo único - Quem recebe ou utiliza como dinheiro qualquer dos documentos referidos neste artigo incorre na pena de detenção, de quinze dias a três meses, ou multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "292",
+    "ate": "292"
+   },
+   "ordem": 11,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b537d336b816",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 13,
+   "referencia": "Art. 293, I, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "293",
+     "disp": "I",
+     "sigla": "CP",
+     "texto": "Art. 293, I, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2026",
+   "cargo": "Fiscal de Tributos Estaduais",
+   "instituicao": "SEFAZ-MT",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsificação de selos destinados a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo admite que a falsificação se realize tanto pela integral fabricação do objeto quanto pela modificação substancial de um selo ou papel autêntico, já que a lei equipara ambas as condutas à falsificação típica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 293 - Falsificar, fabricando-os ou alterando-os:",
+    "I - selo destinado a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "293",
+    "ate": "293"
+   },
+   "ordem": 12,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c4e125a76e77",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 14,
+   "referencia": "Art. 293, VI, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "293",
+     "disp": "VI",
+     "sigla": "CP",
+     "texto": "Art. 293, VI, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "instituicao": "SEFAZ-PI",
+   "obs": "",
+   "enunciado": [
+    "Josué, aproveitando-se dos equipamentos emprestados por um amigo, falsificou inúmeros bilhetes de transporte público administrado por determinado Município, colocando-os em circulação. A polícia inicia intensa investigação e consegue apurar a autoria delitiva. Após obter a necessária ordem judicial, comparece na residência de Josué para cumprimento de mandado de busca domiciliar e de mandado de prisão preventiva contra ele. Josué acaba sendo preso pela polícia. Neste caso hipotético, na esteira do Código Penal, Josué cometeu, em tese, o crime de falsificação de papéis públicos."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de papéis públicos",
+    "Art. 293 - Falsificar, fabricando-os ou alterando-os:",
+    "[...]",
+    "VI - bilhete, passe ou conhecimento de empresa de transporte administrada pela União, por Estado ou por Município:",
+    "Pena - reclusão, de dois a oito anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "293",
+    "ate": "293"
+   },
+   "ordem": 13,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f8f8d647211a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 15,
+   "referencia": "Art. 293, IV, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "293",
+     "disp": "IV, § 2º",
+     "sigla": "CP",
+     "texto": "Art. 293, IV, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "É crime, expressamente previsto no “caput” combinado com o inciso IV do art. 293 do CP, falsificar cautela de penhor emitida por entidade de direito público. Na hipótese de o documento de cautela ser legitimamente cancelado pela entidade, mediante a aposição de um carimbo, a conduta do sujeito que suprime tal carimbo, visando a uma nova utilização da cautela de penhor, é típica e punida pelo CP, tendo em vista que o bem jurídico também é atingido pela supressão."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de papéis públicos",
+    "Art. 293 - Falsificar, fabricando-os ou alterando-os:",
+    "[...]",
+    "IV - cautela de penhor, caderneta de depósito de caixa econômica ou de outro estabelecimento mantido por entidade de direito público;",
+    "[...]",
+    "Pena - reclusão, de dois a oito anos, e multa.",
+    "§ 2º - Suprimir, em qualquer desses papéis, quando legítimos, com o fim de torná-los novamente utilizáveis, carimbo ou sinal indicativo de sua inutilização:",
+    "Pena - reclusão, de um a quatro anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "293",
+    "ate": "293"
+   },
+   "ordem": 14,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4b20cc15fb8b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 16,
+   "referencia": "Art. 293, § 1º, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "293",
+     "disp": "§ 1º, II",
+     "sigla": "CP",
+     "texto": "Art. 293, § 1º, II, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme o Código Penal, é crime contra a fé pública, importar, exportar, adquirir, vender, trocar, ceder, emprestar, guardar, fornecer ou restituir à circulação selo falsificado destinado a controle tributário."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 293, § 1º - Incorre na mesma pena quem:",
+    "[...]",
+    "II - importa, exporta, adquire, vende, troca, cede, empresta, guarda, fornece ou restitui à circulação selo falsificado destinado a controle tributário;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "293",
+    "ate": "293"
+   },
+   "ordem": 15,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d7d3afa408d2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 17,
+   "referencia": "Art. 296, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "296",
+     "disp": "II",
+     "sigla": "CP",
+     "texto": "Art. 296, II, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2023",
+   "cargo": "Tabelião / Oficial de Registros - Provimento",
+   "instituicao": "TJ-SC",
+   "obs": "",
+   "enunciado": [
+    "Agindo com consciência e vontade de criar documento como se verdadeiro fosse, Silvio falsificou sinal público de tabelião, fabricando-o, a fim de subscrever, como se tabelião substituto fosse, ato notarial de reconhecimento das firmas de Natalia e de Ana apostas em instrumento particular de cessão de direitos que tinha por objeto a gleba de terras. O tipo penal praticado por Silvio na situação hipotética precedente é: falsificação de sinal público de tabelião."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação do selo ou sinal público",
+    "Art. 296 - Falsificar, fabricando-os ou alterando-os:",
+    "I - selo público destinado a autenticar atos oficiais da União, de Estado ou de Município;",
+    "II - selo ou sinal atribuído por lei a entidade de direito público, ou a autoridade, ou sinal público de tabelião:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "296",
+    "ate": "296"
+   },
+   "ordem": 16,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-cd3d0606b2c2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 18,
+   "referencia": "Art. 296, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "296",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 296, § 1º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2022",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RR",
+   "obs": "",
+   "enunciado": [
+    "Tendo em conta os crimes contra a fé pública, previstos no Código Penal, é correto: O crime de utilizar indevidamente selo ou sinal verdadeiro é crime material, pois exige a ocorrência de prejuízo ou vantagem para se caracterizar."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 296 […]",
+    "§ 1º - Incorre nas mesmas penas:",
+    "I - quem faz uso do selo ou sinal falsificado;",
+    "II - quem utiliza indevidamente o selo ou sinal verdadeiro em prejuízo de outrem ou em proveito próprio ou alheio."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "296",
+    "ate": "296"
+   },
+   "ordem": 17,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-850668c3bc5a",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 19,
+   "referencia": "Art. 296, § 1º, III, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "296",
+     "disp": "§ 1º, III",
+     "sigla": "CP",
+     "texto": "Art. 296, § 1º, III, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2025",
+   "cargo": "Auditor Municipal de Controle Interno",
+   "instituicao": "CGM-SP",
+   "obs": "",
+   "enunciado": [
+    "Aquiles colou em seu veículo particular diversos adesivos com símbolos e emblemas identificadores da Policia Militar, ocasião em que passou a circular com o automóvel pelas ruas do Município de São Paulo. Ao ser abordado por policiais, admitiu a caracterização irregular de seu veículo. Considerando os elementos acima expostos, Aquiles praticou, em tese, o crime de falsificação do selo ou sinal público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação do selo ou sinal público",
+    "Art. 296 - Falsificar, fabricando-os ou alterando-os:",
+    "[...]",
+    "§ 1º - Incorre nas mesmas penas:",
+    "[...]",
+    "III - quem altera, falsifica ou faz uso indevido de marcas, logotipos, siglas ou quaisquer outros símbolos utilizados ou identificadores de órgãos ou entidades da Administração Pública."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "296",
+    "ate": "296"
+   },
+   "ordem": 18,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d36b8d5c0e6c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 20,
+   "referencia": "Art. 297, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 297, CP"
+    }
+   ],
+   "banca": "FUNDATEC",
+   "ano": "2022",
+   "cargo": "Analista da Polícia Penal",
+   "instituicao": "PP-RS",
+   "obs": "",
+   "enunciado": [
+    "No crime de falsidade de documento público, quando, após a realização da conduta, a finalidade que motivou a prática do crime não for alcançada, haverá o reconhecimento do crime como consumado."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 19,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-9b15ef403161",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 21,
+   "referencia": "Art. 297, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 297, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2022",
+   "cargo": "Oficial de Justiça e Avaliador",
+   "instituicao": "TJ-PI",
+   "obs": "",
+   "enunciado": [
+    "Jorge, falsário experiente e conhecido no submundo do crime, falsifica um cheque do famoso banco privado Prime Bank. Trata-se de uma falsidade material. Atento apenas ao que foi narrado acima, Jorge deverá responder pela pratica do crime de falsificação de documento público."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 20,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5fe719b45468",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 22,
+   "referencia": "Art. 297, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 297, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião/Oficial de Registros - Provimento",
+   "instituicao": "TJ-ES",
+   "obs": "",
+   "enunciado": [
+    "João, agindo com dolo e com o objetivo de prejudicar terceiro, alterou, determinada ata notarial confeccionada pelo tabelionato competente. Contudo, antes de apresentar o referido documento às autoridades públicas, o imóvel de João, por motivo diverso, foi objeto do cumprimento de um mandado de busca e apreensão, ocasião em que foi encontrada a ata notarial alterada. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João responderá pelo crime de falsificação de documento público, na modalidade simples, sem causa de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 21,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1ef9cf20d604",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 23,
+   "referencia": "Art. 297, § 2°, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2°",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2°, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Carolina, Delegada de Polícia, visando à otimização dos trabalhos em sua unidade policial, dividiu os inquéritos policiais por temáticas. Na corrente data, houve o indiciamento de três indivíduos que teriam, em tese, praticado crimes contra a fé pública. Caio é investigado por ter inserido, em documento público, declaração falsa, com o fim de alterar a verdade sobre fato juridicamente relevante. Ele é agente público e teria praticado a conduta prevalecendo-se do cargo ocupado. Por outro lado, Marcos teria falsificado, em parte, um testamento particular. A seu turno, Túlio é acusado de falsificar, no todo, um cartão de crédito. Vale destacar que que todos os agentes agiram com dolo. Nesse cenário, considerando as disposições do Código Penal, avalie a afirmativa a seguir. Marcos responderá pelo crime de falsificação de documento público, na modalidade simples."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "§ 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 22,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d750a811bce4",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 24,
+   "referencia": "Art. 297, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 1º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsificação de documento público (art. 297 do CP) é próprio de funcionário público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "§ 1º - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, aumenta-se a pena de sexta parte.",
+    "§ 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular. o",
+    "§ 3 Nas mesmas penas incorre quem insere ou faz inserir: (Incluído pela Lei nº 9.983, de 2000)",
+    "I – na folha de pagamento ou em documento de informações que seja destinado a fazer prova perante a previdência social, pessoa que não possua a qualidade de segurado obrigatório;(Incluído pela Lei nº 9.983, de 2000)",
+    "II – na Carteira de Trabalho e Previdência Social do empregado ou em documento que deva produzir efeito perante a previdência social, declaração falsa ou diversa da que deveria ter sido escrita; (Incluído pela Lei nº 9.983, de 2000)",
+    "III – em documento contábil ou em qualquer outro documento relacionado com as obrigações da empresa perante a previdência social, declaração falsa ou diversa da que deveria ter constado. (Incluído pela Lei nº 9.983, de 2000)",
+    "o",
+    "§ 4 Nas mesmas penas incorre quem omite, nos documentos mencionados o no § 3 , nome do segurado e seus dados pessoais, a remuneração, a vigência do contrato de trabalho ou de prestação de serviços.(Incluído pela Lei nº 9.983, de 2000)"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 23,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a5dc672ceb28",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 25,
+   "referencia": "Art. 297, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 1º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Conselheiro Substituto",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir em relação ao crime de falsificação de documento público.",
+    "A pena aplicável ao funcionário público que haja falsificado documento público em razão do cargo será aumentada em um terço."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297, § 1º - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 24,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3cc725dbcc12",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 26,
+   "referencia": "Art. 297, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 1º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Auditor Conselheiro Substituto",
+   "instituicao": "TCE-PB",
+   "obs": "",
+   "enunciado": [
+    "A respeito dos crimes contra a fé pública, julgue o seguinte item à luz da legislação vigente e do entendimento dos tribunais superiores. Ao funcionário público que, prevalecendo-se do cargo, falsificar documento público aplicar-se-á a mesma penalidade cominada aos demais agentes."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "§ 1º - Se o agente é funcionário público, e comete o crime prevalecendo- se do cargo, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 25,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-b523e3416465",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 27,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2022",
+   "cargo": "Auditor Conselheiro Substituto",
+   "instituicao": "TCE-PB",
+   "obs": "",
+   "enunciado": [
+    "A respeito dos crimes contra a fé pública, julgue o seguinte item à luz da legislação vigente e do entendimento dos tribunais superiores. Para os efeitos penais, equiparam-se a documento público as ações de sociedade comercial e o testamento particular."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297, § 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 26,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-4ea65005ac18",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 28,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Conselheiro Substituto",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir em relação ao crime de falsificação de documento público.",
+    "A configuração de tal crime requer que o documento falsificado seja de natureza administrativa e tenha sido expedido por órgão estatal, não abrangendo documentos privados de relevância social."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297, § 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 27,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a24ce5fe07bc",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 29,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "instituicao": "SEFAZ-PR",
+   "obs": "",
+   "enunciado": [
+    "Constitui crime de falsificação de documento público: A adulteração de testamento particular."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "§ 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 28,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-431e4a893dda",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 30,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2019",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-MT",
+   "obs": "",
+   "enunciado": [
+    "De acordo com o ordenamento jurídico e o posicionamento dos tribunais superiores acerca dos crimes contra a fé pública, a conduta do agente que altera, em parte, testamento particular, é tipificada como falsificação de documento particular."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "[...]",
+    "§ 2º Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 29,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-aac94bbbf69c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 31,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "Para efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297 [...]",
+    "§ 2º Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 30,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-347e23f4576f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 32,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Técnico Judiciário - Agente da Polícia Judicial",
+   "instituicao": "STM",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir, referentes aos crimes contra a administração pública, contra o patrimônio e contra a fé pública.",
+    "De regra, por ser um título ao portador, o cheque não é elencado como documento público para efeitos penais, sendo sua falsificação tipificada sob o título de falsificação de documento particular."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "§ 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 31,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f986645132cd",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 33,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2026",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-DF",
+   "obs": "",
+   "enunciado": [
+    "De acordo com as disposições do Código Penal e das leis penais especiais, julgue o item subsequente.",
+    "Configura crime de falsificação de documento público a alteração material de testamento particular, de livros mercantis e dos títulos ao portador ou transmissíveis por endosso."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 […]",
+    "§ 2º - Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 32,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-61cbce2d47d3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 34,
+   "referencia": "Art. 297, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 297, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A falsificação de livros mercantis caracteriza o crime de falsificação de documento particular (art. 298 do CP)."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297, §2º Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 33,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-166e1df4d0a9",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 35,
+   "referencia": "Art. 297, § 3º, II, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "§ 3º, II",
+     "sigla": "CP",
+     "texto": "Art. 297, § 3º, II, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2025",
+   "cargo": "Conselheiro Substituto",
+   "instituicao": "TCE-MS",
+   "obs": "",
+   "enunciado": [
+    "Julgue o item a seguir em relação ao crime de falsificação de documento público.",
+    "A inserção, em documento contábil de empresa, de informação falsa que produza efeitos perante a previdência social configura falsificação de documento público em forma especial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 297, § 3º - Nas mesmas penas incorre quem insere ou faz inserir:",
+    "[...]",
+    "II - na Carteira de Trabalho e Previdência Social do empregado ou em documento que deva produzir efeito perante a previdência social, declaração falsa ou diversa da que deveria ter sido escrita;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 34,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5c39b58fd515",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 36,
+   "referencia": "Arts. 297, 298 e 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "297",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 297, 298 e 299, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "298",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 297, 298 e 299, CP"
+    },
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Arts. 297, 298 e 299, CP"
+    }
+   ],
+   "banca": "PGR",
+   "ano": "2025",
+   "cargo": "Procurador da República",
+   "instituicao": "PGR",
+   "obs": "",
+   "enunciado": [
+    "É correto dizer que falsidade de documento público, falsidade de documento particular e falsidade ideológica são descritas da mesma maneira pelo legislador, diferindo, apenas, no bem jurídico protegido."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento público",
+    "Art. 297 - Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:",
+    "Pena - reclusão, de dois a seis anos, e multa.",
+    "Falsificação de documento particular",
+    "Art. 298 - Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro:",
+    "Pena - reclusão, de um a cinco anos, e multa.",
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "297",
+    "ate": "297"
+   },
+   "ordem": 35,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-75b5e1735bac",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 37,
+   "referencia": "Art. 298, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "298",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 298, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista Jurídico",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "Tício, após fazer a proposta de locação de uma casa, aceita pelo locador do imóvel, a fim de comprovar renda, altera o seu contracheque, aumentando o valor de seu salário mensal. Ele entrega o documento falsificado a Mévio, corretor de imóvel que, sem perceber a falsificação, inicia a confecção do contrato, para assinatura. Quando da data da assinatura do contrato, o locador, no entanto, desiste da locação. Mévio, pela desistência da locação, aciona o locador, judicialmente, para receber o valor da comissão, pela intermediação da locação, que entendia devida. Mévio instrui a ação, com todo o processo de locação, inclusive o contracheque, falsificado e apresentado por Tício. Diante da situação hipotética, julgue o seguinte item.",
+    "Tício cometeu o crime de falsificação de documento particular."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de documento particular",
+    "Art. 298 - Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro:",
+    "Pena - reclusão, de um a cinco anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "298",
+    "ate": "298"
+   },
+   "ordem": 36,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-6518c723dc05",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 38,
+   "referencia": "Art. 298, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "298",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 298, § único, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Analista de Procuradoria",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Para fins de falsidade, o cartão de crédito ou débito, por expressa disposição do parágrafo único do art. 298 do CP, equipara-se a documento particular, sem exceção."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação de cartão",
+    "Art. 298, Parágrafo único - Para fins do disposto no caput, equipara-se a documento particular o cartão de crédito ou débito."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "298",
+    "ate": "298"
+   },
+   "ordem": 37,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-c5d58023558c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 39,
+   "referencia": "Art. 298, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "298",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 298, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Carolina, Delegada de Polícia, visando à otimização dos trabalhos em sua unidade policial, dividiu os inquéritos policiais por temáticas. Na corrente data, houve o indiciamento de três indivíduos que teriam, em tese, praticado crimes contra a fé pública. Caio é investigado por ter inserido, em documento público, declaração falsa, com o fim de alterar a verdade sobre fato juridicamente relevante. Ele é agente público e teria praticado a conduta prevalecendo-se do cargo ocupado. Por outro lado, Marcos teria falsificado, em parte, um testamento particular. A seu turno, Túlio é acusado de falsificar, no todo, um cartão de crédito. Vale destacar que que todos os agentes agiram com dolo. Nesse cenário, considerando as disposições do Código Penal, avalie a afirmativa a seguir. Túlio responderá pelo crime de falsificação de documento particular, na modalidade simples."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 298 - Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro: Falsificação de cartão",
+    "§ único. Para fins do disposto no caput, equipara-se a documento particular o cartão de crédito ou débito."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "298",
+    "ate": "298"
+   },
+   "ordem": 38,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-5f4aab21fb9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 40,
+   "referencia": "Art. 298, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "298",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 298, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2026",
+   "cargo": "Analista Judiciário - Execução de Mandados",
+   "instituicao": "TJ-RJ",
+   "obs": "",
+   "enunciado": [
+    "Após a observância do contraditório e da ampla defesa, o juízo da 1ª Vara Criminal da Comarca de Barra Mansa/RJ condenou Caio, definitivamente, pela prática do crime de falsificação de documento particular. Nesse cenário, considerando as disposições do Código Penal, é correto deduzir que Caio foi condenado por falsificar cartão de crédito e débito."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 298 - Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro:",
+    "Pena - reclusão, de um a cinco anos, e multa. Falsificação de cartão",
+    "Parágrafo único. Para fins do disposto no caput, equipara-se a documento particular o cartão de crédito ou débito."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "298",
+    "ate": "298"
+   },
+   "ordem": 39,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-272203bf73a2",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 41,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Juiz de Direito",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsidade material se consubstancia na alteração do conteúdo de documento, ainda que parcial, omitindo declaração que dele devia constar, ou nele inserindo ou fazendo inserir declaração falsa ou diversa da que devia ser escrita."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 40,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-16eb985d3e33",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 42,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRT-24ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Após sofrer um acidente doméstico, sem qualquer relação com as suas funções laborais, Lucas, agindo com dolo, foi ao departamento de recursos humanos da sociedade empresária Alfa, onde atua, e inseriu declaração falsa de determinado documento particular, com o fim de responsabilizar a entidade privada pelo acidente sofrido.",
+    "Nesse cenário, considerando as disposições do Código Penal, Lucas responderá pelo crime de falsidade ideológica, na modalidade simples."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 41,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-f3e387b4bcc0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 43,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Analista de Controle Externo - Auditoria de Contas Públicas",
+   "instituicao": "TCE-PE",
+   "obs": "",
+   "enunciado": [
+    "Durante investigação policial, apurou-se que Lucas, funcionário lotado na Secretaria Estadual de Saúde, inseriu deliberadamente, em sistema eletrônico oficial de emissão de atestados médicos, informações falsas relativas a exames laboratoriais, com o objetivo de permitir que determinadas pessoas obtivessem licenças remuneradas. Embora fossem, em tese, compatíveis com os registros usuais, os dados inseridos jamais existiram de fato. Os atestados eram emitidos digitalmente com autenticação automática do sistema, contendo o nome e o registro profissional de médicos cadastrados, mas sem que tais profissionais tivessem ciência do conteúdo inverídico.",
+    "Diante de tal situação hipotética, julgue o item a seguir acerca da conduta de Lucas.",
+    "Trata-se de crime de falsidade ideológica, pois houve inserção de dados falsos em documentos públicos digitais, com o fim de alterar a verdade sobre fatos juridicamente relevantes."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 42,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e5a1aa3b5eb0",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 44,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Analista Judiciário",
+   "instituicao": "TRF-1ª REGIÃO",
+   "obs": "",
+   "enunciado": [
+    "Guilherme, juiz federal, expediu mandado de intimação visando à oitiva de uma testemunha em juízo. Ao receber a determinação judicial, João, oficial de justiça, deixou de se encaminhar à localidade indicada no mandado. Na verdade, o referido servidor público, agindo com dolo, inseriu uma declaração falsa, em certidão juntada aos autos, no sentido de que teria comparecido ao local, mas a testemunha não pôde ser encontrada.",
+    "Nesse cenário, considerando as disposições do Código Penal, João responderá pelo crime de falsidade ideológica."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 43,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e4e774595755",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 45,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "II Exame Nacional dos Cartórios",
+   "instituicao": "CNJ",
+   "obs": "",
+   "enunciado": [
+    "Daniel, agente público no município Alfa, compareceu à sede de determinado Tabelionato, ocasião em que, livre e voluntariamente, prevalecendo-se do cargo ocupado, omitiu, em uma escritura pública que se lavrava, declaração que dela devia constar, com o fim de alterar a verdade sobre fato juridicamente relevante.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Daniel responderá pelo crime de falsidade ideológica, na modalidade simples, com a incidência de uma causa de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular.",
+    "Parágrafo único - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 44,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fdf1d565b212",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 46,
+   "referencia": "Art. 299, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 299, CP"
+    }
+   ],
+   "banca": "FUNCAB",
+   "ano": "2012",
+   "cargo": "Delegado de Polícia",
+   "instituicao": "PC-RJ",
+   "obs": "",
+   "enunciado": [
+    "É correto afirmar que a seguinte afirmação corresponde ao crime de falsidade ideológica (art. 299 do CP): A fim de auxiliar uma amiga a contratar financiamento para aquisição de eletrodomésticos, Alberico, sócio-gerente em uma empresa têxtil, valendo-se de sua posição, assina declaração afirmando que tal pessoa trabalha de forma remunerada naquele estabelecimento empresarial, o que não condiz coma realidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular.",
+    "Parágrafo único - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 45,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1c646f3c6da3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 47,
+   "referencia": "Art. 299, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 299, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Delegado de Polícia Substituto",
+   "instituicao": "PC-MG",
+   "obs": "",
+   "enunciado": [
+    "Carolina, Delegada de Polícia, visando à otimização dos trabalhos em sua unidade policial, dividiu os inquéritos policiais por temáticas. Na corrente data, houve o indiciamento de três indivíduos que teriam, em tese, praticado crimes contra a fé pública. Caio é investigado por ter inserido, em documento público, declaração falsa, com o fim de alterar a verdade sobre fato juridicamente relevante. Ele é agente público e teria praticado a conduta prevalecendo-se do cargo ocupado. Por outro lado, Marcos teria falsificado, em parte, um testamento particular. A seu turno, Túlio é acusado de falsificar, no todo, um cartão de crédito. Vale destacar que que todos os agentes agiram com dolo. Nesse cenário, considerando as disposições do Código Penal, avalie a afirmativa a seguir. Caio responderá pelo crime de falsidade ideológica, na modalidade simples."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 299 Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "§ único: Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 46,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-ffbcce7de0eb",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 48,
+   "referencia": "Art. 299, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 299, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "II Exame Nacional dos Cartórios",
+   "instituicao": "CNJ",
+   "obs": "",
+   "enunciado": [
+    "Daniel, agente público no município Alfa, compareceu à sede de determinado Tabelionato, ocasião em que, livre e voluntariamente, prevalecendo-se do cargo ocupado, omitiu, em uma escritura pública que se lavrava, declaração que dela devia constar, com o fim de alterar a verdade sobre fato juridicamente relevante.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Daniel responderá pelo crime de falsidade ideológica, na modalidade simples, com a incidência de uma causa de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante: [...]",
+    "Parágrafo único - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 47,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-87d0be7e497f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 49,
+   "referencia": "Art. 299, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 299, § único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2025",
+   "cargo": "Tabelião/Oficial de Registros - Provimento",
+   "instituicao": "TJ-RR",
+   "obs": "",
+   "enunciado": [
+    "Joana, servidora pública municipal, inseriu em documento oficial declaração falsa sobre a residência de um morador local, com o objetivo de permitir a ele acesso a uma vaga em creche pública da localidade.",
+    "Nessa situação hipotética, de acordo com as disposições do Código Penal, a conduta de Joana configura crime de falsidade ideológica em documento público, com causa de aumento de pena em razão de a agente ter praticado a ação no exercício da função pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular.",
+    "Parágrafo único - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 48,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3615e7048c41",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 50,
+   "referencia": "Art. 299, § único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "299",
+     "disp": "§ único",
+     "sigla": "CP",
+     "texto": "Art. 299, § único, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsidade ideológica (art. 299 do CP), em documento público, é próprio de funcionário público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade ideológica",
+    "Art. 299 - Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão de um a três anos, e multa, de quinhentos mil réis a cinco contos de réis, se o documento é particular.",
+    "Parágrafo único - Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registro civil, aumenta-se a pena de sexta parte."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "299",
+    "ate": "299"
+   },
+   "ordem": 49,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-082e77ed8ab8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 51,
+   "referencia": "Art. 300, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "300",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 300, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de falso reconhecimento de firma ou letra somente se caracteriza em documento público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 300 - Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "300",
+    "ate": "300"
+   },
+   "ordem": 50,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fb8da0aa8d02",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 52,
+   "referencia": "Art. 300, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "300",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 300, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2024",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A, escrevente do cartório de notas, reconheceu como verdadeira a firma de B, em documento público, mesmo sabendo da sua falsidade. A conduta de A configura crime de certidão ou atestado ideologicamente falso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falso reconhecimento de firma ou letra",
+    "Art. 300 - Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "300",
+    "ate": "300"
+   },
+   "ordem": 51,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-dfa968553a9e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 53,
+   "referencia": "Art. 300, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "300",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 300, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2014",
+   "cargo": "Auxiliar Judiciário - Reaplicação",
+   "instituicao": "TJ-PA",
+   "obs": "",
+   "enunciado": [
+    "Sobre o crime de Falso Reconhecimento de Firma ou Letra, previsto no Código Penal, é correto afirmar que a conduta típica consiste em reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falso reconhecimento de firma ou letra",
+    "Art. 300 - Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "300",
+    "ate": "300"
+   },
+   "ordem": 52,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0a7bad5ed012",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 54,
+   "referencia": "Art. 300, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "300",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 300, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Auditor Fiscal de Rendas Municipais",
+   "instituicao": "PREFEITURA DE ITATIBA-SP",
+   "obs": "",
+   "enunciado": [
+    "Tendo em conta os crimes contra a fé pública e os crimes contra a administração pública, previstos no Código Penal, julgue o item a seguir.",
+    "O crime de falso reconhecimento de firma ou letra, previsto no art. 300, do CP, é crime comum, podendo ser praticado por qualquer pessoa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falso reconhecimento de firma ou letra",
+    "Art. 300 - Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja:",
+    "Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "300",
+    "ate": "300"
+   },
+   "ordem": 53,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bc2e17ddc172",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 55,
+   "referencia": "Art. 301, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "301",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 301, CP"
+    }
+   ],
+   "banca": "TJ-RS",
+   "ano": "2013",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O agente que atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem, comete o crime de falsidade material de atestado ou certidão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "CERTIDÃO OU ATESTADO IDEOLOGICAMENTE FALSO",
+    "Art. 301 - Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem:",
+    "Pena - detenção, de dois meses a um ano."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "301",
+    "ate": "301"
+   },
+   "ordem": 54,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-7480af1cb434",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 57,
+   "referencia": "Art. 301, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "301",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 301, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Área Judiciária",
+   "instituicao": "TRT-16ª REGIÃO-MA",
+   "obs": "",
+   "enunciado": [
+    "Antônio, Oficial de Justiça, com vontade livre e consciente, ao cumprir mandado de penhora, avaliação e intimação, certificou falsamente, em razão de sua função pública, fato que habilitou o executado Jorge a obter vantagem, consistente em ocultar bens penhoráveis, na medida em que Antônio falsamente certificou que não havia qualquer bem a ser penhorado. Assim agindo, Antônio praticou infração penal de certidão ideologicamente falsa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Certidão ou atestado ideologicamente falso",
+    "Art. 301 - Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem:",
+    "Pena - detenção, de dois meses a um ano."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "301",
+    "ate": "301"
+   },
+   "ordem": 55,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-522b8a205e0e",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 59,
+   "referencia": "Art. 301, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "301",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 301, § 1º, CP"
+    }
+   ],
+   "banca": "TJ-RS",
+   "ano": "2013",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-RS",
+   "obs": "",
+   "enunciado": [
+    "O agente que falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem, comete o crime de certidão ou atestado ideologicamente falso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "FALSIDADE MATERIAL DE ATESTADO OU CERTIDÃO",
+    "Art. 301. [...]",
+    "§ 1º Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem:",
+    "Pena - detenção, de três meses a dois anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "301",
+    "ate": "301"
+   },
+   "ordem": 56,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a2266b207db3",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 60,
+   "referencia": "Art. 301, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "301",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 301, § 1º, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme o Código Penal, é crime contra a fé pública, falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade material de atestado ou certidão",
+    "Art. 301, § 1º - Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem:",
+    "Pena - detenção, de três meses a dois anos."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "301",
+    "ate": "301"
+   },
+   "ordem": 57,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1d9caa99eca5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 61,
+   "referencia": "Art. 302, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "302",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 302, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "No crime de falsidade de atestado médico (art. 302 do CP), independentemente da finalidade de lucro do agente, além da pena privativa de liberdade, aplica-se multa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 302 - Dar o médico, no exercício da sua profissão, atestado falso:",
+    "Pena - detenção, de um mês a um ano.",
+    "Parágrafo único - Se o crime é cometido com o fim de lucro, aplica-se também multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "302",
+    "ate": "302"
+   },
+   "ordem": 58,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a4fc472015f7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 62,
+   "referencia": "Art. 302, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "302",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 302, CP"
+    }
+   ],
+   "banca": "MPT",
+   "ano": "2017",
+   "cargo": "Procurador do Trabalho",
+   "instituicao": "MPT",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsidade de atestado médico consiste em dar o médico, no exercício da sua profissão, atestado falso."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsidade de atestado médico",
+    "Art. 302 - Dar o médico, no exercício da sua profissão, atestado falso:",
+    "Pena - detenção, de um mês a um ano."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "302",
+    "ate": "302"
+   },
+   "ordem": 59,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fd0435ec4b4b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 63,
+   "referencia": "Art. 302, caput e parágrafo único, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "302",
+     "disp": "caput e parágrafo único",
+     "sigla": "CP",
+     "texto": "Art. 302, caput e parágrafo único, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2022",
+   "cargo": "Analista Judiciário - Oficial de Justiça Avaliador Federal",
+   "instituicao": "TRT-13ª REGIÃO-PB",
+   "obs": "",
+   "enunciado": [
+    "Dr. Tíndaro é médico e tem o sonho de adquirir um carro importado zero quilômetro. Ante sua dificuldade em materializar rapidamente seu sonho de consumo, resolve, em alguns casos, expedir atestados médicos para os pacientes que o procuram para indevidamente abonar falta ao serviço, mediante uma taxa de R$50,00 por atestado falso expedido. O esquema do Dr. Tíndaro foi descoberto antes da obtenção do numerário total para a aquisição do veículo. Em relação à conduta do Dr. Tíndaro, é correto afirmar que configura crime de falsidade de atestado médico com pena de detenção e multa."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 302 - Dar o médico, no exercício da sua profissão, atestado falso:",
+    "Pena - detenção, de um mês a um ano.",
+    "Parágrafo único - Se o crime é cometido com o fim de lucro, aplica-se também multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "302",
+    "ate": "302"
+   },
+   "ordem": 60,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-0329caf2c5e7",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 64,
+   "referencia": "Art. 304, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "304",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 304, CP"
+    }
+   ],
+   "banca": "FCC",
+   "ano": "2018",
+   "cargo": "Defensor Público - Reaplicação",
+   "instituicao": "DPE-AM",
+   "obs": "",
+   "enunciado": [
+    "Comete o crime de falsa identidade aquele faz uso de Carteira Nacional de Habilitação (CNH) falsa para conduzir veículo automotor."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Uso de documento falso",
+    "Art. 304 Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os arts. 297 a 302:",
+    "Pena - a cominada à falsificação ou à alteração.",
+    "Falsificação de documento particular",
+    "Art. 298 - Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "304",
+    "ate": "304"
+   },
+   "ordem": 61,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-45df8b9c497c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 65,
+   "referencia": "Art. 304, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "304",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 304, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Delegado de Polícia Federal",
+   "instituicao": "POLÍCIA FEDERAL",
+   "obs": "",
+   "enunciado": [
+    "Com relação aos crimes contra a fé pública, julgue o item que se segue: O indivíduo foragido do sistema carcerário que utiliza carteira de identidade falsa perante a autoridade policial para evitar ser preso pratica o crime de falsa identidade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Uso de documento falso",
+    "Art. 304 - Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os arts. 297 a 302:",
+    "Pena - a cominada à falsificação ou à alteração."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "304",
+    "ate": "304"
+   },
+   "ordem": 62,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-df9da47ed7f8",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 66,
+   "referencia": "Art. 305, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "305",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 305, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de supressão de documento (art. 305 do CP), para se caracterizar, exige que o documento seja verdadeiro."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 305 - Destruir, suprimir ou ocultar, em benefício próprio ou de outrem, ou em prejuízo alheio, documento público ou particular verdadeiro, de que não podia dispor:",
+    "Pena - reclusão, de dois a seis anos, e multa, se o documento é público, e reclusão, de um a cinco anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "305",
+    "ate": "305"
+   },
+   "ordem": 63,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-3aef7612ff32",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 67,
+   "referencia": "Art. 305, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "305",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 305, CP"
+    }
+   ],
+   "banca": "MPT",
+   "ano": "2017",
+   "cargo": "Procurador do Trabalho",
+   "instituicao": "MPT",
+   "obs": "",
+   "enunciado": [
+    "O crime de supressão de documento consiste em destruir, suprimir ou ocultar, em benefício próprio ou de outrem, ou em prejuízo alheio, documento público ou particular verdadeiro, de que não podia dispor."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Supressão de documento",
+    "Art. 305 - Destruir, suprimir ou ocultar, em benefício próprio ou de outrem, ou em prejuízo alheio, documento público ou particular verdadeiro, de que não podia dispor:",
+    "Pena - reclusão, de dois a seis anos, e multa, se o documento é público, e reclusão, de um a cinco anos, e multa, se o documento é particular."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "305",
+    "ate": "305"
+   },
+   "ordem": 64,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-666422899c18",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 68,
+   "referencia": "Art. 306, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "306",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 306, CP"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2012",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem constitui crime apenado com detenção."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsificação do sinal empregado no contraste de metal precioso ou na fiscalização alfandegária, ou para outros fins",
+    "Art. 306 Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem:",
+    "Pena - RECLUSÃO, de dois a seis anos, e multa.",
+    "Parágrafo único - Se a marca ou sinal falsificado é o que usa a",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "306",
+    "ate": "306"
+   },
+   "ordem": 65,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-191b2d868d95",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 69,
+   "referencia": "Art. 307, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "307",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 307, CP"
+    }
+   ],
+   "banca": "MPE-SP",
+   "ano": "2017",
+   "cargo": "Promotor de Justiça Substituto",
+   "instituicao": "MPE-SP",
+   "obs": "",
+   "enunciado": [
+    "A conduta do acusado que, ao ser preso por prática de crime contra o patrimônio, se atribui falsa identidade, constitui contravenção penal relativa à recusa de fornecimento de dados à autoridade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:",
+    "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "307",
+    "ate": "307"
+   },
+   "ordem": 66,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e96cad9b5b2c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 70,
+   "referencia": "Art. 307, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "307",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 307, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A conduta de atribuir a terceiro falsa identidade é penalmente atípica, sendo crime apenas atribuir a si próprio identidade falsa."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem.",
+    "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "307",
+    "ate": "307"
+   },
+   "ordem": 67,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-64fb3edb3168",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 71,
+   "referencia": "Art. 307, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "307",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 307, CP"
+    }
+   ],
+   "banca": "FMP CONCURSOS",
+   "ano": "2012",
+   "cargo": "Tabelião / Oficial de Registros - Remoção",
+   "instituicao": "TJ-AC",
+   "obs": "",
+   "enunciado": [
+    "Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem configura crime de estelionato, apenado com reclusão."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:",
+    "Pena - DETENÇÃO, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "307",
+    "ate": "307"
+   },
+   "ordem": 68,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-d185c53d3369",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 72,
+   "referencia": "Art. 307, CP, c/c S. 522, STJ",
+   "refs": [
+    {
+     "lei": null,
+     "art": "307",
+     "disp": "CP,",
+     "sigla": "",
+     "texto": "Art. 307, CP,"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "I Exame Nacional de Magistratura",
+   "instituicao": "ENFAM",
+   "obs": "",
+   "enunciado": [
+    "Elmo, preso em flagrante, por crime de descaminho, ao ser apresentado à autoridade policial para a lavratura do auto de prisão em flagrante, identifica-se como sendo seu irmão gêmeo com o escopo de ocultar suas extensas anotações criminais. Diante do caso narrado, a opção que corresponde ao fato é: crime de falsa identidade."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:",
+    "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave.",
+    "[...]",
+    "Súmula 522 do STJ - A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa."
+   ],
+   "vinculo": null,
+   "ordem": 69,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-bf9baaa2dcd5",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 73,
+   "referencia": "Art. 307, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "307",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 307, CP"
+    }
+   ],
+   "banca": "IDECAN",
+   "ano": "2026",
+   "cargo": "Escrivão de Polícia",
+   "instituicao": "PC-SC",
+   "obs": "",
+   "enunciado": [
+    "Renata, 45 anos de idade, casada, possui uma vasta certidão de antecedentes criminais. Possui, também, quatro mandados de prisão preventiva que não foram cumpridos. Em uma manhã de domingo, Renata e sua filha Nalu, 6 anos de idade, decidem passar o dia em um Shopping em Belo Horizonte/ MG. Em uma blitz de rotina, o veículo de Renata é parado e ela, ao ser indagada pelo policial militar acerca do seu nome, diz se chamar Sandra, nome de sua irmã caçula. O policial solicita a apresentação da Carteira Nacional de Habilitação e constata que Renata havia lhe atribuído falsa identidade para que não ocorresse a sua prisão preventiva. Diante do exposto, Renata praticara o crime de uso de documento falso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "307",
+    "ate": "307"
+   },
+   "ordem": 70,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-67bfbc66ed31",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 74,
+   "referencia": "Art. 307, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "307",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 307, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2025",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de falsa identidade previsto no art. 307 do CP apenas é punível se não constitui elemento de crime mais grave."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:",
+    "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "307",
+    "ate": "307"
+   },
+   "ordem": 71,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-503f3aaf7549",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 75,
+   "referencia": "Art. 308, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "308",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 308, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "A conduta de ceder o documento de identidade a terceiro, para que dele se utilize, é penalmente atípica, sendo crime apenas o uso, como próprio, de documento alheio."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Falsa identidade",
+    "Art. 307 - Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:",
+    "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elemento de crime mais grave.",
+    "Art. 308 - Usar, como próprio, passaporte, título de eleitor, caderneta de reservista ou qualquer documento de identidade alheia ou ceder a outrem, para que dele se utilize, documento dessa natureza, próprio ou de terceiro:",
+    "Pena - detenção, de quatro meses a dois anos, e multa, se o fato não constitui elemento de crime mais grave."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "308",
+    "ate": "308"
+   },
+   "ordem": 72,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-e1446774be0d",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 76,
+   "referencia": "Art. 311, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 311, CP"
+    }
+   ],
+   "banca": "CESPE/CEBRASPE",
+   "ano": "2021",
+   "cargo": "Policial Rodoviária Federal",
+   "instituicao": "PRF",
+   "obs": "",
+   "enunciado": [
+    "Em uma abordagem durante blitz de rotina em rodovia federal, o policial constatou alteração no chassi do veículo que estava sendo fiscalizado. Questionado pelo policial, o condutor ofereceu-lhe grande quantia em dinheiro para que fosse liberado de imediato.",
+    "Considerando a situação hipotética apresentada, julgue o item a seguir.",
+    "A adulteração grosseira do chassi do veículo não caracteriza crime impossível."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Adulteração de sinal identificador de veículo",
+    "Art. 311. Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente: (Redação dada pela Lei nº 14.562, de 2023)",
+    "Pena - reclusão, de três a seis anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311",
+    "ate": "311"
+   },
+   "ordem": 73,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-fc4e0ccae0db",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 77,
+   "referencia": "Art. 311, § 1º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311",
+     "disp": "§ 1º",
+     "sigla": "CP",
+     "texto": "Art. 311, § 1º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2016",
+   "cargo": "Procurador Municipal",
+   "instituicao": "PREFEITURA DE SERTÃOZINHO-SP",
+   "obs": "",
+   "enunciado": [
+    "Aquele que adultera sinal identificador de veículo automotor responde por crime previsto no art. 311 do Código Penal. O mesmo artigo determina que se o agente cometer o crime no exercício da função pública, a pena será aumentada de metade."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Adulteração de sinal identificador de veículo (Redação dada pela Lei 14.562/2023)",
+    "Art. 311. Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente: (Redação dada pela Lei 14.562/2023)",
+    "Pena - reclusão, de três a seis anos, e multa.",
+    "§ 1º Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de UM TERÇO."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311",
+    "ate": "311"
+   },
+   "ordem": 74,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-a342f1f3f85f",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 78,
+   "referencia": "Art. 311, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 311, § 2º, CP"
+    }
+   ],
+   "banca": "INSTITUTO AOCP",
+   "ano": "2025",
+   "cargo": "Analista do Ministério Público",
+   "instituicao": "MPE-RS",
+   "obs": "",
+   "enunciado": [
+    "Conforme o Código Penal, é crime contra a fé pública, contribuir o funcionário público para o licenciamento ou registro de veículo remarcado ou adulterado, fornecendo indevidamente material ou informação oficial."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 311, § 2º - Incorrem nas mesmas penas do caput deste artigo:",
+    "I – o funcionário público que contribui para o licenciamento ou registro do veículo remarcado ou adulterado, fornecendo indevidamente material ou informação oficial;",
+    "[...]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311",
+    "ate": "311"
+   },
+   "ordem": 75,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1006e0d3382b",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 79,
+   "referencia": "Art. 311, § 2º, III, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311",
+     "disp": "§ 2º, III",
+     "sigla": "CP",
+     "texto": "Art. 311, § 2º, III, CP"
+    }
+   ],
+   "banca": "FGV",
+   "ano": "2024",
+   "cargo": "Agente Penitenciário",
+   "instituicao": "SEAP-BA",
+   "obs": "",
+   "enunciado": [
+    "João conduzia um veículo elétrico, ocasião em que foi parado por policiais militares que realizavam fiscalização de rotina. Durante a abordagem, o condutor acabou confessando que a placa de identificação do automóvel teria sido adulterada, no dia anterior, por um colega. Disse e comprovou, ainda, que a conduta se deu, apenas, para que ele e seu amigo não fossem multados por excesso de velocidade, inexistindo, na conduta perpetrada, qualquer finalidade comercial ou industrial.",
+    "Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João responderá pelo crime de adulteração de sinal identificador de veículo, sem qualificadoras ou causas de aumento de pena."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 311. Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente:",
+    "Pena - reclusão, de três a seis anos, e multa. […]",
+    "§ 2º Incorrem nas mesmas penas do caput deste artigo: […]",
+    "III – aquele que adquire, recebe, transpor ta, conduz, oculta, mantém em depósito, desmonta, monta, remonta, vende, expõe à venda, ou de qualquer forma utiliza, em proveito próprio ou alheio, veículo automotor, elétrico, híbrido, de reboque, semirreboque ou suas combinações ou partes, com número de chassi ou monobloco, placa de identificação ou qualquer sinal identificador veicular que devesse saber estar adulterado ou remarcado.",
+    "§ 3º Praticar as condutas de que tratam os incisos II ou III do § 2º deste artigo no exercício de atividade comercial ou industrial:",
+    "Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311",
+    "ate": "311"
+   },
+   "ordem": 76,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-29eb596d024c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 80,
+   "referencia": "Art. 311-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 311-A, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de fraude em certames de interesse público configura-se pela divulgação de conteúdo de certame, ainda que não sigiloso."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 311-A. Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de:",
+    "I - concurso público;",
+    "II - avaliação ou exame públicos;",
+    "III - processo seletivo para ingresso no ensino superior; ou",
+    "IV - exame ou processo seletivo previstos em lei:"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311-A",
+    "ate": "311-A"
+   },
+   "ordem": 77,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-be9dab02b470",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 81,
+   "referencia": "Art. 311-A, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311-A",
+     "disp": "",
+     "sigla": "CP",
+     "texto": "Art. 311-A, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2023",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "No crime de fraude em certames de interesse público, previsto no artigo 311-A, do Código Penal, é correto afirmar que embora para a caracterização não se exija a ocorrência de dano patrimonial à administração pública, exige-se a finalidade de beneficiar a si próprio ou a outrem, ou de comprometer a credibilidade do certame."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Art. 311-A. Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de: […]"
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311-A",
+    "ate": "311-A"
+   },
+   "ordem": 78,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-14feba30a34c",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 82,
+   "referencia": "Art. 311-A, § 2º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311-A",
+     "disp": "§ 2º",
+     "sigla": "CP",
+     "texto": "Art. 311-A, § 2º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de fraude em certames de interesse público prevê a figura qualificada, se dele resulta dano à administração pública."
+   ],
+   "gabarito": "C",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "o",
+    "Art. 311-A, § 2 Se da ação ou omissão resulta dano à administração pública:",
+    "Pena - reclusão, de 2 (dois) a 6 (seis) anos, e multa."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311-A",
+    "ate": "311-A"
+   },
+   "ordem": 79,
+   "assunto": "",
+   "materia": "Lei Seca"
+  },
+  {
+   "id": "ls-1341fcdccb68",
+   "tipo": "CE",
+   "plataforma": "leiseca",
+   "numero": 83,
+   "referencia": "Art. 311-A, § 3º, CP",
+   "refs": [
+    {
+     "lei": "codigo-penal",
+     "art": "311-A",
+     "disp": "§ 3º",
+     "sigla": "CP",
+     "texto": "Art. 311-A, § 3º, CP"
+    }
+   ],
+   "banca": "VUNESP",
+   "ano": "2018",
+   "cargo": "Escrevente Técnico Judiciário",
+   "instituicao": "TJ-SP",
+   "obs": "",
+   "enunciado": [
+    "O crime de fraude em certames de interesse público é próprio de funcionário público."
+   ],
+   "gabarito": "E",
+   "alternativas": [
+    {
+     "letra": "C",
+     "texto": "Verdadeiro"
+    },
+    {
+     "letra": "E",
+     "texto": "Falso"
+    }
+   ],
+   "resolucao": [
+    "Fraudes em certames de interesse público",
+    "Art. 311-A. Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de:",
+    "I - concurso público;",
+    "II - avaliação ou exame públicos;",
+    "III - processo seletivo para ingresso no ensino superior; ou",
+    "IV - exame ou processo seletivo previstos em lei:",
+    "Pena - reclusão, de 1 (um) a 4 (quatro) anos, e multa. o",
+    "§ 1 Nas mesmas penas incorre quem permite ou facilita, por qualquer meio, o acesso de pessoas não autorizadas às informações mencionadas no caput. o",
+    "§ 2 Se da ação ou omissão resulta dano à administração pública:",
+    "Pena - reclusão, de 2 (dois) a 6 (seis) anos, e multa. o",
+    "§ 3 Aumenta-se a pena de 1/3 (um terço) se o fato é cometido por funcionário público."
+   ],
+   "vinculo": {
+    "lei": "codigo-penal",
+    "de": "311-A",
+    "ate": "311-A"
+   },
+   "ordem": 80,
+   "assunto": "",
+   "materia": "Lei Seca"
+  }
+ ],
+ "caminho": [
+  "Direito Penal",
+  "Parte Especial (Arts. 121 - 359-H)"
+ ]
+}
