@@ -222,19 +222,34 @@ async function carregarHistorico(id) {
 }
 
 async function registrarAlteracoes(id, desde, ate) {
+  const ant = estado.alteracoes[id];
+  if (ant && ant.desde && ant.desde < desde) desde = ant.desde;     // ainda havia aviso não visto: junta com a versão nova
+  const jaVistos = (ant && ant.vistos) || {};                       // artigos que você já analisou e tirou do aviso
   const hist = await carregarHistorico(id);
-  let artigos = [];
+  const porArt = new Map();
   for (const reg of hist) {
     if (reg.versao_nova > desde) {
-      reg.alterados.forEach(a => artigos.push({ artigo: a.artigo, tipo: "alterado" }));
-      reg.incluidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "incluído" }));
-      reg.removidos.forEach(a => artigos.push({ artigo: a.artigo, tipo: "removido" }));
+      const anotar = (a, tipo) => { const x = porArt.get(a.artigo); if (!x) porArt.set(a.artigo, { artigo: a.artigo, tipo, versao: reg.versao_nova }); else if (reg.versao_nova > x.versao) x.versao = reg.versao_nova; };
+      reg.alterados.forEach(a => anotar(a, "alterado"));
+      reg.incluidos.forEach(a => anotar(a, "incluído"));
+      reg.removidos.forEach(a => anotar(a, "removido"));
     }
   }
-  const vistos = new Set();
-  artigos = artigos.filter(a => !vistos.has(a.artigo) && vistos.add(a.artigo));
-  if (artigos.length) estado.alteracoes[id] = { desde, ate, artigos };
-  else delete estado.alteracoes[id];                       // nada mudou no texto da lei (só notas do Planalto): sem aviso
+  const artigos = [...porArt.values()].filter(a => !(jaVistos[a.artigo] && jaVistos[a.artigo] >= a.versao));   // mudou de novo depois de visto: volta o aviso
+  if (artigos.length) estado.alteracoes[id] = { desde, ate, artigos, vistos: jaVistos };
+  else delete estado.alteracoes[id];                       // nada mudou no texto da lei (só notas do Planalto) ou você já viu tudo: sem aviso
+  gravarLS("alteracoes-nao-vistas", estado.alteracoes);
+}
+/* "Já analisei": tira o aviso de um artigo (art) ou da lei inteira (sem art) */
+function dispensarAlteracao(id, art = null) {
+  const alt = estado.alteracoes[id];
+  if (!alt) return;
+  if (art) {
+    const a = alt.artigos.find(x => x.artigo === art);
+    alt.vistos = { ...(alt.vistos || {}), [art]: (a && a.versao) || alt.ate || "9999" };
+    alt.artigos = alt.artigos.filter(x => x.artigo !== art);
+  }
+  if (!art || !alt.artigos.length) delete estado.alteracoes[id];
   gravarLS("alteracoes-nao-vistas", estado.alteracoes);
 }
 /* avisos guardados são conferidos de novo com o histórico atual (o robô tira do histórico o que era só nota) */

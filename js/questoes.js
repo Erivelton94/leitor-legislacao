@@ -77,6 +77,12 @@ function situacaoQ(mapa, qid) {
   const r = respostaAtual(mapa, qid);
   return !r ? "nao" : r.correta ? "certa" : "errada";
 }
+/* próxima questão ainda não respondida, pulando as já respondidas (chegando ao fim, continua do começo) */
+function proximaNaoRespondida(lista, i, mapa = mapaRespostas()) {
+  for (let k = 1; k < lista.length; k++) { const j = (i + k) % lista.length; if (situacaoQ(mapa, lista[j].id) === "nao") return j; }
+  return -1;
+}
+const botaoProxNaoResp = id => `<button class="icone-btn" id="${id}" title="Pula as questões que você já respondeu">⏭ Próxima não respondida</button>`;
 function jaErrou(mapa, qid) { return (mapa.get(qid) || []).some(r => !r.correta); }
 async function redefinirQuestoes(ids) {
   // nova rodada: as alternativas cortadas com a tesoura também voltam ao normal
@@ -359,6 +365,7 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     <div class="barra-q">
       <button class="icone-btn" data-nav="-1" aria-label="Questão anterior" ${i === 0 ? "disabled" : ""}>← Anterior</button>
       <button class="icone-btn" data-nav="1" aria-label="Próxima questão" ${i === l.length - 1 ? "disabled" : ""}>Próxima →</button>
+      ${botaoProxNaoResp("q-prox-nao")}
       <button class="icone-btn" id="q-aleatoria" aria-label="Questão aleatória">Aleatória</button>
       <button class="icone-btn" id="q-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="q-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
@@ -416,6 +423,11 @@ function mostrarQuestao(i, mapa = mapaRespostas()) {
     $("#q-historico").textContent = `Histórico desta questão: ${t.filter(x => x.correta).length} acerto(s) e ${t.filter(x => !x.correta).length} erro(s) em ${t.length} resposta(s).`;
   };
   $$("[data-nav]").forEach(b => b.onclick = () => { mostrarQuestao(i + Number(b.dataset.nav)); window.scrollTo(0, 0); });
+  $("#q-prox-nao").onclick = () => {
+    const j = proximaNaoRespondida(l, i);
+    if (j < 0) { mostrarAvisoRapido("✓ Você já respondeu todas as questões desta seleção"); return; }
+    mostrarQuestao(j); window.scrollTo(0, 0);
+  };
   $("#q-aleatoria").onclick = () => {
     const m = mapaRespostas();
     const pendentes = l.map((x, k) => k).filter(k => k !== i && situacaoQ(m, l[k].id) === "nao");

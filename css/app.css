@@ -277,6 +277,7 @@ select.campo { width: auto; font-size: 15px; padding: 9px 12px; }
 .legenda-diff del { background: var(--del); color: var(--del-t); } .legenda-diff ins { background: var(--add); color: var(--add-t); text-decoration: none; }
 .bloco-alteracao { margin: 18px 0 26px; }
 .bloco-alteracao h3 { font-size: 16px; margin: 0 0 4px; }
+.bloco-alteracao.pendente { border-left: 4px solid var(--alt); padding-left: 12px; }
 .bloco-alteracao .meta { font-size: 13px; color: var(--tinta-2); margin-bottom: 8px; line-height: 1.45; }
 .bloco-alteracao a, .cartao a { color: var(--oliva); font-weight: 600; }
 /* ---------- questões ---------- */
@@ -457,6 +458,13 @@ div.pagina-resumo { padding: 0 !important; }            /* PDF: a página inteir
 .textLayer span, .textLayer br { color: transparent; position: absolute; white-space: pre; cursor: text; transform-origin: 0% 0%; }
 .textLayer ::selection { background: rgba(30, 91, 216, 0.28); }
 .modo-caneta .textLayer { pointer-events: none; -webkit-user-select: none; user-select: none; }
+/* links do PDF (sumário clicável e endereços): áreas invisíveis por cima do texto */
+.camada-links { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.link-pdf { position: absolute; pointer-events: auto; cursor: pointer; border-radius: 2px; }
+.link-pdf:hover, .link-pdf:active { background: rgba(30, 91, 216, 0.14); }
+.modo-caneta .camada-links, .modo-caneta .link-pdf { pointer-events: none; }
+.voltar-link-pdf { position: absolute; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom, 0px) + 24px); pointer-events: auto; z-index: 5; box-shadow: 0 4px 16px rgba(0,0,0,.18); background: var(--papel); }
+.sumario-pdf a { cursor: pointer; }
 .modo-caneta .paginas-resumo section.docx * { pointer-events: none; -webkit-user-select: none; user-select: none; }
 svg.tinta image.figura-sel { outline: 2px dashed var(--oliva); }
 .acoes-figura { display: flex; flex-direction: column; gap: 8px; width: 100%; }

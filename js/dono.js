@@ -162,7 +162,7 @@ function botoesCadernoExtras(id) {
   const dono = cfgDono();
   const doApp = !c.local;
   const ondeComp = ehVisivelParaTodos(id) ? [caminhoDoItemQ(c).join(" › ") || "fora das pastas", c.soQuestoes ? "só as questões" : ""].filter(Boolean).join(" · ") : "";
-  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? `👁 Visível para outros usuários: <strong>ligado</strong>${ondeComp ? ` (${esc(ondeComp)})` : ""} — tocar para mudar o modo ou desligar` : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)"}</button>` : ""}
+  return `${dono ? `<button id="c-visivel">${ehVisivelParaTodos(id) ? `👁 Visível para outros usuários: <strong>ligado</strong>${ondeComp ? ` (${esc(ondeComp)})` : ""} — tocar para mudar o modo ou desligar` : (cadernoForaDoComp(id) && pastaCompartilhada(pastaDoItem(ehListaLS(c) ? PLATAFORMA_LS : "questoes", id)) ? "🙈 Visível para outros usuários: <strong>desligado</strong> (você tirou este item da pasta compartilhada) — tocar para voltar a compartilhar" : "🙈 Visível para outros usuários: <strong>desligado</strong> (tocar para ligar)")}</button>` : ""}
     <button id="c-arquivar">${arq ? "📤 Desarquivar" : "📦 Arquivar"}</button>
     ${doApp && !dono ? "" : `<button id="c-excluir2" style="color:var(--alt)">🗑 Excluir o caderno</button>`}`;
 }

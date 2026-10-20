@@ -771,6 +771,7 @@ function mostrarQuestaoLS(lista, i) {
     <div class="barra-q">
       <button class="icone-btn" data-nav-ls="-1" ${i === 0 ? "disabled" : ""}>← Anterior</button>
       <button class="icone-btn" data-nav-ls="1" ${i === lista.length - 1 ? "disabled" : ""}>Próxima →</button>
+      ${botaoProxNaoResp("ls-prox-nao")}
       <button class="icone-btn" id="ls-aleatoria" aria-label="Questão aleatória">🔀 Aleatória</button>
       <button class="icone-btn" id="ls-fav" aria-pressed="${fav}">${fav ? "★ Favorita" : "☆ Favoritar"}</button>
       <button class="icone-btn" id="ls-nota">${nota && !nota.apagado ? "✎ Meu comentário" : "✎ Comentar"}</button>
@@ -804,6 +805,11 @@ function mostrarQuestaoLS(lista, i) {
     $("#hist-ls").textContent = `Você já respondeu esta questão ${t.length} vez(es): ${t.filter(x => x.correta).length} acerto(s).`;
   });
   $$("[data-nav-ls]").forEach(b => b.onclick = () => { mostrarQuestaoLS(lista, i + Number(b.dataset.navLs)); window.scrollTo(0, 0); });
+  $("#ls-prox-nao").onclick = () => {
+    const j = proximaNaoRespondida(lista, i);
+    if (j < 0) { mostrarAvisoRapido("✓ Você já respondeu todas as questões desta seleção"); return; }
+    mostrarQuestaoLS(lista, j); window.scrollTo(0, 0);
+  };
   $("#ls-aleatoria").onclick = () => {                         // sorteia entre as que ainda não foram respondidas (se todas foram, entre todas)
     const m = mapaRespostas();
     const pendentes = lista.map((x, k) => k).filter(k => k !== i && situacaoQ(m, lista[k].id) === "nao");

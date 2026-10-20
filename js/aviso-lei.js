@@ -33,13 +33,24 @@ async function alteracoesDepoisDaProva(q) {
   }
   return achados;
 }
+/* "Já analisei": a questão deixa de mostrar o aviso (volta se a lei mudar de novo depois disso) */
+const avisoLeiOculto = (q, achados) => { const o = lerLS("avisos-lei-ocultos", {})[q.id]; return !!o && o === assinaturaAviso(achados); };
+const assinaturaAviso = achados => achados.map(x => x.normas.join(",")).join("|");
+function ocultarAvisoLei(q, achados) {
+  const o = lerLS("avisos-lei-ocultos", {});
+  o[q.id] = assinaturaAviso(achados);
+  const ids = Object.keys(o); if (ids.length > 3000) for (const k of ids.slice(0, ids.length - 3000)) delete o[k];
+  gravarLS("avisos-lei-ocultos", o);
+}
 async function mostrarAvisoLeiAlterada(q, el) {
   if (!el) return;
   const achados = await alteracoesDepoisDaProva(q).catch(() => []);
-  if (!achados.length || !el.isConnected || el.dataset.q !== q.id) return;
+  if (!achados.length || !el.isConnected || el.dataset.q !== q.id || avisoLeiOculto(q, achados)) return;
   el.innerHTML = `<p class="aviso forte aviso-lei-alterada">⚠️ <strong>A lei mudou depois desta prova (${esc(String(q.ano))}).</strong>
     ${achados.map(x => `${esc(rotuloArt(x.ref.art, x.ref.lei))}${x.ref.disp ? ", " + esc(x.ref.disp) : ""}: ${esc(x.normas.join(", "))}`).join(" · ")}.
     O gabarito pode não valer mais pela redação atual.
-    ${achados.map((x, k) => `<button class="link" data-aviso-art="${k}">📖 Ver ${esc(rotuloArt(x.ref.art, x.ref.lei))} hoje</button>`).join(" ")}</p>`;
+    ${achados.map((x, k) => `<button class="link" data-aviso-art="${k}">📖 Ver ${esc(rotuloArt(x.ref.art, x.ref.lei))} hoje</button>`).join(" ")}
+    <button class="link" data-aviso-ok>✓ Já analisei, tirar o aviso</button></p>`;
+  el.querySelector("[data-aviso-ok]").onclick = () => { ocultarAvisoLei(q, achados); el.innerHTML = ""; mostrarAvisoRapido("✓ Aviso retirado desta questão"); };
   el.querySelectorAll("[data-aviso-art]").forEach(b => b.onclick = () => painelArtigoLS(achados[Number(b.dataset.avisoArt)].ref));
 }

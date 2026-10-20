@@ -167,18 +167,29 @@ function ultimaAlteracaoResumos() {
   for (const r of resumos.lista.values()) if (r.editadoEm && r.editadoEm > (m.get(r.id) || "")) m.set(r.id, r.editadoEm);
   return m;
 }
+/* modos de ordem (o escolhido fica guardado). O nome usado é o mesmo que aparece embaixo da miniatura. */
+const ORDENS_RES = [["alterados", "Alterados primeiro"], ["modificado", "Última modificação"], ["nome", "Nome (A a Z)"], ["nome-desc", "Nome (Z a A)"],
+  ["importado", "Data de importação (mais novos)"], ["aberto", "Abertos recentemente"]];
+const nomeExibidoRes = r => r.origem || r.titulo || "Sem título";
+const ordemResAtual = () => { const m = lerLS("ordem-resumos", "alterados"); return ORDENS_RES.some(([v]) => v === m) ? m : "alterados"; };
 function ordenarResumos(lista) {
-  const modo = lerLS("ordem-resumos", "alterados");
-  const alt = modo === "alterados" ? ultimaAlteracaoResumos() : new Map();
-  const nome = (a, b) => (a.titulo || a.origem || "").localeCompare(b.titulo || b.origem || "", "pt-BR", { numeric: true });
+  const modo = ordemResAtual();
+  const alt = modo === "alterados" || modo === "modificado" ? ultimaAlteracaoResumos() : new Map();
+  const nome = (a, b) => nomeExibidoRes(a).localeCompare(nomeExibidoRes(b), "pt-BR", { numeric: true, sensitivity: "base" });
+  const data = r => modo === "modificado" ? [alt.get(r.id) || "", r.criadoEm || ""].reduce((x, y) => (y > x ? y : x), "")
+    : modo === "importado" ? r.criadoEm || r.atualizadoEm || "" : modo === "aberto" ? r.abertoEm || "" : alt.get(r.id) || "";
   return lista.slice().sort((a, b) => {
     const fa = a.fixado ? 0 : 1, fb = b.fixado ? 0 : 1;
     if (fa !== fb) return fa - fb;
-    const ta = alt.get(a.id) || "", tb = alt.get(b.id) || "";
+    if (modo === "nome") return nome(a, b);
+    if (modo === "nome-desc") return nome(b, a);
+    const ta = data(a), tb = data(b);                                  // datas: o mais recente em cima; sem data, vai para o fim
     if (ta !== tb) return ta && tb ? tb.localeCompare(ta) : ta ? -1 : 1;
     return nome(a, b);
   });
 }
+/* pastas: fixadas no topo e depois pelo nome (de Z a A quando essa for a ordem escolhida) */
+const ordenarPastasRes = ps => ordemResAtual() === "nome-desc" ? ps.slice().sort((a, b) => (b.fixada ? 1 : 0) - (a.fixada ? 1 : 0) || b.nome.localeCompare(a.nome, "pt-BR", { numeric: true })) : ps;
 async function telaResumos(filtro = "todas", pastaId = null) {
   await carregarResumos();
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
@@ -187,7 +198,7 @@ async function telaResumos(filtro = "todas", pastaId = null) {
   marcarAba("resumos");
   const busca = sessionStorage.getItem("busca-resumos") || "";
   const nLixo = itensDaLixeira().total;
-  const ordem = lerLS("ordem-resumos", "alterados");
+  const ordem = ordemResAtual();
   $("#conteudo").innerHTML = `<div class="secao">
     ${pasta ? trilhaPasta("resumos", pastaId) : ""}
     <div class="acoes-linha">
@@ -203,8 +214,7 @@ async function telaResumos(filtro = "todas", pastaId = null) {
         ${[["todas", "Todas"], ["favoritos", "⭐ Favoritos"], ["recentes", "🕐 Recentes"], ["arquivados", "📦 Arquivados"]].map(([v, r]) => `<button data-filtro-res="${v}" aria-pressed="${filtro === v}">${r}</button>`).join("")}
       </div>`}
       <select class="campo" id="ordem-res" aria-label="Ordem dos arquivos" style="width:auto">
-        <option value="alterados" ${ordem === "alterados" ? "selected" : ""}>Ordem: alterados primeiro</option>
-        <option value="nome" ${ordem === "nome" ? "selected" : ""}>Ordem: por nome</option></select>
+        ${ORDENS_RES.map(([v, n]) => `<option value="${v}" ${ordem === v ? "selected" : ""}>Ordenar: ${n}</option>`).join("")}</select>
     </div>
     <div id="lista-res"></div></div>`;
   const render = async () => {
@@ -230,7 +240,7 @@ async function telaResumos(filtro = "todas", pastaId = null) {
       pastas = pastasDe("resumos", null).filter(p => !p.arquivada);
       lista = lista.filter(r => naPasta(null)(r) && !r.arquivado);
     }
-    if (filtro !== "recentes" || termo.length >= 2) lista = ordenarResumos(lista);
+    if (filtro !== "recentes" || termo.length >= 2) { lista = ordenarResumos(lista); pastas = ordenarPastasRes(pastas); }
     const comp = !pasta && filtro === "todas" && termo.length < 2 && temCompartilhados();
     if (pastas.length || lista.length || comp) {
       h += `<div class="grade-resumos">${comp ? `<div class="tile-pasta tile-compartilhados">
@@ -240,7 +250,7 @@ async function telaResumos(filtro = "todas", pastaId = null) {
         </div>` : ""}${pastas.map(p => `<div class="tile-pasta">
           <button class="tile-abrir" data-href="${esc(rotaPastaArea("resumos", p.id))}" aria-label="Abrir a pasta ${esc(p.nome)}">
             <span class="icone-pasta-grande" aria-hidden="true">${ICONE_PASTA}</span>
-            <span class="nome-arquivo">${p.fixada ? "📌 " : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}${p.publicada === true && cfgDono() ? " 👁" : ""}</span><span class="qtd-pasta">${esc(rotuloQtd("resumos", p.id))}</span></button>
+            <span class="nome-arquivo">${p.fixada ? "📌 " : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}${seloCompPasta(p)}</span><span class="qtd-pasta">${esc(rotuloQtd("resumos", p.id))}</span></button>
           <button class="tile-mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta">⋯</button>
         </div>`).join("")}${lista.map(tileResumo).join("")}</div>`;
     } else h += `<p class="vazio">${filtro === "favoritos" ? "Nenhum resumo favorito." : filtro === "arquivados" ? "Nada arquivado." : pasta ? "Pasta vazia. Importe arquivos para cá, crie uma subpasta ou mova resumos pelo botão ⋯." : "Nenhum resumo ainda. Importe seus arquivos do Word ou PDF."}</p>`;
@@ -276,7 +286,7 @@ function tileResumo(r) {
       <span class="miniatura" data-mini="${esc(r.id)}"><span class="mini-carregando">${r.formato === "pdf" ? "PDF" : r.formato === "docx" ? "DOC" : "TXT"}</span></span>
       <span class="nome-arquivo">${esc(nome)}</span>
     </button>
-    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}${r.fixado ? '<span class="selo-fixo" aria-label="Fixado no topo">📌</span>' : ""}${r.publicado && cfgDono() ? '<span class="selo-vis-res" title="Visível para outros usuários">👁</span>' : ""}
+    ${r.favorito ? '<span class="selo-fav" aria-label="Favorito">★</span>' : ""}${r.fixado ? '<span class="selo-fixo" aria-label="Fixado no topo">📌</span>' : ""}${seloCompResumo(r)}
     <button class="tile-mais" data-menu-resumo="${esc(r.id)}" aria-label="Opções de ${esc(nome)}">⋯</button>
   </div>`;
 }
@@ -985,6 +995,7 @@ function fecharVisor() {
   visor.desenhadas.clear(); visor.textos.clear();
   if (visor.doc) { visor.doc.destroy(); visor.doc = null; }
   visor.id = null;
+  $("#voltar-link-pdf")?.remove();
 }
 
 async function telaResumoOriginal(r) {
@@ -1022,7 +1033,10 @@ async function telaResumoOriginal(r) {
   $("#res-ouvir").onclick = () => ouvirResumo(r);
   $("#res-mais").onclick = () => menuResumoOriginal(r, !!editado);
   try {
-    if (r.formato === "pdf") await montarPdf(r);
+    if (r.formato === "pdf") {
+      await montarPdf(r);
+      if ($("#res-sumario")) { $("#res-sumario").onclick = () => painelSumarioPdf(); sumarioDoPdf().then(l => { if (l.length) $("#res-sumario")?.classList.remove("oculto"); }); }
+    }
     else await montarDocx(r, editado);
     caberNaTela();
   } catch (e) {
@@ -1153,13 +1167,95 @@ async function desenharPaginaPdf(n, div, trocar = false) {
     const tc = await pg.getTextContent();
     if (!visor.textos.has(n)) visor.textos.set(n, textoDaPaginaPdf(tc, base));
     await window.pdfjsLib.renderTextLayer({ textContentSource: tc, container: camada, viewport: vpTexto }).promise;
+    await camadaLinksPdf(pg, div, vpTexto);
   } catch { /* página liberada durante o desenho */ }
+}
+/* Links do PDF: o sumário clicável (vai para a página do tema) e os endereços da internet.
+   Cada link vira uma área invisível por cima da página, no mesmo lugar do PDF. */
+async function camadaLinksPdf(pg, div, vp) {
+  if (!div.isConnected || div.querySelector(".camada-links")) return;
+  const links = (await pg.getAnnotations({ intent: "display" })).filter(a => a.subtype === "Link" && (a.dest || a.url || a.unsafeUrl) && Array.isArray(a.rect));
+  if (!links.length || !div.isConnected || div.querySelector(".camada-links")) return;
+  const camada = document.createElement("div");
+  camada.className = "camada-links";
+  links.forEach((a, k) => {
+    const [x1, y1, x2, y2] = vp.convertToViewportRectangle(a.rect);
+    const el = document.createElement("span");
+    el.className = "link-pdf"; el.setAttribute("role", "link");
+    el.title = a.dest ? "Ir para a página deste tema" : (a.url || a.unsafeUrl);
+    Object.assign(el.style, { left: Math.min(x1, x2) + "px", top: Math.min(y1, y2) + "px", width: Math.abs(x2 - x1) + "px", height: Math.abs(y2 - y1) + "px" });
+    el.onclick = e => { e.preventDefault(); e.stopPropagation(); if (a.dest) irParaDestinoPdf(a.dest); else window.open(a.url || a.unsafeUrl, "_blank", "noopener"); };
+    camada.appendChild(el);
+  });
+  div.appendChild(camada);
+}
+/* destino interno do PDF → página (e altura dentro dela) */
+async function paginaDoDestinoPdf(dest) {
+  const doc = visor.doc; if (!doc) return null;
+  const explicito = typeof dest === "string" ? await doc.getDestination(dest) : dest;
+  if (!Array.isArray(explicito) || !explicito.length) return null;
+  const alvo = explicito[0];
+  const indice = typeof alvo === "number" ? alvo : await doc.getPageIndex(alvo);
+  const n = indice + 1;
+  let topo = null;                                       // "XYZ esquerda topo zoom" e "FitH topo" trazem a altura do tema na página
+  const tipo = explicito[1] && explicito[1].name;
+  if (tipo === "XYZ" && typeof explicito[3] === "number") topo = explicito[3];
+  else if ((tipo === "FitH" || tipo === "FitBH") && typeof explicito[2] === "number") topo = explicito[2];
+  return { n, topo };
+}
+let voltarLinkPdf = null;
+async function irParaDestinoPdf(dest) {
+  const d = await paginaDoDestinoPdf(dest).catch(() => null);
+  if (!d) { mostrarAvisoRapido("Não encontrei a página deste link no PDF"); return; }
+  const pag = document.getElementById("art-p" + d.n);
+  if (!pag) return;
+  const zr = $(".zoom-rolagem");
+  voltarLinkPdf = { y: window.scrollY, zt: zr ? zr.scrollTop : 0, zl: zr ? zr.scrollLeft : 0 };
+  let desloc = 0;
+  if (d.topo !== null) {
+    try { const pg = await visor.doc.getPage(d.n); const base = pg.getViewport({ scale: 1 }); desloc = Math.max(0, (base.height - d.topo) * (LARGURA_PDF / base.width) - 12); } catch {}
+  }
+  const marca = document.createElement("span");                  // marca temporária na altura do tema: rolar até ela funciona com qualquer zoom
+  marca.style.cssText = `position:absolute;left:0;top:${desloc}px;width:1px;height:1px`;
+  pag.appendChild(marca);
+  marca.scrollIntoView({ block: "start" });
+  marca.remove();
+  mostrarVoltarLinkPdf();
+}
+function mostrarVoltarLinkPdf() {
+  $("#voltar-link-pdf")?.remove();
+  const b = document.createElement("button");
+  b.id = "voltar-link-pdf"; b.className = "botao voltar-link-pdf"; b.textContent = "↩ Voltar para onde eu estava";
+  b.onclick = () => {
+    const v = voltarLinkPdf, zr = $(".zoom-rolagem");
+    if (v) { if (zr) { zr.scrollTop = v.zt; zr.scrollLeft = v.zl; } window.scrollTo(0, v.y); }
+    b.remove();
+  };
+  ($("#camada-fixa") || document.body).appendChild(b);
+  clearTimeout(mostrarVoltarLinkPdf.t);
+  mostrarVoltarLinkPdf.t = setTimeout(() => b.remove(), 15000);
+}
+/* sumário do PDF (os marcadores que o próprio arquivo traz) */
+async function sumarioDoPdf() {
+  if (!visor.doc) return [];
+  const out = [];
+  const andar = (lista, nivel) => { for (const it of lista || []) { if (it.dest) out.push({ titulo: it.title, dest: it.dest, nivel }); if (out.length < 600) andar(it.items, nivel + 1); } };
+  try { andar(await visor.doc.getOutline(), 1); } catch {}
+  return out;
+}
+async function painelSumarioPdf() {
+  const itens = await sumarioDoPdf();
+  abrirPainel(`<h2>📑 Sumário do PDF ${botaoFechar}</h2>
+    ${itens.length ? `<nav class="sumario sumario-pdf">${itens.map((x, k) => `<a class="n${Math.min(x.nivel, 4)}" href="#" data-sum-pdf="${k}">${esc(x.titulo)}</a>`).join("")}</nav>`
+      : '<p class="contagem">Este PDF não traz marcadores. Se ele tiver uma página de sumário com links, é só tocar no tema na própria página.</p>'}`);
+  $$("[data-sum-pdf]").forEach(a => a.onclick = e => { e.preventDefault(); fecharPainel(); irParaDestinoPdf(itens[Number(a.dataset.sumPdf)].dest); });
 }
 function liberarPaginaPdf(n, div) {
   const c = visor.desenhadas.get(n);
   if (!c) return;
   c.width = 0; c.height = 0; c.remove();
   div.querySelector(".textLayer")?.remove();
+  div.querySelector(".camada-links")?.remove();
   visor.desenhadas.delete(n);
 }
 
@@ -1185,6 +1281,22 @@ async function montarDocx(r, editado) {
     await docx.renderAsync(blob, cont, cont, { inWrapper: false, ignoreLastRenderedPageBreak: true, breakPages: true, useBase64URL: true, experimental: true });
   }
   $$("section.docx", cont).forEach((s, k) => { s.classList.add("artigo", "pagina-resumo"); s.id = "art-p" + (k + 1); s.dataset.art = "p" + (k + 1); pintarTinta(leiAberta, s); });
+  // sumário do Word: os links internos (#_Toc…) levam ao tema no próprio documento, sem sair do app
+  if (!cont.dataset.linksInternos) {
+    cont.dataset.linksInternos = "1";
+    cont.addEventListener("click", e => {
+      const a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a || caneta.ativa || a.closest("[contenteditable=true]")) return;
+      e.preventDefault();
+      const nome = decodeURIComponent(a.getAttribute("href").slice(1));
+      const el = nome && (document.getElementById(nome) || cont.querySelector(`[name="${CSS.escape(nome)}"]`));
+      if (!el || !cont.contains(el)) return;
+      const zr = $(".zoom-rolagem");
+      voltarLinkPdf = { y: window.scrollY, zt: zr ? zr.scrollTop : 0, zl: zr ? zr.scrollLeft : 0 };
+      el.scrollIntoView({ block: "start" });
+      mostrarVoltarLinkPdf();
+    });
+  }
 }
 function editarDocx(r) {
   if (caneta.ativa) alternarCaneta(false);
@@ -1520,6 +1632,7 @@ function montarDock(r) {
   d.setAttribute("role", "toolbar");
   d.innerHTML = `
     <button class="dock-btn" id="res-caneta" aria-pressed="false" title="Caneta, marca-texto e ícones" aria-label="Caneta">✏️</button>
+    ${r.formato === "pdf" ? '<button class="dock-btn oculto" id="res-sumario" title="Sumário do PDF (ir para o tema)" aria-label="Sumário">📑</button>' : ""}
     <button class="dock-btn" id="res-buscar" title="Buscar no resumo" aria-label="Buscar">🔍</button>
     <button class="dock-btn" id="res-ouvir" title="Ouvir em voz alta (a partir de onde você está)" aria-label="Ouvir">🔊</button>
     ${r.formato === "docx" ? '<button class="dock-btn" id="res-editar-docx" title="Editar o texto" aria-label="Editar texto">📝</button>' : ""}

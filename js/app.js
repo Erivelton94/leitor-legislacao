@@ -55,6 +55,8 @@ document.addEventListener("click", async e => {
   if (apt) { if (confirm("Apagar os desenhos e ícones deste artigo?")) { await apagarItem(apt.dataset.apagarTinta); rotear(); } return; }
   const desf = t.closest("[data-desfavoritar]");
   if (desf) { await apagarItem(desf.dataset.desfavoritar); rotear(); return; }
+  const da = t.closest("[data-dispensar-alt]");
+  if (da) { dispensarAlteracao(da.dataset.dispensarAlt); rotear(); mostrarAvisoRapido("✓ Aviso retirado"); return; }
   const vm = t.closest("[data-ver-mudanca]");
   if (vm) { painelMudanca(vm.dataset.verMudanca); return; }
   const aa = t.closest("[data-atualizar-ancora]");

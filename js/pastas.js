@@ -227,7 +227,7 @@ const ICONE_PASTA = `<svg class="ico-pasta" viewBox="0 0 24 24" aria-hidden="tru
 function linhaPasta(p, qtd, rotulo, destino) {
   const texto = rotulo === "" ? qtd : `${qtd} ${rotulo}`.trim();
   return `<li class="lei-item pasta-item"${p.id ? ` data-sel-pasta="${esc(p.id)}"` : ""}><span class="aba"></span>
-    <button class="abrir" data-href="${esc(destino)}"><span class="lei-nome">${ICONE_PASTA}${p.fixada ? '<span class="lei-pin" title="Fixada no topo">📌</span> ' : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}</span><span class="lei-num">${texto}</span></button>
+    <button class="abrir" data-href="${esc(destino)}"><span class="lei-nome">${ICONE_PASTA}${p.fixada ? '<span class="lei-pin" title="Fixada no topo">📌</span> ' : ""}${esc(p.nome)}${p.arquivada ? " 📦" : ""}${typeof seloCompPasta === "function" ? seloCompPasta(p) : ""}</span><span class="lei-num">${texto}</span></button>
     ${p.id ? `<button class="mais" data-menu-pasta="${esc(p.id)}" aria-label="Opções da pasta ${esc(p.nome)}">⋯</button>` : "<span></span>"}</li>`;
 }
 

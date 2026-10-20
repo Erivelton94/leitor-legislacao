@@ -56,7 +56,7 @@ function telaAcervo(pastaId = null) {
       h += `<div class="aviso forte">⚠️ <strong>${esc(nomeLei(id))}</strong> mudou desde a sua última leitura` +
         (lista ? `: ${esc(lista)}${alt.artigos.length > 8 ? "…" : ""}.` : ".") +
         (comNotas ? ` Você tem marcações em ${comNotas} desses artigos.` : "") +
-        ` <a href="#/alteracoes/${esc(id)}">Ver alterações</a></div>`;
+        ` <a href="#/alteracoes/${esc(id)}">Ver alterações</a> · <button class="link" data-dispensar-alt="${esc(id)}">✓ Já vi, tirar o aviso</button></div>`;
     }
   }
   h += `<ul class="acervo">`;
@@ -193,7 +193,8 @@ async function telaLei(id, alvo) {
     const links = alt.artigos.map(a => `<a href="#/lei/${esc(id)}/${encodeURIComponent(a.artigo)}">${esc(rotuloArt(a.artigo))}</a> (${a.tipo})`).join(", ");
     topoAviso += `<div class="aviso forte">⚠️ Esta lei mudou desde a sua última leitura${links ? ": " + links : ""}. ` +
       `Os artigos alterados estão marcados com uma faixa vermelha à esquerda. ` +
-      `<a href="#/alteracoes/${esc(id)}">Ver antes e depois</a> · <button class="link" id="btn-entendi">Marcar como lido</button></div>`;
+      `<div class="acoes-linha" style="margin-top:8px"><a class="botao" href="#/alteracoes/${esc(id)}" style="text-decoration:none">🔍 Ver antes e depois</a>` +
+      `<button class="botao" id="btn-entendi">✓ Já analisei, tirar o aviso</button></div></div>`;
   }
   const mudadas = itens("anotacao", i => i.lei === id && artigoMudou(i)).length + itens("grifo", i => i.lei === id && artigoMudou(i)).length;
   if (mudadas) topoAviso += `<div class="aviso forte">⚠️ ${mudadas} grifo(s) ou anotação(ões) sua(s) estão em artigos que mudaram depois que você os marcou. Eles foram preservados. <a href="#/estudos/alterados/${esc(id)}">Revisar</a></div>`;
@@ -217,7 +218,7 @@ async function telaLei(id, alvo) {
   if (lerLS("tela-cheia", false)) alternarTelaCheia(true);
   $$("#texto-lei .artigo").forEach(div => aplicarMarcacoes(id, div));
   const btn = $("#btn-entendi");
-  if (btn) btn.onclick = () => { delete estado.alteracoes[id]; gravarLS("alteracoes-nao-vistas", estado.alteracoes); telaLei(id); };
+  if (btn) btn.onclick = () => { dispensarAlteracao(id); telaLei(id); mostrarAvisoRapido("✓ Aviso retirado"); };
 
   const destino = alvo || lerLS("posicao", {})[id];
   if (destino) irParaArtigo(destino, !!alvo);
@@ -259,7 +260,11 @@ async function telaAlteracoes(id) {
     return;
   }
   const alt = estado.alteracoes[id];
-  let h = `<div class="secao"><p class="legenda-diff"><span><del>texto removido</del></span><span><ins>texto adicionado</ins></span></p>`;
+  const pendentes = new Set(alt ? alt.artigos.map(a => a.artigo) : []);
+  let h = `<div class="secao">${alt ? `<div class="aviso forte">🔴 ${alt.artigos.length} artigo(s) com mudança que você ainda não analisou (marcados com 🔴 abaixo).
+      Depois de ler, toque em “✓ Já analisei” em cada um, ou tire o aviso da lei de uma vez.
+      <div class="acoes-linha" style="margin-top:8px"><button class="botao" id="alt-tudo-visto">✓ Já analisei tudo, tirar o aviso</button></div></div>`
+    : `<p class="contagem">✓ Você já analisou todas as mudanças desta lei. O histórico continua aqui para consulta.</p>`}<p class="legenda-diff"><span><del>texto removido</del></span><span><ins>texto adicionado</ins></span></p>`;
   for (const reg of [...hist].reverse()) {
     const novo = alt && reg.versao_nova > alt.desde;
     h += `<h2 style="margin-top:24px">${novo ? "🔴 " : ""}Versão de ${dataCurta(reg.versao_nova)} <span style="font-weight:400">(antes: versão de ${dataCurta(reg.versao_anterior)})</span></h2>`;
@@ -272,14 +277,23 @@ async function telaAlteracoes(id) {
     for (const b of blocos) {
       const marc = marcacoesDoArtigo(id, b.art);
       const norma = normaAlteradora(b.antes, b.depois);
-      h += `<div class="bloco-alteracao"><h3>${esc(rotuloArt(b.art))} — ${b.tipo}</h3>
+      const pend = novo && pendentes.has(b.art);
+      h += `<div class="bloco-alteracao${pend ? " pendente" : ""}" data-bloco-art="${esc(b.art)}"><h3>${pend ? "🔴 " : ""}${esc(rotuloArt(b.art))} — ${b.tipo}</h3>
         <div class="meta">${norma ? "Norma indicada no texto: " + esc(norma) + "<br>" : ""}` +
         `${marc.length ? `<strong style="color:var(--alt)">⚠️ Você possui ${marc.length} marcação(ões) neste artigo.</strong> ` : ""}` +
-        `${b.tipo !== "removido" ? `<a href="#/lei/${esc(id)}/${encodeURIComponent(b.art)}">Abrir na lei</a>` : ""}</div>
+        `${b.tipo !== "removido" ? `<a href="#/lei/${esc(id)}/${encodeURIComponent(b.art)}">Abrir na lei</a>` : ""}` +
+        `${pend ? ` · <button class="link" data-visto-art="${esc(b.art)}">✓ Já analisei este artigo</button>` : ""}</div>
         <div class="diff">${b.tipo === "alterado" ? diffHTML(b.antes, b.depois) : b.tipo === "incluído" ? `<ins>${esc(b.depois)}</ins>` : `<del>${esc(b.antes)}</del>`}</div></div>`;
     }
   }
   $("#conteudo").innerHTML = h + "</div>";
+  if ($("#alt-tudo-visto")) $("#alt-tudo-visto").onclick = () => { dispensarAlteracao(id); telaAlteracoes(id); mostrarAvisoRapido("✓ Aviso retirado desta lei"); };
+  $$("[data-visto-art]").forEach(b => b.onclick = () => {
+    const y = window.scrollY;
+    dispensarAlteracao(id, b.dataset.vistoArt);
+    telaAlteracoes(id).then(() => window.scrollTo(0, y));
+    mostrarAvisoRapido(estado.alteracoes[id] ? "✓ Artigo analisado" : "✓ Pronto: todas as mudanças analisadas, aviso retirado");
+  });
 }
 
 /* ---------- Pesquisar ---------- */

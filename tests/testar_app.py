@@ -202,6 +202,30 @@ async def testes(b):
     ordem2 = await pg.evaluate("[...document.querySelectorAll('.lei-item')].map(e=>e.querySelector('[data-abrir]').dataset.abrir)")
     confere("Lei alterada sobe e lei fixada fica em primeiro", ordem[0] == "lep" and ordem2[0] == "codigo-penal", f"{ordem} → {ordem2}")
     await pg.evaluate("alternarFixada('codigo-penal')")
+    # 5c) Aviso de lei alterada: "já analisei" por artigo ou da lei inteira; o que já foi visto não volta, a não ser que mude de novo
+    vis = await pg.evaluate("""(async()=>{ const guard = JSON.stringify(estado.alteracoes['codigo-penal'] || null), orig = carregarHistorico;
+      let hist = [{ versao_nova: '2026-02-01', versao_anterior: '2026-01-01', alterados: [{ artigo: '121' }], incluidos: [{ artigo: '121-B' }], removidos: [] },
+                  { versao_nova: '2026-03-01', versao_anterior: '2026-02-01', alterados: [{ artigo: '155' }], incluidos: [], removidos: [] }];
+      carregarHistorico = async () => hist;
+      try {
+        delete estado.alteracoes['codigo-penal'];
+        await registrarAlteracoes('codigo-penal', '2026-01-01', '2026-03-01');
+        const a = estado.alteracoes['codigo-penal'].artigos.map(x => x.artigo).sort().join(',');
+        dispensarAlteracao('codigo-penal', '121');
+        const b = estado.alteracoes['codigo-penal'].artigos.map(x => x.artigo).sort().join(',');
+        await registrarAlteracoes('codigo-penal', '2026-01-01', '2026-03-01');            // conferência de novo: o 121 continua visto
+        const c = estado.alteracoes['codigo-penal'].artigos.map(x => x.artigo).sort().join(',');
+        hist = [...hist, { versao_nova: '2026-04-01', versao_anterior: '2026-03-01', alterados: [{ artigo: '121' }], incluidos: [], removidos: [] }];
+        await registrarAlteracoes('codigo-penal', '2026-03-01', '2026-04-01');            // mudou de novo: o 121 volta ao aviso
+        const d = estado.alteracoes['codigo-penal'].artigos.map(x => x.artigo).sort().join(',');
+        location.hash = '#/acervo'; await new Promise(r => setTimeout(r, 600)); rotear(); await new Promise(r => setTimeout(r, 600));
+        const botao = !!document.querySelector("[data-dispensar-alt='codigo-penal']");
+        document.querySelector("[data-dispensar-alt='codigo-penal']")?.click(); await new Promise(r => setTimeout(r, 400));
+        const e = !estado.alteracoes['codigo-penal'] && !document.querySelector("[data-dispensar-alt='codigo-penal']");
+        return [a, b, c, d, botao, e];
+      } finally { carregarHistorico = orig; const g = JSON.parse(guard); if (g) estado.alteracoes['codigo-penal'] = g; else delete estado.alteracoes['codigo-penal']; gravarLS('alteracoes-nao-vistas', estado.alteracoes); } })()""")
+    confere("Lei alterada: “Já analisei” tira o aviso de um artigo ou da lei toda, e só volta se o artigo mudar de novo",
+            vis == ["121,121-B,155", "121-B,155", "121-B,155", "121,121-B,155", True, True], vis)
     tam = await pg.evaluate("(async()=>{ const a=prepararLei(await leiDoCache('lep')).arts; const b=await gerarPdfLei('lep', 0, 9, {grifos:true}); return b.size; })()")
     confere("Gerar PDF de um trecho da lei", tam > 3000, f"{tam} bytes")
     com, sem = await pg.evaluate("""(async()=>{ const arts=prepararLei(await leiDoCache('lep')).arts; const k=arts.findIndex(a=>a.id==='112');
@@ -563,6 +587,24 @@ async def testes(b):
         confere("Outro usuário vê “Compartilhados pelo app” e copia para os próprios resumos no mesmo caminho de pastas do dono", tile == 1 and aberto and copias == [["c1", ""], ["c2", "Penal compartilhado"], ["c3", "Penal compartilhado › Homicídio"]], copias)
         confere("Nenhum erro de programa ao receber compartilhados", not u15.erros, u15.erros[:3])
         await ctx15.close()
+        # dentro da pasta compartilhada: subpastas e arquivos com 👁; tirar uma subpasta e um arquivo; atualizar não devolve; devolver a subpasta
+        sid = await d14.evaluate("window._pp[1]")
+        await d14.evaluate(f"location.hash = rotaPastaArea('resumos', '{pid}')"); await d14.wait_for_timeout(300); await d14.evaluate("rotear()"); await d14.wait_for_timeout(800)
+        olhos = await d14.evaluate("[document.querySelector('.tile-pasta').textContent.includes('👁'), !!document.querySelector(\".tile-resumo[data-id='c2'] .selo-vis-res\")]")
+        await d14.evaluate(f"menuPasta('{sid}')"); await d14.click("#pu-visivel"); await d14.wait_for_timeout(1500)
+        idx_a = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        await d14.evaluate("menuResumo('c2')"); await d14.click("#r-visivel"); await d14.wait_for_timeout(1500)
+        idx_b = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        await d14.evaluate(f"menuPasta('{pid}')"); await d14.click("#pu-atualizar"); await d14.click("[data-comp-modo]"); await d14.wait_for_timeout(1500)
+        idx_c = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        selos = await d14.evaluate(f"[seloCompPasta(estado.itens.get('{sid}')).includes('🙈'), seloCompResumo(resumos.lista.get('c2')).includes('🙈')]")
+        await d14.evaluate(f"menuPasta('{sid}')"); await d14.click("#pu-visivel"); await d14.wait_for_timeout(1500)
+        idx_d = json.loads(github_falso.ARQUIVOS.get("dados/resumos/indice.json", b"{}"))
+        ids_ = lambda i: sorted(r["id"] for r in i.get("resumos", []))
+        confere("Pasta compartilhada: 👁 nas subpastas e arquivos; tirar uma subpasta ou um arquivo (🙈) e eles continuam de fora ao atualizar; devolver a subpasta",
+                olhos == [True, True] and ids_(idx_a) == ["c1", "c2"] and len(idx_a.get("pastas", [])) == 1 and ids_(idx_b) == ["c1"] and ids_(idx_c) == ["c1"]
+                and selos == [True, True] and ids_(idx_d) == ["c1", "c3"] and len(idx_d.get("pastas", [])) == 2,
+                [olhos, ids_(idx_a), ids_(idx_b), ids_(idx_c), selos, ids_(idx_d)])
         # desligar e arquivar tiram do ar
         await d14.evaluate(f"menuPasta('{pid}')"); await d14.click("#pu-visivel"); await d14.wait_for_timeout(1500)
         await d14.evaluate("(async()=>{ const r=resumos.lista.get('c1'); r.arquivado=true; await tirarDoArSeDono([r]); await salvarMeta(r); })()"); await d14.wait_for_timeout(1200)
@@ -652,6 +694,13 @@ async def testes(b):
     confere("Resolver: Verdadeiro/Falso, resultado, resolução e resposta guardada", no_resolver and "acertou" in res[0] and res[1] and res[2] == 1, res)
     await p16.click("#ls-aleatoria"); await p16.wait_for_timeout(300)
     confere("Resolver: botão Aleatória vai para uma questão ainda não respondida", await p16.evaluate("lerLS('sessao-ls',{}).pos") == 1 and await p16.locator(".vf-btn:not([disabled])").count() == 2)
+    prox = await p16.evaluate("""(async()=>{ const s = lerLS('sessao-ls',{}); const lista = s.ids.map(id => estado.q.get(id));
+      const m = mapaRespostas(); const resp = lista.find(q => situacaoQ(m, q.id) !== 'nao'), livre = lista.find(q => situacaoQ(m, q.id) === 'nao');
+      const pula = proximaNaoRespondida([livre, resp, resp, livre], 0, m), volta = proximaNaoRespondida([livre, resp, livre, resp], 2, m), nada = proximaNaoRespondida([resp, livre], 1, m);
+      mostrarQuestaoLS(lista, 1); const antes = lerLS('sessao-ls',{}).pos;
+      document.querySelector('#ls-prox-nao').click(); await new Promise(r => setTimeout(r, 300));
+      return [pula, volta, nada, antes, lerLS('sessao-ls',{}).pos, !!document.querySelector('.vf-btn:not([disabled])')]; })()""")
+    confere("Resolver: “⏭ Próxima não respondida” pula as já respondidas (e volta ao começo no fim da lista)", prox == [3, 0, -1, 1, 1, True], prox)
     await p16.click("#ls-colecoes"); await p16.fill("#col-nome", "Pegadinhas"); await p16.click("#col-criar"); await p16.wait_for_timeout(300); await p16.evaluate("fecharPainel()")
     confere("Lei Seca: criar uma lista minha e pôr a questão enquanto resolve", await p16.evaluate("itens('colecao').map(c=>[c.nome,c.plat,c.ids.length])") == [["Pegadinhas", "ls", 1]] and "1 lista" in await p16.inner_text("#ls-colecoes"))
     await p16.evaluate("(async()=>{ const c = itens('colecao')[0]; iniciarSessaoLS(questoesDaColecao(c), 'x', 0, c.id); })()"); await p16.wait_for_timeout(600)
@@ -880,7 +929,13 @@ async def testes(b):
       const b = await alteracoesDepoisDaProva({ ano: 2027, refs: [{ lei: 'lep', art: '112' }] });
       const q = { ...estado.q.values().next().value, id: 'q-aviso-teste', ano: 2021, refs: [{ lei: 'lep', art: '112' }] };
       estado.q.set(q.id, q); iniciarSessaoME([q], 'Aviso'); await new Promise(r => setTimeout(r, 2500));
-      return [a.length ? a[0].normas : [], b.length, (document.querySelector('.aviso-lei-alterada') || {}).textContent || '']; })()""")
+      const prox = !!document.querySelector('#q-prox-nao');
+      const txt = (document.querySelector('.aviso-lei-alterada') || {}).textContent || '';
+      document.querySelector('[data-aviso-ok]')?.click(); await new Promise(r => setTimeout(r, 200));
+      iniciarSessaoME([q], 'Aviso'); await new Promise(r => setTimeout(r, 2500));
+      const oculto = !document.querySelector('.aviso-lei-alterada');
+      return [a.length ? a[0].normas : [], b.length, txt, prox, oculto]; })()""")
+    confere("Questão: botão “Próxima não respondida” e “Já analisei” tira o aviso da lei alterada (não volta ao abrir de novo)", alt[3] and alt[4], alt[3:])
     confere("Aviso “a lei mudou depois desta prova” pelas notas do artigo (e nada quando a prova é mais nova)", any("2024" in n or "2026" in n for n in alt[0]) and alt[1] == 0 and "mudou depois desta prova" in alt[2], [alt[0][:3], alt[1], alt[2][:90]])
     # modo simulado
     await p19.goto(U + "#/multipla"); await p19.wait_for_timeout(600)
@@ -956,6 +1011,41 @@ async def testes(b):
     confere("Dono desligou e ligou a pasta de novo: quem recebe vê os arquivos dentro das pastas outra vez (não soltos)", sumiu == 0 and volta == "Processo Penal › Inquérito", [sumiu, volta])
     confere("Nenhum erro de programa ao receber questões compartilhadas", not p20.erros, p20.erros[:3])
     await ctx20.close()
+
+    # 21) Resumos: ordenar por nome (o nome que aparece) e por última modificação; sumário clicável do PDF
+    ctx21, p21 = await novo_aparelho(b)
+    await p21.evaluate("""(async()=>{ await carregarResumos();
+      for (const [id, tit, org, cri] of [['o1','Zebra (título interno)','Alfa.pdf','2026-01-03'],['o2','Alfa (título interno)','Zulu.pdf','2026-01-01'],['o3','Meio','Bravo.pdf','2026-01-02']]) {
+        await gravarConteudo(id, '<p>x</p>'); await salvarMeta({ id, titulo: tit, origem: org, pasta: '', formato: 'html', criadoEm: cri }); }
+      const r = resumos.lista.get('o2'); r.editadoEm = '2026-05-01'; await salvarMeta(r, false); })()""")
+    ordens = {}
+    for modo in ["nome", "nome-desc", "modificado", "importado"]:
+        await p21.evaluate(f"gravarLS('ordem-resumos', '{modo}')"); await p21.goto(U + "#/resumos/todas"); await p21.evaluate("rotear()"); await p21.wait_for_timeout(700)
+        ordens[modo] = await p21.evaluate("[...document.querySelectorAll('.tile-resumo')].map(t=>t.dataset.id).join(',')")
+    opcoes = await p21.evaluate("[...document.querySelectorAll('#ordem-res option')].map(o=>o.value).join(',')")
+    confere("Resumos: ordenar por nome (A a Z e Z a A, pelo nome mostrado), última modificação e data de importação",
+            ordens == {"nome": "o1,o3,o2", "nome-desc": "o2,o3,o1", "modificado": "o2,o1,o3", "importado": "o1,o3,o2"} and "modificado" in opcoes, [ordens, opcoes])
+    rid = await p21.evaluate(f"""(async()=>{{ const r = await fetch('tests/fixtures/resumo-sumario.pdf'); const blob = await r.blob();
+      return (await importarArquivo(new File([blob], 'resumo-sumario.pdf', {{ type: 'application/pdf' }}), '')).id; }})()""")
+    await p21.goto(U + f"#/resumo/{rid}"); await p21.wait_for_timeout(3000)
+    for _ in range(20):
+        if await p21.locator("#art-p1 .link-pdf").count() == 3: break
+        await p21.wait_for_timeout(300)
+    n_links = await p21.locator("#art-p1 .link-pdf").count()
+    await p21.locator("#art-p1 .link-pdf").nth(2).click(); await p21.wait_for_timeout(800)
+    no_tema = await p21.evaluate("(()=>{ const r = document.getElementById('art-p4').getBoundingClientRect(); return r.top < 200 && r.bottom > 200; })()")
+    voltar = await p21.locator("#voltar-link-pdf").count()
+    await p21.click("#voltar-link-pdf"); await p21.wait_for_timeout(500)
+    de_volta = await p21.evaluate("document.getElementById('art-p1').getBoundingClientRect().bottom > 100")
+    sumario = await p21.evaluate("!document.getElementById('res-sumario').classList.contains('oculto')")
+    await p21.click("#res-sumario"); await p21.wait_for_timeout(500)
+    itens_sum = await p21.locator("[data-sum-pdf]").count()
+    await p21.locator("[data-sum-pdf]").nth(1).click(); await p21.wait_for_timeout(800)
+    no_furto = await p21.evaluate("(()=>{ const r = document.getElementById('art-p3').getBoundingClientRect(); return r.top < 200 && r.bottom > 200; })()")
+    confere("PDF: o sumário clicável leva à página do tema (com “Voltar para onde eu estava”) e o 📑 mostra os marcadores do arquivo",
+            n_links == 3 and no_tema and voltar == 1 and de_volta and sumario and itens_sum == 3 and no_furto, [n_links, no_tema, voltar, de_volta, sumario, itens_sum, no_furto])
+    confere("Nenhum erro de programa nos resumos (ordem e links do PDF)", not p21.erros, p21.erros[:3])
+    await ctx21.close()
 
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])

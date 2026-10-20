@@ -388,7 +388,7 @@ function base64ParaBlob(b64, tipo) {
    leis do acervo (com o texto), pastas, grifos, anotações e imagens, desenhos,
    favoritos, cadernos de questões e respostas, resumos (arquivos originais,
    edições, marcações e imagens) e as suas preferências. */
-const CHAVES_APP = ["ajustes", "ajustes-resumo", "alteracoes-nao-vistas", "cadernos-locais", "dock-lado", "dock-recolhido", "filtros-q", "info-cadernos", "ouvir-vel",
+const CHAVES_APP = ["ajustes", "ajustes-resumo", "alteracoes-nao-vistas", "avisos-lei-ocultos", "cadernos-locais", "dock-lado", "dock-recolhido", "filtros-q", "info-cadernos", "ouvir-vel",
   "info-leis", "pos-q", "pos-resumo", "posicao", "preferencias-caneta", "status-em", "tela-cheia", "ultima-mudanca"];
 const LOJAS_BACKUP = ["itens", "imagens", "resumos", "resumos_conteudo", "arquivos", "miniaturas"];
 const caminhoDados = url => { const k = url.indexOf("/dados/"); return k >= 0 ? url.slice(k + 1) : url; };
