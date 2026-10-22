@@ -1103,6 +1103,25 @@ async def testes(b):
     pagina = await p22.evaluate("(()=>{ const s=document.querySelectorAll('section.docx'); return [[...s].every(x=>parseFloat(x.style.width) > parseFloat(x.style.minHeight)), getComputedStyle(s[0].querySelector('article')).columnCount]; })()")
     confere("Modo Word: bordas (quadro com cor de fundo e borda só nas palavras) e Layout (margens ABNT, paisagem e duas colunas) em todas as páginas",
             quadro == [True, True, True] and pagina == [True, "2"], [quadro, pagina])
+    # desfazer volta qualquer ação (página, colunas, margens...) e refazer traz de volta; o botão de bordas lembra a última escolha
+    estado_pg = "(()=>{ const s=document.querySelector('section.docx'); return [parseFloat(s.style.width) > parseFloat(s.style.minHeight), getComputedStyle(s.querySelector('article')).columnCount]; })()"
+    for _ in range(2): await p22.click("#w-desfazer"); await p22.wait_for_timeout(150)
+    desfeito = await p22.evaluate(estado_pg)
+    for _ in range(2): await p22.keyboard.press("Control+y"); await p22.wait_for_timeout(150)
+    refeito = await p22.evaluate(estado_pg)
+    icone_borda = await p22.evaluate("document.getElementById('w-ico-borda').textContent")
+    confere("Desfazer volta qualquer ação (até orientação e colunas) e refazer traz de volta; o botão de bordas mostra a última escolha",
+            desfeito[0] is False and desfeito[1] in ("auto", "1") and refeito == [True, "2"] and icone_borda == "⬚", [desfeito, refeito, icone_borda])
+    # pincel fica ligado até desligar: formata vários trechos seguidos
+    await p22.click('[data-waba="inicio"]')
+    sel_txt = """(t)=>{ const p=[...document.querySelectorAll('section.docx p')].find(x=>x.textContent.includes(t)); const n=document.createTreeWalker(p,NodeFilter.SHOW_TEXT).nextNode(); const rg=document.createRange(); rg.selectNodeContents(n); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); }"""
+    await p22.evaluate(sel_txt, "Texto centralizado"); await p22.wait_for_timeout(150); await p22.click("#w-pincel")
+    for alvo in ["Conduta", "Resultado"]:
+        await p22.evaluate(sel_txt, alvo); await p22.wait_for_timeout(80)
+        await p22.evaluate("document.getElementById('texto-lei').dispatchEvent(new MouseEvent('mouseup',{bubbles:true}))"); await p22.wait_for_timeout(250)
+    pincel = await p22.evaluate("""[...['Conduta','Resultado'].map(t=>{ const p=[...document.querySelectorAll('section.docx p')].find(x=>x.textContent.includes(t)); return getComputedStyle(document.createTreeWalker(p,NodeFilter.SHOW_TEXT).nextNode().parentElement).fontFamily.replace(/"/g,''); }), document.getElementById('w-pincel').getAttribute('aria-pressed')]""")
+    await p22.click("#w-pincel")
+    confere("Pincel fica ligado e formata vários trechos até ser desligado", pincel == ["Arial", "Arial", "true"] and await p22.evaluate("document.getElementById('w-pincel').getAttribute('aria-pressed')") == "false", pincel)
     await p22.wait_for_timeout(1500)
     b64 = await p22.evaluate(f"""(async()=>{{ const b = await exportarDocxReal(resumos.lista.get('{rid}'), true); const u = new Uint8Array(await b.arrayBuffer()); let s=''; for (let i=0;i<u.length;i+=8192) s += String.fromCharCode(...u.subarray(i,i+8192)); return btoa(s); }})()""")
     import base64, zipfile, io

@@ -908,7 +908,7 @@ a.botao:not(.primario), a.botao:not(.primario):visited { color: var(--tinta); }
 .w-btn.ligado, .w-btn[aria-pressed="true"] { background: var(--oliva-claro); border-color: var(--oliva); color: var(--oliva); }
 .w-btn sup, .w-btn sub { font-size: 9px; }
 .w-sel { height: 30px; border: 1px solid var(--fio); border-radius: 6px; background: var(--papel); color: var(--tinta); font-size: 13px; padding: 0 4px; }
-.w-sel-fonte { width: 150px; } .w-sel-estilo { width: 130px; height: 34px; }
+.w-sel-estilo { width: 120px; height: 34px; }
 .w-duplo { display: inline-flex; } .w-duplo .w-btn:first-child { padding-right: 2px; } .w-duplo .w-btn + .w-btn { min-width: 18px; padding: 0 3px; font-size: 10px; }
 .w-letra-cor { display: inline-flex; flex-direction: column; align-items: center; line-height: 1; font-weight: 600; }
 .w-tira { width: 16px; height: 4px; margin-top: 2px; border: 1px solid rgba(0,0,0,.15); }
@@ -975,3 +975,10 @@ body.arrastando-coluna, body.arrastando-coluna * { cursor: col-resize !important
 body.arrastando-linha, body.arrastando-linha * { cursor: row-resize !important; user-select: none !important; }
 section.docx .quadro-word { min-height: 1em; }
 section.docx span.borda-texto { box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.w-btn:disabled { opacity: .35; cursor: default; }
+.w-btn:disabled:hover { background: transparent; }
+.w-sel-tam { width: 64px; } .w-sel-espaco { width: 104px; }
+.w-sel-fonte { width: 136px; }
+.w-tira { border-color: rgba(0,0,0,.25); }
+.w-menu .w-item.ligado { font-weight: 600; }
+.w-abas #w-desfazer, .w-abas #w-refazer { font-size: 18px; margin-bottom: 4px; }

@@ -24,6 +24,7 @@ function htmlFaixaWord() {
       ${[["arquivo", "Arquivo"], ["inicio", "Página Inicial"], ["inserir", "Inserir"], ["layout", "Layout"], ["tabela", "Tabela"], ["revisao", "Revisão"]].map(([v, n]) =>
         `<button class="w-aba${v === "tabela" ? " oculto" : ""}" data-waba="${v}" role="tab" aria-selected="${v === "inicio"}">${n}</button>`).join("")}
       <span class="w-espaco"></span>
+      ${b("w-desfazer", "↶", "Desfazer (Ctrl+Z)")}${b("w-refazer", "↷", "Refazer (Ctrl+Y)")}
       <span class="status-salvo" id="status-salvo"></span>
       <button id="docx-concluir" class="botao primario w-concluir">✓ Concluir</button>
     </div>
@@ -33,22 +34,20 @@ function htmlFaixaWord() {
         ${grupo("Versões", b("w-original", "↩ Voltar ao original", "Desfazer todas as edições e voltar ao arquivo original"))}
       </div>
       <div class="w-painel ativo" data-wpainel="inicio">
-        ${grupo("Desfazer", cmd("undo", "↶", "Desfazer (Ctrl+Z)") + cmd("redo", "↷", "Refazer (Ctrl+Y)"))}
         ${grupo("Fonte", `<div class="w-linha">
             <select class="w-sel w-sel-fonte" id="w-fonte" aria-label="Fonte">${FONTES_WORD.map(f => `<option value="${f}" style="font-family:'${f}'">${f}</option>`).join("")}</select>
-            <select class="w-sel" id="w-tam" aria-label="Tamanho da fonte">${TAMANHOS_WORD.map(t => `<option value="${t}">${String(t).replace(".", ",")}</option>`).join("")}</select>
-            ${b("w-maior", "A<sup>+</sup>", "Aumentar a fonte")}${b("w-menor", "A<sup>−</sup>", "Diminuir a fonte")}</div>
-          <div class="w-linha">${cmd("bold", "<b>N</b>", "Negrito (Ctrl+B)")}${cmd("italic", "<i>I</i>", "Itálico (Ctrl+I)")}${cmd("underline", "<u>S</u>", "Sublinhado (Ctrl+U)")}${cmd("strikeThrough", "<s>abc</s>", "Tachado")}
-            ${cmd("superscript", "x²", "Sobrescrito")}${cmd("subscript", "x₂", "Subscrito")}
+            <select class="w-sel w-sel-tam" id="w-tam" aria-label="Tamanho da fonte">${TAMANHOS_WORD.map(t => `<option value="${t}">${String(t).replace(".", ",")}</option>`).join("")}</select></div>
+          <div class="w-linha">${b("w-maior", "A<sup>+</sup>", "Aumentar a fonte")}${b("w-menor", "A<sup>−</sup>", "Diminuir a fonte")}${b("w-limpar", "A<sub>✕</sub>", "Limpar a formatação")}${b("w-pincel", "🖌", "Pincel: copia a formatação e aplica em cada trecho que você selecionar, até tocar de novo para desligar", 'aria-pressed="false"')}</div>`)}
+        ${grupo("Texto", `<div class="w-linha">${cmd("bold", "<b>N</b>", "Negrito (Ctrl+B)")}${cmd("italic", "<i>I</i>", "Itálico (Ctrl+I)")}${cmd("underline", "<u>S</u>", "Sublinhado (Ctrl+U)")}${cmd("strikeThrough", "<s>abc</s>", "Tachado")}</div>
+          <div class="w-linha">${cmd("superscript", "x²", "Sobrescrito")}${cmd("subscript", "x₂", "Subscrito")}
             <span class="w-duplo">${b("w-cor", '<span class="w-letra-cor">A<span class="w-tira" id="w-tira-cor" style="background:#C00000"></span></span>', "Cor da fonte")}${b("w-cor-mais", "▾", "Escolher a cor da fonte")}</span>
-            <span class="w-duplo">${b("w-marca", '<span class="w-letra-cor">🖍<span class="w-tira" id="w-tira-marca" style="background:#FFFF00"></span></span>', "Marca-texto")}${b("w-marca-mais", "▾", "Escolher a cor do marca-texto")}</span>
-            ${b("w-limpar", "A<sub>✕</sub>", "Limpar a formatação")}${b("w-pincel", "🖌", "Pincel: copiar a formatação para outro trecho", 'aria-pressed="false"')}</div>`)}
-        ${grupo("Parágrafo", `<div class="w-linha">${b("w-marcadores", "•≡", "Marcadores")}${b("w-numeracao", "1≡", "Numeração")}${b("w-recuo-menos", "⇤", "Diminuir o recuo")}${b("w-recuo-mais", "⇥", "Aumentar o recuo")}
-            <select class="w-sel" id="w-entrelinhas" aria-label="Espaçamento entre linhas" title="Espaçamento entre linhas"><option value="">↕ Espaço</option>${["1", "1.15", "1.5", "2", "2.5", "3"].map(v => `<option value="${v}">${v.replace(".", ",")}</option>`).join("")}</select></div>
-          <div class="w-linha">${cmd("justifyLeft", "⯇≡", "Alinhar à esquerda")}${cmd("justifyCenter", "≡", "Centralizar")}${cmd("justifyRight", "≡⯈", "Alinhar à direita")}${cmd("justifyFull", "☰", "Justificar")}
-            ${b("w-espaco-antes", "¶↑", "Espaço antes do parágrafo")}${b("w-espaco-depois", "¶↓", "Espaço depois do parágrafo")}
-            <span class="w-duplo">${b("w-sombreamento", '<span class="w-letra-cor">▧<span class="w-tira" id="w-tira-sombra" style="background:#FFF2CC"></span></span>', "Sombreamento (cor de fundo do parágrafo ou do quadro)")}${b("w-sombreamento-mais", "▾", "Escolher a cor do sombreamento")}</span>
-            <span class="w-duplo">${b("w-borda", '<span class="w-ico-borda" id="w-ico-borda">▣</span>', "Bordas: colocar o texto selecionado dentro de um quadro")}${b("w-borda-mais", "▾", "Opções de bordas")}</span></div>`)}
+            <span class="w-duplo">${b("w-marca", '<span class="w-letra-cor">🖍<span class="w-tira" id="w-tira-marca" style="background:#FFFF00"></span></span>', "Marca-texto")}${b("w-marca-mais", "▾", "Escolher a cor do marca-texto")}</span></div>`)}
+        ${grupo("Parágrafo", `<div class="w-linha">${b("w-marcadores", "•≡", "Marcadores")}${b("w-numeracao", "1≡", "Numeração")}${b("w-recuo-menos", "⇤", "Diminuir o recuo")}${b("w-recuo-mais", "⇥", "Aumentar o recuo")}</div>
+          <div class="w-linha">${cmd("justifyLeft", "⯇≡", "Alinhar à esquerda")}${cmd("justifyCenter", "≡", "Centralizar")}${cmd("justifyRight", "≡⯈", "Alinhar à direita")}${cmd("justifyFull", "☰", "Justificar")}</div>`)}
+        ${grupo("Espaçamento", `<div class="w-linha"><select class="w-sel w-sel-espaco" id="w-entrelinhas" aria-label="Espaçamento entre linhas" title="Espaçamento entre linhas"><option value="">↕ Linhas</option>${["1", "1.15", "1.5", "2", "2.5", "3"].map(v => `<option value="${v}">${v.replace(".", ",")}</option>`).join("")}</select></div>
+          <div class="w-linha">${b("w-espaco-antes", "¶↑", "Espaço antes do parágrafo")}${b("w-espaco-depois", "¶↓", "Espaço depois do parágrafo")}</div>`)}
+        ${grupo("Bordas", `<div class="w-linha"><span class="w-duplo">${b("w-borda", '<span class="w-letra-cor"><span class="w-ico-borda" id="w-ico-borda">▣</span><span class="w-tira" id="w-tira-borda" style="background:#000000"></span></span>', "Bordas")}${b("w-borda-mais", "▾", "Opções de bordas")}</span></div>
+          <div class="w-linha"><span class="w-duplo">${b("w-sombreamento", '<span class="w-letra-cor">▧<span class="w-tira" id="w-tira-sombra" style="background:#FFF2CC"></span></span>', "Sombreamento (cor de fundo do parágrafo ou do quadro)")}${b("w-sombreamento-mais", "▾", "Escolher a cor do sombreamento")}</span></div>`)}
         ${grupo("Estilos", `<select class="w-sel w-sel-estilo" id="w-estilo" aria-label="Estilo do parágrafo">${ESTILOS_WORD.map(([v, n]) => `<option value="${v}">${n}</option>`).join("")}</select>`)}
       </div>
       <div class="w-painel" data-wpainel="inserir">
@@ -65,7 +64,7 @@ function htmlFaixaWord() {
       <div class="w-painel" data-wpainel="tabela">
         ${grupo("Linhas", b("w-lin-acima", "+ Linha acima", "Inserir linha acima") + b("w-lin-abaixo", "+ Linha abaixo", "Inserir linha abaixo") + b("w-lin-excluir", "− Excluir linha", "Excluir a linha"))}
         ${grupo("Colunas", b("w-col-esq", "+ Coluna à esquerda", "Inserir coluna à esquerda") + b("w-col-dir", "+ Coluna à direita", "Inserir coluna à direita") + b("w-col-excluir", "− Excluir coluna", "Excluir a coluna"))}
-        ${grupo("Célula", `<span class="w-duplo">${b("w-sombra", "🎨 Sombreamento", "Cor de fundo da célula")}</span>` + b("w-tab-excluir", "🗑 Excluir tabela", "Excluir a tabela inteira"))}
+        ${grupo("Célula", `<span class="w-duplo">${b("w-sombra", '<span class="w-letra-cor">🎨<span class="w-tira" id="w-tira-celula" style="background:#FFF2CC"></span></span> Sombreamento', "Cor de fundo da célula")}${b("w-sombra-mais", "▾", "Escolher a cor de fundo da célula")}</span>` + b("w-tab-excluir", "🗑 Excluir tabela", "Excluir a tabela inteira"))}
       </div>
       <div class="w-painel" data-wpainel="revisao">
         ${grupo("Localizar", b("w-localizar", "🔍 Localizar e substituir", "Localizar e substituir (Ctrl+F)"))}
@@ -128,7 +127,55 @@ function editarDocx(r) {
     r.previa = texto.slice(0, 220); r.editadoEm = agoraISO(); await salvarMeta(r);
     const st = $("#status-salvo"); if (st) st.textContent = "✓ Salvo";
   };
-  const agendar = () => { const st = $("#status-salvo"); if (st) st.textContent = "Salvando…"; clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
+  const agendarSalvar = () => { const st = $("#status-salvo"); if (st) st.textContent = "Salvando…"; clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
+  /* Desfazer e refazer próprios: o do navegador só conhece parte das ações (não vê bordas, tabelas, tamanhos, página...).
+     A cada mudança o documento inteiro é guardado; desfazer volta exatamente ao estado anterior, seja qual for a ação. */
+  const hist = { lista: [], pos: -1, timer: null };
+  const caminhoNo = no => { const p = []; for (let n = no; n && n !== cont; n = n.parentNode) { if (!n.parentNode) return null; p.unshift([...n.parentNode.childNodes].indexOf(n)); } return p; };
+  const noDoCaminho = p => { let n = cont; for (const i of p || []) { if (!n.childNodes[i]) return null; n = n.childNodes[i]; } return p ? n : null; };
+  const fotografar = () => {
+    const s = getSelection(); let sel = null;
+    if (s.rangeCount && cont.contains(s.anchorNode)) { const r = s.getRangeAt(0); sel = [caminhoNo(r.startContainer), r.startOffset, caminhoNo(r.endContainer), r.endOffset]; }
+    return { html: cont.innerHTML, sel };
+  };
+  const atualizarBotoesHist = () => { const d = $("#w-desfazer"), r = $("#w-refazer"); if (d) d.disabled = hist.pos <= 0 && !hist.timer; if (r) r.disabled = hist.pos >= hist.lista.length - 1 || !!hist.timer; };
+  const registrarHist = () => {
+    clearTimeout(hist.timer); hist.timer = null;
+    const f = fotografar(), atual = hist.lista[hist.pos];
+    if (atual && atual.html === f.html) { atual.sel = f.sel; atualizarBotoesHist(); return; }
+    hist.lista.splice(hist.pos + 1); hist.lista.push(f);
+    const limite = f.html.length > 4e6 ? 15 : 60;                 // documento com muitas imagens: guarda menos passos
+    while (hist.lista.length > limite) hist.lista.shift();
+    hist.pos = hist.lista.length - 1; atualizarBotoesHist();
+  };
+  const agendarHist = tipo => { hist.tipo = tipo; clearTimeout(hist.timer); hist.timer = setTimeout(registrarHist, 500); atualizarBotoesHist(); };
+  const fecharPasso = () => { if (hist.timer) registrarHist(); };     // a mudança anterior vira um passo do desfazer antes da próxima
+  const restaurarHist = f => {
+    cont.innerHTML = f.html;
+    selDocx = null; alvoAlca = null; ferramentasImagemDocx(null);
+    if (f.sel) {
+      try {
+        const a = noDoCaminho(f.sel[0]), z = noDoCaminho(f.sel[2]);
+        if (a && z) {
+          const lim = (n, o) => Math.min(o, n.nodeType === 3 ? n.length : n.childNodes.length);
+          const sec = (a.nodeType === 1 ? a : a.parentElement).closest("section.docx"); sec?.focus({ preventScroll: true });
+          const r = document.createRange(); r.setStart(a, lim(a, f.sel[1])); r.setEnd(z, lim(z, f.sel[3]));
+          const s = getSelection(); s.removeAllRanges(); s.addRange(r); guardarSel();
+          (a.nodeType === 1 ? a : a.parentElement).scrollIntoView({ block: "nearest" });
+        }
+      } catch { /* a seleção antiga não cabe mais: fica sem cursor */ }
+    }
+    posAlcas(); ajustarCaixaZoom(); agendarSalvar(); agendarEstado(); atualizarBotoesHist();
+  };
+  const desfazer = () => { if (hist.timer) registrarHist(); if (hist.pos <= 0) { mostrarAvisoRapido("Não há nada para desfazer"); return; } hist.pos--; restaurarHist(hist.lista[hist.pos]); };
+  const refazer = () => { if (hist.timer) registrarHist(); if (hist.pos >= hist.lista.length - 1) { mostrarAvisoRapido("Não há nada para refazer"); return; } hist.pos++; restaurarHist(hist.lista[hist.pos]); };
+  const agendar = e => { agendarSalvar(); agendarHist(e instanceof Event && e.type === "input" ? "digitando" : "acao"); };
+  const antesDaInsercao = e => {                           // desfazer do teclado do iPad, do menu Editar ou do gesto de três dedos
+    if (e.inputType === "historyUndo") { e.preventDefault(); desfazer(); }
+    else if (e.inputType === "historyRedo") { e.preventDefault(); refazer(); }
+    else if (hist.timer && hist.tipo === "acao") registrarHist();      // começou a digitar depois de um botão: passos separados
+  };
+  cont.addEventListener("beforeinput", antesDaInsercao);
   window.salvarResumoPendente = async () => { clearTimeout(tempo); await salvar(); };
   cont.addEventListener("input", agendar);
   cont.addEventListener("input", ajustarCaixaZoom);
@@ -203,7 +250,7 @@ function editarDocx(r) {
     guardarSel(); aplicarTamanho(f.pt);
   };
   const soltarPincel = () => { pincel = null; $("#w-pincel")?.setAttribute("aria-pressed", "false"); cont.classList.remove("cursor-pincel"); };
-  const aoSoltar = () => { if (!pincel) return; setTimeout(() => { guardarSel(); if (selDocx && !selDocx.collapsed) { colarFormato(pincel); soltarPincel(); } }, 30); };
+  const aoSoltar = () => { if (!pincel) return; setTimeout(() => { guardarSel(); if (pincel && selDocx && !selDocx.collapsed) { if (hist.timer) registrarHist(); colarFormato(pincel); const s = getSelection(); s.collapseToEnd(); guardarSel(); } }, 30); };   // continua ligado até você desligar
   cont.addEventListener("mouseup", aoSoltar); cont.addEventListener("touchend", aoSoltar);
 
   /* cores (fonte, marca-texto e fundo da célula) */
@@ -361,7 +408,10 @@ function editarDocx(r) {
     if (mod && k === "f") { e.preventDefault(); trocarAba("revisao"); abrirBusca(); return; }
     if (mod && k === "h") { e.preventDefault(); trocarAba("revisao"); abrirBusca(); $("#w-troca-txt").focus(); return; }
     if (mod && k === "k") { e.preventDefault(); $("#w-link").click(); return; }
-    if (mod && k === "y") { e.preventDefault(); executar("redo"); return; }
+    const noTexto = !/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName);
+    if (mod && k === "z" && noTexto) { e.preventDefault(); e.shiftKey ? refazer() : desfazer(); return; }
+    if (mod && k === "y" && noTexto) { e.preventDefault(); refazer(); return; }
+    if (e.key === "Escape" && pincel) { soltarPincel(); return; }
     if (e.key === "Tab" && cont.contains(e.target)) {
       const td = celulaAtual();
       e.preventDefault();
@@ -443,6 +493,7 @@ function editarDocx(r) {
     guardarSel(); agendar(); posAlcas();
   };
   const sombrear = cor => {
+    fecharPasso();
     voltarSelecao();
     const fundo = cor === "transparent" || !cor ? "" : cor;
     const cels = celulasSelecionadas();
@@ -450,11 +501,25 @@ function editarDocx(r) {
     else { const q = quadroDaSelecao(); (q ? [q] : blocosDaSelecao()).forEach(b => { b.style.backgroundColor = fundo; }); }
     agendar();
   };
+  const ICONES_BORDA = { inferior: "▁", superior: "▔", esquerda: "▏", direita: "▕", todas: "▣", externa: "□", texto: "⬚", nenhuma: "⊘" };
+  const NOMES_BORDA = { inferior: "Borda inferior", superior: "Borda superior", esquerda: "Borda esquerda", direita: "Borda direita", todas: "Todas as bordas (quadro)", externa: "Borda externa", texto: "Borda só nas palavras", nenhuma: "Sem borda" };
+  let ultimaBorda = ICONES_BORDA[lerLS("word-borda-tipo", "todas")] ? lerLS("word-borda-tipo", "todas") : "todas";
+  const mostrarUltimaBorda = () => {
+    $("#w-ico-borda").textContent = ICONES_BORDA[ultimaBorda];
+    $("#w-tira-borda").style.background = ultimaBorda === "nenhuma" ? "transparent" : bordaCfg.cor;
+    $("#w-tira-borda").style.borderStyle = bordaCfg.estilo === "double" ? "double" : bordaCfg.estilo;
+    $("#w-borda").title = `${NOMES_BORDA[ultimaBorda]} (${String(bordaCfg.pt).replace(".", ",")} pt) - toque para aplicar de novo`;
+  };
+  const usarBorda = tipo => { fecharPasso(); if (tipo !== "dialogo") { ultimaBorda = tipo; gravarLS("word-borda-tipo", tipo); } mostrarUltimaBorda(); aplicarBorda(tipo); };
+  mostrarUltimaBorda();
+  let corCelula = lerLS("word-celula", "#FFF2CC");
+  $("#w-tira-celula").style.background = corCelula;
+  const pintarCelulas = c => { voltarSelecao(); const cels = celulasSelecionadas(); if (!cels.length) { mostrarAvisoRapido("Toque dentro de uma tabela primeiro"); return; } cels.forEach(x => { x.style.backgroundColor = c === "transparent" ? "" : c; }); agendar(); };
   const ITENS_BORDA = [["inferior", "▁ Borda inferior"], ["superior", "▔ Borda superior"], ["esquerda", "▏ Borda esquerda"], ["direita", "▕ Borda direita"],
     ["todas", "▣ Todas as bordas (quadro)"], ["externa", "□ Borda externa"], ["texto", "⬚ Borda só nas palavras selecionadas"], ["nenhuma", "✕ Sem borda"], ["dialogo", "⚙ Bordas e sombreamento…"]];
-  const abrirMenu = (botao, itens, aoEscolher) => {
+  const abrirMenu = (botao, itens, aoEscolher, escolhido = null) => {
     const caixa = $("#w-cores");
-    caixa.innerHTML = `<div class="w-menu">${itens.map(([v, n]) => v === "-" ? '<hr>' : `<button class="w-btn w-item" data-wmenu="${v}">${n}</button>`).join("")}</div>`;
+    caixa.innerHTML = `<div class="w-menu">${itens.map(([v, n]) => v === "-" ? '<hr>' : `<button class="w-btn w-item${v === escolhido ? " ligado" : ""}" data-wmenu="${v}">${v === escolhido ? "✓ " : ""}${n}</button>`).join("")}</div>`;
     const rb = botao.getBoundingClientRect(), rf = barra.getBoundingClientRect();
     caixa.style.left = Math.max(4, Math.min(rb.left - rf.left, rf.width - 260)) + "px"; caixa.style.top = (rb.bottom - rf.top + 4) + "px";
     caixa.classList.remove("oculto"); caixa.classList.add("w-cores-menu");
@@ -467,8 +532,8 @@ function editarDocx(r) {
       <div class="bordas-dialogo">
         <label>Estilo <select class="campo" id="bd-estilo">${[["solid", "Linha contínua"], ["dashed", "Tracejada"], ["dotted", "Pontilhada"], ["double", "Dupla"]].map(([v, n]) => `<option value="${v}" ${bordaCfg.estilo === v ? "selected" : ""}>${n}</option>`).join("")}</select></label>
         <label>Espessura <select class="campo" id="bd-pt">${[0.5, 0.75, 1, 1.5, 2.25, 3, 4.5, 6].map(v => `<option value="${v}" ${bordaCfg.pt === v ? "selected" : ""}>${String(v).replace(".", ",")} pt</option>`).join("")}</select></label>
-        <div><span class="contagem">Cor da borda</span><div class="w-cores-grade">${CORES_WORD.map(c => `<button class="w-cor" data-bdcor="${c}" style="background:${c}"></button>`).join("")}</div></div>
-        <div><span class="contagem">Sombreamento (cor de dentro)</span><div class="w-cores-grade">${["transparent", "#FFF2CC", "#E2EFDA", "#DDEBF7", "#FCE4D6", "#EDEDED", "#FFE58A", "#BDEBC4", "#BFDDF7", "#F7C1C1"].map(c => `<button class="w-cor${c === "transparent" ? " w-cor-nenhuma" : ""}" data-bdfundo="${c}" style="background:${c === "transparent" ? "#fff" : c}" title="${c === "transparent" ? "Sem cor" : c}"></button>`).join("")}</div></div>
+        <div><span class="contagem">Cor da borda</span><div class="w-cores-grade">${CORES_WORD.map(c => `<button class="w-cor${c.toLowerCase() === String(bordaCfg.cor).toLowerCase() ? " escolhida" : ""}" data-bdcor="${c}" style="background:${c}"></button>`).join("")}</div></div>
+        <div><span class="contagem">Sombreamento (cor de dentro)</span><div class="w-cores-grade">${["transparent", "#FFF2CC", "#E2EFDA", "#DDEBF7", "#FCE4D6", "#EDEDED", "#FFE58A", "#BDEBC4", "#BFDDF7", "#F7C1C1"].map(c => `<button class="w-cor${c === "transparent" ? " w-cor-nenhuma" : ""}${c === corSombra ? " escolhida" : ""}" data-bdfundo="${c}" style="background:${c === "transparent" ? "#fff" : c}" title="${c === "transparent" ? "Sem cor" : c}"></button>`).join("")}</div></div>
         <div class="bordas-amostra" id="bd-amostra">Assim fica o quadro</div>
         <div class="acoes">
           <button class="botao primario" data-bdaplicar="todas">▣ Quadro em volta dos parágrafos</button>
@@ -485,7 +550,8 @@ function editarDocx(r) {
     $("#bd-estilo").onchange = atual; $("#bd-pt").onchange = atual; atual();
     $$("#painel-caixa [data-bdaplicar]").forEach(x => x.onclick = () => {
       bordaCfg = { estilo: $("#bd-estilo").value, pt: parseFloat($("#bd-pt").value), cor: bordaCfg.cor }; gravarLS("word-borda", bordaCfg);
-      fecharPainel(); aplicarBorda(x.dataset.bdaplicar);
+      fecharPainel(); usarBorda(x.dataset.bdaplicar);
+      if (fundo && fundo !== "transparent") { corSombra = fundo; gravarLS("word-sombra", fundo); $("#w-tira-sombra").style.background = fundo; }
       if (fundo !== null && x.dataset.bdaplicar !== "texto") sombrear(fundo);
       else if (fundo !== null && x.dataset.bdaplicar === "texto") { const sp = elDaSelecao()?.closest("span.borda-texto"); if (sp) { sp.style.backgroundColor = fundo === "transparent" ? "" : fundo; agendar(); } }
     });
@@ -501,6 +567,7 @@ function editarDocx(r) {
       cols: art ? parseInt(getComputedStyle(art).columnCount, 10) || 1 : 1 };
   };
   const aplicarPagina = pg => {
+    fecharPasso();
     for (const sec of cont.querySelectorAll("section.docx")) {
       sec.style.width = pg.w.toFixed(2) + "pt"; sec.style.minHeight = pg.h.toFixed(2) + "pt";
       sec.style.padding = `${pg.m.t.toFixed(2)}pt ${pg.m.r.toFixed(2)}pt ${pg.m.b.toFixed(2)}pt ${pg.m.l.toFixed(2)}pt`;
@@ -544,6 +611,7 @@ function editarDocx(r) {
   window.addEventListener("scroll", aoRolar, true); window.addEventListener("resize", aoRolar);
   alcas.addEventListener("pointerdown", e => {
     const h = e.target.closest(".w-alca"); if (!h || !alvoAlca) return;
+    fecharPasso();
     e.preventDefault(); e.stopPropagation();
     const el = alvoAlca, d = h.dataset.d, r = el.getBoundingClientRect(), esc = r.width / (el.offsetWidth || r.width) || 1;
     const w0 = el.offsetWidth, h0 = el.offsetHeight, x0 = e.clientX, y0 = e.clientY, ml0 = parseFloat(getComputedStyle(el).marginLeft) || 0;
@@ -596,6 +664,7 @@ function editarDocx(r) {
     for (const c of tabela.querySelectorAll("td, th")) c.style.width = "";
   };
   const arrastarTabela = (b, x0, y0) => {
+    fecharPasso();
     const tabela = b.td.closest("table"), esc = tabela.getBoundingClientRect().width / (tabela.offsetWidth || 1) || 1;
     let mover;
     if (b.tipo === "lin") {
@@ -629,6 +698,9 @@ function editarDocx(r) {
   barra.onclick = async e => {
     const b = e.target.closest("button"); if (!b || b.closest("#w-busca") || b.closest("#w-cores")) return;
     if (b.dataset.waba) { trocarAba(b.dataset.waba); return; }
+    if (b.id === "w-desfazer") { desfazer(); return; }
+    if (b.id === "w-refazer") { refazer(); return; }
+    fecharPasso();                                         // o que você fez antes vira um passo separado do desfazer
     if (b.dataset.wcmd) { executar(b.dataset.wcmd); return; }
     fecharCores();
     switch (b.id) {
@@ -646,7 +718,7 @@ function editarDocx(r) {
       case "w-marca": executar("hiliteColor", corMarca); return;
       case "w-marca-mais": abrirCores(b, MARCAS_WORD, ["transparent", "Sem cor"], c => { if (c !== "transparent") { corMarca = c; gravarLS("word-marca", c); $("#w-tira-marca").style.background = c; } executar("hiliteColor", c); }); return;
       case "w-limpar": executar("removeFormat"); executar("hiliteColor", "transparent"); return;
-      case "w-pincel": if (pincel) { soltarPincel(); return; } pincel = copiarFormato(); if (pincel) { b.setAttribute("aria-pressed", "true"); cont.classList.add("cursor-pincel"); mostrarAvisoRapido("🖌 Agora selecione o trecho que vai receber a formatação"); } return;
+      case "w-pincel": if (pincel) { soltarPincel(); return; } pincel = copiarFormato(); if (pincel) { b.setAttribute("aria-pressed", "true"); cont.classList.add("cursor-pincel"); mostrarAvisoRapido("🖌 Pincel ligado: selecione cada trecho que vai receber a formatação. Para desligar, toque de novo no 🖌"); } return;
       case "w-marcadores": executar("insertUnorderedList"); return;
       case "w-numeracao": executar("insertOrderedList"); return;
       case "w-recuo-mais": recuo(1); return;
@@ -682,10 +754,11 @@ function editarDocx(r) {
       case "w-col-dir": opTabela("col-dir"); return;
       case "w-col-excluir": opTabela("col-excluir"); return;
       case "w-tab-excluir": opTabela("excluir"); return;
-      case "w-sombra": abrirCores(b, [...CORES_WORD.slice(3), "#EAF1FB", "#FFF2CC", "#E2EFDA", "#FCE4D6"], ["", "Sem cor"], c => { const td = celulaAtual(); if (!td) return; const linha = td.closest("table"); const alvo = selDocx && !selDocx.collapsed ? [...linha.querySelectorAll("td, th")].filter(x => selDocx.intersectsNode(x)) : [td]; alvo.forEach(x => { x.style.backgroundColor = c; }); agendar(); }); return;
+      case "w-sombra": pintarCelulas(corCelula); return;
+      case "w-sombra-mais": abrirCores(b, [...CORES_WORD.slice(3), "#EAF1FB", "#FFF2CC", "#E2EFDA", "#FCE4D6"], ["transparent", "Sem cor"], c => { if (c !== "transparent") { corCelula = c; gravarLS("word-celula", c); $("#w-tira-celula").style.background = c; } pintarCelulas(c); }); return;
       case "w-localizar": abrirBusca(); return;
-      case "w-borda": aplicarBorda("todas"); return;
-      case "w-borda-mais": abrirMenu(b, ITENS_BORDA, v => v === "dialogo" ? dialogoBordas() : aplicarBorda(v)); return;
+      case "w-borda": usarBorda(ultimaBorda); return;
+      case "w-borda-mais": abrirMenu(b, ITENS_BORDA, v => v === "dialogo" ? dialogoBordas() : usarBorda(v), ultimaBorda); return;
       case "w-bordas-dialogo": dialogoBordas(); return;
       case "w-sombreamento": sombrear(corSombra); return;
       case "w-sombreamento-mais": abrirCores(b, ["#FFF2CC", "#E2EFDA", "#DDEBF7", "#FCE4D6", "#EDEDED", "#FFE58A", "#BDEBC4", "#BFDDF7", "#F7C1C1", ...CORES_WORD.slice(3, 14)], ["transparent", "Sem cor"], c => { if (c !== "transparent") { corSombra = c; gravarLS("word-sombra", c); $("#w-tira-sombra").style.background = c; } sombrear(c); }); return;
@@ -700,6 +773,7 @@ function editarDocx(r) {
   };
   barra.onchange = e => {
     const s = e.target;
+    fecharPasso();
     if (s.id === "w-fonte") aplicarFonte(s.value);
     else if (s.id === "w-tam") aplicarTamanho(parseFloat(s.value));
     else if (s.id === "w-estilo") executar("formatBlock", s.value === "blockquote" ? "blockquote" : `<${s.value}>`);
@@ -725,6 +799,7 @@ function editarDocx(r) {
     cont.removeEventListener("pointermove", cursorTabela); cont.removeEventListener("pointerdown", inicioTabela, true); cont.removeEventListener("touchstart", toqueTabela);
     window.removeEventListener("scroll", aoRolar, true); window.removeEventListener("resize", aoRolar);
     cont.style.cursor = ""; alcas.remove();
+    cont.removeEventListener("beforeinput", antesDaInsercao); clearTimeout(hist.timer); hist.lista = [];
   };
   window.concluirModoWord = concluir;
   $("#docx-imagem").onclick = () => {
@@ -733,6 +808,8 @@ function editarDocx(r) {
     inp.click();
   };
   trocarAba("inicio");
+  $("#w-cores").addEventListener("click", fecharPasso, true);   // escolher num menu ou numa paleta também separa os passos
+  registrarHist();                                          // o ponto de partida do desfazer
   const primeiro = cont.querySelector("section.docx p, section.docx");
   if (primeiro && !selDocx) { const rg = document.createRange(); rg.selectNodeContents(primeiro); rg.collapse(true); const s = getSelection(); s.removeAllRanges(); s.addRange(rg); guardarSel(); }
   agendarEstado();
