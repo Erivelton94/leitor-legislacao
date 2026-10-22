@@ -194,6 +194,11 @@ async function telaResumos(filtro = "todas", pastaId = null) {
   await carregarResumos();
   const pasta = pastaId ? estado.itens.get(pastaId) : null;
   if (pastaId && !pastaViva(pasta)) { location.hash = "#/resumos"; return; }
+  // as pastas dos recebidos abrem dentro de "Compartilhados pelo app" (cópias e o que ainda dá para copiar, juntos)
+  if (pastaId && (pastaId === ID_PASTA_RECEBIDOS || pastaId.startsWith("pasta-c-") && caminhoPasta(pastaId).some(q => q.id === ID_PASTA_RECEBIDOS))) {
+    const idx = await carregarCompartilhados(), idComp = pastaId === ID_PASTA_RECEBIDOS ? "" : pastaId.slice(8);
+    if (!idComp || idx.pastas.some(x => x.id === idComp)) { location.replace("#/resumos/compartilhados" + (idComp ? "/" + idComp : "")); return; }
+  }
   definirTopo({ titulo: pasta ? pasta.nome : "Meus Resumos", voltar: pasta ? voltarDaPasta("resumos", pastaId) : null });
   marcarAba("resumos");
   const busca = sessionStorage.getItem("busca-resumos") || "";
@@ -237,16 +242,17 @@ async function telaResumos(filtro = "todas", pastaId = null) {
     else if (filtro === "arquivados") { lista = lista.filter(r => r.arquivado); pastas = pastasDe("resumos").filter(p => p.arquivada); }
     else if (filtro === "recentes") lista = lista.filter(r => !r.arquivado).sort((a, b) => (b.abertoEm || b.atualizadoEm).localeCompare(a.abertoEm || a.atualizadoEm)).slice(0, 24);
     else {
-      pastas = pastasDe("resumos", null).filter(p => !p.arquivada);
+      pastas = pastasDe("resumos", null).filter(p => !p.arquivada && p.id !== ID_PASTA_RECEBIDOS);     // a pasta dos recebidos é o quadro "Compartilhados pelo app"
       lista = lista.filter(r => naPasta(null)(r) && !r.arquivado);
     }
     if (filtro !== "recentes" || termo.length >= 2) { lista = ordenarResumos(lista); pastas = ordenarPastasRes(pastas); }
-    const comp = !pasta && filtro === "todas" && termo.length < 2 && temCompartilhados();
+    const comp = !pasta && filtro === "todas" && termo.length < 2 && (temCompartilhados() || pastaRecebidosTemAlgo());
+    const nComp = (compartilhados.indice?.resumos.length || 0) + (pastaRecebidosTemAlgo() ? resumosAtivos().filter(r => r.pasta && caminhoPasta(r.pasta).some(q => q.id === ID_PASTA_RECEBIDOS) && !(compartilhados.indice?.resumos || []).some(e => e.id === r.deCompartilhado)).length : 0);
     if (pastas.length || lista.length || comp) {
       h += `<div class="grade-resumos">${comp ? `<div class="tile-pasta tile-compartilhados">
           <button class="tile-abrir" data-href="#/resumos/compartilhados" aria-label="Abrir os resumos compartilhados pelo app">
             <span class="icone-pasta-grande" aria-hidden="true">📚</span>
-            <span class="nome-arquivo">Compartilhados pelo app</span><span class="qtd-pasta">${compartilhados.indice.resumos.length} arquivo(s)</span></button>
+            <span class="nome-arquivo">Compartilhados pelo app</span><span class="qtd-pasta">${nComp} arquivo(s)</span></button>
         </div>` : ""}${pastas.map(p => `<div class="tile-pasta">
           <button class="tile-abrir" data-href="${esc(rotaPastaArea("resumos", p.id))}" aria-label="Abrir a pasta ${esc(p.nome)}">
             <span class="icone-pasta-grande" aria-hidden="true">${ICONE_PASTA}</span>
@@ -1337,6 +1343,7 @@ async function painelBuscarOriginal(r) {
 }
 function menuResumoOriginal(r, editado) {
   abrirPainel(`<h2>${esc(r.titulo)} ${botaoFechar}</h2><div class="acoes">
+    ${r.formato === "docx" ? '<button id="o-editar" class="primario-menu">📝 Editar o texto (modo Word)</button>' : ""}
     <button id="o-baixar">⬇️ Baixar (original, com marcações ou com edições)…</button>
     <button id="o-mover">📁 Mover para pasta…</button>
     ${r.formato === "pdf" ? '<button id="o-texto">Criar uma versão em texto editável</button>' : ""}
@@ -1344,6 +1351,7 @@ function menuResumoOriginal(r, editado) {
     <button id="o-tinta">Apagar desenhos e ícones deste resumo</button>
     </div><p class="contagem">${r.formato === "pdf" ? "O texto de um PDF não pode ser editado; marque por cima com a caneta. Se precisar editar o texto, crie a versão em texto editável (o visual original não é mantido nela)." : "As edições ficam salvas no app; o arquivo original continua guardado."}</p>`);
   $("#o-baixar").onclick = () => painelBaixar(r);
+  if ($("#o-editar")) $("#o-editar").onclick = () => { fecharPainel(); if (!$("#res-editar-docx")) { alert("Espere o arquivo terminar de abrir e tente de novo."); return; } $("#res-editar-docx").click(); };
   $("#o-mover").onclick = () => painelMoverResumo(r, () => fecharPainel());
   if ($("#o-texto")) $("#o-texto").onclick = async () => {
     $("#o-texto").textContent = "Convertendo…";
@@ -1530,7 +1538,7 @@ function montarDock(r) {
     ${r.formato === "pdf" ? '<button class="dock-btn oculto" id="res-sumario" title="Sumário do PDF (ir para o tema)" aria-label="Sumário">📑</button>' : ""}
     <button class="dock-btn" id="res-buscar" title="Buscar no resumo" aria-label="Buscar">🔍</button>
     <button class="dock-btn" id="res-ouvir" title="Ouvir em voz alta (a partir de onde você está)" aria-label="Ouvir">🔊</button>
-    ${r.formato === "docx" ? '<button class="dock-btn" id="res-editar-docx" title="Editar o texto" aria-label="Editar texto">📝</button>' : ""}
+    ${r.formato === "docx" ? '<button class="dock-btn" id="res-editar-docx" title="Editar o texto (modo Word)" aria-label="Editar o texto no modo Word">📝</button>' : ""}
     <button class="dock-btn" id="res-foco" title="Modo foco" aria-label="Modo foco">🎯</button>
     <button class="dock-btn estrela-dock" data-fav-resumo="${esc(r.id)}" aria-pressed="${!!r.favorito}" title="Favoritar" aria-label="Favoritar">${r.favorito ? "★" : "☆"}</button>
     <button class="dock-btn" id="res-baixar" title="Baixar (original, com marcações ou com edições)" aria-label="Baixar">⬇️</button>

@@ -584,7 +584,23 @@ async def testes(b):
         await u15.goto(U + f"#/resumos/compartilhados/{pid}"); await u15.wait_for_timeout(1000)
         await u15.click("#copiar-tudo"); await u15.wait_for_timeout(2000)
         copias = await u15.evaluate("[...resumos.lista.values()].filter(r=>r.deCompartilhado).map(r=>[r.deCompartilhado, textoCaminho(r.pasta)]).sort()")
-        confere("Outro usuário vê “Compartilhados pelo app” e copia para os próprios resumos no mesmo caminho de pastas do dono", tile == 1 and aberto and copias == [["c1", ""], ["c2", "Penal compartilhado"], ["c3", "Penal compartilhado › Homicídio"]], copias)
+        R = "Compartilhados pelo app"
+        confere("Outro usuário vê “Compartilhados pelo app” e a cópia fica guardada lá dentro, no mesmo caminho de pastas do dono", tile == 1 and aberto and copias == [["c1", R], ["c2", R + " › Penal compartilhado"], ["c3", R + " › Penal compartilhado › Homicídio"]], copias)
+        # Meus Resumos continua limpo: só o quadro "Compartilhados pelo app"; abrir a cópia e voltar leva para dentro dele; cópias antigas soltas vão para lá
+        await u15.goto(U + "#/resumos/todas"); await u15.evaluate("rotear()"); await u15.wait_for_timeout(800)
+        inicio = await u15.evaluate("[...document.querySelectorAll('#lista-res .tile-pasta .nome-arquivo, #lista-res .tile-resumo')].map(e=>e.textContent.trim() || e.dataset.id)")
+        await u15.goto(U + "#/resumo/" + await u15.evaluate("[...resumos.lista.values()].find(r=>r.deCompartilhado==='c3').id")); await u15.wait_for_timeout(800)
+        volta = await u15.evaluate("document.querySelector('#btn-voltar')?.dataset.href || ''")
+        await u15.evaluate("location.hash = rotaPastaArea('resumos', [...resumos.lista.values()].find(r=>r.deCompartilhado==='c3').pasta)"); await u15.wait_for_timeout(800)
+        dentro = u15.url
+        antiga = await u15.evaluate("""(async()=>{ const p = await novaPasta('resumos', null, 'Antiga'); const q = estado.itens.get(p.id); await salvarItem({ ...q, id: 'pasta-c-velha', compartilhada: true, autoPai: null }); await apagarItem(p.id);
+          await gravarConteudo('vx', '<p>x</p>'); await salvarMeta({ id: 'vx', titulo: 'Velha', origem: 'Velha.html', pasta: 'pasta-c-velha', formato: 'html', deCompartilhado: 'sumiu' });
+          recebidosOrganizados = false; await organizarRecebidos(); return [textoCaminho('pasta-c-velha'), textoCaminho(resumos.lista.get('vx').pasta)]; })()""")
+        await u15.goto(U + "#/resumos/compartilhados"); await u15.wait_for_timeout(800)
+        sumiu = await u15.evaluate("document.getElementById('conteudo').innerText.includes('Antiga')")
+        confere("Meus Resumos fica só com o quadro “Compartilhados pelo app”; a cópia abre e volta para dentro dele; cópias antigas soltas são guardadas lá",
+                R not in [x for x in inicio if x != R] and inicio.count(R) == 1 and "/resumos/compartilhados/" in dentro and antiga == [R + " › Antiga", R + " › Antiga"] and sumiu,
+                [inicio, dentro, antiga, sumiu])
         confere("Nenhum erro de programa ao receber compartilhados", not u15.erros, u15.erros[:3])
         await ctx15.close()
         # dentro da pasta compartilhada: subpastas e arquivos com 👁; tirar uma subpasta e um arquivo; atualizar não devolve; devolver a subpasta
@@ -1136,6 +1152,14 @@ async def testes(b):
     pecas2 = ["<w:pBdr>" in xml, 'w:fill="FFF2CC"' in xml, "<w:bdr " in xml, "<w:tcBorders>" in xml, 'w:orient="landscape"' in xml, 'w:top="1701"' in xml and 'w:right="1134"' in xml,
               'w:cols w:num="2"' in xml, bool(ext) and abs(ext[0] / 9525 - ti1[0]) < 3]
     confere("Baixar Word (.docx): bordas, sombreamento, borda nas palavras, bordas das células, página (paisagem, margens, colunas) e imagem redimensionada", all(pecas2), pecas2)
+    # celular: Concluir, desfazer e recolher sempre à vista; a barra lateral some durante a edição; a faixa recolhe
+    await p22.set_viewport_size({"width": 390, "height": 664}); await p22.wait_for_timeout(400)
+    cel = await p22.evaluate("""(()=>{ const vis = id => { const r = document.getElementById(id).getBoundingClientRect(); return r.width > 0 && r.left >= 0 && r.right <= innerWidth; };
+      return [vis('docx-concluir'), vis('w-desfazer'), vis('w-recolher'), getComputedStyle(document.getElementById('dock-resumo')).display]; })()""")
+    await p22.click("#w-recolher"); await p22.wait_for_timeout(200)
+    recolhe = await p22.evaluate("getComputedStyle(document.querySelector('.w-corpo')).display")
+    await p22.click("#w-recolher"); await p22.set_viewport_size({"width": 1180, "height": 820}); await p22.wait_for_timeout(300)
+    confere("Modo Word no celular: Concluir, desfazer e recolher à vista, sem a barra lateral por cima; a faixa recolhe para sobrar espaço", cel == [True, True, True, "none"] and recolhe == "none", [cel, recolhe])
     await p22.click('[data-waba="arquivo"]'); await p22.click("#docx-concluir"); await p22.wait_for_timeout(300)
     fechou = await p22.evaluate("document.getElementById('barra-docx').classList.contains('oculto') && !document.querySelector('section.docx[contenteditable]') && !document.body.classList.contains('editando-word')")
     confere("Concluir a edição fecha a faixa e o texto volta a ser só leitura; nenhum erro de programa no modo Word", fechou and not p22.erros, [fechou, p22.erros[:3]])

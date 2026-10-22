@@ -935,8 +935,8 @@ section.docx h3 { font-size: 12pt; color: #1F3763; font-weight: 400; margin: 8pt
 section.docx blockquote { margin: 8pt 40px; font-style: italic; color: #404040; }
 section.docx table.tabela-word td { min-width: 30px; }
 .cursor-pincel, .cursor-pincel * { cursor: copy !important; }
-body.editando-word .dock { opacity: .35; }
-body.editando-word .dock:hover, body.editando-word .dock:focus-within { opacity: 1; }
+
+
 @media print { section.docx .quebra-word { border: 0; break-after: page; page-break-after: always; } section.docx .quebra-word::after { display: none; } }
 /* iPad e celular: botões maiores para o dedo, faixa rola para o lado */
 @media (pointer: coarse) {
@@ -946,7 +946,7 @@ body.editando-word .dock:hover, body.editando-word .dock:focus-within { opacity:
   .w-cor { width: 38px; height: 34px; } .w-celula { width: 26px; height: 26px; }
   .w-grupo-nome { display: none; }
 }
-@media (max-width: 700px) { .faixa-word { border-radius: 0; margin: 0 -16px 8px; } .faixa-word .status-salvo { display: none; } }
+@media (max-width: 700px) { .faixa-word { border-radius: 0; margin: 0 0 8px; border-left: 0; border-right: 0; } .faixa-word .status-salvo { display: none; } }
 /* modo Word: menus, bordas, alças de redimensionar e configurar página */
 .w-cores.w-cores-menu { width: 260px; padding: 4px; }
 .w-menu { display: flex; flex-direction: column; }
@@ -982,3 +982,20 @@ section.docx span.borda-texto { box-decoration-break: clone; -webkit-box-decorat
 .w-tira { border-color: rgba(0,0,0,.25); }
 .w-menu .w-item.ligado { font-weight: 600; }
 .w-abas #w-desfazer, .w-abas #w-refazer { font-size: 18px; margin-bottom: 4px; }
+/* faixa do Word: abas rolam para o lado; desfazer, recolher e Concluir ficam sempre à vista (celular também) */
+.w-abas { overflow: visible; gap: 4px; }
+.w-abas-lista { display: flex; align-items: center; gap: 2px; flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.w-abas-lista::-webkit-scrollbar { display: none; }
+.w-abas-fixo { display: flex; align-items: center; gap: 2px; flex: none; }
+.faixa-word.recolhida .w-corpo, .faixa-word.recolhida .w-busca { display: none; }
+.faixa-word.recolhida .w-aba[aria-selected="true"] { border-bottom-color: transparent; }
+#w-recolher { font-size: 14px; margin-bottom: 4px; }
+body.editando-word .dock { display: none; }
+.primario-menu { font-weight: 600; color: var(--oliva) !important; }
+@media (max-width: 700px) {
+  .w-concluir-txt { display: none; }
+  .w-concluir { padding: 6px 12px !important; }
+  .w-aba { padding: 8px 9px; font-size: 14px; }
+  .w-abas #w-desfazer, .w-abas #w-refazer, #w-recolher { min-width: 34px; padding: 0 4px; }
+}
+@media (max-height: 500px) { .w-grupo-nome { display: none; } .w-painel { padding: 2px; } }

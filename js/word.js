@@ -20,13 +20,17 @@ function htmlFaixaWord() {
   const cmd = (c, rot, tit) => `<button class="w-btn" data-wcmd="${c}" title="${tit}" aria-label="${tit}">${rot}</button>`;
   const grupo = (nome, html) => `<div class="w-grupo"><div class="w-grupo-itens">${html}</div><div class="w-grupo-nome">${nome}</div></div>`;
   return `<div class="faixa-word barra-docx oculto" id="barra-docx" role="toolbar" aria-label="Edição do Word">
-    <div class="w-abas" role="tablist">
+    <div class="w-abas">
+      <div class="w-abas-lista" role="tablist">
       ${[["arquivo", "Arquivo"], ["inicio", "Página Inicial"], ["inserir", "Inserir"], ["layout", "Layout"], ["tabela", "Tabela"], ["revisao", "Revisão"]].map(([v, n]) =>
         `<button class="w-aba${v === "tabela" ? " oculto" : ""}" data-waba="${v}" role="tab" aria-selected="${v === "inicio"}">${n}</button>`).join("")}
-      <span class="w-espaco"></span>
-      ${b("w-desfazer", "↶", "Desfazer (Ctrl+Z)")}${b("w-refazer", "↷", "Refazer (Ctrl+Y)")}
-      <span class="status-salvo" id="status-salvo"></span>
-      <button id="docx-concluir" class="botao primario w-concluir">✓ Concluir</button>
+      </div>
+      <div class="w-abas-fixo">
+        ${b("w-desfazer", "↶", "Desfazer (Ctrl+Z)")}${b("w-refazer", "↷", "Refazer (Ctrl+Y)")}
+        <span class="status-salvo" id="status-salvo"></span>
+        ${b("w-recolher", "▴", "Recolher ou mostrar os botões (ou toque de novo na aba aberta)")}
+        <button id="docx-concluir" class="botao primario w-concluir" title="Concluir a edição"><span>✓</span><span class="w-concluir-txt"> Concluir</span></button>
+      </div>
     </div>
     <div class="w-corpo">
       <div class="w-painel" data-wpainel="arquivo">
@@ -373,6 +377,7 @@ function editarDocx(r) {
     abaTab.classList.toggle("oculto", !naTabela);
     if (!naTabela && abaTab.getAttribute("aria-selected") === "true") trocarAba("inicio");
   };
+  const recolherFaixa = sim => { barra.classList.toggle("recolhida", sim); $("#w-recolher").textContent = sim ? "▾" : "▴"; gravarLS("word-recolhida", sim); fecharCores(); ajustarAlturaJanela(); };
   const trocarAba = aba => {
     $$("[data-waba]", barra).forEach(b => b.setAttribute("aria-selected", String(b.dataset.waba === aba)));
     $$("[data-wpainel]", barra).forEach(p => p.classList.toggle("ativo", p.dataset.wpainel === aba));
@@ -697,7 +702,11 @@ function editarDocx(r) {
   barra.onpointerdown = e => { if (e.target.closest("button") && !e.target.closest("#w-busca")) e.preventDefault(); };
   barra.onclick = async e => {
     const b = e.target.closest("button"); if (!b || b.closest("#w-busca") || b.closest("#w-cores")) return;
-    if (b.dataset.waba) { trocarAba(b.dataset.waba); return; }
+    if (b.dataset.waba) {
+      if (b.getAttribute("aria-selected") === "true" || barra.classList.contains("recolhida")) recolherFaixa(b.getAttribute("aria-selected") === "true" && !barra.classList.contains("recolhida"));   // tocar na aba aberta recolhe; tocar numa aba com a faixa recolhida mostra
+      trocarAba(b.dataset.waba); return;
+    }
+    if (b.id === "w-recolher") { recolherFaixa(!barra.classList.contains("recolhida")); return; }
     if (b.id === "w-desfazer") { desfazer(); return; }
     if (b.id === "w-refazer") { refazer(); return; }
     fecharPasso();                                         // o que você fez antes vira um passo separado do desfazer
@@ -808,6 +817,7 @@ function editarDocx(r) {
     inp.click();
   };
   trocarAba("inicio");
+  if (lerLS("word-recolhida", false)) recolherFaixa(true);
   $("#w-cores").addEventListener("click", fecharPasso, true);   // escolher num menu ou numa paleta também separa os passos
   registrarHist();                                          // o ponto de partida do desfazer
   const primeiro = cont.querySelector("section.docx p, section.docx");
