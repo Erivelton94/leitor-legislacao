@@ -1080,6 +1080,30 @@ async def testes(b):
     confere("Modo Word: abas, fonte, tamanho, negrito, cor e marca-texto; tabela com aba própria; localizar e substituir; salva sozinho",
             abas.startswith("Arquivo,Página Inicial,Inserir") and fmt[:3] == ["Georgia", 20, True] and aba_tab and tam_tab == [3, 4] and "1 encontrado" in achou and trocou and salvo,
             [abas, fmt, aba_tab, tam_tab, achou, trocou, salvo])
+    # redimensionar imagem (alça do canto mantém a proporção) e coluna da tabela (arrastando a borda)
+    img = p22.locator("section.docx img").first; await img.scroll_into_view_if_needed(); await img.click(); await p22.wait_for_timeout(300)
+    ti0 = await p22.evaluate("[document.querySelector('section.docx img').offsetWidth, document.querySelector('section.docx img').offsetHeight]")
+    al = await p22.locator('.w-alca[data-d="se"]').bounding_box()
+    await p22.mouse.move(al["x"] + 6, al["y"] + 6); await p22.mouse.down(); await p22.mouse.move(al["x"] + 80, al["y"] + 40, steps=5); await p22.mouse.up(); await p22.wait_for_timeout(200)
+    ti1 = await p22.evaluate("[document.querySelector('section.docx img').offsetWidth, document.querySelector('section.docx img').offsetHeight]")
+    td0 = await p22.evaluate("(()=>{ const t=[...document.querySelectorAll('section.docx table')].find(x=>x.textContent.includes('Pena')); t.scrollIntoView({block:'center'}); const r=t.querySelector('td').getBoundingClientRect(); return [r.right, r.top + r.height/2, r.width]; })()")
+    await p22.mouse.move(td0[0] - 1, td0[1]); await p22.mouse.down(); await p22.mouse.move(td0[0] + 60, td0[1], steps=5); await p22.mouse.up(); await p22.wait_for_timeout(200)
+    td1 = await p22.evaluate("[...document.querySelectorAll('section.docx table')].find(x=>x.textContent.includes('Pena')).querySelector('td').getBoundingClientRect().width")
+    confere("Modo Word: arrastar a alça redimensiona a imagem (proporcional) e arrastar a borda da célula muda a largura da coluna",
+            ti1[0] > ti0[0] + 40 and abs(ti1[1] / ti1[0] - ti0[1] / ti0[0]) < 0.03 and td1 > td0[2] + 40, [ti0, ti1, round(td0[2]), round(td1)])
+    # bordas: quadro com sombreamento nos parágrafos, borda só nas palavras; layout: margens ABNT, paisagem e duas colunas
+    await p22.evaluate("""(()=>{ const p=[...document.querySelectorAll('section.docx p')].find(x=>x.textContent.startsWith('Texto centralizado')); const rg=document.createRange(); rg.selectNodeContents(p); rg.collapse(true); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); })()""")
+    await p22.wait_for_timeout(150); await p22.click('[data-waba="inicio"]'); await p22.click("#w-borda"); await p22.click("#w-sombreamento"); await p22.wait_for_timeout(150)
+    await p22.evaluate("""(()=>{ const td=[...document.querySelectorAll('section.docx td')].find(x=>x.textContent==='Pena'); const t=document.createTreeWalker(td,NodeFilter.SHOW_TEXT).nextNode(); const rg=document.createRange(); rg.selectNodeContents(t); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); })()""")
+    await p22.wait_for_timeout(150); await p22.click("#w-borda-mais"); await p22.click('[data-wmenu="texto"]'); await p22.wait_for_timeout(150)
+    quadro = await p22.evaluate("(()=>{ const q=document.querySelector('.quadro-word'); return [!!q && q.textContent.startsWith('Texto centralizado'), !!q && !!q.style.backgroundColor, !!document.querySelector('span.borda-texto')]; })()")
+    await p22.click('[data-waba="layout"]'); await p22.click("#w-margens"); await p22.click('[data-wmenu="abnt"]'); await p22.wait_for_timeout(100)
+    await p22.click("#w-orientacao"); await p22.click('[data-wmenu="paisagem"]'); await p22.wait_for_timeout(100)
+    await p22.click("#w-colunas"); await p22.click('[data-wmenu="2"]'); await p22.wait_for_timeout(300)
+    pagina = await p22.evaluate("(()=>{ const s=document.querySelectorAll('section.docx'); return [[...s].every(x=>parseFloat(x.style.width) > parseFloat(x.style.minHeight)), getComputedStyle(s[0].querySelector('article')).columnCount]; })()")
+    confere("Modo Word: bordas (quadro com cor de fundo e borda só nas palavras) e Layout (margens ABNT, paisagem e duas colunas) em todas as páginas",
+            quadro == [True, True, True] and pagina == [True, "2"], [quadro, pagina])
+    await p22.wait_for_timeout(1500)
     b64 = await p22.evaluate(f"""(async()=>{{ const b = await exportarDocxReal(resumos.lista.get('{rid}'), true); const u = new Uint8Array(await b.arrayBuffer()); let s=''; for (let i=0;i<u.length;i+=8192) s += String.fromCharCode(...u.subarray(i,i+8192)); return btoa(s); }})()""")
     import base64, zipfile, io
     zdoc = zipfile.ZipFile(io.BytesIO(base64.b64decode(b64)))
@@ -1088,6 +1112,11 @@ async def testes(b):
     pecas = ["Georgia" in xml, "<w:b/>" in xml, 'w:sz w:val="40"' in xml, "C00000" in xml, xml.count("<w:tbl>") == 2, "Feminicídio" in xml, "Ttulo1" in xml,
              'w:numFmt w:val="decimal"' in numer and 'w:numFmt w:val="bullet"' in numer, any(n.startswith("word/media/") for n in zdoc.namelist()), 'w:type="page"' in xml, 'w:fill="FFFF00"' in xml]
     confere("Baixar Word (.docx): fonte, negrito, tamanho, cor, marca-texto, títulos, listas, tabelas, imagem e quebra de página vão para o arquivo", all(pecas), pecas)
+    import re as _r2
+    ext = [int(x) for x in _r2.findall(r'wp:extent cx="(\d+)"', xml)]
+    pecas2 = ["<w:pBdr>" in xml, 'w:fill="FFF2CC"' in xml, "<w:bdr " in xml, "<w:tcBorders>" in xml, 'w:orient="landscape"' in xml, 'w:top="1701"' in xml and 'w:right="1134"' in xml,
+              'w:cols w:num="2"' in xml, bool(ext) and abs(ext[0] / 9525 - ti1[0]) < 3]
+    confere("Baixar Word (.docx): bordas, sombreamento, borda nas palavras, bordas das células, página (paisagem, margens, colunas) e imagem redimensionada", all(pecas2), pecas2)
     await p22.click('[data-waba="arquivo"]'); await p22.click("#docx-concluir"); await p22.wait_for_timeout(300)
     fechou = await p22.evaluate("document.getElementById('barra-docx').classList.contains('oculto') && !document.querySelector('section.docx[contenteditable]') && !document.body.classList.contains('editando-word')")
     confere("Concluir a edição fecha a faixa e o texto volta a ser só leitura; nenhum erro de programa no modo Word", fechou and not p22.erros, [fechou, p22.erros[:3]])

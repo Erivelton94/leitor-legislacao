@@ -21,7 +21,7 @@ function htmlFaixaWord() {
   const grupo = (nome, html) => `<div class="w-grupo"><div class="w-grupo-itens">${html}</div><div class="w-grupo-nome">${nome}</div></div>`;
   return `<div class="faixa-word barra-docx oculto" id="barra-docx" role="toolbar" aria-label="Edição do Word">
     <div class="w-abas" role="tablist">
-      ${[["arquivo", "Arquivo"], ["inicio", "Página Inicial"], ["inserir", "Inserir"], ["tabela", "Tabela"], ["revisao", "Revisão"]].map(([v, n]) =>
+      ${[["arquivo", "Arquivo"], ["inicio", "Página Inicial"], ["inserir", "Inserir"], ["layout", "Layout"], ["tabela", "Tabela"], ["revisao", "Revisão"]].map(([v, n]) =>
         `<button class="w-aba${v === "tabela" ? " oculto" : ""}" data-waba="${v}" role="tab" aria-selected="${v === "inicio"}">${n}</button>`).join("")}
       <span class="w-espaco"></span>
       <span class="status-salvo" id="status-salvo"></span>
@@ -46,7 +46,9 @@ function htmlFaixaWord() {
         ${grupo("Parágrafo", `<div class="w-linha">${b("w-marcadores", "•≡", "Marcadores")}${b("w-numeracao", "1≡", "Numeração")}${b("w-recuo-menos", "⇤", "Diminuir o recuo")}${b("w-recuo-mais", "⇥", "Aumentar o recuo")}
             <select class="w-sel" id="w-entrelinhas" aria-label="Espaçamento entre linhas" title="Espaçamento entre linhas"><option value="">↕ Espaço</option>${["1", "1.15", "1.5", "2", "2.5", "3"].map(v => `<option value="${v}">${v.replace(".", ",")}</option>`).join("")}</select></div>
           <div class="w-linha">${cmd("justifyLeft", "⯇≡", "Alinhar à esquerda")}${cmd("justifyCenter", "≡", "Centralizar")}${cmd("justifyRight", "≡⯈", "Alinhar à direita")}${cmd("justifyFull", "☰", "Justificar")}
-            ${b("w-espaco-antes", "¶↑", "Espaço antes do parágrafo")}${b("w-espaco-depois", "¶↓", "Espaço depois do parágrafo")}</div>`)}
+            ${b("w-espaco-antes", "¶↑", "Espaço antes do parágrafo")}${b("w-espaco-depois", "¶↓", "Espaço depois do parágrafo")}
+            <span class="w-duplo">${b("w-sombreamento", '<span class="w-letra-cor">▧<span class="w-tira" id="w-tira-sombra" style="background:#FFF2CC"></span></span>', "Sombreamento (cor de fundo do parágrafo ou do quadro)")}${b("w-sombreamento-mais", "▾", "Escolher a cor do sombreamento")}</span>
+            <span class="w-duplo">${b("w-borda", '<span class="w-ico-borda" id="w-ico-borda">▣</span>', "Bordas: colocar o texto selecionado dentro de um quadro")}${b("w-borda-mais", "▾", "Opções de bordas")}</span></div>`)}
         ${grupo("Estilos", `<select class="w-sel w-sel-estilo" id="w-estilo" aria-label="Estilo do parágrafo">${ESTILOS_WORD.map(([v, n]) => `<option value="${v}">${n}</option>`).join("")}</select>`)}
       </div>
       <div class="w-painel" data-wpainel="inserir">
@@ -55,6 +57,10 @@ function htmlFaixaWord() {
         ${grupo("Links", b("w-link", "🔗 Link", "Inserir link (Ctrl+K)"))}
         ${grupo("Páginas", b("w-quebra", "⤓ Quebra de página", "Inserir quebra de página") + b("w-linha-h", "― Linha", "Inserir linha horizontal"))}
         ${grupo("Texto", b("w-caixa", "▭ Caixa de destaque", "Inserir caixa de destaque") + b("w-simbolo", "Ω Símbolo", "Inserir símbolo"))}
+      </div>
+      <div class="w-painel" data-wpainel="layout">
+        ${grupo("Configurar página", b("w-margens", "▢ Margens ▾", "Margens da página") + b("w-orientacao", "⤾ Orientação ▾", "Retrato ou paisagem") + b("w-tamanho", "📄 Tamanho ▾", "Tamanho do papel") + b("w-colunas", "▥ Colunas ▾", "Texto em colunas"))}
+        ${grupo("Bordas", b("w-bordas-dialogo", "▣ Bordas e sombreamento…", "Bordas e sombreamento"))}
       </div>
       <div class="w-painel" data-wpainel="tabela">
         ${grupo("Linhas", b("w-lin-acima", "+ Linha acima", "Inserir linha acima") + b("w-lin-abaixo", "+ Linha abaixo", "Inserir linha abaixo") + b("w-lin-excluir", "− Excluir linha", "Excluir a linha"))}
@@ -126,6 +132,7 @@ function editarDocx(r) {
   window.salvarResumoPendente = async () => { clearTimeout(tempo); await salvar(); };
   cont.addEventListener("input", agendar);
   cont.addEventListener("input", ajustarCaixaZoom);
+  cont.addEventListener("input", () => posAlcas());
 
   // a seleção é guardada para os menus e as listas (que tiram o foco do texto) agirem no trecho certo
   let selDocx = null;
@@ -208,11 +215,11 @@ function editarDocx(r) {
       ${extra ? `<button class="w-btn w-cor-extra" data-wcor="${extra[0]}">${extra[1]}</button>` : ""}`;
     const rb = botao.getBoundingClientRect(), rf = $("#barra-docx").getBoundingClientRect();
     caixa.style.left = Math.max(4, Math.min(rb.left - rf.left, rf.width - 230)) + "px"; caixa.style.top = (rb.bottom - rf.top + 4) + "px";
-    caixa.classList.remove("oculto");
+    caixa.classList.remove("oculto", "w-cores-menu");
     caixa.onpointerdown = e => e.preventDefault();
     caixa.onclick = e => { const c = e.target.closest("[data-wcor]"); if (!c) return; caixa.classList.add("oculto"); aoEscolher(c.dataset.wcor); };
   };
-  const fecharCores = () => $("#w-cores")?.classList.add("oculto");
+  const fecharCores = () => { $("#w-cores")?.classList.add("oculto"); $("#w-cores")?.classList.remove("w-cores-menu"); };
 
   /* tabela, caixa e quebra de página entram depois da lista (e não dentro de um item dela) */
   const sairDaLista = () => {
@@ -244,7 +251,7 @@ function editarDocx(r) {
     caixa.innerHTML = `<div class="w-grade-tab">${Array.from({ length: 8 }, (_, l) => Array.from({ length: 8 }, (_, c) => `<button class="w-celula" data-l="${l + 1}" data-c="${c + 1}"></button>`).join("")).join("")}</div><p class="contagem" id="w-tab-tam">Toque para escolher o tamanho</p>`;
     const rb = botao.getBoundingClientRect(), rf = $("#barra-docx").getBoundingClientRect();
     caixa.style.left = Math.max(4, Math.min(rb.left - rf.left, rf.width - 230)) + "px"; caixa.style.top = (rb.bottom - rf.top + 4) + "px";
-    caixa.classList.remove("oculto");
+    caixa.classList.remove("oculto", "w-cores-menu");
     caixa.onpointerdown = e => e.preventDefault();
     caixa.onpointerover = e => { const c = e.target.closest(".w-celula"); if (!c) return; $$(".w-celula", caixa).forEach(x => x.classList.toggle("marcada", +x.dataset.l <= +c.dataset.l && +x.dataset.c <= +c.dataset.c)); $("#w-tab-tam").textContent = `${c.dataset.l} × ${c.dataset.c}`; };
     caixa.onclick = e => { const c = e.target.closest(".w-celula"); if (!c) return; caixa.classList.add("oculto"); sairDaLista(); inserirTabela(+c.dataset.l, +c.dataset.c); };
@@ -339,7 +346,12 @@ function editarDocx(r) {
     if (pos) { const s = getSelection(); s.removeAllRanges(); s.addRange(pos); }
     await inserirImagensDocx(imgs); agendar();
   };
-  cont.onclick = e => { if (ativo) ferramentasImagemDocx(e.target.tagName === "IMG" ? e.target : null); };
+  cont.onclick = e => {
+    if (!ativo) return;
+    const img = e.target.tagName === "IMG" ? e.target : null;
+    ferramentasImagemDocx(img);
+    mostrarAlcas(img || e.target.closest?.(".quadro-word, .caixa-word") || null);
+  };
 
   /* atalhos do teclado (computador) */
   const teclas = e => {
@@ -363,6 +375,254 @@ function editarDocx(r) {
     }
   };
   document.addEventListener("keydown", teclas, true);
+
+  /* ---------- bordas e sombreamento (como no Word) ----------
+     Parágrafos: "Todas as bordas" põe o trecho dentro de um quadro (dá para pintar o fundo); as bordas de um lado só
+     ficam em cada parágrafo. Texto: uma borda em volta só das palavras selecionadas. Tabela: bordas das células. */
+  let bordaCfg = { estilo: "solid", pt: 1, cor: "#000000", ...lerLS("word-borda", {}) };
+  let corSombra = lerLS("word-sombra", "#FFF2CC");
+  $("#w-tira-sombra").style.background = corSombra;
+  const cssBorda = () => `${bordaCfg.pt}pt ${bordaCfg.estilo} ${bordaCfg.cor}`;
+  const quadroDaSelecao = () => elDaSelecao()?.closest(".quadro-word, .caixa-word");
+  const celulasSelecionadas = () => {
+    const td = celulaAtual(); if (!td) return [];
+    if (!selDocx || selDocx.collapsed) return [td];
+    const lista = [...td.closest("table").querySelectorAll("td, th")].filter(x => selDocx.intersectsNode(x));
+    return lista.length ? lista : [td];
+  };
+  const LADOS = { superior: "Top", inferior: "Bottom", esquerda: "Left", direita: "Right" };
+  const topoDosBlocos = blocos => {          // os blocos selecionados, subindo até ficarem lado a lado no mesmo lugar
+    if (!blocos.length) return [];
+    const base = blocos[0].parentElement;
+    const pai = base.closest("article, td, th, .quadro-word, .caixa-word, section") || base;
+    const subir = el => { let e = el; while (e && e.parentElement !== pai) e = e.parentElement; return e; };
+    const tops = [...new Set(blocos.map(subir).filter(Boolean))];
+    if (!tops.length) return [];
+    const filhos = [...pai.children], i0 = filhos.indexOf(tops[0]), i1 = filhos.indexOf(tops[tops.length - 1]);
+    return filhos.slice(Math.min(i0, i1), Math.max(i0, i1) + 1);
+  };
+  const aplicarBorda = tipo => {
+    voltarSelecao();
+    const cels = celulasSelecionadas();
+    if (cels.length && tipo !== "texto") {
+      const linhas = [...new Set(cels.map(c => c.parentElement))];
+      for (const c of cels) {
+        const tr = c.parentElement, naLinha = cels.filter(x => x.parentElement === tr);
+        const lados = tipo === "nenhuma" ? [] : tipo === "todas" ? ["Top", "Bottom", "Left", "Right"]
+          : tipo === "externa" ? [tr === linhas[0] && "Top", tr === linhas[linhas.length - 1] && "Bottom", c === naLinha[0] && "Left", c === naLinha[naLinha.length - 1] && "Right"].filter(Boolean)
+          : [LADOS[tipo]];
+        if (tipo === "nenhuma" || tipo === "todas") for (const l of ["Top", "Bottom", "Left", "Right"]) c.style["border" + l] = tipo === "nenhuma" ? "none" : cssBorda();
+        else for (const l of lados) c.style["border" + l] = cssBorda();
+      }
+    } else if (tipo === "texto") {
+      if (!selDocx || selDocx.collapsed) { mostrarAvisoRapido("Selecione as palavras que vão ficar dentro da borda"); return; }
+      const sp = document.createElement("span"); sp.className = "borda-texto";
+      sp.style.border = cssBorda(); sp.style.padding = "0 2px";
+      const rg = selDocx.cloneRange(); sp.appendChild(rg.extractContents()); rg.insertNode(sp);
+      const nova = document.createRange(); nova.selectNodeContents(sp); const s2 = getSelection(); s2.removeAllRanges(); s2.addRange(nova); guardarSel();
+    } else if (tipo === "nenhuma") {
+      const q = quadroDaSelecao(); if (q) q.replaceWith(...q.childNodes);
+      for (const b of blocosDaSelecao()) for (const l of ["Top", "Bottom", "Left", "Right"]) { b.style["border" + l] = ""; b.style["padding" + l] = ""; }
+      if (selDocx) for (const sp of [...cont.querySelectorAll("span.borda-texto")].filter(x => selDocx.intersectsNode(x))) sp.replaceWith(...sp.childNodes);
+    } else if (tipo === "todas" || tipo === "externa") {
+      const q = quadroDaSelecao();
+      if (q) { q.style.border = cssBorda(); }
+      else {
+        const grupo = topoDosBlocos(blocosDaSelecao());
+        if (!grupo.length) { mostrarAvisoRapido("Toque no parágrafo (ou selecione os parágrafos) que vão ficar no quadro"); return; }
+        const qd = document.createElement("div"); qd.className = "quadro-word";
+        qd.style.border = cssBorda(); qd.style.padding = "6px 10px"; qd.style.margin = "6px 0";
+        const [sc, so, ec, eo] = selDocx ? [selDocx.startContainer, selDocx.startOffset, selDocx.endContainer, selDocx.endOffset] : [];
+        grupo[0].before(qd); grupo.forEach(el => qd.appendChild(el));
+        if (sc) { try { const rg = document.createRange(); rg.setStart(sc, so); rg.setEnd(ec, eo); const s2 = getSelection(); s2.removeAllRanges(); s2.addRange(rg); } catch {} }
+      }
+    } else {
+      const lado = LADOS[tipo], q = quadroDaSelecao();
+      for (const b of (q ? [q] : blocosDaSelecao())) { b.style["border" + lado] = cssBorda(); b.style["padding" + lado] = "2px"; }
+    }
+    guardarSel(); agendar(); posAlcas();
+  };
+  const sombrear = cor => {
+    voltarSelecao();
+    const fundo = cor === "transparent" || !cor ? "" : cor;
+    const cels = celulasSelecionadas();
+    if (cels.length) cels.forEach(c => { c.style.backgroundColor = fundo; });
+    else { const q = quadroDaSelecao(); (q ? [q] : blocosDaSelecao()).forEach(b => { b.style.backgroundColor = fundo; }); }
+    agendar();
+  };
+  const ITENS_BORDA = [["inferior", "▁ Borda inferior"], ["superior", "▔ Borda superior"], ["esquerda", "▏ Borda esquerda"], ["direita", "▕ Borda direita"],
+    ["todas", "▣ Todas as bordas (quadro)"], ["externa", "□ Borda externa"], ["texto", "⬚ Borda só nas palavras selecionadas"], ["nenhuma", "✕ Sem borda"], ["dialogo", "⚙ Bordas e sombreamento…"]];
+  const abrirMenu = (botao, itens, aoEscolher) => {
+    const caixa = $("#w-cores");
+    caixa.innerHTML = `<div class="w-menu">${itens.map(([v, n]) => v === "-" ? '<hr>' : `<button class="w-btn w-item" data-wmenu="${v}">${n}</button>`).join("")}</div>`;
+    const rb = botao.getBoundingClientRect(), rf = barra.getBoundingClientRect();
+    caixa.style.left = Math.max(4, Math.min(rb.left - rf.left, rf.width - 260)) + "px"; caixa.style.top = (rb.bottom - rf.top + 4) + "px";
+    caixa.classList.remove("oculto"); caixa.classList.add("w-cores-menu");
+    caixa.onpointerdown = e => e.preventDefault();
+    caixa.onclick = e => { const it = e.target.closest("[data-wmenu]"); if (!it) return; caixa.classList.add("oculto"); caixa.classList.remove("w-cores-menu"); aoEscolher(it.dataset.wmenu); };
+  };
+  const dialogoBordas = () => {
+    const amostra = () => `${$("#bd-pt").value}pt ${$("#bd-estilo").value} ${bordaCfg.cor}`;
+    abrirPainel(`<h2>Bordas e sombreamento ${botaoFechar}</h2>
+      <div class="bordas-dialogo">
+        <label>Estilo <select class="campo" id="bd-estilo">${[["solid", "Linha contínua"], ["dashed", "Tracejada"], ["dotted", "Pontilhada"], ["double", "Dupla"]].map(([v, n]) => `<option value="${v}" ${bordaCfg.estilo === v ? "selected" : ""}>${n}</option>`).join("")}</select></label>
+        <label>Espessura <select class="campo" id="bd-pt">${[0.5, 0.75, 1, 1.5, 2.25, 3, 4.5, 6].map(v => `<option value="${v}" ${bordaCfg.pt === v ? "selected" : ""}>${String(v).replace(".", ",")} pt</option>`).join("")}</select></label>
+        <div><span class="contagem">Cor da borda</span><div class="w-cores-grade">${CORES_WORD.map(c => `<button class="w-cor" data-bdcor="${c}" style="background:${c}"></button>`).join("")}</div></div>
+        <div><span class="contagem">Sombreamento (cor de dentro)</span><div class="w-cores-grade">${["transparent", "#FFF2CC", "#E2EFDA", "#DDEBF7", "#FCE4D6", "#EDEDED", "#FFE58A", "#BDEBC4", "#BFDDF7", "#F7C1C1"].map(c => `<button class="w-cor${c === "transparent" ? " w-cor-nenhuma" : ""}" data-bdfundo="${c}" style="background:${c === "transparent" ? "#fff" : c}" title="${c === "transparent" ? "Sem cor" : c}"></button>`).join("")}</div></div>
+        <div class="bordas-amostra" id="bd-amostra">Assim fica o quadro</div>
+        <div class="acoes">
+          <button class="botao primario" data-bdaplicar="todas">▣ Quadro em volta dos parágrafos</button>
+          <button class="botao" data-bdaplicar="texto">⬚ Borda só nas palavras selecionadas</button>
+          <button class="botao" data-bdaplicar="inferior">▁ Só embaixo</button>
+          <button class="botao" data-bdaplicar="superior">▔ Só em cima</button>
+          <button class="botao" data-bdaplicar="nenhuma" style="color:var(--alt)">✕ Tirar as bordas</button>
+        </div>
+      </div>`);
+    let fundo = null;
+    const atual = () => { $("#bd-amostra").style.border = amostra(); $("#bd-amostra").style.background = fundo && fundo !== "transparent" ? fundo : ""; };
+    $$("#painel-caixa [data-bdcor]").forEach(x => x.onclick = () => { bordaCfg.cor = x.dataset.bdcor; $$("#painel-caixa [data-bdcor]").forEach(y => y.classList.toggle("escolhida", y === x)); atual(); });
+    $$("#painel-caixa [data-bdfundo]").forEach(x => x.onclick = () => { fundo = x.dataset.bdfundo; $$("#painel-caixa [data-bdfundo]").forEach(y => y.classList.toggle("escolhida", y === x)); atual(); });
+    $("#bd-estilo").onchange = atual; $("#bd-pt").onchange = atual; atual();
+    $$("#painel-caixa [data-bdaplicar]").forEach(x => x.onclick = () => {
+      bordaCfg = { estilo: $("#bd-estilo").value, pt: parseFloat($("#bd-pt").value), cor: bordaCfg.cor }; gravarLS("word-borda", bordaCfg);
+      fecharPainel(); aplicarBorda(x.dataset.bdaplicar);
+      if (fundo !== null && x.dataset.bdaplicar !== "texto") sombrear(fundo);
+      else if (fundo !== null && x.dataset.bdaplicar === "texto") { const sp = elDaSelecao()?.closest("span.borda-texto"); if (sp) { sp.style.backgroundColor = fundo === "transparent" ? "" : fundo; agendar(); } }
+    });
+  };
+
+  /* ---------- Layout: configurar a página (todas as páginas do documento) ---------- */
+  const CM = 28.3465;
+  const lerPagina = () => {
+    const s0 = cont.querySelector("section.docx"); const c = getComputedStyle(s0);
+    const art = s0.querySelector("article");
+    return { w: parseFloat(s0.style.width) || 595.3, h: parseFloat(s0.style.minHeight) || 841.9,
+      m: { t: parseFloat(c.paddingTop) * 0.75, r: parseFloat(c.paddingRight) * 0.75, b: parseFloat(c.paddingBottom) * 0.75, l: parseFloat(c.paddingLeft) * 0.75 },
+      cols: art ? parseInt(getComputedStyle(art).columnCount, 10) || 1 : 1 };
+  };
+  const aplicarPagina = pg => {
+    for (const sec of cont.querySelectorAll("section.docx")) {
+      sec.style.width = pg.w.toFixed(2) + "pt"; sec.style.minHeight = pg.h.toFixed(2) + "pt";
+      sec.style.padding = `${pg.m.t.toFixed(2)}pt ${pg.m.r.toFixed(2)}pt ${pg.m.b.toFixed(2)}pt ${pg.m.l.toFixed(2)}pt`;
+      const art = sec.querySelector("article");
+      if (art) { art.style.columnCount = pg.cols > 1 ? String(pg.cols) : ""; art.style.columnGap = pg.cols > 1 ? "1.25cm" : ""; }
+    }
+    caberNaTela(); ajustarCaixaZoom(); agendar(); posAlcas();
+  };
+  const MARGENS = { normal: [2.5, 3, 2.5, 3], abnt: [3, 2, 2, 3], estreita: [1.27, 1.27, 1.27, 1.27], moderada: [2.54, 1.91, 2.54, 1.91], larga: [2.54, 5.08, 2.54, 5.08] };   // sup, dir, inf, esq (cm)
+  const TAMANHOS_PAPEL = { a4: [21, 29.7, "A4 (21 × 29,7 cm)"], carta: [21.59, 27.94, "Carta (21,59 × 27,94 cm)"], oficio: [21.59, 35.56, "Ofício (21,59 × 35,56 cm)"], a5: [14.8, 21, "A5 (14,8 × 21 cm)"] };
+  const margensPersonalizadas = () => {
+    const pg = lerPagina(), cm = v => (v / CM).toFixed(2).replace(".", ",");
+    abrirPainel(`<h2>Margens personalizadas ${botaoFechar}</h2><div class="margens-campos">
+      ${[["t", "Superior"], ["b", "Inferior"], ["l", "Esquerda"], ["r", "Direita"]].map(([k, n]) => `<label>${n} (cm)<input class="campo" inputmode="decimal" id="mg-${k}" value="${cm(pg.m[k])}"></label>`).join("")}
+      </div><div class="acoes" style="margin-top:12px"><button class="botao primario" id="mg-ok">Aplicar em todas as páginas</button></div>`);
+    $("#mg-ok").onclick = () => {
+      const v = k => Math.max(0, Math.min(10, parseFloat($("#mg-" + k).value.replace(",", ".")) || 0)) * CM;
+      fecharPainel(); aplicarPagina({ ...pg, m: { t: v("t"), b: v("b"), l: v("l"), r: v("r") } }); mostrarAvisoRapido("Margens aplicadas");
+    };
+  };
+
+  /* ---------- alças para redimensionar imagens e quadros ---------- */
+  const alcas = document.createElement("div");
+  alcas.id = "w-alcas"; alcas.className = "w-alcas oculto";
+  alcas.innerHTML = ["nw", "n", "ne", "e", "se", "s", "sw", "w"].map(d => `<span class="w-alca" data-d="${d}"></span>`).join("");
+  document.body.appendChild(alcas);
+  let alvoAlca = null, quadroAlca = 0;
+  const posAlcas = () => {
+    if (quadroAlca) return;
+    quadroAlca = requestAnimationFrame(() => {
+      quadroAlca = 0;
+      if (!ativo || !alvoAlca || !alvoAlca.isConnected) { alcas.classList.add("oculto"); return; }
+      const r = alvoAlca.getBoundingClientRect();
+      Object.assign(alcas.style, { left: r.left + "px", top: r.top + "px", width: r.width + "px", height: r.height + "px" });
+      alcas.dataset.tipo = alvoAlca.tagName === "IMG" ? "img" : "caixa";
+      alcas.classList.remove("oculto");
+    });
+  };
+  const mostrarAlcas = el => { alvoAlca = el; posAlcas(); };
+  const aoRolar = () => posAlcas();
+  window.addEventListener("scroll", aoRolar, true); window.addEventListener("resize", aoRolar);
+  alcas.addEventListener("pointerdown", e => {
+    const h = e.target.closest(".w-alca"); if (!h || !alvoAlca) return;
+    e.preventDefault(); e.stopPropagation();
+    const el = alvoAlca, d = h.dataset.d, r = el.getBoundingClientRect(), esc = r.width / (el.offsetWidth || r.width) || 1;
+    const w0 = el.offsetWidth, h0 = el.offsetHeight, x0 = e.clientX, y0 = e.clientY, ml0 = parseFloat(getComputedStyle(el).marginLeft) || 0;
+    const caixaPai = (el.tagName === "IMG" && el.parentElement.tagName === "DIV" && el.parentElement.style.width ? el.parentElement.parentElement : el.parentElement).closest("td, th, .quadro-word, .caixa-word, article, section");
+    const maxW = Math.max(40, (caixaPai?.clientWidth || 2000) - (el.tagName === "IMG" ? 0 : ml0));
+    const mover = ev => {
+      const dx = (ev.clientX - x0) / esc, dy = (ev.clientY - y0) / esc;
+      let w = w0, hh = h0;
+      if (d.includes("e")) w = w0 + dx; if (d.includes("w")) w = w0 - dx;
+      if (d.includes("s")) hh = h0 + dy; if (d.includes("n")) hh = h0 - dy;
+      w = Math.max(20, Math.min(maxW, w)); hh = Math.max(16, hh);
+      if (el.tagName === "IMG") {
+        if (d.length === 2) hh = w * h0 / w0;            // canto: mantém a proporção
+        else if (d === "n" || d === "s") w = w0; else hh = h0;
+        el.style.maxWidth = "none"; el.style.width = Math.round(w) + "px"; el.style.height = Math.round(hh) + "px";
+        const moldura = el.parentElement;                 // imagens do Word original vêm dentro de uma moldura do mesmo tamanho
+        if (moldura && moldura.tagName === "DIV" && moldura.style.width && moldura.children.length === 1) { moldura.style.width = Math.round(w) + "px"; moldura.style.height = Math.round(hh) + "px"; }
+      } else {
+        el.style.boxSizing = "border-box"; el.style.width = Math.round(w) + "px";
+        if (d === "w") el.style.marginLeft = Math.max(0, Math.round(ml0 + (w0 - w))) + "px";
+      }
+      posAlcas();
+    };
+    const soltar = () => { document.removeEventListener("pointermove", mover); document.removeEventListener("pointerup", soltar); document.removeEventListener("pointercancel", soltar); ajustarCaixaZoom(); agendar(); };
+    document.addEventListener("pointermove", mover); document.addEventListener("pointerup", soltar); document.addEventListener("pointercancel", soltar);
+  });
+
+  /* ---------- tabelas: arrastar a borda da célula muda a largura da coluna ou a altura da linha ---------- */
+  const bordaTabela = (alvo, x, y, toque) => {
+    const td = alvo && alvo.closest && alvo.closest("td, th"); if (!td || !cont.contains(td)) return null;
+    const r = td.getBoundingClientRect(), tol = toque ? 10 : 5;
+    if (Math.abs(x - r.right) <= tol) return { tipo: "col", td };
+    if (Math.abs(y - r.bottom) <= tol) return { tipo: "lin", td };
+    return null;
+  };
+  const colunasDe = tabela => {
+    const linhas = [...tabela.rows]; const n = Math.max(...linhas.map(tr => [...tr.cells].reduce((a, c) => a + (c.colSpan || 1), 0)));
+    const esc = tabela.getBoundingClientRect().width / (tabela.offsetWidth || 1) || 1;
+    const larg = Array(n).fill(0);
+    for (const tr of linhas) { let k = 0; for (const c of tr.cells) { if ((c.colSpan || 1) === 1 && !larg[k]) larg[k] = c.getBoundingClientRect().width / esc; k += c.colSpan || 1; } }
+    const media = (tabela.offsetWidth || 400) / n;
+    return larg.map(v => v || media);
+  };
+  const fixarColunas = (tabela, larg) => {
+    tabela.querySelectorAll(":scope > colgroup").forEach(cg => cg.remove());
+    const cg = document.createElement("colgroup");
+    larg.forEach(v => { const c = document.createElement("col"); c.style.width = Math.round(v) + "px"; cg.appendChild(c); });
+    tabela.prepend(cg);
+    tabela.style.tableLayout = "fixed"; tabela.style.width = Math.round(larg.reduce((a, b) => a + b, 0)) + "px"; tabela.style.maxWidth = "100%";
+    for (const c of tabela.querySelectorAll("td, th")) c.style.width = "";
+  };
+  const arrastarTabela = (b, x0, y0) => {
+    const tabela = b.td.closest("table"), esc = tabela.getBoundingClientRect().width / (tabela.offsetWidth || 1) || 1;
+    let mover;
+    if (b.tipo === "lin") {
+      const tr = b.td.parentElement, h0 = tr.offsetHeight;
+      mover = ev => { tr.style.height = Math.max(16, Math.round(h0 + (ev.clientY - y0) / esc)) + "px"; };
+    } else {
+      const larg = colunasDe(tabela);
+      let k = -1; for (const c of b.td.parentElement.cells) { k += c.colSpan || 1; if (c === b.td) break; }
+      const maxTab = (tabela.parentElement.closest("td, th, article, section")?.clientWidth || 2000);
+      fixarColunas(tabela, larg);
+      mover = ev => {
+        const dx = (ev.clientX - x0) / esc, nl = larg.slice();
+        if (k + 1 < nl.length) { const tot = larg[k] + larg[k + 1]; nl[k] = Math.max(20, Math.min(tot - 20, larg[k] + dx)); nl[k + 1] = tot - nl[k]; }
+        else nl[k] = Math.max(20, Math.min(maxTab - (larg.reduce((a, v) => a + v, 0) - larg[k]), larg[k] + dx));
+        fixarColunas(tabela, nl);
+      };
+    }
+    document.body.classList.add(b.tipo === "lin" ? "arrastando-linha" : "arrastando-coluna");
+    const soltar = () => { document.body.classList.remove("arrastando-linha", "arrastando-coluna"); document.removeEventListener("pointermove", mover); document.removeEventListener("pointerup", soltar); document.removeEventListener("pointercancel", soltar); ajustarCaixaZoom(); agendar(); };
+    document.addEventListener("pointermove", mover); document.addEventListener("pointerup", soltar); document.addEventListener("pointercancel", soltar);
+  };
+  const cursorTabela = e => { if (!ativo || e.buttons) return; const b = bordaTabela(e.target, e.clientX, e.clientY, e.pointerType === "touch"); cont.style.cursor = b ? (b.tipo === "col" ? "col-resize" : "row-resize") : ""; };
+  const inicioTabela = e => { if (!ativo || (typeof caneta !== "undefined" && caneta.ativa)) return; const b = bordaTabela(e.target, e.clientX, e.clientY, e.pointerType === "touch"); if (!b) return; e.preventDefault(); e.stopPropagation(); arrastarTabela(b, e.clientX, e.clientY); };
+  const toqueTabela = e => { if (!ativo || e.touches.length !== 1) return; const t = e.touches[0]; if (bordaTabela(t.target, t.clientX, t.clientY, true)) e.preventDefault(); };   // no iPad, a borda arrasta em vez de rolar a página
+  cont.addEventListener("pointermove", cursorTabela);
+  cont.addEventListener("pointerdown", inicioTabela, true);
+  cont.addEventListener("touchstart", toqueTabela, { passive: false });
 
   /* cliques na faixa */
   barra.onpointerdown = e => { if (e.target.closest("button") && !e.target.closest("#w-busca")) e.preventDefault(); };
@@ -411,7 +671,7 @@ function editarDocx(r) {
         caixa.innerHTML = `<div class="w-simbolos">${SIMBOLOS_WORD.map(s => `<button class="w-btn" data-wsimb="${s}">${s}</button>`).join("")}</div>`;
         const rb = b.getBoundingClientRect(), rf = barra.getBoundingClientRect();
         caixa.style.left = Math.max(4, Math.min(rb.left - rf.left, rf.width - 260)) + "px"; caixa.style.top = (rb.bottom - rf.top + 4) + "px";
-        caixa.classList.remove("oculto"); caixa.onpointerdown = ev => ev.preventDefault();
+        caixa.classList.remove("oculto", "w-cores-menu"); caixa.onpointerdown = ev => ev.preventDefault();
         caixa.onclick = ev => { const s = ev.target.closest("[data-wsimb]"); if (s) { caixa.classList.add("oculto"); executar("insertText", s.dataset.wsimb); } };
         return;
       }
@@ -424,6 +684,17 @@ function editarDocx(r) {
       case "w-tab-excluir": opTabela("excluir"); return;
       case "w-sombra": abrirCores(b, [...CORES_WORD.slice(3), "#EAF1FB", "#FFF2CC", "#E2EFDA", "#FCE4D6"], ["", "Sem cor"], c => { const td = celulaAtual(); if (!td) return; const linha = td.closest("table"); const alvo = selDocx && !selDocx.collapsed ? [...linha.querySelectorAll("td, th")].filter(x => selDocx.intersectsNode(x)) : [td]; alvo.forEach(x => { x.style.backgroundColor = c; }); agendar(); }); return;
       case "w-localizar": abrirBusca(); return;
+      case "w-borda": aplicarBorda("todas"); return;
+      case "w-borda-mais": abrirMenu(b, ITENS_BORDA, v => v === "dialogo" ? dialogoBordas() : aplicarBorda(v)); return;
+      case "w-bordas-dialogo": dialogoBordas(); return;
+      case "w-sombreamento": sombrear(corSombra); return;
+      case "w-sombreamento-mais": abrirCores(b, ["#FFF2CC", "#E2EFDA", "#DDEBF7", "#FCE4D6", "#EDEDED", "#FFE58A", "#BDEBC4", "#BFDDF7", "#F7C1C1", ...CORES_WORD.slice(3, 14)], ["transparent", "Sem cor"], c => { if (c !== "transparent") { corSombra = c; gravarLS("word-sombra", c); $("#w-tira-sombra").style.background = c; } sombrear(c); }); return;
+      case "w-margens": abrirMenu(b, [["normal", "Normal (sup./inf. 2,5 · esq./dir. 3 cm)"], ["abnt", "ABNT (sup./esq. 3 · inf./dir. 2 cm)"], ["estreita", "Estreita (1,27 cm)"], ["moderada", "Moderada (2,54 · 1,91 cm)"], ["larga", "Larga (2,54 · 5,08 cm)"], ["personalizar", "⚙ Margens personalizadas…"]], v => {
+          if (v === "personalizar") { margensPersonalizadas(); return; }
+          const [t, rr, bb, l] = MARGENS[v].map(x => x * CM); aplicarPagina({ ...lerPagina(), m: { t, r: rr, b: bb, l } }); }); return;
+      case "w-orientacao": abrirMenu(b, [["retrato", "▯ Retrato"], ["paisagem", "▭ Paisagem"]], v => { const pg = lerPagina(); const deitado = pg.w > pg.h; if ((v === "paisagem") !== deitado) aplicarPagina({ ...pg, w: pg.h, h: pg.w }); }); return;
+      case "w-tamanho": abrirMenu(b, Object.entries(TAMANHOS_PAPEL).map(([k, v]) => [k, v[2]]), v => { const pg = lerPagina(), [w, h] = TAMANHOS_PAPEL[v]; const deitado = pg.w > pg.h; aplicarPagina({ ...pg, w: (deitado ? h : w) * CM, h: (deitado ? w : h) * CM }); }); return;
+      case "w-colunas": abrirMenu(b, [["1", "▯ Uma"], ["2", "▥ Duas"], ["3", "▥ Três"]], v => aplicarPagina({ ...lerPagina(), cols: +v })); return;
       case "w-contagem": contagem(); return;
     }
   };
@@ -451,6 +722,9 @@ function editarDocx(r) {
     document.removeEventListener("keydown", teclas, true);
     document.removeEventListener("pointerdown", fecharCoresFora, true);
     cont.removeEventListener("mouseup", aoSoltar); cont.removeEventListener("touchend", aoSoltar);
+    cont.removeEventListener("pointermove", cursorTabela); cont.removeEventListener("pointerdown", inicioTabela, true); cont.removeEventListener("touchstart", toqueTabela);
+    window.removeEventListener("scroll", aoRolar, true); window.removeEventListener("resize", aoRolar);
+    cont.style.cursor = ""; alcas.remove();
   };
   window.concluirModoWord = concluir;
   $("#docx-imagem").onclick = () => {
@@ -540,7 +814,8 @@ async function docxDeHtml(raiz) {
     if (k < secoes.length - 1) corpoXml.push('<w:p><w:r><w:br w:type="page"/></w:r></w:p>');
   }
   const twip = v => Math.round(v * 20);
-  const sect = `<w:sectPr><w:pgSz w:w="${twip(larguraPt)}" w:h="${twip(alturaPt)}"${larguraPt > alturaPt ? ' w:orient="landscape"' : ""}/><w:pgMar w:top="${twip(margem.t)}" w:right="${twip(margem.r)}" w:bottom="${twip(margem.b)}" w:left="${twip(margem.l)}" w:header="708" w:footer="708" w:gutter="0"/></w:sectPr>`;
+  const nCols = parseInt(getComputedStyle(s0.querySelector(":scope > article") || s0).columnCount, 10) || 1;
+  const sect = `<w:sectPr><w:pgSz w:w="${twip(larguraPt)}" w:h="${twip(alturaPt)}"${larguraPt > alturaPt ? ' w:orient="landscape"' : ""}/><w:pgMar w:top="${twip(margem.t)}" w:right="${twip(margem.r)}" w:bottom="${twip(margem.b)}" w:left="${twip(margem.l)}" w:header="708" w:footer="708" w:gutter="0"/>${nCols > 1 ? `<w:cols w:num="${nCols}" w:space="708"/>` : ""}</w:sectPr>`;
   const NS = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"';
   const documento = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document ${NS}><w:body>${corpoXml.join("") || "<w:p/>"}${sect}</w:body></w:document>`;
   const estilos = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
@@ -564,6 +839,19 @@ ${[1, 2, 3].map(n => `<w:style w:type="paragraph" w:styleId="Ttulo${n}"><w:name 
   for (const m of w.midias) z.file("word/media/" + m.nome, m.bytes);
   return z.generateAsync({ type: "blob", mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document", compression: "DEFLATE" });
 }
+/* bordas calculadas de um elemento → bordas do Word (w:sz em oitavos de ponto) */
+function bordasWord(el, lados = ["top", "left", "bottom", "right"], nomes = null, espaco = 4) {
+  const c = getComputedStyle(el); let out = "";
+  lados.forEach((l, k) => {
+    const est = c.getPropertyValue(`border-${l}-style`), larg = parseFloat(c.getPropertyValue(`border-${l}-width`)) || 0;
+    if (!larg || est === "none" || est === "hidden") return;
+    const val = { solid: "single", dashed: "dashed", dotted: "dotted", double: "double", groove: "threeDEngrave", ridge: "threeDEmboss", inset: "inset", outset: "outset" }[est] || "single";
+    const sz = Math.max(2, Math.min(96, Math.round(larg * 0.75 * 8 / (est === "double" ? 3 : 1))));
+    out += `<w:${(nomes || lados)[k]} w:val="${val}" w:sz="${sz}" w:space="${espaco}" w:color="${corHexDe(c.getPropertyValue(`border-${l}-color`)) || "000000"}"/>`;
+  });
+  return out;
+}
+const temBordaOuFundo = el => { const c = getComputedStyle(el); return !!corHexDe(c.backgroundColor) || ["Top", "Left", "Bottom", "Right"].some(l => (parseFloat(c["border" + l + "Width"]) || 0) > 0 && c["border" + l + "Style"] !== "none"); };
 const ehBlocoTag = t => /^(P|H[1-6]|DIV|UL|OL|LI|TABLE|BLOCKQUOTE|PRE|HR|ARTICLE|SECTION|HEADER|FOOTER|FIGURE|TBODY|THEAD|TR)$/.test(t);
 async function blocosXml(w, container, ctx) {
   let out = "", inline = [];
@@ -585,7 +873,7 @@ async function blocosXml(w, container, ctx) {
       continue;
     }
     // DIV, BLOCKQUOTE, ARTICLE...: o que está dentro vira parágrafos (caixa de destaque com borda e fundo)
-    const caixa = n.classList.contains("caixa-word") || tag === "BLOCKQUOTE";
+    const caixa = n.classList.contains("caixa-word") || n.classList.contains("quadro-word") || tag === "BLOCKQUOTE" || (tag === "DIV" && temBordaOuFundo(n));
     out += await blocosXml(w, n, { ...ctx, caixa: caixa ? n : ctx.caixa, citacao: ctx.citacao || tag === "BLOCKQUOTE" });
   }
   await fechar();
@@ -628,11 +916,10 @@ async function tabelaXml(w, tabela, ctx) {
   const total = larg.reduce((a, b) => a + b, 0) || 1;
   const largUtil = Math.min(ctx.larguraUtilPx || 600, tabela.getBoundingClientRect().width || 600);
   const twCol = larg.map(v => Math.max(300, Math.round((v || total / nCols) / total * largUtil * 15)));
-  const borda = (() => { const td = tabela.querySelector("td, th"); const cs = td && getComputedStyle(td); return cs && pt(cs.borderTopWidth) > 0 && cs.borderTopStyle !== "none"; })();
-  function pt(v) { return parseFloat(v) || 0; }
-  let out = `<w:tbl><w:tblPr><w:tblW w:w="${twCol.reduce((a, b) => a + b, 0)}" w:type="dxa"/>${borda ? '<w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders>' : ""}<w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0"/></w:tblPr><w:tblGrid>${twCol.map(v => `<w:gridCol w:w="${v}"/>`).join("")}</w:tblGrid>`;
+  let out = `<w:tbl><w:tblPr><w:tblW w:w="${twCol.reduce((a, b) => a + b, 0)}" w:type="dxa"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0"/></w:tblPr><w:tblGrid>${twCol.map(v => `<w:gridCol w:w="${v}"/>`).join("")}</w:tblGrid>`;
   for (let i = 0; i < linhas.length; i++) {
-    out += "<w:tr>";
+    const altura = parseFloat(linhas[i].style.height) || 0;
+    out += `<w:tr>${altura ? `<w:trPr><w:trHeight w:val="${Math.round(altura * 15)}" w:hRule="atLeast"/></w:trPr>` : ""}`;
     let c = 0;
     const daLinha = grade[i];
     while (c < nCols) {
@@ -641,7 +928,7 @@ async function tabelaXml(w, tabela, ctx) {
         const fundo = corHexDe(getComputedStyle(x.td).backgroundColor);
         const largura = twCol.slice(c, c + x.cs).reduce((a, b) => a + b, 0);
         const conteudo = await blocosXml(w, x.td, ctx);
-        out += `<w:tc><w:tcPr><w:tcW w:w="${largura}" w:type="dxa"/>${x.cs > 1 ? `<w:gridSpan w:val="${x.cs}"/>` : ""}${x.rs > 1 ? '<w:vMerge w:val="restart"/>' : ""}${fundo && fundo !== "FFFFFF" ? `<w:shd w:val="clear" w:color="auto" w:fill="${fundo}"/>` : ""}</w:tcPr>${conteudo}${/<\/w:p>$|<w:p\/>$/.test(conteudo) ? "" : "<w:p/>"}</w:tc>`;
+        out += `<w:tc><w:tcPr><w:tcW w:w="${largura}" w:type="dxa"/>${x.cs > 1 ? `<w:gridSpan w:val="${x.cs}"/>` : ""}${x.rs > 1 ? '<w:vMerge w:val="restart"/>' : ""}${(b => b ? `<w:tcBorders>${b}</w:tcBorders>` : "")(bordasWord(x.td, ["top", "left", "bottom", "right"], null, 0))}${fundo && fundo !== "FFFFFF" ? `<w:shd w:val="clear" w:color="auto" w:fill="${fundo}"/>` : ""}</w:tcPr>${conteudo}${/<\/w:p>$|<w:p\/>$/.test(conteudo) ? "" : "<w:p/>"}</w:tc>`;
         c += x.cs;
       } else if (ocupado[i]?.[c] === "cont") {
         // continuação de uma célula mesclada de cima
@@ -684,12 +971,12 @@ async function paragrafoXml(w, bloco, ctx, nos) {
     lista = { num: w.numeracao("docx-" + mNum[1], nivel, formato, texto), nivel };
   }
   if (lista) pPr += `<w:numPr><w:ilvl w:val="${Math.min(lista.nivel, 8)}"/><w:numId w:val="${lista.num}"/></w:numPr>`;
-  // borda e fundo de caixa de destaque
-  if (ctx.caixa) {
-    const cc = getComputedStyle(ctx.caixa), corB = corHexDe(cc.borderTopColor) || "2F5496", fundo = corHexDe(cc.backgroundColor);
-    if (px(cc.borderTopWidth) > 0) pPr += `<w:pBdr>${["top", "left", "bottom", "right"].map(l => `<w:${l} w:val="single" w:sz="8" w:space="4" w:color="${corB}"/>`).join("")}</w:pBdr>`;
-    if (fundo && fundo !== "FFFFFF") pPr += `<w:shd w:val="clear" w:color="auto" w:fill="${fundo}"/>`;
-  }
+  // bordas e sombreamento: do próprio parágrafo ou do quadro em volta (parágrafos seguidos com a mesma borda viram um quadro só no Word)
+  const ehLi = tag === "LI", proprio = !ehLi && /^(P|H[1-6]|PRE)$/.test(tag) ? bloco : null;
+  const bdr = (proprio && bordasWord(proprio)) || (ctx.caixa && bordasWord(ctx.caixa)) || "";
+  if (bdr) pPr += `<w:pBdr>${bdr}</w:pBdr>`;
+  const fundoP = (proprio && corHexDe(cs.backgroundColor)) || (ctx.caixa && corHexDe(getComputedStyle(ctx.caixa).backgroundColor));
+  if (fundoP && fundoP !== "FFFFFF") pPr += `<w:shd w:val="clear" w:color="auto" w:fill="${fundoP}"/>`;
   const antesPx = px(cs.marginTop), depoisPx = px(cs.marginBottom);
   const fs = px(cs.fontSize) || 14.67;
   let linha = 240;
@@ -721,12 +1008,14 @@ function rPrDe(el, bloco) {
   for (let e = el; e && e !== bloco.parentElement; e = e.parentElement) {
     const c = e === el ? cs : getComputedStyle(e);
     if (/underline/.test(c.textDecorationLine) || e.tagName === "U") sub = true;
-    if (!fundo && e !== bloco) fundo = corHexDe(c.backgroundColor);
+    if (!fundo && e !== bloco && !e.classList.contains("quadro-word")) fundo = corHexDe(c.backgroundColor);
     if (!vert && (e.tagName === "SUP" || c.verticalAlign === "super")) vert = "superscript";
     if (!vert && (e.tagName === "SUB" || c.verticalAlign === "sub")) vert = "subscript";
     if (e === bloco) break;
   }
   if (sub) r += '<w:u w:val="single"/>';
+  const comBorda = el.closest && el.closest("span.borda-texto");
+  if (comBorda && bloco.contains(comBorda)) { const b = bordasWord(comBorda, ["top"], ["bdr"], 0); if (b) r += b; }
   if (fundo && fundo !== "FFFFFF") r += `<w:shd w:val="clear" w:color="auto" w:fill="${fundo}"/>`;
   if (vert) r += `<w:vertAlign w:val="${vert}"/>`;
   return r;
