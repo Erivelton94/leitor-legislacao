@@ -386,6 +386,25 @@ async function copiarCompartilhado(e, aviso) {
   await salvarMeta(novo);
   return novo;
 }
+/* mesmos quadros de Meus Resumos: pastas com o ícone grande e arquivos com a miniatura da primeira página */
+function tilePastaComp(nome, qtd, destino, idMenu = null) {
+  return `<div class="tile-pasta"><button class="tile-abrir" data-href="${esc(destino)}" aria-label="Abrir a pasta ${esc(nome)}">
+      <span class="icone-pasta-grande" aria-hidden="true">${ICONE_PASTA}</span>
+      <span class="nome-arquivo">${esc(nome)}</span><span class="qtd-pasta">${esc(qtd)}</span></button>
+    ${idMenu ? `<button class="tile-mais" data-menu-pasta="${esc(idMenu)}" aria-label="Opções da pasta">⋯</button>` : ""}</div>`;
+}
+/* arquivo que ainda não foi copiado (ou que tem versão nova): toque para copiar e abrir */
+function tileCompartilhado(x, copia) {
+  const nome = x.origem || x.titulo || "Sem título";
+  const rotulo = x.formato === "pdf" ? "PDF" : x.formato === "docx" ? "DOC" : "TXT";
+  return `<div class="tile-resumo tile-comp" data-comp-tile="${esc(x.id)}">
+    <button class="tile-abrir" data-comp="${esc(x.id)}" title="${esc(copia ? "Versão nova: toque para copiar de novo" : "Toque para copiar e abrir")}">
+      ${copia ? `<span class="miniatura" data-mini="${esc(copia.id)}"><span class="mini-carregando">${rotulo}</span></span>` : `<span class="miniatura"><span class="mini-carregando mini-comp">${rotulo}<small>${mb(x.tamanho || 0)}</small></span></span>`}
+      <span class="nome-arquivo">${esc(nome)}</span>
+    </button>
+    <span class="selo-comp">${copia ? "🆕 versão nova" : "⬇️ copiar"}</span>
+  </div>`;
+}
 async function telaCompartilhados(pastaId = null) {
   await carregarResumos();
   const idx = await carregarCompartilhados();
@@ -408,18 +427,17 @@ async function telaCompartilhados(pastaId = null) {
     ${dono ? `<p class="contagem">👑 Esta é exatamente a organização que os outros veem: as mesmas pastas e subpastas de Meus Resumos. Para mudar algo aqui, organize as suas pastas (renomear, mover) e o app dos outros acompanha.</p>` : ""}
     ${lista.length || pastas.length ? `<div class="acoes-linha"><button class="botao primario" id="copiar-tudo">⬇️ Copiar ${pasta ? "esta pasta inteira" : "tudo"} para mim</button></div>` : ""}
     <p class="contagem" id="msg-comp"></p>
-    <ul class="acervo">
-      ${pastas.map(q => `<li class="lei-item pasta-item"><span class="aba"></span><button class="abrir" data-href="#/resumos/compartilhados/${esc(q.id)}"><span class="lei-nome">${ICONE_PASTA}${esc(q.nome)}</span><span class="lei-num">${contar(q.id)} arquivo(s)</span></button><span></span></li>`).join("")}
-      ${lista.map(x => { const c = copiaLocal(x.id); return `<li class="lei-item"><span class="aba"></span><button class="abrir" data-comp="${esc(x.id)}">
-          <span class="lei-nome">📄 ${esc(x.origem || x.titulo)}</span>
-          <span class="lei-num">${x.formato.toUpperCase()} · ${mb(x.tamanho || 0)}${c ? (c.versaoCompartilhada === x.hash ? " · ✓ já está nos seus resumos (tocar para abrir)" : " · 🆕 versão nova disponível (tocar para copiar de novo)") : " · tocar para copiar e abrir"}</span></button><span></span></li>`; }).join("")}
-      ${pastasMinhas.map(q => `<li class="lei-item pasta-item"><span class="aba"></span><button class="abrir" data-href="${esc(rotaPastaArea("resumos", q.id))}"><span class="lei-nome">${ICONE_PASTA}${esc(q.nome)}</span><span class="lei-num">${esc(rotuloQtd("resumos", q.id))} · sua pasta</span></button><span></span></li>`).join("")}
-      ${soMinhas.map(r => `<li class="lei-item"><span class="aba"></span><button class="abrir" data-href="#/resumo/${esc(r.id)}"><span class="lei-nome">📄 ${esc(r.origem || r.titulo)}</span><span class="lei-num">${r.deCompartilhado ? "sua cópia (o dono não compartilha mais este arquivo)" : "seu arquivo"}</span></button><button class="mais" data-menu-resumo="${esc(r.id)}" aria-label="Opções">⋯</button></li>`).join("")}
-    </ul>
+    <div class="grade-resumos" id="lista-comp">
+      ${pastas.map(q => tilePastaComp(q.nome, `${contar(q.id)} arquivo(s)`, "#/resumos/compartilhados/" + q.id)).join("")}
+      ${pastasMinhas.map(q => tilePastaComp(q.nome, rotuloQtd("resumos", q.id) + " · sua pasta", rotaPastaArea("resumos", q.id), q.id)).join("")}
+      ${lista.map(x => { const c = copiaLocal(x.id); return c && c.versaoCompartilhada === x.hash ? tileResumo(c) : tileCompartilhado(x, c); }).join("")}
+      ${soMinhas.map(r => tileResumo(r)).join("")}
+    </div>
     ${!lista.length && !pastas.length && !soMinhas.length && !pastasMinhas.length ? '<p class="vazio">Nada compartilhado por aqui ainda.</p>' : ""}</div>`;
+  ativarMiniaturasResumos($("#lista-comp"));
   const msg = t => { const m = $("#msg-comp"); if (m) m.textContent = t; };
   const volta = () => telaCompartilhados(pastaId);          // o índice novo já está na memória: não espera o site do app
-  $$("[data-comp]").forEach(b => b.onclick = async () => {
+  $$("button[data-comp]").forEach(b => b.onclick = async () => {
     const e = idx.resumos.find(x => x.id === b.dataset.comp);
     b.disabled = true;
     try { const r = await copiarCompartilhado(e, msg); location.hash = "#/resumo/" + r.id; }

@@ -598,6 +598,9 @@ async def testes(b):
           recebidosOrganizados = false; await organizarRecebidos(); return [textoCaminho('pasta-c-velha'), textoCaminho(resumos.lista.get('vx').pasta)]; })()""")
         await u15.goto(U + "#/resumos/compartilhados"); await u15.wait_for_timeout(800)
         sumiu = await u15.evaluate("document.getElementById('conteudo').innerText.includes('Antiga')")
+        await u15.goto(U + f"#/resumos/compartilhados/{pid}"); await u15.wait_for_timeout(1000)
+        visual = await u15.evaluate("[document.querySelectorAll('#lista-comp .tile-pasta .icone-pasta-grande').length, document.querySelectorAll('#lista-comp .tile-resumo .miniatura').length, document.querySelectorAll('#conteudo .lei-item').length]")
+        confere("Compartilhados pelo app com o mesmo visual de Meus Resumos (pastas com ícone grande, arquivos com miniatura)", visual[0] >= 1 and visual[1] >= 1 and visual[2] == 0, visual)
         confere("Meus Resumos fica só com o quadro “Compartilhados pelo app”; a cópia abre e volta para dentro dele; cópias antigas soltas são guardadas lá",
                 R not in [x for x in inicio if x != R] and inicio.count(R) == 1 and "/resumos/compartilhados/" in dentro and antiga == [R + " › Antiga", R + " › Antiga"] and sumiu,
                 [inicio, dentro, antiga, sumiu])
