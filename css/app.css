@@ -1,3 +1,13 @@
+/* Fontes do Word que o iPad não tem: Carlito e Caladea têm as mesmas medidas da Calibri e da Cambria,
+   então o texto ocupa o mesmo espaço e as páginas quebram no mesmo lugar. Se o aparelho tiver a fonte original, usa ela. */
+@font-face { font-family: "Calibri"; src: local("Calibri"), url("../libs/fontes/carlito-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Calibri"; src: local("Calibri Italic"), url("../libs/fontes/carlito-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Calibri"; src: local("Calibri Bold"), url("../libs/fontes/carlito-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Calibri"; src: local("Calibri Bold Italic"), url("../libs/fontes/carlito-latin-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cambria"; src: local("Cambria"), url("../libs/fontes/caladea-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cambria"; src: local("Cambria Italic"), url("../libs/fontes/caladea-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cambria"; src: local("Cambria Bold"), url("../libs/fontes/caladea-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cambria"; src: local("Cambria Bold Italic"), url("../libs/fontes/caladea-latin-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
 :root {
   --papel: #F5F6F2;       /* papel-bíblia, levemente frio */
   --folha: #FFFFFF;
@@ -870,3 +880,70 @@ canvas.tinta-ao-vivo { position: fixed; left: 0; top: 0; pointer-events: none; z
 @media (max-width: 520px) { .sim-config { grid-template-columns: 1fr; } .pizza-svg { width: 96px; height: 96px; } }
 /* botões que são links: mesma cor dos botões (sem o azul/roxo de link visitado) */
 a.botao:not(.primario), a.botao:not(.primario):visited { color: var(--tinta); }
+
+/* ===================== MODO WORD (faixa de abas parecida com a do Word) ===================== */
+.faixa-word { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 20; max-width: 1100px; margin: 8px auto; background: var(--folha, #fff);
+  border: 1px solid var(--fio); border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.08); font-family: var(--sans); }
+.w-abas { display: flex; align-items: center; gap: 2px; padding: 4px 6px 0; border-bottom: 1px solid var(--fio); overflow-x: auto; scrollbar-width: none; }
+.w-abas::-webkit-scrollbar, .w-corpo::-webkit-scrollbar { display: none; }
+.w-aba { border: 0; background: transparent; padding: 8px 12px; font-size: 14px; color: var(--tinta); border-bottom: 3px solid transparent; white-space: nowrap; border-radius: 6px 6px 0 0; }
+.w-aba[aria-selected="true"] { border-bottom-color: var(--oliva); color: var(--oliva); font-weight: 600; }
+.w-aba[data-waba="arquivo"] { background: var(--oliva); color: var(--folha); margin-right: 4px; border-radius: 6px; padding: 6px 12px; }
+.w-espaco { flex: 1; }
+.w-concluir { padding: 6px 14px !important; min-height: 34px; white-space: nowrap; margin-bottom: 4px; }
+.faixa-word .status-salvo { font-size: 12px; color: var(--tinta-2); white-space: nowrap; margin-right: 8px; }
+.w-corpo { overflow-x: auto; scrollbar-width: none; }
+.w-painel { display: none; align-items: stretch; gap: 0; padding: 4px 4px 2px; min-width: max-content; }
+.w-painel.ativo { display: flex; }
+.w-grupo { display: flex; flex-direction: column; justify-content: space-between; padding: 2px 8px; border-right: 1px solid var(--fio); }
+.w-grupo:last-child { border-right: 0; }
+.w-grupo-itens { display: flex; flex-direction: column; gap: 2px; justify-content: center; flex: 1; }
+.w-grupo-itens:not(:has(.w-linha)) { flex-direction: row; align-items: center; flex-wrap: nowrap; }
+.w-linha { display: flex; align-items: center; gap: 1px; flex-wrap: nowrap; }
+.w-grupo-nome { font-size: 11px; color: var(--tinta-2); text-align: center; padding-top: 2px; white-space: nowrap; }
+.w-btn { min-width: 34px; height: 32px; border: 1px solid transparent; background: transparent; border-radius: 6px; font-size: 14px; color: var(--tinta); padding: 0 6px; white-space: nowrap; cursor: pointer; }
+.w-btn:hover { background: var(--oliva-claro); }
+.w-aba:hover:not([aria-selected="true"]):not([data-waba="arquivo"]) { color: var(--oliva); }
+.w-sel:focus, .w-busca .campo:focus { outline: 2px solid var(--oliva); outline-offset: 0; border-color: var(--oliva); }
+.w-btn.ligado, .w-btn[aria-pressed="true"] { background: var(--oliva-claro); border-color: var(--oliva); color: var(--oliva); }
+.w-btn sup, .w-btn sub { font-size: 9px; }
+.w-sel { height: 30px; border: 1px solid var(--fio); border-radius: 6px; background: var(--papel); color: var(--tinta); font-size: 13px; padding: 0 4px; }
+.w-sel-fonte { width: 150px; } .w-sel-estilo { width: 130px; height: 34px; }
+.w-duplo { display: inline-flex; } .w-duplo .w-btn:first-child { padding-right: 2px; } .w-duplo .w-btn + .w-btn { min-width: 18px; padding: 0 3px; font-size: 10px; }
+.w-letra-cor { display: inline-flex; flex-direction: column; align-items: center; line-height: 1; font-weight: 600; }
+.w-tira { width: 16px; height: 4px; margin-top: 2px; border: 1px solid rgba(0,0,0,.15); }
+.w-cores { position: absolute; z-index: 30; background: var(--folha, #fff); border: 1px solid var(--fio); border-radius: 10px; padding: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.18); width: 226px; }
+.w-cores-grade { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.w-cor { width: 36px; height: 28px; border-radius: 5px; border: 1px solid rgba(0,0,0,.2); cursor: pointer; }
+.w-cor-extra { width: 100%; margin-top: 6px; border: 1px solid var(--fio); }
+.w-grade-tab { display: grid; grid-template-columns: repeat(8, 1fr); gap: 3px; }
+.w-celula { width: 22px; height: 22px; border: 1px solid var(--fio); background: var(--papel); border-radius: 2px; }
+.w-celula.marcada { background: var(--oliva-claro); border-color: var(--oliva); }
+.w-simbolos { display: grid; grid-template-columns: repeat(6, 1fr); gap: 2px; }
+.w-busca { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 6px 8px; border-top: 1px solid var(--fio); }
+.w-busca .campo { width: 180px; padding: 6px 10px; font-size: 14px; }
+::highlight(w-busca) { background-color: var(--marca); }
+::highlight(w-busca-atual) { background-color: var(--oliva); color: var(--folha); }
+.tabela-contagem { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tabela-contagem td { padding: 8px 4px; border-bottom: 1px solid var(--fio); } .tabela-contagem td:last-child { text-align: right; font-weight: 600; }
+/* dentro da página do Word */
+section.docx .quebra-word { border-top: 1.5px dashed #A9B37A; margin: 14px 0; height: 0; position: relative; user-select: none; }
+section.docx .quebra-word::after { content: "Quebra de página"; position: absolute; left: 50%; top: -9px; transform: translateX(-50%); background: #fff; color: #5E6B25; font: 11px var(--sans); padding: 0 6px; }
+section.docx h1 { font-size: 16pt; color: #2F5496; font-weight: 400; margin: 12pt 0 4pt; }
+section.docx h2 { font-size: 13pt; color: #2F5496; font-weight: 400; margin: 10pt 0 4pt; }
+section.docx h3 { font-size: 12pt; color: #1F3763; font-weight: 400; margin: 8pt 0 4pt; }
+section.docx blockquote { margin: 8pt 40px; font-style: italic; color: #404040; }
+section.docx table.tabela-word td { min-width: 30px; }
+.cursor-pincel, .cursor-pincel * { cursor: copy !important; }
+body.editando-word .dock { opacity: .35; }
+body.editando-word .dock:hover, body.editando-word .dock:focus-within { opacity: 1; }
+@media print { section.docx .quebra-word { border: 0; break-after: page; page-break-after: always; } section.docx .quebra-word::after { display: none; } }
+/* iPad e celular: botões maiores para o dedo, faixa rola para o lado */
+@media (pointer: coarse) {
+  .w-btn { min-width: 42px; height: 40px; font-size: 16px; }
+  .w-sel { height: 38px; font-size: 15px; }
+  .w-aba { padding: 10px 14px; font-size: 15px; }
+  .w-cor { width: 38px; height: 34px; } .w-celula { width: 26px; height: 26px; }
+  .w-grupo-nome { display: none; }
+}
+@media (max-width: 700px) { .faixa-word { border-radius: 0; margin: 0 -16px 8px; } .faixa-word .status-salvo { display: none; } }

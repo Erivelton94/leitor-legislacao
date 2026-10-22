@@ -139,7 +139,7 @@ async function exportarResumosParaDrive(lista, versao, aviso) {
     aviso && aviso(`Enviando ${++n} de ${lista.length}: ${r.origem || r.titulo}…`);
     let blob, nome;
     if (versao === "marcada" && r.formato === "pdf") { blob = await exportarPdfComMarcacoes(r, null, true); nome = nomeBase(r) + " (com marcações).pdf"; }
-    else if (versao === "marcada" && r.formato === "docx") { blob = await exportarWordEditado(r, true); nome = nomeBase(r) + " (editado).doc"; }
+    else if (versao === "marcada" && r.formato === "docx") { blob = await exportarDocxReal(r, true); nome = nomeBase(r) + " (editado).docx"; }
     else if (r.arquivo) { blob = await lerArquivoOriginal(r); nome = r.origem || nomeBase(r) + (r.formato === "pdf" ? ".pdf" : ".docx"); }
     else { blob = new Blob([await lerConteudo(r.id)], { type: "text/html" }); nome = nomeBase(r) + ".html"; }
     if (!blob) continue;

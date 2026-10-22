@@ -1047,6 +1047,52 @@ async def testes(b):
     confere("Nenhum erro de programa nos resumos (ordem e links do PDF)", not p21.erros, p21.erros[:3])
     await ctx21.close()
 
+    # 22) Modo Word: faixa de abas, formatação, tabela, lista, localizar e substituir, baixar .docx de verdade
+    ctx22, p22 = await novo_aparelho(b)
+    rid = await p22.evaluate("""(async()=>{ await carregarResumos(); const bl = await (await fetch('tests/fixtures/word-completo.docx')).blob();
+      return (await importarArquivo(new File([bl], 'word-completo.docx', { type: bl.type }), '')).id; })()""")
+    await p22.goto(U + f"#/resumo/{rid}"); await p22.wait_for_timeout(3000)
+    marcador = await p22.evaluate("getComputedStyle([...document.querySelectorAll('section.docx p')].find(x=>x.textContent==='Conduta'), '::before').content")
+    fonte_calibri = await p22.evaluate("document.fonts.check('11pt Calibri')")
+    confere("Word na tela: marcadores da fonte Symbol aparecem como • e a Calibri tem substituta com as mesmas medidas", "•" in marcador and fonte_calibri, [marcador, fonte_calibri])
+    await p22.click("#res-editar-docx"); await p22.wait_for_timeout(500)
+    abas = await p22.evaluate("[...document.querySelectorAll('[data-waba]:not(.oculto)')].map(b=>b.textContent).join(',')")
+    await p22.evaluate("""(()=>{ const p=[...document.querySelectorAll('section.docx p')].find(x=>x.textContent.startsWith('Crime é')); const t=document.createTreeWalker(p,NodeFilter.SHOW_TEXT).nextNode();
+      const rg=document.createRange(); rg.setStart(t,0); rg.setEnd(t,5); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); })()""")
+    await p22.wait_for_timeout(150)
+    await p22.select_option("#w-fonte", "Georgia"); await p22.select_option("#w-tam", "20"); await p22.click('[data-wcmd="bold"]'); await p22.click("#w-cor"); await p22.click("#w-marca")
+    await p22.wait_for_timeout(200)
+    fmt = await p22.evaluate("(()=>{ const el=getSelection().anchorNode.parentElement, c=getComputedStyle(el); return [c.fontFamily.replace(/\"/g,''), Math.round(parseFloat(c.fontSize)*0.75), +c.fontWeight >= 600, c.color]; })()")
+    await p22.evaluate("""(()=>{ const p=[...document.querySelectorAll('section.docx p')].find(x=>x.textContent.startsWith('Texto centralizado')); const rg=document.createRange(); rg.selectNodeContents(p); rg.collapse(false); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); })()""")
+    await p22.wait_for_timeout(150)
+    await p22.click('[data-waba="inserir"]'); await p22.click("#w-tabela"); await p22.click('.w-celula[data-l="2"][data-c="3"]'); await p22.wait_for_timeout(200)
+    await p22.evaluate("""(()=>{ const td=document.querySelector('table.tabela-word td'); const rg=document.createRange(); rg.selectNodeContents(td); rg.collapse(true); const s=getSelection(); s.removeAllRanges(); s.addRange(rg); })()""")
+    await p22.wait_for_timeout(200)
+    aba_tab = await p22.evaluate("!document.querySelector('[data-waba=tabela]').classList.contains('oculto')")
+    await p22.click('[data-waba="tabela"]'); await p22.click("#w-col-dir"); await p22.click("#w-lin-abaixo"); await p22.wait_for_timeout(150)
+    tam_tab = await p22.evaluate("(()=>{ const t=document.querySelector('table.tabela-word'); return [t.rows.length, t.rows[0].cells.length]; })()")
+    await p22.click('[data-waba="revisao"]'); await p22.click("#w-localizar"); await p22.fill("#w-busca-txt", "homicídio"); await p22.wait_for_timeout(400)
+    achou = await p22.inner_text("#w-busca-n")
+    await p22.fill("#w-troca-txt", "Feminicídio"); await p22.click("#w-troca-todas"); await p22.wait_for_timeout(300)
+    trocou = await p22.evaluate("document.querySelector('section.docx').innerText.includes('Feminicídio')")
+    await p22.wait_for_timeout(1500)
+    salvo = await p22.evaluate(f"(async()=>!!(await bdLer('resumos_conteudo','{rid}'))?.html)()")
+    confere("Modo Word: abas, fonte, tamanho, negrito, cor e marca-texto; tabela com aba própria; localizar e substituir; salva sozinho",
+            abas.startswith("Arquivo,Página Inicial,Inserir") and fmt[:3] == ["Georgia", 20, True] and aba_tab and tam_tab == [3, 4] and "1 encontrado" in achou and trocou and salvo,
+            [abas, fmt, aba_tab, tam_tab, achou, trocou, salvo])
+    b64 = await p22.evaluate(f"""(async()=>{{ const b = await exportarDocxReal(resumos.lista.get('{rid}'), true); const u = new Uint8Array(await b.arrayBuffer()); let s=''; for (let i=0;i<u.length;i+=8192) s += String.fromCharCode(...u.subarray(i,i+8192)); return btoa(s); }})()""")
+    import base64, zipfile, io
+    zdoc = zipfile.ZipFile(io.BytesIO(base64.b64decode(b64)))
+    xml = zdoc.read("word/document.xml").decode("utf-8")
+    numer = zdoc.read("word/numbering.xml").decode("utf-8")
+    pecas = ["Georgia" in xml, "<w:b/>" in xml, 'w:sz w:val="40"' in xml, "C00000" in xml, xml.count("<w:tbl>") == 2, "Feminicídio" in xml, "Ttulo1" in xml,
+             'w:numFmt w:val="decimal"' in numer and 'w:numFmt w:val="bullet"' in numer, any(n.startswith("word/media/") for n in zdoc.namelist()), 'w:type="page"' in xml, 'w:fill="FFFF00"' in xml]
+    confere("Baixar Word (.docx): fonte, negrito, tamanho, cor, marca-texto, títulos, listas, tabelas, imagem e quebra de página vão para o arquivo", all(pecas), pecas)
+    await p22.click('[data-waba="arquivo"]'); await p22.click("#docx-concluir"); await p22.wait_for_timeout(300)
+    fechou = await p22.evaluate("document.getElementById('barra-docx').classList.contains('oculto') && !document.querySelector('section.docx[contenteditable]') && !document.body.classList.contains('editando-word')")
+    confere("Concluir a edição fecha a faixa e o texto volta a ser só leitura; nenhum erro de programa no modo Word", fechou and not p22.erros, [fechou, p22.erros[:3]])
+    await ctx22.close()
+
     erros = pg.erros + pg2.erros
     confere("Nenhum erro de programa durante os testes", not erros, erros[:3])
     await ctx.close(); await ctx2.close()

@@ -996,6 +996,7 @@ function fecharVisor() {
   if (visor.doc) { visor.doc.destroy(); visor.doc = null; }
   visor.id = null;
   $("#voltar-link-pdf")?.remove();
+  if (window.concluirModoWord) { window.concluirModoWord(false); window.concluirModoWord = null; }
 }
 
 async function telaResumoOriginal(r) {
@@ -1010,19 +1011,7 @@ async function telaResumoOriginal(r) {
   removerDock();
   $("#conteudo").innerHTML = `
     ${pos > 0.05 ? `<div class="aviso" id="aviso-continuar">Você parou em ${Math.round(pos * 100)}% deste resumo. <button class="link" id="continuar">Continuar de onde parou</button> · <button class="link" id="do-inicio">Começar do início</button></div>` : ""}
-    <div class="barra-editor barra-docx oculto" id="barra-docx">
-      <button data-cmd="bold"><b>N</b></button><button data-cmd="italic"><i>I</i></button><button data-cmd="underline"><u>S</u></button>
-      <span class="sep"></span>
-      ${CORES_TEXTO.map(([c, n]) => `<button data-cor-docx="${c}" title="${n}"><span class="bolinha" style="background:${c}"></span></button>`).join("")}
-      <span class="sep"></span>
-      ${CORES_MARCA_RES.slice(0, 4).map(([c, n]) => `<button data-marca-docx="${c}" title="Marca-texto ${n}"><span class="bolinha" style="background:${c}"></span></button>`).join("")}
-      <span class="sep"></span>
-      <button id="docx-imagem" title="Inserir imagem">🖼️</button>
-      <span class="sep"></span>
-      <button data-cmd="undo">↶</button><button data-cmd="redo">↷</button>
-      <button id="docx-concluir" class="botao primario" style="min-width:90px">Concluir</button>
-      <span class="status-salvo" id="status-salvo" style="margin-left:auto"></span>
-    </div>
+    ${r.formato === "docx" ? htmlFaixaWord() : ""}
     <div id="leitura-resumo" class="visor-original">
       <div class="zoom-rolagem"><div id="zoom-caixa"><div id="texto-lei" class="paginas-resumo" style="width:${r.formato === "pdf" ? LARGURA_PDF + "px" : "max-content"}"><p class="vazio">Abrindo o arquivo…</p></div></div></div>
     </div>`;
@@ -1280,6 +1269,7 @@ async function montarDocx(r, editado) {
     cont.innerHTML = "";
     await docx.renderAsync(blob, cont, cont, { inWrapper: false, ignoreLastRenderedPageBreak: true, breakPages: true, useBase64URL: true, experimental: true });
   }
+  ajustarVisualDocx(cont);
   $$("section.docx", cont).forEach((s, k) => { s.classList.add("artigo", "pagina-resumo"); s.id = "art-p" + (k + 1); s.dataset.art = "p" + (k + 1); pintarTinta(leiAberta, s); });
   // sumário do Word: os links internos (#_Toc…) levam ao tema no próprio documento, sem sair do app
   if (!cont.dataset.linksInternos) {
@@ -1297,62 +1287,6 @@ async function montarDocx(r, editado) {
       mostrarVoltarLinkPdf();
     });
   }
-}
-function editarDocx(r) {
-  if (caneta.ativa) alternarCaneta(false);
-  const cont = $("#texto-lei");
-  const barra = $("#barra-docx");
-  barra.classList.remove("oculto");
-  $$("section.docx", cont).forEach(s => s.setAttribute("contenteditable", "true"));
-  $("#res-editar-docx").classList.add("oculto");
-  let tempo = null;
-  const salvar = async () => {
-    await internalizarImagensDocx(cont);
-    const clone = cont.cloneNode(true);
-    $$("[contenteditable]", clone).forEach(s => s.removeAttribute("contenteditable"));
-    $$("svg.tinta, .aviso-tinta", clone).forEach(e => e.remove());
-    $$("section.docx", clone).forEach(s => { s.classList.remove("artigo", "pagina-resumo"); s.removeAttribute("id"); });
-    const texto = await gravarConteudoOriginal(r.id, clone.innerHTML);
-    r.previa = texto.slice(0, 220); r.editadoEm = agoraISO(); await salvarMeta(r);
-    $("#status-salvo").textContent = "Salvo agora";
-  };
-  const agendar = () => { $("#status-salvo").textContent = "Salvando…"; clearTimeout(tempo); tempo = setTimeout(salvar, 900); };
-  window.salvarResumoPendente = async () => { clearTimeout(tempo); await salvar(); };
-  cont.addEventListener("input", agendar);
-  cont.addEventListener("input", ajustarCaixaZoom);
-  let selDocx = null;
-  document.addEventListener("selectionchange", () => { const s = getSelection(); if (s.rangeCount && cont.contains(s.anchorNode)) selDocx = s.getRangeAt(0).cloneRange(); });
-  const voltarSelecao = () => { if (selDocx) { const s = getSelection(); s.removeAllRanges(); s.addRange(selDocx); } };
-  cont.onpaste = async e => {
-    const imgs = [...(e.clipboardData?.files || [])].filter(f => f.type.startsWith("image/"));
-    if (!imgs.length) { setTimeout(async () => { await internalizarImagensDocx(cont); agendar(); }, 50); return; }
-    e.preventDefault(); await inserirImagensDocx(imgs); agendar();
-  };
-  cont.ondragover = e => { if ([...(e.dataTransfer?.items || [])].some(i => i.kind === "file")) e.preventDefault(); };
-  cont.ondrop = async e => {
-    const imgs = [...(e.dataTransfer?.files || [])].filter(f => f.type.startsWith("image/")); if (!imgs.length) return;
-    e.preventDefault();
-    const pos = document.caretRangeFromPoint && document.caretRangeFromPoint(e.clientX, e.clientY);
-    if (pos) { const s = getSelection(); s.removeAllRanges(); s.addRange(pos); }
-    await inserirImagensDocx(imgs); agendar();
-  };
-  cont.onclick = e => ferramentasImagemDocx(barra.classList.contains("oculto") ? null : (e.target.tagName === "IMG" ? e.target : null));
-  $("#docx-imagem").onclick = () => {
-    const inp = document.createElement("input"); inp.type = "file"; inp.accept = "image/*"; inp.multiple = true;
-    inp.onchange = async () => { voltarSelecao(); await inserirImagensDocx([...inp.files]); agendar(); };
-    inp.click();
-  };
-  barra.onpointerdown = e => { if (e.target.closest("button")) e.preventDefault(); };
-  barra.onclick = e => {
-    const b = e.target.closest("button"); if (!b) return;
-    if (b.id === "docx-imagem") return;
-    if (b.id === "docx-concluir") { ferramentasImagemDocx(null); salvar(); barra.classList.add("oculto"); $$("section.docx", cont).forEach(s => s.removeAttribute("contenteditable")); $("#res-editar-docx").classList.remove("oculto"); cont.removeEventListener("input", agendar); return; }
-    document.execCommand("styleWithCSS", false, true);
-    if (b.dataset.cmd) document.execCommand(b.dataset.cmd);
-    else if (b.dataset.corDocx) document.execCommand("foreColor", false, b.dataset.corDocx);
-    else if (b.dataset.marcaDocx) document.execCommand("hiliteColor", false, b.dataset.marcaDocx);
-    agendar();
-  };
 }
 async function gravarConteudoOriginal(id, html) {
   invalidarMiniatura(id);
@@ -1547,45 +1481,6 @@ async function exportarPdfComMarcacoes(r, aviso, soGerar = false) {
 /* Word com as suas edições: arquivo .doc que o Word, o Pages e o Google Docs abrem.
    Os estilos do documento são copiados para cada trecho (cores, faixas, destaques), porque
    o Word respeita melhor a formatação escrita direto no texto. */
-async function exportarWordEditado(r, soGerar = false) {
-  const salvo = (await bdLer("resumos_conteudo", r.id))?.html;
-  const tmp = document.createElement("div");
-  tmp.style.cssText = "position:absolute;left:-99999px;top:0;width:900px";
-  document.body.appendChild(tmp);
-  try {
-    if (salvo) tmp.innerHTML = salvo;
-    else {
-      const docx = await abrirDocxPreview();
-      await docx.renderAsync(await lerArquivoOriginal(r), tmp, tmp, { inWrapper: false, breakPages: true, ignoreLastRenderedPageBreak: true, useBase64URL: true });
-    }
-    $$("svg.tinta, .aviso-tinta", tmp).forEach(e => e.remove());
-    const props = ["color", "background-color", "font-family", "font-size", "font-weight", "font-style", "text-decoration-line", "text-align",
-                   "margin-top", "margin-bottom", "margin-left", "line-height", "padding-left", "border-top", "border-bottom", "border-left", "border-right"];
-    const els = [...tmp.querySelectorAll("section *")];
-    const estilos = els.map(el => {
-      const cs = getComputedStyle(el), bloco = /^(P|H\d|LI|TD|TH|DIV|TABLE|ARTICLE)$/.test(el.tagName);
-      return props.filter(k => (bloco || !/^(margin|padding|line-height|text-align)/.test(k))).map(k => {
-        let v = cs.getPropertyValue(k);
-        if (k === "background-color" && (v === "rgba(0, 0, 0, 0)" || v === "transparent")) return "";
-        if (k.startsWith("border") && /none|0px/.test(v)) return "";
-        if (k === "text-decoration-line") return v !== "none" ? `text-decoration:${v}` : "";
-        return v ? `${k}:${v}` : "";
-      }).filter(Boolean).join(";");
-    });
-    els.forEach((el, k) => {
-      if (el.tagName === "IMG") { const w = Math.round(el.getBoundingClientRect().width); el.setAttribute("width", w); el.removeAttribute("height"); estilos[k] = `width:${w}px;height:auto`; }
-      el.setAttribute("style", estilos[k]); el.removeAttribute("class");
-    });
-    $$("style", tmp).forEach(e => e.remove());
-    $$("section", tmp).forEach(sec => { sec.removeAttribute("class"); sec.removeAttribute("style"); });
-    const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
-<head><meta charset="utf-8"><title>${esc(r.titulo || "")}</title>
-<style>@page { size: 21cm 29.7cm; margin: 2cm; } body { font-family: "Times New Roman", serif; }</style></head><body>${tmp.innerHTML}</body></html>`;
-    const blob = new Blob(["\ufeff", doc], { type: "application/msword" });
-    if (soGerar) return blob;
-    await entregarArquivo(blob, nomeBase(r) + " (editado).doc");
-  } finally { tmp.remove(); }
-}
 /* Word (com edições e desenhos) em PDF: usa a impressão do iPad/computador ("Salvar como PDF") */
 function imprimirResumoAberto() {
   document.body.classList.add("imprimindo-resumo");
@@ -1599,7 +1494,7 @@ function painelBaixar(r) {
   const opcoes = [];
   if (pdf || word) opcoes.push(["original", `⬇️ Versão original, como foi adicionada (sem alterações) — ${pdf ? "PDF" : "Word"}`]);
   if (pdf) opcoes.push(["pdf-marcado", "⬇️ Versão original com as minhas marcações — PDF"]);
-  if (word) opcoes.push(["word-editado", "⬇️ Versão original com as minhas alterações — Word (.doc)"]);
+  if (word) opcoes.push(["word-editado", "⬇️ Versão com as minhas alterações — Word (.docx)"]);
   if (word || r.formato === "html") opcoes.push(["imprimir", "⬇️ Versão com as minhas alterações e marcações — PDF"]);
   const nota = pdf ? "Num PDF, a versão com marcações já sai em PDF: traços, marca-texto e ícones por cima do original, com o texto ainda selecionável."
     : word ? "No Word saem as alterações de texto, as cores e o marca-texto do editor. Os desenhos e ícones da caneta não existem no formato Word; para levá-los junto, use a versão em PDF (abre a janela de impressão: toque em Compartilhar → Salvar em Arquivos)."
@@ -1612,7 +1507,7 @@ function painelBaixar(r) {
     try {
       if (b.dataset.baixar === "original") await entregarArquivo(await lerArquivoOriginal(r), r.origem || nomeBase(r) + (pdf ? ".pdf" : ".docx"));
       else if (b.dataset.baixar === "pdf-marcado") await exportarPdfComMarcacoes(r, t => { msg.textContent = t; });
-      else if (b.dataset.baixar === "word-editado") await exportarWordEditado(r);
+      else if (b.dataset.baixar === "word-editado") await exportarDocxReal(r);
       else { fecharPainel(); if (!location.hash.startsWith("#/resumo/" + r.id)) location.hash = "#/resumo/" + r.id; setTimeout(imprimirResumoAberto, 600); return; }
     } catch (e) { msg.textContent = "Não foi possível preparar o arquivo: " + e.message; }
     b.disabled = false; b.textContent = txt;
