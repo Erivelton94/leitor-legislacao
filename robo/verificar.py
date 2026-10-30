@@ -16,6 +16,7 @@ import gzip
 import hashlib
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -43,6 +44,8 @@ FUSO = ZoneInfo("America/Recife")
 USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 TENTATIVAS = 3
+INTERVALO = (8, 15)        # segundos entre uma lei e outra no Planalto (devagar, como uma pessoa lendo)
+LIMITE_BLOQUEIOS = 3       # depois de 3 bloqueios seguidos, não consulta mais o Planalto nesta rodada
 TIMEOUT = 60
 QUEDA_MAXIMA = 0.10  # se o nº de artigos cair mais de 10%, a leitura é considerada suspeita
 DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de novo 1x por semana
@@ -339,6 +342,22 @@ class NaoEncontrada(Exception):
     pass
 
 
+class Bloqueado(Exception):
+    """O site respondeu com a página de bloqueio ("Acesso Negado! Esta requisição foi bloqueada")."""
+
+
+RE_BLOQUEIO = re.compile(rb"Acesso Negado|requisi\S{1,6}o foi bloqueada|bloqueio\.de\.aplicacoes", re.I)
+
+
+def pagina_de_bloqueio(conteudo):
+    return len(conteudo) < 20000 and bool(RE_BLOQUEIO.search(conteudo))
+
+
+def codigo_do_bloqueio(conteudo):
+    m = re.search(rb"c\S{1,6}digo\s+(\d{6,})", conteudo)
+    return m.group(1).decode() if m else ""
+
+
 def baixar(url, cabecalhos_extra):
     cabecalhos = {
         "User-Agent": USER_AGENT,
@@ -352,6 +371,9 @@ def baixar(url, cabecalhos_extra):
             r = requests.get(url, headers=cabecalhos, timeout=TIMEOUT)
             if r.status_code in (404, 410):
                 raise NaoEncontrada(f"{url} não existe (código {r.status_code})")
+            if pagina_de_bloqueio(r.content):
+                cod = codigo_do_bloqueio(r.content)
+                raise Bloqueado(f"o site do Planalto bloqueou o acesso automático{f' (código {cod})' if cod else ''}")
             if r.status_code != 304:
                 r.raise_for_status()
             return r
@@ -475,6 +497,10 @@ def verificar_lei(lei, status_anterior):
 
     try:
         url, resp = obter_pagina(lei, anterior, cond)
+    except Bloqueado as e:
+        reg["status"] = "BLOQUEADO_FONTE"
+        reg["mensagem"] = f"Verificação pausada: {e}. O texto guardado foi mantido."
+        return reg
     except Exception as e:
         return erro(f"Não foi possível acessar a fonte: {e}")
     reg["url"] = url
@@ -493,7 +519,6 @@ def verificar_lei(lei, status_anterior):
         return confirmar("ATUALIZADA", "A fonte confirmou que a página não mudou (resposta 304), "
                                        "sem precisar baixar o texto.")
 
-    salvar_bruto(bruto, resp.content)
     artigos, repetidos, preambulo = extrair_artigos(conteudo_html(lei, resp), lei.get("tratado", False), opcoes_da(lei))
     n = len(artigos)
     ausentes = lacunas(artigos)
@@ -513,6 +538,7 @@ def verificar_lei(lei, status_anterior):
         return erro(f"Leitura suspeita: o número de artigos caiu de {len(anterior['artigos'])} para {n}. "
                     "O texto guardado foi mantido.")
 
+    salvar_bruto(bruto, resp.content)   # só guarda a cópia bruta depois de conferir que a leitura é boa
     hash_novo = hash_da_lei(artigos)
     novo = {
         "id": lei["id"],
@@ -592,7 +618,7 @@ def verificar_lei(lei, status_anterior):
 # ------------------------------------------------------------------ resumo
 
 ICONES = {"ATUALIZADA": "🟢 Atualizada", "ALTERACAO_DETECTADA": "🔴 Alteração detectada",
-          "ERRO_VERIFICACAO": "⚠️ Erro de verificação"}
+          "ERRO_VERIFICACAO": "⚠️ Erro de verificação", "BLOQUEADO_FONTE": "⏸️ Pausada (Planalto bloqueou o robô)"}
 
 
 def formatar(iso):
@@ -635,10 +661,31 @@ def main():
     ja_funcionavam = {k for k, v in status.items() if v.get("ultima_verificacao_ok")}
     for arq in sorted(PASTA_HIST.glob("*.json")):          # avisos antigos que eram só notas do Planalto saem
         limpar_historico(arq)
+    for bruto in PASTA_BRUTO.glob("*.html.gz"):                # cópias que eram só a página de bloqueio: apaga (a próxima leitura vem inteira)
+        try:
+            with gzip.open(bruto, "rb") as f:
+                if pagina_de_bloqueio(f.read(25000)):
+                    bruto.unlink()
+        except OSError:
+            pass
+    bloqueios_seguidos = 0
     for lei in leis:
+        do_planalto = any("planalto.gov.br" in u for u in candidatos(lei))
+        if do_planalto and bloqueios_seguidos >= LIMITE_BLOQUEIOS:
+            # o Planalto já bloqueou várias seguidas: não insiste (insistir só prolonga o bloqueio)
+            reg = dict(status.get(lei["id"]) or {})
+            reg.update({"nome": lei["nome"], "numero": lei.get("numero", ""), "area": lei.get("area", ""),
+                        "apelidos": lei.get("apelidos", ""), "status": "BLOQUEADO_FONTE",
+                        "ultima_tentativa": agora().isoformat(timespec="seconds"),
+                        "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. "
+                                    "O texto guardado foi mantido."})
+            status[lei["id"]] = reg
+            continue
         print(f"Verificando {lei['nome']}…", flush=True)
         try:
             status[lei["id"]] = verificar_lei(lei, status.get(lei["id"]))
+            if do_planalto:
+                bloqueios_seguidos = bloqueios_seguidos + 1 if status[lei["id"]].get("status") == "BLOQUEADO_FONTE" else 0
         except Exception as e:  # um problema inesperado numa lei não pode derrubar as outras
             reg = dict(status.get(lei["id"]) or {})
             reg.update({"nome": lei["nome"], "numero": lei.get("numero", ""), "area": lei.get("area", ""),
@@ -646,7 +693,7 @@ def main():
                         "ultima_tentativa": agora().isoformat(timespec="seconds"),
                         "mensagem": f"Erro inesperado ao processar a página: {type(e).__name__}: {e}"})
             status[lei["id"]] = reg
-        time.sleep(3)  # intervalo educado entre consultas à fonte
+        time.sleep(random.uniform(*INTERVALO) if do_planalto else 3)  # intervalo educado entre consultas à fonte
     salvar_json(ARQ_STATUS, status)
     escrever_resumo(status)
     # Falha proposital (o GitHub envia e-mail) quando uma lei que já funcionava deixou de ser verificada.

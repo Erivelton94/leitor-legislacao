@@ -273,6 +273,8 @@ function situacao(id) {
       ? { cls: "alt", txt: "Alteração detectada", sub: "Há uma versão nova que ainda não foi baixada. Conecte-se à internet." }
       : { cls: "pend", txt: "Ainda não baixada", sub: "Conecte-se à internet para baixar esta lei." };
   }
+  if (st.status === "BLOQUEADO_FONTE" || st.status === "ERRO_VERIFICACAO" && /Acesso Negado|bloque/i.test(st.mensagem || ""))
+    return { cls: "pend", txt: "Conferência pausada pelo Planalto", sub: "O texto que você tem continua valendo. " + subOk };
   if (st.status === "ERRO_VERIFICACAO") return { cls: "erro", txt: "Não foi possível confirmar a atualização", sub: subOk };
   if (!okEm) return { cls: "pend", txt: "Verificação pendente", sub: "A fonte oficial ainda não foi consultada com sucesso." };
   if ((Date.now() - new Date(okEm)) / 36e5 > HORAS_PENDENTE) return { cls: "pend", txt: "Verificação pendente", sub: subOk };

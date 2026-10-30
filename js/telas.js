@@ -49,6 +49,13 @@ function telaAcervo(pastaId = null) {
     const semBackup = temDadosSemBackup();
     if (semBackup) h += `<div class="aviso">Seus grifos e anotações ficam só neste aparelho. ${semBackup} <a href="#/ajustes">Fazer backup</a></div>`;
     if (typeof faixaHojeAcervo === "function") h += faixaHojeAcervo();
+    // o site do Planalto bloqueou o robô: um aviso só, explicando (em vez de um alerta vermelho em cada lei)
+    const pausadas = todos.filter(i => situacao(i).txt === "Conferência pausada pelo Planalto");
+    if (pausadas.length) {
+      const ok = pausadas.map(i => estado.status[i]?.ultima_verificacao_ok).filter(Boolean).sort()[0];
+      h += `<div class="aviso">⏸️ <strong>A conferência automática está pausada.</strong> O site do Planalto passou a bloquear o robô que confere as leis todos os dias${ok ? ` (a última conferência foi em ${esc(dataCurta(ok))})` : ""}. ` +
+        `Os textos que você tem continuam no app e valendo; assim que o Planalto liberar, o robô volta a conferir sozinho e avisa se alguma lei mudou.</div>`;
+    }
     for (const id of todos.filter(i => estado.alteracoes[i])) {
       const alt = estado.alteracoes[id];
       const lista = alt.artigos.slice(0, 8).map(a => `${rotuloArt(a.artigo)} (${a.tipo})`).join(", ");
