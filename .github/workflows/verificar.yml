@@ -2,7 +2,7 @@ name: Verificar legislação
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # todo dia às 06:00 (horário de Recife)
+    - cron: "0 9 * * 1"   # todo dia às 06:00 (horário de Recife)
   workflow_dispatch:       # permite rodar manualmente pelo botão "Run workflow"
 
 permissions:
