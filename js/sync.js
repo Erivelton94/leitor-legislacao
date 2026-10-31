@@ -518,7 +518,7 @@ function painelConectarGoogle() {
    BOAS-VINDAS (primeira vez que a pessoa abre o app)
    ===================================================================== */
 const PASSOS_BOAS_VINDAS = [
-  ["📚", "Bem-vindo(a) ao Leitor de Legislação", "Um app para estudar lei seca, resolver questões e organizar seus resumos — tudo no seu aparelho, funcionando até sem internet. As leis vêm direto do site do Planalto e são conferidas todos os dias: quando uma lei muda, o app avisa e mostra o que mudou."],
+  ["📚", "Bem-vindo(a) ao Leitor de Legislação", "Um app para estudar lei seca, resolver questões e organizar seus resumos — tudo no seu aparelho, funcionando até sem internet. As leis vêm direto do site do Planalto e são conferidas toda semana: quando uma lei muda, o app avisa e mostra o que mudou."],
   ["⚖️", "Monte o seu acervo", "Na aba Leis, toque em “+ Adicionar leis” e escolha as que você estuda (são 98 normas: Constituição, códigos, legislação penal, administrativa e mais). Organize em pastas e favorite as mais usadas."],
   ["🖍️", "Estude marcando a lei", "Selecione um trecho para grifar (4 cores) ou anotar. Toque no número do artigo para favoritar, anotar, ouvir em voz alta ou resolver as questões daquele artigo. Com ✏️ Caneta, use o Apple Pencil (ou o dedo) para escrever, marcar, pôr ícones e apagar. A ⚡ Revisão rápida mostra só o que você marcou."],
   ["📝", "Questões", "Na aba Questões, toque em “📥 Importar caderno (PDF)” e escolha uma lista de questões impressa em PDF: o app monta o caderno com gabarito, filtros e estatísticas, e liga cada questão ao artigo da lei."],

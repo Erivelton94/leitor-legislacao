@@ -258,3 +258,28 @@ document.addEventListener("click", e => {
     setTimeout(() => $("#secao-dono")?.scrollIntoView({ block: "center" }), 400);
   }
 });
+
+/* ---------- dono: o robô confere só as leis do seu acervo ----------
+   A lista das leis que estão nas suas pastas vai para dados/verificar.json; o robô confere essas toda semana
+   e as demais do catálogo em rodízio (cada uma uma vez por mês), com bem menos acessos ao Planalto. */
+let timerAcervoDono = null;
+function agendarAcervoDono() {
+  if (typeof cfgDono !== "function" || !cfgDono()) return;
+  clearTimeout(timerAcervoDono);
+  timerAcervoDono = setTimeout(() => publicarAcervoDono().catch(() => {}), 6000);
+}
+async function publicarAcervoDono() {
+  if (!cfgDono() || estado.offline) return;
+  const ids = idsAcervo().sort();
+  if (!ids.length) return;
+  const chave = ids.join(",");
+  if (lerLS("acervo-publicado", "") === chave) return;
+  if (donoOcupado) { agendarAcervoDono(); return; }
+  donoOcupado++;
+  try {
+    const p = provedorDono(); await p.preparar();
+    const lista = await p.listarPasta("dados");
+    await p.enviar("dados/verificar.json", paraBytes({ ids, atualizadoEm: agoraISO() }), lista.get("dados/verificar.json"));
+    gravarLS("acervo-publicado", chave);
+  } finally { donoOcupado--; }
+}

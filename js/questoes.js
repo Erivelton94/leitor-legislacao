@@ -653,7 +653,7 @@ async function telaAjustes() {
       <button id="btn-importar">Importar backup</button>
     </div></div></div>
   <div class="secao"><h2>Atualizações</h2><div class="cartao">
-    <p>O robô confere as leis no Planalto todos os dias às 6h. Ao abrir, o app só baixa uma lei quando a versão oficial dela mudou.</p>
+    <p>O robô confere as leis no Planalto uma vez por semana, na segunda de manhã. Ao abrir, o app só baixa uma lei quando a versão oficial dela mudou.</p>
     <p>Última consulta do app: ${esc(dataHora(estado.statusEm))}${estado.offline ? " (sem conexão agora)" : ""}.</p>
     <div class="acoes" style="margin-bottom:14px">
       <button id="btn-atualizar">Buscar atualizações agora</button>

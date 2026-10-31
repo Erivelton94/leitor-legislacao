@@ -148,6 +148,7 @@ async function atualizarTudo() {
   await carregarStatus();
   mostrarAvisoOffline();
   await migrarAcervo();
+  if (typeof agendarAcervoDono === "function") agendarAcervoDono();
   const ids = idsAcervo();                   // só as leis do seu acervo são baixadas
   const pendentes = ids.filter(id => estado.status[id].hash && (!estado.info[id] || estado.info[id].hash !== estado.status[id].hash));
   if (pendentes.length && !leiAberta && (!location.hash || location.hash === "#/acervo")) telaAcervo();

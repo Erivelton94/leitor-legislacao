@@ -7,7 +7,7 @@
    ===================================================================== */
 
 const CACHE_DADOS = "legislacao-dados-v1";
-const HORAS_PENDENTE = 36;
+const HORAS_PENDENTE = 8 * 24;         // o robô confere uma vez por semana (segunda de manhã)
 const CORES_ABA = ["#5E6B25", "#2F5D7C", "#8A3B2E", "#6B4E8A", "#2E7466", "#8A6A1F"];
 const CORES = { amarelo: "Amarelo", verde: "Verde", azul: "Azul", vermelho: "Vermelho" };
 const REPO_ACTIONS = "https://github.com/Erivelton94/leitor-legislacao/actions/workflows/verificar.yml";
@@ -114,7 +114,8 @@ async function salvarItem(item) {
   versaoItens++;
   if (/^tinta\|resumo:[^|]+\|p1\|/.test(item.id)) bdApagar("miniaturas", item.id.split("|")[1].slice(7));
   gravarLS("ultima-mudanca", item.atualizadoEm);
-  if (item.tipo === "pasta" && typeof agendarEspelhoDono === "function") agendarEspelhoDono();   // dono: o app dos outros acompanha as pastas
+  if (item.tipo === "pasta" && typeof agendarEspelhoDono === "function") agendarEspelhoDono();
+  if (item.tipo === "acervo" && typeof agendarAcervoDono === "function") agendarAcervoDono();      // dono: o robô confere as leis do seu acervo   // dono: o app dos outros acompanha as pastas
   return item;
 }
 async function apagarItem(id) {

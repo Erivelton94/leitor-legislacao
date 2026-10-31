@@ -46,6 +46,7 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TENTATIVAS = 3
 INTERVALO = (8, 15)        # segundos entre uma lei e outra no Planalto (devagar, como uma pessoa lendo)
 LIMITE_BLOQUEIOS = 3       # depois de 3 bloqueios seguidos, não consulta mais o Planalto nesta rodada
+RODIZIO = 4                # as leis fora do acervo do dono são conferidas em 4 grupos, um por semana
 TIMEOUT = 60
 QUEDA_MAXIMA = 0.10  # se o nº de artigos cair mais de 10%, a leitura é considerada suspeita
 DIAS_DOWNLOAD_COMPLETO = 7  # mesmo com "não mudou" da fonte, baixa tudo de novo 1x por semana
@@ -668,8 +669,21 @@ def main():
                     bruto.unlink()
         except OSError:
             pass
-    bloqueios_seguidos = 0
+    # só as leis que estão no acervo do dono do app (dados/verificar.json); sem a lista, confere todas
+    alvo = set((ler_json(PASTA_TEXTOS.parent / "verificar.json", {}) or {}).get("ids") or [])
+    if alvo:
+        # as outras leis do catálogo (que outras pessoas podem ter) entram em rodízio: um quarto por semana,
+        # então cada uma é conferida uma vez por mês
+        semana = agora().isocalendar()[1]
+        outras = [l["id"] for l in leis if l["id"] not in alvo]
+        rodizio = {i for k, i in enumerate(outras) if k % RODIZIO == semana % RODIZIO}
+        print(f"Conferindo as {len(alvo)} leis do acervo e {len(rodizio)} do rodízio desta semana.", flush=True)
+        alvo |= rodizio
+    bloqueios_seguidos, conferidas = 0, set()
     for lei in leis:
+        if alvo and lei["id"] not in alvo and (PASTA_TEXTOS / f"{lei['id']}.json").exists():
+            continue                                   # fora do acervo e já baixada: não consulta (o status anterior fica)
+        conferidas.add(lei["id"])
         do_planalto = any("planalto.gov.br" in u for u in candidatos(lei))
         if do_planalto and bloqueios_seguidos >= LIMITE_BLOQUEIOS:
             # o Planalto já bloqueou várias seguidas: não insiste (insistir só prolonga o bloqueio)
@@ -698,7 +712,7 @@ def main():
     escrever_resumo(status)
     # Falha proposital (o GitHub envia e-mail) quando uma lei que já funcionava deixou de ser verificada.
     # Leis novas que ainda não foram localizadas aparecem no resumo, sem disparar e-mail todo dia.
-    ids = {l["id"] for l in leis}
+    ids = conferidas
     if any(status[k].get("status") == "ERRO_VERIFICACAO" for k in ja_funcionavam & ids):
         sys.exit(1)
 
