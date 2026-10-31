@@ -4,9 +4,9 @@
   "numero": "Lei nº 7.210/1984",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:47-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:43-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -26,9 +26,9 @@
   "numero": "Decreto-Lei nº 2.848/1940",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:13-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "ultima_tentativa": "2026-10-30T22:18:36-03:00",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto bloqueou o acesso automático (código 13376840598275632262). O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:07-03:00",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -49,9 +49,9 @@
   "numero": "Lei nº 11.340/2006",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:51-03:00",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
    "fonte_envia_etag": false,
@@ -72,7 +72,7 @@
   "area": "Constituição",
   "apelidos": "constituição cf 88 carta magna adct",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:06-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:12-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -84,8 +84,8 @@
   "versao": "2026-10-17",
   "n_artigos": 414,
   "hash": "74e99e9cae04e7ef8a5d428a2f3c2628f7bfeb30a960283ade5e04fa0543d885",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto bloqueou o acesso automático (código 13376840598309056220). O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:02:55-03:00",
   "ultima_alteracao": "2026-10-17T09:36:38-03:00"
  },
@@ -95,7 +95,7 @@
   "area": "Códigos",
   "apelidos": "cpp processo penal",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:17-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -107,8 +107,8 @@
   "versao": "2026-09-29",
   "n_artigos": 846,
   "hash": "76fb51fcbde62b3bed4882231dfa3ef654df782d27c05e9ebdd21fe2688129eb",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:11-03:00"
  },
  "lindb": {
@@ -183,7 +183,7 @@
   "area": "Códigos",
   "apelidos": "ctn tributário",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:32-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -195,8 +195,8 @@
   "versao": "2026-09-29",
   "n_artigos": 231,
   "hash": "bbb1ad3392a7cec6c4ca730dc6c716d1a0331bf825e485c048cbbbee123e51e8",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:26-03:00"
  },
  "ctb": {
@@ -205,7 +205,7 @@
   "area": "Trânsito e PRF",
   "apelidos": "ctb trânsito",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:31:06-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -217,8 +217,8 @@
   "versao": "2026-09-29",
   "n_artigos": 391,
   "hash": "06eab7b13c67bf36b04225576f20c42b8ddc9e5fd31aa32e12972c65967c985b",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:07:03-03:00"
  },
  "cdc": {
@@ -337,7 +337,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tóxicos entorpecentes tráfico",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:55-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -349,8 +349,8 @@
   "versao": "2026-09-29",
   "n_artigos": 100,
   "hash": "ee05453788813325cef9ae2d53bf323a075297dac99102b6098f545410bc9d04",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:51-03:00"
  },
  "hediondos": {
@@ -359,7 +359,7 @@
   "area": "Legislação penal especial",
   "apelidos": "hediondo",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:59-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8072compilada.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -371,8 +371,8 @@
   "versao": "2026-09-29",
   "n_artigos": 19,
   "hash": "4022a5fae5c12efa851c878829b13593b9be1eaa85123b54809cfb30d208eded",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:54-03:00"
  },
  "abuso-autoridade": {
@@ -381,7 +381,7 @@
   "area": "Legislação penal especial",
   "apelidos": "abuso",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:02-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -393,8 +393,8 @@
   "versao": "2026-09-29",
   "n_artigos": 48,
   "hash": "c578d98adce7f3cd45f379b358e117217ed14ac8f775cdcf313abefad01245a5",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:58-03:00"
  },
  "desarmamento": {
@@ -403,7 +403,7 @@
   "area": "Legislação penal especial",
   "apelidos": "armas arma de fogo porte posse",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:06-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -415,8 +415,8 @@
   "versao": "2026-09-29",
   "n_artigos": 41,
   "hash": "89959a0c1d54d6584052a1ad3c1ce2fd42b796c718bbefe61199366c33297f75",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:02-03:00"
  },
  "tortura": {
@@ -425,7 +425,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tortura",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:10-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -437,8 +437,8 @@
   "versao": "2026-09-29",
   "n_artigos": 4,
   "hash": "342e2639a29206776b871f53e532c2f1468e7d9fa9d944365c98cd3a23f3d7e6",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:06-03:00"
  },
  "organizacoes-criminosas": {
@@ -447,7 +447,7 @@
   "area": "Legislação penal especial",
   "apelidos": "orcrim colaboração premiada infiltração",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:14-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -459,8 +459,8 @@
   "versao": "2026-09-29",
   "n_artigos": 37,
   "hash": "3f291866f5fe74498be59a9acfca7891e76a8eb7456f68edd0a61987769484eb",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:10-03:00"
  },
  "lavagem": {
@@ -491,7 +491,7 @@
   "area": "Legislação penal especial",
   "apelidos": "meio ambiente",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:43-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -503,8 +503,8 @@
   "versao": "2026-09-29",
   "n_artigos": 87,
   "hash": "05ea24e37c21e68b6db8f3424d29be2a36d075cfd739df2997e8ec2794371ce2",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:41-03:00"
  },
  "racismo": {
@@ -513,7 +513,7 @@
   "area": "Legislação penal especial",
   "apelidos": "preconceito raça cor injúria racial",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:17-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -525,8 +525,8 @@
   "versao": "2026-09-29",
   "n_artigos": 27,
   "hash": "afaf1c1f29ff2b02de3554157c6a1621efa48abde9f98b1521727d3bea82b274",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:14-03:00"
  },
  "juizados": {
@@ -535,7 +535,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "jecrim transação penal sursis processual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:51-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -547,8 +547,8 @@
   "versao": "2026-09-29",
   "n_artigos": 99,
   "hash": "c6489c2238d6c7c49c1b16c3f4e11a2a33705afb297df92d9d49116565d49f5c",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:48-03:00"
  },
  "interceptacao": {
@@ -579,7 +579,7 @@
   "area": "Legislação penal especial",
   "apelidos": "lcp contravenção",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:21-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -591,8 +591,8 @@
   "versao": "2026-09-29",
   "n_artigos": 72,
   "hash": "94d39bf876d0d99ed7d8a5a9cc6dd1bee574a213b27b8d0498bdd5669c617108",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:18-03:00"
  },
  "prisao-temporaria": {
@@ -601,7 +601,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "temporária",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:54-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -613,8 +613,8 @@
   "versao": "2026-09-29",
   "n_artigos": 7,
   "hash": "f12c5414107553854866ab656f975619223546235345d59645635d3f53eb9303",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:52-03:00"
  },
  "identificacao-criminal": {
@@ -623,7 +623,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "identificação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:29:02-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -635,8 +635,8 @@
   "versao": "2026-09-29",
   "n_artigos": 13,
   "hash": "08d51d649ee564862462d2ffc607973966479f8bb6eb67316cea4b44c98401be",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:59-03:00"
  },
  "protecao-testemunhas": {
@@ -689,7 +689,7 @@
   "area": "Crimes econômicos e financeiros",
   "apelidos": "sonegação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:29:35-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -701,8 +701,8 @@
   "versao": "2026-09-29",
   "n_artigos": 23,
   "hash": "f8ae225649479afb6e7f48fa70805f50643b8646c7d3e6c7c68cab9e48036d63",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:05:33-03:00"
  },
  "sistema-financeiro": {
@@ -755,7 +755,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "violência doméstica criança adolescente",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:30:17-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -767,8 +767,8 @@
   "versao": "2026-09-29",
   "n_artigos": 34,
   "hash": "d95fff5b06f3458b12c1b53b0d638e0ef5e766cdd02a0ce271adabd185b0db2c",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:06:16-03:00"
  },
  "escuta-protegida": {
@@ -821,7 +821,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "delegado",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:29:05-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12830.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -833,8 +833,8 @@
   "versao": "2026-09-29",
   "n_artigos": 4,
   "hash": "9c437efbc9ea4ef0de7757477855c103f416241fc2399e7b731d09d318039cb1",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:05:03-03:00"
  },
  "trafico-pessoas": {
@@ -843,7 +843,7 @@
   "area": "Legislação penal especial",
   "apelidos": "tráfico de pessoas",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:28:36-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13344.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -855,8 +855,8 @@
   "versao": "2026-09-29",
   "n_artigos": 18,
   "hash": "f4f1c5b9f67a74b244d5f9cb7690845ccd1c8f5f4ee0d2dac58d0c767a2c54b4",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:04:33-03:00"
  },
  "antifaccao": {
@@ -909,7 +909,7 @@
   "area": "Crimes cibernéticos",
   "apelidos": "internet",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:29:50-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -921,8 +921,8 @@
   "versao": "2026-09-29",
   "n_artigos": 37,
   "hash": "5029d368dfb65b36a519b1a49e9dadede4b183217431b072935da1a4f047881d",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:05:48-03:00"
  },
  "julgamento-colegiado": {
@@ -997,7 +997,7 @@
   "area": "Processo penal e investigação",
   "apelidos": "polícia federal repercussão interestadual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:29:20-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10446.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1009,8 +1009,8 @@
   "versao": "2026-09-29",
   "n_artigos": 2,
   "hash": "d69e487d146f8c76c4c9794abdc6bb30910c27a428675933f8c838c5c97bb037",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:05:18-03:00"
  },
  "policiais-civis-uniao": {
@@ -1129,7 +1129,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "violência sexual",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:30:29-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12845.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1141,8 +1141,8 @@
   "versao": "2026-09-29",
   "n_artigos": 4,
   "hash": "16a89ed3171c8dbb467b15340dd9e0ce0288037e8b35694aacfbeea1cbe1ce13",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:06:28-03:00"
  },
  "sinal-vermelho": {
@@ -1195,7 +1195,7 @@
   "area": "Leis alteradoras",
   "apelidos": "saidinha",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:32:04-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14843.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1207,8 +1207,8 @@
   "versao": "2026-09-29",
   "n_artigos": 4,
   "hash": "656ca414c6666656a49a718b113488ebf449a8b7569412499bae2ce90b44f80b",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:08:04-03:00"
  },
  "importunacao-sexual": {
@@ -1305,7 +1305,7 @@
   "area": "Leis alteradoras",
   "apelidos": "revitimização",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:32:20-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14321.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1317,8 +1317,8 @@
   "versao": "2026-09-29",
   "n_artigos": 4,
   "hash": "839758f72d748e49bf6057d17124dae8166ecaec8166d12a792e71d0ac919b5e",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:08:19-03:00"
  },
  "estado-democratico": {
@@ -1371,7 +1371,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "polícia civil",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:31:20-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14735.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1383,8 +1383,8 @@
   "versao": "2026-09-29",
   "n_artigos": 50,
   "hash": "1a0105b968c6ee168aa59dff01e86c9dac6d52debe9b671cdfc1ecd4033a03e0",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:07:18-03:00"
  },
  "lo-pm-bombeiros": {
@@ -1437,7 +1437,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "vigilante",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:31:50-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14967.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1449,8 +1449,8 @@
   "versao": "2026-09-29",
   "n_artigos": 72,
   "hash": "821b3dfbecb6cdba565ea042bd24902e5e46c67024f3d7375b74240b7b2bd6eb",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:07:48-03:00"
  },
  "eca": {
@@ -1459,7 +1459,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "eca criança adolescente ato infracional",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:30:01-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1471,8 +1471,8 @@
   "versao": "2026-09-29",
   "n_artigos": 334,
   "hash": "1639fd85aeec17df9ec99c4659c61b98fa00683cd0aba6062c5721d5b7a34459",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:06:00-03:00"
  },
  "pessoa-idosa": {
@@ -1503,7 +1503,7 @@
   "area": "Grupos vulneráveis",
   "apelidos": "deficiência lbi",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:30:09-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1515,8 +1515,8 @@
   "versao": "2026-09-29",
   "n_artigos": 131,
   "hash": "bdd1ed5312ba151dc91865af9733a90dbd38cd6aa31dfe66aaff57173590a066",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:06:07-03:00"
  },
  "igualdade-racial": {
@@ -1591,7 +1591,7 @@
   "area": "Administrativo",
   "apelidos": "licitação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:32:34-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1603,8 +1603,8 @@
   "versao": "2026-09-29",
   "n_artigos": 210,
   "hash": "b8c85939e0e21a4ec55d165e577fc3cbee27239870d10709e04f1f43ab836dad",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:08:35-03:00"
  },
  "processo-administrativo": {
@@ -1679,7 +1679,7 @@
   "area": "Administrativo",
   "apelidos": "empresa limpa",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:32:49-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1691,8 +1691,8 @@
   "versao": "2026-09-29",
   "n_artigos": 40,
   "hash": "d412458cca08f4cf689a9b14ce41eaf747860a6d93576b7a7dabdfd26099696b",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:08:50-03:00"
  },
  "lgpd": {
@@ -1767,7 +1767,7 @@
   "area": "Administrativo",
   "apelidos": "ppp",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:33:04-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11079compilado.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1779,8 +1779,8 @@
   "versao": "2026-09-29",
   "n_artigos": 32,
   "hash": "7c01264901326d693b6eb5c7049c7ba5fa1c76698ca0c5392578237472681c17",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:09:05-03:00"
  },
  "consorcios": {
@@ -1855,7 +1855,7 @@
   "area": "Administrativo",
   "apelidos": "ação popular",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:33:19-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l4717.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1867,8 +1867,8 @@
   "versao": "2026-09-29",
   "n_artigos": 22,
   "hash": "623c08ab1e764ebb6e6688185da18766f9daad8980f958aeed3883cb04c1d3c9",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:09:20-03:00"
  },
  "acao-civil-publica": {
@@ -1943,7 +1943,7 @@
   "area": "Controle de constitucionalidade",
   "apelidos": "adpf",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:33:33-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -1955,8 +1955,8 @@
   "versao": "2026-09-29",
   "n_artigos": 14,
   "hash": "22202a43a65356e72feb6ab1b7b9ec8f368f6d19d1bed9912405b536478016b4",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:09:36-03:00"
  },
  "mandado-injuncao": {
@@ -2031,7 +2031,7 @@
   "area": "Saúde pública",
   "apelidos": "regiões de saúde coap",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:33:49-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7508.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -2043,8 +2043,8 @@
   "versao": "2026-09-29",
   "n_artigos": 45,
   "hash": "4c0f4d2e6ea2a06f2054c8eac6f82027257e2feb1d87085795b1a39287093383",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:09:51-03:00"
  },
  "reforma-psiquiatrica": {
@@ -2120,7 +2120,7 @@
   "area": "Saúde pública",
   "apelidos": "vigilância epidemiológica vacinação",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:34:05-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/leis/l6259.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -2132,8 +2132,8 @@
   "versao": "2026-09-29",
   "n_artigos": 16,
   "hash": "08adaf83ad21dc78642fcb5230799e153ef051c0c11cbfa2fd109ffe3dca8018",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:10:06-03:00"
  },
  "lei-13979": {
@@ -2164,7 +2164,7 @@
   "area": "Constituição",
   "apelidos": "ec 104 polícia penal policiais penais",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:27:09-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:22-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc104.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -2176,8 +2176,8 @@
   "versao": "2026-10-02",
   "n_artigos": 5,
   "hash": "a6293daa977d5c86ee8a652f58dc1181c789813161c8946e9941920b7bd44a50",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto bloqueou o acesso automático (código 13376840597181375041). O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:03:03-03:00"
  },
  "defesa-concorrencia": {
@@ -2318,7 +2318,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "tortura oea interamericana",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:30:45-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/decreto/1980-1989/d98386.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -2330,8 +2330,8 @@
   "versao": "2026-10-02",
   "n_artigos": 27,
   "hash": "9d5768472cb95b2dc2f029a3502a33a30f946f2102ab51ccc8e6135f88e8cad5",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:06:44-03:00"
  },
  "convencao-discriminacao-racial": {
@@ -2339,9 +2339,9 @@
   "numero": "Decreto nº 65.810/1969",
   "area": "Direitos humanos e tratados",
   "apelidos": "discriminação racial onu convenção racismo",
-  "status": "ERRO_VERIFICACAO",
-  "ultima_tentativa": "2026-10-30T12:30:48-03:00",
-  "mensagem": "Não foi possível acessar a fonte: https://www.planalto.gov.br/ccivil_03/decreto/1950-1969/d65810.html não corresponde a esta norma",
+  "status": "BLOQUEADO_FONTE",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "fonte": "Planalto — texto compilado"
  },
  "dudh": {
@@ -2372,7 +2372,7 @@
   "area": "Direitos humanos e tratados",
   "apelidos": "regras de mandela regras mínimas tratamento de presos onu cnj",
   "fonte": "Conselho Nacional de Justiça — tradução oficial (2016)",
-  "ultima_tentativa": "2026-10-30T12:31:00-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:47-03:00",
   "url": "https://cdn.penalreform.org/wp-content/uploads/2017/04/Mandela-Rules_Portuguese.pdf",
   "diagnostico": {
    "tamanho_pagina_kb": 909.4,
@@ -2385,8 +2385,8 @@
   "n_artigos": 122,
   "hash": "43780efcaf32b669a294ca28d09605ba2bc9e05b72f0987fc2158e6b2d86dbcf",
   "status": "ATUALIZADA",
-  "mensagem": "Sem alterações (122 artigos conferidos no texto completo).",
-  "ultima_verificacao_ok": "2026-10-30T12:31:00-03:00"
+  "mensagem": "A fonte confirmou que a página não mudou (resposta 304), sem precisar baixar o texto.",
+  "ultima_verificacao_ok": "2026-10-30T22:18:47-03:00"
  },
  "carreira-prf": {
   "nome": "Carreira de Policial Rodoviário Federal",
@@ -2438,7 +2438,7 @@
   "area": "Carreiras policiais e segurança pública",
   "apelidos": "policial penal federal senappen carreira reajuste pf prf",
   "fonte": "Planalto — texto compilado",
-  "ultima_tentativa": "2026-10-30T12:31:35-03:00",
+  "ultima_tentativa": "2026-10-30T22:18:50-03:00",
   "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14875.htm",
   "diagnostico": {
    "tamanho_pagina_kb": 0.8,
@@ -2450,8 +2450,8 @@
   "versao": "2026-10-02",
   "n_artigos": 75,
   "hash": "6837bc66922a86076a15d21c6ed899671bcdae1795f445e281667a7ac6cdddeb",
-  "status": "ERRO_VERIFICACAO",
-  "mensagem": "Leitura suspeita: apenas 0 artigos encontrados (esperado ao menos 1). O texto guardado foi mantido.",
+  "status": "BLOQUEADO_FONTE",
+  "mensagem": "Verificação pausada: o site do Planalto está bloqueando o acesso automático. O texto guardado foi mantido.",
   "ultima_verificacao_ok": "2026-10-27T12:07:33-03:00"
  },
  "dignidade-sexual": {
