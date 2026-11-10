@@ -90,7 +90,7 @@ def ler_json(caminho, padrao=None):
 
 def salvar_json(caminho, dados):
     caminho.parent.mkdir(parents=True, exist_ok=True)
-    caminho.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
+    caminho.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")  # no Windows também sai com \n
 
 
 def sha256(texto):
@@ -656,7 +656,31 @@ def escrever_resumo(status):
             f.write(texto + "\n")
 
 
+ARQ_RODADA = PASTA_DADOS / "robo.json"   # quando foi a última conferência completa
+DIAS_ENTRE_RODADAS = 6                   # o robô é chamado todo dia, mas só confere de fato uma vez por semana
+
+
+def ja_conferiu_esta_semana():
+    """O robô roda no computador do dono: é chamado todo dia e só trabalha se a última rodada tiver 6 dias ou mais.
+    Assim, se o computador ficar desligado na data, a conferência acontece no primeiro dia em que ele estiver ligado."""
+    if os.environ.get("FORCAR") == "1":
+        return False
+    ultima = (ler_json(ARQ_RODADA, {}) or {}).get("ultima_rodada")
+    if not ultima:
+        return False
+    try:
+        passou = agora() - datetime.fromisoformat(ultima)
+    except ValueError:
+        return False
+    if passou < timedelta(days=DIAS_ENTRE_RODADAS):
+        print(f"Última conferência em {ultima[:16].replace('T', ' ')}: ainda não é hora da próxima. Nada a fazer hoje.")
+        return True
+    return False
+
+
 def main():
+    if ja_conferiu_esta_semana():
+        return
     leis = ler_json(ARQ_LEIS, [])
     status = ler_json(ARQ_STATUS, {})
     ja_funcionavam = {k for k, v in status.items() if v.get("ultima_verificacao_ok")}
@@ -709,6 +733,7 @@ def main():
             status[lei["id"]] = reg
         time.sleep(random.uniform(*INTERVALO) if do_planalto else 3)  # intervalo educado entre consultas à fonte
     salvar_json(ARQ_STATUS, status)
+    salvar_json(ARQ_RODADA, {"ultima_rodada": agora().isoformat(timespec="seconds")})
     escrever_resumo(status)
     # Falha proposital (o GitHub envia e-mail) quando uma lei que já funcionava deixou de ser verificada.
     # Leis novas que ainda não foram localizadas aparecem no resumo, sem disparar e-mail todo dia.
