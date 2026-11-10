@@ -1,9 +1,17 @@
 name: Verificar legislação
 
+# O robô roda no computador do dono (Windows), porque o Planalto bloqueia os servidores do GitHub.
+# O GitHub chama todo dia ao meio-dia; se o computador estiver desligado, o pedido fica na fila
+# e roda assim que ele for ligado. O próprio robô só confere de fato uma vez por semana.
 on:
   schedule:
-    - cron: "0 9 * * 1"   # todo dia às 06:00 (horário de Recife)
-  workflow_dispatch:       # permite rodar manualmente pelo botão "Run workflow"
+    - cron: "0 15 * * *"   # todo dia às 12:00 (horário de Recife)
+  workflow_dispatch:       # botão "Run workflow": confere na hora, mesmo que já tenha conferido na semana
+    inputs:
+      forcar:
+        description: "Conferir agora mesmo que já tenha conferido esta semana"
+        type: boolean
+        default: true
 
 permissions:
   contents: write          # o robô precisa salvar os resultados no repositório
@@ -12,16 +20,19 @@ concurrency: verificacao
 
 jobs:
   verificar:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Windows]
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: utf-8
+      FORCAR: ${{ github.event_name == 'workflow_dispatch' && inputs.forcar && '1' || '0' }}
+    defaults:
+      run:
+        shell: powershell
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Instalar dependências
-        run: pip install -r requirements.txt
+        run: python -m pip install --quiet --disable-pip-version-check -r requirements.txt
 
       - name: Verificar leis no Planalto
         run: python robo/verificar.py
@@ -32,5 +43,12 @@ jobs:
           git config user.name "robo-legislacao"
           git config user.email "robo-legislacao@users.noreply.github.com"
           git add dados
-          git diff --cached --quiet || git commit -m "Verificação de $(TZ=America/Recife date '+%d/%m/%Y %H:%M')"
-          git push
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            $quando = Get-Date -Format "dd/MM/yyyy HH:mm"
+            git commit -m "Verificação de $quando"
+            git pull --rebase --quiet
+            git push
+            if ($LASTEXITCODE -ne 0) { exit 1 }
+          }
+          exit 0
