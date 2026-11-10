@@ -322,7 +322,8 @@ def extrair_artigos(html, tratado=False, opcoes=None):
 
 def lacunas(artigos):
     """Números de artigo ausentes na sequência 1..último (ex.: Art. 1 sumido = leitura suspeita)."""
-    numeros = {int(re.match(r"\d+", k).group()) for k in artigos}
+    # tratados podem numerar os artigos em romanos (I, II…): esses ficam fora da conta
+    numeros = {int(m.group()) for m in (re.match(r"\d+", k) for k in artigos) if m}
     if not numeros:
         return []
     return [n for n in range(1, max(numeros) + 1) if n not in numeros]
